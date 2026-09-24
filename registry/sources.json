@@ -1,0 +1,20 @@
+{
+  "minimumStars": 1000,
+  "sources": [
+    { "repo": "anthropics/skills", "prefixes": ["skills/"], "official": true },
+    { "repo": "openai/skills", "prefixes": ["skills/.curated/"], "official": true },
+    { "repo": "cloudflare/skills", "prefixes": ["skills/"], "official": true },
+    { "repo": "heygen-com/hyperframes", "prefixes": ["skills/"], "official": true },
+    { "repo": "obra/superpowers", "prefixes": ["skills/"] },
+    { "repo": "pbakaus/impeccable", "prefixes": [".agents/skills/"] },
+    { "repo": "coreyhaines31/marketingskills", "prefixes": ["skills/"] },
+    { "repo": "mattpocock/skills", "prefixes": [""] },
+    { "repo": "addyosmani/agent-skills", "prefixes": ["skills/"] },
+    { "repo": "affaan-m/ECC", "prefixes": ["skills/"] },
+    { "repo": "github/awesome-copilot", "prefixes": ["skills/"], "official": true },
+    { "repo": "alirezarezvani/claude-skills", "prefixes": [""] },
+    { "repo": "Jeffallan/claude-skills", "prefixes": ["skills/"] },
+    { "repo": "phuryn/pm-skills", "prefixes": [""] },
+    { "repo": "sickn33/agentic-awesome-skills", "prefixes": ["skills/"] }
+  ]
+}

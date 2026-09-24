@@ -1,0 +1,153 @@
+{
+  "generatedAt": "2026-09-24T09:18:44.317Z",
+  "total": 3882,
+  "sources": [
+    {
+      "repo": "anthropics/skills",
+      "revision": "34040c9c568585f6929bedeaad110ad08f079624",
+      "stars": 177875,
+      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "added": 14,
+      "discovered": 19
+    },
+    {
+      "repo": "openai/skills",
+      "revision": "49f948faa9258a0c61caceaf225e179651397431",
+      "stars": 27597,
+      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "added": 31,
+      "discovered": 39
+    },
+    {
+      "repo": "cloudflare/skills",
+      "revision": "6dc7604903127485e7e4cb26314651ebd4a4df19",
+      "stars": 2897,
+      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "added": 14,
+      "discovered": 14
+    },
+    {
+      "repo": "heygen-com/hyperframes",
+      "revision": "58c873d8161d6a2357eacf89a540bfecc359349b",
+      "stars": 52761,
+      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "added": 21,
+      "discovered": 21
+    },
+    {
+      "repo": "obra/superpowers",
+      "revision": "5bf4e78011075bcfc0dc295f0724994cd123ee71",
+      "stars": 290926,
+      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "added": 15,
+      "discovered": 15
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "revision": "e0881d2de397d5e9761d7b35ff5017d8f5ebf69b",
+      "stars": 70566,
+      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "added": 1,
+      "discovered": 1
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "revision": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "stars": 51366,
+      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "added": 50,
+      "discovered": 50
+    },
+    {
+      "repo": "mattpocock/skills",
+      "revision": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+      "stars": 268729,
+      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "added": 38,
+      "discovered": 38
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "revision": "bcab6a1b8503100e8618c3b4e32cc78de43de769",
+      "stars": 98780,
+      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "added": 25,
+      "discovered": 25
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "revision": "bf70150eb2df8070024e5bdf08e4aa08959e2735",
+      "stars": 266395,
+      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "added": 292,
+      "discovered": 292
+    },
+    {
+      "repo": "github/awesome-copilot",
+      "revision": "1f5644080a525d26a2e24f61a7609fb9b261c21a",
+      "stars": 39345,
+      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "added": 438,
+      "discovered": 438
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+      "stars": 26382,
+      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "added": 376,
+      "discovered": 388
+    },
+    {
+      "repo": "Jeffallan/claude-skills",
+      "revision": "882ef55e377dbf9a4dbe496bb41ac6ccd0e555cf",
+      "stars": 11598,
+      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "added": 67,
+      "discovered": 67
+    },
+    {
+      "repo": "phuryn/pm-skills",
+      "revision": "8607e3b077817f89bf4a9b623246219734ac3be0",
+      "stars": 26567,
+      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "added": 69,
+      "discovered": 69
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
+      "revision": "21efc48cceaf0f7043fa496ad8fcd5815637121e",
+      "stars": 46853,
+      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "added": 2431,
+      "discovered": 2450
+    }
+  ],
+  "excluded": 44,
+  "exclusionReasons": [
+    {
+      "reason": "No recognized redistributable license; retained outside the published catalog",
+      "count": 17
+    },
+    {
+      "reason": "Duplicate instruction content",
+      "count": 12
+    },
+    {
+      "reason": "Nonportable skill name",
+      "count": 1
+    },
+    {
+      "reason": "Description is too short",
+      "count": 2
+    },
+    {
+      "reason": "Skill contains linked, unsafe, or oversized files; incomplete bundles are excluded",
+      "count": 11
+    },
+    {
+      "reason": "Skill bundle exceeds the size/file limit",
+      "count": 1
+    }
+  ]
+}
