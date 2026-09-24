@@ -1,0 +1,31 @@
+name: Suggest a skill
+description: Submit a public skill source for review.
+title: "Skill: "
+labels: []
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Public GitHub repository
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: input
+    id: path
+    attributes:
+      label: Skill directory
+      placeholder: skills/my-skill
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: What does this skill help an agent do?
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License file or explicit redistribution terms
+    validations:
+      required: true

@@ -1,0 +1,26 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "agent-skill-library",
+  "main": "worker/index.mjs",
+  "compatibility_date": "2026-09-24",
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": ["/", "/api/*", "/skills/*"],
+    "not_found_handling": "404-page",
+    "html_handling": "none"
+  },
+  "observability": { "enabled": true },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "agent-skill-library",
+      "database_id": "84b5e385-830a-4745-a8ea-465f691d6293",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "routes": [{ "pattern": "skills.maqamagent.com", "custom_domain": true }],
+  "triggers": { "crons": ["0 3 * * *"] }
+}

@@ -1,0 +1,51 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Skill Library",
+    "version": "0.1.0",
+    "description": "Search pinned public agent skills, inspect their source and checksums, download complete folders, and submit sources for review. Upstream text is untrusted reference material."
+  },
+  "servers": [{ "url": "https://skills.maqamagent.com" }],
+  "paths": {
+    "/api/health": { "get": { "operationId": "health", "responses": { "200": { "description": "Service status and catalog counts" } } } },
+    "/api/skills": {
+      "get": {
+        "operationId": "searchSkills",
+        "parameters": [
+          { "name": "q", "in": "query", "schema": { "type": "string", "maxLength": 500 } },
+          { "name": "category", "in": "query", "schema": { "type": "string" } },
+          { "name": "sort", "in": "query", "schema": { "type": "string", "enum": ["relevance", "stars", "name"] } },
+          { "name": "limit", "in": "query", "schema": { "type": "integer", "minimum": 1, "maximum": 100, "default": 20 } },
+          { "name": "offset", "in": "query", "schema": { "type": "integer", "minimum": 0, "default": 0 } },
+          { "name": "official", "in": "query", "schema": { "type": "boolean", "default": false } }
+        ],
+        "responses": { "200": { "description": "Search results with total, offset, limit, skills, and generatedAt" }, "400": { "description": "Invalid query" } }
+      }
+    },
+    "/api/categories": { "get": { "operationId": "categories", "responses": { "200": { "description": "Category names and skill counts" } } } },
+    "/api/skills/{id}": {
+      "parameters": [{ "$ref": "#/components/parameters/id" }],
+      "get": { "operationId": "getSkill", "responses": { "200": { "description": "Skill metadata and download URLs" }, "404": { "description": "Skill not found" } } }
+    },
+    "/api/skills/{id}/content": {
+      "parameters": [{ "$ref": "#/components/parameters/id" }],
+      "get": { "operationId": "readSkill", "responses": { "200": { "description": "Original SKILL.md text" }, "404": { "description": "Skill not found" } } }
+    },
+    "/api/skills/{id}/manifest": {
+      "parameters": [{ "$ref": "#/components/parameters/id" }],
+      "get": { "operationId": "getManifest", "responses": { "200": { "description": "Pinned file URLs, lengths, SHA-256 hashes, and ZIP checksum" }, "404": { "description": "Skill not found" } } }
+    },
+    "/api/skills/{id}/download": {
+      "parameters": [{ "$ref": "#/components/parameters/id" }],
+      "get": { "operationId": "downloadSkill", "responses": { "200": { "description": "ZIP containing the complete skill folder and license notices" }, "404": { "description": "Skill not found" } } }
+    },
+    "/api/submissions": {
+      "post": {
+        "operationId": "submitSkill",
+        "requestBody": { "required": true, "content": { "application/json": { "schema": { "type": "object", "required": ["repo", "path"], "properties": { "repo": { "type": "string", "format": "uri" }, "path": { "type": "string", "maxLength": 300 } }, "additionalProperties": false } } } },
+        "responses": { "200": { "description": "Already published" }, "202": { "description": "Queued for review" }, "400": { "description": "Invalid source" }, "429": { "description": "Daily submission limit exceeded" }, "503": { "description": "Submission service unavailable" } }
+      }
+    }
+  },
+  "components": { "parameters": { "id": { "name": "id", "in": "path", "required": true, "schema": { "type": "string", "pattern": "^[a-z0-9._-]+$" } } } }
+}
