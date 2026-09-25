@@ -10,7 +10,11 @@ import {
 import '@fontsource-variable/geist';
 import '@fontsource-variable/geist-mono';
 import { searchCatalog, CATEGORIES } from '../lib/search.mjs';
+import { CopyButton } from './CopyButton.jsx';
+import { COLLECTIONS, FAQ, collectionFor } from '../site/content.mjs';
+import { metadata, skillMetadata, skillSchema, breadcrumbs, stripFrontmatter } from '../site/seo.mjs';
 import './styles.css';
+import './copy.css';
 
 const icons = { Development: Code, Design: Palette, 'Video & audio': FilmSlate, 'AI & agents': Brain, Marketing: Megaphone, 'Data & research': ChartBar, 'Cloud & DevOps': Cloud, Security: ShieldCheck, Writing: PencilSimple, 'Product & business': Briefcase, Documents: FileText, Automation: Lightning };
 const GitHub = 'https://github.com/AjnasNB/skill-dash';
@@ -18,6 +22,8 @@ const shortStars = n => n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1)}k`
 const bytes = n => n > 1_000_000 ? `${(n / 1_000_000).toFixed(1)} MB` : `${Math.max(1, Math.round(n / 1000))} KB`;
 const pretty = name => name.split('-').map(word => ({ ai: 'AI', ui: 'UI', ux: 'UX', api: 'API', seo: 'SEO', mcp: 'MCP', pdf: 'PDF', cli: 'CLI' }[word] || word[0]?.toUpperCase() + word.slice(1))).join(' ');
 const skillFromLocation = () => location.pathname.startsWith('/skills/') ? decodeURIComponent(location.pathname.slice(8)) : null;
+const bootstrap = (() => { try { return JSON.parse(document.getElementById('skill-library-bootstrap')?.textContent || 'null'); } catch { return null; } })();
+const interceptLink = event => event.button === 0 && !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey && !event.defaultPrevented;
 const AsyncMarkdown = React.lazy(async () => {
   const [markdown, gfm] = await Promise.all([import('react-markdown'), import('remark-gfm')]);
   return { default: props => React.createElement(markdown.default, { ...props, remarkPlugins: [gfm.default] }) };
@@ -27,9 +33,9 @@ function Markdown(props) {
 }
 
 function App() {
-  const [catalog, setCatalog] = useState(null), [loadError, setLoadError] = useState('');
+  const [catalog, setCatalog] = useState(bootstrap?.catalog || null), [loadError, setLoadError] = useState('');
   const [query, setQuery] = useState(new URLSearchParams(location.search).get('q') || '');
-  const [category, setCategory] = useState(''), [sort, setSort] = useState('relevance'), [official, setOfficial] = useState(false);
+  const [category, setCategory] = useState(() => { const value = new URLSearchParams(location.search).get('category'); return CATEGORIES.includes(value) ? value : ''; }), [sort, setSort] = useState('relevance'), [official, setOfficial] = useState(false);
   const [view, setView] = useState('discover'), [page, setPage] = useState(1), [filterOpen, setFilterOpen] = useState(false);
   const [selectedId, setSelectedId] = useState(skillFromLocation), [modal, setModal] = useState(null), [toast, setToast] = useState('');
   const [saved, setSaved] = useState(() => { try { const value = JSON.parse(localStorage.getItem('skill-library-saved') || '[]'); return Array.isArray(value) ? value.filter(x => typeof x === 'string') : []; } catch { return []; } });
@@ -48,20 +54,31 @@ function App() {
     return () => { window.removeEventListener('popstate', onPop); window.removeEventListener('keydown', onKey); clearTimeout(toastTimer.current); };
   }, []);
   const notify = message => { setToast(message); clearTimeout(toastTimer.current); toastTimer.current = setTimeout(() => setToast(''), 3500); };
-  const copy = async (text, message = 'Copied to clipboard') => {
-    try { await navigator.clipboard.writeText(text); notify(message); }
-    catch { notify('Clipboard access was blocked. Select and copy the text instead.'); }
-  };
   const toggleSave = id => {
     const next = saved.includes(id) ? saved.filter(value => value !== id) : [...saved, id];
     setSaved(next);
     try { localStorage.setItem('skill-library-saved', JSON.stringify(next)); } catch { notify('Browser storage is unavailable. Saved skills will last for this visit.'); }
   };
   const openSkill = skill => { setSelectedId(skill.id); history.pushState({}, '', `/skills/${skill.id}`); };
-  const closeSkill = () => { setSelectedId(null); history.replaceState({}, '', query ? `/?q=${encodeURIComponent(query)}` : '/'); };
+  const closeSkill = () => { setSelectedId(null); const params = new URLSearchParams(); if (query) params.set('q', query); if (category) params.set('category', category); history.replaceState({}, '', params.size ? `/?${params}` : '/'); };
   const reset = () => { setQuery(''); setCategory(''); setOfficial(false); setSort('relevance'); };
   const result = useMemo(() => catalog ? searchCatalog(view === 'saved' ? catalog.skills.filter(skill => saved.includes(skill.id)) : catalog, { query, category, official, sort, offset: (page - 1) * 24, limit: 24 }) : { skills: [], total: 0 }, [catalog, query, category, official, sort, view, saved, page]);
   const selected = catalog?.skills.find(skill => skill.id === selectedId);
+  useEffect(() => {
+    const meta = selected ? skillMetadata(selected) : metadata({ robots: query || category ? 'noindex, follow' : 'index, follow, max-image-preview:large' });
+    document.title = meta.title;
+    for (const [selector, value] of [
+      ['meta[name="description"]', meta.description], ['meta[name="robots"]', meta.robots],
+      ['meta[property="og:title"]', meta.title], ['meta[property="og:description"]', meta.description],
+      ['meta[property="og:url"]', meta.url], ['meta[property="og:type"]', meta.type],
+      ['meta[name="twitter:title"]', meta.title], ['meta[name="twitter:description"]', meta.description],
+    ]) document.querySelector(selector)?.setAttribute('content', value);
+    document.querySelector('link[rel="canonical"]')?.setAttribute('href', meta.url);
+    const schema = document.getElementById('page-schema');
+    if (schema) schema.textContent = JSON.stringify({ '@context': 'https://schema.org', '@graph': selected ? [
+      skillSchema(selected), breadcrumbs([{ name: 'Skill Library', path: '/' }, { name: selected.category, path: `/collections/${collectionFor(selected.category).slug}` }, { name: pretty(selected.name), path: `/skills/${selected.id}` }]),
+    ] : [{ '@type': 'WebSite', name: 'Skill Library', alternateName: 'Agent Skill Library', url: meta.url, description: meta.description }] });
+  }, [selected, query, category]);
   const featured = useMemo(() => {
     if (!catalog) return [];
     const pick = ['hyperframes', 'impeccable', 'brainstorming'].map(name => catalog.skills.find(skill => skill.name === name)).filter(Boolean);
@@ -73,7 +90,7 @@ function App() {
   return <>
     <a href="#catalog" className="skip-link">Skip to skill search</a>
     <header className="site-header">
-      <a className="wordmark" href="/" onClick={event => { event.preventDefault(); reset(); setView('discover'); closeSkill(); }} aria-label="Skill Library home"><span className="brand-mark"><SquaresFour weight="fill" size={23} /></span>skill library<span className="beta-tag">OPEN</span></a>
+      <a className="wordmark" href="/" onClick={event => { event.preventDefault(); reset(); setView('discover'); setSelectedId(null); history.replaceState({}, '', '/'); }} aria-label="Skill Library home"><span className="brand-mark"><SquaresFour weight="fill" size={23} /></span>skill library<span className="beta-tag">OPEN</span></a>
       <nav aria-label="Main navigation">
         <button className={view === 'discover' ? 'active' : ''} onClick={() => setView('discover')}>Discover</button>
         <button className={view === 'collections' ? 'active' : ''} onClick={() => { reset(); setView('collections'); }}>Collections</button>
@@ -85,19 +102,19 @@ function App() {
       <section className="hero" aria-labelledby="hero-title">
         <div className="hero-copy">
           <div className="open-label"><span /> OPEN SKILLS. ENDLESS POSSIBILITIES.</div>
-          <h1 id="hero-title">Good agents.<br /><span>Great skills.</span></h1>
-          <p>Give your agent the know-how.<br />Find the right skill. Make something great.</p>
+          <h1 id="hero-title">Good agents.<br /><span>Great AI skills.</span></h1>
+          <p>Search {catalog?.total.toLocaleString() || 'thousands of'} free AI agent skills. Read the instructions, copy a skill, or download its full folder for Codex, Claude Code and Delta Harness.</p>
           <div className="hero-meta"><span className="stack-marks"><Code /><Command /><TerminalWindow /></span><span>For Codex, Claude Code, Delta & more</span></div>
         </div>
         <div className="featured-stack">
           <div className="featured-heading"><span>Worth adding to your toolkit</span><ArrowUpRight size={17} /></div>
           {featured.map((skill, i) => {
             const Icon = icons[skill.category] || Code;
-            return <button key={skill.id} className={`featured-row featured-row-${i}`} onClick={() => openSkill(skill)}>
+            return <a href={`/skills/${skill.id}`} key={skill.id} className={`featured-row featured-row-${i}`} onClick={event => { if (interceptLink(event)) { event.preventDefault(); openSkill(skill); } }}>
               <span className={`skill-icon category-${skill.category.split(' ')[0].toLowerCase()}`}><Icon size={25} weight="duotone" /></span>
               <span className="featured-text"><strong>{pretty(skill.name)}</strong><span>{skill.category} <span aria-hidden="true">·</span> {skill.repo.split('/')[0]}</span></span>
               <span className="featured-star"><Star size={13} />{shortStars(skill.stars)}</span><ArrowUpRight className="featured-arrow" size={18} />
-            </button>;
+            </a>;
           })}
           {!catalog && !loadError && <div className="featured-loading"><SpinnerGap className="spin" /> Loading the library</div>}
           <div className="featured-caption"><CheckCircle size={14} /> Pinned sources. Full files. Yours to use.</div>
@@ -132,7 +149,7 @@ function App() {
           <div className="results-heading"><div><h2 id="results-title">{view === 'saved' ? 'Saved skills' : query ? 'Search results' : category || 'Discover your next skill'}</h2><span role="status">{catalog ? `${result.total.toLocaleString()} ${result.total === 1 ? 'skill' : 'skills'}${query ? ` for “${query}”` : ' ready to explore'}` : 'Loading source-verified skills…'}</span></div>
             <div className="results-controls"><button className="button mobile-only" onClick={() => setFilterOpen(!filterOpen)}><SlidersHorizontal size={17} /> Filters</button><label className="sort-select"><span className="sr-only">Sort skills</span><select value={sort} onChange={event => setSort(event.target.value)}><option value="relevance">Recommended</option><option value="stars">Repository stars</option><option value="name">Name A–Z</option></select><CaretDown size={13} /></label></div>
           </div>
-          {view === 'saved' && saved.length > 0 && <div className="saved-banner"><span>Saved on this browser.</span><button onClick={() => copy(saveCommands, 'Install commands copied')}>Copy install commands <Copy size={14} /></button></div>}
+          {view === 'saved' && saved.length > 0 && <div className="saved-banner"><span>Saved on this browser.</span><CopyButton text={saveCommands} label="Copy install commands" /></div>}
           {loadError ? <div className="empty-state"><WarningCircle size={38} /><h3>We couldn’t load the library.</h3><p>{loadError}</p><button className="button button-dark" onClick={() => location.reload()}>Try again</button></div> :
             !catalog ? <div className="skill-grid" aria-busy="true">{Array.from({ length: 9 }, (_, i) => <div key={i} className="skeleton-card"><span /><span /><span /><span /></div>)}</div> :
               result.skills.length === 0 ? <div className="empty-state"><BookOpen size={38} /><h3>{view === 'saved' ? 'Make this library yours.' : 'No skills found yet.'}</h3><p>{view === 'saved' ? 'Bookmark a skill and it will be waiting here.' : 'Try a broader description, or clear your filters.'}</p><button className="button button-dark" onClick={() => { reset(); setView('discover'); }}>Explore skills <ArrowRight size={16} /></button></div> :
@@ -141,12 +158,13 @@ function App() {
           <p className="provenance-note"><Star size={13} /> Stars belong to source repositories. Files are pinned and checksummed; inclusion is not a security audit.</p>
         </section>
       </div>
-      <section className="install-strip"><div><TerminalWindow size={28} /><div><h2>One library. Wherever you build.</h2><p>Search, inspect, and install without leaving your terminal.</p></div></div><button className="terminal-command" onClick={() => copy('npx agent-skill-library setup --agent all --global')}><span><span className="command-dollar">$</span> npx agent-skill-library setup --agent all --global</span><Copy size={17} /></button></section>
+      <section className="install-strip"><div><TerminalWindow size={28} /><div><h2>One library. Wherever you build.</h2><p>Search, inspect, and install without leaving your terminal.</p></div></div><CopyButton className="terminal-command" label="Copy setup command" text="npx agent-skill-library setup --agent all --global"><span><span className="command-dollar">$</span> npx agent-skill-library setup --agent all --global</span></CopyButton></section>
+      <LibraryExplainer />
     </main>
-    <footer><a className="footer-brand" href="/">skill library<span>Built for builders. Open to everyone.</span></a><div><a href={GitHub} target="_blank" rel="noreferrer">GitHub <ArrowUpRight size={12} /></a><button onClick={() => setModal('agents')}>API & MCP</button><button onClick={() => setModal('about')}>About the library</button></div><span>Updated {catalog?.generatedAt.slice(0, 10) || '…'}</span></footer>
-    {selected && <SkillDialog skill={selected} onClose={closeSkill} copy={copy} saved={saved.includes(selected.id)} onSave={() => toggleSave(selected.id)} />}
+    <footer><a className="footer-brand" href="/">skill library<span>Built for builders. Open to everyone.</span></a><div><a href={GitHub} target="_blank" rel="noreferrer">GitHub <ArrowUpRight size={12} /></a><button onClick={() => setModal('agents')}>API & MCP</button><a href="/about">About the library</a><a href="/skills">All skills</a><a href="/for-agents">Integration guide</a></div><span>Updated {catalog?.generatedAt.slice(0, 10) || '…'}</span></footer>
+    {selected && <SkillDialog key={selected.id} skill={selected} initialText={bootstrap?.preview?.id === selected.id ? bootstrap.preview.text : ''} onClose={closeSkill} saved={saved.includes(selected.id)} onSave={() => toggleSave(selected.id)} />}
     {selectedId && catalog && !selected && <Dialog onClose={closeSkill} title="Skill not found"><p>This skill is not part of the current catalog.</p><button className="button button-dark" onClick={closeSkill}>Back to the library</button></Dialog>}
-    {modal === 'agents' && <Dialog onClose={() => setModal(null)} title="A library your agent can use." className="guide-dialog"><p className="dialog-intro">One npm package. No API key. Search works offline from the published catalog.</p><CodeBlock copy={copy} text={'npx agent-skill-library search "make a launch video"\nnpx agent-skill-library setup --agent all --global'} /><h3>Install where you work</h3><div className="target-list"><div><Code /><strong>Codex</strong><code>.agents/skills</code><span>Desktop, CLI, and repository-based cloud tasks</span></div><div><Command /><strong>Claude Code</strong><code>.claude/skills</code><span>Local sessions and repository-based cloud tasks</span></div><div><TerminalWindow /><strong>Delta Harness</strong><code>Application data / skills</code><span>Refresh the Skills panel after installing</span></div></div><p>Installs default to the current project. Add <code>--global</code> for personal skills. Commit project skills to share them with a cloud workspace.</p><h3>Connect an MCP client</h3><CodeBlock copy={copy} text={'{\n  "mcpServers": {\n    "skill-library": {\n      "command": "npx",\n      "args": ["-y", "agent-skill-library", "mcp"]\n    }\n  }\n}'} /><p>The MCP server exposes search, inspection, and installation planning. It does not run skill scripts.</p><div className="guide-links"><a href="/llms.txt" target="_blank">Agent instructions <ArrowUpRight /></a><a href="/openapi.json" target="_blank">API specification <ArrowUpRight /></a><a href="/catalog.json" target="_blank">Full catalog <ArrowUpRight /></a></div></Dialog>}
+    {modal === 'agents' && <Dialog onClose={() => setModal(null)} title="A library your agent can use." className="guide-dialog"><p className="dialog-intro">One npm package. No API key. Search works offline from the published catalog.</p><CodeBlock text={'npx agent-skill-library search "make a launch video"\nnpx agent-skill-library setup --agent all --global'} /><h3>Install where you work</h3><div className="target-list"><div><Code /><strong>Codex</strong><code>.agents/skills</code><span>Desktop, CLI, and repository-based cloud tasks</span></div><div><Command /><strong>Claude Code</strong><code>.claude/skills</code><span>Local sessions and repository-based cloud tasks</span></div><div><TerminalWindow /><strong>Delta Harness</strong><code>Application data / skills</code><span>Refresh the Skills panel after installing</span></div></div><p>Installs default to the current project. Add <code>--global</code> for personal skills. Commit project skills to share them with a cloud workspace.</p><h3>Connect an MCP client</h3><CodeBlock text={'{\n  "mcpServers": {\n    "skill-library": {\n      "command": "npx",\n      "args": ["-y", "agent-skill-library", "mcp"]\n    }\n  }\n}'} /><p>The MCP server exposes search, inspection, and installation planning. It does not run skill scripts.</p><div className="guide-links"><a href="/llms.txt" target="_blank">Agent instructions <ArrowUpRight /></a><a href="/openapi.json" target="_blank">API specification <ArrowUpRight /></a><a href="/catalog.json" target="_blank">Full catalog <ArrowUpRight /></a></div></Dialog>}
     {modal === 'submit' && <SubmitDialog onClose={() => setModal(null)} />}
     {modal === 'about' && <Dialog onClose={() => setModal(null)} title="Open sources. Clear provenance."><p>Skill Library indexes portable SKILL.md folders from public GitHub repositories with at least 1,000 stars at the recorded check time. Repeated copies of the same instructions are deduplicated.</p><p>Every downloadable skill has a pinned commit, file hashes, and a recognized upstream license. The complete skill folder and supplied license files travel together. Custom or unclear licenses are excluded from public downloads.</p><p>Skills are instructions and supporting resources, not permission to run code. Review them before use. Scripts are not executed during installation. Source authors retain their licenses and ownership; listing does not imply their endorsement.</p><p>Bookmarks stay in your browser. Submitted GitHub URLs enter a private review queue. We retain a one-day hash of the submitting IP for rate limiting; no raw IP or login is stored by the application.</p><a className="button button-dark" href={`${GitHub}/blob/main/THIRD-PARTY.md`} target="_blank" rel="noreferrer">Read the provenance policy <ArrowUpRight size={15} /></a></Dialog>}
     {toast && <div className="toast" role="status"><CheckCircle size={19} />{toast}</div>}
@@ -154,22 +172,40 @@ function App() {
 }
 function SkillCard({ skill, saved, onOpen, onSave }) {
   const Icon = icons[skill.category] || Code;
-  return <article className="skill-card"><div className="card-top"><span className={`skill-icon category-${skill.category.split(' ')[0].toLowerCase()}`}><Icon size={22} weight="duotone" /></span><button className={`bookmark ${saved ? 'bookmarked' : ''}`} aria-label={`${saved ? 'Unsave' : 'Save'} ${skill.name}`} aria-pressed={saved} onClick={onSave}><BookmarkSimple size={19} weight={saved ? 'fill' : 'regular'} /></button></div><button className="card-main" onClick={onOpen}><h3>{pretty(skill.name)}<ArrowUpRight size={15} /></h3><span className="card-owner">{skill.repo.split('/')[0]}{skill.official && <CheckCircle size={12} weight="fill" aria-label="Vendor collection" />}</span><p>{skill.description}</p></button><div className="card-bottom"><span className="category-label">{skill.category}</span><span className="stars" title={`${skill.stars.toLocaleString()} stars on ${skill.repo}`}><Star size={13} />{shortStars(skill.stars)}</span></div></article>;
+  return <article className="skill-card"><div className="card-top"><span className={`skill-icon category-${skill.category.split(' ')[0].toLowerCase()}`}><Icon size={22} weight="duotone" /></span><button className={`bookmark ${saved ? 'bookmarked' : ''}`} aria-label={`${saved ? 'Unsave' : 'Save'} ${skill.name}`} aria-pressed={saved} onClick={onSave}><BookmarkSimple size={19} weight={saved ? 'fill' : 'regular'} /></button></div><a className="card-main" href={`/skills/${skill.id}`} onClick={event => { if (interceptLink(event)) { event.preventDefault(); onOpen(); } }}><h3>{pretty(skill.name)}<ArrowUpRight size={15} /></h3><span className="card-owner">{skill.repo.split('/')[0]}{skill.official && <CheckCircle size={12} weight="fill" aria-label="Vendor collection" />}</span><p>{skill.description}</p></a><div className="card-bottom"><span className="category-label">{skill.category}</span><span className="stars" title={`${skill.stars.toLocaleString()} stars on ${skill.repo}`}><Star size={13} />{shortStars(skill.stars)}</span></div></article>;
 }
 function Dialog({ onClose, title, children, className = '' }) {
   const ref = useRef(null);
   useEffect(() => { const element = ref.current; element.showModal(); const handler = event => { event.preventDefault(); onClose(); }; element.addEventListener('cancel', handler); const previous = document.body.style.overflow; document.body.style.overflow = 'hidden'; return () => { element.removeEventListener('cancel', handler); element.close(); document.body.style.overflow = previous; }; }, []);
   return <dialog ref={ref} className={`dialog ${className}`} onClick={event => { if (event.target === ref.current) { const box = ref.current.getBoundingClientRect(); if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) onClose(); } }} aria-labelledby="dialog-title"><div className="dialog-header"><h2 id="dialog-title">{title}</h2><button autoFocus className="icon-button" aria-label="Close dialog" onClick={onClose}><X size={21} /></button></div>{children}</dialog>;
 }
-function CodeBlock({ text, copy }) {
-  return <div className="code-block"><pre><code>{text}</code></pre><button className="icon-button" aria-label="Copy command" onClick={() => copy(text)}><Copy size={17} /></button></div>;
+function LibraryExplainer() {
+  return <>
+    <section id="categories" className="library-explainer">
+      <h2>Explore AI skills by category</h2>
+      <div className="topic-links">{COLLECTIONS.map(item => <a key={item.slug} href={`/collections/${item.slug}`}>{item.category}</a>)}</div>
+    </section>
+    <section className="library-explainer" aria-labelledby="faq-heading">
+      <h2 id="faq-heading">AI agent skills, explained</h2>
+      <div className="faq-grid">{FAQ.map(item => <details key={item.question}><summary>{item.question}</summary><p>{item.answer}</p></details>)}</div>
+      <ul className="reading-links">
+        <li><a href="/guides/what-are-ai-agent-skills">A practical guide to AI agent skills</a></li>
+        <li><a href="/guides/codex-skills">Install skills in Codex</a></li>
+        <li><a href="/guides/claude-code-skills">Install skills in Claude Code</a></li>
+        <li><a href="/guides/skill-safety">Inspect skills before use</a></li>
+      </ul>
+    </section>
+  </>;
 }
-function SkillDialog({ skill, onClose, copy, saved, onSave }) {
-  const [text, setText] = useState(''), [error, setError] = useState(''), [agent, setAgent] = useState('codex'), [global, setGlobal] = useState(false), [retry, setRetry] = useState(0);
-  useEffect(() => { const controller = new AbortController(); setText(''); setError(''); fetch(`/documents/${skill.id}.md`, { signal: controller.signal }).then(response => { if (!response.ok) throw new Error('The skill instructions could not be loaded.'); return response.text(); }).then(setText).catch(error => { if (error.name !== 'AbortError') setError(error.message); }); return () => controller.abort(); }, [skill.id, retry]);
+function CodeBlock({ text }) {
+  return <div className="code-block"><pre><code>{text}</code></pre><CopyButton text={text} iconOnly /></div>;
+}
+function SkillDialog({ skill, onClose, saved, onSave, initialText = '' }) {
+  const [text, setText] = useState(initialText), [error, setError] = useState(''), [agent, setAgent] = useState('codex'), [global, setGlobal] = useState(false), [retry, setRetry] = useState(0);
+  useEffect(() => { if (initialText && !retry) { setText(initialText); return; } const controller = new AbortController(); setText(''); setError(''); fetch(`/documents/${skill.id}.md`, { signal: controller.signal }).then(response => { if (!response.ok) throw new Error('The skill instructions could not be loaded.'); return response.text(); }).then(setText).catch(error => { if (error.name !== 'AbortError') setError(error.message); }); return () => controller.abort(); }, [skill.id, retry, initialText]);
   const command = `npx agent-skill-library install ${skill.id} --agent ${agent}${global || agent === 'delta' ? ' --global' : ''}`;
-  const body = text.replace(/^\uFEFF?---\r?\n[\s\S]*?\r?\n---\r?\n?/, '').replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/, '');
-  return <Dialog onClose={onClose} title={pretty(skill.name)} className="skill-dialog"><div className="detail-subtitle"><span>{skill.category}</span><span><Star size={14} /> {skill.stars.toLocaleString()} repository stars</span><button onClick={onSave}><BookmarkSimple weight={saved ? 'fill' : 'regular'} /> {saved ? 'Saved' : 'Save skill'}</button></div><p className="detail-description">{skill.description}</p><div className="detail-layout"><div className="instruction-column"><div className="instruction-heading"><h3><FileText size={17} /> SKILL.md</h3><button disabled={!text} onClick={() => copy(text, 'Full SKILL.md copied')}><Copy size={14} /> Copy skill</button></div>{error ? <div className="inline-error" role="alert">{error}<button className="button" onClick={() => setRetry(retry + 1)}>Retry</button></div> : !text ? <p className="loading-line"><SpinnerGap className="spin" /> Loading instructions…</p> : <div className="markdown"><Markdown components={{ a: ({ href, children }) => { const safe = href && !/^(?:javascript|data|vbscript):/i.test(href); const url = safe && !/^[a-z]+:/i.test(href) && !href.startsWith('#') ? `${skill.sourceUrl}/${href}` : href; return safe ? <a href={url} target="_blank" rel="noreferrer">{children}</a> : <span>{children}</span>; }, img: ({ alt }) => <span className="image-reference">[Upstream image: {alt || 'view at source'}]</span> }}>{body}</Markdown></div>}</div><aside className="install-panel"><h3>Add to your agent</h3><div className="agent-tabs" role="group" aria-label="Installation target">{['codex', 'claude', 'delta'].map(value => <button key={value} aria-pressed={agent === value} className={agent === value ? 'selected' : ''} onClick={() => setAgent(value)}>{value === 'claude' ? 'Claude' : value[0].toUpperCase() + value.slice(1)}</button>)}</div><label className="personal-check"><input type="checkbox" checked={global || agent === 'delta'} disabled={agent === 'delta'} onChange={event => setGlobal(event.target.checked)} /> Personal library (all projects)</label><CodeBlock text={command} copy={copy} /><a className="button button-green download-button" href={`/bundles/${skill.id}.zip`} download={`${skill.name}.zip`}><DownloadSimple size={17} /> Download ZIP <span>{bytes(skill.bytes)}</span></a><p className="install-explanation">Includes {skill.fileCount} files, supporting resources, and license notices. Copying SKILL.md alone does not include its resources.</p><dl className="source-facts"><div><dt>Source</dt><dd><a href={skill.sourceUrl} target="_blank" rel="noreferrer">{skill.repo}<ArrowUpRight size={13} /></a></dd></div><div><dt>License</dt><dd>{skill.license}</dd></div><div><dt>Revision</dt><dd><code>{skill.revision.slice(0, 10)}</code></dd></div><div><dt>Verified</dt><dd>{skill.checkedAt.slice(0, 10)}</dd></div></dl><a className="manifest-link" href={`/manifests/${skill.id}.json`} target="_blank">Inspect file checksums <ArrowUpRight size={13} /></a><div className="source-notice"><ShieldCheck size={18} /><p>Inspect before you install. Star counts do not certify safety, and helper scripts never run automatically.</p></div></aside></div></Dialog>;
+  const body = stripFrontmatter(text);
+  return <Dialog onClose={onClose} title={pretty(skill.name)} className="skill-dialog"><div className="detail-subtitle"><span>{skill.category}</span><span><Star size={14} /> {skill.stars.toLocaleString()} repository stars</span><button onClick={onSave}><BookmarkSimple weight={saved ? 'fill' : 'regular'} /> {saved ? 'Saved' : 'Save skill'}</button></div><p className="detail-description">{skill.description}</p><div className="detail-layout"><div className="instruction-column"><div className="instruction-heading"><h3><FileText size={17} /> SKILL.md</h3><CopyButton text={text} label="Copy skill" disabled={!text} /></div>{error ? <div className="inline-error" role="alert">{error}<button className="button" onClick={() => setRetry(retry + 1)}>Retry</button></div> : !text ? <p className="loading-line"><SpinnerGap className="spin" /> Loading instructions…</p> : <div className="markdown"><Markdown components={{ a: ({ href, children }) => { const safe = href && !/^(?:javascript|data|vbscript):/i.test(href); const url = safe && !/^[a-z]+:/i.test(href) && !href.startsWith('#') ? `${skill.sourceUrl}/${href}` : href; return safe ? <a href={url} target="_blank" rel="noreferrer">{children}</a> : <span>{children}</span>; }, img: ({ alt }) => <span className="image-reference">[Upstream image: {alt || 'view at source'}]</span> }}>{body}</Markdown></div>}</div><aside className="install-panel"><h3>Add to your agent</h3><div className="agent-tabs" role="group" aria-label="Installation target">{['codex', 'claude', 'delta'].map(value => <button key={value} aria-pressed={agent === value} className={agent === value ? 'selected' : ''} onClick={() => setAgent(value)}>{value === 'claude' ? 'Claude' : value[0].toUpperCase() + value.slice(1)}</button>)}</div><label className="personal-check"><input type="checkbox" checked={global || agent === 'delta'} disabled={agent === 'delta'} onChange={event => setGlobal(event.target.checked)} /> Personal library (all projects)</label><CodeBlock text={command} /><a className="button button-green download-button" href={`/bundles/${skill.id}.zip`} download={`${skill.name}.zip`}><DownloadSimple size={17} /> Download ZIP <span>{bytes(skill.bytes)}</span></a><p className="install-explanation">Includes {skill.fileCount} files, supporting resources, and license notices. Copying SKILL.md alone does not include its resources.</p><dl className="source-facts"><div><dt>Source</dt><dd><a href={skill.sourceUrl} target="_blank" rel="noreferrer">{skill.repo}<ArrowUpRight size={13} /></a></dd></div><div><dt>License</dt><dd>{skill.license}</dd></div><div><dt>Revision</dt><dd><code>{skill.revision.slice(0, 10)}</code></dd></div><div><dt>Verified</dt><dd>{skill.checkedAt.slice(0, 10)}</dd></div></dl><a className="manifest-link" href={`/manifests/${skill.id}.json`} target="_blank">Inspect file checksums <ArrowUpRight size={13} /></a><div className="source-notice"><ShieldCheck size={18} /><p>Inspect before you install. Star counts do not certify safety, and helper scripts never run automatically.</p></div></aside></div></Dialog>;
 }
 function SubmitDialog({ onClose }) {
   const [repo, setRepo] = useState(''), [path, setPath] = useState(''), [status, setStatus] = useState('idle'), [error, setError] = useState(''), [receipt, setReceipt] = useState(null);

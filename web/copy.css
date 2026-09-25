@@ -1,0 +1,15 @@
+.copy-control{display:inline-flex;position:relative;align-items:center;flex-shrink:0;max-width:100%}
+.copy-button{display:inline-flex;align-items:center;justify-content:center;gap:6px;border-radius:6px;min-height:32px}
+.copy-button:not(.icon-button):not(.terminal-command){min-width:88px;padding:5px 8px}
+.copy-control[data-copy-state=copied]>.copy-button{color:var(--green);background:var(--green-pale)}
+.copy-control[data-copy-state=error]>.copy-button{color:#922f22}
+.copy-status:empty{display:none}
+.copy-popover,.copy-error{position:absolute;bottom:calc(100% + 8px);right:0;z-index:5;padding:7px 10px;border-radius:6px;background:var(--ink);color:white;font:12px/1.45 'Geist Variable',Arial,sans-serif;box-shadow:0 3px 12px #17241a16;white-space:nowrap;pointer-events:none}
+.copy-error{white-space:normal;width:230px;max-width:calc(100vw - 64px);background:#fff2ef;color:#922f22;border:1px solid #e6bcb2}
+.copy-control-command{min-width:0}
+.copy-check{animation:copy-confirm .28s cubic-bezier(.2,.8,.2,1) both}
+.copy-popover:not(:empty){animation:copy-message .16s ease-out both}
+@keyframes copy-confirm{0%{transform:scale(.55);opacity:0}65%{transform:scale(1.18);opacity:1}100%{transform:scale(1);opacity:1}}
+@keyframes copy-message{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:760px){.copy-control-command,.copy-control-command>.terminal-command{width:100%}}
+@media(prefers-reduced-motion:reduce){.copy-check,.copy-popover:not(:empty){animation:none}}

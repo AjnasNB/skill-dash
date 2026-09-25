@@ -1,0 +1,39 @@
+.site-header nav a{display:flex;align-items:center;min-height:44px;font-size:13px;color:var(--muted)}
+.site-header nav a:hover,.reading-page a:hover,.directory-page a:hover{color:var(--green)}
+.breadcrumbs{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin:30px 0}
+.breadcrumbs a{text-decoration:underline;text-underline-offset:3px}
+.reading-page{max-width:1000px}.directory-page{padding-bottom:45px}
+.reading-header{padding:24px 0 30px;max-width:820px}
+.reading-header h1{font-size:clamp(32px,4.6vw,52px);line-height:1.14;font-weight:580;letter-spacing:-1.8px;margin:14px 0 20px;overflow-wrap:anywhere}
+.eyebrow{font:10px/1.6 'Geist Mono Variable',monospace;letter-spacing:1.5px;color:var(--green)}
+.reading-lead{font-size:18px;line-height:1.7;color:var(--muted)}
+.reading-header>p:not(.reading-lead){font-size:13px;color:var(--muted);line-height:1.7;margin-top:17px}
+.reading-header .byline{font-size:12px}
+.reading-section{margin:28px 0 40px}
+.reading-section h2,.library-explainer h2,.home-start h2{font-size:24px;font-weight:600;letter-spacing:-.7px;line-height:1.35;margin-bottom:15px}
+.reading-section p,.reading-section li,.home-start p{font-size:15px;line-height:1.8;color:var(--muted);margin:12px 0}
+.reading-section a,.reading-actions>a:not(.button),.reading-links a,.home-start>a{color:var(--green);text-decoration:underline;text-underline-offset:3px}
+.reading-section pre{font:12px/1.8 'Geist Mono Variable',monospace;white-space:pre-wrap;overflow-wrap:anywhere;padding:20px;border:1px solid var(--line);border-radius:8px;background:var(--wash)}
+.reading-section .skill-grid{margin:22px 0}
+.reading-links{list-style:none;display:flex;flex-wrap:wrap;gap:12px 24px;padding:0;margin:24px 0;font-size:13px}
+.reading-links li{margin:0;font-size:13px}
+.reading-actions{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin:20px 0;font-size:13px}
+.static-skill .source-facts{border:1px solid var(--line);border-radius:9px;padding:10px 18px}
+.static-skill .source-facts dd{overflow-wrap:anywhere}
+.static-skill .markdown h1{font-size:28px}
+.static-skill .markdown{font-size:14px}
+.library-explainer{border-top:1px solid var(--line);padding:34px 0}
+.library-explainer>p{color:var(--muted);font-size:14px;line-height:1.8}
+.topic-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.topic-links a{padding:9px 13px;border:1px solid var(--line);background:var(--surface);border-radius:6px;color:var(--green);font-size:12px}
+.topic-links a:hover{border-color:var(--green)}
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 32px;margin-top:24px}
+.faq-grid details{border-bottom:1px solid var(--line);padding:17px 0}
+.faq-grid summary{cursor:pointer;font-size:14px;font-weight:550;line-height:1.5;padding-right:10px}
+.faq-grid details p{font-size:13px;line-height:1.8;color:var(--muted);margin-top:13px}
+.directory-page .pagination{margin:20px 0}
+.directory-page .pagination a{border:1px solid var(--line);padding:10px 14px;border-radius:6px;color:var(--green)}
+.directory-page .skill-card,.static-skill .skill-card{padding-top:20px}
+.home-start{max-width:390px;padding:25px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+.home-start>a{display:inline-block;margin-top:12px;font-size:13px}
+@media(max-width:760px){.site-header nav a{font-size:11px}.reading-page,.directory-page{padding-left:20px;padding-right:20px}.reading-header{padding-top:12px}.reading-header h1{letter-spacing:-1px}.reading-lead{font-size:16px}.reading-section p,.reading-section li{font-size:14px}.reading-section pre{font-size:11px;padding:15px}.reading-section h2,.library-explainer h2{font-size:21px}.faq-grid{grid-template-columns:1fr}.static-hero{grid-template-columns:1fr}.home-start{max-width:none}.reading-actions{gap:14px}.breadcrumbs{font-size:11px}.reading-links{flex-direction:column;gap:12px}.static-skill .source-facts>div{gap:12px}.static-skill .source-facts dd{max-width:72%;text-align:right}.topic-links a{font-size:11px}.site-header>.button{padding:8px;font-size:11px}}

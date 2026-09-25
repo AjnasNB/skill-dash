@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /api/submissions
+Disallow: /directory/
 Sitemap: https://skills.maqamagent.com/sitemap.xml

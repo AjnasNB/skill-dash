@@ -45,6 +45,9 @@
     "deploy": "npm run build && wrangler deploy",
     "prepack": "npm run check && npm test",
     "test:browser": "node scripts/test-browser.mjs",
+    "check:seo": "node scripts/check-seo.mjs",
+    "test:copy-seo": "node scripts/test-copy-seo-browser.mjs",
+    "notify:indexnow": "node scripts/notify-indexnow.mjs",
     "types": "wrangler types"
   },
   "dependencies": {
