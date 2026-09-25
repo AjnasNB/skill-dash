@@ -1,10 +1,16 @@
-# Skill Library
+# Skill Library — AI agent skills
 
 An open skill marketplace, npm CLI, and read-only MCP server for **Codex**, **Claude Code**, and **Delta Harness**.
 
 **[Browse the library](https://skills.maqamagent.com)** · [Agent instructions](https://skills.maqamagent.com/llms.txt) · [API schema](https://skills.maqamagent.com/openapi.json)
 
 Search thousands of real skill folders by name, description, and related task vocabulary. Preview instructions, bookmark skills, copy `SKILL.md`, or download the full ZIP with references and licenses.
+
+[What are AI agent skills?](https://skills.maqamagent.com/guides/what-are-ai-agent-skills) ·
+[Codex installation guide](https://skills.maqamagent.com/guides/codex-skills) ·
+[Claude Code installation guide](https://skills.maqamagent.com/guides/claude-code-skills) ·
+[Skill safety](https://skills.maqamagent.com/guides/skill-safety) ·
+[Complete directory](https://skills.maqamagent.com/skills)
 
 Every catalog source is a public GitHub repository with **1,000+ repository stars** at the recorded check time. Stars belong to repositories, not individual skills. Source commits and file checksums are pinned. The catalog does not claim security certification or endorsement by source authors.
 
@@ -42,7 +48,7 @@ This installs a small discovery skill in the three personal libraries. It does n
 | Claude Code | `.claude/skills/<name>` | `~/.claude/skills/<name>` |
 | Delta Harness | Not applicable | Delta application-data directory, under `skills/<name>` |
 
-Add `--global` for personal installation. Delta and `--agent all` require it. Use `--cwd <directory>` for another project. On Windows, Delta uses `%APPDATA%\Delta Harness\skills`; `DELTA_DATA_DIR` overrides the application profile. Start a new Codex/Claude session or refresh Delta's Skills panel.
+Add `--global` for personal installation. Delta and `--agent all` require it. Use `--cwd <directory>` for another project. On Windows, Delta uses `%APPDATA%\Delta Harness\skills`; `DELTA_DATA_DIR` overrides the application profile. Codex detects skill changes automatically; restart if a new skill does not appear. Start a new Claude Code session or refresh Delta's Skills panel after installation.
 
 For repository-based cloud tasks, commit the project skill folders. A personal install on your computer is not automatically available in a remote environment. Claude Code support does not imply that every Claude chat product automatically reads filesystem skills.
 
@@ -97,6 +103,7 @@ npm run check
 npm test
 npm run hydrate
 npm run build
+npm run check:seo
 npm run preview
 ```
 
@@ -121,6 +128,18 @@ npm run deploy
 ```
 
 Frontend-only development is available through `npm run dev:web`; full API and submission behavior uses Wrangler.
+
+The production build renders complete HTML skill pages, category hubs, a paginated
+directory and installation guides. They remain readable without JavaScript.
+Per-page titles, canonical URLs, social previews, structured data and XML sitemaps
+are generated from the same source catalog. See [search discovery](docs/SEARCH-DISCOVERY.md)
+for the research basis, checks and indexing procedure.
+
+For copy feedback and discovery-page browser checks, run Wrangler on port 8797
+and run `npm run test:copy-seo`. Set `LIBRARY_TEST_URL` to test another local or
+deployed URL. These checks cover actual clipboard writes, permission denial,
+repeated clicks, changed commands, reduced motion, mobile layout and reading
+pages without JavaScript.
 
 ## Provenance and compatibility
 
