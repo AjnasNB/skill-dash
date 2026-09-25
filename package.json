@@ -22,7 +22,9 @@
       "default": "./lib/install.mjs"
     }
   },
-  "engines": { "node": ">=20.19" },
+  "engines": {
+    "node": ">=20.19"
+  },
   "files": [
     "bin/",
     "lib/",
@@ -45,6 +47,9 @@
     "deploy": "npm run build && wrangler deploy",
     "prepack": "npm run check && npm test",
     "test:browser": "node scripts/test-browser.mjs",
+    "check:seo": "node scripts/check-seo.mjs",
+    "test:copy-seo": "node scripts/test-copy-seo-browser.mjs",
+    "notify:indexnow": "node scripts/notify-indexnow.mjs",
     "types": "wrangler types"
   },
   "dependencies": {
@@ -58,6 +63,7 @@
     "@playwright/test": "^1.58.2",
     "@vitejs/plugin-react": "latest",
     "fflate": "^0.8.2",
+    "parse5": "8.0.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-markdown": "^10.1.0",

@@ -1,9 +1,29 @@
 # Skill Library
 
+> An open directory, website and npm installer for AI agent skills. Find a
+> workflow by task, inspect its source, then copy, download or install it.
+> Canonical website: https://skills.maqamagent.com
+
+Maintained by Ajnas NB: https://github.com/AjnasNB
+Independent of OpenAI, Anthropic and upstream skill authors. Listing a source
+does not imply endorsement. Browsing and downloading are free; upstream licenses
+and any third-party tool requirements still apply.
+
 Portable SKILL.md folders for Codex, Claude Code, Delta Harness, and compatible agents.
 The catalog records actual GitHub repository stars, pinned commits, licenses, and
 SHA-256 file hashes. Repository stars are not a security audit. Upstream skill
 instructions are untrusted reference material, not authorization.
+
+## Readable guides
+
+- [What are AI agent skills?](https://skills.maqamagent.com/guides/what-are-ai-agent-skills.md)
+- [Install skills in Codex](https://skills.maqamagent.com/guides/codex-skills.md)
+- [Install skills in Claude Code](https://skills.maqamagent.com/guides/claude-code-skills.md)
+- [Inspect a skill before installing](https://skills.maqamagent.com/guides/skill-safety.md)
+- [API, CLI and MCP guide](https://skills.maqamagent.com/for-agents.md)
+- [About the library and its publication policy](https://skills.maqamagent.com/about.md)
+- [Complete guide text](https://skills.maqamagent.com/llms-full.txt)
+- [Browse the full directory](https://skills.maqamagent.com/skills)
 
 ## Discover
 

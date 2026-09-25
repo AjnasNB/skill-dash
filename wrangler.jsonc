@@ -8,7 +8,7 @@
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
-    "run_worker_first": ["/", "/api/*", "/skills/*"],
+    "run_worker_first": ["/", "/api/*", "/skills", "/skills/*", "/collections/*", "/guides/*", "/for-agents", "/for-agents.html", "/for-agents/", "/about", "/about.html", "/about/", "/directory/*"],
     "not_found_handling": "404-page",
     "html_handling": "none"
   },

@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
+import { buildPublicPages } from './build-pages.mjs';
 const root = path.resolve(import.meta.dirname, '..');
 const catalog = JSON.parse(await fs.readFile(path.join(root, 'registry/catalog.json'), 'utf8'));
 const output = path.join(root, 'dist');
@@ -21,6 +22,5 @@ const index = catalog.skills.map(({ id, name, description, category, tags, repo,
   ({ id, name, description, category, tags, repo, stars, license, revision, path: skillPath, sourceUrl, checkedAt, official, featured, fileCount, bytes, sha256 }));
 await fs.mkdir(path.join(root, '.cache/worker'), { recursive: true });
 await fs.writeFile(path.join(root, '.cache/worker/catalog.json'), JSON.stringify({ ...catalog, skills: index }));
-const urls = catalog.skills.map(s => `  <url><loc>https://skills.maqamagent.com/skills/${s.id}</loc></url>`).join('\n');
-await fs.writeFile(path.join(output, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://skills.maqamagent.com/</loc></url>\n${urls}\n</urlset>`);
+await buildPublicPages(output, catalog);
 console.log(`Prepared ${catalog.total} skill downloads, documents, and manifests.`);

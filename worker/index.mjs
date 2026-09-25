@@ -1,5 +1,6 @@
 import catalog from '../registry/catalog.json' with { type: 'json' };
 import { searchCatalog } from '../lib/search.mjs';
+import { COLLECTIONS, GUIDES } from '../site/content.mjs';
 
 const byId = new Map(catalog.skills.map(skill => [skill.id, skill]));
 const canonical = 'https://skills.maqamagent.com';
@@ -10,8 +11,9 @@ const headers = {
   'Content-Security-Policy': "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'",
   'Permissions-Policy': 'camera=(), microphone=(), geolocation=()',
 };
-const json = (value, status = 200, extra = {}) => new Response(JSON.stringify(value), { status, headers: { ...headers, 'Content-Type': 'application/json; charset=utf-8', ...extra } });
-const escapeHtml = value => String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
+const json = (value, status = 200, extra = {}) => new Response(JSON.stringify(value), { status, headers: { ...headers, 'Content-Type': 'application/json; charset=utf-8', 'X-Robots-Tag': 'noindex, follow', ...extra } });
+const guidePaths = new Set(GUIDES.map(guide => guide.path));
+const collectionPaths = new Set(COLLECTIONS.map(collection => `/collections/${collection.slug}`));
 export function validateSubmission(input) {
   if (!input || typeof input !== 'object' || typeof input.repo !== 'string' || typeof input.path !== 'string') throw new Error('Provide a public GitHub repository URL and skill folder.');
   const url = new URL(input.repo);
@@ -65,13 +67,18 @@ async function submission(request, env) {
   const receipt = row || await env.DB.prepare('SELECT id FROM submissions WHERE repo = ? AND skill_path = ?').bind(input.repo.toLowerCase(), input.path).first();
   return json({ id: receipt.id, status: 'pending', message: 'Your source is queued for review. Publication requires a public repository, 1,000+ repository stars, a recognized redistributable license, and valid skill files.' }, 202, { 'Cache-Control': 'no-store' });
 }
-async function asset(env, request, pathname, extras = {}) {
+async function asset(env, request, pathname, extras = {}, status) {
   const url = new URL(request.url); url.pathname = pathname; url.search = '';
   const response = await env.ASSETS.fetch(new Request(url, { method: 'GET' }));
   const modified = new Headers(response.headers);
   for (const [key, value] of Object.entries({ ...headers, ...extras })) modified.set(key, value);
-  return new Response(response.body, { status: response.status, headers: modified });
+  return new Response(request.method === 'HEAD' ? null : response.body, { status: status ?? response.status, headers: modified });
 }
+const page = (env, request, pathname, { noindex = false, status } = {}) => asset(env, request, pathname, {
+  'Content-Type': 'text/html; charset=utf-8',
+  'Cache-Control': 'public, max-age=300',
+  'X-Robots-Tag': noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large',
+}, status);
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -100,19 +107,26 @@ export default {
         return json({ ...skill, manifestUrl: `${canonical}/manifests/${skill.id}.json`, contentUrl: `${canonical}/documents/${skill.id}.md`, downloadUrl: `${canonical}/bundles/${skill.id}.zip` }, 200, { 'Cache-Control': 'public, max-age=3600' });
       }
       if (url.pathname.startsWith('/api/')) return json({ error: 'Endpoint not found.' }, 404);
-      if (url.pathname === '/') return asset(env, request, '/index.html', { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'public, max-age=300' });
+      if (url.pathname === '/') return page(env, request, '/index.html', { noindex: url.searchParams.has('q') || url.searchParams.has('category') });
+      // Keep one public URL for a page, even though its stored asset has an .html suffix.
+      const normalized = url.pathname.replace(/(?:\.html|\/)$/, '');
+      if (normalized !== url.pathname && (guidePaths.has(normalized) || collectionPaths.has(normalized) || normalized === '/skills' || /^\/skills\/[a-z0-9._-]+$/.test(normalized) && byId.has(normalized.slice(8)))) {
+        return Response.redirect(`${canonical}${normalized}${url.search}`, 301);
+      }
+      if (guidePaths.has(url.pathname) || collectionPaths.has(url.pathname)) return page(env, request, `${url.pathname}.html`);
+      if (url.pathname === '/skills') {
+        const raw = url.searchParams.get('page') || '1';
+        if (!/^[1-9]\d{0,3}$/.test(raw) || Number(raw) > Math.ceil(catalog.total / 48)) return page(env, request, '/404.html', { noindex: true, status: 404 });
+        if (url.searchParams.get('page') === '1') return Response.redirect(`${canonical}/skills`, 301);
+        return page(env, request, `/directory/page-${raw}.html`);
+      }
       const detail = url.pathname.match(/^\/skills\/([a-z0-9._-]+)$/);
       if (detail) {
         const skill = byId.get(detail[1]);
-        if (!skill) return new Response('Skill not found', { status: 404, headers });
-        const response = await env.ASSETS.fetch(new Request(new URL('/index.html', request.url)));
-        let html = await response.text();
-        html = html.replace(/<title>[^<]*<\/title>/, `<title>${escapeHtml(skill.name)} — Skill Library</title>`)
-          .replace(/<meta name="description" content="[^"]*"\s*\/?>/, `<meta name="description" content="${escapeHtml(skill.description)}">`)
-          .replace('</head>', `<link rel="canonical" href="${canonical}/skills/${skill.id}"></head>`)
-          .replace('<div id="root"></div>', `<div id="root"></div><noscript><h1>${escapeHtml(skill.name)}</h1><p>${escapeHtml(skill.description)}</p><p>${escapeHtml(skill.repo)} · ${skill.stars} repository stars · ${escapeHtml(skill.license)}</p><a href="/documents/${skill.id}.md">Read skill</a> <a href="/bundles/${skill.id}.zip">Download skill</a></noscript>`);
-        return new Response(html, { headers: { ...headers, 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'public, max-age=300' } });
+        if (!skill) return page(env, request, '/404.html', { noindex: true, status: 404 });
+        return page(env, request, `/skills/${skill.id}.html`);
       }
+      if (url.pathname.startsWith('/directory/')) return page(env, request, '/404.html', { noindex: true, status: 404 });
       return env.ASSETS.fetch(request);
     } catch (error) {
       console.error(JSON.stringify({ event: 'request_failed', path: url.pathname, error: error.name || 'Error' }));

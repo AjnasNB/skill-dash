@@ -9,9 +9,24 @@
 /documents/*
   Content-Type: text/plain; charset=utf-8
   Access-Control-Allow-Origin: *
+  X-Robots-Tag: noindex, follow
 /manifests/*
   Content-Type: application/json; charset=utf-8
   Access-Control-Allow-Origin: *
+  X-Robots-Tag: noindex, follow
 /bundles/*
   Content-Type: application/zip
   Access-Control-Allow-Origin: *
+  X-Robots-Tag: noindex, follow
+/sitemaps/*
+  Content-Type: application/xml; charset=utf-8
+/sitemap.xml
+  Content-Type: application/xml; charset=utf-8
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+/llms-full.txt
+  Content-Type: text/plain; charset=utf-8
+/directory/*
+  X-Robots-Tag: noindex, follow
+/404.html
+  X-Robots-Tag: noindex, follow
