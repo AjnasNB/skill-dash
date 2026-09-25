@@ -2,6 +2,7 @@ import { chromium, expect } from '@playwright/test';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import assert from 'node:assert/strict';
+import catalog from '../registry/catalog.json' with { type: 'json' };
 
 const base = process.env.LIBRARY_TEST_URL || 'http://127.0.0.1:8797';
 const output = path.resolve('artifacts/copy-seo');
@@ -76,6 +77,32 @@ try {
   await expect(staticPage.locator('.skill-card')).toHaveCount(48);
   await expect(staticPage.locator('link[rel="canonical"]')).toHaveAttribute('href', 'https://skills.maqamagent.com/skills?page=2');
 
+  const recovery = await browser.newContext();
+  const recoveryPage = await recovery.newPage();
+  recoveryPage.on('pageerror', error => errors.push(error.message));
+  await recoveryPage.route('**/catalog.json', route => route.fulfill({ status: 503, body: 'Temporarily unavailable' }));
+  await recoveryPage.goto(base + skillPath, { waitUntil: 'networkidle' });
+  await expect(recoveryPage.locator('.startup-notice')).toContainText('You can still read the page');
+  await expect(recoveryPage.getByRole('link', { name: 'Download complete ZIP' })).toBeVisible();
+  await recoveryPage.unroute('**/catalog.json');
+  await recoveryPage.getByRole('button', { name: 'Retry interactive search' }).click();
+  await expect(recoveryPage.locator('dialog')).toBeVisible();
+  await recovery.close();
+
+  const hostile = await browser.newContext();
+  const hostilePage = await hostile.newPage();
+  hostilePage.on('pageerror', error => errors.push(error.message));
+  const attack = 'Visible text </script><img src=x onerror="window.skillInjection=true"> & "quoted"';
+  const hostileCatalog = { ...catalog, skills: catalog.skills.map(skill => skill.id === skillPath.slice(8) ? { ...skill, description: attack } : skill) };
+  await hostilePage.addInitScript(() => { window.skillInjection = false; });
+  await hostilePage.route('**/catalog.json', route => route.fulfill({ contentType: 'application/json', body: JSON.stringify(hostileCatalog) }));
+  await hostilePage.goto(base + skillPath, { waitUntil: 'networkidle' });
+  await expect(hostilePage.locator('dialog .detail-description')).toHaveText(attack);
+  await expect(hostilePage.locator('dialog .detail-description img')).toHaveCount(0);
+  assert.equal(await hostilePage.evaluate(() => window.skillInjection), false);
+  assert.equal(JSON.parse(await hostilePage.locator('#page-schema').textContent())['@graph'][0].description, attack);
+  await hostile.close();
+
   const mobile = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, reducedMotion: 'reduce', permissions: ['clipboard-read', 'clipboard-write'] });
   const mobilePage = await mobile.newPage();
   mobilePage.on('pageerror', error => errors.push(error.message));
@@ -91,7 +118,7 @@ try {
   await mobilePage.screenshot({ path: path.join(output, 'mobile-home.png'), fullPage: true });
 
   assert.deepEqual(errors, []);
-  const report = { status: 'passed', realClipboard: true, skillCopyAnimation: true, commandCopyFeedback: true, repeatedClicks: true, delayedClipboard: true, deniedClipboard: true, retryAfterDenial: true, changedCommandResetsFeedback: true, reducedMotion: true, mobile: true, noJavaScriptPages: true, canonicalOnNavigation: true, browserErrors: errors };
+  const report = { status: 'passed', realClipboard: true, skillCopyAnimation: true, commandCopyFeedback: true, repeatedClicks: true, delayedClipboard: true, deniedClipboard: true, retryAfterDenial: true, changedCommandResetsFeedback: true, reducedMotion: true, mobile: true, noJavaScriptPages: true, startupFailureRecovery: true, hostileCatalogTextEscaped: true, canonicalOnNavigation: true, browserErrors: errors };
   await fs.writeFile(path.join(output, 'result.json'), JSON.stringify(report, null, 2));
   console.log(JSON.stringify(report));
 } catch (error) {

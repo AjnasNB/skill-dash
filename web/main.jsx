@@ -12,7 +12,7 @@ import '@fontsource-variable/geist-mono';
 import { searchCatalog, CATEGORIES } from '../lib/search.mjs';
 import { CopyButton } from './CopyButton.jsx';
 import { COLLECTIONS, FAQ, collectionFor } from '../site/content.mjs';
-import { metadata, skillMetadata, skillSchema, breadcrumbs, stripFrontmatter } from '../site/seo.mjs';
+import { metadata, skillMetadata, skillSchema, breadcrumbs, stripFrontmatter, jsonForHtml } from '../site/seo.mjs';
 import './styles.css';
 import './copy.css';
 
@@ -21,8 +21,7 @@ const GitHub = 'https://github.com/AjnasNB/skill-dash';
 const shortStars = n => n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1)}k` : `${n}`;
 const bytes = n => n > 1_000_000 ? `${(n / 1_000_000).toFixed(1)} MB` : `${Math.max(1, Math.round(n / 1000))} KB`;
 const pretty = name => name.split('-').map(word => ({ ai: 'AI', ui: 'UI', ux: 'UX', api: 'API', seo: 'SEO', mcp: 'MCP', pdf: 'PDF', cli: 'CLI' }[word] || word[0]?.toUpperCase() + word.slice(1))).join(' ');
-const skillFromLocation = () => location.pathname.startsWith('/skills/') ? decodeURIComponent(location.pathname.slice(8)) : null;
-const bootstrap = (() => { try { return JSON.parse(document.getElementById('skill-library-bootstrap')?.textContent || 'null'); } catch { return null; } })();
+const skillFromLocation = () => location.pathname.match(/^\/skills\/([a-z0-9._-]+)$/)?.[1] || null;
 const interceptLink = event => event.button === 0 && !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey && !event.defaultPrevented;
 const AsyncMarkdown = React.lazy(async () => {
   const [markdown, gfm] = await Promise.all([import('react-markdown'), import('remark-gfm')]);
@@ -32,8 +31,8 @@ function Markdown(props) {
   return <React.Suspense fallback={<p className="loading-line">Preparing the skill preview…</p>}><AsyncMarkdown {...props} /></React.Suspense>;
 }
 
-function App() {
-  const [catalog, setCatalog] = useState(bootstrap?.catalog || null), [loadError, setLoadError] = useState('');
+function App({ initialCatalog, initialPreview }) {
+  const [catalog, setCatalog] = useState(initialCatalog), [loadError, setLoadError] = useState('');
   const [query, setQuery] = useState(new URLSearchParams(location.search).get('q') || '');
   const [category, setCategory] = useState(() => { const value = new URLSearchParams(location.search).get('category'); return CATEGORIES.includes(value) ? value : ''; }), [sort, setSort] = useState('relevance'), [official, setOfficial] = useState(false);
   const [view, setView] = useState('discover'), [page, setPage] = useState(1), [filterOpen, setFilterOpen] = useState(false);
@@ -41,11 +40,12 @@ function App() {
   const [saved, setSaved] = useState(() => { try { const value = JSON.parse(localStorage.getItem('skill-library-saved') || '[]'); return Array.isArray(value) ? value.filter(x => typeof x === 'string') : []; } catch { return []; } });
   const searchRef = useRef(null), toastTimer = useRef(null);
   useEffect(() => {
+    if (initialCatalog) return;
     const controller = new AbortController();
     fetch('/catalog.json', { signal: controller.signal }).then(response => { if (!response.ok) throw new Error('The catalog is temporarily unavailable.'); return response.json(); })
       .then(setCatalog).catch(error => { if (error.name !== 'AbortError') setLoadError(error.message); });
     return () => controller.abort();
-  }, []);
+  }, [initialCatalog]);
   useEffect(() => { setPage(1); }, [query, category, sort, official, view]);
   useEffect(() => {
     const onPop = () => { setSelectedId(skillFromLocation()); setQuery(new URLSearchParams(location.search).get('q') || ''); };
@@ -75,7 +75,7 @@ function App() {
     ]) document.querySelector(selector)?.setAttribute('content', value);
     document.querySelector('link[rel="canonical"]')?.setAttribute('href', meta.url);
     const schema = document.getElementById('page-schema');
-    if (schema) schema.textContent = JSON.stringify({ '@context': 'https://schema.org', '@graph': selected ? [
+    if (schema) schema.textContent = jsonForHtml({ '@context': 'https://schema.org', '@graph': selected ? [
       skillSchema(selected), breadcrumbs([{ name: 'Skill Library', path: '/' }, { name: selected.category, path: `/collections/${collectionFor(selected.category).slug}` }, { name: pretty(selected.name), path: `/skills/${selected.id}` }]),
     ] : [{ '@type': 'WebSite', name: 'Skill Library', alternateName: 'Agent Skill Library', url: meta.url, description: meta.description }] });
   }, [selected, query, category]);
@@ -162,7 +162,7 @@ function App() {
       <LibraryExplainer />
     </main>
     <footer><a className="footer-brand" href="/">skill library<span>Built for builders. Open to everyone.</span></a><div><a href={GitHub} target="_blank" rel="noreferrer">GitHub <ArrowUpRight size={12} /></a><button onClick={() => setModal('agents')}>API & MCP</button><a href="/about">About the library</a><a href="/skills">All skills</a><a href="/for-agents">Integration guide</a></div><span>Updated {catalog?.generatedAt.slice(0, 10) || '…'}</span></footer>
-    {selected && <SkillDialog key={selected.id} skill={selected} initialText={bootstrap?.preview?.id === selected.id ? bootstrap.preview.text : ''} onClose={closeSkill} saved={saved.includes(selected.id)} onSave={() => toggleSave(selected.id)} />}
+    {selected && <SkillDialog key={selected.id} skill={selected} initialText={initialPreview?.id === selected.id ? initialPreview.text : ''} onClose={closeSkill} saved={saved.includes(selected.id)} onSave={() => toggleSave(selected.id)} />}
     {selectedId && catalog && !selected && <Dialog onClose={closeSkill} title="Skill not found"><p>This skill is not part of the current catalog.</p><button className="button button-dark" onClick={closeSkill}>Back to the library</button></Dialog>}
     {modal === 'agents' && <Dialog onClose={() => setModal(null)} title="A library your agent can use." className="guide-dialog"><p className="dialog-intro">One npm package. No API key. Search works offline from the published catalog.</p><CodeBlock text={'npx agent-skill-library search "make a launch video"\nnpx agent-skill-library setup --agent all --global'} /><h3>Install where you work</h3><div className="target-list"><div><Code /><strong>Codex</strong><code>.agents/skills</code><span>Desktop, CLI, and repository-based cloud tasks</span></div><div><Command /><strong>Claude Code</strong><code>.claude/skills</code><span>Local sessions and repository-based cloud tasks</span></div><div><TerminalWindow /><strong>Delta Harness</strong><code>Application data / skills</code><span>Refresh the Skills panel after installing</span></div></div><p>Installs default to the current project. Add <code>--global</code> for personal skills. Commit project skills to share them with a cloud workspace.</p><h3>Connect an MCP client</h3><CodeBlock text={'{\n  "mcpServers": {\n    "skill-library": {\n      "command": "npx",\n      "args": ["-y", "agent-skill-library", "mcp"]\n    }\n  }\n}'} /><p>The MCP server exposes search, inspection, and installation planning. It does not run skill scripts.</p><div className="guide-links"><a href="/llms.txt" target="_blank">Agent instructions <ArrowUpRight /></a><a href="/openapi.json" target="_blank">API specification <ArrowUpRight /></a><a href="/catalog.json" target="_blank">Full catalog <ArrowUpRight /></a></div></Dialog>}
     {modal === 'submit' && <SubmitDialog onClose={() => setModal(null)} />}
@@ -213,4 +213,31 @@ function SubmitDialog({ onClose }) {
   return <Dialog onClose={onClose} title="Share a useful skill." className="submit-dialog">{status === 'done' ? <div className="submission-success"><CheckCircle size={48} weight="duotone" /><h3>{receipt.status === 'published' ? 'Already in the library.' : 'Added to the review queue.'}</h3><p>{receipt.message}</p><code>{receipt.id}</code><button className="button button-dark" onClick={onClose}>Done</button></div> : <><p className="dialog-intro">Point us to a public GitHub skill. We check its source, license, and files before publication.</p><form onSubmit={submit}><label htmlFor="submit-repo">GitHub repository</label><input id="submit-repo" type="url" required placeholder="https://github.com/owner/repository" value={repo} maxLength={200} onChange={event => setRepo(event.target.value)} /><label htmlFor="submit-path">Skill folder in the repository</label><input id="submit-path" required placeholder="skills/my-skill" value={path} maxLength={300} onChange={event => setPath(event.target.value)} /><p className="field-help">The folder must contain SKILL.md. Enter “.” for the repository root.</p><div className="submission-policy"><CheckCircle size={17} /><span>Public repository · 1,000+ stars · Redistributable license</span></div>{error && <p className="inline-error" role="alert">{error}</p>}<button className="button button-green" disabled={status === 'sending'} type="submit">{status === 'sending' ? <><SpinnerGap className="spin" /> Submitting…</> : <>Submit for review <ArrowRight size={16} /></>}</button></form></>}</Dialog>;
 }
 
-createRoot(document.getElementById('root')).render(<App />);
+async function loadApplication() {
+  const id = skillFromLocation();
+  const [response, initialPreview] = await Promise.all([
+    fetch('/catalog.json', { signal: AbortSignal.timeout(20000) }),
+    id ? fetch(`/documents/${id}.md`, { signal: AbortSignal.timeout(20000) })
+      .then(async result => result.ok ? { id, text: await result.text() } : null).catch(() => null) : null,
+  ]);
+  if (!response.ok) throw new Error('Catalog unavailable');
+  const initialCatalog = await response.json();
+  if (!Array.isArray(initialCatalog.skills) || !Array.isArray(initialCatalog.categories) || !Number.isInteger(initialCatalog.total)) throw new Error('Invalid catalog');
+  createRoot(document.getElementById('root')).render(<App initialCatalog={initialCatalog} initialPreview={initialPreview} />);
+}
+
+// Keep the readable page available until JSON data is ready, including on failure.
+void loadApplication().catch(() => {
+  const notice = document.createElement('aside');
+  notice.className = 'startup-notice';
+  notice.setAttribute('role', 'status');
+  const message = document.createElement('p');
+  message.textContent = 'Interactive search could not load. You can still read the page, follow skill links and download files.';
+  const retry = document.createElement('button');
+  retry.type = 'button';
+  retry.className = 'button';
+  retry.textContent = 'Retry interactive search';
+  retry.addEventListener('click', () => { retry.disabled = true; void loadApplication().catch(() => { retry.disabled = false; }); });
+  notice.append(message, retry);
+  document.getElementById('root').prepend(notice);
+});

@@ -4,18 +4,31 @@ import catalog from '../registry/catalog.json' with { type: 'json' };
 import worker from '../worker/index.mjs';
 import { metadata, renderHead, skillMetadata, skillSchema, jsonForHtml } from '../site/seo.mjs';
 import { COLLECTIONS, GUIDES, ORIGIN } from '../site/content.mjs';
+import { parseFragment } from 'parse5';
+import { elements, attribute, withoutModuleEntry } from '../site/html-template.mjs';
 
-test('source descriptions cannot escape metadata, JSON-LD or bootstrap script elements', () => {
+test('source descriptions cannot escape metadata or JSON-LD script elements', () => {
   const description = 'A "skill" </script><script>alert(1)</script> & more $& \u2028';
   const skill = { ...catalog.skills[0], description };
   const head = renderHead(skillMetadata(skill), [skillSchema(skill)]);
-  assert.equal((head.match(/<script/g) || []).length, 1);
-  assert.equal((head.match(/<\/script>/g) || []).length, 1);
+  const scripts = elements(parseFragment(head), 'script');
+  assert.equal(scripts.length, 1);
   assert.ok(head.includes('&quot;skill&quot;'));
   assert.ok(head.includes('&lt;/script&gt;'));
-  assert.equal(JSON.parse(head.match(/<script[^>]*>([\s\S]*?)<\/script>/)[1])['@graph'][0].description, description);
+  assert.equal(JSON.parse(scripts[0].childNodes.map(node => node.value || '').join(''))['@graph'][0].description, description);
   assert.ok(!jsonForHtml({ text: description }).includes('</script>'));
   assert.equal(JSON.parse(jsonForHtml({ text: description })).text, description);
+});
+test('static templates remove module entries structurally and preserve inert structured data', () => {
+  const html = '<!doctype html><html><head><!-- SEO_HEAD --><SCRIPT\nTYPE="module" src="/app.js"></SCRIPT><link rel="modulepreload" href="/chunk.js"><script type="application/ld+json">{"name":"Example"}</script></head><body><div id="root"></div></body></html>';
+  const output = withoutModuleEntry(html);
+  const document = parseFragment(output);
+  const scripts = elements(document, 'script');
+  assert.equal(scripts.length, 1);
+  assert.equal(attribute(scripts[0], 'type'), 'application/ld+json');
+  assert.equal(elements(document, 'link').length, 0);
+  assert.ok(output.includes('<!-- SEO_HEAD -->'));
+  assert.ok(output.includes('<div id="root"></div>'));
 });
 
 test('metadata identifies the exact skill and does not present repository stars as ratings', () => {

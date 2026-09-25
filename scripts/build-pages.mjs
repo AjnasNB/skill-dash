@@ -6,7 +6,8 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { searchCatalog } from '../lib/search.mjs';
 import { ORIGIN, REPOSITORY, UPDATED, COLLECTIONS, GUIDES, FAQ, HOME_DESCRIPTION, prettyName, collectionFor } from '../site/content.mjs';
-import { escapeHtml as e, jsonForHtml, metadata, skillMetadata, renderHead, breadcrumbs, skillSchema, stripFrontmatter } from '../site/seo.mjs';
+import { escapeHtml as e, metadata, skillMetadata, renderHead, breadcrumbs, skillSchema, stripFrontmatter } from '../site/seo.mjs';
+import { withoutModuleEntry } from '../site/html-template.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const link = (href, text) => `<a href="${e(href)}">${e(text)}</a>`;
@@ -23,21 +24,18 @@ const guideMarkdown = guide => `# ${guide.title}\n\n${guide.intro}\n\n${guide.se
 export async function buildPublicPages(output, catalog) {
   const template = await fs.readFile(path.join(output, 'index.html'), 'utf8');
   if (!template.includes('<!-- SEO_HEAD -->') || !template.includes('<div id="root"></div>')) throw new Error('SEO template markers are missing.');
+  const readingTemplate = withoutModuleEntry(template);
   const featured = searchCatalog(catalog, { limit: 24 }).skills;
-  const bootstrap = skill => ({ catalog: { total: catalog.total, sourceCount: catalog.sourceCount, generatedAt: catalog.generatedAt, categories: catalog.categories, skills: skill && !featured.some(item => item.id === skill.id) ? [...featured, skill] : featured } });
-  const render = ({ meta, body, graph = [], interactive = false, initial = null, alternate = null }) => {
-    let html = template.replace('<!-- SEO_HEAD -->', () => renderHead(meta, graph) + '<link rel="stylesheet" href="/reading.css">' + (alternate ? `<link rel="alternate" type="text/markdown" href="${ORIGIN}${alternate}">` : ''))
-      .replace('<div id="root"></div>', () => `<div id="root">${body}</div>${initial ? `<script type="application/json" id="skill-library-bootstrap">${jsonForHtml(initial)}</script>` : ''}`);
-    if (!interactive) html = html.replace(/<script\b[^>]*type="module"[^>]*>[\s\S]*?<\/script>/g, '').replace(/<link\b[^>]*rel="modulepreload"[^>]*>/g, '');
-    return html;
-  };
+  const render = ({ meta, body, graph = [], interactive = false, alternate = null }) =>
+    (interactive ? template : readingTemplate).replace('<!-- SEO_HEAD -->', () => renderHead(meta, graph) + '<link rel="stylesheet" href="/reading.css">' + (alternate ? `<link rel="alternate" type="text/markdown" href="${ORIGIN}${alternate}">` : ''))
+      .replace('<div id="root"></div>', () => `<div id="root">${body}</div>`);
   const write = async (file, value) => { await fs.mkdir(path.dirname(path.join(output, file)), { recursive: true }); await fs.writeFile(path.join(output, file), value); };
   const staticPaths = [{ path: '/', lastmod: UPDATED }];
   const count = catalog.total.toLocaleString('en-US');
   const categoryLinks = `<section id="categories" class="library-explainer"><h2>Explore AI skills by category</h2><div class="topic-links">${COLLECTIONS.map(item => link(`/collections/${item.slug}`, item.category)).join('')}</div></section>`;
   const home = `${header}<main><section class="hero static-hero"><div class="hero-copy"><div class="open-label">OPEN SKILLS. ENDLESS POSSIBILITIES.</div><h1>Good agents.<br><span>Great AI skills.</span></h1><p>Search ${count} free AI agent skills. Read the instructions, copy a skill, or download its full folder for Codex, Claude Code and Delta Harness.</p></div><div class="home-start"><h2>Find a workflow for your next task</h2><p>${e(HOME_DESCRIPTION)}</p>${link('/guides/what-are-ai-agent-skills', 'Learn how AI skills work →')}</div></section><form class="search-box" action="/" role="search"><label for="static-search" class="sr-only">Search skills by name or description</label><input id="static-search" name="q" placeholder="What do you want your agent to do?"><button class="button" type="submit">Search</button></form><section class="reading-section"><h2>Discover your next skill</h2><p>${count} skills from ${catalog.sourceCount} source repositories. Star counts were recorded on ${e(catalog.generatedAt.slice(0, 10))} and belong to repositories, not individual skills.</p>${cards(featured)}${readingLinks([{ href: '/skills', label: `Browse all ${count} skills` }])}</section>${categoryLinks}${faqs()}</main>${footer}`;
   const website = { '@type': 'WebSite', '@id': `${ORIGIN}/#website`, name: 'Skill Library', alternateName: 'Agent Skill Library', url: `${ORIGIN}/`, description: HOME_DESCRIPTION, creator: { '@type': 'Person', name: 'Ajnas NB', url: 'https://github.com/AjnasNB' }, potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: `${ORIGIN}/?q={search_term_string}` }, 'query-input': 'required name=search_term_string' } };
-  await write('index.html', render({ meta: metadata(), body: home, graph: [website, itemList(featured)], interactive: true, initial: bootstrap() }));
+  await write('index.html', render({ meta: metadata(), body: home, graph: [website, itemList(featured)], interactive: true }));
 
   for (const guide of GUIDES) {
     const items = [{ name: 'Skill Library', path: '/' }, { name: guide.title, path: guide.path }];
@@ -83,9 +81,7 @@ export async function buildPublicPages(output, catalog) {
     }, stripFrontmatter(text)));
     const related = relatedByCategory.get(skill.category).filter(item => item.id !== skill.id).slice(0, 3);
     const body = `${header}<main class="reading-page static-skill">${trail(items)}<article><header class="reading-header"><span class="eyebrow">${e(skill.category)} · AI AGENT SKILL</span><h1>${e(prettyName(skill.name))}</h1><p class="reading-lead">${e(skill.description)}</p></header><dl class="source-facts"><div><dt>Source</dt><dd>${link(skill.sourceUrl, skill.repo)}</dd></div><div><dt>Repository stars</dt><dd>${Number(skill.stars).toLocaleString('en-US')} at the recorded check</dd></div><div><dt>Source checked</dt><dd>${e(skill.checkedAt.slice(0, 10))}</dd></div><div><dt>License</dt><dd>${e(skill.license)}</dd></div><div><dt>Pinned commit</dt><dd><code>${e(skill.revision)}</code></dd></div></dl><section class="reading-section"><h2>Install this skill</h2><p>Choose an agent. Project installs use .agents/skills for Codex or .claude/skills for Claude Code. Delta uses the personal library. Review required tools in the instructions below.</p><pre><code>npx agent-skill-library install ${skill.id} --agent codex\nnpx agent-skill-library install ${skill.id} --agent claude\nnpx agent-skill-library install ${skill.id} --agent delta --global</code></pre><div class="reading-actions"><a class="button button-green" href="/bundles/${skill.id}.zip" download>Download complete ZIP</a>${link(`/documents/${skill.id}.md`, 'Read raw SKILL.md')}${link(`/manifests/${skill.id}.json`, 'Inspect checksums')}</div><p>The archive contains ${skill.fileCount} files, including supporting resources and license notices. Copying SKILL.md alone does not include these resources. ${link('/guides/skill-safety', 'Review skills before use.')}</p></section><section class="reading-section"><h2>Skill instructions</h2><div class="markdown">${markdown}</div></section><section class="reading-section"><h2>Related ${e(skill.category.toLowerCase())} skills</h2>${cards(related)}${readingLinks([{ href: `/collections/${collection.slug}`, label: `Browse ${skill.category.toLowerCase()} skills` }, { href: '/guides/codex-skills', label: 'Codex installation guide' }, { href: '/guides/claude-code-skills', label: 'Claude Code installation guide' }])}</section></article></main>${footer}`;
-    const initial = bootstrap(skill);
-    initial.preview = { id: skill.id, text };
-    await write(`skills/${skill.id}.html`, render({ meta: skillMetadata(skill), body, graph: [breadcrumbs(items), skillSchema(skill)], interactive: true, initial, alternate: `/documents/${skill.id}.md` }));
+    await write(`skills/${skill.id}.html`, render({ meta: skillMetadata(skill), body, graph: [breadcrumbs(items), skillSchema(skill)], interactive: true, alternate: `/documents/${skill.id}.md` }));
   }
 
   await write('404.html', render({ meta: metadata({ title: 'Page not found | Skill Library', robots: 'noindex, follow' }), body: `${header}<main class="reading-page"><header class="reading-header"><h1>That page is not in the library.</h1><p class="reading-lead">The skill or guide may have moved. Search the current catalog or browse a category.</p>${readingLinks([{ href: '/', label: 'Search Skill Library' }, { href: '/skills', label: 'Browse all AI agent skills' }])}</header>${categoryLinks}</main>${footer}` }));

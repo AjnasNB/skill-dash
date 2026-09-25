@@ -31,10 +31,13 @@ that phrase.
 
 `scripts/build-pages.mjs` produces readable HTML using the pinned catalog and
 instruction files. The same response is served to users and crawlers. The
-homepage and skill pages progressively load the interactive React interface;
+homepage and skill pages keep their readable HTML while the interactive React
+interface loads catalog data directly from its JSON endpoint;
 guides, category hubs and directory pages do not require application JavaScript.
 Upstream Markdown is rendered with `react-markdown`, and metadata/JSON payloads
-are escaped. No user-agent cloaking or executable upstream HTML is used.
+are escaped. HTML templates and verification use `parse5`; rendered DOM text is
+not reused as application data. No user-agent cloaking or executable upstream
+HTML is used.
 
 Skill cards are ordinary links, including in the interactive app. Directory
 pagination links to all entries. Skill pages and guides have a single canonical,
@@ -73,7 +76,7 @@ npm run test:copy-seo
 ```
 
 The generated-page check verifies every canonical, unique title, JSON-LD payload,
-skill source revision, full instruction bootstrap, sitemap entry and directory
+skill source revision, readable instructions, sitemap entry and directory
 link. The copy tests cover the visible button state after real clipboard writes,
 delayed writes, denied access, repeat clicks, command changes and reduced motion.
 The clean-download CI job runs the generated-page check after reconstruction.
