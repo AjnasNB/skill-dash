@@ -6,7 +6,7 @@ import { createHash } from 'node:crypto';
 import { Readable, Transform } from 'node:stream';
 import { pipeline } from 'node:stream/promises';
 import * as tar from 'tar';
-import { zipSync } from 'fflate';
+import { createSkillArchive } from './skill-archive.mjs';
 const root = path.resolve(import.meta.dirname, '..'), cache = path.join(root, '.cache');
 const catalog = JSON.parse(await fs.readFile(path.join(root, 'registry/catalog.json'), 'utf8'));
 const digest = value => createHash('sha256').update(value).digest('hex');
@@ -47,7 +47,7 @@ for (const [key, manifests] of groups) {
       bundle[`${skill.name}/${file.path}`] = [data, { os: 3, attrs: (file.mode || 0o644) << 16 }];
     }
     bundle[`${skill.name}/SKILL-SOURCE.json`] = Buffer.from(JSON.stringify({ ...skill, instruction: 'Original upstream files. Supporting scripts are not executed by the library.' }, null, 2));
-    const zip = zipSync(bundle, { level: 6, mtime: new Date('2020-01-01T00:00:00Z') });
+    const zip = createSkillArchive(bundle);
     if (digest(zip) !== manifest.archiveSha256) throw new Error(`Archive reproducibility failure: ${skill.id}`);
     await fs.writeFile(path.join(cache, 'bundles', `${skill.id}.zip`), zip);
     await fs.writeFile(path.join(cache, 'documents', `${skill.id}.md`), source.get(manifest.files.find(file => file.path === 'SKILL.md').sourcePath));

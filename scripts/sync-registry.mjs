@@ -7,7 +7,7 @@ import { Readable, Transform } from 'node:stream';
 import { pipeline } from 'node:stream/promises';
 import * as tar from 'tar';
 import { parse } from 'yaml';
-import { zipSync } from 'fflate';
+import { createSkillArchive } from './skill-archive.mjs';
 import { categoryFor, words } from '../lib/search.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
@@ -170,7 +170,7 @@ for (const source of config.sources) {
       const bundle = {};
       for (const [file, sourcePath] of output) bundle[`${skill.name}/${file}`] = [files.get(sourcePath), { os: 3, attrs: files.modes.get(sourcePath) << 16 }];
       bundle[`${skill.name}/SKILL-SOURCE.json`] = Buffer.from(JSON.stringify({ ...skill, instruction: 'Original upstream files. Supporting scripts are not executed by the library.' }, null, 2));
-      const zip = zipSync(bundle, { level: 6, mtime: new Date('2020-01-01T00:00:00Z') });
+      const zip = createSkillArchive(bundle);
       manifest.archiveSha256 = sha(zip);
       await Promise.all([
         fs.writeFile(path.join(staging, 'manifests', `${id}.json`), JSON.stringify(manifest)),

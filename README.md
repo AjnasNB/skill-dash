@@ -127,3 +127,9 @@ Frontend-only development is available through `npm run dev:web`; full API and s
 See [THIRD-PARTY.md](THIRD-PARTY.md), [the source configuration](registry/sources.json), and [the sync report](registry/sync-summary.json). The library code is MIT; upstream skills retain their own licenses. The generic SKILL.md format travels between clients, but specialized skills may still require their own runtimes, tools, credentials, or subscriptions.
 
 The locally distributed Brag skill is not republished here: its public upstream and bundled audio redistribution rights were not established. Search for “brag” or “launch video” to discover the licensed Hyperframes video workflows. Delta can also discover a user's existing local Brag installation.
+
+## Contribute and report security issues
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for source submissions and development,
+[the branch policy](.github/REPOSITORY-SECURITY.md) for protected pull/push workflows,
+and [SECURITY.md](SECURITY.md) for private vulnerability reports.
