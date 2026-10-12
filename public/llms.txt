@@ -91,7 +91,7 @@ Public reviewed AI directory: GET /api/community/listings?q=agent&type=mcp
 Qarinah project memory stays local and is not exposed by this public MCP.
 
 Command: npx
-Arguments: ["-y", "agent-skill-library", "mcp"]
+Arguments: ["-y", "https://github.com/AjnasNB/skill-dash/releases/download/v0.3.0/agent-skill-library-0.3.0.tgz", "mcp"]
 Read-only tools: search_skills, read_skill, plan_skill_install, search_listings.
 
 ## Submit
