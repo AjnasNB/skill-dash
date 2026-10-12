@@ -83,6 +83,30 @@ Unmanaged skills are never overwritten. An existing managed revision needs `--fo
 
 ## MCP
 
+Connect the public SkillDash MCP once for every project on this computer:
+
+```sh
+npx agent-skill-library connect --host all --global
+```
+
+The connector merges a read-only HTTP server into the personal configurations for Codex, Claude Code, Cursor and Antigravity. It preserves other servers and settings, backs up changed files beside their original, refuses disabled or conflicting entries, and can be previewed with `--dry-run`. Refresh or restart your host after setup. No API key or local server process is required.
+
+Endpoint: **https://skills.maqamagent.com/mcp**. Tools: `search_skills`, `read_skill`, `plan_skill_install`, and `search_listings`. Skills retain source revisions, SHA-256 checksums, supporting resources and licenses. Directory search returns only published, reviewed AI products, plugins, libraries, MCP servers, skills and tools. A listing review is not a security certification.
+
+For a repository-based cloud workspace, run the command without `--global` and commit the four generated client configurations. Host trust or approval steps still apply. A remote machine has its own settings; a personal install on your laptop is not copied to it automatically. Hosted chat products require their own MCP connector configuration.
+
+```sh
+npx agent-skill-library connect --host all --cwd /path/to/project
+npx agent-skill-library connect --host claude,cursor --global --dry-run --json
+npx agent-skill-library doctor --host all --global --json
+```
+
+The global paths are `~/.codex/config.toml`, `~/.claude.json`, `~/.cursor/mcp.json` and `~/.gemini/config/mcp_config.json`. Project paths are `.codex/config.toml`, `.mcp.json`, `.cursor/mcp.json` and `.agents/mcp_config.json`. Antigravity remote entries use `serverUrl`; Claude Code entries use `type: "http"` and `url`.
+
+SkillDash provides public discovery context. Qarinah keeps opted-in project memory locally. Connecting SkillDash does not upload project history or grant access to private computer files.
+
+### Local stdio alternative
+
 ```json
 {
   "mcpServers": {
@@ -94,7 +118,7 @@ Unmanaged skills are never overwritten. An existing managed revision needs `--fo
 }
 ```
 
-The stdio server provides `search_skills`, `read_skill`, and `plan_skill_install`. It inspects and plans; it does not execute downloaded instructions or write installations. Configure the command in your client's MCP settings. No service API key is required.
+The stdio server provides the same four tools. Skill search works from the packaged catalog; directory listing search needs the public website. It inspects and plans; it does not execute downloaded instructions or write installations. Configure the command in your client's MCP settings. No service API key is required.
 
 ## Public API and submissions
 

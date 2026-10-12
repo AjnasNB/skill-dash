@@ -3,6 +3,7 @@ import { searchCatalog } from '../lib/search.mjs';
 import { COLLECTIONS, GUIDES } from '../site/content.mjs';
 import { communityApi, communityPage, deliverNotifications } from './community.mjs';
 import packageInfo from '../package.json' with { type: 'json' };
+import { handleMcp, readPublishedSkill } from './mcp.mjs';
 
 const byId = new Map(catalog.skills.map(skill => [skill.id, skill]));
 const canonical = 'https://skills.maqamagent.com';
@@ -85,6 +86,13 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     try {
+      if (url.pathname === '/mcp') return await handleMcp(request, { catalog, readSkill: skill => readPublishedSkill(env, skill), searchListings: async args => {
+        const listingUrl = new URL('/api/community/listings', canonical); listingUrl.searchParams.set('q', args.query);
+        if (args.type) listingUrl.searchParams.set('type', args.type);
+        const response = await communityApi(new Request(listingUrl), env);
+        if (!response?.ok) throw new Error('Directory search is unavailable.');
+        const value = await response.json(); return { ...value, listings: value.listings.slice(0,args.limit) };
+      } });
       const community = await communityApi(request, env, ctx) || await communityPage(request, env);
       if (community) return community;
       if (request.method === 'OPTIONS' && url.pathname.startsWith('/api/')) return new Response(null, { status: 204, headers: { ...headers, 'Access-Control-Allow-Methods': 'GET, POST, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type', 'Access-Control-Max-Age': '86400' } });

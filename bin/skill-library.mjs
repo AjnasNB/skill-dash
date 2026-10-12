@@ -15,6 +15,9 @@ const help = `Skill Library — searchable skills for Codex, Claude Code, and De
   skill-library list --agent claude --global [--json]
   skill-library submit <github-repo-url> --path skills/my-skill
   skill-library mcp
+  skill-library connect --host all --global [--dry-run] [--json]
+  skill-library connect --host all --cwd <project-folder>
+  skill-library doctor --host all --global [--json]
 
 Targets: codex, claude, delta, all. Codex/Claude default to this project.
 Delta requires --global. Use --cwd <folder> for a different project.
@@ -35,6 +38,7 @@ try {
       json: { type: 'boolean' }, global: { type: 'boolean', short: 'g' }, force: { type: 'boolean' },
       'dry-run': { type: 'boolean' }, content: { type: 'boolean' },
       agent: { type: 'string' }, cwd: { type: 'string' }, limit: { type: 'string' },
+      host: { type: 'string' },
       category: { type: 'string' }, sort: { type: 'string' }, path: { type: 'string' },
     },
   });
@@ -48,6 +52,13 @@ try {
   } else if (command === 'mcp') {
     const { startMcp } = await import('../lib/mcp.mjs');
     await startMcp();
+  } else if (command === 'connect') {
+    const { connectHosts } = await import('../lib/connect.mjs');
+    output(await connectHosts({ host: values.host || 'all', global: Boolean(values.global), dryRun: Boolean(values['dry-run']), cwd: values.cwd ? path.resolve(values.cwd) : process.cwd() }));
+  } else if (command === 'doctor') {
+    const { libraryDoctor } = await import('../lib/doctor.mjs');
+    const report = await libraryDoctor({host:values.host || 'all',global:Boolean(values.global),cwd:values.cwd ? path.resolve(values.cwd):process.cwd()});
+    output(report); if(report.status!=='ready')process.exitCode=1;
   } else if (command === 'search') {
     const catalog = await loadCatalog();
     const results = searchCatalog(catalog, { query: rest.join(' '), category: values.category, sort: values.sort, limit: Number(values.limit || 10) });

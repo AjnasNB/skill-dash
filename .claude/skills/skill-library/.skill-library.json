@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "skill-library-discovery",
+  "repo": "AjnasNB/skill-dash",
+  "revision": "c036c29863ec31194d8ec165ae7d8a2ae18383443df28ac12a58edffe4ead063",
+  "installedAt": "2026-10-12T10:20:23.975Z",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "c036c29863ec31194d8ec165ae7d8a2ae18383443df28ac12a58edffe4ead063"
+    }
+  ]
+}

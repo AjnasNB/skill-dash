@@ -1,0 +1,15 @@
+import fs from 'node:fs/promises';
+import packageInfo from '../package.json' with { type:'json' };
+const root = new URL('../', import.meta.url);
+const schemaPath = new URL('public/openapi.json',root);
+const schema = JSON.parse(await fs.readFile(schemaPath,'utf8'));
+schema.info.version = packageInfo.version;
+schema.paths['/mcp'] = { post: { operationId:'callPublicMcp', summary:'Read-only public SkillDash MCP over stateless Streamable HTTP', description:'JSON-RPC MCP transport. Initialize with a compatible MCP client, then call search_skills, read_skill, plan_skill_install or search_listings. Request bodies are bounded to 8 KiB. This endpoint does not install files or expose project memory.', requestBody:{required:true,content:{'application/json':{schema:{type:'object',required:['jsonrpc','method'],properties:{jsonrpc:{const:'2.0'},method:{type:'string'},id:{},params:{type:'object'}}}}}},responses:{'200':{description:'JSON-RPC response'},'202':{description:'Notification accepted'},'400':{description:'Invalid protocol message'},'413':{description:'Request exceeds 8 KiB'}} } };
+await fs.writeFile(schemaPath,JSON.stringify(schema,null,2)+'\n');
+const uiPath = new URL('web/main.jsx',root);
+let ui = await fs.readFile(uiPath,'utf8');
+ui = ui.replace('One npm package. No API key. Search works offline from the published catalog.','One public MCP endpoint for skills, products, plugins and libraries. No API key.');
+ui = ui.replace('npx agent-skill-library setup --agent all --global','npx agent-skill-library connect --host all --global');
+ui = ui.replace('<h3>Connect an MCP client</h3>','<h3>Connect once across local projects</h3><CodeBlock text={\'https://skills.maqamagent.com/mcp\'} /><p>The connect command supports personal MCP settings for the desktop coding agent, Claude Code, Cursor and Antigravity. Refresh your host after setup. For cloud workspaces, omit --global in a repository and commit the generated client configurations. <a href="/for-agents">Complete setup guide</a>.</p><h3>Local stdio alternative</h3>');
+ui = ui.replace('The MCP server exposes search, inspection, and installation planning. It does not run skill scripts.','The MCP exposes skill search, checksum-verified inspection, installation planning and reviewed AI-directory search. Installation is performed separately by the local installer.');
+await fs.writeFile(uiPath,ui);

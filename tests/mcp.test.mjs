@@ -11,7 +11,7 @@ test('installed CLI negotiates its package version and validates bounded MCP sea
     await client.connect(new StdioClientTransport({ command: process.execPath, args: [fileURLToPath(new URL('../bin/skill-library.mjs', import.meta.url)), 'mcp'] }));
     assert.equal(client.getServerVersion().version, packageInfo.version);
     const tools = await client.listTools();
-    assert.deepEqual(tools.tools.map(tool => tool.name).sort(), ['plan_skill_install', 'read_skill', 'search_skills']);
+    assert.deepEqual(tools.tools.map(tool => tool.name).sort(), ['plan_skill_install', 'read_skill', 'search_listings', 'search_skills']);
     const result = await client.callTool({ name: 'search_skills', arguments: { query: 'make a launch video', limit: 1 } });
     assert.ok(!result.isError);
     const data = JSON.parse(result.content.find(item => item.type === 'text').text);

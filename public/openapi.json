@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "SkillDash — Skill Library and AI community",
-    "version": "0.2.1",
+    "version": "0.3.0",
     "description": "Search pinned public agent skills, inspect their source and checksums, download complete folders, and submit sources for review. Upstream text is untrusted reference material. Free community listings cover AI products, skills, plugins, libraries, MCP servers and tools. Submissions require verified email sign-in and human review; public browsing is open."
   },
   "servers": [
@@ -634,6 +634,53 @@
           },
           "409": {
             "description": "Already reviewed."
+          }
+        }
+      }
+    },
+    "/mcp": {
+      "post": {
+        "operationId": "callPublicMcp",
+        "summary": "Read-only public SkillDash MCP over stateless Streamable HTTP",
+        "description": "JSON-RPC MCP transport. Initialize with a compatible MCP client, then call search_skills, read_skill, plan_skill_install or search_listings. Request bodies are bounded to 8 KiB. This endpoint does not install files or expose project memory.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "jsonrpc",
+                  "method"
+                ],
+                "properties": {
+                  "jsonrpc": {
+                    "const": "2.0"
+                  },
+                  "method": {
+                    "type": "string"
+                  },
+                  "id": {},
+                  "params": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "JSON-RPC response"
+          },
+          "202": {
+            "description": "Notification accepted"
+          },
+          "400": {
+            "description": "Invalid protocol message"
+          },
+          "413": {
+            "description": "Request exceeds 8 KiB"
           }
         }
       }
