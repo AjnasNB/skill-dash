@@ -1,133 +1,157 @@
 {
-  "generatedAt": "2026-09-24T09:18:44.317Z",
-  "total": 3882,
+  "generatedAt": "2026-10-12T11:14:06.196Z",
+  "total": 5126,
   "sources": [
     {
       "repo": "anthropics/skills",
-      "revision": "34040c9c568585f6929bedeaad110ad08f079624",
-      "stars": 177875,
-      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "revision": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "stars": 180639,
+      "checkedAt": "2026-10-12T11:14:06.196Z",
       "added": 14,
       "discovered": 19
     },
     {
       "repo": "openai/skills",
       "revision": "49f948faa9258a0c61caceaf225e179651397431",
-      "stars": 27597,
-      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "stars": 28014,
+      "checkedAt": "2026-10-12T11:14:06.196Z",
       "added": 31,
       "discovered": 39
     },
     {
-      "repo": "cloudflare/skills",
-      "revision": "6dc7604903127485e7e4cb26314651ebd4a4df19",
-      "stars": 2897,
-      "checkedAt": "2026-09-24T09:18:44.317Z",
-      "added": 14,
-      "discovered": 14
-    },
-    {
       "repo": "heygen-com/hyperframes",
-      "revision": "58c873d8161d6a2357eacf89a540bfecc359349b",
-      "stars": 52761,
-      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "revision": "86521b94f592bcf0ca86aba63068893cf658af16",
+      "stars": 61369,
+      "checkedAt": "2026-10-12T11:14:06.196Z",
       "added": 21,
       "discovered": 21
     },
     {
       "repo": "obra/superpowers",
-      "revision": "5bf4e78011075bcfc0dc295f0724994cd123ee71",
-      "stars": 290926,
-      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "revision": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+      "stars": 297960,
+      "checkedAt": "2026-10-12T11:14:06.196Z",
       "added": 15,
       "discovered": 15
     },
     {
       "repo": "pbakaus/impeccable",
-      "revision": "e0881d2de397d5e9761d7b35ff5017d8f5ebf69b",
-      "stars": 70566,
-      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "revision": "919dbeba520df760a157fe635be62faae88d58da",
+      "stars": 80082,
+      "checkedAt": "2026-10-12T11:14:06.196Z",
       "added": 1,
       "discovered": 1
     },
     {
       "repo": "coreyhaines31/marketingskills",
-      "revision": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
-      "stars": 51366,
-      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "revision": "1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff",
+      "stars": 54287,
+      "checkedAt": "2026-10-12T11:14:06.196Z",
       "added": 50,
       "discovered": 50
     },
     {
       "repo": "mattpocock/skills",
-      "revision": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
-      "stars": 268729,
-      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "revision": "49dd158d1076134a641b33efb035946536778336",
+      "stars": 287125,
+      "checkedAt": "2026-10-12T11:14:06.196Z",
       "added": 38,
       "discovered": 38
     },
     {
       "repo": "addyosmani/agent-skills",
-      "revision": "bcab6a1b8503100e8618c3b4e32cc78de43de769",
-      "stars": 98780,
-      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "revision": "1be8e34187e34647bb83adc3a1323b26ae6f6abe",
+      "stars": 105293,
+      "checkedAt": "2026-10-12T11:14:06.196Z",
       "added": 25,
       "discovered": 25
     },
     {
       "repo": "affaan-m/ECC",
-      "revision": "bf70150eb2df8070024e5bdf08e4aa08959e2735",
-      "stars": 266395,
-      "checkedAt": "2026-09-24T09:18:44.317Z",
-      "added": 292,
-      "discovered": 292
+      "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+      "stars": 277532,
+      "checkedAt": "2026-10-12T11:14:06.196Z",
+      "added": 310,
+      "discovered": 311
     },
     {
       "repo": "github/awesome-copilot",
-      "revision": "1f5644080a525d26a2e24f61a7609fb9b261c21a",
-      "stars": 39345,
-      "checkedAt": "2026-09-24T09:18:44.317Z",
-      "added": 438,
-      "discovered": 438
+      "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+      "stars": 39944,
+      "checkedAt": "2026-10-12T11:14:06.196Z",
+      "added": 442,
+      "discovered": 442
     },
     {
       "repo": "alirezarezvani/claude-skills",
       "revision": "19392f7a08264ed00486a251f5b2098321771f94",
-      "stars": 26382,
-      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "stars": 28045,
+      "checkedAt": "2026-10-12T11:14:06.196Z",
       "added": 376,
       "discovered": 388
     },
     {
       "repo": "Jeffallan/claude-skills",
-      "revision": "882ef55e377dbf9a4dbe496bb41ac6ccd0e555cf",
-      "stars": 11598,
-      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "revision": "1be15d8064f88fc25216442406d40add8fd23b53",
+      "stars": 11835,
+      "checkedAt": "2026-10-12T11:14:06.196Z",
       "added": 67,
       "discovered": 67
     },
     {
       "repo": "phuryn/pm-skills",
-      "revision": "8607e3b077817f89bf4a9b623246219734ac3be0",
-      "stars": 26567,
-      "checkedAt": "2026-09-24T09:18:44.317Z",
+      "revision": "c68487d721e419ec87af1ae6412a842978eab785",
+      "stars": 26912,
+      "checkedAt": "2026-10-12T11:14:06.196Z",
       "added": 69,
       "discovered": 69
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
-      "revision": "21efc48cceaf0f7043fa496ad8fcd5815637121e",
-      "stars": 46853,
-      "checkedAt": "2026-09-24T09:18:44.317Z",
-      "added": 2431,
-      "discovered": 2450
+      "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+      "stars": 47492,
+      "checkedAt": "2026-10-12T11:14:06.196Z",
+      "added": 2657,
+      "discovered": 2676
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+      "stars": 48508,
+      "checkedAt": "2026-10-12T11:14:06.196Z",
+      "added": 177,
+      "discovered": 177
+    },
+    {
+      "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+      "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+      "stars": 34277,
+      "checkedAt": "2026-10-12T11:14:06.196Z",
+      "added": 818,
+      "discovered": 818
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "revision": "2d228630ba1446365f614a108cb8252f1feda202",
+      "stars": 45550,
+      "checkedAt": "2026-10-12T11:14:06.196Z",
+      "added": 15,
+      "discovered": 15
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "stars": 32271,
+      "checkedAt": "2026-10-12T11:14:06.196Z",
+      "added": 0,
+      "discovered": 9
     }
   ],
-  "excluded": 44,
+  "excluded": 54,
   "exclusionReasons": [
     {
       "reason": "No recognized redistributable license; retained outside the published catalog",
-      "count": 17
+      "count": 27
     },
     {
       "reason": "Duplicate instruction content",

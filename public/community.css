@@ -28,3 +28,10 @@
 .community-page button:disabled { opacity: .6; cursor: wait; }
 @media(max-width:800px) { .community-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } .community-filter { grid-template-columns: 1fr; } .community-filter label,.community-filter input,.community-filter select,.community-filter button { grid-row: auto; } .site-header nav { flex-wrap: wrap; } }
 @media(max-width:560px) { .community-grid { grid-template-columns: 1fr; } .community-page { padding-inline: 18px; } .community-card { padding: 18px; } .reading-actions { flex-wrap: wrap; } }
+
+.agent-fields,.contact-fields { display:grid; gap:12px; min-width:0; padding:20px; margin-block:20px; border:1px solid #dce5de; border-radius:8px; }
+.agent-fields legend,.contact-fields legend { font-weight:650; padding-inline:8px; }
+.agent-fields label { display:block; }
+.agent-fields input,.agent-fields textarea,.contact-fields input { width:100%; min-width:0; }
+.community-page dt { font-weight:650; margin-top:16px; }
+.community-page dd { margin-left:0; overflow-wrap:anywhere; }

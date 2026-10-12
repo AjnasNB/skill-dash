@@ -11,7 +11,11 @@ test('installed CLI negotiates its package version and validates bounded MCP sea
     await client.connect(new StdioClientTransport({ command: process.execPath, args: [fileURLToPath(new URL('../bin/skill-library.mjs', import.meta.url)), 'mcp'] }));
     assert.equal(client.getServerVersion().version, packageInfo.version);
     const tools = await client.listTools();
-    assert.deepEqual(tools.tools.map(tool => tool.name).sort(), ['plan_skill_install', 'read_skill', 'search_listings', 'search_skills']);
+    assert.deepEqual(tools.tools.map(tool => tool.name).sort(), ['get_library_info','plan_skill_install', 'read_skill', 'search_listings', 'search_skills','search_tools']);
+    const info=JSON.parse((await client.callTool({name:'get_library_info',arguments:{}})).content[0].text);
+    assert.equal(info.minimumRepositoryStars,10000);assert.ok(info.skillCount>=4000);assert.equal(info.submission.authentication.includes('email'),true);
+    const plugins=JSON.parse((await client.callTool({name:'search_tools',arguments:{type:'plugin',query:''}})).content[0].text);
+    assert.ok(plugins.tools.length>0);assert.ok(plugins.tools.every(tool=>tool.repositoryStars>=10000&&tool.documentationUrl.includes(tool.revision)));
     const result = await client.callTool({ name: 'search_skills', arguments: { query: 'make a launch video', limit: 1 } });
     assert.ok(!result.isError);
     const data = JSON.parse(result.content.find(item => item.type === 'text').text);

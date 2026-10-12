@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-12T11:20:09.943Z",
+  "minimumRepositoryStars": 10000,
+  "total": 7,
+  "tools": [
+    {
+      "repo": "modelcontextprotocol/servers",
+      "name": "MCP reference servers",
+      "type": "library",
+      "capabilities": [
+        "MCP reference implementations",
+        "server development"
+      ],
+      "id": "modelcontextprotocol--servers",
+      "repository": "https://github.com/modelcontextprotocol/servers",
+      "description": "Model Context Protocol Servers",
+      "repositoryStars": 91164,
+      "checkedAt": "2026-10-12T11:20:09.943Z",
+      "revision": "bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c",
+      "documentationUrl": "https://github.com/modelcontextprotocol/servers/tree/bbb701e7ac1e57f3edd1c2836b94c5457eaf7b9c",
+      "license": "NOASSERTION",
+      "access": "See the upstream documentation for host requirements, credentials and service pricing.",
+      "selection": "Curated public repository metadata; not a security certification."
+    },
+    {
+      "repo": "upstash/context7",
+      "name": "Context7",
+      "type": "mcp",
+      "capabilities": [
+        "library documentation",
+        "MCP context"
+      ],
+      "id": "upstash--context7",
+      "repository": "https://github.com/upstash/context7",
+      "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
+      "repositoryStars": 62922,
+      "checkedAt": "2026-10-12T11:20:09.943Z",
+      "revision": "522c4db4fa2e1e31f1b320f09fa8c8fab376987a",
+      "documentationUrl": "https://github.com/upstash/context7/tree/522c4db4fa2e1e31f1b320f09fa8c8fab376987a",
+      "license": "MIT",
+      "access": "See the upstream documentation for host requirements, credentials and service pricing.",
+      "selection": "Curated public repository metadata; not a security certification."
+    },
+    {
+      "repo": "microsoft/playwright-mcp",
+      "name": "Playwright MCP",
+      "type": "mcp",
+      "capabilities": [
+        "browser automation",
+        "web testing"
+      ],
+      "id": "microsoft--playwright-mcp",
+      "repository": "https://github.com/microsoft/playwright-mcp",
+      "description": "Playwright MCP server",
+      "repositoryStars": 38048,
+      "checkedAt": "2026-10-12T11:20:09.943Z",
+      "revision": "b8b4183e099f136cbec0388a6088d4aa2f6b9685",
+      "documentationUrl": "https://github.com/microsoft/playwright-mcp/tree/b8b4183e099f136cbec0388a6088d4aa2f6b9685",
+      "license": "Apache-2.0",
+      "access": "See the upstream documentation for host requirements, credentials and service pricing.",
+      "selection": "Curated public repository metadata; not a security certification."
+    },
+    {
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "name": "Chrome DevTools MCP",
+      "type": "mcp",
+      "capabilities": [
+        "Chrome debugging",
+        "web performance"
+      ],
+      "id": "chromedevtools--chrome-devtools-mcp",
+      "repository": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "repositoryStars": 53325,
+      "checkedAt": "2026-10-12T11:20:09.943Z",
+      "revision": "70076808cd94cabbcd27299d15deb291f22e26e0",
+      "documentationUrl": "https://github.com/ChromeDevTools/chrome-devtools-mcp/tree/70076808cd94cabbcd27299d15deb291f22e26e0",
+      "license": "Apache-2.0",
+      "access": "See the upstream documentation for host requirements, credentials and service pricing.",
+      "selection": "Curated public repository metadata; not a security certification."
+    },
+    {
+      "repo": "anthropics/claude-plugins-official",
+      "name": "Official Claude plugin directory",
+      "type": "plugin",
+      "capabilities": [
+        "plugin discovery",
+        "coding workflows"
+      ],
+      "id": "anthropics--claude-plugins-official",
+      "repository": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "repositoryStars": 37714,
+      "checkedAt": "2026-10-12T11:20:09.943Z",
+      "revision": "f359d43b406057f1a8cdbc4ea93b827642c162e6",
+      "documentationUrl": "https://github.com/anthropics/claude-plugins-official/tree/f359d43b406057f1a8cdbc4ea93b827642c162e6",
+      "license": "Apache-2.0",
+      "access": "See the upstream documentation for host requirements, credentials and service pricing.",
+      "selection": "Curated public repository metadata; not a security certification."
+    },
+    {
+      "repo": "vercel-labs/skills",
+      "name": "Skills CLI",
+      "type": "tool",
+      "capabilities": [
+        "skill discovery",
+        "skill installation"
+      ],
+      "id": "vercel-labs--skills",
+      "repository": "https://github.com/vercel-labs/skills",
+      "description": "The open agent skills tool - npx skills",
+      "repositoryStars": 33923,
+      "checkedAt": "2026-10-12T11:20:09.943Z",
+      "revision": "13e4063a1cf913f5606d57d42ab83a86f5001e04",
+      "documentationUrl": "https://github.com/vercel-labs/skills/tree/13e4063a1cf913f5606d57d42ab83a86f5001e04",
+      "license": "MIT",
+      "access": "See the upstream documentation for host requirements, credentials and service pricing.",
+      "selection": "Curated public repository metadata; not a security certification."
+    },
+    {
+      "repo": "LibreChat-AI/LibreChat",
+      "name": "LibreChat",
+      "type": "chatbot",
+      "capabilities": [
+        "chat interface",
+        "agent integrations"
+      ],
+      "id": "librechat-ai--librechat",
+      "repository": "https://github.com/LibreChat-AI/LibreChat",
+      "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+      "repositoryStars": 45566,
+      "checkedAt": "2026-10-12T11:20:09.943Z",
+      "revision": "e1dfc10449ff713faffacd60273fddcfe2c0a698",
+      "documentationUrl": "https://github.com/LibreChat-AI/LibreChat/tree/e1dfc10449ff713faffacd60273fddcfe2c0a698",
+      "license": "MIT",
+      "access": "See the upstream documentation for host requirements, credentials and service pricing.",
+      "selection": "Curated public repository metadata; not a security certification."
+    }
+  ]
+}

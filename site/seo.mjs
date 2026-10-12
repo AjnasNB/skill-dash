@@ -19,6 +19,9 @@ export function renderHead(meta, graph = []) {
 <meta name="description" content="${escapeHtml(meta.description)}">
 <meta name="robots" content="${escapeHtml(meta.robots)}">
 <link rel="canonical" href="${escapeHtml(meta.url)}">
+<link rel="alternate" type="text/markdown" href="${ORIGIN}/agent.md" title="SkillDash agent instructions">
+<link rel="describedby" type="application/json" href="${ORIGIN}/.well-known/agent.json">
+<link rel="service-desc" type="application/vnd.oai.openapi+json" href="${ORIGIN}/openapi.json">
 <meta property="og:site_name" content="SkillDash">
 <meta property="og:title" content="${escapeHtml(meta.title)}">
 <meta property="og:description" content="${escapeHtml(meta.description)}">

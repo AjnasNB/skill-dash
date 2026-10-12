@@ -82,8 +82,8 @@ executes upstream helper scripts.
 ## MCP
 
 Public Streamable HTTP endpoint: https://skills.maqamagent.com/mcp
-Connect all supported local hosts: npx --yes https://github.com/AjnasNB/skill-dash/releases/download/v0.3.0/agent-skill-library-0.3.0.tgz connect --host all --global
-Project and cloud-compatible config: npx --yes https://github.com/AjnasNB/skill-dash/releases/download/v0.3.0/agent-skill-library-0.3.0.tgz connect --host all
+Connect all supported local hosts: npx --yes https://github.com/AjnasNB/skill-dash/releases/download/v0.4.0/agent-skill-library-0.4.0.tgz connect --host all --global
+Project and cloud-compatible config: npx --yes https://github.com/AjnasNB/skill-dash/releases/download/v0.4.0/agent-skill-library-0.4.0.tgz connect --host all
 Hosts: Codex, Claude Code, Cursor, Antigravity. Refresh the host after setup.
 Configure each remote machine or hosted chat product separately.
 Tools: search_skills, read_skill, plan_skill_install, search_listings.
@@ -91,17 +91,25 @@ Public reviewed AI directory: GET /api/community/listings?q=agent&type=mcp
 Qarinah project memory stays local and is not exposed by this public MCP.
 
 Command: npx
-Arguments: ["-y", "https://github.com/AjnasNB/skill-dash/releases/download/v0.3.0/agent-skill-library-0.3.0.tgz", "mcp"]
+Arguments: ["-y", "https://github.com/AjnasNB/skill-dash/releases/download/v0.4.0/agent-skill-library-0.4.0.tgz", "mcp"]
 Read-only tools: search_skills, read_skill, plan_skill_install, search_listings.
 
 ## Submit
 
-POST https://skills.maqamagent.com/api/submissions
-Content-Type: application/json
-{"repo":"https://github.com/owner/repository","path":"skills/name"}
+GET https://skills.maqamagent.com/api/submission-schema
+Form: https://skills.maqamagent.com/publish
+POST https://skills.maqamagent.com/api/community/listings with the owner-authorized email-link session.
+The CLI submit command prepares a prefilled owner-verification form.
 
 Submissions enter a review queue. They are not automatically published.
 Ten submissions per network per day. No authentication or private data required.
 
 API schema: https://skills.maqamagent.com/openapi.json
 Source: https://github.com/AjnasNB/skill-dash
+
+Agent-first entry point: https://skills.maqamagent.com/agent.md
+Machine manifest: https://skills.maqamagent.com/.well-known/agent.json
+Tool and plugin catalog: https://skills.maqamagent.com/api/tools
+Submission schema: https://skills.maqamagent.com/api/submission-schema
+Additional read-only MCP tools: get_library_info and search_tools. Chatbots are supported in reviewed community listings.
+Publication requires an owner-verified email and reviewer-defined agent compatibility and usage. Email receipts and review outcomes are sent transactionally. Phone is optional, private and unverified.

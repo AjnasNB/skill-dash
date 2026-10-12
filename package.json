@@ -1,6 +1,6 @@
 {
   "name": "agent-skill-library",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "SkillDash: free Skill Library, AI products, plugins and MCP directory with reviewed community submissions.",
   "type": "module",
   "license": "MIT",
@@ -29,6 +29,7 @@
     "bin/",
     "lib/",
     "registry/catalog.json",
+    "registry/agent-tools.json",
     "registry/manifests/",
     "skills/",
     "README.md",

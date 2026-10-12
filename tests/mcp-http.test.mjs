@@ -14,7 +14,7 @@ test('remote MCP negotiates, searches, reads resources and bounds all public too
     await client.connect(transport);
     assert.equal(client.getServerVersion().version,packageInfo.version);
     const tools=(await client.listTools()).tools;
-    assert.equal(tools.length,4);assert.ok(tools.every(t=>t.annotations.readOnlyHint));
+    assert.equal(tools.length,6);assert.ok(tools.every(t=>t.annotations.readOnlyHint));
     const query=await client.callTool({name:'search_skills',arguments:{query:'mcp',limit:2}});
     const found=JSON.parse(query.content[0].text);assert.equal(found.skills.length,2);
     const read=await client.callTool({name:'read_skill',arguments:{id:found.skills[0].id}});

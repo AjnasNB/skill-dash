@@ -1,5 +1,26 @@
 # SkillDash — the free Skill Library and AI directory
 
+Give an AI agent this link: https://skills.maqamagent.com/agent.md
+
+SkillDash is an agent-first software tool: **5,126 unique, licensed skill folders** from **17 repositories**, checked on October 12, 2026, plus a curated catalog of agent tools, plugins, libraries, MCP servers and chatbots. Downloadable sources require at least **10,000 repository stars** at the recorded check.
+
+```mermaid
+flowchart LR
+  Agent[AI agent] --> Guide[One agent link]
+  Guide --> Interfaces[MCP / API / CLI]
+  Interfaces --> Skills[Pinned skills + hashes + licenses]
+  Interfaces --> Tools[Tools + plugins + libraries + chatbots]
+  Skills --> Authorized[Inspect, then use with authorization]
+  Creator[Creator or owner-authorized agent] --> Email[Verify owner email]
+  Email --> Proposal[Public details + private contacts]
+  Proposal --> Review[Owner defines agent usage and reviews]
+  Review --> Published[Published listing + share link]
+  Proposal --> Receipt[Email receipt and review updates]
+```
+
+Machine manifest: https://skills.maqamagent.com/.well-known/agent.json
+
+
 An open skill marketplace, npm CLI, and read-only MCP server for **Codex**, **Claude Code**, and **Delta Harness**.
 
 SkillDash combines the curated Skill Library with a free community directory for **skills, AI products, plugins, libraries, MCP servers and tools**. Browse without an account. Verify your email to submit work and vote. Community submission has no minimum star count or listing fee.
@@ -14,11 +35,11 @@ The existing curated downloadable catalog keeps its recorded source-selection po
 
 Email sign-in uses a random one-time link expiring in 15 minutes. Only token hashes are stored. Production sessions use Secure, HttpOnly, SameSite cookies, expire after 14 days, and are revoked on sign-out. Account emails remain private.
 
-Cloudflare Email Service sends sign-in links and submission notifications through the `EMAIL` binding. New submissions alert `contact@cognifyr.co`; approved listings notify their owner. The sender is restricted to `skilldash@cognifyr.co` on the already-onboarded company domain. No additional API key is needed.
+Cloudflare Email Service sends sign-in links and submission notifications through the `EMAIL` binding. New submissions alert `contact@cognifyr.co`; approved listings notify their owner. Submission contacts are private and excluded from public APIs, MCP responses and published pages. The sender is restricted to `skilldash@cognifyr.co` on the already-onboarded company domain. No additional API key is needed.
 
 D1 stores submissions and a transactional notification outbox. The five-minute scheduled worker retries failed notifications with backoff and removes expired authentication and rate-limit records. The reviewer account sees the pending queue and notification failures at `/review` after verifying the configured `ADMIN_EMAIL`. Review outcomes are persisted before mail is attempted.
 
-Apply `migrations/0002_community.sql` before deploying version 0.2.0. The migration adds account, session, listing, vote and notification tables; it preserves the original submission queue. Local account/voting/review tests use the same SQL schema in SQLite with mocked email delivery. Production email delivery requires the Cloudflare sender domain and binding.
+Apply all D1 migrations before deploying. Version 0.4.0 adds `migrations/0003_agent_submissions.sql` for public agent usage details and private submission contacts. The migration adds account, session, listing, vote and notification tables; it preserves the original submission queue. Local account/voting/review tests use the same SQL schema in SQLite with mocked email delivery. Production email delivery requires the Cloudflare sender domain and binding.
 
 **[Browse the library](https://skills.maqamagent.com)** · [Agent instructions](https://skills.maqamagent.com/llms.txt) · [API schema](https://skills.maqamagent.com/openapi.json)
 
@@ -30,7 +51,7 @@ Search thousands of real skill folders by name, description, and related task vo
 [Skill safety](https://skills.maqamagent.com/guides/skill-safety) ·
 [Complete directory](https://skills.maqamagent.com/skills)
 
-Every catalog source is a public GitHub repository with **1,000+ repository stars** at the recorded check time. Stars belong to repositories, not individual skills. Source commits and file checksums are pinned. The catalog does not claim security certification or endorsement by source authors.
+Every catalog source is a public GitHub repository with **10,000+ repository stars** at the recorded check time. Stars belong to repositories, not individual skills. Source commits and file checksums are pinned. The catalog does not claim security certification or endorsement by source authors.
 
 ## Use from npm
 
@@ -120,7 +141,7 @@ SkillDash provides public discovery context. Qarinah keeps opted-in project memo
 }
 ```
 
-The stdio server provides the same four tools. Skill search works from the packaged catalog; directory listing search needs the public website. It inspects and plans; it does not execute downloaded instructions or write installations. Configure the command in your client's MCP settings. No service API key is required.
+The stdio server provides the same six tools. Skill search works from the packaged catalog; directory listing search needs the public website. It inspects and plans; it does not execute downloaded instructions or write installations. Configure the command in your client's MCP settings. No service API key is required.
 
 ## Public API and submissions
 
@@ -135,7 +156,7 @@ Skill routes: `/api/skills/{id}`, `/content`, `/manifest`, and `/download`. Dire
 npx agent-skill-library submit https://github.com/OWNER/REPO --path skills/NAME
 ```
 
-The website and CLI submit GitHub sources to a D1 review queue. Submissions are not automatically published. The collector checks repository stars, license files, valid frontmatter, source revisions, and complete supporting files before inclusion. Public submission is limited to ten per network per day. No raw IP or credentials are stored by the application; expiring hashes are used for rate limiting.
+The CLI prepares a prefilled owner-verification form. The website or an owner-authorized API client submits public details after verifying the owner email. A submission receipt and review outcomes go to that email. Phone is optional, private and unverified. The reviewer defines agent compatibility and usage before approving publication. The curated download collector separately checks the 10,000-star source policy, licenses, portable frontmatter, pinned revisions and complete supporting files. The legacy anonymous /api/submissions endpoint returns 410 with the new form and schema.
 
 Maintainers can inspect the queue with `npx wrangler d1 execute agent-skill-library --remote --command "SELECT id, repo, skill_path, status FROM submissions WHERE status = 'pending'"`, review the source, and add its approved prefix to `registry/sources.json`. Running `npm run sync` produces a reviewable catalog diff; commit and deploy only after checks pass.
 

@@ -7,7 +7,7 @@ import { validateListing, digest, deliverNotifications } from '../worker/communi
 const origin = 'https://skills.maqamagent.com';
 function fixture() {
   const db = new DatabaseSync(':memory:'); db.exec('PRAGMA foreign_keys = ON');
-  for (const file of ['0001_submissions.sql', '0002_community.sql']) db.exec(fs.readFileSync(new URL(`../migrations/${file}`, import.meta.url), 'utf8'));
+  for (const file of ['0001_submissions.sql', '0002_community.sql','0003_agent_submissions.sql']) db.exec(fs.readFileSync(new URL(`../migrations/${file}`, import.meta.url), 'utf8'));
   const wrap = sql => {
     let values = []; return { bind(...input) { values = input; return this; }, async first() { return db.prepare(sql).get(...values) || null; }, async all() { return { results: db.prepare(sql).all(...values) }; }, async run() { const info = db.prepare(sql).run(...values); return { meta: { changes: Number(info.changes) } }; }, execute() { const info = db.prepare(sql).run(...values); return { meta: { changes: Number(info.changes) } }; } };
   };
@@ -60,7 +60,7 @@ test('review approval gates publication, share pages, badges and idempotent acco
   assert.equal((await f.call(`/listings/${receipt.slug}`)).status, 404);
   assert.equal((await f.call('/api/community/review', undefined, owner.cookie)).status, 403);
   assert.equal((await f.call(`/api/community/review/${receipt.id}`, { status: 'published', note: 'Checked the public source.' }, admin.cookie)).status, 400);
-  const approval = { status: 'published', note: 'Checked source, public claims and rights.', checks: { source: true, details: true, rights: true } };
+  const approval = { status: 'published', note: 'Checked source, public claims and rights.', checks: { source: true, details: true, rights: true },agentDetails:{compatibility:'A client that reads the public tool documentation.',installation:'Read the source documentation and configure only with owner authorization.'} };
   assert.equal((await f.call(`/api/community/review/${receipt.id}`, approval, admin.cookie)).status, 200);
   assert.equal((await f.call(`/api/community/review/${receipt.id}`, approval, admin.cookie)).status, 409);
   const result = await (await f.call('/api/community/listings')).json(); assert.equal(result.total, 1); assert.equal(result.listings[0].verified, true); assert.equal(result.listings[0].email, undefined);
@@ -82,10 +82,31 @@ test('notification failures retain a durable retry and successful sends are not 
   await deliverNotifications(f.env); const delivered = f.db.prepare('SELECT * FROM notifications').get(); assert.equal(delivered.status, 'sent'); assert.equal(delivered.message_id, 'delivered');
   const count = f.mail.length; await deliverNotifications(f.env); assert.equal(f.mail.length, count); assert.equal(f.mail.at(-1).to, 'contact@cognifyr.co'); f.db.close();
 });
+test('private contacts stay reviewer-only, receipts reach the verified owner, and approval requires defined agent usage',async()=>{
+  const f=fixture(),owner=await f.signIn(),admin=await f.signIn('contact@cognifyr.co');
+  assert.equal((await f.call('/api/community/listings',{...listing,contactEmail:'wrong@example.com'},owner.cookie)).status,400);
+  const input={...listing,type:'chatbot',contactEmail:'creator@example.com',phone:'office phone - optional',agentDetails:{compatibility:'HTTP clients'}};
+  const submitted=await f.call('/api/community/listings',input,owner.cookie);assert.equal(submitted.status,202);const receipt=await submitted.json();assert.equal(receipt.receiptEmail,'queued');
+  const contact=f.db.prepare('SELECT * FROM listing_contacts WHERE listing_id = ?').get(receipt.id);assert.equal(contact.email,'creator@example.com');assert.equal(contact.phone_validation,'not-verified');
+  assert.equal((await f.call('/api/community/review',undefined,owner.cookie)).status,403);
+  const review=await (await f.call('/api/community/review',undefined,admin.cookie)).json();assert.equal(review.listings[0].contact_phone,'office phone - optional');
+  const approval={status:'published',note:'Source, details and rights checked.',checks:{source:true,details:true,rights:true}};
+  assert.equal((await f.call(`/api/community/review/${receipt.id}`,approval,admin.cookie)).status,400);
+  await deliverNotifications(f.env);const confirmation=f.mail.find(mail=>mail.subject.startsWith('We received your SkillDash submission'));assert.equal(confirmation.to,'creator@example.com');assert.ok(confirmation.text.includes('/account'));assert.ok(!confirmation.text.includes('office phone'));
+  assert.equal((await f.call(`/api/community/review/${receipt.id}`,{...approval,agentDetails:{compatibility:'HTTP client with owner-authorized credentials.',installation:'Read public documentation and configure a test environment first.'}},admin.cookie)).status,200);
+  const publicResponse=await (await f.call('/api/community/listings')).json();assert.equal(publicResponse.listings[0].agentDetails.compatibility,'HTTP client with owner-authorized credentials.');const publicText=JSON.stringify(publicResponse);assert.ok(!publicText.includes('creator@example.com'));assert.ok(!publicText.includes('office phone'));
+  await deliverNotifications(f.env);assert.ok(f.mail.some(mail=>mail.subject.startsWith('Your SkillDash listing is published')&&mail.to==='creator@example.com'));f.db.close();
+});
+test('a rejected submission sends an account review update without publishing a page',async()=>{
+  const f=fixture(),owner=await f.signIn(),admin=await f.signIn('contact@cognifyr.co');
+  const receipt=await (await f.call('/api/community/listings',listing,owner.cookie)).json();
+  assert.equal((await f.call(`/api/community/review/${receipt.id}`,{status:'rejected',note:'Source details need correction before review.'},admin.cookie)).status,200);
+  await deliverNotifications(f.env);assert.ok(f.mail.some(mail=>mail.subject.startsWith('Your SkillDash submission review')&&mail.text.includes('/account')));assert.equal((await f.call('/listings/'+receipt.slug)).status,404);f.db.close();
+});
 test('public pages escape user text and private account/review pages are never indexed or cached', async () => {
   const f = fixture(), owner = await f.signIn(), admin = await f.signIn('contact@cognifyr.co');
   const receipt = await (await f.call('/api/community/listings', { ...listing, name: '<script>alert(1)</script>', tagline: '<img src=x onerror=alert(1)> is unsafe text' }, owner.cookie)).json();
-  await f.call(`/api/community/review/${receipt.id}`, { status: 'published', note: 'Fixture reviewed for escaping.', checks: { source: true, details: true, rights: true } }, admin.cookie);
+  await f.call(`/api/community/review/${receipt.id}`, { status: 'published', note: 'Fixture reviewed for escaping.', checks: { source: true, details: true, rights: true },agentDetails:{compatibility:'HTTP clients',installation:'Use the documented public API.'} }, admin.cookie);
   const html = await (await f.call(`/listings/${receipt.slug}`)).text(); assert.ok(!html.includes('<script>alert(1)</script>')); assert.ok(html.includes('&lt;script&gt;'));
   for (const route of ['/account', '/review']) { const response = await f.call(route); assert.equal(response.headers.get('Cache-Control'), 'no-store'); assert.equal(response.headers.get('X-Robots-Tag'), 'noindex, follow'); }
   const sitemap = await (await f.call('/sitemaps/community.xml')).text(); assert.match(sitemap, new RegExp(receipt.slug)); assert.ok(!sitemap.includes('/account')); f.db.close();
