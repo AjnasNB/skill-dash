@@ -25,6 +25,7 @@ try {
   await expect(page.locator('dialog .markdown')).toContainText('Hyper');
   const reader = page.locator('dialog .markdown');
   const headerBefore = await page.locator('.dialog-header').boundingBox();
+  assert.ok(headerBefore.height < 400, 'A long description must leave room for the skill reader');
   assert.ok(await reader.evaluate(element => element.scrollHeight > element.clientHeight), 'Long instructions have their own scroll area');
   await reader.evaluate(element => { element.scrollTop = element.scrollHeight; });
   const headerAfter = await page.locator('.dialog-header').boundingBox();
