@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--designing-adversary-engagement-with-mitre-engage",
+    "name": "designing-adversary-engagement-with-mitre-engage",
+    "description": "Plan, run, and measure an adversary engagement operation using the MITRE Engage framework so that deployed deception is driven by strategy instead of deployed ad hoc. Covers the Engage Matrix (Prepare, Expose, Affect, Elicit, Understand), the 10-Step Operational Process, mapping engagement Activities to the ATT&CK techniques they expose, and defining measurable Goals and Operational Objectives. Use when a team has honeypots, honeytokens, or canary tokens but no coordinating strategy, when leadership asks \"should we engage attackers and how\", when building a deception/denial program, when writing an adversary engagement operation plan, or when deciding which deception Activities to deploy against a specific threat actor. Keywords: MITRE Engage, adversary engagement, cyber deception strategy, denial and deception, Engage Matrix, EAC, EGO, Expose Affect Elicit, deception program, honeypot strategy, engagement operation.",
+    "category": "Security",
+    "tags": [
+      "designing",
+      "adversary",
+      "engagement",
+      "mitre",
+      "engage",
+      "plan",
+      "run",
+      "measure",
+      "operation",
+      "framework",
+      "so",
+      "deployed",
+      "deception",
+      "is",
+      "driven",
+      "by",
+      "strategy",
+      "instead"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/designing-adversary-engagement-with-mitre-engage/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/designing-adversary-engagement-with-mitre-engage",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/designing-adversary-engagement-with-mitre-engage",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 37900,
+    "sha256": "6f9230b7a8d4c29657d053af7453080e8dd47dca39458e0f22741e999ccdd41c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/designing-adversary-engagement-with-mitre-engage/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/designing-adversary-engagement-with-mitre-engage/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/designing-adversary-engagement-with-mitre-engage/SKILL.md",
+      "bytes": 11862,
+      "sha256": "6f9230b7a8d4c29657d053af7453080e8dd47dca39458e0f22741e999ccdd41c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/designing-adversary-engagement-with-mitre-engage/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/designing-adversary-engagement-with-mitre-engage/assets/template.md",
+      "bytes": 3683,
+      "sha256": "94cc580a52262cef8386ca9e7fa8d7d3df4e0b1957cd3753b43a725ccb005a46",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/designing-adversary-engagement-with-mitre-engage/assets/template.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/designing-adversary-engagement-with-mitre-engage/references/standards.md",
+      "bytes": 4488,
+      "sha256": "fec4c38f054a2cc8b853339e359117d54c6bf23897058d6f5471509d3fab1c31",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/designing-adversary-engagement-with-mitre-engage/references/standards.md"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/designing-adversary-engagement-with-mitre-engage/scripts/process.py",
+      "bytes": 6612,
+      "sha256": "589b2aa8920abf5329c6d7b8a8b0e9d5d091fabbbc66825c8e37e855b1fd16e0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/designing-adversary-engagement-with-mitre-engage/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "a706837fc250d77ef54450540748cf734df867490c02de58ec8dd36d07dc567f"
+}

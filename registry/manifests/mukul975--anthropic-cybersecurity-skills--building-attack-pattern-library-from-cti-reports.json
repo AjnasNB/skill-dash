@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--building-attack-pattern-library-from-cti-reports",
+    "name": "building-attack-pattern-library-from-cti-reports",
+    "description": "Parse cyber threat intelligence reports (Mandiant, CrowdStrike, Talos, Microsoft) with stix2, mitreattack-python, and spaCy to extract adversary behaviors, map them to MITRE ATT&CK technique IDs, and build a searchable STIX 2.1 attack-pattern library with detection templates. Use when cataloging attack patterns from CTI reports for threat-informed detection engineering, or generating Sigma/YARA templates from documented behaviors.",
+    "category": "Security",
+    "tags": [
+      "building",
+      "attack",
+      "pattern",
+      "library",
+      "from",
+      "cti",
+      "reports",
+      "parse",
+      "cyber",
+      "threat",
+      "intelligence",
+      "mandiant",
+      "crowdstrike",
+      "talos",
+      "microsoft",
+      "stix2",
+      "mitreattack",
+      "python"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/building-attack-pattern-library-from-cti-reports/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/building-attack-pattern-library-from-cti-reports",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-attack-pattern-library-from-cti-reports",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 31633,
+    "sha256": "dafd1817515d49bdf882b869e63040bd2c67a2ae7de0a8a375f9bf3690797397",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/building-attack-pattern-library-from-cti-reports/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-attack-pattern-library-from-cti-reports/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/building-attack-pattern-library-from-cti-reports/SKILL.md",
+      "bytes": 13772,
+      "sha256": "dafd1817515d49bdf882b869e63040bd2c67a2ae7de0a8a375f9bf3690797397",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-attack-pattern-library-from-cti-reports/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/building-attack-pattern-library-from-cti-reports/references/api-reference.md",
+      "bytes": 1431,
+      "sha256": "2056c4671b5f8ee81a78a32f4cc38e7c67b7ed3315fcabdb8ba9ab8facea5b3d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-attack-pattern-library-from-cti-reports/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/building-attack-pattern-library-from-cti-reports/scripts/agent.py",
+      "bytes": 5175,
+      "sha256": "ce7fa99650a956611ead647af9b7c50890e7ccfe83805296610ffa91c51ad850",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-attack-pattern-library-from-cti-reports/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "6d38e1792e714ed3d8290610bbd0de712cf6d9d738a21ef93526ff36691d02d1"
+}

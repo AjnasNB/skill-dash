@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-hardware-security-module-integration",
+    "name": "performing-hardware-security-module-integration",
+    "description": "Integrates Hardware Security Modules (HSMs) via the PKCS#11 interface using python-pkcs11, performing key generation, signing, encryption, verification, and token/slot queries against SoftHSM2, AWS CloudHSM, or YubiHSM2. Use when implementing HSM-backed key management or validating HSM configuration for FIPS 140-2/3 compliance.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "hardware",
+      "security",
+      "module",
+      "integration",
+      "integrates",
+      "modules",
+      "hsms",
+      "via",
+      "pkcs#11",
+      "interface",
+      "python",
+      "pkcs11",
+      "key",
+      "generation",
+      "signing",
+      "encryption",
+      "verification"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-hardware-security-module-integration/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-hardware-security-module-integration",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-hardware-security-module-integration",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 25808,
+    "sha256": "5ccab906df39e0c0ffd68f847be98c7b5a80135801a0fc93329827aa04d1f37a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-hardware-security-module-integration/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-hardware-security-module-integration/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-hardware-security-module-integration/SKILL.md",
+      "bytes": 2465,
+      "sha256": "5ccab906df39e0c0ffd68f847be98c7b5a80135801a0fc93329827aa04d1f37a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-hardware-security-module-integration/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-hardware-security-module-integration/references/api-reference.md",
+      "bytes": 3126,
+      "sha256": "8d5002b2623e5637bb2f8ad5896be375aaa6d91125c77170580ecbd9da10890f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-hardware-security-module-integration/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-hardware-security-module-integration/scripts/agent.py",
+      "bytes": 8962,
+      "sha256": "25c3cb74a1e72171eb78a2b81120bd1f1f29ecd4e08bc051e8af3aa48fe5d204",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-hardware-security-module-integration/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "77cbdd400457a1989019199eec56d8b4aa2d370f826d9a7787b8d0eebcf62156"
+}

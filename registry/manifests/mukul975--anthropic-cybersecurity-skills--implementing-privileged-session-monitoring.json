@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-privileged-session-monitoring",
+    "name": "implementing-privileged-session-monitoring",
+    "description": "Implements privileged session monitoring and recording using PAM solutions, focusing on CyberArk Privileged Session Manager (PSM) and open-source alternatives, covering session recording configuration, keystroke logging, real-time monitoring, risk-based session analysis, and compliance audit trail generation. Use when configuring CyberArk PSM, recording administrator sessions, or building compliance audit trails for privileged access.",
+    "category": "Development",
+    "tags": [
+      "implementing",
+      "privileged",
+      "session",
+      "monitoring",
+      "implements",
+      "recording",
+      "pam",
+      "solutions",
+      "focusing",
+      "cyberark",
+      "manager",
+      "psm",
+      "open",
+      "source",
+      "alternatives",
+      "covering",
+      "configuration",
+      "keystroke"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-privileged-session-monitoring/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-privileged-session-monitoring",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-session-monitoring",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 33457,
+    "sha256": "8943bc59598cf98cbb8e406e64aba4b3e23a6cc2f6edd1950d83806fa79882f1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-privileged-session-monitoring/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-session-monitoring/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-privileged-session-monitoring/SKILL.md",
+      "bytes": 11918,
+      "sha256": "8943bc59598cf98cbb8e406e64aba4b3e23a6cc2f6edd1950d83806fa79882f1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-session-monitoring/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-privileged-session-monitoring/references/api-reference.md",
+      "bytes": 2069,
+      "sha256": "a6945a356bb362ffc8bbaf6a476de4c0b16ce00243b6196454dbe349568d08ff",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-session-monitoring/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-privileged-session-monitoring/scripts/agent.py",
+      "bytes": 8215,
+      "sha256": "0f03dfb0a754f363dbe880efe186eca40f3b06bcb1a1f81da80d1eb351f78dc0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-session-monitoring/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "134ab868079c1ffe2f40bcec2fbc580a0232631414da74cfacd6bd3e37878f59"
+}

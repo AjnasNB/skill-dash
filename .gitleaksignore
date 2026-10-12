@@ -1,0 +1,5 @@
+# Exact historical false positives from adjacent generated search tags.
+# The matched value is the ordinary English word underperformed, not a credential.
+# This does not exempt future commits, other rules, or other files.
+91f510f468c0bcc9656436f2e6132631aa149d62:registry/manifests/sickn33--agentic-awesome-skills--why-did-this-post-flop.json:linkedin-client-id:1
+91f510f468c0bcc9656436f2e6132631aa149d62:registry/catalog.json:linkedin-client-id:1

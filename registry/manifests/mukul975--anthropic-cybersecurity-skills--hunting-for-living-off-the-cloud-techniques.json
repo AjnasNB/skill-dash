@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-for-living-off-the-cloud-techniques",
+    "name": "hunting-for-living-off-the-cloud-techniques",
+    "description": "Hunts for adversary abuse of legitimate cloud services (Azure, AWS, GCP, and SaaS platforms) for command-and-control, data staging, and exfiltration, i.e. \"living off the cloud\" tradecraft that blends in with normal cloud API and service activity. Use when threat hunting for cloud-native C2 channels, abnormal use of storage/SaaS services for data staging, or exfiltration hidden in legitimate cloud traffic.",
+    "category": "Security",
+    "tags": [
+      "hunting",
+      "living",
+      "off",
+      "cloud",
+      "techniques",
+      "hunts",
+      "adversary",
+      "abuse",
+      "legitimate",
+      "services",
+      "azure",
+      "aws",
+      "gcp",
+      "saas",
+      "platforms",
+      "command",
+      "control",
+      "data"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-for-living-off-the-cloud-techniques/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-for-living-off-the-cloud-techniques",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-cloud-techniques",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 34108,
+    "sha256": "301f9148b2301da8a8005a30e59617b51af6ba84d1f1966bcece39c26a6895c4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-for-living-off-the-cloud-techniques/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-cloud-techniques/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-for-living-off-the-cloud-techniques/SKILL.md",
+      "bytes": 3697,
+      "sha256": "301f9148b2301da8a8005a30e59617b51af6ba84d1f1966bcece39c26a6895c4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-cloud-techniques/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/hunting-for-living-off-the-cloud-techniques/assets/template.md",
+      "bytes": 2664,
+      "sha256": "9a3e111b95adb414aa65ee3bdcc6bcce6e29a865f982e8c3985e909ca9243bdc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-cloud-techniques/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-for-living-off-the-cloud-techniques/references/api-reference.md",
+      "bytes": 2156,
+      "sha256": "6de879a0a200517ec0f4c43c1ebd76b1bdae807eac93ed5438dbd57f9d53f5da",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-cloud-techniques/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/hunting-for-living-off-the-cloud-techniques/references/standards.md",
+      "bytes": 1587,
+      "sha256": "80bb219aeeb62b8a6cd59df5e9b3c8f7308f68b28448826fd84a112ee928b269",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-cloud-techniques/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/hunting-for-living-off-the-cloud-techniques/references/workflows.md",
+      "bytes": 2994,
+      "sha256": "e86fe701fe95aff39ef58e61b9436eaaf8f92296c4d38d695d8a3471f2070cb9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-cloud-techniques/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-for-living-off-the-cloud-techniques/scripts/agent.py",
+      "bytes": 6106,
+      "sha256": "090c4a7fe46f400a5793958ed71117990a1588992aa7ea37200bccb627f3ea50",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-cloud-techniques/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/hunting-for-living-off-the-cloud-techniques/scripts/process.py",
+      "bytes": 3649,
+      "sha256": "dde4a221c8e93e9f795efcef844e77ec0a0b8e6bdf4879ec252fdd7de6085e7a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-cloud-techniques/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "e837dc4c328ddfa938ced922f36e48a927d2460252c905b8c1338ef76e501ced"
+}

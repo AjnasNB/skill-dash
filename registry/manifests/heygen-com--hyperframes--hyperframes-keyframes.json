@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"heygen-com--hyperframes--hyperframes-keyframes","name":"hyperframes-keyframes","description":"Use when a HyperFrames composition needs a punch-in, punch-out, zoom, reframe, Ken Burns treatment, camera move, visual match/whip handoff, or other seek-safe 2D/3D keyframes; also for GSAP, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning.","category":"Video & audio","tags":["hyperframes","keyframes","when","composition","needs","punch","out","zoom","reframe","ken","burns","treatment","camera","move","visual","match","whip","handoff"],"repo":"heygen-com/hyperframes","owner":"heygen-com","stars":52761,"official":true,"featured":false,"license":"Apache-2.0","licensePath":"LICENSE","revision":"58c873d8161d6a2357eacf89a540bfecc359349b","path":"skills/hyperframes-keyframes","sourceUrl":"https://github.com/heygen-com/hyperframes/tree/58c873d8161d6a2357eacf89a540bfecc359349b/skills/hyperframes-keyframes","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T06:32:31Z","fileCount":4,"bytes":33576,"sha256":"bf1c44010e4f1bd2e5df75c57abcd765eaa635d4ee8b39b41ef6707f130d73de","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/hyperframes-keyframes/SKILL.md","bytes":15901,"sha256":"bf1c44010e4f1bd2e5df75c57abcd765eaa635d4ee8b39b41ef6707f130d73de","mode":420,"url":"https://raw.githubusercontent.com/heygen-com/hyperframes/58c873d8161d6a2357eacf89a540bfecc359349b/skills/hyperframes-keyframes/SKILL.md"},{"path":"agents/openai.yaml","sourcePath":"skills/hyperframes-keyframes/agents/openai.yaml","bytes":220,"sha256":"1fbce5f9defa4c5f2d9e8cd7fad67566e21aba09e93a25e5836ebca62bd68f4b","mode":420,"url":"https://raw.githubusercontent.com/heygen-com/hyperframes/58c873d8161d6a2357eacf89a540bfecc359349b/skills/hyperframes-keyframes/agents/openai.yaml"},{"path":"references/keyframe-patterns.md","sourcePath":"skills/hyperframes-keyframes/references/keyframe-patterns.md","bytes":6692,"sha256":"727cbc8db92968e9a8c9e77434e6aa45ad4e938df577c86ba75d118aa7e6e88d","mode":420,"url":"https://raw.githubusercontent.com/heygen-com/hyperframes/58c873d8161d6a2357eacf89a540bfecc359349b/skills/hyperframes-keyframes/references/keyframe-patterns.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":10763,"sha256":"4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8","mode":420,"url":"https://raw.githubusercontent.com/heygen-com/hyperframes/58c873d8161d6a2357eacf89a540bfecc359349b/LICENSE"}],"archiveSha256":"6196f4c4d56ac8c94652b3af630b1b1ae967582f17d3ab43bb2d1d19a4e35d91"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "heygen-com--hyperframes--hyperframes-keyframes",
+    "name": "hyperframes-keyframes",
+    "description": "Use when a HyperFrames composition needs a punch-in, punch-out, zoom, reframe, Ken Burns treatment, camera move, visual match/whip handoff, or other seek-safe 2D/3D keyframes; also for GSAP, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning.",
+    "category": "Video & audio",
+    "tags": [
+      "hyperframes",
+      "keyframes",
+      "when",
+      "composition",
+      "needs",
+      "punch",
+      "out",
+      "zoom",
+      "reframe",
+      "ken",
+      "burns",
+      "treatment",
+      "camera",
+      "move",
+      "visual",
+      "match",
+      "whip",
+      "handoff"
+    ],
+    "repo": "heygen-com/hyperframes",
+    "owner": "heygen-com",
+    "stars": 61369,
+    "official": true,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "LICENSE",
+    "revision": "86521b94f592bcf0ca86aba63068893cf658af16",
+    "path": "skills/hyperframes-keyframes",
+    "sourceUrl": "https://github.com/heygen-com/hyperframes/tree/86521b94f592bcf0ca86aba63068893cf658af16/skills/hyperframes-keyframes",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:18:48Z",
+    "fileCount": 4,
+    "bytes": 33938,
+    "sha256": "d6484e8367ed522f2a89af9ec30ae3cd86ae243b5a23c5ab00a7a682e3d1a791",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hyperframes-keyframes/SKILL.md",
+      "bytes": 16263,
+      "sha256": "d6484e8367ed522f2a89af9ec30ae3cd86ae243b5a23c5ab00a7a682e3d1a791",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/86521b94f592bcf0ca86aba63068893cf658af16/skills/hyperframes-keyframes/SKILL.md"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sourcePath": "skills/hyperframes-keyframes/agents/openai.yaml",
+      "bytes": 220,
+      "sha256": "1fbce5f9defa4c5f2d9e8cd7fad67566e21aba09e93a25e5836ebca62bd68f4b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/86521b94f592bcf0ca86aba63068893cf658af16/skills/hyperframes-keyframes/agents/openai.yaml"
+    },
+    {
+      "path": "references/keyframe-patterns.md",
+      "sourcePath": "skills/hyperframes-keyframes/references/keyframe-patterns.md",
+      "bytes": 6692,
+      "sha256": "727cbc8db92968e9a8c9e77434e6aa45ad4e938df577c86ba75d118aa7e6e88d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/86521b94f592bcf0ca86aba63068893cf658af16/skills/hyperframes-keyframes/references/keyframe-patterns.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 10763,
+      "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/86521b94f592bcf0ca86aba63068893cf658af16/LICENSE"
+    }
+  ],
+  "archiveSha256": "57860d290609486ff2f37a1ad5cd7fc9a5e8bf8aaa15b76367c25e8241686dc0"
+}

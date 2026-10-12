@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--define-my-content-pillars",
+    "name": "define-my-content-pillars",
+    "description": "Find the three to five subjects someone can post about repeatedly, from what they have published and know first-hand. Use when someone asks what to post about or has run out of ideas.",
+    "category": "Writing",
+    "tags": [
+      "define",
+      "content",
+      "pillars",
+      "find",
+      "three",
+      "five",
+      "subjects",
+      "someone",
+      "post",
+      "about",
+      "repeatedly",
+      "from",
+      "what",
+      "they",
+      "have",
+      "published",
+      "know",
+      "first"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/define-my-content-pillars",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/define-my-content-pillars",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6668,
+    "sha256": "181b74266dbe4dd5ddf56188c3e492ea346a1aa9586fa7a1e9484035eb9a7eac",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/define-my-content-pillars/SKILL.md",
+      "bytes": 5595,
+      "sha256": "181b74266dbe4dd5ddf56188c3e492ea346a1aa9586fa7a1e9484035eb9a7eac",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/define-my-content-pillars/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "b7a457abbfb04331bb9b89e1986541cfbc32186b5b90dd559ab3124eb7819bba"
+}

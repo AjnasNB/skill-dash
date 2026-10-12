@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-network-policies-for-kubernetes",
+    "name": "implementing-network-policies-for-kubernetes",
+    "description": "Writes portable upstream Kubernetes NetworkPolicy YAML - default-deny-all, DNS egress, namespace and pod selector rules - that works on any conformant CNI such as Calico or Cilium. Use when segmentation must stay CNI-portable, introducing a default-deny posture, or restricting east-west traffic between pods and namespaces without depending on a vendor CRD. Keywords: NetworkPolicy, default deny, podSelector, namespaceSelector, ingress, egress, CNI portable. Do not use for Calico-specific resources - use implementing-kubernetes-network-policy-with-calico.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "implementing",
+      "network",
+      "policies",
+      "kubernetes",
+      "writes",
+      "portable",
+      "upstream",
+      "networkpolicy",
+      "yaml",
+      "default",
+      "deny",
+      "all",
+      "dns",
+      "egress",
+      "namespace",
+      "pod",
+      "selector",
+      "rules"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-network-policies-for-kubernetes/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-network-policies-for-kubernetes",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-policies-for-kubernetes",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 31142,
+    "sha256": "da04b8c5efcd95104a5808fbef6ff745890d35c33a6dad92095c652e9b71c914",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-network-policies-for-kubernetes/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-policies-for-kubernetes/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-network-policies-for-kubernetes/SKILL.md",
+      "bytes": 6027,
+      "sha256": "da04b8c5efcd95104a5808fbef6ff745890d35c33a6dad92095c652e9b71c914",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-policies-for-kubernetes/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-network-policies-for-kubernetes/assets/template.md",
+      "bytes": 533,
+      "sha256": "43314267c24993f15ccf6e358ab1f3beb71de319d7709b52627bc50f0b85fc39",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-policies-for-kubernetes/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-network-policies-for-kubernetes/references/api-reference.md",
+      "bytes": 1426,
+      "sha256": "bb279997faadcc692aca20a1db6be33135a0a8c82262c299912490ae83dfc329",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-policies-for-kubernetes/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-network-policies-for-kubernetes/references/standards.md",
+      "bytes": 735,
+      "sha256": "fa5fd60ee79911afc928d616fc87b3403e5b2a7665e7773b32a046a70f567b0b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-policies-for-kubernetes/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-network-policies-for-kubernetes/references/workflows.md",
+      "bytes": 828,
+      "sha256": "5876c4cb2f822723db32c3f718c92765073b52bba2d42b2f18c0892ecb0ea9a6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-policies-for-kubernetes/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-network-policies-for-kubernetes/scripts/agent.py",
+      "bytes": 6378,
+      "sha256": "1ed12e1f10f78122402ac202fbc1f3add6033bd4304e1c32b57a813c3fcc32ea",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-policies-for-kubernetes/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-network-policies-for-kubernetes/scripts/process.py",
+      "bytes": 3960,
+      "sha256": "7bc7833ff0c1efbd748ad4ce95f00663c1be7ff6291659749ffc9c0c236d718d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-policies-for-kubernetes/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "bed766c6867e1204679bb45d9e9f1f2183f42813c371a51abb3ec7be61a66ac3"
+}

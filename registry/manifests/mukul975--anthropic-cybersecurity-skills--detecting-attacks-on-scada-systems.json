@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-attacks-on-scada-systems",
+    "name": "detecting-attacks-on-scada-systems",
+    "description": "This skill covers detecting cyber attacks targeting Supervisory Control and Data Acquisition (SCADA) systems including man-in-the-middle attacks on industrial protocols, unauthorized command injection into PLCs, HMI compromise, historian data manipulation, and denial-of-service against control system communications. It leverages OT-specific intrusion detection systems, industrial protocol anomaly detection, and process data analytics to identify attacks that traditional IT security tools miss.",
+    "category": "Security",
+    "tags": [
+      "detecting",
+      "attacks",
+      "scada",
+      "systems",
+      "skill",
+      "covers",
+      "cyber",
+      "targeting",
+      "supervisory",
+      "control",
+      "data",
+      "acquisition",
+      "including",
+      "man",
+      "middle",
+      "industrial",
+      "protocols",
+      "unauthorized"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-attacks-on-scada-systems/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-attacks-on-scada-systems",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-attacks-on-scada-systems",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 48038,
+    "sha256": "b88aabac28421dbb186f1f9c5d813a0f64b3d0a76a519ce74becf7971c3466ee",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-attacks-on-scada-systems/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-attacks-on-scada-systems/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-attacks-on-scada-systems/SKILL.md",
+      "bytes": 27530,
+      "sha256": "b88aabac28421dbb186f1f9c5d813a0f64b3d0a76a519ce74becf7971c3466ee",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-attacks-on-scada-systems/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-attacks-on-scada-systems/references/api-reference.md",
+      "bytes": 2078,
+      "sha256": "2ded6bcfff022a405177671164dd7475cc2afc6deaa7ffb40189de24c80baea1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-attacks-on-scada-systems/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-attacks-on-scada-systems/scripts/agent.py",
+      "bytes": 7175,
+      "sha256": "092c5e169093c1ad7a0cbe44154f6898735b4cca3b858399cadeff1382223a08",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-attacks-on-scada-systems/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "1d96a58dcfb1e3fdccb481a35405c5fde4861c8a1a6d033c40d341f793f2ec42"
+}

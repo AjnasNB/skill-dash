@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-file-integrity-monitoring-with-aide",
+    "name": "implementing-file-integrity-monitoring-with-aide",
+    "description": "Configures AIDE (Advanced Intrusion Detection Environment) for file integrity monitoring on Linux, covering baseline database creation, scheduled integrity checks via cron, change detection, and alerting on unauthorized modifications. Use when setting up host-based file integrity monitoring, detecting unauthorized file changes, or meeting compliance requirements for FIM on Linux systems.",
+    "category": "Development",
+    "tags": [
+      "implementing",
+      "file",
+      "integrity",
+      "monitoring",
+      "aide",
+      "configures",
+      "advanced",
+      "intrusion",
+      "detection",
+      "environment",
+      "linux",
+      "covering",
+      "baseline",
+      "database",
+      "creation",
+      "scheduled",
+      "checks",
+      "via"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-file-integrity-monitoring-with-aide/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-file-integrity-monitoring-with-aide",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-file-integrity-monitoring-with-aide",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 25082,
+    "sha256": "44215089cdaa75af30da64d64ddd60290238becfbfba89586e46878156ad740b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-file-integrity-monitoring-with-aide/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-file-integrity-monitoring-with-aide/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-file-integrity-monitoring-with-aide/SKILL.md",
+      "bytes": 2578,
+      "sha256": "44215089cdaa75af30da64d64ddd60290238becfbfba89586e46878156ad740b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-file-integrity-monitoring-with-aide/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-file-integrity-monitoring-with-aide/references/api-reference.md",
+      "bytes": 2149,
+      "sha256": "15cb38bbd9585cca5a9b6a490929fce7e5733c05f87a6eafe802e57ab4a94ae4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-file-integrity-monitoring-with-aide/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-file-integrity-monitoring-with-aide/scripts/agent.py",
+      "bytes": 9100,
+      "sha256": "b81b76b8a01b0b62f3aaf33c043bbacde52545eae69e30b14880c883f5032d26",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-file-integrity-monitoring-with-aide/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "cae242f71981bc8e30ce3d3753f3a3a43747c568ee7ee1216b49d4b44ab14764"
+}

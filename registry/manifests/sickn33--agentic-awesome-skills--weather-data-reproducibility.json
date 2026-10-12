@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--weather-data-reproducibility",
+    "name": "weather-data-reproducibility",
+    "description": "Record and verify provenance manifests for weather-data inputs and derived artifacts, including object identity, selections, software versions, transformations, and hashes.",
+    "category": "Development",
+    "tags": [
+      "weather",
+      "data",
+      "reproducibility",
+      "record",
+      "verify",
+      "provenance",
+      "manifests",
+      "inputs",
+      "derived",
+      "artifacts",
+      "including",
+      "object",
+      "identity",
+      "selections",
+      "software",
+      "versions",
+      "transformations",
+      "hashes."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/weather-data-reproducibility",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/weather-data-reproducibility",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12675,
+    "sha256": "4ff72c48e8e7fd7918b68ffb3d49a50dda57cb4ba5b879ca42d9cd4f0914a63b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/weather-data-reproducibility/SKILL.md",
+      "bytes": 11602,
+      "sha256": "4ff72c48e8e7fd7918b68ffb3d49a50dda57cb4ba5b879ca42d9cd4f0914a63b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/weather-data-reproducibility/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "2565254ba8b512279f38b12195a82204b10138860cc4a7ae73362ba5b05bea97"
+}

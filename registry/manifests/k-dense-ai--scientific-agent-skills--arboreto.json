@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--arboreto",
+    "name": "arboreto",
+    "description": "Infers candidate gene regulatory networks from bulk or single-cell expression data using AertsLab Arboreto GRNBoost2 and GENIE3. Use for transcription factor-target association ranking, compatible Dask execution, sparse expression inputs, and network stability checks.",
+    "category": "Development",
+    "tags": [
+      "arboreto",
+      "infers",
+      "candidate",
+      "gene",
+      "regulatory",
+      "networks",
+      "from",
+      "bulk",
+      "single",
+      "cell",
+      "expression",
+      "data",
+      "aertslab",
+      "grnboost2",
+      "genie3.",
+      "transcription",
+      "factor",
+      "target"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/arboreto",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/arboreto",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 6,
+    "bytes": 31456,
+    "sha256": "38ff6f24b8fd4a86e2a57ae7bb7669fe4ce401f7375efcc82a6c004f4c51d344",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/arboreto/SKILL.md",
+      "bytes": 10661,
+      "sha256": "38ff6f24b8fd4a86e2a57ae7bb7669fe4ce401f7375efcc82a6c004f4c51d344",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/arboreto/SKILL.md"
+    },
+    {
+      "path": "references/algorithms.md",
+      "sourcePath": "skills/arboreto/references/algorithms.md",
+      "bytes": 4411,
+      "sha256": "4fe3e34ac04d1a01017c5beb0a36626785aa99910baafa13d08cc3d49a4a5f15",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/arboreto/references/algorithms.md"
+    },
+    {
+      "path": "references/basic_inference.md",
+      "sourcePath": "skills/arboreto/references/basic_inference.md",
+      "bytes": 5264,
+      "sha256": "9a52ced456c30eb8ff8d59f0d3e1faa4446f7298aa56f83adeeeee18b974b7eb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/arboreto/references/basic_inference.md"
+    },
+    {
+      "path": "references/distributed_computing.md",
+      "sourcePath": "skills/arboreto/references/distributed_computing.md",
+      "bytes": 5019,
+      "sha256": "e2cc1724aeb569cf3725b25e576e61f1baf962bffa170282387aebd7753e8476",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/arboreto/references/distributed_computing.md"
+    },
+    {
+      "path": "scripts/basic_grn_inference.py",
+      "sourcePath": "skills/arboreto/scripts/basic_grn_inference.py",
+      "bytes": 5033,
+      "sha256": "830a0e474a83d7f8fe5acd465d75b0ca5eed49858dd8cbedd34113222fea7944",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/arboreto/scripts/basic_grn_inference.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "6d08fc6e77858c7188ca2b49ad517aa3bed2820a6888e89142d8d9dcd4e1e0a0"
+}

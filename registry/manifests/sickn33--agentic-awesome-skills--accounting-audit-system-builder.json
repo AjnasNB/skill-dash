@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--accounting-audit-system-builder",
+    "name": "accounting-audit-system-builder",
+    "description": "Routes an accounting or audit request to the right module skill, from software selection through monthly closing, asking only what is missing. Use for books of accounts or audit files.",
+    "category": "Development",
+    "tags": [
+      "accounting",
+      "audit",
+      "system",
+      "builder",
+      "routes",
+      "request",
+      "right",
+      "module",
+      "skill",
+      "from",
+      "software",
+      "selection",
+      "through",
+      "monthly",
+      "closing",
+      "asking",
+      "only",
+      "what"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/accounting-audit-system-builder",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/accounting-audit-system-builder",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 18672,
+    "sha256": "94ad824dedd658469ab9b7b1d0d70685397afa85ae42e040f2d2c46dd8ec678f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/accounting-audit-system-builder/SKILL.md",
+      "bytes": 13081,
+      "sha256": "94ad824dedd658469ab9b7b1d0d70685397afa85ae42e040f2d2c46dd8ec678f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/accounting-audit-system-builder/SKILL.md"
+    },
+    {
+      "path": "references/catalog.md",
+      "sourcePath": "skills/accounting-audit-system-builder/references/catalog.md",
+      "bytes": 4518,
+      "sha256": "a357cbe4558b77ab50cbada69f616c3919a5c07337dac2b581b52cc816fb79c2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/accounting-audit-system-builder/references/catalog.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "f9b9df6c9512db7799370ee557e22b075cc621ccd8c372e3066dc5f0428debb0"
+}

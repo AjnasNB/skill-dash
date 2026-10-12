@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--auditing-terraform-infrastructure-for-security",
+    "name": "auditing-terraform-infrastructure-for-security",
+    "description": "Auditing Terraform infrastructure-as-code for security misconfigurations using Checkov, tfsec, Terrascan, and OPA/Rego policies to detect overly permissive IAM policies, public resource exposure, missing encryption, and insecure defaults before cloud deployment.",
+    "category": "Security",
+    "tags": [
+      "auditing",
+      "terraform",
+      "infrastructure",
+      "security",
+      "as",
+      "code",
+      "misconfigurations",
+      "checkov",
+      "tfsec",
+      "terrascan",
+      "opa",
+      "rego",
+      "policies",
+      "detect",
+      "overly",
+      "permissive",
+      "iam",
+      "public"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/auditing-terraform-infrastructure-for-security/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/auditing-terraform-infrastructure-for-security",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-terraform-infrastructure-for-security",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32103,
+    "sha256": "0ccb9490f13f53099ac90917cffb98e103efb080409c280c85184e0610c4e95a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/auditing-terraform-infrastructure-for-security/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-terraform-infrastructure-for-security/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/auditing-terraform-infrastructure-for-security/SKILL.md",
+      "bytes": 11867,
+      "sha256": "0ccb9490f13f53099ac90917cffb98e103efb080409c280c85184e0610c4e95a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-terraform-infrastructure-for-security/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/auditing-terraform-infrastructure-for-security/references/api-reference.md",
+      "bytes": 1856,
+      "sha256": "c8e0e6cb8adab90058d2c5eecf3ea136d1698f00b995d8fd20c1bf8843d67398",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-terraform-infrastructure-for-security/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/auditing-terraform-infrastructure-for-security/scripts/agent.py",
+      "bytes": 7125,
+      "sha256": "cf7c21f1bd3ff95fa9b03682cf66dd1765531ac4379051a6ca6f1d3ff1a4f69f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-terraform-infrastructure-for-security/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "ae36cf03659cea3a477b39523cf2129204fe2d103beced27a2a3ac325c42ada2"
+}

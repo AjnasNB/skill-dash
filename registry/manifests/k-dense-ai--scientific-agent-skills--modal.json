@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--modal",
+    "name": "modal",
+    "description": "Modal is a serverless cloud platform for running Python on demand, including on-demand GPUs. Use when deploying or serving AI/ML models, running GPU-accelerated workloads (training, fine-tuning, inference), serving web endpoints, scheduling batch jobs, or scaling Python code to cloud containers with the Modal SDK.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "modal",
+      "is",
+      "serverless",
+      "cloud",
+      "platform",
+      "running",
+      "python",
+      "demand",
+      "including",
+      "gpus.",
+      "when",
+      "deploying",
+      "serving",
+      "ai",
+      "ml",
+      "models",
+      "gpu",
+      "accelerated"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/modal",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/modal",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 14,
+    "bytes": 99264,
+    "sha256": "5da5d0a39db4ea5f429ffc40772bbce87e26f778fac363c42873ca6bb84fecd9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/modal/SKILL.md",
+      "bytes": 18015,
+      "sha256": "5da5d0a39db4ea5f429ffc40772bbce87e26f778fac363c42873ca6bb84fecd9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/modal/SKILL.md"
+    },
+    {
+      "path": "references/api_reference.md",
+      "sourcePath": "skills/modal/references/api_reference.md",
+      "bytes": 8692,
+      "sha256": "9dbdcb1c9321865ada7b8077de23c1da1788f68bd16188b563ee41c226a9d3a3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/modal/references/api_reference.md"
+    },
+    {
+      "path": "references/examples.md",
+      "sourcePath": "skills/modal/references/examples.md",
+      "bytes": 10551,
+      "sha256": "a0f3624e5f9825cc25d44e7290fe49b96ef4c7d65691fc8fa72a78624fc56b98",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/modal/references/examples.md"
+    },
+    {
+      "path": "references/functions.md",
+      "sourcePath": "skills/modal/references/functions.md",
+      "bytes": 8513,
+      "sha256": "66ebc05e9562c8815f21ddd4b567c20e5b895e656aaa30adeacca4f8a576b780",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/modal/references/functions.md"
+    },
+    {
+      "path": "references/getting-started.md",
+      "sourcePath": "skills/modal/references/getting-started.md",
+      "bytes": 4784,
+      "sha256": "a07f00dd0f549a7f704f5a9730aa111c923a837156ba352636acd44c2215ff2f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/modal/references/getting-started.md"
+    },
+    {
+      "path": "references/gpu.md",
+      "sourcePath": "skills/modal/references/gpu.md",
+      "bytes": 6668,
+      "sha256": "1ea927b676a4cddd3b7c7376298f2b2d1755aad8f6870715d9140c0f43ff6f8b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/modal/references/gpu.md"
+    },
+    {
+      "path": "references/images.md",
+      "sourcePath": "skills/modal/references/images.md",
+      "bytes": 7427,
+      "sha256": "66f559dbd19ec68c7d287975f5c3a9799d5ee2be0c61b9342e925e2188b2dab9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/modal/references/images.md"
+    },
+    {
+      "path": "references/resources.md",
+      "sourcePath": "skills/modal/references/resources.md",
+      "bytes": 3237,
+      "sha256": "bdc346f9dbdb415580743d2fb8ea9cea92dc0eb7626e12579fccfcc5c53eac1d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/modal/references/resources.md"
+    },
+    {
+      "path": "references/scaling.md",
+      "sourcePath": "skills/modal/references/scaling.md",
+      "bytes": 6605,
+      "sha256": "a3542f76b1519f7a8ac64bc1ca2b10607c46b636006b5747d671586728438cab",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/modal/references/scaling.md"
+    },
+    {
+      "path": "references/scheduled-jobs.md",
+      "sourcePath": "skills/modal/references/scheduled-jobs.md",
+      "bytes": 4430,
+      "sha256": "ef94216caf2508c141ab4150cee7fc220d053ae5a5ed0e2c7759111f2ce3cfe4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/modal/references/scheduled-jobs.md"
+    },
+    {
+      "path": "references/secrets.md",
+      "sourcePath": "skills/modal/references/secrets.md",
+      "bytes": 3945,
+      "sha256": "5eb31de31b1ad8efd9508bf525dbf732fcc2ff109c1b5b202b211e4fa672cfbb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/modal/references/secrets.md"
+    },
+    {
+      "path": "references/volumes.md",
+      "sourcePath": "skills/modal/references/volumes.md",
+      "bytes": 6956,
+      "sha256": "290936b7ac55839db2b340edc76981eb1debe0a16fa56c75ebd8e34cb08d06da",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/modal/references/volumes.md"
+    },
+    {
+      "path": "references/web-endpoints.md",
+      "sourcePath": "skills/modal/references/web-endpoints.md",
+      "bytes": 8373,
+      "sha256": "772c33c7322c4487afbf58b5a82f54b110e4d81b4d92371782ce0a49ead15166",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/modal/references/web-endpoints.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "3881bd594b6dc3681fb009a438727e3bfb4adb067d2b343a2fd0e99c25ca4b3d"
+}

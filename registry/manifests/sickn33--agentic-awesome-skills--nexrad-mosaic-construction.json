@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--nexrad-mosaic-construction",
+    "name": "nexrad-mosaic-construction",
+    "description": "Construct a quality-aware NEXRAD multi-radar mosaic from aligned single-site products with explicit coverage, beam geometry, quality weighting, overlap resolution, and provenance.",
+    "category": "Development",
+    "tags": [
+      "nexrad",
+      "mosaic",
+      "construction",
+      "construct",
+      "quality",
+      "aware",
+      "multi",
+      "radar",
+      "from",
+      "aligned",
+      "single",
+      "site",
+      "products",
+      "explicit",
+      "coverage",
+      "beam",
+      "geometry",
+      "weighting"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/nexrad-mosaic-construction",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nexrad-mosaic-construction",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13432,
+    "sha256": "041c83dc85b63b6fad00ab368e8bde52dd5d70c382d5c8b240c78d69f33ff10c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/nexrad-mosaic-construction/SKILL.md",
+      "bytes": 12359,
+      "sha256": "041c83dc85b63b6fad00ab368e8bde52dd5d70c382d5c8b240c78d69f33ff10c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nexrad-mosaic-construction/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "82ded9d2472bd1503680ce59bbe1e20bd9601d6a58f9f5382e0f8de556435f78"
+}

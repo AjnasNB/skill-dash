@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-privileged-account-access-review",
+    "name": "performing-privileged-account-access-review",
+    "description": "Conducts systematic reviews of privileged accounts to validate access rights, identify excessive or stale permissions, and enforce least privilege across PAM infrastructure. Use when auditing privileged access for compliance, periodic access recertification, or investigating whether privileged entitlements are still justified.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "performing",
+      "privileged",
+      "account",
+      "access",
+      "review",
+      "conducts",
+      "systematic",
+      "reviews",
+      "accounts",
+      "validate",
+      "rights",
+      "identify",
+      "excessive",
+      "stale",
+      "permissions",
+      "enforce",
+      "least",
+      "privilege"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-privileged-account-access-review/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-privileged-account-access-review",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privileged-account-access-review",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 47675,
+    "sha256": "154ef9f263c079634776bb1bf5f8f8bfc19ef0baeb569345ec962b9f488f0c58",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-privileged-account-access-review/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privileged-account-access-review/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-privileged-account-access-review/SKILL.md",
+      "bytes": 7995,
+      "sha256": "154ef9f263c079634776bb1bf5f8f8bfc19ef0baeb569345ec962b9f488f0c58",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privileged-account-access-review/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-privileged-account-access-review/assets/template.md",
+      "bytes": 1695,
+      "sha256": "bc59cf52b88d851962877a9715ef76b927d782d9822113549e03a38212c980cc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privileged-account-access-review/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-privileged-account-access-review/references/api-reference.md",
+      "bytes": 2403,
+      "sha256": "9b12ef1855f4712df04c7fbe8352b743648805637713e1287f6f1e9a3aebb442",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privileged-account-access-review/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-privileged-account-access-review/references/standards.md",
+      "bytes": 2249,
+      "sha256": "8dc3fce15748960a846f4f9259ac73f2583e9b1178d23dfc76e5fb3887c564c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privileged-account-access-review/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-privileged-account-access-review/references/workflows.md",
+      "bytes": 3543,
+      "sha256": "6c7d3f169d721c0dce3839645ebb61de2e58fe2b96e66247c501ad5e56d936eb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privileged-account-access-review/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-privileged-account-access-review/scripts/agent.py",
+      "bytes": 5842,
+      "sha256": "09811810e1a99a91dc112a98fc555529fa3823093f5f629f8af1f919069d7fef",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privileged-account-access-review/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-privileged-account-access-review/scripts/process.py",
+      "bytes": 12693,
+      "sha256": "90864de31b3c88448cc0bae2b4a4a347161b1045770b68d53604cf5573fda5e9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privileged-account-access-review/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "56eccff4c7543c375638529722149704011da7282a54839673fffc9f0dfe78a4"
+}

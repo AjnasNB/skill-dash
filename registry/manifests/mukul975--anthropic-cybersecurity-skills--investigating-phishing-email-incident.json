@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--investigating-phishing-email-incident",
+    "name": "investigating-phishing-email-incident",
+    "description": "Investigates phishing email incidents from initial user report through header analysis, URL/attachment detonation, impacted user identification, and containment actions using SOC tools like Splunk, Microsoft Defender, and sandbox analysis platforms. Use when a reported phishing email requires full incident investigation to determine scope and impact.",
+    "category": "Development",
+    "tags": [
+      "investigating",
+      "phishing",
+      "email",
+      "incident",
+      "investigates",
+      "incidents",
+      "from",
+      "initial",
+      "user",
+      "report",
+      "through",
+      "header",
+      "analysis",
+      "url",
+      "attachment",
+      "detonation",
+      "impacted",
+      "identification"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/investigating-phishing-email-incident/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/investigating-phishing-email-incident",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/investigating-phishing-email-incident",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32976,
+    "sha256": "e946a062aafcbb143ff99ee240ad2bbec8669cd245114354dbc9815f4efc095f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/investigating-phishing-email-incident/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/investigating-phishing-email-incident/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/investigating-phishing-email-incident/SKILL.md",
+      "bytes": 11484,
+      "sha256": "e946a062aafcbb143ff99ee240ad2bbec8669cd245114354dbc9815f4efc095f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/investigating-phishing-email-incident/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/investigating-phishing-email-incident/references/api-reference.md",
+      "bytes": 2514,
+      "sha256": "7fbc52291b621ff3d966a4429adb7323fcf1c2dc0bda97e6e2d74566fedbb500",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/investigating-phishing-email-incident/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/investigating-phishing-email-incident/scripts/agent.py",
+      "bytes": 7723,
+      "sha256": "7a769060345fedbcebd10be2c3b769cf5dabbcfa4ceefd304b0fd7d1ee52a34e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/investigating-phishing-email-incident/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "6aea7a7563b20356bc258da23471dd78e061122979cbae037179cdd0b6533b29"
+}

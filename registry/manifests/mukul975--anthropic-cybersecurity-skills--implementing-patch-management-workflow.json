@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-patch-management-workflow",
+    "name": "implementing-patch-management-workflow",
+    "description": "Patch management is the systematic process of identifying, testing, deploying, and verifying software updates to remediate vulnerabilities across an organization's IT infrastructure. An effective patc",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "patch",
+      "management",
+      "workflow",
+      "is",
+      "systematic",
+      "process",
+      "identifying",
+      "testing",
+      "deploying",
+      "verifying",
+      "software",
+      "updates",
+      "remediate",
+      "vulnerabilities",
+      "across",
+      "organization",
+      "it"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-patch-management-workflow/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-patch-management-workflow",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-patch-management-workflow",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 55542,
+    "sha256": "6929ede1a11539ddf7f305938184e33fe0501b31f916cd34a6c2f280d3957fdf",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-patch-management-workflow/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-patch-management-workflow/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-patch-management-workflow/SKILL.md",
+      "bytes": 10777,
+      "sha256": "6929ede1a11539ddf7f305938184e33fe0501b31f916cd34a6c2f280d3957fdf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-patch-management-workflow/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-patch-management-workflow/assets/template.md",
+      "bytes": 1164,
+      "sha256": "c4052fc1fe5d79139d5afa44fdf3cc046bec327867c4874e6bf4936d3c3f92b9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-patch-management-workflow/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-patch-management-workflow/references/api-reference.md",
+      "bytes": 4567,
+      "sha256": "d65c16be6e0d0a00cd58709decb0ff7826eb324a84a84de3c70a468e1d769c77",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-patch-management-workflow/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-patch-management-workflow/references/standards.md",
+      "bytes": 1499,
+      "sha256": "234cfe3047ec85b3bca7084d518481fc2a1412ba3e2c14514da5ca00e0f68581",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-patch-management-workflow/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-patch-management-workflow/references/workflows.md",
+      "bytes": 2455,
+      "sha256": "0df32cfa4d50a79d4156eee4fc9fede8f72c675334ffa403780520664902fc7e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-patch-management-workflow/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-patch-management-workflow/scripts/agent.py",
+      "bytes": 9788,
+      "sha256": "c0edfe3408f9ecd076fe878d19e72ec9d75c7032716bed1fd2efd6a84036888e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-patch-management-workflow/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-patch-management-workflow/scripts/process.py",
+      "bytes": 14037,
+      "sha256": "bd03951c6be8230596e80513f681c2cf0a5ef473ae08e1ae0e198066e914c610",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-patch-management-workflow/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "a51ecd081c51da752e3140471daad4a99ab95b99964148dc692548ee19e408c8"
+}

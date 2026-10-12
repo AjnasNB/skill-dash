@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-golden-ticket-attacks-in-kerberos-logs",
+    "name": "detecting-golden-ticket-attacks-in-kerberos-logs",
+    "description": "Detect Golden Ticket attacks in Active Directory using Splunk and KQL queries against domain controller event logs, looking for Kerberos TGT anomalies such as mismatched encryption types, impossible ticket lifetimes, non-existent accounts, and forged PAC signatures. Use when hunting for Kerberos ticket forgery or krbtgt-based persistence (MITRE T1558.001) in AD environments.",
+    "category": "Development",
+    "tags": [
+      "detecting",
+      "golden",
+      "ticket",
+      "attacks",
+      "kerberos",
+      "logs",
+      "detect",
+      "active",
+      "directory",
+      "splunk",
+      "kql",
+      "queries",
+      "against",
+      "domain",
+      "controller",
+      "event",
+      "looking",
+      "tgt"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-golden-ticket-attacks-in-kerberos-logs/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-golden-ticket-attacks-in-kerberos-logs",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-golden-ticket-attacks-in-kerberos-logs",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 23942,
+    "sha256": "813a942a84b78a9c19549c229eb92e54cad82c6599309261ed5255feac2c0fb3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-golden-ticket-attacks-in-kerberos-logs/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-golden-ticket-attacks-in-kerberos-logs/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-golden-ticket-attacks-in-kerberos-logs/SKILL.md",
+      "bytes": 4729,
+      "sha256": "813a942a84b78a9c19549c229eb92e54cad82c6599309261ed5255feac2c0fb3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-golden-ticket-attacks-in-kerberos-logs/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-golden-ticket-attacks-in-kerberos-logs/references/api-reference.md",
+      "bytes": 1679,
+      "sha256": "22be5a796eebe5504546ec7acd799bf3169294091b90f19f9e9ed5ceb9d3a361",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-golden-ticket-attacks-in-kerberos-logs/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-golden-ticket-attacks-in-kerberos-logs/scripts/agent.py",
+      "bytes": 6279,
+      "sha256": "8a4268d7e2ae7c1e8be9ed5ceead1abfcf50caf89d6fd58b5cf4be7d04da84a5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-golden-ticket-attacks-in-kerberos-logs/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "7508cb04af30d67a05c20b9c511c9954455434bc311dee083389adfba8166c2e"
+}

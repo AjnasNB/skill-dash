@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-dll-sideloading-attacks",
+    "name": "detecting-dll-sideloading-attacks",
+    "description": "Detect DLL side-loading and search-order hijacking (MITRE T1574) where adversaries plant malicious DLLs for legitimate signed applications to load, by analyzing Sysmon Event ID 7 DLL-load events, checking signatures/hashes against known-good versions, and flagging path anomalies with EDR tools like CrowdStrike, MDE, or SentinelOne. Use when investigating EDR alerts on unsigned DLLs, hunting for APT persistence via trojanized applications, or triaging incidents involving DLL hijacking.",
+    "category": "Development",
+    "tags": [
+      "detecting",
+      "dll",
+      "sideloading",
+      "attacks",
+      "detect",
+      "side",
+      "loading",
+      "search",
+      "order",
+      "hijacking",
+      "mitre",
+      "t1574",
+      "where",
+      "adversaries",
+      "plant",
+      "malicious",
+      "dlls",
+      "legitimate"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-dll-sideloading-attacks/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-dll-sideloading-attacks",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dll-sideloading-attacks",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 34178,
+    "sha256": "6cb43a9ffcebafa59adb476e2e111bbcd8f8b23f290907e645dd86dfc52c047a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-dll-sideloading-attacks/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dll-sideloading-attacks/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-dll-sideloading-attacks/SKILL.md",
+      "bytes": 4524,
+      "sha256": "6cb43a9ffcebafa59adb476e2e111bbcd8f8b23f290907e645dd86dfc52c047a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dll-sideloading-attacks/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/detecting-dll-sideloading-attacks/assets/template.md",
+      "bytes": 695,
+      "sha256": "c75ec8353521e7c5044c8ab1fdcbb46c34a07a396644506748f4e1ae1326d21a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dll-sideloading-attacks/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-dll-sideloading-attacks/references/api-reference.md",
+      "bytes": 1527,
+      "sha256": "32ac77af275ebe3dcc2d3e4e65eaa4bb9d4c6a0762aa21d0a605a15319254348",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dll-sideloading-attacks/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/detecting-dll-sideloading-attacks/references/standards.md",
+      "bytes": 1895,
+      "sha256": "429a6ac5f0d7c8480fdf6b51a908c273ee7859ffba8b2bdcf061308db2c7cd48",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dll-sideloading-attacks/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/detecting-dll-sideloading-attacks/references/workflows.md",
+      "bytes": 2264,
+      "sha256": "80f7d8b63932f14b463c3528da2542d7389e92b83b9edb27c42d84fde974aeb7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dll-sideloading-attacks/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-dll-sideloading-attacks/scripts/agent.py",
+      "bytes": 5887,
+      "sha256": "9f7980042feb25cba3b589f3c3e131d9d67bd9fd884c361b69f9b572a5eda620",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dll-sideloading-attacks/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/detecting-dll-sideloading-attacks/scripts/process.py",
+      "bytes": 6131,
+      "sha256": "3c8b5971a04e95ea1bda964fbf21639d9afe3943182708afaa118d1f78a32e13",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dll-sideloading-attacks/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "aa90604e9e4dc293217d6ac48474c31240e8b115c210188e8a29b7c3110e40e5"
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--get-seen-in-replies",
+    "name": "get-seen-in-replies",
+    "description": "Write a reply to someone else's tweet that is worth reading on its own. Use when someone asks what to reply, wants to grow by replying on Twitter/X, or says their replies go nowhere.",
+    "category": "Writing",
+    "tags": [
+      "get",
+      "seen",
+      "replies",
+      "write",
+      "reply",
+      "someone",
+      "else",
+      "tweet",
+      "is",
+      "worth",
+      "reading",
+      "its",
+      "own.",
+      "when",
+      "asks",
+      "what",
+      "wants",
+      "grow"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/get-seen-in-replies",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/get-seen-in-replies",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7057,
+    "sha256": "c9c3adcde4b6fc08f8969c4fdea6818b4c7a7944df2523024acaae7f45b2d386",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/get-seen-in-replies/SKILL.md",
+      "bytes": 5984,
+      "sha256": "c9c3adcde4b6fc08f8969c4fdea6818b4c7a7944df2523024acaae7f45b2d386",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/get-seen-in-replies/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "fadb70d1a1d8ad372162314110c5b3a4690972b9d4b368e5cd60ef098feb09cc"
+}

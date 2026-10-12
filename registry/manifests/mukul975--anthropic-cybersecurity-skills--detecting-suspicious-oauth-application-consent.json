@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-suspicious-oauth-application-consent",
+    "name": "detecting-suspicious-oauth-application-consent",
+    "description": "Detect risky OAuth application consent grants in Azure AD / Microsoft Entra ID using Microsoft Graph API, audit logs, and permission analysis to identify illicit consent grant attacks.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "detecting",
+      "suspicious",
+      "oauth",
+      "application",
+      "consent",
+      "detect",
+      "risky",
+      "grants",
+      "azure",
+      "ad",
+      "microsoft",
+      "entra",
+      "id",
+      "graph",
+      "api",
+      "audit",
+      "logs",
+      "permission"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-suspicious-oauth-application-consent/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-suspicious-oauth-application-consent",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-suspicious-oauth-application-consent",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 24499,
+    "sha256": "00cbfe6cbce69e95668318733bae69462d7d79ceec26ef178ac748aa422463e6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-suspicious-oauth-application-consent/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-suspicious-oauth-application-consent/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-suspicious-oauth-application-consent/SKILL.md",
+      "bytes": 2417,
+      "sha256": "00cbfe6cbce69e95668318733bae69462d7d79ceec26ef178ac748aa422463e6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-suspicious-oauth-application-consent/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-suspicious-oauth-application-consent/references/api-reference.md",
+      "bytes": 2725,
+      "sha256": "44fc8400d4fa94fd2493ef026de678fa2894d4295edc0e333639de919dce7ffb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-suspicious-oauth-application-consent/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-suspicious-oauth-application-consent/scripts/agent.py",
+      "bytes": 8102,
+      "sha256": "e53b579d33041c01fb79ee688a18bc8a28fd2df1fc77754418950a2f1578b8a7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-suspicious-oauth-application-consent/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "7944469d04f4bbdf4e0fe23fc65dea082199020c5c5ca8bba9821d882f918ce9"
+}

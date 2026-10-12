@@ -4,6 +4,8 @@ import { COLLECTIONS, GUIDES } from '../site/content.mjs';
 import { communityApi, communityPage, deliverNotifications } from './community.mjs';
 import packageInfo from '../package.json' with { type: 'json' };
 import { handleMcp, readPublishedSkill } from './mcp.mjs';
+import { agentLibraryInfo, agentInstructions, searchAgentTools } from '../lib/agent-directory.mjs';
+import { submissionSchema } from '../lib/submission-schema.mjs';
 
 const byId = new Map(catalog.skills.map(skill => [skill.id, skill]));
 const canonical = 'https://skills.maqamagent.com';
@@ -80,12 +82,17 @@ async function asset(env, request, pathname, extras = {}, status) {
 const page = (env, request, pathname, { noindex = false, status } = {}) => asset(env, request, pathname, {
   'Content-Type': 'text/html; charset=utf-8',
   'Cache-Control': 'public, max-age=300',
+  ...(pathname === '/index.html' ? {'Vary':'Accept','Link':'</agent.md>; rel="alternate"; type="text/markdown", </.well-known/agent.json>; rel="describedby"; type="application/json", </openapi.json>; rel="service-desc"'} : {}),
   'X-Robots-Tag': noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large',
 }, status);
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     try {
+      if (['GET','HEAD'].includes(request.method) && (url.pathname === '/agent.md' || url.pathname === '/' && request.headers.get('Accept')?.includes('text/markdown'))) return new Response(request.method === 'HEAD' ? null : agentInstructions(catalog,packageInfo.version), {headers:{...headers,'Content-Type':'text/markdown; charset=utf-8','Cache-Control':'public, max-age=300','Vary':'Accept','Link':'</.well-known/agent.json>; rel="describedby"; type="application/json"'}});
+      if (['GET','HEAD'].includes(request.method) && ['/api/agent','/.well-known/agent.json'].includes(url.pathname)) { const response=json(agentLibraryInfo(catalog,packageInfo.version),200,{'Cache-Control':'public, max-age=300'}); return request.method === 'HEAD' ? new Response(null,{headers:response.headers}) : response; }
+      if (['GET','HEAD'].includes(request.method) && url.pathname === '/api/submission-schema') return json(submissionSchema,200,{'Cache-Control':'public, max-age=300'});
+      if (['GET','HEAD'].includes(request.method) && url.pathname === '/api/tools') { const query=url.searchParams.get('q')||'', type=url.searchParams.get('type')||''; if(query.length>200||type&&!['plugin','library','mcp','tool','chatbot'].includes(type))return json({error:'Use a search of at most 200 characters and a supported tool type.'},400);return json(searchAgentTools({query,type,limit:Number(url.searchParams.get('limit'))||20}),200,{'Cache-Control':'public, max-age=300'}); }
       if (url.pathname === '/mcp') return await handleMcp(request, { catalog, readSkill: skill => readPublishedSkill(env, skill), searchListings: async args => {
         const listingUrl = new URL('/api/community/listings', canonical); listingUrl.searchParams.set('q', args.query);
         if (args.type) listingUrl.searchParams.set('type', args.type);
@@ -98,7 +105,7 @@ export default {
       if (request.method === 'OPTIONS' && url.pathname.startsWith('/api/')) return new Response(null, { status: 204, headers: { ...headers, 'Access-Control-Allow-Methods': 'GET, POST, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type', 'Access-Control-Max-Age': '86400' } });
       if (url.pathname === '/api/submissions') {
         if (request.method !== 'POST') return json({ error: 'Use POST to submit a skill.' }, 405, { Allow: 'POST' });
-        return await submission(request, env);
+        return json({error:'Skill publication now requires an owner-verified email. Use the submission form or authenticated community endpoint.',form:`${canonical}/publish`,schema:`${canonical}/api/submission-schema`,endpoint:`${canonical}/api/community/listings`},410);
       }
       if (request.method !== 'GET' && request.method !== 'HEAD') return json({ error: 'Method not allowed.' }, 405, { Allow: 'GET, HEAD' });
       if (url.pathname === '/api/health') return json({ status: 'ok', version: packageInfo.version, skills: catalog.total, repositories: catalog.sourceCount, generatedAt: catalog.generatedAt, community: Boolean(env.DB), emailSignIn: Boolean(env.EMAIL && env.EMAIL_FROM) });

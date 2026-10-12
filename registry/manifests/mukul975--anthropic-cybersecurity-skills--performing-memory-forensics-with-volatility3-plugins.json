@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-memory-forensics-with-volatility3-plugins",
+    "name": "performing-memory-forensics-with-volatility3-plugins",
+    "description": "Analyze memory dumps using Volatility3 plugins to detect injected code, rootkits, credential theft, and malware artifacts in Windows, Linux, and macOS memory images.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "memory",
+      "forensics",
+      "volatility3",
+      "plugins",
+      "analyze",
+      "dumps",
+      "detect",
+      "injected",
+      "code",
+      "rootkits",
+      "credential",
+      "theft",
+      "malware",
+      "artifacts",
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-memory-forensics-with-volatility3-plugins/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-memory-forensics-with-volatility3-plugins",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-memory-forensics-with-volatility3-plugins",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 33394,
+    "sha256": "4df1dfc0a60516f320d8a1c103b7472eb0614d0271fdded76f5b9ad531ce512d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-memory-forensics-with-volatility3-plugins/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-memory-forensics-with-volatility3-plugins/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-memory-forensics-with-volatility3-plugins/SKILL.md",
+      "bytes": 8532,
+      "sha256": "4df1dfc0a60516f320d8a1c103b7472eb0614d0271fdded76f5b9ad531ce512d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-memory-forensics-with-volatility3-plugins/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-memory-forensics-with-volatility3-plugins/assets/template.md",
+      "bytes": 651,
+      "sha256": "e4b43276f35531278a464d0eaa4ef82384aa56f9e4d4c4f322862d0a280b023b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-memory-forensics-with-volatility3-plugins/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-memory-forensics-with-volatility3-plugins/references/api-reference.md",
+      "bytes": 1852,
+      "sha256": "abbb7f69170e507be223237046918ff22b691ee4d18620792cf448468b555d7e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-memory-forensics-with-volatility3-plugins/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-memory-forensics-with-volatility3-plugins/references/standards.md",
+      "bytes": 1128,
+      "sha256": "a1f0f671750a746c409f8916571e91b75f840b0169749fa4e1dd722d6f726cce",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-memory-forensics-with-volatility3-plugins/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-memory-forensics-with-volatility3-plugins/references/workflows.md",
+      "bytes": 722,
+      "sha256": "b2e8a24f4d39fc7fdee09302dafab88ab41e7c68dc239f175fb24fa9a2f43437",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-memory-forensics-with-volatility3-plugins/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-memory-forensics-with-volatility3-plugins/scripts/agent.py",
+      "bytes": 7377,
+      "sha256": "9588e13877d6291e52208ea0394f3f4cbe76d3982bcc602fcf296ca6004d51cb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-memory-forensics-with-volatility3-plugins/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-memory-forensics-with-volatility3-plugins/scripts/process.py",
+      "bytes": 1877,
+      "sha256": "c83884b02b644581627742cda376f1f1f79a9f4295ddaae0b51cfa59b550536b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-memory-forensics-with-volatility3-plugins/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "7618f54a20c603468d83398519b7cb43c5b6116ac38fc1eb993ab269cd73255b"
+}

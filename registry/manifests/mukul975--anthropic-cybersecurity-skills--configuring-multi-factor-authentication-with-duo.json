@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--configuring-multi-factor-authentication-with-duo",
+    "name": "configuring-multi-factor-authentication-with-duo",
+    "description": "Deploys Cisco Duo multi-factor authentication across enterprise applications, VPN, RDP, and SSH access points, covering Duo Authentication Proxy setup, adaptive authentication policies, device trust assessment, and phishing-resistant WebAuthn/FIDO2 deployment aligned with NIST 800-63B AAL2/AAL3. Use when adding or hardening MFA for remote access, VPN, or privileged logins with Duo.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "configuring",
+      "multi",
+      "factor",
+      "authentication",
+      "duo",
+      "deploys",
+      "cisco",
+      "across",
+      "enterprise",
+      "applications",
+      "vpn",
+      "rdp",
+      "ssh",
+      "access",
+      "points",
+      "covering",
+      "proxy",
+      "setup"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/configuring-multi-factor-authentication-with-duo/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/configuring-multi-factor-authentication-with-duo",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-multi-factor-authentication-with-duo",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 39952,
+    "sha256": "c5921afc991d6d4882ec3b0f2dd85fd1bcda9e78271315e87d1547d3ab549dfa",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/configuring-multi-factor-authentication-with-duo/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-multi-factor-authentication-with-duo/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/configuring-multi-factor-authentication-with-duo/SKILL.md",
+      "bytes": 6420,
+      "sha256": "c5921afc991d6d4882ec3b0f2dd85fd1bcda9e78271315e87d1547d3ab549dfa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-multi-factor-authentication-with-duo/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/configuring-multi-factor-authentication-with-duo/assets/template.md",
+      "bytes": 1452,
+      "sha256": "e2e0c7037cdf050449fe0a44b7c571f7e510666efb28ff45bc707f6b8a5ff1d0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-multi-factor-authentication-with-duo/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/configuring-multi-factor-authentication-with-duo/references/api-reference.md",
+      "bytes": 1488,
+      "sha256": "356e7ee7268047337b581fddf07c6700ae80e1a0e96a5120b0ffff4aef8dbeb3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-multi-factor-authentication-with-duo/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/configuring-multi-factor-authentication-with-duo/references/standards.md",
+      "bytes": 1240,
+      "sha256": "1d806472e5d39377f89e3105734b5dc4b2fe84122dcc970421e2c2bf2b47e689",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-multi-factor-authentication-with-duo/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/configuring-multi-factor-authentication-with-duo/references/workflows.md",
+      "bytes": 1588,
+      "sha256": "21daf749720de2e5edeb39c8991333c8ba85c84e57599bf64c8675a7293f4d74",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-multi-factor-authentication-with-duo/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/configuring-multi-factor-authentication-with-duo/scripts/agent.py",
+      "bytes": 4816,
+      "sha256": "419edf13bd4195603f6c0a079ed35beeb51da754e982a3279f5f1cad176d6d8d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-multi-factor-authentication-with-duo/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/configuring-multi-factor-authentication-with-duo/scripts/process.py",
+      "bytes": 11693,
+      "sha256": "1504eb9a869dbcc31f6838747cfb28dd67a9b2a9f309be7201e66b479af348b9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-multi-factor-authentication-with-duo/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "0595423a2fd9a3475f64dfececeed75f01b549f44af1383683f1fe3af4d5699a"
+}

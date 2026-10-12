@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-tls-certificate-transparency-logs",
+    "name": "analyzing-tls-certificate-transparency-logs",
+    "description": "Queries Certificate Transparency logs via crt.sh and pycrtsh to detect phishing domains, unauthorized certificate issuance, and shadow IT. Monitors newly issued certificates for typosquatting and brand impersonation using Levenshtein distance. Use for proactive phishing domain detection and certificate monitoring.",
+    "category": "Development",
+    "tags": [
+      "analyzing",
+      "tls",
+      "certificate",
+      "transparency",
+      "logs",
+      "queries",
+      "via",
+      "crt.sh",
+      "pycrtsh",
+      "detect",
+      "phishing",
+      "domains",
+      "unauthorized",
+      "issuance",
+      "shadow",
+      "it.",
+      "monitors",
+      "newly"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-tls-certificate-transparency-logs/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-tls-certificate-transparency-logs",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-tls-certificate-transparency-logs",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 22206,
+    "sha256": "784e8248192b8191b27c71c1509b7e1d65e0b169b6fb110fe25be3f979a41783",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-tls-certificate-transparency-logs/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-tls-certificate-transparency-logs/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-tls-certificate-transparency-logs/SKILL.md",
+      "bytes": 2979,
+      "sha256": "784e8248192b8191b27c71c1509b7e1d65e0b169b6fb110fe25be3f979a41783",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-tls-certificate-transparency-logs/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-tls-certificate-transparency-logs/references/api-reference.md",
+      "bytes": 1512,
+      "sha256": "945a3610436b753b5a2a6dc51818afa8e09e518485eae226ef318488c96d6b7d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-tls-certificate-transparency-logs/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-tls-certificate-transparency-logs/scripts/agent.py",
+      "bytes": 6460,
+      "sha256": "f97986bc2fe0f5af488de4faa24d45e39c6e38796d75c78fb7f0cfc80fa9c8df",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-tls-certificate-transparency-logs/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "d0720c5e8e049112512b58cec7006d471aa6654cbcb5bc4ac4014c8fc43536e9"
+}

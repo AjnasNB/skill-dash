@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-active-directory-bloodhound-analysis",
+    "name": "performing-active-directory-bloodhound-analysis",
+    "description": "Use BloodHound and SharpHound (or AzureHound) to enumerate Active Directory relationships and graph attack paths from a compromised user to Domain Admin. Use when performing AD red-team reconnaissance, mapping privilege-escalation chains from group memberships, ACLs, and trusts, or auditing AD for exploitable misconfigurations.",
+    "category": "Development",
+    "tags": [
+      "performing",
+      "active",
+      "directory",
+      "bloodhound",
+      "analysis",
+      "sharphound",
+      "azurehound",
+      "enumerate",
+      "relationships",
+      "graph",
+      "attack",
+      "paths",
+      "from",
+      "compromised",
+      "user",
+      "domain",
+      "admin.",
+      "when"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-active-directory-bloodhound-analysis/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-active-directory-bloodhound-analysis",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-bloodhound-analysis",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 59046,
+    "sha256": "ef010ebed783750a149b0a3effa3265316faf1084d3303b913931587fa07f664",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-active-directory-bloodhound-analysis/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-bloodhound-analysis/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-active-directory-bloodhound-analysis/SKILL.md",
+      "bytes": 8309,
+      "sha256": "ef010ebed783750a149b0a3effa3265316faf1084d3303b913931587fa07f664",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-bloodhound-analysis/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-active-directory-bloodhound-analysis/assets/template.md",
+      "bytes": 3708,
+      "sha256": "31547a4c49ac086783adee05a6f1618621f31596a1f910aedb7280c6fd28e60d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-bloodhound-analysis/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-active-directory-bloodhound-analysis/references/api-reference.md",
+      "bytes": 1546,
+      "sha256": "9a5e94e2c7ae2193111a654321fd92d5c2a832cf56313c1dfe8329212b0057be",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-bloodhound-analysis/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-active-directory-bloodhound-analysis/references/standards.md",
+      "bytes": 2378,
+      "sha256": "c5cd6b49ae67eea3897ae77860167b721456e51a6fe6f95e5ae36f8184f5599b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-bloodhound-analysis/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-active-directory-bloodhound-analysis/references/workflows.md",
+      "bytes": 7791,
+      "sha256": "33db10e9cbad220f471e0d7de4211521e24b0c60bd23429f01d53bafb492b2be",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-bloodhound-analysis/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-active-directory-bloodhound-analysis/scripts/agent.py",
+      "bytes": 7249,
+      "sha256": "e829504e56cc881308dc383e606008b783692c174a74af67e6f276684b13a213",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-bloodhound-analysis/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-active-directory-bloodhound-analysis/scripts/process.py",
+      "bytes": 16810,
+      "sha256": "9cb5445f6b64c81298aafcc1c4d3eb5806fe4132e1c72ad6d18c1645b5594456",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-bloodhound-analysis/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "46cc1eded361c9ff26dea93dc3e655f63db07f4a16a78bf9668b7891e0f64a3e"
+}

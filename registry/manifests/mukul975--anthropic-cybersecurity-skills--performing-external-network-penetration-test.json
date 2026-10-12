@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-external-network-penetration-test",
+    "name": "performing-external-network-penetration-test",
+    "description": "Conduct a comprehensive external network penetration test to identify vulnerabilities in internet-facing infrastructure using PTES methodology, reconnaissance, scanning, exploitation, and reporting.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "external",
+      "network",
+      "penetration",
+      "test",
+      "conduct",
+      "comprehensive",
+      "identify",
+      "vulnerabilities",
+      "internet",
+      "facing",
+      "infrastructure",
+      "ptes",
+      "methodology",
+      "reconnaissance",
+      "scanning",
+      "exploitation",
+      "reporting."
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-external-network-penetration-test/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-external-network-penetration-test",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-external-network-penetration-test",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 53119,
+    "sha256": "7810b346bdde515919949c7c29406ef265ed08365e7087253e485e0ef1c1496c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-external-network-penetration-test/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-external-network-penetration-test/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-external-network-penetration-test/SKILL.md",
+      "bytes": 10550,
+      "sha256": "7810b346bdde515919949c7c29406ef265ed08365e7087253e485e0ef1c1496c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-external-network-penetration-test/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-external-network-penetration-test/assets/template.md",
+      "bytes": 3481,
+      "sha256": "bea361ad3ac06a20236196e8337fb5bf12de4dee012a9b472564aaf49b6862b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-external-network-penetration-test/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-external-network-penetration-test/references/api-reference.md",
+      "bytes": 1680,
+      "sha256": "c9210f4304a6ae3019f3f813c57ded45566443eb3e57e1d51c28e65c1cd81ebd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-external-network-penetration-test/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-external-network-penetration-test/references/standards.md",
+      "bytes": 2064,
+      "sha256": "2a38e62726bd1601177598e1d5f155f4514c1c0fca098985ff04513f882f4c51",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-external-network-penetration-test/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-external-network-penetration-test/references/workflows.md",
+      "bytes": 4261,
+      "sha256": "349a64b9276456051c6b2fff9285a0e42a49cccdfc74cbeaa730153a07060fd9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-external-network-penetration-test/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-external-network-penetration-test/scripts/agent.py",
+      "bytes": 5752,
+      "sha256": "08651cffe9ec9eed0b0372b6eda8fb49be1d5bafaa304314f7b70d83888ee3b8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-external-network-penetration-test/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-external-network-penetration-test/scripts/process.py",
+      "bytes": 14076,
+      "sha256": "560f54dc2f3852bc1bf419b51531e6ec46f9a48cc82582579ecdcb1baf43d2b0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-external-network-penetration-test/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "299b25b6e70e28fd52e03226550d3412859fd2b9b12869242b2a45698e1b4c93"
+}

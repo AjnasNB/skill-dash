@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-malicious-npm-packages",
+    "name": "detecting-malicious-npm-packages",
+    "description": "Triage npm packages and lockfiles for install-script malware, credential exfiltration, and worming behavior using GuardDog, manual tarball inspection, and dynamic detonation with network/filesystem monitoring. Use when vetting a new dependency, reviewing a package.json/package-lock.json during code review, checking lockfiles against a supply-chain advisory's known-bad versions, or investigating a host suspected of installing a trojanized package.",
+    "category": "Security",
+    "tags": [
+      "detecting",
+      "malicious",
+      "npm",
+      "packages",
+      "triage",
+      "lockfiles",
+      "install",
+      "script",
+      "malware",
+      "credential",
+      "exfiltration",
+      "worming",
+      "behavior",
+      "guarddog",
+      "manual",
+      "tarball",
+      "inspection",
+      "dynamic"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-malicious-npm-packages/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-malicious-npm-packages",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-malicious-npm-packages",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 31822,
+    "sha256": "5cb5048c9b108a29713ed1077654d4e07583717fddec21c4d964438eabea5b6f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-malicious-npm-packages/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-malicious-npm-packages/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-malicious-npm-packages/SKILL.md",
+      "bytes": 10419,
+      "sha256": "5cb5048c9b108a29713ed1077654d4e07583717fddec21c4d964438eabea5b6f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-malicious-npm-packages/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-malicious-npm-packages/references/api-reference.md",
+      "bytes": 2262,
+      "sha256": "53e1f8305fa88cfafa8b25a5b08a4469699cee1d6632c6f24577ccbaa707efce",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-malicious-npm-packages/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/detecting-malicious-npm-packages/references/standards.md",
+      "bytes": 1519,
+      "sha256": "2f4669830d6befb78755ab190b318a7c383133f2a6fa008fcb7adf69ba90b679",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-malicious-npm-packages/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-malicious-npm-packages/scripts/agent.py",
+      "bytes": 6367,
+      "sha256": "833bc78085a4cf27f76eccdc415deff209f48779ceb2e2297791f9416fcd23af",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-malicious-npm-packages/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "2e5beb84816121ac90670cfa00a0e4e40b5f3a3bd80a8ff566953e453e681a0f"
+}

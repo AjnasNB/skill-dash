@@ -5,9 +5,10 @@ const root = path.resolve(import.meta.dirname, '..');
 const catalog = JSON.parse(await fs.readFile(path.join(root, 'registry/catalog.json'), 'utf8'));
 assert.equal(catalog.total, catalog.skills.length);
 assert.ok(catalog.total >= 2000, 'At least 2,000 real skills are required.');
+assert.ok(catalog.minimumRepositoryStars >= 10000, 'Curated sources require at least 10,000 repository stars.');
 assert.equal(new Set(catalog.skills.map(s => s.id)).size, catalog.total);
 for (const skill of catalog.skills) {
-  assert.ok(skill.stars >= 1000, `${skill.id}: source stars below minimum`);
+  assert.ok(skill.stars >= catalog.minimumRepositoryStars, `${skill.id}: source stars below minimum`);
   assert.match(skill.revision, /^[a-f0-9]{40}$/);
   assert.match(skill.sha256, /^[a-f0-9]{64}$/);
   assert.ok(skill.license && skill.description.length >= 12);

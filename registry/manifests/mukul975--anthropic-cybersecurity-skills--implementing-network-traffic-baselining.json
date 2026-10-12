@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-network-traffic-baselining",
+    "name": "implementing-network-traffic-baselining",
+    "description": "Builds network traffic baselines from NetFlow/IPFIX CSV or JSON exports using Python pandas, computing hourly/daily volume distributions, per-host and protocol/port statistics, and top-talker profiles, then flags outliers via z-score and IQR anomaly detection. Use when a SOC analyst needs to establish normal traffic patterns and surface deviations such as data exfiltration spikes, beaconing, or unusual port usage from historical flow data.",
+    "category": "Data & research",
+    "tags": [
+      "implementing",
+      "network",
+      "traffic",
+      "baselining",
+      "builds",
+      "baselines",
+      "from",
+      "netflow",
+      "ipfix",
+      "csv",
+      "json",
+      "exports",
+      "python",
+      "pandas",
+      "computing",
+      "hourly",
+      "daily",
+      "volume"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-network-traffic-baselining/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-network-traffic-baselining",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-traffic-baselining",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 22397,
+    "sha256": "5f451d3c0be0e219787c52a3ee510c54aecb2acf2302094fcb819f268dfe80bd",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-network-traffic-baselining/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-traffic-baselining/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-network-traffic-baselining/SKILL.md",
+      "bytes": 2605,
+      "sha256": "5f451d3c0be0e219787c52a3ee510c54aecb2acf2302094fcb819f268dfe80bd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-traffic-baselining/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-network-traffic-baselining/references/api-reference.md",
+      "bytes": 1732,
+      "sha256": "6b6d76d3c1b90c04d3d94f06b84231e6a7779f29a15d2b7ef5e828e2703017de",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-traffic-baselining/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-network-traffic-baselining/scripts/agent.py",
+      "bytes": 6805,
+      "sha256": "3cc03d0cb22ec515e67b416c0534026e5d00f9c8693e0cb731f222918947aaa0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-traffic-baselining/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "c60d43f3ec52ef55a3b994b3103418535b811bb434fa3f4e0821cd313ba7369d"
+}

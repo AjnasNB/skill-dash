@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--budget-cash-flow",
+    "name": "budget-cash-flow",
+    "description": "Budget against actual by department, category and period, with budget and actual amounts, variance, percentage used and linked expenses. Use for budget tracking or cash-flow reviews.",
+    "category": "Development",
+    "tags": [
+      "budget",
+      "cash",
+      "flow",
+      "against",
+      "actual",
+      "by",
+      "department",
+      "category",
+      "period",
+      "amounts",
+      "variance",
+      "percentage",
+      "used",
+      "linked",
+      "expenses.",
+      "tracking",
+      "reviews."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/budget-cash-flow",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/budget-cash-flow",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 17370,
+    "sha256": "9688d9c9d79713fb34c93b727e4705ce1ff0c92d19686fad2676854a7f806aeb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/budget-cash-flow/SKILL.md",
+      "bytes": 16297,
+      "sha256": "9688d9c9d79713fb34c93b727e4705ce1ff0c92d19686fad2676854a7f806aeb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/budget-cash-flow/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "f8d458989fdcd9ea420c6e31cf9f3978ec7502dd4da2d6ccc7016011c93556fa"
+}

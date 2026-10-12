@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--genomic-intelligence",
+    "name": "genomic-intelligence",
+    "description": "Predicts regulatory features, gene structure, and expression directly from DNA sequence using Genomic Intelligence's hosted transformer DNA language models — no local GPU or model weights. Six tasks over a REST API and a hosted MCP server (keyless public demo): promoter regions, splice donor/acceptor sites, enhancer activity, chromatin state, sequence-to-expression (log TPM), and de-novo gene annotation, plus a composite find-genes-then-predict-expression workflow. Use when the user has a gene symbol, a genomic region, or a DNA/FASTA sequence and wants any of these predictions, mentions Genomic Intelligence, genomicintelligence.ai, api.genomicintelligence.ai, or mcp.genomicintelligence.ai.",
+    "category": "Data & research",
+    "tags": [
+      "genomic",
+      "intelligence",
+      "predicts",
+      "regulatory",
+      "features",
+      "gene",
+      "structure",
+      "expression",
+      "directly",
+      "from",
+      "dna",
+      "sequence",
+      "hosted",
+      "transformer",
+      "language",
+      "models",
+      "no",
+      "local"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/genomic-intelligence",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/genomic-intelligence",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 7,
+    "bytes": 63683,
+    "sha256": "cdb027004996d313d31b55f6b93306de45306a89b8a4a792e94c36cf2d1dea20",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/genomic-intelligence/SKILL.md",
+      "bytes": 24826,
+      "sha256": "cdb027004996d313d31b55f6b93306de45306a89b8a4a792e94c36cf2d1dea20",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/genomic-intelligence/SKILL.md"
+    },
+    {
+      "path": "references/api-and-auth.md",
+      "sourcePath": "skills/genomic-intelligence/references/api-and-auth.md",
+      "bytes": 8372,
+      "sha256": "4644e9986e698fd0706d02d2e3e41cb7591e3e62bed8c4c9021e625d0496903e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/genomic-intelligence/references/api-and-auth.md"
+    },
+    {
+      "path": "references/mcp.md",
+      "sourcePath": "skills/genomic-intelligence/references/mcp.md",
+      "bytes": 6018,
+      "sha256": "eaecc14ec4abd21d4b715341c58b9324ad8d2e10df000c43935be78b13be3c6c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/genomic-intelligence/references/mcp.md"
+    },
+    {
+      "path": "references/review.md",
+      "sourcePath": "skills/genomic-intelligence/references/review.md",
+      "bytes": 4223,
+      "sha256": "dfd1e491e566df6057a8fc0b8410223b17d806e30203e5c0127234641114f0a0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/genomic-intelligence/references/review.md"
+    },
+    {
+      "path": "references/sequence-acquisition.md",
+      "sourcePath": "skills/genomic-intelligence/references/sequence-acquisition.md",
+      "bytes": 6252,
+      "sha256": "200d7f914c2a4b2cb39f0e27f359fbc6b2df46f36a775af6c0aaec66623b87f4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/genomic-intelligence/references/sequence-acquisition.md"
+    },
+    {
+      "path": "references/tasks.md",
+      "sourcePath": "skills/genomic-intelligence/references/tasks.md",
+      "bytes": 12924,
+      "sha256": "094dc336002abd1d8396c48ccafb1c11b4ba5a19e5612d4ab14ead4b1d19fe18",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/genomic-intelligence/references/tasks.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "7af6f4d0f20df4cd73055faa341f73e5e13e51eb43a648a0e6f1936cd80c05cc"
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--emulating-cloud-attacks-with-stratus-red-team",
+    "name": "emulating-cloud-attacks-with-stratus-red-team",
+    "description": "Install and run Stratus Red Team to detonate granular, MITRE ATT&CK-mapped AWS, Azure, GCP, and Kubernetes attack techniques through their warmup-detonate-revert-cleanup lifecycle, then verify the telemetry they generate. Use to validate that cloud detections (CloudTrail, GuardDuty, Microsoft Sentinel, GCP SCC, Falco) actually fire, or to run a repeatable purple-team exercise generating realistic attacker telemetry.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "emulating",
+      "cloud",
+      "attacks",
+      "stratus",
+      "red",
+      "team",
+      "install",
+      "run",
+      "detonate",
+      "granular",
+      "mitre",
+      "att",
+      "ck",
+      "mapped",
+      "aws",
+      "azure",
+      "gcp",
+      "kubernetes"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/emulating-cloud-attacks-with-stratus-red-team/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/emulating-cloud-attacks-with-stratus-red-team",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/emulating-cloud-attacks-with-stratus-red-team",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 31450,
+    "sha256": "8c65abcfc2791c72bd3c695c70ab18abdad2722052857e8e3cd1766d3bffd29c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/emulating-cloud-attacks-with-stratus-red-team/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/emulating-cloud-attacks-with-stratus-red-team/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/emulating-cloud-attacks-with-stratus-red-team/SKILL.md",
+      "bytes": 11318,
+      "sha256": "8c65abcfc2791c72bd3c695c70ab18abdad2722052857e8e3cd1766d3bffd29c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/emulating-cloud-attacks-with-stratus-red-team/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/emulating-cloud-attacks-with-stratus-red-team/references/api-reference.md",
+      "bytes": 2429,
+      "sha256": "37acfbb3475795ead7581b49d3eaa91322cd6748552c64878efc6bf7ec95f378",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/emulating-cloud-attacks-with-stratus-red-team/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/emulating-cloud-attacks-with-stratus-red-team/references/standards.md",
+      "bytes": 1252,
+      "sha256": "97bcdaf6ea64dd5c4482307d64759aea577dad5369d071c2c8c3f51dc146e9f1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/emulating-cloud-attacks-with-stratus-red-team/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/emulating-cloud-attacks-with-stratus-red-team/scripts/agent.py",
+      "bytes": 5196,
+      "sha256": "d1fcac116e6ba90f0182d2d7d4fca7e183b39c62e5f6abe0fae77d21a6ecd802",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/emulating-cloud-attacks-with-stratus-red-team/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "cc91b7a3c8c30b9ab3cfd2a6964b9bc7ad04fa74f31b8900fe97b717469fadfc"
+}

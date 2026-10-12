@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-iot-security-assessment",
+    "name": "performing-iot-security-assessment",
+    "description": "Performs comprehensive security assessments of IoT devices and their ecosystems by testing hardware interfaces, firmware, network communications, cloud APIs, and companion mobile applications. The tester uses firmware extraction and analysis, hardware debugging via UART and JTAG, network protocol analysis, and runtime exploitation to identify vulnerabilities across all layers of the IoT stack. Activates for requests involving IoT security testing, embedded device assessment, firmware security analysis, or smart device penetration testing.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "iot",
+      "security",
+      "assessment",
+      "performs",
+      "comprehensive",
+      "assessments",
+      "devices",
+      "their",
+      "ecosystems",
+      "by",
+      "testing",
+      "hardware",
+      "interfaces",
+      "firmware",
+      "network",
+      "communications",
+      "cloud"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-iot-security-assessment/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-iot-security-assessment",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-iot-security-assessment",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34249,
+    "sha256": "f55327f225ac5a523ffbac6e03368c8deea96172cb1eb0cadcbb1fc130225ba9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-iot-security-assessment/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-iot-security-assessment/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-iot-security-assessment/SKILL.md",
+      "bytes": 12670,
+      "sha256": "f55327f225ac5a523ffbac6e03368c8deea96172cb1eb0cadcbb1fc130225ba9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-iot-security-assessment/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-iot-security-assessment/references/api-reference.md",
+      "bytes": 1720,
+      "sha256": "df4bc55d53c5d31ea5e143567519d390fc0c0c93433dc2ec6610e027a1cc3118",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-iot-security-assessment/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-iot-security-assessment/scripts/agent.py",
+      "bytes": 8604,
+      "sha256": "573b0c02b91f9241257521dfedb2349ae389f4a4305400c842e666d94c142337",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-iot-security-assessment/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "44dbbcaf5f8c4d0dcf1c9299b46c05a630167232bd1c2bb817ac58b79c473ed4"
+}

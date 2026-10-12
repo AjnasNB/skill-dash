@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--scanning-infrastructure-with-nessus",
+    "name": "scanning-infrastructure-with-nessus",
+    "description": "Tenable Nessus is the industry-leading vulnerability scanner used to identify security weaknesses across network infrastructure including servers, workstations, network devices, and operating systems.",
+    "category": "Security",
+    "tags": [
+      "scanning",
+      "infrastructure",
+      "nessus",
+      "tenable",
+      "is",
+      "industry",
+      "leading",
+      "vulnerability",
+      "scanner",
+      "used",
+      "identify",
+      "security",
+      "weaknesses",
+      "across",
+      "network",
+      "including",
+      "servers",
+      "workstations"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/scanning-infrastructure-with-nessus/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/scanning-infrastructure-with-nessus",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-infrastructure-with-nessus",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 57706,
+    "sha256": "43bc1850fe299c0ba0012cec8b1aca4be602b148cc636e6f51de10d0d78620d7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/scanning-infrastructure-with-nessus/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-infrastructure-with-nessus/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/scanning-infrastructure-with-nessus/SKILL.md",
+      "bytes": 6813,
+      "sha256": "43bc1850fe299c0ba0012cec8b1aca4be602b148cc636e6f51de10d0d78620d7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-infrastructure-with-nessus/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/scanning-infrastructure-with-nessus/assets/template.md",
+      "bytes": 3695,
+      "sha256": "8fc5e92f7b93a11d4713d093bdb584e743116071f58a71c17fd2ae78d00283d5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-infrastructure-with-nessus/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/scanning-infrastructure-with-nessus/references/api-reference.md",
+      "bytes": 1931,
+      "sha256": "c7a2c9755a474c379c516be5aee10cb6ff5a7fa61833340875d8de26602c9cf7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-infrastructure-with-nessus/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/scanning-infrastructure-with-nessus/references/standards.md",
+      "bytes": 1940,
+      "sha256": "f71eb2c46faf96b97cd1f566c60f5c439a5d724835f57e2a24bfa3dae1863f62",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-infrastructure-with-nessus/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/scanning-infrastructure-with-nessus/references/workflows.md",
+      "bytes": 4515,
+      "sha256": "b93ad106cfdfdf1e1bcdb4e066c57dbb5e7d43a75a1054d5bfd36b47f4b0d820",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-infrastructure-with-nessus/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/scanning-infrastructure-with-nessus/scripts/agent.py",
+      "bytes": 6251,
+      "sha256": "ce4487a3b6420a303e79978573660fc146799efe7342b9c9a293a5954fca6f79",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-infrastructure-with-nessus/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/scanning-infrastructure-with-nessus/scripts/process.py",
+      "bytes": 21306,
+      "sha256": "ca5cab7ec63c2937a9f9f4e9a60df636dc8f09f7bab86aa01432cbe364cca2a1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-infrastructure-with-nessus/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "63383c93966db6780c2213cd2b74ccc117c2264b123b852786eb70459782719f"
+}

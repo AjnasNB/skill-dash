@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-for-beaconing-with-frequency-analysis",
+    "name": "hunting-for-beaconing-with-frequency-analysis",
+    "description": "Identify command-and-control beaconing patterns in network traffic by applying statistical frequency analysis, jitter calculation, and coefficient of variation scoring to detect periodic callbacks from compromised endpoints.",
+    "category": "Development",
+    "tags": [
+      "hunting",
+      "beaconing",
+      "frequency",
+      "analysis",
+      "identify",
+      "command",
+      "control",
+      "patterns",
+      "network",
+      "traffic",
+      "by",
+      "applying",
+      "statistical",
+      "jitter",
+      "calculation",
+      "coefficient",
+      "variation",
+      "scoring"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-for-beaconing-with-frequency-analysis/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-for-beaconing-with-frequency-analysis",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-beaconing-with-frequency-analysis",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 46655,
+    "sha256": "79c3e65d9d101f9a1f1777f75fdd9e6487d3afe81da3fd85edb00938661168f0",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-for-beaconing-with-frequency-analysis/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-beaconing-with-frequency-analysis/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-for-beaconing-with-frequency-analysis/SKILL.md",
+      "bytes": 7978,
+      "sha256": "79c3e65d9d101f9a1f1777f75fdd9e6487d3afe81da3fd85edb00938661168f0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-beaconing-with-frequency-analysis/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/hunting-for-beaconing-with-frequency-analysis/assets/template.md",
+      "bytes": 1617,
+      "sha256": "b4208f9e511857e884fef58c40891563bdb527ec1f091179fa69817ef3107f1e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-beaconing-with-frequency-analysis/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-for-beaconing-with-frequency-analysis/references/api-reference.md",
+      "bytes": 2707,
+      "sha256": "b37238b7b646cda3de59833ebf64feff1b5091b833e9a3803914b3e0086b03a0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-beaconing-with-frequency-analysis/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/hunting-for-beaconing-with-frequency-analysis/references/standards.md",
+      "bytes": 3577,
+      "sha256": "5d3b724f9dce892913def6c3cff8872119d74a7f86637abea7bcfbfeefe9875e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-beaconing-with-frequency-analysis/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/hunting-for-beaconing-with-frequency-analysis/references/workflows.md",
+      "bytes": 4808,
+      "sha256": "d5e41fdeb1bf5b6aad7319e0cca8f7088714d26c79eca1e07af6924e4ac18604",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-beaconing-with-frequency-analysis/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-for-beaconing-with-frequency-analysis/scripts/agent.py",
+      "bytes": 5164,
+      "sha256": "ca55dc4d35fce921c77f8b4bc3bc66a0733b945929dc402dd344f40902a6eef1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-beaconing-with-frequency-analysis/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/hunting-for-beaconing-with-frequency-analysis/scripts/process.py",
+      "bytes": 9549,
+      "sha256": "0075c2f12c040cbb45f4565a283c61d28931ce7c5d60caecd1902d5fef6af877",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-beaconing-with-frequency-analysis/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "523c31fa4a568b80f5d8bdcef7c7bed7468fa98ff460f2699d08a57b9df6bb0b"
+}

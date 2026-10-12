@@ -1,1 +1,58 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--database","name":"database","description":"Database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data engineering.","category":"Design","tags":["database","development","operations","workflow","covering","sql","nosql","design","migrations","optimization","data","engineering."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":46853,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"21efc48cceaf0f7043fa496ad8fcd5815637121e","path":"skills/database","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/database","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T06:08:57Z","fileCount":2,"bytes":5813,"sha256":"468d69d378ad6513554c69bc1942880b42e71d3caeceaab371eec275f895f0d5","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/database/SKILL.md","bytes":4740,"sha256":"468d69d378ad6513554c69bc1942880b42e71d3caeceaab371eec275f895f0d5","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/database/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/LICENSE"}],"archiveSha256":"a99ba418f9db3bbc60277b3ab3b1af346e7471f8afd7ccd2c04f630f00243b89"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--database",
+    "name": "database",
+    "description": "Database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data engineering.",
+    "category": "Design",
+    "tags": [
+      "database",
+      "development",
+      "operations",
+      "workflow",
+      "covering",
+      "sql",
+      "nosql",
+      "design",
+      "migrations",
+      "optimization",
+      "data",
+      "engineering."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/database",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/database",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5813,
+    "sha256": "468d69d378ad6513554c69bc1942880b42e71d3caeceaab371eec275f895f0d5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/database/SKILL.md",
+      "bytes": 4740,
+      "sha256": "468d69d378ad6513554c69bc1942880b42e71d3caeceaab371eec275f895f0d5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/database/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "da028d0aa28d682817ccc24f80da9d054e0dce04208189ebf9caf6d714fc1c00"
+}

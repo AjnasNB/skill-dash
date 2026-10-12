@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--gtars",
+    "name": "gtars",
+    "description": "Supports Gtars for local genomic interval models and set algebra, overlaps and counts, consensus and coverage, tokenization, fragment processing, and refget/BEDbase planning across Python, Rust, and the CLI.",
+    "category": "Data & research",
+    "tags": [
+      "gtars",
+      "supports",
+      "local",
+      "genomic",
+      "interval",
+      "models",
+      "set",
+      "algebra",
+      "overlaps",
+      "counts",
+      "consensus",
+      "coverage",
+      "tokenization",
+      "fragment",
+      "processing",
+      "refget",
+      "bedbase",
+      "planning"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/gtars",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gtars",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 16,
+    "bytes": 150945,
+    "sha256": "c3586bcfa1e8d89a2abb23d74496d41e68daec5e7a8af6cefb9080a0ed469161",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/gtars/SKILL.md",
+      "bytes": 15071,
+      "sha256": "c3586bcfa1e8d89a2abb23d74496d41e68daec5e7a8af6cefb9080a0ed469161",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gtars/SKILL.md"
+    },
+    {
+      "path": "references/cli.md",
+      "sourcePath": "skills/gtars/references/cli.md",
+      "bytes": 12282,
+      "sha256": "283fe599ead858f9e6c8e43bf7083cd545d55865fd0b9f1d3287d6fb10f8ed08",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gtars/references/cli.md"
+    },
+    {
+      "path": "references/coverage.md",
+      "sourcePath": "skills/gtars/references/coverage.md",
+      "bytes": 7877,
+      "sha256": "11eb4671cee717b1768c3efef1fd4eee1978d8ecc0506f195e99bc6408045a96",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gtars/references/coverage.md"
+    },
+    {
+      "path": "references/overlap.md",
+      "sourcePath": "skills/gtars/references/overlap.md",
+      "bytes": 7890,
+      "sha256": "be3f6af18d554f5a6fcbf1d073825aa4d3fd132c1bfa7fdf347a9e78a595cb54",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gtars/references/overlap.md"
+    },
+    {
+      "path": "references/python-api.md",
+      "sourcePath": "skills/gtars/references/python-api.md",
+      "bytes": 10245,
+      "sha256": "0a546b43334e8667f1be1c349b3fe262002725d031678924b2394b6a9094038d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gtars/references/python-api.md"
+    },
+    {
+      "path": "references/refget.md",
+      "sourcePath": "skills/gtars/references/refget.md",
+      "bytes": 14540,
+      "sha256": "b9cbb899ba9de6379136ef30e3c4bcdb8ca6d94f65b6c27ea6444aa800fd268c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gtars/references/refget.md"
+    },
+    {
+      "path": "references/tokenizers.md",
+      "sourcePath": "skills/gtars/references/tokenizers.md",
+      "bytes": 8946,
+      "sha256": "52391fac7bcee48d64cb9458893c8c0797a3a8eac511f0b0860be770cbf87b1e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gtars/references/tokenizers.md"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "sourcePath": "skills/gtars/scripts/__init__.py",
+      "bytes": 57,
+      "sha256": "ad3f0f0e13877aa22ac08ee94dca3c1a353a0c43b9a6e516a653698881e6970d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gtars/scripts/__init__.py"
+    },
+    {
+      "path": "scripts/_common.py",
+      "sourcePath": "skills/gtars/scripts/_common.py",
+      "bytes": 15694,
+      "sha256": "d6972b81f9897407741be59714aa2f3c69736095008f78b83896bac2c5f7172f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gtars/scripts/_common.py"
+    },
+    {
+      "path": "scripts/artifact_inspector.py",
+      "sourcePath": "skills/gtars/scripts/artifact_inspector.py",
+      "bytes": 10849,
+      "sha256": "fb05c91bd3c2fddf238ddaf44342e9117251c476404c5bd8412d793d63714603",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gtars/scripts/artifact_inspector.py"
+    },
+    {
+      "path": "scripts/bed_validator.py",
+      "sourcePath": "skills/gtars/scripts/bed_validator.py",
+      "bytes": 5432,
+      "sha256": "1ab6f216a7a3047a8b0612990e7485dfe147c96a14d7c54153bde0f7ee47e791",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gtars/scripts/bed_validator.py"
+    },
+    {
+      "path": "scripts/coverage_preflight.py",
+      "sourcePath": "skills/gtars/scripts/coverage_preflight.py",
+      "bytes": 8482,
+      "sha256": "021d6eb1fe29e42d84e0b9d40f3fc101789ebaa020bc3788564132801957c9fc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gtars/scripts/coverage_preflight.py"
+    },
+    {
+      "path": "scripts/execution_plan.py",
+      "sourcePath": "skills/gtars/scripts/execution_plan.py",
+      "bytes": 13027,
+      "sha256": "b7d3fce77d3f199098fed08f4daf45151f2634bfb9d0b128a84c4defa64d1e8f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gtars/scripts/execution_plan.py"
+    },
+    {
+      "path": "scripts/refget_digest_plan.py",
+      "sourcePath": "skills/gtars/scripts/refget_digest_plan.py",
+      "bytes": 10925,
+      "sha256": "c804bfa7796c6b8a39a73928a9dde274df6073ccce4d7c2aab7f57725d3dd299",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gtars/scripts/refget_digest_plan.py"
+    },
+    {
+      "path": "scripts/tokenizer_manifest.py",
+      "sourcePath": "skills/gtars/scripts/tokenizer_manifest.py",
+      "bytes": 8560,
+      "sha256": "87dec07c6d2e0daec5568e953da78beea1170e21521a041122bc71db7f522c05",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gtars/scripts/tokenizer_manifest.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "abd1fbd05d93b71b60c5ffeaba1c170b0a795a7ac225bae0b2fc7f5f1d329cca"
+}

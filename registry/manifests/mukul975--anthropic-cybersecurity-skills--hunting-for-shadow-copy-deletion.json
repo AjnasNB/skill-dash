@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-for-shadow-copy-deletion",
+    "name": "hunting-for-shadow-copy-deletion",
+    "description": "Runs a hypothesis-driven threat hunt for Volume Shadow Copy deletion (T1490) by querying SIEM/EDR telemetry for vssadmin, wmic shadowcopy, and PowerShell shadow-copy-deletion commands. Use when hunting for ransomware preparation or anti-forensics activity, after threat intel flags active campaigns, or when alerts trigger on shadow-copy deletion commands.",
+    "category": "Security",
+    "tags": [
+      "hunting",
+      "shadow",
+      "copy",
+      "deletion",
+      "runs",
+      "hypothesis",
+      "driven",
+      "threat",
+      "hunt",
+      "volume",
+      "t1490",
+      "by",
+      "querying",
+      "siem",
+      "edr",
+      "telemetry",
+      "vssadmin",
+      "wmic"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-for-shadow-copy-deletion/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-for-shadow-copy-deletion",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-shadow-copy-deletion",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 34124,
+    "sha256": "d3607f3b3e368e7bd37b939ea3d2a378473bcb75b1733b563b87396472e58818",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-for-shadow-copy-deletion/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-shadow-copy-deletion/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-for-shadow-copy-deletion/SKILL.md",
+      "bytes": 3561,
+      "sha256": "d3607f3b3e368e7bd37b939ea3d2a378473bcb75b1733b563b87396472e58818",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-shadow-copy-deletion/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/hunting-for-shadow-copy-deletion/assets/template.md",
+      "bytes": 2647,
+      "sha256": "b679c6990c55ea7f37a0e9b86d51e19a697e29a7aebd144042e5c4d275e5e566",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-shadow-copy-deletion/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-for-shadow-copy-deletion/references/api-reference.md",
+      "bytes": 1647,
+      "sha256": "019d8fc886b84e9d88aceed390d718f4541721613e171b97b59cbbf47aef47cb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-shadow-copy-deletion/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/hunting-for-shadow-copy-deletion/references/standards.md",
+      "bytes": 1570,
+      "sha256": "09efb759ba4a82b7d1a26d7746549bb61a71e6f26aadfa8317e515ae11043b45",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-shadow-copy-deletion/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/hunting-for-shadow-copy-deletion/references/workflows.md",
+      "bytes": 2913,
+      "sha256": "29f470b7a56aa481539decf2062f8e527dc0fd5e5783f7d1d937d80dc3aa69a5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-shadow-copy-deletion/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-for-shadow-copy-deletion/scripts/agent.py",
+      "bytes": 6836,
+      "sha256": "74bfdc80c248710af87f7c58f3648940f7d8312e63292691fe13e6c3d61e5587",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-shadow-copy-deletion/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/hunting-for-shadow-copy-deletion/scripts/process.py",
+      "bytes": 3695,
+      "sha256": "7b7796f7e7c5919d2538c66a3b9424eda5dcd3a7fa22104b66f46b7c2cf8205f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-shadow-copy-deletion/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "de17931df550bd9b09fd3df66540ab8b12283ac3e0bd43f74843b0539d929259"
+}

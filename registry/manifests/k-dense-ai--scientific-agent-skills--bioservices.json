@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--bioservices",
+    "name": "bioservices",
+    "description": "Provides a Python interface to bioinformatics services including UniProt, KEGG, ChEMBL, Reactome, QuickGO, and UniChem. Used for cross-database protein annotation, pathway retrieval, chemical identifier mapping, and integrated biological data workflows with BioServices.",
+    "category": "Data & research",
+    "tags": [
+      "bioservices",
+      "provides",
+      "python",
+      "interface",
+      "bioinformatics",
+      "services",
+      "including",
+      "uniprot",
+      "kegg",
+      "chembl",
+      "reactome",
+      "quickgo",
+      "unichem.",
+      "used",
+      "cross",
+      "database",
+      "protein",
+      "annotation"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/bioservices",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bioservices",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 9,
+    "bytes": 92463,
+    "sha256": "9edc884f0fe216d510417d565ae74cc61608824b52eeb53ed0cdea3dcda5bda3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/bioservices/SKILL.md",
+      "bytes": 11946,
+      "sha256": "9edc884f0fe216d510417d565ae74cc61608824b52eeb53ed0cdea3dcda5bda3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bioservices/SKILL.md"
+    },
+    {
+      "path": "references/identifier_mapping.md",
+      "sourcePath": "skills/bioservices/references/identifier_mapping.md",
+      "bytes": 6581,
+      "sha256": "934ad3a80c2397b5373eb2ffa751ac2e49909e1f1c75c2056da9a0e5f3fbdb96",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bioservices/references/identifier_mapping.md"
+    },
+    {
+      "path": "references/services_reference.md",
+      "sourcePath": "skills/bioservices/references/services_reference.md",
+      "bytes": 15662,
+      "sha256": "2d1df028ed478f8a3cff3ae0541f1e77e354d1283f2a475f1ef43c49aaf26599",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bioservices/references/services_reference.md"
+    },
+    {
+      "path": "references/workflow_patterns.md",
+      "sourcePath": "skills/bioservices/references/workflow_patterns.md",
+      "bytes": 8131,
+      "sha256": "2fef51925a070f46580045a6066073c255e55c66f4630aab7a7eaffc1dad8f8a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bioservices/references/workflow_patterns.md"
+    },
+    {
+      "path": "scripts/batch_id_converter.py",
+      "sourcePath": "skills/bioservices/scripts/batch_id_converter.py",
+      "bytes": 11599,
+      "sha256": "1ad67f3a083ba39f95eb72b5e3bbc2d46a642a8ce7997d953059c86f3c98d869",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bioservices/scripts/batch_id_converter.py"
+    },
+    {
+      "path": "scripts/compound_cross_reference.py",
+      "sourcePath": "skills/bioservices/scripts/compound_cross_reference.py",
+      "bytes": 14175,
+      "sha256": "0425079cb5d26570ddb1fd17bd9cd689e357aeddc8a14a36984cd5bcf3d2507e",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bioservices/scripts/compound_cross_reference.py"
+    },
+    {
+      "path": "scripts/pathway_analysis.py",
+      "sourcePath": "skills/bioservices/scripts/pathway_analysis.py",
+      "bytes": 10002,
+      "sha256": "2c8e32efa43c6a2423a9779a7a0ddcecd227cee7773e604b9447363a387a3489",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bioservices/scripts/pathway_analysis.py"
+    },
+    {
+      "path": "scripts/protein_analysis_workflow.py",
+      "sourcePath": "skills/bioservices/scripts/protein_analysis_workflow.py",
+      "bytes": 13299,
+      "sha256": "dd2033b47701f70a44e9470bd2cbce2190858b27bd7345339ce13f1f1ecab6d1",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bioservices/scripts/protein_analysis_workflow.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "6f874e24d289f0f9737aa3174cb5ed8f5be39ea7585f9c6cadc4709cb4e9d290"
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--etsy-search-listings",
+    "name": "etsy-search-listings",
+    "description": "Fetch live Etsy search listing rows for a keyword, market phrase, or category via Apify Actor publicrecords/etsy-search-scraper (MCP). Needs an Apify token; Actor run is billed.",
+    "category": "AI & agents",
+    "tags": [
+      "etsy",
+      "search",
+      "listings",
+      "fetch",
+      "live",
+      "listing",
+      "rows",
+      "keyword",
+      "market",
+      "phrase",
+      "category",
+      "via",
+      "apify",
+      "actor",
+      "publicrecords",
+      "scraper",
+      "mcp",
+      "needs"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/etsy-search-listings",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/etsy-search-listings",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5891,
+    "sha256": "4b1e33780038004f14e2419b5051e37eb49a17220cc6e6a5fb476445bfbac483",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/etsy-search-listings/SKILL.md",
+      "bytes": 4818,
+      "sha256": "4b1e33780038004f14e2419b5051e37eb49a17220cc6e6a5fb476445bfbac483",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/etsy-search-listings/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "f682100bd3005e24e99314dfe43a4ef053ffa0f5510b49251942e4fd8bdb810e"
+}

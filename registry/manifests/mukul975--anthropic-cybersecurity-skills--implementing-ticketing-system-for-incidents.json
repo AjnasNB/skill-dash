@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-ticketing-system-for-incidents",
+    "name": "implementing-ticketing-system-for-incidents",
+    "description": "Implements an integrated incident ticketing system connecting SIEM alerts to ServiceNow, Jira, or TheHive for structured incident tracking, SLA management, escalation workflows, and compliance documentation. Use when SOC teams need formalized incident lifecycle management with automated ticket creation, assignment routing, and resolution tracking.",
+    "category": "Writing",
+    "tags": [
+      "implementing",
+      "ticketing",
+      "system",
+      "incidents",
+      "implements",
+      "integrated",
+      "incident",
+      "connecting",
+      "siem",
+      "alerts",
+      "servicenow",
+      "jira",
+      "thehive",
+      "structured",
+      "tracking",
+      "sla",
+      "management",
+      "escalation"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-ticketing-system-for-incidents/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-ticketing-system-for-incidents",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ticketing-system-for-incidents",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 40150,
+    "sha256": "8d20bfb3ba25b6e9f4683f8f326923876aacaaabaaf13fee26afc5455d499066",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-ticketing-system-for-incidents/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ticketing-system-for-incidents/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-ticketing-system-for-incidents/SKILL.md",
+      "bytes": 16437,
+      "sha256": "8d20bfb3ba25b6e9f4683f8f326923876aacaaabaaf13fee26afc5455d499066",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ticketing-system-for-incidents/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-ticketing-system-for-incidents/references/api-reference.md",
+      "bytes": 2413,
+      "sha256": "d7332b79bd9e8b9d04544bdf3cd8adf9cdcf6079312b80558b4b4944c4cf5c8e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ticketing-system-for-incidents/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-ticketing-system-for-incidents/scripts/agent.py",
+      "bytes": 10045,
+      "sha256": "9b0479dcc1aaa1bf514920cc26c7edae68af895db3707dd4b257f1c9c24dabf4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ticketing-system-for-incidents/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "32997abb9180d195f7b29d577785896d971d95066bccfbdbe13f6e3d68d23421"
+}

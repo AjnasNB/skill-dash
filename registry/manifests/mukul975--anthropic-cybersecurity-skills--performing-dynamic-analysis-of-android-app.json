@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-dynamic-analysis-of-android-app",
+    "name": "performing-dynamic-analysis-of-android-app",
+    "description": "Performs runtime dynamic analysis of Android applications using Frida, Objection, and Android Debug Bridge to observe application behavior during execution, intercept function calls, modify runtime values, and identify vulnerabilities that static analysis misses. Use when testing Android apps for runtime security flaws, hooking sensitive methods, bypassing client-side protections, or analyzing obfuscated applications. Activates for requests involving Android dynamic analysis, runtime hooking, Frida Android instrumentation, or live app behavior analysis.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "dynamic",
+      "analysis",
+      "android",
+      "app",
+      "performs",
+      "runtime",
+      "applications",
+      "frida",
+      "objection",
+      "debug",
+      "bridge",
+      "observe",
+      "application",
+      "behavior",
+      "during",
+      "execution",
+      "intercept"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-dynamic-analysis-of-android-app/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-dynamic-analysis-of-android-app",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dynamic-analysis-of-android-app",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 42978,
+    "sha256": "e90aa7b42fb2ecba0d0d9cd585b529db9f26ebc7c1c66606bea69ce3dfce4a8b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-dynamic-analysis-of-android-app/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dynamic-analysis-of-android-app/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-dynamic-analysis-of-android-app/SKILL.md",
+      "bytes": 8725,
+      "sha256": "e90aa7b42fb2ecba0d0d9cd585b529db9f26ebc7c1c66606bea69ce3dfce4a8b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dynamic-analysis-of-android-app/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-dynamic-analysis-of-android-app/assets/template.md",
+      "bytes": 1270,
+      "sha256": "d28804f4cd900cf6f5bede15aeec51e18881647025271f8c36e75b6e0d701f53",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dynamic-analysis-of-android-app/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-dynamic-analysis-of-android-app/references/api-reference.md",
+      "bytes": 1415,
+      "sha256": "19016c585594512f5ab69fe4608ee3202d8097222463907254a50e924f060a3b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dynamic-analysis-of-android-app/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-dynamic-analysis-of-android-app/references/standards.md",
+      "bytes": 2158,
+      "sha256": "751e5aa8ddf5b9f1b3acb7dd37a5f61cdc8b1f5d11692630187097a5916c31d3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dynamic-analysis-of-android-app/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-dynamic-analysis-of-android-app/references/workflows.md",
+      "bytes": 2796,
+      "sha256": "0343db65e1990e1c629f17d10cb34732c72a0ebb64279629a2a7c10159a3e919",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dynamic-analysis-of-android-app/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-dynamic-analysis-of-android-app/scripts/agent.py",
+      "bytes": 6325,
+      "sha256": "fdcd56c61b187b190c6110f709655a9f399e00f2dfc7b4d0b3a0d111b639f1c8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dynamic-analysis-of-android-app/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-dynamic-analysis-of-android-app/scripts/process.py",
+      "bytes": 9034,
+      "sha256": "c60603eebfcda993b3b8bccd19865ddce3d5fa796610cd5154b78b8a66d3a2c4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dynamic-analysis-of-android-app/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "f3677a256212d33d393261b3a81e6c126cae3ac0540e07ddef97becb1bf127cf"
+}

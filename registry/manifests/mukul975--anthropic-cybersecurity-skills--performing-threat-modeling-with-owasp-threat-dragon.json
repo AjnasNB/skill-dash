@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-threat-modeling-with-owasp-threat-dragon",
+    "name": "performing-threat-modeling-with-owasp-threat-dragon",
+    "description": "Uses OWASP Threat Dragon (web or desktop) to build data flow diagrams, identify threats with STRIDE, LINDDUN, CIA, DIE, or PLOT4ai methodologies via its auto-generation rule engine, and produce PDF threat model reports. Use during secure design review of an application architecture to build a formal threat model and document mitigations for GRC compliance.",
+    "category": "Documents",
+    "tags": [
+      "performing",
+      "threat",
+      "modeling",
+      "owasp",
+      "dragon",
+      "uses",
+      "web",
+      "desktop",
+      "data",
+      "flow",
+      "diagrams",
+      "identify",
+      "threats",
+      "stride",
+      "linddun",
+      "cia",
+      "die",
+      "plot4ai"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-threat-modeling-with-owasp-threat-dragon/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-threat-modeling-with-owasp-threat-dragon",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-modeling-with-owasp-threat-dragon",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 41073,
+    "sha256": "084a556dbf01492b066afba1f62aa884db1412ad9ba833b262288491c5ca0cf7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-threat-modeling-with-owasp-threat-dragon/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-modeling-with-owasp-threat-dragon/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-threat-modeling-with-owasp-threat-dragon/SKILL.md",
+      "bytes": 8544,
+      "sha256": "084a556dbf01492b066afba1f62aa884db1412ad9ba833b262288491c5ca0cf7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-modeling-with-owasp-threat-dragon/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-threat-modeling-with-owasp-threat-dragon/assets/template.md",
+      "bytes": 1014,
+      "sha256": "04cad45c323d0d455ad228cc6a0886a06076a190e6f3f41cf2bf142fe1000697",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-modeling-with-owasp-threat-dragon/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-threat-modeling-with-owasp-threat-dragon/references/api-reference.md",
+      "bytes": 2065,
+      "sha256": "ad5f24a8628af8c20e7ca0035a725dc5f00902b9c2eac1327463d564a218a8cd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-modeling-with-owasp-threat-dragon/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-threat-modeling-with-owasp-threat-dragon/references/standards.md",
+      "bytes": 1836,
+      "sha256": "31a3cc04d99b5d356810bea4e2167d0819a6040b14c108c45f1ce1393219cad0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-modeling-with-owasp-threat-dragon/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-threat-modeling-with-owasp-threat-dragon/references/workflows.md",
+      "bytes": 1803,
+      "sha256": "69572edf48ddebd7b4f371f60e12aa9ed4caf6387a595fb8626a082371062636",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-modeling-with-owasp-threat-dragon/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-threat-modeling-with-owasp-threat-dragon/scripts/agent.py",
+      "bytes": 7766,
+      "sha256": "0c010e1577fd9e3c0a9feec946d1d7695c6b1bc2fca50b6413d726b813e025a2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-modeling-with-owasp-threat-dragon/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-threat-modeling-with-owasp-threat-dragon/scripts/process.py",
+      "bytes": 6790,
+      "sha256": "1f5acf7af23cef314a9d7f2da20f56dd677cc39192d22b8ee5979081c1308250",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-modeling-with-owasp-threat-dragon/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "f31abd6ce45c4371b81cf85e027f83854140716085f6c298dcef60ed5284f1ce"
+}

@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--vaex",
+    "name": "vaex",
+    "description": "Processes large tabular scientific datasets with Vaex expressions, filtered views, streamed statistics, binned visualizations, and file conversion. Use for larger-than-RAM HDF5, Arrow, CSV, or Parquet analysis, virtual feature engineering, or Vaex ML preprocessing; distinguishes these operations from estimators and conversions that materialize data.",
+    "category": "Marketing",
+    "tags": [
+      "vaex",
+      "processes",
+      "large",
+      "tabular",
+      "scientific",
+      "datasets",
+      "expressions",
+      "filtered",
+      "views",
+      "streamed",
+      "statistics",
+      "binned",
+      "visualizations",
+      "file",
+      "conversion.",
+      "larger",
+      "than",
+      "ram"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/vaex",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/vaex",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 9,
+    "bytes": 53447,
+    "sha256": "a8ab5bcb0ab9c8d372b987e584b5c589a15b1e2b2f73457546d2888988d40b4f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/vaex/SKILL.md",
+      "bytes": 7722,
+      "sha256": "a8ab5bcb0ab9c8d372b987e584b5c589a15b1e2b2f73457546d2888988d40b4f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/vaex/SKILL.md"
+    },
+    {
+      "path": "references/core_dataframes.md",
+      "sourcePath": "skills/vaex/references/core_dataframes.md",
+      "bytes": 4707,
+      "sha256": "4703eee22f1b2fa6635560f162c1f4c0b3c1ff30dc7dcbb38bbee0ccca419fd4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/vaex/references/core_dataframes.md"
+    },
+    {
+      "path": "references/data_processing.md",
+      "sourcePath": "skills/vaex/references/data_processing.md",
+      "bytes": 7287,
+      "sha256": "d9d8167532d9859a54098964cce1fa9cb062789cf9e333b4a34a1fc8a8b345a0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/vaex/references/data_processing.md"
+    },
+    {
+      "path": "references/io_operations.md",
+      "sourcePath": "skills/vaex/references/io_operations.md",
+      "bytes": 7742,
+      "sha256": "675e9c2bda6fa87214d47e4e7888faaa51dbc173c30cdce667417b91d8bdca88",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/vaex/references/io_operations.md"
+    },
+    {
+      "path": "references/machine_learning.md",
+      "sourcePath": "skills/vaex/references/machine_learning.md",
+      "bytes": 10023,
+      "sha256": "949bc57da3339971f1c5d3f161075c40f2f84279697f0e4344de802378760955",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/vaex/references/machine_learning.md"
+    },
+    {
+      "path": "references/performance.md",
+      "sourcePath": "skills/vaex/references/performance.md",
+      "bytes": 5191,
+      "sha256": "e5bec7956026b38471c48c1d546f666a151e6bff176d8330bee5a0374aeed65e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/vaex/references/performance.md"
+    },
+    {
+      "path": "references/review.md",
+      "sourcePath": "skills/vaex/references/review.md",
+      "bytes": 4620,
+      "sha256": "0fcbb7428daa8652c2e7229086e7674e74971ef07974efd07f72c84047b54e17",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/vaex/references/review.md"
+    },
+    {
+      "path": "references/visualization.md",
+      "sourcePath": "skills/vaex/references/visualization.md",
+      "bytes": 5087,
+      "sha256": "c04a5655f3262cf789c9d38579bab3282099d686acefe33e88cbacc1c1b8d458",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/vaex/references/visualization.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "1f12a493bf79437bac9e8f1b784cb8428c617c3c52319d773e973b68ea21c27b"
+}

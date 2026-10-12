@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--intercepting-mobile-traffic-with-burpsuite",
+    "name": "intercepting-mobile-traffic-with-burpsuite",
+    "description": "Intercepts and analyzes HTTP/HTTPS traffic from mobile applications using Burp Suite proxy to identify insecure API communications, authentication flaws, data leakage, and server-side vulnerabilities. Use when performing mobile application penetration testing, assessing API security, or evaluating client-server communication patterns. Activates for requests involving mobile traffic interception, Burp Suite mobile proxy, API security testing, or mobile HTTPS analysis.",
+    "category": "Security",
+    "tags": [
+      "intercepting",
+      "mobile",
+      "traffic",
+      "burpsuite",
+      "intercepts",
+      "analyzes",
+      "http",
+      "https",
+      "from",
+      "applications",
+      "burp",
+      "suite",
+      "proxy",
+      "identify",
+      "insecure",
+      "api",
+      "communications",
+      "authentication"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/intercepting-mobile-traffic-with-burpsuite/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/intercepting-mobile-traffic-with-burpsuite",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/intercepting-mobile-traffic-with-burpsuite",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 44593,
+    "sha256": "b3c61ea86f063d96d8a7fa9dd13f79e9fa76a49ec29fb8a53efff835bdde142e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/intercepting-mobile-traffic-with-burpsuite/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/intercepting-mobile-traffic-with-burpsuite/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/intercepting-mobile-traffic-with-burpsuite/SKILL.md",
+      "bytes": 7157,
+      "sha256": "b3c61ea86f063d96d8a7fa9dd13f79e9fa76a49ec29fb8a53efff835bdde142e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/intercepting-mobile-traffic-with-burpsuite/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/intercepting-mobile-traffic-with-burpsuite/assets/template.md",
+      "bytes": 1493,
+      "sha256": "70732e44a3d02ea144ded4edc2ac1ffb0c86b80d348a8aa6982ef9920d1abffd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/intercepting-mobile-traffic-with-burpsuite/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/intercepting-mobile-traffic-with-burpsuite/references/api-reference.md",
+      "bytes": 1756,
+      "sha256": "9be87c5c8f7c417ff42f64eb58abb5c35d13e5d2472fec845ab710a2f7c1d463",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/intercepting-mobile-traffic-with-burpsuite/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/intercepting-mobile-traffic-with-burpsuite/references/standards.md",
+      "bytes": 2319,
+      "sha256": "89bbacf3cd6f098fbe654f6f92b579236ea97979f4cffb7b1cc841ef524ef088",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/intercepting-mobile-traffic-with-burpsuite/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/intercepting-mobile-traffic-with-burpsuite/references/workflows.md",
+      "bytes": 4174,
+      "sha256": "b46d97e2e438a0fcc55ad287608b087b33103f307493018a4f7cf3773bbd01bd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/intercepting-mobile-traffic-with-burpsuite/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/intercepting-mobile-traffic-with-burpsuite/scripts/agent.py",
+      "bytes": 6548,
+      "sha256": "5984e4dd26e7d3d4d41c2c7a0062b41a1ec529dcf89577f42ea4beadd9f69f3d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/intercepting-mobile-traffic-with-burpsuite/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/intercepting-mobile-traffic-with-burpsuite/scripts/process.py",
+      "bytes": 9891,
+      "sha256": "3307d7d6cbb18ccd6ae211bc53b57f41fd7036a5bf8c7d323db04acda2dd8ad5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/intercepting-mobile-traffic-with-burpsuite/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "20160b35c448da54a2a4762414854fef3c5f9ad65437599c7c8aaa480bbd560d"
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hardening-linux-endpoint-with-cis-benchmark",
+    "name": "hardening-linux-endpoint-with-cis-benchmark",
+    "description": "Hardens Linux endpoints using CIS Benchmark recommendations for Ubuntu, RHEL, and CentOS to reduce attack surface, enforce security baselines, and meet compliance requirements. Use when deploying new Linux servers, remediating audit findings, or establishing security baselines for Linux infrastructure. Activates for requests involving Linux hardening, CIS benchmarks for Linux, server security baselines, or Linux configuration compliance.",
+    "category": "Security",
+    "tags": [
+      "hardening",
+      "linux",
+      "endpoint",
+      "cis",
+      "benchmark",
+      "hardens",
+      "endpoints",
+      "recommendations",
+      "ubuntu",
+      "rhel",
+      "centos",
+      "reduce",
+      "attack",
+      "surface",
+      "enforce",
+      "security",
+      "baselines",
+      "meet"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hardening-linux-endpoint-with-cis-benchmark/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hardening-linux-endpoint-with-cis-benchmark",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-linux-endpoint-with-cis-benchmark",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 32126,
+    "sha256": "e10e1c01357938a9b29d34f89878bdfa21df195cd7962be51b2b6f07b7dca00e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hardening-linux-endpoint-with-cis-benchmark/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-linux-endpoint-with-cis-benchmark/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hardening-linux-endpoint-with-cis-benchmark/SKILL.md",
+      "bytes": 7315,
+      "sha256": "e10e1c01357938a9b29d34f89878bdfa21df195cd7962be51b2b6f07b7dca00e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-linux-endpoint-with-cis-benchmark/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/hardening-linux-endpoint-with-cis-benchmark/assets/template.md",
+      "bytes": 655,
+      "sha256": "1bf47026b23dac3e36316db78719f91f68795bd15de1faa99c42aec259e2c92a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-linux-endpoint-with-cis-benchmark/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hardening-linux-endpoint-with-cis-benchmark/references/api-reference.md",
+      "bytes": 2265,
+      "sha256": "041e030e1213ee32095b3dd40a837845f548414728f3386b51f26131b02e669c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-linux-endpoint-with-cis-benchmark/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/hardening-linux-endpoint-with-cis-benchmark/references/standards.md",
+      "bytes": 1048,
+      "sha256": "54c5b66e72f70ab6e0548b4df85c67b0a6450e887eef338cd5ad132c3e3095bc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-linux-endpoint-with-cis-benchmark/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/hardening-linux-endpoint-with-cis-benchmark/references/workflows.md",
+      "bytes": 739,
+      "sha256": "12582b64b195e6b61bfbe379e2815494b35f211af7fced3680c7678318279efe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-linux-endpoint-with-cis-benchmark/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hardening-linux-endpoint-with-cis-benchmark/scripts/agent.py",
+      "bytes": 6333,
+      "sha256": "a1e6c1bde48ca0c1a22eda690535b2ce5b8ac20bf902f165dde7d36063a31ba4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-linux-endpoint-with-cis-benchmark/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/hardening-linux-endpoint-with-cis-benchmark/scripts/process.py",
+      "bytes": 2516,
+      "sha256": "0828b3366952398dcd52e2ef9710a9ef0bf0039a75458a0d0b53eebe921cbd01",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-linux-endpoint-with-cis-benchmark/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "2f8c03c07582817132516f5d7d5a8dbebf714bd080417de2f2ea914111f8c3a8"
+}

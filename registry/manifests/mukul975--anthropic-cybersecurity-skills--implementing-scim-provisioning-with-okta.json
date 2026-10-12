@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-scim-provisioning-with-okta",
+    "name": "implementing-scim-provisioning-with-okta",
+    "description": "Implement automated user lifecycle provisioning and deprovisioning using the SCIM 2.0 protocol with Okta as the identity provider. Use when automating account creation, attribute sync, or deactivation across downstream applications through Okta SCIM integration, or when troubleshooting SCIM provisioning failures.",
+    "category": "Automation",
+    "tags": [
+      "implementing",
+      "scim",
+      "provisioning",
+      "okta",
+      "implement",
+      "automated",
+      "user",
+      "lifecycle",
+      "deprovisioning",
+      "2.0",
+      "protocol",
+      "as",
+      "identity",
+      "provider.",
+      "when",
+      "automating",
+      "account",
+      "creation"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-scim-provisioning-with-okta/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-scim-provisioning-with-okta",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-scim-provisioning-with-okta",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 57878,
+    "sha256": "6d052866d8e748db0bcac7722efa2a521eb81e2e745a05d9980723d0f74e1ac9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-scim-provisioning-with-okta/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-scim-provisioning-with-okta/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-scim-provisioning-with-okta/SKILL.md",
+      "bytes": 9222,
+      "sha256": "6d052866d8e748db0bcac7722efa2a521eb81e2e745a05d9980723d0f74e1ac9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-scim-provisioning-with-okta/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-scim-provisioning-with-okta/assets/template.md",
+      "bytes": 2541,
+      "sha256": "a6375c9c34fb93a91d776ce1775d502f47c169ad75087fa556748eefc2999e89",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-scim-provisioning-with-okta/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-scim-provisioning-with-okta/references/api-reference.md",
+      "bytes": 4722,
+      "sha256": "12e70734367890f1b05607d9bda31aeb5b17c9b4de748980bf1c689a3ec61b74",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-scim-provisioning-with-okta/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-scim-provisioning-with-okta/references/standards.md",
+      "bytes": 2315,
+      "sha256": "cd1682d4ecdd0d6d577f1fa4d0c886f125170e4f3960addf96988952f5da79d1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-scim-provisioning-with-okta/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-scim-provisioning-with-okta/references/workflows.md",
+      "bytes": 2903,
+      "sha256": "492f3577eef82e9063a4805821a412c5df84720aa1b9dd4cc91f95d5857ab651",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-scim-provisioning-with-okta/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-scim-provisioning-with-okta/scripts/agent.py",
+      "bytes": 9251,
+      "sha256": "dcf670171130a4c0114fca54621405fe7d5d3fef5c5100ac59e260268f36cc42",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-scim-provisioning-with-okta/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-scim-provisioning-with-okta/scripts/process.py",
+      "bytes": 15669,
+      "sha256": "602b114d1c53e07b3b0d891a244df84431b27f594bfe3ee36d24d1f7d45ad014",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-scim-provisioning-with-okta/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "7bb300ade5f5527cc56245348fd4053e49672b2a9d5061ca2369f8e99266c44b"
+}

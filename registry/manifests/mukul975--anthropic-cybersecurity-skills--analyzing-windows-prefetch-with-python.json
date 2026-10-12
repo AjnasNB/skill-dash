@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-windows-prefetch-with-python",
+    "name": "analyzing-windows-prefetch-with-python",
+    "description": "Parse Windows Prefetch (.pf) files with the windowsprefetch Python library to reconstruct application execution history, run counts, and accessed file/volume lists. Use when investigating renamed or masquerading binaries, verifying program execution timelines, or hunting for suspicious execution patterns in incident response.",
+    "category": "Development",
+    "tags": [
+      "analyzing",
+      "windows",
+      "prefetch",
+      "python",
+      "parse",
+      ".pf",
+      "files",
+      "windowsprefetch",
+      "library",
+      "reconstruct",
+      "application",
+      "execution",
+      "history",
+      "run",
+      "counts",
+      "accessed",
+      "file",
+      "volume"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-windows-prefetch-with-python/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-windows-prefetch-with-python",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-prefetch-with-python",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 25223,
+    "sha256": "758ac842d7907c233a341a6dd5222a5c6b1924350cef047a6f93bb46ad4446f4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-windows-prefetch-with-python/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-prefetch-with-python/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-windows-prefetch-with-python/SKILL.md",
+      "bytes": 5030,
+      "sha256": "758ac842d7907c233a341a6dd5222a5c6b1924350cef047a6f93bb46ad4446f4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-prefetch-with-python/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-windows-prefetch-with-python/references/api-reference.md",
+      "bytes": 1769,
+      "sha256": "7454130469cf144835a4e925a5033c3bed20eff9f7d70f1f8ddb46dce10c6a36",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-prefetch-with-python/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-windows-prefetch-with-python/scripts/agent.py",
+      "bytes": 7169,
+      "sha256": "631368d5cb214bdf0d5fc35e7bf592df78ae20f054d6056b968caf1279684874",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-prefetch-with-python/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "0d9f0c4a5c7a69695e05ba148585e06dd1041d97464868a07af83b1c918e8ac0"
+}

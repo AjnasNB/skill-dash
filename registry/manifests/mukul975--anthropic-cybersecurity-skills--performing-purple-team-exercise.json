@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-purple-team-exercise",
+    "name": "performing-purple-team-exercise",
+    "description": "Performs purple team exercises by coordinating red team adversary emulation with blue team detection validation using MITRE ATT&CK-mapped attack scenarios, real-time detection testing, and collaborative gap remediation. Use when SOC teams need to validate detection capabilities, improve analyst skills, and close detection gaps through structured offensive-defensive collaboration.",
+    "category": "Development",
+    "tags": [
+      "performing",
+      "purple",
+      "team",
+      "exercise",
+      "performs",
+      "exercises",
+      "by",
+      "coordinating",
+      "red",
+      "adversary",
+      "emulation",
+      "blue",
+      "detection",
+      "validation",
+      "mitre",
+      "att",
+      "ck",
+      "mapped"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-purple-team-exercise/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-purple-team-exercise",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-purple-team-exercise",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34092,
+    "sha256": "459222ccf7115347ed79fe424d16499c31c8b82fa25ea8be5463f3adcf4a1467",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-purple-team-exercise/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-purple-team-exercise/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-purple-team-exercise/SKILL.md",
+      "bytes": 13278,
+      "sha256": "459222ccf7115347ed79fe424d16499c31c8b82fa25ea8be5463f3adcf4a1467",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-purple-team-exercise/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-purple-team-exercise/references/api-reference.md",
+      "bytes": 1681,
+      "sha256": "d806b18706d1d0d77917efacdddccdfefb52700de9e7b3139648b3515ea120d2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-purple-team-exercise/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-purple-team-exercise/scripts/agent.py",
+      "bytes": 7878,
+      "sha256": "5f5582f0cc8bf04bdff6fd498a84a7ae18119f451863965e520792249f5de618",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-purple-team-exercise/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "2a855ea4c821ca1ecb78afd6058e0708c67d8b6e69b1824680e07b6f5be00e66"
+}

@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--get-available-resources",
+    "name": "get-available-resources",
+    "description": "Detects host inventory and effective CPU, memory, disk, scheduler, container, and accelerator limits when a user asks for resource-aware planning or before a clearly resource-sensitive local workload. Produces a redacted JSON snapshot and conservative planning helpers without stress tests or assuming visible host hardware is usable.",
+    "category": "Development",
+    "tags": [
+      "get",
+      "available",
+      "resources",
+      "detects",
+      "host",
+      "inventory",
+      "effective",
+      "cpu",
+      "memory",
+      "disk",
+      "scheduler",
+      "container",
+      "accelerator",
+      "limits",
+      "when",
+      "user",
+      "asks",
+      "resource"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/get-available-resources",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/get-available-resources",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 10,
+    "bytes": 145350,
+    "sha256": "54044d598fce28fca2ce50e7895f44423b070493db2f9c96ff0445bee4d3689d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/get-available-resources/SKILL.md",
+      "bytes": 11697,
+      "sha256": "54044d598fce28fca2ce50e7895f44423b070493db2f9c96ff0445bee4d3689d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/get-available-resources/SKILL.md"
+    },
+    {
+      "path": "references/resource_semantics.md",
+      "sourcePath": "skills/get-available-resources/references/resource_semantics.md",
+      "bytes": 11198,
+      "sha256": "cb31d9340e5c7da72aac1728448de61e90ff9c6022735ab90976457f6d4dbd7c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/get-available-resources/references/resource_semantics.md"
+    },
+    {
+      "path": "references/snapshot_schema.md",
+      "sourcePath": "skills/get-available-resources/references/snapshot_schema.md",
+      "bytes": 6580,
+      "sha256": "789dde9d5d1ce0225a5a205b0d300f4d9c7442bbe687ff26a7819d5349687fd8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/get-available-resources/references/snapshot_schema.md"
+    },
+    {
+      "path": "references/sources.md",
+      "sourcePath": "skills/get-available-resources/references/sources.md",
+      "bytes": 8350,
+      "sha256": "4499cd3a7bbeb56ba1d00d9688450128b4eba541c8dc7683cc92a654632d1af7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/get-available-resources/references/sources.md"
+    },
+    {
+      "path": "scripts/_common.py",
+      "sourcePath": "skills/get-available-resources/scripts/_common.py",
+      "bytes": 6566,
+      "sha256": "264d5ccb04790164d2c5ae53fa8b470704d2094fd17f687304ede14ba45aa1a5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/get-available-resources/scripts/_common.py"
+    },
+    {
+      "path": "scripts/accelerator_diagnostics.py",
+      "sourcePath": "skills/get-available-resources/scripts/accelerator_diagnostics.py",
+      "bytes": 4643,
+      "sha256": "0635a80fb128dbef7297b887ad4173f260193272e3b25ff43f14f9dad8f0f377",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/get-available-resources/scripts/accelerator_diagnostics.py"
+    },
+    {
+      "path": "scripts/detect_resources.py",
+      "sourcePath": "skills/get-available-resources/scripts/detect_resources.py",
+      "bytes": 66122,
+      "sha256": "91eed1feaabe1f254c1d2a0775295ed95eea710b9d3e5127b6a13310f49c49d4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/get-available-resources/scripts/detect_resources.py"
+    },
+    {
+      "path": "scripts/plan_workload.py",
+      "sourcePath": "skills/get-available-resources/scripts/plan_workload.py",
+      "bytes": 11150,
+      "sha256": "b89cfefe02422814b1b7df2942e1d4bafec24159c38b2765b869944bbe3a1a92",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/get-available-resources/scripts/plan_workload.py"
+    },
+    {
+      "path": "scripts/snapshot_tools.py",
+      "sourcePath": "skills/get-available-resources/scripts/snapshot_tools.py",
+      "bytes": 17976,
+      "sha256": "596f7a214f5dd6f9f2a641c5ecf52cf9d851617460f2c8926318fcb5d40693f1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/get-available-resources/scripts/snapshot_tools.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "b98b860f40830986d3ffcdf30c7483cae1248d843053127b0dbaba944a499e45"
+}

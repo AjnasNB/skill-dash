@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--collecting-indicators-of-compromise",
+    "name": "collecting-indicators-of-compromise",
+    "description": "Systematically collects, categorizes, and distributes indicators of compromise (IOCs) during and after security incidents to enable detection, blocking, and threat intelligence sharing. Covers network, host, email, and behavioral indicators using STIX/TAXII formats and threat intelligence platforms. Activates for requests involving IOC collection, indicator extraction, threat indicator sharing, compromise indicators, STIX export, or IOC enrichment.",
+    "category": "Security",
+    "tags": [
+      "collecting",
+      "indicators",
+      "compromise",
+      "systematically",
+      "collects",
+      "categorizes",
+      "distributes",
+      "iocs",
+      "during",
+      "after",
+      "security",
+      "incidents",
+      "enable",
+      "detection",
+      "blocking",
+      "threat",
+      "intelligence",
+      "sharing."
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/collecting-indicators-of-compromise/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/collecting-indicators-of-compromise",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-indicators-of-compromise",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 31691,
+    "sha256": "c6b4fefdd2bdc3eaa8888334199ab13c64636c3e76a336d9d360e9f24b48a225",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/collecting-indicators-of-compromise/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-indicators-of-compromise/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/collecting-indicators-of-compromise/SKILL.md",
+      "bytes": 10744,
+      "sha256": "c6b4fefdd2bdc3eaa8888334199ab13c64636c3e76a336d9d360e9f24b48a225",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-indicators-of-compromise/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/collecting-indicators-of-compromise/references/api-reference.md",
+      "bytes": 2231,
+      "sha256": "e97168d48fb710c9697db0616b513cd2e65a95168aa18886ed7c5918ff306631",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-indicators-of-compromise/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/collecting-indicators-of-compromise/scripts/agent.py",
+      "bytes": 7461,
+      "sha256": "e9455a4667909a391e296661fe8460b3db66098a217fd682560364a8df089b4e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-indicators-of-compromise/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "8f4592d19b28114bc56a077af674b057158b9d3791af2d276a2027043a4c8fb4"
+}

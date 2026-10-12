@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-ssl-stripping-attack",
+    "name": "performing-ssl-stripping-attack",
+    "description": "Simulates SSL stripping / HTTPS downgrade attacks using sslstrip, Bettercap, and mitmproxy in authorized lab environments to test HSTS enforcement, certificate validation, and HTTPS upgrade mechanisms. Use when performing an authorized penetration test to validate HSTS preloading and TLS certificate handling, demonstrate downgrade-attack risk to stakeholders, or train SOC teams to detect SSL stripping indicators in network traffic.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "ssl",
+      "stripping",
+      "attack",
+      "simulates",
+      "https",
+      "downgrade",
+      "attacks",
+      "sslstrip",
+      "bettercap",
+      "mitmproxy",
+      "authorized",
+      "lab",
+      "environments",
+      "test",
+      "hsts",
+      "enforcement",
+      "certificate"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-ssl-stripping-attack/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-ssl-stripping-attack",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-stripping-attack",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 29975,
+    "sha256": "89178861d97e63d01b3760459a7b4b9c055edf1d119c9f8ec738016198823ff1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-ssl-stripping-attack/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-stripping-attack/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-ssl-stripping-attack/SKILL.md",
+      "bytes": 10875,
+      "sha256": "89178861d97e63d01b3760459a7b4b9c055edf1d119c9f8ec738016198823ff1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-stripping-attack/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-ssl-stripping-attack/references/api-reference.md",
+      "bytes": 2012,
+      "sha256": "ed5001ebd5c4edfd897985b7deb4bbdcb5841670af943a13e78190aa412b0485",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-stripping-attack/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-ssl-stripping-attack/scripts/agent.py",
+      "bytes": 5833,
+      "sha256": "57a29071f8060f2a6a1c9fd8ddba94d76e84cf8740bccf6514255943cb09aef5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-stripping-attack/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "c57a2d0725cf78f69643731df29f3d8620ea444cce25bb48fc454d7adaff99e2"
+}

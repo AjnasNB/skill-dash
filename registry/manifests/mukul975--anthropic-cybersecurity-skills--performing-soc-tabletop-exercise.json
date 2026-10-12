@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-soc-tabletop-exercise",
+    "name": "performing-soc-tabletop-exercise",
+    "description": "Performs tabletop exercises for SOC teams simulating security incidents through discussion-based scenarios to test incident response procedures, communication workflows, and decision-making under pressure without impacting production systems. Use when organizations need to validate IR playbooks, train analysts, or meet compliance requirements for incident response testing.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "soc",
+      "tabletop",
+      "exercise",
+      "performs",
+      "exercises",
+      "teams",
+      "simulating",
+      "security",
+      "incidents",
+      "through",
+      "discussion",
+      "based",
+      "scenarios",
+      "test",
+      "incident",
+      "response",
+      "procedures"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-soc-tabletop-exercise/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-soc-tabletop-exercise",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-soc-tabletop-exercise",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 39185,
+    "sha256": "2a203e90eb207b23e7a09b4df58480154d139b09a6bfae4d6153c43617762051",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-soc-tabletop-exercise/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-soc-tabletop-exercise/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-soc-tabletop-exercise/SKILL.md",
+      "bytes": 16958,
+      "sha256": "2a203e90eb207b23e7a09b4df58480154d139b09a6bfae4d6153c43617762051",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-soc-tabletop-exercise/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-soc-tabletop-exercise/references/api-reference.md",
+      "bytes": 2611,
+      "sha256": "6d954e39cd17dcbd248a39e035751f76aac436ccb1ab5eb4c77cc0db68d5b935",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-soc-tabletop-exercise/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-soc-tabletop-exercise/scripts/agent.py",
+      "bytes": 8361,
+      "sha256": "32ff041d9968b7952c7368b35cfa25a6515859d6f251e79b8c7f272a22274a1c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-soc-tabletop-exercise/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "df9a65fb2830aa159668cff6c866b8b12ec8226f862edf9235ffd2289a06d690"
+}

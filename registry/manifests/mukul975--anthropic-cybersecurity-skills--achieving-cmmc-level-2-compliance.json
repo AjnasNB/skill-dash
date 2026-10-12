@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--achieving-cmmc-level-2-compliance",
+    "name": "achieving-cmmc-level-2-compliance",
+    "description": "Prepare a defense-contractor environment for CMMC Level 2 certification: scope CUI and FCI, implement the 110 NIST SP 800-171 Rev 2 security requirements across 14 families, compute the SPRS score with the DoD Assessment Methodology, manage a compliant POA&M, and ready the organization for a C3PAO assessment. Use when an organization handles Controlled Unclassified Information (CUI) under a DoD contract, when a contract carries DFARS clause 252.204-7012/7019/7020/7021, when preparing for or responding to a CMMC assessment, when computing or improving an SPRS score, when building a System Security Plan or POA&M for 800-171, or when scoping which systems are in the CUI boundary. Keywords: CMMC, CMMC Level 2, NIST 800-171, SP 800-171 Rev 2, CUI, FCI, SPRS, DFARS 7012, C3PAO, POA&M, System Security Plan, DoD Assessment Methodology, 110 controls, defense industrial base, DIB, FedRAMP equivalency.",
+    "category": "Security",
+    "tags": [
+      "achieving",
+      "cmmc",
+      "level",
+      "compliance",
+      "prepare",
+      "defense",
+      "contractor",
+      "environment",
+      "certification",
+      "scope",
+      "cui",
+      "fci",
+      "implement",
+      "110",
+      "nist",
+      "sp",
+      "800",
+      "171"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/achieving-cmmc-level-2-compliance/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/achieving-cmmc-level-2-compliance",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/achieving-cmmc-level-2-compliance",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 36401,
+    "sha256": "f5124addbf044b13ff6332872087d93062bfbbdd5283aac96bd76d4c9ddd7a67",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/achieving-cmmc-level-2-compliance/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/achieving-cmmc-level-2-compliance/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/achieving-cmmc-level-2-compliance/SKILL.md",
+      "bytes": 8689,
+      "sha256": "f5124addbf044b13ff6332872087d93062bfbbdd5283aac96bd76d4c9ddd7a67",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/achieving-cmmc-level-2-compliance/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/achieving-cmmc-level-2-compliance/assets/template.md",
+      "bytes": 3801,
+      "sha256": "18d201a4851e1148257ef77112f1c31f06d39d99bb498444ffdb565104634da3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/achieving-cmmc-level-2-compliance/assets/template.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/achieving-cmmc-level-2-compliance/references/standards.md",
+      "bytes": 4882,
+      "sha256": "b3cc2df29555278be07c8065cb7ea72556658244ad4616346904da6851ca9508",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/achieving-cmmc-level-2-compliance/references/standards.md"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/achieving-cmmc-level-2-compliance/scripts/process.py",
+      "bytes": 7774,
+      "sha256": "2e53b3229f8df1414ba927d78d03dbf0350a53cb959e3358c454635ffa2584c2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/achieving-cmmc-level-2-compliance/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "3834e7b7a8758c6667ec0ac1d4dc0a4c67162215586a75fd2d818ace2470dfd5"
+}

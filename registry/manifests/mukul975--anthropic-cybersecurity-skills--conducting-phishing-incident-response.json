@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--conducting-phishing-incident-response",
+    "name": "conducting-phishing-incident-response",
+    "description": "Respond to phishing incidents by analyzing reported emails, extracting indicators, sandboxing URLs/attachments, assessing credential compromise, quarantining malicious messages organization-wide, and remediating affected accounts. Use when investigating a reported phishing or credential-phishing email, a suspected spearphishing incident, or when a mailbox-wide purge and account remediation is needed.",
+    "category": "Development",
+    "tags": [
+      "conducting",
+      "phishing",
+      "incident",
+      "response",
+      "respond",
+      "incidents",
+      "by",
+      "analyzing",
+      "reported",
+      "emails",
+      "extracting",
+      "indicators",
+      "sandboxing",
+      "urls",
+      "attachments",
+      "assessing",
+      "credential",
+      "compromise"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/conducting-phishing-incident-response/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/conducting-phishing-incident-response",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-phishing-incident-response",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32515,
+    "sha256": "c5219567bb23abc7493ee8ab95d490b100c68231d18d618422c73fec35b19055",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/conducting-phishing-incident-response/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-phishing-incident-response/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/conducting-phishing-incident-response/SKILL.md",
+      "bytes": 11880,
+      "sha256": "c5219567bb23abc7493ee8ab95d490b100c68231d18d618422c73fec35b19055",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-phishing-incident-response/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/conducting-phishing-incident-response/references/api-reference.md",
+      "bytes": 2012,
+      "sha256": "6bf8e6c9e934a53668a7994292b6ee5045f4f025c01d59292c906ffbd031c204",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-phishing-incident-response/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/conducting-phishing-incident-response/scripts/agent.py",
+      "bytes": 7368,
+      "sha256": "8649fe582278d54cc9176ed26d16f49e61f0b2e5a4f833686c37bc8662142f5a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-phishing-incident-response/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "3b91552df962994fbc0c620dfba0ccd9a212c5b6fd97e1bc1f4385998f47f972"
+}

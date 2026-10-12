@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-network-anomalies-with-zeek",
+    "name": "detecting-network-anomalies-with-zeek",
+    "description": "Deploy and configure Zeek (formerly Bro) to passively analyze network traffic, generate structured connection/DNS/HTTP/SSL/file logs, detect anomalous behavior, and write custom scripts for organization-specific threats. Use for passive monitoring at network choke points, feeding SIEM/threat hunting with protocol metadata, or retrospective log analysis during incident response; not a substitute for inline IDS/IPS or host agents.",
+    "category": "Security",
+    "tags": [
+      "detecting",
+      "network",
+      "anomalies",
+      "zeek",
+      "deploy",
+      "configure",
+      "formerly",
+      "bro",
+      "passively",
+      "analyze",
+      "traffic",
+      "generate",
+      "structured",
+      "connection",
+      "dns",
+      "http",
+      "ssl",
+      "file"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-network-anomalies-with-zeek/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-network-anomalies-with-zeek",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-network-anomalies-with-zeek",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 39680,
+    "sha256": "491a76b89e00ebf5d1ea45349c30230836088cfe0f0aede750511f207ba866cc",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-network-anomalies-with-zeek/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-network-anomalies-with-zeek/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-network-anomalies-with-zeek/SKILL.md",
+      "bytes": 14486,
+      "sha256": "491a76b89e00ebf5d1ea45349c30230836088cfe0f0aede750511f207ba866cc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-network-anomalies-with-zeek/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-network-anomalies-with-zeek/references/api-reference.md",
+      "bytes": 2550,
+      "sha256": "6f09a8c7c7e39f49a0ba90d1981d227de32a8a4063e577ff90f20f8b12b86e2d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-network-anomalies-with-zeek/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-network-anomalies-with-zeek/scripts/agent.py",
+      "bytes": 11389,
+      "sha256": "3d2099f65640c04f2d5be36139ba95a9455fa1e705cbf8e118f86cb698e09785",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-network-anomalies-with-zeek/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "163395a0dfc9009bf35a06168e809ec24c319dd36f7229b0907da221eb779ef9"
+}

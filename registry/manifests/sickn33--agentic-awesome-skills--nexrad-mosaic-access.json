@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--nexrad-mosaic-access",
+    "name": "nexrad-mosaic-access",
+    "description": "Access official NOAA/NCEP MRMS radar and multisensor composites for a region and time; validate product, grid, domain, quality, timestamp, and provenance.",
+    "category": "Development",
+    "tags": [
+      "nexrad",
+      "mosaic",
+      "access",
+      "official",
+      "noaa",
+      "ncep",
+      "mrms",
+      "radar",
+      "multisensor",
+      "composites",
+      "region",
+      "time",
+      "validate",
+      "product",
+      "grid",
+      "domain",
+      "quality",
+      "timestamp"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/nexrad-mosaic-access",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nexrad-mosaic-access",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13999,
+    "sha256": "b508ae51a782e2810ddf707f5417cdfbc42a73476ed62f44b60d8b2fc295c0b6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/nexrad-mosaic-access/SKILL.md",
+      "bytes": 12926,
+      "sha256": "b508ae51a782e2810ddf707f5417cdfbc42a73476ed62f44b60d8b2fc295c0b6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nexrad-mosaic-access/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "5d33a4046064cf7b876cbff2366baf652bd49dc3faf3305ca6e3a7f1bfa56d9c"
+}

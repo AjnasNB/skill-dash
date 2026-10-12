@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--datacircle",
+    "name": "datacircle",
+    "description": "Look up LinkedIn profiles by URL through Datacircle (Up2Data, HarvestAPI or Fetchin, no markup), over its hosted MCP server or REST API, with the user's yes before each paid call.",
+    "category": "AI & agents",
+    "tags": [
+      "datacircle",
+      "look",
+      "up",
+      "linkedin",
+      "profiles",
+      "by",
+      "url",
+      "through",
+      "up2data",
+      "harvestapi",
+      "fetchin",
+      "no",
+      "markup",
+      "over",
+      "its",
+      "hosted",
+      "mcp",
+      "server"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/datacircle",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/datacircle",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9897,
+    "sha256": "91cd576b5a007cd0e44b13c957c166fc5a6a7d448001725ff657d0e92fdf02e5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/datacircle/SKILL.md",
+      "bytes": 8824,
+      "sha256": "91cd576b5a007cd0e44b13c957c166fc5a6a7d448001725ff657d0e92fdf02e5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/datacircle/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "7ff4088287443bfaff2abf005891079c6f7e5e39efc7463fa474387be46bf214"
+}

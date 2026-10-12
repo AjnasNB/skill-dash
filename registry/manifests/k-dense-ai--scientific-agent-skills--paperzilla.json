@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--paperzilla",
+    "name": "paperzilla",
+    "description": "Reads projects, searches project feeds, and retrieves recommendations and canonical papers in Paperzilla through the pz CLI. Supports recent recommendations, paper details, markdown-based summaries, recommendation feedback, JSON export, and Atom feed URLs.",
+    "category": "Development",
+    "tags": [
+      "paperzilla",
+      "reads",
+      "projects",
+      "searches",
+      "project",
+      "feeds",
+      "retrieves",
+      "recommendations",
+      "canonical",
+      "papers",
+      "through",
+      "pz",
+      "cli.",
+      "supports",
+      "recent",
+      "paper",
+      "details",
+      "markdown"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/paperzilla",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/paperzilla",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 3,
+    "bytes": 17709,
+    "sha256": "f1b5feb3c76ce064803e5d44757f0fc468bf670499015b9c6a9d487fca699771",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/paperzilla/SKILL.md",
+      "bytes": 9302,
+      "sha256": "f1b5feb3c76ce064803e5d44757f0fc468bf670499015b9c6a9d487fca699771",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/paperzilla/SKILL.md"
+    },
+    {
+      "path": "references/cli-contracts.md",
+      "sourcePath": "skills/paperzilla/references/cli-contracts.md",
+      "bytes": 7339,
+      "sha256": "97a67f038e81f4fc7b65ab034e75103b16d8207692b080bbe8994072d5bead16",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/paperzilla/references/cli-contracts.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "7fefa8f442928996fd7a2d2eca15a37477bf0d62edc58bc09ada3293f7c438bd"
+}

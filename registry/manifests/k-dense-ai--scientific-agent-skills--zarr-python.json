@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--zarr-python",
+    "name": "zarr-python",
+    "description": "Stores and queries chunked N-D scientific arrays with Zarr-Python 3, including codecs, sharding, S3/GCS storage, and NumPy/Dask/Xarray integration. Use for array layout, bounded I/O, format migration, or scientific metadata preservation.",
+    "category": "Data & research",
+    "tags": [
+      "zarr",
+      "python",
+      "stores",
+      "queries",
+      "chunked",
+      "scientific",
+      "arrays",
+      "including",
+      "codecs",
+      "sharding",
+      "s3",
+      "gcs",
+      "storage",
+      "numpy",
+      "dask",
+      "xarray",
+      "integration.",
+      "array"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/zarr-python",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/zarr-python",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 9,
+    "bytes": 44748,
+    "sha256": "1edaabfc3fc618d4c3a16bd70c589c039a3cb3a26683f02bca0ccc140d3c9c4d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/zarr-python/SKILL.md",
+      "bytes": 8954,
+      "sha256": "1edaabfc3fc618d4c3a16bd70c589c039a3cb3a26683f02bca0ccc140d3c9c4d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/zarr-python/SKILL.md"
+    },
+    {
+      "path": "references/api_reference.md",
+      "sourcePath": "skills/zarr-python/references/api_reference.md",
+      "bytes": 4931,
+      "sha256": "cae3f3d04560d7443694c2ddc6d8ec845932f66bdf8a4288cd1da6559eaf6b23",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/zarr-python/references/api_reference.md"
+    },
+    {
+      "path": "references/chunking_and_compression.md",
+      "sourcePath": "skills/zarr-python/references/chunking_and_compression.md",
+      "bytes": 4732,
+      "sha256": "f35187bf6584171b800e5bdeae474e7c3680969c717fa77fbe8d76852d440843",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/zarr-python/references/chunking_and_compression.md"
+    },
+    {
+      "path": "references/integration.md",
+      "sourcePath": "skills/zarr-python/references/integration.md",
+      "bytes": 6382,
+      "sha256": "7eb3df9e64673cb8cc8cd991980e20138add108541d5fe3224710f01777ee62c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/zarr-python/references/integration.md"
+    },
+    {
+      "path": "references/performance_and_patterns.md",
+      "sourcePath": "skills/zarr-python/references/performance_and_patterns.md",
+      "bytes": 6580,
+      "sha256": "39e1887400b3f5f7d912293ded8d78fa33ab2a6de9bc765cb5da15d4223f72fd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/zarr-python/references/performance_and_patterns.md"
+    },
+    {
+      "path": "references/review.md",
+      "sourcePath": "skills/zarr-python/references/review.md",
+      "bytes": 2528,
+      "sha256": "2760cdb7cc1d5b621655f92ffb090fc40c08320cfcf8454ec867696d43218a92",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/zarr-python/references/review.md"
+    },
+    {
+      "path": "references/storage_backends.md",
+      "sourcePath": "skills/zarr-python/references/storage_backends.md",
+      "bytes": 5580,
+      "sha256": "7bdb667451cef86a94a996b6331cec3cd7e4b421da833805cd6bdb4362750272",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/zarr-python/references/storage_backends.md"
+    },
+    {
+      "path": "references/v3_migration.md",
+      "sourcePath": "skills/zarr-python/references/v3_migration.md",
+      "bytes": 3993,
+      "sha256": "b1016328d4a83b414fa12381201aa4fde7f2c4147b8774aafb2405b7fbbafc3c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/zarr-python/references/v3_migration.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "172660c3960a90a34b4c716c2faa4fc7204fe355f7065c47119e20b8416de09c"
+}

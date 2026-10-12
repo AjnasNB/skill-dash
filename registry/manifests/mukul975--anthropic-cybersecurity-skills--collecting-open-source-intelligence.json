@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--collecting-open-source-intelligence",
+    "name": "collecting-open-source-intelligence",
+    "description": "Collects and synthesizes open-source intelligence (OSINT) about threat actors, malicious infrastructure, and attack campaigns using publicly available data sources, passive reconnaissance tools, and dark web monitoring. Use when investigating external threat actor infrastructure, performing pre-engagement reconnaissance for authorized red team assessments, or enriching CTI reports with publicly available adversary context. Activates for requests involving Maltego, Shodan, OSINT framework, SpiderFoot, or infrastructure reconnaissance.",
+    "category": "Security",
+    "tags": [
+      "collecting",
+      "open",
+      "source",
+      "intelligence",
+      "collects",
+      "synthesizes",
+      "osint",
+      "about",
+      "threat",
+      "actors",
+      "malicious",
+      "infrastructure",
+      "attack",
+      "campaigns",
+      "publicly",
+      "available",
+      "data",
+      "sources"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/collecting-open-source-intelligence/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/collecting-open-source-intelligence",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-open-source-intelligence",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 26905,
+    "sha256": "37b8996f6e0745e07d2006eb600de0e83a31e8e2b9f8e4b1026178762b23a264",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/collecting-open-source-intelligence/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-open-source-intelligence/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/collecting-open-source-intelligence/SKILL.md",
+      "bytes": 7058,
+      "sha256": "37b8996f6e0745e07d2006eb600de0e83a31e8e2b9f8e4b1026178762b23a264",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-open-source-intelligence/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/collecting-open-source-intelligence/references/api-reference.md",
+      "bytes": 2050,
+      "sha256": "eb07c7460269d91e5d2c397704341481363760f72078ed4a23d0c9d9143840d3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-open-source-intelligence/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/collecting-open-source-intelligence/scripts/agent.py",
+      "bytes": 6542,
+      "sha256": "2057edb1378196b80db5034905b74444daa94083c86c293940e1bbfef1f4d925",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-open-source-intelligence/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "5d70e48b6fc4dbf494c33f55d54cf24d2b0229e8e358d241ef7a1c06b9e6c3e6"
+}

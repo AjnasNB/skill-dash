@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--building-identity-federation-with-saml-azure-ad",
+    "name": "building-identity-federation-with-saml-azure-ad",
+    "description": "Configure SAML 2.0 identity federation between on-premises Active Directory (via AD FS or a third-party IdP) and Microsoft Entra ID, covering federation models (AD FS, password hash sync, pass-through auth, third-party IdP) and the SAML authentication flow. Use when extending on-premises authentication authority to cloud resources or designing hybrid identity SSO architecture for Entra ID.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "building",
+      "identity",
+      "federation",
+      "saml",
+      "azure",
+      "ad",
+      "configure",
+      "2.0",
+      "between",
+      "premises",
+      "active",
+      "directory",
+      "via",
+      "fs",
+      "third",
+      "party",
+      "idp",
+      "microsoft"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/building-identity-federation-with-saml-azure-ad/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/building-identity-federation-with-saml-azure-ad",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-identity-federation-with-saml-azure-ad",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 43595,
+    "sha256": "9276b5ba015009d88da50a5a2e78a31b8bc882969a1dbbcda8b9b548299c860b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/building-identity-federation-with-saml-azure-ad/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-identity-federation-with-saml-azure-ad/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/building-identity-federation-with-saml-azure-ad/SKILL.md",
+      "bytes": 10023,
+      "sha256": "9276b5ba015009d88da50a5a2e78a31b8bc882969a1dbbcda8b9b548299c860b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-identity-federation-with-saml-azure-ad/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/building-identity-federation-with-saml-azure-ad/assets/template.md",
+      "bytes": 1576,
+      "sha256": "4acd193d0cd3865f82419f0e5de29ddccf9b9a9bbb755a6478fbb39a58dbefaa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-identity-federation-with-saml-azure-ad/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/building-identity-federation-with-saml-azure-ad/references/api-reference.md",
+      "bytes": 1598,
+      "sha256": "da94c9ea65d71c53dd0eab60449044bc24cd4460e99c7199d17596f205e2b42c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-identity-federation-with-saml-azure-ad/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/building-identity-federation-with-saml-azure-ad/references/standards.md",
+      "bytes": 1761,
+      "sha256": "9079cedabff8feb2f299efcd30cf1094bb65119921ed0f567429bba56b0c687f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-identity-federation-with-saml-azure-ad/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/building-identity-federation-with-saml-azure-ad/references/workflows.md",
+      "bytes": 4439,
+      "sha256": "b5fedf518e82d9792c099d125331842c93d78a7cd6b96742a39f78c16356029d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-identity-federation-with-saml-azure-ad/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/building-identity-federation-with-saml-azure-ad/scripts/agent.py",
+      "bytes": 4516,
+      "sha256": "48261ab2df27720ecd00fc31885363430c947e03085eb309d667f4a25c641863",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-identity-federation-with-saml-azure-ad/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/building-identity-federation-with-saml-azure-ad/scripts/process.py",
+      "bytes": 8427,
+      "sha256": "dbd34edb494eb2f4f37163976e6c76acc321a7354f8bbe8bc35c9257f09a1967",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-identity-federation-with-saml-azure-ad/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "3a3aa17cd4e988ca2a248200e81044d71953faed5ea4a8069ff299cb0a134ed7"
+}

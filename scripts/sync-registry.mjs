@@ -173,7 +173,7 @@ for (const source of config.sources) {
       const zip = createSkillArchive(bundle);
       manifest.archiveSha256 = sha(zip);
       await Promise.all([
-        fs.writeFile(path.join(staging, 'manifests', `${id}.json`), JSON.stringify(manifest)),
+        fs.writeFile(path.join(staging, 'manifests', `${id}.json`), JSON.stringify(manifest,null,2)),
         fs.writeFile(path.join(staging, 'bundles', `${id}.zip`), zip),
         fs.writeFile(path.join(staging, 'documents', `${id}.md`), files.get(definition)),
       ]);
@@ -205,7 +205,7 @@ for (const skill of skills) {
 for (const file of await fs.readdir(path.join(root, 'registry/manifests'))) {
   if (/^[a-z0-9][a-z0-9._-]+\.json$/.test(file) && !ids.has(file.slice(0, -5))) await fs.unlink(path.join(root, 'registry/manifests', file));
 }
-await fs.writeFile(path.join(root, 'registry/catalog.json'), JSON.stringify(catalog));
+await fs.writeFile(path.join(root, 'registry/catalog.json'), JSON.stringify(catalog,null,2));
 await fs.writeFile(path.join(root, 'registry/sync-summary.json'), JSON.stringify({ generatedAt: checkedAt, total: skills.length, sources, excluded: exclusions.length, exclusionReasons: [...new Set(exclusions.map(x => x.reason))].map(reason => ({ reason, count: exclusions.filter(x => x.reason === reason).length })) }, null, 2));
 console.log(`Catalog complete: ${skills.length} unique, licensed skills from ${catalog.sourceCount} repositories.`);
 if (path.dirname(path.resolve(staging)) === path.resolve(cache) && path.basename(staging).startsWith('sync-')) await fs.rm(staging, { recursive: true, force: true });

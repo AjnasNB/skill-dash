@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--capacity-workload-planner",
+    "name": "capacity-workload-planner",
+    "description": "Weekly capacity and workload register: available and allocated hours, utilisation percentage, over-allocation check and leave days. Use for resource planning.",
+    "category": "Development",
+    "tags": [
+      "capacity",
+      "workload",
+      "planner",
+      "weekly",
+      "register",
+      "available",
+      "allocated",
+      "hours",
+      "utilisation",
+      "percentage",
+      "over",
+      "allocation",
+      "check",
+      "leave",
+      "days.",
+      "resource",
+      "planning."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/capacity-workload-planner",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/capacity-workload-planner",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 16820,
+    "sha256": "d86d7f5197c07fc16e96530e28916d3e9a81280182101ffd9aed8d363f421fab",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/capacity-workload-planner/SKILL.md",
+      "bytes": 15747,
+      "sha256": "d86d7f5197c07fc16e96530e28916d3e9a81280182101ffd9aed8d363f421fab",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/capacity-workload-planner/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "c5bcefaf4ce95a07993d74069f01b858dc1924eb34b6d41c4d049167032c6093"
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-api-enumeration-attacks",
+    "name": "detecting-api-enumeration-attacks",
+    "description": "Detect API enumeration attacks (BOLA/IDOR, OWASP API1:2023) by writing SIEM detection rules that flag sequential or UUID identifier iteration, parameter tampering, and mixed 200/401/403 response patterns from API gateway and WAF logs. Use when investigating suspected object-level authorization abuse, building threat-hunting queries for API access-control bypass, or hardening API logging/rate-limiting against enumeration.",
+    "category": "Security",
+    "tags": [
+      "detecting",
+      "api",
+      "enumeration",
+      "attacks",
+      "detect",
+      "bola",
+      "idor",
+      "owasp",
+      "api1",
+      "2023",
+      "by",
+      "writing",
+      "siem",
+      "detection",
+      "rules",
+      "flag",
+      "sequential",
+      "uuid"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-api-enumeration-attacks/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-api-enumeration-attacks",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-api-enumeration-attacks",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34525,
+    "sha256": "17ee09be8d84c5c47c84e84753e961cc27cd8740426cfe07d8effa8ba4f1ff6e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-api-enumeration-attacks/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-api-enumeration-attacks/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-api-enumeration-attacks/SKILL.md",
+      "bytes": 14613,
+      "sha256": "17ee09be8d84c5c47c84e84753e961cc27cd8740426cfe07d8effa8ba4f1ff6e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-api-enumeration-attacks/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-api-enumeration-attacks/references/api-reference.md",
+      "bytes": 1931,
+      "sha256": "f8dc43e8f17ca159a810fb2fd66dce542dabb22f6a6ee4cfe0d9c36cad6ae69f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-api-enumeration-attacks/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-api-enumeration-attacks/scripts/agent.py",
+      "bytes": 6726,
+      "sha256": "fcc376bc9480f07b01fb8b75272bb8c7791bc674b733e473ba8889c072ff043e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-api-enumeration-attacks/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "c93f459ab515fcc95fc65c5a0993f294c1773cfa7c20450a259631ca56c4aa44"
+}

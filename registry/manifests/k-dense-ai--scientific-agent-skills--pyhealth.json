@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--pyhealth",
+    "name": "pyhealth",
+    "description": "Builds and validates PyHealth clinical machine-learning pipelines for EHR, signals, imaging, and medical codes. Use for PyHealth dataset loading, MIMIC-III/IV, eICU or OMOP prediction tasks, patient-level evaluation, mortality/readmission/length-of-stay modeling, medication recommendation, sleep staging, Trainer checkpoints, and ICD/ATC/NDC/RxNorm mapping.",
+    "category": "Data & research",
+    "tags": [
+      "pyhealth",
+      "builds",
+      "validates",
+      "clinical",
+      "machine",
+      "learning",
+      "pipelines",
+      "ehr",
+      "signals",
+      "imaging",
+      "medical",
+      "codes.",
+      "dataset",
+      "loading",
+      "mimic",
+      "iii",
+      "iv",
+      "eicu"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/pyhealth",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pyhealth",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 9,
+    "bytes": 46274,
+    "sha256": "ec4de54618b71a4f8cfeb086d131c610127784a6839d842a67b3c1e87b66e161",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/pyhealth/SKILL.md",
+      "bytes": 8227,
+      "sha256": "ec4de54618b71a4f8cfeb086d131c610127784a6839d842a67b3c1e87b66e161",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pyhealth/SKILL.md"
+    },
+    {
+      "path": "assets/starter_pipeline.py",
+      "sourcePath": "skills/pyhealth/assets/starter_pipeline.py",
+      "bytes": 3870,
+      "sha256": "c355fa4eb7f421370d43e01b655697fbb769aa60237fb8bf4a9ae120c16daaca",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pyhealth/assets/starter_pipeline.py"
+    },
+    {
+      "path": "references/datasets.md",
+      "sourcePath": "skills/pyhealth/references/datasets.md",
+      "bytes": 5343,
+      "sha256": "009e3a36e26a9845cefedf74f013efb23e6e31efae408a59b02b49c34f2e0549",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pyhealth/references/datasets.md"
+    },
+    {
+      "path": "references/examples.md",
+      "sourcePath": "skills/pyhealth/references/examples.md",
+      "bytes": 7099,
+      "sha256": "d2f16cd19a087619810c0dc3fb9c1ce635b5c67a0bb01ec16811d0097b61b225",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pyhealth/references/examples.md"
+    },
+    {
+      "path": "references/installation.md",
+      "sourcePath": "skills/pyhealth/references/installation.md",
+      "bytes": 4524,
+      "sha256": "f07c89c78ff3cc003348b5c50375b45d89bdec28eaa0f9c0fc43a0dac0681be7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pyhealth/references/installation.md"
+    },
+    {
+      "path": "references/medcode.md",
+      "sourcePath": "skills/pyhealth/references/medcode.md",
+      "bytes": 3645,
+      "sha256": "2e3d3d98e21206e94dd924ce896c3c683a581c03d115a8bbc4c41c7e09d34387",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pyhealth/references/medcode.md"
+    },
+    {
+      "path": "references/models.md",
+      "sourcePath": "skills/pyhealth/references/models.md",
+      "bytes": 5888,
+      "sha256": "303822a66f67071105de616d51c5734a03400a5c38889b091f660cc40d29f2a2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pyhealth/references/models.md"
+    },
+    {
+      "path": "references/tasks.md",
+      "sourcePath": "skills/pyhealth/references/tasks.md",
+      "bytes": 6610,
+      "sha256": "5848475335ca255fb2308f0bdcf816191506fb15016b07a47e267ca71734b6fa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pyhealth/references/tasks.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "9a1950307a099a987f25d60622589e7a7f8bf1c1a65eda40b0548220c8b2ea67"
+}

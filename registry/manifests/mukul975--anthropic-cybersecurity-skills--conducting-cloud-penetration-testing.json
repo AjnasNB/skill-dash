@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--conducting-cloud-penetration-testing",
+    "name": "conducting-cloud-penetration-testing",
+    "description": "This skill outlines methodologies for performing authorized penetration testing against AWS, Azure, and GCP cloud environments. It covers understanding the shared responsibility model for testing scope, leveraging cloud-specific attack tools like Pacu and ScoutSuite, exploiting IAM misconfigurations, testing for SSRF to cloud metadata services, and reporting findings aligned to MITRE ATT&CK Cloud matrix.",
+    "category": "Security",
+    "tags": [
+      "conducting",
+      "cloud",
+      "penetration",
+      "testing",
+      "skill",
+      "outlines",
+      "methodologies",
+      "performing",
+      "authorized",
+      "against",
+      "aws",
+      "azure",
+      "gcp",
+      "environments.",
+      "it",
+      "covers",
+      "understanding",
+      "shared"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/conducting-cloud-penetration-testing/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/conducting-cloud-penetration-testing",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cloud-penetration-testing",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 33629,
+    "sha256": "4bc7f2b556d71f6f1fd69dd0a0073bf70ddc9a6f33934278baa1dacafb482f56",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/conducting-cloud-penetration-testing/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cloud-penetration-testing/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/conducting-cloud-penetration-testing/SKILL.md",
+      "bytes": 12974,
+      "sha256": "4bc7f2b556d71f6f1fd69dd0a0073bf70ddc9a6f33934278baa1dacafb482f56",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cloud-penetration-testing/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/conducting-cloud-penetration-testing/references/api-reference.md",
+      "bytes": 2322,
+      "sha256": "16bcd715d5ba1811fbc0f23d16c7afd55026143dfed4432ef3653b10423d7a61",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cloud-penetration-testing/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/conducting-cloud-penetration-testing/scripts/agent.py",
+      "bytes": 7078,
+      "sha256": "3072c4096bd0f7c7c4023b7089b192d36ac044a2b8ecf1ce8a98f0aa10cc2413",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cloud-penetration-testing/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "437c045c0cf5ea27eb3695cc4a617d98dc15d8dcb368196db68f3f6b04fb94f0"
+}

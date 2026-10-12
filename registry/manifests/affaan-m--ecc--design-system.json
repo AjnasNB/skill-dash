@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--design-system","name":"design-system","description":"Use this skill to generate or audit design systems, check visual consistency, and review PRs that touch styling. Use when generating or auditing a design system, checking visual consistency, or reviewing a PR that touches styling.","category":"Design","tags":["design","system","skill","generate","audit","systems","check","visual","consistency","review","prs","touch","styling.","when","generating","auditing","checking","reviewing"],"repo":"affaan-m/ECC","owner":"affaan-m","stars":266395,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"bf70150eb2df8070024e5bdf08e4aa08959e2735","path":"skills/design-system","sourceUrl":"https://github.com/affaan-m/ECC/tree/bf70150eb2df8070024e5bdf08e4aa08959e2735/skills/design-system","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-21T18:40:16Z","fileCount":2,"bytes":3681,"sha256":"baa6057bec07334f531789d07fbdd656afd725c0540992bd04db7589cac36d26","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/design-system/SKILL.md","bytes":2610,"sha256":"baa6057bec07334f531789d07fbdd656afd725c0540992bd04db7589cac36d26","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/bf70150eb2df8070024e5bdf08e4aa08959e2735/skills/design-system/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/bf70150eb2df8070024e5bdf08e4aa08959e2735/LICENSE"}],"archiveSha256":"fb4a0a7c41a6463a2ebfae342127232ae573463393180b21f446ceefd66218a8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--design-system",
+    "name": "design-system",
+    "description": "Generate a design system from an existing codebase or audit one for visual consistency: extract tokens (colors, typography, spacing, shadows) into design-tokens.json and CSS custom properties with DESIGN.md rationale and an interactive HTML preview, score the UI across 10 dimensions, and flag AI-slop patterns. Use when starting a design system, auditing visual consistency before a redesign, or reviewing a PR that touches styling.",
+    "category": "Design",
+    "tags": [
+      "design",
+      "system",
+      "generate",
+      "from",
+      "existing",
+      "codebase",
+      "audit",
+      "one",
+      "visual",
+      "consistency",
+      "extract",
+      "tokens",
+      "colors",
+      "typography",
+      "spacing",
+      "shadows",
+      "into",
+      "tokens.json"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/design-system",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/design-system",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 2,
+    "bytes": 3886,
+    "sha256": "1969e4cb6cd13cdafff5f84353047d6e55cebc24e1a595ec48e6e2c666f3d8b1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/design-system/SKILL.md",
+      "bytes": 2815,
+      "sha256": "1969e4cb6cd13cdafff5f84353047d6e55cebc24e1a595ec48e6e2c666f3d8b1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/design-system/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "7c4645db37590390e52fe27f7a90a550d5ee816cafe64e7de0d69b5ab9c53f20"
+}

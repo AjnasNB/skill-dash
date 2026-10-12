@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--idea-to-blueprint",
+    "name": "idea-to-blueprint",
+    "description": "Turn a raw product, app, bot or feature idea into one evidence-backed build blueprint (researched stack, epics, Given/When/Then criteria, tests) that coding agents build one epic per session.",
+    "category": "AI & agents",
+    "tags": [
+      "idea",
+      "blueprint",
+      "turn",
+      "raw",
+      "product",
+      "app",
+      "bot",
+      "feature",
+      "into",
+      "one",
+      "evidence",
+      "backed",
+      "researched",
+      "stack",
+      "epics",
+      "given",
+      "when",
+      "then"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "skills/idea-to-blueprint/LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/idea-to-blueprint",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-to-blueprint",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 18,
+    "bytes": 227331,
+    "sha256": "23f722e849a3745f568e27997201d5354260fead56083a1d14a3e400f3aa94c9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/idea-to-blueprint/LICENSE",
+      "bytes": 1062,
+      "sha256": "829f00747d0c95279964a794e8c1c2ddea564e087876eea522d26a7bfd47ebc8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-to-blueprint/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/idea-to-blueprint/SKILL.md",
+      "bytes": 24893,
+      "sha256": "23f722e849a3745f568e27997201d5354260fead56083a1d14a3e400f3aa94c9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-to-blueprint/SKILL.md"
+    },
+    {
+      "path": "assets/AGENTS.md.template",
+      "sourcePath": "skills/idea-to-blueprint/assets/AGENTS.md.template",
+      "bytes": 3969,
+      "sha256": "93799a17848c03ebee8a86bcc9ffe20870c07c13750d61bca317bde777e39044",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-to-blueprint/assets/AGENTS.md.template"
+    },
+    {
+      "path": "assets/CLAUDE.md.template",
+      "sourcePath": "skills/idea-to-blueprint/assets/CLAUDE.md.template",
+      "bytes": 3969,
+      "sha256": "93799a17848c03ebee8a86bcc9ffe20870c07c13750d61bca317bde777e39044",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-to-blueprint/assets/CLAUDE.md.template"
+    },
+    {
+      "path": "assets/DECISIONS.md.template",
+      "sourcePath": "skills/idea-to-blueprint/assets/DECISIONS.md.template",
+      "bytes": 506,
+      "sha256": "2e8d13975476624d18e7fa4d7216f434179cee1c0fe7f4f773f0c8f64354477d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-to-blueprint/assets/DECISIONS.md.template"
+    },
+    {
+      "path": "assets/PROGRESS.md.template",
+      "sourcePath": "skills/idea-to-blueprint/assets/PROGRESS.md.template",
+      "bytes": 1662,
+      "sha256": "3402413f86a5433eed7f730d90838665836571143b58854619e0957abdfd6bca",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-to-blueprint/assets/PROGRESS.md.template"
+    },
+    {
+      "path": "assets/session-prompt.md",
+      "sourcePath": "skills/idea-to-blueprint/assets/session-prompt.md",
+      "bytes": 3276,
+      "sha256": "8cf7b48632f0b44f34398c4d901afb12c7e686c7e8f1ac2fdb06ba944004cab2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-to-blueprint/assets/session-prompt.md"
+    },
+    {
+      "path": "references/architecture-decisions.md",
+      "sourcePath": "skills/idea-to-blueprint/references/architecture-decisions.md",
+      "bytes": 20162,
+      "sha256": "7230635d3c7f38ef757be6e291302f9469694252ffe8cb9b578b24dab2569d20",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-to-blueprint/references/architecture-decisions.md"
+    },
+    {
+      "path": "references/blueprint-template.md",
+      "sourcePath": "skills/idea-to-blueprint/references/blueprint-template.md",
+      "bytes": 21068,
+      "sha256": "c9004de7ff7c83dcfa739df2b32e4b5660ef8fcb07615c763306d4ba7d651f32",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-to-blueprint/references/blueprint-template.md"
+    },
+    {
+      "path": "references/code-quality-and-review.md",
+      "sourcePath": "skills/idea-to-blueprint/references/code-quality-and-review.md",
+      "bytes": 22740,
+      "sha256": "2bd10e119c8cf41c5e41d5310aa3f1662b2619b262bc59855b374af347107f97",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-to-blueprint/references/code-quality-and-review.md"
+    },
+    {
+      "path": "references/design-minimal.md",
+      "sourcePath": "skills/idea-to-blueprint/references/design-minimal.md",
+      "bytes": 8639,
+      "sha256": "3d47b7e1e77917304c72eef646b01149c620f41f9144ae500734a284cc4b94c3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-to-blueprint/references/design-minimal.md"
+    },
+    {
+      "path": "references/edge-case-catalog.md",
+      "sourcePath": "skills/idea-to-blueprint/references/edge-case-catalog.md",
+      "bytes": 21863,
+      "sha256": "acc522fc1f1df48616ea19d2688b26772b405187e76e71c67b27ac1cc312a1fb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-to-blueprint/references/edge-case-catalog.md"
+    },
+    {
+      "path": "references/intake-questions.md",
+      "sourcePath": "skills/idea-to-blueprint/references/intake-questions.md",
+      "bytes": 9960,
+      "sha256": "5ba7ecec59b8aa4dc66a439527a9c3df6b77f19fe2f735858b58692af8af07c9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-to-blueprint/references/intake-questions.md"
+    },
+    {
+      "path": "references/research-protocol.md",
+      "sourcePath": "skills/idea-to-blueprint/references/research-protocol.md",
+      "bytes": 21096,
+      "sha256": "7edb21444bf172dc1e9ab47770de6020cd370d833c9ac69b4a988b12df98a6e7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-to-blueprint/references/research-protocol.md"
+    },
+    {
+      "path": "references/session-protocol.md",
+      "sourcePath": "skills/idea-to-blueprint/references/session-protocol.md",
+      "bytes": 12003,
+      "sha256": "413cd77e470737153e09dfa83ad72859a8be1eba2174166702078a44db5b644e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-to-blueprint/references/session-protocol.md"
+    },
+    {
+      "path": "references/stories-ac-tests.md",
+      "sourcePath": "skills/idea-to-blueprint/references/stories-ac-tests.md",
+      "bytes": 16565,
+      "sha256": "3f5b2c3ca67a790145b41d277eb1a566708e66a68e4883a0c8ad76ca6f405f01",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-to-blueprint/references/stories-ac-tests.md"
+    },
+    {
+      "path": "references/ux-writing-guide.md",
+      "sourcePath": "skills/idea-to-blueprint/references/ux-writing-guide.md",
+      "bytes": 11929,
+      "sha256": "633da0b6ccc1277751bcb4ee87b7d24a5d3565c3ab0ac9e9e6e553a37a5715f0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-to-blueprint/references/ux-writing-guide.md"
+    },
+    {
+      "path": "scripts/lint_blueprint.py",
+      "sourcePath": "skills/idea-to-blueprint/scripts/lint_blueprint.py",
+      "bytes": 21969,
+      "sha256": "4c7ff8789bab928de3351254f0f0474f4aab34b70fd3eeb80b99ea7f34234235",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-to-blueprint/scripts/lint_blueprint.py"
+    }
+  ],
+  "archiveSha256": "ce664c1b9db651f4187d6b7243ab6b5d80656b2f55bb2638b9e7974b712cf52e"
+}

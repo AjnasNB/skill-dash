@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--stellar-escrow-timelock",
+    "name": "stellar-escrow-timelock",
+    "description": "Decentralized conditional escrow and timelock contract register: multi-signature release conditions, clawback expiry, and settlement triggers.",
+    "category": "Development",
+    "tags": [
+      "stellar",
+      "escrow",
+      "timelock",
+      "decentralized",
+      "conditional",
+      "contract",
+      "register",
+      "multi",
+      "signature",
+      "release",
+      "conditions",
+      "clawback",
+      "expiry",
+      "settlement",
+      "triggers."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/stellar-escrow-timelock",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/stellar-escrow-timelock",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6330,
+    "sha256": "028abda5ced34aedbd3d7e038a1a8f34719ad120e55d5b623941c3f2595fd0d4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/stellar-escrow-timelock/SKILL.md",
+      "bytes": 5257,
+      "sha256": "028abda5ced34aedbd3d7e038a1a8f34719ad120e55d5b623941c3f2595fd0d4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/stellar-escrow-timelock/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "e4aba6a895812d18464ce56509d301959c895eaaa88177a38b2a8c9b9359ec1d"
+}

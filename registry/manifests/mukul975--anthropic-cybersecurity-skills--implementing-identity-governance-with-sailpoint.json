@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-identity-governance-with-sailpoint",
+    "name": "implementing-identity-governance-with-sailpoint",
+    "description": "Deploys SailPoint IdentityNow or IdentityIQ for identity governance and administration, covering identity lifecycle management, access request workflows, certification campaigns, role mining, separation-of-duties (SOD) policy enforcement, and compliance reporting. Use when standing up or tuning an identity governance program, automating access certifications, or enforcing SOD policies across enterprise IAM.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "implementing",
+      "identity",
+      "governance",
+      "sailpoint",
+      "deploys",
+      "identitynow",
+      "identityiq",
+      "administration",
+      "covering",
+      "lifecycle",
+      "management",
+      "access",
+      "request",
+      "workflows",
+      "certification",
+      "campaigns",
+      "role",
+      "mining"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-identity-governance-with-sailpoint/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-identity-governance-with-sailpoint",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-identity-governance-with-sailpoint",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 24156,
+    "sha256": "22ec14a4b5d75c975bb668964fd4185888136b65c846fe5292e9021fb853a78c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-identity-governance-with-sailpoint/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-identity-governance-with-sailpoint/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-identity-governance-with-sailpoint/SKILL.md",
+      "bytes": 3219,
+      "sha256": "22ec14a4b5d75c975bb668964fd4185888136b65c846fe5292e9021fb853a78c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-identity-governance-with-sailpoint/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-identity-governance-with-sailpoint/references/api-reference.md",
+      "bytes": 1650,
+      "sha256": "ab1909fcefb5d5a74bda40ad59c3df7a43c55c7a19bd02115caf3e46e39e0760",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-identity-governance-with-sailpoint/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-identity-governance-with-sailpoint/scripts/agent.py",
+      "bytes": 8032,
+      "sha256": "8cef02765fcd296651e953a89d783e9198be0225be2de46d037da8eec6f0d84a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-identity-governance-with-sailpoint/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "020c70c285a395b52c4707ceb720ee6330137a128e647c270c085e7f0cc0706a"
+}

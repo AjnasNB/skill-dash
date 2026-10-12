@@ -1,0 +1,9 @@
+[
+  {"repo":"modelcontextprotocol/servers","name":"MCP reference servers","type":"library","capabilities":["MCP reference implementations","server development"]},
+  {"repo":"upstash/context7","name":"Context7","type":"mcp","capabilities":["library documentation","MCP context"]},
+  {"repo":"microsoft/playwright-mcp","name":"Playwright MCP","type":"mcp","capabilities":["browser automation","web testing"]},
+  {"repo":"ChromeDevTools/chrome-devtools-mcp","name":"Chrome DevTools MCP","type":"mcp","capabilities":["Chrome debugging","web performance"]},
+  {"repo":"anthropics/claude-plugins-official","name":"Official Claude plugin directory","type":"plugin","capabilities":["plugin discovery","coding workflows"]},
+  {"repo":"vercel-labs/skills","name":"Skills CLI","type":"tool","capabilities":["skill discovery","skill installation"]},
+  {"repo":"LibreChat-AI/LibreChat","name":"LibreChat","type":"chatbot","capabilities":["chat interface","agent integrations"]}
+]

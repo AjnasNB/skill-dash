@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-aes-encryption-for-data-at-rest",
+    "name": "implementing-aes-encryption-for-data-at-rest",
+    "description": "Guides implementing AES-256 encryption in GCM mode (FIPS 197) for files and data stores at rest, covering key derivation, IV/nonce management, and authenticated encryption. Use when deploying or configuring encryption for data at rest, establishing controls to meet compliance requirements, or reviewing an implementation during a security assessment.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "aes",
+      "encryption",
+      "data",
+      "at",
+      "rest",
+      "guides",
+      "256",
+      "gcm",
+      "mode",
+      "fips",
+      "197",
+      "files",
+      "stores",
+      "covering",
+      "key",
+      "derivation",
+      "iv"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-aes-encryption-for-data-at-rest/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-aes-encryption-for-data-at-rest",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aes-encryption-for-data-at-rest",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 43668,
+    "sha256": "e7eb3b1a4433e8e306e8458c30edde791b38f20f69d106a90b55f19c235fbd75",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-aes-encryption-for-data-at-rest/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aes-encryption-for-data-at-rest/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-aes-encryption-for-data-at-rest/SKILL.md",
+      "bytes": 4223,
+      "sha256": "e7eb3b1a4433e8e306e8458c30edde791b38f20f69d106a90b55f19c235fbd75",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aes-encryption-for-data-at-rest/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-aes-encryption-for-data-at-rest/assets/template.md",
+      "bytes": 2977,
+      "sha256": "c8fbc1522a0fc7a0b21fed7213381aa1a6ea5303247a17b188ad5de36b02d22a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aes-encryption-for-data-at-rest/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-aes-encryption-for-data-at-rest/references/api-reference.md",
+      "bytes": 1854,
+      "sha256": "c1ce5f92906583df8258c17bd71c20870b9496c237871a92ed9688bf84246adc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aes-encryption-for-data-at-rest/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-aes-encryption-for-data-at-rest/references/standards.md",
+      "bytes": 3334,
+      "sha256": "816d5b355c989a8305139a37f209fe1e1138a7372442644c1e3d44ccf69417cc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aes-encryption-for-data-at-rest/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-aes-encryption-for-data-at-rest/references/workflows.md",
+      "bytes": 2963,
+      "sha256": "c2a5d74cf34f28a64a74d0f88b804e0485989d18d8f935621fbe4f570b3af01e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aes-encryption-for-data-at-rest/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-aes-encryption-for-data-at-rest/scripts/agent.py",
+      "bytes": 5383,
+      "sha256": "7734fb963f3aca93a21b339bd04bb87186b584afab698695ce31fa5014d21797",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aes-encryption-for-data-at-rest/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-aes-encryption-for-data-at-rest/scripts/process.py",
+      "bytes": 11679,
+      "sha256": "c7e70a2112e6d554a15a6bfe8a8c8f0d0664179719837217cb4676dc2c8eea75",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aes-encryption-for-data-at-rest/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "8e0a5691025747d403b949284a6547d71b10a3700d632cf5cc82538267c4448f"
+}

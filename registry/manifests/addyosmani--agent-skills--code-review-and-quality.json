@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"addyosmani--agent-skills--code-review-and-quality","name":"code-review-and-quality","description":"Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch.","category":"AI & agents","tags":["code","review","quality","conducts","multi","axis","review.","before","merging","any","change.","when","reviewing","written","by","yourself","another","agent"],"repo":"addyosmani/agent-skills","owner":"addyosmani","stars":98780,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"bcab6a1b8503100e8618c3b4e32cc78de43de769","path":"skills/code-review-and-quality","sourceUrl":"https://github.com/addyosmani/agent-skills/tree/bcab6a1b8503100e8618c3b4e32cc78de43de769/skills/code-review-and-quality","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-23T04:05:38Z","fileCount":2,"bytes":21623,"sha256":"8f3cabca581bbf7cb5f0add3f7454e7a4523f9d4353a6a4a217e6fa515309612","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/code-review-and-quality/SKILL.md","bytes":20555,"sha256":"8f3cabca581bbf7cb5f0add3f7454e7a4523f9d4353a6a4a217e6fa515309612","mode":420,"url":"https://raw.githubusercontent.com/addyosmani/agent-skills/bcab6a1b8503100e8618c3b4e32cc78de43de769/skills/code-review-and-quality/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1068,"sha256":"6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7","mode":420,"url":"https://raw.githubusercontent.com/addyosmani/agent-skills/bcab6a1b8503100e8618c3b4e32cc78de43de769/LICENSE"}],"archiveSha256":"191ecfbaf852683115587e4c1a997a90a5ef4c045ef7f4606ff968ab673bcb4b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "addyosmani--agent-skills--code-review-and-quality",
+    "name": "code-review-and-quality",
+    "description": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch. Use when asked to review a diff or a pull request, even when the diff is pasted inline.",
+    "category": "AI & agents",
+    "tags": [
+      "code",
+      "review",
+      "quality",
+      "conducts",
+      "multi",
+      "axis",
+      "review.",
+      "before",
+      "merging",
+      "any",
+      "change.",
+      "when",
+      "reviewing",
+      "written",
+      "by",
+      "yourself",
+      "another",
+      "agent"
+    ],
+    "repo": "addyosmani/agent-skills",
+    "owner": "addyosmani",
+    "stars": 105293,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1be8e34187e34647bb83adc3a1323b26ae6f6abe",
+    "path": "skills/code-review-and-quality",
+    "sourceUrl": "https://github.com/addyosmani/agent-skills/tree/1be8e34187e34647bb83adc3a1323b26ae6f6abe/skills/code-review-and-quality",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-10T08:28:48Z",
+    "fileCount": 2,
+    "bytes": 22044,
+    "sha256": "2db1e850379f255fd3091ef278cde24cd6c7d2ba23e360cc52ea522c40d4396e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/code-review-and-quality/SKILL.md",
+      "bytes": 20976,
+      "sha256": "2db1e850379f255fd3091ef278cde24cd6c7d2ba23e360cc52ea522c40d4396e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/addyosmani/agent-skills/1be8e34187e34647bb83adc3a1323b26ae6f6abe/skills/code-review-and-quality/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1068,
+      "sha256": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/addyosmani/agent-skills/1be8e34187e34647bb83adc3a1323b26ae6f6abe/LICENSE"
+    }
+  ],
+  "archiveSha256": "f9cd58f0c796f03a3f77290ee38334115a9f61ddd4503ad0cf0446fdf933c069"
+}

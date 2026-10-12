@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--tile-design","name":"tile-design","description":"Web and App implementation guide for Tile Design. Trigger when user wants Microsoft Metro style, sharp square information units, and horizontal scrolling grids.","category":"Design","tags":["tile","design","web","app","implementation","guide","design.","trigger","when","user","wants","microsoft","metro","style","sharp","square","information","units"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":46853,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"21efc48cceaf0f7043fa496ad8fcd5815637121e","path":"skills/design-it/tile-design","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/design-it/tile-design","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T06:08:57Z","fileCount":2,"bytes":11940,"sha256":"42439331d0bc9d8d9750d1ebf94a65741aa38d75c32ba24c64e38de69383fd70","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/design-it/tile-design/SKILL.md","bytes":10867,"sha256":"42439331d0bc9d8d9750d1ebf94a65741aa38d75c32ba24c64e38de69383fd70","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/design-it/tile-design/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/LICENSE"}],"archiveSha256":"a212ba96a7c9228a12dfabaebdbd433bf7aa361cfcfc9a614537a9ff6dda110c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--tile-design",
+    "name": "tile-design",
+    "description": "Web and App implementation guide for Tile Design. Trigger when user wants Microsoft Metro style, sharp square information units, and horizontal scrolling grids.",
+    "category": "Design",
+    "tags": [
+      "tile",
+      "design",
+      "web",
+      "app",
+      "implementation",
+      "guide",
+      "design.",
+      "trigger",
+      "when",
+      "user",
+      "wants",
+      "microsoft",
+      "metro",
+      "style",
+      "sharp",
+      "square",
+      "information",
+      "units"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/design-it/tile-design",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/tile-design",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11940,
+    "sha256": "42439331d0bc9d8d9750d1ebf94a65741aa38d75c32ba24c64e38de69383fd70",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/design-it/tile-design/SKILL.md",
+      "bytes": 10867,
+      "sha256": "42439331d0bc9d8d9750d1ebf94a65741aa38d75c32ba24c64e38de69383fd70",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/tile-design/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "1b0e7bfd5a7b9cc6f878f2444c7d407e80727c0f1b79570dd113c1fc1e4c3274"
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "emilkowalski--skills--pick-ui-library",
+    "name": "pick-ui-library",
+    "description": "Pick the right library for a given frontend task from a curated, opinionated list — numbers, OTP inputs, charts, command menus, virtualization, drag and drop, toasts, state, styling, and more. Only runs when explicitly invoked; it does not trigger on its own.",
+    "category": "Design",
+    "tags": [
+      "pick",
+      "ui",
+      "library",
+      "right",
+      "given",
+      "frontend",
+      "task",
+      "from",
+      "curated",
+      "opinionated",
+      "list",
+      "numbers",
+      "otp",
+      "inputs",
+      "charts",
+      "command",
+      "menus",
+      "virtualization"
+    ],
+    "repo": "emilkowalski/skills",
+    "owner": "emilkowalski",
+    "stars": 45550,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "2d228630ba1446365f614a108cb8252f1feda202",
+    "path": "skills/pick-ui-library",
+    "sourceUrl": "https://github.com/emilkowalski/skills/tree/2d228630ba1446365f614a108cb8252f1feda202/skills/pick-ui-library",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T13:58:32Z",
+    "fileCount": 2,
+    "bytes": 5860,
+    "sha256": "675fdce308683256ed617351a9b74d23457a5fbd0a562d9831b9c764b8c5e682",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/pick-ui-library/SKILL.md",
+      "bytes": 4790,
+      "sha256": "675fdce308683256ed617351a9b74d23457a5fbd0a562d9831b9c764b8c5e682",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/pick-ui-library/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1070,
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/LICENSE"
+    }
+  ],
+  "archiveSha256": "7389b58729c98a2a0ffcf61174a515479dc9a26c7c227815c651256c60da70e6"
+}

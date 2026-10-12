@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--building-threat-feed-aggregation-with-misp",
+    "name": "building-threat-feed-aggregation-with-misp",
+    "description": "Deploy MISP via Docker and configure feeds from sources like abuse.ch, AlienVault OTX, and CIRCL to aggregate, correlate, and distribute threat intelligence, including automated feed synchronization and STIX/TAXII-based integration with Splunk, Elasticsearch, and SOAR platforms. Use when standing up centralized IOC management or wiring multi-source threat feeds into a SIEM.",
+    "category": "Security",
+    "tags": [
+      "building",
+      "threat",
+      "feed",
+      "aggregation",
+      "misp",
+      "deploy",
+      "via",
+      "docker",
+      "configure",
+      "feeds",
+      "from",
+      "sources",
+      "like",
+      "abuse.ch",
+      "alienvault",
+      "otx",
+      "circl",
+      "aggregate"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/building-threat-feed-aggregation-with-misp/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/building-threat-feed-aggregation-with-misp",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-feed-aggregation-with-misp",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32849,
+    "sha256": "433c300b84c901f42105f5dc318d0e8f13adf8787be98332527b4ab7d5d4a248",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/building-threat-feed-aggregation-with-misp/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-feed-aggregation-with-misp/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/building-threat-feed-aggregation-with-misp/SKILL.md",
+      "bytes": 12728,
+      "sha256": "433c300b84c901f42105f5dc318d0e8f13adf8787be98332527b4ab7d5d4a248",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-feed-aggregation-with-misp/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/building-threat-feed-aggregation-with-misp/references/api-reference.md",
+      "bytes": 2135,
+      "sha256": "34226188adace09f4ca1e30d6d8d65feee2b893a6fa93fe50e000f7ea923995e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-feed-aggregation-with-misp/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/building-threat-feed-aggregation-with-misp/scripts/agent.py",
+      "bytes": 6731,
+      "sha256": "9d8ef3bdc629b54dba3be121976a849f5ddcb4475da5ab5797dd6c1eab69289a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-feed-aggregation-with-misp/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "5287acc0cd94652c64024ee8eaa63ba63ba13f00ab4ee29369dbd555cbf13601"
+}

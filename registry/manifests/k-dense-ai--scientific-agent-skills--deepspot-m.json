@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--deepspot-m",
+    "name": "deepspot-m",
+    "description": "Generates transcriptome-wide virtual spatial transcriptomics from H&E histology with DeepSpot-M. Used for predicted log1p-CPM expression from 224x224 tiles at about 20x, querying the released protein-coding gene panel by symbol, and whole-slide prediction after resolution-aware tiling with histolab.",
+    "category": "Development",
+    "tags": [
+      "deepspot",
+      "generates",
+      "transcriptome",
+      "wide",
+      "virtual",
+      "spatial",
+      "transcriptomics",
+      "from",
+      "histology",
+      "m.",
+      "used",
+      "predicted",
+      "log1p",
+      "cpm",
+      "expression",
+      "224x224",
+      "tiles",
+      "at"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/deepspot-m",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/deepspot-m",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 4,
+    "bytes": 29264,
+    "sha256": "a917434c523e136ddc1ce45b54acbef8c28398dd293314f72faa278431e67418",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/deepspot-m/SKILL.md",
+      "bytes": 9939,
+      "sha256": "a917434c523e136ddc1ce45b54acbef8c28398dd293314f72faa278431e67418",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/deepspot-m/SKILL.md"
+    },
+    {
+      "path": "references/api.md",
+      "sourcePath": "skills/deepspot-m/references/api.md",
+      "bytes": 7245,
+      "sha256": "2b0276f106e381ec6ac76a705935c54a31b50e6a882e379033e66a5c76b7fe4b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/deepspot-m/references/api.md"
+    },
+    {
+      "path": "references/whole_slide.md",
+      "sourcePath": "skills/deepspot-m/references/whole_slide.md",
+      "bytes": 11012,
+      "sha256": "cafe149c1b03f712676257898e87986aa14eca557c3950877de44caa66176db0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/deepspot-m/references/whole_slide.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "2c0ddc5af9167cd17d3e94dab4280701eb0d7b1495dd1e32c0acf8898c490227"
+}

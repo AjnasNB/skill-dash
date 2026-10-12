@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--seo-directory-backlinks",
+    "name": "seo-directory-backlinks",
+    "description": "Directory and backlink register: platform, domain, target URL, follow attribute, authority and spam scores, approval and NAP-match status. Use for SEO citation tracking.",
+    "category": "Marketing",
+    "tags": [
+      "seo",
+      "directory",
+      "backlinks",
+      "backlink",
+      "register",
+      "platform",
+      "domain",
+      "target",
+      "url",
+      "follow",
+      "attribute",
+      "authority",
+      "spam",
+      "scores",
+      "approval",
+      "nap",
+      "match",
+      "status."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/seo-directory-backlinks",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-directory-backlinks",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 5,
+    "bytes": 30726,
+    "sha256": "68a506ad72ceabaffb8423061e750fbac145b45ef7691c557ca89739077bcc88",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/seo-directory-backlinks/SKILL.md",
+      "bytes": 26002,
+      "sha256": "68a506ad72ceabaffb8423061e750fbac145b45ef7691c557ca89739077bcc88",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-directory-backlinks/SKILL.md"
+    },
+    {
+      "path": "references/common-pitfalls.md",
+      "sourcePath": "skills/seo-directory-backlinks/references/common-pitfalls.md",
+      "bytes": 2210,
+      "sha256": "5a3fd50ade3b0b193fa76ca0eca6d652e97012b3b30781a7eaeb74919147e6a6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-directory-backlinks/references/common-pitfalls.md"
+    },
+    {
+      "path": "references/related-skills.md",
+      "sourcePath": "skills/seo-directory-backlinks/references/related-skills.md",
+      "bytes": 896,
+      "sha256": "8daa229805c66cac5b6d815af9dd1be937e33ee59cfa82c9f34bbf8453249bd0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-directory-backlinks/references/related-skills.md"
+    },
+    {
+      "path": "references/reusable-prompt.md",
+      "sourcePath": "skills/seo-directory-backlinks/references/reusable-prompt.md",
+      "bytes": 545,
+      "sha256": "cbea2f8442e465edbdda82288714ab93a9513737c4d239f84f57bf9f75268745",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-directory-backlinks/references/reusable-prompt.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "19e0eea004dbcaf6dfc4d004b3cd4507acd2b4f878b498a9aefd35b3fc3cfcc1"
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-devsecops-security-scanning",
+    "name": "implementing-devsecops-security-scanning",
+    "description": "Integrates SAST, DAST, and SCA into CI/CD pipelines using Semgrep for SAST, Trivy for SCA and container scanning, OWASP ZAP for DAST, and Gitleaks for secrets detection. Use when setting up automated security scanning in CI/CD, shifting security left, meeting compliance mandates (SOC 2, PCI-DSS, ISO 27001), or gating deployments on critical vulnerabilities.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "devsecops",
+      "security",
+      "scanning",
+      "integrates",
+      "sast",
+      "dast",
+      "sca",
+      "into",
+      "ci",
+      "cd",
+      "pipelines",
+      "semgrep",
+      "trivy",
+      "container",
+      "owasp",
+      "zap",
+      "gitleaks"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-devsecops-security-scanning/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-devsecops-security-scanning",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-devsecops-security-scanning",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32491,
+    "sha256": "3a528d53ceaf2b7d73f838de8229ab65a52476a439c77b18c0685e564f8e8dd1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-devsecops-security-scanning/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-devsecops-security-scanning/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-devsecops-security-scanning/SKILL.md",
+      "bytes": 12267,
+      "sha256": "3a528d53ceaf2b7d73f838de8229ab65a52476a439c77b18c0685e564f8e8dd1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-devsecops-security-scanning/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-devsecops-security-scanning/references/api-reference.md",
+      "bytes": 2039,
+      "sha256": "cfd56086915e634f1792c8d1dfc0ebd8c71663ea8f15885e097d3985ee322878",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-devsecops-security-scanning/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-devsecops-security-scanning/scripts/agent.py",
+      "bytes": 6930,
+      "sha256": "f910c219fcf7885cdd7a67a50b5f15c1de41c18ff228d4f03c7e7ad375f6aef7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-devsecops-security-scanning/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "e734b34d7448b9f85dd0570deb101019cba6fc3356fa0363bc6dbc95bf87591b"
+}

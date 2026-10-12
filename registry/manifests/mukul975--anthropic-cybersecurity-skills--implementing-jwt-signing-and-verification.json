@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-jwt-signing-and-verification",
+    "name": "implementing-jwt-signing-and-verification",
+    "description": "Implements secure JWT (RFC 7519) signing and verification using HMAC-SHA256, RSA-PSS, ES256, and EdDSA, including token expiration, claims validation, and defenses against algorithm-confusion, none-algorithm, and key-injection attacks. Use when adding or hardening JWT-based authentication/authorization, or when auditing token verification code for common JWT vulnerabilities.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "jwt",
+      "signing",
+      "verification",
+      "implements",
+      "secure",
+      "rfc",
+      "7519",
+      "hmac",
+      "sha256",
+      "rsa",
+      "pss",
+      "es256",
+      "eddsa",
+      "including",
+      "token",
+      "expiration",
+      "claims"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-jwt-signing-and-verification/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-jwt-signing-and-verification",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-jwt-signing-and-verification",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 38387,
+    "sha256": "da06a0dec6f73fdfdc340f6842197510c18720c4dec7e301b22c307b03e04df6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-jwt-signing-and-verification/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-jwt-signing-and-verification/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-jwt-signing-and-verification/SKILL.md",
+      "bytes": 3456,
+      "sha256": "da06a0dec6f73fdfdc340f6842197510c18720c4dec7e301b22c307b03e04df6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-jwt-signing-and-verification/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-jwt-signing-and-verification/assets/template.md",
+      "bytes": 1217,
+      "sha256": "4ff8122dad824ab4ae863e9b305e4c824fab0f007b984b9e41ed97badf888f35",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-jwt-signing-and-verification/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-jwt-signing-and-verification/references/api-reference.md",
+      "bytes": 1685,
+      "sha256": "182d1dc54d9e416d126eee8e355a5de4398aea83c85a8b7fb4515212e94f012c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-jwt-signing-and-verification/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-jwt-signing-and-verification/references/standards.md",
+      "bytes": 1183,
+      "sha256": "19d42290cbd654f7b57597b77930600ace7f89c3c725dd829fdd50757b775276",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-jwt-signing-and-verification/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-jwt-signing-and-verification/references/workflows.md",
+      "bytes": 1163,
+      "sha256": "b3b9b71d21847c187bd91e752494661923c8762afacb132cfbe3fcbe545840d0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-jwt-signing-and-verification/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-jwt-signing-and-verification/scripts/agent.py",
+      "bytes": 7492,
+      "sha256": "66bb11c0da6e94c14e0bc8760b0b3257e0cd7c00a4277caa72ea3cb0a16a51c9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-jwt-signing-and-verification/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-jwt-signing-and-verification/scripts/process.py",
+      "bytes": 10936,
+      "sha256": "8fdeeecb92b8b28706a2b4b45f3b3b383b228fec64fc3721e1b608ba5b43c96d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-jwt-signing-and-verification/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "d0c887340d77fc4455373642094e6b85b17d8e4ef79c7c118affda714738b52d"
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-soar-playbook-for-phishing",
+    "name": "implementing-soar-playbook-for-phishing",
+    "description": "Automates phishing incident response by calling the Splunk SOAR (Phantom) REST API to create containers, attach artifacts (emails, URLs, attachments), and trigger response playbooks. Use when building or wiring up a Splunk SOAR phishing playbook, ingesting a suspected phishing report into SOAR, or automating containment and triage for phishing incidents.",
+    "category": "Development",
+    "tags": [
+      "implementing",
+      "soar",
+      "playbook",
+      "phishing",
+      "automates",
+      "incident",
+      "response",
+      "by",
+      "calling",
+      "splunk",
+      "phantom",
+      "rest",
+      "api",
+      "containers",
+      "attach",
+      "artifacts",
+      "emails",
+      "urls"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-soar-playbook-for-phishing/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-soar-playbook-for-phishing",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-for-phishing",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 27596,
+    "sha256": "229e9b6c8a0b4b22936df0f3cbc2c99bf9dea3438372aea19cbd2eb8b6cce2ab",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-soar-playbook-for-phishing/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-for-phishing/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-soar-playbook-for-phishing/SKILL.md",
+      "bytes": 4899,
+      "sha256": "229e9b6c8a0b4b22936df0f3cbc2c99bf9dea3438372aea19cbd2eb8b6cce2ab",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-for-phishing/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-soar-playbook-for-phishing/references/api-reference.md",
+      "bytes": 2586,
+      "sha256": "983b2504d8bc95fcc8c6c1bbcfa5da947b4e2115278a1d649624cd858b62c87a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-for-phishing/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-soar-playbook-for-phishing/scripts/agent.py",
+      "bytes": 8856,
+      "sha256": "505af70b903c252bd638f11ad5cbdc77dec21d032cc54b665b58730f0d543a7a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-for-phishing/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "2e4912afccc4e43d54a5511555022f0f1bf7291384b59292628220205be223ac"
+}

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--pysam",
+    "name": "pysam",
+    "description": "Provides Python/HTSlib workflows for genomic files. Used when reading, querying, filtering, or writing SAM/BAM/CRAM, VCF/BCF, FASTA/FASTQ, or tabix data with pysam, including pileup, coverage, indexing, and CRAM references.",
+    "category": "Data & research",
+    "tags": [
+      "pysam",
+      "provides",
+      "python",
+      "htslib",
+      "workflows",
+      "genomic",
+      "files.",
+      "used",
+      "when",
+      "reading",
+      "querying",
+      "filtering",
+      "writing",
+      "sam",
+      "bam",
+      "cram",
+      "vcf",
+      "bcf"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/pysam",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pysam",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 15,
+    "bytes": 156040,
+    "sha256": "afc275bbeb084553cd6507c4ffee848c46bef94dcd24c3b8a58d8b14d021ea09",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/pysam/SKILL.md",
+      "bytes": 13610,
+      "sha256": "afc275bbeb084553cd6507c4ffee848c46bef94dcd24c3b8a58d8b14d021ea09",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pysam/SKILL.md"
+    },
+    {
+      "path": "references/alignment_files.md",
+      "sourcePath": "skills/pysam/references/alignment_files.md",
+      "bytes": 13484,
+      "sha256": "f7577248277849f36dcfea68a6bf38b92113369cfddeecd46bb670ba1b358790",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pysam/references/alignment_files.md"
+    },
+    {
+      "path": "references/api_reference.md",
+      "sourcePath": "skills/pysam/references/api_reference.md",
+      "bytes": 10441,
+      "sha256": "019b24b516f5cd964d68d8782f7c364f5de3b71a864d56ca8806a6692905bc49",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pysam/references/api_reference.md"
+    },
+    {
+      "path": "references/common_workflows.md",
+      "sourcePath": "skills/pysam/references/common_workflows.md",
+      "bytes": 14151,
+      "sha256": "ed2247dc745fe635dd7818ec6103eeec269efe9503c0f20c4946ba0be6e670de",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pysam/references/common_workflows.md"
+    },
+    {
+      "path": "references/coordinates_and_indexing.md",
+      "sourcePath": "skills/pysam/references/coordinates_and_indexing.md",
+      "bytes": 9005,
+      "sha256": "9cfcb78a05d6b9bb8a28f5464c6d0cc83625a99994c23a710d26b909dd2fe57d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pysam/references/coordinates_and_indexing.md"
+    },
+    {
+      "path": "references/cram_and_performance.md",
+      "sourcePath": "skills/pysam/references/cram_and_performance.md",
+      "bytes": 9630,
+      "sha256": "f7a15b37e1b7ca3039ed5183ff13f6d5903d835baebf1d19a6a9c3bcc2e699ba",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pysam/references/cram_and_performance.md"
+    },
+    {
+      "path": "references/migration_to_0_24.md",
+      "sourcePath": "skills/pysam/references/migration_to_0_24.md",
+      "bytes": 5554,
+      "sha256": "9f258110e9e959aedaf0a1997deb790d5833c730a6c1dcc9b5a6d8ea86a8033a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pysam/references/migration_to_0_24.md"
+    },
+    {
+      "path": "references/sequence_files.md",
+      "sourcePath": "skills/pysam/references/sequence_files.md",
+      "bytes": 9531,
+      "sha256": "2e1d901500e1c202e86f8e92d254d913aabb804505f75455ee19bdb63748f2a6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pysam/references/sequence_files.md"
+    },
+    {
+      "path": "references/sources.md",
+      "sourcePath": "skills/pysam/references/sources.md",
+      "bytes": 7635,
+      "sha256": "75f4efa0870a3c5448f9e292cd8a876a27bc199fec4326bde464c6d3fc07d7ae",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pysam/references/sources.md"
+    },
+    {
+      "path": "references/variant_files.md",
+      "sourcePath": "skills/pysam/references/variant_files.md",
+      "bytes": 11972,
+      "sha256": "7d961e738272ffb98c39c78e21886fe774139a99948f7f1a3cc2bc77384212d3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pysam/references/variant_files.md"
+    },
+    {
+      "path": "scripts/alignment_qc.py",
+      "sourcePath": "skills/pysam/scripts/alignment_qc.py",
+      "bytes": 10852,
+      "sha256": "6cb6084fd467bcd3a6048ffa6f2cb3865f87d62f01699e026cf43e13a75a314c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pysam/scripts/alignment_qc.py"
+    },
+    {
+      "path": "scripts/filter_alignments.py",
+      "sourcePath": "skills/pysam/scripts/filter_alignments.py",
+      "bytes": 12745,
+      "sha256": "ef80dca3d48e5b713f49fdd87c52b58e933a9aad1e4bf0dfbf994f08e931b7ef",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pysam/scripts/filter_alignments.py"
+    },
+    {
+      "path": "scripts/inspect_hts.py",
+      "sourcePath": "skills/pysam/scripts/inspect_hts.py",
+      "bytes": 14518,
+      "sha256": "1db21bbae44d00554076c8a326c78be0a19ba53ead7e2db191615d2f0c329546",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pysam/scripts/inspect_hts.py"
+    },
+    {
+      "path": "scripts/variant_summary.py",
+      "sourcePath": "skills/pysam/scripts/variant_summary.py",
+      "bytes": 11844,
+      "sha256": "79bad44cd398e1dc227b920de26433284c75bfc9865441a413248a7b19861731",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pysam/scripts/variant_summary.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "6571da7c0c17bbd0698b14df3de68b48616096cdebd8723156ab95a69df7f35d"
+}

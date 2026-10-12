@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-soap-web-service-security-testing",
+    "name": "performing-soap-web-service-security-testing",
+    "description": "Performs security testing of SOAP web services by analyzing WSDL definitions and testing for XML injection, XXE, WS-Security bypass, SOAPAction spoofing, and XPath injection. Use when assessing a SOAP/WSDL-based API endpoint for XML-related vulnerabilities during a penetration test.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "soap",
+      "web",
+      "service",
+      "security",
+      "testing",
+      "performs",
+      "services",
+      "by",
+      "analyzing",
+      "wsdl",
+      "definitions",
+      "xml",
+      "injection",
+      "xxe",
+      "ws",
+      "bypass",
+      "soapaction"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-soap-web-service-security-testing/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-soap-web-service-security-testing",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-soap-web-service-security-testing",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 38413,
+    "sha256": "f39359264664166e36cb401170c2f7f0b7898750c8ffa937b9f8fd1308656df7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-soap-web-service-security-testing/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-soap-web-service-security-testing/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-soap-web-service-security-testing/SKILL.md",
+      "bytes": 16723,
+      "sha256": "f39359264664166e36cb401170c2f7f0b7898750c8ffa937b9f8fd1308656df7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-soap-web-service-security-testing/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-soap-web-service-security-testing/references/api-reference.md",
+      "bytes": 2331,
+      "sha256": "3e188af01b9bf35b650be9e3f64d3a6dc2cd9ceb8c2af39cf630fc3a6709528f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-soap-web-service-security-testing/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-soap-web-service-security-testing/scripts/agent.py",
+      "bytes": 8104,
+      "sha256": "40c44955b8f42a213dc75c4ae9540a420eb5c66b05b8c17b02d94c38be0288f0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-soap-web-service-security-testing/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "2c1eeeb7bebd1a42b2bd36d54f571dbfbe717c4cc77f5b75d6ceb622f46d0829"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--aegisops-ai","name":"aegisops-ai","description":"Autonomous DevSecOps & FinOps Guardrails. Orchestrates Gemini 3 Flash to audit Linux Kernel patches, Terraform cost drifts, and K8s compliance.","category":"Cloud & DevOps","tags":["aegisops","ai","autonomous","devsecops","finops","guardrails.","orchestrates","gemini","flash","audit","linux","kernel","patches","terraform","cost","drifts","k8s","compliance."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":46853,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"21efc48cceaf0f7043fa496ad8fcd5815637121e","path":"skills/aegisops-ai","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/aegisops-ai","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T06:08:57Z","fileCount":2,"bytes":6422,"sha256":"3d34873e5ee00b821de51a0e526751b2bdfbd517a0b1b4a2eb958f9d4497a165","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/aegisops-ai/SKILL.md","bytes":5349,"sha256":"3d34873e5ee00b821de51a0e526751b2bdfbd517a0b1b4a2eb958f9d4497a165","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/aegisops-ai/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/LICENSE"}],"archiveSha256":"e3c1680d5e5296b7c4ef7081159e5a49a42b3fd9ee56277059a1f2ce03b8a3c4"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--aegisops-ai",
+    "name": "aegisops-ai",
+    "description": "Autonomous DevSecOps & FinOps Guardrails. Orchestrates Gemini 3 Flash to audit Linux Kernel patches, Terraform cost drifts, and K8s compliance.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "aegisops",
+      "ai",
+      "autonomous",
+      "devsecops",
+      "finops",
+      "guardrails.",
+      "orchestrates",
+      "gemini",
+      "flash",
+      "audit",
+      "linux",
+      "kernel",
+      "patches",
+      "terraform",
+      "cost",
+      "drifts",
+      "k8s",
+      "compliance."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/aegisops-ai",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/aegisops-ai",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6422,
+    "sha256": "3d34873e5ee00b821de51a0e526751b2bdfbd517a0b1b4a2eb958f9d4497a165",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/aegisops-ai/SKILL.md",
+      "bytes": 5349,
+      "sha256": "3d34873e5ee00b821de51a0e526751b2bdfbd517a0b1b4a2eb958f9d4497a165",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/aegisops-ai/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "174c1582cfd0419bb5cdf6520a1eefe846ac2a6cdcdb1f4f100eeca14280a471"
+}

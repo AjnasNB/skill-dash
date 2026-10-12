@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-windows-lnk-files-for-artifacts",
+    "name": "analyzing-windows-lnk-files-for-artifacts",
+    "description": "Parse Windows LNK shortcut files to extract target paths, MAC timestamps, volume serial numbers, and machine identifiers for forensic timeline reconstruction. Use when investigating recently-accessed files, tracking removable media or network paths referenced by shortcuts, or building a DFIR timeline from LNK artifacts.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "windows",
+      "lnk",
+      "files",
+      "artifacts",
+      "parse",
+      "shortcut",
+      "extract",
+      "target",
+      "paths",
+      "mac",
+      "timestamps",
+      "volume",
+      "serial",
+      "numbers",
+      "machine",
+      "identifiers",
+      "forensic"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-windows-lnk-files-for-artifacts/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-windows-lnk-files-for-artifacts",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-lnk-files-for-artifacts",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 33015,
+    "sha256": "a104a8f1f2b285d7a676f86fe7d44cd354e84e7c4dbf6187ba05d2e0dbb526e8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-windows-lnk-files-for-artifacts/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-lnk-files-for-artifacts/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-windows-lnk-files-for-artifacts/SKILL.md",
+      "bytes": 12814,
+      "sha256": "a104a8f1f2b285d7a676f86fe7d44cd354e84e7c4dbf6187ba05d2e0dbb526e8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-lnk-files-for-artifacts/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-windows-lnk-files-for-artifacts/references/api-reference.md",
+      "bytes": 2301,
+      "sha256": "0c4f4a0c3627b35d87c7d5205f9eed51eaa476d0964bb683df44264841993e21",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-lnk-files-for-artifacts/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-windows-lnk-files-for-artifacts/scripts/agent.py",
+      "bytes": 6645,
+      "sha256": "d84f46ce784c081d4bb7199f234935bc3b7f6a7586b78cc04bc061578271aefd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-lnk-files-for-artifacts/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "0807dc45a710408dcd4f14e4e7c5bcd3a0c5a3f58a2d245535f55ce2166bdbf1"
+}

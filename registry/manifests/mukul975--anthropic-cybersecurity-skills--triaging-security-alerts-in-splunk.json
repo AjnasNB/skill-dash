@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--triaging-security-alerts-in-splunk",
+    "name": "triaging-security-alerts-in-splunk",
+    "description": "Triages security alerts in Splunk Enterprise Security by classifying severity, investigating notable events, correlating related telemetry, and making escalation or closure decisions using SPL queries and the Incident Review dashboard. Use when SOC analysts face queued alerts from correlation searches, need to prioritize investigation order, or must document triage decisions for handoff to Tier 2/3 analysts.",
+    "category": "Security",
+    "tags": [
+      "triaging",
+      "security",
+      "alerts",
+      "splunk",
+      "triages",
+      "enterprise",
+      "by",
+      "classifying",
+      "severity",
+      "investigating",
+      "notable",
+      "events",
+      "correlating",
+      "related",
+      "telemetry",
+      "making",
+      "escalation",
+      "closure"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/triaging-security-alerts-in-splunk/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/triaging-security-alerts-in-splunk",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/triaging-security-alerts-in-splunk",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 31435,
+    "sha256": "87d8021a9b90404cb288afd102aced77af6c16e3eb3c5f5420e95a14182b7aba",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/triaging-security-alerts-in-splunk/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/triaging-security-alerts-in-splunk/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/triaging-security-alerts-in-splunk/SKILL.md",
+      "bytes": 8491,
+      "sha256": "87d8021a9b90404cb288afd102aced77af6c16e3eb3c5f5420e95a14182b7aba",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/triaging-security-alerts-in-splunk/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/triaging-security-alerts-in-splunk/references/api-reference.md",
+      "bytes": 2140,
+      "sha256": "8ff2a7a957fb52d12ff5c768326595d090316734f88fcaabc118d77fdda1e3e3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/triaging-security-alerts-in-splunk/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/triaging-security-alerts-in-splunk/scripts/agent.py",
+      "bytes": 9549,
+      "sha256": "5d9a458973af90ab90d6fc226bf60c29b9b037381bb2792c6cc03432372a34ad",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/triaging-security-alerts-in-splunk/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "ed1a734ed8166f48b55d8c81b0268752673e5f649260a783b02b38fcad77632f"
+}

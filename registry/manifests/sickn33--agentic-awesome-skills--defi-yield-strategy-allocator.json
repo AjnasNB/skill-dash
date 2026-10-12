@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--defi-yield-strategy-allocator",
+    "name": "defi-yield-strategy-allocator",
+    "description": "Multi-vault automated yield strategy allocation register: APY benchmarks, impermanent loss risk tiers, and rebalancing triggers.",
+    "category": "Product & business",
+    "tags": [
+      "defi",
+      "yield",
+      "strategy",
+      "allocator",
+      "multi",
+      "vault",
+      "automated",
+      "allocation",
+      "register",
+      "apy",
+      "benchmarks",
+      "impermanent",
+      "loss",
+      "risk",
+      "tiers",
+      "rebalancing",
+      "triggers."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/defi-yield-strategy-allocator",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/defi-yield-strategy-allocator",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6493,
+    "sha256": "a3722481c7351111b95dc508211ed2999d760ac45174ca0c47fdcd8fcc88f1a7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/defi-yield-strategy-allocator/SKILL.md",
+      "bytes": 5420,
+      "sha256": "a3722481c7351111b95dc508211ed2999d760ac45174ca0c47fdcd8fcc88f1a7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/defi-yield-strategy-allocator/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "7c6be3ec97c46535b783dd592a65aaeab3b70decd795abc6cafa70593baa22c4"
+}

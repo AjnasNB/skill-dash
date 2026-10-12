@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-file-carving-with-foremost",
+    "name": "performing-file-carving-with-foremost",
+    "description": "Recovers files from disk images and unallocated space using Foremost's header-footer signature carving, extracting evidence independent of the file system's state. Use during digital forensics investigations to carve deleted or fragmented files, such as documents, images, and archives, from raw disk images or unallocated space.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "file",
+      "carving",
+      "foremost",
+      "recovers",
+      "files",
+      "from",
+      "disk",
+      "images",
+      "unallocated",
+      "space",
+      "header",
+      "footer",
+      "signature",
+      "extracting",
+      "evidence",
+      "independent",
+      "system"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-file-carving-with-foremost/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-file-carving-with-foremost",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-file-carving-with-foremost",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32303,
+    "sha256": "8d73b63e87dff5ee10cc19b81b79505569adabab93e471cea82697856f4ebf92",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-file-carving-with-foremost/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-file-carving-with-foremost/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-file-carving-with-foremost/SKILL.md",
+      "bytes": 12557,
+      "sha256": "8d73b63e87dff5ee10cc19b81b79505569adabab93e471cea82697856f4ebf92",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-file-carving-with-foremost/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-file-carving-with-foremost/references/api-reference.md",
+      "bytes": 1537,
+      "sha256": "60f8cac3c94f695123b8f1b87f9bbc0431d21e05ad2795b3353f21314e759ac1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-file-carving-with-foremost/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-file-carving-with-foremost/scripts/agent.py",
+      "bytes": 6954,
+      "sha256": "9ff4effa6fcacc3e04daecdb03a379592ea3933c24cd80b574e5f73f5b189aa6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-file-carving-with-foremost/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "30e09127e41a439970a5308904f9ec82c60ee1d327a7159c05f19caea948b7c8"
+}

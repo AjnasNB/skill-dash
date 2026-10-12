@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-cloud-trail-log-analysis",
+    "name": "implementing-cloud-trail-log-analysis",
+    "description": "Implementing AWS CloudTrail log analysis for security monitoring, threat detection, and forensic investigation using Athena, CloudWatch Logs Insights, and SIEM integration to identify unauthorized access, privilege escalation, and suspicious API activity.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "cloud",
+      "trail",
+      "log",
+      "analysis",
+      "aws",
+      "cloudtrail",
+      "security",
+      "monitoring",
+      "threat",
+      "detection",
+      "forensic",
+      "investigation",
+      "athena",
+      "cloudwatch",
+      "logs",
+      "insights",
+      "siem"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-cloud-trail-log-analysis/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-cloud-trail-log-analysis",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-trail-log-analysis",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34661,
+    "sha256": "43543d05b74ee1ff17a540da09067209716c3579c65cbc2fbdf993b73f6e1609",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-cloud-trail-log-analysis/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-trail-log-analysis/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-cloud-trail-log-analysis/SKILL.md",
+      "bytes": 13635,
+      "sha256": "43543d05b74ee1ff17a540da09067209716c3579c65cbc2fbdf993b73f6e1609",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-trail-log-analysis/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-cloud-trail-log-analysis/references/api-reference.md",
+      "bytes": 2244,
+      "sha256": "28d2dda3be15542def4ed8a0c69cd143fada6e2bfcf1b45fb862e8626da53105",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-trail-log-analysis/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-cloud-trail-log-analysis/scripts/agent.py",
+      "bytes": 7527,
+      "sha256": "0c3138ec948853bf314f47ad7f711cd62e0947546fdcbf7f354c78f8e3cbce8f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-trail-log-analysis/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "20068e76d5d2908f6f2a11e2cce20552f5eb7f03c2746acdd1a143e724cabbb8"
+}

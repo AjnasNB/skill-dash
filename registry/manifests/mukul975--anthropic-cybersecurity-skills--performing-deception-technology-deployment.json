@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-deception-technology-deployment",
+    "name": "performing-deception-technology-deployment",
+    "description": "Deploys deception technology including honeypots, honeytokens, and decoy systems to detect attackers who have bypassed perimeter defenses, providing high-fidelity alerts with near-zero false positive rates. Use when SOC teams need early warning of lateral movement, credential abuse, or internal reconnaissance by deploying convincing traps across the network.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "performing",
+      "deception",
+      "technology",
+      "deployment",
+      "deploys",
+      "including",
+      "honeypots",
+      "honeytokens",
+      "decoy",
+      "systems",
+      "detect",
+      "attackers",
+      "who",
+      "have",
+      "bypassed",
+      "perimeter",
+      "defenses",
+      "providing"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-deception-technology-deployment/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-deception-technology-deployment",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-deception-technology-deployment",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32524,
+    "sha256": "4737ca1cd4b21de74ec4bf472e397e48b1cb7151b1d24e3eafbd713ca533dc7e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-deception-technology-deployment/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-deception-technology-deployment/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-deception-technology-deployment/SKILL.md",
+      "bytes": 11335,
+      "sha256": "4737ca1cd4b21de74ec4bf472e397e48b1cb7151b1d24e3eafbd713ca533dc7e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-deception-technology-deployment/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-deception-technology-deployment/references/api-reference.md",
+      "bytes": 2160,
+      "sha256": "fb85205852508d96426d851719c6c3e494b47ab5a6844c1b0633f2c2607499e4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-deception-technology-deployment/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-deception-technology-deployment/scripts/agent.py",
+      "bytes": 7774,
+      "sha256": "84673555b943d9ae06fd21794c081deaea068c87bc61abd6ee2872aace2df8cd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-deception-technology-deployment/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "cf7a712837bc638bd73ab8743291ecb0f0951aa91620ee5f01823bba3d3ad5b9"
+}

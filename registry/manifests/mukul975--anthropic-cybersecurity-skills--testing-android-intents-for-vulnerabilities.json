@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--testing-android-intents-for-vulnerabilities",
+    "name": "testing-android-intents-for-vulnerabilities",
+    "description": "Tests Android inter-process communication (IPC) through intents for vulnerabilities including intent injection, unauthorized component access, broadcast sniffing, pending intent hijacking, and content provider data leakage. Use when assessing Android app attack surface through exported components, testing intent-based data flows, or evaluating IPC security. Activates for requests involving Android intent security, IPC testing, exported component analysis, or Drozer assessment.",
+    "category": "Security",
+    "tags": [
+      "testing",
+      "android",
+      "intents",
+      "vulnerabilities",
+      "tests",
+      "inter",
+      "process",
+      "communication",
+      "ipc",
+      "through",
+      "including",
+      "intent",
+      "injection",
+      "unauthorized",
+      "component",
+      "access",
+      "broadcast",
+      "sniffing"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/testing-android-intents-for-vulnerabilities/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/testing-android-intents-for-vulnerabilities",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-android-intents-for-vulnerabilities",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 37338,
+    "sha256": "ea3aba349b2dc4f8d65a1e3422cd49f20042dbba0750815af6f9cb99846b9df1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/testing-android-intents-for-vulnerabilities/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-android-intents-for-vulnerabilities/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/testing-android-intents-for-vulnerabilities/SKILL.md",
+      "bytes": 7039,
+      "sha256": "ea3aba349b2dc4f8d65a1e3422cd49f20042dbba0750815af6f9cb99846b9df1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-android-intents-for-vulnerabilities/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/testing-android-intents-for-vulnerabilities/assets/template.md",
+      "bytes": 768,
+      "sha256": "9580def5aa9049b1a8f744eef188131c98136ee9ae22ecb7b7d1c86541397346",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-android-intents-for-vulnerabilities/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/testing-android-intents-for-vulnerabilities/references/api-reference.md",
+      "bytes": 1833,
+      "sha256": "5ac621a8d8c46a389c1e6674d0e43489dcbec6fa49678446c127f0dd2c92fc49",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-android-intents-for-vulnerabilities/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/testing-android-intents-for-vulnerabilities/references/standards.md",
+      "bytes": 1022,
+      "sha256": "9c9a908faf65adae8a3479d912ec1b1ea8e975b292ad4006e7d921304809427c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-android-intents-for-vulnerabilities/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/testing-android-intents-for-vulnerabilities/references/workflows.md",
+      "bytes": 992,
+      "sha256": "9d4b67df8b01448b86b7958cd3c7555a7ca4d6ebd668066909b94d868c139960",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-android-intents-for-vulnerabilities/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/testing-android-intents-for-vulnerabilities/scripts/agent.py",
+      "bytes": 6810,
+      "sha256": "79440bb193d3178e54fcc175ce8ef18b0dee10a0783b15735803d4cbc4474daa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-android-intents-for-vulnerabilities/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/testing-android-intents-for-vulnerabilities/scripts/process.py",
+      "bytes": 7619,
+      "sha256": "71f57b8c05e09852961d9c60c929a344e48baf9db5a7df94020a99b77cad4de0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-android-intents-for-vulnerabilities/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "8783f6de482d47fcff194cd968bfc7e45737eff8650ad0cf5d5cfb52e6bdeb17"
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-api-security-testing-with-postman",
+    "name": "performing-api-security-testing-with-postman",
+    "description": "Uses Postman to build structured API security test collections covering the OWASP API Security Top 10—authentication bypass, authorization flaws, injection, and data exposure—with multi-role environments, automated test scripts, and OWASP ZAP/Newman integration for CI/CD. Use when building repeatable Postman-based API security regression tests or automating OWASP API Top 10 coverage in a pipeline.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "api",
+      "security",
+      "testing",
+      "postman",
+      "uses",
+      "structured",
+      "test",
+      "collections",
+      "covering",
+      "owasp",
+      "top",
+      "10",
+      "authentication",
+      "bypass",
+      "authorization",
+      "flaws",
+      "injection"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-api-security-testing-with-postman/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-api-security-testing-with-postman",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-api-security-testing-with-postman",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 37558,
+    "sha256": "91e636d5d2282b8d8790652346b6e465b7b1eea8fd0f57da130976d1f9ecfabb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-api-security-testing-with-postman/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-api-security-testing-with-postman/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-api-security-testing-with-postman/SKILL.md",
+      "bytes": 15145,
+      "sha256": "91e636d5d2282b8d8790652346b6e465b7b1eea8fd0f57da130976d1f9ecfabb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-api-security-testing-with-postman/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-api-security-testing-with-postman/references/api-reference.md",
+      "bytes": 2119,
+      "sha256": "5beb24e901864d7d5b0b98b43879860b757a009ccf4ed0a3e3a5098fb85748e1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-api-security-testing-with-postman/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-api-security-testing-with-postman/scripts/agent.py",
+      "bytes": 9039,
+      "sha256": "acc39e2ed014831806cba562bdb1c126c566d6104c41a07d00d9b8012446ee61",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-api-security-testing-with-postman/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "b4cf3546065d8a783bf274d77bcebcfa9335c98a53e92664d9b8222344c27d7e"
+}

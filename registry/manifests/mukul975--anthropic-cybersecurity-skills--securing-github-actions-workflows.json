@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--securing-github-actions-workflows",
+    "name": "securing-github-actions-workflows",
+    "description": "Hardens GitHub Actions workflows against supply chain attacks, credential theft, and privilege escalation: pinning actions to SHA digests, minimizing GITHUB_TOKEN permissions, protecting secrets, preventing script injection in workflow expressions, and requiring reviewers for workflow changes. Use when hardening GitHub Actions workflows that handle secrets, deploy to production, or run with elevated permissions.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "securing",
+      "github",
+      "actions",
+      "workflows",
+      "hardens",
+      "against",
+      "supply",
+      "chain",
+      "attacks",
+      "credential",
+      "theft",
+      "privilege",
+      "escalation",
+      "pinning",
+      "sha",
+      "digests",
+      "minimizing",
+      "token"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/securing-github-actions-workflows/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/securing-github-actions-workflows",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-github-actions-workflows",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 40994,
+    "sha256": "acf26e90270d574cd95561509317df36b2175c3b3b99a7d16636d07ad55a06e4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/securing-github-actions-workflows/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-github-actions-workflows/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/securing-github-actions-workflows/SKILL.md",
+      "bytes": 8754,
+      "sha256": "acf26e90270d574cd95561509317df36b2175c3b3b99a7d16636d07ad55a06e4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-github-actions-workflows/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/securing-github-actions-workflows/assets/template.md",
+      "bytes": 1016,
+      "sha256": "b2aa3134c958e7c72012f1df2af5a3a2157892a8b273ed8828020e879a730198",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-github-actions-workflows/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/securing-github-actions-workflows/references/api-reference.md",
+      "bytes": 1844,
+      "sha256": "22eb1d65e280a75caa837e24e5ed09246e6384c907cc0a06fdb6e22866e64fb9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-github-actions-workflows/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/securing-github-actions-workflows/references/standards.md",
+      "bytes": 1152,
+      "sha256": "0d302c6ecc0a42b1ccabc2453afe1b34a46f7558e80f907ffd7e00d180c78524",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-github-actions-workflows/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/securing-github-actions-workflows/references/workflows.md",
+      "bytes": 1192,
+      "sha256": "1ca92cea132afc6e87dc653c85ca9c935663fcc3b527e3e544432d44c8db9d15",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-github-actions-workflows/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/securing-github-actions-workflows/scripts/agent.py",
+      "bytes": 8248,
+      "sha256": "530b2e57d5d584b6dcfb84165dddfe9c454599dd58cd1253a3b57c1b6d6f6390",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-github-actions-workflows/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/securing-github-actions-workflows/scripts/process.py",
+      "bytes": 7533,
+      "sha256": "2b3cac28679287eea1957c1d9d1c000f42cacf351164b8afcb3bba3c22e53927",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-github-actions-workflows/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "973bad913f49e3d3b88a8c7f35c521587b2eec3ac8290c7cf61f9fcdebe8568c"
+}

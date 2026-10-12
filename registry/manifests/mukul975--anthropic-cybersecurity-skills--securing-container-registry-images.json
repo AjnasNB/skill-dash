@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--securing-container-registry-images",
+    "name": "securing-container-registry-images",
+    "description": "Secures container registry images (ECR, ACR, GCR, Docker Hub) by scanning with Trivy and Grype, signing with Cosign and Sigstore, configuring registry access controls, and building CI/CD pipelines that block unscanned or unsigned images. Use when establishing registry security controls or enforcing scan/signature checks before image promotion.",
+    "category": "Security",
+    "tags": [
+      "securing",
+      "container",
+      "registry",
+      "images",
+      "secures",
+      "ecr",
+      "acr",
+      "gcr",
+      "docker",
+      "hub",
+      "by",
+      "scanning",
+      "trivy",
+      "grype",
+      "signing",
+      "cosign",
+      "sigstore",
+      "configuring"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/securing-container-registry-images/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/securing-container-registry-images",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-container-registry-images",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32676,
+    "sha256": "aa3f24a64078600844c3ee120d6665c69dee4c61f9e2af485d518651dcfebe42",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/securing-container-registry-images/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-container-registry-images/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/securing-container-registry-images/SKILL.md",
+      "bytes": 11283,
+      "sha256": "aa3f24a64078600844c3ee120d6665c69dee4c61f9e2af485d518651dcfebe42",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-container-registry-images/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/securing-container-registry-images/references/api-reference.md",
+      "bytes": 1987,
+      "sha256": "974f58bf6314700e2780e9d9fcd6eb1e1ce17d690ed51933eb773e37bd11229f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-container-registry-images/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/securing-container-registry-images/scripts/agent.py",
+      "bytes": 8151,
+      "sha256": "b8fc1422d771a63378e22ff2732ab7b0f35a70fab202b8a25a3caea3e128cfed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-container-registry-images/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "98918d66f83e96609a12ffb3977f1ad90658dcec953df0b8af5b144a43c6c957"
+}

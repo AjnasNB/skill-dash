@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--radare2","name":"radare2","description":"Drive the radare2 CLI for binary reconnaissance, disassembly, analysis, function locating, export, and lightweight patching (r2/rabin2/rasm2/radiff2) without a GUI.","category":"Development","tags":["radare2","drive","cli","binary","reconnaissance","disassembly","analysis","function","locating","export","lightweight","patching","r2","rabin2","rasm2","radiff2","without","gui."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":46853,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"21efc48cceaf0f7043fa496ad8fcd5815637121e","path":"skills/radare2","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/radare2","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T06:08:57Z","fileCount":3,"bytes":17105,"sha256":"2d9af0f3b38ecf6bc3f4b9d11d0d0641bf928c8edb185b69656adc35efe52a15","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/radare2/SKILL.md","bytes":14403,"sha256":"2d9af0f3b38ecf6bc3f4b9d11d0d0641bf928c8edb185b69656adc35efe52a15","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/radare2/SKILL.md"},{"path":"references/cheatsheet.md","sourcePath":"skills/radare2/references/cheatsheet.md","bytes":1629,"sha256":"809bcbc5f5ff098acce96600abf4a94b7b8f54a7388fea71eab66f685f0e2d77","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/radare2/references/cheatsheet.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/LICENSE"}],"archiveSha256":"3cf7ba6bd6898cfd02c2c0160dce38fcfdcd57febd794ccf8eab657f438b3158"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--radare2",
+    "name": "radare2",
+    "description": "Drive the radare2 CLI for binary reconnaissance, disassembly, analysis, function locating, export, and lightweight patching (r2/rabin2/rasm2/radiff2) without a GUI.",
+    "category": "Development",
+    "tags": [
+      "radare2",
+      "drive",
+      "cli",
+      "binary",
+      "reconnaissance",
+      "disassembly",
+      "analysis",
+      "function",
+      "locating",
+      "export",
+      "lightweight",
+      "patching",
+      "r2",
+      "rabin2",
+      "rasm2",
+      "radiff2",
+      "without",
+      "gui."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/radare2",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/radare2",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 17105,
+    "sha256": "2d9af0f3b38ecf6bc3f4b9d11d0d0641bf928c8edb185b69656adc35efe52a15",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/radare2/SKILL.md",
+      "bytes": 14403,
+      "sha256": "2d9af0f3b38ecf6bc3f4b9d11d0d0641bf928c8edb185b69656adc35efe52a15",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/radare2/SKILL.md"
+    },
+    {
+      "path": "references/cheatsheet.md",
+      "sourcePath": "skills/radare2/references/cheatsheet.md",
+      "bytes": 1629,
+      "sha256": "809bcbc5f5ff098acce96600abf4a94b7b8f54a7388fea71eab66f685f0e2d77",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/radare2/references/cheatsheet.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "327824adf3542fd1561cb1e28710d82d6ae67dfa3271bdfd097f8ec004dbad3b"
+}

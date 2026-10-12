@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--building-threat-intelligence-feed-integration",
+    "name": "building-threat-intelligence-feed-integration",
+    "description": "Builds automated threat intelligence feed integration pipelines connecting STIX/TAXII feeds, open-source threat intel, and commercial TI platforms into SIEM and security tools for real-time IOC matching and alerting. Use when SOC teams need to operationalize threat intelligence by automating feed ingestion, normalization, scoring, and distribution to detection systems.",
+    "category": "Security",
+    "tags": [
+      "building",
+      "threat",
+      "intelligence",
+      "feed",
+      "integration",
+      "builds",
+      "automated",
+      "pipelines",
+      "connecting",
+      "stix",
+      "taxii",
+      "feeds",
+      "open",
+      "source",
+      "intel",
+      "commercial",
+      "ti",
+      "platforms"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/building-threat-intelligence-feed-integration/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/building-threat-intelligence-feed-integration",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-intelligence-feed-integration",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 31274,
+    "sha256": "af58c8d74fa9707b298350afcb30e3ec45c77d52144b41ca351b4f57e109c3b7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/building-threat-intelligence-feed-integration/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-intelligence-feed-integration/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/building-threat-intelligence-feed-integration/SKILL.md",
+      "bytes": 11441,
+      "sha256": "af58c8d74fa9707b298350afcb30e3ec45c77d52144b41ca351b4f57e109c3b7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-intelligence-feed-integration/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/building-threat-intelligence-feed-integration/references/api-reference.md",
+      "bytes": 2187,
+      "sha256": "4b4b4c70510f20c8b2ee5e177a826260540711d63f54450a477c47cd4f6e7c4d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-intelligence-feed-integration/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/building-threat-intelligence-feed-integration/scripts/agent.py",
+      "bytes": 6391,
+      "sha256": "b3f31ae68679e33a18cf19a0013cbe24f0e5d17cae7d9c248367d0ceec69feea",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-intelligence-feed-integration/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "f99855627979b0745a79d2a0703c09813a94964cf212f533d4f25fa4c4c52db7"
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--executing-active-directory-attack-simulation",
+    "name": "executing-active-directory-attack-simulation",
+    "description": "Executes authorized attack simulations against Active Directory environments to identify misconfigurations, weak credentials, dangerous privilege paths, and exploitable trust relationships that could lead to domain compromise. The tester uses BloodHound for attack path analysis, Mimikatz for credential extraction, and Impacket for protocol-level attacks including Kerberoasting, AS-REP Roasting, and delegation abuse. Activates for requests involving Active Directory pentest, AD attack simulation, domain compromise testing, or Kerberos attack assessment.",
+    "category": "Development",
+    "tags": [
+      "executing",
+      "active",
+      "directory",
+      "attack",
+      "simulation",
+      "executes",
+      "authorized",
+      "simulations",
+      "against",
+      "environments",
+      "identify",
+      "misconfigurations",
+      "weak",
+      "credentials",
+      "dangerous",
+      "privilege",
+      "paths",
+      "exploitable"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/executing-active-directory-attack-simulation/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/executing-active-directory-attack-simulation",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-active-directory-attack-simulation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 33047,
+    "sha256": "560a1faa4841d7956d9be4a72ef121a69d56b90e893ffd18e273bdb1e1626d08",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/executing-active-directory-attack-simulation/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-active-directory-attack-simulation/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/executing-active-directory-attack-simulation/SKILL.md",
+      "bytes": 13759,
+      "sha256": "560a1faa4841d7956d9be4a72ef121a69d56b90e893ffd18e273bdb1e1626d08",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-active-directory-attack-simulation/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/executing-active-directory-attack-simulation/references/api-reference.md",
+      "bytes": 2020,
+      "sha256": "dcdf3e018fe6a45631348bc559d41f01497ee0dd9c43740e116f7b6dedc1312c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-active-directory-attack-simulation/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/executing-active-directory-attack-simulation/scripts/agent.py",
+      "bytes": 6013,
+      "sha256": "efa48c237b227170886a4793781d238b34b5ca72965ca21b6d959ff1bbfc42d7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-active-directory-attack-simulation/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "882b5904829010021f7b9e3e7859c713e7319da6e73600b2e218f1d1b2147a41"
+}

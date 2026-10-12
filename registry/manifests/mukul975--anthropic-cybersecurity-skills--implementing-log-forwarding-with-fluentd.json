@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-log-forwarding-with-fluentd",
+    "name": "implementing-log-forwarding-with-fluentd",
+    "description": "Configures Fluent Bit as an endpoint log forwarder and Fluentd as the central aggregator for centralized log collection, routing, filtering, and enrichment, covering input plugins for syslog/file-tailing/application logs and output routing to Elasticsearch, S3, and Splunk. Use when setting up centralized log aggregation across distributed infrastructure or generating Fluent Bit/Fluentd configuration files for a new log pipeline.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "implementing",
+      "log",
+      "forwarding",
+      "fluentd",
+      "configures",
+      "fluent",
+      "bit",
+      "as",
+      "endpoint",
+      "forwarder",
+      "central",
+      "aggregator",
+      "centralized",
+      "collection",
+      "routing",
+      "filtering",
+      "enrichment",
+      "covering"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-log-forwarding-with-fluentd/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-log-forwarding-with-fluentd",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-log-forwarding-with-fluentd",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 25586,
+    "sha256": "c7d41982e605a383b97b83d409a3fddd7f93d40c476da5fccdfcd8830270625b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-log-forwarding-with-fluentd/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-log-forwarding-with-fluentd/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-log-forwarding-with-fluentd/SKILL.md",
+      "bytes": 2800,
+      "sha256": "c7d41982e605a383b97b83d409a3fddd7f93d40c476da5fccdfcd8830270625b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-log-forwarding-with-fluentd/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-log-forwarding-with-fluentd/references/api-reference.md",
+      "bytes": 2243,
+      "sha256": "e9ec3cf7451005cd349cc9e5e283b46b2687b6e1126a1a527b68c984341ff5c6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-log-forwarding-with-fluentd/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-log-forwarding-with-fluentd/scripts/agent.py",
+      "bytes": 9288,
+      "sha256": "7610d7f3abc1bf527441dc8fc81c57095ccd3ee2dd1bb72a2b2b5a16bbe04aaa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-log-forwarding-with-fluentd/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "da1d1259a69b219696a075d20460d62bf49872b9734b86d26363ab2a8c8b7c27"
+}

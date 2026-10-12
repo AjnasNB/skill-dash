@@ -1,1 +1,96 @@
-{"schemaVersion":1,"skill":{"id":"coreyhaines31--marketingskills--analytics","name":"analytics","description":"When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" \"tracking plan,\" \"how do I measure this,\" \"track conversions,\" \"Mixpanel,\" \"Segment,\" \"are my events firing,\" or \"analytics isn't working.\" Use this whenever someone asks how to know if something is working or wants to measure marketing results. For choosing attribution models, comparing multi-touch/MMM/incrementality, or reconciling conflicting numbers across tools, see attribution. For A/B test measurement, see ab-testing.","category":"Marketing","tags":["analytics","when","user","wants","set","up","improve","audit","tracking","measurement.","also","mentions","ga4","google","conversion","event","utm","parameters"],"repo":"coreyhaines31/marketingskills","owner":"coreyhaines31","stars":51366,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"5b2c0007766c6a1cf1d53fd8fc73e979e0821022","path":"skills/analytics","sourceUrl":"https://github.com/coreyhaines31/marketingskills/tree/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/analytics","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-05T04:48:02Z","fileCount":6,"bytes":38636,"sha256":"3eda97d96b2329daa933b6fdb94bf81aaa1196e3e344e56a8805f972a7438404","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/analytics/SKILL.md","bytes":8635,"sha256":"3eda97d96b2329daa933b6fdb94bf81aaa1196e3e344e56a8805f972a7438404","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/analytics/SKILL.md"},{"path":"evals/evals.json","sourcePath":"skills/analytics/evals/evals.json","bytes":6365,"sha256":"56932e864114d69a61b6b55e639d207329c0a8b7df8b61a0e1188b249cbef1e8","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/analytics/evals/evals.json"},{"path":"references/event-library.md","sourcePath":"skills/analytics/references/event-library.md","bytes":8654,"sha256":"efc7bdb0a7b3efdea9e67ff0d1bc894dcf89ec9b9b8f3414f123d12bee109412","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/analytics/references/event-library.md"},{"path":"references/ga4-implementation.md","sourcePath":"skills/analytics/references/ga4-implementation.md","bytes":6343,"sha256":"f33fd6db0cbdb1bdc183af5f52bedd956d14680e54bca2e2c3917de29698636e","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/analytics/references/ga4-implementation.md"},{"path":"references/gtm-implementation.md","sourcePath":"skills/analytics/references/gtm-implementation.md","bytes":7570,"sha256":"112da33832439d2ae0b2729e5031fc927df444cd1ae8eb20542d45c1b5690f52","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/analytics/references/gtm-implementation.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1069,"sha256":"b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/LICENSE"}],"archiveSha256":"39f65849667bbdfe13c2e601c46142fe2496a4d55474820128f8a21f8ea4e6e2"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "coreyhaines31--marketingskills--analytics",
+    "name": "analytics",
+    "description": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" \"tracking plan,\" \"how do I measure this,\" \"track conversions,\" \"Mixpanel,\" \"Segment,\" \"are my events firing,\" or \"analytics isn't working.\" Use this whenever someone asks how to know if something is working or wants to measure marketing results. For choosing attribution models, comparing multi-touch/MMM/incrementality, or reconciling conflicting numbers across tools, see attribution. For A/B test measurement, see ab-testing.",
+    "category": "Marketing",
+    "tags": [
+      "analytics",
+      "when",
+      "user",
+      "wants",
+      "set",
+      "up",
+      "improve",
+      "audit",
+      "tracking",
+      "measurement.",
+      "also",
+      "mentions",
+      "ga4",
+      "google",
+      "conversion",
+      "event",
+      "utm",
+      "parameters"
+    ],
+    "repo": "coreyhaines31/marketingskills",
+    "owner": "coreyhaines31",
+    "stars": 54287,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff",
+    "path": "skills/analytics",
+    "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/analytics",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-08T21:51:37Z",
+    "fileCount": 6,
+    "bytes": 43235,
+    "sha256": "73405dd294aaedbcd2b3fe00ef44691963fa8d1c6c280a3d46179a33f067f984",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analytics/SKILL.md",
+      "bytes": 9196,
+      "sha256": "73405dd294aaedbcd2b3fe00ef44691963fa8d1c6c280a3d46179a33f067f984",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/analytics/SKILL.md"
+    },
+    {
+      "path": "evals/evals.json",
+      "sourcePath": "skills/analytics/evals/evals.json",
+      "bytes": 8819,
+      "sha256": "526f4bf20cedca26906dd0c3dfb6ae67de3f5b17977eb426820ca406c5ce0e59",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/analytics/evals/evals.json"
+    },
+    {
+      "path": "references/event-library.md",
+      "sourcePath": "skills/analytics/references/event-library.md",
+      "bytes": 8654,
+      "sha256": "efc7bdb0a7b3efdea9e67ff0d1bc894dcf89ec9b9b8f3414f123d12bee109412",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/analytics/references/event-library.md"
+    },
+    {
+      "path": "references/ga4-implementation.md",
+      "sourcePath": "skills/analytics/references/ga4-implementation.md",
+      "bytes": 7084,
+      "sha256": "b0232fc2ee873ffa5e6cbdf0ae712a5d74b18263372139d8ae72f9dcf48a8db4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/analytics/references/ga4-implementation.md"
+    },
+    {
+      "path": "references/gtm-implementation.md",
+      "sourcePath": "skills/analytics/references/gtm-implementation.md",
+      "bytes": 8413,
+      "sha256": "0b161102de710c978cc2ac52c78c79f32e184bc028aa946eba18e777d7a60d64",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/analytics/references/gtm-implementation.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"
+    }
+  ],
+  "archiveSha256": "724ab78e2869d4fef1552f1fb1a9b0df30d84c102dfdb0a9014d569164be7a11"
+}

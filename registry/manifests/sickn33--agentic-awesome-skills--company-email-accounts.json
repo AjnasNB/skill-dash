@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--company-email-accounts",
+    "name": "company-email-accounts",
+    "description": "Mailbox and licence register: employee, account type, aliases, groups, tool, licence cost, 2FA and password policy state, and access-review dates. Use for account provisioning.",
+    "category": "Development",
+    "tags": [
+      "company",
+      "email",
+      "accounts",
+      "mailbox",
+      "licence",
+      "register",
+      "employee",
+      "account",
+      "type",
+      "aliases",
+      "groups",
+      "tool",
+      "cost",
+      "2fa",
+      "password",
+      "policy",
+      "state",
+      "access"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/company-email-accounts",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/company-email-accounts",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 21083,
+    "sha256": "9a51c9d6507229bc30fb0aa0b41cd23436e1681f81c85228b2dbee5c9a25c067",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/company-email-accounts/SKILL.md",
+      "bytes": 20010,
+      "sha256": "9a51c9d6507229bc30fb0aa0b41cd23436e1681f81c85228b2dbee5c9a25c067",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/company-email-accounts/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "35d685b7ed065ec397e05d56a5f43905c6c14c4e4181962cf7cc026ec4d006be"
+}

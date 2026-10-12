@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-aws-privilege-escalation-assessment",
+    "name": "performing-aws-privilege-escalation-assessment",
+    "description": "Performing authorized privilege escalation assessments in AWS environments to identify IAM misconfigurations that allow users or roles to elevate their permissions using Pacu, CloudFox, Principal Mapper, and manual IAM policy analysis techniques.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "performing",
+      "aws",
+      "privilege",
+      "escalation",
+      "assessment",
+      "authorized",
+      "assessments",
+      "environments",
+      "identify",
+      "iam",
+      "misconfigurations",
+      "allow",
+      "users",
+      "roles",
+      "elevate",
+      "their",
+      "permissions",
+      "pacu"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-aws-privilege-escalation-assessment/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-aws-privilege-escalation-assessment",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-privilege-escalation-assessment",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 33900,
+    "sha256": "f581ca35043f71d3a96e7767254173d0230a017f611d6d33f355c9ec5fe9ff93",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-aws-privilege-escalation-assessment/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-privilege-escalation-assessment/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-aws-privilege-escalation-assessment/SKILL.md",
+      "bytes": 12358,
+      "sha256": "f581ca35043f71d3a96e7767254173d0230a017f611d6d33f355c9ec5fe9ff93",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-privilege-escalation-assessment/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-aws-privilege-escalation-assessment/references/api-reference.md",
+      "bytes": 2653,
+      "sha256": "d28e41be4123a9b6ab953f3273820eb7f6852739faa8fe863e5bae16513967ac",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-privilege-escalation-assessment/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-aws-privilege-escalation-assessment/scripts/agent.py",
+      "bytes": 7634,
+      "sha256": "13405a4cc7a6296eed15071fc1e1c191bb5d4fdce695b20a195581b3cc7fbbf7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-privilege-escalation-assessment/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "ef368506143f1184b2ee36d07cd32402aec31cd4c6e350930b2969dcfa96b956"
+}

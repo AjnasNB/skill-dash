@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--artifact-yylo","name":"artifact-yylo","description":"Capture and retrieve durable YYLO Ledger artifact Records with intentional profiles, payload modes, provenance, retention, and secret-safe immutable evidence.","category":"Development","tags":["artifact","yylo","capture","retrieve","durable","ledger","records","intentional","profiles","payload","modes","provenance","retention","secret","safe","immutable","evidence."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":46853,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"21efc48cceaf0f7043fa496ad8fcd5815637121e","path":"skills/artifact-yylo","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/artifact-yylo","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T06:08:57Z","fileCount":2,"bytes":6551,"sha256":"b413282ddb32dfdd04722c06e323957b5dbe4d380788bb327b2f24a78b63541c","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/artifact-yylo/SKILL.md","bytes":5478,"sha256":"b413282ddb32dfdd04722c06e323957b5dbe4d380788bb327b2f24a78b63541c","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/artifact-yylo/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/LICENSE"}],"archiveSha256":"c3ef12f289e798caf242679c4efee1bb2e0c7b8edc0d9e290886f01ff02c8e5a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--artifact-yylo",
+    "name": "artifact-yylo",
+    "description": "Capture and retrieve durable YYLO Ledger artifact Records with intentional profiles, payload modes, provenance, retention, and secret-safe immutable evidence.",
+    "category": "Development",
+    "tags": [
+      "artifact",
+      "yylo",
+      "capture",
+      "retrieve",
+      "durable",
+      "ledger",
+      "records",
+      "intentional",
+      "profiles",
+      "payload",
+      "modes",
+      "provenance",
+      "retention",
+      "secret",
+      "safe",
+      "immutable",
+      "evidence."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/artifact-yylo",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/artifact-yylo",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6551,
+    "sha256": "b413282ddb32dfdd04722c06e323957b5dbe4d380788bb327b2f24a78b63541c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/artifact-yylo/SKILL.md",
+      "bytes": 5478,
+      "sha256": "b413282ddb32dfdd04722c06e323957b5dbe4d380788bb327b2f24a78b63541c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/artifact-yylo/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "cccc914dc1eca8e210b71631a66fbe5ca54fff17a823b5fa7aecf8754b10071a"
+}

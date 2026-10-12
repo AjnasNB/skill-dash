@@ -1,1 +1,54 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--nextjs-supabase-auth","name":"nextjs-supabase-auth","description":"Expert integration of Supabase Auth with Next.js App Router","category":"Automation","tags":["nextjs","supabase","auth","expert","integration","next.js","app","router"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":46853,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"21efc48cceaf0f7043fa496ad8fcd5815637121e","path":"skills/nextjs-supabase-auth","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/nextjs-supabase-auth","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T06:08:57Z","fileCount":2,"bytes":9074,"sha256":"82bbd17e1a3179f86172a438c6ef4b7b69e653cb2af1532c6fbaf957ff7b3edf","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/nextjs-supabase-auth/SKILL.md","bytes":8001,"sha256":"82bbd17e1a3179f86172a438c6ef4b7b69e653cb2af1532c6fbaf957ff7b3edf","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/nextjs-supabase-auth/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/LICENSE"}],"archiveSha256":"e8a0af860515a0d4658fc61a34873748e1a4f66faeec8c225e2ee8aafd999641"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--nextjs-supabase-auth",
+    "name": "nextjs-supabase-auth",
+    "description": "Expert integration of Supabase Auth with Next.js App Router",
+    "category": "Automation",
+    "tags": [
+      "nextjs",
+      "supabase",
+      "auth",
+      "expert",
+      "integration",
+      "next.js",
+      "app",
+      "router"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/nextjs-supabase-auth",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nextjs-supabase-auth",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9074,
+    "sha256": "82bbd17e1a3179f86172a438c6ef4b7b69e653cb2af1532c6fbaf957ff7b3edf",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/nextjs-supabase-auth/SKILL.md",
+      "bytes": 8001,
+      "sha256": "82bbd17e1a3179f86172a438c6ef4b7b69e653cb2af1532c6fbaf957ff7b3edf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nextjs-supabase-auth/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "b38361f9e59579ec8f79ae8b38e9c9c2bf20f093719b7189b92ceba43d5e504f"
+}

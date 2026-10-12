@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-cloud-waf-rules",
+    "name": "implementing-cloud-waf-rules",
+    "description": "Deploys and tunes Web Application Firewall rules on AWS WAF, Azure WAF, and Cloudflare, covering managed rule sets, custom business-logic rules, rate limiting, bot management, and false-positive reduction. Use when deploying new apps behind a cloud WAF, when pentests reveal injection/XSS flaws, when facing bot or credential-stuffing traffic, or when compliance (e.g. PCI-DSS) mandates a WAF.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "implementing",
+      "cloud",
+      "waf",
+      "rules",
+      "deploys",
+      "tunes",
+      "web",
+      "application",
+      "firewall",
+      "aws",
+      "azure",
+      "cloudflare",
+      "covering",
+      "managed",
+      "rule",
+      "sets",
+      "custom",
+      "business"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-cloud-waf-rules/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-cloud-waf-rules",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-waf-rules",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 33494,
+    "sha256": "99864d6ee1dc5095aa5782417469de9babdcf8b8a1aa266c4ae08e7a347cdd79",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-cloud-waf-rules/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-waf-rules/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-cloud-waf-rules/SKILL.md",
+      "bytes": 11463,
+      "sha256": "99864d6ee1dc5095aa5782417469de9babdcf8b8a1aa266c4ae08e7a347cdd79",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-waf-rules/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-cloud-waf-rules/references/api-reference.md",
+      "bytes": 2347,
+      "sha256": "fad784fc31bec0124cc0c12cca2027cf82614b09d6a2477e140f821b412f0a1b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-waf-rules/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-cloud-waf-rules/scripts/agent.py",
+      "bytes": 8429,
+      "sha256": "eccb2beecc58bc938716724895734cea73aa89c0a35f5e9a29ccb89186a9f4d5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-waf-rules/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "a9329069625bb6ffb594614fcb89f20df836abd3e3b07733a4162ed5b67c71a2"
+}

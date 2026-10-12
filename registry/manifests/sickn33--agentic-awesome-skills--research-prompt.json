@@ -1,1 +1,58 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--research-prompt","name":"research-prompt","description":"Turn vague research needs into one precise deep-research prompt with context and output criteria.","category":"Data & research","tags":["research","prompt","turn","vague","needs","into","one","precise","deep","context","output","criteria."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":46853,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"21efc48cceaf0f7043fa496ad8fcd5815637121e","path":"skills/research-prompt","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/research-prompt","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T06:08:57Z","fileCount":2,"bytes":6330,"sha256":"f0f3fc1486422e3db20c0cd2bfd92e910c22ccde90f7cd01fc58f9895b10bb60","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/research-prompt/SKILL.md","bytes":5257,"sha256":"f0f3fc1486422e3db20c0cd2bfd92e910c22ccde90f7cd01fc58f9895b10bb60","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/research-prompt/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/LICENSE"}],"archiveSha256":"8ee9c1c7977c0441ea1bc46916d376197664f4ed3d14b20c429eec7e6e6eaeec"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--research-prompt",
+    "name": "research-prompt",
+    "description": "Turn vague research needs into one precise deep-research prompt with context and output criteria.",
+    "category": "Data & research",
+    "tags": [
+      "research",
+      "prompt",
+      "turn",
+      "vague",
+      "needs",
+      "into",
+      "one",
+      "precise",
+      "deep",
+      "context",
+      "output",
+      "criteria."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/research-prompt",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/research-prompt",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6330,
+    "sha256": "f0f3fc1486422e3db20c0cd2bfd92e910c22ccde90f7cd01fc58f9895b10bb60",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/research-prompt/SKILL.md",
+      "bytes": 5257,
+      "sha256": "f0f3fc1486422e3db20c0cd2bfd92e910c22ccde90f7cd01fc58f9895b10bb60",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/research-prompt/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "f568bb8c5d8c9fb8a776770b2b502a75c0397dea8b3304f22688f4b3e2bef0ce"
+}

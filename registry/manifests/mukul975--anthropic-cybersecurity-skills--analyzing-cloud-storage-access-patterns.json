@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-cloud-storage-access-patterns",
+    "name": "analyzing-cloud-storage-access-patterns",
+    "description": "Detect abnormal access in AWS S3, GCS, and Azure Blob Storage by analyzing CloudTrail Data Events, GCS audit logs, and Azure Storage Analytics for after-hours bulk downloads, new-IP access, and API-call spikes (e.g. GetObject) via statistical baselines and time-series anomaly detection. Use when investigating suspected cloud data exfiltration or building related detection rules.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "analyzing",
+      "cloud",
+      "storage",
+      "access",
+      "patterns",
+      "detect",
+      "abnormal",
+      "aws",
+      "s3",
+      "gcs",
+      "azure",
+      "blob",
+      "by",
+      "cloudtrail",
+      "data",
+      "events",
+      "audit",
+      "logs"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-cloud-storage-access-patterns/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-cloud-storage-access-patterns",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-cloud-storage-access-patterns",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 23247,
+    "sha256": "1ec405b4ae9da7230cb3d328238bdbf0d1a41d72e426d702ec083a91cf53a32e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-cloud-storage-access-patterns/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-cloud-storage-access-patterns/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-cloud-storage-access-patterns/SKILL.md",
+      "bytes": 2395,
+      "sha256": "1ec405b4ae9da7230cb3d328238bdbf0d1a41d72e426d702ec083a91cf53a32e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-cloud-storage-access-patterns/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-cloud-storage-access-patterns/references/api-reference.md",
+      "bytes": 1539,
+      "sha256": "093ab92c7e7289c169fa436432f9d9175f61c552c753a8ded5ca9784c9f6a633",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-cloud-storage-access-patterns/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-cloud-storage-access-patterns/scripts/agent.py",
+      "bytes": 8058,
+      "sha256": "23a3faea5665019b2dea2407b491dfd899c3583a085f3b19bab0ab7861f935b4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-cloud-storage-access-patterns/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "800ab76917342bfaf5792142c9d9b62b0ab9d39e615f0b13462f9bd4ed6f85c3"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--spatial-design","name":"spatial-design","description":"Web and App implementation guide for Spatial Design. Trigger when user wants environment-aware layouts, Apple Vision Pro inspiration, and mixed reality aesthetics.","category":"Design","tags":["spatial","design","web","app","implementation","guide","design.","trigger","when","user","wants","environment","aware","layouts","apple","vision","pro","inspiration"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":46853,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"21efc48cceaf0f7043fa496ad8fcd5815637121e","path":"skills/design-it/spatial-design","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/design-it/spatial-design","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T06:08:57Z","fileCount":2,"bytes":11639,"sha256":"35353e96078e2f73ce3e83c87723f62324568c00f04754b522c53c06032f57db","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/design-it/spatial-design/SKILL.md","bytes":10566,"sha256":"35353e96078e2f73ce3e83c87723f62324568c00f04754b522c53c06032f57db","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/design-it/spatial-design/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/LICENSE"}],"archiveSha256":"8d6d651cb74bb81bb6682422a609b65a14861a8d734dfd4693a86a6050c828ff"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--spatial-design",
+    "name": "spatial-design",
+    "description": "Web and App implementation guide for Spatial Design. Trigger when user wants environment-aware layouts, Apple Vision Pro inspiration, and mixed reality aesthetics.",
+    "category": "Design",
+    "tags": [
+      "spatial",
+      "design",
+      "web",
+      "app",
+      "implementation",
+      "guide",
+      "design.",
+      "trigger",
+      "when",
+      "user",
+      "wants",
+      "environment",
+      "aware",
+      "layouts",
+      "apple",
+      "vision",
+      "pro",
+      "inspiration"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/design-it/spatial-design",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/spatial-design",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11639,
+    "sha256": "35353e96078e2f73ce3e83c87723f62324568c00f04754b522c53c06032f57db",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/design-it/spatial-design/SKILL.md",
+      "bytes": 10566,
+      "sha256": "35353e96078e2f73ce3e83c87723f62324568c00f04754b522c53c06032f57db",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/spatial-design/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "95dee19ace819d05b6273f3543049ad8054b6571c13fde496b8eac44148de254"
+}

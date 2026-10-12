@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-email-headers-for-phishing-investigation",
+    "name": "analyzing-email-headers-for-phishing-investigation",
+    "description": "Parse and analyze email headers (Received chain, Return-Path, Message-ID) to trace the true origin of a phishing email and validate SPF, DKIM, and DMARC results to confirm or rule out sender spoofing. Use when triaging a suspicious or reported email, investigating a phishing incident, or verifying whether a message's sender domain was spoofed.",
+    "category": "Development",
+    "tags": [
+      "analyzing",
+      "email",
+      "headers",
+      "phishing",
+      "investigation",
+      "parse",
+      "analyze",
+      "received",
+      "chain",
+      "return",
+      "path",
+      "message",
+      "id",
+      "trace",
+      "true",
+      "origin",
+      "validate",
+      "spf"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-email-headers-for-phishing-investigation/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-email-headers-for-phishing-investigation",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-email-headers-for-phishing-investigation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 35294,
+    "sha256": "5c143991bf9d90a26eca24de4ce85735620d368bd11722ee024fe6384ed6eb64",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-email-headers-for-phishing-investigation/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-email-headers-for-phishing-investigation/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-email-headers-for-phishing-investigation/SKILL.md",
+      "bytes": 12691,
+      "sha256": "5c143991bf9d90a26eca24de4ce85735620d368bd11722ee024fe6384ed6eb64",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-email-headers-for-phishing-investigation/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-email-headers-for-phishing-investigation/references/api-reference.md",
+      "bytes": 2772,
+      "sha256": "905a743f5af3523eeef528232a6c41e8815b82ee595b3dd96abd04c26a8f3427",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-email-headers-for-phishing-investigation/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-email-headers-for-phishing-investigation/scripts/agent.py",
+      "bytes": 8576,
+      "sha256": "bb71ff2cc15aa848d273c07bb8112f70be870927f2d22a663eebeb15aec713fb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-email-headers-for-phishing-investigation/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "2589fd67dbf2d34450cc6816e97da54bf8d85cd21b1fd12f2dce9dc1dc680744"
+}

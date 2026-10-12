@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--agent-self-scheduling","name":"agent-self-scheduling","description":"Schedule AI agent runs with cron, loops, or external clocks while avoiding unsafe tight autonomous timers.","category":"AI & agents","tags":["agent","self","scheduling","schedule","ai","runs","cron","loops","external","clocks","while","avoiding","unsafe","tight","autonomous","timers."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":46853,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"21efc48cceaf0f7043fa496ad8fcd5815637121e","path":"skills/agent-self-scheduling","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/agent-self-scheduling","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T06:08:57Z","fileCount":2,"bytes":5866,"sha256":"0f9fde1ddcc42e24d40ad62eb63b770ef16e7e821322982f705df5396bd507e5","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/agent-self-scheduling/SKILL.md","bytes":4793,"sha256":"0f9fde1ddcc42e24d40ad62eb63b770ef16e7e821322982f705df5396bd507e5","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/agent-self-scheduling/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/LICENSE"}],"archiveSha256":"98a636ec72ee50384ebccd7a866e012bc7151f89b2f2797606430c5f466effad"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--agent-self-scheduling",
+    "name": "agent-self-scheduling",
+    "description": "Schedule AI agent runs with cron, loops, or external clocks while avoiding unsafe tight autonomous timers.",
+    "category": "AI & agents",
+    "tags": [
+      "agent",
+      "self",
+      "scheduling",
+      "schedule",
+      "ai",
+      "runs",
+      "cron",
+      "loops",
+      "external",
+      "clocks",
+      "while",
+      "avoiding",
+      "unsafe",
+      "tight",
+      "autonomous",
+      "timers."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/agent-self-scheduling",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-self-scheduling",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5866,
+    "sha256": "0f9fde1ddcc42e24d40ad62eb63b770ef16e7e821322982f705df5396bd507e5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/agent-self-scheduling/SKILL.md",
+      "bytes": 4793,
+      "sha256": "0f9fde1ddcc42e24d40ad62eb63b770ef16e7e821322982f705df5396bd507e5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-self-scheduling/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "b0c4bfb8df8690f9f6527d7ca23af0fc0ec654b8bc7dc90eb8fdcca2550bb626"
+}

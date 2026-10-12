@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-cisa-zero-trust-maturity-model",
+    "name": "implementing-cisa-zero-trust-maturity-model",
+    "description": "Assess, gap-analyze, and progressively implement the CISA Zero Trust Maturity Model v2.0 across five pillars (Identity, Devices, Networks, Applications & Workloads, Data) and three cross-cutting capabilities (Visibility/Analytics, Automation/Orchestration, Governance), from Traditional through Optimal maturity. Use for a federal/enterprise ZTMM assessment, phased roadmap, or mapping controls to NIST SP 800-207 and EO 14028.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "cisa",
+      "zero",
+      "trust",
+      "maturity",
+      "model",
+      "assess",
+      "gap",
+      "analyze",
+      "progressively",
+      "implement",
+      "v2.0",
+      "across",
+      "five",
+      "pillars",
+      "identity",
+      "devices",
+      "networks"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-cisa-zero-trust-maturity-model/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-cisa-zero-trust-maturity-model",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cisa-zero-trust-maturity-model",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 57870,
+    "sha256": "eb79238c55630a2b4bdf77497404ca7b9a46841e5d94aa09f0e78b704271b2e3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-cisa-zero-trust-maturity-model/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cisa-zero-trust-maturity-model/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-cisa-zero-trust-maturity-model/SKILL.md",
+      "bytes": 12377,
+      "sha256": "eb79238c55630a2b4bdf77497404ca7b9a46841e5d94aa09f0e78b704271b2e3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cisa-zero-trust-maturity-model/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-cisa-zero-trust-maturity-model/assets/template.md",
+      "bytes": 4074,
+      "sha256": "b232ebac7012cac82006cd5ca91d736abcbadd5eefdae8917a733b2120a7d0f1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cisa-zero-trust-maturity-model/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-cisa-zero-trust-maturity-model/references/api-reference.md",
+      "bytes": 1934,
+      "sha256": "8bd35566627af8fcbd2fedb8e3fee5a7b3389ae6928fc2b1b557b98a5f32dc3c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cisa-zero-trust-maturity-model/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-cisa-zero-trust-maturity-model/references/standards.md",
+      "bytes": 2115,
+      "sha256": "a5c373e027a1ab4973eb018930cb880063ec967370ba49ee0301e437a31daaa6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cisa-zero-trust-maturity-model/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-cisa-zero-trust-maturity-model/references/workflows.md",
+      "bytes": 3806,
+      "sha256": "5ae0e96d5ab18e93aabb8d5fd6575aba4223b1ceb162739d531e7ac67ed232ab",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cisa-zero-trust-maturity-model/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-cisa-zero-trust-maturity-model/scripts/agent.py",
+      "bytes": 6254,
+      "sha256": "0fcc78f8b03d00164b0555164889d8b3afeff2dd03a64217f0445cf41ff36257",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cisa-zero-trust-maturity-model/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-cisa-zero-trust-maturity-model/scripts/process.py",
+      "bytes": 16055,
+      "sha256": "b3f23c18cc233c106c82066b55cbea1e4db2420c7d7b741894634e8a765a3b9a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cisa-zero-trust-maturity-model/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "7e889d8c30faf4b42d50dfd32d3892730cb6bae63d93314eb242cc4f6328190f"
+}

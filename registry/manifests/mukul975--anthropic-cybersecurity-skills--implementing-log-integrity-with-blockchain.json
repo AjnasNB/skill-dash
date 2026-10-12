@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-log-integrity-with-blockchain",
+    "name": "implementing-log-integrity-with-blockchain",
+    "description": "Builds an append-only log integrity chain using SHA-256 hash chaining, where each entry incorporates the previous entry's hash so tampering invalidates all subsequent hashes; covers log ingestion (syslog/JSON/plain text), chain verification, pinpoint tamper detection, and checkpoint anchoring to external timestamping services. Use for tamper-evident log storage for compliance or forensics, or to verify whether log entries were altered.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "log",
+      "integrity",
+      "blockchain",
+      "builds",
+      "append",
+      "only",
+      "chain",
+      "sha",
+      "256",
+      "hash",
+      "chaining",
+      "where",
+      "each",
+      "entry",
+      "incorporates",
+      "previous",
+      "so"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-log-integrity-with-blockchain/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-log-integrity-with-blockchain",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-log-integrity-with-blockchain",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 23053,
+    "sha256": "c7dd6358dbb9628626a6d88abe29d2ce5968a8baabf4e174609b90ba13abd34a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-log-integrity-with-blockchain/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-log-integrity-with-blockchain/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-log-integrity-with-blockchain/SKILL.md",
+      "bytes": 2443,
+      "sha256": "c7dd6358dbb9628626a6d88abe29d2ce5968a8baabf4e174609b90ba13abd34a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-log-integrity-with-blockchain/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-log-integrity-with-blockchain/references/api-reference.md",
+      "bytes": 1495,
+      "sha256": "b05a44ee4edb70198f8dc305b3363981f3ab4435ce7a66ecc768f7e526736091",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-log-integrity-with-blockchain/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-log-integrity-with-blockchain/scripts/agent.py",
+      "bytes": 7860,
+      "sha256": "2b20e36bd6485f5c75202913dbea900f33c75a229ede38ae29dbc195d9654f7b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-log-integrity-with-blockchain/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "f3ff5161782aa8028ad225432ec2ad8a23957a6c3431f41f5ae08320bca4e42e"
+}

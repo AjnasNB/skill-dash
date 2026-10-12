@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--research-grants",
+    "name": "research-grants",
+    "description": "Supports research proposal preparation and review for NSF, NIH, DOE, DARPA, and Taiwan NSTC, including opportunity-specific requirements, aims, review criteria, budgets, broader impacts, forms, and resubmissions. Use for investigator-authored grant development, compliance matrices, and proposal critiques.",
+    "category": "Data & research",
+    "tags": [
+      "research",
+      "grants",
+      "supports",
+      "proposal",
+      "preparation",
+      "review",
+      "nsf",
+      "nih",
+      "doe",
+      "darpa",
+      "taiwan",
+      "nstc",
+      "including",
+      "opportunity",
+      "specific",
+      "requirements",
+      "aims",
+      "criteria"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/research-grants",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/research-grants",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 17,
+    "bytes": 149726,
+    "sha256": "3ca7ea8075bbe8008389660cc4a5769d66ac9ec638f3f61a955a5d7b20aeba85",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/research-grants/SKILL.md",
+      "bytes": 17328,
+      "sha256": "3ca7ea8075bbe8008389660cc4a5769d66ac9ec638f3f61a955a5d7b20aeba85",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/research-grants/SKILL.md"
+    },
+    {
+      "path": "assets/budget_justification_template.md",
+      "sourcePath": "skills/research-grants/assets/budget_justification_template.md",
+      "bytes": 7414,
+      "sha256": "a65ce61ac86ff3971f64d735854f8b9b53af93d3c0614e7c391d908c8b28ff45",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/research-grants/assets/budget_justification_template.md"
+    },
+    {
+      "path": "assets/nih_specific_aims_template.md",
+      "sourcePath": "skills/research-grants/assets/nih_specific_aims_template.md",
+      "bytes": 3118,
+      "sha256": "f960b6410bf6c4a8ebfcb23d069ccdaae5692c38b61d55662ce21a06eaa49696",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/research-grants/assets/nih_specific_aims_template.md"
+    },
+    {
+      "path": "assets/nsf_project_summary_template.md",
+      "sourcePath": "skills/research-grants/assets/nsf_project_summary_template.md",
+      "bytes": 2571,
+      "sha256": "a8c5c638df67fa54f8bb8ab8c4d92bc9a10c471afcbf73e15b6e173c33d8c788",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/research-grants/assets/nsf_project_summary_template.md"
+    },
+    {
+      "path": "references/README.md",
+      "sourcePath": "skills/research-grants/references/README.md",
+      "bytes": 2493,
+      "sha256": "c1dc961d3ea576cd4d06e76a47d1a4236b7e9d77bf90a612302125938db9bc5c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/research-grants/references/README.md"
+    },
+    {
+      "path": "references/broader_impacts.md",
+      "sourcePath": "skills/research-grants/references/broader_impacts.md",
+      "bytes": 24394,
+      "sha256": "de888b798004a3c0174d8dfd99626c8654a9ca53f78e2dcd4d2e242bed9873e1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/research-grants/references/broader_impacts.md"
+    },
+    {
+      "path": "references/core_components.md",
+      "sourcePath": "skills/research-grants/references/core_components.md",
+      "bytes": 16469,
+      "sha256": "73b5915fa8fb905949233d3e2cdc118525ac9b448cb0fb05407ee3d7ecf44cdb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/research-grants/references/core_components.md"
+    },
+    {
+      "path": "references/darpa_guidelines.md",
+      "sourcePath": "skills/research-grants/references/darpa_guidelines.md",
+      "bytes": 7145,
+      "sha256": "f7bc5c2d0b461275599a157a074a90b71169415ebdeea3417549952b09598fc6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/research-grants/references/darpa_guidelines.md"
+    },
+    {
+      "path": "references/doe_guidelines.md",
+      "sourcePath": "skills/research-grants/references/doe_guidelines.md",
+      "bytes": 7713,
+      "sha256": "79e4afebf7fb71dabfc661144913d0d6af9583072e52b8405a67f2932b5ac5d7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/research-grants/references/doe_guidelines.md"
+    },
+    {
+      "path": "references/nih_guidelines.md",
+      "sourcePath": "skills/research-grants/references/nih_guidelines.md",
+      "bytes": 13591,
+      "sha256": "ff3f8dda0a2f77743401b44caff6c4f94471fb0348e2d4abf4f7b86e8874f285",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/research-grants/references/nih_guidelines.md"
+    },
+    {
+      "path": "references/nsf_guidelines.md",
+      "sourcePath": "skills/research-grants/references/nsf_guidelines.md",
+      "bytes": 7963,
+      "sha256": "78fe17b0e5798767e6ff9074f28d6b8d154dbe256b9d36dcbdaa78fbd6b73f24",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/research-grants/references/nsf_guidelines.md"
+    },
+    {
+      "path": "references/nstc_guidelines.md",
+      "sourcePath": "skills/research-grants/references/nstc_guidelines.md",
+      "bytes": 7660,
+      "sha256": "852b3bdcd990a17b9164680b4bf344f0800e551d4126310531f7c1d2be7f6c35",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/research-grants/references/nstc_guidelines.md"
+    },
+    {
+      "path": "references/proposal_types_and_resubmission.md",
+      "sourcePath": "skills/research-grants/references/proposal_types_and_resubmission.md",
+      "bytes": 3252,
+      "sha256": "267d3c8688407620c3cf633a0b4e18730c4d65b5380531796d1e8b4a4da9db1f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/research-grants/references/proposal_types_and_resubmission.md"
+    },
+    {
+      "path": "references/review_criteria.md",
+      "sourcePath": "skills/research-grants/references/review_criteria.md",
+      "bytes": 2858,
+      "sha256": "e6d6b9822ee6cb744eff39a79a7502c3ce6668c76ae49a5f652793421e81a458",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/research-grants/references/review_criteria.md"
+    },
+    {
+      "path": "references/specific_aims_guide.md",
+      "sourcePath": "skills/research-grants/references/specific_aims_guide.md",
+      "bytes": 21099,
+      "sha256": "f0bb4f76ceac2db418cdc556869cab16d9bccbc2ad0568894fd5a086a6e796a2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/research-grants/references/specific_aims_guide.md"
+    },
+    {
+      "path": "references/writing_principles.md",
+      "sourcePath": "skills/research-grants/references/writing_principles.md",
+      "bytes": 3590,
+      "sha256": "718b079d8f93df8ce4bd44767b3d794ddde7ebe5901a9957caf7b2ace9c5bda8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/research-grants/references/writing_principles.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "8390c0d3233e6914219e7c57b6f9642294c342562d9b860b59a21c81fc61e360"
+}

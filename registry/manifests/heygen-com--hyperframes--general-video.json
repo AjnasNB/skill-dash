@@ -1,1 +1,104 @@
-{"schemaVersion":1,"skill":{"id":"heygen-com--hyperframes--general-video","name":"general-video","description":"Author or edit a custom HyperFrames composition when no specialized workflow fits, or when BRIEF.md sets flow: companion. Use for longer or multi-scene pieces, brand and sizzle reels, montages, static loops, static title cards, footage remixes, and freeform builds. Use motion-graphics instead for a short unnarrated motion-first unit, including an animated title. Route fresh creation through hyperframes before using this skill.","category":"Video & audio","tags":["general","video","author","edit","custom","hyperframes","composition","when","no","specialized","workflow","fits","brief.md","sets","flow","companion.","longer","multi"],"repo":"heygen-com/hyperframes","owner":"heygen-com","stars":52761,"official":true,"featured":false,"license":"Apache-2.0","licensePath":"LICENSE","revision":"58c873d8161d6a2357eacf89a540bfecc359349b","path":"skills/general-video","sourceUrl":"https://github.com/heygen-com/hyperframes/tree/58c873d8161d6a2357eacf89a540bfecc359349b/skills/general-video","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T06:32:31Z","fileCount":6,"bytes":46385,"sha256":"6d33b8c9c8636a86353826e3c438f8c8af6bba4e885b2f560e6fe36bf5f1466f","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/general-video/SKILL.md","bytes":20864,"sha256":"6d33b8c9c8636a86353826e3c438f8c8af6bba4e885b2f560e6fe36bf5f1466f","mode":420,"url":"https://raw.githubusercontent.com/heygen-com/hyperframes/58c873d8161d6a2357eacf89a540bfecc359349b/skills/general-video/SKILL.md"},{"path":"scripts/frame-packets.mjs","sourcePath":"skills/general-video/scripts/frame-packets.mjs","bytes":1462,"sha256":"998ad1593e759c235537feca8eb7a116f930bd2135fdd0420d3a9a4ba100d65b","mode":420,"url":"https://raw.githubusercontent.com/heygen-com/hyperframes/58c873d8161d6a2357eacf89a540bfecc359349b/skills/general-video/scripts/frame-packets.mjs"},{"path":"scripts/frame-packets.test.mjs","sourcePath":"skills/general-video/scripts/frame-packets.test.mjs","bytes":3584,"sha256":"05b2bbe7cd60f68b40b65e7cf5a6e7ef377d5d899dc85848ab8a6db6886bd5eb","mode":420,"url":"https://raw.githubusercontent.com/heygen-com/hyperframes/58c873d8161d6a2357eacf89a540bfecc359349b/skills/general-video/scripts/frame-packets.test.mjs"},{"path":"scripts/lib/frame-packets-core.mjs","sourcePath":"skills/general-video/scripts/lib/frame-packets-core.mjs","bytes":7408,"sha256":"1c8b10b77568c959caf97467451ff65a71197872fba5f08f5cdf6fd6c37abdd6","mode":420,"url":"https://raw.githubusercontent.com/heygen-com/hyperframes/58c873d8161d6a2357eacf89a540bfecc359349b/skills/general-video/scripts/lib/frame-packets-core.mjs"},{"path":"sub-agents/frame-worker.md","sourcePath":"skills/general-video/sub-agents/frame-worker.md","bytes":2304,"sha256":"cafff87f4f1fa6c5a047d621b591c25b75a3282a5020a96868803094bd084d2e","mode":420,"url":"https://raw.githubusercontent.com/heygen-com/hyperframes/58c873d8161d6a2357eacf89a540bfecc359349b/skills/general-video/sub-agents/frame-worker.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":10763,"sha256":"4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8","mode":420,"url":"https://raw.githubusercontent.com/heygen-com/hyperframes/58c873d8161d6a2357eacf89a540bfecc359349b/LICENSE"}],"archiveSha256":"e1bc0d613702cabaf48b75c57c2fa57763439877ef3a70dfd97c4c8b34561fd1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "heygen-com--hyperframes--general-video",
+    "name": "general-video",
+    "description": "Author or edit a custom HyperFrames composition when no specialized workflow fits, or when BRIEF.md sets flow: companion. Use for longer or multi-scene pieces, brand and sizzle reels, montages, static loops, static title cards, footage remixes, and freeform builds. Use motion-graphics instead for a short unnarrated motion-first unit, including an animated title. Route fresh creation through hyperframes before using this skill.",
+    "category": "Video & audio",
+    "tags": [
+      "general",
+      "video",
+      "author",
+      "edit",
+      "custom",
+      "hyperframes",
+      "composition",
+      "when",
+      "no",
+      "specialized",
+      "workflow",
+      "fits",
+      "brief.md",
+      "sets",
+      "flow",
+      "companion.",
+      "longer",
+      "multi"
+    ],
+    "repo": "heygen-com/hyperframes",
+    "owner": "heygen-com",
+    "stars": 61369,
+    "official": true,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "LICENSE",
+    "revision": "86521b94f592bcf0ca86aba63068893cf658af16",
+    "path": "skills/general-video",
+    "sourceUrl": "https://github.com/heygen-com/hyperframes/tree/86521b94f592bcf0ca86aba63068893cf658af16/skills/general-video",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:18:48Z",
+    "fileCount": 7,
+    "bytes": 47066,
+    "sha256": "6e0aad276db66d31791bdb19abdd12f3650ce03b7f7329d1c2d2c9176d87214c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/general-video/SKILL.md",
+      "bytes": 21541,
+      "sha256": "6e0aad276db66d31791bdb19abdd12f3650ce03b7f7329d1c2d2c9176d87214c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/86521b94f592bcf0ca86aba63068893cf658af16/skills/general-video/SKILL.md"
+    },
+    {
+      "path": "scripts/frame-packets.mjs",
+      "sourcePath": "skills/general-video/scripts/frame-packets.mjs",
+      "bytes": 1462,
+      "sha256": "998ad1593e759c235537feca8eb7a116f930bd2135fdd0420d3a9a4ba100d65b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/86521b94f592bcf0ca86aba63068893cf658af16/skills/general-video/scripts/frame-packets.mjs"
+    },
+    {
+      "path": "scripts/frame-packets.test.mjs",
+      "sourcePath": "skills/general-video/scripts/frame-packets.test.mjs",
+      "bytes": 3584,
+      "sha256": "05b2bbe7cd60f68b40b65e7cf5a6e7ef377d5d899dc85848ab8a6db6886bd5eb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/86521b94f592bcf0ca86aba63068893cf658af16/skills/general-video/scripts/frame-packets.test.mjs"
+    },
+    {
+      "path": "scripts/lib/frame-packets-core.mjs",
+      "sourcePath": "skills/general-video/scripts/lib/frame-packets-core.mjs",
+      "bytes": 6933,
+      "sha256": "fd9062f3c955f89e5520fec3f88d25f92f44e91cf42988e387ae993175999c87",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/86521b94f592bcf0ca86aba63068893cf658af16/skills/general-video/scripts/lib/frame-packets-core.mjs"
+    },
+    {
+      "path": "scripts/lib/main-module.mjs",
+      "sourcePath": "skills/general-video/scripts/lib/main-module.mjs",
+      "bytes": 479,
+      "sha256": "61811e09110856e1439c29875e4a4ad7701ae45d4045f9d1dcb6a7929698e4c0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/86521b94f592bcf0ca86aba63068893cf658af16/skills/general-video/scripts/lib/main-module.mjs"
+    },
+    {
+      "path": "sub-agents/frame-worker.md",
+      "sourcePath": "skills/general-video/sub-agents/frame-worker.md",
+      "bytes": 2304,
+      "sha256": "cafff87f4f1fa6c5a047d621b591c25b75a3282a5020a96868803094bd084d2e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/86521b94f592bcf0ca86aba63068893cf658af16/skills/general-video/sub-agents/frame-worker.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 10763,
+      "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/86521b94f592bcf0ca86aba63068893cf658af16/LICENSE"
+    }
+  ],
+  "archiveSha256": "915929f6b7a871e9f1189c5ed147e747d066c6c531df79f07e3c62f3bfbaa7f2"
+}

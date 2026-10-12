@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--tracking-threat-actor-infrastructure",
+    "name": "tracking-threat-actor-infrastructure",
+    "description": "Discovers and maps adversary-controlled infrastructure (C2 servers, phishing domains, exploit-kit hosts, bulletproof hosting) by pivoting across passive DNS, certificate transparency logs, Shodan/Censys scans, WHOIS records, and network fingerprints (JARM/JA3S). Use when tracking threat actor infrastructure, expanding a known IOC into related assets, or producing STIX-based threat intelligence during a CTI investigation.",
+    "category": "Security",
+    "tags": [
+      "tracking",
+      "threat",
+      "actor",
+      "infrastructure",
+      "discovers",
+      "maps",
+      "adversary",
+      "controlled",
+      "c2",
+      "servers",
+      "phishing",
+      "domains",
+      "exploit",
+      "kit",
+      "hosts",
+      "bulletproof",
+      "hosting",
+      "by"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/tracking-threat-actor-infrastructure/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/tracking-threat-actor-infrastructure",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/tracking-threat-actor-infrastructure",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 49018,
+    "sha256": "b2fd6e4f6194770f466d1c0cc1668074c7ebbbc25755c2a265f04dae1ab4ba56",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/tracking-threat-actor-infrastructure/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/tracking-threat-actor-infrastructure/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/tracking-threat-actor-infrastructure/SKILL.md",
+      "bytes": 11527,
+      "sha256": "b2fd6e4f6194770f466d1c0cc1668074c7ebbbc25755c2a265f04dae1ab4ba56",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/tracking-threat-actor-infrastructure/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/tracking-threat-actor-infrastructure/assets/template.md",
+      "bytes": 1357,
+      "sha256": "8955322e9feb3c5cb788861361b990e46a8c47f3cb737941a26335ff5d366478",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/tracking-threat-actor-infrastructure/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/tracking-threat-actor-infrastructure/references/api-reference.md",
+      "bytes": 1892,
+      "sha256": "8a67b8f26005c285d98c86ab24cd2b4a1e0fb0e09163caeee0c6a6824e191f78",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/tracking-threat-actor-infrastructure/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/tracking-threat-actor-infrastructure/references/standards.md",
+      "bytes": 1661,
+      "sha256": "449b864ca7eda2da71071484f2a5e4559aba01a151eb2d8666f499342204d960",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/tracking-threat-actor-infrastructure/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/tracking-threat-actor-infrastructure/references/workflows.md",
+      "bytes": 2422,
+      "sha256": "12e28a51e435f88346982ccad5a55d80ab0fcf3ead7c3bf8f1379435a6ac2784",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/tracking-threat-actor-infrastructure/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/tracking-threat-actor-infrastructure/scripts/agent.py",
+      "bytes": 7800,
+      "sha256": "03f5d1440296a6094f84534f920eba7c0b557508584a680cb0df22ca3b4e5da5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/tracking-threat-actor-infrastructure/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/tracking-threat-actor-infrastructure/scripts/process.py",
+      "bytes": 11104,
+      "sha256": "43568e9998b0ff538343005a9eb3e37dcf55a218e33c880bba8babe60c34ffd2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/tracking-threat-actor-infrastructure/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "b7f7fac9c33c384c7a066fddde7713c5fbb0e604f6faa9a45f0dbbb20467cf8e"
+}

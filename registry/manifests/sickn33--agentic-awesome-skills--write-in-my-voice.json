@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--write-in-my-voice",
+    "name": "write-in-my-voice",
+    "description": "Draft a Twitter/X or LinkedIn post that sounds like the person asking, from posts they already wrote. Use when someone asks for a post or rewrite in their voice, or asks if text sounds like them.",
+    "category": "Writing",
+    "tags": [
+      "write",
+      "voice",
+      "draft",
+      "twitter",
+      "linkedin",
+      "post",
+      "sounds",
+      "like",
+      "person",
+      "asking",
+      "from",
+      "posts",
+      "they",
+      "already",
+      "wrote.",
+      "when",
+      "someone",
+      "asks"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/write-in-my-voice",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/write-in-my-voice",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7786,
+    "sha256": "3da240ff2768586f78848042c343bf37300a4eb337448386d269cc4ae624507e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/write-in-my-voice/SKILL.md",
+      "bytes": 6713,
+      "sha256": "3da240ff2768586f78848042c343bf37300a4eb337448386d269cc4ae624507e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/write-in-my-voice/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "1513066780c35dfbe118a2da8412126ea4583f24ebde286d87545259d7d01bf7"
+}

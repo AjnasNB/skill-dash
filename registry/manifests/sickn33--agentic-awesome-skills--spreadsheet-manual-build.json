@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--spreadsheet-manual-build",
+    "name": "spreadsheet-manual-build",
+    "description": "Spreadsheet Manual Build: an empty Excel workbook or CSV from a confirmed field list, formatted and validated. Use for an xlsx template or a manual register.",
+    "category": "Documents",
+    "tags": [
+      "spreadsheet",
+      "manual",
+      "empty",
+      "excel",
+      "workbook",
+      "csv",
+      "from",
+      "confirmed",
+      "field",
+      "list",
+      "formatted",
+      "validated.",
+      "xlsx",
+      "template",
+      "register."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/spreadsheet-manual-build",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/spreadsheet-manual-build",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 7,
+    "bytes": 26296,
+    "sha256": "383735d611b7a4512517cbf4e56b33b607575e851f22f6d0a43ca493b79db810",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/spreadsheet-manual-build/SKILL.md",
+      "bytes": 21798,
+      "sha256": "383735d611b7a4512517cbf4e56b33b607575e851f22f6d0a43ca493b79db810",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/spreadsheet-manual-build/SKILL.md"
+    },
+    {
+      "path": "references/best-practices.md",
+      "sourcePath": "skills/spreadsheet-manual-build/references/best-practices.md",
+      "bytes": 521,
+      "sha256": "0a9c611b263ff2dadcbf9d324e2fc1eb6b783e4efc0088113223a5cffeb3191c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/spreadsheet-manual-build/references/best-practices.md"
+    },
+    {
+      "path": "references/common-pitfalls.md",
+      "sourcePath": "skills/spreadsheet-manual-build/references/common-pitfalls.md",
+      "bytes": 1284,
+      "sha256": "7efd523dc8e1733deae603abfe9299773185668f53f30a6a1ba2bb66922babd3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/spreadsheet-manual-build/references/common-pitfalls.md"
+    },
+    {
+      "path": "references/related-skills.md",
+      "sourcePath": "skills/spreadsheet-manual-build/references/related-skills.md",
+      "bytes": 387,
+      "sha256": "38a29de7e4db3e6c537974ecc9047faa3b0c682913bb7aef1d387d26b5e54974",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/spreadsheet-manual-build/references/related-skills.md"
+    },
+    {
+      "path": "references/reusable-prompt.md",
+      "sourcePath": "skills/spreadsheet-manual-build/references/reusable-prompt.md",
+      "bytes": 434,
+      "sha256": "36943b816f828697c7550b154024ccd423486f9a2e98ef99dcc113efb81db4e3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/spreadsheet-manual-build/references/reusable-prompt.md"
+    },
+    {
+      "path": "references/security-safety-notes.md",
+      "sourcePath": "skills/spreadsheet-manual-build/references/security-safety-notes.md",
+      "bytes": 799,
+      "sha256": "2bfdcb80b063f65407e36b393407dc75d08f93d805a875e24a8810313286a509",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/spreadsheet-manual-build/references/security-safety-notes.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "a5adc652724c8435e3b7177fee488dca8441e4a24d4f6f002d72158daaba9e27"
+}

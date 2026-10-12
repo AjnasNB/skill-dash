@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--token-card",
+    "name": "token-card",
+    "description": "Render a token-usage stat card from local Claude Code, Codex, Gemini CLI, and OpenCode session logs and commit it into the repository as a file. Use when someone wants a current usage figure in a README, or asks for a shareable card of their coding-agent activity.",
+    "category": "AI & agents",
+    "tags": [
+      "token",
+      "card",
+      "render",
+      "usage",
+      "stat",
+      "from",
+      "local",
+      "claude",
+      "code",
+      "codex",
+      "gemini",
+      "cli",
+      "opencode",
+      "session",
+      "logs",
+      "commit",
+      "it",
+      "into"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/token-card",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/token-card",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 2,
+    "bytes": 6224,
+    "sha256": "ac297ba33187d7d2d66a6b151b1492a8757aac64938715f6eaabfbb1287cfd26",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/token-card/SKILL.md",
+      "bytes": 5153,
+      "sha256": "ac297ba33187d7d2d66a6b151b1492a8757aac64938715f6eaabfbb1287cfd26",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/token-card/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "79a0cb93b7d30025d10c1d01f76d8fbb2af08952930f3a0be64cca1b7645b7c7"
+}

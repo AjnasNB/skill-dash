@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-command-and-control-communication",
+    "name": "analyzing-command-and-control-communication",
+    "description": "Analyzes malware C2 communication over HTTP, HTTPS, DNS, and custom protocols to reverse-engineer beacon patterns, command structures, data encoding, and infrastructure (primary servers, fallback domains, dead drops). Use after reverse engineering reveals network traffic needing protocol analysis or when building detection signatures for a framework like Cobalt Strike, Metasploit, or Sliver.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "command",
+      "control",
+      "communication",
+      "analyzes",
+      "malware",
+      "c2",
+      "over",
+      "http",
+      "https",
+      "dns",
+      "custom",
+      "protocols",
+      "reverse",
+      "engineer",
+      "beacon",
+      "patterns",
+      "structures"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-command-and-control-communication/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-command-and-control-communication",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-command-and-control-communication",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 36327,
+    "sha256": "6ca6ca2373b43e8403672c8790dc673f5965f153228f258079dcf7a21b8add93",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-command-and-control-communication/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-command-and-control-communication/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-command-and-control-communication/SKILL.md",
+      "bytes": 14467,
+      "sha256": "6ca6ca2373b43e8403672c8790dc673f5965f153228f258079dcf7a21b8add93",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-command-and-control-communication/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-command-and-control-communication/references/api-reference.md",
+      "bytes": 2756,
+      "sha256": "b4ba600338f20f44f71be2ae50a9fc4751577fc2cb980ad7c0dbd35ace4686bf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-command-and-control-communication/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-command-and-control-communication/scripts/agent.py",
+      "bytes": 7849,
+      "sha256": "7e5db041deeb06da5a48bc3ddb8f45868308cd65517f90f511d667ae32d8bbc8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-command-and-control-communication/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "6ae8dc86c40a35305278f2f5d3a20ea1ecc9ac3fde83aa7246910237a4309f65"
+}

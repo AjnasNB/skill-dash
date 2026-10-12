@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--social-media-setup",
+    "name": "social-media-setup",
+    "description": "Social media register: platforms and handles, post captions and hashtags, publishing cadence, approval status and profile checklist. Use for social account setup.",
+    "category": "Video & audio",
+    "tags": [
+      "social",
+      "media",
+      "setup",
+      "register",
+      "platforms",
+      "handles",
+      "post",
+      "captions",
+      "hashtags",
+      "publishing",
+      "cadence",
+      "approval",
+      "status",
+      "profile",
+      "checklist.",
+      "account",
+      "setup."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/social-media-setup",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/social-media-setup",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 6,
+    "bytes": 31612,
+    "sha256": "4857458ad5d414e933c7d5cdf21f8b90ad7e0c880e56ebbcc61361d07891550a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/social-media-setup/SKILL.md",
+      "bytes": 25037,
+      "sha256": "4857458ad5d414e933c7d5cdf21f8b90ad7e0c880e56ebbcc61361d07891550a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/social-media-setup/SKILL.md"
+    },
+    {
+      "path": "references/common-pitfalls.md",
+      "sourcePath": "skills/social-media-setup/references/common-pitfalls.md",
+      "bytes": 2056,
+      "sha256": "32e9bdfc8f30776affc8abc51bcd03cfc2c5300337b6e36873926103fec62f6f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/social-media-setup/references/common-pitfalls.md"
+    },
+    {
+      "path": "references/related-skills.md",
+      "sourcePath": "skills/social-media-setup/references/related-skills.md",
+      "bytes": 1076,
+      "sha256": "9cfaf07d9ea4e3dd874d6fe12b951654e7d09768e81f220d33fd22791cf72b2b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/social-media-setup/references/related-skills.md"
+    },
+    {
+      "path": "references/reusable-prompt.md",
+      "sourcePath": "skills/social-media-setup/references/reusable-prompt.md",
+      "bytes": 547,
+      "sha256": "a06b8002f287173df3db8e17a7deac4010c2b77488162ee513d0bad026a2266e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/social-media-setup/references/reusable-prompt.md"
+    },
+    {
+      "path": "references/security-safety-notes.md",
+      "sourcePath": "skills/social-media-setup/references/security-safety-notes.md",
+      "bytes": 1823,
+      "sha256": "125200fb0d4d6b0e0b878342748da4b28c34cef83c42564a389650b0e612191b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/social-media-setup/references/security-safety-notes.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "f7b6ad888b30c6af8f51a6bb983a58162c3eab599d9341d23840b39c3a85b72b"
+}

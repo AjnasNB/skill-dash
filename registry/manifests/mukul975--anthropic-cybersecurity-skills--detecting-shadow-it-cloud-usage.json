@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-shadow-it-cloud-usage",
+    "name": "detecting-shadow-it-cloud-usage",
+    "description": "Detect unauthorized SaaS and cloud service usage (shadow IT) by parsing proxy access logs, DNS query logs, and firewall/netflow data with Python pandas to aggregate traffic by domain, classify domains against known SaaS categories, and score risk by data volume and user count. Use when auditing an organization for unsanctioned cloud/SaaS usage or generating a shadow IT discovery report with remediation recommendations.",
+    "category": "Data & research",
+    "tags": [
+      "detecting",
+      "shadow",
+      "it",
+      "cloud",
+      "usage",
+      "detect",
+      "unauthorized",
+      "saas",
+      "service",
+      "by",
+      "parsing",
+      "proxy",
+      "access",
+      "logs",
+      "dns",
+      "query",
+      "firewall",
+      "netflow"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-shadow-it-cloud-usage/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-shadow-it-cloud-usage",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-shadow-it-cloud-usage",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 27263,
+    "sha256": "76fce3d8c3c709bc06bf562305c2f1aae6ccff309c95e9498b4b3b8c7ffe1d28",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-shadow-it-cloud-usage/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-shadow-it-cloud-usage/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-shadow-it-cloud-usage/SKILL.md",
+      "bytes": 2549,
+      "sha256": "76fce3d8c3c709bc06bf562305c2f1aae6ccff309c95e9498b4b3b8c7ffe1d28",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-shadow-it-cloud-usage/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-shadow-it-cloud-usage/references/api-reference.md",
+      "bytes": 2399,
+      "sha256": "f9010adf973f6c9709a2df335cf839531d5a5d9665bc0645fc2e644ef994aefa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-shadow-it-cloud-usage/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-shadow-it-cloud-usage/scripts/agent.py",
+      "bytes": 11060,
+      "sha256": "815640a63eb102321ccde92bf82f600607daa19b1184e76b3b70fd9aa1e5bc86",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-shadow-it-cloud-usage/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "83ea411b2ca934d343f4de1a29565f6e12c9e40f80d172f5be209bca860537e2"
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-serverless-function-security-review",
+    "name": "performing-serverless-function-security-review",
+    "description": "Performing security reviews of serverless functions across AWS Lambda, Azure Functions, and GCP Cloud Functions to identify overly permissive execution roles, insecure environment variables, injection vulnerabilities, and missing runtime protections.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "serverless",
+      "function",
+      "security",
+      "review",
+      "reviews",
+      "functions",
+      "across",
+      "aws",
+      "lambda",
+      "azure",
+      "gcp",
+      "cloud",
+      "identify",
+      "overly",
+      "permissive",
+      "execution",
+      "roles"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-serverless-function-security-review/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-serverless-function-security-review",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-serverless-function-security-review",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 31880,
+    "sha256": "70b331ce7f8e63e3d868938a31707bbcd156fc2b5a8d6166fa244dc316e01ff5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-serverless-function-security-review/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-serverless-function-security-review/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-serverless-function-security-review/SKILL.md",
+      "bytes": 12489,
+      "sha256": "70b331ce7f8e63e3d868938a31707bbcd156fc2b5a8d6166fa244dc316e01ff5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-serverless-function-security-review/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-serverless-function-security-review/references/api-reference.md",
+      "bytes": 2793,
+      "sha256": "35ff698c7ff4d7f56b84946b3e71dbea20b33acb4b7899f408e12945847d699d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-serverless-function-security-review/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-serverless-function-security-review/scripts/agent.py",
+      "bytes": 5343,
+      "sha256": "0f92b40c19a2ac2515ac44b22741aed75103330a111af969ca51f1ff72b24300",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-serverless-function-security-review/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "f366c0861937e8f348243f4ff9450577c2c42dfc2749766658bb89cc638b8050"
+}

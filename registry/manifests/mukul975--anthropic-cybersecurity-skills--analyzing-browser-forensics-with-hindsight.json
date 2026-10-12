@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-browser-forensics-with-hindsight",
+    "name": "analyzing-browser-forensics-with-hindsight",
+    "description": "Parse Chromium-based browser databases with Hindsight to extract and correlate browsing history, downloads, cookies, cached content, autofill data, saved passwords, and extensions from Chrome, Edge, Brave, Opera, and Vivaldi into a unified timeline (XLSX, JSON, or SQLite output). Use during incident response, insider-threat investigations, or criminal cases when you need to reconstruct a user's web activity from a browser profile.",
+    "category": "Documents",
+    "tags": [
+      "analyzing",
+      "browser",
+      "forensics",
+      "hindsight",
+      "parse",
+      "chromium",
+      "based",
+      "databases",
+      "extract",
+      "correlate",
+      "browsing",
+      "history",
+      "downloads",
+      "cookies",
+      "cached",
+      "content",
+      "autofill",
+      "data"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-browser-forensics-with-hindsight/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-browser-forensics-with-hindsight",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-browser-forensics-with-hindsight",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 38157,
+    "sha256": "2a1b299850c069234806eae7f7a11263c489ffe5c8a3eba02b9cd3da4ebc1f10",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-browser-forensics-with-hindsight/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-browser-forensics-with-hindsight/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-browser-forensics-with-hindsight/SKILL.md",
+      "bytes": 11104,
+      "sha256": "2a1b299850c069234806eae7f7a11263c489ffe5c8a3eba02b9cd3da4ebc1f10",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-browser-forensics-with-hindsight/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/analyzing-browser-forensics-with-hindsight/assets/template.md",
+      "bytes": 438,
+      "sha256": "f33219790ae47045cb3f88f91f05d1c9771bd68a2e4eb8c8649085cd07cf9da1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-browser-forensics-with-hindsight/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-browser-forensics-with-hindsight/references/api-reference.md",
+      "bytes": 2761,
+      "sha256": "7b60fea1d5b0d0cdb9f7b6f1c80074a28b4b1964b8f5206d13c6aa2dfefdb532",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-browser-forensics-with-hindsight/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/analyzing-browser-forensics-with-hindsight/references/standards.md",
+      "bytes": 594,
+      "sha256": "2e4b053e572739ea3fcb62250d1b1c017a8b4c71331e2e5f6017355582ba5fb4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-browser-forensics-with-hindsight/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/analyzing-browser-forensics-with-hindsight/references/workflows.md",
+      "bytes": 444,
+      "sha256": "930eaf200b95aaa1d048cc8a74edf0b2989fb48fa6fb41495b6b5962637a86bf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-browser-forensics-with-hindsight/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-browser-forensics-with-hindsight/scripts/agent.py",
+      "bytes": 9964,
+      "sha256": "bda036d07694cd854ae19c2ac43bb1988b8ea0413912bd037a48d5fbe6aaa93d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-browser-forensics-with-hindsight/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/analyzing-browser-forensics-with-hindsight/scripts/process.py",
+      "bytes": 1597,
+      "sha256": "0e7e7ae94d3cf6f411a24e736ab5ad5c2e295d5c4d3ffeb561706b02a7b12f09",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-browser-forensics-with-hindsight/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "64e68dd1beeaa90893a7c4790dfad360a622fe435ece32685e012b62bcd6a7b9"
+}

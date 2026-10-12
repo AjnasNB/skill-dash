@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--securing-agentic-ai-tool-invocation",
+    "name": "securing-agentic-ai-tool-invocation",
+    "description": "Implements defense-in-depth controls at an AI agent's tool-invocation boundary using tool allowlisting, least-privilege identity binding, NeMo Guardrails policy enforcement, human-in-the-loop approval, and audit logging. Use when hardening an agent that calls tools with real side effects (email, payments, file writes, code execution), mapping OWASP Agentic AI Top 10 controls, or bounding prompt-injection blast radius.",
+    "category": "Security",
+    "tags": [
+      "securing",
+      "agentic",
+      "ai",
+      "tool",
+      "invocation",
+      "implements",
+      "defense",
+      "depth",
+      "controls",
+      "at",
+      "agent",
+      "boundary",
+      "allowlisting",
+      "least",
+      "privilege",
+      "identity",
+      "binding",
+      "nemo"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/securing-agentic-ai-tool-invocation/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/securing-agentic-ai-tool-invocation",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-agentic-ai-tool-invocation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 32476,
+    "sha256": "9bc5fbdd43961c9d02212b11d11ac9f3029bdd51d2bcbe40b41b174169a3278d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/securing-agentic-ai-tool-invocation/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-agentic-ai-tool-invocation/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/securing-agentic-ai-tool-invocation/SKILL.md",
+      "bytes": 11854,
+      "sha256": "9bc5fbdd43961c9d02212b11d11ac9f3029bdd51d2bcbe40b41b174169a3278d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-agentic-ai-tool-invocation/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/securing-agentic-ai-tool-invocation/references/api-reference.md",
+      "bytes": 2108,
+      "sha256": "e429e1d1cdbf95b585fd8d8e851ef1d790ed901ed3f1ec8dfdabc18f2cc1d6b3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-agentic-ai-tool-invocation/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/securing-agentic-ai-tool-invocation/references/standards.md",
+      "bytes": 1719,
+      "sha256": "951f908be1a650127e7402b084fee0372e6d7bf56495c71cb57051bb5771a852",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-agentic-ai-tool-invocation/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/securing-agentic-ai-tool-invocation/scripts/agent.py",
+      "bytes": 5540,
+      "sha256": "4f59d9b26e33205df66eeac19a97d2a9feca0fab85ae5450d00d9516b7777e8d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-agentic-ai-tool-invocation/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "f7ad2445773fa8204c1249f3e684d769fafde7488aa8958ba8f7e38776918bcd"
+}

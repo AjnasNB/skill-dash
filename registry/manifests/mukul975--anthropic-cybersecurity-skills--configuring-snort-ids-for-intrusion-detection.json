@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--configuring-snort-ids-for-intrusion-detection",
+    "name": "configuring-snort-ids-for-intrusion-detection",
+    "description": "Installs, configures, and tunes Snort 3 to monitor network traffic for malicious activity using custom and community rulesets, preprocessors, and alert output plugins. Use when deploying network-based intrusion detection at key boundaries, writing custom Snort rules, tuning rulesets to reduce false positives, or integrating Snort alerts with a SIEM.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "configuring",
+      "snort",
+      "ids",
+      "intrusion",
+      "detection",
+      "installs",
+      "configures",
+      "tunes",
+      "monitor",
+      "network",
+      "traffic",
+      "malicious",
+      "activity",
+      "custom",
+      "community",
+      "rulesets",
+      "preprocessors",
+      "alert"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/configuring-snort-ids-for-intrusion-detection/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/configuring-snort-ids-for-intrusion-detection",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-snort-ids-for-intrusion-detection",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34791,
+    "sha256": "cd4718406daf6353b76144274df2242fa612ea4d8261528f331331d9f1db7d45",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/configuring-snort-ids-for-intrusion-detection/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-snort-ids-for-intrusion-detection/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/configuring-snort-ids-for-intrusion-detection/SKILL.md",
+      "bytes": 14004,
+      "sha256": "cd4718406daf6353b76144274df2242fa612ea4d8261528f331331d9f1db7d45",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-snort-ids-for-intrusion-detection/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/configuring-snort-ids-for-intrusion-detection/references/api-reference.md",
+      "bytes": 2245,
+      "sha256": "4ebd704d1728261014b3dee671a7b7250ab048d3b946a47420c18c6242a657e1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-snort-ids-for-intrusion-detection/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/configuring-snort-ids-for-intrusion-detection/scripts/agent.py",
+      "bytes": 7287,
+      "sha256": "0a9ac29af2fab2cc759e355a8fd9b00012e91acddd50442389693ea04bb35bcb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-snort-ids-for-intrusion-detection/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "60bd419e16722b570391be9f076bbf63669ebee5250dd73d039a8d52c0ae359b"
+}

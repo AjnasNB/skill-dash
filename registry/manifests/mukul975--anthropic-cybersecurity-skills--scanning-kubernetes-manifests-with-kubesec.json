@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--scanning-kubernetes-manifests-with-kubesec",
+    "name": "scanning-kubernetes-manifests-with-kubesec",
+    "description": "Scores Kubernetes resource manifests with Kubesec to flag misconfiguration and privilege-escalation risk before deployment, mapping each finding back to the securityContext change that fixes it. Use when gating manifests in CI, reviewing YAML or a rendered chart before it reaches a cluster, or explaining why a manifest scored negatively. Keywords: Kubesec, manifest score, securityContext, readOnlyRootFilesystem, runAsNonRoot, CI gate. Do not use for scanning built images for CVEs - use scanning-docker-images-with-trivy; for admission-time enforcement use implementing-opa-gatekeeper-for-policy-enforcement.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "scanning",
+      "kubernetes",
+      "manifests",
+      "kubesec",
+      "scores",
+      "resource",
+      "flag",
+      "misconfiguration",
+      "privilege",
+      "escalation",
+      "risk",
+      "before",
+      "deployment",
+      "mapping",
+      "each",
+      "finding",
+      "back",
+      "securitycontext"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/scanning-kubernetes-manifests-with-kubesec/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/scanning-kubernetes-manifests-with-kubesec",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-kubernetes-manifests-with-kubesec",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 41710,
+    "sha256": "b1ad22d0ae2f4fa6a49ce9cd1d9a4f10c0f160331f22f91b1f6e1c97d43d50aa",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/scanning-kubernetes-manifests-with-kubesec/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-kubernetes-manifests-with-kubesec/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/scanning-kubernetes-manifests-with-kubesec/SKILL.md",
+      "bytes": 9232,
+      "sha256": "b1ad22d0ae2f4fa6a49ce9cd1d9a4f10c0f160331f22f91b1f6e1c97d43d50aa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-kubernetes-manifests-with-kubesec/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/scanning-kubernetes-manifests-with-kubesec/assets/template.md",
+      "bytes": 1130,
+      "sha256": "bb76cae7072a85161d1d51e954347f5f445dcb476f5af8424a71bc18690653fe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-kubernetes-manifests-with-kubesec/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/scanning-kubernetes-manifests-with-kubesec/references/api-reference.md",
+      "bytes": 1807,
+      "sha256": "a4c9802df77213f543bb6b613845c9805fe57aecbe6976f4dace1f9e68064545",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-kubernetes-manifests-with-kubesec/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/scanning-kubernetes-manifests-with-kubesec/references/standards.md",
+      "bytes": 1875,
+      "sha256": "cc2afe430682cc2b7eb94896bd5999d94f2e64e6d566a5ba6af2b6e6ecbc5b25",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-kubernetes-manifests-with-kubesec/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/scanning-kubernetes-manifests-with-kubesec/references/workflows.md",
+      "bytes": 2088,
+      "sha256": "a172c707c079838b760027d904c2c21cc69b5c22c36402b13a6833786f4b90c8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-kubernetes-manifests-with-kubesec/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/scanning-kubernetes-manifests-with-kubesec/scripts/agent.py",
+      "bytes": 5839,
+      "sha256": "42a79f4580e310ada86dfc32cb1afa5669eb9bfaf3995ff0f0da6f8285aec2b0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-kubernetes-manifests-with-kubesec/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/scanning-kubernetes-manifests-with-kubesec/scripts/process.py",
+      "bytes": 8484,
+      "sha256": "522577bc795fb116cc4196d384fd71ac56e7b400f4c95020b942d2e94e7b861e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-kubernetes-manifests-with-kubesec/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "26f2888bdb26997665f37ffd9e50e38a8190ad06535820c2ed634ab1aeb52aab"
+}

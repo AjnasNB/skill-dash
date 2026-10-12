@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-cloud-security-posture-management",
+    "name": "implementing-cloud-security-posture-management",
+    "description": "Continuously monitor multi-cloud environments (AWS, Azure, GCP) for misconfigurations, compliance violations, and security risks using Prowler, ScoutSuite, AWS Security Hub, Microsoft Defender for Cloud, and GCP Security Command Center. Use for cross-cloud posture monitoring, CIS/SOC 2/PCI DSS compliance, or drift-detection workflows; not for runtime workload protection or application security testing.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "cloud",
+      "security",
+      "posture",
+      "management",
+      "continuously",
+      "monitor",
+      "multi",
+      "environments",
+      "aws",
+      "azure",
+      "gcp",
+      "misconfigurations",
+      "compliance",
+      "violations",
+      "risks",
+      "prowler",
+      "scoutsuite"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-cloud-security-posture-management/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-cloud-security-posture-management",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-security-posture-management",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 46077,
+    "sha256": "8fb8740263de5456d96bd4ec667a54489198d2b3d259736ea5a6df790b56effb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-cloud-security-posture-management/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-security-posture-management/LICENSE"
+    },
+    {
+      "path": "SKILL.es.md",
+      "sourcePath": "skills/implementing-cloud-security-posture-management/SKILL.es.md",
+      "bytes": 12963,
+      "sha256": "da0b7530d09a2c7f57766f288b53842785eec1f2c6e63fe4bd409e77d83e0e8a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-security-posture-management/SKILL.es.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-cloud-security-posture-management/SKILL.md",
+      "bytes": 12082,
+      "sha256": "8fb8740263de5456d96bd4ec667a54489198d2b3d259736ea5a6df790b56effb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-security-posture-management/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-cloud-security-posture-management/references/api-reference.md",
+      "bytes": 1946,
+      "sha256": "3a2e6132675d57743c9ee6ffa1027c746d9e39acc86391f18f3dc5786050c91a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-security-posture-management/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-cloud-security-posture-management/scripts/agent.py",
+      "bytes": 7831,
+      "sha256": "9a605a3120bafc77eced57f30d47f92fcd14e8b357d95fa44d6accee782caf1b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-security-posture-management/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "7c0222977d009d73ad3b3732c2c95ca8297194050231d147d7e73de508975d35"
+}

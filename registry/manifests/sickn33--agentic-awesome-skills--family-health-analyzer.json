@@ -1,1 +1,53 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--family-health-analyzer","name":"family-health-analyzer","description":"分析家族病史、评估遗传风险、识别家庭健康模式、提供个性化预防建议","category":"Development","tags":["family","health","analyzer","分析家族病史","评估遗传风险","识别家庭健康模式","提供个性化预防建议"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":46853,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"21efc48cceaf0f7043fa496ad8fcd5815637121e","path":"skills/family-health-analyzer","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/family-health-analyzer","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T06:08:57Z","fileCount":2,"bytes":4593,"sha256":"ef6992547f0f666bbcc988c971d8e85fece6a90ae80424be3aef45212d6609f0","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/family-health-analyzer/SKILL.md","bytes":3520,"sha256":"ef6992547f0f666bbcc988c971d8e85fece6a90ae80424be3aef45212d6609f0","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/family-health-analyzer/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/LICENSE"}],"archiveSha256":"1f3a9a79c9026e1594815f29a008fa7dee372479b845201513c8281b6b9b24a0"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--family-health-analyzer",
+    "name": "family-health-analyzer",
+    "description": "分析家族病史、评估遗传风险、识别家庭健康模式、提供个性化预防建议",
+    "category": "Development",
+    "tags": [
+      "family",
+      "health",
+      "analyzer",
+      "分析家族病史",
+      "评估遗传风险",
+      "识别家庭健康模式",
+      "提供个性化预防建议"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/family-health-analyzer",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/family-health-analyzer",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4593,
+    "sha256": "ef6992547f0f666bbcc988c971d8e85fece6a90ae80424be3aef45212d6609f0",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/family-health-analyzer/SKILL.md",
+      "bytes": 3520,
+      "sha256": "ef6992547f0f666bbcc988c971d8e85fece6a90ae80424be3aef45212d6609f0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/family-health-analyzer/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "2b5630210f0c83c221f9461c9ca1a560c8472e46a6ca8869e89323bd3ecd7f5a"
+}

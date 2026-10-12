@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--gbp-local-seo-intent",
+    "name": "gbp-local-seo-intent",
+    "description": "Google Business Profile register: element, primary and supporting keywords, search intent, landing page, post dates, review rating and reply status, visibility and status. Use for local SEO.",
+    "category": "Marketing",
+    "tags": [
+      "gbp",
+      "local",
+      "seo",
+      "intent",
+      "google",
+      "business",
+      "profile",
+      "register",
+      "element",
+      "primary",
+      "supporting",
+      "keywords",
+      "search",
+      "landing",
+      "page",
+      "post",
+      "dates",
+      "review"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/gbp-local-seo-intent",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gbp-local-seo-intent",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 7,
+    "bytes": 33299,
+    "sha256": "e5426ce59546b8d2d511512c8e80bd7da441f6925da1c72ff41760956e0e71c8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/gbp-local-seo-intent/SKILL.md",
+      "bytes": 23442,
+      "sha256": "e5426ce59546b8d2d511512c8e80bd7da441f6925da1c72ff41760956e0e71c8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gbp-local-seo-intent/SKILL.md"
+    },
+    {
+      "path": "references/best-practices.md",
+      "sourcePath": "skills/gbp-local-seo-intent/references/best-practices.md",
+      "bytes": 2885,
+      "sha256": "a95e93bf489726f064831ef8c9eec022feb86891321dcd02f3bd2e9344023bf9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gbp-local-seo-intent/references/best-practices.md"
+    },
+    {
+      "path": "references/common-pitfalls.md",
+      "sourcePath": "skills/gbp-local-seo-intent/references/common-pitfalls.md",
+      "bytes": 2360,
+      "sha256": "a590f5e1a3f60252cc8ab877ee64c0ed7c6d579d19de57e03a8d8f35b030f1f7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gbp-local-seo-intent/references/common-pitfalls.md"
+    },
+    {
+      "path": "references/related-skills.md",
+      "sourcePath": "skills/gbp-local-seo-intent/references/related-skills.md",
+      "bytes": 1043,
+      "sha256": "5aef7d8e4035f35deeebe915f502aa5b6ce77a718967a20d3855bbcf993dd090",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gbp-local-seo-intent/references/related-skills.md"
+    },
+    {
+      "path": "references/reusable-prompt.md",
+      "sourcePath": "skills/gbp-local-seo-intent/references/reusable-prompt.md",
+      "bytes": 605,
+      "sha256": "d1e576b9b135a3fe97ab21e78b13b28ca5b8ffca61d7ca682707244ea48b7f23",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gbp-local-seo-intent/references/reusable-prompt.md"
+    },
+    {
+      "path": "references/security-safety-notes.md",
+      "sourcePath": "skills/gbp-local-seo-intent/references/security-safety-notes.md",
+      "bytes": 1891,
+      "sha256": "121363189bcc53a4fec8a37645888224d0550dcf25f10d741aa88f6b4524587a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gbp-local-seo-intent/references/security-safety-notes.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "1d21de641ad3750bef87828c39efb7f5b81c4b2e36e583f3c5b18f14752caf6b"
+}

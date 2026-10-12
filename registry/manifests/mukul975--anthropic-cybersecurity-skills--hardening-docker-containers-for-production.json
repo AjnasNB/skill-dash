@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hardening-docker-containers-for-production",
+    "name": "hardening-docker-containers-for-production",
+    "description": "Hardens Dockerfiles, images, and per-container runtime settings against the CIS Docker Benchmark v1.8.0: non-root users, dropped capabilities, read-only root filesystem, seccomp and AppArmor profiles, and minimal multi-stage builds, validated with docker-bench-security, Hadolint, and Dockle. Use when preparing a container or Dockerfile for production, or auditing images and runtime flags against CIS Docker controls. Keywords: Dockerfile, USER, --cap-drop, read-only rootfs, seccomp, AppArmor, multi-stage, Hadolint, Dockle. Do not use for the Docker daemon's own configuration - use hardening-docker-daemon-configuration.",
+    "category": "Security",
+    "tags": [
+      "hardening",
+      "docker",
+      "containers",
+      "production",
+      "hardens",
+      "dockerfiles",
+      "images",
+      "per",
+      "container",
+      "runtime",
+      "settings",
+      "against",
+      "cis",
+      "benchmark",
+      "v1.8.0",
+      "non",
+      "root",
+      "users"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hardening-docker-containers-for-production/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hardening-docker-containers-for-production",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-containers-for-production",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 51418,
+    "sha256": "ba3eff77d91f11daf1d31b4d7542982c96538ead726e73590e353fe65112e9c2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hardening-docker-containers-for-production/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-containers-for-production/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hardening-docker-containers-for-production/SKILL.md",
+      "bytes": 7268,
+      "sha256": "ba3eff77d91f11daf1d31b4d7542982c96538ead726e73590e353fe65112e9c2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-containers-for-production/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/hardening-docker-containers-for-production/assets/template.md",
+      "bytes": 2822,
+      "sha256": "667b540a2a1562e3324c4963b1a3bc41e2d4ce27ebc1adb8c017d0e26b8b469d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-containers-for-production/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hardening-docker-containers-for-production/references/api-reference.md",
+      "bytes": 1818,
+      "sha256": "c69e8243f35669a8ec29cef5db8c423aa8b9ccb64ac57e3cff6dba3b92a8c4ee",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-containers-for-production/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/hardening-docker-containers-for-production/references/standards.md",
+      "bytes": 3676,
+      "sha256": "1006ad5ba7376918a1cbcc8c62a4fd28b869971602a5e22d7551f9109472f19d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-containers-for-production/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/hardening-docker-containers-for-production/references/workflows.md",
+      "bytes": 4344,
+      "sha256": "e7c38a290e094b5efa26b00e6982340d8b9588c3aecd3138703e83503b94c31d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-containers-for-production/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hardening-docker-containers-for-production/scripts/agent.py",
+      "bytes": 5041,
+      "sha256": "b752dffa60b36c10e2f82941f906f2919083eaf2774598788446e03fea8b424e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-containers-for-production/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/hardening-docker-containers-for-production/scripts/process.py",
+      "bytes": 15194,
+      "sha256": "a9f0461277a8d8e5e8ff191bb4d7021dc10b816e322b92c4878a1e81ec942ff9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-containers-for-production/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "b68dd1e3d43585b4f85afa2548b3db9e859b4a4517d6b2b79f5266d866d39f6b"
+}

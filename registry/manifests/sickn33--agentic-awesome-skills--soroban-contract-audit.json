@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--soroban-contract-audit",
+    "name": "soroban-contract-audit",
+    "description": "Soroban smart contract security audit register: authorization checks, panic pathways, integer overflows, and storage footprint verification for Stellar.",
+    "category": "Security",
+    "tags": [
+      "soroban",
+      "contract",
+      "audit",
+      "smart",
+      "security",
+      "register",
+      "authorization",
+      "checks",
+      "panic",
+      "pathways",
+      "integer",
+      "overflows",
+      "storage",
+      "footprint",
+      "verification",
+      "stellar."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/soroban-contract-audit",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/soroban-contract-audit",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6499,
+    "sha256": "a6626c04ce345349e3e6af95e732fc2d317ab456953ed3840c8e17125841ca8a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/soroban-contract-audit/SKILL.md",
+      "bytes": 5426,
+      "sha256": "a6626c04ce345349e3e6af95e732fc2d317ab456953ed3840c8e17125841ca8a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/soroban-contract-audit/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "27be0f620e7df8bed5eb7ee9f32149e3e3becfa9de3f5b2765e99553c4fb10a3"
+}

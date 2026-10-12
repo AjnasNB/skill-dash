@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--triaging-security-incident-with-ir-playbook",
+    "name": "triaging-security-incident-with-ir-playbook",
+    "description": "Classifies and prioritizes security incidents using structured IR playbooks and SIEM/case-management queries (Splunk, TheHive) to determine severity, assign response teams, and initiate the appropriate response procedures. Use when a new SOC alert needs triage, multiple concurrent incidents require prioritization, or automated triage rules need validation or tuning.",
+    "category": "Security",
+    "tags": [
+      "triaging",
+      "security",
+      "incident",
+      "ir",
+      "playbook",
+      "classifies",
+      "prioritizes",
+      "incidents",
+      "structured",
+      "playbooks",
+      "siem",
+      "case",
+      "management",
+      "queries",
+      "splunk",
+      "thehive",
+      "determine",
+      "severity"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/triaging-security-incident-with-ir-playbook/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/triaging-security-incident-with-ir-playbook",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/triaging-security-incident-with-ir-playbook",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 56257,
+    "sha256": "c55843d0884176cae9613f121042e506af5c96785ba42bf71ff13f280f680b5f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/triaging-security-incident-with-ir-playbook/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/triaging-security-incident-with-ir-playbook/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/triaging-security-incident-with-ir-playbook/SKILL.md",
+      "bytes": 8835,
+      "sha256": "c55843d0884176cae9613f121042e506af5c96785ba42bf71ff13f280f680b5f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/triaging-security-incident-with-ir-playbook/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/triaging-security-incident-with-ir-playbook/assets/template.md",
+      "bytes": 2921,
+      "sha256": "b0423fa7f6eadfaddc5c75de671aa0ffafb4562756ecf7c5c0ecb4531aaaf322",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/triaging-security-incident-with-ir-playbook/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/triaging-security-incident-with-ir-playbook/references/api-reference.md",
+      "bytes": 1963,
+      "sha256": "f7f907a7ddaa3aea7d64ad862f53ead97cf5ef89d7b748cc0ca9d67c08754062",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/triaging-security-incident-with-ir-playbook/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/triaging-security-incident-with-ir-playbook/references/standards.md",
+      "bytes": 2361,
+      "sha256": "0e5b4243740434eb6ceae95c3aea9a1f9cdba7099b8352cafcbe7c5cc14d00d5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/triaging-security-incident-with-ir-playbook/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/triaging-security-incident-with-ir-playbook/references/workflows.md",
+      "bytes": 4705,
+      "sha256": "9c11b659a9db90ac028032a7968c5ee3a7adc28d0b82b8080ac0b33734941288",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/triaging-security-incident-with-ir-playbook/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/triaging-security-incident-with-ir-playbook/scripts/agent.py",
+      "bytes": 8659,
+      "sha256": "678395724b843f35fcbb0cc0365252fbbf5965ed332ffe20f428dcb89c2f2db1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/triaging-security-incident-with-ir-playbook/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/triaging-security-incident-with-ir-playbook/scripts/process.py",
+      "bytes": 15558,
+      "sha256": "3012308a94620f7959889515fcee3bdb410ba8b866bf2df216d08669dc46850b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/triaging-security-incident-with-ir-playbook/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "b082167bb4c787b4a4dcd7c13c3763aa563665cceff05f103203366e090f82f5"
+}

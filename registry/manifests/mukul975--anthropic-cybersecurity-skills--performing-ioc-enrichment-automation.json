@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-ioc-enrichment-automation",
+    "name": "performing-ioc-enrichment-automation",
+    "description": "Automates Indicator of Compromise (IOC) enrichment by orchestrating lookups across VirusTotal, AbuseIPDB, Shodan, MISP, and other intelligence sources to provide contextual scoring and disposition recommendations. Use when SOC analysts need rapid multi-source enrichment of IPs, domains, URLs, and file hashes during alert triage or incident investigation.",
+    "category": "Automation",
+    "tags": [
+      "performing",
+      "ioc",
+      "enrichment",
+      "automation",
+      "automates",
+      "indicator",
+      "compromise",
+      "by",
+      "orchestrating",
+      "lookups",
+      "across",
+      "virustotal",
+      "abuseipdb",
+      "shodan",
+      "misp",
+      "other",
+      "intelligence",
+      "sources"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-ioc-enrichment-automation/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-ioc-enrichment-automation",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ioc-enrichment-automation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 39065,
+    "sha256": "7bb61b4af62aff3daa84de774eab18f415dfdab742b28b2aba3ed3f3a14dd1d9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-ioc-enrichment-automation/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ioc-enrichment-automation/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-ioc-enrichment-automation/SKILL.md",
+      "bytes": 16792,
+      "sha256": "7bb61b4af62aff3daa84de774eab18f415dfdab742b28b2aba3ed3f3a14dd1d9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ioc-enrichment-automation/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-ioc-enrichment-automation/references/api-reference.md",
+      "bytes": 1767,
+      "sha256": "024c31ea3f659128a431bbd05c6531f8da36d255eb1ba0c1c10a653194e2da63",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ioc-enrichment-automation/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-ioc-enrichment-automation/scripts/agent.py",
+      "bytes": 9251,
+      "sha256": "25515c8577fc844e142fb6b40260d3bfa9a435a367cc5e903ea5b9166fb1e292",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ioc-enrichment-automation/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "6e83cfac7b8f81af08a5cfbe704b9344ff0b3c073ac1f9cd6fa29d4bf49661e5"
+}

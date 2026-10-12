@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-dmarc-policy-enforcement-rollout",
+    "name": "performing-dmarc-policy-enforcement-rollout",
+    "description": "Execute a phased DMARC rollout by inventorying sending sources, configuring SPF/DKIM alignment, and progressing DNS policy from p=none monitoring through p=quarantine to p=reject enforcement, ensuring all legitimate email sources authenticate before unauthorized senders are blocked. Use when deploying or advancing an organization's DMARC anti-spoofing posture, or when meeting bulk-sender authentication requirements from Google and Yahoo.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "performing",
+      "dmarc",
+      "policy",
+      "enforcement",
+      "rollout",
+      "execute",
+      "phased",
+      "by",
+      "inventorying",
+      "sending",
+      "sources",
+      "configuring",
+      "spf",
+      "dkim",
+      "alignment",
+      "progressing",
+      "dns",
+      "from"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-dmarc-policy-enforcement-rollout/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-dmarc-policy-enforcement-rollout",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dmarc-policy-enforcement-rollout",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 42015,
+    "sha256": "1e385c5e155b1148aa447d5d24376b896405e5680c9c95825a516c4bd3b78338",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-dmarc-policy-enforcement-rollout/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dmarc-policy-enforcement-rollout/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-dmarc-policy-enforcement-rollout/SKILL.md",
+      "bytes": 6239,
+      "sha256": "1e385c5e155b1148aa447d5d24376b896405e5680c9c95825a516c4bd3b78338",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dmarc-policy-enforcement-rollout/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-dmarc-policy-enforcement-rollout/assets/template.md",
+      "bytes": 1577,
+      "sha256": "229e6338827fad107f9beb427ae8e920704a6dc26d22005b82295b0d752c1ef6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dmarc-policy-enforcement-rollout/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-dmarc-policy-enforcement-rollout/references/api-reference.md",
+      "bytes": 907,
+      "sha256": "ddc3429e2cc2cb3118fac811feef2def309db7c37f06043d84a6ae934c3e2611",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dmarc-policy-enforcement-rollout/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-dmarc-policy-enforcement-rollout/references/standards.md",
+      "bytes": 1708,
+      "sha256": "f6483c531e4fff11b4c80c4f803b2123ff8f5a095c32b84c7fcf771d00d66d0a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dmarc-policy-enforcement-rollout/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-dmarc-policy-enforcement-rollout/references/workflows.md",
+      "bytes": 2772,
+      "sha256": "acb1e61036d029ce1be2454957c3feca59ae4e6b5d9456f9f8bed965061b3471",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dmarc-policy-enforcement-rollout/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-dmarc-policy-enforcement-rollout/scripts/agent.py",
+      "bytes": 5543,
+      "sha256": "daffe4ac2b0031f8b642ecb030c13b27f3f42b40bf9beb1e8ca41d089824c582",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dmarc-policy-enforcement-rollout/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-dmarc-policy-enforcement-rollout/scripts/process.py",
+      "bytes": 12014,
+      "sha256": "b64246ed9c56dd155cd148c64f165d348bfd1984b66104bf48b648f7647ed679",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dmarc-policy-enforcement-rollout/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "0bae5361b04d10b42d8a6cc649a12663ed543de712a24f9b45c8cd5bbb19bd72"
+}

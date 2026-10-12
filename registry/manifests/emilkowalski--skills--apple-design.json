@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "emilkowalski--skills--apple-design",
+    "name": "apple-design",
+    "description": "Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions, momentum and interruptible transitions, translucent materials and depth, typography (optical sizing, tracking, leading), reduced-motion, or the design foundations (feedback, spatial consistency, restraint) behind Apple-style interfaces.",
+    "category": "Design",
+    "tags": [
+      "apple",
+      "design",
+      "approach",
+      "interface",
+      "fluid",
+      "physical",
+      "motion",
+      "translated",
+      "web.",
+      "when",
+      "building",
+      "reviewing",
+      "gesture",
+      "driven",
+      "ui",
+      "spring",
+      "animations",
+      "drag"
+    ],
+    "repo": "emilkowalski/skills",
+    "owner": "emilkowalski",
+    "stars": 45550,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "2d228630ba1446365f614a108cb8252f1feda202",
+    "path": "skills/apple-design",
+    "sourceUrl": "https://github.com/emilkowalski/skills/tree/2d228630ba1446365f614a108cb8252f1feda202/skills/apple-design",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T13:58:32Z",
+    "fileCount": 2,
+    "bytes": 24106,
+    "sha256": "77bb63b7043bb93aca2ff4ab040c249484eef35682bb6ff7163433c31d30adc7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/apple-design/SKILL.md",
+      "bytes": 23036,
+      "sha256": "77bb63b7043bb93aca2ff4ab040c249484eef35682bb6ff7163433c31d30adc7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/apple-design/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1070,
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/LICENSE"
+    }
+  ],
+  "archiveSha256": "0dd083ecd670b3722f466ba8caa071c84211c5a2080d927e7adbe2fd1fe19129"
+}

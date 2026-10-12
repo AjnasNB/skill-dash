@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-runtime-security-with-tetragon",
+    "name": "implementing-runtime-security-with-tetragon",
+    "description": "Implements eBPF-based runtime observability and in-kernel enforcement in Kubernetes with Cilium Tetragon, monitoring process execution, file access, network connections, and syscalls, and blocking dangerous calls at the kernel level. Use when deploying Tetragon to detect or block syscalls such as ptrace, mount, and unshare, enforcing kernel-level policy, or adding low-overhead runtime detection to a cluster. Keywords: Tetragon, Cilium, eBPF, TracingPolicy, kprobe, enforcement, process lineage. Do not use for Falco-based detection - use detecting-container-runtime-threats-with-falco.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "runtime",
+      "security",
+      "tetragon",
+      "implements",
+      "ebpf",
+      "based",
+      "observability",
+      "kernel",
+      "enforcement",
+      "kubernetes",
+      "cilium",
+      "monitoring",
+      "process",
+      "execution",
+      "file",
+      "access",
+      "network"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-runtime-security-with-tetragon/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-runtime-security-with-tetragon",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-runtime-security-with-tetragon",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 45962,
+    "sha256": "dcc49d391d1d4a19a095b00623703aea4f7a195f82a2983eee57c13b927c678a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-runtime-security-with-tetragon/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-runtime-security-with-tetragon/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-runtime-security-with-tetragon/SKILL.md",
+      "bytes": 8485,
+      "sha256": "dcc49d391d1d4a19a095b00623703aea4f7a195f82a2983eee57c13b927c678a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-runtime-security-with-tetragon/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-runtime-security-with-tetragon/assets/template.md",
+      "bytes": 2534,
+      "sha256": "9ce4e161989a305928dff7af449f0dadbb46465191b980b7059ce5958593140f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-runtime-security-with-tetragon/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-runtime-security-with-tetragon/references/api-reference.md",
+      "bytes": 957,
+      "sha256": "1dc7429f3ad0629a19fcc81b74da28aeaee5be0d85a296c659acf18e8ba900d1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-runtime-security-with-tetragon/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-runtime-security-with-tetragon/references/standards.md",
+      "bytes": 2066,
+      "sha256": "107a0f0cac6308e01a0c174a41fcc9576777a08c4a5f812fc995befc50521d04",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-runtime-security-with-tetragon/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-runtime-security-with-tetragon/references/workflows.md",
+      "bytes": 2758,
+      "sha256": "1edd64fca2c898b1bec28c8164bcd2a9bdfe9e30ac0073558eea03d9d3a84aad",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-runtime-security-with-tetragon/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-runtime-security-with-tetragon/scripts/agent.py",
+      "bytes": 4193,
+      "sha256": "ec32ef2736c1b8732f52a0d92438f7a696acd7ebb1dda8f7b6f35d4601133d2b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-runtime-security-with-tetragon/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-runtime-security-with-tetragon/scripts/process.py",
+      "bytes": 13714,
+      "sha256": "04eb823ac7f2f292da3cb65afc0f1fc2c569a1f958572e4b91fae324c6fba676",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-runtime-security-with-tetragon/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "3f1aa01c2aa999a77bde96fd24aa133e225a9d4bac9708dc5486d75ba4f1963e"
+}

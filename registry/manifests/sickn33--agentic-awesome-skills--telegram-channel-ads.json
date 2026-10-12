@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--telegram-channel-ads",
+    "name": "telegram-channel-ads",
+    "description": "Vet and price ad posts in Telegram channels: reach benchmarks by size, topic and language, ad-network and channel-age checks, CPM and deletion-window math.",
+    "category": "Development",
+    "tags": [
+      "telegram",
+      "channel",
+      "ads",
+      "vet",
+      "price",
+      "ad",
+      "posts",
+      "channels",
+      "reach",
+      "benchmarks",
+      "by",
+      "size",
+      "topic",
+      "language",
+      "network",
+      "age",
+      "checks",
+      "cpm"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/telegram-channel-ads",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/telegram-channel-ads",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10403,
+    "sha256": "572ae72715d33d2e061d7ff6d2fc066b7a600885e71b0285668fc95371e98f03",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/telegram-channel-ads/SKILL.md",
+      "bytes": 9330,
+      "sha256": "572ae72715d33d2e061d7ff6d2fc066b7a600885e71b0285668fc95371e98f03",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/telegram-channel-ads/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "0eb5e7c04db43945df665b185de903c9c0e6b85e34377879f9d3620e1b994e0e"
+}

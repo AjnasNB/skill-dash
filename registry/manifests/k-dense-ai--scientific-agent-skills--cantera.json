@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--cantera",
+    "name": "cantera",
+    "description": "Runs Cantera homogeneous chemical reactors and evaluates ignition delay with mechanism provenance, conservation checks, and numerical refinement. Use for combustion kinetics, closed adiabatic ideal-gas constant-volume or constant-pressure ignition, temperature histories, or mechanism-specific ignition-delay comparisons.",
+    "category": "Development",
+    "tags": [
+      "cantera",
+      "runs",
+      "homogeneous",
+      "chemical",
+      "reactors",
+      "evaluates",
+      "ignition",
+      "delay",
+      "mechanism",
+      "provenance",
+      "conservation",
+      "checks",
+      "numerical",
+      "refinement.",
+      "combustion",
+      "kinetics",
+      "closed",
+      "adiabatic"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/cantera",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/cantera",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 5,
+    "bytes": 24102,
+    "sha256": "1dcb22bba51475a69dc93bbefa7d2581f3dfdb6a03a6fc55f8637e398f733a51",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/cantera/SKILL.md",
+      "bytes": 8626,
+      "sha256": "1dcb22bba51475a69dc93bbefa7d2581f3dfdb6a03a6fc55f8637e398f733a51",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/cantera/SKILL.md"
+    },
+    {
+      "path": "assets/hydrogen-ignition.json",
+      "sourcePath": "skills/cantera/assets/hydrogen-ignition.json",
+      "bytes": 416,
+      "sha256": "f26f46596235763c25efc27f6879e43d388a6fc1e58c284117b93d83cf3ca90e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/cantera/assets/hydrogen-ignition.json"
+    },
+    {
+      "path": "references/interpretation.md",
+      "sourcePath": "skills/cantera/references/interpretation.md",
+      "bytes": 3273,
+      "sha256": "57919a187c1f48d23c2fe5906ce0cf69b026ed7acf92823cf615d3d529f94d4f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/cantera/references/interpretation.md"
+    },
+    {
+      "path": "scripts/ignition_delay.py",
+      "sourcePath": "skills/cantera/scripts/ignition_delay.py",
+      "bytes": 10719,
+      "sha256": "a9e8d25fec9c2159e08b85db7f146955cbe7053e7d18171e27da4b399fa7f51b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/cantera/scripts/ignition_delay.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "f31b264e78eadaa69feec87683106b1123d2e60abb08a02388154b265829044a"
+}

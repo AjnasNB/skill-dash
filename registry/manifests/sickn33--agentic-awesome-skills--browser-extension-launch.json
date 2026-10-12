@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--browser-extension-launch",
+    "name": "browser-extension-launch",
+    "description": "Builds, tests, packages, and prepares Chrome extensions for store launch from a plain-language idea; use for new extensions, fixes, releases, and submission recovery.",
+    "category": "Development",
+    "tags": [
+      "browser",
+      "extension",
+      "launch",
+      "builds",
+      "tests",
+      "packages",
+      "prepares",
+      "chrome",
+      "extensions",
+      "store",
+      "from",
+      "plain",
+      "language",
+      "idea",
+      "new",
+      "fixes",
+      "releases",
+      "submission"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/browser-extension-launch",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/browser-extension-launch",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 13,
+    "bytes": 99471,
+    "sha256": "b7c212074c1c1b7043f53a344348fc3e0a2a84a9537c35283e2cef09c4afa3eb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/browser-extension-launch/SKILL.md",
+      "bytes": 12135,
+      "sha256": "b7c212074c1c1b7043f53a344348fc3e0a2a84a9537c35283e2cef09c4afa3eb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/browser-extension-launch/SKILL.md"
+    },
+    {
+      "path": "references/acceptance.md",
+      "sourcePath": "skills/browser-extension-launch/references/acceptance.md",
+      "bytes": 11833,
+      "sha256": "f6aef612a552ec84bf63f55854e51e5ed5df8a4072b74e6cbcfb535dc59119a6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/browser-extension-launch/references/acceptance.md"
+    },
+    {
+      "path": "references/complex-workflow.md",
+      "sourcePath": "skills/browser-extension-launch/references/complex-workflow.md",
+      "bytes": 6747,
+      "sha256": "fa563b52eb1a965b78823d96de612801550fe680a9e080648aa308ae0a423268",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/browser-extension-launch/references/complex-workflow.md"
+    },
+    {
+      "path": "references/dependencies.md",
+      "sourcePath": "skills/browser-extension-launch/references/dependencies.md",
+      "bytes": 8893,
+      "sha256": "0ea45f91cda0250de390b03ad88c42ac4083b411ad98a3dea09fa8945446474c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/browser-extension-launch/references/dependencies.md"
+    },
+    {
+      "path": "references/development.md",
+      "sourcePath": "skills/browser-extension-launch/references/development.md",
+      "bytes": 6730,
+      "sha256": "eb14bf3a25ad7d034e75c7975fa1cd37baf4d42e72895c05e8b5b7085cfb2a0f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/browser-extension-launch/references/development.md"
+    },
+    {
+      "path": "references/efficient-delivery.md",
+      "sourcePath": "skills/browser-extension-launch/references/efficient-delivery.md",
+      "bytes": 6715,
+      "sha256": "e813dd7fd13085c9dc2e6e1363a677b7b16a38428c82e1bc1b719a6077be4b5c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/browser-extension-launch/references/efficient-delivery.md"
+    },
+    {
+      "path": "references/host-compatibility.md",
+      "sourcePath": "skills/browser-extension-launch/references/host-compatibility.md",
+      "bytes": 3962,
+      "sha256": "a7a056d5582daa3b2937bff32de34461aceeb4a4f14f9fea438e8e27f4f795e5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/browser-extension-launch/references/host-compatibility.md"
+    },
+    {
+      "path": "references/playwright-mcp.md",
+      "sourcePath": "skills/browser-extension-launch/references/playwright-mcp.md",
+      "bytes": 8723,
+      "sha256": "f92816dcea06f60f82ec5ad633546f65f697d98a58800e865569df63e73366c2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/browser-extension-launch/references/playwright-mcp.md"
+    },
+    {
+      "path": "references/product-loop.md",
+      "sourcePath": "skills/browser-extension-launch/references/product-loop.md",
+      "bytes": 4396,
+      "sha256": "0896df1017e5d0a4e0a08e83e8b4ece058659b116c00aa1aa0d7cb6ea03eee82",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/browser-extension-launch/references/product-loop.md"
+    },
+    {
+      "path": "references/publishing.md",
+      "sourcePath": "skills/browser-extension-launch/references/publishing.md",
+      "bytes": 12655,
+      "sha256": "b355e7d6fd8f1ce41561f349689db2fc3a55b334aaebba79ca21e38a0b1354be",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/browser-extension-launch/references/publishing.md"
+    },
+    {
+      "path": "references/required-skills.json",
+      "sourcePath": "skills/browser-extension-launch/references/required-skills.json",
+      "bytes": 6502,
+      "sha256": "a6a70c0fb8caeb0fb04c18e370b6bdab1bd98019461d198c98f5ecc6ad7a0360",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/browser-extension-launch/references/required-skills.json"
+    },
+    {
+      "path": "references/workflow.md",
+      "sourcePath": "skills/browser-extension-launch/references/workflow.md",
+      "bytes": 9107,
+      "sha256": "23234d68f4ed09266d9cc9331165ee9046c8bc3cf992cf2d9e24f56c21dc73eb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/browser-extension-launch/references/workflow.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "97c380b904b5438ffdeff0e0aa9a1f4cbf638e06de74b21c78c49f61ff6847c9"
+}

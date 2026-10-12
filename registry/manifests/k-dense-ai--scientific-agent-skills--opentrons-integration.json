@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--opentrons-integration",
+    "name": "opentrons-integration",
+    "description": "Authors, reviews, migrates, simulates, and troubleshoots official Opentrons Python Protocol API v2 protocols for Flex and OT-2 robots. Use for robot-specific liquid handling, deck and labware setup, pipettes, modules, runtime parameters, liquid classes, and Opentrons App analysis. Use pylabrobot instead when one workflow must support multiple robot vendors.",
+    "category": "Automation",
+    "tags": [
+      "opentrons",
+      "integration",
+      "authors",
+      "reviews",
+      "migrates",
+      "simulates",
+      "troubleshoots",
+      "official",
+      "python",
+      "protocol",
+      "api",
+      "v2",
+      "protocols",
+      "flex",
+      "ot",
+      "robots.",
+      "robot",
+      "specific"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/opentrons-integration",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/opentrons-integration",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 17,
+    "bytes": 112110,
+    "sha256": "3600fece96f89e7cedc23d13e48ce7eb25a90698d7ae3d8bae65035d89f392ff",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/opentrons-integration/SKILL.md",
+      "bytes": 15207,
+      "sha256": "3600fece96f89e7cedc23d13e48ce7eb25a90698d7ae3d8bae65035d89f392ff",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/opentrons-integration/SKILL.md"
+    },
+    {
+      "path": "references/api_reference.md",
+      "sourcePath": "skills/opentrons-integration/references/api_reference.md",
+      "bytes": 12935,
+      "sha256": "b9eb6f69448aac21280873001f7d1987025788f73bb094e8d146fa2e84fb717a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/opentrons-integration/references/api_reference.md"
+    },
+    {
+      "path": "references/liquid_handling.md",
+      "sourcePath": "skills/opentrons-integration/references/liquid_handling.md",
+      "bytes": 13245,
+      "sha256": "43ecc24ca569f1d838187fe2b429afa5efa8385a0dcdf4efd147f87033ef6390",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/opentrons-integration/references/liquid_handling.md"
+    },
+    {
+      "path": "references/migration-api-2-19-to-2-29.md",
+      "sourcePath": "skills/opentrons-integration/references/migration-api-2-19-to-2-29.md",
+      "bytes": 8711,
+      "sha256": "e86cb298aa962abfe837ef15d91ff28854814a57b8d56d3eefbee810a0038df0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/opentrons-integration/references/migration-api-2-19-to-2-29.md"
+    },
+    {
+      "path": "references/modules_and_deck.md",
+      "sourcePath": "skills/opentrons-integration/references/modules_and_deck.md",
+      "bytes": 12156,
+      "sha256": "1f591afa878fc53690c30de9a74ad0193b785b46b6160c92c8d22404bdf39c47",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/opentrons-integration/references/modules_and_deck.md"
+    },
+    {
+      "path": "references/protocol_authoring.md",
+      "sourcePath": "skills/opentrons-integration/references/protocol_authoring.md",
+      "bytes": 11685,
+      "sha256": "c4df26ea1df2f6262b5cccab1aba48582cc87c16c8ac7c5462678f2c40aaca7d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/opentrons-integration/references/protocol_authoring.md"
+    },
+    {
+      "path": "references/sources.md",
+      "sourcePath": "skills/opentrons-integration/references/sources.md",
+      "bytes": 9295,
+      "sha256": "473c62c41d48f3dd05b23ab74b151828f30c1cb02b33d8dd7953feee62af60d4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/opentrons-integration/references/sources.md"
+    },
+    {
+      "path": "references/validation_and_operations.md",
+      "sourcePath": "skills/opentrons-integration/references/validation_and_operations.md",
+      "bytes": 10398,
+      "sha256": "fd10cf66e300b9f75dd0114e9224aeb211a6672ae057fa0c82654482933e5eb3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/opentrons-integration/references/validation_and_operations.md"
+    },
+    {
+      "path": "requirements-flex.txt",
+      "sourcePath": "skills/opentrons-integration/requirements-flex.txt",
+      "bytes": 18,
+      "sha256": "3662419994f7633377dbcfb12b7c99093ad80159b398a8cd805b44aa0b7dded0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/opentrons-integration/requirements-flex.txt"
+    },
+    {
+      "path": "requirements-ot2.txt",
+      "sourcePath": "skills/opentrons-integration/requirements-ot2.txt",
+      "bytes": 17,
+      "sha256": "95b907a29f0a2307bafb7849429e2e551fd484b846a43681d909c397e1e5d95d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/opentrons-integration/requirements-ot2.txt"
+    },
+    {
+      "path": "scripts/absorbance_reader_template.py",
+      "sourcePath": "skills/opentrons-integration/scripts/absorbance_reader_template.py",
+      "bytes": 2329,
+      "sha256": "2a88d00fdbccbcc35c1a17c6dc72bbf56321e308abc0c915759ea41fea0f9284",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/opentrons-integration/scripts/absorbance_reader_template.py"
+    },
+    {
+      "path": "scripts/basic_protocol_template.py",
+      "sourcePath": "skills/opentrons-integration/scripts/basic_protocol_template.py",
+      "bytes": 1851,
+      "sha256": "f95d2488c28180f3427d426bb7a8b0de80661070328813f2a3dc7af8c44ff5ce",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/opentrons-integration/scripts/basic_protocol_template.py"
+    },
+    {
+      "path": "scripts/ot2_basic_protocol_template.py",
+      "sourcePath": "skills/opentrons-integration/scripts/ot2_basic_protocol_template.py",
+      "bytes": 1706,
+      "sha256": "9514eb6d4ab0a737cea93a8a0c0b8990c1a9d8fcd7d1f9f8ef250a35d65a126f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/opentrons-integration/scripts/ot2_basic_protocol_template.py"
+    },
+    {
+      "path": "scripts/pcr_setup_template.py",
+      "sourcePath": "skills/opentrons-integration/scripts/pcr_setup_template.py",
+      "bytes": 4774,
+      "sha256": "bd1a6a55cf687a11baea88381b6be028391105917d7c5aa299abe3bf42c645bd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/opentrons-integration/scripts/pcr_setup_template.py"
+    },
+    {
+      "path": "scripts/runtime_parameters_template.py",
+      "sourcePath": "skills/opentrons-integration/scripts/runtime_parameters_template.py",
+      "bytes": 3295,
+      "sha256": "0deec847b4f355400a5ed149f42f85bed703932486ee71ee12d18419fd860ae7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/opentrons-integration/scripts/runtime_parameters_template.py"
+    },
+    {
+      "path": "scripts/serial_dilution_template.py",
+      "sourcePath": "skills/opentrons-integration/scripts/serial_dilution_template.py",
+      "bytes": 3420,
+      "sha256": "b86d6a752f3d33f44a7b3b508d6729fa8234774554a037abd9d9fd0737d22586",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/opentrons-integration/scripts/serial_dilution_template.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "1952991296fb96b1ec21a9959861198ae7ac97be5375e11664bf71fb3ebf6cb4"
+}

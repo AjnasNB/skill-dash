@@ -64,4 +64,11 @@ To submit a new skill for review:
 npx --yes agent-skill-library submit https://github.com/OWNER/REPO --path skills/NAME
 ```
 
-Submissions are queued. They do not automatically become published skills.
+The CLI prepares a proposal form; it does not submit anonymously. The owner verifies email and completes public metadata before submission. Publication requires reviewer approval, including defined agent compatibility and usage.
+
+Agent-first entry point: https://skills.maqamagent.com/agent.md
+Machine manifest: https://skills.maqamagent.com/.well-known/agent.json
+Tool and plugin catalog: https://skills.maqamagent.com/api/tools
+Submission schema: https://skills.maqamagent.com/api/submission-schema
+Additional read-only MCP tools: get_library_info and search_tools. Chatbots are supported in reviewed community listings.
+Publication requires an owner-verified email and reviewer-defined agent compatibility and usage. Email receipts and review outcomes are sent transactionally. Phone is optional, private and unverified.

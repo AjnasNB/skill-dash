@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-malicious-url-with-urlscan",
+    "name": "analyzing-malicious-url-with-urlscan",
+    "description": "URLScan.io is a free service for scanning and analyzing suspicious URLs. It captures screenshots, DOM content, HTTP transactions, JavaScript behavior, and network connections of web pages in an isolat",
+    "category": "Writing",
+    "tags": [
+      "analyzing",
+      "malicious",
+      "url",
+      "urlscan",
+      "urlscan.io",
+      "is",
+      "free",
+      "service",
+      "scanning",
+      "suspicious",
+      "urls.",
+      "it",
+      "captures",
+      "screenshots",
+      "dom",
+      "content",
+      "http",
+      "transactions"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-malicious-url-with-urlscan/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-malicious-url-with-urlscan",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-malicious-url-with-urlscan",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 44655,
+    "sha256": "82f4a952f988eb241bed631580afd6fb3287bcb4463ceaf3648fe29ba1a7eedd",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-malicious-url-with-urlscan/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-malicious-url-with-urlscan/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-malicious-url-with-urlscan/SKILL.md",
+      "bytes": 4054,
+      "sha256": "82f4a952f988eb241bed631580afd6fb3287bcb4463ceaf3648fe29ba1a7eedd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-malicious-url-with-urlscan/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/analyzing-malicious-url-with-urlscan/assets/template.md",
+      "bytes": 1628,
+      "sha256": "a9b140c04d285f040d0d680762925ad904fe151cb4226bab647f09eeebacc741",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-malicious-url-with-urlscan/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-malicious-url-with-urlscan/references/api-reference.md",
+      "bytes": 1514,
+      "sha256": "d4bc589363126dc51c4482e502341f6669e06a8476b9bcaf422d74974f6e4004",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-malicious-url-with-urlscan/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/analyzing-malicious-url-with-urlscan/references/standards.md",
+      "bytes": 1822,
+      "sha256": "1d743fedf98b79577e6e1c51406f170a100ea952200e65bdae9481086997c4da",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-malicious-url-with-urlscan/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/analyzing-malicious-url-with-urlscan/references/workflows.md",
+      "bytes": 2380,
+      "sha256": "8075d39eb358149aa203463b911714eed5ec4c4e9669a715251c9237b1aedf76",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-malicious-url-with-urlscan/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-malicious-url-with-urlscan/scripts/agent.py",
+      "bytes": 6364,
+      "sha256": "aca47f03398334d10e8a75165782eda4d0c08ba474d6d0b844ad4390cd289876",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-malicious-url-with-urlscan/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/analyzing-malicious-url-with-urlscan/scripts/process.py",
+      "bytes": 15638,
+      "sha256": "c32c1257a1350712ac753a2a945dfc5090bf4201a1709f3ccffa3cc039259542",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-malicious-url-with-urlscan/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "2d20652ef46f3e1da0545a617a4b08aca34a7628b12eec59d7064a5dbb0ca243"
+}

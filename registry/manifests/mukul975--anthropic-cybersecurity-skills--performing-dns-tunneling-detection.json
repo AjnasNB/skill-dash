@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-dns-tunneling-detection",
+    "name": "performing-dns-tunneling-detection",
+    "description": "Detects DNS tunneling by computing Shannon entropy of DNS query names, analyzing query length distributions, inspecting TXT record payloads, and identifying high subdomain cardinality. Uses scapy for packet capture analysis and statistical methods to distinguish legitimate DNS from covert channels. Use when hunting for data exfiltration.",
+    "category": "Development",
+    "tags": [
+      "performing",
+      "dns",
+      "tunneling",
+      "detection",
+      "detects",
+      "by",
+      "computing",
+      "shannon",
+      "entropy",
+      "query",
+      "names",
+      "analyzing",
+      "length",
+      "distributions",
+      "inspecting",
+      "txt",
+      "record",
+      "payloads"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-dns-tunneling-detection/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-dns-tunneling-detection",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dns-tunneling-detection",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 21708,
+    "sha256": "b6fea1283120e83f7c62a6011d4711e68e3c7b33b61b30419205ce6a08373fdf",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-dns-tunneling-detection/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dns-tunneling-detection/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-dns-tunneling-detection/SKILL.md",
+      "bytes": 2543,
+      "sha256": "b6fea1283120e83f7c62a6011d4711e68e3c7b33b61b30419205ce6a08373fdf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dns-tunneling-detection/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-dns-tunneling-detection/references/api-reference.md",
+      "bytes": 1596,
+      "sha256": "57fc6ffff40480a70ca10a24c8c1ff39ca741053aa2d1b85aa2cab4a08a60019",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dns-tunneling-detection/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-dns-tunneling-detection/scripts/agent.py",
+      "bytes": 6314,
+      "sha256": "d38f2189fd4cb327f43b94e1153b3bb1faae6f67a2380166794de26e39c630f5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dns-tunneling-detection/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "2ad4efe27bede010ff03282425ebebc33450973cd944fb9d01c1bb455e3244f5"
+}

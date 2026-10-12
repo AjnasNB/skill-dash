@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--why-did-this-post-flop",
+    "name": "why-did-this-post-flop",
+    "description": "Diagnose why one Twitter/X or LinkedIn post underperformed: not seen, seen and skipped, or read and ignored. Use when someone asks why a post did badly or got no engagement.",
+    "category": "Development",
+    "tags": [
+      "why",
+      "did",
+      "post",
+      "flop",
+      "diagnose",
+      "one",
+      "twitter",
+      "linkedin",
+      "underperformed",
+      "not",
+      "seen",
+      "skipped",
+      "read",
+      "ignored.",
+      "when",
+      "someone",
+      "asks",
+      "badly"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/why-did-this-post-flop",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/why-did-this-post-flop",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7097,
+    "sha256": "9f72232f134e49ac645bd3e826fec8f546f8d296ba19aec3d0a9e5715596911e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/why-did-this-post-flop/SKILL.md",
+      "bytes": 6024,
+      "sha256": "9f72232f134e49ac645bd3e826fec8f546f8d296ba19aec3d0a9e5715596911e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/why-did-this-post-flop/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "a68ed58e52c3da2eedb5fcfbd6662c54ab3a58a466cf63c414bced4100df78b8"
+}

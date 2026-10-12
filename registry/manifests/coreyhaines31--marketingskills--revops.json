@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"coreyhaines31--marketingskills--revops","name":"revops","description":"When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' 'marketing-to-sales handoff,' 'data hygiene,' 'leads aren't getting to sales,' 'pipeline management,' 'lead qualification,' or 'when should marketing hand off to sales.' Use this for anything involving the systems and processes that connect marketing to revenue. For cold outreach emails, see cold-email. For email drip campaigns, see emails. For pricing decisions, see pricing.","category":"Marketing","tags":["revops","when","user","wants","revenue","operations","lead","lifecycle","management","marketing","sales","handoff","processes.","also","mentions","scoring","routing","mql"],"repo":"coreyhaines31/marketingskills","owner":"coreyhaines31","stars":51366,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"5b2c0007766c6a1cf1d53fd8fc73e979e0821022","path":"skills/revops","sourceUrl":"https://github.com/coreyhaines31/marketingskills/tree/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/revops","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-05T04:48:02Z","fileCount":7,"bytes":54675,"sha256":"bb27b16ad41c5c2d4fea14c12359c6a01fc755f2bb91140f0c2c43b05b3adb10","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/revops/SKILL.md","bytes":15341,"sha256":"bb27b16ad41c5c2d4fea14c12359c6a01fc755f2bb91140f0c2c43b05b3adb10","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/revops/SKILL.md"},{"path":"evals/evals.json","sourcePath":"skills/revops/evals/evals.json","bytes":6143,"sha256":"bda1dd0d19785c8d5f71370fba0cab11c9af16c06813dcee2157e559dafbefc1","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/revops/evals/evals.json"},{"path":"references/automation-playbooks.md","sourcePath":"skills/revops/references/automation-playbooks.md","bytes":10861,"sha256":"567efd379af6102e7eec95b7a630f29451c5a16ad93c4ae91a97d52ccb8428ea","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/revops/references/automation-playbooks.md"},{"path":"references/lifecycle-definitions.md","sourcePath":"skills/revops/references/lifecycle-definitions.md","bytes":7019,"sha256":"210c730e815b82f6c06d67482e667c40f9ae2179886e318ccb25f1e31e09ca1f","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/revops/references/lifecycle-definitions.md"},{"path":"references/routing-rules.md","sourcePath":"skills/revops/references/routing-rules.md","bytes":6792,"sha256":"9057c207550ff289e84d6b25ca9d38b436c98a517e0aa4f30c2ff8f09f5d8370","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/revops/references/routing-rules.md"},{"path":"references/scoring-models.md","sourcePath":"skills/revops/references/scoring-models.md","bytes":7450,"sha256":"923062ddfd0e0eab5fbdb51286c484afd3fee6d42b10eb91b40a39e764b1beb5","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/revops/references/scoring-models.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1069,"sha256":"b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/LICENSE"}],"archiveSha256":"2e78a78b464cad45e8ef73983f1448ab6eaf036cd9a791356b9ec40a62317924"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "coreyhaines31--marketingskills--revops",
+    "name": "revops",
+    "description": "When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'outbound pipeline stages,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' 'marketing-to-sales handoff,' 'data hygiene,' 'leads aren't getting to sales,' 'pipeline management,' 'lead qualification,' or 'when should marketing hand off to sales.' Use this for anything involving the systems and processes that connect marketing to revenue. For cold outreach emails, see cold-email. For email drip campaigns, see emails. For pricing decisions, see pricing.",
+    "category": "Marketing",
+    "tags": [
+      "revops",
+      "when",
+      "user",
+      "wants",
+      "revenue",
+      "operations",
+      "lead",
+      "lifecycle",
+      "management",
+      "marketing",
+      "sales",
+      "handoff",
+      "processes.",
+      "also",
+      "mentions",
+      "scoring",
+      "outbound",
+      "pipeline"
+    ],
+    "repo": "coreyhaines31/marketingskills",
+    "owner": "coreyhaines31",
+    "stars": 54287,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff",
+    "path": "skills/revops",
+    "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/revops",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-08T21:51:37Z",
+    "fileCount": 8,
+    "bytes": 63667,
+    "sha256": "b20c88739af875081659ed86ad36c72f69230cd716258b8c1ac53b60a5c04e36",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/revops/SKILL.md",
+      "bytes": 16473,
+      "sha256": "b20c88739af875081659ed86ad36c72f69230cd716258b8c1ac53b60a5c04e36",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/revops/SKILL.md"
+    },
+    {
+      "path": "evals/evals.json",
+      "sourcePath": "skills/revops/evals/evals.json",
+      "bytes": 7169,
+      "sha256": "fa11d55563f5178a42309f9704c38df716ade44918197578d3c4fc06ff62e344",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/revops/evals/evals.json"
+    },
+    {
+      "path": "references/automation-playbooks.md",
+      "sourcePath": "skills/revops/references/automation-playbooks.md",
+      "bytes": 10905,
+      "sha256": "a49dfd46a75092895ee5f28c89cb0bdad1afc3ec6c76d9ff200abc7babeb349a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/revops/references/automation-playbooks.md"
+    },
+    {
+      "path": "references/inbound-routing.md",
+      "sourcePath": "skills/revops/references/inbound-routing.md",
+      "bytes": 4642,
+      "sha256": "d177d982745142231b9ad1df715817d91cd5198dac52826902843079403105ff",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/revops/references/inbound-routing.md"
+    },
+    {
+      "path": "references/lifecycle-definitions.md",
+      "sourcePath": "skills/revops/references/lifecycle-definitions.md",
+      "bytes": 9167,
+      "sha256": "89b5c51f0296977df1fccea20dc96e98e539cc1f2786b796fdb43e2a3d5b8219",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/revops/references/lifecycle-definitions.md"
+    },
+    {
+      "path": "references/routing-rules.md",
+      "sourcePath": "skills/revops/references/routing-rules.md",
+      "bytes": 6792,
+      "sha256": "9057c207550ff289e84d6b25ca9d38b436c98a517e0aa4f30c2ff8f09f5d8370",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/revops/references/routing-rules.md"
+    },
+    {
+      "path": "references/scoring-models.md",
+      "sourcePath": "skills/revops/references/scoring-models.md",
+      "bytes": 7450,
+      "sha256": "923062ddfd0e0eab5fbdb51286c484afd3fee6d42b10eb91b40a39e764b1beb5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/revops/references/scoring-models.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"
+    }
+  ],
+  "archiveSha256": "001b38be6fb25f7c20300cf5d792f9797f4cc98bb42230892c37c34551ac907c"
+}

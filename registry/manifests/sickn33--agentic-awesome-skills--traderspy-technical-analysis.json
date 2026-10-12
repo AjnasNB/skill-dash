@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--traderspy-technical-analysis",
+    "name": "traderspy-technical-analysis",
+    "description": "Read one crypto futures pair with TraderSpy: 19 indicators on up to 3 timeframes in one call, key levels, funding, open interest and positioning. Use for \"analyse BTC\" or \"is SOL oversold\".",
+    "category": "Development",
+    "tags": [
+      "traderspy",
+      "technical",
+      "analysis",
+      "read",
+      "one",
+      "crypto",
+      "futures",
+      "pair",
+      "19",
+      "indicators",
+      "up",
+      "timeframes",
+      "call",
+      "key",
+      "levels",
+      "funding",
+      "open",
+      "interest"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/traderspy-technical-analysis",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/traderspy-technical-analysis",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 4,
+    "bytes": 19798,
+    "sha256": "504118ce7ea883a4fb8b8f48589fb3a6379ab5a98db9e479f2bd143db24af15c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/traderspy-technical-analysis/SKILL.md",
+      "bytes": 10298,
+      "sha256": "504118ce7ea883a4fb8b8f48589fb3a6379ab5a98db9e479f2bd143db24af15c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/traderspy-technical-analysis/SKILL.md"
+    },
+    {
+      "path": "references/derivatives-guide.md",
+      "sourcePath": "skills/traderspy-technical-analysis/references/derivatives-guide.md",
+      "bytes": 2937,
+      "sha256": "b8be3a475744ef7ba2a5f8e9c12b5aeec44e098b8ec4adf9f534e1a8d335c934",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/traderspy-technical-analysis/references/derivatives-guide.md"
+    },
+    {
+      "path": "references/indicator-guide.md",
+      "sourcePath": "skills/traderspy-technical-analysis/references/indicator-guide.md",
+      "bytes": 5490,
+      "sha256": "22fda2b6fdbcb3ccc32a0b026aced0c6d95f183e414a08a0cda3c6ef71432179",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/traderspy-technical-analysis/references/indicator-guide.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "412330dafc427ca3fc189392ff6fb234c6698398bc10352e32aece8956afe9fb"
+}

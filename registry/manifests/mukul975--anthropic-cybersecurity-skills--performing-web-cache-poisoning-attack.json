@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-web-cache-poisoning-attack",
+    "name": "performing-web-cache-poisoning-attack",
+    "description": "Exploiting web cache mechanisms to serve malicious content to other users by poisoning cached responses through unkeyed headers and parameters during authorized security tests.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "web",
+      "cache",
+      "poisoning",
+      "attack",
+      "exploiting",
+      "mechanisms",
+      "serve",
+      "malicious",
+      "content",
+      "other",
+      "users",
+      "by",
+      "cached",
+      "responses",
+      "through",
+      "unkeyed",
+      "headers"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-web-cache-poisoning-attack/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-web-cache-poisoning-attack",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-cache-poisoning-attack",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34044,
+    "sha256": "52c72a075c6c2c150cd7f30f5a484117060141baa70b43b2ba3912c1c355f587",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-web-cache-poisoning-attack/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-cache-poisoning-attack/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-web-cache-poisoning-attack/SKILL.md",
+      "bytes": 12543,
+      "sha256": "52c72a075c6c2c150cd7f30f5a484117060141baa70b43b2ba3912c1c355f587",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-cache-poisoning-attack/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-web-cache-poisoning-attack/references/api-reference.md",
+      "bytes": 2166,
+      "sha256": "3a84036f32e84ddb1aa4a1d090560f7b64bef3e22d252df52054f86a3501747d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-cache-poisoning-attack/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-web-cache-poisoning-attack/scripts/agent.py",
+      "bytes": 8080,
+      "sha256": "c248709bd6393b936c332ca31b3c42aff003cfff384c2c7c216fbe698481be9e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-cache-poisoning-attack/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "2d77ff4fb4d405355b05bc16a681a2bc71a71d84494ef46f6d9b1a837cc80e7c"
+}

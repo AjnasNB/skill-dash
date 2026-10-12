@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-firmware-extraction-with-binwalk",
+    "name": "performing-firmware-extraction-with-binwalk",
+    "description": "Performs firmware image extraction and analysis using binwalk to identify embedded filesystems, compressed archives, bootloaders, kernel images, and cryptographic material. Covers entropy analysis for detecting encrypted or compressed regions, recursive extraction of nested archives, SquashFS/CramFS/JFFS2 filesystem mounting, and string analysis for credential and configuration discovery. Activates for requests involving firmware reverse engineering, IoT device analysis, embedded system security assessment, or router/camera firmware extraction.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "firmware",
+      "extraction",
+      "binwalk",
+      "performs",
+      "image",
+      "analysis",
+      "identify",
+      "embedded",
+      "filesystems",
+      "compressed",
+      "archives",
+      "bootloaders",
+      "kernel",
+      "images",
+      "cryptographic",
+      "material.",
+      "covers"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-firmware-extraction-with-binwalk/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-firmware-extraction-with-binwalk",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-firmware-extraction-with-binwalk",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 44066,
+    "sha256": "ee0aebde3da369802a25de83b09d8efcc3016539eecc5fdca5b236236dec24df",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-firmware-extraction-with-binwalk/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-firmware-extraction-with-binwalk/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-firmware-extraction-with-binwalk/SKILL.md",
+      "bytes": 11125,
+      "sha256": "ee0aebde3da369802a25de83b09d8efcc3016539eecc5fdca5b236236dec24df",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-firmware-extraction-with-binwalk/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-firmware-extraction-with-binwalk/references/api-reference.md",
+      "bytes": 4999,
+      "sha256": "c02954d6a5ef9477764de737838d2b0f1986d23e69c3cbbc6e9d46f72012c346",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-firmware-extraction-with-binwalk/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-firmware-extraction-with-binwalk/scripts/agent.py",
+      "bytes": 16687,
+      "sha256": "a31ee415256850cdd1321fa35a9296be8ecf25f8c5312a26b32edf99deb95478",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-firmware-extraction-with-binwalk/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "434c66ff3968dc5aa087416b30134346feed0c4ce33d99d66a1ba4bb7d7e27fb"
+}

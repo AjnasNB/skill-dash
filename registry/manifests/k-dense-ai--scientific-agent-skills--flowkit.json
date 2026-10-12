@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--flowkit",
+    "name": "flowkit",
+    "description": "Analyzes flow cytometry data with FlowKit, including spillover compensation, logicle and biexponential transforms, hierarchical gating, GatingML strategies, and supported FlowJo 10 workspaces. Use for reproducible gate counts, population percentages, gated fluorescence summaries, or reproducing a FlowJo analysis in Python. For FCS metadata inspection or file-format repair alone, use FlowIO.",
+    "category": "Development",
+    "tags": [
+      "flowkit",
+      "analyzes",
+      "flow",
+      "cytometry",
+      "data",
+      "including",
+      "spillover",
+      "compensation",
+      "logicle",
+      "biexponential",
+      "transforms",
+      "hierarchical",
+      "gating",
+      "gatingml",
+      "strategies",
+      "supported",
+      "flowjo",
+      "10"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/flowkit",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/flowkit",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 5,
+    "bytes": 29977,
+    "sha256": "47c4dcb907dc6ec15daa4bdf1855e9c96860ef1a558507bef0084d79c2d1c57c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/flowkit/SKILL.md",
+      "bytes": 8749,
+      "sha256": "47c4dcb907dc6ec15daa4bdf1855e9c96860ef1a558507bef0084d79c2d1c57c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/flowkit/SKILL.md"
+    },
+    {
+      "path": "references/compensation-and-gating.md",
+      "sourcePath": "skills/flowkit/references/compensation-and-gating.md",
+      "bytes": 4878,
+      "sha256": "d9a84ff2a42a3148c8e90e50a8b39fbfd8a30e52852edb98103f66cc21db80f0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/flowkit/references/compensation-and-gating.md"
+    },
+    {
+      "path": "references/workspaces-and-results.md",
+      "sourcePath": "skills/flowkit/references/workspaces-and-results.md",
+      "bytes": 6505,
+      "sha256": "c864c2a5ff1c953e0374b6e44f162da59710c81edce50168547862d1fe034b7c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/flowkit/references/workspaces-and-results.md"
+    },
+    {
+      "path": "scripts/analyze_gates.py",
+      "sourcePath": "skills/flowkit/scripts/analyze_gates.py",
+      "bytes": 8777,
+      "sha256": "b186ca0b7c17bda61471dace814bbb60af001a06f66dacb801fb21f1bbf689f8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/flowkit/scripts/analyze_gates.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "4c5b97f6c6a984e4570ac711944df41973a1a7d61231737e5d3d0bca62857c48"
+}

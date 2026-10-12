@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--scanning-docker-images-with-trivy",
+    "name": "scanning-docker-images-with-trivy",
+    "description": "Scans a Docker image with Trivy for vulnerabilities in OS packages and language dependencies, misconfiguration, exposed secrets, and licence violations, emitting SARIF, CycloneDX, or SPDX output. Use when scanning or gating a specific image, wiring an image scan into CI/CD, or checking an image during an incident investigation. Keywords: Trivy, image scan, --severity, --exit-code, SARIF, ignore file, .trivyignore. Do not use for cluster-wide scanning or non-image targets - use performing-container-security-scanning-with-trivy; when the toolchain is Grype use scanning-container-images-with-grype.",
+    "category": "Security",
+    "tags": [
+      "scanning",
+      "docker",
+      "images",
+      "trivy",
+      "scans",
+      "image",
+      "vulnerabilities",
+      "os",
+      "packages",
+      "language",
+      "dependencies",
+      "misconfiguration",
+      "exposed",
+      "secrets",
+      "licence",
+      "violations",
+      "emitting",
+      "sarif"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/scanning-docker-images-with-trivy/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/scanning-docker-images-with-trivy",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-docker-images-with-trivy",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 45033,
+    "sha256": "f72fe3c07d19f7956416bc4dd46e732d04f936c7fb121b003cb52633da96c42b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/scanning-docker-images-with-trivy/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-docker-images-with-trivy/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/scanning-docker-images-with-trivy/SKILL.md",
+      "bytes": 7588,
+      "sha256": "f72fe3c07d19f7956416bc4dd46e732d04f936c7fb121b003cb52633da96c42b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-docker-images-with-trivy/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/scanning-docker-images-with-trivy/assets/template.md",
+      "bytes": 1698,
+      "sha256": "aa5442725680a8cd85ebedfb828f8395e4f1d31fb828dc5d2989064e7de364bb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-docker-images-with-trivy/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/scanning-docker-images-with-trivy/references/api-reference.md",
+      "bytes": 1633,
+      "sha256": "15113aa1078081dbcfc6feabeeaa4c8ca7c0529ef1975172339e2465cd2b2f94",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-docker-images-with-trivy/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/scanning-docker-images-with-trivy/references/standards.md",
+      "bytes": 2517,
+      "sha256": "34e3082eca2597c5e3171f1cf045a7b1581097156f8cbf3796482ce120ef1ef8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-docker-images-with-trivy/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/scanning-docker-images-with-trivy/references/workflows.md",
+      "bytes": 3689,
+      "sha256": "804d16cccbbf68b66aa48a7d5dd3eecd593970cb490547906c9b3a8c3983e0c4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-docker-images-with-trivy/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/scanning-docker-images-with-trivy/scripts/agent.py",
+      "bytes": 5696,
+      "sha256": "a1ef5c5be761e8a976875f37905f2dc599d16dd9b1e631b89cfca5ac923e925e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-docker-images-with-trivy/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/scanning-docker-images-with-trivy/scripts/process.py",
+      "bytes": 10957,
+      "sha256": "aed9738f18840a4115790303ae4db7dec18bb5d34d96a5439b8bf22df81037c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-docker-images-with-trivy/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "e8fc95d0528b0516b94bd809a5a26156350916e714ab44f656fd506df4c5ff09"
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-active-directory-forest-trust-attack",
+    "name": "performing-active-directory-forest-trust-attack",
+    "description": "Enumerate and audit Active Directory forest trust relationships using Impacket for SID filtering analysis, trust key extraction, cross-forest SID history abuse detection, and inter-realm Kerberos ticket assessment. Use when red-teaming multi-forest AD environments or auditing forest trusts for cross-forest privilege escalation and trust ticket forgery exposure.",
+    "category": "Development",
+    "tags": [
+      "performing",
+      "active",
+      "directory",
+      "forest",
+      "trust",
+      "attack",
+      "enumerate",
+      "audit",
+      "relationships",
+      "impacket",
+      "sid",
+      "filtering",
+      "analysis",
+      "key",
+      "extraction",
+      "cross",
+      "history",
+      "abuse"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-active-directory-forest-trust-attack/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-active-directory-forest-trust-attack",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-forest-trust-attack",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 26634,
+    "sha256": "82c3fd92bb26017c7d3aee16353434ee6b602b6d8d68c7a329fa9d3a65f951c2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-active-directory-forest-trust-attack/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-forest-trust-attack/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-active-directory-forest-trust-attack/SKILL.md",
+      "bytes": 2698,
+      "sha256": "82c3fd92bb26017c7d3aee16353434ee6b602b6d8d68c7a329fa9d3a65f951c2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-forest-trust-attack/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-active-directory-forest-trust-attack/references/api-reference.md",
+      "bytes": 2691,
+      "sha256": "6d95b835e8cab7bc5784ef64b75780ea219bcd1eec1117d64aa11943604891bb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-forest-trust-attack/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-active-directory-forest-trust-attack/scripts/agent.py",
+      "bytes": 9990,
+      "sha256": "5079c32100269dec5ba39af11b7cbd5aa59de63a42fe6fe3d884668ae803a848",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-forest-trust-attack/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "07869596d7d6ba5830516912fa8eea7abe6c80d10b6447c451077d0ad2fec34d"
+}

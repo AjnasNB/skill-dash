@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-sigstore-for-software-signing",
+    "name": "implementing-sigstore-for-software-signing",
+    "description": "Implements Sigstore-based software signing and verification using Cosign keyless signing, Rekor transparency log verification, and Fulcio certificate authority integration to establish cryptographic provenance for container images, binaries, and software artifacts, including OIDC-based identity binding and CI/CD pipeline integration. Use when setting up keyless container/artifact signing, verifying signatures against the Rekor transparency log, or deploying Sigstore in a supply-chain security workflow.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "sigstore",
+      "software",
+      "signing",
+      "implements",
+      "based",
+      "verification",
+      "cosign",
+      "keyless",
+      "rekor",
+      "transparency",
+      "log",
+      "fulcio",
+      "certificate",
+      "authority",
+      "integration",
+      "establish",
+      "cryptographic"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-sigstore-for-software-signing/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-sigstore-for-software-signing",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-sigstore-for-software-signing",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 47567,
+    "sha256": "42380174d29d94e86bd3d0436fdd29ac38cb002365492115bda8e21fd49c78f8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-sigstore-for-software-signing/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-sigstore-for-software-signing/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-sigstore-for-software-signing/SKILL.md",
+      "bytes": 12933,
+      "sha256": "42380174d29d94e86bd3d0436fdd29ac38cb002365492115bda8e21fd49c78f8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-sigstore-for-software-signing/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-sigstore-for-software-signing/references/api-reference.md",
+      "bytes": 5257,
+      "sha256": "a53145df205618e7dbbeb24e32726ad9ba51b43fff47ed6fd58f3d9c3958e701",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-sigstore-for-software-signing/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-sigstore-for-software-signing/scripts/agent.py",
+      "bytes": 18122,
+      "sha256": "257375e1073153ddd397c2e473f6d5888201f688ff8101fabdcae53e8ad0659d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-sigstore-for-software-signing/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "ed20c81da025dc32153f3fa39c0a589c473e5abf3007d696769c53208a0ad82b"
+}

@@ -1,9 +1,8 @@
 {
-  "minimumStars": 1000,
+  "minimumStars": 10000,
   "sources": [
     { "repo": "anthropics/skills", "prefixes": ["skills/"], "official": true },
     { "repo": "openai/skills", "prefixes": ["skills/.curated/"], "official": true },
-    { "repo": "cloudflare/skills", "prefixes": ["skills/"], "official": true },
     { "repo": "heygen-com/hyperframes", "prefixes": ["skills/"], "official": true },
     { "repo": "obra/superpowers", "prefixes": ["skills/"] },
     { "repo": "pbakaus/impeccable", "prefixes": [".agents/skills/"] },
@@ -15,6 +14,10 @@
     { "repo": "alirezarezvani/claude-skills", "prefixes": [""] },
     { "repo": "Jeffallan/claude-skills", "prefixes": ["skills/"] },
     { "repo": "phuryn/pm-skills", "prefixes": [""] },
-    { "repo": "sickn33/agentic-awesome-skills", "prefixes": ["skills/"] }
+    { "repo": "sickn33/agentic-awesome-skills", "prefixes": ["skills/"] },
+    { "repo": "K-Dense-AI/scientific-agent-skills", "prefixes": ["skills/"] },
+    { "repo": "mukul975/Anthropic-Cybersecurity-Skills", "prefixes": ["skills/"] },
+    { "repo": "emilkowalski/skills", "prefixes": ["skills/"] },
+    { "repo": "vercel-labs/agent-skills", "prefixes": ["skills/"] }
   ]
 }

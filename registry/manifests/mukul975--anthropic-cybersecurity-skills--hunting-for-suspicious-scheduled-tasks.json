@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-for-suspicious-scheduled-tasks",
+    "name": "hunting-for-suspicious-scheduled-tasks",
+    "description": "Hunts for adversary persistence and execution via Windows scheduled tasks (T1053.005) by analyzing Security Event ID 4698 task-creation events, suspicious task properties, and unusual execution patterns from schtasks.exe/at.exe. Use after detecting schtasks or at.exe in process creation logs, during incident response to enumerate persistence on compromised hosts, or when Event ID 4698 fires for an unusual task.",
+    "category": "Security",
+    "tags": [
+      "hunting",
+      "suspicious",
+      "scheduled",
+      "tasks",
+      "hunts",
+      "adversary",
+      "persistence",
+      "execution",
+      "via",
+      "windows",
+      "t1053.005",
+      "by",
+      "analyzing",
+      "security",
+      "event",
+      "id",
+      "4698",
+      "task"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-for-suspicious-scheduled-tasks/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-for-suspicious-scheduled-tasks",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-suspicious-scheduled-tasks",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 33308,
+    "sha256": "b46e05f21d3876e085fe7b96cf3d22ceacc140aec86091ddfa5b76c3b5099493",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-for-suspicious-scheduled-tasks/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-suspicious-scheduled-tasks/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-for-suspicious-scheduled-tasks/SKILL.md",
+      "bytes": 4879,
+      "sha256": "b46e05f21d3876e085fe7b96cf3d22ceacc140aec86091ddfa5b76c3b5099493",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-suspicious-scheduled-tasks/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/hunting-for-suspicious-scheduled-tasks/assets/template.md",
+      "bytes": 786,
+      "sha256": "2da218e3d25d96118be85eafa2cfbd9c6d2ef5bbda8d44a3cae0ff8201d88cd9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-suspicious-scheduled-tasks/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-for-suspicious-scheduled-tasks/references/api-reference.md",
+      "bytes": 1931,
+      "sha256": "c8e8d90f6376e96eac53484dd346911a0bdeaff1b11854cb3b8433f6891fcecd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-suspicious-scheduled-tasks/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/hunting-for-suspicious-scheduled-tasks/references/standards.md",
+      "bytes": 1418,
+      "sha256": "ef7837efab69295db9ea4d00b1cb3fcd91f4d7b98ba27f9f92d5b6229240a376",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-suspicious-scheduled-tasks/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/hunting-for-suspicious-scheduled-tasks/references/workflows.md",
+      "bytes": 1279,
+      "sha256": "d2488793cf94ac10c1aafaa83e2657398410f48f83c27a461c62e582e0dbd327",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-suspicious-scheduled-tasks/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-for-suspicious-scheduled-tasks/scripts/agent.py",
+      "bytes": 6998,
+      "sha256": "c04bfa81a08bb17bdae50bea82192871b940b5a68de985ccf37045478098b4e4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-suspicious-scheduled-tasks/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/hunting-for-suspicious-scheduled-tasks/scripts/process.py",
+      "bytes": 4762,
+      "sha256": "478efee80a1966d50d28fbe1d5394c321ec7b6366c29178cf648a2f87ab9692d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-suspicious-scheduled-tasks/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "b2baa5b0f8b373663ae7d774005d7fd815fa65c1356fe05352201d1871246291"
+}

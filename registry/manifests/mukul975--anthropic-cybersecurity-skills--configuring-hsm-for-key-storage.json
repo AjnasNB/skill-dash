@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--configuring-hsm-for-key-storage",
+    "name": "configuring-hsm-for-key-storage",
+    "description": "Configures Hardware Security Modules for cryptographic key storage using the PKCS#11 standard interface, covering key generation, signing, encryption, and key management on physical HSMs and SoftHSM2 for development. Use when protecting cryptographic keys so they never leave a hardened device boundary, or when building and testing PKCS#11-based key management workflows.",
+    "category": "Security",
+    "tags": [
+      "configuring",
+      "hsm",
+      "key",
+      "storage",
+      "configures",
+      "hardware",
+      "security",
+      "modules",
+      "cryptographic",
+      "pkcs#11",
+      "standard",
+      "interface",
+      "covering",
+      "generation",
+      "signing",
+      "encryption",
+      "management",
+      "physical"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/configuring-hsm-for-key-storage/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/configuring-hsm-for-key-storage",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-hsm-for-key-storage",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 39390,
+    "sha256": "3935f439854d9d375f0e55f5aff110cf9d9a521c1143303b786e86d58c23aed6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/configuring-hsm-for-key-storage/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-hsm-for-key-storage/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/configuring-hsm-for-key-storage/SKILL.md",
+      "bytes": 3935,
+      "sha256": "3935f439854d9d375f0e55f5aff110cf9d9a521c1143303b786e86d58c23aed6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-hsm-for-key-storage/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/configuring-hsm-for-key-storage/assets/template.md",
+      "bytes": 1254,
+      "sha256": "7026c5c4230dfad5671ede95dc51e9a770a0bdabbacf0529e207701521d3c7eb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-hsm-for-key-storage/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/configuring-hsm-for-key-storage/references/api-reference.md",
+      "bytes": 1807,
+      "sha256": "4aa3832180ed0fbfea49e9032720d4e5e80146dc0a8459a61f496dfe17d40e69",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-hsm-for-key-storage/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/configuring-hsm-for-key-storage/references/standards.md",
+      "bytes": 1611,
+      "sha256": "429b1957021596ffa7ebd76b769dbe6002f7b444422314a6f975425bc4d91360",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-hsm-for-key-storage/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/configuring-hsm-for-key-storage/references/workflows.md",
+      "bytes": 1586,
+      "sha256": "d25a5cee63968e77a63b15475386d30fc7f672d9e21fcad3cd613b690e646d92",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-hsm-for-key-storage/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/configuring-hsm-for-key-storage/scripts/agent.py",
+      "bytes": 4940,
+      "sha256": "4e0c9d4bf6f95a9dabe445c1f525f4c20c90a309e5a9fc8c3abcf469adda92d2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-hsm-for-key-storage/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/configuring-hsm-for-key-storage/scripts/process.py",
+      "bytes": 13002,
+      "sha256": "a08e4909cffe5bd08f96854454adb536e3c79dbb68a87c77d8c70169d7628da2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-hsm-for-key-storage/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "44d77a3d86527585bc1b93945e43756729f7043d0bb57bfee58fa5f06e2425e9"
+}

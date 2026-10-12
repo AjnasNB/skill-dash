@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-zero-trust-with-hashicorp-boundary",
+    "name": "implementing-zero-trust-with-hashicorp-boundary",
+    "description": "Installs and configures HashiCorp Boundary as a default-deny, identity-aware proxy for infrastructure access, including controller/worker setup, Vault-backed credential brokering, session recording, and OIDC/LDAP auth across an org/project scope hierarchy. Use when replacing VPN or direct network access with just-in-time, credential-less Boundary sessions, or standing up Boundary controllers and workers.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "zero",
+      "trust",
+      "hashicorp",
+      "boundary",
+      "installs",
+      "configures",
+      "as",
+      "default",
+      "deny",
+      "identity",
+      "aware",
+      "proxy",
+      "infrastructure",
+      "access",
+      "including",
+      "controller",
+      "worker"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-zero-trust-with-hashicorp-boundary/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-zero-trust-with-hashicorp-boundary",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-with-hashicorp-boundary",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 54778,
+    "sha256": "8829049ad31120de34667c9cd2da06e43d43d045083bfa50824af38773d19e79",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-zero-trust-with-hashicorp-boundary/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-with-hashicorp-boundary/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-zero-trust-with-hashicorp-boundary/SKILL.md",
+      "bytes": 15546,
+      "sha256": "8829049ad31120de34667c9cd2da06e43d43d045083bfa50824af38773d19e79",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-with-hashicorp-boundary/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-zero-trust-with-hashicorp-boundary/assets/template.md",
+      "bytes": 1381,
+      "sha256": "70e42df333e9910548eee4ddf6cc9a7bbdb64a42ea381e49140db1e5fc651b07",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-with-hashicorp-boundary/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-zero-trust-with-hashicorp-boundary/references/api-reference.md",
+      "bytes": 1636,
+      "sha256": "b77a650270f3874830d9171cc3d5d3ac02ac92d11167278e88f53ffab83cc9d6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-with-hashicorp-boundary/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-zero-trust-with-hashicorp-boundary/references/standards.md",
+      "bytes": 2275,
+      "sha256": "bafed4290b339e96c3ee4397b4377b364e6fb2dbcc962be9a5a1d429b407f02e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-with-hashicorp-boundary/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-zero-trust-with-hashicorp-boundary/references/workflows.md",
+      "bytes": 3496,
+      "sha256": "685efd9f14b36685237a190a054c7871c83720dd28cb64b1031dd9bcf5280471",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-with-hashicorp-boundary/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-zero-trust-with-hashicorp-boundary/scripts/agent.py",
+      "bytes": 6815,
+      "sha256": "cd0b22b7d1e6eb3e2a92a7ed883c35faf335a0877b466c0986afc2d244e3d1a2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-with-hashicorp-boundary/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-zero-trust-with-hashicorp-boundary/scripts/process.py",
+      "bytes": 12374,
+      "sha256": "b8ea7dc4a252c57ffde6f593e62361a614cfcf7fac770c1abe0ce5096e48d453",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-with-hashicorp-boundary/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "da7af97a6df02e3ecae2ad5387d3d23769abe856c0ec6b76b994c8062d60e05b"
+}

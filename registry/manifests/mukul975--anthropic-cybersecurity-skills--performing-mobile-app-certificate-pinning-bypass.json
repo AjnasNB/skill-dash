@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-mobile-app-certificate-pinning-bypass",
+    "name": "performing-mobile-app-certificate-pinning-bypass",
+    "description": "Bypasses SSL/TLS certificate pinning implementations in Android and iOS applications to enable traffic interception during authorized security assessments. Covers OkHttp, TrustManager, NSURLSession, and third-party pinning library bypass techniques using Frida, Objection, and custom scripts. Activates for requests involving certificate pinning bypass, SSL pinning defeat, mobile TLS interception, or proxy-resistant app testing.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "mobile",
+      "app",
+      "certificate",
+      "pinning",
+      "bypass",
+      "bypasses",
+      "ssl",
+      "tls",
+      "implementations",
+      "android",
+      "ios",
+      "applications",
+      "enable",
+      "traffic",
+      "interception",
+      "during",
+      "authorized"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-mobile-app-certificate-pinning-bypass/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-mobile-app-certificate-pinning-bypass",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-mobile-app-certificate-pinning-bypass",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 36621,
+    "sha256": "b3d5118d2533c6e55767a019b036a8aadb031dd3e193f2f2539b03c9c8a9e1c4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-mobile-app-certificate-pinning-bypass/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-mobile-app-certificate-pinning-bypass/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-mobile-app-certificate-pinning-bypass/SKILL.md",
+      "bytes": 8687,
+      "sha256": "b3d5118d2533c6e55767a019b036a8aadb031dd3e193f2f2539b03c9c8a9e1c4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-mobile-app-certificate-pinning-bypass/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-mobile-app-certificate-pinning-bypass/assets/template.md",
+      "bytes": 560,
+      "sha256": "0fe4a8465b819212488ed3ac423b60c1dcaa937e8c7d7dd58d991baea1ad794c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-mobile-app-certificate-pinning-bypass/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-mobile-app-certificate-pinning-bypass/references/api-reference.md",
+      "bytes": 1506,
+      "sha256": "163ba90713f5283d11713d5dddc7f66921df5c8d30acb93707715e5b04a27fad",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-mobile-app-certificate-pinning-bypass/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-mobile-app-certificate-pinning-bypass/references/standards.md",
+      "bytes": 760,
+      "sha256": "37124a3a1076185e0bd729ab72fa12a6ebae67fa31b59a284fbec29dec8772fe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-mobile-app-certificate-pinning-bypass/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-mobile-app-certificate-pinning-bypass/references/workflows.md",
+      "bytes": 1554,
+      "sha256": "3b2641faf1a7f0e51eb7432c52901c3c42a81bf959c92e3eacdf1de7d8125242",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-mobile-app-certificate-pinning-bypass/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-mobile-app-certificate-pinning-bypass/scripts/agent.py",
+      "bytes": 6878,
+      "sha256": "2bd3b4df5629247edbb99ebf909e531c2fd2be30c8171af511bc718621b5e29e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-mobile-app-certificate-pinning-bypass/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-mobile-app-certificate-pinning-bypass/scripts/process.py",
+      "bytes": 5421,
+      "sha256": "105a5328fb113da5b1a4ec4a7149e1e767a91e6b470cb0e2f1a35482a88bd95b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-mobile-app-certificate-pinning-bypass/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "92c6056d69c71dcc0b3432d4b38b9fd9e98ee79b7ed230897f98d902ead0ce2f"
+}

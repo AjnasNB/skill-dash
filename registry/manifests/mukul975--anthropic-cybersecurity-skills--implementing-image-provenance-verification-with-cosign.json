@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-image-provenance-verification-with-cosign",
+    "name": "implementing-image-provenance-verification-with-cosign",
+    "description": "Signs and verifies container image provenance with Sigstore Cosign, covering key-based and keyless OIDC signing (Fulcio, Rekor transparency log), SLSA attestations, and enforcing signature verification through Kubernetes admission control. Use when signing images for supply chain security, setting up keyless OIDC signing, attaching attestations, or enforcing a verified-images-only policy at admission. Keywords: Cosign, Sigstore, Fulcio, Rekor, keyless, attestation, cosign verify, admission policy. Do not use for in-toto layout-based pipeline attestation - use implementing-supply-chain-security-with-in-toto.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "image",
+      "provenance",
+      "verification",
+      "cosign",
+      "signs",
+      "verifies",
+      "container",
+      "sigstore",
+      "covering",
+      "key",
+      "based",
+      "keyless",
+      "oidc",
+      "signing",
+      "fulcio",
+      "rekor",
+      "transparency"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-image-provenance-verification-with-cosign/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-image-provenance-verification-with-cosign",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-image-provenance-verification-with-cosign",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 40022,
+    "sha256": "e836d42f10ea144f32cf5975936a071848edcc93e66f8cfa6328a24c2b091015",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-image-provenance-verification-with-cosign/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-image-provenance-verification-with-cosign/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-image-provenance-verification-with-cosign/SKILL.md",
+      "bytes": 9003,
+      "sha256": "e836d42f10ea144f32cf5975936a071848edcc93e66f8cfa6328a24c2b091015",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-image-provenance-verification-with-cosign/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-image-provenance-verification-with-cosign/assets/template.md",
+      "bytes": 1358,
+      "sha256": "1c7ce97503c4a0ae88c9e3a8a2f5ee0cfed29dfeb5e4dc6a38d0470d823c08bb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-image-provenance-verification-with-cosign/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-image-provenance-verification-with-cosign/references/api-reference.md",
+      "bytes": 1939,
+      "sha256": "76104659cd7d676bc4cb2ebf01f15acd6224ac98f2f5549ff20913eb42358163",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-image-provenance-verification-with-cosign/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-image-provenance-verification-with-cosign/references/standards.md",
+      "bytes": 1361,
+      "sha256": "0960bfc3ebfad3e48f6bf330851bb2ad7880e8848d3907a11efd95de2aaeb0ae",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-image-provenance-verification-with-cosign/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-image-provenance-verification-with-cosign/references/workflows.md",
+      "bytes": 1245,
+      "sha256": "073e46aacd3cbd4c2e365d4495bd1001c68a32431ba59d886300766bd6ce14e7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-image-provenance-verification-with-cosign/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-image-provenance-verification-with-cosign/scripts/agent.py",
+      "bytes": 7704,
+      "sha256": "6f4f3200e795cb358de84d870ac93e398a148430238688f320203a24f7899dbf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-image-provenance-verification-with-cosign/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-image-provenance-verification-with-cosign/scripts/process.py",
+      "bytes": 6157,
+      "sha256": "71667eba94410bc175308cc1fe74a1ae6e18b046e79b5c49f9f306e8226d4489",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-image-provenance-verification-with-cosign/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "e0ffe74d429c9161ef030876c57fc6928b8ad3ffd0342329f248fdeec5d64a75"
+}

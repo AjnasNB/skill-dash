@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--generate-image",
+    "name": "generate-image",
+    "description": "Generates or edits images with AI models through the OpenRouter Image API (Gemini, Seedream, Recraft, GPT-Image, Riverflow). Use for photos, illustrations, artwork, concept art, visual assets, logos, and image editing or compositing from reference images. For flowcharts, circuits, pathways, and other technical diagrams, use the scientific-schematics skill instead.",
+    "category": "Data & research",
+    "tags": [
+      "generate",
+      "image",
+      "generates",
+      "edits",
+      "images",
+      "ai",
+      "models",
+      "through",
+      "openrouter",
+      "api",
+      "gemini",
+      "seedream",
+      "recraft",
+      "gpt",
+      "riverflow",
+      "photos",
+      "illustrations",
+      "artwork"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/generate-image",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/generate-image",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 4,
+    "bytes": 66562,
+    "sha256": "42438be890c5ba875ddee1bbbf505e623433886a2b180f21b2012f72d038f92a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/generate-image/SKILL.md",
+      "bytes": 17865,
+      "sha256": "42438be890c5ba875ddee1bbbf505e623433886a2b180f21b2012f72d038f92a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/generate-image/SKILL.md"
+    },
+    {
+      "path": "references/models.md",
+      "sourcePath": "skills/generate-image/references/models.md",
+      "bytes": 15244,
+      "sha256": "fcce8823d585de4274a6126dacd26c4591a3c4c07981c012c3c6354844bb3b23",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/generate-image/references/models.md"
+    },
+    {
+      "path": "scripts/generate_image.py",
+      "sourcePath": "skills/generate-image/scripts/generate_image.py",
+      "bytes": 32385,
+      "sha256": "977b40ddc398a6e62f13e61482237363251b5d4b17b9997e947e2ef87fb12a6a",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/generate-image/scripts/generate_image.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "6e2437d33c1ccd4b3c28efd4cd372f01a1a11f7fe39d9a8a4769a986e8ef456f"
+}

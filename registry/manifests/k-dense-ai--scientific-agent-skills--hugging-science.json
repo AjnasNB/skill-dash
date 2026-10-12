@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--hugging-science",
+    "name": "hugging-science",
+    "description": "Discovers and evaluates scientific datasets, models, methodology posts, and Spaces through the Hugging Science catalog. Used when selecting scientific ML resources in biology, chemistry, genomics, materials, climate, physics, astronomy, medicine, mathematics, protein design, single-cell analysis, or PDE modeling, and when checking their actual datasets, Transformers, native-runtime, Inference Providers, or Gradio interfaces.",
+    "category": "Design",
+    "tags": [
+      "hugging",
+      "science",
+      "discovers",
+      "evaluates",
+      "scientific",
+      "datasets",
+      "models",
+      "methodology",
+      "posts",
+      "spaces",
+      "through",
+      "catalog.",
+      "used",
+      "when",
+      "selecting",
+      "ml",
+      "resources",
+      "biology"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/hugging-science",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hugging-science",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 9,
+    "bytes": 61099,
+    "sha256": "cff6c7e67d7f1925f008e11f5d0428f08391c35f4294d2c4c70350667b2decb2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hugging-science/SKILL.md",
+      "bytes": 11816,
+      "sha256": "cff6c7e67d7f1925f008e11f5d0428f08391c35f4294d2c4c70350667b2decb2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hugging-science/SKILL.md"
+    },
+    {
+      "path": "references/flagship-resources.md",
+      "sourcePath": "skills/hugging-science/references/flagship-resources.md",
+      "bytes": 6108,
+      "sha256": "3b2e42fb7af90e92554aa88eade9afc1b4190312b342bec4915dc876d49f1836",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hugging-science/references/flagship-resources.md"
+    },
+    {
+      "path": "references/review.md",
+      "sourcePath": "skills/hugging-science/references/review.md",
+      "bytes": 5927,
+      "sha256": "e4383907e1d880be44c508984d9b378606f2f8689afa804c2f6b7bd959c3133d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hugging-science/references/review.md"
+    },
+    {
+      "path": "references/topics-and-slugs.md",
+      "sourcePath": "skills/hugging-science/references/topics-and-slugs.md",
+      "bytes": 4588,
+      "sha256": "c6375179c67acecba4db95a4cb69f6eac20dd5a61ab3faf4f2ecc3d373d9c3b7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hugging-science/references/topics-and-slugs.md"
+    },
+    {
+      "path": "references/using-datasets.md",
+      "sourcePath": "skills/hugging-science/references/using-datasets.md",
+      "bytes": 5195,
+      "sha256": "4046c5f6329c765e53cb79b0f248ecf88aaa3ff6516af983dd0bfd2fc84122d9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hugging-science/references/using-datasets.md"
+    },
+    {
+      "path": "references/using-models.md",
+      "sourcePath": "skills/hugging-science/references/using-models.md",
+      "bytes": 6851,
+      "sha256": "8bbfcc3cd37bce24e047a2110a41af434720d423eb9f17edda246af522b1746a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hugging-science/references/using-models.md"
+    },
+    {
+      "path": "references/using-spaces.md",
+      "sourcePath": "skills/hugging-science/references/using-spaces.md",
+      "bytes": 5286,
+      "sha256": "f2dfdea6f7b219f662793ecfb1ad4712687074227fda3872dda3e6f6c1ada3ed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hugging-science/references/using-spaces.md"
+    },
+    {
+      "path": "scripts/fetch_catalog.py",
+      "sourcePath": "skills/hugging-science/scripts/fetch_catalog.py",
+      "bytes": 14260,
+      "sha256": "da01cdc6d8b2d1684c134430ac687bd906a3d5e86d5568af847d9b49813b7273",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hugging-science/scripts/fetch_catalog.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "2e538e0fe5b2b3848fb45642a9012117fe56686b73c12c0cda127543d21ecf31"
+}

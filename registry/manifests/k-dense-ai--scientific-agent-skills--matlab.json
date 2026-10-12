@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--matlab",
+    "name": "matlab",
+    "description": "Builds, reviews, migrates, and plans MATLAB or GNU Octave numerical workflows. Use for arrays, tabular/time data, tests, projects, graphics, MAT files, and explicit Python interoperability.",
+    "category": "Development",
+    "tags": [
+      "matlab",
+      "builds",
+      "reviews",
+      "migrates",
+      "plans",
+      "gnu",
+      "octave",
+      "numerical",
+      "workflows.",
+      "arrays",
+      "tabular",
+      "time",
+      "data",
+      "tests",
+      "projects",
+      "graphics",
+      "mat",
+      "files"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/matlab",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 21,
+    "bytes": 171901,
+    "sha256": "91afa6ec0f0b3797f51da62b79d44d00a32fcdf3690b9505e5987982a8e6d0e2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/matlab/SKILL.md",
+      "bytes": 16551,
+      "sha256": "91afa6ec0f0b3797f51da62b79d44d00a32fcdf3690b9505e5987982a8e6d0e2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab/SKILL.md"
+    },
+    {
+      "path": "assets/project_manifest_template.json",
+      "sourcePath": "skills/matlab/assets/project_manifest_template.json",
+      "bytes": 723,
+      "sha256": "3de6b01b3d463f5d170f19e3fd87d56477bbf65a64f98a7d237f40397026c225",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab/assets/project_manifest_template.json"
+    },
+    {
+      "path": "assets/python_compatibility_r2026a.json",
+      "sourcePath": "skills/matlab/assets/python_compatibility_r2026a.json",
+      "bytes": 786,
+      "sha256": "38ece6da5c000727cbe04b8a7412a99c140699e72393dc2f93d7394b1c6c03ed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab/assets/python_compatibility_r2026a.json"
+    },
+    {
+      "path": "assets/reproducibility_manifest_template.json",
+      "sourcePath": "skills/matlab/assets/reproducibility_manifest_template.json",
+      "bytes": 787,
+      "sha256": "7f0ad44a30e7d502d92642fa1617e73fc8fb0e252a4de94dd529453f5eac287e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab/assets/reproducibility_manifest_template.json"
+    },
+    {
+      "path": "references/data-import-export.md",
+      "sourcePath": "skills/matlab/references/data-import-export.md",
+      "bytes": 9763,
+      "sha256": "bd1dc1deb4b717bd6dc079653faf63a84c49d4239adff36ddc2910ef7b4d5f88",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab/references/data-import-export.md"
+    },
+    {
+      "path": "references/executing-scripts.md",
+      "sourcePath": "skills/matlab/references/executing-scripts.md",
+      "bytes": 10420,
+      "sha256": "5172a95879d65c04631e6f4eb0a619c70c01ddfb76639e3b72311f08aa953019",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab/references/executing-scripts.md"
+    },
+    {
+      "path": "references/graphics-visualization.md",
+      "sourcePath": "skills/matlab/references/graphics-visualization.md",
+      "bytes": 7480,
+      "sha256": "0ea6b945ee31fcdc09168430c9aae28c00ee63b79a12800a70a7aabfd3799c33",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab/references/graphics-visualization.md"
+    },
+    {
+      "path": "references/mathematics.md",
+      "sourcePath": "skills/matlab/references/mathematics.md",
+      "bytes": 8572,
+      "sha256": "04bb40d7dd604fe4fb24dea9686fc93bea658ab36abb24bfaca1c5a599b7b5d1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab/references/mathematics.md"
+    },
+    {
+      "path": "references/matrices-arrays.md",
+      "sourcePath": "skills/matlab/references/matrices-arrays.md",
+      "bytes": 8485,
+      "sha256": "54a6b56ea63093c01793c0b21c95e9d75316aca1bd476cd90d4b6573f1d5d3c8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab/references/matrices-arrays.md"
+    },
+    {
+      "path": "references/octave-compatibility.md",
+      "sourcePath": "skills/matlab/references/octave-compatibility.md",
+      "bytes": 8523,
+      "sha256": "d18734d6e33065e7e18805ce95ecca40844a5723b6e618aa65fc973bad587bef",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab/references/octave-compatibility.md"
+    },
+    {
+      "path": "references/programming.md",
+      "sourcePath": "skills/matlab/references/programming.md",
+      "bytes": 10891,
+      "sha256": "51b4df60afee7fd581d3e1b710ab577cc0ae5750ad244b4d09f1db632a0f85b8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab/references/programming.md"
+    },
+    {
+      "path": "references/python-integration.md",
+      "sourcePath": "skills/matlab/references/python-integration.md",
+      "bytes": 10958,
+      "sha256": "558fe145f4a38b4fdfe775b007def8643517aba8bb013ae73f9d972122ba5d5b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab/references/python-integration.md"
+    },
+    {
+      "path": "scripts/_common.py",
+      "sourcePath": "skills/matlab/scripts/_common.py",
+      "bytes": 8798,
+      "sha256": "efeb57fc631f5fa4bb8235821769858589999c7483fffa14408d1c0a7207ac5c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab/scripts/_common.py"
+    },
+    {
+      "path": "scripts/generate_function_scaffold.py",
+      "sourcePath": "skills/matlab/scripts/generate_function_scaffold.py",
+      "bytes": 4955,
+      "sha256": "cbbe38eff9e4e6ce2695db478d6de45df3736b04c6ba74618434cf853539947f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab/scripts/generate_function_scaffold.py"
+    },
+    {
+      "path": "scripts/inventory_mat_file.py",
+      "sourcePath": "skills/matlab/scripts/inventory_mat_file.py",
+      "bytes": 12537,
+      "sha256": "7eef24b9dff17c2072e41c513f5e3c330246f24ea9d069e430a3cd70f4feefa0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab/scripts/inventory_mat_file.py"
+    },
+    {
+      "path": "scripts/plan_batch_command.py",
+      "sourcePath": "skills/matlab/scripts/plan_batch_command.py",
+      "bytes": 9866,
+      "sha256": "2c7ca14933f223f08620d76ad5fa3df834d4c986c267dc444d8dca2fbdf1b739",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab/scripts/plan_batch_command.py"
+    },
+    {
+      "path": "scripts/plan_python_compatibility.py",
+      "sourcePath": "skills/matlab/scripts/plan_python_compatibility.py",
+      "bytes": 6566,
+      "sha256": "8da20d413fceae86f8f90db1b0925858aead825ce3aafc35bb2baeb7cece1da6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab/scripts/plan_python_compatibility.py"
+    },
+    {
+      "path": "scripts/reproducibility_report.py",
+      "sourcePath": "skills/matlab/scripts/reproducibility_report.py",
+      "bytes": 7966,
+      "sha256": "2784ffe6acee2a90f554cba73bb1578b2e8408935a34749353e5bd2ceac3bde8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab/scripts/reproducibility_report.py"
+    },
+    {
+      "path": "scripts/scan_m_code.py",
+      "sourcePath": "skills/matlab/scripts/scan_m_code.py",
+      "bytes": 13951,
+      "sha256": "88b02dbf934db710d22a787b1fb45a0c0009dc6874dd379f5100fa0672f7b92b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab/scripts/scan_m_code.py"
+    },
+    {
+      "path": "scripts/validate_project_manifest.py",
+      "sourcePath": "skills/matlab/scripts/validate_project_manifest.py",
+      "bytes": 12255,
+      "sha256": "21cdead6d2c246e345f7fc702a202600787557f0f8da37ebd072998d6cd122f3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/matlab/scripts/validate_project_manifest.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "f05f5c2d7d11a71d9773ffd3b1be3f0eb9b9ef2350110457ca4c41e16ec3adb5"
+}

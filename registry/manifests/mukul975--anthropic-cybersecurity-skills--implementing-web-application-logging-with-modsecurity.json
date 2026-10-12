@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-web-application-logging-with-modsecurity",
+    "name": "implementing-web-application-logging-with-modsecurity",
+    "description": "Configure ModSecurity WAF with the OWASP Core Rule Set (CRS) for web application audit logging, tuning SecRuleEngine, SecAuditEngine, and CRS paranoia levels to reduce false positives, and writing custom SecRules for application-specific threats. Use when deploying or tuning a ModSecurity WAF, analyzing audit logs for attack detection, or reducing CRS false positives.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "web",
+      "application",
+      "logging",
+      "modsecurity",
+      "configure",
+      "waf",
+      "owasp",
+      "core",
+      "rule",
+      "set",
+      "crs",
+      "audit",
+      "tuning",
+      "secruleengine",
+      "secauditengine",
+      "paranoia",
+      "levels"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-web-application-logging-with-modsecurity/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-web-application-logging-with-modsecurity",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-web-application-logging-with-modsecurity",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 24552,
+    "sha256": "465533d5c7b8be6e80c31e53912c12a271aee61af02a3f9426ad8bb7ae8596ba",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-web-application-logging-with-modsecurity/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-web-application-logging-with-modsecurity/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-web-application-logging-with-modsecurity/SKILL.md",
+      "bytes": 2457,
+      "sha256": "465533d5c7b8be6e80c31e53912c12a271aee61af02a3f9426ad8bb7ae8596ba",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-web-application-logging-with-modsecurity/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-web-application-logging-with-modsecurity/references/api-reference.md",
+      "bytes": 2136,
+      "sha256": "f6c2f853e8aba1e55c08e0e8b6379b2a987d8714c2cbc2d10df6e7598f08657e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-web-application-logging-with-modsecurity/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-web-application-logging-with-modsecurity/scripts/agent.py",
+      "bytes": 8704,
+      "sha256": "01c60bd09c55333b29913bc6a4d78e833e066154af1aea8de8fdb9bf332f4e4e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-web-application-logging-with-modsecurity/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "3743f24d1df0986451479a41cbf24b1cde38cb1c24cdc95533e0dd29ea11dcde"
+}

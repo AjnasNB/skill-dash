@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--conducting-cyber-risk-assessment-with-nist-800-30",
+    "name": "conducting-cyber-risk-assessment-with-nist-800-30",
+    "description": "Conduct a defensible cybersecurity risk assessment using the NIST SP 800-30 Rev 1 methodology: prepare scope and a risk model, identify threat sources and threat events, identify vulnerabilities and predisposing conditions, determine likelihood and impact, compute risk, and communicate results as a prioritized risk register. Use when an organization needs an actual risk *assessment* (not a maturity score), when a control framework (CSF, ISO 27001, RMF, SOC 2, PCI) requires a documented risk analysis as input, when leadership asks \"what are our top risks and how bad are they\", when assessing risk for a new system or major change, or when building a risk register from scratch. This is the methodology that feeds framework selection, ATO packages, and treatment decisions. Keywords: risk assessment, NIST 800-30, threat modeling, likelihood and impact, risk register, risk analysis, threat sources, vulnerabilities, risk determination, qualitative risk, risk matrix, residual risk, risk treatment.",
+    "category": "Security",
+    "tags": [
+      "conducting",
+      "cyber",
+      "risk",
+      "assessment",
+      "nist",
+      "800",
+      "30",
+      "conduct",
+      "defensible",
+      "cybersecurity",
+      "sp",
+      "rev",
+      "methodology",
+      "prepare",
+      "scope",
+      "model",
+      "identify",
+      "threat"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/conducting-cyber-risk-assessment-with-nist-800-30/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/conducting-cyber-risk-assessment-with-nist-800-30",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cyber-risk-assessment-with-nist-800-30",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 38053,
+    "sha256": "2cf6a3a884c4fba73fafd45afad1d5fdd7e34ec6eef25039948ed26fd605c756",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/conducting-cyber-risk-assessment-with-nist-800-30/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cyber-risk-assessment-with-nist-800-30/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/conducting-cyber-risk-assessment-with-nist-800-30/SKILL.md",
+      "bytes": 10028,
+      "sha256": "2cf6a3a884c4fba73fafd45afad1d5fdd7e34ec6eef25039948ed26fd605c756",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cyber-risk-assessment-with-nist-800-30/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/conducting-cyber-risk-assessment-with-nist-800-30/assets/template.md",
+      "bytes": 4972,
+      "sha256": "411ed8c261c1e69005db4511c8d25be22911565ee76146948257e28dae175ff5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cyber-risk-assessment-with-nist-800-30/assets/template.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/conducting-cyber-risk-assessment-with-nist-800-30/references/standards.md",
+      "bytes": 3834,
+      "sha256": "f4128caba3839959f1afa2d93f1d39ac58fd553bad691073ba683e5cb8717b8a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cyber-risk-assessment-with-nist-800-30/references/standards.md"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/conducting-cyber-risk-assessment-with-nist-800-30/scripts/process.py",
+      "bytes": 7964,
+      "sha256": "4e7f52954a93d5bd827fe037123037b89c7c38de87968f1a61b146a7a762ef1f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cyber-risk-assessment-with-nist-800-30/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "971acdeb4ec3595f743eff35334fc45648537034c4927198116025e34bc0c32f"
+}

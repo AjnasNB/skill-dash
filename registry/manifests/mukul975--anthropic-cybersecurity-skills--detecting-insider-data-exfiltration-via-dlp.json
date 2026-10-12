@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-insider-data-exfiltration-via-dlp",
+    "name": "detecting-insider-data-exfiltration-via-dlp",
+    "description": "Detects insider data exfiltration by analyzing DLP policy violations, file access patterns, upload volume anomalies, and off-hours activity in endpoint and cloud logs. Uses pandas for behavioral analytics and statistical baselines. Use when investigating insider threats or building user behavior analytics for data loss prevention.",
+    "category": "Data & research",
+    "tags": [
+      "detecting",
+      "insider",
+      "data",
+      "exfiltration",
+      "via",
+      "dlp",
+      "detects",
+      "by",
+      "analyzing",
+      "policy",
+      "violations",
+      "file",
+      "access",
+      "patterns",
+      "upload",
+      "volume",
+      "anomalies",
+      "off"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-insider-data-exfiltration-via-dlp/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-insider-data-exfiltration-via-dlp",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-data-exfiltration-via-dlp",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 22657,
+    "sha256": "65b664a335c1f543d5661a01c7613451f45042eb4bb73df41f3f9e569840babf",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-insider-data-exfiltration-via-dlp/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-data-exfiltration-via-dlp/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-insider-data-exfiltration-via-dlp/SKILL.md",
+      "bytes": 2489,
+      "sha256": "65b664a335c1f543d5661a01c7613451f45042eb4bb73df41f3f9e569840babf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-data-exfiltration-via-dlp/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-insider-data-exfiltration-via-dlp/references/api-reference.md",
+      "bytes": 1734,
+      "sha256": "bba476d5030192640af91cc3485ecc3f261952bf00a5cbcfb162c9145d2b68d1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-data-exfiltration-via-dlp/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-insider-data-exfiltration-via-dlp/scripts/agent.py",
+      "bytes": 7179,
+      "sha256": "8cb60c869f2ec791d8ed3a0c839a0170fa676012a1978ff9987861cdc4c9ffd3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-data-exfiltration-via-dlp/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "3a2f0597b99d379ec78d812855bf9c68ef005891faa0b77c33e1323db63d7928"
+}

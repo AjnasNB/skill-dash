@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-container-escape-detection",
+    "name": "performing-container-escape-detection",
+    "description": "Audits container and pod configuration for escape-enabling misconfiguration using the Kubernetes Python client - privileged flags, dangerous capability grants, host path mounts, shared namespaces, and CVE-2022-0492 style cgroup abuse. Use when sweeping a cluster for workloads that could break out, producing a posture report, or checking configuration before enforcement is switched on. Keywords: privileged, hostPath, hostPID, capabilities, CVE-2022-0492, cgroup, kubernetes python client, posture audit. Do not use for runtime syscall-based detection - use detecting-container-escape-attempts. '",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "performing",
+      "container",
+      "escape",
+      "detection",
+      "audits",
+      "pod",
+      "configuration",
+      "enabling",
+      "misconfiguration",
+      "kubernetes",
+      "python",
+      "client",
+      "privileged",
+      "flags",
+      "dangerous",
+      "capability",
+      "grants",
+      "host"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-container-escape-detection/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-container-escape-detection",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-escape-detection",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 22287,
+    "sha256": "33ed84ec7de93d4aa9f0037dcaee9718e3e97dda97477f5d5be62f77f22fa345",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-container-escape-detection/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-escape-detection/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-container-escape-detection/SKILL.md",
+      "bytes": 2592,
+      "sha256": "33ed84ec7de93d4aa9f0037dcaee9718e3e97dda97477f5d5be62f77f22fa345",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-escape-detection/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-container-escape-detection/references/api-reference.md",
+      "bytes": 1497,
+      "sha256": "50c75d7e3dde93c86dc1a3b7ee0c434d392a0b3986a70fa97f51a7ca6e1e3b97",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-escape-detection/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-container-escape-detection/scripts/agent.py",
+      "bytes": 6943,
+      "sha256": "26d6b8be4f1f68a4a55628abaf27fe4919480f8a5643b782f3d0b3c49915e3e2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-escape-detection/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "31a3121734ca0f922b22e8c62b9f4cb8b2f48f090d5cff7dacbf28194835e185"
+}

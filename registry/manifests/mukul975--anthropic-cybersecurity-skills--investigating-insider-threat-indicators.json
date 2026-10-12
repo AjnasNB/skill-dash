@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--investigating-insider-threat-indicators",
+    "name": "investigating-insider-threat-indicators",
+    "description": "Investigates insider threat indicators including data exfiltration attempts, unauthorized access patterns, policy violations, and pre-departure behaviors using SIEM analytics, DLP alerts, and HR data correlation. Use when SOC teams receive insider threat referrals from HR, detect anomalous data movement by employees, or need to build investigation timelines for potential insider threats.",
+    "category": "Security",
+    "tags": [
+      "investigating",
+      "insider",
+      "threat",
+      "indicators",
+      "investigates",
+      "including",
+      "data",
+      "exfiltration",
+      "attempts",
+      "unauthorized",
+      "access",
+      "patterns",
+      "policy",
+      "violations",
+      "pre",
+      "departure",
+      "behaviors",
+      "siem"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/investigating-insider-threat-indicators/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/investigating-insider-threat-indicators",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/investigating-insider-threat-indicators",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34599,
+    "sha256": "ed11964e8661cdd81ccabd7d5432dfc8986b52080b76e5f685e7b8f0b46de256",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/investigating-insider-threat-indicators/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/investigating-insider-threat-indicators/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/investigating-insider-threat-indicators/SKILL.md",
+      "bytes": 11916,
+      "sha256": "ed11964e8661cdd81ccabd7d5432dfc8986b52080b76e5f685e7b8f0b46de256",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/investigating-insider-threat-indicators/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/investigating-insider-threat-indicators/references/api-reference.md",
+      "bytes": 2475,
+      "sha256": "2f79a7e154265f09f821b0eed8529787ed4c82fc9a43ed214e4a5f22896926ee",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/investigating-insider-threat-indicators/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/investigating-insider-threat-indicators/scripts/agent.py",
+      "bytes": 8953,
+      "sha256": "a907d63162d333bb3bd62c30fce9557ad711f9f08caf3717fc3815bf4f246f37",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/investigating-insider-threat-indicators/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "703ac4c94d1475f6d535b4c1271cf159e8f2c1f3b0e0476f6a830e4a0d30fab4"
+}

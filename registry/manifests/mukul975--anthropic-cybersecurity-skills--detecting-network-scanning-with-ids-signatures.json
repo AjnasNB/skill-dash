@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-network-scanning-with-ids-signatures",
+    "name": "detecting-network-scanning-with-ids-signatures",
+    "description": "Detect network reconnaissance and port scanning using Suricata and Snort IDS signatures, threshold-based detection rules, and traffic anomaly analysis to identify Nmap, Masscan, and custom scanning activity.",
+    "category": "Development",
+    "tags": [
+      "detecting",
+      "network",
+      "scanning",
+      "ids",
+      "signatures",
+      "detect",
+      "reconnaissance",
+      "port",
+      "suricata",
+      "snort",
+      "threshold",
+      "based",
+      "detection",
+      "rules",
+      "traffic",
+      "anomaly",
+      "analysis",
+      "identify"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-network-scanning-with-ids-signatures/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-network-scanning-with-ids-signatures",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-network-scanning-with-ids-signatures",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32612,
+    "sha256": "46d7a805845699c447f06d4abce68ff1dcf42e8266d7579df7a9b11e41f4372b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-network-scanning-with-ids-signatures/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-network-scanning-with-ids-signatures/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-network-scanning-with-ids-signatures/SKILL.md",
+      "bytes": 13939,
+      "sha256": "46d7a805845699c447f06d4abce68ff1dcf42e8266d7579df7a9b11e41f4372b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-network-scanning-with-ids-signatures/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-network-scanning-with-ids-signatures/references/api-reference.md",
+      "bytes": 1600,
+      "sha256": "45ddfd0fec0586545645cfa753c1e11f125fb917dba77aac73d104d04e42e567",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-network-scanning-with-ids-signatures/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-network-scanning-with-ids-signatures/scripts/agent.py",
+      "bytes": 5818,
+      "sha256": "c421d45f6c713c4ab035a2a379117ecfd6787e519833eb63db958bf3fd43d5c8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-network-scanning-with-ids-signatures/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "3629959d2527741c11277011247fd6112e0666e00ffd973c6446477126f111d9"
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-security-chaos-engineering",
+    "name": "implementing-security-chaos-engineering",
+    "description": "Implements security chaos engineering experiments that deliberately disable or degrade security controls to verify detection and response capabilities. Tests WAF bypass, firewall rule removal, log pipeline disruption, and EDR disablement scenarios using boto3 and subprocess. Use when validating SOC detection coverage and resilience.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "security",
+      "chaos",
+      "engineering",
+      "implements",
+      "experiments",
+      "deliberately",
+      "disable",
+      "degrade",
+      "controls",
+      "verify",
+      "detection",
+      "response",
+      "capabilities.",
+      "tests",
+      "waf",
+      "bypass",
+      "firewall"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-security-chaos-engineering/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-security-chaos-engineering",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-security-chaos-engineering",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 23661,
+    "sha256": "c162759cb4af9e246409929366075f4646d0374fc41de0a9fda3b45bd38c6125",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-security-chaos-engineering/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-security-chaos-engineering/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-security-chaos-engineering/SKILL.md",
+      "bytes": 2599,
+      "sha256": "c162759cb4af9e246409929366075f4646d0374fc41de0a9fda3b45bd38c6125",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-security-chaos-engineering/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-security-chaos-engineering/references/api-reference.md",
+      "bytes": 1479,
+      "sha256": "2d59dfef26361d9247e1a9937b467153329496c28c161132b2fa7e8f88607342",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-security-chaos-engineering/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-security-chaos-engineering/scripts/agent.py",
+      "bytes": 8328,
+      "sha256": "09b687170f21bf4a8610808564782fc990950a87a709263f4236ac20f0b16af4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-security-chaos-engineering/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "bc739c9b42f6599b9607652bb9e709111d5e589c5e873af0a0a1991884b68bf1"
+}

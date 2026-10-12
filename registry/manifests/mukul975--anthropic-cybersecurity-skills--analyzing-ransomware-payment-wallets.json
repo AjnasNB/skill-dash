@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-ransomware-payment-wallets",
+    "name": "analyzing-ransomware-payment-wallets",
+    "description": "Traces ransomware cryptocurrency payment flows using blockchain analysis tools such as Chainalysis Reactor, WalletExplorer, and blockchain.com APIs, identifying wallet clusters and tracking fund movement through mixers and exchanges to support law enforcement attribution. Use when tracing ransomware bitcoin payments, performing cryptocurrency wallet forensics, or gathering blockchain threat intelligence on extortion payments.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "ransomware",
+      "payment",
+      "wallets",
+      "traces",
+      "cryptocurrency",
+      "flows",
+      "blockchain",
+      "analysis",
+      "tools",
+      "such",
+      "as",
+      "chainalysis",
+      "reactor",
+      "walletexplorer",
+      "blockchain.com",
+      "apis",
+      "identifying"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-ransomware-payment-wallets/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-ransomware-payment-wallets",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ransomware-payment-wallets",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 30068,
+    "sha256": "8b01cdd18216703c8412eae9524517c1f6236606c30ab940d311b169393c59f2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-ransomware-payment-wallets/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ransomware-payment-wallets/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-ransomware-payment-wallets/SKILL.md",
+      "bytes": 7787,
+      "sha256": "8b01cdd18216703c8412eae9524517c1f6236606c30ab940d311b169393c59f2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ransomware-payment-wallets/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-ransomware-payment-wallets/references/api-reference.md",
+      "bytes": 3058,
+      "sha256": "e246bd5d8c63a369dd49b38f70777279c760f590779e80c3a6b3ca922637aba5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ransomware-payment-wallets/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-ransomware-payment-wallets/scripts/agent.py",
+      "bytes": 7968,
+      "sha256": "d6a1a247b50a28e3d74547089d73a1d1e258fc764cf9833defd2af7ffda32358",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ransomware-payment-wallets/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "223d68393cd294f499d1938359c04f8edb2b96393d27a478e6f489204414aee9"
+}

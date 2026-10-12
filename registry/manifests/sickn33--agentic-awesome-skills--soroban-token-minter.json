@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--soroban-token-minter",
+    "name": "soroban-token-minter",
+    "description": "Soroban SEP-41 token contract architecture register: admin control, supply caps, metadata standard, and transfer event emissions on Stellar.",
+    "category": "Development",
+    "tags": [
+      "soroban",
+      "token",
+      "minter",
+      "sep",
+      "41",
+      "contract",
+      "architecture",
+      "register",
+      "admin",
+      "control",
+      "supply",
+      "caps",
+      "metadata",
+      "standard",
+      "transfer",
+      "event",
+      "emissions",
+      "stellar."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/soroban-token-minter",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/soroban-token-minter",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6234,
+    "sha256": "67f8ae9e1fa9a40ecd585b2396af92eb9673110a4c1006ae6363a6cdf4aa0827",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/soroban-token-minter/SKILL.md",
+      "bytes": 5161,
+      "sha256": "67f8ae9e1fa9a40ecd585b2396af92eb9673110a4c1006ae6363a6cdf4aa0827",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/soroban-token-minter/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "85a1a8dbbf94aa7f803df62cb6677715041410f6222cc878a2bcf0c163f7e672"
+}

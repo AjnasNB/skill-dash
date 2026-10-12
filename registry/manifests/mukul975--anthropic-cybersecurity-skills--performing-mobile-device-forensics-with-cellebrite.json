@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-mobile-device-forensics-with-cellebrite",
+    "name": "performing-mobile-device-forensics-with-cellebrite",
+    "description": "Acquire and analyze mobile device data using Cellebrite UFED Touch/4PC, UFED Physical Analyzer, and open-source alternatives (ALEAPP, iLEAPP, MEAT, libimobiledevice) to extract communications, call logs, location data, and application artifacts. Use when extracting or recovering deleted evidence from smartphones or tablets during criminal, corporate, or employee-misuse investigations.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "mobile",
+      "device",
+      "forensics",
+      "cellebrite",
+      "acquire",
+      "analyze",
+      "data",
+      "ufed",
+      "touch",
+      "4pc",
+      "physical",
+      "analyzer",
+      "open",
+      "source",
+      "alternatives",
+      "aleapp",
+      "ileapp"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-mobile-device-forensics-with-cellebrite/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-mobile-device-forensics-with-cellebrite",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-mobile-device-forensics-with-cellebrite",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34793,
+    "sha256": "cb146d0e67b09b5726db9ef1017643300dea3499e256b757c466bee10bac386f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-mobile-device-forensics-with-cellebrite/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-mobile-device-forensics-with-cellebrite/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-mobile-device-forensics-with-cellebrite/SKILL.md",
+      "bytes": 12527,
+      "sha256": "cb146d0e67b09b5726db9ef1017643300dea3499e256b757c466bee10bac386f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-mobile-device-forensics-with-cellebrite/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-mobile-device-forensics-with-cellebrite/references/api-reference.md",
+      "bytes": 1964,
+      "sha256": "765804b66da557c4e205e0fd42aa3355b6c71273b51c6d6ad84629bedab0e1cb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-mobile-device-forensics-with-cellebrite/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-mobile-device-forensics-with-cellebrite/scripts/agent.py",
+      "bytes": 9047,
+      "sha256": "c5db6e0d341988db16f7983d0ecbc84e818491dfa336b0248e13ebf6eaeafd49",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-mobile-device-forensics-with-cellebrite/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "00079a051ff14cc53dc7c9bd59315266e117a300cafed8b144d0688912699f76"
+}

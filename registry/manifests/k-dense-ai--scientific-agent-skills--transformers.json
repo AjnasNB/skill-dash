@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--transformers",
+    "name": "transformers",
+    "description": "Hugging Face Transformers for loading Hub models, running pipeline inference, text generation, and Trainer fine-tuning on NLP, vision, audio, and multimodal tasks. Applies when working with AutoModel, pipelines, tokenizers, generation configs, or TrainingArguments within Transformers.",
+    "category": "Video & audio",
+    "tags": [
+      "transformers",
+      "hugging",
+      "face",
+      "loading",
+      "hub",
+      "models",
+      "running",
+      "pipeline",
+      "inference",
+      "text",
+      "generation",
+      "trainer",
+      "fine",
+      "tuning",
+      "nlp",
+      "vision",
+      "audio",
+      "multimodal"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/transformers",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/transformers",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 8,
+    "bytes": 81717,
+    "sha256": "584d1c35d513f87616df9bcf7ddc8c48ab38cfbfad18d55c8481578d1c0d6f1a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/transformers/SKILL.md",
+      "bytes": 11232,
+      "sha256": "584d1c35d513f87616df9bcf7ddc8c48ab38cfbfad18d55c8481578d1c0d6f1a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/transformers/SKILL.md"
+    },
+    {
+      "path": "references/generation.md",
+      "sourcePath": "skills/transformers/references/generation.md",
+      "bytes": 11339,
+      "sha256": "86249b51bcbae468ba36ced4685f09b20282986413733d547f6bdec248fd5d5d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/transformers/references/generation.md"
+    },
+    {
+      "path": "references/models.md",
+      "sourcePath": "skills/transformers/references/models.md",
+      "bytes": 11279,
+      "sha256": "b9926cc003e3c625ec1dc47a7058fc4a16611ad89c8a9f0d0a714e83a97f79ba",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/transformers/references/models.md"
+    },
+    {
+      "path": "references/pipelines.md",
+      "sourcePath": "skills/transformers/references/pipelines.md",
+      "bytes": 12074,
+      "sha256": "0319356fc1a14050072e5506ac0413921ac6a715b44fcebea3dbbbaf5dcdb2a5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/transformers/references/pipelines.md"
+    },
+    {
+      "path": "references/review.md",
+      "sourcePath": "skills/transformers/references/review.md",
+      "bytes": 8332,
+      "sha256": "289bec219e4952e508a4ecd59dbacfd11b723471463fdcf03dc65d9eafc580cc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/transformers/references/review.md"
+    },
+    {
+      "path": "references/tokenizers.md",
+      "sourcePath": "skills/transformers/references/tokenizers.md",
+      "bytes": 11273,
+      "sha256": "a001db31cdcd78e596f9de9a0cbe1c758eb32d6e73d4b729ab6a7731d15c7434",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/transformers/references/tokenizers.md"
+    },
+    {
+      "path": "references/training.md",
+      "sourcePath": "skills/transformers/references/training.md",
+      "bytes": 15120,
+      "sha256": "11388a58d8f2c8c22c85a871e787273251a8799647f814f6d96c77fb132a2666",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/transformers/references/training.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "11431a4aef14803375fa50fbd2e07ece842c308084f5a75d62824e23f2be4c8f"
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-command-and-control-over-dns",
+    "name": "detecting-command-and-control-over-dns",
+    "description": "Detect command-and-control (C2) traffic tunneled over DNS from tools like Iodine, dnscat2, dns2tcp, and Cobalt Strike DNS beacon, using Shannon entropy analysis of query subdomains, ML-based DGA classification, passive DNS correlation, and Zeek/Suricata signatures. Use when investigating suspected DNS tunneling, classifying DGA domains, detecting DNS beaconing, or building DNS anomaly rules for a SOC/SIEM.",
+    "category": "Development",
+    "tags": [
+      "detecting",
+      "command",
+      "control",
+      "over",
+      "dns",
+      "detect",
+      "c2",
+      "traffic",
+      "tunneled",
+      "from",
+      "tools",
+      "like",
+      "iodine",
+      "dnscat2",
+      "dns2tcp",
+      "cobalt",
+      "strike",
+      "beacon"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-command-and-control-over-dns/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-command-and-control-over-dns",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-command-and-control-over-dns",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 113023,
+    "sha256": "c9450818f993889af2ea0f20f1c09abb444398fcc6c9925370c6007dd6be8bea",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-command-and-control-over-dns/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-command-and-control-over-dns/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-command-and-control-over-dns/SKILL.md",
+      "bytes": 52765,
+      "sha256": "c9450818f993889af2ea0f20f1c09abb444398fcc6c9925370c6007dd6be8bea",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-command-and-control-over-dns/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-command-and-control-over-dns/references/api-reference.md",
+      "bytes": 8333,
+      "sha256": "d7715d9e11858d671cb4e5a3ac8b5e0ba6f00d9ba315c9d4aac6cdaa1a518cfc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-command-and-control-over-dns/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-command-and-control-over-dns/scripts/agent.py",
+      "bytes": 40670,
+      "sha256": "7dddc52c41603c926bc638441a0405e1d23cbd44c133437af14375ce7f5bbba2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-command-and-control-over-dns/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "e095e18b92dd3062d5b239ca34e7c282ac3c45fbca22ad09fcd60ef2d9495a83"
+}

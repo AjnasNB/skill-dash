@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--textme","name":"textme","description":"Text Claude from your phone — set up the njerschow/textme daemon so inbound iMessages drive a Claude Code session on your laptop, with voice notes, image input, code execution, and a phone-number whitelist.","category":"Development","tags":["textme","text","claude","from","phone","set","up","njerschow","daemon","so","inbound","imessages","drive","code","session","laptop","voice","notes"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":46853,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"21efc48cceaf0f7043fa496ad8fcd5815637121e","path":"skills/sendblue/textme","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/sendblue/textme","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T06:08:57Z","fileCount":2,"bytes":13820,"sha256":"7b9efc16874a58350eea6fed2c8ea83bbe044f73f70c519bf97980caf5ec1c24","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/sendblue/textme/SKILL.md","bytes":12747,"sha256":"7b9efc16874a58350eea6fed2c8ea83bbe044f73f70c519bf97980caf5ec1c24","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/sendblue/textme/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/LICENSE"}],"archiveSha256":"8c72f36384a0ade87b5f1aafaaf65b03440290e89166665ce9c5b5d00885af8c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--textme",
+    "name": "textme",
+    "description": "Text Claude from your phone — set up the njerschow/textme daemon so inbound iMessages drive a Claude Code session on your laptop, with voice notes, image input, code execution, and a phone-number whitelist.",
+    "category": "Development",
+    "tags": [
+      "textme",
+      "text",
+      "claude",
+      "from",
+      "phone",
+      "set",
+      "up",
+      "njerschow",
+      "daemon",
+      "so",
+      "inbound",
+      "imessages",
+      "drive",
+      "code",
+      "session",
+      "laptop",
+      "voice",
+      "notes"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/sendblue/textme",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sendblue/textme",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13820,
+    "sha256": "7b9efc16874a58350eea6fed2c8ea83bbe044f73f70c519bf97980caf5ec1c24",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/sendblue/textme/SKILL.md",
+      "bytes": 12747,
+      "sha256": "7b9efc16874a58350eea6fed2c8ea83bbe044f73f70c519bf97980caf5ec1c24",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sendblue/textme/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "c7fa03ec0469d9f00bf69dcf1e56b1c05a8ce33d173c2946954627cef96e4de1"
+}

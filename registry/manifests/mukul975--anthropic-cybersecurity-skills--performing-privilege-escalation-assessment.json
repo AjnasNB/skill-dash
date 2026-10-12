@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-privilege-escalation-assessment",
+    "name": "performing-privilege-escalation-assessment",
+    "description": "Performs privilege escalation assessments on compromised Linux and Windows systems to identify paths from low-privilege access to root or SYSTEM-level control. The tester enumerates misconfigurations, vulnerable services, kernel exploits, SUID binaries, unquoted service paths, and credential stores to demonstrate the full impact of an initial compromise. Activates for requests involving privilege escalation testing, local exploitation, post-compromise escalation, or OS-level security assessment.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "privilege",
+      "escalation",
+      "assessment",
+      "performs",
+      "assessments",
+      "compromised",
+      "linux",
+      "windows",
+      "systems",
+      "identify",
+      "paths",
+      "from",
+      "low",
+      "access",
+      "root",
+      "system",
+      "level"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-privilege-escalation-assessment/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-privilege-escalation-assessment",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privilege-escalation-assessment",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 35587,
+    "sha256": "f2f2f403b57075150d223ca43c58a613da44cafb4b0f1ce44025166e0b12f56b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-privilege-escalation-assessment/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privilege-escalation-assessment/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-privilege-escalation-assessment/SKILL.md",
+      "bytes": 12704,
+      "sha256": "f2f2f403b57075150d223ca43c58a613da44cafb4b0f1ce44025166e0b12f56b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privilege-escalation-assessment/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-privilege-escalation-assessment/references/api-reference.md",
+      "bytes": 1865,
+      "sha256": "3d8c9219676557401825282f2fa2da1deea913f92800562fa5662dd03e9856da",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privilege-escalation-assessment/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-privilege-escalation-assessment/scripts/agent.py",
+      "bytes": 9763,
+      "sha256": "c105d591dcce5c1a75e1c0b3e751c55150f82adb3a8ce480959267318ce639e7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privilege-escalation-assessment/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "034984b4a3cf19089f48e09a5603bca96bfbcb1ed02f3ba098b9b9067d7648aa"
+}

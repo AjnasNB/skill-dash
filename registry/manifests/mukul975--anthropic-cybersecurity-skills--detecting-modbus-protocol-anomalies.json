@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-modbus-protocol-anomalies",
+    "name": "detecting-modbus-protocol-anomalies",
+    "description": "Detect anomalies in Modbus/TCP and Modbus RTU industrial traffic via function code monitoring, register range validation, timing analysis, and deep packet inspection, using Zeek's Modbus analyzer, Suricata IDS with OT rules, and Python Markov chain models of normal transaction sequences. Use for deploying Modbus IDS in OT environments, baselining polling patterns, investigating suspicious Modbus traffic, or building function code allowlists.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "detecting",
+      "modbus",
+      "protocol",
+      "anomalies",
+      "detect",
+      "tcp",
+      "rtu",
+      "industrial",
+      "traffic",
+      "via",
+      "function",
+      "code",
+      "monitoring",
+      "register",
+      "range",
+      "validation",
+      "timing",
+      "analysis"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-modbus-protocol-anomalies/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-modbus-protocol-anomalies",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-modbus-protocol-anomalies",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 33369,
+    "sha256": "79dc25a2c8c9e895bcbc6c28cd0a11aca85adeb326d1da9a12aaa2841ceef577",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-modbus-protocol-anomalies/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-modbus-protocol-anomalies/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-modbus-protocol-anomalies/SKILL.md",
+      "bytes": 14940,
+      "sha256": "79dc25a2c8c9e895bcbc6c28cd0a11aca85adeb326d1da9a12aaa2841ceef577",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-modbus-protocol-anomalies/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-modbus-protocol-anomalies/references/api-reference.md",
+      "bytes": 1662,
+      "sha256": "78b284ce3360f1b5d103270c7b56163ebc97d18e01beec2c12bae1c2e8fa5f6c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-modbus-protocol-anomalies/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-modbus-protocol-anomalies/scripts/agent.py",
+      "bytes": 5512,
+      "sha256": "426b7a75eacacf749296ec33270d645141a55ffb14b396e8d74cd1947dc07b5e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-modbus-protocol-anomalies/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "71466552342b9889849b51cece02c991368a0c7ea31c65b2d73d959da70637c4"
+}

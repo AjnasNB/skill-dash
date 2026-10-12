@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-mimecast-targeted-attack-protection",
+    "name": "implementing-mimecast-targeted-attack-protection",
+    "description": "Deploys and configures Mimecast Targeted Threat Protection (TTP) modules -- URL Protect (click-time URL rewriting/analysis), Attachment Protect (sandbox detonation), Impersonation Protect (BEC/whaling detection), and Internal Email Protect -- for Microsoft 365 or Google Workspace. Use when defending against phishing, spearphishing, or business email compromise, or configuring TTP policies in the Mimecast Administration Console.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "mimecast",
+      "targeted",
+      "attack",
+      "protection",
+      "deploys",
+      "configures",
+      "threat",
+      "ttp",
+      "modules",
+      "url",
+      "protect",
+      "click",
+      "time",
+      "rewriting",
+      "analysis",
+      "attachment",
+      "sandbox"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-mimecast-targeted-attack-protection/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-mimecast-targeted-attack-protection",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mimecast-targeted-attack-protection",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 43701,
+    "sha256": "64339347f9172477ac65bdb7380e888006fc5b468373865dfa5622204e146bd7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-mimecast-targeted-attack-protection/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mimecast-targeted-attack-protection/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-mimecast-targeted-attack-protection/SKILL.md",
+      "bytes": 7112,
+      "sha256": "64339347f9172477ac65bdb7380e888006fc5b468373865dfa5622204e146bd7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mimecast-targeted-attack-protection/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-mimecast-targeted-attack-protection/assets/template.md",
+      "bytes": 1300,
+      "sha256": "fa85348291a467cfd14da35b9bb0eaf19939cacedef932cf6c3e065c19790d21",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mimecast-targeted-attack-protection/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-mimecast-targeted-attack-protection/references/api-reference.md",
+      "bytes": 1385,
+      "sha256": "da02dbcf4038dec1a2c29ddb9aa66b46f639604c16b78b38b8473c7971b61b4e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mimecast-targeted-attack-protection/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-mimecast-targeted-attack-protection/references/standards.md",
+      "bytes": 1730,
+      "sha256": "fe97e67fbf98279133c0303049de33088480cef47bf0f9faf9b57dede70d1859",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mimecast-targeted-attack-protection/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-mimecast-targeted-attack-protection/references/workflows.md",
+      "bytes": 2277,
+      "sha256": "c00d608e0c6bb5979029b9fdbb09bb12739aa9fa272234126435db2ef5696789",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mimecast-targeted-attack-protection/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-mimecast-targeted-attack-protection/scripts/agent.py",
+      "bytes": 6242,
+      "sha256": "51d4efd9464f0a55f65d6dff86ab1a8671a61fce87e06c78ead8ec1c2f479478",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mimecast-targeted-attack-protection/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-mimecast-targeted-attack-protection/scripts/process.py",
+      "bytes": 12400,
+      "sha256": "f4348c00e76bae6a818d79e8c1137c6346e4aa7d0fc27bea277315991e109407",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mimecast-targeted-attack-protection/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "967e944d9031da2f11b85ef3035e5893023799de66c885665fbe971df1a85bfc"
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--gamification-engine",
+    "name": "gamification-engine",
+    "description": "Gamification points register: player and department, points balance and points earned this month, level, badges, source module and last-updated date. Use for points and badge tracking.",
+    "category": "Development",
+    "tags": [
+      "gamification",
+      "engine",
+      "points",
+      "register",
+      "player",
+      "department",
+      "balance",
+      "earned",
+      "month",
+      "level",
+      "badges",
+      "source",
+      "module",
+      "last",
+      "updated",
+      "date.",
+      "badge",
+      "tracking."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/gamification-engine",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gamification-engine",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13945,
+    "sha256": "d15c3abf9c4ded87d91f815fe8dddfceec4191f5e7ba017f96558e992eb6c51a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/gamification-engine/SKILL.md",
+      "bytes": 12872,
+      "sha256": "d15c3abf9c4ded87d91f815fe8dddfceec4191f5e7ba017f96558e992eb6c51a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gamification-engine/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "3e325e2a8ebd8147b5f0f22cdcc8f4eb73d32b6e5cc7d29f8e7472c1da5cffd1"
+}

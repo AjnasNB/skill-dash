@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--testing-for-xxe-injection-vulnerabilities",
+    "name": "testing-for-xxe-injection-vulnerabilities",
+    "description": "Discovering and exploiting XML External Entity injection vulnerabilities to read server files, perform SSRF, and exfiltrate data during authorized penetration tests.",
+    "category": "Security",
+    "tags": [
+      "testing",
+      "xxe",
+      "injection",
+      "vulnerabilities",
+      "discovering",
+      "exploiting",
+      "xml",
+      "external",
+      "entity",
+      "read",
+      "server",
+      "files",
+      "perform",
+      "ssrf",
+      "exfiltrate",
+      "data",
+      "during",
+      "authorized"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/testing-for-xxe-injection-vulnerabilities/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/testing-for-xxe-injection-vulnerabilities",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-xxe-injection-vulnerabilities",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34904,
+    "sha256": "d2501aefc63508db7732a4adaf251d8f0beff93decab5b466754a5f8744e2994",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/testing-for-xxe-injection-vulnerabilities/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-xxe-injection-vulnerabilities/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/testing-for-xxe-injection-vulnerabilities/SKILL.md",
+      "bytes": 12223,
+      "sha256": "d2501aefc63508db7732a4adaf251d8f0beff93decab5b466754a5f8744e2994",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-xxe-injection-vulnerabilities/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/testing-for-xxe-injection-vulnerabilities/references/api-reference.md",
+      "bytes": 2195,
+      "sha256": "7da57504890726f7cb7175a957b2665dd810d88137f49eba7427a890afdeefdb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-xxe-injection-vulnerabilities/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/testing-for-xxe-injection-vulnerabilities/scripts/agent.py",
+      "bytes": 9231,
+      "sha256": "29047a242b347f899fc7e1cb95428b43b2d50432004267afa1057e60584b9b68",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-xxe-injection-vulnerabilities/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "b715c19b4f596352f63893a00d2b6f350e014c59fc8d7c360c4de36dc950558e"
+}

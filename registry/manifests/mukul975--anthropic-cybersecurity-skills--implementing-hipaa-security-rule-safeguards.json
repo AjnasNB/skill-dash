@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-hipaa-security-rule-safeguards",
+    "name": "implementing-hipaa-security-rule-safeguards",
+    "description": "Implement the HIPAA Security Rule (45 CFR Part 164 Subpart C) to protect electronic protected health information (ePHI): conduct the required risk analysis, deploy the administrative, physical, and technical safeguards, handle required vs addressable implementation specifications, execute Business Associate Agreements, and stand up breach-notification readiness. Use when an organization is a HIPAA covered entity or business associate, when protecting ePHI, when preparing for an OCR audit or responding to a breach, when performing a HIPAA Security Risk Analysis, when drafting or reviewing a BAA, or when mapping security controls to the §164.308/310/312/314/316 safeguards. Notes the 2025 NPRM proposed changes (not yet final). Keywords: HIPAA, HIPAA Security Rule, ePHI, PHI, 45 CFR 164, risk analysis, administrative safeguards, physical safeguards, technical safeguards, addressable, required, Business Associate Agreement, BAA, OCR, breach notification, HITECH, covered entity, business associate.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "hipaa",
+      "security",
+      "rule",
+      "safeguards",
+      "implement",
+      "45",
+      "cfr",
+      "part",
+      "164",
+      "subpart",
+      "protect",
+      "electronic",
+      "protected",
+      "health",
+      "information",
+      "ephi",
+      "conduct"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-hipaa-security-rule-safeguards/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-hipaa-security-rule-safeguards",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-hipaa-security-rule-safeguards",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 38565,
+    "sha256": "eec382e0dabb7b2f970982ea65259db1ce9964e14d964ed8e31ce93c5c58b8df",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-hipaa-security-rule-safeguards/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-hipaa-security-rule-safeguards/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-hipaa-security-rule-safeguards/SKILL.md",
+      "bytes": 9757,
+      "sha256": "eec382e0dabb7b2f970982ea65259db1ce9964e14d964ed8e31ce93c5c58b8df",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-hipaa-security-rule-safeguards/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-hipaa-security-rule-safeguards/assets/template.md",
+      "bytes": 4105,
+      "sha256": "98fda3dd69b442c71e4f0419ddec8bbb1d802130ed1069e54df49af01ebfa06c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-hipaa-security-rule-safeguards/assets/template.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-hipaa-security-rule-safeguards/references/standards.md",
+      "bytes": 5612,
+      "sha256": "90d15a5033c2329d31de5fe6683cfc3a39c37715cbd47130267ab3af0446acd3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-hipaa-security-rule-safeguards/references/standards.md"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-hipaa-security-rule-safeguards/scripts/process.py",
+      "bytes": 7836,
+      "sha256": "57f5215567cab2e96cde10e84a098651bed04d7efd9369d17d56bcece1dfa069",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-hipaa-security-rule-safeguards/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "794c204749946336c5c463c4924372155d9c5b5fe719485013de2e5eecb29c36"
+}

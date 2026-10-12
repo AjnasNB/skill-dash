@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-opa-gatekeeper-for-policy-enforcement",
+    "name": "implementing-opa-gatekeeper-for-policy-enforcement",
+    "description": "Deploys OPA Gatekeeper via Helm as a Kubernetes admission controller and writes ConstraintTemplates with Rego plus instantiated Constraints to validate, mutate, or deny resource requests at admission time. Use when enforcing custom policy-as-code at admission on Kubernetes v1.24+, blocking non-compliant workloads before scheduling, or expressing a rule that built-in controls cannot. Keywords: Gatekeeper, ConstraintTemplate, Constraint, Rego, admission webhook, audit, mutation. Do not use for the standard pod security profiles that Pod Security Admission already covers - use implementing-pod-security-admission-controller.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "opa",
+      "gatekeeper",
+      "policy",
+      "enforcement",
+      "deploys",
+      "via",
+      "helm",
+      "as",
+      "kubernetes",
+      "admission",
+      "controller",
+      "writes",
+      "constrainttemplates",
+      "rego",
+      "plus",
+      "instantiated",
+      "constraints"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-opa-gatekeeper-for-policy-enforcement/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-opa-gatekeeper-for-policy-enforcement",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-opa-gatekeeper-for-policy-enforcement",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 40472,
+    "sha256": "3095d3be806884c6176eae03764c8d8e755a77ec10de4d7e5d34de77e28c7978",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-opa-gatekeeper-for-policy-enforcement/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-opa-gatekeeper-for-policy-enforcement/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-opa-gatekeeper-for-policy-enforcement/SKILL.md",
+      "bytes": 10645,
+      "sha256": "3095d3be806884c6176eae03764c8d8e755a77ec10de4d7e5d34de77e28c7978",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-opa-gatekeeper-for-policy-enforcement/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-opa-gatekeeper-for-policy-enforcement/assets/template.md",
+      "bytes": 1445,
+      "sha256": "f4762bcf03535c70119ba23249c21a8a43560fc36d74d4f6deaaa4b09986be93",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-opa-gatekeeper-for-policy-enforcement/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-opa-gatekeeper-for-policy-enforcement/references/api-reference.md",
+      "bytes": 1134,
+      "sha256": "e3e612669c1aa80f327bea45e266377b04931cd312f87c629cca039c7c66cd04",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-opa-gatekeeper-for-policy-enforcement/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-opa-gatekeeper-for-policy-enforcement/references/standards.md",
+      "bytes": 2129,
+      "sha256": "ad40b40e5020175946e129028c9b33b5e90d6439f4582da5bc0062b91ba783ba",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-opa-gatekeeper-for-policy-enforcement/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-opa-gatekeeper-for-policy-enforcement/references/workflows.md",
+      "bytes": 2767,
+      "sha256": "7863be9b835610d0d55074593de83ebc32149cdd6c2efb6db6c72f12d529c493",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-opa-gatekeeper-for-policy-enforcement/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-opa-gatekeeper-for-policy-enforcement/scripts/agent.py",
+      "bytes": 4292,
+      "sha256": "2c8fcb1d9e190119e87dec8e6be0887854393dfb235dcd57b8158400febd8e4d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-opa-gatekeeper-for-policy-enforcement/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-opa-gatekeeper-for-policy-enforcement/scripts/process.py",
+      "bytes": 6805,
+      "sha256": "9a577cf81f6cd79e43fe40ee72b46c727f59ef34e9c082470b094349192ab308",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-opa-gatekeeper-for-policy-enforcement/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "e7cb9b25341b8389678aed4566a90b66c30dd074ec70473510c85bcd2d3565af"
+}

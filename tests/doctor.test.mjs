@@ -17,7 +17,7 @@ test('doctor distinguishes missing host setup from a healthy real MCP endpoint',
     assert.ok(missing.hosts.every(h=>h.status==='not-configured'));
     await connectHosts({host:'all',global:true,home});
     const ready=await libraryDoctor({host:'all',global:true,home,fetcher});
-    assert.equal(ready.status,'ready');assert.equal(ready.remote.tools.length,4);assert.equal(ready.remote.probe.results,1);
+    assert.equal(ready.status,'ready');assert.equal(ready.remote.tools.length,6);assert.equal(ready.remote.probe.results,1);
     assert.ok(ready.hosts.every(h=>h.status==='configured'));
   }finally{await fs.rm(home,{recursive:true,force:true});}
 });

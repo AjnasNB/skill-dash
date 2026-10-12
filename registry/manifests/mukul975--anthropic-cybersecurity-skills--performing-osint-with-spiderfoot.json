@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-osint-with-spiderfoot",
+    "name": "performing-osint-with-spiderfoot",
+    "description": "Automate OSINT collection with the SpiderFoot REST API and CLI (sf.py/spiderfoot-cli) across 200+ modules, selecting scan modes (footprint, investigate, passive) and parsing results for domains, IPs, emails, leaked credentials, and DNS records into a target intelligence profile. Use when mapping an organization's attack surface or profiling a target for threat intelligence.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "osint",
+      "spiderfoot",
+      "automate",
+      "collection",
+      "rest",
+      "api",
+      "cli",
+      "sf.py",
+      "across",
+      "200+",
+      "modules",
+      "selecting",
+      "scan",
+      "modes",
+      "footprint",
+      "investigate",
+      "passive"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-osint-with-spiderfoot/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-osint-with-spiderfoot",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-osint-with-spiderfoot",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 24645,
+    "sha256": "e27c245dec93a0b39f4b2fe5e30956103c51beea1b14104ae937ae8a86fde977",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-osint-with-spiderfoot/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-osint-with-spiderfoot/LICENSE"
+    },
+    {
+      "path": "SKILL.es.md",
+      "sourcePath": "skills/performing-osint-with-spiderfoot/SKILL.es.md",
+      "bytes": 2092,
+      "sha256": "85aca32a3eafca3427a230f052448cdf8c9eb66e6f4531320536811b06c94137",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-osint-with-spiderfoot/SKILL.es.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-osint-with-spiderfoot/SKILL.md",
+      "bytes": 2430,
+      "sha256": "e27c245dec93a0b39f4b2fe5e30956103c51beea1b14104ae937ae8a86fde977",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-osint-with-spiderfoot/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-osint-with-spiderfoot/references/api-reference.md",
+      "bytes": 1954,
+      "sha256": "96ee92f72cf885c08aa0a49408a935de0b64abf507b8f533df7bb827e723aa89",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-osint-with-spiderfoot/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-osint-with-spiderfoot/scripts/agent.py",
+      "bytes": 6914,
+      "sha256": "efa9f87d3351e8c6bde5b5434f84ec0763dc0493bcaa9638e2ceb48e4c7f3845",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-osint-with-spiderfoot/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "1805e98aecb3a4520de0aa4278365f315cdb4faf688caece2e2e21d5d61af7f4"
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-cloud-threats-with-guardduty",
+    "name": "detecting-cloud-threats-with-guardduty",
+    "description": "Deploy and operationalize Amazon GuardDuty, covering protection plans for S3, EKS, EC2 runtime monitoring, and Lambda, interpreting finding severity, and building automated response with EventBridge and Lambda. Use when establishing threat detection for AWS accounts, investigating findings on compromised instances or credential abuse, or building automated incident-response playbooks.",
+    "category": "Security",
+    "tags": [
+      "detecting",
+      "cloud",
+      "threats",
+      "guardduty",
+      "deploy",
+      "operationalize",
+      "amazon",
+      "covering",
+      "protection",
+      "plans",
+      "s3",
+      "eks",
+      "ec2",
+      "runtime",
+      "monitoring",
+      "lambda",
+      "interpreting",
+      "finding"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-cloud-threats-with-guardduty/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-cloud-threats-with-guardduty",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-cloud-threats-with-guardduty",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32513,
+    "sha256": "f3e00211295dbcb5047987d2a4e23056fac8577b456fca27713f6346a7680397",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-cloud-threats-with-guardduty/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-cloud-threats-with-guardduty/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-cloud-threats-with-guardduty/SKILL.md",
+      "bytes": 12266,
+      "sha256": "f3e00211295dbcb5047987d2a4e23056fac8577b456fca27713f6346a7680397",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-cloud-threats-with-guardduty/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-cloud-threats-with-guardduty/references/api-reference.md",
+      "bytes": 2300,
+      "sha256": "28d5eec184b44da6abc43e8df1b36ffd2fe33cc7a20026ebbf9063f1e41cb9fa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-cloud-threats-with-guardduty/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-cloud-threats-with-guardduty/scripts/agent.py",
+      "bytes": 6692,
+      "sha256": "55d99da57a93763e59c0dd3c7ed4e3c9135193231e46f9f2342962b5661e6ff1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-cloud-threats-with-guardduty/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "8eadad97cc72795d6a7cfd9e33db0d563b43b66a5010ca91204d99aae2f1fa2a"
+}

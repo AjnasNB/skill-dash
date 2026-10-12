@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--configuring-zscaler-private-access-for-ztna",
+    "name": "configuring-zscaler-private-access-for-ztna",
+    "description": "Configures Zscaler Private Access (ZPA) to replace traditional VPN with zero trust network access by deploying App Connectors, defining application segments, configuring identity- and device-posture-based access policies, and integrating with IdPs. Use when replacing VPN concentrators with ZTNA or providing remote users secure access to internal applications without network-level connectivity.",
+    "category": "Security",
+    "tags": [
+      "configuring",
+      "zscaler",
+      "private",
+      "access",
+      "ztna",
+      "configures",
+      "zpa",
+      "replace",
+      "traditional",
+      "vpn",
+      "zero",
+      "trust",
+      "network",
+      "by",
+      "deploying",
+      "app",
+      "connectors",
+      "defining"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/configuring-zscaler-private-access-for-ztna/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/configuring-zscaler-private-access-for-ztna",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-zscaler-private-access-for-ztna",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 49452,
+    "sha256": "16c2a75229dfb3f1247f74d2f88d126202f64212c9c33e2e7f8c56a6a6762dd4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/configuring-zscaler-private-access-for-ztna/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-zscaler-private-access-for-ztna/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/configuring-zscaler-private-access-for-ztna/SKILL.md",
+      "bytes": 11707,
+      "sha256": "16c2a75229dfb3f1247f74d2f88d126202f64212c9c33e2e7f8c56a6a6762dd4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-zscaler-private-access-for-ztna/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/configuring-zscaler-private-access-for-ztna/assets/template.md",
+      "bytes": 3425,
+      "sha256": "2c3d019c0222ab0a565f2c7d0c1a2b47d93843ccb48152bea4666b5c9cdf8000",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-zscaler-private-access-for-ztna/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/configuring-zscaler-private-access-for-ztna/references/api-reference.md",
+      "bytes": 1451,
+      "sha256": "1c2fd0cbfc6810a864e17b5ace00e4ece60a82f1ddef29a7ca25bc6b315abe7e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-zscaler-private-access-for-ztna/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/configuring-zscaler-private-access-for-ztna/references/standards.md",
+      "bytes": 1955,
+      "sha256": "94f13c3006ec1ffcff243637078fa6524bf2294949f9ab37584ae3ff3939d1ec",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-zscaler-private-access-for-ztna/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/configuring-zscaler-private-access-for-ztna/references/workflows.md",
+      "bytes": 3424,
+      "sha256": "d1647153837027dbc444492a736e7c060df0847a14f5b2c717a2a8c62c758fb5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-zscaler-private-access-for-ztna/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/configuring-zscaler-private-access-for-ztna/scripts/agent.py",
+      "bytes": 4414,
+      "sha256": "b8ec2eb6eacca7b4f7cf14018dbda7c0f569631d3561e34554809b97a91b7621",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-zscaler-private-access-for-ztna/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/configuring-zscaler-private-access-for-ztna/scripts/process.py",
+      "bytes": 11821,
+      "sha256": "c27feb752505ca1adda9f58b670d2208a9d6d934414df3acdc41cf4ac25396f8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-zscaler-private-access-for-ztna/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "8ccdbe049f78330a78c7fe4a22f7f1bcdf0c1d2570f273933d115ee22f8339e9"
+}

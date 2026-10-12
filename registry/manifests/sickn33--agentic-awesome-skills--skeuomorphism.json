@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--skeuomorphism","name":"skeuomorphism","description":"Web and App implementation guide for Skeuomorphism. Trigger when user wants UI to mimic real-world objects, realistic textures, or physical metaphors.","category":"Design","tags":["skeuomorphism","web","app","implementation","guide","skeuomorphism.","trigger","when","user","wants","ui","mimic","real","world","objects","realistic","textures","physical"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":46853,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"21efc48cceaf0f7043fa496ad8fcd5815637121e","path":"skills/design-it/skeuomorphism","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/design-it/skeuomorphism","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T06:08:57Z","fileCount":2,"bytes":11258,"sha256":"c1aad8fce27880d00446e15fa5c831ade4f9e3dc2af76bcdde3c6f51ecb12fa7","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/design-it/skeuomorphism/SKILL.md","bytes":10185,"sha256":"c1aad8fce27880d00446e15fa5c831ade4f9e3dc2af76bcdde3c6f51ecb12fa7","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/design-it/skeuomorphism/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/LICENSE"}],"archiveSha256":"386fead0dee12699aacc7c7cac8e7796a1b64b19613a89654bd357bd1aec2ec1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--skeuomorphism",
+    "name": "skeuomorphism",
+    "description": "Web and App implementation guide for Skeuomorphism. Trigger when user wants UI to mimic real-world objects, realistic textures, or physical metaphors.",
+    "category": "Design",
+    "tags": [
+      "skeuomorphism",
+      "web",
+      "app",
+      "implementation",
+      "guide",
+      "skeuomorphism.",
+      "trigger",
+      "when",
+      "user",
+      "wants",
+      "ui",
+      "mimic",
+      "real",
+      "world",
+      "objects",
+      "realistic",
+      "textures",
+      "physical"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/design-it/skeuomorphism",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/skeuomorphism",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11258,
+    "sha256": "c1aad8fce27880d00446e15fa5c831ade4f9e3dc2af76bcdde3c6f51ecb12fa7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/design-it/skeuomorphism/SKILL.md",
+      "bytes": 10185,
+      "sha256": "c1aad8fce27880d00446e15fa5c831ade4f9e3dc2af76bcdde3c6f51ecb12fa7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/skeuomorphism/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "0339cee6e88f890dcf27d7147de6233c5736b92c4a95cbbeb8f56d33cc5e0d71"
+}

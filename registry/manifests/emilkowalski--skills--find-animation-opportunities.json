@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "emilkowalski--skills--find-animation-opportunities",
+    "name": "find-animation-opportunities",
+    "description": "Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it proposes motion with exact values, it does not implement it. Use when the user asks \"what could be animated here?\" or wants to \"make this feel more alive\". For fixing existing animations, use improve-animations or review-animations instead.",
+    "category": "Design",
+    "tags": [
+      "find",
+      "animation",
+      "opportunities",
+      "search",
+      "codebase",
+      "ui",
+      "places",
+      "don",
+      "animate",
+      "but",
+      "should",
+      "reject",
+      "everything",
+      "shouldn",
+      "t.",
+      "read",
+      "only",
+      "it"
+    ],
+    "repo": "emilkowalski/skills",
+    "owner": "emilkowalski",
+    "stars": 45550,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "2d228630ba1446365f614a108cb8252f1feda202",
+    "path": "skills/find-animation-opportunities",
+    "sourceUrl": "https://github.com/emilkowalski/skills/tree/2d228630ba1446365f614a108cb8252f1feda202/skills/find-animation-opportunities",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T13:58:32Z",
+    "fileCount": 2,
+    "bytes": 10878,
+    "sha256": "d52a377819b84a71930f0c822cfe2849f40301605a2d5c7eccbfa3b257700df2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/find-animation-opportunities/SKILL.md",
+      "bytes": 9808,
+      "sha256": "d52a377819b84a71930f0c822cfe2849f40301605a2d5c7eccbfa3b257700df2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/find-animation-opportunities/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1070,
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/LICENSE"
+    }
+  ],
+  "archiveSha256": "2b3c9bea5fabc39399015acc16246916ef2abb4e79660b7bc7d9ca750641f7fd"
+}

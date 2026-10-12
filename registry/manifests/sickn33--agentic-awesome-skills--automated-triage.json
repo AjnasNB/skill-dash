@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--automated-triage","name":"automated-triage","description":"Triage Monte Carlo alerts interactively or build an automated workflow. Fetch, score, and troubleshoot alerts using MCP tools now, or design a reusable workflow that runs on a schedule.","category":"Design","tags":["automated","triage","monte","carlo","alerts","interactively","workflow.","fetch","score","troubleshoot","mcp","tools","now","design","reusable","workflow","runs","schedule."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":46853,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"21efc48cceaf0f7043fa496ad8fcd5815637121e","path":"skills/automated-triage","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/automated-triage","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T06:08:57Z","fileCount":2,"bytes":13949,"sha256":"f436eca23e46f5cc1c436d5f6fa85993ca0478cc3f3a6ef80f6569e91a2e964e","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/automated-triage/SKILL.md","bytes":12876,"sha256":"f436eca23e46f5cc1c436d5f6fa85993ca0478cc3f3a6ef80f6569e91a2e964e","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/automated-triage/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/LICENSE"}],"archiveSha256":"401ed8abf9ccc91f22e6859f36ca1aa2dd32b21de4558ad64bb2be8ffb1cda26"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--automated-triage",
+    "name": "automated-triage",
+    "description": "Triage Monte Carlo alerts interactively or build an automated workflow. Fetch, score, and troubleshoot alerts using MCP tools now, or design a reusable workflow that runs on a schedule.",
+    "category": "Design",
+    "tags": [
+      "automated",
+      "triage",
+      "monte",
+      "carlo",
+      "alerts",
+      "interactively",
+      "workflow.",
+      "fetch",
+      "score",
+      "troubleshoot",
+      "mcp",
+      "tools",
+      "now",
+      "design",
+      "reusable",
+      "workflow",
+      "runs",
+      "schedule."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/automated-triage",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/automated-triage",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13949,
+    "sha256": "f436eca23e46f5cc1c436d5f6fa85993ca0478cc3f3a6ef80f6569e91a2e964e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/automated-triage/SKILL.md",
+      "bytes": 12876,
+      "sha256": "f436eca23e46f5cc1c436d5f6fa85993ca0478cc3f3a6ef80f6569e91a2e964e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/automated-triage/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "153c4c294d7c0897736ae1a3a03bb9714ed58dd0bf5426e1aa32ad48b8cc05f3"
+}

@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--seaborn",
+    "name": "seaborn",
+    "description": "Creates Seaborn statistical visualizations with pandas integration for distributions, relationships, categorical comparisons, regression displays, pair plots, and heatmaps. Supports function and objects interfaces with explicit aggregation, uncertainty, and missing-data handling. Best suited to static exploratory plots; plotly covers interactive figures and scientific-visualization covers publication styling.",
+    "category": "Data & research",
+    "tags": [
+      "seaborn",
+      "creates",
+      "statistical",
+      "visualizations",
+      "pandas",
+      "integration",
+      "distributions",
+      "relationships",
+      "categorical",
+      "comparisons",
+      "regression",
+      "displays",
+      "pair",
+      "plots",
+      "heatmaps.",
+      "supports",
+      "function",
+      "objects"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/seaborn",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/seaborn",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 9,
+    "bytes": 95092,
+    "sha256": "d1500d1e3d9db1db4c72cd272861378d1b98b0b5a5a98e8a3fca5a45bc0c6b2e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/seaborn/SKILL.md",
+      "bytes": 13464,
+      "sha256": "d1500d1e3d9db1db4c72cd272861378d1b98b0b5a5a98e8a3fca5a45bc0c6b2e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/seaborn/SKILL.md"
+    },
+    {
+      "path": "references/examples.md",
+      "sourcePath": "skills/seaborn/references/examples.md",
+      "bytes": 22634,
+      "sha256": "9ac123a232f3aca67a71e0d8132e2b9bd60ba0adcd8871e0368aea9dfc494577",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/seaborn/references/examples.md"
+    },
+    {
+      "path": "references/function_reference.md",
+      "sourcePath": "skills/seaborn/references/function_reference.md",
+      "bytes": 28833,
+      "sha256": "0b667b9154898ce9d6096cd6bc7af72ca9e50f8f55a7dbcc4d0c03a3f05ff08a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/seaborn/references/function_reference.md"
+    },
+    {
+      "path": "references/grids_and_levels.md",
+      "sourcePath": "skills/seaborn/references/grids_and_levels.md",
+      "bytes": 2995,
+      "sha256": "03831ff54cc1885934c9bb51223fded6f6ff282f23c56653b35641c8c073f27a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/seaborn/references/grids_and_levels.md"
+    },
+    {
+      "path": "references/objects_interface.md",
+      "sourcePath": "skills/seaborn/references/objects_interface.md",
+      "bytes": 11394,
+      "sha256": "c3ddb1b2f97d77d9c70c1f079c99b9355b3d8c18874912522032be14d653ea17",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/seaborn/references/objects_interface.md"
+    },
+    {
+      "path": "references/palettes_and_theming.md",
+      "sourcePath": "skills/seaborn/references/palettes_and_theming.md",
+      "bytes": 3004,
+      "sha256": "d7b8767e1533c5753d2b8792bcc2edff21c28f116f6e05bb200a2b3b1a0799c5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/seaborn/references/palettes_and_theming.md"
+    },
+    {
+      "path": "references/patterns_and_troubleshooting.md",
+      "sourcePath": "skills/seaborn/references/patterns_and_troubleshooting.md",
+      "bytes": 5050,
+      "sha256": "65c6afdc6551f8ec240a8b3316f2f4739a4734b59267b9c3f486ad6428458cac",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/seaborn/references/patterns_and_troubleshooting.md"
+    },
+    {
+      "path": "references/plotting_functions.md",
+      "sourcePath": "skills/seaborn/references/plotting_functions.md",
+      "bytes": 6650,
+      "sha256": "9a3e88895a33a2d9329b365987491981a695226fb9ed97ccb91f334d28c56385",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/seaborn/references/plotting_functions.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "415482218907c548c432b9ff48b837d3a1434d8c5d946328a837f6d62b5ddc51"
+}

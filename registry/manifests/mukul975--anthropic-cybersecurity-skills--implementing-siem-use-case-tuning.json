@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-siem-use-case-tuning",
+    "name": "implementing-siem-use-case-tuning",
+    "description": "Tune SIEM detection rules in Splunk and Elastic to reduce false positives by analyzing alert volumes, creating context-aware exclusion lists, adjusting thresholds against environmental baselines, and measuring precision/recall efficacy metrics. Use when a SOC is drowning in noisy alerts and needs to tune correlation searches or detection rules, or when measuring and reporting alert-to-incident conversion rates.",
+    "category": "Marketing",
+    "tags": [
+      "implementing",
+      "siem",
+      "case",
+      "tuning",
+      "tune",
+      "detection",
+      "rules",
+      "splunk",
+      "elastic",
+      "reduce",
+      "false",
+      "positives",
+      "by",
+      "analyzing",
+      "alert",
+      "volumes",
+      "creating",
+      "context"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-siem-use-case-tuning/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-siem-use-case-tuning",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-siem-use-case-tuning",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 24334,
+    "sha256": "a12f668aed2c9d45dccc3d8e99bc3ba4e22bad35596d755ed814528b2f336bd3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-siem-use-case-tuning/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-siem-use-case-tuning/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-siem-use-case-tuning/SKILL.md",
+      "bytes": 2627,
+      "sha256": "a12f668aed2c9d45dccc3d8e99bc3ba4e22bad35596d755ed814528b2f336bd3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-siem-use-case-tuning/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-siem-use-case-tuning/references/api-reference.md",
+      "bytes": 2170,
+      "sha256": "0736afbd5b934249d2707d81a84a42f31c0b63e11075467fc673e419c58bbea2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-siem-use-case-tuning/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-siem-use-case-tuning/scripts/agent.py",
+      "bytes": 8282,
+      "sha256": "a4317cc7c2f6b812714b11e282852a28b5578195d71733136fe8f5a08cfae2a2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-siem-use-case-tuning/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "db8e0c1753390769ebfc7afb937987c10f1aa2da8802ff966eea8e81727a06d3"
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-web-application-firewall-bypass",
+    "name": "performing-web-application-firewall-bypass",
+    "description": "Bypasses Web Application Firewall protections using encoding tricks, HTTP method manipulation, parameter pollution, and payload obfuscation to smuggle SQL injection, XSS, and other exploit payloads past WAF detection rules. Use when a confirmed vulnerability is blocked by a WAF, during penetration tests or red team engagements requiring bypass of perimeter security controls, or when evaluating WAF rule effectiveness and bypass resistance.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "web",
+      "application",
+      "firewall",
+      "bypass",
+      "bypasses",
+      "protections",
+      "encoding",
+      "tricks",
+      "http",
+      "method",
+      "manipulation",
+      "parameter",
+      "pollution",
+      "payload",
+      "obfuscation",
+      "smuggle",
+      "sql"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-web-application-firewall-bypass/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-web-application-firewall-bypass",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-application-firewall-bypass",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 28945,
+    "sha256": "ba5691aaf29c92c887e48636e0d779c03cd6478b9aa57a4c6983ffdcd2c188cf",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-web-application-firewall-bypass/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-application-firewall-bypass/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-web-application-firewall-bypass/SKILL.md",
+      "bytes": 9727,
+      "sha256": "ba5691aaf29c92c887e48636e0d779c03cd6478b9aa57a4c6983ffdcd2c188cf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-application-firewall-bypass/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-web-application-firewall-bypass/references/api-reference.md",
+      "bytes": 1788,
+      "sha256": "e77113e47f24013dd6876b30831a5f990f927d02f0eed1bc9fd80d793cd7a69f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-application-firewall-bypass/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-web-application-firewall-bypass/scripts/agent.py",
+      "bytes": 6175,
+      "sha256": "25cb01ad06c696c8dfc3de891ed282bedc29f72a8efc1b45c058b1972323a7dd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-application-firewall-bypass/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "6330b33de6094c59995437448cd3cecc09599038de674f99d125c73c722f9ddb"
+}

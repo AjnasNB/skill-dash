@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-ransomware-encryption-behavior",
+    "name": "detecting-ransomware-encryption-behavior",
+    "description": "Detects ransomware encryption activity in real time using entropy analysis, file system I/O monitoring (Sysmon, watchdog, psutil), and behavioral scoring to identify mass file modification, abnormal entropy spikes in written data, and suspicious process behavior characteristic of encryption routines. Use when building real-time ransomware detection, tuning entropy thresholds, or investigating suspected active encryption on an endpoint.",
+    "category": "Development",
+    "tags": [
+      "detecting",
+      "ransomware",
+      "encryption",
+      "behavior",
+      "detects",
+      "activity",
+      "real",
+      "time",
+      "entropy",
+      "analysis",
+      "file",
+      "system",
+      "monitoring",
+      "sysmon",
+      "watchdog",
+      "psutil",
+      "behavioral",
+      "scoring"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-ransomware-encryption-behavior/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-ransomware-encryption-behavior",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-ransomware-encryption-behavior",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34668,
+    "sha256": "b15452fb51b28cf49053812f8cdd80ee360b1c4b0cd7296a1cbf854cd194aa23",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-ransomware-encryption-behavior/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-ransomware-encryption-behavior/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-ransomware-encryption-behavior/SKILL.md",
+      "bytes": 8815,
+      "sha256": "b15452fb51b28cf49053812f8cdd80ee360b1c4b0cd7296a1cbf854cd194aa23",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-ransomware-encryption-behavior/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-ransomware-encryption-behavior/references/api-reference.md",
+      "bytes": 2623,
+      "sha256": "a3a76270b2b8244689b3957fd3b1159eb6637513fff1b3456f5d78f22d0793a2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-ransomware-encryption-behavior/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-ransomware-encryption-behavior/scripts/agent.py",
+      "bytes": 11975,
+      "sha256": "8ff6eea29762dc646e078538efed8c0398ebdce9eb8b49982f2d68ca6771bb14",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-ransomware-encryption-behavior/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "df61bb250eb2952d24b6e03e52a9fb00b91c3c11606c022dc3bd4990ff0fb527"
+}

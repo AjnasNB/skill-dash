@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-outlook-pst-for-email-forensics",
+    "name": "analyzing-outlook-pst-for-email-forensics",
+    "description": "Parse Microsoft Outlook PST and OST files using libpff and pst-utils to extract message content, headers, attachments, deleted items, and MAPI metadata, including recovery of items from the Recoverable Items folder. Use when conducting email forensic investigations, legal e-discovery, or incident response that requires reconstructing communication patterns or tracing message routing from Outlook archives.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "outlook",
+      "pst",
+      "email",
+      "forensics",
+      "parse",
+      "microsoft",
+      "ost",
+      "files",
+      "libpff",
+      "utils",
+      "extract",
+      "message",
+      "content",
+      "headers",
+      "attachments",
+      "deleted",
+      "items"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-outlook-pst-for-email-forensics/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-outlook-pst-for-email-forensics",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-outlook-pst-for-email-forensics",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 6,
+    "bytes": 33660,
+    "sha256": "204d96e20e624b2f02b02db95cb2058285ba17463990d656db9aec0601b355b6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-outlook-pst-for-email-forensics/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-outlook-pst-for-email-forensics/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-outlook-pst-for-email-forensics/SKILL.md",
+      "bytes": 12812,
+      "sha256": "204d96e20e624b2f02b02db95cb2058285ba17463990d656db9aec0601b355b6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-outlook-pst-for-email-forensics/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-outlook-pst-for-email-forensics/references/api-reference.md",
+      "bytes": 2566,
+      "sha256": "b470945de3ce8a194284f5b71ea41e931abe51f5184efb8a3b625aba4622d161",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-outlook-pst-for-email-forensics/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/analyzing-outlook-pst-for-email-forensics/references/standards.md",
+      "bytes": 634,
+      "sha256": "0d50880385d48ed686318f1ea5d7066d25ad59924c396706ba44a6e361441779",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-outlook-pst-for-email-forensics/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/analyzing-outlook-pst-for-email-forensics/references/workflows.md",
+      "bytes": 397,
+      "sha256": "ccefa4dff3d6203beadf0b5188e06e841aa0eb5b43d86cc8dba3c1d871187990",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-outlook-pst-for-email-forensics/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-outlook-pst-for-email-forensics/scripts/agent.py",
+      "bytes": 5996,
+      "sha256": "1072606276f4037944bca9934094a2d61d192df2f379e5b75df8ae847bba2b0a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-outlook-pst-for-email-forensics/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "5a11a780465ba8a6fe1a6034c430a9e37087161ce3e79290b8b09c65be9a6f1c"
+}

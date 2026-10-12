@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-entitlement-review-with-sailpoint-iiq",
+    "name": "performing-entitlement-review-with-sailpoint-iiq",
+    "description": "Runs entitlement review and access certification campaigns in SailPoint IdentityIQ, covering manager certifications, targeted entitlement reviews, role-based access validation, segregation-of-duties violation remediation, and automated revocation workflows. Use when performing periodic user access recertification, auditing SailPoint IIQ access governance, or investigating SOD violations.",
+    "category": "Development",
+    "tags": [
+      "performing",
+      "entitlement",
+      "review",
+      "sailpoint",
+      "iiq",
+      "runs",
+      "access",
+      "certification",
+      "campaigns",
+      "identityiq",
+      "covering",
+      "manager",
+      "certifications",
+      "targeted",
+      "reviews",
+      "role",
+      "based",
+      "validation"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-entitlement-review-with-sailpoint-iiq/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-entitlement-review-with-sailpoint-iiq",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-entitlement-review-with-sailpoint-iiq",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 39065,
+    "sha256": "0d3a1ea460d5c756698271493921275d1d32cea22c98b9fff705e45c52a922d2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-entitlement-review-with-sailpoint-iiq/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-entitlement-review-with-sailpoint-iiq/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-entitlement-review-with-sailpoint-iiq/SKILL.md",
+      "bytes": 18940,
+      "sha256": "0d3a1ea460d5c756698271493921275d1d32cea22c98b9fff705e45c52a922d2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-entitlement-review-with-sailpoint-iiq/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-entitlement-review-with-sailpoint-iiq/references/api-reference.md",
+      "bytes": 2030,
+      "sha256": "1011363cfe555877eda2812b99e46f4fffc479e687f840089eff83a7a8cf7059",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-entitlement-review-with-sailpoint-iiq/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-entitlement-review-with-sailpoint-iiq/scripts/agent.py",
+      "bytes": 6840,
+      "sha256": "d5c868bc18e8d25cce95622b7a75cdede3921135d4c8b2c9ceb267de6701843e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-entitlement-review-with-sailpoint-iiq/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "0a1ee94d3d80fe545966a119c8a6ccc2846c2f2c4db624aa90ffed0d7585ef14"
+}

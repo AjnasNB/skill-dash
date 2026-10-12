@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--configuring-windows-event-logging-for-detection",
+    "name": "configuring-windows-event-logging-for-detection",
+    "description": "Configures Windows Event Logging with advanced audit policies to generate high-fidelity security events for threat detection and forensic investigation. Use when enabling audit policies for logon events, process creation, privilege use, and object access to feed SIEM detection rules. Activates for requests involving Windows audit policy, event log configuration, security logging, or detection-oriented logging.",
+    "category": "Security",
+    "tags": [
+      "configuring",
+      "windows",
+      "event",
+      "logging",
+      "detection",
+      "configures",
+      "advanced",
+      "audit",
+      "policies",
+      "generate",
+      "high",
+      "fidelity",
+      "security",
+      "events",
+      "threat",
+      "forensic",
+      "investigation.",
+      "when"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/configuring-windows-event-logging-for-detection/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/configuring-windows-event-logging-for-detection",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-event-logging-for-detection",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 28506,
+    "sha256": "59f5842ebf4d6cc270181708bbac69febc74d2af44e259c070551e97c84a3a77",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/configuring-windows-event-logging-for-detection/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-event-logging-for-detection/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/configuring-windows-event-logging-for-detection/SKILL.md",
+      "bytes": 6577,
+      "sha256": "59f5842ebf4d6cc270181708bbac69febc74d2af44e259c070551e97c84a3a77",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-event-logging-for-detection/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/configuring-windows-event-logging-for-detection/assets/template.md",
+      "bytes": 508,
+      "sha256": "d27cdb2ed4345540d30c0d290d38018af99688576adb223219b1ef2a5248456f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-event-logging-for-detection/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/configuring-windows-event-logging-for-detection/references/api-reference.md",
+      "bytes": 1567,
+      "sha256": "bc788e123ca0b7e68d56acc919fa37c947a2621d603c112aa17f274f806e5c0a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-event-logging-for-detection/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/configuring-windows-event-logging-for-detection/references/standards.md",
+      "bytes": 391,
+      "sha256": "2ae9cc2761b28dafad130cd668f4a27abe25c8c433a8646765ab425f8fb1f150",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-event-logging-for-detection/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/configuring-windows-event-logging-for-detection/references/workflows.md",
+      "bytes": 349,
+      "sha256": "f3e58df57285359a862ff37772fcd96659a620ed8a9e4ffa4ca4ced41ed7c65c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-event-logging-for-detection/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/configuring-windows-event-logging-for-detection/scripts/agent.py",
+      "bytes": 5816,
+      "sha256": "4e3bb689d472b39b4e06807456bcbb0bfc20c072d7eba9aa8b95263688c61d72",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-event-logging-for-detection/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/configuring-windows-event-logging-for-detection/scripts/process.py",
+      "bytes": 2043,
+      "sha256": "3e4169dcdc7fa15a8cee86aa92beb20db1f596f12d0fd7e538e856b7ff91b6ff",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-event-logging-for-detection/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "e2ee99af688def43db06f521ded3eea8e604c8b280a0434a703b9f93c946c250"
+}

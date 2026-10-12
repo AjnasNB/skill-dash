@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--benchmarking-kubernetes-with-kube-bench",
+    "name": "benchmarking-kubernetes-with-kube-bench",
+    "description": "Installs and runs the kube-bench tool against a Kubernetes cluster as a Job, DaemonSet, or standalone binary, selecting the correct benchmark version and targets (control plane, etcd, kubelet, worker nodes) and emitting JSON or JUnit output for pipelines. Use when setting kube-bench up for the first time, choosing which benchmark version and node targets to run, wiring it into CI, or troubleshooting skipped or misdetected checks. Keywords: kube-bench, DaemonSet, --benchmark, --targets, JSON output, JUnit, CI integration. Do not use for interpreting the findings or producing an audit report - use performing-kubernetes-cis-benchmark-with-kube-bench.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "benchmarking",
+      "kubernetes",
+      "kube",
+      "bench",
+      "installs",
+      "runs",
+      "tool",
+      "against",
+      "cluster",
+      "as",
+      "job",
+      "daemonset",
+      "standalone",
+      "binary",
+      "selecting",
+      "correct",
+      "benchmark",
+      "version"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/benchmarking-kubernetes-with-kube-bench/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/benchmarking-kubernetes-with-kube-bench",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/benchmarking-kubernetes-with-kube-bench",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 30913,
+    "sha256": "947f0a3d4059abab645b82e432a23f2542deb839a9a46c212b2bebaff5b946a4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/benchmarking-kubernetes-with-kube-bench/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/benchmarking-kubernetes-with-kube-bench/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/benchmarking-kubernetes-with-kube-bench/SKILL.md",
+      "bytes": 9322,
+      "sha256": "947f0a3d4059abab645b82e432a23f2542deb839a9a46c212b2bebaff5b946a4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/benchmarking-kubernetes-with-kube-bench/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/benchmarking-kubernetes-with-kube-bench/references/api-reference.md",
+      "bytes": 2969,
+      "sha256": "3248dc0bf5a34b605fe7c8723e0a231082c149c21280207d99606954d75717af",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/benchmarking-kubernetes-with-kube-bench/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/benchmarking-kubernetes-with-kube-bench/references/standards.md",
+      "bytes": 1650,
+      "sha256": "b0ff0d9a2df0171286706ed7891e53f342444d520e7d6422fd85e761d37bf032",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/benchmarking-kubernetes-with-kube-bench/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/benchmarking-kubernetes-with-kube-bench/scripts/agent.py",
+      "bytes": 5717,
+      "sha256": "82e9bdac9dcc07091c405af19b6cde8ec945fd7f7dc92d41e5b0155ccebbeffc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/benchmarking-kubernetes-with-kube-bench/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "9d99ead1307386a4f25ab35b18c47df8630fab46a737f8057d40d40e117b2f07"
+}

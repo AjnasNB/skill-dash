@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--leave-management",
+    "name": "leave-management",
+    "description": "Leave register: request, leave type, employee and department, manager and approver, start and end dates, days requested, leave balances, handover notes and status. Use for leave tracking.",
+    "category": "Development",
+    "tags": [
+      "leave",
+      "management",
+      "register",
+      "request",
+      "type",
+      "employee",
+      "department",
+      "manager",
+      "approver",
+      "start",
+      "end",
+      "dates",
+      "days",
+      "requested",
+      "balances",
+      "handover",
+      "notes",
+      "status."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/leave-management",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/leave-management",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 15731,
+    "sha256": "beefcd204a2e46849a831621e20f99d0fe6383ac5d6744d5f3d49ed65745d917",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/leave-management/SKILL.md",
+      "bytes": 14658,
+      "sha256": "beefcd204a2e46849a831621e20f99d0fe6383ac5d6744d5f3d49ed65745d917",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/leave-management/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "3a6a79f2793b262c45808cddc05c01cf84ecf2ddf5c6f4eddc7e62a0ae09e444"
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--conducting-post-incident-lessons-learned",
+    "name": "conducting-post-incident-lessons-learned",
+    "description": "Facilitate structured post-incident reviews to identify root causes, document what worked and failed, and produce actionable recommendations to improve future incident response.",
+    "category": "Development",
+    "tags": [
+      "conducting",
+      "post",
+      "incident",
+      "lessons",
+      "learned",
+      "facilitate",
+      "structured",
+      "reviews",
+      "identify",
+      "root",
+      "causes",
+      "document",
+      "what",
+      "worked",
+      "failed",
+      "produce",
+      "actionable",
+      "recommendations"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/conducting-post-incident-lessons-learned/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/conducting-post-incident-lessons-learned",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-post-incident-lessons-learned",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 40116,
+    "sha256": "d525f1db0c8ad7606a665a3d45d0a83d2dbf0b5273de1eb43aabcfd3c3042215",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/conducting-post-incident-lessons-learned/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-post-incident-lessons-learned/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/conducting-post-incident-lessons-learned/SKILL.md",
+      "bytes": 6680,
+      "sha256": "d525f1db0c8ad7606a665a3d45d0a83d2dbf0b5273de1eb43aabcfd3c3042215",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-post-incident-lessons-learned/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/conducting-post-incident-lessons-learned/assets/template.md",
+      "bytes": 2199,
+      "sha256": "16731a49feb71540e8d9cdeb16965a7bb0ed7b604a297fea1fdb9917000d0875",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-post-incident-lessons-learned/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/conducting-post-incident-lessons-learned/references/api-reference.md",
+      "bytes": 1535,
+      "sha256": "151ca09bb4787014c4361366fcd6be696c158fe130df8733ec5e8326c91f140f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-post-incident-lessons-learned/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/conducting-post-incident-lessons-learned/references/standards.md",
+      "bytes": 1208,
+      "sha256": "7bde8135515694518eae5e3e22e5c0f03eb4dd05fac252bb3de1dae2d3896884",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-post-incident-lessons-learned/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/conducting-post-incident-lessons-learned/references/workflows.md",
+      "bytes": 1993,
+      "sha256": "612d0dbd19d18c7072d735e24a466a133a05718a1cb954d34c5eac389c5b4b56",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-post-incident-lessons-learned/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/conducting-post-incident-lessons-learned/scripts/agent.py",
+      "bytes": 5815,
+      "sha256": "39851d1f2cf78cfc6e6af925f102526ea3844630abae31746020bc661fc6c6df",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-post-incident-lessons-learned/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/conducting-post-incident-lessons-learned/scripts/process.py",
+      "bytes": 9431,
+      "sha256": "1345105b031711162a4bdfd007163b067e8a684d0379a64771e6a1300c7ac266",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-post-incident-lessons-learned/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "ec3242fbff612fe8a9fc7941ed996c9b7416c3eea8ed9fac09f043e2753664ed"
+}

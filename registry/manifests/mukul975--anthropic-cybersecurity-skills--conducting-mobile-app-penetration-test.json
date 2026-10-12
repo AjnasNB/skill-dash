@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--conducting-mobile-app-penetration-test",
+    "name": "conducting-mobile-app-penetration-test",
+    "description": "Conducts penetration testing of iOS and Android mobile applications following the OWASP Mobile Application Security Testing Guide (MASTG) to identify vulnerabilities in data storage, network communication, authentication, cryptography, and platform-specific security controls. The tester performs static analysis of application binaries, dynamic analysis at runtime, and API security testing to evaluate the complete mobile attack surface. Activates for requests involving mobile app pentest, iOS security assessment, Android security testing, or OWASP MASTG assessment.",
+    "category": "Security",
+    "tags": [
+      "conducting",
+      "mobile",
+      "app",
+      "penetration",
+      "test",
+      "conducts",
+      "testing",
+      "ios",
+      "android",
+      "applications",
+      "following",
+      "owasp",
+      "application",
+      "security",
+      "guide",
+      "mastg",
+      "identify",
+      "vulnerabilities"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/conducting-mobile-app-penetration-test/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/conducting-mobile-app-penetration-test",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-mobile-app-penetration-test",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 33970,
+    "sha256": "88e772bdee5f51ab9dfef446d64f8c9930838e4623d84cebd91b7795ee4bfef8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/conducting-mobile-app-penetration-test/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-mobile-app-penetration-test/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/conducting-mobile-app-penetration-test/SKILL.md",
+      "bytes": 12730,
+      "sha256": "88e772bdee5f51ab9dfef446d64f8c9930838e4623d84cebd91b7795ee4bfef8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-mobile-app-penetration-test/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/conducting-mobile-app-penetration-test/references/api-reference.md",
+      "bytes": 2150,
+      "sha256": "7dacfa5e6dec2822ac4027ee1dccd40d30c2664a736e23f8a668b351ce4d1d49",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-mobile-app-penetration-test/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/conducting-mobile-app-penetration-test/scripts/agent.py",
+      "bytes": 7835,
+      "sha256": "6c7b43ec72c5b91289bd8891addabfd7fdafae2b5f5822b484d0e1f1df49a739",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-mobile-app-penetration-test/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "bf0d4ab69ec7047d85cf8befda8d4fb886dd5b7b8b2b14e7cb1e1ba679674738"
+}

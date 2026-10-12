@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-powershell-script-block-logging",
+    "name": "analyzing-powershell-script-block-logging",
+    "description": "Parse Windows PowerShell Script Block Logs (Event ID 4104) from EVTX files to detect obfuscated commands, encoded payloads, and living-off-the-land techniques. Uses python-evtx to extract and reconstruct multi-block scripts, applies entropy analysis and pattern matching for Base64-encoded commands, Invoke-Expression abuse, download cradles, and AMSI bypass attempts.",
+    "category": "Development",
+    "tags": [
+      "analyzing",
+      "powershell",
+      "script",
+      "block",
+      "logging",
+      "parse",
+      "windows",
+      "logs",
+      "event",
+      "id",
+      "4104",
+      "from",
+      "evtx",
+      "files",
+      "detect",
+      "obfuscated",
+      "commands",
+      "encoded"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-powershell-script-block-logging/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-powershell-script-block-logging",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-powershell-script-block-logging",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 23832,
+    "sha256": "6d2aaf3523f8ad82828365000f286f5dab23aa4c162e1850ea92fd1ceca68db4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-powershell-script-block-logging/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-powershell-script-block-logging/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-powershell-script-block-logging/SKILL.md",
+      "bytes": 2663,
+      "sha256": "6d2aaf3523f8ad82828365000f286f5dab23aa4c162e1850ea92fd1ceca68db4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-powershell-script-block-logging/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-powershell-script-block-logging/references/api-reference.md",
+      "bytes": 1866,
+      "sha256": "0ec418dde019a292a44990355aa558ec400a93eefcf57408cefd73bd6089a227",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-powershell-script-block-logging/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-powershell-script-block-logging/scripts/agent.py",
+      "bytes": 8048,
+      "sha256": "18f1dc3528b69807969a586f4881d82cd865d0f51b88063c9a39c68c266ba64a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-powershell-script-block-logging/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "6533900be07e49422dd796ec02c2029d67b4da51b3767d526f77391bc32bcd46"
+}

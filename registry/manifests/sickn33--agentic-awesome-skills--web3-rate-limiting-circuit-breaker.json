@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--web3-rate-limiting-circuit-breaker",
+    "name": "web3-rate-limiting-circuit-breaker",
+    "description": "On-chain and relayer rate-limiting circuit breaker register: throughput thresholds, emergency pause triggers, and multi-sig recovery.",
+    "category": "Development",
+    "tags": [
+      "web3",
+      "rate",
+      "limiting",
+      "circuit",
+      "breaker",
+      "chain",
+      "relayer",
+      "register",
+      "throughput",
+      "thresholds",
+      "emergency",
+      "pause",
+      "triggers",
+      "multi",
+      "sig",
+      "recovery."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/web3-rate-limiting-circuit-breaker",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/web3-rate-limiting-circuit-breaker",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6518,
+    "sha256": "8a059459c3c9735c0970f3af1744e3e069dba1f3231fa19e6f944cd9f3e0b049",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/web3-rate-limiting-circuit-breaker/SKILL.md",
+      "bytes": 5445,
+      "sha256": "8a059459c3c9735c0970f3af1744e3e069dba1f3231fa19e6f944cd9f3e0b049",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/web3-rate-limiting-circuit-breaker/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "6fc0dc58ca4c3e70bb499a9e6285b02268d4ddf210badd53fbed181c6c783f2f"
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--stellar-asset-clawback-compliance",
+    "name": "stellar-asset-clawback-compliance",
+    "description": "Regulated Stellar asset clawback architecture register: issuer authorization flags, claimable balance revocations, and regulatory audit trail.",
+    "category": "Development",
+    "tags": [
+      "stellar",
+      "asset",
+      "clawback",
+      "compliance",
+      "regulated",
+      "architecture",
+      "register",
+      "issuer",
+      "authorization",
+      "flags",
+      "claimable",
+      "balance",
+      "revocations",
+      "regulatory",
+      "audit",
+      "trail."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/stellar-asset-clawback-compliance",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/stellar-asset-clawback-compliance",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6296,
+    "sha256": "9eaa4fae50ec0d0a22fa4aae0c950ecc6f77431edd3924bb06f5ae8ece52d2c6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/stellar-asset-clawback-compliance/SKILL.md",
+      "bytes": 5223,
+      "sha256": "9eaa4fae50ec0d0a22fa4aae0c950ecc6f77431edd3924bb06f5ae8ece52d2c6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/stellar-asset-clawback-compliance/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "e79f7820f13cb15c9c4778cae0c57c8e7b4cd859d4355cf444c2bc653e32c1b2"
+}

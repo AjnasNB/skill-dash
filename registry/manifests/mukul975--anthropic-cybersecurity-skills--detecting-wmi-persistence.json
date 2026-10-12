@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-wmi-persistence",
+    "name": "detecting-wmi-persistence",
+    "description": "Detect WMI event subscription persistence (MITRE T1546.003) by analyzing Sysmon Event IDs 19, 20, and 21 for malicious EventFilter, EventConsumer, and FilterToConsumerBinding creation, cross-referenced against root\\subscription namespace contents and Sysinternals Autoruns. Use when hunting WMI-based persistence, triaging a Sysmon alert on these event IDs, or during incident response and purple-team validation of WMI defenses.",
+    "category": "Development",
+    "tags": [
+      "detecting",
+      "wmi",
+      "persistence",
+      "detect",
+      "event",
+      "subscription",
+      "mitre",
+      "t1546.003",
+      "by",
+      "analyzing",
+      "sysmon",
+      "ids",
+      "19",
+      "20",
+      "21",
+      "malicious",
+      "eventfilter",
+      "eventconsumer"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-wmi-persistence/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-wmi-persistence",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-wmi-persistence",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 26761,
+    "sha256": "34f5cebf960ca6d40a1232285d05670f97993662b4e6d52453a40d30f5fb6820",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-wmi-persistence/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-wmi-persistence/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-wmi-persistence/SKILL.md",
+      "bytes": 3654,
+      "sha256": "34f5cebf960ca6d40a1232285d05670f97993662b4e6d52453a40d30f5fb6820",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-wmi-persistence/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-wmi-persistence/references/api-reference.md",
+      "bytes": 2985,
+      "sha256": "ab34783e94c2aa193c47184d3284845ac38384ba04466ee17406a29f71ca81fc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-wmi-persistence/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-wmi-persistence/scripts/agent.py",
+      "bytes": 8867,
+      "sha256": "c6a0231238a44ebb97cdc7dde132c58c34e2aed7b6e292a4dff6c09a13e67bc2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-wmi-persistence/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "0a13649199f71c9b232b663c4d345d12b0c7409fb8860ffa597c677eff2a1829"
+}

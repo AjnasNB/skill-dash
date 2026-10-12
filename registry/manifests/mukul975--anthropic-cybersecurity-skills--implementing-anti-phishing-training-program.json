@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-anti-phishing-training-program",
+    "name": "implementing-anti-phishing-training-program",
+    "description": "Guides designing, deploying, and measuring an anti-phishing security awareness program - baseline phishing simulations, interactive training modules, just-in-time learning, and metric tracking - using platforms like KnowBe4, Proofpoint Security Awareness, or Cofense. Use when building or maturing a phishing awareness program, establishing training controls for compliance, or measuring phishing susceptibility and reporting rates over time.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "anti",
+      "phishing",
+      "training",
+      "program",
+      "guides",
+      "designing",
+      "deploying",
+      "measuring",
+      "security",
+      "awareness",
+      "baseline",
+      "simulations",
+      "interactive",
+      "modules",
+      "just",
+      "time",
+      "learning"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-anti-phishing-training-program/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-anti-phishing-training-program",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-anti-phishing-training-program",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 47192,
+    "sha256": "c082da8787f495197df15fd9e2857d83e168ccce94a3e64ddd07781f8bdfbc94",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-anti-phishing-training-program/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-anti-phishing-training-program/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-anti-phishing-training-program/SKILL.md",
+      "bytes": 5081,
+      "sha256": "c082da8787f495197df15fd9e2857d83e168ccce94a3e64ddd07781f8bdfbc94",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-anti-phishing-training-program/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-anti-phishing-training-program/assets/template.md",
+      "bytes": 2472,
+      "sha256": "86975d82ada08364cdf895c0a77d7a4fe630e5dd7e5d2282aaf5db2dc3a01254",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-anti-phishing-training-program/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-anti-phishing-training-program/references/api-reference.md",
+      "bytes": 1845,
+      "sha256": "a694a0076678a8e5e80545ba903692b34ee5545b4eeb42a1b953a7debaa81990",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-anti-phishing-training-program/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-anti-phishing-training-program/references/standards.md",
+      "bytes": 2114,
+      "sha256": "df879c90347dae7029231b4f4cebfe7fcdad0bd9e2d3bab10e7f57383c46c217",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-anti-phishing-training-program/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-anti-phishing-training-program/references/workflows.md",
+      "bytes": 3158,
+      "sha256": "79bb7280947a93d5fe0e17d25fc5c8d71b0faad39a786e4134f845cfc4c6e467",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-anti-phishing-training-program/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-anti-phishing-training-program/scripts/agent.py",
+      "bytes": 6997,
+      "sha256": "7d02e09dad410ba13d96e71785c9056ff87863cba9629afe9681d6d5a2fd1643",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-anti-phishing-training-program/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-anti-phishing-training-program/scripts/process.py",
+      "bytes": 14270,
+      "sha256": "37c135d1cd4cb3251004a0c716c55998bc3591f1a0ef24f153d792e5ca8d306f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-anti-phishing-training-program/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "3b4ca9b2f088e82564447e445eb5d1e74a2c615c9d1a1e6870882fdd4e5aeb21"
+}

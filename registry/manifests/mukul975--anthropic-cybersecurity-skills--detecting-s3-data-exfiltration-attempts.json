@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-s3-data-exfiltration-attempts",
+    "name": "detecting-s3-data-exfiltration-attempts",
+    "description": "Detecting data exfiltration attempts from AWS S3 buckets by analyzing CloudTrail S3 data events, VPC Flow Logs, GuardDuty findings, Amazon Macie alerts, and S3 access patterns to identify unauthorized bulk downloads and cross-account data transfers.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "detecting",
+      "s3",
+      "data",
+      "exfiltration",
+      "attempts",
+      "from",
+      "aws",
+      "buckets",
+      "by",
+      "analyzing",
+      "cloudtrail",
+      "events",
+      "vpc",
+      "flow",
+      "logs",
+      "guardduty",
+      "findings",
+      "amazon"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-s3-data-exfiltration-attempts/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-s3-data-exfiltration-attempts",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-s3-data-exfiltration-attempts",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34554,
+    "sha256": "4eb4ecb1d87c68eccb40fdb565acc2e679b9406f065d95b0d318f543732794d7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-s3-data-exfiltration-attempts/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-s3-data-exfiltration-attempts/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-s3-data-exfiltration-attempts/SKILL.md",
+      "bytes": 12521,
+      "sha256": "4eb4ecb1d87c68eccb40fdb565acc2e679b9406f065d95b0d318f543732794d7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-s3-data-exfiltration-attempts/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-s3-data-exfiltration-attempts/references/api-reference.md",
+      "bytes": 2540,
+      "sha256": "04d5b75c15b8e6e31fd2ace44f3c551d5620469d53c2e8458eef02fa6e73bd79",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-s3-data-exfiltration-attempts/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-s3-data-exfiltration-attempts/scripts/agent.py",
+      "bytes": 8238,
+      "sha256": "95a34cdee04d82eb246debad696b96fb2bb7b62f8f07e83f00c3c6db2b3af066",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-s3-data-exfiltration-attempts/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "819121030fc7d31c0d1e25632d5b8559da8057709c1ba312d88b98aa64b1f6ad"
+}

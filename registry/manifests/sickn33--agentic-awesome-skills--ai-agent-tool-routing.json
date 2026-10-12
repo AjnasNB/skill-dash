@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--ai-agent-tool-routing",
+    "name": "ai-agent-tool-routing",
+    "description": "Autonomous AI agent tool router register: schema registration, runtime parameter coercion, idempotency keys, and error recovery policies.",
+    "category": "AI & agents",
+    "tags": [
+      "ai",
+      "agent",
+      "tool",
+      "routing",
+      "autonomous",
+      "router",
+      "register",
+      "schema",
+      "registration",
+      "runtime",
+      "parameter",
+      "coercion",
+      "idempotency",
+      "keys",
+      "error",
+      "recovery",
+      "policies."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/ai-agent-tool-routing",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ai-agent-tool-routing",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6542,
+    "sha256": "3d16ef0181a27db9b967c2fcbc566706874bd3c09f95b88010ea6af86c02d4a7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/ai-agent-tool-routing/SKILL.md",
+      "bytes": 5469,
+      "sha256": "3d16ef0181a27db9b967c2fcbc566706874bd3c09f95b88010ea6af86c02d4a7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ai-agent-tool-routing/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "0e7f40475d45438bd511dcd0d438a252ee981282e1c0974aca2afee37e37fc08"
+}

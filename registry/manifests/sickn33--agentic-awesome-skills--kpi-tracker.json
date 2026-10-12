@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--kpi-tracker",
+    "name": "kpi-tracker",
+    "description": "KPI register: metric by level, department, job title and employee, linked OKR, unit and direction, target against actual, achievement and weight percentages, period and owner. Use for scorecards.",
+    "category": "Development",
+    "tags": [
+      "kpi",
+      "tracker",
+      "register",
+      "metric",
+      "by",
+      "level",
+      "department",
+      "job",
+      "title",
+      "employee",
+      "linked",
+      "okr",
+      "unit",
+      "direction",
+      "target",
+      "against",
+      "actual",
+      "achievement"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/kpi-tracker",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/kpi-tracker",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 15665,
+    "sha256": "89b1c28ffd8f78f9c011b043642b6981d50d6be63b9f000e73f6ddc00a62b2c1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/kpi-tracker/SKILL.md",
+      "bytes": 14592,
+      "sha256": "89b1c28ffd8f78f9c011b043642b6981d50d6be63b9f000e73f6ddc00a62b2c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/kpi-tracker/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "47624d2793b8bc789f28ade56b0401841f133fa1d1646080f6e0e201d734ac6d"
+}

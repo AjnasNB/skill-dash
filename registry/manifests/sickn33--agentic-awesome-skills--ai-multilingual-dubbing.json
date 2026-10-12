@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--ai-multilingual-dubbing",
+    "name": "ai-multilingual-dubbing",
+    "description": "Install and use the official Multilingual Voiceover package, pinned by digest, for paid hosted work on the Beatra service.",
+    "category": "Video & audio",
+    "tags": [
+      "ai",
+      "multilingual",
+      "dubbing",
+      "install",
+      "official",
+      "voiceover",
+      "package",
+      "pinned",
+      "by",
+      "digest",
+      "paid",
+      "hosted",
+      "work",
+      "beatra",
+      "service."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/ai-multilingual-dubbing",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ai-multilingual-dubbing",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13687,
+    "sha256": "c03a9b36dcf017d57e3f10744e940b061b9a419ff186fb08f0d502e015aa71c3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/ai-multilingual-dubbing/SKILL.md",
+      "bytes": 12614,
+      "sha256": "c03a9b36dcf017d57e3f10744e940b061b9a419ff186fb08f0d502e015aa71c3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ai-multilingual-dubbing/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "20b3729f0d5bf77b9daafbdbec38934548360332ba6eb98ca96c39d9198cf7cb"
+}

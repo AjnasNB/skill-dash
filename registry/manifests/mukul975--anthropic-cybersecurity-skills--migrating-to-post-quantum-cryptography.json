@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--migrating-to-post-quantum-cryptography",
+    "name": "migrating-to-post-quantum-cryptography",
+    "description": "Build a cryptographic inventory/CBOM with OpenSSL 3.5+, deploy hybrid post-quantum key exchange (X25519MLKEM768) on TLS/VPN/SSH endpoints, generate ML-KEM/ML-DSA keys and PQC/hybrid certificates, and prioritize migration by harvest-now-decrypt-later (HNDL) exposure per NIST SP 1800-38. Use when inventorying enterprise cryptography for quantum-readiness, enabling hybrid PQC key exchange, or issuing and verifying PQC/hybrid certificates.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "migrating",
+      "post",
+      "quantum",
+      "cryptography",
+      "cryptographic",
+      "inventory",
+      "cbom",
+      "openssl",
+      "3.5+",
+      "deploy",
+      "hybrid",
+      "key",
+      "exchange",
+      "x25519mlkem768",
+      "tls",
+      "vpn",
+      "ssh",
+      "endpoints"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/migrating-to-post-quantum-cryptography/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/migrating-to-post-quantum-cryptography",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/migrating-to-post-quantum-cryptography",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 35759,
+    "sha256": "ac25fddc9244a85610c2feda73b0124776220158645a5d8d53d8b3b78912be30",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/migrating-to-post-quantum-cryptography/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/migrating-to-post-quantum-cryptography/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/migrating-to-post-quantum-cryptography/SKILL.md",
+      "bytes": 12043,
+      "sha256": "ac25fddc9244a85610c2feda73b0124776220158645a5d8d53d8b3b78912be30",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/migrating-to-post-quantum-cryptography/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/migrating-to-post-quantum-cryptography/references/api-reference.md",
+      "bytes": 2678,
+      "sha256": "659c6741a2e357dbf2280214dde59108c057b344d7627df7ac939b533fe41c51",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/migrating-to-post-quantum-cryptography/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/migrating-to-post-quantum-cryptography/references/standards.md",
+      "bytes": 1842,
+      "sha256": "633739f35c49ee2bb821bc799eb3b5d99fcb41a6982dfb401bfcb2abfe9fcd6d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/migrating-to-post-quantum-cryptography/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/migrating-to-post-quantum-cryptography/scripts/agent.py",
+      "bytes": 7941,
+      "sha256": "4e29daf0258b3540d8302c403361e95ff7fbb6f3c3cd0aca511a177c9ceffd21",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/migrating-to-post-quantum-cryptography/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "73693c75d1b99c90845fb78f363ae8cbb51d80ce39be50fa770c10898155fe0a"
+}

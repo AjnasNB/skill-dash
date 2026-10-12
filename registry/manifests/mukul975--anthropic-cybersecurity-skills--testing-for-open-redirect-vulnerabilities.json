@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--testing-for-open-redirect-vulnerabilities",
+    "name": "testing-for-open-redirect-vulnerabilities",
+    "description": "Identifies and exploits open redirect vulnerabilities by analyzing URL redirection parameters (next, url, redirect, return, goto), applying bypass techniques, and chaining findings into phishing or token-theft exploits, using Burp Suite/OWASP ZAP and Burp Collaborator. Use when testing login/logout flows, OAuth redirect_uri handling, or SSO redirect validation.",
+    "category": "Security",
+    "tags": [
+      "testing",
+      "open",
+      "redirect",
+      "vulnerabilities",
+      "identifies",
+      "exploits",
+      "by",
+      "analyzing",
+      "url",
+      "redirection",
+      "parameters",
+      "next",
+      "return",
+      "goto",
+      "applying",
+      "bypass",
+      "techniques",
+      "chaining"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/testing-for-open-redirect-vulnerabilities/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/testing-for-open-redirect-vulnerabilities",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-open-redirect-vulnerabilities",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 26926,
+    "sha256": "55fbe533fada32ba427ac1a1b61ffae4838b29c1a77a5c3453cfbc8d2f83366e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/testing-for-open-redirect-vulnerabilities/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-open-redirect-vulnerabilities/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/testing-for-open-redirect-vulnerabilities/SKILL.md",
+      "bytes": 8060,
+      "sha256": "55fbe533fada32ba427ac1a1b61ffae4838b29c1a77a5c3453cfbc8d2f83366e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-open-redirect-vulnerabilities/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/testing-for-open-redirect-vulnerabilities/references/api-reference.md",
+      "bytes": 1496,
+      "sha256": "2b14c8aa367d3d01378fe2da639d1037e8070fe525e6c67024aaa4c7af7e6468",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-open-redirect-vulnerabilities/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/testing-for-open-redirect-vulnerabilities/scripts/agent.py",
+      "bytes": 6115,
+      "sha256": "76d4c49b6338b24ed551165bccdaadfb1ec7a35b808728684ac4cdf7a822446a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-open-redirect-vulnerabilities/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "07024e718c0b240cda1487d88b75cc7be7420f13b06072eaee2d3c951d5422fa"
+}

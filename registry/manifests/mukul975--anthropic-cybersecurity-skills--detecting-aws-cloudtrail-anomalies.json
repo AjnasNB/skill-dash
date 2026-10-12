@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-aws-cloudtrail-anomalies",
+    "name": "detecting-aws-cloudtrail-anomalies",
+    "description": "Detect unusual API call patterns in AWS CloudTrail logs using boto3, statistical baselining, and behavioral analysis to identify credential compromise, privilege escalation, and unauthorized resource access.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "detecting",
+      "aws",
+      "cloudtrail",
+      "anomalies",
+      "detect",
+      "unusual",
+      "api",
+      "call",
+      "patterns",
+      "logs",
+      "boto3",
+      "statistical",
+      "baselining",
+      "behavioral",
+      "analysis",
+      "identify",
+      "credential",
+      "compromise"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-aws-cloudtrail-anomalies/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-aws-cloudtrail-anomalies",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-cloudtrail-anomalies",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 23835,
+    "sha256": "363865b0494e93aa43154a1d613f1a8311df283207c19a901631a410e47b47f2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-aws-cloudtrail-anomalies/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-cloudtrail-anomalies/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-aws-cloudtrail-anomalies/SKILL.md",
+      "bytes": 3002,
+      "sha256": "363865b0494e93aa43154a1d613f1a8311df283207c19a901631a410e47b47f2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-cloudtrail-anomalies/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-aws-cloudtrail-anomalies/references/api-reference.md",
+      "bytes": 2110,
+      "sha256": "322de99c84a604ad49d6c1beaef6afb18bf871f339eb8e1a5f1d7b21ef7d1f1f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-cloudtrail-anomalies/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-aws-cloudtrail-anomalies/scripts/agent.py",
+      "bytes": 7468,
+      "sha256": "6030edd22b50065f143a9563fcb48fcd32f0901b746299a1e746d618342c882c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-cloudtrail-anomalies/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "762c52e0098cf7609cd926d711a60ed8dd79df125f1a0bed37eaf6bc55e4cfa5"
+}

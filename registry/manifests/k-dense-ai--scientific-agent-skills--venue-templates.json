@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--venue-templates",
+    "name": "venue-templates",
+    "description": "Prepares journal manuscripts, conference papers, research posters, and grant documents using venue-specific formatting guidance and bundled LaTeX scaffolds. Supports selecting an official template, checking current page or anonymity rules, adapting academic writing to a venue, or inspecting a submission PDF.",
+    "category": "Documents",
+    "tags": [
+      "venue",
+      "templates",
+      "prepares",
+      "journal",
+      "manuscripts",
+      "conference",
+      "papers",
+      "research",
+      "posters",
+      "grant",
+      "documents",
+      "specific",
+      "formatting",
+      "guidance",
+      "bundled",
+      "latex",
+      "scaffolds.",
+      "supports"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/venue-templates",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 33,
+    "bytes": 322174,
+    "sha256": "8607993327f451cc6b9d7ca7502c0e7d5f5060954fec12e2ea779d96841e78b5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/venue-templates/SKILL.md",
+      "bytes": 13335,
+      "sha256": "8607993327f451cc6b9d7ca7502c0e7d5f5060954fec12e2ea779d96841e78b5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/SKILL.md"
+    },
+    {
+      "path": "assets/examples/cell_summary_example.md",
+      "sourcePath": "skills/venue-templates/assets/examples/cell_summary_example.md",
+      "bytes": 2366,
+      "sha256": "ec939d99d836d3f4cfd23a74c17fee238d712a42b2de4c613668de492f158b6a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/assets/examples/cell_summary_example.md"
+    },
+    {
+      "path": "assets/examples/medical_structured_abstract.md",
+      "sourcePath": "skills/venue-templates/assets/examples/medical_structured_abstract.md",
+      "bytes": 3482,
+      "sha256": "ace206511ac555421ad43a8adfada7b4fc49546903c3822bc6b89e5f31455697",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/assets/examples/medical_structured_abstract.md"
+    },
+    {
+      "path": "assets/examples/nature_abstract_examples.md",
+      "sourcePath": "skills/venue-templates/assets/examples/nature_abstract_examples.md",
+      "bytes": 3167,
+      "sha256": "a612f01502410614472a34adcbcede740fa954a1c0c8cb1921fc423d2b7eec62",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/assets/examples/nature_abstract_examples.md"
+    },
+    {
+      "path": "assets/examples/neurips_introduction_example.md",
+      "sourcePath": "skills/venue-templates/assets/examples/neurips_introduction_example.md",
+      "bytes": 2649,
+      "sha256": "c1075000483674576c2685a8ac56b872b84207c4507e4f33112318edc918c910",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/assets/examples/neurips_introduction_example.md"
+    },
+    {
+      "path": "assets/grants/nih_specific_aims.tex",
+      "sourcePath": "skills/venue-templates/assets/grants/nih_specific_aims.tex",
+      "bytes": 2634,
+      "sha256": "e6d95aabd8ba9dd709bfeb45b811b7930b6c3678779fc84c86754e356075dd7f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/assets/grants/nih_specific_aims.tex"
+    },
+    {
+      "path": "assets/grants/nsf_proposal_template.tex",
+      "sourcePath": "skills/venue-templates/assets/grants/nsf_proposal_template.tex",
+      "bytes": 14550,
+      "sha256": "5f24239bc977c04a2e2ebe7d4441809430d4576b423b4745ce53f3a09aa97410",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/assets/grants/nsf_proposal_template.tex"
+    },
+    {
+      "path": "assets/journals/elsarticle-harv.bst",
+      "sourcePath": "skills/venue-templates/assets/journals/elsarticle-harv.bst",
+      "bytes": 30002,
+      "sha256": "d85a928515628a9526d1d02f076f723a4da25387286a4f656d8943600880a436",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/assets/journals/elsarticle-harv.bst"
+    },
+    {
+      "path": "assets/journals/elsarticle-num-names.bst",
+      "sourcePath": "skills/venue-templates/assets/journals/elsarticle-num-names.bst",
+      "bytes": 28896,
+      "sha256": "c6c0d83707463ac6ebed7f43a754e38b7a38b17a8e58897e8057f8af0dc35024",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/assets/journals/elsarticle-num-names.bst"
+    },
+    {
+      "path": "assets/journals/elsarticle-num.bst",
+      "sourcePath": "skills/venue-templates/assets/journals/elsarticle-num.bst",
+      "bytes": 29462,
+      "sha256": "f04dfa2f78d0198ab8e4055b609dc0b91bdb730743cbbd549d84270f20d11394",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/assets/journals/elsarticle-num.bst"
+    },
+    {
+      "path": "assets/journals/elsarticle-template-harv.tex",
+      "sourcePath": "skills/venue-templates/assets/journals/elsarticle-template-harv.tex",
+      "bytes": 8518,
+      "sha256": "b154487ec96ed096d8c114c074849c42fe91ba111315ccfea6ed2ce9a6143671",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/assets/journals/elsarticle-template-harv.tex"
+    },
+    {
+      "path": "assets/journals/elsarticle-template-num-names.tex",
+      "sourcePath": "skills/venue-templates/assets/journals/elsarticle-template-num-names.tex",
+      "bytes": 8428,
+      "sha256": "06f9a44d39f057b9d4a7285d77176319b79a02fe1aeb08570c39ccae60a1b120",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/assets/journals/elsarticle-template-num-names.tex"
+    },
+    {
+      "path": "assets/journals/elsarticle-template-num.tex",
+      "sourcePath": "skills/venue-templates/assets/journals/elsarticle-template-num.tex",
+      "bytes": 8424,
+      "sha256": "3b02f9b8c80972bda933f281de3c96bb5147969fcebeb23fd8468ff28e33e15d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/assets/journals/elsarticle-template-num.tex"
+    },
+    {
+      "path": "assets/journals/nature_article.tex",
+      "sourcePath": "skills/venue-templates/assets/journals/nature_article.tex",
+      "bytes": 6661,
+      "sha256": "57b6f7fc332c1ff596df1440ee8c9f36f9bb24b5257ce39187af9c1f2ed8d0e6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/assets/journals/nature_article.tex"
+    },
+    {
+      "path": "assets/journals/neurips_article.tex",
+      "sourcePath": "skills/venue-templates/assets/journals/neurips_article.tex",
+      "bytes": 9685,
+      "sha256": "10f5bbc3259ef3a9e56563941ef26253314bccde77adac8f690603e77eca7ea8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/assets/journals/neurips_article.tex"
+    },
+    {
+      "path": "assets/journals/plos_one.tex",
+      "sourcePath": "skills/venue-templates/assets/journals/plos_one.tex",
+      "bytes": 12169,
+      "sha256": "6dbecd4786ae01155e7bb163d416719efaea733a17943a36bb392ce277f11a5e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/assets/journals/plos_one.tex"
+    },
+    {
+      "path": "assets/posters/beamerposter_academic.tex",
+      "sourcePath": "skills/venue-templates/assets/posters/beamerposter_academic.tex",
+      "bytes": 4921,
+      "sha256": "721558f66dd60e6d0711a361b4b5fc3ae141eda989d6b744d008951b8cb15194",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/assets/posters/beamerposter_academic.tex"
+    },
+    {
+      "path": "references/cell_press_style.md",
+      "sourcePath": "skills/venue-templates/references/cell_press_style.md",
+      "bytes": 6090,
+      "sha256": "f8f30f312b2c098d9c5fc0b0cc2ab93e44c5d1f511c314171c193bd42ce2905e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/references/cell_press_style.md"
+    },
+    {
+      "path": "references/conferences_formatting.md",
+      "sourcePath": "skills/venue-templates/references/conferences_formatting.md",
+      "bytes": 8879,
+      "sha256": "3babe847025e4d4eb4f469119739031ea9709ad48936150177eb941130d08ae7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/references/conferences_formatting.md"
+    },
+    {
+      "path": "references/cs_conference_style.md",
+      "sourcePath": "skills/venue-templates/references/cs_conference_style.md",
+      "bytes": 6442,
+      "sha256": "5cca948eef8aef571f6c5eb2b3a25b338c60fbac297eec5907e5d6e32d448c96",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/references/cs_conference_style.md"
+    },
+    {
+      "path": "references/current_sources.md",
+      "sourcePath": "skills/venue-templates/references/current_sources.md",
+      "bytes": 12121,
+      "sha256": "648984f031181a1e5cf431677f2095af5771f6757eb050de00b8c417053922b0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/references/current_sources.md"
+    },
+    {
+      "path": "references/grants_requirements.md",
+      "sourcePath": "skills/venue-templates/references/grants_requirements.md",
+      "bytes": 11765,
+      "sha256": "d08680fdcdd0c122a25b9bdf97169f081f9cdf8a8049fadd69f9c06fce9805c8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/references/grants_requirements.md"
+    },
+    {
+      "path": "references/journals_formatting.md",
+      "sourcePath": "skills/venue-templates/references/journals_formatting.md",
+      "bytes": 10086,
+      "sha256": "aa456055e03b90a01d58846939d039221dcd05b134da3a8b48dc5293e22effaf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/references/journals_formatting.md"
+    },
+    {
+      "path": "references/medical_journal_styles.md",
+      "sourcePath": "skills/venue-templates/references/medical_journal_styles.md",
+      "bytes": 7847,
+      "sha256": "e27800194f8d4ca3428533c9ad20d8934b43eda2214137d6fde8b0b494047a88",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/references/medical_journal_styles.md"
+    },
+    {
+      "path": "references/ml_conference_style.md",
+      "sourcePath": "skills/venue-templates/references/ml_conference_style.md",
+      "bytes": 6573,
+      "sha256": "b8cc82fe8d78e8b96eeabeab99b2e0f964705db1a33337fe645b7ece68c99aef",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/references/ml_conference_style.md"
+    },
+    {
+      "path": "references/nature_science_style.md",
+      "sourcePath": "skills/venue-templates/references/nature_science_style.md",
+      "bytes": 5926,
+      "sha256": "439c2ee29f44de59c4a1d5fa4fb721e2458a5c51392db61d04f765f96b3b9d1a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/references/nature_science_style.md"
+    },
+    {
+      "path": "references/posters_guidelines.md",
+      "sourcePath": "skills/venue-templates/references/posters_guidelines.md",
+      "bytes": 19037,
+      "sha256": "d0f34c6f27917c09368d3cacafdb0f61c189e3d97c0a89393992cd3a26986c11",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/references/posters_guidelines.md"
+    },
+    {
+      "path": "references/reviewer_expectations.md",
+      "sourcePath": "skills/venue-templates/references/reviewer_expectations.md",
+      "bytes": 5372,
+      "sha256": "67537d2d6e8e9efe112677405fcee119a5d4e84cdbc291002e6dd4b9cb20e6ed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/references/reviewer_expectations.md"
+    },
+    {
+      "path": "references/venue_writing_styles.md",
+      "sourcePath": "skills/venue-templates/references/venue_writing_styles.md",
+      "bytes": 4370,
+      "sha256": "40da3f71c383d2fcbf1755a5101ef33c0af8a5e03fe39ec58c07daa327bd1faf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/references/venue_writing_styles.md"
+    },
+    {
+      "path": "scripts/customize_template.py",
+      "sourcePath": "skills/venue-templates/scripts/customize_template.py",
+      "bytes": 7446,
+      "sha256": "4ccb452b44583d48845216da4688c11f436342d81f54ea59bf2c72b8f5e689cb",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/scripts/customize_template.py"
+    },
+    {
+      "path": "scripts/query_template.py",
+      "sourcePath": "skills/venue-templates/scripts/query_template.py",
+      "bytes": 8048,
+      "sha256": "80b6de787685b723d28831fa0271ee56866f2f0e31cb33bab0c1fb484dae7c7a",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/scripts/query_template.py"
+    },
+    {
+      "path": "scripts/validate_format.py",
+      "sourcePath": "skills/venue-templates/scripts/validate_format.py",
+      "bytes": 11755,
+      "sha256": "8909d963c7308f380eee9277ee4652570e736d837505730e77e046dc94e95c91",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/venue-templates/scripts/validate_format.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "2c16d2bbd2396af112c6a9d9c852f5965d82381d5c55773f354d21b9070e22e4"
+}

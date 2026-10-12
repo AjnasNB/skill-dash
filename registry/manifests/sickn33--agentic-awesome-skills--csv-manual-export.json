@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--csv-manual-export",
+    "name": "csv-manual-export",
+    "description": "CSV Manual Export: a UTF-8 CSV template from a confirmed field list, empty by default, with no invented columns or values. Use for an import, staging or handoff file.",
+    "category": "Development",
+    "tags": [
+      "csv",
+      "manual",
+      "export",
+      "utf",
+      "template",
+      "from",
+      "confirmed",
+      "field",
+      "list",
+      "empty",
+      "by",
+      "default",
+      "no",
+      "invented",
+      "columns",
+      "values.",
+      "import",
+      "staging"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/csv-manual-export",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/csv-manual-export",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 24616,
+    "sha256": "f811dbce369bc0673527a6b9ad887f02863f8cdc9f6e94017434f51b063044ec",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/csv-manual-export/SKILL.md",
+      "bytes": 22442,
+      "sha256": "f811dbce369bc0673527a6b9ad887f02863f8cdc9f6e94017434f51b063044ec",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/csv-manual-export/SKILL.md"
+    },
+    {
+      "path": "references/common-pitfalls.md",
+      "sourcePath": "skills/csv-manual-export/references/common-pitfalls.md",
+      "bytes": 1101,
+      "sha256": "852b92a20cb6bbc5e541d7541f075fcdf914235bf41dc4fb8962f9c04cd549c5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/csv-manual-export/references/common-pitfalls.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "a71b6f3d3da6ba1694ad62927f85ef7420e128f0135a4307e1238e9212c59c8c"
+}

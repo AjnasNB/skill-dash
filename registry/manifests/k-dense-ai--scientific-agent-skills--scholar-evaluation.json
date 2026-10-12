@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--scholar-evaluation",
+    "name": "scholar-evaluation",
+    "description": "Provides qualitative-first, evidence-traceable developmental review of scholarly works and audit low-stakes research-assessment rubrics with optional local quality controls. Never use for ranking people or consequential decisions.",
+    "category": "Data & research",
+    "tags": [
+      "scholar",
+      "evaluation",
+      "provides",
+      "qualitative",
+      "first",
+      "evidence",
+      "traceable",
+      "developmental",
+      "review",
+      "scholarly",
+      "works",
+      "audit",
+      "low",
+      "stakes",
+      "research",
+      "assessment",
+      "rubrics",
+      "optional"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/scholar-evaluation",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scholar-evaluation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 20,
+    "bytes": 169740,
+    "sha256": "9abc66a9ba13f6cf0f61614ddfff17822b5be2cc7118f52ef2631323dac8c94e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/scholar-evaluation/SKILL.md",
+      "bytes": 12418,
+      "sha256": "9abc66a9ba13f6cf0f61614ddfff17822b5be2cc7118f52ef2631323dac8c94e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scholar-evaluation/SKILL.md"
+    },
+    {
+      "path": "assets/evaluation_template.json",
+      "sourcePath": "skills/scholar-evaluation/assets/evaluation_template.json",
+      "bytes": 1344,
+      "sha256": "8b77953138471a80b2f2a6d20ab5b5a2dc7670afa492a74d92975e9f86ec4ce0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scholar-evaluation/assets/evaluation_template.json"
+    },
+    {
+      "path": "assets/evidence_manifest_template.json",
+      "sourcePath": "skills/scholar-evaluation/assets/evidence_manifest_template.json",
+      "bytes": 1841,
+      "sha256": "51512b9f307db9fb451c03f90be399e42d3216dcaecc22e67e037ceda3e5b0cb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scholar-evaluation/assets/evidence_manifest_template.json"
+    },
+    {
+      "path": "assets/process_checklist_template.json",
+      "sourcePath": "skills/scholar-evaluation/assets/process_checklist_template.json",
+      "bytes": 2130,
+      "sha256": "de0897b2404f6fd32a0a9aa22406d7830f912f6ab39f3cac4dc34bdce5af8ac3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scholar-evaluation/assets/process_checklist_template.json"
+    },
+    {
+      "path": "assets/ratings_template.csv",
+      "sourcePath": "skills/scholar-evaluation/assets/ratings_template.csv",
+      "bytes": 1762,
+      "sha256": "0c518d16760d551a28ae474f65c79ded02b4a97b8121b0ef3d907201b65b1ba6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scholar-evaluation/assets/ratings_template.csv"
+    },
+    {
+      "path": "assets/rubric_template.json",
+      "sourcePath": "skills/scholar-evaluation/assets/rubric_template.json",
+      "bytes": 12217,
+      "sha256": "ab428fcb3cef141c5d7eaa0a206b6c89087a1593af3d953ee2ff1efb31aa79f3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scholar-evaluation/assets/rubric_template.json"
+    },
+    {
+      "path": "references/evaluation_framework.md",
+      "sourcePath": "skills/scholar-evaluation/references/evaluation_framework.md",
+      "bytes": 10599,
+      "sha256": "86028eb58c9fdf5a0bb34ffd37a3567c49bfafa7cb9e9ebecb3e88ddd5ecbac9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scholar-evaluation/references/evaluation_framework.md"
+    },
+    {
+      "path": "references/local_tooling.md",
+      "sourcePath": "skills/scholar-evaluation/references/local_tooling.md",
+      "bytes": 9341,
+      "sha256": "762ce1f939680cc99e7f6f05964dbd1205c905e929a51adea8bb8c5809758ca8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scholar-evaluation/references/local_tooling.md"
+    },
+    {
+      "path": "references/responsible_assessment.md",
+      "sourcePath": "skills/scholar-evaluation/references/responsible_assessment.md",
+      "bytes": 9848,
+      "sha256": "5730df99eb16deab151777d7bfb88253da3eb60e1d8184bb5ae39a1dd4e09406",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scholar-evaluation/references/responsible_assessment.md"
+    },
+    {
+      "path": "references/security_validation.md",
+      "sourcePath": "skills/scholar-evaluation/references/security_validation.md",
+      "bytes": 4294,
+      "sha256": "093d3ff3cf7309db0a4262f77d5f3496120548dd75b169856a4a0a009ed60e22",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scholar-evaluation/references/security_validation.md"
+    },
+    {
+      "path": "references/source_ledger.md",
+      "sourcePath": "skills/scholar-evaluation/references/source_ledger.md",
+      "bytes": 14146,
+      "sha256": "43c364cd3a2b1dbdb5845092d63396f7ee8ac384964ae447951cc5656937d4cf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scholar-evaluation/references/source_ledger.md"
+    },
+    {
+      "path": "scripts/_common.py",
+      "sourcePath": "skills/scholar-evaluation/scripts/_common.py",
+      "bytes": 36406,
+      "sha256": "5f90929c6cbe23c73f7b25d749be11d2fa0e6f3d6aea832bf1e313e2e450404c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scholar-evaluation/scripts/_common.py"
+    },
+    {
+      "path": "scripts/calculate_scores.py",
+      "sourcePath": "skills/scholar-evaluation/scripts/calculate_scores.py",
+      "bytes": 1885,
+      "sha256": "07a1cd73cca097edd15acebe65531d9254e6e9f316b4a30e1eca5fd252cb697b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scholar-evaluation/scripts/calculate_scores.py"
+    },
+    {
+      "path": "scripts/check_process.py",
+      "sourcePath": "skills/scholar-evaluation/scripts/check_process.py",
+      "bytes": 8327,
+      "sha256": "12c78b6d09f76a25a7f1530e1f719f6ccbeabe03d83cb63525a09358edc1da2b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scholar-evaluation/scripts/check_process.py"
+    },
+    {
+      "path": "scripts/check_traceability.py",
+      "sourcePath": "skills/scholar-evaluation/scripts/check_traceability.py",
+      "bytes": 9118,
+      "sha256": "609fe62d80638b368039cc0b2a0fb115d6a7c99e630ce0e54d117de80d4b4bb4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scholar-evaluation/scripts/check_traceability.py"
+    },
+    {
+      "path": "scripts/generate_report_scaffold.py",
+      "sourcePath": "skills/scholar-evaluation/scripts/generate_report_scaffold.py",
+      "bytes": 9657,
+      "sha256": "3a9470d2517ced5b25ae1ca732f59a26771cada09f3e5b2d06b4ba32cdbddb3d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scholar-evaluation/scripts/generate_report_scaffold.py"
+    },
+    {
+      "path": "scripts/summarize_agreement.py",
+      "sourcePath": "skills/scholar-evaluation/scripts/summarize_agreement.py",
+      "bytes": 11340,
+      "sha256": "78dc8809873242b4fa8afeb44e6384cc50b5540098cf988e277cf7cbeb3a8e6f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scholar-evaluation/scripts/summarize_agreement.py"
+    },
+    {
+      "path": "scripts/validate_rubric.py",
+      "sourcePath": "skills/scholar-evaluation/scripts/validate_rubric.py",
+      "bytes": 1729,
+      "sha256": "843244f4728b93b07e1c7d51ca2f22e7a6d9215af0f83247afe181920e120821",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scholar-evaluation/scripts/validate_rubric.py"
+    },
+    {
+      "path": "scripts/weight_sensitivity.py",
+      "sourcePath": "skills/scholar-evaluation/scripts/weight_sensitivity.py",
+      "bytes": 10270,
+      "sha256": "06dba6b262e2ef2c120389f662e81aec87bbb9a1141ff54bb843608c03c37953",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scholar-evaluation/scripts/weight_sensitivity.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "7cebf7e1589bef84372f62c406378e246add09b301e2372068b1745827b8f1fd"
+}

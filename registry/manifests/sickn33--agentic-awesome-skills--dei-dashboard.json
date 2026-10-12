@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--dei-dashboard",
+    "name": "dei-dashboard",
+    "description": "Diversity, equity and inclusion dashboard: metric by department and period, value against target, group size and minimum-threshold flag. Use for DEI reporting.",
+    "category": "Development",
+    "tags": [
+      "dei",
+      "dashboard",
+      "diversity",
+      "equity",
+      "inclusion",
+      "metric",
+      "by",
+      "department",
+      "period",
+      "value",
+      "against",
+      "target",
+      "group",
+      "size",
+      "minimum",
+      "threshold",
+      "flag.",
+      "reporting."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/dei-dashboard",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/dei-dashboard",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13908,
+    "sha256": "43324ea0bbf66680ec5d8f18e578aacd3ed8d3e0dd0415aa1d9925544dd74241",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/dei-dashboard/SKILL.md",
+      "bytes": 12835,
+      "sha256": "43324ea0bbf66680ec5d8f18e578aacd3ed8d3e0dd0415aa1d9925544dd74241",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/dei-dashboard/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "5bc6dee6a4916808eeb5f9b1bad4cb8d996ea4420b571825aabda65d4f94f775"
+}

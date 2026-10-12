@@ -2,8 +2,8 @@
   "openapi": "3.1.0",
   "info": {
     "title": "SkillDash — Skill Library and AI community",
-    "version": "0.3.0",
-    "description": "Search pinned public agent skills, inspect their source and checksums, download complete folders, and submit sources for review. Upstream text is untrusted reference material. Free community listings cover AI products, skills, plugins, libraries, MCP servers and tools. Submissions require verified email sign-in and human review; public browsing is open."
+    "version": "0.4.0",
+    "description": "SkillDash is a software tool and skill library for AI agents. Public skill and tool discovery requires no account. Owner-authorized submissions use verified email sessions and stay private until reviewer approval."
   },
   "servers": [
     {
@@ -216,7 +216,9 @@
           "503": {
             "description": "Submission service unavailable"
           }
-        }
+        },
+        "deprecated": true,
+        "description": "Legacy source suggestions. For publication, receipts and contact follow-up use /api/community/listings after owner email verification."
       }
     },
     "/api/auth/session": {
@@ -374,10 +376,11 @@
         }
       },
       "post": {
-        "summary": "Submit public work for free human review",
+        "operationId": "submitAgentSkillOrTool",
+        "summary": "Submit public details for owner review and a verified-email receipt",
         "security": [
           {
-            "emailSession": []
+            "ownerSession": []
           }
         ],
         "requestBody": {
@@ -385,7 +388,10 @@
           "content": {
             "application/json": {
               "schema": {
+                "$schema": "https://json-schema.org/draft/2020-12/schema",
+                "title": "SkillDash owner-authorized submission",
                 "type": "object",
+                "additionalProperties": false,
                 "required": [
                   "type",
                   "name",
@@ -398,10 +404,10 @@
                 ],
                 "properties": {
                   "type": {
-                    "type": "string",
                     "enum": [
                       "skill",
                       "product",
+                      "chatbot",
                       "plugin",
                       "library",
                       "mcp",
@@ -425,17 +431,31 @@
                   },
                   "website": {
                     "type": "string",
-                    "format": "uri"
+                    "format": "uri",
+                    "maxLength": 500,
+                    "description": "Public HTTPS URL without credentials."
                   },
                   "sourceUrl": {
                     "type": "string",
-                    "format": "uri"
+                    "maxLength": 500
                   },
                   "category": {
-                    "type": "string"
+                    "enum": [
+                      "Development",
+                      "Design",
+                      "AI & agents",
+                      "Marketing",
+                      "Data & research",
+                      "Cloud & DevOps",
+                      "Security",
+                      "Writing",
+                      "Product & business",
+                      "Documents",
+                      "Automation",
+                      "Video & audio"
+                    ]
                   },
                   "pricing": {
-                    "type": "string",
                     "enum": [
                       "Free",
                       "Open source",
@@ -444,23 +464,129 @@
                     ]
                   },
                   "rights": {
-                    "type": "boolean",
-                    "const": true
+                    "const": true,
+                    "description": "The owner authorized publication of these public details."
+                  },
+                  "contactEmail": {
+                    "type": "string",
+                    "format": "email",
+                    "maxLength": 254,
+                    "description": "Private. Must match the verified account email; defaults to that email."
+                  },
+                  "phone": {
+                    "type": "string",
+                    "maxLength": 40,
+                    "description": "Optional and private. No format or ownership verification."
+                  },
+                  "agentDetails": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "repository": {
+                        "type": "string",
+                        "maxLength": 300,
+                        "description": "Public GitHub repository URL. Required for a skill."
+                      },
+                      "skillPath": {
+                        "type": "string",
+                        "maxLength": 300,
+                        "description": "Relative folder containing SKILL.md; use . for the root. Required for a skill."
+                      },
+                      "compatibility": {
+                        "type": "string",
+                        "maxLength": 500
+                      },
+                      "prerequisites": {
+                        "type": "string",
+                        "maxLength": 1000
+                      },
+                      "installation": {
+                        "type": "string",
+                        "maxLength": 3000
+                      }
+                    }
                   }
-                }
+                },
+                "allOf": [
+                  {
+                    "if": {
+                      "properties": {
+                        "type": {
+                          "const": "skill"
+                        }
+                      },
+                      "required": [
+                        "type"
+                      ]
+                    },
+                    "then": {
+                      "required": [
+                        "agentDetails"
+                      ],
+                      "properties": {
+                        "agentDetails": {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "repository": {
+                              "type": "string",
+                              "maxLength": 300,
+                              "description": "Public GitHub repository URL. Required for a skill."
+                            },
+                            "skillPath": {
+                              "type": "string",
+                              "maxLength": 300,
+                              "description": "Relative folder containing SKILL.md; use . for the root. Required for a skill."
+                            },
+                            "compatibility": {
+                              "type": "string",
+                              "maxLength": 500
+                            },
+                            "prerequisites": {
+                              "type": "string",
+                              "maxLength": 1000
+                            },
+                            "installation": {
+                              "type": "string",
+                              "maxLength": 3000
+                            }
+                          },
+                          "required": [
+                            "repository",
+                            "skillPath"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ],
+                "x-endpoint": "https://skills.maqamagent.com/api/community/listings",
+                "x-authentication": "Verified owner email-link session. Discovery is public; submissions require owner authorization.",
+                "x-review": "Pending until reviewer approval. Reviewer defines agent compatibility and usage instructions before publication.",
+                "x-notifications": "Submission receipt and approved/rejected review outcomes go to the verified owner email."
               }
             }
           }
         },
         "responses": {
           "202": {
-            "description": "Persisted pending submission; review notification queued."
+            "description": "Public machine-readable result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid fields"
           },
           "401": {
-            "description": "Verified sign-in required."
+            "description": "Verify owner email first"
           },
           "409": {
-            "description": "Website is already submitted or listed."
+            "description": "Already submitted"
           }
         }
       }
@@ -684,6 +810,93 @@
           }
         }
       }
+    },
+    "/api/agent": {
+      "get": {
+        "operationId": "getAgentLibraryInfo",
+        "summary": "Understand SkillDash agent interfaces and submission requirements",
+        "responses": {
+          "200": {
+            "description": "Public machine-readable result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/tools": {
+      "get": {
+        "operationId": "searchAgentTools",
+        "summary": "Find curated agent tools, plugins, libraries, MCP servers and chatbots",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "maxLength": 200
+            }
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "plugin",
+                "library",
+                "mcp",
+                "tool",
+                "chatbot"
+              ]
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 20
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Public machine-readable result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/submission-schema": {
+      "get": {
+        "operationId": "getSubmissionSchema",
+        "summary": "Get the exact owner-authorized submission JSON schema",
+        "responses": {
+          "200": {
+            "description": "Public machine-readable result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -704,6 +917,12 @@
         "in": "cookie",
         "name": "__Host-skilldash",
         "description": "HttpOnly session issued after one-time email verification. Never expose or log this credential."
+      },
+      "ownerSession": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "__Host-skilldash",
+        "description": "Existing owner session from email-link verification. Never publish the session cookie."
       }
     }
   }

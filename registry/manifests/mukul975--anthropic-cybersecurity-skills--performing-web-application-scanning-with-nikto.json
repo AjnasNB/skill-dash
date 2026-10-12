@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-web-application-scanning-with-nikto",
+    "name": "performing-web-application-scanning-with-nikto",
+    "description": "Runs Nikto, an open-source web server and web application scanner, to test over 7,000 potentially dangerous files/programs, check for outdated versions across 1,250+ servers, and identify XSS, SQL injection, misconfigurations, default credentials, and vulnerable CGI scripts. Use when performing web application vulnerability scanning, security assessments, scheduled security testing, or validating web server security controls.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "web",
+      "application",
+      "scanning",
+      "nikto",
+      "runs",
+      "open",
+      "source",
+      "server",
+      "scanner",
+      "test",
+      "over",
+      "000",
+      "potentially",
+      "dangerous",
+      "files",
+      "programs",
+      "check"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-web-application-scanning-with-nikto/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-web-application-scanning-with-nikto",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-application-scanning-with-nikto",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 44155,
+    "sha256": "48bcd834f142b53f948254db53d2698c0b86ac37ecabbb7f2aca2fe7fc5ae345",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-web-application-scanning-with-nikto/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-application-scanning-with-nikto/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-web-application-scanning-with-nikto/SKILL.md",
+      "bytes": 8110,
+      "sha256": "48bcd834f142b53f948254db53d2698c0b86ac37ecabbb7f2aca2fe7fc5ae345",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-application-scanning-with-nikto/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-web-application-scanning-with-nikto/assets/template.md",
+      "bytes": 1033,
+      "sha256": "5434b851472ae4a92cceb5fea865aa4bf7c0e4485a062bd733b23167e176d278",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-application-scanning-with-nikto/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-web-application-scanning-with-nikto/references/api-reference.md",
+      "bytes": 1772,
+      "sha256": "fafdd0e7cc097f3dd7389e511a235c2c81aa829bed6cf3d41edc3116948db54f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-application-scanning-with-nikto/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-web-application-scanning-with-nikto/references/standards.md",
+      "bytes": 2166,
+      "sha256": "5ad9d2afac52e13da5369c2d83de27e62d84ba142a15f90fe4e1bd5ab1ed7d79",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-application-scanning-with-nikto/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-web-application-scanning-with-nikto/references/workflows.md",
+      "bytes": 2128,
+      "sha256": "0813d067b4b127a4cf04829766d67ebef40bb1c1933c01140921d980b2e90e1a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-application-scanning-with-nikto/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-web-application-scanning-with-nikto/scripts/agent.py",
+      "bytes": 5394,
+      "sha256": "f2ad94f80aa4409e225ba2b6b02bfc35102c265b30721a2368e6faeae7964728",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-application-scanning-with-nikto/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-web-application-scanning-with-nikto/scripts/process.py",
+      "bytes": 12297,
+      "sha256": "d5e781b452357f3136e196154439ee27fdd82ed9e1396f112b12779504225a85",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-application-scanning-with-nikto/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "b7dbc4e47839287077ba6a91620b68352273b61ab0f241908e3115d280ed3e23"
+}

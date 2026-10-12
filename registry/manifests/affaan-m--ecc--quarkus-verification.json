@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--quarkus-verification","name":"quarkus-verification","description":"Verification loop for Quarkus projects: build, static analysis, tests with coverage, security scans, native compilation, and diff review before release or PR.","category":"Security","tags":["quarkus","verification","loop","projects","static","analysis","tests","coverage","security","scans","native","compilation","diff","review","before","release","pr."],"repo":"affaan-m/ECC","owner":"affaan-m","stars":266395,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"bf70150eb2df8070024e5bdf08e4aa08959e2735","path":"skills/quarkus-verification","sourceUrl":"https://github.com/affaan-m/ECC/tree/bf70150eb2df8070024e5bdf08e4aa08959e2735/skills/quarkus-verification","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-21T18:40:16Z","fileCount":2,"bytes":11623,"sha256":"567633c745c497a8b8f5489d806244772d0c20289b9ff8e26e790f8e6398ff5c","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/quarkus-verification/SKILL.md","bytes":10552,"sha256":"567633c745c497a8b8f5489d806244772d0c20289b9ff8e26e790f8e6398ff5c","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/bf70150eb2df8070024e5bdf08e4aa08959e2735/skills/quarkus-verification/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/bf70150eb2df8070024e5bdf08e4aa08959e2735/LICENSE"}],"archiveSha256":"ee3bba06c71a0c2633321aab173aa019ba8cc145b458ffa396fc8cdce650580d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--quarkus-verification",
+    "name": "quarkus-verification",
+    "description": "Verification loop for Quarkus projects: build, static analysis (Checkstyle, PMD, SpotBugs), tests with JaCoCo coverage, OWASP dependency and container security scans, GraalVM native compilation, health checks, and config validation. Use when verifying a Quarkus service before a PR, after major refactoring or dependency upgrades, or pre-deploy.",
+    "category": "Security",
+    "tags": [
+      "quarkus",
+      "verification",
+      "loop",
+      "projects",
+      "static",
+      "analysis",
+      "checkstyle",
+      "pmd",
+      "spotbugs",
+      "tests",
+      "jacoco",
+      "coverage",
+      "owasp",
+      "dependency",
+      "container",
+      "security",
+      "scans",
+      "graalvm"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/quarkus-verification",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/quarkus-verification",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 2,
+    "bytes": 11810,
+    "sha256": "487818bf26f1ec34a08d5a9c11400ad2603bc70831cf0649a9fe20eaeadf0118",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/quarkus-verification/SKILL.md",
+      "bytes": 10739,
+      "sha256": "487818bf26f1ec34a08d5a9c11400ad2603bc70831cf0649a9fe20eaeadf0118",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/quarkus-verification/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "cb54cd0c39f28042d9887dda62640a7842c89944eb16534c77e23a3ce951204c"
+}

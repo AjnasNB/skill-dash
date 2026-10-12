@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-zero-standing-privilege-with-cyberark",
+    "name": "implementing-zero-standing-privilege-with-cyberark",
+    "description": "Deploy CyberArk Secure Cloud Access (SCA) to eliminate standing privileges in AWS, Azure, and GCP by provisioning ephemeral, scoped roles on a just-in-time basis governed by the TEA framework (Time, Entitlements, Approvals). Use when designing or implementing zero standing privilege / just-in-time privileged access models with CyberArk, or when replacing persistent cloud admin roles with time-bound, approval-gated sessions.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "implementing",
+      "zero",
+      "standing",
+      "privilege",
+      "cyberark",
+      "deploy",
+      "secure",
+      "cloud",
+      "access",
+      "sca",
+      "eliminate",
+      "privileges",
+      "aws",
+      "azure",
+      "gcp",
+      "by",
+      "provisioning",
+      "ephemeral"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-zero-standing-privilege-with-cyberark/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-zero-standing-privilege-with-cyberark",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-standing-privilege-with-cyberark",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 43354,
+    "sha256": "73c22f0a9aa4bc9626b8caf302f69324dfc96919fd8300872240c1db83c64ce5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-zero-standing-privilege-with-cyberark/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-standing-privilege-with-cyberark/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-zero-standing-privilege-with-cyberark/SKILL.md",
+      "bytes": 9487,
+      "sha256": "73c22f0a9aa4bc9626b8caf302f69324dfc96919fd8300872240c1db83c64ce5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-standing-privilege-with-cyberark/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-zero-standing-privilege-with-cyberark/assets/template.md",
+      "bytes": 1254,
+      "sha256": "d026ac2a39b3b9ef5e2ca94228af2cedcf4c0093ac1f105f4a10188a38b077e9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-standing-privilege-with-cyberark/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-zero-standing-privilege-with-cyberark/references/api-reference.md",
+      "bytes": 1705,
+      "sha256": "00562880677d993ea1a7ee094333dc3d03428d332aff8250facc30c8e66b9ecd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-standing-privilege-with-cyberark/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-zero-standing-privilege-with-cyberark/references/standards.md",
+      "bytes": 1675,
+      "sha256": "f3a61b533e0e364fcbfdd122a73dc487a644050733498d8d347e836fece6618f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-standing-privilege-with-cyberark/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-zero-standing-privilege-with-cyberark/references/workflows.md",
+      "bytes": 3705,
+      "sha256": "b979b9525d7f7b14f27cdec9a853b82194b60024efbe037792b21ad4284c2161",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-standing-privilege-with-cyberark/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-zero-standing-privilege-with-cyberark/scripts/agent.py",
+      "bytes": 7235,
+      "sha256": "17f6f95e780ca4857990445c442f71bc1e6b6691b9860d257f9278eb70bd84e6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-standing-privilege-with-cyberark/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-zero-standing-privilege-with-cyberark/scripts/process.py",
+      "bytes": 7038,
+      "sha256": "1fcff91a53a9d41eaaa4704750e4ccce42ba8946498e256e9fa95ce466a6f020",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-standing-privilege-with-cyberark/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "09c982c4b2c07b691305912d6212d44915cc6e167bbf0c8b81a7686b54069198"
+}

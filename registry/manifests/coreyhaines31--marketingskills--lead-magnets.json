@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"coreyhaines31--marketingskills--lead-magnets","name":"lead-magnets","description":"When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions \"lead magnet,\" \"gated content,\" \"content upgrade,\" \"downloadable,\" \"ebook,\" \"cheat sheet,\" \"checklist,\" \"template download,\" \"opt-in,\" \"freebie,\" \"PDF download,\" \"resource library,\" \"content offer,\" \"email capture content,\" \"Notion template,\" \"spreadsheet template,\" or \"what should I give away for emails.\" Use this for planning what to create and how to distribute it. For interactive tools as lead magnets, see free-tools. For writing the actual content, see copywriting. For the email sequence after capture, see emails.","category":"Documents","tags":["lead","magnets","when","user","wants","plan","optimize","magnet","email","capture","generation.","also","mentions","gated","content","upgrade","downloadable","ebook"],"repo":"coreyhaines31/marketingskills","owner":"coreyhaines31","stars":51366,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"5b2c0007766c6a1cf1d53fd8fc73e979e0821022","path":"skills/lead-magnets","sourceUrl":"https://github.com/coreyhaines31/marketingskills/tree/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/lead-magnets","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-05T04:48:02Z","fileCount":5,"bytes":30098,"sha256":"bfb1e260e56fb11611bfac94236e7ebf79433e3350012ecce2379eef0af25af8","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/lead-magnets/SKILL.md","bytes":10925,"sha256":"bfb1e260e56fb11611bfac94236e7ebf79433e3350012ecce2379eef0af25af8","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/lead-magnets/SKILL.md"},{"path":"evals/evals.json","sourcePath":"skills/lead-magnets/evals/evals.json","bytes":8044,"sha256":"3edb81ddb30746a37bf7d35681cd405d28702ad9243c1bec130435f180e1f24f","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/lead-magnets/evals/evals.json"},{"path":"references/benchmarks.md","sourcePath":"skills/lead-magnets/references/benchmarks.md","bytes":4234,"sha256":"becdf4bcde17e788ead10794c797294548c712ea1074e042336da93433a61187","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/lead-magnets/references/benchmarks.md"},{"path":"references/format-guide.md","sourcePath":"skills/lead-magnets/references/format-guide.md","bytes":5826,"sha256":"401f65d709cefbd7ee2df11273e0b616ec50e37e71d914556c800067fdcdef8e","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/lead-magnets/references/format-guide.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1069,"sha256":"b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/LICENSE"}],"archiveSha256":"af8ecf67eb4be2a1dc0b17722b61041c8d808535f692b9f114cd66a576f5a1c6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "coreyhaines31--marketingskills--lead-magnets",
+    "name": "lead-magnets",
+    "description": "When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions \"lead magnet,\" \"gated content,\" \"content upgrade,\" \"downloadable,\" \"ebook,\" \"cheat sheet,\" \"checklist,\" \"template download,\" \"opt-in,\" \"freebie,\" \"PDF download,\" \"resource library,\" \"content offer,\" \"email capture content,\" \"Notion template,\" \"spreadsheet template,\" \"what should I give away for emails,\" \"course as a skill,\" or \"package our content as an agent skill.\" Use this for planning what to create and how to distribute it. For interactive tools as lead magnets, see free-tools. For writing the actual content, see copywriting. For the email sequence after capture, see emails.",
+    "category": "Documents",
+    "tags": [
+      "lead",
+      "magnets",
+      "when",
+      "user",
+      "wants",
+      "plan",
+      "optimize",
+      "magnet",
+      "email",
+      "capture",
+      "generation.",
+      "also",
+      "mentions",
+      "gated",
+      "content",
+      "upgrade",
+      "downloadable",
+      "ebook"
+    ],
+    "repo": "coreyhaines31/marketingskills",
+    "owner": "coreyhaines31",
+    "stars": 54287,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff",
+    "path": "skills/lead-magnets",
+    "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/lead-magnets",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-08T21:51:37Z",
+    "fileCount": 8,
+    "bytes": 50213,
+    "sha256": "190a64c72a9a36fdde3a6b0888798e1bb9dd4e7406b00a6bbf90dba5e64c047b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/lead-magnets/SKILL.md",
+      "bytes": 11274,
+      "sha256": "190a64c72a9a36fdde3a6b0888798e1bb9dd4e7406b00a6bbf90dba5e64c047b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/lead-magnets/SKILL.md"
+    },
+    {
+      "path": "evals/evals.json",
+      "sourcePath": "skills/lead-magnets/evals/evals.json",
+      "bytes": 9619,
+      "sha256": "459b4b4f69f5717f23f3029597026c07f1201978e0bc1923f918501da3fe7a6f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/lead-magnets/evals/evals.json"
+    },
+    {
+      "path": "references/benchmarks.md",
+      "sourcePath": "skills/lead-magnets/references/benchmarks.md",
+      "bytes": 4234,
+      "sha256": "becdf4bcde17e788ead10794c797294548c712ea1074e042336da93433a61187",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/lead-magnets/references/benchmarks.md"
+    },
+    {
+      "path": "references/content-to-skill-corpus-design.md",
+      "sourcePath": "skills/lead-magnets/references/content-to-skill-corpus-design.md",
+      "bytes": 4993,
+      "sha256": "a6db00a8298b2ce52965c40b57c01120a0f9ff4caf5ca55ede81bc2f242bae56",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/lead-magnets/references/content-to-skill-corpus-design.md"
+    },
+    {
+      "path": "references/content-to-skill-release.md",
+      "sourcePath": "skills/lead-magnets/references/content-to-skill-release.md",
+      "bytes": 4792,
+      "sha256": "87bcc9218232b73b824e8cebac1e64deacffa755779ce2cc0db799c92873c891",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/lead-magnets/references/content-to-skill-release.md"
+    },
+    {
+      "path": "references/content-to-skill.md",
+      "sourcePath": "skills/lead-magnets/references/content-to-skill.md",
+      "bytes": 8406,
+      "sha256": "dacbfff6d538ee37167f20034165dbf3a273d8bd1607def6450c649e40ebafa9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/lead-magnets/references/content-to-skill.md"
+    },
+    {
+      "path": "references/format-guide.md",
+      "sourcePath": "skills/lead-magnets/references/format-guide.md",
+      "bytes": 5826,
+      "sha256": "401f65d709cefbd7ee2df11273e0b616ec50e37e71d914556c800067fdcdef8e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/lead-magnets/references/format-guide.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"
+    }
+  ],
+  "archiveSha256": "a37b5bb8f39bf7f302ee1f555ee3d6486b25e0bfb3443b10ca6fdded000dd373"
+}

@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--conducting-gdpr-compliance-assessment",
+    "name": "conducting-gdpr-compliance-assessment",
+    "description": "Conduct comprehensive GDPR compliance assessments by evaluating data processing activities against EU Regulation 2016/679, including Article 30 records of processing, lawful basis validation, data subject rights implementation, Data Protection Impact Assessments (DPIAs) under Article 35, breach notification procedures, international transfer safeguards (SCCs, adequacy decisions), and technical/organizational measures under Article 32. Use when processing personal data of EU residents, preparing for supervisory authority audits, implementing privacy-by-design for new systems, scoping compliance gaps for M&A due diligence, assessing third-party processors, or responding to data subject access requests at scale. Incorporates 2026 guidance from ICO, EDPB, and post-Data (Use and Access) Act 2025 UK-GDPR considerations. Do not use for implementing specific Article 32 controls — use implementing-gdpr-data-protection-controls; or for DSAR automation — use implementing-gdpr-data-subject-access-request.",
+    "category": "Design",
+    "tags": [
+      "conducting",
+      "gdpr",
+      "compliance",
+      "assessment",
+      "conduct",
+      "comprehensive",
+      "assessments",
+      "by",
+      "evaluating",
+      "data",
+      "processing",
+      "activities",
+      "against",
+      "eu",
+      "regulation",
+      "2016",
+      "679",
+      "including"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/conducting-gdpr-compliance-assessment/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/conducting-gdpr-compliance-assessment",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-gdpr-compliance-assessment",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 9,
+    "bytes": 79991,
+    "sha256": "7fe5870aad9fc430336dd33cb0b2b4200eeda217d8bc04aef296324d13e3b6a5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/conducting-gdpr-compliance-assessment/LICENSE",
+      "bytes": 741,
+      "sha256": "6253b39e5b94dc600d00aa81d47be96db2118c649155a55553a677798fc2881d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-gdpr-compliance-assessment/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/conducting-gdpr-compliance-assessment/SKILL.md",
+      "bytes": 13671,
+      "sha256": "7fe5870aad9fc430336dd33cb0b2b4200eeda217d8bc04aef296324d13e3b6a5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-gdpr-compliance-assessment/SKILL.md"
+    },
+    {
+      "path": "assets/compliance-scorecard.md",
+      "sourcePath": "skills/conducting-gdpr-compliance-assessment/assets/compliance-scorecard.md",
+      "bytes": 10111,
+      "sha256": "b041cb7dc38c4a89eced58747d463df29052a28e8fb34ea4c9673bc928de45f9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-gdpr-compliance-assessment/assets/compliance-scorecard.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/conducting-gdpr-compliance-assessment/references/api-reference.md",
+      "bytes": 6640,
+      "sha256": "5f6e68dec0a3f018f54194dcf15bb811b91d12b3da49ce4f5af53a043ff66789",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-gdpr-compliance-assessment/references/api-reference.md"
+    },
+    {
+      "path": "references/detailed-workflow.md",
+      "sourcePath": "skills/conducting-gdpr-compliance-assessment/references/detailed-workflow.md",
+      "bytes": 20170,
+      "sha256": "a8429be4abf0fdd289df11bc4033d400372584eca29eb6f6db4f599063ffafd7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-gdpr-compliance-assessment/references/detailed-workflow.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/conducting-gdpr-compliance-assessment/references/standards.md",
+      "bytes": 6375,
+      "sha256": "3355b48bbe85fb0e7671ab5ebcece6e355d0f240ae83eedc7fc20f36c1801598",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-gdpr-compliance-assessment/references/standards.md"
+    },
+    {
+      "path": "scripts/article30_parser.py",
+      "sourcePath": "skills/conducting-gdpr-compliance-assessment/scripts/article30_parser.py",
+      "bytes": 7746,
+      "sha256": "c8304ff60665559487d35a085b68a05c1820f374f5a312da8cdc2d5193815f5f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-gdpr-compliance-assessment/scripts/article30_parser.py"
+    },
+    {
+      "path": "scripts/article30_validator.py",
+      "sourcePath": "skills/conducting-gdpr-compliance-assessment/scripts/article30_validator.py",
+      "bytes": 6978,
+      "sha256": "14939f3d677853f3911d853f03178f51618bbd0b1f5c79d6b316a14171916292",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-gdpr-compliance-assessment/scripts/article30_validator.py"
+    },
+    {
+      "path": "scripts/generate_ropa_report.py",
+      "sourcePath": "skills/conducting-gdpr-compliance-assessment/scripts/generate_ropa_report.py",
+      "bytes": 7559,
+      "sha256": "96ffae50e6a9c59bc730295192d0eef220eb296e6888ef0386080dacf62c5e0b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-gdpr-compliance-assessment/scripts/generate_ropa_report.py"
+    }
+  ],
+  "archiveSha256": "9c098bfa5363c0c0d2b7f8a553f8c365a8a0a6aba86ee51a68c4045b3cd39a8f"
+}

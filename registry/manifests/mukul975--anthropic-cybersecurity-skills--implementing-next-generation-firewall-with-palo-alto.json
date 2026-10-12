@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-next-generation-firewall-with-palo-alto",
+    "name": "implementing-next-generation-firewall-with-palo-alto",
+    "description": "Configures and deploys Palo Alto Networks next-generation firewalls end-to-end, covering App-ID application-aware policies, User-ID identity-based enforcement, zone-based security rules, SSL decryption for encrypted traffic visibility, and Content-ID threat prevention profiles. Use when moving an enterprise from port-based firewall rules to application- and identity-aware NGFW policy on Palo Alto hardware.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "next",
+      "generation",
+      "firewall",
+      "palo",
+      "alto",
+      "configures",
+      "deploys",
+      "networks",
+      "firewalls",
+      "end",
+      "covering",
+      "app",
+      "id",
+      "application",
+      "aware",
+      "policies",
+      "user"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-next-generation-firewall-with-palo-alto/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-next-generation-firewall-with-palo-alto",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-next-generation-firewall-with-palo-alto",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 45343,
+    "sha256": "4581e1c28d2f74215cc1dc82e233677e4e4334383d1fae47922be1ea9beda7c6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-next-generation-firewall-with-palo-alto/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-next-generation-firewall-with-palo-alto/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-next-generation-firewall-with-palo-alto/SKILL.md",
+      "bytes": 12506,
+      "sha256": "4581e1c28d2f74215cc1dc82e233677e4e4334383d1fae47922be1ea9beda7c6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-next-generation-firewall-with-palo-alto/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-next-generation-firewall-with-palo-alto/assets/template.md",
+      "bytes": 2460,
+      "sha256": "2bba633838dc3033224f743f881066c77ffc7a7c35799b6e1bb4a1fbf2aee710",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-next-generation-firewall-with-palo-alto/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-next-generation-firewall-with-palo-alto/references/api-reference.md",
+      "bytes": 1148,
+      "sha256": "22c08e279b84ffaf4a59c367274943e2a565b28c09f1ec44e6cd1c69de2ce79a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-next-generation-firewall-with-palo-alto/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-next-generation-firewall-with-palo-alto/references/standards.md",
+      "bytes": 1510,
+      "sha256": "3c17c1b2d003747a14638dac27f14ac7c0c914cb4b180cd91829aaf4e25074b6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-next-generation-firewall-with-palo-alto/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-next-generation-firewall-with-palo-alto/references/workflows.md",
+      "bytes": 2338,
+      "sha256": "37b9dff29712a408e8c74c5579e71d541dfa6de59a76ceca47015e29f49ed857",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-next-generation-firewall-with-palo-alto/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-next-generation-firewall-with-palo-alto/scripts/agent.py",
+      "bytes": 4617,
+      "sha256": "6f52d4d068459736fe36ade11f1dec2d3f822abcf8fae44d972004e0fd49b7cc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-next-generation-firewall-with-palo-alto/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-next-generation-firewall-with-palo-alto/scripts/process.py",
+      "bytes": 9509,
+      "sha256": "79ba3fc8f5b00b16041265f8349574de4b2d6e288a9a1a8102b2c8dad6ab5678",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-next-generation-firewall-with-palo-alto/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "cadfa6698c9741bc225d0d565bcdbb3059ddf117d0496853872dcef66ebbdefb"
+}

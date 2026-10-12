@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-business-email-compromise-with-ai",
+    "name": "detecting-business-email-compromise-with-ai",
+    "description": "Deploy AI and NLP-powered detection systems to identify business email compromise attacks by analyzing writing style, behavioral patterns, and contextual anomalies that evade traditional rule-based filters.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "detecting",
+      "business",
+      "email",
+      "compromise",
+      "ai",
+      "deploy",
+      "nlp",
+      "powered",
+      "detection",
+      "systems",
+      "identify",
+      "attacks",
+      "by",
+      "analyzing",
+      "writing",
+      "style",
+      "behavioral",
+      "patterns"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-business-email-compromise-with-ai/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-business-email-compromise-with-ai",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-business-email-compromise-with-ai",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 39306,
+    "sha256": "6ea9aafc78f3b65442b562cc1da41fe518d2c46ed9d4057ef20039b2886e3380",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-business-email-compromise-with-ai/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-business-email-compromise-with-ai/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-business-email-compromise-with-ai/SKILL.md",
+      "bytes": 5695,
+      "sha256": "6ea9aafc78f3b65442b562cc1da41fe518d2c46ed9d4057ef20039b2886e3380",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-business-email-compromise-with-ai/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/detecting-business-email-compromise-with-ai/assets/template.md",
+      "bytes": 927,
+      "sha256": "c08a0308ea9047259c093806e2f4d7280bf3969878d9327bef163dbb3020c06a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-business-email-compromise-with-ai/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-business-email-compromise-with-ai/references/api-reference.md",
+      "bytes": 2214,
+      "sha256": "9b720bce0fafe40772f862aa50768d4fafdaaf749ba02503d536edb785d37215",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-business-email-compromise-with-ai/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/detecting-business-email-compromise-with-ai/references/standards.md",
+      "bytes": 1336,
+      "sha256": "fa0725edc7d6de79ef2eab51848f5ee5bbf646a85ce8cc1db9ea71f3596abb77",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-business-email-compromise-with-ai/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/detecting-business-email-compromise-with-ai/references/workflows.md",
+      "bytes": 1388,
+      "sha256": "72e8b52b221471468e5b01efac8d2c62fdded38b4294352e5decf53695d8ffbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-business-email-compromise-with-ai/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-business-email-compromise-with-ai/scripts/agent.py",
+      "bytes": 5423,
+      "sha256": "6f9efd4d59b27b12950bf20bdeb19264e009459329e7cee6517c58cfa43cc8e4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-business-email-compromise-with-ai/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/detecting-business-email-compromise-with-ai/scripts/process.py",
+      "bytes": 11068,
+      "sha256": "4357bb16e971acfc1d3dd0f902420f02ba90eea1ce2fdc15504ad300db86fd94",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-business-email-compromise-with-ai/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "3ba1b18a41bafd8654324dbe0a8798f732e61e5b2bf31a8243e3dc58cbe9401d"
+}

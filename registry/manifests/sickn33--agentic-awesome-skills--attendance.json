@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--attendance",
+    "name": "attendance",
+    "description": "Daily attendance register: check-in and check-out, hours worked, work mode, late minutes, leave and regularisation flags, as CSV, SQL, JSON Schema or Notion on request. Use for payroll input.",
+    "category": "Development",
+    "tags": [
+      "attendance",
+      "daily",
+      "register",
+      "check",
+      "out",
+      "hours",
+      "worked",
+      "work",
+      "mode",
+      "late",
+      "minutes",
+      "leave",
+      "regularisation",
+      "flags",
+      "as",
+      "csv",
+      "sql",
+      "json"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/attendance",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/attendance",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 15198,
+    "sha256": "f8df07d844d24c468752110b3973fe06f23915613f61e17d57d0a35dac3a7710",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/attendance/SKILL.md",
+      "bytes": 14125,
+      "sha256": "f8df07d844d24c468752110b3973fe06f23915613f61e17d57d0a35dac3a7710",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/attendance/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "d3f7ce14752347da8b6af3d7f70ae902616d0f7cfad659d111e6621c442bc893"
+}

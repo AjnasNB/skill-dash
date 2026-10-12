@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-authenticated-scan-with-openvas",
+    "name": "performing-authenticated-scan-with-openvas",
+    "description": "Configure and execute authenticated (credentialed) vulnerability scans using OpenVAS/Greenbone Vulnerability Management (GVM) with SSH, SMB, or ESXi credentials to detect local vulnerabilities, missing patches, and misconfigurations on target hosts. Use when a host-level scan needs to log into systems for deep inspection, since authenticated scans typically surface 10-50x more findings than unauthenticated scans.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "authenticated",
+      "scan",
+      "openvas",
+      "configure",
+      "execute",
+      "credentialed",
+      "vulnerability",
+      "scans",
+      "greenbone",
+      "management",
+      "gvm",
+      "ssh",
+      "smb",
+      "esxi",
+      "credentials",
+      "detect",
+      "local"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-authenticated-scan-with-openvas/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-authenticated-scan-with-openvas",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-authenticated-scan-with-openvas",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 48828,
+    "sha256": "009d5873c6729e4b705921fed2511a80c01887cc5f57789c3f0b01ac80241441",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-authenticated-scan-with-openvas/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-authenticated-scan-with-openvas/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-authenticated-scan-with-openvas/SKILL.md",
+      "bytes": 9253,
+      "sha256": "009d5873c6729e4b705921fed2511a80c01887cc5f57789c3f0b01ac80241441",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-authenticated-scan-with-openvas/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-authenticated-scan-with-openvas/assets/template.md",
+      "bytes": 2355,
+      "sha256": "5ad688f860d7a54860df5ccafb4a3863d71f2f673c2773c342a73006506a986e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-authenticated-scan-with-openvas/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-authenticated-scan-with-openvas/references/api-reference.md",
+      "bytes": 2246,
+      "sha256": "15900260ed85e081eada956f343e912348a86a250d660507bb726086fd14eca2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-authenticated-scan-with-openvas/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-authenticated-scan-with-openvas/references/standards.md",
+      "bytes": 2997,
+      "sha256": "68ee9d821cebd437b2b63871d3e152d0ef3126fe8b760ac70f44ef2876f3c14e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-authenticated-scan-with-openvas/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-authenticated-scan-with-openvas/references/workflows.md",
+      "bytes": 3169,
+      "sha256": "7d1a27be69530388a3a08f47dcfb5e8858da5cb906fb41781d56effec93df707",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-authenticated-scan-with-openvas/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-authenticated-scan-with-openvas/scripts/agent.py",
+      "bytes": 7840,
+      "sha256": "86f009c6b76c553c760003ac5f33cc11d95a2b0055c41776520aa44fcbda9649",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-authenticated-scan-with-openvas/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-authenticated-scan-with-openvas/scripts/process.py",
+      "bytes": 9713,
+      "sha256": "5fc7f05ac210c4d98ad00cedfdf3630eba006a968a2be44fe15a2e7c50c420bb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-authenticated-scan-with-openvas/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "3073ba7f82ff0085ae649e12b9fa0a274371547cfd17dd1db40f635dc4bf8163"
+}

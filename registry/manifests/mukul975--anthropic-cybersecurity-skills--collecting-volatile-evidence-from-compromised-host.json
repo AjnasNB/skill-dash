@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--collecting-volatile-evidence-from-compromised-host",
+    "name": "collecting-volatile-evidence-from-compromised-host",
+    "description": "Collect volatile forensic evidence from a compromised host by following the order of volatility, preserving memory, network connections, running processes, and system state with documented chain of custody before they are lost. Use before isolating, shutting down, or remediating a compromised host, especially when fileless or memory-resident malware is suspected, root cause analysis is needed, or the evidence must hold up in legal proceedings.",
+    "category": "Security",
+    "tags": [
+      "collecting",
+      "volatile",
+      "evidence",
+      "from",
+      "compromised",
+      "host",
+      "collect",
+      "forensic",
+      "by",
+      "following",
+      "order",
+      "volatility",
+      "preserving",
+      "memory",
+      "network",
+      "connections",
+      "running",
+      "processes"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/collecting-volatile-evidence-from-compromised-host/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/collecting-volatile-evidence-from-compromised-host",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-volatile-evidence-from-compromised-host",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 57271,
+    "sha256": "9c9919119fe5ab9faeb5746555e9c7043d13eeef925b3311441442808c3fe91b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/collecting-volatile-evidence-from-compromised-host/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-volatile-evidence-from-compromised-host/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/collecting-volatile-evidence-from-compromised-host/SKILL.md",
+      "bytes": 9784,
+      "sha256": "9c9919119fe5ab9faeb5746555e9c7043d13eeef925b3311441442808c3fe91b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-volatile-evidence-from-compromised-host/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/collecting-volatile-evidence-from-compromised-host/assets/template.md",
+      "bytes": 2125,
+      "sha256": "c5cebbbe7dcd08ba14425345e384a8ce1fd5b5fb1e0d4354aafba5ee911d3666",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-volatile-evidence-from-compromised-host/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/collecting-volatile-evidence-from-compromised-host/references/api-reference.md",
+      "bytes": 2075,
+      "sha256": "45d2b074e5f8ea3464ae922d449038b3220187fce5f21e1296795425b2cab44f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-volatile-evidence-from-compromised-host/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/collecting-volatile-evidence-from-compromised-host/references/standards.md",
+      "bytes": 3041,
+      "sha256": "2c7a806a23c89a27c7573199e0de7d34913502f0d2396f9d55121b2b5d75a41d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-volatile-evidence-from-compromised-host/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/collecting-volatile-evidence-from-compromised-host/references/workflows.md",
+      "bytes": 4004,
+      "sha256": "06bbfdb0e4a5608ceba1ea71c12f4777e6af9d33cb0b2558cf0ba3e4abe397e6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-volatile-evidence-from-compromised-host/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/collecting-volatile-evidence-from-compromised-host/scripts/agent.py",
+      "bytes": 7167,
+      "sha256": "cf7b13f31250c2a2725e6a4a304bed95edab6818c96294285a3add429f9d504b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-volatile-evidence-from-compromised-host/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/collecting-volatile-evidence-from-compromised-host/scripts/process.py",
+      "bytes": 17820,
+      "sha256": "7f01c6991d2cad5e8996d0742f91ceef5361f9c45ab72247bc1ba4cf244c8360",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-volatile-evidence-from-compromised-host/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "e56df52843405838019b6e6c1e12ee552b770925e1fa9f75e13e922cd9671984"
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--building-super-timelines-with-plaso",
+    "name": "building-super-timelines-with-plaso",
+    "description": "Generate forensic super-timelines with Plaso's log2timeline.py, pinfo.py, psort.py, and psteal.py CLI tools (fusing file-system MACB, registry, EVTX, browser history, prefetch, LNK, and more), then triage and filter the results in Timesketch. Use when reconstructing the full sequence of events on a compromised or forensically imaged host during a DFIR investigation.",
+    "category": "Security",
+    "tags": [
+      "building",
+      "super",
+      "timelines",
+      "plaso",
+      "generate",
+      "forensic",
+      "log2timeline.py",
+      "pinfo.py",
+      "psort.py",
+      "psteal.py",
+      "cli",
+      "tools",
+      "fusing",
+      "file",
+      "system",
+      "macb",
+      "registry",
+      "evtx"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/building-super-timelines-with-plaso/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/building-super-timelines-with-plaso",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-super-timelines-with-plaso",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 26822,
+    "sha256": "2157d0dadc76967733646788cf53e63aace98e92717cb535397d2e04119361bb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/building-super-timelines-with-plaso/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-super-timelines-with-plaso/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/building-super-timelines-with-plaso/SKILL.md",
+      "bytes": 7679,
+      "sha256": "2157d0dadc76967733646788cf53e63aace98e92717cb535397d2e04119361bb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-super-timelines-with-plaso/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/building-super-timelines-with-plaso/references/api-reference.md",
+      "bytes": 2277,
+      "sha256": "c55ec46a607df2c67ea83cdd418a6741101675443a23c956ad2008fbe2b8d34a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-super-timelines-with-plaso/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/building-super-timelines-with-plaso/references/standards.md",
+      "bytes": 1027,
+      "sha256": "cab01cc5d3d658c9c2b4b26784e739e277682c135192490967c31dfd86396ab3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-super-timelines-with-plaso/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/building-super-timelines-with-plaso/scripts/agent.py",
+      "bytes": 4584,
+      "sha256": "fcffc0526449088fc2a26af46bb5eadb212ab657cd0ad2f4ffd6a3306d06ce3b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-super-timelines-with-plaso/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "5772ee094a13a861ff5687dc49d5ee1932e244b0cc2032c41f6eccfbdf745140"
+}

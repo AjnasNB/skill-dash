@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--torch-geometric",
+    "name": "torch-geometric",
+    "description": "Supports PyTorch Geometric (PyG) graph neural networks — node/link/graph classification, message passing (GCN, GAT, GraphSAGE, GIN), heterogeneous graphs, neighbor sampling, and custom datasets. Use when working with torch_geometric, not for general NetworkX analytics or non-graph PyTorch models.",
+    "category": "Development",
+    "tags": [
+      "torch",
+      "geometric",
+      "supports",
+      "pytorch",
+      "pyg",
+      "graph",
+      "neural",
+      "networks",
+      "node",
+      "link",
+      "classification",
+      "message",
+      "passing",
+      "gcn",
+      "gat",
+      "graphsage",
+      "gin",
+      "heterogeneous"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/torch-geometric",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/torch-geometric",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 9,
+    "bytes": 86824,
+    "sha256": "89805e17cdbc64ed01426548442b3aa1bda8bcfdd4f9528f5c8dd6e0ea813c96",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/torch-geometric/SKILL.md",
+      "bytes": 22474,
+      "sha256": "89805e17cdbc64ed01426548442b3aa1bda8bcfdd4f9528f5c8dd6e0ea813c96",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/torch-geometric/SKILL.md"
+    },
+    {
+      "path": "references/custom_datasets.md",
+      "sourcePath": "skills/torch-geometric/references/custom_datasets.md",
+      "bytes": 10735,
+      "sha256": "f15cc9bcefd152de2911e773e1870a54deab26cd7e61511ba32b9c798f6e88a1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/torch-geometric/references/custom_datasets.md"
+    },
+    {
+      "path": "references/explainability.md",
+      "sourcePath": "skills/torch-geometric/references/explainability.md",
+      "bytes": 8799,
+      "sha256": "a0034a96a592dd3d4f56341b19ed3c0153e40065a56d23d42c241cb779396510",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/torch-geometric/references/explainability.md"
+    },
+    {
+      "path": "references/heterogeneous.md",
+      "sourcePath": "skills/torch-geometric/references/heterogeneous.md",
+      "bytes": 9334,
+      "sha256": "1d955ed7d1b98df468e7009dd0c1ada550fed50af02cd101052b83dd1d26af9f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/torch-geometric/references/heterogeneous.md"
+    },
+    {
+      "path": "references/link_prediction.md",
+      "sourcePath": "skills/torch-geometric/references/link_prediction.md",
+      "bytes": 10826,
+      "sha256": "2e8ae7873868915416061fa7fbe32d0db3337e568490cc833738af24414f29ac",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/torch-geometric/references/link_prediction.md"
+    },
+    {
+      "path": "references/message_passing.md",
+      "sourcePath": "skills/torch-geometric/references/message_passing.md",
+      "bytes": 5114,
+      "sha256": "623248481516df52e603820303a3fd115a43eb0278ccd99c253f1e891001493e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/torch-geometric/references/message_passing.md"
+    },
+    {
+      "path": "references/review.md",
+      "sourcePath": "skills/torch-geometric/references/review.md",
+      "bytes": 7134,
+      "sha256": "caeecac05a54d87f30276b15a6a196a82736c00bf4ba5682ac940d17bb962bad",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/torch-geometric/references/review.md"
+    },
+    {
+      "path": "references/scaling.md",
+      "sourcePath": "skills/torch-geometric/references/scaling.md",
+      "bytes": 11340,
+      "sha256": "69680934b72104c20108e7747027a151451528b6a0ebc3102e60471a868c6213",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/torch-geometric/references/scaling.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "22eac6897d46996d36c8c6d72236e57e2ed466750e060f8fbde6c2e740c1a44a"
+}

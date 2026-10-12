@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-zero-trust-for-saas-applications",
+    "name": "implementing-zero-trust-for-saas-applications",
+    "description": "Secures SaaS apps (Microsoft 365, Google Workspace, Salesforce, Slack) via CASB/SSPM deployment, conditional access policies, OAuth app governance, and session-level DLP controls enforcing identity verification and device compliance. Use when adding MFA/device-compliance conditional access, discovering shadow IT, governing OAuth consent grants, or applying session controls to sensitive SaaS data.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "zero",
+      "trust",
+      "saas",
+      "applications",
+      "secures",
+      "apps",
+      "microsoft",
+      "365",
+      "google",
+      "workspace",
+      "salesforce",
+      "slack",
+      "via",
+      "casb",
+      "sspm",
+      "deployment",
+      "conditional"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-zero-trust-for-saas-applications/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-zero-trust-for-saas-applications",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-for-saas-applications",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 30373,
+    "sha256": "51cf4ac512aaad3f415eb1b04083d2f033d0cd30f7bd1e20ab8c235b155ce33c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-zero-trust-for-saas-applications/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-for-saas-applications/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-zero-trust-for-saas-applications/SKILL.md",
+      "bytes": 11472,
+      "sha256": "51cf4ac512aaad3f415eb1b04083d2f033d0cd30f7bd1e20ab8c235b155ce33c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-for-saas-applications/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-zero-trust-for-saas-applications/references/api-reference.md",
+      "bytes": 1717,
+      "sha256": "2426cdb737b8b9ce468a6fb2c3269d907c0704142a5d6406f8173ff51866b412",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-for-saas-applications/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-zero-trust-for-saas-applications/scripts/agent.py",
+      "bytes": 5929,
+      "sha256": "3ca398dd0a5e8ac5e5d1665ce7f2e0926e11eda0fe66f668f85225762321aabd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-for-saas-applications/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "3f719fa6a782abedbdb446854603620b02275fa26b6c1e4b7c2792006c331712"
+}

@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--scarf-single-cell",
+    "name": "scarf-single-cell",
+    "description": "Analyze single-cell RNA-seq at million-cell scale with Scarf: out-of-core Zarr stores on disk or object storage, provenance-tracked artifacts, audited QC, clustering, markers and donor comparisons.",
+    "category": "Development",
+    "tags": [
+      "scarf",
+      "single",
+      "cell",
+      "analyze",
+      "rna",
+      "seq",
+      "at",
+      "million",
+      "scale",
+      "out",
+      "core",
+      "zarr",
+      "stores",
+      "disk",
+      "object",
+      "storage",
+      "provenance",
+      "tracked"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/scarf-single-cell",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/scarf-single-cell",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 13,
+    "bytes": 177580,
+    "sha256": "eb4a764ca3c9a11d73235e8829abed8efba9a281832b2d43694a2b6689d228f7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/scarf-single-cell/SKILL.md",
+      "bytes": 22779,
+      "sha256": "eb4a764ca3c9a11d73235e8829abed8efba9a281832b2d43694a2b6689d228f7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/scarf-single-cell/SKILL.md"
+    },
+    {
+      "path": "references/LICENSE.md",
+      "sourcePath": "skills/scarf-single-cell/references/LICENSE.md",
+      "bytes": 1518,
+      "sha256": "b8e654dc9280aa4899ee3fdeea88bee94f1d0d00fac5a1dc695a8a0724b90e3f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/scarf-single-cell/references/LICENSE.md"
+    },
+    {
+      "path": "references/clustering-and-embedding.md",
+      "sourcePath": "skills/scarf-single-cell/references/clustering-and-embedding.md",
+      "bytes": 14978,
+      "sha256": "eb5f17fce82c5d5c231540c82c5389d4e88d1323f4ad75a798373ed11144769b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/scarf-single-cell/references/clustering-and-embedding.md"
+    },
+    {
+      "path": "references/data-access.md",
+      "sourcePath": "skills/scarf-single-cell/references/data-access.md",
+      "bytes": 15865,
+      "sha256": "0e045a29a6f803cfe741d9af5d1b1fc140fd6bc5077b3fa9d490c5684dd6ee62",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/scarf-single-cell/references/data-access.md"
+    },
+    {
+      "path": "references/features-and-graphs.md",
+      "sourcePath": "skills/scarf-single-cell/references/features-and-graphs.md",
+      "bytes": 15755,
+      "sha256": "538c663e21bf4492528c8dd47bd044b07aa28654e0814a201002b6765f2029c7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/scarf-single-cell/references/features-and-graphs.md"
+    },
+    {
+      "path": "references/gene-blacklists.md",
+      "sourcePath": "skills/scarf-single-cell/references/gene-blacklists.md",
+      "bytes": 10206,
+      "sha256": "c6b6223d7a788b6be71c13227d3cd342d1288a41421dba24691d449e5dcf9ef3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/scarf-single-cell/references/gene-blacklists.md"
+    },
+    {
+      "path": "references/integration-and-comparisons.md",
+      "sourcePath": "skills/scarf-single-cell/references/integration-and-comparisons.md",
+      "bytes": 16950,
+      "sha256": "b38e1af146ff4e80456917e8556db1c042bf5ecd187a2b3fc41cb94b8f4a5e5c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/scarf-single-cell/references/integration-and-comparisons.md"
+    },
+    {
+      "path": "references/markers-and-annotation.md",
+      "sourcePath": "skills/scarf-single-cell/references/markers-and-annotation.md",
+      "bytes": 17055,
+      "sha256": "f77d0345271dbdea251389ad3221a854483978d0d8b919316974a3bd0f9cafbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/scarf-single-cell/references/markers-and-annotation.md"
+    },
+    {
+      "path": "references/performance-and-export.md",
+      "sourcePath": "skills/scarf-single-cell/references/performance-and-export.md",
+      "bytes": 15462,
+      "sha256": "7a4e27be496c75e66222085a2cb82bbabf09cad50a16f1c4a8b25ed4dd8a05b5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/scarf-single-cell/references/performance-and-export.md"
+    },
+    {
+      "path": "references/pipeline-runs-and-artifacts.md",
+      "sourcePath": "skills/scarf-single-cell/references/pipeline-runs-and-artifacts.md",
+      "bytes": 15215,
+      "sha256": "787aaf52b6e7bca0e9c6844cc94e78ad63fcf2426ea11a8f2a54022a2ba8143c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/scarf-single-cell/references/pipeline-runs-and-artifacts.md"
+    },
+    {
+      "path": "references/plotting.md",
+      "sourcePath": "skills/scarf-single-cell/references/plotting.md",
+      "bytes": 12683,
+      "sha256": "bbe7b80110c8f356953150307493b9cfdf70597d8745dca8044bfb49a91ba03e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/scarf-single-cell/references/plotting.md"
+    },
+    {
+      "path": "references/quality-control.md",
+      "sourcePath": "skills/scarf-single-cell/references/quality-control.md",
+      "bytes": 18041,
+      "sha256": "48613ecd3ea1a75c2238722ea884224795983eb76653b02056ff53f689bcab92",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/scarf-single-cell/references/quality-control.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "9a4c2224a07c218c2c88a1049623b8179015e55e5d2512846ba4a12588f6dfa1"
+}

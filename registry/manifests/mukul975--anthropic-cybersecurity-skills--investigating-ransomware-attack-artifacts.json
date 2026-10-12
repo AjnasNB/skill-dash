@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--investigating-ransomware-attack-artifacts",
+    "name": "investigating-ransomware-attack-artifacts",
+    "description": "Forensically preserve memory and disk, collect ransom notes and encrypted file samples, and identify the ransomware variant using tools such as ID Ransomware, Volatility, and Chainsaw/Hayabusa to determine the initial access vector and recovery options. Use immediately after discovering ransomware encryption, when scoping the incident forensically, or when documenting evidence for law enforcement and insurance claims.",
+    "category": "Security",
+    "tags": [
+      "investigating",
+      "ransomware",
+      "attack",
+      "artifacts",
+      "forensically",
+      "preserve",
+      "memory",
+      "disk",
+      "collect",
+      "ransom",
+      "notes",
+      "encrypted",
+      "file",
+      "samples",
+      "identify",
+      "variant",
+      "tools",
+      "such"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/investigating-ransomware-attack-artifacts/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/investigating-ransomware-attack-artifacts",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/investigating-ransomware-attack-artifacts",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 37568,
+    "sha256": "64449d7f5f9f6c6ed024a3b0742687e02b90bff747515d7887485506913473c1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/investigating-ransomware-attack-artifacts/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/investigating-ransomware-attack-artifacts/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/investigating-ransomware-attack-artifacts/SKILL.md",
+      "bytes": 16204,
+      "sha256": "64449d7f5f9f6c6ed024a3b0742687e02b90bff747515d7887485506913473c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/investigating-ransomware-attack-artifacts/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/investigating-ransomware-attack-artifacts/references/api-reference.md",
+      "bytes": 2185,
+      "sha256": "a2dc3e649197393031082680be6d294fe132387b3fd9a03c383fd1230a624b05",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/investigating-ransomware-attack-artifacts/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/investigating-ransomware-attack-artifacts/scripts/agent.py",
+      "bytes": 7924,
+      "sha256": "d79dfef1d5726b5d5a74a4552e9736a56a4c4fe81c5e56819cdad13ec72f9e64",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/investigating-ransomware-attack-artifacts/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "27d35920239c8160dbc6beaf189e3180cadb34a4a01b3cef30d9a773b2db0903"
+}

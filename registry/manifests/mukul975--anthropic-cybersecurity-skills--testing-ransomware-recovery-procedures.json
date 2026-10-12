@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--testing-ransomware-recovery-procedures",
+    "name": "testing-ransomware-recovery-procedures",
+    "description": "Tests and validates ransomware recovery procedures - backup restore operations (e.g. with Restic), RTO/RPO target verification, recovery sequencing, and clean-restore validation - to confirm organizational resilience against destructive ransomware attacks. Use when validating that recovery plans work under realistic conditions, measuring RTO/RPO against business requirements, or testing restore integrity after simulated encryption.",
+    "category": "Product & business",
+    "tags": [
+      "testing",
+      "ransomware",
+      "recovery",
+      "procedures",
+      "tests",
+      "validates",
+      "backup",
+      "restore",
+      "operations",
+      "e.g.",
+      "restic",
+      "rto",
+      "rpo",
+      "target",
+      "verification",
+      "sequencing",
+      "clean",
+      "validation"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/testing-ransomware-recovery-procedures/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/testing-ransomware-recovery-procedures",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-ransomware-recovery-procedures",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34498,
+    "sha256": "3c7cf80e81fffcbeac952a9e70130974412372d981fa6583b9ee7a3f1b02e70e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/testing-ransomware-recovery-procedures/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-ransomware-recovery-procedures/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/testing-ransomware-recovery-procedures/SKILL.md",
+      "bytes": 7781,
+      "sha256": "3c7cf80e81fffcbeac952a9e70130974412372d981fa6583b9ee7a3f1b02e70e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-ransomware-recovery-procedures/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/testing-ransomware-recovery-procedures/references/api-reference.md",
+      "bytes": 3900,
+      "sha256": "973f381d289392a8ae88dbd32616bea3dc28471d22b1fe860821cc42492e111f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-ransomware-recovery-procedures/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/testing-ransomware-recovery-procedures/scripts/agent.py",
+      "bytes": 11562,
+      "sha256": "7371c2bfaf6db550845ee26a14d7d97d8f22b57170db4afbe2aa83c299edbc36",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-ransomware-recovery-procedures/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "26150dcec191039b48d72cfd5ea0ac19d2d4527e251506796d6f059d631af4e0"
+}

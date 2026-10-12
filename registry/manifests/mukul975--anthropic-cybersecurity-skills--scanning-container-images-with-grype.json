@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--scanning-container-images-with-grype",
+    "name": "scanning-container-images-with-grype",
+    "description": "Scans container images, filesystems, and SBOMs for known CVEs with Anchore Grype, matching Syft-generated SBOM packages against NVD, GitHub Advisories, and OS-specific feeds with configurable severity thresholds and failure gates. Use when Grype or Syft is the chosen toolchain, when scanning an existing SBOM rather than an image, or when gating a build on severity. Keywords: Grype, Syft, SBOM, NVD, GitHub Advisory, --fail-on, severity threshold. Do not use when the toolchain is Trivy - use scanning-docker-images-with-trivy.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "scanning",
+      "container",
+      "images",
+      "grype",
+      "scans",
+      "filesystems",
+      "sboms",
+      "known",
+      "cves",
+      "anchore",
+      "matching",
+      "syft",
+      "generated",
+      "sbom",
+      "packages",
+      "against",
+      "nvd",
+      "github"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/scanning-container-images-with-grype/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/scanning-container-images-with-grype",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-container-images-with-grype",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 39222,
+    "sha256": "7f581d7da0bb79eed97b224619afeb3e543e27b5a39b018c3138250778a97c5b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/scanning-container-images-with-grype/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-container-images-with-grype/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/scanning-container-images-with-grype/SKILL.md",
+      "bytes": 5903,
+      "sha256": "7f581d7da0bb79eed97b224619afeb3e543e27b5a39b018c3138250778a97c5b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-container-images-with-grype/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/scanning-container-images-with-grype/assets/template.md",
+      "bytes": 2160,
+      "sha256": "c58c38389a0e130b55b8b5bcd760605bafe5df5110a9f41c9b45e0c024af6c0e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-container-images-with-grype/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/scanning-container-images-with-grype/references/api-reference.md",
+      "bytes": 1769,
+      "sha256": "efe021849e0caa87314c40d806dfd224d4a5535c065768788e93cf7302a04359",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-container-images-with-grype/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/scanning-container-images-with-grype/references/standards.md",
+      "bytes": 2544,
+      "sha256": "e3ba86d1fc7eb73aeb666fd6ddec8bbdb58333052cf99b6afe238b17a2d06128",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-container-images-with-grype/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/scanning-container-images-with-grype/references/workflows.md",
+      "bytes": 4102,
+      "sha256": "d946c402c3c17af9750e34f65dd892f03165f808ad8500db9d967ac908b96773",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-container-images-with-grype/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/scanning-container-images-with-grype/scripts/agent.py",
+      "bytes": 4972,
+      "sha256": "132f4916833405b8b4af675c94c69a3e9542c9b39fbd9e06d71ed02e6c9c71a3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-container-images-with-grype/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/scanning-container-images-with-grype/scripts/process.py",
+      "bytes": 6517,
+      "sha256": "2dde9274587337b63b8369f00d94361f3a729ec7356d9564c0f2013bfed0beb8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-container-images-with-grype/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "13dff9fc5a1bbb6b6f7dd241fc128b7050516fd2d2f0a3666a5c5a23cb6add21"
+}

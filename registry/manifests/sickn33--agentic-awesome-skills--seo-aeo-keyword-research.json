@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--seo-aeo-keyword-research","name":"seo-aeo-keyword-research","description":"Researches and prioritises keywords from the site context and live search intent, including problem queries, question queries, difficulty tiers, and a content map.","category":"Marketing","tags":["seo","aeo","keyword","research","researches","prioritises","keywords","from","site","context","live","search","intent","including","problem","queries","question","difficulty"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":46853,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"21efc48cceaf0f7043fa496ad8fcd5815637121e","path":"skills/seo-aeo-keyword-research","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/seo-aeo-keyword-research","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T06:08:57Z","fileCount":2,"bytes":16732,"sha256":"04267c391fc4341a8a75cb5598acae4201705bdcff3d481806f5496196f1fba3","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/seo-aeo-keyword-research/SKILL.md","bytes":15659,"sha256":"04267c391fc4341a8a75cb5598acae4201705bdcff3d481806f5496196f1fba3","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/seo-aeo-keyword-research/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/LICENSE"}],"archiveSha256":"7773519255845b15b7cb45199cf87cee65932d43d02188a4ee0567186db460aa"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--seo-aeo-keyword-research",
+    "name": "seo-aeo-keyword-research",
+    "description": "Researches and prioritises keywords from the site context and live search intent, including problem queries, question queries, difficulty tiers, and a content map.",
+    "category": "Marketing",
+    "tags": [
+      "seo",
+      "aeo",
+      "keyword",
+      "research",
+      "researches",
+      "prioritises",
+      "keywords",
+      "from",
+      "site",
+      "context",
+      "live",
+      "search",
+      "intent",
+      "including",
+      "problem",
+      "queries",
+      "question",
+      "difficulty"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/seo-aeo-keyword-research",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-aeo-keyword-research",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 16732,
+    "sha256": "04267c391fc4341a8a75cb5598acae4201705bdcff3d481806f5496196f1fba3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/seo-aeo-keyword-research/SKILL.md",
+      "bytes": 15659,
+      "sha256": "04267c391fc4341a8a75cb5598acae4201705bdcff3d481806f5496196f1fba3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-aeo-keyword-research/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "6fbc12e6eb4ce712a64ad53c04d3f7fe7c30637766573cbe51fb018592237327"
+}

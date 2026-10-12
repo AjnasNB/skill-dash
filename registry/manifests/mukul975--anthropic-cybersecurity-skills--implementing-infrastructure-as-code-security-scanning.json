@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-infrastructure-as-code-security-scanning",
+    "name": "implementing-infrastructure-as-code-security-scanning",
+    "description": "Implements automated security scanning for Infrastructure as Code using Checkov, tfsec, and KICS to detect misconfigurations in Terraform, CloudFormation, Kubernetes manifests, and Helm charts, plus policy-based governance and CI/CD integration. Use when validating cloud infrastructure before deployment or blocking insecure changes (public S3 buckets, open security groups) in pull requests.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "infrastructure",
+      "as",
+      "code",
+      "security",
+      "scanning",
+      "implements",
+      "automated",
+      "checkov",
+      "tfsec",
+      "kics",
+      "detect",
+      "misconfigurations",
+      "terraform",
+      "cloudformation",
+      "kubernetes",
+      "manifests",
+      "helm"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-infrastructure-as-code-security-scanning/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-infrastructure-as-code-security-scanning",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-infrastructure-as-code-security-scanning",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 44396,
+    "sha256": "c2183c2a92022dea92582e2aa66a2537bb3e1bb5500434007289d35a73bcc71a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-infrastructure-as-code-security-scanning/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-infrastructure-as-code-security-scanning/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-infrastructure-as-code-security-scanning/SKILL.md",
+      "bytes": 8684,
+      "sha256": "c2183c2a92022dea92582e2aa66a2537bb3e1bb5500434007289d35a73bcc71a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-infrastructure-as-code-security-scanning/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-infrastructure-as-code-security-scanning/assets/template.md",
+      "bytes": 2018,
+      "sha256": "0216569b5f47020f71851c0d460489badbd8666cc49ef854f06c049936446378",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-infrastructure-as-code-security-scanning/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-infrastructure-as-code-security-scanning/references/api-reference.md",
+      "bytes": 1359,
+      "sha256": "8ddc7bd94f6b3852e43d337aa7b611f45f9b839d35e5ab23a7297db66c4b48f8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-infrastructure-as-code-security-scanning/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-infrastructure-as-code-security-scanning/references/standards.md",
+      "bytes": 1837,
+      "sha256": "17729cb8e8025f5c237d77c2dc8a27fa9b93a048813b3dcab82b67d9cd105cbc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-infrastructure-as-code-security-scanning/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-infrastructure-as-code-security-scanning/references/workflows.md",
+      "bytes": 3027,
+      "sha256": "0b82117240d616fa80624a2918a838d88e65c2737d214ad300dd36817bf776c4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-infrastructure-as-code-security-scanning/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-infrastructure-as-code-security-scanning/scripts/agent.py",
+      "bytes": 6970,
+      "sha256": "ba6ed055f33a62376ae2b238247b0e549213ff4a654823258accdde510441732",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-infrastructure-as-code-security-scanning/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-infrastructure-as-code-security-scanning/scripts/process.py",
+      "bytes": 9246,
+      "sha256": "1906994b7450840e7def29b2df24303f98c5370214d8e2fc43d97e1e29804d8b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-infrastructure-as-code-security-scanning/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "117a976012859a3dac47bd8dc53fa564dc9bb0221f726a1494584a6f102dc26e"
+}

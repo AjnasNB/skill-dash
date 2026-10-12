@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-memory-forensics-with-volatility3",
+    "name": "performing-memory-forensics-with-volatility3",
+    "description": "Analyze volatile memory (RAM) dumps using the Volatility 3 framework to extract running processes, network connections, loaded modules, credentials, and encryption keys, and to detect process hollowing, DLL injection, or hidden processes/rootkits. Use during incident response on a compromised or suspect system when disk-based forensics alone is insufficient and volatile evidence of malware or intrusion must be recovered from memory.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "memory",
+      "forensics",
+      "volatility3",
+      "analyze",
+      "volatile",
+      "ram",
+      "dumps",
+      "volatility",
+      "framework",
+      "extract",
+      "running",
+      "processes",
+      "network",
+      "connections",
+      "loaded",
+      "modules",
+      "credentials"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-memory-forensics-with-volatility3/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-memory-forensics-with-volatility3",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-memory-forensics-with-volatility3",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 33139,
+    "sha256": "d6eb0d37c55a5339481b815260963402e8ea67b9ec9c8293a526db9d93ddd283",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-memory-forensics-with-volatility3/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-memory-forensics-with-volatility3/LICENSE"
+    },
+    {
+      "path": "SKILL.es.md",
+      "sourcePath": "skills/performing-memory-forensics-with-volatility3/SKILL.es.md",
+      "bytes": 2240,
+      "sha256": "8ed118dde9217490a1c22e87e0569531c661aeec746fb10822ffadeed573a6d9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-memory-forensics-with-volatility3/SKILL.es.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-memory-forensics-with-volatility3/SKILL.md",
+      "bytes": 12012,
+      "sha256": "d6eb0d37c55a5339481b815260963402e8ea67b9ec9c8293a526db9d93ddd283",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-memory-forensics-with-volatility3/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-memory-forensics-with-volatility3/references/api-reference.md",
+      "bytes": 1865,
+      "sha256": "25384ce65f8362e4b6fd924a8d141ce85c73c1298831a86918e1146a3c150168",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-memory-forensics-with-volatility3/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-memory-forensics-with-volatility3/scripts/agent.py",
+      "bytes": 5767,
+      "sha256": "95b3689fde02de3a3ad3e7551e333e130a1dbe3ff6d9a5c93bc7915887567713",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-memory-forensics-with-volatility3/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "adea40967af342cfefdd27598e8ac6f4dde610c2ef84eec9ecd175daa80ad594"
+}

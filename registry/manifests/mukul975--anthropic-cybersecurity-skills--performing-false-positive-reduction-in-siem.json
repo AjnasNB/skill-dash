@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-false-positive-reduction-in-siem",
+    "name": "performing-false-positive-reduction-in-siem",
+    "description": "Reduces SIEM false positives through systematic rule tuning, threshold adjustment, correlation logic refinement, allowlisting, and threat intelligence enrichment. Use when SOC analysts are overwhelmed by alert noise, when tuning noisy detection rules, or during a quarterly SIEM rule review to cut alert fatigue.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "false",
+      "positive",
+      "reduction",
+      "siem",
+      "reduces",
+      "positives",
+      "through",
+      "systematic",
+      "rule",
+      "tuning",
+      "threshold",
+      "adjustment",
+      "correlation",
+      "logic",
+      "refinement",
+      "allowlisting",
+      "threat"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-false-positive-reduction-in-siem/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-false-positive-reduction-in-siem",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-false-positive-reduction-in-siem",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 34882,
+    "sha256": "948faf1b3b3e3070059f3f92049b4330b757146d3f73fb655fb73cd18f658bae",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-false-positive-reduction-in-siem/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-false-positive-reduction-in-siem/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-false-positive-reduction-in-siem/SKILL.md",
+      "bytes": 7525,
+      "sha256": "948faf1b3b3e3070059f3f92049b4330b757146d3f73fb655fb73cd18f658bae",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-false-positive-reduction-in-siem/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-false-positive-reduction-in-siem/assets/template.md",
+      "bytes": 678,
+      "sha256": "9e5bfcff3dd8521a3bbd631d484edaf10b244ae2a7825cc1f8a5e8f2dfa1d298",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-false-positive-reduction-in-siem/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-false-positive-reduction-in-siem/references/api-reference.md",
+      "bytes": 1566,
+      "sha256": "14142fab7871225b2ce00e6d5478b3aab15cac738b91b149c72481b39d4e17a4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-false-positive-reduction-in-siem/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-false-positive-reduction-in-siem/references/standards.md",
+      "bytes": 1069,
+      "sha256": "32ff335dec857b9f77c6157cf3edec5a8a615ed3270c5c5d9accad79f330d29c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-false-positive-reduction-in-siem/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-false-positive-reduction-in-siem/references/workflows.md",
+      "bytes": 629,
+      "sha256": "7e9b0d9d15ab19ab002ca16b3857b73fbe89ffe905567a0d5f65fab78a88dac2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-false-positive-reduction-in-siem/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-false-positive-reduction-in-siem/scripts/agent.py",
+      "bytes": 5970,
+      "sha256": "d753917246efe1d3fe940ae594a2e2ee5d4e24d5e70049451c15862d617b4723",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-false-positive-reduction-in-siem/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-false-positive-reduction-in-siem/scripts/process.py",
+      "bytes": 6190,
+      "sha256": "d71170c576b349a8517053d7eb0cae383a7ebdff3c9b02f63716aba00311d8e9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-false-positive-reduction-in-siem/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "e9e929d69775374f418eaf8a31ecced660e3413cfe966caa1d2f09e40ae07661"
+}

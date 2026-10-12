@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--conducting-social-engineering-penetration-test",
+    "name": "conducting-social-engineering-penetration-test",
+    "description": "Design and execute a social engineering penetration test combining OSINT-driven target profiling with phishing, vishing, smishing, and physical pretexting campaigns using tools like GoPhish, the Social Engineer Toolkit (SET), and Evilginx to measure human security resilience. Use when scoping or running an authorized human-attack-surface test and reporting results to identify security awareness training gaps.",
+    "category": "Design",
+    "tags": [
+      "conducting",
+      "social",
+      "engineering",
+      "penetration",
+      "test",
+      "design",
+      "execute",
+      "combining",
+      "osint",
+      "driven",
+      "target",
+      "profiling",
+      "phishing",
+      "vishing",
+      "smishing",
+      "physical",
+      "pretexting",
+      "campaigns"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/conducting-social-engineering-penetration-test/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/conducting-social-engineering-penetration-test",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-penetration-test",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 40789,
+    "sha256": "cb4100b0aaadc783a8103b8edf325b277272425dfbef484cde4a1d126528b20e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/conducting-social-engineering-penetration-test/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-penetration-test/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/conducting-social-engineering-penetration-test/SKILL.md",
+      "bytes": 11462,
+      "sha256": "cb4100b0aaadc783a8103b8edf325b277272425dfbef484cde4a1d126528b20e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-penetration-test/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/conducting-social-engineering-penetration-test/assets/template.md",
+      "bytes": 1016,
+      "sha256": "a92e71aac9c89d55d16ab6aac925c72e3a2827a0b5bb268cb0c77bafce7a7e1d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-penetration-test/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/conducting-social-engineering-penetration-test/references/api-reference.md",
+      "bytes": 1498,
+      "sha256": "2fb4533f277454f0ad3a855d74736c4c8d876aacb10c3a8ea847214d88530d95",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-penetration-test/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/conducting-social-engineering-penetration-test/references/standards.md",
+      "bytes": 958,
+      "sha256": "377271655c3bfc7b56aac32e03e0edc3de3066d7a927c0b8202167b44d6ef50d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-penetration-test/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/conducting-social-engineering-penetration-test/references/workflows.md",
+      "bytes": 1147,
+      "sha256": "26a01fce82613f68135db13ea770542baf1b5702714b9d976522973a586f2beb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-penetration-test/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/conducting-social-engineering-penetration-test/scripts/agent.py",
+      "bytes": 5926,
+      "sha256": "f73d1eb90f3c1e5b90a7172defc9850aa757f19399abef8b54e88033a77c249c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-penetration-test/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/conducting-social-engineering-penetration-test/scripts/process.py",
+      "bytes": 7527,
+      "sha256": "e95dcbae3615fe7c7c2d10896822dadb800109f6544d80946aac070578160b90",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-penetration-test/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "43aecf6daf493137007d07df5cc667dcc1f5152eea3863c6344d58e788c6d0c3"
+}

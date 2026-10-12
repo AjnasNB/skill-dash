@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--scanning-network-with-nmap-advanced",
+    "name": "scanning-network-with-nmap-advanced",
+    "description": "Performs advanced network recon using Nmap's Scripting Engine (NSE), timing controls, firewall/IDS evasion, and structured output parsing to discover hosts, enumerate service versions, detect vulnerabilities, and fingerprint OSes. Use during authorized penetration tests or enterprise asset-discovery assessments needing scan evasion, NSE vulnerability checks, or output fed into a vulnerability management pipeline.",
+    "category": "Security",
+    "tags": [
+      "scanning",
+      "network",
+      "nmap",
+      "advanced",
+      "performs",
+      "recon",
+      "scripting",
+      "engine",
+      "nse",
+      "timing",
+      "controls",
+      "firewall",
+      "ids",
+      "evasion",
+      "structured",
+      "output",
+      "parsing",
+      "discover"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/scanning-network-with-nmap-advanced/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/scanning-network-with-nmap-advanced",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-network-with-nmap-advanced",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 29819,
+    "sha256": "57b686209b29e933533dfcf808ebac0c7c608e76a83014b32633d673e1ba54c2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/scanning-network-with-nmap-advanced/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-network-with-nmap-advanced/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/scanning-network-with-nmap-advanced/SKILL.md",
+      "bytes": 9212,
+      "sha256": "57b686209b29e933533dfcf808ebac0c7c608e76a83014b32633d673e1ba54c2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-network-with-nmap-advanced/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/scanning-network-with-nmap-advanced/references/api-reference.md",
+      "bytes": 2076,
+      "sha256": "77b3e29c5199721ae2c2af8d0c49fb81d163d508fcf894eda1a62b4bf270053a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-network-with-nmap-advanced/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/scanning-network-with-nmap-advanced/scripts/agent.py",
+      "bytes": 7276,
+      "sha256": "771cf220520c36adf019ecaaef7249b8363bb8462c9b00a73e0c09cd9d1f8b11",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-network-with-nmap-advanced/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "bc52bbdba5f9ac7ec0bd7c9fb086457728ac090f08f27d44fb27f0037121afbb"
+}

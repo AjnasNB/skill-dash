@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--orchestrating-llm-attacks-with-pyrit",
+    "name": "orchestrating-llm-attacks-with-pyrit",
+    "description": "Build automated multi-turn adversarial attacks against conversational LLM targets using Microsoft PyRIT's RedTeamingOrchestrator, CrescendoOrchestrator (gradual escalation), and TreeOfAttacksWithPruningOrchestrator (adaptive branching), with scorer feedback loops and persisted conversation memory. Use when single-shot LLM scanning is insufficient and you need multi-turn, scorer-driven AI red-team campaigns against a chatbot or agent.",
+    "category": "AI & agents",
+    "tags": [
+      "orchestrating",
+      "llm",
+      "attacks",
+      "pyrit",
+      "automated",
+      "multi",
+      "turn",
+      "adversarial",
+      "against",
+      "conversational",
+      "targets",
+      "microsoft",
+      "redteamingorchestrator",
+      "crescendoorchestrator",
+      "gradual",
+      "escalation",
+      "treeofattackswithpruningorchestrator",
+      "adaptive"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/orchestrating-llm-attacks-with-pyrit/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/orchestrating-llm-attacks-with-pyrit",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/orchestrating-llm-attacks-with-pyrit",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 32040,
+    "sha256": "f009f55f1070d38fc4cb0a202d43a7bc259768f2db3524f37896e742d1ad2267",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/orchestrating-llm-attacks-with-pyrit/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/orchestrating-llm-attacks-with-pyrit/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/orchestrating-llm-attacks-with-pyrit/SKILL.md",
+      "bytes": 11176,
+      "sha256": "f009f55f1070d38fc4cb0a202d43a7bc259768f2db3524f37896e742d1ad2267",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/orchestrating-llm-attacks-with-pyrit/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/orchestrating-llm-attacks-with-pyrit/references/api-reference.md",
+      "bytes": 3224,
+      "sha256": "dbc0de789d07bf4c578f04feb6e5ca3578e06039456be2c39c8dcfa82336530f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/orchestrating-llm-attacks-with-pyrit/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/orchestrating-llm-attacks-with-pyrit/references/standards.md",
+      "bytes": 1410,
+      "sha256": "60831b07e2c04d0ed64dc5a84d181ff29fa124b2f11ae7d372ab192fa8754c33",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/orchestrating-llm-attacks-with-pyrit/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/orchestrating-llm-attacks-with-pyrit/scripts/agent.py",
+      "bytes": 4975,
+      "sha256": "5f3a55511559db6acc7292173bc00cc10fcc1856efdc9d3623a53754133ab19e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/orchestrating-llm-attacks-with-pyrit/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "503c4638b2705863cb1c5010dfc4fd3a7d74b0714fd5d3c4edfe6e9550ff997b"
+}

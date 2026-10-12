@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--collecting-threat-intelligence-with-misp",
+    "name": "collecting-threat-intelligence-with-misp",
+    "description": "Deploy MISP, configure threat feeds (MISP community, freetext, TAXII, CSV), and use the PyMISP API to programmatically fetch, add, and search events and IOCs, building automated collection pipelines that aggregate indicators from community and commercial sources. Use when gathering, storing, or correlating IOCs and threat intelligence, or when scripting MISP ingestion via PyMISP.",
+    "category": "Security",
+    "tags": [
+      "collecting",
+      "threat",
+      "intelligence",
+      "misp",
+      "deploy",
+      "configure",
+      "feeds",
+      "community",
+      "freetext",
+      "taxii",
+      "csv",
+      "pymisp",
+      "api",
+      "programmatically",
+      "fetch",
+      "add",
+      "search",
+      "events"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/collecting-threat-intelligence-with-misp/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/collecting-threat-intelligence-with-misp",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-threat-intelligence-with-misp",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 47526,
+    "sha256": "7283dcf7138b34ed6ab1962914c0c02a51f34df48f654cb745db6d57f7a88e8f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/collecting-threat-intelligence-with-misp/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-threat-intelligence-with-misp/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/collecting-threat-intelligence-with-misp/SKILL.md",
+      "bytes": 6236,
+      "sha256": "7283dcf7138b34ed6ab1962914c0c02a51f34df48f654cb745db6d57f7a88e8f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-threat-intelligence-with-misp/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/collecting-threat-intelligence-with-misp/assets/template.md",
+      "bytes": 3053,
+      "sha256": "dca409fc841768055339fc34aa8d8f1e6cdaafb414ba669ce8442685c7777311",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-threat-intelligence-with-misp/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/collecting-threat-intelligence-with-misp/references/api-reference.md",
+      "bytes": 1851,
+      "sha256": "6cd3012c6bcca25fc761c1dce220bdd4b635cbc615e3f0622af6b1e440ef267c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-threat-intelligence-with-misp/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/collecting-threat-intelligence-with-misp/references/standards.md",
+      "bytes": 2316,
+      "sha256": "a88a297b38a72fc14280f4f6610d3a6106d526a199c526c29a6fb429a58d1f99",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-threat-intelligence-with-misp/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/collecting-threat-intelligence-with-misp/references/workflows.md",
+      "bytes": 4877,
+      "sha256": "c7d910d50a73463c354cb3df23f72ec0b37bce5f80330fbcec87727cd102b59a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-threat-intelligence-with-misp/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/collecting-threat-intelligence-with-misp/scripts/agent.py",
+      "bytes": 5732,
+      "sha256": "95900a8d495c038500bc4de91e38f1c00bc0d0eafae89e5bbecf7482403fb656",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-threat-intelligence-with-misp/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/collecting-threat-intelligence-with-misp/scripts/process.py",
+      "bytes": 12206,
+      "sha256": "68d1399b0addd0ef0c85c13b5dd4df57c77823ba98ffc0ac02e3f0014c509f37",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/collecting-threat-intelligence-with-misp/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "f0c3563b289cd9354dc5d3b6087dedc2f1a47a3a7150c8a255699da5960bfd52"
+}

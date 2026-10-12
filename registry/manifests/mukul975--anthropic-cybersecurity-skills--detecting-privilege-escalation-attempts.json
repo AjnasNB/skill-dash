@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-privilege-escalation-attempts",
+    "name": "detecting-privilege-escalation-attempts",
+    "description": "Detect privilege escalation attempts across Windows and Linux, including access token manipulation, UAC bypass, unquoted service path abuse, kernel exploits, and sudo/doas abuse. Use when threat hunting for T1068-style privilege escalation, triaging EDR/SIEM alerts on suspicious privilege changes, scoping compromise during incident response, or validating detection coverage in a purple team exercise.",
+    "category": "Security",
+    "tags": [
+      "detecting",
+      "privilege",
+      "escalation",
+      "attempts",
+      "detect",
+      "across",
+      "windows",
+      "linux",
+      "including",
+      "access",
+      "token",
+      "manipulation",
+      "uac",
+      "bypass",
+      "unquoted",
+      "service",
+      "path",
+      "abuse"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-privilege-escalation-attempts/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-privilege-escalation-attempts",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-attempts",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 31951,
+    "sha256": "e0e3d75cafd9c7396a7720c0cf44468781135bf9ff9fef5f299ba4f6a1fe7f33",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-privilege-escalation-attempts/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-attempts/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-privilege-escalation-attempts/SKILL.md",
+      "bytes": 3687,
+      "sha256": "e0e3d75cafd9c7396a7720c0cf44468781135bf9ff9fef5f299ba4f6a1fe7f33",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-attempts/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/detecting-privilege-escalation-attempts/assets/template.md",
+      "bytes": 2706,
+      "sha256": "6f4c3deccaec6ca5bc9d1f1269f71ddee5486179c9480ed0e11d53b6833dd63d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-attempts/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-privilege-escalation-attempts/references/api-reference.md",
+      "bytes": 1297,
+      "sha256": "8cd6133bc17249e7a310bcf061249b647b1e14068d55cbb943eeaa9c260dacb3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-attempts/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/detecting-privilege-escalation-attempts/references/standards.md",
+      "bytes": 1675,
+      "sha256": "fd49c96293359aea808e0a730d6eb884eb565028c5cefe5a9da3224479c17ac9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-attempts/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/detecting-privilege-escalation-attempts/references/workflows.md",
+      "bytes": 2914,
+      "sha256": "30ac2aaa556896a354d209b71a4ac6dd5c0185ca417b6be6115f16a8851983d5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-attempts/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-privilege-escalation-attempts/scripts/agent.py",
+      "bytes": 4759,
+      "sha256": "8c48ec4393210239bd4d27ff1d1c51aa7eb1f03bdbdaf51609395f251ef29d4d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-attempts/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/detecting-privilege-escalation-attempts/scripts/process.py",
+      "bytes": 3658,
+      "sha256": "49c8b82dda1dfdcb06fe940ef9a19d2ce01618bf0ba23872a6d0d7223271b925",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-attempts/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "ba5486e9dc301e6246865b70e94c65631e25581fe3e2c217544f11d3122b438f"
+}

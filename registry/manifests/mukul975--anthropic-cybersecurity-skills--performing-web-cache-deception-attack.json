@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-web-cache-deception-attack",
+    "name": "performing-web-cache-deception-attack",
+    "description": "Executes web cache deception attacks by exploiting path normalization discrepancies between CDN/reverse-proxy caching layers (Cloudflare, Akamai, Varnish, Nginx) and origin servers to cache and retrieve sensitive authenticated content. Use when testing applications behind CDNs for cache-key misconfigurations, during bug bounty hunting on aggressively cached sites, or when assessing sensitive data exposure through cache layer misconfiguration.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "performing",
+      "web",
+      "cache",
+      "deception",
+      "attack",
+      "executes",
+      "attacks",
+      "by",
+      "exploiting",
+      "path",
+      "normalization",
+      "discrepancies",
+      "between",
+      "cdn",
+      "reverse",
+      "proxy",
+      "caching",
+      "layers"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-web-cache-deception-attack/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-web-cache-deception-attack",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-cache-deception-attack",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 27461,
+    "sha256": "d3221367afa41dc8f59707f6a03dd19ae4c7edb8619ecebba4f120c77bb8efc2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-web-cache-deception-attack/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-cache-deception-attack/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-web-cache-deception-attack/SKILL.md",
+      "bytes": 8990,
+      "sha256": "d3221367afa41dc8f59707f6a03dd19ae4c7edb8619ecebba4f120c77bb8efc2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-cache-deception-attack/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-web-cache-deception-attack/references/api-reference.md",
+      "bytes": 1774,
+      "sha256": "372d51e7c257d1f24f85cde00debf29abcd65a5de29e4bc13ee366aa6158e8b6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-cache-deception-attack/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-web-cache-deception-attack/scripts/agent.py",
+      "bytes": 5442,
+      "sha256": "9e40afa1c9244c2cbf03edb76b39d12ed05cb8528bd09eb335a4b8beb80559a6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-web-cache-deception-attack/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "a0f998b730dad1348e84a50acdc24236954bfaf85d5fc9dfbd67fe45ad0a5d7f"
+}

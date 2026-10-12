@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--exploratory-data-analysis",
+    "name": "exploratory-data-analysis",
+    "description": "Performs bounded, local exploratory analysis of explicitly supported scientific files. Supports redacted CSV/TSV/JSON profiles; optional NumPy, HDF5, FASTA/FASTQ, and basic image metadata inspection; missingness/leakage audits; outlier and transformation sensitivity; and rigorous EDA report scaffolds. Other domain formats are reference-only and unknown formats fail closed.",
+    "category": "Data & research",
+    "tags": [
+      "exploratory",
+      "data",
+      "analysis",
+      "performs",
+      "bounded",
+      "local",
+      "explicitly",
+      "supported",
+      "scientific",
+      "files.",
+      "supports",
+      "redacted",
+      "csv",
+      "tsv",
+      "json",
+      "profiles",
+      "optional",
+      "numpy"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/exploratory-data-analysis",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 22,
+    "bytes": 211934,
+    "sha256": "955c4cefa49106dd03b55cbd62603bab2d2fb678e627dd452ba62040c7128484",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/exploratory-data-analysis/SKILL.md",
+      "bytes": 14722,
+      "sha256": "955c4cefa49106dd03b55cbd62603bab2d2fb678e627dd452ba62040c7128484",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/SKILL.md"
+    },
+    {
+      "path": "assets/report_template.md",
+      "sourcePath": "skills/exploratory-data-analysis/assets/report_template.md",
+      "bytes": 7873,
+      "sha256": "c6cd0644dbefeb64c77e84935509f52a92d45256daf2cd4be84012e99e4d7d44",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/assets/report_template.md"
+    },
+    {
+      "path": "references/bioinformatics_genomics_formats.md",
+      "sourcePath": "skills/exploratory-data-analysis/references/bioinformatics_genomics_formats.md",
+      "bytes": 8977,
+      "sha256": "b3594673cbe22e29fd5bc2681c1b53d4f8b02b48ff17fc9ffaf5a09d1d885be3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/references/bioinformatics_genomics_formats.md"
+    },
+    {
+      "path": "references/chemistry_molecular_formats.md",
+      "sourcePath": "skills/exploratory-data-analysis/references/chemistry_molecular_formats.md",
+      "bytes": 8732,
+      "sha256": "3ff937541ebf0396d4c2304016cebc42d405110300df7379f59c40953fc8ed41",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/references/chemistry_molecular_formats.md"
+    },
+    {
+      "path": "references/general_scientific_formats.md",
+      "sourcePath": "skills/exploratory-data-analysis/references/general_scientific_formats.md",
+      "bytes": 12276,
+      "sha256": "42bcf3389bbd78e426dd41139208517f3f78bdc17e068a1eb3a984d2f2487320",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/references/general_scientific_formats.md"
+    },
+    {
+      "path": "references/microscopy_imaging_formats.md",
+      "sourcePath": "skills/exploratory-data-analysis/references/microscopy_imaging_formats.md",
+      "bytes": 9305,
+      "sha256": "c96bb7291ded320a106800c1132191683aa3028f2240c5fcf954079f1a26c382",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/references/microscopy_imaging_formats.md"
+    },
+    {
+      "path": "references/proteomics_metabolomics_formats.md",
+      "sourcePath": "skills/exploratory-data-analysis/references/proteomics_metabolomics_formats.md",
+      "bytes": 9821,
+      "sha256": "66d9493fe14c717f5e8e60500e8fa7bfe1f619084e23b643a767f0952a35efd7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/references/proteomics_metabolomics_formats.md"
+    },
+    {
+      "path": "references/spectroscopy_analytical_formats.md",
+      "sourcePath": "skills/exploratory-data-analysis/references/spectroscopy_analytical_formats.md",
+      "bytes": 9555,
+      "sha256": "102a68c212ef5447815c889cf06668f3cb5bd8644f018354d6e98d1a15101a0f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/references/spectroscopy_analytical_formats.md"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "sourcePath": "skills/exploratory-data-analysis/scripts/__init__.py",
+      "bytes": 69,
+      "sha256": "87539288ce5d4caf24fc9fca14e5d70c41730c9d4285106ac4db0c4b5cefd60c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/scripts/__init__.py"
+    },
+    {
+      "path": "scripts/_capabilities.py",
+      "sourcePath": "skills/exploratory-data-analysis/scripts/_capabilities.py",
+      "bytes": 20714,
+      "sha256": "93fd42bcc6940db0a6cad364dab42a52f0867e782f7e93c9b27c4185249edc06",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/scripts/_capabilities.py"
+    },
+    {
+      "path": "scripts/_common.py",
+      "sourcePath": "skills/exploratory-data-analysis/scripts/_common.py",
+      "bytes": 14293,
+      "sha256": "f363af255cc78ea63864e0da9f679f57a9e71efd36b6813332f3d2c419b30d51",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/scripts/_common.py"
+    },
+    {
+      "path": "scripts/_structured.py",
+      "sourcePath": "skills/exploratory-data-analysis/scripts/_structured.py",
+      "bytes": 14683,
+      "sha256": "8cb23c8552339acc926f4dc84e1ec032c79152515098e1fd97f2326b84b4ead9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/scripts/_structured.py"
+    },
+    {
+      "path": "scripts/_tabular.py",
+      "sourcePath": "skills/exploratory-data-analysis/scripts/_tabular.py",
+      "bytes": 32782,
+      "sha256": "5d1db825890dd035c30e51ac1c11aee56e1e1dca6ffd238ee87ae7d51d8df2f0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/scripts/_tabular.py"
+    },
+    {
+      "path": "scripts/capability_manifest.py",
+      "sourcePath": "skills/exploratory-data-analysis/scripts/capability_manifest.py",
+      "bytes": 5433,
+      "sha256": "1e52e1db668ebce919751a75b53ad959c36749e4b1695f59d8ac2d6c8eda4abf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/scripts/capability_manifest.py"
+    },
+    {
+      "path": "scripts/distribution_sensitivity.py",
+      "sourcePath": "skills/exploratory-data-analysis/scripts/distribution_sensitivity.py",
+      "bytes": 3304,
+      "sha256": "ca6e9f3dd59cfb382b1ff0874e709933c136ec942085a0437d4000bbf7f1f3c8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/scripts/distribution_sensitivity.py"
+    },
+    {
+      "path": "scripts/eda_analyzer.py",
+      "sourcePath": "skills/exploratory-data-analysis/scripts/eda_analyzer.py",
+      "bytes": 10547,
+      "sha256": "6532b28ad3f28dd9f58acecb54361c8271d2755584a54ecb0be34da74d1e5d20",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/scripts/eda_analyzer.py"
+    },
+    {
+      "path": "scripts/image_inspector.py",
+      "sourcePath": "skills/exploratory-data-analysis/scripts/image_inspector.py",
+      "bytes": 7931,
+      "sha256": "79c21b35d01376929ff0edf26a3bb25923b9e75458c586e0f5721cec356fe639",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/scripts/image_inspector.py"
+    },
+    {
+      "path": "scripts/missingness_leakage_audit.py",
+      "sourcePath": "skills/exploratory-data-analysis/scripts/missingness_leakage_audit.py",
+      "bytes": 3904,
+      "sha256": "28458714e80ee31db636c0265ba21e1623ba27816d31e236fdc9b873a5b78ffc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/scripts/missingness_leakage_audit.py"
+    },
+    {
+      "path": "scripts/report_scaffold.py",
+      "sourcePath": "skills/exploratory-data-analysis/scripts/report_scaffold.py",
+      "bytes": 4247,
+      "sha256": "4d745592384bfceb0ec7384eecfc5e8ba49ebfa4ec55be75a99ce7c7e102f60b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/scripts/report_scaffold.py"
+    },
+    {
+      "path": "scripts/sequence_inspector.py",
+      "sourcePath": "skills/exploratory-data-analysis/scripts/sequence_inspector.py",
+      "bytes": 8621,
+      "sha256": "11ca2fa3a0d660192631b9b562f362b0fd120c9e54639bfb049c600c6920be28",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/scripts/sequence_inspector.py"
+    },
+    {
+      "path": "scripts/tabular_profile.py",
+      "sourcePath": "skills/exploratory-data-analysis/scripts/tabular_profile.py",
+      "bytes": 3077,
+      "sha256": "78cd139292c18e31d17de882762948db7b51fdc3278546f994270a287d0149db",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/exploratory-data-analysis/scripts/tabular_profile.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "c8c6296f85e83e4c028b6f0c193a133799c49cb1b94133dd52896517d67465c6"
+}

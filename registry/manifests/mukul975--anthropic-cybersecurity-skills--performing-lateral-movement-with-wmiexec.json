@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-lateral-movement-with-wmiexec",
+    "name": "performing-lateral-movement-with-wmiexec",
+    "description": "Perform lateral movement across Windows networks using WMI-based remote execution techniques including Impacket wmiexec.py, CrackMapExec, and native WMI commands for stealthy post-exploitation during red team engagements.",
+    "category": "Development",
+    "tags": [
+      "performing",
+      "lateral",
+      "movement",
+      "wmiexec",
+      "perform",
+      "across",
+      "windows",
+      "networks",
+      "wmi",
+      "based",
+      "remote",
+      "execution",
+      "techniques",
+      "including",
+      "impacket",
+      "wmiexec.py",
+      "crackmapexec",
+      "native"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-lateral-movement-with-wmiexec/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-lateral-movement-with-wmiexec",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-lateral-movement-with-wmiexec",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 34239,
+    "sha256": "99551d586c17cf0385b47f26a3b1b696b44586c45c8217f12000b8e9a6a54063",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-lateral-movement-with-wmiexec/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-lateral-movement-with-wmiexec/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-lateral-movement-with-wmiexec/SKILL.md",
+      "bytes": 8810,
+      "sha256": "99551d586c17cf0385b47f26a3b1b696b44586c45c8217f12000b8e9a6a54063",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-lateral-movement-with-wmiexec/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-lateral-movement-with-wmiexec/assets/template.md",
+      "bytes": 597,
+      "sha256": "23234e079ad31e5421f0326f16ede682c89c283fc724630d31f57322c9438084",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-lateral-movement-with-wmiexec/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-lateral-movement-with-wmiexec/references/api-reference.md",
+      "bytes": 1612,
+      "sha256": "c65c4ebbd453d1321ea4369889448d56649d73bfe29f9926da8efc5477ce72c9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-lateral-movement-with-wmiexec/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-lateral-movement-with-wmiexec/references/standards.md",
+      "bytes": 858,
+      "sha256": "d7188dd2147af458b04ec87911c60829dfbbdc60270157edf142b2d4dc6e3a86",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-lateral-movement-with-wmiexec/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-lateral-movement-with-wmiexec/references/workflows.md",
+      "bytes": 677,
+      "sha256": "929b9f08a64f6de0610a6fc978ce75b4efbfe4870dff1bdda9c9aa6b1c6408db",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-lateral-movement-with-wmiexec/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-lateral-movement-with-wmiexec/scripts/agent.py",
+      "bytes": 7474,
+      "sha256": "7a7274c4dd474f6b0895f4aa7cf17975fb9f728ce3917b695aba355114304835",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-lateral-movement-with-wmiexec/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-lateral-movement-with-wmiexec/scripts/process.py",
+      "bytes": 2956,
+      "sha256": "be784de1eecd2566acec98da05994e01370bac0a8c0b77df0b34c2032a0adf7a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-lateral-movement-with-wmiexec/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "cf3788118b1a8aec6bbdeea3cbde0ca47fdd4ac62071d9f4dfdd7563437b66e0"
+}

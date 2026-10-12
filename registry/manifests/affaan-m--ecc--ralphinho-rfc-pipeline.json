@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--ralphinho-rfc-pipeline","name":"ralphinho-rfc-pipeline","description":"RFC-driven multi-agent DAG execution pattern with quality gates, merge queues, and work unit orchestration. Use when running RFC-driven multi-agent execution with quality gates and a merge queue.","category":"AI & agents","tags":["ralphinho","rfc","pipeline","driven","multi","agent","dag","execution","pattern","quality","gates","merge","queues","work","unit","orchestration.","when","running"],"repo":"affaan-m/ECC","owner":"affaan-m","stars":266395,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"bf70150eb2df8070024e5bdf08e4aa08959e2735","path":"skills/ralphinho-rfc-pipeline","sourceUrl":"https://github.com/affaan-m/ECC/tree/bf70150eb2df8070024e5bdf08e4aa08959e2735/skills/ralphinho-rfc-pipeline","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-21T18:40:16Z","fileCount":2,"bytes":2693,"sha256":"44e25676d06f83540c0e1c58bc0be98f906d8523703943093520101bfd47cee8","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/ralphinho-rfc-pipeline/SKILL.md","bytes":1622,"sha256":"44e25676d06f83540c0e1c58bc0be98f906d8523703943093520101bfd47cee8","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/bf70150eb2df8070024e5bdf08e4aa08959e2735/skills/ralphinho-rfc-pipeline/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/bf70150eb2df8070024e5bdf08e4aa08959e2735/LICENSE"}],"archiveSha256":"7a8927af1018f6f098348279aecb9cf340db02c89200fdc108c2be04c497cb6d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--ralphinho-rfc-pipeline",
+    "name": "ralphinho-rfc-pipeline",
+    "description": "Split an RFC into a multi-agent execution DAG — decompose into work units with dependencies and acceptance tests, run research, plan, implement, test, and review per unit, then merge through a queue with re-based branches and final system verification. Use when a feature is too large for a single agent pass, orchestrating RFC-driven multi-agent execution, or managing merge queues across agent-built units.",
+    "category": "Data & research",
+    "tags": [
+      "ralphinho",
+      "rfc",
+      "pipeline",
+      "split",
+      "into",
+      "multi",
+      "agent",
+      "execution",
+      "dag",
+      "decompose",
+      "work",
+      "units",
+      "dependencies",
+      "acceptance",
+      "tests",
+      "run",
+      "research",
+      "plan"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/ralphinho-rfc-pipeline",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/ralphinho-rfc-pipeline",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 2,
+    "bytes": 2908,
+    "sha256": "00d92ba603b5989a243b1d4c2f5442bb8451f1153dce2c42aed2a60c821507d6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/ralphinho-rfc-pipeline/SKILL.md",
+      "bytes": 1837,
+      "sha256": "00d92ba603b5989a243b1d4c2f5442bb8451f1153dce2c42aed2a60c821507d6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/ralphinho-rfc-pipeline/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "0a7e00d3529b3f45f36dc4045a3cc618c3a113f909a3ed84355ac27f633a1fcb"
+}

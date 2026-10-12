@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--securing-container-registry-with-harbor",
+    "name": "securing-container-registry-with-harbor",
+    "description": "Configures the security features of the Harbor open-source container registry - integrated Trivy scanning, Cosign and Notary content trust policies, project-level RBAC, immutable tag and retention rules, and OIDC authentication - to enforce provenance and block deployment of vulnerable images. Use when deploying or hardening Harbor, or when compliance requires that only signed and scanned images can be pulled. Keywords: Harbor, project policy, content trust, immutable tag, retention, robot account, OIDC, replication. Do not use for signing images with Cosign outside a registry - use implementing-image-provenance-verification-with-cosign.",
+    "category": "Security",
+    "tags": [
+      "securing",
+      "container",
+      "registry",
+      "harbor",
+      "configures",
+      "security",
+      "features",
+      "open",
+      "source",
+      "integrated",
+      "trivy",
+      "scanning",
+      "cosign",
+      "notary",
+      "content",
+      "trust",
+      "policies",
+      "project"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/securing-container-registry-with-harbor/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/securing-container-registry-with-harbor",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-container-registry-with-harbor",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 36774,
+    "sha256": "7a848d19da4f0ad949f8ce14f8b991fa939119b2e9fe93181ff31fef8258ae44",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/securing-container-registry-with-harbor/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-container-registry-with-harbor/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/securing-container-registry-with-harbor/SKILL.md",
+      "bytes": 7476,
+      "sha256": "7a848d19da4f0ad949f8ce14f8b991fa939119b2e9fe93181ff31fef8258ae44",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-container-registry-with-harbor/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/securing-container-registry-with-harbor/assets/template.md",
+      "bytes": 549,
+      "sha256": "b620831ad3407bbff0c853d01f72e0be8c46376c57025c8845eb4e769ae8d4f7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-container-registry-with-harbor/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/securing-container-registry-with-harbor/references/api-reference.md",
+      "bytes": 1900,
+      "sha256": "4b25f1caaf75d7c2cb91ecdcd8a6a47f16cd6152fa130a0cedd2137e03b5bc17",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-container-registry-with-harbor/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/securing-container-registry-with-harbor/references/standards.md",
+      "bytes": 1107,
+      "sha256": "74f065d3beb2a0d9254a820642fb6b8e5aa7263be2dee25db55e27790ae79424",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-container-registry-with-harbor/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/securing-container-registry-with-harbor/references/workflows.md",
+      "bytes": 983,
+      "sha256": "e2857e3d8816e53748a0f76f35eedf56b2d9589ac1947b99ada37e2555149f49",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-container-registry-with-harbor/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/securing-container-registry-with-harbor/scripts/agent.py",
+      "bytes": 6843,
+      "sha256": "68d965ecdff0a638b5b9c77850f569aebf03cb7a6683a01e07b0a5247dc5b476",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-container-registry-with-harbor/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/securing-container-registry-with-harbor/scripts/process.py",
+      "bytes": 6661,
+      "sha256": "0f92536724b32748907fd9241fb568e6bfcd9ec49fada782302eccf47920f6cb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-container-registry-with-harbor/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "d96a72954db757f5081b53e2b698590a0940e39482587180c509dfa4867816c6"
+}

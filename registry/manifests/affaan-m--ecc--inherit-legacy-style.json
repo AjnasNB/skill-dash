@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--inherit-legacy-style","name":"inherit-legacy-style","description":"Legacy-project style inheritance skill. Use when the user types /inherit-legacy-style, or when onboarding an AI coding agent onto a hand-written legacy project and you need to prevent \"style drift\" (the model imposing its pretrained mainstream idioms onto the project). Language- and framework-agnostic — it aligns meta-architecture only, not syntax. Once run, it becomes a behavioral constraint on all subsequent coding tasks. Do NOT use for pure research or one-off questions unrelated to code-style alignment.","category":"Data & research","tags":["inherit","legacy","style","project","inheritance","skill.","when","user","types","onboarding","ai","coding","agent","onto","hand","written","you","prevent"],"repo":"affaan-m/ECC","owner":"affaan-m","stars":266395,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"bf70150eb2df8070024e5bdf08e4aa08959e2735","path":"skills/inherit-legacy-style","sourceUrl":"https://github.com/affaan-m/ECC/tree/bf70150eb2df8070024e5bdf08e4aa08959e2735/skills/inherit-legacy-style","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-21T18:40:16Z","fileCount":2,"bytes":9623,"sha256":"14e7b20424f123b594d3ee3d6ac3e722b21e5a6816fe90bacf8a23e6c3af5b6d","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/inherit-legacy-style/SKILL.md","bytes":8552,"sha256":"14e7b20424f123b594d3ee3d6ac3e722b21e5a6816fe90bacf8a23e6c3af5b6d","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/bf70150eb2df8070024e5bdf08e4aa08959e2735/skills/inherit-legacy-style/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/bf70150eb2df8070024e5bdf08e4aa08959e2735/LICENSE"}],"archiveSha256":"3eaeab9d17a4e07f81ada0b7814672e543ac4593b5e38f6f501709b911a55980"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--inherit-legacy-style",
+    "name": "inherit-legacy-style",
+    "description": "Prevent AI style drift on legacy projects by scanning the codebase for implicit conventions, resolving conflicts with the operator one at a time, and writing an enforceable .ai-style-rules.md (Golden Files, naming rules, DONTs) plus an optional CLAUDE.md hook. Use when onboarding an AI agent onto a hand-written legacy codebase or extracting a project's unwritten coding rules.",
+    "category": "AI & agents",
+    "tags": [
+      "inherit",
+      "legacy",
+      "style",
+      "prevent",
+      "ai",
+      "drift",
+      "projects",
+      "by",
+      "scanning",
+      "codebase",
+      "implicit",
+      "conventions",
+      "resolving",
+      "conflicts",
+      "operator",
+      "one",
+      "at",
+      "time"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/inherit-legacy-style",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/inherit-legacy-style",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 2,
+    "bytes": 9487,
+    "sha256": "ccce44b6240e346e2d564a035f45abf01842cfc03f4c0253050b8304c505f709",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/inherit-legacy-style/SKILL.md",
+      "bytes": 8416,
+      "sha256": "ccce44b6240e346e2d564a035f45abf01842cfc03f4c0253050b8304c505f709",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/inherit-legacy-style/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "d67b51ef2711e84ad39de2ed69b4fd4ce5e46d80d2aa13eebac2bbf02d2a8706"
+}

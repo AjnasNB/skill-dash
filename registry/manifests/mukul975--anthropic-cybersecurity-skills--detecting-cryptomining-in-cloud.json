@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-cryptomining-in-cloud",
+    "name": "detecting-cryptomining-in-cloud",
+    "description": "This skill teaches security teams how to detect and respond to unauthorized cryptocurrency mining operations in cloud environments. It covers identifying cryptomining indicators through compute usage anomalies, network traffic patterns to mining pools, GuardDuty CryptoCurrency findings, and runtime process monitoring on EC2, ECS, EKS, and Azure Automation workloads.",
+    "category": "Security",
+    "tags": [
+      "detecting",
+      "cryptomining",
+      "cloud",
+      "skill",
+      "teaches",
+      "security",
+      "teams",
+      "detect",
+      "respond",
+      "unauthorized",
+      "cryptocurrency",
+      "mining",
+      "operations",
+      "environments.",
+      "it",
+      "covers",
+      "identifying",
+      "indicators"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-cryptomining-in-cloud/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-cryptomining-in-cloud",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-cryptomining-in-cloud",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34534,
+    "sha256": "401b2b47c9c753aa2d2e9344a49cb69818dd3d40fd6369ab10b1fa7f220d8611",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-cryptomining-in-cloud/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-cryptomining-in-cloud/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-cryptomining-in-cloud/SKILL.md",
+      "bytes": 14511,
+      "sha256": "401b2b47c9c753aa2d2e9344a49cb69818dd3d40fd6369ab10b1fa7f220d8611",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-cryptomining-in-cloud/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-cryptomining-in-cloud/references/api-reference.md",
+      "bytes": 2154,
+      "sha256": "3123861b72d756a159fc1c1bba437c6446549feae909fcddf43da65e7a1115e5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-cryptomining-in-cloud/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-cryptomining-in-cloud/scripts/agent.py",
+      "bytes": 6614,
+      "sha256": "21512fa4d080415abcd33bfb91788e56e844828610b7e90fb9e1ee432e171d2e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-cryptomining-in-cloud/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "ed270b06db41cebd5e85dffd5168c4a09cb78887f22adc2f81f65eb8b2aee799"
+}

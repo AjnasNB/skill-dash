@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-open-source-intelligence-gathering",
+    "name": "performing-open-source-intelligence-gathering",
+    "description": "Open Source Intelligence (OSINT) gathering is the first active phase of a red team engagement, where operators collect publicly available information about the target organization to identify attack s",
+    "category": "Development",
+    "tags": [
+      "performing",
+      "open",
+      "source",
+      "intelligence",
+      "gathering",
+      "osint",
+      "is",
+      "first",
+      "active",
+      "phase",
+      "red",
+      "team",
+      "engagement",
+      "where",
+      "operators",
+      "collect",
+      "publicly",
+      "available"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-open-source-intelligence-gathering/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-open-source-intelligence-gathering",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-open-source-intelligence-gathering",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 60756,
+    "sha256": "06f54abc244a9a848b095dc0027786773fc544db80c1595757a8a4ca21b7a48c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-open-source-intelligence-gathering/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-open-source-intelligence-gathering/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-open-source-intelligence-gathering/SKILL.md",
+      "bytes": 5795,
+      "sha256": "06f54abc244a9a848b095dc0027786773fc544db80c1595757a8a4ca21b7a48c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-open-source-intelligence-gathering/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-open-source-intelligence-gathering/assets/template.md",
+      "bytes": 4115,
+      "sha256": "81e82bf95153dd55d32140c63280ce177970d3e902a95a3afbd2828833e1b05a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-open-source-intelligence-gathering/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-open-source-intelligence-gathering/references/api-reference.md",
+      "bytes": 1471,
+      "sha256": "2fea3793f31c9c07f2aa3bff3c693b931d11d4b81774cf53f723fe2b1a5a10a8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-open-source-intelligence-gathering/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-open-source-intelligence-gathering/references/standards.md",
+      "bytes": 3156,
+      "sha256": "cd38a76261fbb0294e7747fcf66ebafcd26708644fcbea56d93ca8c951c9ddd0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-open-source-intelligence-gathering/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-open-source-intelligence-gathering/references/workflows.md",
+      "bytes": 6727,
+      "sha256": "cfb5a7de8ca88e0a56bb0613939d07414c841c6caa9110f1ce26fc7bb7a92045",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-open-source-intelligence-gathering/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-open-source-intelligence-gathering/scripts/agent.py",
+      "bytes": 6849,
+      "sha256": "a15975d772aae1aeb223593f7cba81e5959507a43b5370fa3908efd8036030c6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-open-source-intelligence-gathering/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-open-source-intelligence-gathering/scripts/process.py",
+      "bytes": 21388,
+      "sha256": "0415c89b0094a940b53ab3a74bd41b3ed02fceca259029761a4a34fa64db45a9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-open-source-intelligence-gathering/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "3fa0f5690959ebfcde28d407de451cf138cc8f252e3d0910ec173d24445623f2"
+}

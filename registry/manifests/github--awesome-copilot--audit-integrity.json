@@ -1,1 +1,120 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--audit-integrity","name":"audit-integrity","description":"Shared audit integrity framework for all AppSec agents — enforces output quality, intellectual honesty, and continuous improvement through anti-rationalization guards, self-critique loops, retry protocols, non-negotiable behaviors, self-reflection quality gates (1-10 scoring, ≥8 threshold), and a self-learning system with lesson/memory governance for security analysis agents.","category":"Security","tags":["audit","integrity","shared","framework","all","appsec","agents","enforces","output","quality","intellectual","honesty","continuous","improvement","through","anti","rationalization","guards"],"repo":"github/awesome-copilot","owner":"github","stars":39345,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1f5644080a525d26a2e24f61a7609fb9b261c21a","path":"skills/audit-integrity","sourceUrl":"https://github.com/github/awesome-copilot/tree/1f5644080a525d26a2e24f61a7609fb9b261c21a/skills/audit-integrity","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T01:29:08Z","fileCount":9,"bytes":18806,"sha256":"53b662856bf68ca310d68803a3b3a0533812a40e2444bb7bd8ec7522996bbf08","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/audit-integrity/SKILL.md","bytes":3343,"sha256":"53b662856bf68ca310d68803a3b3a0533812a40e2444bb7bd8ec7522996bbf08","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/1f5644080a525d26a2e24f61a7609fb9b261c21a/skills/audit-integrity/SKILL.md"},{"path":"references/anti-rationalization-guard.md","sourcePath":"skills/audit-integrity/references/anti-rationalization-guard.md","bytes":4044,"sha256":"e9760aa3caecfa6129752a35550e97c121e66da17a9f7b550c4d8671bf881689","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/1f5644080a525d26a2e24f61a7609fb9b261c21a/skills/audit-integrity/references/anti-rationalization-guard.md"},{"path":"references/clarification-protocol.md","sourcePath":"skills/audit-integrity/references/clarification-protocol.md","bytes":971,"sha256":"bfa0c8adb733c872dc6a5f12dc3cc2716f9bbc5b0f496bf765b2e1dd4d3c02ac","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/1f5644080a525d26a2e24f61a7609fb9b261c21a/skills/audit-integrity/references/clarification-protocol.md"},{"path":"references/non-negotiable-behaviors.md","sourcePath":"skills/audit-integrity/references/non-negotiable-behaviors.md","bytes":1469,"sha256":"adda8b880cd2d1c20d067158585dcb9f7f059c011e2a566b91c6cb8bbdfc877c","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/1f5644080a525d26a2e24f61a7609fb9b261c21a/skills/audit-integrity/references/non-negotiable-behaviors.md"},{"path":"references/retry-protocol.md","sourcePath":"skills/audit-integrity/references/retry-protocol.md","bytes":560,"sha256":"4dbfd76214926b3101ef01c95059c7d9e14ddf09eee144c4bda32f49cdcdb34b","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/1f5644080a525d26a2e24f61a7609fb9b261c21a/skills/audit-integrity/references/retry-protocol.md"},{"path":"references/self-critique-loop.md","sourcePath":"skills/audit-integrity/references/self-critique-loop.md","bytes":2592,"sha256":"2f815ddc770c6bfc097b969ea8c2c9689e218679a9046a74dc0d88ab20109145","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/1f5644080a525d26a2e24f61a7609fb9b261c21a/skills/audit-integrity/references/self-critique-loop.md"},{"path":"references/self-learning-system.md","sourcePath":"skills/audit-integrity/references/self-learning-system.md","bytes":2330,"sha256":"7bc675588d493ac2c1acb9110fb8a348c896d6b194f44afabb2f6c3630a4e28d","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/1f5644080a525d26a2e24f61a7609fb9b261c21a/skills/audit-integrity/references/self-learning-system.md"},{"path":"references/self-reflection-quality-gate.md","sourcePath":"skills/audit-integrity/references/self-reflection-quality-gate.md","bytes":2438,"sha256":"12e17024710d6378eb318538e71bf0572c5acb050f889c564beab19086954901","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/1f5644080a525d26a2e24f61a7609fb9b261c21a/skills/audit-integrity/references/self-reflection-quality-gate.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/1f5644080a525d26a2e24f61a7609fb9b261c21a/LICENSE"}],"archiveSha256":"81d961db8f815eb27bafe40356239548ecac560e7130e639a08d21fd9b19da12"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--audit-integrity",
+    "name": "audit-integrity",
+    "description": "Enforce output quality, evidence verification, and quality gates across security audits. Use this skill when you perform SAST, SCA, threat modeling, or security code reviews. Use this skill to verify code locations and taint traces for all findings. Use this skill to prevent the suppression of valid security findings. Use this skill to evaluate reports against quality thresholds (score ≥ 8/10) before delivery.",
+    "category": "Security",
+    "tags": [
+      "audit",
+      "integrity",
+      "enforce",
+      "output",
+      "quality",
+      "evidence",
+      "verification",
+      "gates",
+      "across",
+      "security",
+      "audits.",
+      "skill",
+      "when",
+      "you",
+      "perform",
+      "sast",
+      "sca",
+      "threat"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/audit-integrity",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/audit-integrity",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 9,
+    "bytes": 19573,
+    "sha256": "f2aa1a0cce91cfcaca860eee69a3140f0c012e3cc714fac38b883d550c2a2b49",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/audit-integrity/SKILL.md",
+      "bytes": 4028,
+      "sha256": "f2aa1a0cce91cfcaca860eee69a3140f0c012e3cc714fac38b883d550c2a2b49",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/audit-integrity/SKILL.md"
+    },
+    {
+      "path": "references/anti-rationalization-guard.md",
+      "sourcePath": "skills/audit-integrity/references/anti-rationalization-guard.md",
+      "bytes": 3313,
+      "sha256": "0a5747c8eed62b7702cd7a3e29bf46d440da50a80904739ee40c649ee66027ac",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/audit-integrity/references/anti-rationalization-guard.md"
+    },
+    {
+      "path": "references/clarification-protocol.md",
+      "sourcePath": "skills/audit-integrity/references/clarification-protocol.md",
+      "bytes": 807,
+      "sha256": "2993bf80a3d8e961379ad08c523c1a12be7dc280ac43ae755b03a6e59b2eab57",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/audit-integrity/references/clarification-protocol.md"
+    },
+    {
+      "path": "references/non-negotiable-behaviors.md",
+      "sourcePath": "skills/audit-integrity/references/non-negotiable-behaviors.md",
+      "bytes": 1209,
+      "sha256": "1490ef7f97b706747ee60b528a3039f7756d521b753623642fc6f55bfc3e4b74",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/audit-integrity/references/non-negotiable-behaviors.md"
+    },
+    {
+      "path": "references/retry-protocol.md",
+      "sourcePath": "skills/audit-integrity/references/retry-protocol.md",
+      "bytes": 536,
+      "sha256": "815a71edab69eae1ed214bb4f990b7ad085ab2b1bc36ea62d5ae6ef0c9a02abc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/audit-integrity/references/retry-protocol.md"
+    },
+    {
+      "path": "references/self-critique-loop.md",
+      "sourcePath": "skills/audit-integrity/references/self-critique-loop.md",
+      "bytes": 1608,
+      "sha256": "a29bb4c4ca5292c05a24929beab727ab4856b3e6fbc2d1b6c0b255c6e438c3bd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/audit-integrity/references/self-critique-loop.md"
+    },
+    {
+      "path": "references/self-learning-system.md",
+      "sourcePath": "skills/audit-integrity/references/self-learning-system.md",
+      "bytes": 2281,
+      "sha256": "5ff81fce6e013a9d5c292cf74603dcf4b65be86407dd8910d79b3beafbb2eb87",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/audit-integrity/references/self-learning-system.md"
+    },
+    {
+      "path": "references/self-reflection-quality-gate.md",
+      "sourcePath": "skills/audit-integrity/references/self-reflection-quality-gate.md",
+      "bytes": 4732,
+      "sha256": "fd1212b6256e69487720ecbe3fd5fa381f2d880b18591754ded15f59d2e50ccd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/audit-integrity/references/self-reflection-quality-gate.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "dd3c6f68cf821f955bdc54a9bf308408834d558b1b91ec2413fe56e060614a8d"
+}

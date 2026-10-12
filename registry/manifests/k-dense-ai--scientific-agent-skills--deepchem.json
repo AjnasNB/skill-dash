@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--deepchem",
+    "name": "deepchem",
+    "description": "Builds molecular property prediction and MoleculeNet workflows with DeepChem, including SMILES featurization, scaffold or grouped holdouts, masked labels, graph models and explicit pretrained encoder transfer. Used for ADMET, toxicity, solubility and chemistry ML when DeepChem data/model contracts and scientific validation are needed.",
+    "category": "Data & research",
+    "tags": [
+      "deepchem",
+      "builds",
+      "molecular",
+      "property",
+      "prediction",
+      "moleculenet",
+      "workflows",
+      "including",
+      "smiles",
+      "featurization",
+      "scaffold",
+      "grouped",
+      "holdouts",
+      "masked",
+      "labels",
+      "graph",
+      "models",
+      "explicit"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/deepchem",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/deepchem",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 11,
+    "bytes": 72036,
+    "sha256": "2965735ee473cf70d63c6170f1c8867bd533539809d4535c162acacc07d0b17d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/deepchem/SKILL.md",
+      "bytes": 8967,
+      "sha256": "2965735ee473cf70d63c6170f1c8867bd533539809d4535c162acacc07d0b17d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/deepchem/SKILL.md"
+    },
+    {
+      "path": "references/api_reference.md",
+      "sourcePath": "skills/deepchem/references/api_reference.md",
+      "bytes": 8458,
+      "sha256": "486d7070eba75919fb501389fff0df8394e10fcc27296d96ef6ab89fa24d1611",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/deepchem/references/api_reference.md"
+    },
+    {
+      "path": "references/core_capabilities.md",
+      "sourcePath": "skills/deepchem/references/core_capabilities.md",
+      "bytes": 3692,
+      "sha256": "e9e808dd57b55c8d326f94ed2f7feddec0463f97d5f59f71fb5711daf312f555",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/deepchem/references/core_capabilities.md"
+    },
+    {
+      "path": "references/review.md",
+      "sourcePath": "skills/deepchem/references/review.md",
+      "bytes": 5325,
+      "sha256": "0934d78d899d47a6180b2f351d8843308d641fa3c0b13b264f87369c59baa845",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/deepchem/references/review.md"
+    },
+    {
+      "path": "references/typical_workflows.md",
+      "sourcePath": "skills/deepchem/references/typical_workflows.md",
+      "bytes": 3171,
+      "sha256": "3a072edc8b262ecf000ac665f6f59fa5354c26d71949433a07f43746889074c9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/deepchem/references/typical_workflows.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/deepchem/references/workflows.md",
+      "bytes": 7206,
+      "sha256": "327707341e5e4e18dfa6aee1e7860935c30ef56ba77653e07b01683dd3259c4a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/deepchem/references/workflows.md"
+    },
+    {
+      "path": "scripts/_common.py",
+      "sourcePath": "skills/deepchem/scripts/_common.py",
+      "bytes": 6474,
+      "sha256": "61fb1c4ac183953eb08b163296e809295a7242349ada274f1db254efb7b43ac1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/deepchem/scripts/_common.py"
+    },
+    {
+      "path": "scripts/graph_neural_network.py",
+      "sourcePath": "skills/deepchem/scripts/graph_neural_network.py",
+      "bytes": 9569,
+      "sha256": "2f3be84ad1ded9a3cd2d55257f9ab31e77f2df4ca623186b5def07a43076694a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/deepchem/scripts/graph_neural_network.py"
+    },
+    {
+      "path": "scripts/predict_solubility.py",
+      "sourcePath": "skills/deepchem/scripts/predict_solubility.py",
+      "bytes": 6945,
+      "sha256": "df8364ba832f7fe04cc401ef4fe3413714683fabdf7c8cf5f530a02c16b10c4b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/deepchem/scripts/predict_solubility.py"
+    },
+    {
+      "path": "scripts/transfer_learning.py",
+      "sourcePath": "skills/deepchem/scripts/transfer_learning.py",
+      "bytes": 11161,
+      "sha256": "7d1d866b6320f19177cd90ae9edde15e711d838cbfb23479afd9766551f52aee",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/deepchem/scripts/transfer_learning.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "c94bd753e4025c98fedb817a0516eef844ab8c50d931baee74a64f5556f774c7"
+}

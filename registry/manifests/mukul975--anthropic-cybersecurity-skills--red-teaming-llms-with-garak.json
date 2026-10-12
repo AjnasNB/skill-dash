@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--red-teaming-llms-with-garak",
+    "name": "red-teaming-llms-with-garak",
+    "description": "Runs NVIDIA garak probe suites (jailbreak, prompt injection, data leakage, toxicity, and more) against an LLM endpoint - Hugging Face models, OpenAI-compatible APIs, or Bedrock - then interprets the resulting hit-rate report for triage. Use when baselining LLM security before/after deployment, validating that a guardrail or fine-tune reduces jailbreak/injection success rates, or producing evidence for an AI risk assessment.",
+    "category": "Security",
+    "tags": [
+      "red",
+      "teaming",
+      "llms",
+      "garak",
+      "runs",
+      "nvidia",
+      "probe",
+      "suites",
+      "jailbreak",
+      "prompt",
+      "injection",
+      "data",
+      "leakage",
+      "toxicity",
+      "more",
+      "against",
+      "llm",
+      "endpoint"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/red-teaming-llms-with-garak/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/red-teaming-llms-with-garak",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/red-teaming-llms-with-garak",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 32703,
+    "sha256": "313dce0a1ce1bba2296bf1ee9e3991f0088be6d6fe46036ff668023332dd2a39",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/red-teaming-llms-with-garak/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/red-teaming-llms-with-garak/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/red-teaming-llms-with-garak/SKILL.md",
+      "bytes": 11502,
+      "sha256": "313dce0a1ce1bba2296bf1ee9e3991f0088be6d6fe46036ff668023332dd2a39",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/red-teaming-llms-with-garak/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/red-teaming-llms-with-garak/references/api-reference.md",
+      "bytes": 3031,
+      "sha256": "753ed4368d58f391eef8dbbf7a04ec7c7c248cad602831d969950c62483db559",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/red-teaming-llms-with-garak/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/red-teaming-llms-with-garak/references/standards.md",
+      "bytes": 1474,
+      "sha256": "6efc2335096c1e8659ef8c3f6cb80c840a0c77fedf9b85ab660fcec6fc48284c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/red-teaming-llms-with-garak/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/red-teaming-llms-with-garak/scripts/agent.py",
+      "bytes": 5441,
+      "sha256": "68575e523f8de5d7478a20eb7afc768353717c052c0db1406592686af6bdef03",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/red-teaming-llms-with-garak/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "62bd310593c71e77742b22a9194a6c872db00a753de31e8c3613ddd74be0f28c"
+}

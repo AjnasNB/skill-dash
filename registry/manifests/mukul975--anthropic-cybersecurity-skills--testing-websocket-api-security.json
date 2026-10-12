@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--testing-websocket-api-security",
+    "name": "testing-websocket-api-security",
+    "description": "Tests WebSocket API implementations for missing upgrade-handshake authentication, Cross-Site WebSocket Hijacking (CSWSH), message injection, insufficient input validation, message-flooding DoS, and information leakage, using Burp Suite's WebSocket interception and the wscat CLI to craft malicious payloads. Use for real-time API penetration testing or CSWSH/authorization-bypass assessments on WebSocket channels.",
+    "category": "Security",
+    "tags": [
+      "testing",
+      "websocket",
+      "api",
+      "security",
+      "tests",
+      "implementations",
+      "missing",
+      "upgrade",
+      "handshake",
+      "authentication",
+      "cross",
+      "site",
+      "hijacking",
+      "cswsh",
+      "message",
+      "injection",
+      "insufficient",
+      "input"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/testing-websocket-api-security/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/testing-websocket-api-security",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-websocket-api-security",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 40092,
+    "sha256": "18aaa89cb98ea9e3abbfe72862c8af19bf3ee2ab5e8d37d3c997e6484d14368f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/testing-websocket-api-security/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-websocket-api-security/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/testing-websocket-api-security/SKILL.md",
+      "bytes": 18434,
+      "sha256": "18aaa89cb98ea9e3abbfe72862c8af19bf3ee2ab5e8d37d3c997e6484d14368f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-websocket-api-security/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/testing-websocket-api-security/references/api-reference.md",
+      "bytes": 1954,
+      "sha256": "d6a6dc838a065b5d7f018a4aed871be951a6b4a09275a3cb9e807010ee03d984",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-websocket-api-security/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/testing-websocket-api-security/scripts/agent.py",
+      "bytes": 8449,
+      "sha256": "25e2bed56a3865fc9bd538576a6705885960c60b15d2b6c77d2ad8c32f5ebe9c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-websocket-api-security/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "5074bd6b827189000d7170c44950bd2e6e34d0fe7a18f7bf0afce772fdfb3676"
+}

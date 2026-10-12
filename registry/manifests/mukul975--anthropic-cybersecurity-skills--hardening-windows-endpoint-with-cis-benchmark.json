@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hardening-windows-endpoint-with-cis-benchmark",
+    "name": "hardening-windows-endpoint-with-cis-benchmark",
+    "description": "Hardens Windows endpoints using CIS (Center for Internet Security) Benchmark recommendations to reduce attack surface, enforce security baselines, and meet compliance requirements. Use when deploying new Windows workstations or servers, remediating audit findings, or establishing organization-wide security baselines. Activates for requests involving Windows hardening, CIS benchmarks, GPO security baselines, or endpoint configuration compliance.",
+    "category": "Security",
+    "tags": [
+      "hardening",
+      "windows",
+      "endpoint",
+      "cis",
+      "benchmark",
+      "hardens",
+      "endpoints",
+      "center",
+      "internet",
+      "security",
+      "recommendations",
+      "reduce",
+      "attack",
+      "surface",
+      "enforce",
+      "baselines",
+      "meet",
+      "compliance"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hardening-windows-endpoint-with-cis-benchmark/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hardening-windows-endpoint-with-cis-benchmark",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-windows-endpoint-with-cis-benchmark",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 45031,
+    "sha256": "7cdd2d09de8e2130c5a03094b803aead1fd091ccde2b1e0c5cb324eef4790bce",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hardening-windows-endpoint-with-cis-benchmark/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-windows-endpoint-with-cis-benchmark/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hardening-windows-endpoint-with-cis-benchmark/SKILL.md",
+      "bytes": 8886,
+      "sha256": "7cdd2d09de8e2130c5a03094b803aead1fd091ccde2b1e0c5cb324eef4790bce",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-windows-endpoint-with-cis-benchmark/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/hardening-windows-endpoint-with-cis-benchmark/assets/template.md",
+      "bytes": 2018,
+      "sha256": "452714ed0a7ce5bac49e0c3a60f52771f6088b0c6867e10a7c19f413803da1be",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-windows-endpoint-with-cis-benchmark/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hardening-windows-endpoint-with-cis-benchmark/references/api-reference.md",
+      "bytes": 2330,
+      "sha256": "ce4fb43e357d05e1335167c96e941d8bbc01e31eceeee65fc0b8123e812b5574",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-windows-endpoint-with-cis-benchmark/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/hardening-windows-endpoint-with-cis-benchmark/references/standards.md",
+      "bytes": 2749,
+      "sha256": "064e243f87949945db29a976fbbf45505f90bc66a96071441e96c24d083a611b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-windows-endpoint-with-cis-benchmark/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/hardening-windows-endpoint-with-cis-benchmark/references/workflows.md",
+      "bytes": 3601,
+      "sha256": "8607de8e54e6e3cebd06ba645a521cd83f15475484829342c16cbf53860f5509",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-windows-endpoint-with-cis-benchmark/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hardening-windows-endpoint-with-cis-benchmark/scripts/agent.py",
+      "bytes": 5789,
+      "sha256": "44be9e62c48b9788c4101bf82f9e4805a607aa05aa776dc8578aac7f355814ed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-windows-endpoint-with-cis-benchmark/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/hardening-windows-endpoint-with-cis-benchmark/scripts/process.py",
+      "bytes": 8403,
+      "sha256": "d4468f77e85d8f3b1661123934a501061476972b1dc0d2ad944e0ae743ab060a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-windows-endpoint-with-cis-benchmark/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "024619e084722b0bf2dcd6ef9b2bc33eb41c2e2afe0faf73b2dbcbd3cb61ccfc"
+}

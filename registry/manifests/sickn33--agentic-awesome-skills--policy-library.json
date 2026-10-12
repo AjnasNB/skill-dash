@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--policy-library",
+    "name": "policy-library",
+    "description": "Policy register: name, version, category, owner and approver, applies to, compliance framework, acknowledgement requirement, effective date and next review. Use for policy management.",
+    "category": "Development",
+    "tags": [
+      "policy",
+      "library",
+      "register",
+      "name",
+      "version",
+      "category",
+      "owner",
+      "approver",
+      "applies",
+      "compliance",
+      "framework",
+      "acknowledgement",
+      "requirement",
+      "effective",
+      "date",
+      "next",
+      "review.",
+      "management."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/policy-library",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/policy-library",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 15099,
+    "sha256": "fcbf7322fad060ba6535dabb8435f676575d75e59af041d1d2a2153cda6b1d03",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/policy-library/SKILL.md",
+      "bytes": 14026,
+      "sha256": "fcbf7322fad060ba6535dabb8435f676575d75e59af041d1d2a2153cda6b1d03",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/policy-library/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "79df4de298a78cc7f811420f9e182cbc3d9d90a59900867f10806aea5af0a505"
+}

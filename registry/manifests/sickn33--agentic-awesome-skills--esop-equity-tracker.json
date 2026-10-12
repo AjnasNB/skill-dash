@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--esop-equity-tracker",
+    "name": "esop-equity-tracker",
+    "description": "ESOP and equity grant register: grant date, shares granted, strike price, vesting start, schedule and cliff, plus vested and exercised shares. Use for equity tracking.",
+    "category": "Development",
+    "tags": [
+      "esop",
+      "equity",
+      "tracker",
+      "grant",
+      "register",
+      "date",
+      "shares",
+      "granted",
+      "strike",
+      "price",
+      "vesting",
+      "start",
+      "schedule",
+      "cliff",
+      "plus",
+      "vested",
+      "exercised",
+      "shares."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/esop-equity-tracker",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/esop-equity-tracker",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 15255,
+    "sha256": "5a2e2b6d50884ff680450784c620da7cde9f81aafb86f5cf38aa485eaff8b37e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/esop-equity-tracker/SKILL.md",
+      "bytes": 14182,
+      "sha256": "5a2e2b6d50884ff680450784c620da7cde9f81aafb86f5cf38aa485eaff8b37e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/esop-equity-tracker/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "2400b2cb3abde25fb98157dec1c957c0602a4b4aa76a9ec0d32cce1ed50b0b91"
+}

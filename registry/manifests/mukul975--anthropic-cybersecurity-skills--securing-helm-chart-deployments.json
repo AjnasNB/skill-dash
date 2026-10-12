@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--securing-helm-chart-deployments",
+    "name": "securing-helm-chart-deployments",
+    "description": "Secures Helm chart deployments by verifying chart signatures and provenance, rendering and linting templates for misconfiguration, enforcing pod security contexts through values.yaml, moving secrets into an external store instead of Helm values, and scoping RBAC for Helm operations in CI/CD. Use when deploying charts to Kubernetes or reviewing chart provenance, templates, or release RBAC. Keywords: Helm, provenance file, helm verify, helm lint, values.yaml, Tiller-less, release RBAC, external secrets. Do not use for scanning the rendered manifests themselves - use scanning-kubernetes-manifests-with-kubesec.",
+    "category": "Security",
+    "tags": [
+      "securing",
+      "helm",
+      "chart",
+      "deployments",
+      "secures",
+      "by",
+      "verifying",
+      "signatures",
+      "provenance",
+      "rendering",
+      "linting",
+      "templates",
+      "misconfiguration",
+      "enforcing",
+      "pod",
+      "security",
+      "contexts",
+      "through"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/securing-helm-chart-deployments/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/securing-helm-chart-deployments",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-helm-chart-deployments",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 37262,
+    "sha256": "2c29997e2ea373e1e508b22482ed74c2155f468af9a0e981f702e8e2da11e372",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/securing-helm-chart-deployments/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-helm-chart-deployments/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/securing-helm-chart-deployments/SKILL.md",
+      "bytes": 7469,
+      "sha256": "2c29997e2ea373e1e508b22482ed74c2155f468af9a0e981f702e8e2da11e372",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-helm-chart-deployments/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/securing-helm-chart-deployments/assets/template.md",
+      "bytes": 1020,
+      "sha256": "06c2fc12a7d53f5d3d3340bf5d8a089c65a382ab747a03ce408f9ace598189b0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-helm-chart-deployments/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/securing-helm-chart-deployments/references/api-reference.md",
+      "bytes": 1981,
+      "sha256": "917f53bdb66f1d5e20dc45c03779f9cf5611db6df31fb0491222b6b86bcc551a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-helm-chart-deployments/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/securing-helm-chart-deployments/references/standards.md",
+      "bytes": 1329,
+      "sha256": "9eb25a0ed8919c2461c9b9b8d4d4072ad2acb06a7720291ee7b4933e47d45040",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-helm-chart-deployments/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/securing-helm-chart-deployments/references/workflows.md",
+      "bytes": 1093,
+      "sha256": "acac2a7889215c57f027e3006a1efba9bd2a144b0f6b8ca6fb41e4e47b23addc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-helm-chart-deployments/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/securing-helm-chart-deployments/scripts/agent.py",
+      "bytes": 6768,
+      "sha256": "79e9c9162e4ea4a3ae183c5e5c1c670e93d313f7aebcfcb7f0e3341b3a1a3fb4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-helm-chart-deployments/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/securing-helm-chart-deployments/scripts/process.py",
+      "bytes": 6347,
+      "sha256": "c3a0579458f479a87fa9b2e8b8195f7295f630f02289e5ec9bc97f5943fdd6e4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-helm-chart-deployments/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "76e88e0d609ed6af72a1ca48ef30cc4e359181de613b2651d03dd6b46d7a7551"
+}

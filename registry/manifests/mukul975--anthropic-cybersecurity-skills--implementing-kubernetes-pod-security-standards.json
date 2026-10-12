@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-kubernetes-pod-security-standards",
+    "name": "implementing-kubernetes-pod-security-standards",
+    "description": "Chooses and applies the correct Kubernetes Pod Security Standard (Privileged, Baseline, Restricted) for a workload: what each profile forbids, how to map existing workloads to a profile, which securityContext fields must change, and how to plan a PodSecurityPolicy-to-PSS migration without breaking running pods. Use when deciding which pod security profile a namespace or workload should run under, auditing which workloads would fail Restricted, planning a PSP migration, or mapping pod security posture to a compliance control. Keywords: Pod Security Standards, PSS, Privileged, Baseline, Restricted, securityContext, runAsNonRoot, drop ALL capabilities, seccomp RuntimeDefault, PSP migration. Do not use for configuring the admission controller that enforces these profiles - use implementing-pod-security-admission-controller.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "kubernetes",
+      "pod",
+      "security",
+      "standards",
+      "chooses",
+      "applies",
+      "correct",
+      "standard",
+      "privileged",
+      "baseline",
+      "restricted",
+      "workload",
+      "what",
+      "each",
+      "profile",
+      "forbids",
+      "map"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-kubernetes-pod-security-standards/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-kubernetes-pod-security-standards",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-kubernetes-pod-security-standards",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 49701,
+    "sha256": "1bb0146e86dd42f683d39ab9941c1563c559e4e3253eb41746c7c16f9cde6b83",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-kubernetes-pod-security-standards/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-kubernetes-pod-security-standards/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-kubernetes-pod-security-standards/SKILL.md",
+      "bytes": 9198,
+      "sha256": "1bb0146e86dd42f683d39ab9941c1563c559e4e3253eb41746c7c16f9cde6b83",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-kubernetes-pod-security-standards/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-kubernetes-pod-security-standards/assets/template.md",
+      "bytes": 1681,
+      "sha256": "6dfd4eba659887cf2b5329d86b1e808d1e8361b7f005752863d6af8e2315093e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-kubernetes-pod-security-standards/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-kubernetes-pod-security-standards/references/api-reference.md",
+      "bytes": 1575,
+      "sha256": "98ee4d4c2ae190772ef92136dcdfc746ad8cc52aab224a7345b302928448ba0c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-kubernetes-pod-security-standards/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-kubernetes-pod-security-standards/references/standards.md",
+      "bytes": 3276,
+      "sha256": "073d3f1d655bd2c221b7c57b1b9542a06ab47a8f0a97a3d50ae73494c79234e2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-kubernetes-pod-security-standards/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-kubernetes-pod-security-standards/references/workflows.md",
+      "bytes": 3701,
+      "sha256": "62c16dd4e4dd83566cd2c23922a8c774369e07b1f78e03d20b7a46d578017ff3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-kubernetes-pod-security-standards/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-kubernetes-pod-security-standards/scripts/agent.py",
+      "bytes": 7680,
+      "sha256": "cf47f956f0f4a9d47b407f77adef5fad18926e916a631e085404db6fbedd635d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-kubernetes-pod-security-standards/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-kubernetes-pod-security-standards/scripts/process.py",
+      "bytes": 11335,
+      "sha256": "d5837d7f48a09403f31ff04199ea3270c44583c7a146c287c99e04025296e410",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-kubernetes-pod-security-standards/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "88cf0303d996db482ea99501f208ffb493983faa518f44f4deb97042988cb7f3"
+}

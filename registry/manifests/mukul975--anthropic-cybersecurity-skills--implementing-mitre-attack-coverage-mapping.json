@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-mitre-attack-coverage-mapping",
+    "name": "implementing-mitre-attack-coverage-mapping",
+    "description": "Implement MITRE ATT&CK coverage mapping to identify detection gaps, prioritize rule development, and measure SOC detection maturity against adversary techniques.",
+    "category": "Development",
+    "tags": [
+      "implementing",
+      "mitre",
+      "attack",
+      "coverage",
+      "mapping",
+      "implement",
+      "att",
+      "ck",
+      "identify",
+      "detection",
+      "gaps",
+      "prioritize",
+      "rule",
+      "development",
+      "measure",
+      "soc",
+      "maturity",
+      "against"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-mitre-attack-coverage-mapping/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-mitre-attack-coverage-mapping",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mitre-attack-coverage-mapping",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 41111,
+    "sha256": "ca05f329d8645a32142d551ac5a6b8b94c7499a5365ffd94631c5f55d5dd5f55",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-mitre-attack-coverage-mapping/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mitre-attack-coverage-mapping/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-mitre-attack-coverage-mapping/SKILL.md",
+      "bytes": 9221,
+      "sha256": "ca05f329d8645a32142d551ac5a6b8b94c7499a5365ffd94631c5f55d5dd5f55",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mitre-attack-coverage-mapping/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-mitre-attack-coverage-mapping/assets/template.md",
+      "bytes": 989,
+      "sha256": "e4b4613cee1a381122f6baaf924dc95175d450a6200abbd5fcaf29234e7be7a8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mitre-attack-coverage-mapping/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-mitre-attack-coverage-mapping/references/api-reference.md",
+      "bytes": 1446,
+      "sha256": "5f2f8a2f05707135c2e374e1e2bece77c893058acea3cc3ce2b2379a7c88c446",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mitre-attack-coverage-mapping/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-mitre-attack-coverage-mapping/references/standards.md",
+      "bytes": 1164,
+      "sha256": "949e44fe8c6c34c975a94d8c7073a7fc221429272818a18811c974550124294e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mitre-attack-coverage-mapping/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-mitre-attack-coverage-mapping/references/workflows.md",
+      "bytes": 977,
+      "sha256": "c210b30c54e9064df2cf5a0f12ade4d7c15a1750c1761ede0f51cc81e2113db1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mitre-attack-coverage-mapping/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-mitre-attack-coverage-mapping/scripts/agent.py",
+      "bytes": 7004,
+      "sha256": "64127fe1edcaf035924986edfdb8a7c8cc3665ccb6164c830c4c2bb24d8bf643",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mitre-attack-coverage-mapping/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-mitre-attack-coverage-mapping/scripts/process.py",
+      "bytes": 9055,
+      "sha256": "4d0b42ce551682afdcd22afc3724c6bde2cdc35e2f210e819baf6e299d642484",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mitre-attack-coverage-mapping/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "7a007128e0fb417af6bda2271fe0df81e4c73f595c91fc2b4e7b1302640c75d9"
+}

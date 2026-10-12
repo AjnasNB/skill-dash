@@ -1,1 +1,66 @@
-{"schemaVersion":1,"skill":{"id":"mattpocock--skills--pr","name":"pr","description":"Use when writing a PR body.","category":"Writing","tags":["pr","when","writing","body."],"repo":"mattpocock/skills","owner":"mattpocock","stars":268729,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"c55ee46073ed923f86ce59a5eb3b6d895095d1b7","path":"skills/in-progress/pr","sourceUrl":"https://github.com/mattpocock/skills/tree/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/in-progress/pr","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-18T10:12:29Z","fileCount":4,"bytes":5821,"sha256":"e91dc57fa0ee1d8d2fd35562425c943d377f0acdfba6245858a619990fcff0e8","historical":false},"files":[{"path":"CREDITS.md","sourcePath":"skills/in-progress/pr/CREDITS.md","bytes":489,"sha256":"d316306f029b9dc9552d6aa5e5454bd95550da45c6325dbe41f86fc256f2dd14","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/in-progress/pr/CREDITS.md"},{"path":"SKILL.md","sourcePath":"skills/in-progress/pr/SKILL.md","bytes":4171,"sha256":"e91dc57fa0ee1d8d2fd35562425c943d377f0acdfba6245858a619990fcff0e8","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/in-progress/pr/SKILL.md"},{"path":"agents/openai.yaml","sourcePath":"skills/in-progress/pr/agents/openai.yaml","bytes":93,"sha256":"2295b586624db4ef546f3fd4695492f039d941a46d8a1593a702ce3ca511b8ad","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/skills/in-progress/pr/agents/openai.yaml"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1068,"sha256":"0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/c55ee46073ed923f86ce59a5eb3b6d895095d1b7/LICENSE"}],"archiveSha256":"3aec88dd1f8cb81bb0a4c77fdb7233a0633ba17ae34a506216f299e4b2bb7a77"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mattpocock--skills--pr",
+    "name": "pr",
+    "description": "Use when writing a PR body.",
+    "category": "Writing",
+    "tags": [
+      "pr",
+      "when",
+      "writing",
+      "body."
+    ],
+    "repo": "mattpocock/skills",
+    "owner": "mattpocock",
+    "stars": 287125,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "49dd158d1076134a641b33efb035946536778336",
+    "path": "skills/engineering/pr",
+    "sourceUrl": "https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/engineering/pr",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-09T10:56:49Z",
+    "fileCount": 4,
+    "bytes": 5934,
+    "sha256": "ab63f1cf78647389edcd386c9427c5dfca27ed2836930c24773ffee834c19bcd",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sourcePath": "skills/engineering/pr/CREDITS.md",
+      "bytes": 604,
+      "sha256": "a7a087127665d7298a72280ef6e19c41ad8404523712a788c8dc3ab414bc2497",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/pr/CREDITS.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/engineering/pr/SKILL.md",
+      "bytes": 4169,
+      "sha256": "ab63f1cf78647389edcd386c9427c5dfca27ed2836930c24773ffee834c19bcd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/pr/SKILL.md"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sourcePath": "skills/engineering/pr/agents/openai.yaml",
+      "bytes": 93,
+      "sha256": "2295b586624db4ef546f3fd4695492f039d941a46d8a1593a702ce3ca511b8ad",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/pr/agents/openai.yaml"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1068,
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/LICENSE"
+    }
+  ],
+  "archiveSha256": "d240e59a7e09bfbf605c17699cfc7ee41ec1d5c9a829322d6bc2fe7d551c7f63"
+}

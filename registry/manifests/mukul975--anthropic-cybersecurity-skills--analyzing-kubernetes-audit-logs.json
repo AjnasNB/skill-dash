@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-kubernetes-audit-logs",
+    "name": "analyzing-kubernetes-audit-logs",
+    "description": "Parses Kubernetes API server audit logs (JSON lines) to detect exec-into-pod, secret access, RBAC modifications, privileged pod creation, and anonymous API access, and builds SIEM detection rules from the event patterns. Use when investigating a suspected cluster compromise, reconstructing what an attacker did through the API server, or writing Kubernetes-specific detection content. Keywords: audit policy, audit log, kube-apiserver, exec into pod, RBAC change, anonymous access, detection rules. Do not use for syscall-level detection inside a running container - use detecting-container-runtime-threats-with-falco. '",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "analyzing",
+      "kubernetes",
+      "audit",
+      "logs",
+      "parses",
+      "api",
+      "server",
+      "json",
+      "lines",
+      "detect",
+      "exec",
+      "into",
+      "pod",
+      "secret",
+      "access",
+      "rbac",
+      "modifications",
+      "privileged"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-kubernetes-audit-logs/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-kubernetes-audit-logs",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-kubernetes-audit-logs",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 23402,
+    "sha256": "1c6cd19dd595fdbd3025c798ffdf5b5d4771598de86d69dfbb6691ae909a93a5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-kubernetes-audit-logs/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-kubernetes-audit-logs/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-kubernetes-audit-logs/SKILL.md",
+      "bytes": 2615,
+      "sha256": "1c6cd19dd595fdbd3025c798ffdf5b5d4771598de86d69dfbb6691ae909a93a5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-kubernetes-audit-logs/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-kubernetes-audit-logs/references/api-reference.md",
+      "bytes": 1620,
+      "sha256": "a7d527d2a7188a503acec0b356bbaa2cc41df1598aca6aa58ebf2e8d30ea8e8f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-kubernetes-audit-logs/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-kubernetes-audit-logs/scripts/agent.py",
+      "bytes": 7912,
+      "sha256": "fa4d54b08893b3ac2df8859894b74b2407fca60ef9673ff9add10a6b42d6d32f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-kubernetes-audit-logs/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "49f8a5570ac5a9b458b60ab981e80643c252e1742434cee02dc6201c3d9fad41"
+}

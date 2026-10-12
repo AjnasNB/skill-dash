@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--codebase-cleanup-tech-debt","name":"codebase-cleanup-tech-debt","description":"Identify technical debt from actual code and change history, estimate its impact, and prioritize bounded improvements with explicit assumptions.","category":"Development","tags":["codebase","cleanup","tech","debt","identify","technical","from","actual","code","change","history","estimate","its","impact","prioritize","bounded","improvements","explicit"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":46853,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"21efc48cceaf0f7043fa496ad8fcd5815637121e","path":"skills/codebase-cleanup-tech-debt","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/codebase-cleanup-tech-debt","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T06:08:57Z","fileCount":2,"bytes":12639,"sha256":"bc3bd0631999ce7939cfe6d29d11e2463af5253f7bad828787a14c41eab90021","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/codebase-cleanup-tech-debt/SKILL.md","bytes":11566,"sha256":"bc3bd0631999ce7939cfe6d29d11e2463af5253f7bad828787a14c41eab90021","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/codebase-cleanup-tech-debt/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/LICENSE"}],"archiveSha256":"2d982bd76a9173e875b8a8df6209750df9f3507870d353be019e0591c122c971"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--codebase-cleanup-tech-debt",
+    "name": "codebase-cleanup-tech-debt",
+    "description": "Identify technical debt from actual code and change history, estimate its impact, and prioritize bounded improvements with explicit assumptions.",
+    "category": "Development",
+    "tags": [
+      "codebase",
+      "cleanup",
+      "tech",
+      "debt",
+      "identify",
+      "technical",
+      "from",
+      "actual",
+      "code",
+      "change",
+      "history",
+      "estimate",
+      "its",
+      "impact",
+      "prioritize",
+      "bounded",
+      "improvements",
+      "explicit"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/codebase-cleanup-tech-debt",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/codebase-cleanup-tech-debt",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12639,
+    "sha256": "bc3bd0631999ce7939cfe6d29d11e2463af5253f7bad828787a14c41eab90021",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/codebase-cleanup-tech-debt/SKILL.md",
+      "bytes": 11566,
+      "sha256": "bc3bd0631999ce7939cfe6d29d11e2463af5253f7bad828787a14c41eab90021",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/codebase-cleanup-tech-debt/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "c32474e07d63231d66323d2a1425d930d1b94dc36505f28519d1d74b2aa701f9"
+}

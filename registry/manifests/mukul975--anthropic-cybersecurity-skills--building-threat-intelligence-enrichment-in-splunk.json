@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--building-threat-intelligence-enrichment-in-splunk",
+    "name": "building-threat-intelligence-enrichment-in-splunk",
+    "description": "Build automated IOC enrichment pipelines in Splunk Enterprise Security by ingesting threat feeds into KV Store collections and correlating them against security events via lookup tables, modular inputs, and the Threat Intelligence Framework. Use when wiring threat intel into Splunk correlation searches to flag IOC matches and cut SOC triage time.",
+    "category": "Security",
+    "tags": [
+      "building",
+      "threat",
+      "intelligence",
+      "enrichment",
+      "splunk",
+      "automated",
+      "ioc",
+      "pipelines",
+      "enterprise",
+      "security",
+      "by",
+      "ingesting",
+      "feeds",
+      "into",
+      "kv",
+      "store",
+      "collections",
+      "correlating"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/building-threat-intelligence-enrichment-in-splunk/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/building-threat-intelligence-enrichment-in-splunk",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-intelligence-enrichment-in-splunk",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 45526,
+    "sha256": "8e3886a7a0632f2866c92c85ef92cc5729379d56880fcdf52e534efe99f1ae4e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/building-threat-intelligence-enrichment-in-splunk/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-intelligence-enrichment-in-splunk/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/building-threat-intelligence-enrichment-in-splunk/SKILL.md",
+      "bytes": 10802,
+      "sha256": "8e3886a7a0632f2866c92c85ef92cc5729379d56880fcdf52e534efe99f1ae4e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-intelligence-enrichment-in-splunk/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/building-threat-intelligence-enrichment-in-splunk/assets/template.md",
+      "bytes": 1333,
+      "sha256": "db0f0c90fed4d897cba5ccbe3706ade80041b9f8f108cd572d61aebb87ea2a5d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-intelligence-enrichment-in-splunk/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/building-threat-intelligence-enrichment-in-splunk/references/api-reference.md",
+      "bytes": 2008,
+      "sha256": "404749897f8b2232e1d4be7884689fbd0760ffda9eb206c839dcae369e90aa76",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-intelligence-enrichment-in-splunk/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/building-threat-intelligence-enrichment-in-splunk/references/standards.md",
+      "bytes": 1416,
+      "sha256": "d4a90710110bf646174be9ad92b1c0335d093289a91d94ec698b92c1cadfa9ef",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-intelligence-enrichment-in-splunk/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/building-threat-intelligence-enrichment-in-splunk/references/workflows.md",
+      "bytes": 1714,
+      "sha256": "0b38ac90783eb1f4680adedc4767f9ac20b398086c71acb88f04d596cf597db8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-intelligence-enrichment-in-splunk/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/building-threat-intelligence-enrichment-in-splunk/scripts/agent.py",
+      "bytes": 6688,
+      "sha256": "6a495c5828115ffcbfcb427327543a16582e3608c8320ba2a67c5fea2a4d6560",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-intelligence-enrichment-in-splunk/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/building-threat-intelligence-enrichment-in-splunk/scripts/process.py",
+      "bytes": 10310,
+      "sha256": "abb26a182084291d22b4731d3eb5d8767ac0e0a58f0fae9f9334ffcc578456b5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-intelligence-enrichment-in-splunk/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "33531a2d36d517eb95f9cb595dcfeced54228788dab6de5ee14518b0ac9699dc"
+}

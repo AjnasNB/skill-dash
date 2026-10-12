@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-pass-the-hash-attacks",
+    "name": "detecting-pass-the-hash-attacks",
+    "description": "Detect Pass-the-Hash (T1550.002) attacks by analyzing NTLM authentication patterns, flagging Type 3 logons using NTLM where Kerberos would be expected, and correlating with credential-dumping indicators. Use when threat hunting for lateral movement via stolen NTLM hashes, triaging EDR/SIEM alerts on suspicious NTLM logons, scoping compromise during incident response, or validating detection coverage in a purple team exercise.",
+    "category": "Security",
+    "tags": [
+      "detecting",
+      "pass",
+      "hash",
+      "attacks",
+      "detect",
+      "t1550.002",
+      "by",
+      "analyzing",
+      "ntlm",
+      "authentication",
+      "patterns",
+      "flagging",
+      "type",
+      "logons",
+      "where",
+      "kerberos",
+      "would",
+      "be"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-pass-the-hash-attacks/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-pass-the-hash-attacks",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-pass-the-hash-attacks",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 31849,
+    "sha256": "1908241d4fe40ffc6ea303dbde944b55bf3820cfa01b90b7288ab82c0b906d6f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-pass-the-hash-attacks/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-pass-the-hash-attacks/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-pass-the-hash-attacks/SKILL.md",
+      "bytes": 3614,
+      "sha256": "1908241d4fe40ffc6ea303dbde944b55bf3820cfa01b90b7288ab82c0b906d6f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-pass-the-hash-attacks/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/detecting-pass-the-hash-attacks/assets/template.md",
+      "bytes": 2632,
+      "sha256": "f91b062529feca276c5aeeab07bff53b2d25a7c0be0988060598060df8106d04",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-pass-the-hash-attacks/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-pass-the-hash-attacks/references/api-reference.md",
+      "bytes": 1545,
+      "sha256": "d7b53112af4052139cd628329b963f0fadcf58738338499afc166f18dc682beb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-pass-the-hash-attacks/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/detecting-pass-the-hash-attacks/references/standards.md",
+      "bytes": 1563,
+      "sha256": "d9d667a66d35b187d93e0dda9bd663123a5b4fc288c898c8f43c7aa0f534d53c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-pass-the-hash-attacks/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/detecting-pass-the-hash-attacks/references/workflows.md",
+      "bytes": 2933,
+      "sha256": "d0f0785b95dea9b992cb039f094164428bcb396ee41ab3538ca2ebfbb4b51eca",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-pass-the-hash-attacks/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-pass-the-hash-attacks/scripts/agent.py",
+      "bytes": 4438,
+      "sha256": "d9e0aacab59a742ad1f1584ea93056e5519c8b4f9c85c7508aebb02a4503716b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-pass-the-hash-attacks/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/detecting-pass-the-hash-attacks/scripts/process.py",
+      "bytes": 3869,
+      "sha256": "c1a802eca3c9b4dd01422e7a675ea9265764b0a35f417cea9b665f61dbe9a0bc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-pass-the-hash-attacks/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "de7951ab9899d92e612bfb3d381f3b9f7f2cc771c7bd0750650f28a9af2951fd"
+}

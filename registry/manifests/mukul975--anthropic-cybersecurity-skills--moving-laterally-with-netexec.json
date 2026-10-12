@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--moving-laterally-with-netexec",
+    "name": "moving-laterally-with-netexec",
+    "description": "Use NetExec (nxc) to validate credentials, enumerate SMB shares/users/policy, password-spray safely across lockout thresholds, execute commands, and dump SAM/LSA/NTDS credentials across SMB, WinRM, LDAP, MSSQL, SSH, and other protocol modules. Use during authorized internal penetration tests to find lateral-movement paths after obtaining credentials or hashes, or to conduct controlled password spraying and post-exploitation on in-scope hosts.",
+    "category": "Security",
+    "tags": [
+      "moving",
+      "laterally",
+      "netexec",
+      "nxc",
+      "validate",
+      "credentials",
+      "enumerate",
+      "smb",
+      "shares",
+      "users",
+      "policy",
+      "password",
+      "spray",
+      "safely",
+      "across",
+      "lockout",
+      "thresholds",
+      "execute"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/moving-laterally-with-netexec/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/moving-laterally-with-netexec",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/moving-laterally-with-netexec",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 31310,
+    "sha256": "c98fc242854abb2ebfa66234b1cddd9f41e422e53d834c00a4e2b5e44bc661a9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/moving-laterally-with-netexec/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/moving-laterally-with-netexec/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/moving-laterally-with-netexec/SKILL.md",
+      "bytes": 10587,
+      "sha256": "c98fc242854abb2ebfa66234b1cddd9f41e422e53d834c00a4e2b5e44bc661a9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/moving-laterally-with-netexec/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/moving-laterally-with-netexec/references/api-reference.md",
+      "bytes": 2461,
+      "sha256": "6197cde975feb1c3e1f0fdfe2b60967611d07d8f9163034ba835521cb5721597",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/moving-laterally-with-netexec/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/moving-laterally-with-netexec/references/standards.md",
+      "bytes": 2014,
+      "sha256": "a8c089ad7f3a8e1468aadf517058d93ad4d6b7740b4645e074a686ce4dcc356d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/moving-laterally-with-netexec/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/moving-laterally-with-netexec/scripts/agent.py",
+      "bytes": 4993,
+      "sha256": "f146d108c284322f33afe8dbbeebf92940d918ac5b9a3e79beac1c1a7fa4c4fd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/moving-laterally-with-netexec/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "3598c4c9cddbfd8d601254f2d54e6ea556400812ecc1d482d864f14029a61879"
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-packet-injection-attack",
+    "name": "performing-packet-injection-attack",
+    "description": "Crafts and injects custom network packets using Scapy, hping3, and Nemesis during authorized security assessments to test firewall rules, IDS detection, protocol handling, and network stack resilience against malformed and spoofed traffic.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "packet",
+      "injection",
+      "attack",
+      "crafts",
+      "injects",
+      "custom",
+      "network",
+      "packets",
+      "scapy",
+      "hping3",
+      "nemesis",
+      "during",
+      "authorized",
+      "security",
+      "assessments",
+      "test",
+      "firewall"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-packet-injection-attack/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-packet-injection-attack",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-packet-injection-attack",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32218,
+    "sha256": "5c953fc86f45df313de02d82be3800c94b5d0cc2661dfd6006e3b48f1ea22858",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-packet-injection-attack/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-packet-injection-attack/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-packet-injection-attack/SKILL.md",
+      "bytes": 12363,
+      "sha256": "5c953fc86f45df313de02d82be3800c94b5d0cc2661dfd6006e3b48f1ea22858",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-packet-injection-attack/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-packet-injection-attack/references/api-reference.md",
+      "bytes": 1665,
+      "sha256": "7b88393f0adc6644b296fe56b63584e4ba711462bd957b775aa0264ad4d719cb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-packet-injection-attack/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-packet-injection-attack/scripts/agent.py",
+      "bytes": 6935,
+      "sha256": "7e2b71669084b807c99fdc5922cf965a9495721b92594ff55c075d548fcd92ad",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-packet-injection-attack/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "9b57b076fc0914d35b01363d209c86b6fe5222fca983d8c25a7f13b9902fb84c"
+}

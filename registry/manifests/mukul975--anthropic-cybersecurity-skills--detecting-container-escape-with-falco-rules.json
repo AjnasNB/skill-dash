@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-container-escape-with-falco-rules",
+    "name": "detecting-container-escape-with-falco-rules",
+    "description": "Writes and tunes Falco rule syntax for container escape detection - conditions, macros, lists, priorities, and output fields - covering host filesystem mounts, sensitive host path access, kernel module loading, and privileged capability abuse, including how to drive down false positives. Use when authoring or tuning a specific Falco rule for breakout behaviour, or triaging a noisy escape-related Falco alert. Keywords: Falco rule, macro, list, condition, priority, falco_rules.local.yaml, tuning, false positive. Do not use for deploying and operating Falco itself - use detecting-container-runtime-threats-with-falco; for tool-agnostic escape signals use detecting-container-escape-attempts.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "detecting",
+      "container",
+      "escape",
+      "falco",
+      "rules",
+      "writes",
+      "tunes",
+      "rule",
+      "syntax",
+      "detection",
+      "conditions",
+      "macros",
+      "lists",
+      "priorities",
+      "output",
+      "fields",
+      "covering",
+      "host"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-container-escape-with-falco-rules/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-container-escape-with-falco-rules",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-escape-with-falco-rules",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 46871,
+    "sha256": "e9d473cd10641221e3edcfbf1fca42779266ae710ee63b05727a7937c1aecac0",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-container-escape-with-falco-rules/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-escape-with-falco-rules/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-container-escape-with-falco-rules/SKILL.md",
+      "bytes": 10768,
+      "sha256": "e9d473cd10641221e3edcfbf1fca42779266ae710ee63b05727a7937c1aecac0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-escape-with-falco-rules/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/detecting-container-escape-with-falco-rules/assets/template.md",
+      "bytes": 1904,
+      "sha256": "40783b8367beb383fc5b43d33e20246eac4ae70aeb70cf470cc064ea127d8222",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-escape-with-falco-rules/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-container-escape-with-falco-rules/references/api-reference.md",
+      "bytes": 2387,
+      "sha256": "78cc088016c6df318e558073fdb09550744abdd804cb4a832817a3fd8098dceb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-escape-with-falco-rules/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/detecting-container-escape-with-falco-rules/references/standards.md",
+      "bytes": 2616,
+      "sha256": "d096c781a6558a53da485659cebe96cb61a1ed036bb82a52a1d479e6d048ea01",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-escape-with-falco-rules/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/detecting-container-escape-with-falco-rules/references/workflows.md",
+      "bytes": 2948,
+      "sha256": "b792ce67e57c3047b7f48342b67f03adfc28e578a321aac43a5a001723b6d281",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-escape-with-falco-rules/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-container-escape-with-falco-rules/scripts/agent.py",
+      "bytes": 6452,
+      "sha256": "54ee88c28f8a34a679fc2e9650a8ce687a3cbd6f66a84feb4d1234ecec33553b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-escape-with-falco-rules/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/detecting-container-escape-with-falco-rules/scripts/process.py",
+      "bytes": 8541,
+      "sha256": "0ea0bb9add104cd4e7195d95c01a4848691b03bddb227ee54ecb1e9c0c6aa692",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-escape-with-falco-rules/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "5e898e815da09e54b9aad5e17ea57689d9abe8448b57471b7f56fc1034abdc83"
+}

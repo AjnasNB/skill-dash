@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--longbridge-content","name":"longbridge-content","description":"Latest news articles, regulatory filings, community discussion topics for listed stocks, and SEC EDGAR filing analysis (10-K/10-Q/8-K/proxy/Form 4) via Longbridge.","category":"Writing","tags":["longbridge","content","latest","news","articles","regulatory","filings","community","discussion","topics","listed","stocks","sec","edgar","filing","analysis","10","proxy"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":46853,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"21efc48cceaf0f7043fa496ad8fcd5815637121e","path":"skills/longbridge-content","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/longbridge-content","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T06:08:57Z","fileCount":2,"bytes":4772,"sha256":"0c2288ac559321a2b42501b1bd44b94b75814f63639e982a235ad1c4ce48ddc8","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/longbridge-content/SKILL.md","bytes":3699,"sha256":"0c2288ac559321a2b42501b1bd44b94b75814f63639e982a235ad1c4ce48ddc8","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/longbridge-content/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/LICENSE"}],"archiveSha256":"99becbd6ff9d866ae2fd521d74bd78c336e4660b743d297961db71534b0683ba"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--longbridge-content",
+    "name": "longbridge-content",
+    "description": "Latest news articles, regulatory filings, community discussion topics for listed stocks, and SEC EDGAR filing analysis (10-K/10-Q/8-K/proxy/Form 4) via Longbridge.",
+    "category": "Writing",
+    "tags": [
+      "longbridge",
+      "content",
+      "latest",
+      "news",
+      "articles",
+      "regulatory",
+      "filings",
+      "community",
+      "discussion",
+      "topics",
+      "listed",
+      "stocks",
+      "sec",
+      "edgar",
+      "filing",
+      "analysis",
+      "10",
+      "proxy"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/longbridge-content",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/longbridge-content",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4772,
+    "sha256": "0c2288ac559321a2b42501b1bd44b94b75814f63639e982a235ad1c4ce48ddc8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/longbridge-content/SKILL.md",
+      "bytes": 3699,
+      "sha256": "0c2288ac559321a2b42501b1bd44b94b75814f63639e982a235ad1c4ce48ddc8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/longbridge-content/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "bab147841a0c5b18c91d6e978d1548bc194afdd6644250932a978ca2b1501594"
+}

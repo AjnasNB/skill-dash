@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--configuring-host-based-intrusion-detection",
+    "name": "configuring-host-based-intrusion-detection",
+    "description": "Configures host-based intrusion detection systems (HIDS) to monitor endpoint file integrity, system calls, and configuration changes for security violations. Use when deploying OSSEC, Wazuh, or AIDE for endpoint monitoring, building file integrity monitoring (FIM) policies, or meeting compliance requirements for change detection. Activates for requests involving HIDS configuration, file integrity monitoring, OSSEC/Wazuh deployment, or host-based detection.",
+    "category": "Security",
+    "tags": [
+      "configuring",
+      "host",
+      "based",
+      "intrusion",
+      "detection",
+      "configures",
+      "systems",
+      "hids",
+      "monitor",
+      "endpoint",
+      "file",
+      "integrity",
+      "system",
+      "calls",
+      "configuration",
+      "changes",
+      "security",
+      "violations."
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/configuring-host-based-intrusion-detection/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/configuring-host-based-intrusion-detection",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-host-based-intrusion-detection",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 36258,
+    "sha256": "59f10898da82139c24a6cb175a7fd6605be72da22ad56f11b023290f3c564b01",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/configuring-host-based-intrusion-detection/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-host-based-intrusion-detection/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/configuring-host-based-intrusion-detection/SKILL.md",
+      "bytes": 8527,
+      "sha256": "59f10898da82139c24a6cb175a7fd6605be72da22ad56f11b023290f3c564b01",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-host-based-intrusion-detection/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/configuring-host-based-intrusion-detection/assets/template.md",
+      "bytes": 998,
+      "sha256": "3a7b143fb8e8e4622551963bd3072ac44bb2696d5f3c2c2eebf509bda7a00677",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-host-based-intrusion-detection/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/configuring-host-based-intrusion-detection/references/api-reference.md",
+      "bytes": 1571,
+      "sha256": "f05d9d3e0fef8488321299d58891d658134eff7f8253533c77d1718fb200e490",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-host-based-intrusion-detection/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/configuring-host-based-intrusion-detection/references/standards.md",
+      "bytes": 1520,
+      "sha256": "be29e0b6656737eee67f8d8011c87c887730292f7f3d619b32facc1629c0e893",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-host-based-intrusion-detection/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/configuring-host-based-intrusion-detection/references/workflows.md",
+      "bytes": 1301,
+      "sha256": "3b47432c86a24f1288db6221539c415e2cd76be515e70da33649d539c2657bd0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-host-based-intrusion-detection/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/configuring-host-based-intrusion-detection/scripts/agent.py",
+      "bytes": 5409,
+      "sha256": "1bb967c52f81a064c5cfe84303301db5f9e624624ae3a2b5f72e35693ac119b0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-host-based-intrusion-detection/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/configuring-host-based-intrusion-detection/scripts/process.py",
+      "bytes": 5677,
+      "sha256": "7a0339918562cc5542336c9e6b36cd2a5709c835c9c88ed56189aced4e4d2598",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-host-based-intrusion-detection/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "357597502b5e75bf2a74ff9454423b3a26a569b67bcec2d5c54a37f1674b5822"
+}

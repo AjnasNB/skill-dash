@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-ssl-tls-security-assessment",
+    "name": "performing-ssl-tls-security-assessment",
+    "description": "Assess SSL/TLS server configurations using the sslyze Python scanning library to evaluate supported protocol versions, cipher suite strength, certificate chain validation, HSTS enforcement, OCSP stapling, and known vulnerabilities such as Heartbleed and ROBOT. Use when conducting a security assessment of a server's TLS configuration or verifying remediation of cipher/certificate weaknesses.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "ssl",
+      "tls",
+      "security",
+      "assessment",
+      "assess",
+      "server",
+      "configurations",
+      "sslyze",
+      "python",
+      "scanning",
+      "library",
+      "evaluate",
+      "supported",
+      "protocol",
+      "versions",
+      "cipher",
+      "suite"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-ssl-tls-security-assessment/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-ssl-tls-security-assessment",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-tls-security-assessment",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 23467,
+    "sha256": "5429b42e2974be1e744f20107228c316d490024bd6c7eef62c21e370b240d66e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-ssl-tls-security-assessment/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-tls-security-assessment/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-ssl-tls-security-assessment/SKILL.md",
+      "bytes": 2387,
+      "sha256": "5429b42e2974be1e744f20107228c316d490024bd6c7eef62c21e370b240d66e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-tls-security-assessment/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-ssl-tls-security-assessment/references/api-reference.md",
+      "bytes": 1917,
+      "sha256": "0c8fff6abf6a31b4432a91953e17c34dd20f530fa09d55539877d2f87093de40",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-tls-security-assessment/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-ssl-tls-security-assessment/scripts/agent.py",
+      "bytes": 7908,
+      "sha256": "6efcaf69c8c09c6e4b8beda3de1e438f83b0a2e0df1b463b7fb79162c542d1f4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-tls-security-assessment/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "92ef151ff570e633af79e643da20fc28d5bc4e35a58fdfbd9709931d0a2afea5"
+}

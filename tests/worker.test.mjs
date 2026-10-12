@@ -17,11 +17,11 @@ test('submission validation rejects foreign hosts, credentials, fragments and tr
   for (const repo of ['https://github.com.evil.test/owner/repo', 'https://user:pass@github.com/owner/repo', 'http://github.com/owner/repo', 'https://github.com/owner/repo#x']) assert.throws(() => validateSubmission({ repo, path: 'skills/test' }));
   for (const path of ['../escape', '/absolute', 'skills/../../etc', 'a\\b', '.git/config', '']) assert.throws(() => validateSubmission({ repo: 'https://github.com/owner/repo', path }));
 });
-test('submission errors never claim that a failed write was accepted', async () => {
+test('legacy anonymous source submission points to owner verification without claiming acceptance or writing', async () => {
   const request = () => new Request('https://skills.maqamagent.com/api/submissions', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ repo: 'https://github.com/example/example', path: 'skills/a' }) });
-  assert.equal((await worker.fetch(request(), {})).status, 503);
+  const response=await worker.fetch(request(), {});assert.equal(response.status,410);const info=await response.json();assert.match(info.error,/owner-verified email/);assert.ok(info.schema.endsWith('/api/submission-schema'));
   const failing = { DB: { prepare() { throw new Error('database unavailable'); } } };
-  assert.equal((await worker.fetch(request(), failing)).status, 503);
+  assert.equal((await worker.fetch(request(), failing)).status, 410);
   const crossOrigin = new Request(request(), { headers: { 'Content-Type': 'application/json', Origin: 'https://evil.example' } });
-  assert.equal((await worker.fetch(crossOrigin, failing)).status, 403);
+  assert.equal((await worker.fetch(crossOrigin, failing)).status, 410);
 });

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-deepfake-audio-in-vishing-attacks",
+    "name": "detecting-deepfake-audio-in-vishing-attacks",
+    "description": "Detect AI-generated deepfake audio used in voice phishing (vishing) by extracting spectral features (MFCC, spectral centroid, spectral contrast, zero-crossing rate) and classifying samples with machine learning models, supporting batch audio analysis, confidence scoring, and forensic reporting. Use for deepfake voice detection, vishing investigations, AI-generated speech analysis, voice cloning detection, or audio authenticity verification.",
+    "category": "Video & audio",
+    "tags": [
+      "detecting",
+      "deepfake",
+      "audio",
+      "vishing",
+      "attacks",
+      "detect",
+      "ai",
+      "generated",
+      "used",
+      "voice",
+      "phishing",
+      "by",
+      "extracting",
+      "spectral",
+      "features",
+      "mfcc",
+      "centroid",
+      "contrast"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-deepfake-audio-in-vishing-attacks/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-deepfake-audio-in-vishing-attacks",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-deepfake-audio-in-vishing-attacks",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 52686,
+    "sha256": "e8ce6d9cc41ef12caa0f0738f45ccdc24c00012ed3cfdd993f161b6be6367d58",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-deepfake-audio-in-vishing-attacks/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-deepfake-audio-in-vishing-attacks/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-deepfake-audio-in-vishing-attacks/SKILL.md",
+      "bytes": 11375,
+      "sha256": "e8ce6d9cc41ef12caa0f0738f45ccdc24c00012ed3cfdd993f161b6be6367d58",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-deepfake-audio-in-vishing-attacks/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-deepfake-audio-in-vishing-attacks/references/api-reference.md",
+      "bytes": 5398,
+      "sha256": "c07c2a7b323a05f14dd31139e9af6dc5c53424b72bc00c2fb89f94ade63e0ef5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-deepfake-audio-in-vishing-attacks/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-deepfake-audio-in-vishing-attacks/scripts/agent.py",
+      "bytes": 24658,
+      "sha256": "181c41763259de2ae1830ef37a16081b144896a9610b14a594d45e85fb9b93e4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-deepfake-audio-in-vishing-attacks/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "dc3bbea85e6c1450861599b7d6647552626252d9be9a918597df008682670788"
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--scvelo",
+    "name": "scvelo",
+    "description": "Performs RNA velocity analysis with scVelo from spliced and unspliced single-cell RNA counts. Fits deterministic or dynamical models, examines gene phase portraits, builds velocity graphs, estimates relative latent time, and ranks velocity-associated genes. Use for directional trajectory hypotheses and kinetic-model diagnostics alongside Scanpy; velocity alone does not establish cell fate or causal drivers.",
+    "category": "Development",
+    "tags": [
+      "scvelo",
+      "performs",
+      "rna",
+      "velocity",
+      "analysis",
+      "from",
+      "spliced",
+      "unspliced",
+      "single",
+      "cell",
+      "counts.",
+      "fits",
+      "deterministic",
+      "dynamical",
+      "models",
+      "examines",
+      "gene",
+      "phase"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/scvelo",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scvelo",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 4,
+    "bytes": 36199,
+    "sha256": "c43258bccdbaa5772fd1aeac8d12d6107dd9c9b19c6a3a81fde7d421c0d2609e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/scvelo/SKILL.md",
+      "bytes": 12486,
+      "sha256": "c43258bccdbaa5772fd1aeac8d12d6107dd9c9b19c6a3a81fde7d421c0d2609e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scvelo/SKILL.md"
+    },
+    {
+      "path": "references/velocity_models.md",
+      "sourcePath": "skills/scvelo/references/velocity_models.md",
+      "bytes": 9438,
+      "sha256": "1a519d24393f83941ce6d22162f27c938091abf637a455c8d396c08f0e15fc90",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scvelo/references/velocity_models.md"
+    },
+    {
+      "path": "scripts/rna_velocity_workflow.py",
+      "sourcePath": "skills/scvelo/scripts/rna_velocity_workflow.py",
+      "bytes": 13207,
+      "sha256": "8b091713730e4132086e748ba9334f6c356ac59e799057c497a5c7762bb9fa11",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scvelo/scripts/rna_velocity_workflow.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "39fd8fe36b13ce5000bc636b265de82350d2563ed4eb30969750320bae3f679d"
+}

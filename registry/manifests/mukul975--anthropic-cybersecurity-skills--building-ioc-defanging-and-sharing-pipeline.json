@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--building-ioc-defanging-and-sharing-pipeline",
+    "name": "building-ioc-defanging-and-sharing-pipeline",
+    "description": "Build an automated pipeline that ingests raw IOCs (URLs, IPs, domains, emails), normalizes and deduplicates them, then produces defanged renderings for safe human reading alongside canonical STIX 2.1 bundles distributed via TAXII servers, MISP, or email reports. Use when preparing indicators of compromise for safe analyst sharing or automating threat intel distribution to TAXII/MISP feeds.",
+    "category": "Security",
+    "tags": [
+      "building",
+      "ioc",
+      "defanging",
+      "sharing",
+      "pipeline",
+      "automated",
+      "ingests",
+      "raw",
+      "iocs",
+      "urls",
+      "ips",
+      "domains",
+      "emails",
+      "normalizes",
+      "deduplicates",
+      "them",
+      "then",
+      "produces"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/building-ioc-defanging-and-sharing-pipeline/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/building-ioc-defanging-and-sharing-pipeline",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-defanging-and-sharing-pipeline",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34399,
+    "sha256": "9e591f420bf2d23115bc2430b240d9bc56e94701f65b45584f4c0f749569b33c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/building-ioc-defanging-and-sharing-pipeline/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-defanging-and-sharing-pipeline/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/building-ioc-defanging-and-sharing-pipeline/SKILL.md",
+      "bytes": 14553,
+      "sha256": "9e591f420bf2d23115bc2430b240d9bc56e94701f65b45584f4c0f749569b33c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-defanging-and-sharing-pipeline/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/building-ioc-defanging-and-sharing-pipeline/references/api-reference.md",
+      "bytes": 1563,
+      "sha256": "8cd17c6464bb444427817cda7d64fa845d0db2b14720951a30e6881c8a8b0aab",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-defanging-and-sharing-pipeline/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/building-ioc-defanging-and-sharing-pipeline/scripts/agent.py",
+      "bytes": 7028,
+      "sha256": "f3aeb2fe56a2c3bec2c6d3cb3fa6296507789854f671a5f6ea38b342cb49de41",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-defanging-and-sharing-pipeline/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "2c74c7902ae61f1da38fdd0bb5e195a808951c9461f132b1f07ac032b1ec00fc"
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-application-whitelisting-with-applocker",
+    "name": "implementing-application-whitelisting-with-applocker",
+    "description": "Implements application whitelisting using Windows AppLocker to restrict unauthorized software execution on endpoints, reducing attack surface from malware, unauthorized tools, and shadow IT. Use when enforcing application control policies, meeting compliance requirements for software restriction, or preventing execution of unsigned or untrusted binaries. Activates for requests involving AppLocker, application whitelisting, software restriction, or executable control.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "application",
+      "whitelisting",
+      "applocker",
+      "implements",
+      "windows",
+      "restrict",
+      "unauthorized",
+      "software",
+      "execution",
+      "endpoints",
+      "reducing",
+      "attack",
+      "surface",
+      "from",
+      "malware",
+      "tools",
+      "shadow"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-application-whitelisting-with-applocker/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-application-whitelisting-with-applocker",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-application-whitelisting-with-applocker",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 49536,
+    "sha256": "e4fe8b7392401c1b78d175b102e344fdbfc392a603bf952b2725759769166f84",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-application-whitelisting-with-applocker/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-application-whitelisting-with-applocker/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-application-whitelisting-with-applocker/SKILL.md",
+      "bytes": 10482,
+      "sha256": "e4fe8b7392401c1b78d175b102e344fdbfc392a603bf952b2725759769166f84",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-application-whitelisting-with-applocker/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-application-whitelisting-with-applocker/assets/template.md",
+      "bytes": 2796,
+      "sha256": "f351569f8406e311814dba817503543640e0fffbd6583c03dc59ac399d90e392",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-application-whitelisting-with-applocker/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-application-whitelisting-with-applocker/references/api-reference.md",
+      "bytes": 1586,
+      "sha256": "77ce8020a2da253e0ba5d8a62c051fee9eefe1292adc8705ce0f9d57fd788ac8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-application-whitelisting-with-applocker/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-application-whitelisting-with-applocker/references/standards.md",
+      "bytes": 2882,
+      "sha256": "522785826860617a7d0780d42ceac7ab67b79a4aa366121be6d89b4ca287efa6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-application-whitelisting-with-applocker/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-application-whitelisting-with-applocker/references/workflows.md",
+      "bytes": 3942,
+      "sha256": "3386dd2f34825301c7970149808073625825462e706a5cda14ae8926ba0e5154",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-application-whitelisting-with-applocker/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-application-whitelisting-with-applocker/scripts/agent.py",
+      "bytes": 7318,
+      "sha256": "75b8e8a27062391bf0aff7bb29ad9c47569dc498549d8311784ed32a42eafc1a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-application-whitelisting-with-applocker/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-application-whitelisting-with-applocker/scripts/process.py",
+      "bytes": 9275,
+      "sha256": "2267de9770d142a66a20d3b2f8fb704757e7be8f5f26d2f6f6bf51140c9efc67",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-application-whitelisting-with-applocker/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "1fe113f47351e3b0dbdf1b50c9231e21f4b3b7c0fa9e834519f81545ea6604b9"
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--auditing-cloud-with-cis-benchmarks",
+    "name": "auditing-cloud-with-cis-benchmarks",
+    "description": "Audit AWS, Azure, and GCP environments against the CIS Foundations Benchmarks by running automated scans with tools like Prowler and ScoutSuite, interpreting failed controls, and tracking remediation for continuous compliance. Use when conducting a cloud security audit, validating CIS benchmark compliance (CIS v5 AWS, v4 Azure, v4 GCP), or setting up continuous cloud compliance monitoring.",
+    "category": "Security",
+    "tags": [
+      "auditing",
+      "cloud",
+      "cis",
+      "benchmarks",
+      "audit",
+      "aws",
+      "azure",
+      "gcp",
+      "environments",
+      "against",
+      "foundations",
+      "by",
+      "running",
+      "automated",
+      "scans",
+      "tools",
+      "like",
+      "prowler"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/auditing-cloud-with-cis-benchmarks/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/auditing-cloud-with-cis-benchmarks",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-cloud-with-cis-benchmarks",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 31706,
+    "sha256": "71572e75783b52aaf69d86e038890cd4c6d0e58c41522716258ff326415a25bc",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/auditing-cloud-with-cis-benchmarks/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-cloud-with-cis-benchmarks/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/auditing-cloud-with-cis-benchmarks/SKILL.md",
+      "bytes": 12103,
+      "sha256": "71572e75783b52aaf69d86e038890cd4c6d0e58c41522716258ff326415a25bc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-cloud-with-cis-benchmarks/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/auditing-cloud-with-cis-benchmarks/references/api-reference.md",
+      "bytes": 1956,
+      "sha256": "5b03b5003fed6349e8e13371b93e94d19e62b3779af3ca0fb9d5cbe656f5ab47",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-cloud-with-cis-benchmarks/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/auditing-cloud-with-cis-benchmarks/scripts/agent.py",
+      "bytes": 6392,
+      "sha256": "7fa3179b7a2d8ab54fa6a6670dac30216250a6cae36bf4deb4abe0dffd4f7678",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-cloud-with-cis-benchmarks/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "25e4966f5bc7657d85cba8f65bf94946c7bf382ce058864ce05b23a4fe6b226c"
+}

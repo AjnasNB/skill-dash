@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--changelog-entry",
+    "name": "changelog-entry",
+    "description": "Generate a properly formatted CHANGELOG.md entry in Keep a Changelog format from a commit range or PR. Groups changes into Added/Changed/Deprecated/Removed/Fixed/Security categories and outputs a ready-to-paste block.",
+    "category": "Security",
+    "tags": [
+      "changelog",
+      "entry",
+      "generate",
+      "properly",
+      "formatted",
+      "changelog.md",
+      "keep",
+      "format",
+      "from",
+      "commit",
+      "range",
+      "pr.",
+      "groups",
+      "changes",
+      "into",
+      "added",
+      "changed",
+      "deprecated"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/changelog-entry",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/changelog-entry",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5363,
+    "sha256": "4962b1cbab98b2feed31bb62d25915902942222071a5cbc4b20e2a0f5065aaff",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/changelog-entry/SKILL.md",
+      "bytes": 4290,
+      "sha256": "4962b1cbab98b2feed31bb62d25915902942222071a5cbc4b20e2a0f5065aaff",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/changelog-entry/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "daf941b6d9aedeab68021d0f94ea318bf35e6b242f0c9b0f7b6d79f0fac023f3"
+}

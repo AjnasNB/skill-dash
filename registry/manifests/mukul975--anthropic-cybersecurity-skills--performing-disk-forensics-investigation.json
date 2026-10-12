@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-disk-forensics-investigation",
+    "name": "performing-disk-forensics-investigation",
+    "description": "Conduct disk forensics investigations using forensic imaging, file system analysis, and timeline reconstruction, with tools such as FTK Imager, Autopsy, and The Sleuth Kit, for evidence acquisition, deleted file recovery, and artifact examination. Use when a security incident requires forensic analysis of persistent storage or when evidence must be preserved for legal or HR proceedings.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "disk",
+      "forensics",
+      "investigation",
+      "conduct",
+      "investigations",
+      "forensic",
+      "imaging",
+      "file",
+      "system",
+      "analysis",
+      "timeline",
+      "reconstruction",
+      "tools",
+      "such",
+      "as",
+      "ftk",
+      "imager"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-disk-forensics-investigation/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-disk-forensics-investigation",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-disk-forensics-investigation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32919,
+    "sha256": "b4b0d1bf5aad45589071fd24eae3c97ad05cbc2ee9b7f5b3ede89b889dacc0af",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-disk-forensics-investigation/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-disk-forensics-investigation/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-disk-forensics-investigation/SKILL.md",
+      "bytes": 10780,
+      "sha256": "b4b0d1bf5aad45589071fd24eae3c97ad05cbc2ee9b7f5b3ede89b889dacc0af",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-disk-forensics-investigation/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-disk-forensics-investigation/references/api-reference.md",
+      "bytes": 2136,
+      "sha256": "15fc26dd2afc1617e36efd30c0f9a8383c01dd65b659c9693588a10ae5e7a73f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-disk-forensics-investigation/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-disk-forensics-investigation/scripts/agent.py",
+      "bytes": 8748,
+      "sha256": "ecc49c6be94f500acebfa59fddbd142768804474556d278dd97bb3d1f6bde402",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-disk-forensics-investigation/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "dfc2c03bffb771bec4509042b76cc65b54d4031cd1281ccd826e524942a52814"
+}

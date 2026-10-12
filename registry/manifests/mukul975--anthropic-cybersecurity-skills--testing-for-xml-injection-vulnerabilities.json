@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--testing-for-xml-injection-vulnerabilities",
+    "name": "testing-for-xml-injection-vulnerabilities",
+    "description": "Test web applications for XML injection vulnerabilities including XXE, XPath injection, and XML entity attacks to identify data exposure and server-side request forgery risks.",
+    "category": "Security",
+    "tags": [
+      "testing",
+      "xml",
+      "injection",
+      "vulnerabilities",
+      "test",
+      "web",
+      "applications",
+      "including",
+      "xxe",
+      "xpath",
+      "entity",
+      "attacks",
+      "identify",
+      "data",
+      "exposure",
+      "server",
+      "side",
+      "request"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/testing-for-xml-injection-vulnerabilities/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/testing-for-xml-injection-vulnerabilities",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-xml-injection-vulnerabilities",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 28591,
+    "sha256": "7eb75bc6499dab8d1aea8e52d00dd8760acd53fafc4942b185fbba7f2bec6b4b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/testing-for-xml-injection-vulnerabilities/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-xml-injection-vulnerabilities/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/testing-for-xml-injection-vulnerabilities/SKILL.md",
+      "bytes": 7814,
+      "sha256": "7eb75bc6499dab8d1aea8e52d00dd8760acd53fafc4942b185fbba7f2bec6b4b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-xml-injection-vulnerabilities/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/testing-for-xml-injection-vulnerabilities/references/api-reference.md",
+      "bytes": 1724,
+      "sha256": "8e842307e9a0539ad642ac561b0ab1df2198a6b03e7e26be919cd2f11c44d5d9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-xml-injection-vulnerabilities/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/testing-for-xml-injection-vulnerabilities/scripts/agent.py",
+      "bytes": 7798,
+      "sha256": "6fa4f8273c8b4fb8cbfc11d08f0243845aec9f70fea78f23d11b6a38074907bf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-xml-injection-vulnerabilities/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "1f1f1962f61678a03373a8cc6b8204ba7a528bd06a758a69c94121b32bc719e8"
+}

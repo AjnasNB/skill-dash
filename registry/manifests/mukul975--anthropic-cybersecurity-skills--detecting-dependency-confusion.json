@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-dependency-confusion",
+    "name": "detecting-dependency-confusion",
+    "description": "Detect and prevent dependency confusion (public-over-private package name resolution) in npm, PyPI, and Maven by enumerating claimable internal package names with tools like `confused` and OWASP `dep-scan`, then enforcing source restrictions via `.npmrc`, `pip.conf`/`pyproject.toml`, and Maven `settings.xml`. Use when onboarding a repo to a supply-chain security program, auditing lockfiles/manifests for confusable dependencies, or after an incident that may have leaked internal package names.",
+    "category": "Security",
+    "tags": [
+      "detecting",
+      "dependency",
+      "confusion",
+      "detect",
+      "prevent",
+      "public",
+      "over",
+      "private",
+      "package",
+      "name",
+      "resolution",
+      "npm",
+      "pypi",
+      "maven",
+      "by",
+      "enumerating",
+      "claimable",
+      "internal"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-dependency-confusion/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-dependency-confusion",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dependency-confusion",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 32875,
+    "sha256": "7197c1fe6cbe07ea5525e999d313aef810ac8736ad84e982b7e6a5fc120368f6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-dependency-confusion/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dependency-confusion/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-dependency-confusion/SKILL.md",
+      "bytes": 11789,
+      "sha256": "7197c1fe6cbe07ea5525e999d313aef810ac8736ad84e982b7e6a5fc120368f6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dependency-confusion/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-dependency-confusion/references/api-reference.md",
+      "bytes": 2275,
+      "sha256": "f60cc9c4f4ec4d120951fc08971e21af539ddcca52a6d236cea9047ad6213e6b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dependency-confusion/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/detecting-dependency-confusion/references/standards.md",
+      "bytes": 1643,
+      "sha256": "1f37562cd7e45e5555d491e513f42f9829e258e9006979f412c6a22ea809adf5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dependency-confusion/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-dependency-confusion/scripts/agent.py",
+      "bytes": 5913,
+      "sha256": "64395418c840fb8459c2bb59ff8a6ed6aa5559026c9ffe924656b991f477b33c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dependency-confusion/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "757f9c2791cf662ec9c3d939448afd3c2921cb17580aad275a051bf41b3e4616"
+}

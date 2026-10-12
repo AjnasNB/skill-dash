@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--docker-expert","name":"docker-expert","description":"You are an advanced Docker containerization expert with comprehensive, practical knowledge of container optimization, security hardening, multi-stage builds, orchestration patterns, and production deployment strategies based on current industry best practices.","category":"Security","tags":["docker","expert","you","are","advanced","containerization","comprehensive","practical","knowledge","container","optimization","security","hardening","multi","stage","builds","orchestration","patterns"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":46853,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"21efc48cceaf0f7043fa496ad8fcd5815637121e","path":"skills/docker-expert","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/docker-expert","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T06:08:57Z","fileCount":2,"bytes":15515,"sha256":"a79cc1e210de964c1d479a892ae11f661c72659aab209dc18389c6dbca3a1588","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/docker-expert/SKILL.md","bytes":14442,"sha256":"a79cc1e210de964c1d479a892ae11f661c72659aab209dc18389c6dbca3a1588","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/docker-expert/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/LICENSE"}],"archiveSha256":"b86b620196c013d4b3cbaf8a6b983ef449460ecbdf757f185b8efced67330b01"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--docker-expert",
+    "name": "docker-expert",
+    "description": "You are an advanced Docker containerization expert with comprehensive, practical knowledge of container optimization, security hardening, multi-stage builds, orchestration patterns, and production deployment strategies based on current industry best practices.",
+    "category": "Security",
+    "tags": [
+      "docker",
+      "expert",
+      "you",
+      "are",
+      "advanced",
+      "containerization",
+      "comprehensive",
+      "practical",
+      "knowledge",
+      "container",
+      "optimization",
+      "security",
+      "hardening",
+      "multi",
+      "stage",
+      "builds",
+      "orchestration",
+      "patterns"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/docker-expert",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docker-expert",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 15515,
+    "sha256": "a79cc1e210de964c1d479a892ae11f661c72659aab209dc18389c6dbca3a1588",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/docker-expert/SKILL.md",
+      "bytes": 14442,
+      "sha256": "a79cc1e210de964c1d479a892ae11f661c72659aab209dc18389c6dbca3a1588",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docker-expert/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "30ea88bf5fe533928c47e01dbfd772ce27544c429c1e372b8a5d8b783e11bfa6"
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--auditing-entra-id-with-aadinternals",
+    "name": "auditing-entra-id-with-aadinternals",
+    "description": "Drive the AADInternals PowerShell toolkit to perform Microsoft Entra ID tenant reconnaissance, access-token acquisition across Microsoft APIs, and federation/AD FS backdoor testing (Golden SAML, T1606.002) for defensive validation. Use during an authorized Entra ID/Microsoft 365 red-team assessment to map external attack surface or verify AD FS signing certs resist Golden SAML.",
+    "category": "Development",
+    "tags": [
+      "auditing",
+      "entra",
+      "id",
+      "aadinternals",
+      "drive",
+      "powershell",
+      "toolkit",
+      "perform",
+      "microsoft",
+      "tenant",
+      "reconnaissance",
+      "access",
+      "token",
+      "acquisition",
+      "across",
+      "apis",
+      "federation",
+      "ad"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/auditing-entra-id-with-aadinternals/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/auditing-entra-id-with-aadinternals",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-entra-id-with-aadinternals",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 30405,
+    "sha256": "fba44cf420cd64854b556d9a97407cd6e1788f4b781888d5b08cc0c6df50115d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/auditing-entra-id-with-aadinternals/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-entra-id-with-aadinternals/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/auditing-entra-id-with-aadinternals/SKILL.md",
+      "bytes": 10774,
+      "sha256": "fba44cf420cd64854b556d9a97407cd6e1788f4b781888d5b08cc0c6df50115d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-entra-id-with-aadinternals/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/auditing-entra-id-with-aadinternals/references/api-reference.md",
+      "bytes": 2532,
+      "sha256": "f0b9f884be11ba44cd2ff0b158a116f2f9e9dea244783381f51e636b07072ca4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-entra-id-with-aadinternals/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/auditing-entra-id-with-aadinternals/references/standards.md",
+      "bytes": 1174,
+      "sha256": "9dc185d1251724069ac5c8fff5a4fcb603976f4c876a5f887aaf974f5f702b8e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-entra-id-with-aadinternals/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/auditing-entra-id-with-aadinternals/scripts/agent.py",
+      "bytes": 4670,
+      "sha256": "f9602fa3ee3e23bd4dbaa1ed6f444b6475fa216232f8a59a6788445f67e1b4d4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-entra-id-with-aadinternals/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "5dd64e8119b2b63abbda1c2d78e418d114a6d0b1d79c5c25cc09badc04625a5b"
+}

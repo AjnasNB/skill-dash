@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-threat-emulation-with-atomic-red-team",
+    "name": "performing-threat-emulation-with-atomic-red-team",
+    "description": "Executes Atomic Red Team tests for MITRE ATT&CK technique validation using the atomic-operator Python framework. Loads test definitions from YAML atomics, runs attack simulations, and validates detection coverage. Use when testing SIEM detection rules, validating EDR coverage, or conducting purple team exercises.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "threat",
+      "emulation",
+      "atomic",
+      "red",
+      "team",
+      "executes",
+      "tests",
+      "mitre",
+      "att",
+      "ck",
+      "technique",
+      "validation",
+      "operator",
+      "python",
+      "framework.",
+      "loads",
+      "test"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-threat-emulation-with-atomic-red-team/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-threat-emulation-with-atomic-red-team",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-emulation-with-atomic-red-team",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 23480,
+    "sha256": "1f0aab02d769d9853e27ea003120fb71716d59515e146ae17290b684fcd736fe",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-threat-emulation-with-atomic-red-team/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-emulation-with-atomic-red-team/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-threat-emulation-with-atomic-red-team/SKILL.md",
+      "bytes": 2543,
+      "sha256": "1f0aab02d769d9853e27ea003120fb71716d59515e146ae17290b684fcd736fe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-emulation-with-atomic-red-team/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-threat-emulation-with-atomic-red-team/references/api-reference.md",
+      "bytes": 1709,
+      "sha256": "04eda761fcfb93f330454cc78e592d8843beca677f2102e770c46f4f01b4ceb3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-emulation-with-atomic-red-team/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-threat-emulation-with-atomic-red-team/scripts/agent.py",
+      "bytes": 7973,
+      "sha256": "0c46742767659b75e8078e69ee696a07fa2afa45e78d37f48c6a7cf5cba7e4c2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-emulation-with-atomic-red-team/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "c175cebde56c4763892a3c6817e639fc07b05e118d943a603c564e4e73672f33"
+}

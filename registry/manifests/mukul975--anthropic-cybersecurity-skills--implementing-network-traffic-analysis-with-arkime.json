@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-network-traffic-analysis-with-arkime",
+    "name": "implementing-network-traffic-analysis-with-arkime",
+    "description": "Queries Arkime (formerly Moloch) full packet capture via its API to search sessions, download PCAPs, detect C2 beaconing through connection interval/jitter stats, spot DNS tunneling via query-length analysis, and flag known-bad TLS certificate issuers, using the bundled scripts/agent.py. Use when investigating suspicious network flows or doing full-packet-capture forensics against an Arkime deployment.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "network",
+      "traffic",
+      "analysis",
+      "arkime",
+      "queries",
+      "formerly",
+      "moloch",
+      "full",
+      "packet",
+      "capture",
+      "via",
+      "its",
+      "api",
+      "search",
+      "sessions",
+      "download",
+      "pcaps"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-network-traffic-analysis-with-arkime/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-network-traffic-analysis-with-arkime",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-traffic-analysis-with-arkime",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 23876,
+    "sha256": "2117787cf61458430176225bf51cbb616d446ba378107fd36022b57dc84e8a07",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-network-traffic-analysis-with-arkime/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-traffic-analysis-with-arkime/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-network-traffic-analysis-with-arkime/SKILL.md",
+      "bytes": 2226,
+      "sha256": "2117787cf61458430176225bf51cbb616d446ba378107fd36022b57dc84e8a07",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-traffic-analysis-with-arkime/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-network-traffic-analysis-with-arkime/references/api-reference.md",
+      "bytes": 2018,
+      "sha256": "2bb2d8108a85f22c542cb9c490a013a0f49b571bd9848039333b49eca207077e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-traffic-analysis-with-arkime/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-network-traffic-analysis-with-arkime/scripts/agent.py",
+      "bytes": 8377,
+      "sha256": "c8289ac3957766c55189a49598cadc838570434779044a5ed990fd8051a82d99",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-traffic-analysis-with-arkime/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "745c2d50b7a8bc4c8f799ede8cfcfd44e8f805c0f47af420b2ea1bae9550c4bd"
+}

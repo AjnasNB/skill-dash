@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-golden-ticket-forgery",
+    "name": "detecting-golden-ticket-forgery",
+    "description": "Detect Kerberos Golden Ticket forgery (e.g. Mimikatz-forged tickets) by analyzing Windows Event ID 4769 for RC4 encryption downgrades (0x17), abnormal ticket lifetimes, and krbtgt account anomalies using Splunk and Elastic SIEM queries. Use when investigating suspected forged Kerberos tickets or krbtgt credential theft in Active Directory.",
+    "category": "Development",
+    "tags": [
+      "detecting",
+      "golden",
+      "ticket",
+      "forgery",
+      "detect",
+      "kerberos",
+      "e.g.",
+      "mimikatz",
+      "forged",
+      "tickets",
+      "by",
+      "analyzing",
+      "windows",
+      "event",
+      "id",
+      "4769",
+      "rc4",
+      "encryption"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-golden-ticket-forgery/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-golden-ticket-forgery",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-golden-ticket-forgery",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 24758,
+    "sha256": "85917ce0a935bf7d533efae8235ac367124f727e01b67f400516f293d855eb37",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-golden-ticket-forgery/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-golden-ticket-forgery/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-golden-ticket-forgery/SKILL.md",
+      "bytes": 2705,
+      "sha256": "85917ce0a935bf7d533efae8235ac367124f727e01b67f400516f293d855eb37",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-golden-ticket-forgery/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-golden-ticket-forgery/references/api-reference.md",
+      "bytes": 2344,
+      "sha256": "daa528c04226e423d5917eb44912affd216952e168663415f6855e872d03302e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-golden-ticket-forgery/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-golden-ticket-forgery/scripts/agent.py",
+      "bytes": 8454,
+      "sha256": "946ff608e0622447c5a9ece1c8c44deda1228ed933b03a80ce19c50a5a127a9e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-golden-ticket-forgery/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "4c92866ccf6990cd099248cede07b01ec0a22ddeda1081d49047be9dd624ae54"
+}

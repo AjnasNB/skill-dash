@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-access-review-and-certification",
+    "name": "performing-access-review-and-certification",
+    "description": "Designs and runs access review and certification campaigns-scoping, reviewer selection, risk-based prioritization, micro-certification, and remediation tracking-to verify user access matches job roles for SOX, HIPAA, and PCI DSS compliance. Use when planning or executing periodic access recertification or preparing evidence for an IAM compliance audit.",
+    "category": "Development",
+    "tags": [
+      "performing",
+      "access",
+      "review",
+      "certification",
+      "designs",
+      "runs",
+      "campaigns",
+      "scoping",
+      "reviewer",
+      "selection",
+      "risk",
+      "based",
+      "prioritization",
+      "micro",
+      "remediation",
+      "tracking",
+      "verify",
+      "user"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-access-review-and-certification/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-access-review-and-certification",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-access-review-and-certification",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 41685,
+    "sha256": "a91adc55d84d7c1779465a9f09ab06ea47ac37a2314def2e944c374592ba07a9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-access-review-and-certification/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-access-review-and-certification/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-access-review-and-certification/SKILL.md",
+      "bytes": 6335,
+      "sha256": "a91adc55d84d7c1779465a9f09ab06ea47ac37a2314def2e944c374592ba07a9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-access-review-and-certification/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-access-review-and-certification/assets/template.md",
+      "bytes": 1316,
+      "sha256": "390fd2a8dfea5da8d4556c43a1101eb0b2ab6f602c9950bcc1cc704ad3df9fa7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-access-review-and-certification/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-access-review-and-certification/references/api-reference.md",
+      "bytes": 1455,
+      "sha256": "317bbfc382f4bd01ded6dbd52c8ac475a762a573f83f2100b21bb48343836bea",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-access-review-and-certification/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-access-review-and-certification/references/standards.md",
+      "bytes": 1058,
+      "sha256": "281d13d258ebf905d662132093b6096a2e6f1a71cd6e16ffd58eb0bbce0238bb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-access-review-and-certification/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-access-review-and-certification/references/workflows.md",
+      "bytes": 2317,
+      "sha256": "dc6f5401e3b5e2b050a80364417843810a8b56656f4f6496c60785d18ee49886",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-access-review-and-certification/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-access-review-and-certification/scripts/agent.py",
+      "bytes": 5525,
+      "sha256": "d07ba8312f6769ffb2df9fdcf6c96de51fded71fb9ad0bdaa02e5a5ab4c3ff74",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-access-review-and-certification/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-access-review-and-certification/scripts/process.py",
+      "bytes": 12424,
+      "sha256": "537d8f13770ff624998b043671ed6b2d5c8805df3c775795fd37c801a3676a94",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-access-review-and-certification/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "3b6805cd9eb6c0fea4aacc7156b95086c503171d5bb9e2a20e29a2d580e23a7d"
+}

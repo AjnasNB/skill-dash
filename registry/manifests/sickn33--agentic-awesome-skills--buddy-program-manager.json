@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--buddy-program-manager",
+    "name": "buddy-program-manager",
+    "description": "Buddy programme register: new hire, assigned buddy, department, start and end dates, check-ins planned and done, and feedback score. Use for onboarding buddy schemes.",
+    "category": "Development",
+    "tags": [
+      "buddy",
+      "program",
+      "manager",
+      "programme",
+      "register",
+      "new",
+      "hire",
+      "assigned",
+      "department",
+      "start",
+      "end",
+      "dates",
+      "check",
+      "ins",
+      "planned",
+      "done",
+      "feedback",
+      "score."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/buddy-program-manager",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/buddy-program-manager",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 16040,
+    "sha256": "4b895e32e4735ef2efd5f21a9dac4954f15f513200c778f501bdbba89da1cdaf",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/buddy-program-manager/SKILL.md",
+      "bytes": 14967,
+      "sha256": "4b895e32e4735ef2efd5f21a9dac4954f15f513200c778f501bdbba89da1cdaf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/buddy-program-manager/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "b76dfb8854bc492afb8466497cec0f6b027c006932e3d773ba8ca421bca41309"
+}

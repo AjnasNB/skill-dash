@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-dcsync-attack-in-active-directory",
+    "name": "detecting-dcsync-attack-in-active-directory",
+    "description": "Detect DCSync attacks (MITRE T1003.006) where adversaries abuse Active Directory replication privileges to extract password hashes, by auditing Event ID 4662 for the DS-Replication-Get-Changes GUIDs and flagging non-domain-controller accounts issuing DsGetNCChanges RPC calls. Use when hunting for credential theft via Mimikatz lsadump::dcsync or Impacket secretsdump, investigating lateral movement with domain admin credentials, or auditing AD replication permissions.",
+    "category": "Development",
+    "tags": [
+      "detecting",
+      "dcsync",
+      "attack",
+      "active",
+      "directory",
+      "detect",
+      "attacks",
+      "mitre",
+      "t1003.006",
+      "where",
+      "adversaries",
+      "abuse",
+      "replication",
+      "privileges",
+      "extract",
+      "password",
+      "hashes",
+      "by"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-dcsync-attack-in-active-directory/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-dcsync-attack-in-active-directory",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dcsync-attack-in-active-directory",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 39488,
+    "sha256": "36923e8575fafbe0e5f3f97125c63b915e37590ee6dded35b8dfd6a007d156af",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-dcsync-attack-in-active-directory/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dcsync-attack-in-active-directory/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-dcsync-attack-in-active-directory/SKILL.md",
+      "bytes": 6771,
+      "sha256": "36923e8575fafbe0e5f3f97125c63b915e37590ee6dded35b8dfd6a007d156af",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dcsync-attack-in-active-directory/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/detecting-dcsync-attack-in-active-directory/assets/template.md",
+      "bytes": 1674,
+      "sha256": "5a3d523e81de3de12a4ca628bfd20bf1dfc548bd74ae0ebd8f8b0a4c62958ab0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dcsync-attack-in-active-directory/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-dcsync-attack-in-active-directory/references/api-reference.md",
+      "bytes": 2081,
+      "sha256": "308974d465d8ff50203a724f6c82ce7d32d34ad13f2add760def86e44b1bea2f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dcsync-attack-in-active-directory/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/detecting-dcsync-attack-in-active-directory/references/standards.md",
+      "bytes": 2372,
+      "sha256": "0cd96908f7f38d0bfed05dfa749db64db5dd370301034c7c5fb492c8a0e682cb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dcsync-attack-in-active-directory/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/detecting-dcsync-attack-in-active-directory/references/workflows.md",
+      "bytes": 3106,
+      "sha256": "fe6dfe614aa570184623a9ff723737a1c1a3b47f4a91bdf931e3870780c26d7f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dcsync-attack-in-active-directory/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-dcsync-attack-in-active-directory/scripts/agent.py",
+      "bytes": 6252,
+      "sha256": "b39b38d16e109a7030f60d7c72cb6075e1d55a64e40ee06e9ea7e010f96b9118",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dcsync-attack-in-active-directory/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/detecting-dcsync-attack-in-active-directory/scripts/process.py",
+      "bytes": 5977,
+      "sha256": "d9d2016a63cee09e13d4dd875bcc0775c1448260edbd1c544f3b32670a81481a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-dcsync-attack-in-active-directory/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "2e69a355064f3406ec85285330c4f2e6d0d4d227d615bb0b2edc4f4f7c26ee06"
+}

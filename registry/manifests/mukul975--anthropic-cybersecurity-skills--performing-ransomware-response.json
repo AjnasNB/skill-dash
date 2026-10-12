@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-ransomware-response",
+    "name": "performing-ransomware-response",
+    "description": "Executes a structured ransomware incident response from detection through containment, forensic analysis, decryption assessment, recovery, and post-incident hardening, covering ransom negotiation, backup integrity verification, and regulatory notification. Use when actively responding to a ransomware outbreak or crypto-ransomware infection, or deciding on ransom payment and containment steps.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "ransomware",
+      "response",
+      "executes",
+      "structured",
+      "incident",
+      "from",
+      "detection",
+      "through",
+      "containment",
+      "forensic",
+      "analysis",
+      "decryption",
+      "assessment",
+      "recovery",
+      "post",
+      "hardening",
+      "covering"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-ransomware-response/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-ransomware-response",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ransomware-response",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34224,
+    "sha256": "4844a1556378fd846c92122311c742580742fbb3f84cec2c7badf5956e385c85",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-ransomware-response/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ransomware-response/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-ransomware-response/SKILL.md",
+      "bytes": 11613,
+      "sha256": "4844a1556378fd846c92122311c742580742fbb3f84cec2c7badf5956e385c85",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ransomware-response/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-ransomware-response/references/api-reference.md",
+      "bytes": 2060,
+      "sha256": "8c6659f2ec0f1742bd3b9dba27b562fd6606125ba17a9cb9bfd71f27b5872a7b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ransomware-response/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-ransomware-response/scripts/agent.py",
+      "bytes": 9296,
+      "sha256": "c7d9c9397b110c2f33608ffe1008fdc89976ffcbdbdb38c5ceaa3649df6e7ba6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ransomware-response/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "9d17a5bd0ced808e948968ece04d95f09b5a0eeae1cfd301d7069607102a556d"
+}

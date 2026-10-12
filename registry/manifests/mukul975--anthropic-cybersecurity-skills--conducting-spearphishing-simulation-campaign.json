@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--conducting-spearphishing-simulation-campaign",
+    "name": "conducting-spearphishing-simulation-campaign",
+    "description": "Run a targeted spearphishing simulation for initial access by developing OSINT-derived pretexts, building payloads (HTML smuggling, macro docs, ISO/LNK, OneNote, QR codes), standing up look-alike-domain email infrastructure with SPF/DKIM/DMARC via GoPhish, and tracking results. Use in authorized engagements to gain initial access via personalized phishing against specific individuals, distinct from broad campaigns.",
+    "category": "Marketing",
+    "tags": [
+      "conducting",
+      "spearphishing",
+      "simulation",
+      "campaign",
+      "run",
+      "targeted",
+      "initial",
+      "access",
+      "by",
+      "developing",
+      "osint",
+      "derived",
+      "pretexts",
+      "building",
+      "payloads",
+      "html",
+      "smuggling",
+      "macro"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/conducting-spearphishing-simulation-campaign/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/conducting-spearphishing-simulation-campaign",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-spearphishing-simulation-campaign",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 60939,
+    "sha256": "23476c81a7d60fbe85d80cda90bb4d81df61b7ef26749f7326c2f378f0dce353",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/conducting-spearphishing-simulation-campaign/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-spearphishing-simulation-campaign/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/conducting-spearphishing-simulation-campaign/SKILL.md",
+      "bytes": 6674,
+      "sha256": "23476c81a7d60fbe85d80cda90bb4d81df61b7ef26749f7326c2f378f0dce353",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-spearphishing-simulation-campaign/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/conducting-spearphishing-simulation-campaign/assets/template.md",
+      "bytes": 4532,
+      "sha256": "9fe0b239c77f2857277ecfdf86a697e66f10dd13dcc05bfe1961ad6170e8b264",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-spearphishing-simulation-campaign/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/conducting-spearphishing-simulation-campaign/references/api-reference.md",
+      "bytes": 1686,
+      "sha256": "8198b74c9c9fc570ca6a6b3bf52b0218f2220cb372577efeb22233cfc08513e7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-spearphishing-simulation-campaign/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/conducting-spearphishing-simulation-campaign/references/standards.md",
+      "bytes": 3015,
+      "sha256": "062f2e5e5949b95781fd71ecbeef3af10c0ec9a5d9036913668e29d5df32ecb1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-spearphishing-simulation-campaign/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/conducting-spearphishing-simulation-campaign/references/workflows.md",
+      "bytes": 6729,
+      "sha256": "a7cb5cc20e6bcb410051b77a7562632a50c9ab42a26214b56e43b8d863a85f08",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-spearphishing-simulation-campaign/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/conducting-spearphishing-simulation-campaign/scripts/agent.py",
+      "bytes": 5132,
+      "sha256": "178be062055ce6997d7dd78818a9c85a0406528667dacd92247cca42897e9c52",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-spearphishing-simulation-campaign/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/conducting-spearphishing-simulation-campaign/scripts/process.py",
+      "bytes": 21916,
+      "sha256": "ce43dbe69c1bb7f82418933cd46f9d2db0ef2d1cf82f28c09b1d046e4708ac02",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-spearphishing-simulation-campaign/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "3c8ca71e25b85bf9f8fb9acb1f73f488481124e80f66eecbc90db194c110b7dc"
+}

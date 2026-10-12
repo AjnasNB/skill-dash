@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-cryptographic-audit-of-application",
+    "name": "performing-cryptographic-audit-of-application",
+    "description": "A cryptographic audit systematically reviews an application's use of cryptographic primitives, protocols, and key management to identify vulnerabilities such as weak algorithms, insecure modes, hardco",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "cryptographic",
+      "audit",
+      "application",
+      "systematically",
+      "reviews",
+      "primitives",
+      "protocols",
+      "key",
+      "management",
+      "identify",
+      "vulnerabilities",
+      "such",
+      "as",
+      "weak",
+      "algorithms",
+      "insecure",
+      "modes"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-cryptographic-audit-of-application/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-cryptographic-audit-of-application",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cryptographic-audit-of-application",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 52881,
+    "sha256": "c39ca781b08e121cb8f439090078bacff3cfb629cbe524c40e2de203aa4f86f9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-cryptographic-audit-of-application/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cryptographic-audit-of-application/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-cryptographic-audit-of-application/SKILL.md",
+      "bytes": 3740,
+      "sha256": "c39ca781b08e121cb8f439090078bacff3cfb629cbe524c40e2de203aa4f86f9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cryptographic-audit-of-application/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-cryptographic-audit-of-application/assets/template.md",
+      "bytes": 1802,
+      "sha256": "7c3117afb1850923a676d67efb96b7cb794af54dfee4b8088ac30806519f3031",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cryptographic-audit-of-application/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-cryptographic-audit-of-application/references/api-reference.md",
+      "bytes": 6733,
+      "sha256": "860a5d30df6de5005c4ad537721ab20937007f938f679e00806dc56c26fab22a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cryptographic-audit-of-application/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-cryptographic-audit-of-application/references/standards.md",
+      "bytes": 1477,
+      "sha256": "ad28b077f2aac53de5459f29af41d1152ea07ab4b7d0792dca9c962014d22016",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cryptographic-audit-of-application/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-cryptographic-audit-of-application/references/workflows.md",
+      "bytes": 1443,
+      "sha256": "540b96361ade8f708313cdec8765c880da9f5b5dfa60fcf76c6a8a02266239d7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cryptographic-audit-of-application/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-cryptographic-audit-of-application/scripts/agent.py",
+      "bytes": 13103,
+      "sha256": "45b1fb3b0277818d49c2e00896854635bb7ea01835b4ed5b24ec248ba40392fa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cryptographic-audit-of-application/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-cryptographic-audit-of-application/scripts/process.py",
+      "bytes": 13328,
+      "sha256": "76ecc404d9fecf47119ccc5f7000ee0fabfcc6001f1147a4da09097bbacfc8d8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cryptographic-audit-of-application/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "0fcfa44b28a7035a1d8d3ee2a1921d675c06e82fca8b0663759ff035ee916f77"
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-post-quantum-cryptography-migration",
+    "name": "performing-post-quantum-cryptography-migration",
+    "description": "Assesses organizational readiness for post-quantum cryptography migration per NIST FIPS 203/204/205 standards. Performs cryptographic inventory scanning to identify quantum-vulnerable algorithms (RSA, ECDH, ECDSA), evaluates hybrid TLS configurations with X25519MLKEM768, and validates CRYSTALS-Kyber (ML-KEM) and CRYSTALS-Dilithium (ML-DSA) readiness. Implements crypto-agility assessment using oqs-provider for OpenSSL. Use when planning or executing the transition from classical to post-quantum cryptographic algorithms across enterprise infrastructure.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "performing",
+      "post",
+      "quantum",
+      "cryptography",
+      "migration",
+      "assesses",
+      "organizational",
+      "readiness",
+      "per",
+      "nist",
+      "fips",
+      "203",
+      "204",
+      "205",
+      "standards.",
+      "performs",
+      "cryptographic",
+      "inventory"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-post-quantum-cryptography-migration/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-post-quantum-cryptography-migration",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-post-quantum-cryptography-migration",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 89390,
+    "sha256": "5306f1b76b9a9af4df2cfce66f9d50ec4cc7d5d16b71d2f86ef49862b8aa7845",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-post-quantum-cryptography-migration/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-post-quantum-cryptography-migration/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-post-quantum-cryptography-migration/SKILL.md",
+      "bytes": 12712,
+      "sha256": "5306f1b76b9a9af4df2cfce66f9d50ec4cc7d5d16b71d2f86ef49862b8aa7845",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-post-quantum-cryptography-migration/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-post-quantum-cryptography-migration/references/api-reference.md",
+      "bytes": 8824,
+      "sha256": "22c1a71dd3ecd8cc490f4e5b1d6dfd5646b8d06119bae6f27f352db6c8ad8bb9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-post-quantum-cryptography-migration/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-post-quantum-cryptography-migration/scripts/agent.py",
+      "bytes": 56599,
+      "sha256": "bcd3936259c96e9da0524322c9a20b8f80940f0eb2d593ec5eb7f5b454e2da2f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-post-quantum-cryptography-migration/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "724e05663d5e314e78a5b27ec239574225c845979e6ebeafcfd5f3a61d0e1885"
+}

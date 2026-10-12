@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--audit-log",
+    "name": "audit-log",
+    "description": "Audit trail register: timestamp, user, module, record, action, field changed, old and new value, and the reason for the change. Use for change history and control evidence.",
+    "category": "Development",
+    "tags": [
+      "audit",
+      "log",
+      "trail",
+      "register",
+      "timestamp",
+      "user",
+      "module",
+      "record",
+      "action",
+      "field",
+      "changed",
+      "old",
+      "new",
+      "value",
+      "reason",
+      "change.",
+      "change",
+      "history"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/audit-log",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/audit-log",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 15329,
+    "sha256": "7b63264f381b17d35c46b9b1bbc1557b8850e847738c600f4911ebcc11d3a6ba",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/audit-log/SKILL.md",
+      "bytes": 14256,
+      "sha256": "7b63264f381b17d35c46b9b1bbc1557b8850e847738c600f4911ebcc11d3a6ba",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/audit-log/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "9a6f0da0d49971f94c128cc9e8b0aeb384f4cf4fcd034cdd3b390566d06ec177"
+}

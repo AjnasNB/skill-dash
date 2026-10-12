@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--building-ransomware-playbook-with-cisa-framework",
+    "name": "building-ransomware-playbook-with-cisa-framework",
+    "description": "Builds a structured ransomware incident response playbook aligned with the CISA StopRansomware Guide and NIST Cybersecurity Framework, covering preparation, detection, containment, eradication, recovery, and post-incident phases with actionable checklists. Use when creating or updating a ransomware playbook, running a CISA-aligned readiness assessment, or validating response steps during a tabletop exercise.",
+    "category": "Development",
+    "tags": [
+      "building",
+      "ransomware",
+      "playbook",
+      "cisa",
+      "framework",
+      "builds",
+      "structured",
+      "incident",
+      "response",
+      "aligned",
+      "stopransomware",
+      "guide",
+      "nist",
+      "cybersecurity",
+      "covering",
+      "preparation",
+      "detection",
+      "containment"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/building-ransomware-playbook-with-cisa-framework/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/building-ransomware-playbook-with-cisa-framework",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ransomware-playbook-with-cisa-framework",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 35218,
+    "sha256": "d3eed2727b5e7a04d9d63c3188e92fc886065d547a52571e437705afaf701977",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/building-ransomware-playbook-with-cisa-framework/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ransomware-playbook-with-cisa-framework/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/building-ransomware-playbook-with-cisa-framework/SKILL.md",
+      "bytes": 8751,
+      "sha256": "d3eed2727b5e7a04d9d63c3188e92fc886065d547a52571e437705afaf701977",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ransomware-playbook-with-cisa-framework/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/building-ransomware-playbook-with-cisa-framework/references/api-reference.md",
+      "bytes": 3167,
+      "sha256": "23fa79db979e6263bfc1a81e9d8b5d1051f01295f7f68e3a27dc18b75f21d2fe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ransomware-playbook-with-cisa-framework/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/building-ransomware-playbook-with-cisa-framework/scripts/agent.py",
+      "bytes": 12045,
+      "sha256": "f3035f8b0f47a07439c649903e619c291c790ac2615c4dadc35edee8bd61ef0c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ransomware-playbook-with-cisa-framework/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "1abd94a83bf16c8f1bb59e1a90595d75c704b9f71c1d56306540234132384a32"
+}

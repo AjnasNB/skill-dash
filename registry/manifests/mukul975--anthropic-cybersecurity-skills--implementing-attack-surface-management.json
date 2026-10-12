@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-attack-surface-management",
+    "name": "implementing-attack-surface-management",
+    "description": "Implements external attack surface management (EASM) using Shodan, Censys, and ProjectDiscovery tools (subfinder, httpx, nuclei) for asset discovery, subdomain enumeration, service fingerprinting, and exposure scoring. Includes a weighted risk scoring algorithm based on OWASP attack surface analysis methodology and the Relative Attack Surface Quotient (RSQ). Use when building continuous ASM programs or performing external reconnaissance for security assessments.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "attack",
+      "surface",
+      "management",
+      "implements",
+      "external",
+      "easm",
+      "shodan",
+      "censys",
+      "projectdiscovery",
+      "tools",
+      "subfinder",
+      "httpx",
+      "nuclei",
+      "asset",
+      "discovery",
+      "subdomain",
+      "enumeration"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-attack-surface-management/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-attack-surface-management",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-attack-surface-management",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 57130,
+    "sha256": "425776aa4f183491d9241f0954152cf0744010067bbd7bfeadaf504796e88085",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-attack-surface-management/LICENSE",
+      "bytes": 802,
+      "sha256": "6c5dcaae2f4abb80eb4ea27408b8d4e0eaab3e1760d5cda77b43b7696c05089f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-attack-surface-management/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-attack-surface-management/SKILL.md",
+      "bytes": 7150,
+      "sha256": "425776aa4f183491d9241f0954152cf0744010067bbd7bfeadaf504796e88085",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-attack-surface-management/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-attack-surface-management/references/api-reference.md",
+      "bytes": 9243,
+      "sha256": "7d8e7eeb956faa62d860b4b910fb255cdfcb04f6d3b68627f92d76a643f71922",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-attack-surface-management/references/api-reference.md"
+    },
+    {
+      "path": "references/asm-reference.md",
+      "sourcePath": "skills/implementing-attack-surface-management/references/asm-reference.md",
+      "bytes": 5611,
+      "sha256": "b7182a25241956edbb044e2b477e72901e8f7c95b2d4bab86c2e7558f567696d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-attack-surface-management/references/asm-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-attack-surface-management/scripts/agent.py",
+      "bytes": 34324,
+      "sha256": "ea713d224b41bbbe7f45aec1387715d4f515ab2cd381842c1d0dc4de8a9698c6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-attack-surface-management/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "95147798ba45e859d5b368606c1be85e8ac77f25a3b3dd8254a2b37984458b98"
+}

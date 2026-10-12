@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--lab-hardware-cad",
+    "name": "lab-hardware-cad",
+    "description": "Designs custom laboratory hardware as parametric build123d models and exports fabrication artifacts as STEP, STL, and DXF files - microfluidic chips and molds, optomechanical mounts and breadboard adapters, cuvette and microplate holders, tube racks, animal-behavior rigs, and 3D-printed instrument fixtures. Use when a research task needs a physical part that must mate with standardized labware, an optical table, a cage system, or a printer, CNC, or laser process.",
+    "category": "Data & research",
+    "tags": [
+      "lab",
+      "hardware",
+      "cad",
+      "designs",
+      "custom",
+      "laboratory",
+      "as",
+      "parametric",
+      "build123d",
+      "models",
+      "exports",
+      "fabrication",
+      "artifacts",
+      "step",
+      "stl",
+      "dxf",
+      "files",
+      "microfluidic"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/lab-hardware-cad",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/lab-hardware-cad",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 14,
+    "bytes": 189183,
+    "sha256": "d3e9c67c3f08bfd7c6bb6c91d6ccc6621a72d2f47248965b4db4e1e296426b18",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/lab-hardware-cad/SKILL.md",
+      "bytes": 22830,
+      "sha256": "d3e9c67c3f08bfd7c6bb6c91d6ccc6621a72d2f47248965b4db4e1e296426b18",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/lab-hardware-cad/SKILL.md"
+    },
+    {
+      "path": "assets/standards.json",
+      "sourcePath": "skills/lab-hardware-cad/assets/standards.json",
+      "bytes": 17240,
+      "sha256": "273e47fccfb69493fb67f1ae1ad79d6ed8310bf623597b1e504c1d47ba6dad5e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/lab-hardware-cad/assets/standards.json"
+    },
+    {
+      "path": "references/behavior-rigs.md",
+      "sourcePath": "skills/lab-hardware-cad/references/behavior-rigs.md",
+      "bytes": 7769,
+      "sha256": "e2796e2db6f48ca97f79eece452397dde6c4f89d1f6156a6a34fb434e7ef593e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/lab-hardware-cad/references/behavior-rigs.md"
+    },
+    {
+      "path": "references/build123d-patterns.md",
+      "sourcePath": "skills/lab-hardware-cad/references/build123d-patterns.md",
+      "bytes": 18231,
+      "sha256": "260da9e2e5e088d32246794809241c2966c33882bbf5f1bab8dad16d0299e8d2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/lab-hardware-cad/references/build123d-patterns.md"
+    },
+    {
+      "path": "references/fabrication-limits.md",
+      "sourcePath": "skills/lab-hardware-cad/references/fabrication-limits.md",
+      "bytes": 9255,
+      "sha256": "650fa63102e578c40304ff6d907fd3a1459d264320b0ce6e195a93c803aa69b0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/lab-hardware-cad/references/fabrication-limits.md"
+    },
+    {
+      "path": "references/labware-adapters.md",
+      "sourcePath": "skills/lab-hardware-cad/references/labware-adapters.md",
+      "bytes": 10867,
+      "sha256": "b4eba2275f51fdad96750b420863151c4b38d34ba387f86b2e4f50757381c26f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/lab-hardware-cad/references/labware-adapters.md"
+    },
+    {
+      "path": "references/microfluidics.md",
+      "sourcePath": "skills/lab-hardware-cad/references/microfluidics.md",
+      "bytes": 9715,
+      "sha256": "09d01a260cb9ff1cba3dfad2dd7dc2fd281c207e43628712a6a598fed2996973",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/lab-hardware-cad/references/microfluidics.md"
+    },
+    {
+      "path": "references/optomechanics.md",
+      "sourcePath": "skills/lab-hardware-cad/references/optomechanics.md",
+      "bytes": 7406,
+      "sha256": "acbfc90e50516facf2d302f53eeaeab7c0d9e5dd9f870bafd85b7211f3033037",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/lab-hardware-cad/references/optomechanics.md"
+    },
+    {
+      "path": "references/validation.md",
+      "sourcePath": "skills/lab-hardware-cad/references/validation.md",
+      "bytes": 6825,
+      "sha256": "2f246a8ed468f4d899618f4cf95452b235280af27bd8f5ceb7ec25e07497a567",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/lab-hardware-cad/references/validation.md"
+    },
+    {
+      "path": "scripts/_common.py",
+      "sourcePath": "skills/lab-hardware-cad/scripts/_common.py",
+      "bytes": 27809,
+      "sha256": "2d61d29d11908ebf4a05ee403c8fa8ead0c242c952f116065d6be73590ba211f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/lab-hardware-cad/scripts/_common.py"
+    },
+    {
+      "path": "scripts/check.py",
+      "sourcePath": "skills/lab-hardware-cad/scripts/check.py",
+      "bytes": 28526,
+      "sha256": "e7063701d728fcb4574bc8f0805197c6532ed53dc07552abbad36e860853ebbd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/lab-hardware-cad/scripts/check.py"
+    },
+    {
+      "path": "scripts/gen.py",
+      "sourcePath": "skills/lab-hardware-cad/scripts/gen.py",
+      "bytes": 10733,
+      "sha256": "145410e14a8e7559c988b70775af4521dde38b905635380f29193f1a6f668481",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/lab-hardware-cad/scripts/gen.py"
+    },
+    {
+      "path": "scripts/snapshot.py",
+      "sourcePath": "skills/lab-hardware-cad/scripts/snapshot.py",
+      "bytes": 10909,
+      "sha256": "4d6887482d83df8f20093238597d5b8053294ab7e22de0cad24c5ae32e898e21",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/lab-hardware-cad/scripts/snapshot.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "62bbb8f4e5825ae237cc2bb8fb4083be96b03bc19167a31b2850f79ad7dd067f"
+}

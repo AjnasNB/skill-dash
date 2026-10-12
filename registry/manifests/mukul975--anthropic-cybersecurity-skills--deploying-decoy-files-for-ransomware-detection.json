@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--deploying-decoy-files-for-ransomware-detection",
+    "name": "deploying-decoy-files-for-ransomware-detection",
+    "description": "Deploys canary files (honeytokens) across file systems to detect ransomware encryption activity in real time. Uses strategically placed decoy documents monitored via file integrity monitoring or OS-level watchdogs to trigger alerts when ransomware modifies or encrypts them. Activates for requests involving ransomware canary deployment, honeyfile setup, deception-based ransomware detection, or file integrity monitoring for encryption.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "deploying",
+      "decoy",
+      "files",
+      "ransomware",
+      "detection",
+      "deploys",
+      "canary",
+      "honeytokens",
+      "across",
+      "file",
+      "systems",
+      "detect",
+      "encryption",
+      "activity",
+      "real",
+      "time.",
+      "uses",
+      "strategically"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/deploying-decoy-files-for-ransomware-detection/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/deploying-decoy-files-for-ransomware-detection",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-decoy-files-for-ransomware-detection",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32183,
+    "sha256": "ab4c9d15a796f277d98ce071fe20654a0b266bb129695f80f13f5acb4c92e65a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/deploying-decoy-files-for-ransomware-detection/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-decoy-files-for-ransomware-detection/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/deploying-decoy-files-for-ransomware-detection/SKILL.md",
+      "bytes": 8303,
+      "sha256": "ab4c9d15a796f277d98ce071fe20654a0b266bb129695f80f13f5acb4c92e65a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-decoy-files-for-ransomware-detection/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/deploying-decoy-files-for-ransomware-detection/references/api-reference.md",
+      "bytes": 3201,
+      "sha256": "733b1d39a22ae917c12a80366495909b77cf713e991712cdad6fddda547f72e6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-decoy-files-for-ransomware-detection/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/deploying-decoy-files-for-ransomware-detection/scripts/agent.py",
+      "bytes": 9424,
+      "sha256": "cea2f691e6173d5f6f981c2d56d43b64a999247b2628977cb60aebb3cf51e567",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-decoy-files-for-ransomware-detection/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "7da0f6efbbdd657d9de44f02641654506f6b0892d6f0c0b529f5ea27655be9ff"
+}

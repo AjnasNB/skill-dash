@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-physical-intrusion-assessment",
+    "name": "performing-physical-intrusion-assessment",
+    "description": "Conduct authorized physical penetration testing against facilities, server rooms, and restricted areas using tailgating, RFID badge cloning, lock bypassing, rogue network device deployment, and security-guard procedure testing. Use as part of a full-scope red team engagement to evaluate physical security controls and their path to network access, always under signed client authorization.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "physical",
+      "intrusion",
+      "assessment",
+      "conduct",
+      "authorized",
+      "penetration",
+      "testing",
+      "against",
+      "facilities",
+      "server",
+      "rooms",
+      "restricted",
+      "areas",
+      "tailgating",
+      "rfid",
+      "badge",
+      "cloning"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-physical-intrusion-assessment/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-physical-intrusion-assessment",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-physical-intrusion-assessment",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 44008,
+    "sha256": "2db3b9f69f3f4bd6559a554012a3375087d5c482ebc68dad8ed206e18a3f0133",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-physical-intrusion-assessment/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-physical-intrusion-assessment/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-physical-intrusion-assessment/SKILL.md",
+      "bytes": 8212,
+      "sha256": "2db3b9f69f3f4bd6559a554012a3375087d5c482ebc68dad8ed206e18a3f0133",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-physical-intrusion-assessment/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-physical-intrusion-assessment/assets/template.md",
+      "bytes": 1365,
+      "sha256": "61cc1b4e5c688ffb4b3b7d56fec8884081ff2efb34196a39f9ae0b4770ea930f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-physical-intrusion-assessment/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-physical-intrusion-assessment/references/api-reference.md",
+      "bytes": 1384,
+      "sha256": "391951cbff0970357cd7cfe598edd93b052cb7429b2f8659135e046e873e8a61",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-physical-intrusion-assessment/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-physical-intrusion-assessment/references/standards.md",
+      "bytes": 1390,
+      "sha256": "e3a252225fec2a2f58e1ddee1aa5ecee5352116c6d880ab72b4ceba7126be7b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-physical-intrusion-assessment/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-physical-intrusion-assessment/references/workflows.md",
+      "bytes": 4573,
+      "sha256": "f706d10031021d08bfb2a5521e9059c8f395eb169484524e1a1a52113753b600",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-physical-intrusion-assessment/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-physical-intrusion-assessment/scripts/agent.py",
+      "bytes": 7087,
+      "sha256": "1a5500efad7c0fd8de40bc3d84aef52f29d8becd8188edb379d30d98e2f1eae6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-physical-intrusion-assessment/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-physical-intrusion-assessment/scripts/process.py",
+      "bytes": 8742,
+      "sha256": "09f1552e113fc5d158ee9218fda9a0ca5cf9cdc47e7a597d018a40ca1add5351",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-physical-intrusion-assessment/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "8f88e56b605e0705cba2256264039da99b371ad418c6656dce963b6558d45c40"
+}

@@ -5,6 +5,7 @@ import path from 'node:path';
 import { loadCatalog, loadManifest, PACKAGE_ROOT, REGISTRY_URL } from '../lib/catalog.mjs';
 import { searchCatalog, resolveSkill } from '../lib/search.mjs';
 import { installSkill, installDiscovery, listInstalled, planInstall, fetchVerifiedFile } from '../lib/install.mjs';
+import {validateAgentDetails} from '../lib/listing-details.mjs';
 
 const help = `Skill Library — searchable skills for Codex, Claude Code, and Delta Harness
 
@@ -98,10 +99,9 @@ try {
   } else if (command === 'submit') {
     const repo = rest[0];
     if (!repo || !values.path) throw new Error('Use submit https://github.com/owner/repo --path skills/skill-name');
-    const response = await fetch(`${REGISTRY_URL}/api/submissions`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ repo, path: values.path }), signal: AbortSignal.timeout(30000) });
-    const result = await response.json();
-    if (!response.ok) throw new Error(result.error || `Submission failed (${response.status})`);
-    output(result);
+    const details=validateAgentDetails({repository:repo,skillPath:values.path},'skill');
+    const form=new URL('/publish',REGISTRY_URL);form.searchParams.set('type','skill');form.searchParams.set('repository',details.repository);form.searchParams.set('skillPath',details.skillPath);
+    output({status:'owner-verification-required',formUrl:form.href,schemaUrl:`${REGISTRY_URL}/api/submission-schema`,agentDetails:details,message:'Prepared a skill proposal. The owner must verify email and submit its public details through this form. A receipt is emailed after submission; publication requires review.'});
   } else throw new Error(`Unknown command: ${command}. Run skill-library --help.`);
 } catch (error) {
   if (json) console.log(JSON.stringify({ error: error.message }));

@@ -1,1 +1,57 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--linux-troubleshooting","name":"linux-troubleshooting","description":"Linux system troubleshooting workflow for diagnosing and resolving system issues, performance problems, and service failures.","category":"Automation","tags":["linux","troubleshooting","system","workflow","diagnosing","resolving","issues","performance","problems","service","failures."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":46853,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"21efc48cceaf0f7043fa496ad8fcd5815637121e","path":"skills/linux-troubleshooting","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/linux-troubleshooting","checkedAt":"2026-09-24T09:18:44.317Z","updatedAt":"2026-09-24T06:08:57Z","fileCount":2,"bytes":5475,"sha256":"9f5e9cdd6b72827add86f98c45a80539cd5921eb4e83fff73fd266ca6b4940aa","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/linux-troubleshooting/SKILL.md","bytes":4402,"sha256":"9f5e9cdd6b72827add86f98c45a80539cd5921eb4e83fff73fd266ca6b4940aa","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/skills/linux-troubleshooting/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/21efc48cceaf0f7043fa496ad8fcd5815637121e/LICENSE"}],"archiveSha256":"06df30860086edea5fa2ae50b6cbb347589636abe1031345b5a162ea040a181c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--linux-troubleshooting",
+    "name": "linux-troubleshooting",
+    "description": "Linux system troubleshooting workflow for diagnosing and resolving system issues, performance problems, and service failures.",
+    "category": "Automation",
+    "tags": [
+      "linux",
+      "troubleshooting",
+      "system",
+      "workflow",
+      "diagnosing",
+      "resolving",
+      "issues",
+      "performance",
+      "problems",
+      "service",
+      "failures."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/linux-troubleshooting",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/linux-troubleshooting",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5475,
+    "sha256": "9f5e9cdd6b72827add86f98c45a80539cd5921eb4e83fff73fd266ca6b4940aa",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/linux-troubleshooting/SKILL.md",
+      "bytes": 4402,
+      "sha256": "9f5e9cdd6b72827add86f98c45a80539cd5921eb4e83fff73fd266ca6b4940aa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/linux-troubleshooting/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ade8f59e1a4cb147a8c2f50815c338c61f98b55e7a8dedcc44bf13437097a056"
+}

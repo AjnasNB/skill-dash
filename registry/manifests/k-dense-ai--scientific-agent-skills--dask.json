@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--dask",
+    "name": "dask",
+    "description": "Scales pandas, NumPy, and custom Python research workflows beyond memory or across clusters with Dask. Covers DataFrames, Arrays, Bags, Futures, chunking, schedulers, and distributed diagnostics. Use for partitioned file processing, scientific array computation, or parallel tasks whose memory and dependency structure require Dask.",
+    "category": "Data & research",
+    "tags": [
+      "dask",
+      "scales",
+      "pandas",
+      "numpy",
+      "custom",
+      "python",
+      "research",
+      "workflows",
+      "beyond",
+      "memory",
+      "across",
+      "clusters",
+      "dask.",
+      "covers",
+      "dataframes",
+      "arrays",
+      "bags",
+      "futures"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/dask",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/dask",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 9,
+    "bytes": 97953,
+    "sha256": "3b563a98f4cb42858bb1cc49832a3fa1ff9483d929af57ebe629473538e5a041",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/dask/SKILL.md",
+      "bytes": 17483,
+      "sha256": "3b563a98f4cb42858bb1cc49832a3fa1ff9483d929af57ebe629473538e5a041",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/dask/SKILL.md"
+    },
+    {
+      "path": "references/arrays.md",
+      "sourcePath": "skills/dask/references/arrays.md",
+      "bytes": 13837,
+      "sha256": "9505d826de392bd9ac35a00bb082e275156cd746a251fac36bdb987a11a6fcda",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/dask/references/arrays.md"
+    },
+    {
+      "path": "references/bags.md",
+      "sourcePath": "skills/dask/references/bags.md",
+      "bytes": 11697,
+      "sha256": "4668a74485ae2087eb1d6b4bc732641d1e8ee666fba5661243e6a68767d4c17f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/dask/references/bags.md"
+    },
+    {
+      "path": "references/best-practices.md",
+      "sourcePath": "skills/dask/references/best-practices.md",
+      "bytes": 8097,
+      "sha256": "0d475a1d3ceb341c2bf87b8022fa08e0e3e59fbc516ad00a0c63288ddde597af",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/dask/references/best-practices.md"
+    },
+    {
+      "path": "references/dataframes.md",
+      "sourcePath": "skills/dask/references/dataframes.md",
+      "bytes": 10501,
+      "sha256": "fce72d6db5d694c88110781079b2cabed613422f60523a9c4eae19b2d44797d2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/dask/references/dataframes.md"
+    },
+    {
+      "path": "references/futures.md",
+      "sourcePath": "skills/dask/references/futures.md",
+      "bytes": 13415,
+      "sha256": "6f31c828d7794da2db877fe1f5efe6c8fda11197f1328f66693792bf06368e12",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/dask/references/futures.md"
+    },
+    {
+      "path": "references/review.md",
+      "sourcePath": "skills/dask/references/review.md",
+      "bytes": 8655,
+      "sha256": "599658e990675a39e6f3c0eff7198ecc8565e17a0894f1882850f088597d01ed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/dask/references/review.md"
+    },
+    {
+      "path": "references/schedulers.md",
+      "sourcePath": "skills/dask/references/schedulers.md",
+      "bytes": 13200,
+      "sha256": "ad95a4a2700a74ef8b0cb331f9f622c5dea86987805de8b3316eeba31e839740",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/dask/references/schedulers.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "67699ac15c1694db1a32d1de21d18db7b2bc1137c0f1650cdf6fcd4adb2c60e4"
+}

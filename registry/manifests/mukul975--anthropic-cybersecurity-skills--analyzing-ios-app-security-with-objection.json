@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-ios-app-security-with-objection",
+    "name": "analyzing-ios-app-security-with-objection",
+    "description": "Runtime iOS app security testing with Objection (Frida): inspect keychain and filesystem data, explore app internals at runtime, and validate/bypass client-side protections during authorized mobile assessments.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "ios",
+      "app",
+      "security",
+      "objection",
+      "runtime",
+      "testing",
+      "frida",
+      "inspect",
+      "keychain",
+      "filesystem",
+      "data",
+      "explore",
+      "internals",
+      "at",
+      "validate",
+      "bypass",
+      "client"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-ios-app-security-with-objection/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-ios-app-security-with-objection",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ios-app-security-with-objection",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 48721,
+    "sha256": "bab48e7c16fe54b88444e8fae1735aed6a0750af9d47a4ee32ea29b01fb4ada9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-ios-app-security-with-objection/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ios-app-security-with-objection/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-ios-app-security-with-objection/SKILL.md",
+      "bytes": 6512,
+      "sha256": "bab48e7c16fe54b88444e8fae1735aed6a0750af9d47a4ee32ea29b01fb4ada9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ios-app-security-with-objection/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/analyzing-ios-app-security-with-objection/assets/template.md",
+      "bytes": 2144,
+      "sha256": "4e1ac2e26e3ee000b78c7a4020f754856a4c377f6109ebe7ff42bc602e6c3d53",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ios-app-security-with-objection/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-ios-app-security-with-objection/references/api-reference.md",
+      "bytes": 3514,
+      "sha256": "ff73201f27c1f0aede3eb532eed87fabb257d3242c2a478fa1238e179db3bfef",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ios-app-security-with-objection/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/analyzing-ios-app-security-with-objection/references/standards.md",
+      "bytes": 2704,
+      "sha256": "3f0643dd1da55baac8316ec6eea74407351f749201f026e46227815a014590c4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ios-app-security-with-objection/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/analyzing-ios-app-security-with-objection/references/workflows.md",
+      "bytes": 4205,
+      "sha256": "1486948c2afd49ae2337962050ad8627608d360d91cc9bcff32363d81eaa6668",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ios-app-security-with-objection/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-ios-app-security-with-objection/scripts/agent.py",
+      "bytes": 7320,
+      "sha256": "0490b7916baa665a4d1d1ae5c800958e5e39069ca777fcd61b5b9138bec15035",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ios-app-security-with-objection/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/analyzing-ios-app-security-with-objection/scripts/process.py",
+      "bytes": 11067,
+      "sha256": "15ddab1aa16b03e1bae8a72f189f1b49c39d8c38b35be239b42c01d223bcdb23",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ios-app-security-with-objection/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "46e51fd6113b793e31fb8ec4cd367c6afbd030a4a44a3105402eaa0961ddc545"
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-for-unusual-network-connections",
+    "name": "hunting-for-unusual-network-connections",
+    "description": "Runs a hypothesis-driven threat hunt for command-and-control activity (T1071) by querying SIEM/EDR network telemetry for anomalous outbound traffic, rare destinations, non-standard ports, and unusual connection frequencies from endpoints. Use when hunting for beaconing/C2 traffic, after threat intel flags suspicious infrastructure, or when alerts fire on anomalous connections.",
+    "category": "Security",
+    "tags": [
+      "hunting",
+      "unusual",
+      "network",
+      "connections",
+      "runs",
+      "hypothesis",
+      "driven",
+      "threat",
+      "hunt",
+      "command",
+      "control",
+      "activity",
+      "t1071",
+      "by",
+      "querying",
+      "siem",
+      "edr",
+      "telemetry"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-for-unusual-network-connections/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-for-unusual-network-connections",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-unusual-network-connections",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 34936,
+    "sha256": "383c05440c6715a2b1a925811e4f08ed23c95643c3b6cc56135336f7e6bd93af",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-for-unusual-network-connections/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-unusual-network-connections/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-for-unusual-network-connections/SKILL.md",
+      "bytes": 3655,
+      "sha256": "383c05440c6715a2b1a925811e4f08ed23c95643c3b6cc56135336f7e6bd93af",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-unusual-network-connections/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/hunting-for-unusual-network-connections/assets/template.md",
+      "bytes": 2663,
+      "sha256": "b72b8d4b55246928ef524c92443874ac338ebc73fa037617c582a8887ab19895",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-unusual-network-connections/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-for-unusual-network-connections/references/api-reference.md",
+      "bytes": 1971,
+      "sha256": "8292ce0627678d131d41662e0b5300235ca79e94eef92170eadcbd311e6fa160",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-unusual-network-connections/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/hunting-for-unusual-network-connections/references/standards.md",
+      "bytes": 1586,
+      "sha256": "d270832003a9224be34866b7c5a7ce03bb328cb535fcd5ce59c107277d42bba3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-unusual-network-connections/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/hunting-for-unusual-network-connections/references/workflows.md",
+      "bytes": 2992,
+      "sha256": "bdfcc034bbc25f6f95ac6bef432e6cf0074ae0cbe5f6a445e7f49246ddc7acfe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-unusual-network-connections/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-for-unusual-network-connections/scripts/agent.py",
+      "bytes": 7206,
+      "sha256": "6ca6d5aa94ebe4eefae4cfcd4bd60d71caf0b8e40b9f5869206f1cdf3a72d2fd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-unusual-network-connections/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/hunting-for-unusual-network-connections/scripts/process.py",
+      "bytes": 3608,
+      "sha256": "8666c9d87964ea20d4010561d9f21e1e5288296df1f044fc8da324aa7e9d47ec",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-unusual-network-connections/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "361288974fa52c7dce86d261be52e8afab394af272df3a97c87cf25dde6a9932"
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--mcp-dependency-drift-audit",
+    "name": "mcp-dependency-drift-audit",
+    "description": "Statically audit MCP configs for mutable npm/npx package references before approval or CI, without executing discovered MCP servers.",
+    "category": "AI & agents",
+    "tags": [
+      "mcp",
+      "dependency",
+      "drift",
+      "audit",
+      "statically",
+      "configs",
+      "mutable",
+      "npm",
+      "npx",
+      "package",
+      "references",
+      "before",
+      "approval",
+      "ci",
+      "without",
+      "executing",
+      "discovered",
+      "servers."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/mcp-dependency-drift-audit",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mcp-dependency-drift-audit",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9019,
+    "sha256": "f47c9d5e0e5cda4fcee79d0411cccb009556b8e79e058455d957d4ee69954181",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/mcp-dependency-drift-audit/SKILL.md",
+      "bytes": 7946,
+      "sha256": "f47c9d5e0e5cda4fcee79d0411cccb009556b8e79e058455d957d4ee69954181",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mcp-dependency-drift-audit/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "a17e49edc56c1dd326b1f9bc011a8d784adbafa827dee7816c6d31c0bbdf5eac"
+}

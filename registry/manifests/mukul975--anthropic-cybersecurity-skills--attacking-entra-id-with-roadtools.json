@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--attacking-entra-id-with-roadtools",
+    "name": "attacking-entra-id-with-roadtools",
+    "description": "Enumerate Microsoft Entra ID (Azure AD) tenants with ROADrecon and acquire, exchange, and abuse tokens (including primary refresh tokens) with roadtx. Use for authorized red-team enumeration of a tenant's directory objects or for token-based identity attacks against Entra ID you are explicitly authorized to test.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "attacking",
+      "entra",
+      "id",
+      "roadtools",
+      "enumerate",
+      "microsoft",
+      "azure",
+      "ad",
+      "tenants",
+      "roadrecon",
+      "acquire",
+      "exchange",
+      "abuse",
+      "tokens",
+      "including",
+      "primary",
+      "refresh",
+      "roadtx."
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/attacking-entra-id-with-roadtools/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/attacking-entra-id-with-roadtools",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/attacking-entra-id-with-roadtools",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 29375,
+    "sha256": "cfdc1d07240f778967ac2c10527d8155d87a1e468505234e7ac13411a1f2eff5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/attacking-entra-id-with-roadtools/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/attacking-entra-id-with-roadtools/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/attacking-entra-id-with-roadtools/SKILL.md",
+      "bytes": 8641,
+      "sha256": "cfdc1d07240f778967ac2c10527d8155d87a1e468505234e7ac13411a1f2eff5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/attacking-entra-id-with-roadtools/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/attacking-entra-id-with-roadtools/references/api-reference.md",
+      "bytes": 3118,
+      "sha256": "0976e6ba1fda8d00e41e9914bb2a24270c4218f0fd8c912419c1f8f331098fa0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/attacking-entra-id-with-roadtools/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/attacking-entra-id-with-roadtools/references/standards.md",
+      "bytes": 1480,
+      "sha256": "56151bc65187f3e74dd3fc1e6ad262826cc38d2c2cfb13e8130fdcd93d69aa02",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/attacking-entra-id-with-roadtools/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/attacking-entra-id-with-roadtools/scripts/agent.py",
+      "bytes": 4881,
+      "sha256": "fff81383d742dd46e4bc486890234c8f7f5767edcc50c65039f24297189139bf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/attacking-entra-id-with-roadtools/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "0120ab81fc1600ccaa3cdaff26ae19d3cef8c7097bdf2e3a349d9fd14ed7c1a5"
+}

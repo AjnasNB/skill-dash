@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-attack-path-analysis-with-xm-cyber",
+    "name": "implementing-attack-path-analysis-with-xm-cyber",
+    "description": "Deploys XM Cyber's continuous exposure management platform to build attack graphs that chain vulnerabilities, misconfigurations, identity risks, and credential weaknesses toward critical assets, identifying the small fraction of exposures sitting on converging \"choke points\". Use when mapping attack paths across an environment or prioritizing remediation within a continuous threat exposure management (CTEM) program.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "attack",
+      "path",
+      "analysis",
+      "xm",
+      "cyber",
+      "deploys",
+      "continuous",
+      "exposure",
+      "management",
+      "platform",
+      "graphs",
+      "chain",
+      "vulnerabilities",
+      "misconfigurations",
+      "identity",
+      "risks",
+      "credential"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-attack-path-analysis-with-xm-cyber/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-attack-path-analysis-with-xm-cyber",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-attack-path-analysis-with-xm-cyber",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 43959,
+    "sha256": "bf01618ae13acf99df20bc6f014062d100fffd06e6fcf06391bb4c350b31c30d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-attack-path-analysis-with-xm-cyber/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-attack-path-analysis-with-xm-cyber/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-attack-path-analysis-with-xm-cyber/SKILL.md",
+      "bytes": 10941,
+      "sha256": "bf01618ae13acf99df20bc6f014062d100fffd06e6fcf06391bb4c350b31c30d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-attack-path-analysis-with-xm-cyber/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-attack-path-analysis-with-xm-cyber/assets/template.md",
+      "bytes": 1241,
+      "sha256": "5e967b9bb6209343ba54519e4a63c876bcc358832d59055626a6d6a627e9060f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-attack-path-analysis-with-xm-cyber/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-attack-path-analysis-with-xm-cyber/references/api-reference.md",
+      "bytes": 1708,
+      "sha256": "4314199425e29c0c98f79a4d251b925874014544bcf4ed8e6247d36a27a65b51",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-attack-path-analysis-with-xm-cyber/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-attack-path-analysis-with-xm-cyber/references/standards.md",
+      "bytes": 1324,
+      "sha256": "ee3053d7f37dfbdbc396f33212a68cd32cdb32c9a4b5aef34fac2c348392fda9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-attack-path-analysis-with-xm-cyber/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-attack-path-analysis-with-xm-cyber/references/workflows.md",
+      "bytes": 2928,
+      "sha256": "e622002f5f5dfd4f0d7e2199038c5fe5d4644d44e8351c42aec541f5c20a6b4e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-attack-path-analysis-with-xm-cyber/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-attack-path-analysis-with-xm-cyber/scripts/agent.py",
+      "bytes": 5714,
+      "sha256": "634c774d267d8ff98ec319603810506ed91728b7add0efd887a9370dfedd4f8b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-attack-path-analysis-with-xm-cyber/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-attack-path-analysis-with-xm-cyber/scripts/process.py",
+      "bytes": 8848,
+      "sha256": "a062fab9e7edee71874404fc1ac8a9b0162c25d8b9e1ea625009ea69808b5b14",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-attack-path-analysis-with-xm-cyber/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "b33a0e012d997a79d79ec7f5c9513d93fb136f8d37a4ca9742e4f1a50a14a376"
+}

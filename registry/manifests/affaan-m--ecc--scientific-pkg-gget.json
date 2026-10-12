@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--scientific-pkg-gget",
+    "name": "scientific-pkg-gget",
+    "description": "gget CLI and Python workflow for quick genomic database queries, sequence lookup, BLAST-style searches, enrichment checks, and reproducible bioinformatics evidence logs. Use when a task needs quick bioinformatics lookup across genomic reference databases with the gget CLI or Python package.",
+    "category": "Data & research",
+    "tags": [
+      "scientific",
+      "pkg",
+      "gget",
+      "cli",
+      "python",
+      "workflow",
+      "quick",
+      "genomic",
+      "database",
+      "queries",
+      "sequence",
+      "lookup",
+      "blast",
+      "style",
+      "searches",
+      "enrichment",
+      "checks",
+      "reproducible"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/scientific-pkg-gget",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/scientific-pkg-gget",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 2,
+    "bytes": 6160,
+    "sha256": "9e7f11f0681ad90c91d665689053481a1be70de474855ff51c3d1cc84013d87b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/scientific-pkg-gget/SKILL.md",
+      "bytes": 5089,
+      "sha256": "9e7f11f0681ad90c91d665689053481a1be70de474855ff51c3d1cc84013d87b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/scientific-pkg-gget/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "958008484144f45e72e54b7fa26d7c5ae07e02e27bee54c4936365e1a1e4b52f"
+}

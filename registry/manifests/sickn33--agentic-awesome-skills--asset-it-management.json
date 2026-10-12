@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--asset-it-management",
+    "name": "asset-it-management",
+    "description": "Asset and IT register: serial, model, condition, assignee, location, purchase value, warranty expiry and return date, as CSV, SQL, JSON Schema or Notion on request. Use for asset audits.",
+    "category": "Development",
+    "tags": [
+      "asset",
+      "it",
+      "management",
+      "register",
+      "serial",
+      "model",
+      "condition",
+      "assignee",
+      "location",
+      "purchase",
+      "value",
+      "warranty",
+      "expiry",
+      "return",
+      "date",
+      "as",
+      "csv",
+      "sql"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/asset-it-management",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/asset-it-management",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 17110,
+    "sha256": "eda84acd54414d2f897304d5369f34f6c7f11ca014c6eeb71449111c47cda908",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/asset-it-management/SKILL.md",
+      "bytes": 16037,
+      "sha256": "eda84acd54414d2f897304d5369f34f6c7f11ca014c6eeb71449111c47cda908",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/asset-it-management/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "0c96a73b985c487e0577468d32086e1cf9854cc3b0692cf9dd3a4adb68437076"
+}

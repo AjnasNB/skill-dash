@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--agent-memory-discipline",
+    "name": "agent-memory-discipline",
+    "description": "Rules for when an agent should recall from long-term memory before acting and when it should save decisions, corrections and failures afterwards. Works with any memory backend.",
+    "category": "AI & agents",
+    "tags": [
+      "agent",
+      "memory",
+      "discipline",
+      "rules",
+      "when",
+      "should",
+      "recall",
+      "from",
+      "long",
+      "term",
+      "before",
+      "acting",
+      "it",
+      "save",
+      "decisions",
+      "corrections",
+      "failures",
+      "afterwards."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/agent-memory-discipline",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-memory-discipline",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 14196,
+    "sha256": "478925af18058521437f66f43e44acbc878455809aa967daeb9ad0494f8297cb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/agent-memory-discipline/SKILL.md",
+      "bytes": 11675,
+      "sha256": "478925af18058521437f66f43e44acbc878455809aa967daeb9ad0494f8297cb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-memory-discipline/SKILL.md"
+    },
+    {
+      "path": "references/entry-format.md",
+      "sourcePath": "skills/agent-memory-discipline/references/entry-format.md",
+      "bytes": 1448,
+      "sha256": "097dd075d4288e97c7a4e9cba49273e0f770ec91d3e8896dbc95bec79122f363",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-memory-discipline/references/entry-format.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "63e86eba1b391095471838b5a92d5f36d6c741cd6827a2b72076af618805ff61"
+}

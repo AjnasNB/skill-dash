@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-power-grid-cybersecurity-assessment",
+    "name": "performing-power-grid-cybersecurity-assessment",
+    "description": "Conduct cybersecurity assessments of power grid infrastructure spanning generation, transmission substations, distribution, and EMS control centers, covering NERC CIP compliance verification, IEC 61850 (GOOSE/MMS) substation protocol analysis, and synchrophasor (PMU) network security against threats like Industroyer/CrashOverride. Use for periodic NERC CIP assessments, substation automation or EMS/SCADA security reviews, or regional entity compliance audits; not for non-BES systems or generic OT assessments without power grid specifics.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "power",
+      "grid",
+      "cybersecurity",
+      "assessment",
+      "conduct",
+      "assessments",
+      "infrastructure",
+      "spanning",
+      "generation",
+      "transmission",
+      "substations",
+      "distribution",
+      "ems",
+      "control",
+      "centers",
+      "covering",
+      "nerc"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-power-grid-cybersecurity-assessment/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-power-grid-cybersecurity-assessment",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-power-grid-cybersecurity-assessment",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32299,
+    "sha256": "b3243878935372b28bf062f882bfaec154dda0415763da83e213eab8d73436b2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-power-grid-cybersecurity-assessment/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-power-grid-cybersecurity-assessment/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-power-grid-cybersecurity-assessment/SKILL.md",
+      "bytes": 12072,
+      "sha256": "b3243878935372b28bf062f882bfaec154dda0415763da83e213eab8d73436b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-power-grid-cybersecurity-assessment/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-power-grid-cybersecurity-assessment/references/api-reference.md",
+      "bytes": 1432,
+      "sha256": "0e8bfac47d7c4d092bba54bb0f18c265ed0695aca87082a0e612268c9430725f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-power-grid-cybersecurity-assessment/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-power-grid-cybersecurity-assessment/scripts/agent.py",
+      "bytes": 7540,
+      "sha256": "850214d05211a488769317e47fda7eab47a0d9d0292b494fe217eb9702634954",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-power-grid-cybersecurity-assessment/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "2a9db9a32b5424470b103f15a6216c659935feb30d577bfe24979df7116228f8"
+}

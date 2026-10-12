@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-ics-asset-discovery-with-claroty",
+    "name": "performing-ics-asset-discovery-with-claroty",
+    "description": "Performs ICS/OT asset discovery with Claroty xDome, combining passive monitoring and Claroty Edge active queries to inventory PLCs, RTUs, HMIs, and network infrastructure across Purdue Model levels. Use when gaining visibility into an undocumented OT environment, preparing an IEC 62443 asset inventory, or onboarding Claroty xDome; not for IT-only discovery.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "performing",
+      "ics",
+      "asset",
+      "discovery",
+      "claroty",
+      "performs",
+      "ot",
+      "xdome",
+      "combining",
+      "passive",
+      "monitoring",
+      "edge",
+      "active",
+      "queries",
+      "inventory",
+      "plcs",
+      "rtus",
+      "hmis"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-ics-asset-discovery-with-claroty/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-ics-asset-discovery-with-claroty",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ics-asset-discovery-with-claroty",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 39278,
+    "sha256": "fc8b0fd7f9248029da8b29133402761439de61b896b4baba4dc95ed31467fb4a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-ics-asset-discovery-with-claroty/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ics-asset-discovery-with-claroty/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-ics-asset-discovery-with-claroty/SKILL.md",
+      "bytes": 19571,
+      "sha256": "fc8b0fd7f9248029da8b29133402761439de61b896b4baba4dc95ed31467fb4a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ics-asset-discovery-with-claroty/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-ics-asset-discovery-with-claroty/references/api-reference.md",
+      "bytes": 1523,
+      "sha256": "5402644267cebc6a88ff3e03edd17205fcf8003b0b7a5fd7f635be3927b892e5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ics-asset-discovery-with-claroty/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-ics-asset-discovery-with-claroty/scripts/agent.py",
+      "bytes": 6929,
+      "sha256": "6cfc610452a1e027cd029dc5615e848782c9c4f1b6cc8c3d46cfe3326d3db0c0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ics-asset-discovery-with-claroty/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "5c16348171e5c4de107174c27fba8161c6836c02e7638d02832596dc8966de20"
+}

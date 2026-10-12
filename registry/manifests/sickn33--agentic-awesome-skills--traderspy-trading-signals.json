@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--traderspy-trading-signals",
+    "name": "traderspy-trading-signals",
+    "description": "Fetch and explain TraderSpy's AI crypto futures signals: entry, take-profit ladder, stop, triggers, status against the live price, and how recent signals resolved. Use for \"latest signals\".",
+    "category": "Development",
+    "tags": [
+      "traderspy",
+      "trading",
+      "signals",
+      "fetch",
+      "explain",
+      "ai",
+      "crypto",
+      "futures",
+      "entry",
+      "take",
+      "profit",
+      "ladder",
+      "stop",
+      "triggers",
+      "status",
+      "against",
+      "live",
+      "price"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/traderspy-trading-signals",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/traderspy-trading-signals",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 14083,
+    "sha256": "51f92daee384c06a1296639b91bebaa0036e0d8cbbb3e059ece66ad2baa6d473",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/traderspy-trading-signals/SKILL.md",
+      "bytes": 8877,
+      "sha256": "51f92daee384c06a1296639b91bebaa0036e0d8cbbb3e059ece66ad2baa6d473",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/traderspy-trading-signals/SKILL.md"
+    },
+    {
+      "path": "references/signal-fields.md",
+      "sourcePath": "skills/traderspy-trading-signals/references/signal-fields.md",
+      "bytes": 4133,
+      "sha256": "6699bdf43edbe4f0ff80446a9ea9691785ebc7cd053647c01f7e0cfe35b8638e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/traderspy-trading-signals/references/signal-fields.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "9d10c075bf31b43fac97b2597b4adb6473939e19d5d7ed2a3023f7b73f4376a2"
+}

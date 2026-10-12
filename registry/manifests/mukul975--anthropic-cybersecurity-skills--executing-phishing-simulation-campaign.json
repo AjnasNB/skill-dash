@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--executing-phishing-simulation-campaign",
+    "name": "executing-phishing-simulation-campaign",
+    "description": "Executes authorized phishing simulation campaigns to assess an organization's susceptibility to email-based social engineering attacks. The tester designs realistic phishing scenarios, builds credential harvesting infrastructure, sends targeted phishing emails, and tracks open rates, click-through rates, and credential submission rates to measure human security awareness. Activates for requests involving phishing simulation, social engineering assessment, email security testing, or security awareness measurement.",
+    "category": "Security",
+    "tags": [
+      "executing",
+      "phishing",
+      "simulation",
+      "campaign",
+      "executes",
+      "authorized",
+      "campaigns",
+      "assess",
+      "organization",
+      "susceptibility",
+      "email",
+      "based",
+      "social",
+      "engineering",
+      "attacks.",
+      "tester",
+      "designs",
+      "realistic"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/executing-phishing-simulation-campaign/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/executing-phishing-simulation-campaign",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-phishing-simulation-campaign",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 33021,
+    "sha256": "b0c885c88def8221a226619ef4a52d02d9500e95865cb8fc9aa6cd62652ca6c8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/executing-phishing-simulation-campaign/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-phishing-simulation-campaign/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/executing-phishing-simulation-campaign/SKILL.md",
+      "bytes": 12780,
+      "sha256": "b0c885c88def8221a226619ef4a52d02d9500e95865cb8fc9aa6cd62652ca6c8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-phishing-simulation-campaign/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/executing-phishing-simulation-campaign/references/api-reference.md",
+      "bytes": 2065,
+      "sha256": "fa15f068ce366e2a603196831c6dad7df010c62c80a5fbbfea20ae1de2043be7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-phishing-simulation-campaign/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/executing-phishing-simulation-campaign/scripts/agent.py",
+      "bytes": 6921,
+      "sha256": "c86b9343d078e86b89f70bcb93250c22a7629bfc97ad8384ea89c7aacf6ccfd7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-phishing-simulation-campaign/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "a9cf2f1cbfa2db051067fb39b8eb3d654f68af90baca9203fac9adc7d89fee62"
+}

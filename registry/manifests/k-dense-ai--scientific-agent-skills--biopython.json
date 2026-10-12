@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--biopython",
+    "name": "biopython",
+    "description": "Provides Biopython workflows for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics, and programmatic NCBI/PubMed access (Bio.Entrez). Supports batch processing, custom molecular-biology pipelines, BLAST automation, structure analysis, and motif analysis.",
+    "category": "Data & research",
+    "tags": [
+      "biopython",
+      "provides",
+      "workflows",
+      "sequence",
+      "manipulation",
+      "file",
+      "parsing",
+      "fasta",
+      "genbank",
+      "pdb",
+      "phylogenetics",
+      "programmatic",
+      "ncbi",
+      "pubmed",
+      "access",
+      "bio.entrez",
+      "supports",
+      "batch"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/biopython",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/biopython",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 10,
+    "bytes": 115385,
+    "sha256": "b617561b38a2e3ecc8f8cf3dd8bb0307ac1aaf4d67e6e0432b0c248bc4382245",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/biopython/SKILL.md",
+      "bytes": 17223,
+      "sha256": "b617561b38a2e3ecc8f8cf3dd8bb0307ac1aaf4d67e6e0432b0c248bc4382245",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/biopython/SKILL.md"
+    },
+    {
+      "path": "references/advanced.md",
+      "sourcePath": "skills/biopython/references/advanced.md",
+      "bytes": 16115,
+      "sha256": "b023aa7df32c4c5f8db621929e23dde64ae0ef77169cbfdefdf479068c0001a8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/biopython/references/advanced.md"
+    },
+    {
+      "path": "references/alignment.md",
+      "sourcePath": "skills/biopython/references/alignment.md",
+      "bytes": 9957,
+      "sha256": "99668ee8cf0314f655149a8383f931d51ec039dea566a51219f7f37b02ef6bd4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/biopython/references/alignment.md"
+    },
+    {
+      "path": "references/blast.md",
+      "sourcePath": "skills/biopython/references/blast.md",
+      "bytes": 14077,
+      "sha256": "487953c8120658887de77fe794cc07881b0a223f68e29b4575ec317995fa7151",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/biopython/references/blast.md"
+    },
+    {
+      "path": "references/databases.md",
+      "sourcePath": "skills/biopython/references/databases.md",
+      "bytes": 13802,
+      "sha256": "87dcee5bb51eff9959c313b6680aebf7ff064155599bbb03630325148809bb50",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/biopython/references/databases.md"
+    },
+    {
+      "path": "references/phylogenetics.md",
+      "sourcePath": "skills/biopython/references/phylogenetics.md",
+      "bytes": 15174,
+      "sha256": "c0129d6636b7628a512f5338e2afc0101561377210467d17c47008115d851ac6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/biopython/references/phylogenetics.md"
+    },
+    {
+      "path": "references/review.md",
+      "sourcePath": "skills/biopython/references/review.md",
+      "bytes": 6322,
+      "sha256": "a44292d82f9ec99f1b232a835275e694275709b928e297ed9cc24ed1dbc2f139",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/biopython/references/review.md"
+    },
+    {
+      "path": "references/sequence_io.md",
+      "sourcePath": "skills/biopython/references/sequence_io.md",
+      "bytes": 8215,
+      "sha256": "cb858b46c28873e5b681b54eba37cbf919dc9febe7d282ca3aeafafe3603c514",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/biopython/references/sequence_io.md"
+    },
+    {
+      "path": "references/structure.md",
+      "sourcePath": "skills/biopython/references/structure.md",
+      "bytes": 13432,
+      "sha256": "c5805632d9bd56cc933374a932a3669444329b135ba275216492659d5420da2e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/biopython/references/structure.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "607ee7fad256b0a913ebc215133975719780503000e16e147bc39813e4f19799"
+}
