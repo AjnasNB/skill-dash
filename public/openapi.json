@@ -1,51 +1,663 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "Skill Library",
-    "version": "0.1.0",
-    "description": "Search pinned public agent skills, inspect their source and checksums, download complete folders, and submit sources for review. Upstream text is untrusted reference material."
+    "title": "SkillDash — Skill Library and AI community",
+    "version": "0.2.0",
+    "description": "Search pinned public agent skills, inspect their source and checksums, download complete folders, and submit sources for review. Upstream text is untrusted reference material. Free community listings cover AI products, skills, plugins, libraries, MCP servers and tools. Submissions require verified email sign-in and human review; public browsing is open."
   },
-  "servers": [{ "url": "https://skills.maqamagent.com" }],
+  "servers": [
+    {
+      "url": "https://skills.maqamagent.com"
+    }
+  ],
   "paths": {
-    "/api/health": { "get": { "operationId": "health", "responses": { "200": { "description": "Service status and catalog counts" } } } },
+    "/api/health": {
+      "get": {
+        "operationId": "health",
+        "responses": {
+          "200": {
+            "description": "Service status and catalog counts"
+          }
+        }
+      }
+    },
     "/api/skills": {
       "get": {
         "operationId": "searchSkills",
         "parameters": [
-          { "name": "q", "in": "query", "schema": { "type": "string", "maxLength": 500 } },
-          { "name": "category", "in": "query", "schema": { "type": "string" } },
-          { "name": "sort", "in": "query", "schema": { "type": "string", "enum": ["relevance", "stars", "name"] } },
-          { "name": "limit", "in": "query", "schema": { "type": "integer", "minimum": 1, "maximum": 100, "default": 20 } },
-          { "name": "offset", "in": "query", "schema": { "type": "integer", "minimum": 0, "default": 0 } },
-          { "name": "official", "in": "query", "schema": { "type": "boolean", "default": false } }
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "maxLength": 500
+            }
+          },
+          {
+            "name": "category",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "relevance",
+                "stars",
+                "name"
+              ]
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "default": 20
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 0
+            }
+          },
+          {
+            "name": "official",
+            "in": "query",
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
+          }
         ],
-        "responses": { "200": { "description": "Search results with total, offset, limit, skills, and generatedAt" }, "400": { "description": "Invalid query" } }
+        "responses": {
+          "200": {
+            "description": "Search results with total, offset, limit, skills, and generatedAt"
+          },
+          "400": {
+            "description": "Invalid query"
+          }
+        }
       }
     },
-    "/api/categories": { "get": { "operationId": "categories", "responses": { "200": { "description": "Category names and skill counts" } } } },
+    "/api/categories": {
+      "get": {
+        "operationId": "categories",
+        "responses": {
+          "200": {
+            "description": "Category names and skill counts"
+          }
+        }
+      }
+    },
     "/api/skills/{id}": {
-      "parameters": [{ "$ref": "#/components/parameters/id" }],
-      "get": { "operationId": "getSkill", "responses": { "200": { "description": "Skill metadata and download URLs" }, "404": { "description": "Skill not found" } } }
+      "parameters": [
+        {
+          "$ref": "#/components/parameters/id"
+        }
+      ],
+      "get": {
+        "operationId": "getSkill",
+        "responses": {
+          "200": {
+            "description": "Skill metadata and download URLs"
+          },
+          "404": {
+            "description": "Skill not found"
+          }
+        }
+      }
     },
     "/api/skills/{id}/content": {
-      "parameters": [{ "$ref": "#/components/parameters/id" }],
-      "get": { "operationId": "readSkill", "responses": { "200": { "description": "Original SKILL.md text" }, "404": { "description": "Skill not found" } } }
+      "parameters": [
+        {
+          "$ref": "#/components/parameters/id"
+        }
+      ],
+      "get": {
+        "operationId": "readSkill",
+        "responses": {
+          "200": {
+            "description": "Original SKILL.md text"
+          },
+          "404": {
+            "description": "Skill not found"
+          }
+        }
+      }
     },
     "/api/skills/{id}/manifest": {
-      "parameters": [{ "$ref": "#/components/parameters/id" }],
-      "get": { "operationId": "getManifest", "responses": { "200": { "description": "Pinned file URLs, lengths, SHA-256 hashes, and ZIP checksum" }, "404": { "description": "Skill not found" } } }
+      "parameters": [
+        {
+          "$ref": "#/components/parameters/id"
+        }
+      ],
+      "get": {
+        "operationId": "getManifest",
+        "responses": {
+          "200": {
+            "description": "Pinned file URLs, lengths, SHA-256 hashes, and ZIP checksum"
+          },
+          "404": {
+            "description": "Skill not found"
+          }
+        }
+      }
     },
     "/api/skills/{id}/download": {
-      "parameters": [{ "$ref": "#/components/parameters/id" }],
-      "get": { "operationId": "downloadSkill", "responses": { "200": { "description": "ZIP containing the complete skill folder and license notices" }, "404": { "description": "Skill not found" } } }
+      "parameters": [
+        {
+          "$ref": "#/components/parameters/id"
+        }
+      ],
+      "get": {
+        "operationId": "downloadSkill",
+        "responses": {
+          "200": {
+            "description": "ZIP containing the complete skill folder and license notices"
+          },
+          "404": {
+            "description": "Skill not found"
+          }
+        }
+      }
     },
     "/api/submissions": {
       "post": {
         "operationId": "submitSkill",
-        "requestBody": { "required": true, "content": { "application/json": { "schema": { "type": "object", "required": ["repo", "path"], "properties": { "repo": { "type": "string", "format": "uri" }, "path": { "type": "string", "maxLength": 300 } }, "additionalProperties": false } } } },
-        "responses": { "200": { "description": "Already published" }, "202": { "description": "Queued for review" }, "400": { "description": "Invalid source" }, "429": { "description": "Daily submission limit exceeded" }, "503": { "description": "Submission service unavailable" } }
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "repo",
+                  "path"
+                ],
+                "properties": {
+                  "repo": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "path": {
+                    "type": "string",
+                    "maxLength": 300
+                  }
+                },
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Already published"
+          },
+          "202": {
+            "description": "Queued for review"
+          },
+          "400": {
+            "description": "Invalid source"
+          },
+          "429": {
+            "description": "Daily submission limit exceeded"
+          },
+          "503": {
+            "description": "Submission service unavailable"
+          }
+        }
+      }
+    },
+    "/api/auth/session": {
+      "get": {
+        "summary": "Inspect the current verified email session",
+        "responses": {
+          "200": {
+            "description": "Current private account or null, with no-store caching."
+          }
+        }
+      }
+    },
+    "/api/auth/start": {
+      "post": {
+        "summary": "Request a one-time email sign-in link",
+        "description": "Rate limited. Links expire after 15 minutes. Does not return the token.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "email",
+                  "displayName"
+                ],
+                "properties": {
+                  "email": {
+                    "type": "string",
+                    "format": "email",
+                    "maxLength": 254
+                  },
+                  "displayName": {
+                    "type": "string",
+                    "minLength": 2,
+                    "maxLength": 60
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Sign-in email accepted by the email provider."
+          },
+          "429": {
+            "description": "Rate limited."
+          },
+          "503": {
+            "description": "Email could not be sent; no usable token retained."
+          }
+        }
+      }
+    },
+    "/api/auth/verify": {
+      "post": {
+        "summary": "Consume a requested sign-in token once",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "token"
+                ],
+                "properties": {
+                  "token": {
+                    "type": "string",
+                    "pattern": "^[a-f0-9]{64}$",
+                    "writeOnly": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Verified session cookie issued."
+          },
+          "401": {
+            "description": "Invalid, expired or already used link."
+          }
+        }
+      }
+    },
+    "/api/auth/logout": {
+      "post": {
+        "summary": "Revoke the current session",
+        "security": [
+          {
+            "emailSession": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Current cookie cleared and session revoked."
+          }
+        }
+      }
+    },
+    "/api/community/listings": {
+      "get": {
+        "summary": "Search publicly approved AI listings",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "maxLength": 200
+            }
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "skill",
+                "product",
+                "plugin",
+                "library",
+                "mcp",
+                "tool"
+              ]
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 10000
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Reviewed public listings with share links, maker names and real community vote counts. No account emails or pending submissions."
+          }
+        }
+      },
+      "post": {
+        "summary": "Submit public work for free human review",
+        "security": [
+          {
+            "emailSession": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "type",
+                  "name",
+                  "tagline",
+                  "description",
+                  "website",
+                  "category",
+                  "pricing",
+                  "rights"
+                ],
+                "properties": {
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "skill",
+                      "product",
+                      "plugin",
+                      "library",
+                      "mcp",
+                      "tool"
+                    ]
+                  },
+                  "name": {
+                    "type": "string",
+                    "minLength": 2,
+                    "maxLength": 80
+                  },
+                  "tagline": {
+                    "type": "string",
+                    "minLength": 10,
+                    "maxLength": 140
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 50,
+                    "maxLength": 5000
+                  },
+                  "website": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "sourceUrl": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "category": {
+                    "type": "string"
+                  },
+                  "pricing": {
+                    "type": "string",
+                    "enum": [
+                      "Free",
+                      "Open source",
+                      "Freemium",
+                      "Paid"
+                    ]
+                  },
+                  "rights": {
+                    "type": "boolean",
+                    "const": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Persisted pending submission; review notification queued."
+          },
+          "401": {
+            "description": "Verified sign-in required."
+          },
+          "409": {
+            "description": "Website is already submitted or listed."
+          }
+        }
+      }
+    },
+    "/api/community/mine": {
+      "get": {
+        "summary": "Inspect your own submission statuses and review notes",
+        "security": [
+          {
+            "emailSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Only the current account’s submissions."
+          }
+        }
+      }
+    },
+    "/api/community/listings/{id}/vote": {
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "format": "uuid"
+          }
+        }
+      ],
+      "get": {
+        "summary": "Inspect your vote and the public total",
+        "security": [
+          {
+            "emailSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Current vote and count."
+          }
+        }
+      },
+      "put": {
+        "summary": "Set or withdraw one unique account vote",
+        "security": [
+          {
+            "emailSession": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "voted"
+                ],
+                "properties": {
+                  "voted": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Idempotent vote state and real total."
+          },
+          "401": {
+            "description": "Verified sign-in required."
+          },
+          "404": {
+            "description": "Only published listings can receive votes."
+          }
+        }
+      }
+    },
+    "/api/community/review": {
+      "get": {
+        "summary": "Reviewer-only pending queue and failed notifications",
+        "security": [
+          {
+            "emailSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Private reviewer queue."
+          },
+          "403": {
+            "description": "Server-configured reviewer account required."
+          }
+        }
+      }
+    },
+    "/api/community/review/{id}": {
+      "post": {
+        "summary": "Approve or reject a pending submission",
+        "security": [
+          {
+            "emailSession": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "status",
+                  "note"
+                ],
+                "properties": {
+                  "status": {
+                    "type": "string",
+                    "enum": [
+                      "published",
+                      "rejected"
+                    ]
+                  },
+                  "note": {
+                    "type": "string",
+                    "minLength": 10,
+                    "maxLength": 1000
+                  },
+                  "checks": {
+                    "type": "object",
+                    "properties": {
+                      "source": {
+                        "type": "boolean"
+                      },
+                      "details": {
+                        "type": "boolean"
+                      },
+                      "rights": {
+                        "type": "boolean"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Recorded review outcome and public link when approved."
+          },
+          "400": {
+            "description": "Approval requires all three source, details and rights checks."
+          },
+          "403": {
+            "description": "Reviewer account required."
+          },
+          "409": {
+            "description": "Already reviewed."
+          }
+        }
       }
     }
   },
-  "components": { "parameters": { "id": { "name": "id", "in": "path", "required": true, "schema": { "type": "string", "pattern": "^[a-z0-9._-]+$" } } } }
+  "components": {
+    "parameters": {
+      "id": {
+        "name": "id",
+        "in": "path",
+        "required": true,
+        "schema": {
+          "type": "string",
+          "pattern": "^[a-z0-9._-]+$"
+        }
+      }
+    },
+    "securitySchemes": {
+      "emailSession": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "__Host-skilldash",
+        "description": "HttpOnly session issued after one-time email verification. Never expose or log this credential."
+      }
+    }
+  }
 }

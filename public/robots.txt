@@ -2,4 +2,21 @@ User-agent: *
 Allow: /
 Disallow: /api/submissions
 Disallow: /directory/
+Disallow: /account
+Disallow: /review
+Disallow: /api/auth/
+Disallow: /api/community/mine
+Disallow: /api/community/review
+Disallow: /community-shell.html
 Sitemap: https://skills.maqamagent.com/sitemap.xml
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /account
+Disallow: /review
+Disallow: /api/auth/
+Disallow: /api/submissions
+Disallow: /api/community/mine
+Disallow: /api/community/review
+Disallow: /directory/
+Disallow: /community-shell.html

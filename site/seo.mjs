@@ -19,7 +19,7 @@ export function renderHead(meta, graph = []) {
 <meta name="description" content="${escapeHtml(meta.description)}">
 <meta name="robots" content="${escapeHtml(meta.robots)}">
 <link rel="canonical" href="${escapeHtml(meta.url)}">
-<meta property="og:site_name" content="Skill Library">
+<meta property="og:site_name" content="SkillDash">
 <meta property="og:title" content="${escapeHtml(meta.title)}">
 <meta property="og:description" content="${escapeHtml(meta.description)}">
 <meta property="og:url" content="${escapeHtml(meta.url)}">
@@ -27,7 +27,7 @@ export function renderHead(meta, graph = []) {
 <meta property="og:image" content="${ORIGIN}/social-card.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Skill Library — AI agent skills for Codex, Claude Code and Delta Harness">
+<meta property="og:image:alt" content="SkillDash — the free Skill Library and AI products directory">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${escapeHtml(meta.title)}">
 <meta name="twitter:description" content="${escapeHtml(meta.description)}">

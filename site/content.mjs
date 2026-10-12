@@ -1,8 +1,8 @@
 export const ORIGIN = 'https://skills.maqamagent.com';
 export const REPOSITORY = 'https://github.com/AjnasNB/skill-dash';
-export const UPDATED = '2026-09-25';
-export const HOME_TITLE = 'AI Agent Skills for Codex & Claude Code | Skill Library';
-export const HOME_DESCRIPTION = 'Find free AI agent skills for Codex, Claude Code and Delta Harness. Search by task, inspect SKILL.md, and copy, download or install complete skill folders.';
+export const UPDATED = '2026-10-12';
+export const HOME_TITLE = 'SkillDash — Free Skill Library, AI Products & Plugins';
+export const HOME_DESCRIPTION = 'SkillDash is the free Skill Library and AI directory. Discover agent skills, products, plugins and MCP servers. Submit free, get reviewed, vote and share your work.';
 
 export const COLLECTIONS = [
   { category: 'Development', slug: 'development', description: 'Find skills for code review, testing, debugging, APIs and application development. Read the required tools and project assumptions before choosing a workflow.' },
@@ -105,3 +105,47 @@ export const GUIDES = [
     links: [{ label: 'Ajnas NB on GitHub', href: 'https://github.com/AjnasNB' }, { label: 'Source and contribution guide', href: REPOSITORY }, { label: 'Report a correction', href: `${REPOSITORY}/issues` }],
   },
 ];
+
+FAQ.push(
+  { question: 'What is SkillDash?', answer: 'SkillDash is the free Skill Library and community AI directory. Browse agent skills without an account, or join with a verified email to submit AI products, skills, plugins, libraries, MCP servers and tools.' },
+  { question: 'Can anyone publish a skill or AI product?', answer: 'Anyone with a verified email can submit public work they own or have permission to list. Community submissions have no minimum star count and no listing fee. A reviewer checks the source, details and publication rights before making the page public.' },
+  { question: 'How do voting and sharing work?', answer: 'Approved listings have a public SkillDash link and a Listed on SkillDash badge. Anyone can view them. Verified accounts can vote once per listing and can withdraw their vote. Community votes are separate from GitHub repository stars.' },
+);
+GUIDES.push(
+  {
+    path: '/guides/publish-ai-skills', title: 'Publish AI skills, products and plugins on SkillDash',
+    description: 'Submit an AI agent skill, product, plugin, library or MCP server for free. Verify your email, track the review and share your public SkillDash listing and badge.',
+    intro: 'SkillDash gives creators a free public home for useful AI work. Community submissions are open to new projects, with no GitHub-star threshold. A human review happens before publication.',
+    sections: [
+      { title: 'What can I submit?', paragraphs: ['Submit agent skills, AI products, plugins, software libraries, MCP servers and tools with a public website or repository. Describe the audience, purpose, requirements and actual pricing. SkillDash listing is free even when the submitted product has its own price.', 'The existing curated Skill Library retains source-pinned downloads and its recorded repository selection policy. Community listings are reviewed public descriptions and links; they do not automatically become downloadable catalog archives.'] },
+      { title: 'How to publish', steps: ['Open the account page and request a sign-in link for your email.', 'Open the one-time link and complete sign-in within 15 minutes. No password is needed.', 'Choose Publish, select a listing type, and provide your name, tagline, description, category and public URLs.', 'Confirm your permission to submit the public details, then send the listing for review.', 'Track pending, published or rejected status on your account page. After approval, share the public page or copy its badge HTML.'] },
+      { title: 'How verification works', paragraphs: ['The reviewer checks whether the website or source exists, whether the listing’s claims and pricing match it, and whether attribution and publication rights are clear. Incomplete or misleading submissions can be rejected with a review note.', 'Reviewed listing means these publication checks were completed. It is not a security audit, author endorsement or guarantee of product performance. No review fee or paid ranking is offered.'] },
+      { title: 'Voting and visibility', paragraphs: ['A verified account can cast one vote per published listing and withdraw it. Duplicate vote requests do not create extra votes. GitHub repository stars remain a separate source popularity signal.', 'Public pages render readable HTML, have canonical URLs, share previews and structured metadata, and are included in the community sitemap after approval. Search engines and AI search providers decide what they crawl, index and show; first position is not guaranteed.'] },
+    ],
+    links: [{ label: 'Create your free account', href: '/account' }, { label: 'Submit your work', href: '/publish' }, { label: 'Browse community listings', href: '/products' }, { label: 'Publication review policy', href: '/publishing-policy' }],
+  },
+  {
+    path: '/publishing-policy', title: 'SkillDash publication and review policy',
+    description: 'Free submissions, source and rights checks, honest verification labels and one vote per verified account. Learn what approval on SkillDash means.',
+    intro: 'SkillDash is free to browse, submit to and vote on. Publication follows a review of public source evidence, listing details and rights. Payment never buys approval or ranking.',
+    sections: [
+      { title: 'Community eligibility', paragraphs: ['Creators with verified email accounts may submit public skills, products, plugins, libraries, MCP servers and tools they own or are authorized to list. There is no minimum GitHub star count for community submissions.', 'Use a working public HTTPS website or repository. Provide a specific description and accurate pricing. Do not submit credentials, private content, illegal material, malware, misleading endorsements or unlicensed copies.'] },
+      { title: 'Required review checks', paragraphs: ['Before approval the reviewer confirms that the public source matches the listing, verifies relevant claims and pricing, and checks attribution and publication rights. A review note and date are retained. Pending and rejected submissions are not public.', 'A reviewed label records publication checks. SkillDash does not represent community listings as security-certified products. Curated downloadable skills have a separate pinned source, license and checksum contract.'] },
+      { title: 'Fair votes and free publication', paragraphs: ['Votes require verified email sign-in and are unique per account and listing. Requests are rate limited. Repository stars are never converted into community votes or fake ratings.', 'Listing, sharing and voting on SkillDash are free. Individual tools can have paid plans; their pricing must be disclosed. There are no paid listing tiers, approval fees or pay-to-rank options.'] },
+      { title: 'Corrections and reporting', paragraphs: ['Report inaccurate claims, licensing issues or abuse to contact@cognifyr.co or through the public repository. Include the listing URL and concrete evidence. A reviewer can investigate and apply a correction through the repository and review process.'] },
+    ],
+    links: [{ label: 'Publishing guide', href: '/guides/publish-ai-skills' }, { label: 'Privacy information', href: '/privacy' }, { label: 'Report a correction', href: `${REPOSITORY}/issues` }],
+  },
+  {
+    path: '/privacy', title: 'SkillDash accounts, email and privacy',
+    description: 'What SkillDash stores for verified email accounts, public submissions, voting, secure sessions and transactional notifications.',
+    intro: 'You can browse and download curated skills without an account. Verified email sign-in is needed to submit community listings and vote. Public listing content and private account data are handled separately.',
+    sections: [
+      { title: 'Account and session data', paragraphs: ['SkillDash stores your verified email, chosen display name, account creation date and verification date. Your email is not included in public listing pages or search results. Your display name is shown with the work you submit.', 'Sign-in links use random one-time tokens, expire in 15 minutes and are stored only as hashes. The link token uses a URL fragment so it is not sent in the initial HTTP request. Sessions use hashed random tokens and HttpOnly, Secure, SameSite cookies in production; they expire after 14 days. Sign-out revokes the current session.'] },
+      { title: 'Listings and votes', paragraphs: ['Submitted public names, descriptions, categories, pricing, websites and source links are stored in the review queue with the owner account and review outcome. Pending and rejected submissions are visible only to their owner and the reviewer. Approved listing details and the maker’s display name become public.', 'Votes store the account identity and listing identity to enforce one vote per account. Public pages show the total rather than publishing voters’ email addresses. Browser bookmarks in the curated Skill Library remain local to your browser.'] },
+      { title: 'Email and abuse prevention', paragraphs: ['Cloudflare Email Service sends requested sign-in links and submission notifications. New submissions notify the configured reviewer, and approval notifies the creator. These are transactional messages, not a marketing subscription.', 'Failed submission notifications are retained for retry with a limited number of attempts. Rate limiting uses expiring hashes of the network address or account identity; the application does not retain raw IP addresses in its rate-limit table. Cloudflare infrastructure may process request logs separately. Expired token, session and rate-limit records are removed by the scheduled worker.'] },
+      { title: 'Questions and removal requests', paragraphs: ['Contact contact@cognifyr.co with the account email or listing URL for privacy questions, account removal or a listing correction. The reviewer verifies ownership before changing account data. Do not send passwords, tokens or private repository contents.'] },
+    ],
+    links: [{ label: 'Your account', href: '/account' }, { label: 'Publication policy', href: '/publishing-policy' }, { label: 'Open source implementation', href: REPOSITORY }],
+  },
+);

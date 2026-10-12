@@ -2,9 +2,11 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { buildPublicPages } from './build-pages.mjs';
+import sharp from 'sharp';
 const root = path.resolve(import.meta.dirname, '..');
 const catalog = JSON.parse(await fs.readFile(path.join(root, 'registry/catalog.json'), 'utf8'));
 const output = path.join(root, 'dist');
+await sharp(path.join(root, 'public/social-card.svg')).png().toFile(path.join(output, 'social-card.png'));
 await Promise.all(['api', 'bundles', 'documents', 'manifests'].map(name => fs.mkdir(path.join(output, name), { recursive: true })));
 await fs.copyFile(path.join(root, 'registry/catalog.json'), path.join(output, 'catalog.json'));
 for (const skill of catalog.skills) {

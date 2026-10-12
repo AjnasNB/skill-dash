@@ -141,3 +141,14 @@ guides, maintained source records, legitimate upstream references and real
 community use can improve discovery over time. Do not manufacture reviews,
 endorsements, links or bulk thin pages. No implementation can guarantee the first
 result for a query or control a third-party assistant's recommendation.
+# SkillDash 0.2.0 community discovery update
+
+The public brand is **SkillDash**, with **Skill Library** and **Agent Skill Library** as explicit aliases in WebSite metadata. The canonical domain remains `https://skills.maqamagent.com`; changing the hostname would split existing URLs and requires a separate migration.
+
+Approved community listings render complete HTML at `/listings/{slug}`, have canonical/share metadata and CreativeWork/Breadcrumb structured data, and enter `/sitemaps/community.xml`. The sitemap index links the curated skill, general page and community sitemaps. Pending and rejected listings are not exposed. Account, review and authentication routes are noindex and excluded from robots discovery.
+
+The free publishing guide, review policy, privacy page and public directory explain what can be submitted, how email verification and voting work, and what a reviewed label means. The portable `llms.txt` reference exposes both the curated skill API and public community API. It is a convenience document, not a guarantee of AI indexing.
+
+Google states that its normal SEO requirements apply to AI Overviews and AI Mode, and no special AI markup or file is required: https://developers.google.com/search/docs/appearance/ai-features . OpenAI identifies `OAI-SearchBot` as the crawler for ChatGPT search: https://developers.openai.com/api/docs/bots . SkillDash allows its public routes while excluding private account and review routes. Infrastructure bot blocking must be checked separately from robots.txt.
+
+Search Console and Bing Webmaster Tools sitemap submission, crawl status and real query impressions provide evidence of discovery. IndexNow notifies participating engines of updates, but neither it, structured data nor social posting guarantees indexing, citations or first position. Do not fabricate ratings, user counts, reviews or ranking claims.

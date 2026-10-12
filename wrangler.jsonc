@@ -2,17 +2,40 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "agent-skill-library",
   "main": "worker/index.mjs",
-  "compatibility_date": "2026-09-24",
+  "compatibility_date": "2026-10-12",
   "workers_dev": true,
   "preview_urls": false,
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
-    "run_worker_first": ["/", "/api/*", "/skills", "/skills/*", "/collections/*", "/guides/*", "/for-agents", "/for-agents.html", "/for-agents/", "/about", "/about.html", "/about/", "/directory/*"],
+    "run_worker_first": [
+      "/",
+      "/api/*",
+      "/skills",
+      "/skills/*",
+      "/collections/*",
+      "/guides/*",
+      "/for-agents",
+      "/for-agents.html",
+      "/for-agents/",
+      "/about",
+      "/about.html",
+      "/about/",
+      "/directory/*",
+      "/products",
+      "/publish",
+      "/account",
+      "/review",
+      "/listings/*",
+      "/badges/*",
+      "/sitemaps/community.xml"
+    ],
     "not_found_handling": "404-page",
     "html_handling": "none"
   },
-  "observability": { "enabled": true },
+  "observability": {
+    "enabled": true
+  },
   "d1_databases": [
     {
       "binding": "DB",
@@ -21,6 +44,30 @@
       "migrations_dir": "migrations"
     }
   ],
-  "routes": [{ "pattern": "skills.maqamagent.com", "custom_domain": true }],
-  "triggers": { "crons": ["0 3 * * *"] }
+  "routes": [
+    {
+      "pattern": "skills.maqamagent.com",
+      "custom_domain": true
+    }
+  ],
+  "triggers": {
+    "crons": [
+      "*/5 * * * *"
+    ]
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "vars": {
+    "ADMIN_EMAIL": "contact@cognifyr.co",
+    "EMAIL_FROM": "skilldash@cognifyr.co"
+  },
+  "send_email": [
+    {
+      "name": "EMAIL",
+      "allowed_sender_addresses": [
+        "skilldash@cognifyr.co"
+      ]
+    }
+  ]
 }

@@ -1,8 +1,28 @@
-# Skill Library
+# SkillDash — the free Skill Library and AI directory
 
 > An open directory, website and npm installer for AI agent skills. Find a
 > workflow by task, inspect its source, then copy, download or install it.
 > Canonical website: https://skills.maqamagent.com
+
+SkillDash and Skill Library refer to the same service. The curated Skill Library
+contains source-pinned downloadable agent skills. The community directory adds
+reviewed AI products, skills, plugins, software libraries, MCP servers and tools.
+Anyone can submit public work free after email verification. Community listings
+have no minimum GitHub-star threshold. Listing is free even when a product has a
+paid plan. Approval checks source, details and rights; it is not a security audit.
+
+## Community publishing and sharing
+
+- [Browse reviewed AI products and plugins](https://skills.maqamagent.com/products)
+- [Publish your work free](https://skills.maqamagent.com/publish)
+- [Publishing guide](https://skills.maqamagent.com/guides/publish-ai-skills.md)
+- [Review policy](https://skills.maqamagent.com/publishing-policy.md)
+- [Account privacy](https://skills.maqamagent.com/privacy.md)
+
+GET https://skills.maqamagent.com/api/community/listings?q=task&type=product
+Approved listings have /listings/{slug} pages and /badges/{slug}.svg badges.
+Verified accounts can vote once per listing. GitHub stars are separate from votes.
+Do not attempt account actions or publication without the user's authorization.
 
 Maintained by Ajnas NB: https://github.com/AjnasNB
 Independent of OpenAI, Anthropic and upstream skill authors. Listing a source

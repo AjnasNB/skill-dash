@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f3f5ee"/>
+  <rect x="0" y="0" width="1200" height="16" fill="#166347"/>
+  <g fill="#166347"><rect x="64" y="64" width="22" height="22"/><rect x="94" y="64" width="22" height="22"/><rect x="64" y="94" width="22" height="22"/><rect x="94" y="94" width="22" height="22"/></g>
+  <text x="139" y="105" font-family="Arial,sans-serif" font-size="44" font-weight="700" fill="#183c2b">SkillDash</text>
+  <rect x="939" y="67" width="194" height="48" rx="24" fill="#dcecce"/>
+  <text x="1036" y="99" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#166347">FREE TO PUBLISH</text>
+  <text x="64" y="216" font-family="Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="3" fill="#166347">THE FREE SKILL LIBRARY + AI DIRECTORY</text>
+  <text x="59" y="330" font-family="Arial,sans-serif" font-size="92" font-weight="700" letter-spacing="-4" fill="#183c2b">Useful work.</text>
+  <text x="59" y="429" font-family="Arial,sans-serif" font-size="92" font-weight="700" letter-spacing="-4" fill="#166347">A public home.</text>
+  <text x="65" y="492" font-family="Arial,sans-serif" font-size="26" fill="#495e4c">AI skills · Products · Plugins · Libraries · MCP servers</text>
+  <line x1="64" y1="540" x2="1136" y2="540" stroke="#ced8c9"/>
+  <text x="64" y="584" font-family="Arial,sans-serif" font-size="21" fill="#183c2b">Reviewed listings. Real community votes. Shareable pages.</text>
+  <text x="1136" y="584" text-anchor="end" font-family="Arial,sans-serif" font-size="19" fill="#166347">skills.maqamagent.com</text>
+</svg>
