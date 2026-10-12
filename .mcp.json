@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "skill-library": {
+      "type": "http",
+      "url": "https://skills.maqamagent.com/mcp"
+    }
+  }
+}

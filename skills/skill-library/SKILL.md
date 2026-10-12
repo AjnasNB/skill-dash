@@ -42,6 +42,21 @@ Public machine access:
 - Instructions: `https://skills.maqamagent.com/documents/FULL-SKILL-ID.md`
 - Complete ZIP: `https://skills.maqamagent.com/bundles/FULL-SKILL-ID.zip`
 - MCP server: `npx --yes agent-skill-library mcp`
+- Remote read-only MCP: `https://skills.maqamagent.com/mcp`
+- Reviewed products, plugins, libraries and MCP servers: `https://skills.maqamagent.com/api/community/listings`
+
+Connect the public library across local projects with
+`npx --yes agent-skill-library connect --host all --global`.
+Supported host configurations: Codex, Claude Code, Cursor and Antigravity.
+Use `--dry-run` to inspect the plan. Other settings are preserved and changed
+files are backed up locally. Restart or refresh the host after connecting.
+
+For a repository-based cloud workspace, omit `--global` and commit the generated
+client configurations. Remote machines and hosted chat products are configured
+separately; local personal settings are not automatically transferred.
+The MCP exposes `search_skills`, `read_skill`, `plan_skill_install`, and
+`search_listings`. It reads public information and plans installation; it never
+installs files, runs downloaded instructions, or reads private project memory.
 
 To submit a new skill for review:
 
