@@ -128,7 +128,7 @@ function App({ initialCatalog, initialPreview }) {
           {query ? <button className="icon-button" aria-label="Clear search" onClick={() => changeQuery('')}><X size={18} /></button> : <kbd>/</kbd>}
           <span className="search-count">{catalog ? catalog.total.toLocaleString() : '…'} skills</span>
         </div>
-        <div className="search-under"><span>Search a skill, a tool, or describe a task.</span><span><span className="status-dot" /> From {catalog?.sourceCount || '…'} repositories with 1k+ stars</span></div>
+        <div className="search-under"><span>Search a skill, a tool, or describe a task.</span><span><span className="status-dot" /> From {catalog?.sourceCount || '…'} repositories with {catalog?.minimumRepositoryStars?.toLocaleString('en-US') || '…'}+ stars</span></div>
         <div className="quick-search"><span>Try</span>{['Design a website', 'Make a video', 'Review my code', 'Build an AI agent'].map(label => <button key={label} onClick={() => { changeQuery(label); setView('discover'); setCategory(''); }}>{label}<ArrowUpRight size={12} /></button>)}</div>
       </section>
       {view === 'collections' && <section className="collections-panel" aria-label="Skill collections">
