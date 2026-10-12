@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--defuddle","name":"defuddle","description":"Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page.","category":"Writing","tags":["defuddle","extract","clean","markdown","content","from","web","pages","cli","removing","clutter","navigation","save","tokens.","instead","webfetch","when","user"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/defuddle","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/defuddle","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":2762,"sha256":"cc21f817d0c71524ddea284dafabaee3c7233080df8fa14f4faeed50bb11a6f2","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/defuddle/SKILL.md","bytes":1689,"sha256":"cc21f817d0c71524ddea284dafabaee3c7233080df8fa14f4faeed50bb11a6f2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/defuddle/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"af452519b9a49de3e7736272ea1c69f9ccbc5d9b6bf0dd6cc21764c3a5ebfdd8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--defuddle",
+    "name": "defuddle",
+    "description": "Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page.",
+    "category": "Writing",
+    "tags": [
+      "defuddle",
+      "extract",
+      "clean",
+      "markdown",
+      "content",
+      "from",
+      "web",
+      "pages",
+      "cli",
+      "removing",
+      "clutter",
+      "navigation",
+      "save",
+      "tokens.",
+      "instead",
+      "webfetch",
+      "when",
+      "user"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/defuddle",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/defuddle",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 2762,
+    "sha256": "cc21f817d0c71524ddea284dafabaee3c7233080df8fa14f4faeed50bb11a6f2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/defuddle/SKILL.md",
+      "bytes": 1689,
+      "sha256": "cc21f817d0c71524ddea284dafabaee3c7233080df8fa14f4faeed50bb11a6f2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/defuddle/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "af452519b9a49de3e7736272ea1c69f9ccbc5d9b6bf0dd6cc21764c3a5ebfdd8"
+}

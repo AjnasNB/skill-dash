@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--global-chat-agent-discovery","name":"global-chat-agent-discovery","description":"Discover and search 18K+ MCP servers and AI agents across 6+ registries using Global Chat's cross-protocol directory and MCP server.","category":"AI & agents","tags":["global","chat","agent","discovery","discover","search","18k+","mcp","servers","ai","agents","across","6+","registries","cross","protocol","directory","server."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/global-chat-agent-discovery","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/global-chat-agent-discovery","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5501,"sha256":"cf58b831e898d711cac2feb97852335cf98355a93d960016778fcd86cadac155","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/global-chat-agent-discovery/SKILL.md","bytes":4428,"sha256":"cf58b831e898d711cac2feb97852335cf98355a93d960016778fcd86cadac155","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/global-chat-agent-discovery/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"b067ace05d4b54bfa2f4a5e9e2edb81934d6ecb3fc8a59e24b0da15d71566d3a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--global-chat-agent-discovery",
+    "name": "global-chat-agent-discovery",
+    "description": "Discover and search 18K+ MCP servers and AI agents across 6+ registries using Global Chat's cross-protocol directory and MCP server.",
+    "category": "AI & agents",
+    "tags": [
+      "global",
+      "chat",
+      "agent",
+      "discovery",
+      "discover",
+      "search",
+      "18k+",
+      "mcp",
+      "servers",
+      "ai",
+      "agents",
+      "across",
+      "6+",
+      "registries",
+      "cross",
+      "protocol",
+      "directory",
+      "server."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/global-chat-agent-discovery",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/global-chat-agent-discovery",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5501,
+    "sha256": "cf58b831e898d711cac2feb97852335cf98355a93d960016778fcd86cadac155",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/global-chat-agent-discovery/SKILL.md",
+      "bytes": 4428,
+      "sha256": "cf58b831e898d711cac2feb97852335cf98355a93d960016778fcd86cadac155",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/global-chat-agent-discovery/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "b067ace05d4b54bfa2f4a5e9e2edb81934d6ecb3fc8a59e24b0da15d71566d3a"
+}

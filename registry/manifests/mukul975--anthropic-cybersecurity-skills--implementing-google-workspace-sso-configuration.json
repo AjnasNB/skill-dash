@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-google-workspace-sso-configuration","name":"implementing-google-workspace-sso-configuration","description":"Configures SAML 2.0 single sign-on for Google Workspace against a third-party identity provider (Okta, Azure AD/Entra ID, ADFS), with Workspace as the Service Provider, to centralize authentication and enable immediate access revocation. Use when setting up or troubleshooting Google Workspace SSO/SAML federation or migrating from native Google passwords to an external IdP.","category":"Cloud & DevOps","tags":["implementing","google","workspace","sso","configuration","configures","saml","2.0","single","sign","against","third","party","identity","provider","okta","azure","ad"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-google-workspace-sso-configuration/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-google-workspace-sso-configuration","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-sso-configuration","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":43039,"sha256":"4570cdf642877116cd7188be1d48046a3dc9a38bc0015924f1b3b3e73c8ca161","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-google-workspace-sso-configuration/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-sso-configuration/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-google-workspace-sso-configuration/SKILL.md","bytes":7946,"sha256":"4570cdf642877116cd7188be1d48046a3dc9a38bc0015924f1b3b3e73c8ca161","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-sso-configuration/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-google-workspace-sso-configuration/assets/template.md","bytes":1320,"sha256":"8815a07dba64c33e1f9f316414ae6b00995fab33deb56c743b970fc65eed1bf2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-sso-configuration/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-google-workspace-sso-configuration/references/api-reference.md","bytes":1858,"sha256":"dfb207d6aa32bf3af4cd4c4aaabcd6c86f3b26c7774f4200abd76c68bc6019a1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-sso-configuration/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-google-workspace-sso-configuration/references/standards.md","bytes":1421,"sha256":"547fdd9ae7b5fabfca4a20d2d32541a21e199fd11d559bcc7748256f286309c1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-sso-configuration/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-google-workspace-sso-configuration/references/workflows.md","bytes":3935,"sha256":"8c102cda2a1d72ae05b3bd38d6cb712de995cd94e4a7eed6c13013b6526931b1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-sso-configuration/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-google-workspace-sso-configuration/scripts/agent.py","bytes":7022,"sha256":"600885548b892db536b15fe19e17fc9375a2d5799fe41f26be61509e9926b87f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-sso-configuration/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-google-workspace-sso-configuration/scripts/process.py","bytes":8282,"sha256":"9a10f8b5e65014f2ae81b367084dc61a4bfeadee76f294e4dea766185412c5fb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-sso-configuration/scripts/process.py"}],"archiveSha256":"7f6c4bcd39b3be3e59e750006a8397473a60ff05bec7a8599e04502e8ebddbfd"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-google-workspace-sso-configuration",
+    "name": "implementing-google-workspace-sso-configuration",
+    "description": "Configures SAML 2.0 single sign-on for Google Workspace against a third-party identity provider (Okta, Azure AD/Entra ID, ADFS), with Workspace as the Service Provider, to centralize authentication and enable immediate access revocation. Use when setting up or troubleshooting Google Workspace SSO/SAML federation or migrating from native Google passwords to an external IdP.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "implementing",
+      "google",
+      "workspace",
+      "sso",
+      "configuration",
+      "configures",
+      "saml",
+      "2.0",
+      "single",
+      "sign",
+      "against",
+      "third",
+      "party",
+      "identity",
+      "provider",
+      "okta",
+      "azure",
+      "ad"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-google-workspace-sso-configuration/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-google-workspace-sso-configuration",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-sso-configuration",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 43039,
+    "sha256": "4570cdf642877116cd7188be1d48046a3dc9a38bc0015924f1b3b3e73c8ca161",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-google-workspace-sso-configuration/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-sso-configuration/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-google-workspace-sso-configuration/SKILL.md",
+      "bytes": 7946,
+      "sha256": "4570cdf642877116cd7188be1d48046a3dc9a38bc0015924f1b3b3e73c8ca161",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-sso-configuration/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-google-workspace-sso-configuration/assets/template.md",
+      "bytes": 1320,
+      "sha256": "8815a07dba64c33e1f9f316414ae6b00995fab33deb56c743b970fc65eed1bf2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-sso-configuration/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-google-workspace-sso-configuration/references/api-reference.md",
+      "bytes": 1858,
+      "sha256": "dfb207d6aa32bf3af4cd4c4aaabcd6c86f3b26c7774f4200abd76c68bc6019a1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-sso-configuration/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-google-workspace-sso-configuration/references/standards.md",
+      "bytes": 1421,
+      "sha256": "547fdd9ae7b5fabfca4a20d2d32541a21e199fd11d559bcc7748256f286309c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-sso-configuration/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-google-workspace-sso-configuration/references/workflows.md",
+      "bytes": 3935,
+      "sha256": "8c102cda2a1d72ae05b3bd38d6cb712de995cd94e4a7eed6c13013b6526931b1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-sso-configuration/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-google-workspace-sso-configuration/scripts/agent.py",
+      "bytes": 7022,
+      "sha256": "600885548b892db536b15fe19e17fc9375a2d5799fe41f26be61509e9926b87f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-sso-configuration/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-google-workspace-sso-configuration/scripts/process.py",
+      "bytes": 8282,
+      "sha256": "9a10f8b5e65014f2ae81b367084dc61a4bfeadee76f294e4dea766185412c5fb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-sso-configuration/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "7f6c4bcd39b3be3e59e750006a8397473a60ff05bec7a8599e04502e8ebddbfd"
+}

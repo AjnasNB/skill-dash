@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--admin-access-register","name":"admin-access-register","description":"Admin account register: system, main and backup admin, seats, plan, 2FA, shared logins and access-review dates, as CSV, SQL, JSON Schema or Notion on request. Use for access reviews.","category":"Development","tags":["admin","access","register","account","system","main","backup","seats","plan","2fa","shared","logins","review","dates","as","csv","sql","json"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/admin-access-register","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/admin-access-register","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":17838,"sha256":"9d1a62c3960f3d7d3586e281d053f2259aa5fbf4100e7097eab64d764f549d8b","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/admin-access-register/SKILL.md","bytes":16765,"sha256":"9d1a62c3960f3d7d3586e281d053f2259aa5fbf4100e7097eab64d764f549d8b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/admin-access-register/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"756367e034ffeb72b1efa27ed06eb96f0f4d7b801d8ab518fdbea022d078bc42"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--admin-access-register",
+    "name": "admin-access-register",
+    "description": "Admin account register: system, main and backup admin, seats, plan, 2FA, shared logins and access-review dates, as CSV, SQL, JSON Schema or Notion on request. Use for access reviews.",
+    "category": "Development",
+    "tags": [
+      "admin",
+      "access",
+      "register",
+      "account",
+      "system",
+      "main",
+      "backup",
+      "seats",
+      "plan",
+      "2fa",
+      "shared",
+      "logins",
+      "review",
+      "dates",
+      "as",
+      "csv",
+      "sql",
+      "json"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/admin-access-register",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/admin-access-register",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 17838,
+    "sha256": "9d1a62c3960f3d7d3586e281d053f2259aa5fbf4100e7097eab64d764f549d8b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/admin-access-register/SKILL.md",
+      "bytes": 16765,
+      "sha256": "9d1a62c3960f3d7d3586e281d053f2259aa5fbf4100e7097eab64d764f549d8b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/admin-access-register/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "756367e034ffeb72b1efa27ed06eb96f0f4d7b801d8ab518fdbea022d078bc42"
+}

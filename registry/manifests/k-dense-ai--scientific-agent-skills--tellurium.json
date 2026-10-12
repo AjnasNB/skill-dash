@@ -1,1 +1,96 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--tellurium","name":"tellurium","description":"Simulates biochemical kinetic models from SBML or Antimony with Tellurium and libRoadRunner, checks model units, compares deterministic parameter perturbations, and exports and replays SBML plus SED-ML COMBINE archives. Use for reaction-network time courses, kinetic parameters, concentration dynamics and reproducible simulation experiments; steady-state constraint-based metabolic flux analysis belongs to cobrapy.","category":"Development","tags":["tellurium","simulates","biochemical","kinetic","models","from","sbml","antimony","libroadrunner","checks","model","units","compares","deterministic","parameter","perturbations","exports","replays"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/tellurium","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/tellurium","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":6,"bytes":29787,"sha256":"69faa97aa45e7ad46515acd3e6497b044b7b44624ffd28c74fb40d97c74513a7","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/tellurium/SKILL.md","bytes":8100,"sha256":"69faa97aa45e7ad46515acd3e6497b044b7b44624ffd28c74fb40d97c74513a7","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/tellurium/SKILL.md"},{"path":"assets/experiment.json","sourcePath":"skills/tellurium/assets/experiment.json","bytes":195,"sha256":"e5e7e30c107a945647bb016a62d00096f9a5f3bc5e2877f95e3638984c08ab53","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/tellurium/assets/experiment.json"},{"path":"assets/first-order.ant","sourcePath":"skills/tellurium/assets/first-order.ant","bytes":464,"sha256":"caac37179fc5465990c06ab1666b2b3b4457bd7f3e2011558ee085d7afff7dd6","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/tellurium/assets/first-order.ant"},{"path":"references/experiments.md","sourcePath":"skills/tellurium/references/experiments.md","bytes":7362,"sha256":"08e9a95d1f39774dc9928a74ee9f0e6f177fa7f4894dce65d9352646b2ac5ae2","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/tellurium/references/experiments.md"},{"path":"scripts/kinetic_experiment.py","sourcePath":"skills/tellurium/scripts/kinetic_experiment.py","bytes":12598,"sha256":"4f48b80db653a98520be4bcd99bd0b5087373c3286aa22eaa4658cd846bedd62","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/tellurium/scripts/kinetic_experiment.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"80d66cf7a155bb5b27c04ef4e58c80c90a469eefc41e575b46e7eccb0522ae3e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--tellurium",
+    "name": "tellurium",
+    "description": "Simulates biochemical kinetic models from SBML or Antimony with Tellurium and libRoadRunner, checks model units, compares deterministic parameter perturbations, and exports and replays SBML plus SED-ML COMBINE archives. Use for reaction-network time courses, kinetic parameters, concentration dynamics and reproducible simulation experiments; steady-state constraint-based metabolic flux analysis belongs to cobrapy.",
+    "category": "Development",
+    "tags": [
+      "tellurium",
+      "simulates",
+      "biochemical",
+      "kinetic",
+      "models",
+      "from",
+      "sbml",
+      "antimony",
+      "libroadrunner",
+      "checks",
+      "model",
+      "units",
+      "compares",
+      "deterministic",
+      "parameter",
+      "perturbations",
+      "exports",
+      "replays"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/tellurium",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/tellurium",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 6,
+    "bytes": 29787,
+    "sha256": "69faa97aa45e7ad46515acd3e6497b044b7b44624ffd28c74fb40d97c74513a7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/tellurium/SKILL.md",
+      "bytes": 8100,
+      "sha256": "69faa97aa45e7ad46515acd3e6497b044b7b44624ffd28c74fb40d97c74513a7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/tellurium/SKILL.md"
+    },
+    {
+      "path": "assets/experiment.json",
+      "sourcePath": "skills/tellurium/assets/experiment.json",
+      "bytes": 195,
+      "sha256": "e5e7e30c107a945647bb016a62d00096f9a5f3bc5e2877f95e3638984c08ab53",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/tellurium/assets/experiment.json"
+    },
+    {
+      "path": "assets/first-order.ant",
+      "sourcePath": "skills/tellurium/assets/first-order.ant",
+      "bytes": 464,
+      "sha256": "caac37179fc5465990c06ab1666b2b3b4457bd7f3e2011558ee085d7afff7dd6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/tellurium/assets/first-order.ant"
+    },
+    {
+      "path": "references/experiments.md",
+      "sourcePath": "skills/tellurium/references/experiments.md",
+      "bytes": 7362,
+      "sha256": "08e9a95d1f39774dc9928a74ee9f0e6f177fa7f4894dce65d9352646b2ac5ae2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/tellurium/references/experiments.md"
+    },
+    {
+      "path": "scripts/kinetic_experiment.py",
+      "sourcePath": "skills/tellurium/scripts/kinetic_experiment.py",
+      "bytes": 12598,
+      "sha256": "4f48b80db653a98520be4bcd99bd0b5087373c3286aa22eaa4658cd846bedd62",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/tellurium/scripts/kinetic_experiment.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "80d66cf7a155bb5b27c04ef4e58c80c90a469eefc41e575b46e7eccb0522ae3e"
+}

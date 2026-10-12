@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-threat-landscape-with-misp","name":"analyzing-threat-landscape-with-misp","description":"Query a MISP (Malware Information Sharing Platform) instance via PyMISP to compute event statistics, IOC type breakdowns, threat actor galaxy clusters, and tag trends, and generate threat landscape reports with temporal trends. Use when asked to analyze threat intelligence data, summarize top threat actors or malware families, or produce a CTI landscape report from MISP events.","category":"Security","tags":["analyzing","threat","landscape","misp","query","malware","information","sharing","platform","instance","via","pymisp","compute","event","statistics","ioc","type","breakdowns"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-threat-landscape-with-misp/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-threat-landscape-with-misp","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-landscape-with-misp","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":22150,"sha256":"76e556b5cdd012652152c78eae349fcf4e366bd392500322ef19600788614994","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-threat-landscape-with-misp/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-landscape-with-misp/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-threat-landscape-with-misp/SKILL.md","bytes":2385,"sha256":"76e556b5cdd012652152c78eae349fcf4e366bd392500322ef19600788614994","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-landscape-with-misp/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-threat-landscape-with-misp/references/api-reference.md","bytes":1748,"sha256":"a5a53f1c56355535302bd57889c083baf94389a8ab09d0eaa3057b9a6b2ca29a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-landscape-with-misp/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-threat-landscape-with-misp/scripts/agent.py","bytes":6762,"sha256":"a39b1b207a898551d0078e0e152de406db29fa4c240b356900ae62fb73774037","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-landscape-with-misp/scripts/agent.py"}],"archiveSha256":"aa47f45e961af1babeb3661146e23629b32741d53f5e8131450fc8bb15b45ca7"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-threat-landscape-with-misp",
+    "name": "analyzing-threat-landscape-with-misp",
+    "description": "Query a MISP (Malware Information Sharing Platform) instance via PyMISP to compute event statistics, IOC type breakdowns, threat actor galaxy clusters, and tag trends, and generate threat landscape reports with temporal trends. Use when asked to analyze threat intelligence data, summarize top threat actors or malware families, or produce a CTI landscape report from MISP events.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "threat",
+      "landscape",
+      "misp",
+      "query",
+      "malware",
+      "information",
+      "sharing",
+      "platform",
+      "instance",
+      "via",
+      "pymisp",
+      "compute",
+      "event",
+      "statistics",
+      "ioc",
+      "type",
+      "breakdowns"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-threat-landscape-with-misp/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-threat-landscape-with-misp",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-landscape-with-misp",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 22150,
+    "sha256": "76e556b5cdd012652152c78eae349fcf4e366bd392500322ef19600788614994",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-threat-landscape-with-misp/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-landscape-with-misp/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-threat-landscape-with-misp/SKILL.md",
+      "bytes": 2385,
+      "sha256": "76e556b5cdd012652152c78eae349fcf4e366bd392500322ef19600788614994",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-landscape-with-misp/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-threat-landscape-with-misp/references/api-reference.md",
+      "bytes": 1748,
+      "sha256": "a5a53f1c56355535302bd57889c083baf94389a8ab09d0eaa3057b9a6b2ca29a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-landscape-with-misp/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-threat-landscape-with-misp/scripts/agent.py",
+      "bytes": 6762,
+      "sha256": "a39b1b207a898551d0078e0e152de406db29fa4c240b356900ae62fb73774037",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-landscape-with-misp/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "aa47f45e961af1babeb3661146e23629b32741d53f5e8131450fc8bb15b45ca7"
+}

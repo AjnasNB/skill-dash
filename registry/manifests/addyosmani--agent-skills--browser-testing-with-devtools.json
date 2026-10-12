@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"addyosmani--agent-skills--browser-testing-with-devtools","name":"browser-testing-with-devtools","description":"Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools MCP server to be configured.","category":"AI & agents","tags":["browser","testing","devtools","tests","real","browsers","via","chrome","mcp.","when","building","debugging","anything","runs","browser.","you","inspect","dom"],"repo":"addyosmani/agent-skills","owner":"addyosmani","stars":105293,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1be8e34187e34647bb83adc3a1323b26ae6f6abe","path":"skills/browser-testing-with-devtools","sourceUrl":"https://github.com/addyosmani/agent-skills/tree/1be8e34187e34647bb83adc3a1323b26ae6f6abe/skills/browser-testing-with-devtools","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-10T08:28:48Z","fileCount":2,"bytes":15607,"sha256":"4e3aacd6a380cd25bc6c2d67fdd1c926a9b22535b8a62109ecd33cefd909e3d9","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/browser-testing-with-devtools/SKILL.md","bytes":14539,"sha256":"4e3aacd6a380cd25bc6c2d67fdd1c926a9b22535b8a62109ecd33cefd909e3d9","mode":420,"url":"https://raw.githubusercontent.com/addyosmani/agent-skills/1be8e34187e34647bb83adc3a1323b26ae6f6abe/skills/browser-testing-with-devtools/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1068,"sha256":"6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7","mode":420,"url":"https://raw.githubusercontent.com/addyosmani/agent-skills/1be8e34187e34647bb83adc3a1323b26ae6f6abe/LICENSE"}],"archiveSha256":"ee6a39f75afb954d95fc9cfaf05575781d0d0e0c4e01d9b9ce6972dfbfbeb244"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "addyosmani--agent-skills--browser-testing-with-devtools",
+    "name": "browser-testing-with-devtools",
+    "description": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools MCP server to be configured.",
+    "category": "AI & agents",
+    "tags": [
+      "browser",
+      "testing",
+      "devtools",
+      "tests",
+      "real",
+      "browsers",
+      "via",
+      "chrome",
+      "mcp.",
+      "when",
+      "building",
+      "debugging",
+      "anything",
+      "runs",
+      "browser.",
+      "you",
+      "inspect",
+      "dom"
+    ],
+    "repo": "addyosmani/agent-skills",
+    "owner": "addyosmani",
+    "stars": 105293,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1be8e34187e34647bb83adc3a1323b26ae6f6abe",
+    "path": "skills/browser-testing-with-devtools",
+    "sourceUrl": "https://github.com/addyosmani/agent-skills/tree/1be8e34187e34647bb83adc3a1323b26ae6f6abe/skills/browser-testing-with-devtools",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-10T08:28:48Z",
+    "fileCount": 2,
+    "bytes": 15607,
+    "sha256": "4e3aacd6a380cd25bc6c2d67fdd1c926a9b22535b8a62109ecd33cefd909e3d9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/browser-testing-with-devtools/SKILL.md",
+      "bytes": 14539,
+      "sha256": "4e3aacd6a380cd25bc6c2d67fdd1c926a9b22535b8a62109ecd33cefd909e3d9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/addyosmani/agent-skills/1be8e34187e34647bb83adc3a1323b26ae6f6abe/skills/browser-testing-with-devtools/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1068,
+      "sha256": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/addyosmani/agent-skills/1be8e34187e34647bb83adc3a1323b26ae6f6abe/LICENSE"
+    }
+  ],
+  "archiveSha256": "ee6a39f75afb954d95fc9cfaf05575781d0d0e0c4e01d9b9ce6972dfbfbeb244"
+}

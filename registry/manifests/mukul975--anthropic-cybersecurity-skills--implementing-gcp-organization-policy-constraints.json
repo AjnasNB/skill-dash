@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-gcp-organization-policy-constraints","name":"implementing-gcp-organization-policy-constraints","description":"Implements GCP Organization Policy constraints via gcloud and Terraform, such as restricting external IPs, resource locations, default service accounts, and service account keys, plus dry-run testing of policy impact before enforcement. Use when enforcing security guardrails across an org's resource hierarchy, or hardening GCP config at the org, folder, or project level.","category":"Security","tags":["implementing","gcp","organization","policy","constraints","implements","via","gcloud","terraform","such","as","restricting","external","ips","resource","locations","default","service"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-gcp-organization-policy-constraints/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-gcp-organization-policy-constraints","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-organization-policy-constraints","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":40202,"sha256":"69c8f94dcb51a3317428288cf555778d4ff1752e11a03e051b8b39ad800fd301","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-gcp-organization-policy-constraints/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-organization-policy-constraints/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-gcp-organization-policy-constraints/SKILL.md","bytes":7156,"sha256":"69c8f94dcb51a3317428288cf555778d4ff1752e11a03e051b8b39ad800fd301","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-organization-policy-constraints/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-gcp-organization-policy-constraints/assets/template.md","bytes":1172,"sha256":"8bb89b788b5f667399b0e67ca7ef409bd7daf9cec2e21db5878e957a3a7528f8","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-organization-policy-constraints/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-gcp-organization-policy-constraints/references/api-reference.md","bytes":2094,"sha256":"43aa87d05c924c6741d8674b8729e246364ef8b6a8e00462a71c1fa5c8c6b9f4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-organization-policy-constraints/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-gcp-organization-policy-constraints/references/standards.md","bytes":1115,"sha256":"9c479f301fda5008e94b0812ceb90c32ea5c4ee61d90adf066a826a7056a246c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-organization-policy-constraints/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-gcp-organization-policy-constraints/references/workflows.md","bytes":1685,"sha256":"25017c56c84a971653a0ab512b6fc07efd89f0fad9f9fad261b0053b7ccb0755","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-organization-policy-constraints/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-gcp-organization-policy-constraints/scripts/agent.py","bytes":7869,"sha256":"cbe9c71ff66f0a73d6fe2e60842a77fd6266e9d66ec136ddf486c06b07e7b141","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-organization-policy-constraints/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-gcp-organization-policy-constraints/scripts/process.py","bytes":7856,"sha256":"80e5dcbfb9eab413d91b435e196378d38bd748bdd1bac60ad116a9f2428d011d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-organization-policy-constraints/scripts/process.py"}],"archiveSha256":"ae38e8fac45e6bed79cc63e70961e25bdbc88405811999715b85b9d2862540be"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-gcp-organization-policy-constraints",
+    "name": "implementing-gcp-organization-policy-constraints",
+    "description": "Implements GCP Organization Policy constraints via gcloud and Terraform, such as restricting external IPs, resource locations, default service accounts, and service account keys, plus dry-run testing of policy impact before enforcement. Use when enforcing security guardrails across an org's resource hierarchy, or hardening GCP config at the org, folder, or project level.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "gcp",
+      "organization",
+      "policy",
+      "constraints",
+      "implements",
+      "via",
+      "gcloud",
+      "terraform",
+      "such",
+      "as",
+      "restricting",
+      "external",
+      "ips",
+      "resource",
+      "locations",
+      "default",
+      "service"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-gcp-organization-policy-constraints/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-gcp-organization-policy-constraints",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-organization-policy-constraints",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 40202,
+    "sha256": "69c8f94dcb51a3317428288cf555778d4ff1752e11a03e051b8b39ad800fd301",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-gcp-organization-policy-constraints/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-organization-policy-constraints/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-gcp-organization-policy-constraints/SKILL.md",
+      "bytes": 7156,
+      "sha256": "69c8f94dcb51a3317428288cf555778d4ff1752e11a03e051b8b39ad800fd301",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-organization-policy-constraints/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-gcp-organization-policy-constraints/assets/template.md",
+      "bytes": 1172,
+      "sha256": "8bb89b788b5f667399b0e67ca7ef409bd7daf9cec2e21db5878e957a3a7528f8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-organization-policy-constraints/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-gcp-organization-policy-constraints/references/api-reference.md",
+      "bytes": 2094,
+      "sha256": "43aa87d05c924c6741d8674b8729e246364ef8b6a8e00462a71c1fa5c8c6b9f4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-organization-policy-constraints/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-gcp-organization-policy-constraints/references/standards.md",
+      "bytes": 1115,
+      "sha256": "9c479f301fda5008e94b0812ceb90c32ea5c4ee61d90adf066a826a7056a246c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-organization-policy-constraints/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-gcp-organization-policy-constraints/references/workflows.md",
+      "bytes": 1685,
+      "sha256": "25017c56c84a971653a0ab512b6fc07efd89f0fad9f9fad261b0053b7ccb0755",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-organization-policy-constraints/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-gcp-organization-policy-constraints/scripts/agent.py",
+      "bytes": 7869,
+      "sha256": "cbe9c71ff66f0a73d6fe2e60842a77fd6266e9d66ec136ddf486c06b07e7b141",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-organization-policy-constraints/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-gcp-organization-policy-constraints/scripts/process.py",
+      "bytes": 7856,
+      "sha256": "80e5dcbfb9eab413d91b435e196378d38bd748bdd1bac60ad116a9f2428d011d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-organization-policy-constraints/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "ae38e8fac45e6bed79cc63e70961e25bdbc88405811999715b85b9d2862540be"
+}

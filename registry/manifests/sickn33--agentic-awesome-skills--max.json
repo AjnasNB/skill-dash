@@ -1,1 +1,55 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--max","name":"max","description":"Cleans up and improves existing code without changing behavior.","category":"Development","tags":["max","cleans","up","improves","existing","code","without","changing","behavior."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/agent-squad/max","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-squad/max","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6822,"sha256":"2e3420a525c3b899f934a639b412ca0de9e9549e6ace0f8087cb62a69b94ec40","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/agent-squad/max/SKILL.md","bytes":5749,"sha256":"2e3420a525c3b899f934a639b412ca0de9e9549e6ace0f8087cb62a69b94ec40","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-squad/max/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"cbf10e24adb7461544d8c039b740e26bbe5da892da36d3484768ece3dd4c9568"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--max",
+    "name": "max",
+    "description": "Cleans up and improves existing code without changing behavior.",
+    "category": "Development",
+    "tags": [
+      "max",
+      "cleans",
+      "up",
+      "improves",
+      "existing",
+      "code",
+      "without",
+      "changing",
+      "behavior."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/agent-squad/max",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-squad/max",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6822,
+    "sha256": "2e3420a525c3b899f934a639b412ca0de9e9549e6ace0f8087cb62a69b94ec40",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/agent-squad/max/SKILL.md",
+      "bytes": 5749,
+      "sha256": "2e3420a525c3b899f934a639b412ca0de9e9549e6ace0f8087cb62a69b94ec40",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-squad/max/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "cbf10e24adb7461544d8c039b740e26bbe5da892da36d3484768ece3dd4c9568"
+}

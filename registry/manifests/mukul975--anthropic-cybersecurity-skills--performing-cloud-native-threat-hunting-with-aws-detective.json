@@ -1,1 +1,104 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-cloud-native-threat-hunting-with-aws-detective","name":"performing-cloud-native-threat-hunting-with-aws-detective","description":"Investigate AWS security incidents using Amazon Detective's behavior graphs, built from CloudTrail, VPC Flow Logs, GuardDuty, and EKS audit logs, to trace entity timelines and profile IAM users, roles, EC2 instances, and IP addresses for lateral movement. Use when triaging GuardDuty findings, investigating a suspected AWS compromise, or reconstructing an attacker's activity timeline across AWS accounts.","category":"Security","tags":["performing","cloud","native","threat","hunting","aws","detective","investigate","security","incidents","amazon","behavior","graphs","built","from","cloudtrail","vpc","flow"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-cloud-native-threat-hunting-with-aws-detective","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-threat-hunting-with-aws-detective","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":7,"bytes":36273,"sha256":"db3bbbc55727d09b1564a209f1b23351ee03fc6e02f958ee460be8fd11f2e5bb","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/performing-cloud-native-threat-hunting-with-aws-detective/SKILL.md","bytes":5960,"sha256":"db3bbbc55727d09b1564a209f1b23351ee03fc6e02f958ee460be8fd11f2e5bb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-threat-hunting-with-aws-detective/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/performing-cloud-native-threat-hunting-with-aws-detective/assets/template.md","bytes":1116,"sha256":"c7e92c3ef71cbe80a4032d56097853111fb8ddf9c5009af58e7592e77d724ae6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-threat-hunting-with-aws-detective/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-cloud-native-threat-hunting-with-aws-detective/references/api-reference.md","bytes":8716,"sha256":"fe6e7eeb845d4501fb8aa52b057acadfcfefbc9f6e1878491c2ef9f3c21107ad","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-threat-hunting-with-aws-detective/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/performing-cloud-native-threat-hunting-with-aws-detective/references/standards.md","bytes":1084,"sha256":"803c5627d7ed6b79912c8f5fa50b803c828960b114677a77e703e6c2a11092c4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-threat-hunting-with-aws-detective/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/performing-cloud-native-threat-hunting-with-aws-detective/references/workflows.md","bytes":1115,"sha256":"f79055b4cd40f5eeadec0d0661fbf917eef4b075835025e03e4cdb2a0a994ddc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-threat-hunting-with-aws-detective/references/workflows.md"},{"path":"scripts/process.py","sourcePath":"skills/performing-cloud-native-threat-hunting-with-aws-detective/scripts/process.py","bytes":7027,"sha256":"702839dd923c9b12578d41513e22fa03f85f9fbf8fbc4c8ed596e3297e2c7a4d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-threat-hunting-with-aws-detective/scripts/process.py"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/LICENSE"}],"archiveSha256":"39140591f235b683183d06a52b4cfc2e5753684fff01778e3f0c62e98a654af6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-cloud-native-threat-hunting-with-aws-detective",
+    "name": "performing-cloud-native-threat-hunting-with-aws-detective",
+    "description": "Investigate AWS security incidents using Amazon Detective's behavior graphs, built from CloudTrail, VPC Flow Logs, GuardDuty, and EKS audit logs, to trace entity timelines and profile IAM users, roles, EC2 instances, and IP addresses for lateral movement. Use when triaging GuardDuty findings, investigating a suspected AWS compromise, or reconstructing an attacker's activity timeline across AWS accounts.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "cloud",
+      "native",
+      "threat",
+      "hunting",
+      "aws",
+      "detective",
+      "investigate",
+      "security",
+      "incidents",
+      "amazon",
+      "behavior",
+      "graphs",
+      "built",
+      "from",
+      "cloudtrail",
+      "vpc",
+      "flow"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-cloud-native-threat-hunting-with-aws-detective",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-threat-hunting-with-aws-detective",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 7,
+    "bytes": 36273,
+    "sha256": "db3bbbc55727d09b1564a209f1b23351ee03fc6e02f958ee460be8fd11f2e5bb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-cloud-native-threat-hunting-with-aws-detective/SKILL.md",
+      "bytes": 5960,
+      "sha256": "db3bbbc55727d09b1564a209f1b23351ee03fc6e02f958ee460be8fd11f2e5bb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-threat-hunting-with-aws-detective/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-cloud-native-threat-hunting-with-aws-detective/assets/template.md",
+      "bytes": 1116,
+      "sha256": "c7e92c3ef71cbe80a4032d56097853111fb8ddf9c5009af58e7592e77d724ae6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-threat-hunting-with-aws-detective/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-cloud-native-threat-hunting-with-aws-detective/references/api-reference.md",
+      "bytes": 8716,
+      "sha256": "fe6e7eeb845d4501fb8aa52b057acadfcfefbc9f6e1878491c2ef9f3c21107ad",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-threat-hunting-with-aws-detective/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-cloud-native-threat-hunting-with-aws-detective/references/standards.md",
+      "bytes": 1084,
+      "sha256": "803c5627d7ed6b79912c8f5fa50b803c828960b114677a77e703e6c2a11092c4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-threat-hunting-with-aws-detective/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-cloud-native-threat-hunting-with-aws-detective/references/workflows.md",
+      "bytes": 1115,
+      "sha256": "f79055b4cd40f5eeadec0d0661fbf917eef4b075835025e03e4cdb2a0a994ddc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-threat-hunting-with-aws-detective/references/workflows.md"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-cloud-native-threat-hunting-with-aws-detective/scripts/process.py",
+      "bytes": 7027,
+      "sha256": "702839dd923c9b12578d41513e22fa03f85f9fbf8fbc4c8ed596e3297e2c7a4d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-threat-hunting-with-aws-detective/scripts/process.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/LICENSE"
+    }
+  ],
+  "archiveSha256": "39140591f235b683183d06a52b4cfc2e5753684fff01778e3f0c62e98a654af6"
+}

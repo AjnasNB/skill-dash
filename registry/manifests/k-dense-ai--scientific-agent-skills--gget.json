@@ -1,1 +1,128 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--gget","name":"gget","description":"Queries 20+ bioinformatics resources through CLI/Python. Supports quick lookups of gene info, BLAST/BLAT, viral sequence downloads, PDB/mmCIF structures, G2P residue annotations, enrichment analysis, OpenTargets, COSMIC, CELLxGENE, and 8cube mouse specificity/expression data. Best for interactive exploration and simple queries. For batch processing or advanced BLAST use biopython; for multi-database Python workflows use bioservices.","category":"Data & research","tags":["gget","queries","20+","bioinformatics","resources","through","cli","python.","supports","quick","lookups","gene","info","blast","blat","viral","sequence","downloads"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/gget","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gget","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":10,"bytes":111581,"sha256":"55027a94be8dde013fd17e563ba20ccba92b7131c29c21e9c83e54fbce2b348a","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/gget/SKILL.md","bytes":11253,"sha256":"55027a94be8dde013fd17e563ba20ccba92b7131c29c21e9c83e54fbce2b348a","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gget/SKILL.md"},{"path":"references/common_workflows.md","sourcePath":"skills/gget/references/common_workflows.md","bytes":2570,"sha256":"125d01874c0577e29b50ca9fb43bcf995ed0816662b11fb20941948cfbe58400","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gget/references/common_workflows.md"},{"path":"references/database_info.md","sourcePath":"skills/gget/references/database_info.md","bytes":13641,"sha256":"01ddea3b3b404dbaf3af96300d6f1ca506bc2a1fcee5604bb5bb679d5824e0b5","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gget/references/database_info.md"},{"path":"references/module_catalog.md","sourcePath":"skills/gget/references/module_catalog.md","bytes":26673,"sha256":"853ea6b9252d952908913e23d9b76b0b3af19eedde5b7617f72aa993b7cc2833","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gget/references/module_catalog.md"},{"path":"references/module_reference.md","sourcePath":"skills/gget/references/module_reference.md","bytes":24332,"sha256":"2c40d6bdab786e316a15eee7fbd82ebd90f4b2f34ff8aab1e5575f39ee3cf38d","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gget/references/module_reference.md"},{"path":"references/workflows.md","sourcePath":"skills/gget/references/workflows.md","bytes":9807,"sha256":"5e3909d8d58acbdde98b449e1649c21b8c28446fa39d11e2d8c88fada4259bd9","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gget/references/workflows.md"},{"path":"scripts/batch_sequence_analysis.py","sourcePath":"skills/gget/scripts/batch_sequence_analysis.py","bytes":6717,"sha256":"faccfffc861a5fd2b391933341e4f5c6dcaf98b71818c050d0b93412f4449100","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gget/scripts/batch_sequence_analysis.py"},{"path":"scripts/enrichment_pipeline.py","sourcePath":"skills/gget/scripts/enrichment_pipeline.py","bytes":7917,"sha256":"9acb953ce9ae90c8b470135b382107fdd01ab35f1323ee877b4f8a3bd71dcbb3","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gget/scripts/enrichment_pipeline.py"},{"path":"scripts/gene_analysis.py","sourcePath":"skills/gget/scripts/gene_analysis.py","bytes":7603,"sha256":"b72b3371deee1298381811acd1166f5b2e25ff0e1423d1133c7f8f355cdcbfce","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gget/scripts/gene_analysis.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"e98467141508b18150f2c63bf255531c23ceb6150605d53759571be0b08ab771"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--gget",
+    "name": "gget",
+    "description": "Queries 20+ bioinformatics resources through CLI/Python. Supports quick lookups of gene info, BLAST/BLAT, viral sequence downloads, PDB/mmCIF structures, G2P residue annotations, enrichment analysis, OpenTargets, COSMIC, CELLxGENE, and 8cube mouse specificity/expression data. Best for interactive exploration and simple queries. For batch processing or advanced BLAST use biopython; for multi-database Python workflows use bioservices.",
+    "category": "Data & research",
+    "tags": [
+      "gget",
+      "queries",
+      "20+",
+      "bioinformatics",
+      "resources",
+      "through",
+      "cli",
+      "python.",
+      "supports",
+      "quick",
+      "lookups",
+      "gene",
+      "info",
+      "blast",
+      "blat",
+      "viral",
+      "sequence",
+      "downloads"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/gget",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gget",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 10,
+    "bytes": 111581,
+    "sha256": "55027a94be8dde013fd17e563ba20ccba92b7131c29c21e9c83e54fbce2b348a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/gget/SKILL.md",
+      "bytes": 11253,
+      "sha256": "55027a94be8dde013fd17e563ba20ccba92b7131c29c21e9c83e54fbce2b348a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gget/SKILL.md"
+    },
+    {
+      "path": "references/common_workflows.md",
+      "sourcePath": "skills/gget/references/common_workflows.md",
+      "bytes": 2570,
+      "sha256": "125d01874c0577e29b50ca9fb43bcf995ed0816662b11fb20941948cfbe58400",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gget/references/common_workflows.md"
+    },
+    {
+      "path": "references/database_info.md",
+      "sourcePath": "skills/gget/references/database_info.md",
+      "bytes": 13641,
+      "sha256": "01ddea3b3b404dbaf3af96300d6f1ca506bc2a1fcee5604bb5bb679d5824e0b5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gget/references/database_info.md"
+    },
+    {
+      "path": "references/module_catalog.md",
+      "sourcePath": "skills/gget/references/module_catalog.md",
+      "bytes": 26673,
+      "sha256": "853ea6b9252d952908913e23d9b76b0b3af19eedde5b7617f72aa993b7cc2833",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gget/references/module_catalog.md"
+    },
+    {
+      "path": "references/module_reference.md",
+      "sourcePath": "skills/gget/references/module_reference.md",
+      "bytes": 24332,
+      "sha256": "2c40d6bdab786e316a15eee7fbd82ebd90f4b2f34ff8aab1e5575f39ee3cf38d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gget/references/module_reference.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/gget/references/workflows.md",
+      "bytes": 9807,
+      "sha256": "5e3909d8d58acbdde98b449e1649c21b8c28446fa39d11e2d8c88fada4259bd9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gget/references/workflows.md"
+    },
+    {
+      "path": "scripts/batch_sequence_analysis.py",
+      "sourcePath": "skills/gget/scripts/batch_sequence_analysis.py",
+      "bytes": 6717,
+      "sha256": "faccfffc861a5fd2b391933341e4f5c6dcaf98b71818c050d0b93412f4449100",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gget/scripts/batch_sequence_analysis.py"
+    },
+    {
+      "path": "scripts/enrichment_pipeline.py",
+      "sourcePath": "skills/gget/scripts/enrichment_pipeline.py",
+      "bytes": 7917,
+      "sha256": "9acb953ce9ae90c8b470135b382107fdd01ab35f1323ee877b4f8a3bd71dcbb3",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gget/scripts/enrichment_pipeline.py"
+    },
+    {
+      "path": "scripts/gene_analysis.py",
+      "sourcePath": "skills/gget/scripts/gene_analysis.py",
+      "bytes": 7603,
+      "sha256": "b72b3371deee1298381811acd1166f5b2e25ff0e1423d1133c7f8f355cdcbfce",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/gget/scripts/gene_analysis.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "e98467141508b18150f2c63bf255531c23ceb6150605d53759571be0b08ab771"
+}

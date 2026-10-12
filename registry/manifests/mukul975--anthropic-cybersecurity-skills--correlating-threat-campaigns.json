@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--correlating-threat-campaigns","name":"correlating-threat-campaigns","description":"Correlates disparate security incidents, IOCs, and adversary behaviors across time and organizations to identify unified threat campaigns, attribute them to common threat actors, and extract shared indicators for improved detection. Use when multiple incidents exhibit overlapping indicators, when sector-wide attack campaigns require cross-organizational analysis, or when building campaign-level intelligence products. Activates for requests involving campaign analysis, incident clustering, cross-organizational IOC correlation, or MISP correlation engine.","category":"Security","tags":["correlating","threat","campaigns","correlates","disparate","security","incidents","iocs","adversary","behaviors","across","time","organizations","identify","unified","attribute","them","common"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/correlating-threat-campaigns/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/correlating-threat-campaigns","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/correlating-threat-campaigns","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":28242,"sha256":"7d7a0ec11e9a4a0659657808879f51ee6d2c4b32e2379d42032c054165531b38","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/correlating-threat-campaigns/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/correlating-threat-campaigns/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/correlating-threat-campaigns/SKILL.md","bytes":7297,"sha256":"7d7a0ec11e9a4a0659657808879f51ee6d2c4b32e2379d42032c054165531b38","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/correlating-threat-campaigns/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/correlating-threat-campaigns/references/api-reference.md","bytes":2192,"sha256":"0ccabf043eb20b36eee0fea025a1d1d0a8425202bae860206879c4a522f5cb93","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/correlating-threat-campaigns/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/correlating-threat-campaigns/scripts/agent.py","bytes":7498,"sha256":"a845c6e2f5dcb886c1ecc55bc1602a8470ab4e9cfcdc04e1d53362009d7e94dd","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/correlating-threat-campaigns/scripts/agent.py"}],"archiveSha256":"ea6a5effcbe931afbfae068c0e3f49f1e00c6b8508320d8c6a20b658e5561183"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--correlating-threat-campaigns",
+    "name": "correlating-threat-campaigns",
+    "description": "Correlates disparate security incidents, IOCs, and adversary behaviors across time and organizations to identify unified threat campaigns, attribute them to common threat actors, and extract shared indicators for improved detection. Use when multiple incidents exhibit overlapping indicators, when sector-wide attack campaigns require cross-organizational analysis, or when building campaign-level intelligence products. Activates for requests involving campaign analysis, incident clustering, cross-organizational IOC correlation, or MISP correlation engine.",
+    "category": "Security",
+    "tags": [
+      "correlating",
+      "threat",
+      "campaigns",
+      "correlates",
+      "disparate",
+      "security",
+      "incidents",
+      "iocs",
+      "adversary",
+      "behaviors",
+      "across",
+      "time",
+      "organizations",
+      "identify",
+      "unified",
+      "attribute",
+      "them",
+      "common"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/correlating-threat-campaigns/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/correlating-threat-campaigns",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/correlating-threat-campaigns",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 28242,
+    "sha256": "7d7a0ec11e9a4a0659657808879f51ee6d2c4b32e2379d42032c054165531b38",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/correlating-threat-campaigns/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/correlating-threat-campaigns/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/correlating-threat-campaigns/SKILL.md",
+      "bytes": 7297,
+      "sha256": "7d7a0ec11e9a4a0659657808879f51ee6d2c4b32e2379d42032c054165531b38",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/correlating-threat-campaigns/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/correlating-threat-campaigns/references/api-reference.md",
+      "bytes": 2192,
+      "sha256": "0ccabf043eb20b36eee0fea025a1d1d0a8425202bae860206879c4a522f5cb93",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/correlating-threat-campaigns/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/correlating-threat-campaigns/scripts/agent.py",
+      "bytes": 7498,
+      "sha256": "a845c6e2f5dcb886c1ecc55bc1602a8470ab4e9cfcdc04e1d53362009d7e94dd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/correlating-threat-campaigns/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "ea6a5effcbe931afbfae068c0e3f49f1e00c6b8508320d8c6a20b658e5561183"
+}

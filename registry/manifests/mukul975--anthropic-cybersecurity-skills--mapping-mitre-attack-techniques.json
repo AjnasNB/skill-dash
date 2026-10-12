@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--mapping-mitre-attack-techniques","name":"mapping-mitre-attack-techniques","description":"Maps observed adversary behaviors, security alerts, and detection rules to MITRE ATT&CK techniques and sub-techniques to quantify detection coverage and guide control prioritization. Use when building an ATT&CK-based coverage heatmap, tagging SIEM alerts with technique IDs, aligning security controls to adversary playbooks, or reporting threat exposure to executives. Activates for requests involving ATT&CK Navigator, Sigma rules, MITRE D3FEND, or coverage gap analysis.","category":"Security","tags":["mapping","mitre","attack","techniques","maps","observed","adversary","behaviors","security","alerts","detection","rules","att","ck","sub","quantify","coverage","guide"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/mapping-mitre-attack-techniques/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/mapping-mitre-attack-techniques","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/mapping-mitre-attack-techniques","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":28961,"sha256":"4519a862b814c40385deb42f358a23cce6db4f2b04c2ccb18c23a48fe48feee3","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/mapping-mitre-attack-techniques/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/mapping-mitre-attack-techniques/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/mapping-mitre-attack-techniques/SKILL.md","bytes":7244,"sha256":"4519a862b814c40385deb42f358a23cce6db4f2b04c2ccb18c23a48fe48feee3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/mapping-mitre-attack-techniques/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/mapping-mitre-attack-techniques/references/api-reference.md","bytes":2708,"sha256":"b238fc5f5d9557cb13bbc4bc52c89d14c25b4908a7f33b2fb68d0896f32b6c44","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/mapping-mitre-attack-techniques/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/mapping-mitre-attack-techniques/scripts/agent.py","bytes":7754,"sha256":"41321405b16324e8e9191043b5c199442fb988b5eba738a1f2a1ef29594851a8","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/mapping-mitre-attack-techniques/scripts/agent.py"}],"archiveSha256":"474f9fc3230509b8f6557553c3cf727b43b5f46aeffd1df61e6898ee113ea6f8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--mapping-mitre-attack-techniques",
+    "name": "mapping-mitre-attack-techniques",
+    "description": "Maps observed adversary behaviors, security alerts, and detection rules to MITRE ATT&CK techniques and sub-techniques to quantify detection coverage and guide control prioritization. Use when building an ATT&CK-based coverage heatmap, tagging SIEM alerts with technique IDs, aligning security controls to adversary playbooks, or reporting threat exposure to executives. Activates for requests involving ATT&CK Navigator, Sigma rules, MITRE D3FEND, or coverage gap analysis.",
+    "category": "Security",
+    "tags": [
+      "mapping",
+      "mitre",
+      "attack",
+      "techniques",
+      "maps",
+      "observed",
+      "adversary",
+      "behaviors",
+      "security",
+      "alerts",
+      "detection",
+      "rules",
+      "att",
+      "ck",
+      "sub",
+      "quantify",
+      "coverage",
+      "guide"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/mapping-mitre-attack-techniques/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/mapping-mitre-attack-techniques",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/mapping-mitre-attack-techniques",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 28961,
+    "sha256": "4519a862b814c40385deb42f358a23cce6db4f2b04c2ccb18c23a48fe48feee3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/mapping-mitre-attack-techniques/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/mapping-mitre-attack-techniques/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/mapping-mitre-attack-techniques/SKILL.md",
+      "bytes": 7244,
+      "sha256": "4519a862b814c40385deb42f358a23cce6db4f2b04c2ccb18c23a48fe48feee3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/mapping-mitre-attack-techniques/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/mapping-mitre-attack-techniques/references/api-reference.md",
+      "bytes": 2708,
+      "sha256": "b238fc5f5d9557cb13bbc4bc52c89d14c25b4908a7f33b2fb68d0896f32b6c44",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/mapping-mitre-attack-techniques/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/mapping-mitre-attack-techniques/scripts/agent.py",
+      "bytes": 7754,
+      "sha256": "41321405b16324e8e9191043b5c199442fb988b5eba738a1f2a1ef29594851a8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/mapping-mitre-attack-techniques/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "474f9fc3230509b8f6557553c3cf727b43b5f46aeffd1df61e6898ee113ea6f8"
+}

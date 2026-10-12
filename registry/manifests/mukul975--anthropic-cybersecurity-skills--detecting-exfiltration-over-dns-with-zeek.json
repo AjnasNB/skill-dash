@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-exfiltration-over-dns-with-zeek","name":"detecting-exfiltration-over-dns-with-zeek","description":"Detect DNS-based data exfiltration by analyzing Zeek dns.log for high-entropy subdomains, oversized TXT/NULL records, and anomalous query volume or patterns. Use when investigating suspected DNS tunneling, covert C2 over DNS, or data exfiltration hidden in DNS queries against network traffic captured by Zeek.","category":"Development","tags":["detecting","exfiltration","over","dns","zeek","detect","based","data","by","analyzing","dns.log","high","entropy","subdomains","oversized","txt","null","records"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-exfiltration-over-dns-with-zeek/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-exfiltration-over-dns-with-zeek","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-exfiltration-over-dns-with-zeek","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":25493,"sha256":"1e866e5f132b1412729201f91c37b53c562d2aa68c29fb5f1c820c148ce63a31","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-exfiltration-over-dns-with-zeek/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-exfiltration-over-dns-with-zeek/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-exfiltration-over-dns-with-zeek/SKILL.md","bytes":4084,"sha256":"1e866e5f132b1412729201f91c37b53c562d2aa68c29fb5f1c820c148ce63a31","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-exfiltration-over-dns-with-zeek/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-exfiltration-over-dns-with-zeek/references/api-reference.md","bytes":2639,"sha256":"ee903d85adb7dbcee1e1214275f562300d8dcfd6615ff1a848c44e5bf926b240","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-exfiltration-over-dns-with-zeek/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-exfiltration-over-dns-with-zeek/scripts/agent.py","bytes":7515,"sha256":"0cdc5fac9900250d8b4a75831561c7bec51c415ecbe9e5c1c3a8c14900ab197d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-exfiltration-over-dns-with-zeek/scripts/agent.py"}],"archiveSha256":"2dd85f77e0696d8b7dd0da62095413bfcfb3fa6512ab93ca8a6dad57d0c690c6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-exfiltration-over-dns-with-zeek",
+    "name": "detecting-exfiltration-over-dns-with-zeek",
+    "description": "Detect DNS-based data exfiltration by analyzing Zeek dns.log for high-entropy subdomains, oversized TXT/NULL records, and anomalous query volume or patterns. Use when investigating suspected DNS tunneling, covert C2 over DNS, or data exfiltration hidden in DNS queries against network traffic captured by Zeek.",
+    "category": "Development",
+    "tags": [
+      "detecting",
+      "exfiltration",
+      "over",
+      "dns",
+      "zeek",
+      "detect",
+      "based",
+      "data",
+      "by",
+      "analyzing",
+      "dns.log",
+      "high",
+      "entropy",
+      "subdomains",
+      "oversized",
+      "txt",
+      "null",
+      "records"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-exfiltration-over-dns-with-zeek/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-exfiltration-over-dns-with-zeek",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-exfiltration-over-dns-with-zeek",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 25493,
+    "sha256": "1e866e5f132b1412729201f91c37b53c562d2aa68c29fb5f1c820c148ce63a31",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-exfiltration-over-dns-with-zeek/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-exfiltration-over-dns-with-zeek/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-exfiltration-over-dns-with-zeek/SKILL.md",
+      "bytes": 4084,
+      "sha256": "1e866e5f132b1412729201f91c37b53c562d2aa68c29fb5f1c820c148ce63a31",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-exfiltration-over-dns-with-zeek/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-exfiltration-over-dns-with-zeek/references/api-reference.md",
+      "bytes": 2639,
+      "sha256": "ee903d85adb7dbcee1e1214275f562300d8dcfd6615ff1a848c44e5bf926b240",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-exfiltration-over-dns-with-zeek/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-exfiltration-over-dns-with-zeek/scripts/agent.py",
+      "bytes": 7515,
+      "sha256": "0cdc5fac9900250d8b4a75831561c7bec51c415ecbe9e5c1c3a8c14900ab197d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-exfiltration-over-dns-with-zeek/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "2dd85f77e0696d8b7dd0da62095413bfcfb3fa6512ab93ca8a6dad57d0c690c6"
+}

@@ -1,1 +1,53 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--php","name":"php","description":"Language-specific super-code guidelines for php.","category":"Development","tags":["php","language","specific","super","code","guidelines","php."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/super-code/php","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/super-code/php","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":8045,"sha256":"417b77fd796e6f2f0f5a848dd3aeba1561bbedf89b29809b97476eb175378a4f","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/super-code/php/SKILL.md","bytes":6972,"sha256":"417b77fd796e6f2f0f5a848dd3aeba1561bbedf89b29809b97476eb175378a4f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/super-code/php/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"bfeffe93a17962382c06c58f41a82c406cd64d9bfbeed489b7defb0929560b30"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--php",
+    "name": "php",
+    "description": "Language-specific super-code guidelines for php.",
+    "category": "Development",
+    "tags": [
+      "php",
+      "language",
+      "specific",
+      "super",
+      "code",
+      "guidelines",
+      "php."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/super-code/php",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/super-code/php",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 8045,
+    "sha256": "417b77fd796e6f2f0f5a848dd3aeba1561bbedf89b29809b97476eb175378a4f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/super-code/php/SKILL.md",
+      "bytes": 6972,
+      "sha256": "417b77fd796e6f2f0f5a848dd3aeba1561bbedf89b29809b97476eb175378a4f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/super-code/php/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "bfeffe93a17962382c06c58f41a82c406cd64d9bfbeed489b7defb0929560b30"
+}

@@ -1,1 +1,60 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--bash-linux","name":"bash-linux","description":"Bash/Linux terminal patterns. Critical commands, piping, error handling, scripting. Use when working on macOS or Linux systems.","category":"Development","tags":["bash","linux","terminal","patterns.","critical","commands","piping","error","handling","scripting.","when","working","macos","systems."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/bash-linux","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/bash-linux","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5660,"sha256":"8c2479ab77d4c3fe751cbe4a3de56b388bafc382b4cf1193372566c6778aa4b5","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/bash-linux/SKILL.md","bytes":4587,"sha256":"8c2479ab77d4c3fe751cbe4a3de56b388bafc382b4cf1193372566c6778aa4b5","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/bash-linux/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"78890f76df89f6d54a9a75027732acb6524beec06c253a1dfd28da8f248265e1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--bash-linux",
+    "name": "bash-linux",
+    "description": "Bash/Linux terminal patterns. Critical commands, piping, error handling, scripting. Use when working on macOS or Linux systems.",
+    "category": "Development",
+    "tags": [
+      "bash",
+      "linux",
+      "terminal",
+      "patterns.",
+      "critical",
+      "commands",
+      "piping",
+      "error",
+      "handling",
+      "scripting.",
+      "when",
+      "working",
+      "macos",
+      "systems."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/bash-linux",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/bash-linux",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5660,
+    "sha256": "8c2479ab77d4c3fe751cbe4a3de56b388bafc382b4cf1193372566c6778aa4b5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/bash-linux/SKILL.md",
+      "bytes": 4587,
+      "sha256": "8c2479ab77d4c3fe751cbe4a3de56b388bafc382b4cf1193372566c6778aa4b5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/bash-linux/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "78890f76df89f6d54a9a75027732acb6524beec06c253a1dfd28da8f248265e1"
+}

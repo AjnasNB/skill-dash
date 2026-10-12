@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--manage-skills","name":"manage-skills","description":"Discover, list, create, edit, toggle, copy, move, and delete AI agent skills across 11 tools (Cursor, Claude, Agents, Windsurf, Copilot, Codex, Cline, Aider, Continue, Roo Code, Augment)","category":"AI & agents","tags":["manage","skills","discover","list","edit","toggle","copy","move","delete","ai","agent","across","11","tools","cursor","claude","agents","windsurf"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/manage-skills","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/manage-skills","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7660,"sha256":"d6fafd0c28ac65794dfde5992bdf919fd62bac3af1d676a20678f7487c8daefc","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/manage-skills/SKILL.md","bytes":6587,"sha256":"d6fafd0c28ac65794dfde5992bdf919fd62bac3af1d676a20678f7487c8daefc","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/manage-skills/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"3f611b76063080af1bcf4bbba26010b53c5088e92ef46d8aa2755fb36b541e25"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--manage-skills",
+    "name": "manage-skills",
+    "description": "Discover, list, create, edit, toggle, copy, move, and delete AI agent skills across 11 tools (Cursor, Claude, Agents, Windsurf, Copilot, Codex, Cline, Aider, Continue, Roo Code, Augment)",
+    "category": "AI & agents",
+    "tags": [
+      "manage",
+      "skills",
+      "discover",
+      "list",
+      "edit",
+      "toggle",
+      "copy",
+      "move",
+      "delete",
+      "ai",
+      "agent",
+      "across",
+      "11",
+      "tools",
+      "cursor",
+      "claude",
+      "agents",
+      "windsurf"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/manage-skills",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/manage-skills",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7660,
+    "sha256": "d6fafd0c28ac65794dfde5992bdf919fd62bac3af1d676a20678f7487c8daefc",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/manage-skills/SKILL.md",
+      "bytes": 6587,
+      "sha256": "d6fafd0c28ac65794dfde5992bdf919fd62bac3af1d676a20678f7487c8daefc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/manage-skills/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "3f611b76063080af1bcf4bbba26010b53c5088e92ef46d8aa2755fb36b541e25"
+}

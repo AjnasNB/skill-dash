@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--breakdown-plan","name":"breakdown-plan","description":"Issue Planning and Automation prompt that generates comprehensive project plans with Epic > Feature > Story/Enabler > Test hierarchy, dependencies, priorities, and automated tracking.","category":"AI & agents","tags":["breakdown","plan","issue","planning","automation","prompt","generates","comprehensive","project","plans","epic","feature","story","enabler","test","hierarchy","dependencies","priorities"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/breakdown-plan","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/breakdown-plan","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":16109,"sha256":"ce46dc0485b0ee3e7fc4172a507df685207b17806c9fa431bbf723308b8a2125","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/breakdown-plan/SKILL.md","bytes":15050,"sha256":"ce46dc0485b0ee3e7fc4172a507df685207b17806c9fa431bbf723308b8a2125","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/breakdown-plan/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"1c0b33542e99c9be07f71fec3e5cf5ddc74b95e1d7269c52007b9060b05fedb8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--breakdown-plan",
+    "name": "breakdown-plan",
+    "description": "Issue Planning and Automation prompt that generates comprehensive project plans with Epic > Feature > Story/Enabler > Test hierarchy, dependencies, priorities, and automated tracking.",
+    "category": "AI & agents",
+    "tags": [
+      "breakdown",
+      "plan",
+      "issue",
+      "planning",
+      "automation",
+      "prompt",
+      "generates",
+      "comprehensive",
+      "project",
+      "plans",
+      "epic",
+      "feature",
+      "story",
+      "enabler",
+      "test",
+      "hierarchy",
+      "dependencies",
+      "priorities"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/breakdown-plan",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/breakdown-plan",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 16109,
+    "sha256": "ce46dc0485b0ee3e7fc4172a507df685207b17806c9fa431bbf723308b8a2125",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/breakdown-plan/SKILL.md",
+      "bytes": 15050,
+      "sha256": "ce46dc0485b0ee3e7fc4172a507df685207b17806c9fa431bbf723308b8a2125",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/breakdown-plan/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "1c0b33542e99c9be07f71fec3e5cf5ddc74b95e1d7269c52007b9060b05fedb8"
+}

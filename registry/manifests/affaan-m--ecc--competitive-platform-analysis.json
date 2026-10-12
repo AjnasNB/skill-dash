@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--competitive-platform-analysis","name":"competitive-platform-analysis","description":"Use when scoping a competitive landscape — identifying, categorising, and score-filtering a competitor set before any benchmarking begins. Decides who counts as a competitor, which tier they belong to, and which sources to mine. First step in the three-skill competitive pipeline; precedes benchmark-methodology.","category":"Development","tags":["competitive","platform","analysis","when","scoping","landscape","identifying","categorising","score","filtering","competitor","set","before","any","benchmarking","begins.","decides","who"],"repo":"affaan-m/ECC","owner":"affaan-m","stars":277532,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"b92f181b3b748d1abbc2afd94af6aa7d8c8fca29","path":"skills/competitive-platform-analysis","sourceUrl":"https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/competitive-platform-analysis","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T02:02:10Z","fileCount":2,"bytes":13049,"sha256":"9d868bf06258b7228dc9cd91fe8d0e5b3e2edfd0da5caba6366a188fc830826e","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/competitive-platform-analysis/SKILL.md","bytes":11978,"sha256":"9d868bf06258b7228dc9cd91fe8d0e5b3e2edfd0da5caba6366a188fc830826e","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/competitive-platform-analysis/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"}],"archiveSha256":"8555c149f08a3b30d069a139e6e5f58464e3dfb86498fbc4e49756d03a9e0bfc"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--competitive-platform-analysis",
+    "name": "competitive-platform-analysis",
+    "description": "Use when scoping a competitive landscape — identifying, categorising, and score-filtering a competitor set before any benchmarking begins. Decides who counts as a competitor, which tier they belong to, and which sources to mine. First step in the three-skill competitive pipeline; precedes benchmark-methodology.",
+    "category": "Development",
+    "tags": [
+      "competitive",
+      "platform",
+      "analysis",
+      "when",
+      "scoping",
+      "landscape",
+      "identifying",
+      "categorising",
+      "score",
+      "filtering",
+      "competitor",
+      "set",
+      "before",
+      "any",
+      "benchmarking",
+      "begins.",
+      "decides",
+      "who"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/competitive-platform-analysis",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/competitive-platform-analysis",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 2,
+    "bytes": 13049,
+    "sha256": "9d868bf06258b7228dc9cd91fe8d0e5b3e2edfd0da5caba6366a188fc830826e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/competitive-platform-analysis/SKILL.md",
+      "bytes": 11978,
+      "sha256": "9d868bf06258b7228dc9cd91fe8d0e5b3e2edfd0da5caba6366a188fc830826e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/competitive-platform-analysis/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "8555c149f08a3b30d069a139e6e5f58464e3dfb86498fbc4e49756d03a9e0bfc"
+}

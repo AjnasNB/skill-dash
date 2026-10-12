@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--git-advanced-workflows","name":"git-advanced-workflows","description":"Master advanced Git techniques to maintain clean history, collaborate effectively, and recover from any situation with confidence.","category":"Development","tags":["git","advanced","workflows","master","techniques","maintain","clean","history","collaborate","effectively","recover","from","any","situation","confidence."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/git-advanced-workflows","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/git-advanced-workflows","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":10404,"sha256":"3060cf37e965728e3e24b5cb27a2a27cf3d385d6c99f47791f53a0fc0930d281","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/git-advanced-workflows/SKILL.md","bytes":9331,"sha256":"3060cf37e965728e3e24b5cb27a2a27cf3d385d6c99f47791f53a0fc0930d281","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/git-advanced-workflows/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"9784988930766bf1c1314884571ba3d77a8fa0b1b100c4306891e11e0ed5b297"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--git-advanced-workflows",
+    "name": "git-advanced-workflows",
+    "description": "Master advanced Git techniques to maintain clean history, collaborate effectively, and recover from any situation with confidence.",
+    "category": "Development",
+    "tags": [
+      "git",
+      "advanced",
+      "workflows",
+      "master",
+      "techniques",
+      "maintain",
+      "clean",
+      "history",
+      "collaborate",
+      "effectively",
+      "recover",
+      "from",
+      "any",
+      "situation",
+      "confidence."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/git-advanced-workflows",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/git-advanced-workflows",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10404,
+    "sha256": "3060cf37e965728e3e24b5cb27a2a27cf3d385d6c99f47791f53a0fc0930d281",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/git-advanced-workflows/SKILL.md",
+      "bytes": 9331,
+      "sha256": "3060cf37e965728e3e24b5cb27a2a27cf3d385d6c99f47791f53a0fc0930d281",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/git-advanced-workflows/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "9784988930766bf1c1314884571ba3d77a8fa0b1b100c4306891e11e0ed5b297"
+}

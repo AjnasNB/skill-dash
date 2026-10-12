@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--warehouse","name":"warehouse","description":"Plan and review read-only data warehouse analysis with explicit scope, privacy, provenance, and validation checks.","category":"Development","tags":["warehouse","plan","review","read","only","data","analysis","explicit","scope","privacy","provenance","validation","checks."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/warehouse","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/warehouse","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7902,"sha256":"b177c7c8b5599055149e70130bf95242d4deb23d38753d3c08a5fa8e3a65c22a","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/warehouse/SKILL.md","bytes":6829,"sha256":"b177c7c8b5599055149e70130bf95242d4deb23d38753d3c08a5fa8e3a65c22a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/warehouse/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"5ac3fb4a6a8303e73a3d0db087998c9ef609d9105f2857ccefb4bef30972825d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--warehouse",
+    "name": "warehouse",
+    "description": "Plan and review read-only data warehouse analysis with explicit scope, privacy, provenance, and validation checks.",
+    "category": "Development",
+    "tags": [
+      "warehouse",
+      "plan",
+      "review",
+      "read",
+      "only",
+      "data",
+      "analysis",
+      "explicit",
+      "scope",
+      "privacy",
+      "provenance",
+      "validation",
+      "checks."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/warehouse",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/warehouse",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7902,
+    "sha256": "b177c7c8b5599055149e70130bf95242d4deb23d38753d3c08a5fa8e3a65c22a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/warehouse/SKILL.md",
+      "bytes": 6829,
+      "sha256": "b177c7c8b5599055149e70130bf95242d4deb23d38753d3c08a5fa8e3a65c22a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/warehouse/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "5ac3fb4a6a8303e73a3d0db087998c9ef609d9105f2857ccefb4bef30972825d"
+}

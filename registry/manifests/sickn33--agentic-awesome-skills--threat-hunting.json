@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--threat-hunting","name":"threat-hunting","description":"Blue-team threat hunting: detection engineering with Sigma/YARA, SIEM query design, and validation of incident detections against known technique patterns.","category":"Design","tags":["threat","hunting","blue","team","detection","engineering","sigma","yara","siem","query","design","validation","incident","detections","against","known","technique","patterns."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/threat-hunting","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/threat-hunting","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":3724,"sha256":"a31000f71942a912f581e4eb88e5a1030b13de1f52e94800bea98c7009d9dcfc","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/threat-hunting/SKILL.md","bytes":2470,"sha256":"a31000f71942a912f581e4eb88e5a1030b13de1f52e94800bea98c7009d9dcfc","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/threat-hunting/SKILL.md"},{"path":"references/hunting-loop.md","sourcePath":"skills/threat-hunting/references/hunting-loop.md","bytes":181,"sha256":"dc240430b3f5574b1852125940848efa459af069f90c5d0c29aed8eba4d1252a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/threat-hunting/references/hunting-loop.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"4e1ee6ed18efea336916775d83928e0c26ecfc2f65817cbd57a52e12103a3a75"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--threat-hunting",
+    "name": "threat-hunting",
+    "description": "Blue-team threat hunting: detection engineering with Sigma/YARA, SIEM query design, and validation of incident detections against known technique patterns.",
+    "category": "Design",
+    "tags": [
+      "threat",
+      "hunting",
+      "blue",
+      "team",
+      "detection",
+      "engineering",
+      "sigma",
+      "yara",
+      "siem",
+      "query",
+      "design",
+      "validation",
+      "incident",
+      "detections",
+      "against",
+      "known",
+      "technique",
+      "patterns."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/threat-hunting",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/threat-hunting",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 3724,
+    "sha256": "a31000f71942a912f581e4eb88e5a1030b13de1f52e94800bea98c7009d9dcfc",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/threat-hunting/SKILL.md",
+      "bytes": 2470,
+      "sha256": "a31000f71942a912f581e4eb88e5a1030b13de1f52e94800bea98c7009d9dcfc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/threat-hunting/SKILL.md"
+    },
+    {
+      "path": "references/hunting-loop.md",
+      "sourcePath": "skills/threat-hunting/references/hunting-loop.md",
+      "bytes": 181,
+      "sha256": "dc240430b3f5574b1852125940848efa459af069f90c5d0c29aed8eba4d1252a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/threat-hunting/references/hunting-loop.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "4e1ee6ed18efea336916775d83928e0c26ecfc2f65817cbd57a52e12103a3a75"
+}

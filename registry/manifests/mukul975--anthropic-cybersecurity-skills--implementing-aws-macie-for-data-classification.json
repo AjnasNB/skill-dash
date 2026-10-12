@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-aws-macie-for-data-classification","name":"implementing-aws-macie-for-data-classification","description":"Enable and configure Amazon Macie via AWS CLI/Terraform to discover, classify, and protect sensitive data (PII, financial data, credentials) in S3 using ML and pattern matching, including discovery jobs, custom data identifiers, allow lists, and EventBridge-based remediation. Use when setting up S3 data classification, cloud DLP, or auditing S3 for unprotected sensitive data.","category":"Cloud & DevOps","tags":["implementing","aws","macie","data","classification","enable","configure","amazon","via","cli","terraform","discover","classify","protect","sensitive","pii","financial","credentials"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-aws-macie-for-data-classification/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-aws-macie-for-data-classification","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-macie-for-data-classification","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":35888,"sha256":"1cc9da6fa040a4c7ff2277306a810b36afd8a8e1e7a0e0ad8e0ae2960ce09182","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-aws-macie-for-data-classification/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-macie-for-data-classification/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-aws-macie-for-data-classification/SKILL.md","bytes":8550,"sha256":"1cc9da6fa040a4c7ff2277306a810b36afd8a8e1e7a0e0ad8e0ae2960ce09182","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-macie-for-data-classification/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-aws-macie-for-data-classification/assets/template.md","bytes":775,"sha256":"c08b7a18c92d60eae1387537b364b0f948c83b455c99f4198353c75da1e37136","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-macie-for-data-classification/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-aws-macie-for-data-classification/references/api-reference.md","bytes":2080,"sha256":"1817a044264590c05132299781250b37c33571c68382278901d2c211d1234cd2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-macie-for-data-classification/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-aws-macie-for-data-classification/references/standards.md","bytes":625,"sha256":"90603dae646460b86541ba4195cc67b93fdadf99301065e90ade8eab890f377f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-macie-for-data-classification/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-aws-macie-for-data-classification/references/workflows.md","bytes":823,"sha256":"983ef4287d2e7aff1f09ee7c5b9566e6478fa00ecbbcd8566739045b01a656b3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-macie-for-data-classification/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-aws-macie-for-data-classification/scripts/agent.py","bytes":6102,"sha256":"1bf4d7b4a7c9fba880896059d8e9b1876f3d2e0aff42ca587c001a784ec4c00a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-macie-for-data-classification/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-aws-macie-for-data-classification/scripts/process.py","bytes":5678,"sha256":"26214358a97f7140a2c8b155b748ad7c131cfe11edde318b290dd7a1913fec19","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-macie-for-data-classification/scripts/process.py"}],"archiveSha256":"ccb8271426f37ca1beb6032aca2f78e6b49f31cb2f2c25edcf62d1356a070a4a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-aws-macie-for-data-classification",
+    "name": "implementing-aws-macie-for-data-classification",
+    "description": "Enable and configure Amazon Macie via AWS CLI/Terraform to discover, classify, and protect sensitive data (PII, financial data, credentials) in S3 using ML and pattern matching, including discovery jobs, custom data identifiers, allow lists, and EventBridge-based remediation. Use when setting up S3 data classification, cloud DLP, or auditing S3 for unprotected sensitive data.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "implementing",
+      "aws",
+      "macie",
+      "data",
+      "classification",
+      "enable",
+      "configure",
+      "amazon",
+      "via",
+      "cli",
+      "terraform",
+      "discover",
+      "classify",
+      "protect",
+      "sensitive",
+      "pii",
+      "financial",
+      "credentials"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-aws-macie-for-data-classification/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-aws-macie-for-data-classification",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-macie-for-data-classification",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 35888,
+    "sha256": "1cc9da6fa040a4c7ff2277306a810b36afd8a8e1e7a0e0ad8e0ae2960ce09182",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-aws-macie-for-data-classification/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-macie-for-data-classification/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-aws-macie-for-data-classification/SKILL.md",
+      "bytes": 8550,
+      "sha256": "1cc9da6fa040a4c7ff2277306a810b36afd8a8e1e7a0e0ad8e0ae2960ce09182",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-macie-for-data-classification/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-aws-macie-for-data-classification/assets/template.md",
+      "bytes": 775,
+      "sha256": "c08b7a18c92d60eae1387537b364b0f948c83b455c99f4198353c75da1e37136",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-macie-for-data-classification/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-aws-macie-for-data-classification/references/api-reference.md",
+      "bytes": 2080,
+      "sha256": "1817a044264590c05132299781250b37c33571c68382278901d2c211d1234cd2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-macie-for-data-classification/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-aws-macie-for-data-classification/references/standards.md",
+      "bytes": 625,
+      "sha256": "90603dae646460b86541ba4195cc67b93fdadf99301065e90ade8eab890f377f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-macie-for-data-classification/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-aws-macie-for-data-classification/references/workflows.md",
+      "bytes": 823,
+      "sha256": "983ef4287d2e7aff1f09ee7c5b9566e6478fa00ecbbcd8566739045b01a656b3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-macie-for-data-classification/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-aws-macie-for-data-classification/scripts/agent.py",
+      "bytes": 6102,
+      "sha256": "1bf4d7b4a7c9fba880896059d8e9b1876f3d2e0aff42ca587c001a784ec4c00a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-macie-for-data-classification/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-aws-macie-for-data-classification/scripts/process.py",
+      "bytes": 5678,
+      "sha256": "26214358a97f7140a2c8b155b748ad7c131cfe11edde318b290dd7a1913fec19",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-macie-for-data-classification/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "ccb8271426f37ca1beb6032aca2f78e6b49f31cb2f2c25edcf62d1356a070a4a"
+}

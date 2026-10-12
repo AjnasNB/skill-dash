@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--arrowspace","name":"arrowspace","description":"Spectral vector search using graph Laplacian eigenstructure. Use when cosine/L2 similarity misses latent structure in your embeddings.","category":"Development","tags":["arrowspace","spectral","vector","search","graph","laplacian","eigenstructure.","when","cosine","l2","similarity","misses","latent","structure","embeddings."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/arrowspace","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/arrowspace","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4949,"sha256":"99e90b01dec5ecfbb23690478a04d1eef734ae6b61c1388b0e2f16b2104e9711","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/arrowspace/SKILL.md","bytes":3876,"sha256":"99e90b01dec5ecfbb23690478a04d1eef734ae6b61c1388b0e2f16b2104e9711","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/arrowspace/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"a0a0a848798c9bb9fb6ffd70e04014edeae1b26d9beea66c7c3c7d467463b027"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--arrowspace",
+    "name": "arrowspace",
+    "description": "Spectral vector search using graph Laplacian eigenstructure. Use when cosine/L2 similarity misses latent structure in your embeddings.",
+    "category": "Development",
+    "tags": [
+      "arrowspace",
+      "spectral",
+      "vector",
+      "search",
+      "graph",
+      "laplacian",
+      "eigenstructure.",
+      "when",
+      "cosine",
+      "l2",
+      "similarity",
+      "misses",
+      "latent",
+      "structure",
+      "embeddings."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/arrowspace",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/arrowspace",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4949,
+    "sha256": "99e90b01dec5ecfbb23690478a04d1eef734ae6b61c1388b0e2f16b2104e9711",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/arrowspace/SKILL.md",
+      "bytes": 3876,
+      "sha256": "99e90b01dec5ecfbb23690478a04d1eef734ae6b61c1388b0e2f16b2104e9711",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/arrowspace/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "a0a0a848798c9bb9fb6ffd70e04014edeae1b26d9beea66c7c3c7d467463b027"
+}

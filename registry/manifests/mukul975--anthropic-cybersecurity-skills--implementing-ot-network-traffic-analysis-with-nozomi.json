@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-ot-network-traffic-analysis-with-nozomi","name":"implementing-ot-network-traffic-analysis-with-nozomi","description":"Deploy Nozomi Networks Guardian sensors for passive OT network traffic analysis, providing asset visibility, behavioral anomaly detection, protocol-aware monitoring, and vulnerability assessment across industrial control systems without disrupting operations. Use when deploying OT/ICS network monitoring, configuring Guardian sensors, or building real-time threat detection for SCADA and industrial environments.","category":"Security","tags":["implementing","ot","network","traffic","analysis","nozomi","deploy","networks","guardian","sensors","passive","providing","asset","visibility","behavioral","anomaly","detection","protocol"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-ot-network-traffic-analysis-with-nozomi/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-ot-network-traffic-analysis-with-nozomi","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ot-network-traffic-analysis-with-nozomi","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":27459,"sha256":"5c8aa24b1a23a6582b407f28dd53e66ffc48905033a2246b021978c21b6edd66","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-ot-network-traffic-analysis-with-nozomi/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ot-network-traffic-analysis-with-nozomi/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-ot-network-traffic-analysis-with-nozomi/SKILL.md","bytes":10083,"sha256":"5c8aa24b1a23a6582b407f28dd53e66ffc48905033a2246b021978c21b6edd66","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ot-network-traffic-analysis-with-nozomi/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-ot-network-traffic-analysis-with-nozomi/references/api-reference.md","bytes":2319,"sha256":"3f5c03746d7e2cfbcad1bccf6b784650f528beff979891cafd4e77b4b68d95fd","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ot-network-traffic-analysis-with-nozomi/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-ot-network-traffic-analysis-with-nozomi/scripts/agent.py","bytes":3802,"sha256":"fd498d1faf6b77e6b3a634f073c8c695c5e33b792cb816fcac8af7de78b68f80","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ot-network-traffic-analysis-with-nozomi/scripts/agent.py"}],"archiveSha256":"3797e4f16dca5e88420254dd30b6996e588de95ac8acbd1ebcfb95d450a53c9b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-ot-network-traffic-analysis-with-nozomi",
+    "name": "implementing-ot-network-traffic-analysis-with-nozomi",
+    "description": "Deploy Nozomi Networks Guardian sensors for passive OT network traffic analysis, providing asset visibility, behavioral anomaly detection, protocol-aware monitoring, and vulnerability assessment across industrial control systems without disrupting operations. Use when deploying OT/ICS network monitoring, configuring Guardian sensors, or building real-time threat detection for SCADA and industrial environments.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "ot",
+      "network",
+      "traffic",
+      "analysis",
+      "nozomi",
+      "deploy",
+      "networks",
+      "guardian",
+      "sensors",
+      "passive",
+      "providing",
+      "asset",
+      "visibility",
+      "behavioral",
+      "anomaly",
+      "detection",
+      "protocol"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-ot-network-traffic-analysis-with-nozomi/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-ot-network-traffic-analysis-with-nozomi",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ot-network-traffic-analysis-with-nozomi",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 27459,
+    "sha256": "5c8aa24b1a23a6582b407f28dd53e66ffc48905033a2246b021978c21b6edd66",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-ot-network-traffic-analysis-with-nozomi/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ot-network-traffic-analysis-with-nozomi/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-ot-network-traffic-analysis-with-nozomi/SKILL.md",
+      "bytes": 10083,
+      "sha256": "5c8aa24b1a23a6582b407f28dd53e66ffc48905033a2246b021978c21b6edd66",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ot-network-traffic-analysis-with-nozomi/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-ot-network-traffic-analysis-with-nozomi/references/api-reference.md",
+      "bytes": 2319,
+      "sha256": "3f5c03746d7e2cfbcad1bccf6b784650f528beff979891cafd4e77b4b68d95fd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ot-network-traffic-analysis-with-nozomi/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-ot-network-traffic-analysis-with-nozomi/scripts/agent.py",
+      "bytes": 3802,
+      "sha256": "fd498d1faf6b77e6b3a634f073c8c695c5e33b792cb816fcac8af7de78b68f80",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ot-network-traffic-analysis-with-nozomi/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "3797e4f16dca5e88420254dd30b6996e588de95ac8acbd1ebcfb95d450a53c9b"
+}

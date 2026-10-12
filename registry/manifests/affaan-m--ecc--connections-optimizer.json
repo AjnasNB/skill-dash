@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--connections-optimizer","name":"connections-optimizer","description":"Reorganize the user's X and LinkedIn network with review-first pruning, add/follow recommendations, and channel-specific warm outreach drafted in the user's real voice. Use when the user wants to clean up following lists, grow toward current priorities, or rebalance a social graph around higher-signal relationships.","category":"Development","tags":["connections","optimizer","reorganize","user","linkedin","network","review","first","pruning","add","follow","recommendations","channel","specific","warm","outreach","drafted","real"],"repo":"affaan-m/ECC","owner":"affaan-m","stars":277532,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"b92f181b3b748d1abbc2afd94af6aa7d8c8fca29","path":"skills/connections-optimizer","sourceUrl":"https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/connections-optimizer","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T02:02:10Z","fileCount":2,"bytes":6548,"sha256":"499c7e7e361ec17afdad57b725b4d105efb21f707b5724115f71152fe1755c67","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/connections-optimizer/SKILL.md","bytes":5477,"sha256":"499c7e7e361ec17afdad57b725b4d105efb21f707b5724115f71152fe1755c67","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/connections-optimizer/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"}],"archiveSha256":"134fbd4afbccf3c5844b2f0c02446b73b23ff673a9c495b42c759de793319b4c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--connections-optimizer",
+    "name": "connections-optimizer",
+    "description": "Reorganize the user's X and LinkedIn network with review-first pruning, add/follow recommendations, and channel-specific warm outreach drafted in the user's real voice. Use when the user wants to clean up following lists, grow toward current priorities, or rebalance a social graph around higher-signal relationships.",
+    "category": "Development",
+    "tags": [
+      "connections",
+      "optimizer",
+      "reorganize",
+      "user",
+      "linkedin",
+      "network",
+      "review",
+      "first",
+      "pruning",
+      "add",
+      "follow",
+      "recommendations",
+      "channel",
+      "specific",
+      "warm",
+      "outreach",
+      "drafted",
+      "real"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/connections-optimizer",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/connections-optimizer",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 2,
+    "bytes": 6548,
+    "sha256": "499c7e7e361ec17afdad57b725b4d105efb21f707b5724115f71152fe1755c67",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/connections-optimizer/SKILL.md",
+      "bytes": 5477,
+      "sha256": "499c7e7e361ec17afdad57b725b4d105efb21f707b5724115f71152fe1755c67",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/connections-optimizer/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "134fbd4afbccf3c5844b2f0c02446b73b23ff673a9c495b42c759de793319b4c"
+}

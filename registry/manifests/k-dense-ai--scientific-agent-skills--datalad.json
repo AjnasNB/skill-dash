@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--datalad","name":"datalad","description":"Retrieves, versions, and publishes scientific datasets with DataLad and git-annex, and captures computational provenance with datalad run, rerun, and containers-run. Use when cloning or fetching data from OpenNeuro, DANDI, datasets.datalad.org, or any DataLad dataset; when a file in a dataset reads as a broken symlink or a small pointer instead of real data; when an analysis needs a machine-readable record of how each output was produced so it can be re-executed; or when publishing a dataset to siblings such as a GitHub repository plus a storage remote. Also use to decide between DataLad and plain Git for a data-carrying repository.","category":"Data & research","tags":["datalad","retrieves","versions","publishes","scientific","datasets","git","annex","captures","computational","provenance","run","rerun","containers","run.","when","cloning","fetching"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/datalad","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/datalad","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":5,"bytes":53474,"sha256":"bb902427db0c501db4187aafd3433eea67fa1071348cf07adcea2558ed49debb","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/datalad/SKILL.md","bytes":17431,"sha256":"bb902427db0c501db4187aafd3433eea67fa1071348cf07adcea2558ed49debb","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/datalad/SKILL.md"},{"path":"references/data-access.md","sourcePath":"skills/datalad/references/data-access.md","bytes":9714,"sha256":"f419bd39ca536562238d7404f0eaa4836c444d38df0cf7121befe936d529b1c7","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/datalad/references/data-access.md"},{"path":"references/provenance.md","sourcePath":"skills/datalad/references/provenance.md","bytes":14087,"sha256":"d9e56071463c5c118800ff5a800dd58ae5de38d04fc465c119ae0c690fc1c542","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/datalad/references/provenance.md"},{"path":"references/publishing.md","sourcePath":"skills/datalad/references/publishing.md","bytes":11174,"sha256":"a5efdceeea8086549917e9e2b3bc526c8c7ec9f1e31a8a438c5e8ba9dd18d6cd","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/datalad/references/publishing.md"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"9fd7e27c68da25ab8dc148aed119efe4137ae2b7d6a35461ba0e40abaf638de8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--datalad",
+    "name": "datalad",
+    "description": "Retrieves, versions, and publishes scientific datasets with DataLad and git-annex, and captures computational provenance with datalad run, rerun, and containers-run. Use when cloning or fetching data from OpenNeuro, DANDI, datasets.datalad.org, or any DataLad dataset; when a file in a dataset reads as a broken symlink or a small pointer instead of real data; when an analysis needs a machine-readable record of how each output was produced so it can be re-executed; or when publishing a dataset to siblings such as a GitHub repository plus a storage remote. Also use to decide between DataLad and plain Git for a data-carrying repository.",
+    "category": "Data & research",
+    "tags": [
+      "datalad",
+      "retrieves",
+      "versions",
+      "publishes",
+      "scientific",
+      "datasets",
+      "git",
+      "annex",
+      "captures",
+      "computational",
+      "provenance",
+      "run",
+      "rerun",
+      "containers",
+      "run.",
+      "when",
+      "cloning",
+      "fetching"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/datalad",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/datalad",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 5,
+    "bytes": 53474,
+    "sha256": "bb902427db0c501db4187aafd3433eea67fa1071348cf07adcea2558ed49debb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/datalad/SKILL.md",
+      "bytes": 17431,
+      "sha256": "bb902427db0c501db4187aafd3433eea67fa1071348cf07adcea2558ed49debb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/datalad/SKILL.md"
+    },
+    {
+      "path": "references/data-access.md",
+      "sourcePath": "skills/datalad/references/data-access.md",
+      "bytes": 9714,
+      "sha256": "f419bd39ca536562238d7404f0eaa4836c444d38df0cf7121befe936d529b1c7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/datalad/references/data-access.md"
+    },
+    {
+      "path": "references/provenance.md",
+      "sourcePath": "skills/datalad/references/provenance.md",
+      "bytes": 14087,
+      "sha256": "d9e56071463c5c118800ff5a800dd58ae5de38d04fc465c119ae0c690fc1c542",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/datalad/references/provenance.md"
+    },
+    {
+      "path": "references/publishing.md",
+      "sourcePath": "skills/datalad/references/publishing.md",
+      "bytes": 11174,
+      "sha256": "a5efdceeea8086549917e9e2b3bc526c8c7ec9f1e31a8a438c5e8ba9dd18d6cd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/datalad/references/publishing.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "9fd7e27c68da25ab8dc148aed119efe4137ae2b7d6a35461ba0e40abaf638de8"
+}

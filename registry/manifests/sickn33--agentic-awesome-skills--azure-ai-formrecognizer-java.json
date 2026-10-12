@@ -1,1 +1,56 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--azure-ai-formrecognizer-java","name":"azure-ai-formrecognizer-java","description":"Build document analysis applications using the Azure AI Document Intelligence SDK for Java.","category":"Cloud & DevOps","tags":["azure","ai","formrecognizer","java","document","analysis","applications","intelligence","sdk","java."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/azure-ai-formrecognizer-java","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-formrecognizer-java","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11641,"sha256":"f90834226c351fa1ebd340c99b91f21acb4ee7744a54412da7ecd59951087b90","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/azure-ai-formrecognizer-java/SKILL.md","bytes":10568,"sha256":"f90834226c351fa1ebd340c99b91f21acb4ee7744a54412da7ecd59951087b90","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-formrecognizer-java/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"67eb59bd4ea022694f263a301e4598282b5604b8c6ec84b4b88a3cc6ee519ef1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--azure-ai-formrecognizer-java",
+    "name": "azure-ai-formrecognizer-java",
+    "description": "Build document analysis applications using the Azure AI Document Intelligence SDK for Java.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "azure",
+      "ai",
+      "formrecognizer",
+      "java",
+      "document",
+      "analysis",
+      "applications",
+      "intelligence",
+      "sdk",
+      "java."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/azure-ai-formrecognizer-java",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-formrecognizer-java",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11641,
+    "sha256": "f90834226c351fa1ebd340c99b91f21acb4ee7744a54412da7ecd59951087b90",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/azure-ai-formrecognizer-java/SKILL.md",
+      "bytes": 10568,
+      "sha256": "f90834226c351fa1ebd340c99b91f21acb4ee7744a54412da7ecd59951087b90",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-formrecognizer-java/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "67eb59bd4ea022694f263a301e4598282b5604b8c6ec84b4b88a3cc6ee519ef1"
+}

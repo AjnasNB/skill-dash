@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--building-ioc-enrichment-pipeline-with-opencti","name":"building-ioc-enrichment-pipeline-with-opencti","description":"Build an automated IOC enrichment pipeline on OpenCTI (STIX 2.1 native threat intel platform) using its internal enrichment connectors to pull context from VirusTotal, Shodan, AbuseIPDB, and GreyNoise, correlate indicators with known actors/campaigns, and score them for analyst prioritization. Use when deploying OpenCTI or automating enrichment and confidence scoring of newly ingested indicators.","category":"Security","tags":["building","ioc","enrichment","pipeline","opencti","automated","stix","2.1","native","threat","intel","platform","its","internal","connectors","pull","context","from"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/building-ioc-enrichment-pipeline-with-opencti/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/building-ioc-enrichment-pipeline-with-opencti","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-enrichment-pipeline-with-opencti","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":56951,"sha256":"360a5eecc03be1712acd58a6ad4e888921c72c54eb9015a50b8d0f963cfb659a","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/building-ioc-enrichment-pipeline-with-opencti/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-enrichment-pipeline-with-opencti/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/building-ioc-enrichment-pipeline-with-opencti/SKILL.md","bytes":9889,"sha256":"360a5eecc03be1712acd58a6ad4e888921c72c54eb9015a50b8d0f963cfb659a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-enrichment-pipeline-with-opencti/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/building-ioc-enrichment-pipeline-with-opencti/assets/template.md","bytes":2067,"sha256":"f3f3b194dc8fb505ddff4dea4e207603b13b8e8ef59833f751c2cbd966d450b8","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-enrichment-pipeline-with-opencti/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/building-ioc-enrichment-pipeline-with-opencti/references/api-reference.md","bytes":1885,"sha256":"58dd80727b9e250e243907480b92545928a7bbceb885a5f23a52ff1747cb29c1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-enrichment-pipeline-with-opencti/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/building-ioc-enrichment-pipeline-with-opencti/references/standards.md","bytes":3180,"sha256":"86a05c74b739e8073846dcbf339703bb8567554dcb1de2450242fdc5bbca2172","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-enrichment-pipeline-with-opencti/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/building-ioc-enrichment-pipeline-with-opencti/references/workflows.md","bytes":5085,"sha256":"d8913df0846b1828a3022a7b189a249b39e8718693bfa150912e1f853f71a719","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-enrichment-pipeline-with-opencti/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/building-ioc-enrichment-pipeline-with-opencti/scripts/agent.py","bytes":5856,"sha256":"ed2d81c35b5c9b62f90c5beda7dbb58d549ca0c9303e2178ee16b19370ed4bd2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-enrichment-pipeline-with-opencti/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/building-ioc-enrichment-pipeline-with-opencti/scripts/process.py","bytes":17734,"sha256":"4d32988b8c2899c74a5761531cef1d76f6a6193897282e7125314a56bd6ee7ee","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-enrichment-pipeline-with-opencti/scripts/process.py"}],"archiveSha256":"274f35ed3680f82db5ca6c09c9cecb38c18759debb5c5f0aec8e9beee96933a5"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--building-ioc-enrichment-pipeline-with-opencti",
+    "name": "building-ioc-enrichment-pipeline-with-opencti",
+    "description": "Build an automated IOC enrichment pipeline on OpenCTI (STIX 2.1 native threat intel platform) using its internal enrichment connectors to pull context from VirusTotal, Shodan, AbuseIPDB, and GreyNoise, correlate indicators with known actors/campaigns, and score them for analyst prioritization. Use when deploying OpenCTI or automating enrichment and confidence scoring of newly ingested indicators.",
+    "category": "Security",
+    "tags": [
+      "building",
+      "ioc",
+      "enrichment",
+      "pipeline",
+      "opencti",
+      "automated",
+      "stix",
+      "2.1",
+      "native",
+      "threat",
+      "intel",
+      "platform",
+      "its",
+      "internal",
+      "connectors",
+      "pull",
+      "context",
+      "from"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/building-ioc-enrichment-pipeline-with-opencti/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/building-ioc-enrichment-pipeline-with-opencti",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-enrichment-pipeline-with-opencti",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 56951,
+    "sha256": "360a5eecc03be1712acd58a6ad4e888921c72c54eb9015a50b8d0f963cfb659a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/building-ioc-enrichment-pipeline-with-opencti/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-enrichment-pipeline-with-opencti/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/building-ioc-enrichment-pipeline-with-opencti/SKILL.md",
+      "bytes": 9889,
+      "sha256": "360a5eecc03be1712acd58a6ad4e888921c72c54eb9015a50b8d0f963cfb659a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-enrichment-pipeline-with-opencti/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/building-ioc-enrichment-pipeline-with-opencti/assets/template.md",
+      "bytes": 2067,
+      "sha256": "f3f3b194dc8fb505ddff4dea4e207603b13b8e8ef59833f751c2cbd966d450b8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-enrichment-pipeline-with-opencti/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/building-ioc-enrichment-pipeline-with-opencti/references/api-reference.md",
+      "bytes": 1885,
+      "sha256": "58dd80727b9e250e243907480b92545928a7bbceb885a5f23a52ff1747cb29c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-enrichment-pipeline-with-opencti/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/building-ioc-enrichment-pipeline-with-opencti/references/standards.md",
+      "bytes": 3180,
+      "sha256": "86a05c74b739e8073846dcbf339703bb8567554dcb1de2450242fdc5bbca2172",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-enrichment-pipeline-with-opencti/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/building-ioc-enrichment-pipeline-with-opencti/references/workflows.md",
+      "bytes": 5085,
+      "sha256": "d8913df0846b1828a3022a7b189a249b39e8718693bfa150912e1f853f71a719",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-enrichment-pipeline-with-opencti/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/building-ioc-enrichment-pipeline-with-opencti/scripts/agent.py",
+      "bytes": 5856,
+      "sha256": "ed2d81c35b5c9b62f90c5beda7dbb58d549ca0c9303e2178ee16b19370ed4bd2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-enrichment-pipeline-with-opencti/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/building-ioc-enrichment-pipeline-with-opencti/scripts/process.py",
+      "bytes": 17734,
+      "sha256": "4d32988b8c2899c74a5761531cef1d76f6a6193897282e7125314a56bd6ee7ee",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-ioc-enrichment-pipeline-with-opencti/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "274f35ed3680f82db5ca6c09c9cecb38c18759debb5c5f0aec8e9beee96933a5"
+}

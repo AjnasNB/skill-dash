@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--conducting-man-in-the-middle-attack-simulation","name":"conducting-man-in-the-middle-attack-simulation","description":"Simulates man-in-the-middle attacks using Ettercap, mitmproxy, and Bettercap in authorized environments to intercept, analyze, and modify network traffic for testing encryption enforcement, certificate validation, and detection capabilities.","category":"Development","tags":["conducting","man","middle","attack","simulation","simulates","attacks","ettercap","mitmproxy","bettercap","authorized","environments","intercept","analyze","modify","network","traffic","testing"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/conducting-man-in-the-middle-attack-simulation/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/conducting-man-in-the-middle-attack-simulation","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-man-in-the-middle-attack-simulation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":31862,"sha256":"e15514bfe8bcb35c8ab4f246cf368cca1e1e6167cd9145de615a01733a6af1fb","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/conducting-man-in-the-middle-attack-simulation/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-man-in-the-middle-attack-simulation/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/conducting-man-in-the-middle-attack-simulation/SKILL.md","bytes":11805,"sha256":"e15514bfe8bcb35c8ab4f246cf368cca1e1e6167cd9145de615a01733a6af1fb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-man-in-the-middle-attack-simulation/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/conducting-man-in-the-middle-attack-simulation/references/api-reference.md","bytes":2228,"sha256":"55a697c60ab7da673d180080d40e31d7adc2d5369def2efe7b575c906d72a6b1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-man-in-the-middle-attack-simulation/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/conducting-man-in-the-middle-attack-simulation/scripts/agent.py","bytes":6574,"sha256":"6c7dcbcae627745527c8853c0e8fd73f1445ea36a2b549275a3bc89a3822badb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-man-in-the-middle-attack-simulation/scripts/agent.py"}],"archiveSha256":"2bd376fb8b2876df5e5815de81b88e8c559b6c163c02e3ced40f51cb0a47981e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--conducting-man-in-the-middle-attack-simulation",
+    "name": "conducting-man-in-the-middle-attack-simulation",
+    "description": "Simulates man-in-the-middle attacks using Ettercap, mitmproxy, and Bettercap in authorized environments to intercept, analyze, and modify network traffic for testing encryption enforcement, certificate validation, and detection capabilities.",
+    "category": "Development",
+    "tags": [
+      "conducting",
+      "man",
+      "middle",
+      "attack",
+      "simulation",
+      "simulates",
+      "attacks",
+      "ettercap",
+      "mitmproxy",
+      "bettercap",
+      "authorized",
+      "environments",
+      "intercept",
+      "analyze",
+      "modify",
+      "network",
+      "traffic",
+      "testing"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/conducting-man-in-the-middle-attack-simulation/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/conducting-man-in-the-middle-attack-simulation",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-man-in-the-middle-attack-simulation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 31862,
+    "sha256": "e15514bfe8bcb35c8ab4f246cf368cca1e1e6167cd9145de615a01733a6af1fb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/conducting-man-in-the-middle-attack-simulation/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-man-in-the-middle-attack-simulation/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/conducting-man-in-the-middle-attack-simulation/SKILL.md",
+      "bytes": 11805,
+      "sha256": "e15514bfe8bcb35c8ab4f246cf368cca1e1e6167cd9145de615a01733a6af1fb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-man-in-the-middle-attack-simulation/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/conducting-man-in-the-middle-attack-simulation/references/api-reference.md",
+      "bytes": 2228,
+      "sha256": "55a697c60ab7da673d180080d40e31d7adc2d5369def2efe7b575c906d72a6b1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-man-in-the-middle-attack-simulation/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/conducting-man-in-the-middle-attack-simulation/scripts/agent.py",
+      "bytes": 6574,
+      "sha256": "6c7dcbcae627745527c8853c0e8fd73f1445ea36a2b549275a3bc89a3822badb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-man-in-the-middle-attack-simulation/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "2bd376fb8b2876df5e5815de81b88e8c559b6c163c02e3ced40f51cb0a47981e"
+}

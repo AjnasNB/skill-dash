@@ -1,1 +1,51 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--hunt-csrf","name":"hunt-csrf","description":"Hunting skill for csrf vulnerabilities.","category":"Security","tags":["hunt","csrf","hunting","skill","vulnerabilities."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/hunt-csrf","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-csrf","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":29725,"sha256":"f668c42fa682696e592a397617c6d4a82a538e87d320515b6c19a112d6652e41","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/hunt-csrf/SKILL.md","bytes":28652,"sha256":"f668c42fa682696e592a397617c6d4a82a538e87d320515b6c19a112d6652e41","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-csrf/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"c69e0f4b1db27659252058ea7d01d8ae190b32f144d4688193b4603b5d3b14df"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--hunt-csrf",
+    "name": "hunt-csrf",
+    "description": "Hunting skill for csrf vulnerabilities.",
+    "category": "Security",
+    "tags": [
+      "hunt",
+      "csrf",
+      "hunting",
+      "skill",
+      "vulnerabilities."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/hunt-csrf",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-csrf",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 29725,
+    "sha256": "f668c42fa682696e592a397617c6d4a82a538e87d320515b6c19a112d6652e41",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunt-csrf/SKILL.md",
+      "bytes": 28652,
+      "sha256": "f668c42fa682696e592a397617c6d4a82a538e87d320515b6c19a112d6652e41",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-csrf/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "c69e0f4b1db27659252058ea7d01d8ae190b32f144d4688193b4603b5d3b14df"
+}

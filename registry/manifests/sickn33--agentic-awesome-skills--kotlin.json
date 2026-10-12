@@ -1,1 +1,53 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--kotlin","name":"kotlin","description":"Language-specific super-code guidelines for kotlin.","category":"Development","tags":["kotlin","language","specific","super","code","guidelines","kotlin."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/super-code/kotlin","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/super-code/kotlin","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7541,"sha256":"529634ff697ee9e1af600a54419ccd24fe2fa726a9c113aec388fae0918803f4","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/super-code/kotlin/SKILL.md","bytes":6468,"sha256":"529634ff697ee9e1af600a54419ccd24fe2fa726a9c113aec388fae0918803f4","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/super-code/kotlin/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"9f78114ffcbd14726d51fa57c6fda40cd4daa1219f2d5bac9cea20e1daeb2027"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--kotlin",
+    "name": "kotlin",
+    "description": "Language-specific super-code guidelines for kotlin.",
+    "category": "Development",
+    "tags": [
+      "kotlin",
+      "language",
+      "specific",
+      "super",
+      "code",
+      "guidelines",
+      "kotlin."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/super-code/kotlin",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/super-code/kotlin",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7541,
+    "sha256": "529634ff697ee9e1af600a54419ccd24fe2fa726a9c113aec388fae0918803f4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/super-code/kotlin/SKILL.md",
+      "bytes": 6468,
+      "sha256": "529634ff697ee9e1af600a54419ccd24fe2fa726a9c113aec388fae0918803f4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/super-code/kotlin/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "9f78114ffcbd14726d51fa57c6fda40cd4daa1219f2d5bac9cea20e1daeb2027"
+}

@@ -1,1 +1,69 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--asset-inventory","name":"asset-inventory","description":"Maintain IT asset inventory and configuration management database. Track hardware, software, and cloud resources. Use when managing IT assets.","category":"Development","tags":["asset","inventory","maintain","it","configuration","management","database.","track","hardware","software","cloud","resources.","when","managing","assets."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/asset-inventory","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/asset-inventory","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":19802,"sha256":"b89d52653dcf7d6d99d1b754f92d9bec80f46e424b88505c374700ead3857d0b","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/asset-inventory/SKILL.md","bytes":13564,"sha256":"b89d52653dcf7d6d99d1b754f92d9bec80f46e424b88505c374700ead3857d0b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/asset-inventory/SKILL.md"},{"path":"references/details.md","sourcePath":"skills/asset-inventory/references/details.md","bytes":5165,"sha256":"f2108fe11318a34f0fe227d9fbdf852bbfd74f090c23e01d06957ec8b95aeba1","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/asset-inventory/references/details.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"2e0cb53c50f54b944b49460d6b12c0ca7731a5d8faa177b79e5f2c9f914a078f"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--asset-inventory",
+    "name": "asset-inventory",
+    "description": "Maintain IT asset inventory and configuration management database. Track hardware, software, and cloud resources. Use when managing IT assets.",
+    "category": "Development",
+    "tags": [
+      "asset",
+      "inventory",
+      "maintain",
+      "it",
+      "configuration",
+      "management",
+      "database.",
+      "track",
+      "hardware",
+      "software",
+      "cloud",
+      "resources.",
+      "when",
+      "managing",
+      "assets."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/asset-inventory",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/asset-inventory",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 19802,
+    "sha256": "b89d52653dcf7d6d99d1b754f92d9bec80f46e424b88505c374700ead3857d0b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/asset-inventory/SKILL.md",
+      "bytes": 13564,
+      "sha256": "b89d52653dcf7d6d99d1b754f92d9bec80f46e424b88505c374700ead3857d0b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/asset-inventory/SKILL.md"
+    },
+    {
+      "path": "references/details.md",
+      "sourcePath": "skills/asset-inventory/references/details.md",
+      "bytes": 5165,
+      "sha256": "f2108fe11318a34f0fe227d9fbdf852bbfd74f090c23e01d06957ec8b95aeba1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/asset-inventory/references/details.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "2e0cb53c50f54b944b49460d6b12c0ca7731a5d8faa177b79e5f2c9f914a078f"
+}

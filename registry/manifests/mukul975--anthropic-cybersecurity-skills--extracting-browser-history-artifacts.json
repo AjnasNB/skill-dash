@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--extracting-browser-history-artifacts","name":"extracting-browser-history-artifacts","description":"Extracts and analyzes browser history, cookies, cache, downloads, and bookmarks from Chrome, Firefox, and Edge using sqlite3, DB Browser for SQLite, Hindsight, and NirSoft tools (BrowsingHistoryView, ChromeCacheView, MZCacheView). Use when performing digital forensics or incident response on a disk image or live system and you need timeline evidence of a user's web activity.","category":"Security","tags":["extracting","browser","history","artifacts","extracts","analyzes","cookies","cache","downloads","bookmarks","from","chrome","firefox","edge","sqlite3","db","sqlite","hindsight"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/extracting-browser-history-artifacts/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/extracting-browser-history-artifacts","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/extracting-browser-history-artifacts","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":33016,"sha256":"c6f5b97dad86055e3d19247cc4acf69d61e299b8ec547e2ccd7091c6d87393e7","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/extracting-browser-history-artifacts/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/extracting-browser-history-artifacts/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/extracting-browser-history-artifacts/SKILL.md","bytes":11719,"sha256":"c6f5b97dad86055e3d19247cc4acf69d61e299b8ec547e2ccd7091c6d87393e7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/extracting-browser-history-artifacts/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/extracting-browser-history-artifacts/references/api-reference.md","bytes":2171,"sha256":"e046b1432665e8d2fc5562121e0872db56fe026f2acabb5a544d321dad3b387c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/extracting-browser-history-artifacts/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/extracting-browser-history-artifacts/scripts/agent.py","bytes":7871,"sha256":"aed3c6c5433ae928c3de33d940d2608206d818ef88b52fd143ea7f66fcac1ea6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/extracting-browser-history-artifacts/scripts/agent.py"}],"archiveSha256":"d4466292102e247938bb2447ff226815879bd80b5692fff13f345e0b530774dc"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--extracting-browser-history-artifacts",
+    "name": "extracting-browser-history-artifacts",
+    "description": "Extracts and analyzes browser history, cookies, cache, downloads, and bookmarks from Chrome, Firefox, and Edge using sqlite3, DB Browser for SQLite, Hindsight, and NirSoft tools (BrowsingHistoryView, ChromeCacheView, MZCacheView). Use when performing digital forensics or incident response on a disk image or live system and you need timeline evidence of a user's web activity.",
+    "category": "Security",
+    "tags": [
+      "extracting",
+      "browser",
+      "history",
+      "artifacts",
+      "extracts",
+      "analyzes",
+      "cookies",
+      "cache",
+      "downloads",
+      "bookmarks",
+      "from",
+      "chrome",
+      "firefox",
+      "edge",
+      "sqlite3",
+      "db",
+      "sqlite",
+      "hindsight"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/extracting-browser-history-artifacts/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/extracting-browser-history-artifacts",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/extracting-browser-history-artifacts",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 33016,
+    "sha256": "c6f5b97dad86055e3d19247cc4acf69d61e299b8ec547e2ccd7091c6d87393e7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/extracting-browser-history-artifacts/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/extracting-browser-history-artifacts/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/extracting-browser-history-artifacts/SKILL.md",
+      "bytes": 11719,
+      "sha256": "c6f5b97dad86055e3d19247cc4acf69d61e299b8ec547e2ccd7091c6d87393e7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/extracting-browser-history-artifacts/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/extracting-browser-history-artifacts/references/api-reference.md",
+      "bytes": 2171,
+      "sha256": "e046b1432665e8d2fc5562121e0872db56fe026f2acabb5a544d321dad3b387c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/extracting-browser-history-artifacts/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/extracting-browser-history-artifacts/scripts/agent.py",
+      "bytes": 7871,
+      "sha256": "aed3c6c5433ae928c3de33d940d2608206d818ef88b52fd143ea7f66fcac1ea6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/extracting-browser-history-artifacts/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "d4466292102e247938bb2447ff226815879bd80b5692fff13f345e0b530774dc"
+}

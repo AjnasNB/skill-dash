@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--repo-maintainer","name":"repo-maintainer","description":"Audit and repair repository hygiene across artifacts, dependencies, CI, docs, Git state, and code-quality signals. Use for repository maintenance, cleanup, health checks, or pre-release hardening.","category":"Development","tags":["repo","maintainer","audit","repair","repository","hygiene","across","artifacts","dependencies","ci","docs","git","state","code","quality","signals.","maintenance","cleanup"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/repo-maintainer","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-maintainer","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7119,"sha256":"bd6af2e636537f99fefb8b13791addafbdbc2d7b6471bff56ba60bb218feb906","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/repo-maintainer/SKILL.md","bytes":6046,"sha256":"bd6af2e636537f99fefb8b13791addafbdbc2d7b6471bff56ba60bb218feb906","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-maintainer/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"b4bb4afa46e21c7c7b3ef27c18ac10abdd51e8c46ecece9b6dda52b957b94ede"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--repo-maintainer",
+    "name": "repo-maintainer",
+    "description": "Audit and repair repository hygiene across artifacts, dependencies, CI, docs, Git state, and code-quality signals. Use for repository maintenance, cleanup, health checks, or pre-release hardening.",
+    "category": "Development",
+    "tags": [
+      "repo",
+      "maintainer",
+      "audit",
+      "repair",
+      "repository",
+      "hygiene",
+      "across",
+      "artifacts",
+      "dependencies",
+      "ci",
+      "docs",
+      "git",
+      "state",
+      "code",
+      "quality",
+      "signals.",
+      "maintenance",
+      "cleanup"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/repo-maintainer",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-maintainer",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7119,
+    "sha256": "bd6af2e636537f99fefb8b13791addafbdbc2d7b6471bff56ba60bb218feb906",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/repo-maintainer/SKILL.md",
+      "bytes": 6046,
+      "sha256": "bd6af2e636537f99fefb8b13791addafbdbc2d7b6471bff56ba60bb218feb906",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-maintainer/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "b4bb4afa46e21c7c7b3ef27c18ac10abdd51e8c46ecece9b6dda52b957b94ede"
+}

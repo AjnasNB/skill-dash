@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--nodejs-best-practices","name":"nodejs-best-practices","description":"Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying.","category":"Security","tags":["nodejs","best","practices","node.js","development","principles","decision","making.","framework","selection","async","patterns","security","architecture.","teaches","thinking","not","copying."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/nodejs-best-practices","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nodejs-best-practices","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":9846,"sha256":"bbe124438b07704e44a5dd4ad80abbb8d52039bbb600fc7a5b5152c64efff930","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/nodejs-best-practices/SKILL.md","bytes":8773,"sha256":"bbe124438b07704e44a5dd4ad80abbb8d52039bbb600fc7a5b5152c64efff930","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nodejs-best-practices/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"eee70d3b36cc490bfebe91468660899de6bd9604c3f96265192b9e12c820fddb"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--nodejs-best-practices",
+    "name": "nodejs-best-practices",
+    "description": "Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying.",
+    "category": "Security",
+    "tags": [
+      "nodejs",
+      "best",
+      "practices",
+      "node.js",
+      "development",
+      "principles",
+      "decision",
+      "making.",
+      "framework",
+      "selection",
+      "async",
+      "patterns",
+      "security",
+      "architecture.",
+      "teaches",
+      "thinking",
+      "not",
+      "copying."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/nodejs-best-practices",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nodejs-best-practices",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9846,
+    "sha256": "bbe124438b07704e44a5dd4ad80abbb8d52039bbb600fc7a5b5152c64efff930",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/nodejs-best-practices/SKILL.md",
+      "bytes": 8773,
+      "sha256": "bbe124438b07704e44a5dd4ad80abbb8d52039bbb600fc7a5b5152c64efff930",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nodejs-best-practices/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "eee70d3b36cc490bfebe91468660899de6bd9604c3f96265192b9e12c820fddb"
+}

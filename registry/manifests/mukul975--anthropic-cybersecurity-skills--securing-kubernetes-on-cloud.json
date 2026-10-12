@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--securing-kubernetes-on-cloud","name":"securing-kubernetes-on-cloud","description":"Hardens managed Kubernetes clusters on EKS, AKS, and GKE by implementing Pod Security Standards, network policies, workload identity (IRSA for EKS, Workload Identity for GKE, Managed Identities for AKS), RBAC scoping, image admission controls, and runtime security monitoring. Use when deploying a new managed Kubernetes cluster with security requirements or hardening an existing EKS, AKS, or GKE cluster after an audit or pentest finding.","category":"Security","tags":["securing","kubernetes","cloud","hardens","managed","clusters","eks","aks","gke","by","implementing","pod","security","standards","network","policies","workload","identity"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/securing-kubernetes-on-cloud/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/securing-kubernetes-on-cloud","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-kubernetes-on-cloud","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":35278,"sha256":"74cb4016144a34be23a67a09dacd884282e2bb5223368689be8cadb8750489e5","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/securing-kubernetes-on-cloud/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-kubernetes-on-cloud/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/securing-kubernetes-on-cloud/SKILL.md","bytes":13045,"sha256":"74cb4016144a34be23a67a09dacd884282e2bb5223368689be8cadb8750489e5","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-kubernetes-on-cloud/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/securing-kubernetes-on-cloud/references/api-reference.md","bytes":2273,"sha256":"39c93b106332f08a971358d33d594835d39d7520081c488c8219268578b7bdd5","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-kubernetes-on-cloud/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/securing-kubernetes-on-cloud/scripts/agent.py","bytes":8705,"sha256":"f34a408029a8f123c44194e389f298689f3fce59c61abfe4f6763630246da9a9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-kubernetes-on-cloud/scripts/agent.py"}],"archiveSha256":"61fbc03c80c19d136c87cfa845a4a14de7fced65c3cdca430bb7615bd362ea8b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--securing-kubernetes-on-cloud",
+    "name": "securing-kubernetes-on-cloud",
+    "description": "Hardens managed Kubernetes clusters on EKS, AKS, and GKE by implementing Pod Security Standards, network policies, workload identity (IRSA for EKS, Workload Identity for GKE, Managed Identities for AKS), RBAC scoping, image admission controls, and runtime security monitoring. Use when deploying a new managed Kubernetes cluster with security requirements or hardening an existing EKS, AKS, or GKE cluster after an audit or pentest finding.",
+    "category": "Security",
+    "tags": [
+      "securing",
+      "kubernetes",
+      "cloud",
+      "hardens",
+      "managed",
+      "clusters",
+      "eks",
+      "aks",
+      "gke",
+      "by",
+      "implementing",
+      "pod",
+      "security",
+      "standards",
+      "network",
+      "policies",
+      "workload",
+      "identity"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/securing-kubernetes-on-cloud/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/securing-kubernetes-on-cloud",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-kubernetes-on-cloud",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 35278,
+    "sha256": "74cb4016144a34be23a67a09dacd884282e2bb5223368689be8cadb8750489e5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/securing-kubernetes-on-cloud/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-kubernetes-on-cloud/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/securing-kubernetes-on-cloud/SKILL.md",
+      "bytes": 13045,
+      "sha256": "74cb4016144a34be23a67a09dacd884282e2bb5223368689be8cadb8750489e5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-kubernetes-on-cloud/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/securing-kubernetes-on-cloud/references/api-reference.md",
+      "bytes": 2273,
+      "sha256": "39c93b106332f08a971358d33d594835d39d7520081c488c8219268578b7bdd5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-kubernetes-on-cloud/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/securing-kubernetes-on-cloud/scripts/agent.py",
+      "bytes": 8705,
+      "sha256": "f34a408029a8f123c44194e389f298689f3fce59c61abfe4f6763630246da9a9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-kubernetes-on-cloud/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "61fbc03c80c19d136c87cfa845a4a14de7fced65c3cdca430bb7615bd362ea8b"
+}

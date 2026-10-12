@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--testing-api-for-broken-object-level-authorization","name":"testing-api-for-broken-object-level-authorization","description":"Tests REST and GraphQL APIs for Broken Object Level Authorization (BOLA/IDOR, OWASP API1:2023) by intercepting API calls, identifying object ID parameters (numeric IDs, UUIDs, slugs), and systematically substituting IDs belonging to other users to check whether the server enforces per-object authorization. Use when asked to test BOLA or IDOR in an API, verify object-level authorization, or assess an API for access control bypass.","category":"Security","tags":["testing","api","broken","object","level","authorization","tests","rest","graphql","apis","bola","idor","owasp","api1","2023","by","intercepting","calls"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/testing-api-for-broken-object-level-authorization/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/testing-api-for-broken-object-level-authorization","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-api-for-broken-object-level-authorization","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":37628,"sha256":"ba403342c7cae18411a0b12fde05ce3a9441dcfaf341cd845d00537c99250886","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/testing-api-for-broken-object-level-authorization/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-api-for-broken-object-level-authorization/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/testing-api-for-broken-object-level-authorization/SKILL.md","bytes":16151,"sha256":"ba403342c7cae18411a0b12fde05ce3a9441dcfaf341cd845d00537c99250886","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-api-for-broken-object-level-authorization/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/testing-api-for-broken-object-level-authorization/references/api-reference.md","bytes":1844,"sha256":"78faf582232149cea337d72a71679b06ccdb3af866ed9932f58e8575e475548d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-api-for-broken-object-level-authorization/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/testing-api-for-broken-object-level-authorization/scripts/agent.py","bytes":8378,"sha256":"5ed66f6e9a52dbe4a19122640688ae81bff00bb79e6fb71219163d3160701a5c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-api-for-broken-object-level-authorization/scripts/agent.py"}],"archiveSha256":"6b568ae07959d4bee3fa3282ec1180b5d3dc44dc6d68daf2f0f73cc2a441ba73"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--testing-api-for-broken-object-level-authorization",
+    "name": "testing-api-for-broken-object-level-authorization",
+    "description": "Tests REST and GraphQL APIs for Broken Object Level Authorization (BOLA/IDOR, OWASP API1:2023) by intercepting API calls, identifying object ID parameters (numeric IDs, UUIDs, slugs), and systematically substituting IDs belonging to other users to check whether the server enforces per-object authorization. Use when asked to test BOLA or IDOR in an API, verify object-level authorization, or assess an API for access control bypass.",
+    "category": "Security",
+    "tags": [
+      "testing",
+      "api",
+      "broken",
+      "object",
+      "level",
+      "authorization",
+      "tests",
+      "rest",
+      "graphql",
+      "apis",
+      "bola",
+      "idor",
+      "owasp",
+      "api1",
+      "2023",
+      "by",
+      "intercepting",
+      "calls"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/testing-api-for-broken-object-level-authorization/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/testing-api-for-broken-object-level-authorization",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-api-for-broken-object-level-authorization",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 37628,
+    "sha256": "ba403342c7cae18411a0b12fde05ce3a9441dcfaf341cd845d00537c99250886",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/testing-api-for-broken-object-level-authorization/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-api-for-broken-object-level-authorization/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/testing-api-for-broken-object-level-authorization/SKILL.md",
+      "bytes": 16151,
+      "sha256": "ba403342c7cae18411a0b12fde05ce3a9441dcfaf341cd845d00537c99250886",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-api-for-broken-object-level-authorization/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/testing-api-for-broken-object-level-authorization/references/api-reference.md",
+      "bytes": 1844,
+      "sha256": "78faf582232149cea337d72a71679b06ccdb3af866ed9932f58e8575e475548d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-api-for-broken-object-level-authorization/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/testing-api-for-broken-object-level-authorization/scripts/agent.py",
+      "bytes": 8378,
+      "sha256": "5ed66f6e9a52dbe4a19122640688ae81bff00bb79e6fb71219163d3160701a5c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-api-for-broken-object-level-authorization/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "6b568ae07959d4bee3fa3282ec1180b5d3dc44dc6d68daf2f0f73cc2a441ba73"
+}

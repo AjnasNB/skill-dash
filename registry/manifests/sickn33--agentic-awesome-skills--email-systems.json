@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--email-systems","name":"email-systems","description":"Email has the highest ROI of any marketing channel. $36 for every $1 spent. Yet most startups treat it as an afterthought - bulk blasts, no personalization, landing in spam folders.","category":"Marketing","tags":["email","systems","has","highest","roi","any","marketing","channel.","36","every","spent.","yet","most","startups","treat","it","as","afterthought"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/email-systems","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/email-systems","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":20030,"sha256":"266a2c34d014d9e9f4746b740277efbd5ffd238c0ba29f4aa8e927123522b1d9","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/email-systems/SKILL.md","bytes":1437,"sha256":"266a2c34d014d9e9f4746b740277efbd5ffd238c0ba29f4aa8e927123522b1d9","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/email-systems/SKILL.md"},{"path":"references/detailed-guide.md","sourcePath":"skills/email-systems/references/detailed-guide.md","bytes":17520,"sha256":"f90d5b19410a1b7d7d5ace2fb9281d03dceaf72436f39c629c16f531f790d0fd","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/email-systems/references/detailed-guide.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"23f75ee139d339f17466169a6de2a9629ff17a9454c9c718b7c57390ed16f8f6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--email-systems",
+    "name": "email-systems",
+    "description": "Email has the highest ROI of any marketing channel. $36 for every $1 spent. Yet most startups treat it as an afterthought - bulk blasts, no personalization, landing in spam folders.",
+    "category": "Marketing",
+    "tags": [
+      "email",
+      "systems",
+      "has",
+      "highest",
+      "roi",
+      "any",
+      "marketing",
+      "channel.",
+      "36",
+      "every",
+      "spent.",
+      "yet",
+      "most",
+      "startups",
+      "treat",
+      "it",
+      "as",
+      "afterthought"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/email-systems",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/email-systems",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 20030,
+    "sha256": "266a2c34d014d9e9f4746b740277efbd5ffd238c0ba29f4aa8e927123522b1d9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/email-systems/SKILL.md",
+      "bytes": 1437,
+      "sha256": "266a2c34d014d9e9f4746b740277efbd5ffd238c0ba29f4aa8e927123522b1d9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/email-systems/SKILL.md"
+    },
+    {
+      "path": "references/detailed-guide.md",
+      "sourcePath": "skills/email-systems/references/detailed-guide.md",
+      "bytes": 17520,
+      "sha256": "f90d5b19410a1b7d7d5ace2fb9281d03dceaf72436f39c629c16f531f790d0fd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/email-systems/references/detailed-guide.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "23f75ee139d339f17466169a6de2a9629ff17a9454c9c718b7c57390ed16f8f6"
+}

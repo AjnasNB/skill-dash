@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-soar-automation-with-phantom","name":"implementing-soar-automation-with-phantom","description":"Implements Security Orchestration, Automation, and Response (SOAR) workflows using Splunk SOAR (formerly Phantom) to automate alert triage, IOC enrichment, containment actions, and incident response playbooks. Use when SOC teams need to reduce manual analyst work, standardize response procedures, or integrate multiple security tools into automated workflows.","category":"Security","tags":["implementing","soar","automation","phantom","implements","security","orchestration","response","workflows","splunk","formerly","automate","alert","triage","ioc","enrichment","containment","actions"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-soar-automation-with-phantom/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-soar-automation-with-phantom","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-automation-with-phantom","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":38129,"sha256":"28fe209964359f6dd4b57f46e482fc27d2f966d2796c50398108f8edaa5d5e92","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-soar-automation-with-phantom/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-automation-with-phantom/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-soar-automation-with-phantom/SKILL.md","bytes":14657,"sha256":"28fe209964359f6dd4b57f46e482fc27d2f966d2796c50398108f8edaa5d5e92","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-automation-with-phantom/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-soar-automation-with-phantom/references/api-reference.md","bytes":2620,"sha256":"e455bbcbcf5b720a10ac2feb127c2f85e8d6f7e0855334d78fc510e0a1b4d59b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-automation-with-phantom/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-soar-automation-with-phantom/scripts/agent.py","bytes":9597,"sha256":"d2fb02322259a703f54148ea0ee2663bd80780ca016a1fa26520f7f2f6a017e1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-automation-with-phantom/scripts/agent.py"}],"archiveSha256":"6aa133ebe1fa5108a4596bd6ffbe807c050eb17abbda40921ed953a3b9ff3254"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-soar-automation-with-phantom",
+    "name": "implementing-soar-automation-with-phantom",
+    "description": "Implements Security Orchestration, Automation, and Response (SOAR) workflows using Splunk SOAR (formerly Phantom) to automate alert triage, IOC enrichment, containment actions, and incident response playbooks. Use when SOC teams need to reduce manual analyst work, standardize response procedures, or integrate multiple security tools into automated workflows.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "soar",
+      "automation",
+      "phantom",
+      "implements",
+      "security",
+      "orchestration",
+      "response",
+      "workflows",
+      "splunk",
+      "formerly",
+      "automate",
+      "alert",
+      "triage",
+      "ioc",
+      "enrichment",
+      "containment",
+      "actions"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-soar-automation-with-phantom/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-soar-automation-with-phantom",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-automation-with-phantom",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 38129,
+    "sha256": "28fe209964359f6dd4b57f46e482fc27d2f966d2796c50398108f8edaa5d5e92",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-soar-automation-with-phantom/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-automation-with-phantom/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-soar-automation-with-phantom/SKILL.md",
+      "bytes": 14657,
+      "sha256": "28fe209964359f6dd4b57f46e482fc27d2f966d2796c50398108f8edaa5d5e92",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-automation-with-phantom/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-soar-automation-with-phantom/references/api-reference.md",
+      "bytes": 2620,
+      "sha256": "e455bbcbcf5b720a10ac2feb127c2f85e8d6f7e0855334d78fc510e0a1b4d59b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-automation-with-phantom/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-soar-automation-with-phantom/scripts/agent.py",
+      "bytes": 9597,
+      "sha256": "d2fb02322259a703f54148ea0ee2663bd80780ca016a1fa26520f7f2f6a017e1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-automation-with-phantom/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "6aa133ebe1fa5108a4596bd6ffbe807c050eb17abbda40921ed953a3b9ff3254"
+}

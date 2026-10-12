@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--orch-pipeline","name":"orch-pipeline","description":"Shared orchestration engine behind the orch-* skill family — the gated Research-Plan-TDD-Review-Commit pipeline, size classifier, agent and command map, and two human gates (plan approval, commit confirmation) that orch-* operation skills delegate to. Use indirectly via orch-add-feature, orch-fix-defect, orch-change-feature, orch-refine-code, or orch-build-mvp; read directly only when adding an orch operation or tuning shared phases.","category":"Data & research","tags":["orch","pipeline","shared","orchestration","engine","behind","skill","family","gated","research","plan","tdd","review","commit","size","classifier","agent","command"],"repo":"affaan-m/ECC","owner":"affaan-m","stars":277532,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"b92f181b3b748d1abbc2afd94af6aa7d8c8fca29","path":"skills/orch-pipeline","sourceUrl":"https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/orch-pipeline","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T02:02:10Z","fileCount":2,"bytes":7473,"sha256":"26707fc276a0a8489a5919c48af22f0c2c2d12724d3e031080200281f26a3f2e","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/orch-pipeline/SKILL.md","bytes":6402,"sha256":"26707fc276a0a8489a5919c48af22f0c2c2d12724d3e031080200281f26a3f2e","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/orch-pipeline/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"}],"archiveSha256":"a4dc025021eff32f906d0678b97e2828b5976e7f67bd171cd0de4d41607d92a7"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--orch-pipeline",
+    "name": "orch-pipeline",
+    "description": "Shared orchestration engine behind the orch-* skill family — the gated Research-Plan-TDD-Review-Commit pipeline, size classifier, agent and command map, and two human gates (plan approval, commit confirmation) that orch-* operation skills delegate to. Use indirectly via orch-add-feature, orch-fix-defect, orch-change-feature, orch-refine-code, or orch-build-mvp; read directly only when adding an orch operation or tuning shared phases.",
+    "category": "Data & research",
+    "tags": [
+      "orch",
+      "pipeline",
+      "shared",
+      "orchestration",
+      "engine",
+      "behind",
+      "skill",
+      "family",
+      "gated",
+      "research",
+      "plan",
+      "tdd",
+      "review",
+      "commit",
+      "size",
+      "classifier",
+      "agent",
+      "command"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/orch-pipeline",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/orch-pipeline",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 2,
+    "bytes": 7473,
+    "sha256": "26707fc276a0a8489a5919c48af22f0c2c2d12724d3e031080200281f26a3f2e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/orch-pipeline/SKILL.md",
+      "bytes": 6402,
+      "sha256": "26707fc276a0a8489a5919c48af22f0c2c2d12724d3e031080200281f26a3f2e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/orch-pipeline/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "a4dc025021eff32f906d0678b97e2828b5976e7f67bd171cd0de4d41607d92a7"
+}

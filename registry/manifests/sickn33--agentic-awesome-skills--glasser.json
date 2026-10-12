@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--glasser","name":"glasser","description":"Search, inspect, and run third-party data APIs through one CLI when the environment has no suitable integration.","category":"Automation","tags":["glasser","search","inspect","run","third","party","data","apis","through","one","cli","when","environment","has","no","suitable","integration."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/glasser","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/glasser","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":8729,"sha256":"bf0e26e04a39a027a2af1efeda11db9beb69fb4f033be3764a222df827ff8ac4","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/glasser/SKILL.md","bytes":7656,"sha256":"bf0e26e04a39a027a2af1efeda11db9beb69fb4f033be3764a222df827ff8ac4","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/glasser/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"1540f18de4f9f9f7bbbac47b523e854cc4952a9ec39abf889cb45af298a109fa"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--glasser",
+    "name": "glasser",
+    "description": "Search, inspect, and run third-party data APIs through one CLI when the environment has no suitable integration.",
+    "category": "Automation",
+    "tags": [
+      "glasser",
+      "search",
+      "inspect",
+      "run",
+      "third",
+      "party",
+      "data",
+      "apis",
+      "through",
+      "one",
+      "cli",
+      "when",
+      "environment",
+      "has",
+      "no",
+      "suitable",
+      "integration."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/glasser",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/glasser",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 8729,
+    "sha256": "bf0e26e04a39a027a2af1efeda11db9beb69fb4f033be3764a222df827ff8ac4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/glasser/SKILL.md",
+      "bytes": 7656,
+      "sha256": "bf0e26e04a39a027a2af1efeda11db9beb69fb4f033be3764a222df827ff8ac4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/glasser/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "1540f18de4f9f9f7bbbac47b523e854cc4952a9ec39abf889cb45af298a109fa"
+}

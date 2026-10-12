@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-aws-nitro-enclave-security","name":"implementing-aws-nitro-enclave-security","description":"Build AWS Nitro Enclave confidential computing environments using nitro-cli to create enclave images, configure attestation-aware KMS policies with PCR condition keys, validate attestation documents against the Nitro PKI root, and set up vsock/kmstool-enclave-cli pipelines for processing PII, keys, and health records. Use for Nitro Enclave setup, attestation validation, or scoping KMS to an enclave image hash.","category":"Security","tags":["implementing","aws","nitro","enclave","security","confidential","computing","environments","cli","images","configure","attestation","aware","kms","policies","pcr","condition","keys"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-aws-nitro-enclave-security/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-aws-nitro-enclave-security","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-nitro-enclave-security","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":58320,"sha256":"706f7057789b1eef771946dcf88920ad237e3b2d6f7a9e8246cb8da33d88e2eb","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-aws-nitro-enclave-security/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-nitro-enclave-security/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-aws-nitro-enclave-security/SKILL.md","bytes":21821,"sha256":"706f7057789b1eef771946dcf88920ad237e3b2d6f7a9e8246cb8da33d88e2eb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-nitro-enclave-security/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-aws-nitro-enclave-security/references/api-reference.md","bytes":4129,"sha256":"b1ced10b2f2f601442486fa4191dc42cc4db41108bb654aa8321511d1457b612","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-nitro-enclave-security/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-aws-nitro-enclave-security/scripts/agent.py","bytes":21115,"sha256":"63035a0e84d20b64b69a0330403cf33d7a057b916ffc189068d8cd765b697057","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-nitro-enclave-security/scripts/agent.py"}],"archiveSha256":"9079d11fa66f5502f1b4a4019fd9548eae286a07037d4a7e79ced80872da5e8a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-aws-nitro-enclave-security",
+    "name": "implementing-aws-nitro-enclave-security",
+    "description": "Build AWS Nitro Enclave confidential computing environments using nitro-cli to create enclave images, configure attestation-aware KMS policies with PCR condition keys, validate attestation documents against the Nitro PKI root, and set up vsock/kmstool-enclave-cli pipelines for processing PII, keys, and health records. Use for Nitro Enclave setup, attestation validation, or scoping KMS to an enclave image hash.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "aws",
+      "nitro",
+      "enclave",
+      "security",
+      "confidential",
+      "computing",
+      "environments",
+      "cli",
+      "images",
+      "configure",
+      "attestation",
+      "aware",
+      "kms",
+      "policies",
+      "pcr",
+      "condition",
+      "keys"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-aws-nitro-enclave-security/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-aws-nitro-enclave-security",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-nitro-enclave-security",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 58320,
+    "sha256": "706f7057789b1eef771946dcf88920ad237e3b2d6f7a9e8246cb8da33d88e2eb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-aws-nitro-enclave-security/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-nitro-enclave-security/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-aws-nitro-enclave-security/SKILL.md",
+      "bytes": 21821,
+      "sha256": "706f7057789b1eef771946dcf88920ad237e3b2d6f7a9e8246cb8da33d88e2eb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-nitro-enclave-security/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-aws-nitro-enclave-security/references/api-reference.md",
+      "bytes": 4129,
+      "sha256": "b1ced10b2f2f601442486fa4191dc42cc4db41108bb654aa8321511d1457b612",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-nitro-enclave-security/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-aws-nitro-enclave-security/scripts/agent.py",
+      "bytes": 21115,
+      "sha256": "63035a0e84d20b64b69a0330403cf33d7a057b916ffc189068d8cd765b697057",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-nitro-enclave-security/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "9079d11fa66f5502f1b4a4019fd9548eae286a07037d4a7e79ced80872da5e8a"
+}

@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--continuous-llm-red-teaming-with-promptfoo","name":"continuous-llm-red-teaming-with-promptfoo","description":"Wires Promptfoo and DeepTeam into CI/CD for automated, repeatable red-teaming of LLM apps against OWASP LLM Top 10, OWASP Agentic, and MITRE ATLAS presets, failing the build when jailbreak or injection vulnerabilities regress. Use for continuous adversarial testing in CI/CD, a merge-blocking security gate, or comparing model/prompt versions for compliance reporting.","category":"Security","tags":["continuous","llm","red","teaming","promptfoo","wires","deepteam","into","ci","cd","automated","repeatable","apps","against","owasp","top","10","agentic"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/continuous-llm-red-teaming-with-promptfoo/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/continuous-llm-red-teaming-with-promptfoo","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/continuous-llm-red-teaming-with-promptfoo","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":5,"bytes":29874,"sha256":"72740c97a401d12cdbeea20d06a06bff9c7ffdda1f98ca6e79aac6bdd9870de8","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/continuous-llm-red-teaming-with-promptfoo/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/continuous-llm-red-teaming-with-promptfoo/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/continuous-llm-red-teaming-with-promptfoo/SKILL.md","bytes":9827,"sha256":"72740c97a401d12cdbeea20d06a06bff9c7ffdda1f98ca6e79aac6bdd9870de8","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/continuous-llm-red-teaming-with-promptfoo/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/continuous-llm-red-teaming-with-promptfoo/references/api-reference.md","bytes":2178,"sha256":"371702c7ba8c425bd739b5527f1fe8a25c59bf6ab2e08055e90c55e0ec655c79","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/continuous-llm-red-teaming-with-promptfoo/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/continuous-llm-red-teaming-with-promptfoo/references/standards.md","bytes":1542,"sha256":"f1a669d2c725e25e451a5e11ab796e4941d624c35957cfb31e50d58d83d65ba8","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/continuous-llm-red-teaming-with-promptfoo/references/standards.md"},{"path":"scripts/agent.py","sourcePath":"skills/continuous-llm-red-teaming-with-promptfoo/scripts/agent.py","bytes":5072,"sha256":"207b2bbfff9781351cc38682445518b2a9d3964818b2f8dc7c6332465696db41","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/continuous-llm-red-teaming-with-promptfoo/scripts/agent.py"}],"archiveSha256":"fa740f042920814553337eefeed58c3ad4b958c4dfcd1c0d61a588542bff2a6d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--continuous-llm-red-teaming-with-promptfoo",
+    "name": "continuous-llm-red-teaming-with-promptfoo",
+    "description": "Wires Promptfoo and DeepTeam into CI/CD for automated, repeatable red-teaming of LLM apps against OWASP LLM Top 10, OWASP Agentic, and MITRE ATLAS presets, failing the build when jailbreak or injection vulnerabilities regress. Use for continuous adversarial testing in CI/CD, a merge-blocking security gate, or comparing model/prompt versions for compliance reporting.",
+    "category": "Security",
+    "tags": [
+      "continuous",
+      "llm",
+      "red",
+      "teaming",
+      "promptfoo",
+      "wires",
+      "deepteam",
+      "into",
+      "ci",
+      "cd",
+      "automated",
+      "repeatable",
+      "apps",
+      "against",
+      "owasp",
+      "top",
+      "10",
+      "agentic"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/continuous-llm-red-teaming-with-promptfoo/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/continuous-llm-red-teaming-with-promptfoo",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/continuous-llm-red-teaming-with-promptfoo",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 29874,
+    "sha256": "72740c97a401d12cdbeea20d06a06bff9c7ffdda1f98ca6e79aac6bdd9870de8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/continuous-llm-red-teaming-with-promptfoo/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/continuous-llm-red-teaming-with-promptfoo/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/continuous-llm-red-teaming-with-promptfoo/SKILL.md",
+      "bytes": 9827,
+      "sha256": "72740c97a401d12cdbeea20d06a06bff9c7ffdda1f98ca6e79aac6bdd9870de8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/continuous-llm-red-teaming-with-promptfoo/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/continuous-llm-red-teaming-with-promptfoo/references/api-reference.md",
+      "bytes": 2178,
+      "sha256": "371702c7ba8c425bd739b5527f1fe8a25c59bf6ab2e08055e90c55e0ec655c79",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/continuous-llm-red-teaming-with-promptfoo/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/continuous-llm-red-teaming-with-promptfoo/references/standards.md",
+      "bytes": 1542,
+      "sha256": "f1a669d2c725e25e451a5e11ab796e4941d624c35957cfb31e50d58d83d65ba8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/continuous-llm-red-teaming-with-promptfoo/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/continuous-llm-red-teaming-with-promptfoo/scripts/agent.py",
+      "bytes": 5072,
+      "sha256": "207b2bbfff9781351cc38682445518b2a9d3964818b2f8dc7c6332465696db41",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/continuous-llm-red-teaming-with-promptfoo/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "fa740f042920814553337eefeed58c3ad4b958c4dfcd1c0d61a588542bff2a6d"
+}

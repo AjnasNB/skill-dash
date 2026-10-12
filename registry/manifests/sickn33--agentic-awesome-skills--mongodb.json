@@ -1,1 +1,57 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--mongodb","name":"mongodb","description":"Administer MongoDB databases. Configure replica sets, sharding, and backups. Use when managing MongoDB deployments.","category":"Cloud & DevOps","tags":["mongodb","administer","databases.","configure","replica","sets","sharding","backups.","when","managing","deployments."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/mongodb","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mongodb","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11805,"sha256":"ac47ac4a267242fcd4c2e77afbf5dc4d88b2c949c7b26f6d2ab4311c5467ac88","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/mongodb/SKILL.md","bytes":10732,"sha256":"ac47ac4a267242fcd4c2e77afbf5dc4d88b2c949c7b26f6d2ab4311c5467ac88","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mongodb/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"7043ccdcdafed3123d5c42a2dcf0d33fd94d8850243a984f4aa005dad9d1fd19"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--mongodb",
+    "name": "mongodb",
+    "description": "Administer MongoDB databases. Configure replica sets, sharding, and backups. Use when managing MongoDB deployments.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "mongodb",
+      "administer",
+      "databases.",
+      "configure",
+      "replica",
+      "sets",
+      "sharding",
+      "backups.",
+      "when",
+      "managing",
+      "deployments."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/mongodb",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mongodb",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11805,
+    "sha256": "ac47ac4a267242fcd4c2e77afbf5dc4d88b2c949c7b26f6d2ab4311c5467ac88",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/mongodb/SKILL.md",
+      "bytes": 10732,
+      "sha256": "ac47ac4a267242fcd4c2e77afbf5dc4d88b2c949c7b26f6d2ab4311c5467ac88",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mongodb/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "7043ccdcdafed3123d5c42a2dcf0d33fd94d8850243a984f4aa005dad9d1fd19"
+}

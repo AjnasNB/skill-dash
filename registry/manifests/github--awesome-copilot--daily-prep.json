@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--daily-prep","name":"daily-prep","description":"Prepare for tomorrow's meetings and tasks. Pulls calendar from Outlook via WorkIQ, cross-references open tasks and workspace context, classifies meetings, detects conflicts and day-fit issues, finds learning and deep-work slots, and generates a structured HTML prep file with productivity recommendations.","category":"Development","tags":["daily","prep","prepare","tomorrow","meetings","tasks.","pulls","calendar","from","outlook","via","workiq","cross","references","open","tasks","workspace","context"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/daily-prep","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/daily-prep","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":9685,"sha256":"ea2800856b936cb83aed9b43f9c5e431ac2de436f8f00df546db4253ab4076f3","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/daily-prep/SKILL.md","bytes":8626,"sha256":"ea2800856b936cb83aed9b43f9c5e431ac2de436f8f00df546db4253ab4076f3","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/daily-prep/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"42f68b93ccabd5a6d14bf3cce4ff2a6c209d524d95eb3043e8d60c0abce4bef7"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--daily-prep",
+    "name": "daily-prep",
+    "description": "Prepare for tomorrow's meetings and tasks. Pulls calendar from Outlook via WorkIQ, cross-references open tasks and workspace context, classifies meetings, detects conflicts and day-fit issues, finds learning and deep-work slots, and generates a structured HTML prep file with productivity recommendations.",
+    "category": "Development",
+    "tags": [
+      "daily",
+      "prep",
+      "prepare",
+      "tomorrow",
+      "meetings",
+      "tasks.",
+      "pulls",
+      "calendar",
+      "from",
+      "outlook",
+      "via",
+      "workiq",
+      "cross",
+      "references",
+      "open",
+      "tasks",
+      "workspace",
+      "context"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/daily-prep",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/daily-prep",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 9685,
+    "sha256": "ea2800856b936cb83aed9b43f9c5e431ac2de436f8f00df546db4253ab4076f3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/daily-prep/SKILL.md",
+      "bytes": 8626,
+      "sha256": "ea2800856b936cb83aed9b43f9c5e431ac2de436f8f00df546db4253ab4076f3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/daily-prep/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "42f68b93ccabd5a6d14bf3cce4ff2a6c209d524d95eb3043e8d60c0abce4bef7"
+}

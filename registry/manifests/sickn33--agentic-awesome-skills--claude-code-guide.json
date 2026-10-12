@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--claude-code-guide","name":"claude-code-guide","description":"To provide a comprehensive reference for configuring and using Claude Code (the agentic coding tool) to its full potential. This skill synthesizes best practices, configuration templates, and advanced usage patterns.","category":"Development","tags":["claude","code","guide","provide","comprehensive","reference","configuring","agentic","coding","tool","its","full","potential.","skill","synthesizes","best","practices","configuration"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/claude-code-guide","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-code-guide","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":3712,"sha256":"6e4e209abd0a6d8a0bdec2ac5af68f753fd756ed1ad244229ae27fe221fe780b","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/claude-code-guide/SKILL.md","bytes":2639,"sha256":"6e4e209abd0a6d8a0bdec2ac5af68f753fd756ed1ad244229ae27fe221fe780b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-code-guide/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"bdbc0846f9493ec15230542dbf9361f127c7a50f0ee776f400eb37a109bcaa80"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--claude-code-guide",
+    "name": "claude-code-guide",
+    "description": "To provide a comprehensive reference for configuring and using Claude Code (the agentic coding tool) to its full potential. This skill synthesizes best practices, configuration templates, and advanced usage patterns.",
+    "category": "Development",
+    "tags": [
+      "claude",
+      "code",
+      "guide",
+      "provide",
+      "comprehensive",
+      "reference",
+      "configuring",
+      "agentic",
+      "coding",
+      "tool",
+      "its",
+      "full",
+      "potential.",
+      "skill",
+      "synthesizes",
+      "best",
+      "practices",
+      "configuration"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/claude-code-guide",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-code-guide",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 3712,
+    "sha256": "6e4e209abd0a6d8a0bdec2ac5af68f753fd756ed1ad244229ae27fe221fe780b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/claude-code-guide/SKILL.md",
+      "bytes": 2639,
+      "sha256": "6e4e209abd0a6d8a0bdec2ac5af68f753fd756ed1ad244229ae27fe221fe780b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-code-guide/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "bdbc0846f9493ec15230542dbf9361f127c7a50f0ee776f400eb37a109bcaa80"
+}

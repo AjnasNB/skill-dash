@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--business-email-template","name":"business-email-template","description":"Business email template register: trigger, sender and recipient type, subject pattern, body structure, personalisation tokens and send checks. Use for repeatable outbound email.","category":"Product & business","tags":["business","email","template","register","trigger","sender","recipient","type","subject","pattern","body","structure","personalisation","tokens","send","checks.","repeatable","outbound"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/business-email-template","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/business-email-template","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":27640,"sha256":"c2ad93a4db99704833b54273926c6dd5bbc7b377b095e2a1edbc9eae844cf1a5","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/business-email-template/SKILL.md","bytes":24836,"sha256":"c2ad93a4db99704833b54273926c6dd5bbc7b377b095e2a1edbc9eae844cf1a5","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/business-email-template/SKILL.md"},{"path":"references/common-pitfalls.md","sourcePath":"skills/business-email-template/references/common-pitfalls.md","bytes":1731,"sha256":"abf52f40e9ecc6fc2e40632942cbb7cb04c52c711a21f4d4460b50831426510b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/business-email-template/references/common-pitfalls.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"a8a67fb8e7cba9a73325b1017656a9106ff45f718392b8f2ca994f86fa972be5"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--business-email-template",
+    "name": "business-email-template",
+    "description": "Business email template register: trigger, sender and recipient type, subject pattern, body structure, personalisation tokens and send checks. Use for repeatable outbound email.",
+    "category": "Product & business",
+    "tags": [
+      "business",
+      "email",
+      "template",
+      "register",
+      "trigger",
+      "sender",
+      "recipient",
+      "type",
+      "subject",
+      "pattern",
+      "body",
+      "structure",
+      "personalisation",
+      "tokens",
+      "send",
+      "checks.",
+      "repeatable",
+      "outbound"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/business-email-template",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/business-email-template",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 27640,
+    "sha256": "c2ad93a4db99704833b54273926c6dd5bbc7b377b095e2a1edbc9eae844cf1a5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/business-email-template/SKILL.md",
+      "bytes": 24836,
+      "sha256": "c2ad93a4db99704833b54273926c6dd5bbc7b377b095e2a1edbc9eae844cf1a5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/business-email-template/SKILL.md"
+    },
+    {
+      "path": "references/common-pitfalls.md",
+      "sourcePath": "skills/business-email-template/references/common-pitfalls.md",
+      "bytes": 1731,
+      "sha256": "abf52f40e9ecc6fc2e40632942cbb7cb04c52c711a21f4d4460b50831426510b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/business-email-template/references/common-pitfalls.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "a8a67fb8e7cba9a73325b1017656a9106ff45f718392b8f2ca994f86fa972be5"
+}

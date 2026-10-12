@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-bandwidth-throttling-attack-simulation","name":"performing-bandwidth-throttling-attack-simulation","description":"Simulate bandwidth throttling and network degradation attacks using tc, iperf3, and Scapy in authorized lab environments to test QoS controls, application resilience, and monitoring detection of traffic manipulation. Use when validating how VoIP, video, or other real-time applications and network monitoring tools respond to degraded bandwidth or slowloris-style throttling attacks.","category":"Video & audio","tags":["performing","bandwidth","throttling","attack","simulation","simulate","network","degradation","attacks","tc","iperf3","scapy","authorized","lab","environments","test","qos","controls"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-bandwidth-throttling-attack-simulation/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-bandwidth-throttling-attack-simulation","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-bandwidth-throttling-attack-simulation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":32116,"sha256":"3bd6008237174d769de89d46d79b6b14ebb6ecf20578a6e334361af7fb3c9df1","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-bandwidth-throttling-attack-simulation/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-bandwidth-throttling-attack-simulation/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-bandwidth-throttling-attack-simulation/SKILL.md","bytes":12527,"sha256":"3bd6008237174d769de89d46d79b6b14ebb6ecf20578a6e334361af7fb3c9df1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-bandwidth-throttling-attack-simulation/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-bandwidth-throttling-attack-simulation/references/api-reference.md","bytes":2230,"sha256":"85ddda20247b9e5559e115994d3d6a37f39b1255b607914016b52d8e0cc24f96","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-bandwidth-throttling-attack-simulation/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-bandwidth-throttling-attack-simulation/scripts/agent.py","bytes":6104,"sha256":"ddcd22792fba37c39de0aa40aae5e1c59b6fd6ca7dbf9997157076de3ec58e6d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-bandwidth-throttling-attack-simulation/scripts/agent.py"}],"archiveSha256":"1a57e0c11c0092cdf9d381682c45c70890a22a2b41240b660f81edeba8b3caaf"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-bandwidth-throttling-attack-simulation",
+    "name": "performing-bandwidth-throttling-attack-simulation",
+    "description": "Simulate bandwidth throttling and network degradation attacks using tc, iperf3, and Scapy in authorized lab environments to test QoS controls, application resilience, and monitoring detection of traffic manipulation. Use when validating how VoIP, video, or other real-time applications and network monitoring tools respond to degraded bandwidth or slowloris-style throttling attacks.",
+    "category": "Video & audio",
+    "tags": [
+      "performing",
+      "bandwidth",
+      "throttling",
+      "attack",
+      "simulation",
+      "simulate",
+      "network",
+      "degradation",
+      "attacks",
+      "tc",
+      "iperf3",
+      "scapy",
+      "authorized",
+      "lab",
+      "environments",
+      "test",
+      "qos",
+      "controls"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-bandwidth-throttling-attack-simulation/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-bandwidth-throttling-attack-simulation",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-bandwidth-throttling-attack-simulation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32116,
+    "sha256": "3bd6008237174d769de89d46d79b6b14ebb6ecf20578a6e334361af7fb3c9df1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-bandwidth-throttling-attack-simulation/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-bandwidth-throttling-attack-simulation/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-bandwidth-throttling-attack-simulation/SKILL.md",
+      "bytes": 12527,
+      "sha256": "3bd6008237174d769de89d46d79b6b14ebb6ecf20578a6e334361af7fb3c9df1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-bandwidth-throttling-attack-simulation/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-bandwidth-throttling-attack-simulation/references/api-reference.md",
+      "bytes": 2230,
+      "sha256": "85ddda20247b9e5559e115994d3d6a37f39b1255b607914016b52d8e0cc24f96",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-bandwidth-throttling-attack-simulation/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-bandwidth-throttling-attack-simulation/scripts/agent.py",
+      "bytes": 6104,
+      "sha256": "ddcd22792fba37c39de0aa40aae5e1c59b6fd6ca7dbf9997157076de3ec58e6d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-bandwidth-throttling-attack-simulation/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "1a57e0c11c0092cdf9d381682c45c70890a22a2b41240b660f81edeba8b3caaf"
+}

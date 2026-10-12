@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--etsy-shop-sales-history","name":"etsy-shop-sales-history","description":"Read Etsy shop sales counters, deltas, and breakout flags from Apify Actor publicrecords/etsy-shop-velocity (MCP panel snapshot). Needs an Apify token; Actor run is billed.","category":"AI & agents","tags":["etsy","shop","sales","history","read","counters","deltas","breakout","flags","from","apify","actor","publicrecords","velocity","mcp","panel","snapshot","needs"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/etsy-shop-sales-history","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/etsy-shop-sales-history","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5857,"sha256":"20eb32bdbfc420d0b812585d354abb2b6c4a39baee889d9d0abca4c4eb8572d4","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/etsy-shop-sales-history/SKILL.md","bytes":4784,"sha256":"20eb32bdbfc420d0b812585d354abb2b6c4a39baee889d9d0abca4c4eb8572d4","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/etsy-shop-sales-history/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"35cb1afe0f6f7c1106b1b2498de7e0d33b55c5c1e7723622ee307e473c948f50"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--etsy-shop-sales-history",
+    "name": "etsy-shop-sales-history",
+    "description": "Read Etsy shop sales counters, deltas, and breakout flags from Apify Actor publicrecords/etsy-shop-velocity (MCP panel snapshot). Needs an Apify token; Actor run is billed.",
+    "category": "AI & agents",
+    "tags": [
+      "etsy",
+      "shop",
+      "sales",
+      "history",
+      "read",
+      "counters",
+      "deltas",
+      "breakout",
+      "flags",
+      "from",
+      "apify",
+      "actor",
+      "publicrecords",
+      "velocity",
+      "mcp",
+      "panel",
+      "snapshot",
+      "needs"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/etsy-shop-sales-history",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/etsy-shop-sales-history",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5857,
+    "sha256": "20eb32bdbfc420d0b812585d354abb2b6c4a39baee889d9d0abca4c4eb8572d4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/etsy-shop-sales-history/SKILL.md",
+      "bytes": 4784,
+      "sha256": "20eb32bdbfc420d0b812585d354abb2b6c4a39baee889d9d0abca4c4eb8572d4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/etsy-shop-sales-history/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "35cb1afe0f6f7c1106b1b2498de7e0d33b55c5c1e7723622ee307e473c948f50"
+}

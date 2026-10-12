@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--odoo-orm-expert","name":"odoo-orm-expert","description":"Master Odoo ORM patterns: search, browse, create, write, domain filters, computed fields, and performance-safe query techniques.","category":"Writing","tags":["odoo","orm","expert","master","patterns","search","browse","write","domain","filters","computed","fields","performance","safe","query","techniques."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/odoo-orm-expert","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-orm-expert","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4501,"sha256":"8a198e820a5ed5b7fe22d316821af3f2c14606094dd0a015c49cb923bdec7f37","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/odoo-orm-expert/SKILL.md","bytes":3428,"sha256":"8a198e820a5ed5b7fe22d316821af3f2c14606094dd0a015c49cb923bdec7f37","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-orm-expert/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"3d55c5a7ce5d11dbd8e9eea24171f767a932ea81ba9ea3970156a864f15b42ba"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--odoo-orm-expert",
+    "name": "odoo-orm-expert",
+    "description": "Master Odoo ORM patterns: search, browse, create, write, domain filters, computed fields, and performance-safe query techniques.",
+    "category": "Writing",
+    "tags": [
+      "odoo",
+      "orm",
+      "expert",
+      "master",
+      "patterns",
+      "search",
+      "browse",
+      "write",
+      "domain",
+      "filters",
+      "computed",
+      "fields",
+      "performance",
+      "safe",
+      "query",
+      "techniques."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/odoo-orm-expert",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-orm-expert",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4501,
+    "sha256": "8a198e820a5ed5b7fe22d316821af3f2c14606094dd0a015c49cb923bdec7f37",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/odoo-orm-expert/SKILL.md",
+      "bytes": 3428,
+      "sha256": "8a198e820a5ed5b7fe22d316821af3f2c14606094dd0a015c49cb923bdec7f37",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-orm-expert/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "3d55c5a7ce5d11dbd8e9eea24171f767a932ea81ba9ea3970156a864f15b42ba"
+}

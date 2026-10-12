@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--supercov","name":"supercov","description":"Measure line, branch and MC/DC coverage of a project's existing tests with the supercov CLI, then write small, focused tests for the code no test reaches.","category":"Writing","tags":["supercov","measure","line","branch","mc","dc","coverage","project","existing","tests","cli","then","write","small","focused","code","no","test"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/supercov","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/supercov","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6342,"sha256":"1d9b260a68a2f77e0e0b5d2dca14bc36bf28c30e1751dd250d1c5a4aa7538299","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/supercov/SKILL.md","bytes":5269,"sha256":"1d9b260a68a2f77e0e0b5d2dca14bc36bf28c30e1751dd250d1c5a4aa7538299","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/supercov/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"869f0f8512f20edf11e6885c4d3fcc9a19853a345b9cf651e848613e88e05902"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--supercov",
+    "name": "supercov",
+    "description": "Measure line, branch and MC/DC coverage of a project's existing tests with the supercov CLI, then write small, focused tests for the code no test reaches.",
+    "category": "Writing",
+    "tags": [
+      "supercov",
+      "measure",
+      "line",
+      "branch",
+      "mc",
+      "dc",
+      "coverage",
+      "project",
+      "existing",
+      "tests",
+      "cli",
+      "then",
+      "write",
+      "small",
+      "focused",
+      "code",
+      "no",
+      "test"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/supercov",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/supercov",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6342,
+    "sha256": "1d9b260a68a2f77e0e0b5d2dca14bc36bf28c30e1751dd250d1c5a4aa7538299",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/supercov/SKILL.md",
+      "bytes": 5269,
+      "sha256": "1d9b260a68a2f77e0e0b5d2dca14bc36bf28c30e1751dd250d1c5a4aa7538299",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/supercov/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "869f0f8512f20edf11e6885c4d3fcc9a19853a345b9cf651e848613e88e05902"
+}

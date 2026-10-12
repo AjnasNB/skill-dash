@@ -1,1 +1,104 @@
-{"schemaVersion":1,"skill":{"id":"jeffallan--claude-skills--typescript-pro","name":"typescript-pro","description":"Implements advanced TypeScript type systems, creates custom type guards, utility types, and branded types, and configures tRPC for end-to-end type safety. Use when building TypeScript applications requiring advanced generics, conditional or mapped types, discriminated unions, monorepo setup, or full-stack type safety with tRPC.","category":"Development","tags":["typescript","pro","implements","advanced","type","systems","creates","custom","guards","utility","types","branded","configures","trpc","end","safety.","when","building"],"repo":"Jeffallan/claude-skills","owner":"Jeffallan","stars":11835,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1be15d8064f88fc25216442406d40add8fd23b53","path":"skills/typescript-pro","sourceUrl":"https://github.com/Jeffallan/claude-skills/tree/1be15d8064f88fc25216442406d40add8fd23b53/skills/typescript-pro","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-03T15:49:22Z","fileCount":7,"bytes":49841,"sha256":"1647f8b6f7efc926b61ccfad4832317bf336a78b13265735229e25602afb0350","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/typescript-pro/SKILL.md","bytes":5627,"sha256":"1647f8b6f7efc926b61ccfad4832317bf336a78b13265735229e25602afb0350","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/typescript-pro/SKILL.md"},{"path":"references/advanced-types.md","sourcePath":"skills/typescript-pro/references/advanced-types.md","bytes":6449,"sha256":"273042ee8dba7fe809085856cea8e71eaa363d2cd19d2ba021d852d971777f20","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/typescript-pro/references/advanced-types.md"},{"path":"references/configuration.md","sourcePath":"skills/typescript-pro/references/configuration.md","bytes":8965,"sha256":"4ba4a37687c20a4936b4db872fea1cbeac31ec6ee19c9b959c9d475d255f0b5b","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/typescript-pro/references/configuration.md"},{"path":"references/patterns.md","sourcePath":"skills/typescript-pro/references/patterns.md","bytes":11213,"sha256":"1a3cec402f39c71b8fe6004b98b85c134d09bbed8141c82b86b9109b238e8ddd","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/typescript-pro/references/patterns.md"},{"path":"references/type-guards.md","sourcePath":"skills/typescript-pro/references/type-guards.md","bytes":7929,"sha256":"4d6c898d2a7dc2d4d3e762969c9a01d158301147153a6692c84e76db37d714b3","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/typescript-pro/references/type-guards.md"},{"path":"references/utility-types.md","sourcePath":"skills/typescript-pro/references/utility-types.md","bytes":8602,"sha256":"10e11832c61564f63ee240fa8cca40c1dc32f9a27cde09c750077b0ec248efba","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/typescript-pro/references/utility-types.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1056,"sha256":"06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/LICENSE"}],"archiveSha256":"2179a282ced8e1c6aad213204cb977b2fc8593f28ce952cd5464f18e38eadc3a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "jeffallan--claude-skills--typescript-pro",
+    "name": "typescript-pro",
+    "description": "Implements advanced TypeScript type systems, creates custom type guards, utility types, and branded types, and configures tRPC for end-to-end type safety. Use when building TypeScript applications requiring advanced generics, conditional or mapped types, discriminated unions, monorepo setup, or full-stack type safety with tRPC.",
+    "category": "Development",
+    "tags": [
+      "typescript",
+      "pro",
+      "implements",
+      "advanced",
+      "type",
+      "systems",
+      "creates",
+      "custom",
+      "guards",
+      "utility",
+      "types",
+      "branded",
+      "configures",
+      "trpc",
+      "end",
+      "safety.",
+      "when",
+      "building"
+    ],
+    "repo": "Jeffallan/claude-skills",
+    "owner": "Jeffallan",
+    "stars": 11835,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1be15d8064f88fc25216442406d40add8fd23b53",
+    "path": "skills/typescript-pro",
+    "sourceUrl": "https://github.com/Jeffallan/claude-skills/tree/1be15d8064f88fc25216442406d40add8fd23b53/skills/typescript-pro",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-03T15:49:22Z",
+    "fileCount": 7,
+    "bytes": 49841,
+    "sha256": "1647f8b6f7efc926b61ccfad4832317bf336a78b13265735229e25602afb0350",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/typescript-pro/SKILL.md",
+      "bytes": 5627,
+      "sha256": "1647f8b6f7efc926b61ccfad4832317bf336a78b13265735229e25602afb0350",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/typescript-pro/SKILL.md"
+    },
+    {
+      "path": "references/advanced-types.md",
+      "sourcePath": "skills/typescript-pro/references/advanced-types.md",
+      "bytes": 6449,
+      "sha256": "273042ee8dba7fe809085856cea8e71eaa363d2cd19d2ba021d852d971777f20",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/typescript-pro/references/advanced-types.md"
+    },
+    {
+      "path": "references/configuration.md",
+      "sourcePath": "skills/typescript-pro/references/configuration.md",
+      "bytes": 8965,
+      "sha256": "4ba4a37687c20a4936b4db872fea1cbeac31ec6ee19c9b959c9d475d255f0b5b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/typescript-pro/references/configuration.md"
+    },
+    {
+      "path": "references/patterns.md",
+      "sourcePath": "skills/typescript-pro/references/patterns.md",
+      "bytes": 11213,
+      "sha256": "1a3cec402f39c71b8fe6004b98b85c134d09bbed8141c82b86b9109b238e8ddd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/typescript-pro/references/patterns.md"
+    },
+    {
+      "path": "references/type-guards.md",
+      "sourcePath": "skills/typescript-pro/references/type-guards.md",
+      "bytes": 7929,
+      "sha256": "4d6c898d2a7dc2d4d3e762969c9a01d158301147153a6692c84e76db37d714b3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/typescript-pro/references/type-guards.md"
+    },
+    {
+      "path": "references/utility-types.md",
+      "sourcePath": "skills/typescript-pro/references/utility-types.md",
+      "bytes": 8602,
+      "sha256": "10e11832c61564f63ee240fa8cca40c1dc32f9a27cde09c750077b0ec248efba",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/typescript-pro/references/utility-types.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1056,
+      "sha256": "06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/LICENSE"
+    }
+  ],
+  "archiveSha256": "2179a282ced8e1c6aad213204cb977b2fc8593f28ce952cd5464f18e38eadc3a"
+}

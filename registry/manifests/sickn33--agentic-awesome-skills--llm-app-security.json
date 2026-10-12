@@ -1,1 +1,68 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--llm-app-security","name":"llm-app-security","description":"Secure LLM-powered applications with input validation, output controls, tenant isolation, and abuse prevention.","category":"Security","tags":["llm","app","security","secure","powered","applications","input","validation","output","controls","tenant","isolation","abuse","prevention."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/llm-app-security","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/llm-app-security","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":35113,"sha256":"ca7edbcf825001cd41e8dde09a17aae2b563d46838e5c8fde8d769c3f50adac2","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/llm-app-security/SKILL.md","bytes":13717,"sha256":"ca7edbcf825001cd41e8dde09a17aae2b563d46838e5c8fde8d769c3f50adac2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/llm-app-security/SKILL.md"},{"path":"references/details.md","sourcePath":"skills/llm-app-security/references/details.md","bytes":20323,"sha256":"b3fab9b7c0fcacf1b03e556433be3c187baed300e6673fb7d09fb80ae8c0ffe4","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/llm-app-security/references/details.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"75b0d3bd1cbbb9ee55e368027aba193f73f9f87081ce5c217b8be6c6c22f0424"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--llm-app-security",
+    "name": "llm-app-security",
+    "description": "Secure LLM-powered applications with input validation, output controls, tenant isolation, and abuse prevention.",
+    "category": "Security",
+    "tags": [
+      "llm",
+      "app",
+      "security",
+      "secure",
+      "powered",
+      "applications",
+      "input",
+      "validation",
+      "output",
+      "controls",
+      "tenant",
+      "isolation",
+      "abuse",
+      "prevention."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/llm-app-security",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/llm-app-security",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 35113,
+    "sha256": "ca7edbcf825001cd41e8dde09a17aae2b563d46838e5c8fde8d769c3f50adac2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/llm-app-security/SKILL.md",
+      "bytes": 13717,
+      "sha256": "ca7edbcf825001cd41e8dde09a17aae2b563d46838e5c8fde8d769c3f50adac2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/llm-app-security/SKILL.md"
+    },
+    {
+      "path": "references/details.md",
+      "sourcePath": "skills/llm-app-security/references/details.md",
+      "bytes": 20323,
+      "sha256": "b3fab9b7c0fcacf1b03e556433be3c187baed300e6673fb7d09fb80ae8c0ffe4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/llm-app-security/references/details.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "75b0d3bd1cbbb9ee55e368027aba193f73f9f87081ce5c217b8be6c6c22f0424"
+}

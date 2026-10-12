@@ -1,1 +1,51 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--claude-scientific-skills","name":"claude-scientific-skills","description":"Scientific research and analysis skills","category":"Data & research","tags":["claude","scientific","skills","research","analysis"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/claude-scientific-skills","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-scientific-skills","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":2113,"sha256":"d19560471956dbfef1fb5d94f23c12bd7903979e65240fba0620ce944b6192fc","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/claude-scientific-skills/SKILL.md","bytes":1040,"sha256":"d19560471956dbfef1fb5d94f23c12bd7903979e65240fba0620ce944b6192fc","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-scientific-skills/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"333823d3e80afbf70aa018dd66801b8f6afdfb33b8d2c77eba207e9c582ad880"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--claude-scientific-skills",
+    "name": "claude-scientific-skills",
+    "description": "Scientific research and analysis skills",
+    "category": "Data & research",
+    "tags": [
+      "claude",
+      "scientific",
+      "skills",
+      "research",
+      "analysis"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/claude-scientific-skills",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-scientific-skills",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 2113,
+    "sha256": "d19560471956dbfef1fb5d94f23c12bd7903979e65240fba0620ce944b6192fc",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/claude-scientific-skills/SKILL.md",
+      "bytes": 1040,
+      "sha256": "d19560471956dbfef1fb5d94f23c12bd7903979e65240fba0620ce944b6192fc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-scientific-skills/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "333823d3e80afbf70aa018dd66801b8f6afdfb33b8d2c77eba207e9c582ad880"
+}

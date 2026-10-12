@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--configuring-microsegmentation-for-zero-trust","name":"configuring-microsegmentation-for-zero-trust","description":"Configures microsegmentation policies to enforce least-privilege workload-to-workload access using tools such as VMware NSX, Illumio, and Calico, preventing lateral movement in zero trust architectures. Use when designing or implementing network microsegmentation as part of a zero trust architecture aligned with NIST SP 800-207.","category":"Security","tags":["configuring","microsegmentation","zero","trust","configures","policies","enforce","least","privilege","workload","access","tools","such","as","vmware","nsx","illumio","calico"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/configuring-microsegmentation-for-zero-trust/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/configuring-microsegmentation-for-zero-trust","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-microsegmentation-for-zero-trust","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":51477,"sha256":"1f0e8b3141bdea5f2a204ad104d1440d5ac5340553a9a9819156e5498cb3d502","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/configuring-microsegmentation-for-zero-trust/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-microsegmentation-for-zero-trust/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/configuring-microsegmentation-for-zero-trust/SKILL.md","bytes":8194,"sha256":"1f0e8b3141bdea5f2a204ad104d1440d5ac5340553a9a9819156e5498cb3d502","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-microsegmentation-for-zero-trust/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/configuring-microsegmentation-for-zero-trust/assets/template.md","bytes":2422,"sha256":"7a8647205f66caa5ecc32514799a59125036d892d4097ed264a1a3e31f50a3ff","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-microsegmentation-for-zero-trust/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/configuring-microsegmentation-for-zero-trust/references/api-reference.md","bytes":1417,"sha256":"b6eaf8778094d84ea11dd9a981e500496a9e70d70d273ccab708467ce8b9bce3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-microsegmentation-for-zero-trust/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/configuring-microsegmentation-for-zero-trust/references/standards.md","bytes":3612,"sha256":"ed13fef419bc2b61ce1865bffbda255c412a487c98006c9ed260e6b53cc706b4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-microsegmentation-for-zero-trust/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/configuring-microsegmentation-for-zero-trust/references/workflows.md","bytes":7113,"sha256":"8c89ba28b6ce98dbae8ad1db22b05c8db4f50c99c2bc0f68f499e61bc5cfb752","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-microsegmentation-for-zero-trust/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/configuring-microsegmentation-for-zero-trust/scripts/agent.py","bytes":5104,"sha256":"523205e973c96c9cd814bacb155d77755075d01ce250fc634ae83f9cd6808e0f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-microsegmentation-for-zero-trust/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/configuring-microsegmentation-for-zero-trust/scripts/process.py","bytes":12360,"sha256":"f949f5db2b278b9e88cd50173286d285a5f4753e777cccb6675d7eef59501320","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-microsegmentation-for-zero-trust/scripts/process.py"}],"archiveSha256":"3cbfe46fb02548c4e48bc89472d7f0fb81dbeff42347ab1d4919d59f331715bd"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--configuring-microsegmentation-for-zero-trust",
+    "name": "configuring-microsegmentation-for-zero-trust",
+    "description": "Configures microsegmentation policies to enforce least-privilege workload-to-workload access using tools such as VMware NSX, Illumio, and Calico, preventing lateral movement in zero trust architectures. Use when designing or implementing network microsegmentation as part of a zero trust architecture aligned with NIST SP 800-207.",
+    "category": "Security",
+    "tags": [
+      "configuring",
+      "microsegmentation",
+      "zero",
+      "trust",
+      "configures",
+      "policies",
+      "enforce",
+      "least",
+      "privilege",
+      "workload",
+      "access",
+      "tools",
+      "such",
+      "as",
+      "vmware",
+      "nsx",
+      "illumio",
+      "calico"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/configuring-microsegmentation-for-zero-trust/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/configuring-microsegmentation-for-zero-trust",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-microsegmentation-for-zero-trust",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 51477,
+    "sha256": "1f0e8b3141bdea5f2a204ad104d1440d5ac5340553a9a9819156e5498cb3d502",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/configuring-microsegmentation-for-zero-trust/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-microsegmentation-for-zero-trust/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/configuring-microsegmentation-for-zero-trust/SKILL.md",
+      "bytes": 8194,
+      "sha256": "1f0e8b3141bdea5f2a204ad104d1440d5ac5340553a9a9819156e5498cb3d502",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-microsegmentation-for-zero-trust/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/configuring-microsegmentation-for-zero-trust/assets/template.md",
+      "bytes": 2422,
+      "sha256": "7a8647205f66caa5ecc32514799a59125036d892d4097ed264a1a3e31f50a3ff",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-microsegmentation-for-zero-trust/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/configuring-microsegmentation-for-zero-trust/references/api-reference.md",
+      "bytes": 1417,
+      "sha256": "b6eaf8778094d84ea11dd9a981e500496a9e70d70d273ccab708467ce8b9bce3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-microsegmentation-for-zero-trust/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/configuring-microsegmentation-for-zero-trust/references/standards.md",
+      "bytes": 3612,
+      "sha256": "ed13fef419bc2b61ce1865bffbda255c412a487c98006c9ed260e6b53cc706b4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-microsegmentation-for-zero-trust/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/configuring-microsegmentation-for-zero-trust/references/workflows.md",
+      "bytes": 7113,
+      "sha256": "8c89ba28b6ce98dbae8ad1db22b05c8db4f50c99c2bc0f68f499e61bc5cfb752",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-microsegmentation-for-zero-trust/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/configuring-microsegmentation-for-zero-trust/scripts/agent.py",
+      "bytes": 5104,
+      "sha256": "523205e973c96c9cd814bacb155d77755075d01ce250fc634ae83f9cd6808e0f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-microsegmentation-for-zero-trust/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/configuring-microsegmentation-for-zero-trust/scripts/process.py",
+      "bytes": 12360,
+      "sha256": "f949f5db2b278b9e88cd50173286d285a5f4753e777cccb6675d7eef59501320",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-microsegmentation-for-zero-trust/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "3cbfe46fb02548c4e48bc89472d7f0fb81dbeff42347ab1d4919d59f331715bd"
+}

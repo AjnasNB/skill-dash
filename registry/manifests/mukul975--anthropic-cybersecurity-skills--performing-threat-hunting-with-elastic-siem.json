@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-threat-hunting-with-elastic-siem","name":"performing-threat-hunting-with-elastic-siem","description":"Performs proactive threat hunting in Elastic Security SIEM using KQL/EQL queries, detection rules, and Timeline investigation to identify threats that evade automated detection. Use when SOC teams need to hunt for specific ATT&CK techniques, investigate anomalous behaviors, or validate detection coverage gaps using Elasticsearch and Kibana Security.","category":"Security","tags":["performing","threat","hunting","elastic","siem","performs","proactive","security","kql","eql","queries","detection","rules","timeline","investigation","identify","threats","evade"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-threat-hunting-with-elastic-siem/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-threat-hunting-with-elastic-siem","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-hunting-with-elastic-siem","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":32108,"sha256":"5d51cae4eca2dee33f994822bff621fa03fc614e8bbcac09e06af554e313c39f","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-threat-hunting-with-elastic-siem/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-hunting-with-elastic-siem/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-threat-hunting-with-elastic-siem/SKILL.md","bytes":9913,"sha256":"5d51cae4eca2dee33f994822bff621fa03fc614e8bbcac09e06af554e313c39f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-hunting-with-elastic-siem/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-threat-hunting-with-elastic-siem/references/api-reference.md","bytes":2451,"sha256":"2b0e0a76b9a727b55085f5ae6ff39731dd2e9f752d12a93981cdfc23cf921f86","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-hunting-with-elastic-siem/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-threat-hunting-with-elastic-siem/scripts/agent.py","bytes":8489,"sha256":"f4043899b25ad69900fce9355a5fce21b5594c858435a11b8c3fee67a803c982","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-hunting-with-elastic-siem/scripts/agent.py"}],"archiveSha256":"2fcde3bcfada045c150e391e2beed1d9ed4ba4af9f5449c0b091dba73b2e1ed8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-threat-hunting-with-elastic-siem",
+    "name": "performing-threat-hunting-with-elastic-siem",
+    "description": "Performs proactive threat hunting in Elastic Security SIEM using KQL/EQL queries, detection rules, and Timeline investigation to identify threats that evade automated detection. Use when SOC teams need to hunt for specific ATT&CK techniques, investigate anomalous behaviors, or validate detection coverage gaps using Elasticsearch and Kibana Security.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "threat",
+      "hunting",
+      "elastic",
+      "siem",
+      "performs",
+      "proactive",
+      "security",
+      "kql",
+      "eql",
+      "queries",
+      "detection",
+      "rules",
+      "timeline",
+      "investigation",
+      "identify",
+      "threats",
+      "evade"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-threat-hunting-with-elastic-siem/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-threat-hunting-with-elastic-siem",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-hunting-with-elastic-siem",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32108,
+    "sha256": "5d51cae4eca2dee33f994822bff621fa03fc614e8bbcac09e06af554e313c39f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-threat-hunting-with-elastic-siem/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-hunting-with-elastic-siem/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-threat-hunting-with-elastic-siem/SKILL.md",
+      "bytes": 9913,
+      "sha256": "5d51cae4eca2dee33f994822bff621fa03fc614e8bbcac09e06af554e313c39f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-hunting-with-elastic-siem/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-threat-hunting-with-elastic-siem/references/api-reference.md",
+      "bytes": 2451,
+      "sha256": "2b0e0a76b9a727b55085f5ae6ff39731dd2e9f752d12a93981cdfc23cf921f86",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-hunting-with-elastic-siem/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-threat-hunting-with-elastic-siem/scripts/agent.py",
+      "bytes": 8489,
+      "sha256": "f4043899b25ad69900fce9355a5fce21b5594c858435a11b8c3fee67a803c982",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-hunting-with-elastic-siem/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "2fcde3bcfada045c150e391e2beed1d9ed4ba4af9f5449c0b091dba73b2e1ed8"
+}

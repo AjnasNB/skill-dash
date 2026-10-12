@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--web-project-brainstorming","name":"web-project-brainstorming","description":"Masterclass framework for brainstorming web development projects and page designs. Outlines structural phases for concept, UX flow, styling aesthetics, technical architecture, and SEO.","category":"Design","tags":["web","project","brainstorming","masterclass","framework","development","projects","page","designs.","outlines","structural","phases","concept","ux","flow","styling","aesthetics","technical"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/web-project-brainstorming","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/web-project-brainstorming","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":8025,"sha256":"a50514d20edc908fc34ceb4ed4c59cf205c38df82a5e31b56367b9f233460c00","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/web-project-brainstorming/SKILL.md","bytes":6952,"sha256":"a50514d20edc908fc34ceb4ed4c59cf205c38df82a5e31b56367b9f233460c00","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/web-project-brainstorming/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"5914eaeac3ac63b5cf13daffcad24becb05d8dadba8233becc4d6cbdaa327bb6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--web-project-brainstorming",
+    "name": "web-project-brainstorming",
+    "description": "Masterclass framework for brainstorming web development projects and page designs. Outlines structural phases for concept, UX flow, styling aesthetics, technical architecture, and SEO.",
+    "category": "Design",
+    "tags": [
+      "web",
+      "project",
+      "brainstorming",
+      "masterclass",
+      "framework",
+      "development",
+      "projects",
+      "page",
+      "designs.",
+      "outlines",
+      "structural",
+      "phases",
+      "concept",
+      "ux",
+      "flow",
+      "styling",
+      "aesthetics",
+      "technical"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/web-project-brainstorming",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/web-project-brainstorming",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 8025,
+    "sha256": "a50514d20edc908fc34ceb4ed4c59cf205c38df82a5e31b56367b9f233460c00",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/web-project-brainstorming/SKILL.md",
+      "bytes": 6952,
+      "sha256": "a50514d20edc908fc34ceb4ed4c59cf205c38df82a5e31b56367b9f233460c00",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/web-project-brainstorming/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "5914eaeac3ac63b5cf13daffcad24becb05d8dadba8233becc4d6cbdaa327bb6"
+}

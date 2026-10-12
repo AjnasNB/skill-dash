@@ -1,1 +1,128 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--diffdock","name":"diffdock","description":"Predicts protein-small-molecule binding poses with DiffDock and DiffDock-L from PDB or sequence plus SMILES/SDF/MOL2. Covers batch docking, pose triage, confidence interpretation, and validation. Use for molecular docking and virtual-screening pose generation, not binding-affinity prediction.","category":"Development","tags":["diffdock","predicts","protein","small","molecule","binding","poses","from","pdb","sequence","plus","smiles","sdf","mol2.","covers","batch","docking","pose"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/diffdock","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/diffdock","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":10,"bytes":61902,"sha256":"5fafc5d9f53fa35a47c498f1cf3bad20fbee7404f248226e76e62bb327749912","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/diffdock/SKILL.md","bytes":11830,"sha256":"5fafc5d9f53fa35a47c498f1cf3bad20fbee7404f248226e76e62bb327749912","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/diffdock/SKILL.md"},{"path":"assets/batch_template.csv","sourcePath":"skills/diffdock/assets/batch_template.csv","bytes":410,"sha256":"fa759ceb9e93d6be7c972bb0150987230e1bab1cc7ca215c7f3411b9b9f5aa15","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/diffdock/assets/batch_template.csv"},{"path":"assets/custom_inference_config.yaml","sourcePath":"skills/diffdock/assets/custom_inference_config.yaml","bytes":1147,"sha256":"2fc8591df8808d025468483f00743c66dc8bad341b70a02b092e2e93df57e67d","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/diffdock/assets/custom_inference_config.yaml"},{"path":"references/confidence_and_limitations.md","sourcePath":"skills/diffdock/references/confidence_and_limitations.md","bytes":4884,"sha256":"766668ff5c653e42f44de6d8409cc12a68e9dc5f1bb7bfc4e47a02902a2a4d58","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/diffdock/references/confidence_and_limitations.md"},{"path":"references/parameters_reference.md","sourcePath":"skills/diffdock/references/parameters_reference.md","bytes":5371,"sha256":"c7e5cc0c71f89f5620de973f967095eb76119d4716400d776bf4e11d155e4906","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/diffdock/references/parameters_reference.md"},{"path":"references/workflows_examples.md","sourcePath":"skills/diffdock/references/workflows_examples.md","bytes":4963,"sha256":"dcc1444c0090fcca35b4563897a505b506ac93e2168c311e1ce226e5e041b322","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/diffdock/references/workflows_examples.md"},{"path":"scripts/analyze_results.py","sourcePath":"skills/diffdock/scripts/analyze_results.py","bytes":12403,"sha256":"c19179691697c87fae5dee610dbf83b0c7cee93ac2a3340274786af0c67ecfe5","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/diffdock/scripts/analyze_results.py"},{"path":"scripts/prepare_batch_csv.py","sourcePath":"skills/diffdock/scripts/prepare_batch_csv.py","bytes":10886,"sha256":"237c8b851c0967905c9af14c8abc0190ea929924f827d53afc0a44170890a5f7","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/diffdock/scripts/prepare_batch_csv.py"},{"path":"scripts/setup_check.py","sourcePath":"skills/diffdock/scripts/setup_check.py","bytes":8940,"sha256":"f3b8207c947516020fce95dd109f987cd901aa623b71a9a22cc83c802ab0becc","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/diffdock/scripts/setup_check.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"e0eac316d4833c6a241964f454e7436a4c8e8517c2383ef02bbe9eec6f14ea17"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--diffdock",
+    "name": "diffdock",
+    "description": "Predicts protein-small-molecule binding poses with DiffDock and DiffDock-L from PDB or sequence plus SMILES/SDF/MOL2. Covers batch docking, pose triage, confidence interpretation, and validation. Use for molecular docking and virtual-screening pose generation, not binding-affinity prediction.",
+    "category": "Development",
+    "tags": [
+      "diffdock",
+      "predicts",
+      "protein",
+      "small",
+      "molecule",
+      "binding",
+      "poses",
+      "from",
+      "pdb",
+      "sequence",
+      "plus",
+      "smiles",
+      "sdf",
+      "mol2.",
+      "covers",
+      "batch",
+      "docking",
+      "pose"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/diffdock",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/diffdock",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 10,
+    "bytes": 61902,
+    "sha256": "5fafc5d9f53fa35a47c498f1cf3bad20fbee7404f248226e76e62bb327749912",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/diffdock/SKILL.md",
+      "bytes": 11830,
+      "sha256": "5fafc5d9f53fa35a47c498f1cf3bad20fbee7404f248226e76e62bb327749912",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/diffdock/SKILL.md"
+    },
+    {
+      "path": "assets/batch_template.csv",
+      "sourcePath": "skills/diffdock/assets/batch_template.csv",
+      "bytes": 410,
+      "sha256": "fa759ceb9e93d6be7c972bb0150987230e1bab1cc7ca215c7f3411b9b9f5aa15",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/diffdock/assets/batch_template.csv"
+    },
+    {
+      "path": "assets/custom_inference_config.yaml",
+      "sourcePath": "skills/diffdock/assets/custom_inference_config.yaml",
+      "bytes": 1147,
+      "sha256": "2fc8591df8808d025468483f00743c66dc8bad341b70a02b092e2e93df57e67d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/diffdock/assets/custom_inference_config.yaml"
+    },
+    {
+      "path": "references/confidence_and_limitations.md",
+      "sourcePath": "skills/diffdock/references/confidence_and_limitations.md",
+      "bytes": 4884,
+      "sha256": "766668ff5c653e42f44de6d8409cc12a68e9dc5f1bb7bfc4e47a02902a2a4d58",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/diffdock/references/confidence_and_limitations.md"
+    },
+    {
+      "path": "references/parameters_reference.md",
+      "sourcePath": "skills/diffdock/references/parameters_reference.md",
+      "bytes": 5371,
+      "sha256": "c7e5cc0c71f89f5620de973f967095eb76119d4716400d776bf4e11d155e4906",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/diffdock/references/parameters_reference.md"
+    },
+    {
+      "path": "references/workflows_examples.md",
+      "sourcePath": "skills/diffdock/references/workflows_examples.md",
+      "bytes": 4963,
+      "sha256": "dcc1444c0090fcca35b4563897a505b506ac93e2168c311e1ce226e5e041b322",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/diffdock/references/workflows_examples.md"
+    },
+    {
+      "path": "scripts/analyze_results.py",
+      "sourcePath": "skills/diffdock/scripts/analyze_results.py",
+      "bytes": 12403,
+      "sha256": "c19179691697c87fae5dee610dbf83b0c7cee93ac2a3340274786af0c67ecfe5",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/diffdock/scripts/analyze_results.py"
+    },
+    {
+      "path": "scripts/prepare_batch_csv.py",
+      "sourcePath": "skills/diffdock/scripts/prepare_batch_csv.py",
+      "bytes": 10886,
+      "sha256": "237c8b851c0967905c9af14c8abc0190ea929924f827d53afc0a44170890a5f7",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/diffdock/scripts/prepare_batch_csv.py"
+    },
+    {
+      "path": "scripts/setup_check.py",
+      "sourcePath": "skills/diffdock/scripts/setup_check.py",
+      "bytes": 8940,
+      "sha256": "f3b8207c947516020fce95dd109f987cd901aa623b71a9a22cc83c802ab0becc",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/diffdock/scripts/setup_check.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "e0eac316d4833c6a241964f454e7436a4c8e8517c2383ef02bbe9eec6f14ea17"
+}

@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--domain-modeling","name":"domain-modeling","description":"Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.","category":"Development","tags":["domain","modeling","sharpen","project","model.","when","user","wants","pin","down","terminology","ubiquitous","language","record","architectural","decision","another","skill"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/domain-modeling","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/domain-modeling","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":4,"bytes":10613,"sha256":"8613d4ecbe203684bf204153248ba03a93c99adfc1839a4df94496b631566c2b","historical":false},"files":[{"path":"ADR-FORMAT.md","sourcePath":"skills/domain-modeling/ADR-FORMAT.md","bytes":2766,"sha256":"f1f36cd3f8d3b6474ddd5855da4e233bfc4ae1a1c5024909ccf11871819a41b2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/domain-modeling/ADR-FORMAT.md"},{"path":"CONTEXT-FORMAT.md","sourcePath":"skills/domain-modeling/CONTEXT-FORMAT.md","bytes":2299,"sha256":"b8cc318f2a4285b530e908b6bc43901c3c5cd11100362636bbc4216639bef597","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/domain-modeling/CONTEXT-FORMAT.md"},{"path":"SKILL.md","sourcePath":"skills/domain-modeling/SKILL.md","bytes":4475,"sha256":"8613d4ecbe203684bf204153248ba03a93c99adfc1839a4df94496b631566c2b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/domain-modeling/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"ec950c90f13d5cfa4a1053a1f56be10cab4032b57b99220eb88efb9bf6def576"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--domain-modeling",
+    "name": "domain-modeling",
+    "description": "Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.",
+    "category": "Development",
+    "tags": [
+      "domain",
+      "modeling",
+      "sharpen",
+      "project",
+      "model.",
+      "when",
+      "user",
+      "wants",
+      "pin",
+      "down",
+      "terminology",
+      "ubiquitous",
+      "language",
+      "record",
+      "architectural",
+      "decision",
+      "another",
+      "skill"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/domain-modeling",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/domain-modeling",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 4,
+    "bytes": 10613,
+    "sha256": "8613d4ecbe203684bf204153248ba03a93c99adfc1839a4df94496b631566c2b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "ADR-FORMAT.md",
+      "sourcePath": "skills/domain-modeling/ADR-FORMAT.md",
+      "bytes": 2766,
+      "sha256": "f1f36cd3f8d3b6474ddd5855da4e233bfc4ae1a1c5024909ccf11871819a41b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/domain-modeling/ADR-FORMAT.md"
+    },
+    {
+      "path": "CONTEXT-FORMAT.md",
+      "sourcePath": "skills/domain-modeling/CONTEXT-FORMAT.md",
+      "bytes": 2299,
+      "sha256": "b8cc318f2a4285b530e908b6bc43901c3c5cd11100362636bbc4216639bef597",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/domain-modeling/CONTEXT-FORMAT.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/domain-modeling/SKILL.md",
+      "bytes": 4475,
+      "sha256": "8613d4ecbe203684bf204153248ba03a93c99adfc1839a4df94496b631566c2b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/domain-modeling/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ec950c90f13d5cfa4a1053a1f56be10cab4032b57b99220eb88efb9bf6def576"
+}

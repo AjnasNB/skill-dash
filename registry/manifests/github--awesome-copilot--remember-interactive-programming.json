@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--remember-interactive-programming","name":"remember-interactive-programming","description":"A micro-prompt that reminds the agent that it is an interactive programmer. Works great in Clojure when Copilot has access to the REPL (probably via Backseat Driver). Will work with any system that has a live REPL that the agent can use. Adapt the prompt with any specific reminders in your workflow and/or workspace.","category":"AI & agents","tags":["remember","interactive","programming","micro","prompt","reminds","agent","it","is","programmer.","works","great","clojure","when","copilot","has","access","repl"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/remember-interactive-programming","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/remember-interactive-programming","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":1941,"sha256":"9397a72a1af17c5eab9337ab027637fafc08c9cd95bfb8ecbe43c2c981780d6d","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/remember-interactive-programming/SKILL.md","bytes":882,"sha256":"9397a72a1af17c5eab9337ab027637fafc08c9cd95bfb8ecbe43c2c981780d6d","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/remember-interactive-programming/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"723d17f97363c1af56a461b5e812b68efff29b2d5628b70a731cd428c0110ef0"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--remember-interactive-programming",
+    "name": "remember-interactive-programming",
+    "description": "A micro-prompt that reminds the agent that it is an interactive programmer. Works great in Clojure when Copilot has access to the REPL (probably via Backseat Driver). Will work with any system that has a live REPL that the agent can use. Adapt the prompt with any specific reminders in your workflow and/or workspace.",
+    "category": "AI & agents",
+    "tags": [
+      "remember",
+      "interactive",
+      "programming",
+      "micro",
+      "prompt",
+      "reminds",
+      "agent",
+      "it",
+      "is",
+      "programmer.",
+      "works",
+      "great",
+      "clojure",
+      "when",
+      "copilot",
+      "has",
+      "access",
+      "repl"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/remember-interactive-programming",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/remember-interactive-programming",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 1941,
+    "sha256": "9397a72a1af17c5eab9337ab027637fafc08c9cd95bfb8ecbe43c2c981780d6d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/remember-interactive-programming/SKILL.md",
+      "bytes": 882,
+      "sha256": "9397a72a1af17c5eab9337ab027637fafc08c9cd95bfb8ecbe43c2c981780d6d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/remember-interactive-programming/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "723d17f97363c1af56a461b5e812b68efff29b2d5628b70a731cd428c0110ef0"
+}

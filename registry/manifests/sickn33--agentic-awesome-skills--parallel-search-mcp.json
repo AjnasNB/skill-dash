@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--parallel-search-mcp","name":"parallel-search-mcp","description":"Search the public web and verify sources with Parallel's free Search MCP. Use when the user chooses Parallel or its connected tools for current information and URL extraction.","category":"AI & agents","tags":["parallel","search","mcp","public","web","verify","sources","free","mcp.","when","user","chooses","its","connected","tools","current","information","url"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/parallel-search-mcp","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/parallel-search-mcp","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7153,"sha256":"1de9ef239f3d57354dc20036c1a0a55642da2d0be4964f4f6da8300d85dd9bd7","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/parallel-search-mcp/SKILL.md","bytes":6080,"sha256":"1de9ef239f3d57354dc20036c1a0a55642da2d0be4964f4f6da8300d85dd9bd7","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/parallel-search-mcp/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"52c96507c02c9163cfbf98e35d6cdb1d006347e8b9395e8c3bde196f72a6eea2"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--parallel-search-mcp",
+    "name": "parallel-search-mcp",
+    "description": "Search the public web and verify sources with Parallel's free Search MCP. Use when the user chooses Parallel or its connected tools for current information and URL extraction.",
+    "category": "AI & agents",
+    "tags": [
+      "parallel",
+      "search",
+      "mcp",
+      "public",
+      "web",
+      "verify",
+      "sources",
+      "free",
+      "mcp.",
+      "when",
+      "user",
+      "chooses",
+      "its",
+      "connected",
+      "tools",
+      "current",
+      "information",
+      "url"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/parallel-search-mcp",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/parallel-search-mcp",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7153,
+    "sha256": "1de9ef239f3d57354dc20036c1a0a55642da2d0be4964f4f6da8300d85dd9bd7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/parallel-search-mcp/SKILL.md",
+      "bytes": 6080,
+      "sha256": "1de9ef239f3d57354dc20036c1a0a55642da2d0be4964f4f6da8300d85dd9bd7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/parallel-search-mcp/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "52c96507c02c9163cfbf98e35d6cdb1d006347e8b9395e8c3bde196f72a6eea2"
+}

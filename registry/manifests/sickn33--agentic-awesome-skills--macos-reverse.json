@@ -1,1 +1,71 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--macos-reverse","name":"macos-reverse","description":"Authorized macOS and Mach-O reverse engineering: codesign inspection, Objective-C/Swift recovery, endpoint-security surfaces, and Apple-platform malware analysis.","category":"Security","tags":["macos","reverse","authorized","mach","engineering","codesign","inspection","objective","swift","recovery","endpoint","security","surfaces","apple","platform","malware","analysis."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/macos-reverse","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/macos-reverse","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":3435,"sha256":"ee2568d1e6a9ba3341bb12cf9decf0ceaf7eefe0d0efb46d0fc762c2da9cee54","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/macos-reverse/SKILL.md","bytes":2149,"sha256":"ee2568d1e6a9ba3341bb12cf9decf0ceaf7eefe0d0efb46d0fc762c2da9cee54","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/macos-reverse/SKILL.md"},{"path":"references/macho-triage.md","sourcePath":"skills/macos-reverse/references/macho-triage.md","bytes":213,"sha256":"cdf5ae1803f16043618ada0e5f00d3edf0b58a3726b2be049eb485c77cf615d1","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/macos-reverse/references/macho-triage.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"677c5e377d35a923bd30537d2438862b384029aaa8bc50d0c5191e4d891fd005"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--macos-reverse",
+    "name": "macos-reverse",
+    "description": "Authorized macOS and Mach-O reverse engineering: codesign inspection, Objective-C/Swift recovery, endpoint-security surfaces, and Apple-platform malware analysis.",
+    "category": "Security",
+    "tags": [
+      "macos",
+      "reverse",
+      "authorized",
+      "mach",
+      "engineering",
+      "codesign",
+      "inspection",
+      "objective",
+      "swift",
+      "recovery",
+      "endpoint",
+      "security",
+      "surfaces",
+      "apple",
+      "platform",
+      "malware",
+      "analysis."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/macos-reverse",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/macos-reverse",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 3435,
+    "sha256": "ee2568d1e6a9ba3341bb12cf9decf0ceaf7eefe0d0efb46d0fc762c2da9cee54",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/macos-reverse/SKILL.md",
+      "bytes": 2149,
+      "sha256": "ee2568d1e6a9ba3341bb12cf9decf0ceaf7eefe0d0efb46d0fc762c2da9cee54",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/macos-reverse/SKILL.md"
+    },
+    {
+      "path": "references/macho-triage.md",
+      "sourcePath": "skills/macos-reverse/references/macho-triage.md",
+      "bytes": 213,
+      "sha256": "cdf5ae1803f16043618ada0e5f00d3edf0b58a3726b2be049eb485c77cf615d1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/macos-reverse/references/macho-triage.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "677c5e377d35a923bd30537d2438862b384029aaa8bc50d0c5191e4d891fd005"
+}

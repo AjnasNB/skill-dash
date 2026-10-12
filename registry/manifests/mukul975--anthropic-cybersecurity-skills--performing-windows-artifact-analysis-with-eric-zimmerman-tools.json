@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-windows-artifact-analysis-with-eric-zimmerman-tools","name":"performing-windows-artifact-analysis-with-eric-zimmerman-tools","description":"Performs comprehensive Windows forensic artifact analysis using Eric Zimmerman's open-source EZ Tools suite (KAPE, MFTECmd, PECmd, LECmd, JLECmd, Timeline Explorer) to parse registry hives, prefetch files, event logs, and file system metadata. Use during DFIR investigations that need a timeline of program execution, file access, and persistence built from Windows artifacts.","category":"Security","tags":["performing","windows","artifact","analysis","eric","zimmerman","tools","performs","comprehensive","forensic","open","source","ez","suite","kape","mftecmd","pecmd","lecmd"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":52022,"sha256":"c214fbe5f69aa791758838f8aa0562b937835cf3e42f8e228000507445fa5a11","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/SKILL.md","bytes":12053,"sha256":"c214fbe5f69aa791758838f8aa0562b937835cf3e42f8e228000507445fa5a11","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/assets/template.md","bytes":1721,"sha256":"3f1b00d7bac8316909b279690b4787b32a235a83957d8649939e53a6d09563ee","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/references/api-reference.md","bytes":2034,"sha256":"079a28f4efeca4ebab7d7713b7f8fe29ca202f50e3faee186823cfea11885889","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/references/standards.md","bytes":2644,"sha256":"2072a6cb32560586fd532b589cbfae7371b37abe11a671fbd3ae0e2a4f66d17c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/references/workflows.md","bytes":2958,"sha256":"3aa04508ac343217e5cf61ec929f4c03c42d772f135fd021ec4a4e7e8d6ffb1f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/scripts/agent.py","bytes":6882,"sha256":"e369ddad5154d1e9f0f3d3ef5c50f3f8c15b47752e31caaa7d3f0baa680ec0e6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/scripts/process.py","bytes":12475,"sha256":"bb3882a1da047fb890c319e3ef62e1520ccf08901f71ba22cada11662b7908d4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/scripts/process.py"}],"archiveSha256":"caa7a92adb1218a3f14c98daf2f6cc73f1b3e2d9a44217dbe1b9727c5199a132"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-windows-artifact-analysis-with-eric-zimmerman-tools",
+    "name": "performing-windows-artifact-analysis-with-eric-zimmerman-tools",
+    "description": "Performs comprehensive Windows forensic artifact analysis using Eric Zimmerman's open-source EZ Tools suite (KAPE, MFTECmd, PECmd, LECmd, JLECmd, Timeline Explorer) to parse registry hives, prefetch files, event logs, and file system metadata. Use during DFIR investigations that need a timeline of program execution, file access, and persistence built from Windows artifacts.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "windows",
+      "artifact",
+      "analysis",
+      "eric",
+      "zimmerman",
+      "tools",
+      "performs",
+      "comprehensive",
+      "forensic",
+      "open",
+      "source",
+      "ez",
+      "suite",
+      "kape",
+      "mftecmd",
+      "pecmd",
+      "lecmd"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 52022,
+    "sha256": "c214fbe5f69aa791758838f8aa0562b937835cf3e42f8e228000507445fa5a11",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/SKILL.md",
+      "bytes": 12053,
+      "sha256": "c214fbe5f69aa791758838f8aa0562b937835cf3e42f8e228000507445fa5a11",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/assets/template.md",
+      "bytes": 1721,
+      "sha256": "3f1b00d7bac8316909b279690b4787b32a235a83957d8649939e53a6d09563ee",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/references/api-reference.md",
+      "bytes": 2034,
+      "sha256": "079a28f4efeca4ebab7d7713b7f8fe29ca202f50e3faee186823cfea11885889",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/references/standards.md",
+      "bytes": 2644,
+      "sha256": "2072a6cb32560586fd532b589cbfae7371b37abe11a671fbd3ae0e2a4f66d17c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/references/workflows.md",
+      "bytes": 2958,
+      "sha256": "3aa04508ac343217e5cf61ec929f4c03c42d772f135fd021ec4a4e7e8d6ffb1f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/scripts/agent.py",
+      "bytes": 6882,
+      "sha256": "e369ddad5154d1e9f0f3d3ef5c50f3f8c15b47752e31caaa7d3f0baa680ec0e6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/scripts/process.py",
+      "bytes": 12475,
+      "sha256": "bb3882a1da047fb890c319e3ef62e1520ccf08901f71ba22cada11662b7908d4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "caa7a92adb1218a3f14c98daf2f6cc73f1b3e2d9a44217dbe1b9727c5199a132"
+}

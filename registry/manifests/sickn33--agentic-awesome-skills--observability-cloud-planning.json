@@ -1,1 +1,96 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--observability-cloud-planning","name":"observability-cloud-planning","description":"Build a cloud, SLO, and incident-readiness register after intake. Use when an SME needs monitoring scope, alert ownership, cost limits, or service planning.","category":"Development","tags":["observability","cloud","planning","slo","incident","readiness","register","after","intake.","when","sme","needs","monitoring","scope","alert","ownership","cost","limits"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/observability-cloud-planning","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-cloud-planning","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":6,"bytes":33484,"sha256":"8eba5a636dabb32c7e7cb7cb2f33a1c4c698840d10d05c853f03e24b4763be0e","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/observability-cloud-planning/SKILL.md","bytes":26095,"sha256":"8eba5a636dabb32c7e7cb7cb2f33a1c4c698840d10d05c853f03e24b4763be0e","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-cloud-planning/SKILL.md"},{"path":"references/common-pitfalls.md","sourcePath":"skills/observability-cloud-planning/references/common-pitfalls.md","bytes":2435,"sha256":"7e44c170276e5b2eb6f39166c4a72d9371935391605196af1fbed6dffebf337f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-cloud-planning/references/common-pitfalls.md"},{"path":"references/related-skills.md","sourcePath":"skills/observability-cloud-planning/references/related-skills.md","bytes":1256,"sha256":"54b2b2074f5e738308b2ebfd145e89f666c408c5934abfc216a0e1d9e2351a3d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-cloud-planning/references/related-skills.md"},{"path":"references/reusable-prompt.md","sourcePath":"skills/observability-cloud-planning/references/reusable-prompt.md","bytes":634,"sha256":"ba7d1535324ea51f56bcde5aede5ff752afd7f8b0e78b5845e628fb0173a7542","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-cloud-planning/references/reusable-prompt.md"},{"path":"references/security-safety-notes.md","sourcePath":"skills/observability-cloud-planning/references/security-safety-notes.md","bytes":1991,"sha256":"2eeb82b9beb847020b623b1c7eb61edb66020459a42dac80fb078ba137cba29b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-cloud-planning/references/security-safety-notes.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"2e0bb42e03f0eb9f5a608c43311ddfb082ab64e00dfb4b674530db2e131365c3"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--observability-cloud-planning",
+    "name": "observability-cloud-planning",
+    "description": "Build a cloud, SLO, and incident-readiness register after intake. Use when an SME needs monitoring scope, alert ownership, cost limits, or service planning.",
+    "category": "Development",
+    "tags": [
+      "observability",
+      "cloud",
+      "planning",
+      "slo",
+      "incident",
+      "readiness",
+      "register",
+      "after",
+      "intake.",
+      "when",
+      "sme",
+      "needs",
+      "monitoring",
+      "scope",
+      "alert",
+      "ownership",
+      "cost",
+      "limits"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/observability-cloud-planning",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-cloud-planning",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 6,
+    "bytes": 33484,
+    "sha256": "8eba5a636dabb32c7e7cb7cb2f33a1c4c698840d10d05c853f03e24b4763be0e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/observability-cloud-planning/SKILL.md",
+      "bytes": 26095,
+      "sha256": "8eba5a636dabb32c7e7cb7cb2f33a1c4c698840d10d05c853f03e24b4763be0e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-cloud-planning/SKILL.md"
+    },
+    {
+      "path": "references/common-pitfalls.md",
+      "sourcePath": "skills/observability-cloud-planning/references/common-pitfalls.md",
+      "bytes": 2435,
+      "sha256": "7e44c170276e5b2eb6f39166c4a72d9371935391605196af1fbed6dffebf337f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-cloud-planning/references/common-pitfalls.md"
+    },
+    {
+      "path": "references/related-skills.md",
+      "sourcePath": "skills/observability-cloud-planning/references/related-skills.md",
+      "bytes": 1256,
+      "sha256": "54b2b2074f5e738308b2ebfd145e89f666c408c5934abfc216a0e1d9e2351a3d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-cloud-planning/references/related-skills.md"
+    },
+    {
+      "path": "references/reusable-prompt.md",
+      "sourcePath": "skills/observability-cloud-planning/references/reusable-prompt.md",
+      "bytes": 634,
+      "sha256": "ba7d1535324ea51f56bcde5aede5ff752afd7f8b0e78b5845e628fb0173a7542",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-cloud-planning/references/reusable-prompt.md"
+    },
+    {
+      "path": "references/security-safety-notes.md",
+      "sourcePath": "skills/observability-cloud-planning/references/security-safety-notes.md",
+      "bytes": 1991,
+      "sha256": "2eeb82b9beb847020b623b1c7eb61edb66020459a42dac80fb078ba137cba29b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-cloud-planning/references/security-safety-notes.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "2e0bb42e03f0eb9f5a608c43311ddfb082ab64e00dfb4b674530db2e131365c3"
+}

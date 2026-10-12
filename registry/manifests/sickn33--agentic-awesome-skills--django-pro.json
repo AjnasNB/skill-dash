@@ -1,1 +1,70 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--django-pro","name":"django-pro","description":"Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper architecture, testing, and deployment.","category":"Cloud & DevOps","tags":["django","pro","master","5.x","async","views","drf","celery","channels.","scalable","web","applications","proper","architecture","testing","deployment."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/django-pro","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/django-pro","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":9545,"sha256":"4694bac4666d69d896e7b666d4abce8b45188ab0de11c96021f7fd1b14e4bee9","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/django-pro/SKILL.md","bytes":7300,"sha256":"4694bac4666d69d896e7b666d4abce8b45188ab0de11c96021f7fd1b14e4bee9","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/django-pro/SKILL.md"},{"path":"resources/implementation-playbook.md","sourcePath":"skills/django-pro/resources/implementation-playbook.md","bytes":1172,"sha256":"551239f5644a3e7b271207e32db4bb4516193fe806799203e015b8dd36576b4b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/django-pro/resources/implementation-playbook.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"95e84219e8cca789d8781a85b4a50f58d66beeab4542d02e24610c1cda5e15bd"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--django-pro",
+    "name": "django-pro",
+    "description": "Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper architecture, testing, and deployment.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "django",
+      "pro",
+      "master",
+      "5.x",
+      "async",
+      "views",
+      "drf",
+      "celery",
+      "channels.",
+      "scalable",
+      "web",
+      "applications",
+      "proper",
+      "architecture",
+      "testing",
+      "deployment."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/django-pro",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/django-pro",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 9545,
+    "sha256": "4694bac4666d69d896e7b666d4abce8b45188ab0de11c96021f7fd1b14e4bee9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/django-pro/SKILL.md",
+      "bytes": 7300,
+      "sha256": "4694bac4666d69d896e7b666d4abce8b45188ab0de11c96021f7fd1b14e4bee9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/django-pro/SKILL.md"
+    },
+    {
+      "path": "resources/implementation-playbook.md",
+      "sourcePath": "skills/django-pro/resources/implementation-playbook.md",
+      "bytes": 1172,
+      "sha256": "551239f5644a3e7b271207e32db4bb4516193fe806799203e015b8dd36576b4b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/django-pro/resources/implementation-playbook.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "95e84219e8cca789d8781a85b4a50f58d66beeab4542d02e24610c1cda5e15bd"
+}

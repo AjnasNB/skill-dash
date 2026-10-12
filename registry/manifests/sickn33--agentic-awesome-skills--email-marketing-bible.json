@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--email-marketing-bible","name":"email-marketing-bible","description":"Data-backed email marketing for AI agents: automation flows, deliverability triage, copy de-slopping, AI email design, ESP control via MCP with send gates and compliance.","category":"Design","tags":["email","marketing","bible","data","backed","ai","agents","automation","flows","deliverability","triage","copy","de","slopping","design","esp","control","via"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/email-marketing-bible","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/email-marketing-bible","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":36303,"sha256":"459e543d664813dcda5c3483f4c24a9834f1e91ec25edd52688776387587b530","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/email-marketing-bible/SKILL.md","bytes":35230,"sha256":"459e543d664813dcda5c3483f4c24a9834f1e91ec25edd52688776387587b530","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/email-marketing-bible/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"adebead75546be29a376f04653c26578ad7a99f0c50f41fde32e45b16ebaf6a2"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--email-marketing-bible",
+    "name": "email-marketing-bible",
+    "description": "Data-backed email marketing for AI agents: automation flows, deliverability triage, copy de-slopping, AI email design, ESP control via MCP with send gates and compliance.",
+    "category": "Design",
+    "tags": [
+      "email",
+      "marketing",
+      "bible",
+      "data",
+      "backed",
+      "ai",
+      "agents",
+      "automation",
+      "flows",
+      "deliverability",
+      "triage",
+      "copy",
+      "de",
+      "slopping",
+      "design",
+      "esp",
+      "control",
+      "via"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/email-marketing-bible",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/email-marketing-bible",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 36303,
+    "sha256": "459e543d664813dcda5c3483f4c24a9834f1e91ec25edd52688776387587b530",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/email-marketing-bible/SKILL.md",
+      "bytes": 35230,
+      "sha256": "459e543d664813dcda5c3483f4c24a9834f1e91ec25edd52688776387587b530",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/email-marketing-bible/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "adebead75546be29a376f04653c26578ad7a99f0c50f41fde32e45b16ebaf6a2"
+}

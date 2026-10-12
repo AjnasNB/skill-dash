@@ -1,1 +1,83 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--hig-components-search","name":"hig-components-search","description":"Apple HIG guidance for navigation-related components including search fields, page controls, and path controls.","category":"Development","tags":["hig","components","search","apple","guidance","navigation","related","including","fields","page","controls","path","controls."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/hig-components-search","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hig-components-search","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":5,"bytes":39560,"sha256":"2788e928f1e1a89c4e9ede3fca07d2a19aa05985698230f50e26a9301fc8e2fd","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/hig-components-search/SKILL.md","bytes":3505,"sha256":"2788e928f1e1a89c4e9ede3fca07d2a19aa05985698230f50e26a9301fc8e2fd","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hig-components-search/SKILL.md"},{"path":"references/page-controls.md","sourcePath":"skills/hig-components-search/references/page-controls.md","bytes":12113,"sha256":"c1771b3053e25a70fb630a4c98e521468073a389259fbe2f12b935946ffd3331","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hig-components-search/references/page-controls.md"},{"path":"references/path-controls.md","sourcePath":"skills/hig-components-search/references/path-controls.md","bytes":3168,"sha256":"22f9385707da60bc4f0796003c2358acf122439d4506f0ceda267fea44bf0a0f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hig-components-search/references/path-controls.md"},{"path":"references/search-fields.md","sourcePath":"skills/hig-components-search/references/search-fields.md","bytes":19701,"sha256":"81872fa380fd030802f4c0b3684512f92e5b47498a8f7e8bc4adbc3363f7ce35","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hig-components-search/references/search-fields.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"f9d69d86d3683d31883000f0b905ae38ff05a05dfa9707cd62bf1896b71a86f4"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--hig-components-search",
+    "name": "hig-components-search",
+    "description": "Apple HIG guidance for navigation-related components including search fields, page controls, and path controls.",
+    "category": "Development",
+    "tags": [
+      "hig",
+      "components",
+      "search",
+      "apple",
+      "guidance",
+      "navigation",
+      "related",
+      "including",
+      "fields",
+      "page",
+      "controls",
+      "path",
+      "controls."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/hig-components-search",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hig-components-search",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 5,
+    "bytes": 39560,
+    "sha256": "2788e928f1e1a89c4e9ede3fca07d2a19aa05985698230f50e26a9301fc8e2fd",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hig-components-search/SKILL.md",
+      "bytes": 3505,
+      "sha256": "2788e928f1e1a89c4e9ede3fca07d2a19aa05985698230f50e26a9301fc8e2fd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hig-components-search/SKILL.md"
+    },
+    {
+      "path": "references/page-controls.md",
+      "sourcePath": "skills/hig-components-search/references/page-controls.md",
+      "bytes": 12113,
+      "sha256": "c1771b3053e25a70fb630a4c98e521468073a389259fbe2f12b935946ffd3331",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hig-components-search/references/page-controls.md"
+    },
+    {
+      "path": "references/path-controls.md",
+      "sourcePath": "skills/hig-components-search/references/path-controls.md",
+      "bytes": 3168,
+      "sha256": "22f9385707da60bc4f0796003c2358acf122439d4506f0ceda267fea44bf0a0f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hig-components-search/references/path-controls.md"
+    },
+    {
+      "path": "references/search-fields.md",
+      "sourcePath": "skills/hig-components-search/references/search-fields.md",
+      "bytes": 19701,
+      "sha256": "81872fa380fd030802f4c0b3684512f92e5b47498a8f7e8bc4adbc3363f7ce35",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hig-components-search/references/search-fields.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "f9d69d86d3683d31883000f0b905ae38ff05a05dfa9707cd62bf1896b71a86f4"
+}

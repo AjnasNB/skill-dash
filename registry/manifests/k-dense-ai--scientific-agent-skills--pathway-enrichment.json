@@ -1,1 +1,104 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--pathway-enrichment","name":"pathway-enrichment","description":"Performs pathway and gene-set enrichment analysis on gene lists or ranked gene data and interprets the results. Used when the user has a set of genes (differentially expressed genes from PyDESeq2/Scanpy, CRISPR-screen hits, cluster marker genes, proteomics hits) and wants to know which biological pathways, GO terms, or gene sets are over-represented or enriched. Covers over-representation analysis (ORA / Enrichr / Fisher / hypergeometric), ranked Gene Set Enrichment Analysis (GSEA / preranked), single-sample scoring (ssGSEA/GSVA), and functional profiling via gseapy, g:Profiler, Enrichr libraries, MSigDB, GO, KEGG, Reactome, and WikiPathways — plus gene-ID mapping, choosing the right background universe, multiple-testing correction, redundancy reduction, dotplots/enrichment maps, and publication-ready tables. Use this for \"pathway analysis\", \"enrichment analysis\", \"GO enrichment\", \"KEGG/Reactome pathways\", \"GSEA\", \"over-representation\", \"functional annotation\", or \"what pathways are my genes in\".","category":"Development","tags":["pathway","enrichment","performs","gene","set","analysis","lists","ranked","data","interprets","results.","used","when","user","has","genes","differentially","expressed"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/pathway-enrichment","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathway-enrichment","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":7,"bytes":66056,"sha256":"82783d8ba63b6b03646492ee75afcdf591903a213decf7e7c9d844eb517acd78","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/pathway-enrichment/SKILL.md","bytes":16726,"sha256":"82783d8ba63b6b03646492ee75afcdf591903a213decf7e7c9d844eb517acd78","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathway-enrichment/SKILL.md"},{"path":"references/databases-and-gene-sets.md","sourcePath":"skills/pathway-enrichment/references/databases-and-gene-sets.md","bytes":9025,"sha256":"bd9dc1b2df10a2eb8794bdbe2ade248b8987ddf200a8e90b19235af8f20fd414","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathway-enrichment/references/databases-and-gene-sets.md"},{"path":"references/gseapy.md","sourcePath":"skills/pathway-enrichment/references/gseapy.md","bytes":9856,"sha256":"0305a6c545c2aa5e1ac655d8a39f99e437f02a29f5f23f9786e5cf3ab98959fa","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathway-enrichment/references/gseapy.md"},{"path":"references/interpretation.md","sourcePath":"skills/pathway-enrichment/references/interpretation.md","bytes":7511,"sha256":"d1356ee0f94c4e64191c7436c641c01592e323be1e55f4c037957b7b833d4f73","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathway-enrichment/references/interpretation.md"},{"path":"references/verified-api.md","sourcePath":"skills/pathway-enrichment/references/verified-api.md","bytes":8265,"sha256":"911a352451ec52066f044f8eac671ad8aa6a4e8b09d455918bea790b26d882bb","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathway-enrichment/references/verified-api.md"},{"path":"scripts/run_enrichment.py","sourcePath":"skills/pathway-enrichment/scripts/run_enrichment.py","bytes":13605,"sha256":"973a06c03e9d1df49423ca0744f7c5be5185ec9decc7de8ccbb72d0f2ac6bc06","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathway-enrichment/scripts/run_enrichment.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"36025f03a12e8d99fa413123d7716b18f16e1feb43f49845a295684e1d847ba8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--pathway-enrichment",
+    "name": "pathway-enrichment",
+    "description": "Performs pathway and gene-set enrichment analysis on gene lists or ranked gene data and interprets the results. Used when the user has a set of genes (differentially expressed genes from PyDESeq2/Scanpy, CRISPR-screen hits, cluster marker genes, proteomics hits) and wants to know which biological pathways, GO terms, or gene sets are over-represented or enriched. Covers over-representation analysis (ORA / Enrichr / Fisher / hypergeometric), ranked Gene Set Enrichment Analysis (GSEA / preranked), single-sample scoring (ssGSEA/GSVA), and functional profiling via gseapy, g:Profiler, Enrichr libraries, MSigDB, GO, KEGG, Reactome, and WikiPathways — plus gene-ID mapping, choosing the right background universe, multiple-testing correction, redundancy reduction, dotplots/enrichment maps, and publication-ready tables. Use this for \"pathway analysis\", \"enrichment analysis\", \"GO enrichment\", \"KEGG/Reactome pathways\", \"GSEA\", \"over-representation\", \"functional annotation\", or \"what pathways are my genes in\".",
+    "category": "Development",
+    "tags": [
+      "pathway",
+      "enrichment",
+      "performs",
+      "gene",
+      "set",
+      "analysis",
+      "lists",
+      "ranked",
+      "data",
+      "interprets",
+      "results.",
+      "used",
+      "when",
+      "user",
+      "has",
+      "genes",
+      "differentially",
+      "expressed"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/pathway-enrichment",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathway-enrichment",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 7,
+    "bytes": 66056,
+    "sha256": "82783d8ba63b6b03646492ee75afcdf591903a213decf7e7c9d844eb517acd78",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/pathway-enrichment/SKILL.md",
+      "bytes": 16726,
+      "sha256": "82783d8ba63b6b03646492ee75afcdf591903a213decf7e7c9d844eb517acd78",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathway-enrichment/SKILL.md"
+    },
+    {
+      "path": "references/databases-and-gene-sets.md",
+      "sourcePath": "skills/pathway-enrichment/references/databases-and-gene-sets.md",
+      "bytes": 9025,
+      "sha256": "bd9dc1b2df10a2eb8794bdbe2ade248b8987ddf200a8e90b19235af8f20fd414",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathway-enrichment/references/databases-and-gene-sets.md"
+    },
+    {
+      "path": "references/gseapy.md",
+      "sourcePath": "skills/pathway-enrichment/references/gseapy.md",
+      "bytes": 9856,
+      "sha256": "0305a6c545c2aa5e1ac655d8a39f99e437f02a29f5f23f9786e5cf3ab98959fa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathway-enrichment/references/gseapy.md"
+    },
+    {
+      "path": "references/interpretation.md",
+      "sourcePath": "skills/pathway-enrichment/references/interpretation.md",
+      "bytes": 7511,
+      "sha256": "d1356ee0f94c4e64191c7436c641c01592e323be1e55f4c037957b7b833d4f73",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathway-enrichment/references/interpretation.md"
+    },
+    {
+      "path": "references/verified-api.md",
+      "sourcePath": "skills/pathway-enrichment/references/verified-api.md",
+      "bytes": 8265,
+      "sha256": "911a352451ec52066f044f8eac671ad8aa6a4e8b09d455918bea790b26d882bb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathway-enrichment/references/verified-api.md"
+    },
+    {
+      "path": "scripts/run_enrichment.py",
+      "sourcePath": "skills/pathway-enrichment/scripts/run_enrichment.py",
+      "bytes": 13605,
+      "sha256": "973a06c03e9d1df49423ca0744f7c5be5185ec9decc7de8ccbb72d0f2ac6bc06",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathway-enrichment/scripts/run_enrichment.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "36025f03a12e8d99fa413123d7716b18f16e1feb43f49845a295684e1d847ba8"
+}

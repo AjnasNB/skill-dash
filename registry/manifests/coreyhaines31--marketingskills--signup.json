@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"coreyhaines31--marketingskills--signup","name":"signup","description":"When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" \"account creation flow,\" \"people aren't signing up,\" \"signup abandonment,\" \"trial conversion rate,\" \"nobody completes registration,\" \"too many steps to sign up,\" or \"simplify our signup.\" Use this whenever the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding. For lead capture forms (not account creation), see cro.","category":"Marketing","tags":["signup","when","user","wants","optimize","registration","account","creation","trial","activation","flows.","also","mentions","conversions","friction","form","optimization","free"],"repo":"coreyhaines31/marketingskills","owner":"coreyhaines31","stars":54287,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff","path":"skills/signup","sourceUrl":"https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/signup","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-08T21:51:37Z","fileCount":3,"bytes":18096,"sha256":"d50b1183be692ba5ce1db31afbbd0aa2a5ec06940b22105f85ea1764b15ca930","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/signup/SKILL.md","bytes":10784,"sha256":"d50b1183be692ba5ce1db31afbbd0aa2a5ec06940b22105f85ea1764b15ca930","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/signup/SKILL.md"},{"path":"evals/evals.json","sourcePath":"skills/signup/evals/evals.json","bytes":6243,"sha256":"ce012fff8e559b5f622826826e7b137c650c96f8193a7e10add60f75c2417edd","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/signup/evals/evals.json"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1069,"sha256":"b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"}],"archiveSha256":"feed447b89f7a59e6eb7d5da772d8ceca60e459051aa9b82787a17646179eecc"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "coreyhaines31--marketingskills--signup",
+    "name": "signup",
+    "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" \"account creation flow,\" \"people aren't signing up,\" \"signup abandonment,\" \"trial conversion rate,\" \"nobody completes registration,\" \"too many steps to sign up,\" or \"simplify our signup.\" Use this whenever the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding. For lead capture forms (not account creation), see cro.",
+    "category": "Marketing",
+    "tags": [
+      "signup",
+      "when",
+      "user",
+      "wants",
+      "optimize",
+      "registration",
+      "account",
+      "creation",
+      "trial",
+      "activation",
+      "flows.",
+      "also",
+      "mentions",
+      "conversions",
+      "friction",
+      "form",
+      "optimization",
+      "free"
+    ],
+    "repo": "coreyhaines31/marketingskills",
+    "owner": "coreyhaines31",
+    "stars": 54287,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff",
+    "path": "skills/signup",
+    "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/signup",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-08T21:51:37Z",
+    "fileCount": 3,
+    "bytes": 18096,
+    "sha256": "d50b1183be692ba5ce1db31afbbd0aa2a5ec06940b22105f85ea1764b15ca930",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/signup/SKILL.md",
+      "bytes": 10784,
+      "sha256": "d50b1183be692ba5ce1db31afbbd0aa2a5ec06940b22105f85ea1764b15ca930",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/signup/SKILL.md"
+    },
+    {
+      "path": "evals/evals.json",
+      "sourcePath": "skills/signup/evals/evals.json",
+      "bytes": 6243,
+      "sha256": "ce012fff8e559b5f622826826e7b137c650c96f8193a7e10add60f75c2417edd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/signup/evals/evals.json"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"
+    }
+  ],
+  "archiveSha256": "feed447b89f7a59e6eb7d5da772d8ceca60e459051aa9b82787a17646179eecc"
+}

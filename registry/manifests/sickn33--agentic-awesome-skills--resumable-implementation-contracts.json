@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--resumable-implementation-contracts","name":"resumable-implementation-contracts","description":"Create repository-based execution contracts for multi-session implementation work, with stable task IDs, evidence, checkpoints, and exact resume state.","category":"Development","tags":["resumable","implementation","contracts","repository","based","execution","multi","session","work","stable","task","ids","evidence","checkpoints","exact","resume","state."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/resumable-implementation-contracts","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/resumable-implementation-contracts","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11193,"sha256":"37aec1c56b6701ef8fe9519a867c2ae6ebf90bd1b988a4e8fdfb4822ec0cf3de","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/resumable-implementation-contracts/SKILL.md","bytes":10120,"sha256":"37aec1c56b6701ef8fe9519a867c2ae6ebf90bd1b988a4e8fdfb4822ec0cf3de","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/resumable-implementation-contracts/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"b9837603c49c5397478822aec484d6f4754b684006730f13f6bc461c320d6869"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--resumable-implementation-contracts",
+    "name": "resumable-implementation-contracts",
+    "description": "Create repository-based execution contracts for multi-session implementation work, with stable task IDs, evidence, checkpoints, and exact resume state.",
+    "category": "Development",
+    "tags": [
+      "resumable",
+      "implementation",
+      "contracts",
+      "repository",
+      "based",
+      "execution",
+      "multi",
+      "session",
+      "work",
+      "stable",
+      "task",
+      "ids",
+      "evidence",
+      "checkpoints",
+      "exact",
+      "resume",
+      "state."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/resumable-implementation-contracts",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/resumable-implementation-contracts",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11193,
+    "sha256": "37aec1c56b6701ef8fe9519a867c2ae6ebf90bd1b988a4e8fdfb4822ec0cf3de",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/resumable-implementation-contracts/SKILL.md",
+      "bytes": 10120,
+      "sha256": "37aec1c56b6701ef8fe9519a867c2ae6ebf90bd1b988a4e8fdfb4822ec0cf3de",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/resumable-implementation-contracts/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "b9837603c49c5397478822aec484d6f4754b684006730f13f6bc461c320d6869"
+}

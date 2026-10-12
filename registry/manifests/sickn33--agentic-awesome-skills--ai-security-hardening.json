@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--ai-security-hardening","name":"ai-security-hardening","description":"Harden AI/LLM deployments against prompt injection, data exfiltration, model theft, and supply chain attacks.","category":"Security","tags":["ai","security","hardening","harden","llm","deployments","against","prompt","injection","data","exfiltration","model","theft","supply","chain","attacks."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/ai-security-hardening","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ai-security-hardening","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12133,"sha256":"2772698def4a0db6b2dafc3c2da62c4ecbba0680b62ef760efee426298988eb7","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/ai-security-hardening/SKILL.md","bytes":11060,"sha256":"2772698def4a0db6b2dafc3c2da62c4ecbba0680b62ef760efee426298988eb7","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ai-security-hardening/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"854a5a3ecec0bcc43ef6d68c9666ffcdcaf09e95863f06e0df829e5676a66d19"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--ai-security-hardening",
+    "name": "ai-security-hardening",
+    "description": "Harden AI/LLM deployments against prompt injection, data exfiltration, model theft, and supply chain attacks.",
+    "category": "Security",
+    "tags": [
+      "ai",
+      "security",
+      "hardening",
+      "harden",
+      "llm",
+      "deployments",
+      "against",
+      "prompt",
+      "injection",
+      "data",
+      "exfiltration",
+      "model",
+      "theft",
+      "supply",
+      "chain",
+      "attacks."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/ai-security-hardening",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ai-security-hardening",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12133,
+    "sha256": "2772698def4a0db6b2dafc3c2da62c4ecbba0680b62ef760efee426298988eb7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/ai-security-hardening/SKILL.md",
+      "bytes": 11060,
+      "sha256": "2772698def4a0db6b2dafc3c2da62c4ecbba0680b62ef760efee426298988eb7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ai-security-hardening/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "854a5a3ecec0bcc43ef6d68c9666ffcdcaf09e95863f06e0df829e5676a66d19"
+}

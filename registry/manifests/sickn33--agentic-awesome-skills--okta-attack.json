@@ -1,1 +1,53 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--okta-attack","name":"okta-attack","description":"Okta-as-IdP red-team attack chain","category":"Development","tags":["okta","attack","as","idp","red","team","chain"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/okta-attack","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/okta-attack","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":26874,"sha256":"718037552b252014f42dcb1e41b484697bd57a2ef5f25f4626a06f85a691d32e","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/okta-attack/SKILL.md","bytes":25801,"sha256":"718037552b252014f42dcb1e41b484697bd57a2ef5f25f4626a06f85a691d32e","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/okta-attack/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"eff3c154273ecd5e43654872c23ecd10a5e9d7b577aa89239ba9af4c2e914d03"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--okta-attack",
+    "name": "okta-attack",
+    "description": "Okta-as-IdP red-team attack chain",
+    "category": "Development",
+    "tags": [
+      "okta",
+      "attack",
+      "as",
+      "idp",
+      "red",
+      "team",
+      "chain"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/okta-attack",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/okta-attack",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 26874,
+    "sha256": "718037552b252014f42dcb1e41b484697bd57a2ef5f25f4626a06f85a691d32e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/okta-attack/SKILL.md",
+      "bytes": 25801,
+      "sha256": "718037552b252014f42dcb1e41b484697bd57a2ef5f25f4626a06f85a691d32e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/okta-attack/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "eff3c154273ecd5e43654872c23ecd10a5e9d7b577aa89239ba9af4c2e914d03"
+}

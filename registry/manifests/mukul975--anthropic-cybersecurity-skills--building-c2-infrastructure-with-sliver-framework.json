@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--building-c2-infrastructure-with-sliver-framework","name":"building-c2-infrastructure-with-sliver-framework","description":"Deploy and harden a Sliver C2 team server (BishopFox's Go-based adversary emulation framework) with multi-protocol listeners (mTLS, HTTP/S, DNS, WireGuard), redirectors, domain fronting, and multi-operator support for authorized red-team operations. Use when standing up resilient C2 for a red-team engagement or generating beacon/session implants that must survive blue-team detection.","category":"Cloud & DevOps","tags":["building","c2","infrastructure","sliver","framework","deploy","harden","team","server","bishopfox","go","based","adversary","emulation","multi","protocol","listeners","mtls"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/building-c2-infrastructure-with-sliver-framework/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/building-c2-infrastructure-with-sliver-framework","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-infrastructure-with-sliver-framework","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":37848,"sha256":"365810ecfee63a5fcf05415c55716f531a5842da5ee3db6fc8e349e5616ace39","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/building-c2-infrastructure-with-sliver-framework/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-infrastructure-with-sliver-framework/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/building-c2-infrastructure-with-sliver-framework/SKILL.md","bytes":8196,"sha256":"365810ecfee63a5fcf05415c55716f531a5842da5ee3db6fc8e349e5616ace39","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-infrastructure-with-sliver-framework/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/building-c2-infrastructure-with-sliver-framework/assets/template.md","bytes":2028,"sha256":"21de25c402d9d980c6078523ae57b86f5a028ee91d7fb19d834ddeea96da2109","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-infrastructure-with-sliver-framework/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/building-c2-infrastructure-with-sliver-framework/references/api-reference.md","bytes":1633,"sha256":"5fe85b29d93e59dee774ea5acfe6c9962863d24a50ff3798974faf456b80548c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-infrastructure-with-sliver-framework/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/building-c2-infrastructure-with-sliver-framework/references/standards.md","bytes":1322,"sha256":"77f0ca889742c4cbb4dd6adb24e9687e935e3756205340bf320002eb41bda3ed","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-infrastructure-with-sliver-framework/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/building-c2-infrastructure-with-sliver-framework/references/workflows.md","bytes":2401,"sha256":"44754bf0e27fc4d0c5d27ad8bb2188cae2886db5f3df1f8bde1cab2f43af596a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-infrastructure-with-sliver-framework/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/building-c2-infrastructure-with-sliver-framework/scripts/agent.py","bytes":4694,"sha256":"03fa86ed9d210d4b4b8ddb6f5372058799de342a09d31b39e9b694a69bc7420f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-infrastructure-with-sliver-framework/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/building-c2-infrastructure-with-sliver-framework/scripts/process.py","bytes":6319,"sha256":"1042f74baae8142692d6c64a2e7c48c3eed4f499b88cf52d1563ac66828fadb8","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-infrastructure-with-sliver-framework/scripts/process.py"}],"archiveSha256":"374a8176261dc315a611e74bfc2f0565fb84d690b278c1bfd982682e167f0609"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--building-c2-infrastructure-with-sliver-framework",
+    "name": "building-c2-infrastructure-with-sliver-framework",
+    "description": "Deploy and harden a Sliver C2 team server (BishopFox's Go-based adversary emulation framework) with multi-protocol listeners (mTLS, HTTP/S, DNS, WireGuard), redirectors, domain fronting, and multi-operator support for authorized red-team operations. Use when standing up resilient C2 for a red-team engagement or generating beacon/session implants that must survive blue-team detection.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "building",
+      "c2",
+      "infrastructure",
+      "sliver",
+      "framework",
+      "deploy",
+      "harden",
+      "team",
+      "server",
+      "bishopfox",
+      "go",
+      "based",
+      "adversary",
+      "emulation",
+      "multi",
+      "protocol",
+      "listeners",
+      "mtls"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/building-c2-infrastructure-with-sliver-framework/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/building-c2-infrastructure-with-sliver-framework",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-infrastructure-with-sliver-framework",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 37848,
+    "sha256": "365810ecfee63a5fcf05415c55716f531a5842da5ee3db6fc8e349e5616ace39",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/building-c2-infrastructure-with-sliver-framework/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-infrastructure-with-sliver-framework/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/building-c2-infrastructure-with-sliver-framework/SKILL.md",
+      "bytes": 8196,
+      "sha256": "365810ecfee63a5fcf05415c55716f531a5842da5ee3db6fc8e349e5616ace39",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-infrastructure-with-sliver-framework/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/building-c2-infrastructure-with-sliver-framework/assets/template.md",
+      "bytes": 2028,
+      "sha256": "21de25c402d9d980c6078523ae57b86f5a028ee91d7fb19d834ddeea96da2109",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-infrastructure-with-sliver-framework/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/building-c2-infrastructure-with-sliver-framework/references/api-reference.md",
+      "bytes": 1633,
+      "sha256": "5fe85b29d93e59dee774ea5acfe6c9962863d24a50ff3798974faf456b80548c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-infrastructure-with-sliver-framework/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/building-c2-infrastructure-with-sliver-framework/references/standards.md",
+      "bytes": 1322,
+      "sha256": "77f0ca889742c4cbb4dd6adb24e9687e935e3756205340bf320002eb41bda3ed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-infrastructure-with-sliver-framework/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/building-c2-infrastructure-with-sliver-framework/references/workflows.md",
+      "bytes": 2401,
+      "sha256": "44754bf0e27fc4d0c5d27ad8bb2188cae2886db5f3df1f8bde1cab2f43af596a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-infrastructure-with-sliver-framework/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/building-c2-infrastructure-with-sliver-framework/scripts/agent.py",
+      "bytes": 4694,
+      "sha256": "03fa86ed9d210d4b4b8ddb6f5372058799de342a09d31b39e9b694a69bc7420f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-infrastructure-with-sliver-framework/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/building-c2-infrastructure-with-sliver-framework/scripts/process.py",
+      "bytes": 6319,
+      "sha256": "1042f74baae8142692d6c64a2e7c48c3eed4f499b88cf52d1563ac66828fadb8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-infrastructure-with-sliver-framework/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "374a8176261dc315a611e74bfc2f0565fb84d690b278c1bfd982682e167f0609"
+}

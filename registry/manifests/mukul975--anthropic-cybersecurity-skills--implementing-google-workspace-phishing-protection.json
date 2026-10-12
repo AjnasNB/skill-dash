@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-google-workspace-phishing-protection","name":"implementing-google-workspace-phishing-protection","description":"Configures Google Workspace advanced phishing and malware protection settings in the Admin Console — pre-delivery message scanning, attachment protection, spoofing/impersonation detection, and Enhanced Safe Browsing enforcement. Use when hardening Gmail against phishing, spoofing, and malware, or when tuning Workspace email security policies.","category":"Security","tags":["implementing","google","workspace","phishing","protection","configures","advanced","malware","settings","admin","console","pre","delivery","message","scanning","attachment","spoofing","impersonation"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-google-workspace-phishing-protection/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-google-workspace-phishing-protection","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-phishing-protection","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":37668,"sha256":"02e2ff490534a25d965adbe6132a029885fa6e057efb90c1157a2bd7b7c046d6","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-google-workspace-phishing-protection/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-phishing-protection/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-google-workspace-phishing-protection/SKILL.md","bytes":5774,"sha256":"02e2ff490534a25d965adbe6132a029885fa6e057efb90c1157a2bd7b7c046d6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-phishing-protection/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-google-workspace-phishing-protection/assets/template.md","bytes":830,"sha256":"e36421972aac4d598834bb092919957b9788edb7b63b86f7ae93e52999913bb6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-phishing-protection/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-google-workspace-phishing-protection/references/api-reference.md","bytes":1850,"sha256":"87bed493d15632f8755aae4c80a3ae0d19822f4e148c870c54de716108d83f82","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-phishing-protection/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-google-workspace-phishing-protection/references/standards.md","bytes":1317,"sha256":"0acad27f50967563393bbcb2f8601d6ba6e2b2d155282b138116650464ea01c5","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-phishing-protection/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-google-workspace-phishing-protection/references/workflows.md","bytes":1400,"sha256":"b33c079d057a8dca7a9e1072518ace4a03e8903251b354ee037086f3c4faa144","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-phishing-protection/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-google-workspace-phishing-protection/scripts/agent.py","bytes":7817,"sha256":"e13c9cff4259030e99aa3f975098155d5c7ab4887f4912b38f973290c666efa9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-phishing-protection/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-google-workspace-phishing-protection/scripts/process.py","bytes":7425,"sha256":"68196832c6258407656cb139af7a7cb9b43a66d0ad479e536d8ad5a80466319e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-phishing-protection/scripts/process.py"}],"archiveSha256":"cfc2b4b39da37f7c0c00b89205d118eaaa741dd7f62a19831fdeabe40f715a27"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-google-workspace-phishing-protection",
+    "name": "implementing-google-workspace-phishing-protection",
+    "description": "Configures Google Workspace advanced phishing and malware protection settings in the Admin Console — pre-delivery message scanning, attachment protection, spoofing/impersonation detection, and Enhanced Safe Browsing enforcement. Use when hardening Gmail against phishing, spoofing, and malware, or when tuning Workspace email security policies.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "google",
+      "workspace",
+      "phishing",
+      "protection",
+      "configures",
+      "advanced",
+      "malware",
+      "settings",
+      "admin",
+      "console",
+      "pre",
+      "delivery",
+      "message",
+      "scanning",
+      "attachment",
+      "spoofing",
+      "impersonation"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-google-workspace-phishing-protection/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-google-workspace-phishing-protection",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-phishing-protection",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 37668,
+    "sha256": "02e2ff490534a25d965adbe6132a029885fa6e057efb90c1157a2bd7b7c046d6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-google-workspace-phishing-protection/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-phishing-protection/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-google-workspace-phishing-protection/SKILL.md",
+      "bytes": 5774,
+      "sha256": "02e2ff490534a25d965adbe6132a029885fa6e057efb90c1157a2bd7b7c046d6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-phishing-protection/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-google-workspace-phishing-protection/assets/template.md",
+      "bytes": 830,
+      "sha256": "e36421972aac4d598834bb092919957b9788edb7b63b86f7ae93e52999913bb6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-phishing-protection/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-google-workspace-phishing-protection/references/api-reference.md",
+      "bytes": 1850,
+      "sha256": "87bed493d15632f8755aae4c80a3ae0d19822f4e148c870c54de716108d83f82",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-phishing-protection/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-google-workspace-phishing-protection/references/standards.md",
+      "bytes": 1317,
+      "sha256": "0acad27f50967563393bbcb2f8601d6ba6e2b2d155282b138116650464ea01c5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-phishing-protection/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-google-workspace-phishing-protection/references/workflows.md",
+      "bytes": 1400,
+      "sha256": "b33c079d057a8dca7a9e1072518ace4a03e8903251b354ee037086f3c4faa144",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-phishing-protection/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-google-workspace-phishing-protection/scripts/agent.py",
+      "bytes": 7817,
+      "sha256": "e13c9cff4259030e99aa3f975098155d5c7ab4887f4912b38f973290c666efa9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-phishing-protection/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-google-workspace-phishing-protection/scripts/process.py",
+      "bytes": 7425,
+      "sha256": "68196832c6258407656cb139af7a7cb9b43a66d0ad479e536d8ad5a80466319e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-google-workspace-phishing-protection/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "cfc2b4b39da37f7c0c00b89205d118eaaa741dd7f62a19831fdeabe40f715a27"
+}

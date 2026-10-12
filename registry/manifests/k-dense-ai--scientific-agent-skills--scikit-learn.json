@@ -1,1 +1,144 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--scikit-learn","name":"scikit-learn","description":"Supports machine learning in Python with scikit-learn. Applies when working with supervised learning (classification, regression), unsupervised learning (clustering, dimensionality reduction), model evaluation, hyperparameter tuning, preprocessing, or building ML pipelines. Provides comprehensive reference documentation for algorithms, preprocessing techniques, pipelines, and best practices.","category":"AI & agents","tags":["scikit","learn","supports","machine","learning","python","learn.","applies","when","working","supervised","classification","regression","unsupervised","clustering","dimensionality","reduction","model"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/scikit-learn","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":12,"bytes":140167,"sha256":"a1765797d072ab40094522abe68fb04505d0881f66b7dfceeb8582422dbe488d","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/scikit-learn/SKILL.md","bytes":13255,"sha256":"a1765797d072ab40094522abe68fb04505d0881f66b7dfceeb8582422dbe488d","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/SKILL.md"},{"path":"references/common_workflows.md","sourcePath":"skills/scikit-learn/references/common_workflows.md","bytes":3723,"sha256":"dfe19c80358acb5f418a21cea4de3b7e83733481441f3c76d0a2ead4420261de","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/references/common_workflows.md"},{"path":"references/core_capabilities.md","sourcePath":"skills/scikit-learn/references/core_capabilities.md","bytes":5113,"sha256":"c869d9c207fcfc345207d397021a289f3820492ddf0fcd0b3a56a336bd0e1453","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/references/core_capabilities.md"},{"path":"references/model_evaluation.md","sourcePath":"skills/scikit-learn/references/model_evaluation.md","bytes":19482,"sha256":"e6f581c0ce2abffaac2f0bafc1a7bfbe86ec18f8969c6e9b91cc732a12a5fea5","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/references/model_evaluation.md"},{"path":"references/pipelines_and_composition.md","sourcePath":"skills/scikit-learn/references/pipelines_and_composition.md","bytes":15892,"sha256":"a1810cd67dc9141d962fa1972e11b06be6bd437213e10a563e5ec4256fb274a9","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/references/pipelines_and_composition.md"},{"path":"references/preprocessing.md","sourcePath":"skills/scikit-learn/references/preprocessing.md","bytes":18359,"sha256":"098506f0ca83e57d0c7cccd166164d025552ad7310b79d1010f5ff34e1cc4818","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/references/preprocessing.md"},{"path":"references/quick_reference.md","sourcePath":"skills/scikit-learn/references/quick_reference.md","bytes":12448,"sha256":"5401b75fdaa10bf393b024f3c559631011c7be233d2313da37a3f27d7389659a","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/references/quick_reference.md"},{"path":"references/supervised_learning.md","sourcePath":"skills/scikit-learn/references/supervised_learning.md","bytes":12101,"sha256":"d4e5911d175c3a349dd42e33c984b05cdafce230f264b6774996d0eeef36608a","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/references/supervised_learning.md"},{"path":"references/unsupervised_learning.md","sourcePath":"skills/scikit-learn/references/unsupervised_learning.md","bytes":16752,"sha256":"cb476ef499fe35ee2c0416fdc31abad42384ac0110f6d3932901e99b039ae1b1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/references/unsupervised_learning.md"},{"path":"scripts/classification_pipeline.py","sourcePath":"skills/scikit-learn/scripts/classification_pipeline.py","bytes":10293,"sha256":"46abbb2b11095147cc31314405910b211c313d142f2480599f8508d47e5809f3","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/scripts/classification_pipeline.py"},{"path":"scripts/clustering_analysis.py","sourcePath":"skills/scikit-learn/scripts/clustering_analysis.py","bytes":11681,"sha256":"5d1f962a70e049907a39a75cd7a130000a5d3e3de5a4fa4889d07f007c052a17","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/scripts/clustering_analysis.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"719bd51c25b5e2787dcade655ace35e235f662374ee8ef9a452ea3c65459edeb"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--scikit-learn",
+    "name": "scikit-learn",
+    "description": "Supports machine learning in Python with scikit-learn. Applies when working with supervised learning (classification, regression), unsupervised learning (clustering, dimensionality reduction), model evaluation, hyperparameter tuning, preprocessing, or building ML pipelines. Provides comprehensive reference documentation for algorithms, preprocessing techniques, pipelines, and best practices.",
+    "category": "AI & agents",
+    "tags": [
+      "scikit",
+      "learn",
+      "supports",
+      "machine",
+      "learning",
+      "python",
+      "learn.",
+      "applies",
+      "when",
+      "working",
+      "supervised",
+      "classification",
+      "regression",
+      "unsupervised",
+      "clustering",
+      "dimensionality",
+      "reduction",
+      "model"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/scikit-learn",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 12,
+    "bytes": 140167,
+    "sha256": "a1765797d072ab40094522abe68fb04505d0881f66b7dfceeb8582422dbe488d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/scikit-learn/SKILL.md",
+      "bytes": 13255,
+      "sha256": "a1765797d072ab40094522abe68fb04505d0881f66b7dfceeb8582422dbe488d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/SKILL.md"
+    },
+    {
+      "path": "references/common_workflows.md",
+      "sourcePath": "skills/scikit-learn/references/common_workflows.md",
+      "bytes": 3723,
+      "sha256": "dfe19c80358acb5f418a21cea4de3b7e83733481441f3c76d0a2ead4420261de",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/references/common_workflows.md"
+    },
+    {
+      "path": "references/core_capabilities.md",
+      "sourcePath": "skills/scikit-learn/references/core_capabilities.md",
+      "bytes": 5113,
+      "sha256": "c869d9c207fcfc345207d397021a289f3820492ddf0fcd0b3a56a336bd0e1453",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/references/core_capabilities.md"
+    },
+    {
+      "path": "references/model_evaluation.md",
+      "sourcePath": "skills/scikit-learn/references/model_evaluation.md",
+      "bytes": 19482,
+      "sha256": "e6f581c0ce2abffaac2f0bafc1a7bfbe86ec18f8969c6e9b91cc732a12a5fea5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/references/model_evaluation.md"
+    },
+    {
+      "path": "references/pipelines_and_composition.md",
+      "sourcePath": "skills/scikit-learn/references/pipelines_and_composition.md",
+      "bytes": 15892,
+      "sha256": "a1810cd67dc9141d962fa1972e11b06be6bd437213e10a563e5ec4256fb274a9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/references/pipelines_and_composition.md"
+    },
+    {
+      "path": "references/preprocessing.md",
+      "sourcePath": "skills/scikit-learn/references/preprocessing.md",
+      "bytes": 18359,
+      "sha256": "098506f0ca83e57d0c7cccd166164d025552ad7310b79d1010f5ff34e1cc4818",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/references/preprocessing.md"
+    },
+    {
+      "path": "references/quick_reference.md",
+      "sourcePath": "skills/scikit-learn/references/quick_reference.md",
+      "bytes": 12448,
+      "sha256": "5401b75fdaa10bf393b024f3c559631011c7be233d2313da37a3f27d7389659a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/references/quick_reference.md"
+    },
+    {
+      "path": "references/supervised_learning.md",
+      "sourcePath": "skills/scikit-learn/references/supervised_learning.md",
+      "bytes": 12101,
+      "sha256": "d4e5911d175c3a349dd42e33c984b05cdafce230f264b6774996d0eeef36608a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/references/supervised_learning.md"
+    },
+    {
+      "path": "references/unsupervised_learning.md",
+      "sourcePath": "skills/scikit-learn/references/unsupervised_learning.md",
+      "bytes": 16752,
+      "sha256": "cb476ef499fe35ee2c0416fdc31abad42384ac0110f6d3932901e99b039ae1b1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/references/unsupervised_learning.md"
+    },
+    {
+      "path": "scripts/classification_pipeline.py",
+      "sourcePath": "skills/scikit-learn/scripts/classification_pipeline.py",
+      "bytes": 10293,
+      "sha256": "46abbb2b11095147cc31314405910b211c313d142f2480599f8508d47e5809f3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/scripts/classification_pipeline.py"
+    },
+    {
+      "path": "scripts/clustering_analysis.py",
+      "sourcePath": "skills/scikit-learn/scripts/clustering_analysis.py",
+      "bytes": 11681,
+      "sha256": "5d1f962a70e049907a39a75cd7a130000a5d3e3de5a4fa4889d07f007c052a17",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-learn/scripts/clustering_analysis.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "719bd51c25b5e2787dcade655ace35e235f662374ee8ef9a452ea3c65459edeb"
+}

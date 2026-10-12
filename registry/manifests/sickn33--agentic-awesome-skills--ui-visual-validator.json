@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--ui-visual-validator","name":"ui-visual-validator","description":"Rigorous visual validation expert specializing in UI testing, design system compliance, and accessibility verification.","category":"Design","tags":["ui","visual","validator","rigorous","validation","expert","specializing","testing","design","system","compliance","accessibility","verification."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/ui-visual-validator","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ui-visual-validator","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11194,"sha256":"77766cbce44646221ffc2b8dc6ab5228b706ecf52352b1447429c65d9f349d9c","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/ui-visual-validator/SKILL.md","bytes":10121,"sha256":"77766cbce44646221ffc2b8dc6ab5228b706ecf52352b1447429c65d9f349d9c","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ui-visual-validator/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"22a42164762b8289f105f7a3698941be0e608427be574bd0987054f359a4157e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--ui-visual-validator",
+    "name": "ui-visual-validator",
+    "description": "Rigorous visual validation expert specializing in UI testing, design system compliance, and accessibility verification.",
+    "category": "Design",
+    "tags": [
+      "ui",
+      "visual",
+      "validator",
+      "rigorous",
+      "validation",
+      "expert",
+      "specializing",
+      "testing",
+      "design",
+      "system",
+      "compliance",
+      "accessibility",
+      "verification."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/ui-visual-validator",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ui-visual-validator",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11194,
+    "sha256": "77766cbce44646221ffc2b8dc6ab5228b706ecf52352b1447429c65d9f349d9c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/ui-visual-validator/SKILL.md",
+      "bytes": 10121,
+      "sha256": "77766cbce44646221ffc2b8dc6ab5228b706ecf52352b1447429c65d9f349d9c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ui-visual-validator/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "22a42164762b8289f105f7a3698941be0e608427be574bd0987054f359a4157e"
+}

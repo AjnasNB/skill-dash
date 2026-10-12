@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-uefi-bootkit-persistence","name":"analyzing-uefi-bootkit-persistence","description":"Analyzes UEFI bootkit persistence (SPI flash implants, ESP modifications, Secure Boot bypass, UEFI variable manipulation) using chipsec for firmware integrity verification, detecting known families like BlackLotus, LoJax, and MoonBounce. Use for UEFI malware analysis, firmware persistence investigation, or Secure Boot bypass detection.","category":"Security","tags":["analyzing","uefi","bootkit","persistence","analyzes","spi","flash","implants","esp","modifications","secure","boot","bypass","variable","manipulation","chipsec","firmware","integrity"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-uefi-bootkit-persistence/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-uefi-bootkit-persistence","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-uefi-bootkit-persistence","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":54115,"sha256":"35a1a4f94ca276ee404801a2761c7a190ab3356da373a57d3a0047235fdd556e","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-uefi-bootkit-persistence/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-uefi-bootkit-persistence/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-uefi-bootkit-persistence/SKILL.md","bytes":14760,"sha256":"35a1a4f94ca276ee404801a2761c7a190ab3356da373a57d3a0047235fdd556e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-uefi-bootkit-persistence/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-uefi-bootkit-persistence/references/api-reference.md","bytes":5768,"sha256":"27fb34c5bbcdb60bd55a43b344264d717f7e57412be7219f1537237ffecdb0da","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-uefi-bootkit-persistence/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-uefi-bootkit-persistence/scripts/agent.py","bytes":22332,"sha256":"3d4dfaa008286a830d27de24b2c0945b71662c7f267f0473e421aa7116a9089a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-uefi-bootkit-persistence/scripts/agent.py"}],"archiveSha256":"3909aea639b43f35c292717993ec32d4a8b12eb401950da691039d453f002c5b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-uefi-bootkit-persistence",
+    "name": "analyzing-uefi-bootkit-persistence",
+    "description": "Analyzes UEFI bootkit persistence (SPI flash implants, ESP modifications, Secure Boot bypass, UEFI variable manipulation) using chipsec for firmware integrity verification, detecting known families like BlackLotus, LoJax, and MoonBounce. Use for UEFI malware analysis, firmware persistence investigation, or Secure Boot bypass detection.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "uefi",
+      "bootkit",
+      "persistence",
+      "analyzes",
+      "spi",
+      "flash",
+      "implants",
+      "esp",
+      "modifications",
+      "secure",
+      "boot",
+      "bypass",
+      "variable",
+      "manipulation",
+      "chipsec",
+      "firmware",
+      "integrity"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-uefi-bootkit-persistence/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-uefi-bootkit-persistence",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-uefi-bootkit-persistence",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 54115,
+    "sha256": "35a1a4f94ca276ee404801a2761c7a190ab3356da373a57d3a0047235fdd556e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-uefi-bootkit-persistence/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-uefi-bootkit-persistence/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-uefi-bootkit-persistence/SKILL.md",
+      "bytes": 14760,
+      "sha256": "35a1a4f94ca276ee404801a2761c7a190ab3356da373a57d3a0047235fdd556e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-uefi-bootkit-persistence/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-uefi-bootkit-persistence/references/api-reference.md",
+      "bytes": 5768,
+      "sha256": "27fb34c5bbcdb60bd55a43b344264d717f7e57412be7219f1537237ffecdb0da",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-uefi-bootkit-persistence/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-uefi-bootkit-persistence/scripts/agent.py",
+      "bytes": 22332,
+      "sha256": "3d4dfaa008286a830d27de24b2c0945b71662c7f267f0473e421aa7116a9089a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-uefi-bootkit-persistence/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "3909aea639b43f35c292717993ec32d4a8b12eb401950da691039d453f002c5b"
+}

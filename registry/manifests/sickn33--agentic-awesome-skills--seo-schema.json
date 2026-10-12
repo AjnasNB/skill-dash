@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--seo-schema","name":"seo-schema","description":"Detect, validate, and generate Schema.org structured data. JSON-LD format preferred. Use when user says \"schema\", \"structured data\", \"rich results\", \"JSON-LD\", or \"markup\".","category":"Marketing","tags":["seo","schema","detect","validate","generate","schema.org","structured","data.","json","ld","format","preferred.","when","user","says","data","rich","results"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/seo-schema","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-schema","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6990,"sha256":"4524277096cceae95a0b195cb2428a8776d8f50a193311d4f412b9bf9bda7d9c","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/seo-schema/SKILL.md","bytes":5917,"sha256":"4524277096cceae95a0b195cb2428a8776d8f50a193311d4f412b9bf9bda7d9c","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-schema/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"e18b800fc594faf00656b19794572c8c1d7a9ad5d288e54ccac8217d73e47dbe"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--seo-schema",
+    "name": "seo-schema",
+    "description": "Detect, validate, and generate Schema.org structured data. JSON-LD format preferred. Use when user says \"schema\", \"structured data\", \"rich results\", \"JSON-LD\", or \"markup\".",
+    "category": "Marketing",
+    "tags": [
+      "seo",
+      "schema",
+      "detect",
+      "validate",
+      "generate",
+      "schema.org",
+      "structured",
+      "data.",
+      "json",
+      "ld",
+      "format",
+      "preferred.",
+      "when",
+      "user",
+      "says",
+      "data",
+      "rich",
+      "results"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/seo-schema",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-schema",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6990,
+    "sha256": "4524277096cceae95a0b195cb2428a8776d8f50a193311d4f412b9bf9bda7d9c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/seo-schema/SKILL.md",
+      "bytes": 5917,
+      "sha256": "4524277096cceae95a0b195cb2428a8776d8f50a193311d4f412b9bf9bda7d9c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-schema/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "e18b800fc594faf00656b19794572c8c1d7a9ad5d288e54ccac8217d73e47dbe"
+}

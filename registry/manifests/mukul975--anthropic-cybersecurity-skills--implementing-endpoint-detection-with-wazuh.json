@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-endpoint-detection-with-wazuh","name":"implementing-endpoint-detection-with-wazuh","description":"Deploys and configures Wazuh SIEM/XDR for endpoint detection, covering agent authentication and management, custom decoder and rule XML creation, alert querying via the Wazuh REST API, rule testing with wazuh-logtest, and automated active-response actions. Use when setting up endpoint detection and response, writing or testing custom Wazuh rules, or querying and triaging Wazuh alerts.","category":"Cloud & DevOps","tags":["implementing","endpoint","detection","wazuh","deploys","configures","siem","xdr","covering","agent","authentication","management","custom","decoder","rule","xml","creation","alert"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-endpoint-detection-with-wazuh/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-endpoint-detection-with-wazuh","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-detection-with-wazuh","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":23201,"sha256":"a63a7113f15733c9fe4617fdc70f0f5738b3e2dece879b14c4a4dc586e463297","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-endpoint-detection-with-wazuh/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-detection-with-wazuh/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-endpoint-detection-with-wazuh/SKILL.md","bytes":2326,"sha256":"a63a7113f15733c9fe4617fdc70f0f5738b3e2dece879b14c4a4dc586e463297","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-detection-with-wazuh/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-endpoint-detection-with-wazuh/references/api-reference.md","bytes":2055,"sha256":"a5ed2917f74a851307080ea951fa18063f675627f1f70c3bdceec7ec9a32b28a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-detection-with-wazuh/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-endpoint-detection-with-wazuh/scripts/agent.py","bytes":7565,"sha256":"bba27dc41635f98c6d5b90b679d9c219d90c6a8230d9786630b80632889572f8","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-detection-with-wazuh/scripts/agent.py"}],"archiveSha256":"70149db209f4fbb5feb74d1cea1be3856f0cdd506d0a6358fc65c86043a5c3d5"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-endpoint-detection-with-wazuh",
+    "name": "implementing-endpoint-detection-with-wazuh",
+    "description": "Deploys and configures Wazuh SIEM/XDR for endpoint detection, covering agent authentication and management, custom decoder and rule XML creation, alert querying via the Wazuh REST API, rule testing with wazuh-logtest, and automated active-response actions. Use when setting up endpoint detection and response, writing or testing custom Wazuh rules, or querying and triaging Wazuh alerts.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "implementing",
+      "endpoint",
+      "detection",
+      "wazuh",
+      "deploys",
+      "configures",
+      "siem",
+      "xdr",
+      "covering",
+      "agent",
+      "authentication",
+      "management",
+      "custom",
+      "decoder",
+      "rule",
+      "xml",
+      "creation",
+      "alert"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-endpoint-detection-with-wazuh/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-endpoint-detection-with-wazuh",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-detection-with-wazuh",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 23201,
+    "sha256": "a63a7113f15733c9fe4617fdc70f0f5738b3e2dece879b14c4a4dc586e463297",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-endpoint-detection-with-wazuh/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-detection-with-wazuh/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-endpoint-detection-with-wazuh/SKILL.md",
+      "bytes": 2326,
+      "sha256": "a63a7113f15733c9fe4617fdc70f0f5738b3e2dece879b14c4a4dc586e463297",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-detection-with-wazuh/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-endpoint-detection-with-wazuh/references/api-reference.md",
+      "bytes": 2055,
+      "sha256": "a5ed2917f74a851307080ea951fa18063f675627f1f70c3bdceec7ec9a32b28a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-detection-with-wazuh/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-endpoint-detection-with-wazuh/scripts/agent.py",
+      "bytes": 7565,
+      "sha256": "bba27dc41635f98c6d5b90b679d9c219d90c6a8230d9786630b80632889572f8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-detection-with-wazuh/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "70149db209f4fbb5feb74d1cea1be3856f0cdd506d0a6358fc65c86043a5c3d5"
+}

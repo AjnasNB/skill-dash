@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--payment-accounting","name":"payment-accounting","description":"Payment voucher register: payment number and date, paid to and purpose, mode, gross amount, TDS rate and deducted, net paid, invoice allocation, ledger and reconciliation status. Use for vouchers.","category":"Development","tags":["payment","accounting","voucher","register","number","date","paid","purpose","mode","gross","amount","tds","rate","deducted","net","invoice","allocation","ledger"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/payment-accounting","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/payment-accounting","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":22928,"sha256":"61c3d0e0b7ffa4813f17e2a2b6de7c4585bb202682929f688ae82929c731f990","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/payment-accounting/SKILL.md","bytes":21855,"sha256":"61c3d0e0b7ffa4813f17e2a2b6de7c4585bb202682929f688ae82929c731f990","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/payment-accounting/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"3526529f33e6d0c7f7485faf2338334503a80df7adeaab9802d53d202f388c39"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--payment-accounting",
+    "name": "payment-accounting",
+    "description": "Payment voucher register: payment number and date, paid to and purpose, mode, gross amount, TDS rate and deducted, net paid, invoice allocation, ledger and reconciliation status. Use for vouchers.",
+    "category": "Development",
+    "tags": [
+      "payment",
+      "accounting",
+      "voucher",
+      "register",
+      "number",
+      "date",
+      "paid",
+      "purpose",
+      "mode",
+      "gross",
+      "amount",
+      "tds",
+      "rate",
+      "deducted",
+      "net",
+      "invoice",
+      "allocation",
+      "ledger"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/payment-accounting",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/payment-accounting",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 22928,
+    "sha256": "61c3d0e0b7ffa4813f17e2a2b6de7c4585bb202682929f688ae82929c731f990",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/payment-accounting/SKILL.md",
+      "bytes": 21855,
+      "sha256": "61c3d0e0b7ffa4813f17e2a2b6de7c4585bb202682929f688ae82929c731f990",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/payment-accounting/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "3526529f33e6d0c7f7485faf2338334503a80df7adeaab9802d53d202f388c39"
+}

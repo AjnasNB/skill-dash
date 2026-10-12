@@ -1,1 +1,51 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--comprehensive-review-full-review","name":"comprehensive-review-full-review","description":"Use when working with comprehensive review full review","category":"Development","tags":["comprehensive","review","full","when","working"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/comprehensive-review-full-review","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/comprehensive-review-full-review","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11493,"sha256":"9ff0a69aa0ea8e4d3a387cbf633dbad170c9ef04e4c890e0640d3c2db908a6aa","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/comprehensive-review-full-review/SKILL.md","bytes":10420,"sha256":"9ff0a69aa0ea8e4d3a387cbf633dbad170c9ef04e4c890e0640d3c2db908a6aa","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/comprehensive-review-full-review/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"c7e501b38618be49dc3971dd017ef14742e6505250ae45984659a72d9fa39deb"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--comprehensive-review-full-review",
+    "name": "comprehensive-review-full-review",
+    "description": "Use when working with comprehensive review full review",
+    "category": "Development",
+    "tags": [
+      "comprehensive",
+      "review",
+      "full",
+      "when",
+      "working"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/comprehensive-review-full-review",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/comprehensive-review-full-review",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11493,
+    "sha256": "9ff0a69aa0ea8e4d3a387cbf633dbad170c9ef04e4c890e0640d3c2db908a6aa",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/comprehensive-review-full-review/SKILL.md",
+      "bytes": 10420,
+      "sha256": "9ff0a69aa0ea8e4d3a387cbf633dbad170c9ef04e4c890e0640d3c2db908a6aa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/comprehensive-review-full-review/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "c7e501b38618be49dc3971dd017ef14742e6505250ae45984659a72d9fa39deb"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--discord-automation","name":"discord-automation","description":"Automate Discord tasks via Rube MCP (Composio): messages, channels, roles, webhooks, reactions. Always search tools first for current schemas.","category":"AI & agents","tags":["discord","automation","automate","tasks","via","rube","mcp","composio","messages","channels","roles","webhooks","reactions.","always","search","tools","first","current"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/discord-automation","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/discord-automation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":8651,"sha256":"37be2b4d17a57e2577d7d16f6fc71a32f26be3fd6a6d842bef8b0d833095f7ac","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/discord-automation/SKILL.md","bytes":7578,"sha256":"37be2b4d17a57e2577d7d16f6fc71a32f26be3fd6a6d842bef8b0d833095f7ac","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/discord-automation/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"7a01e33acb82f545fac87ac9425e7da6af43f226dfeba49a5c3613da1b0984f9"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--discord-automation",
+    "name": "discord-automation",
+    "description": "Automate Discord tasks via Rube MCP (Composio): messages, channels, roles, webhooks, reactions. Always search tools first for current schemas.",
+    "category": "AI & agents",
+    "tags": [
+      "discord",
+      "automation",
+      "automate",
+      "tasks",
+      "via",
+      "rube",
+      "mcp",
+      "composio",
+      "messages",
+      "channels",
+      "roles",
+      "webhooks",
+      "reactions.",
+      "always",
+      "search",
+      "tools",
+      "first",
+      "current"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/discord-automation",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/discord-automation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 8651,
+    "sha256": "37be2b4d17a57e2577d7d16f6fc71a32f26be3fd6a6d842bef8b0d833095f7ac",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/discord-automation/SKILL.md",
+      "bytes": 7578,
+      "sha256": "37be2b4d17a57e2577d7d16f6fc71a32f26be3fd6a6d842bef8b0d833095f7ac",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/discord-automation/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "7a01e33acb82f545fac87ac9425e7da6af43f226dfeba49a5c3613da1b0984f9"
+}

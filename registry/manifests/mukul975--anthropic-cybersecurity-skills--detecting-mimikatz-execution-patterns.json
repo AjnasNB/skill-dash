@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-mimikatz-execution-patterns","name":"detecting-mimikatz-execution-patterns","description":"Detect Mimikatz credential-dumping activity via command-line pattern matching, LSASS access signatures, binary/hash indicators, and in-memory detection of known Mimikatz modules. Use when threat hunting for T1003 credential access, triaging EDR/SIEM alerts on LSASS access, scoping compromise during incident response, or validating detection coverage in a purple team exercise.","category":"Security","tags":["detecting","mimikatz","execution","patterns","detect","credential","dumping","activity","via","command","line","pattern","matching","lsass","access","signatures","binary","hash"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-mimikatz-execution-patterns/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-mimikatz-execution-patterns","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-mimikatz-execution-patterns","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":33344,"sha256":"7f776bf37fae200c87cb24518c03668c4dafe25f2d950f65d5e030de8e870515","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-mimikatz-execution-patterns/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-mimikatz-execution-patterns/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-mimikatz-execution-patterns/SKILL.md","bytes":3609,"sha256":"7f776bf37fae200c87cb24518c03668c4dafe25f2d950f65d5e030de8e870515","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-mimikatz-execution-patterns/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/detecting-mimikatz-execution-patterns/assets/template.md","bytes":2663,"sha256":"b233292ad8a1e4cd88b9922f76d3e18f945973d78370b923e6add2b1a229cd30","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-mimikatz-execution-patterns/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-mimikatz-execution-patterns/references/api-reference.md","bytes":1629,"sha256":"e965998aabb33c241b49340900bf77302bc16bde673572a584380824001c4dfd","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-mimikatz-execution-patterns/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/detecting-mimikatz-execution-patterns/references/standards.md","bytes":1640,"sha256":"f0cedada300dc3a7cbd050c9fb924701f6c0e615a5ff0f1f42826da0af8c8033","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-mimikatz-execution-patterns/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/detecting-mimikatz-execution-patterns/references/workflows.md","bytes":2870,"sha256":"fea32ad838ba37a39f7b5d5b0c350c52aec5c10dc120fb40680bd9215dcacf0e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-mimikatz-execution-patterns/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-mimikatz-execution-patterns/scripts/agent.py","bytes":5966,"sha256":"5e459e8dd43f5dfafaf1f04990443a122394c1c3413161431e920f62a783dc68","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-mimikatz-execution-patterns/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/detecting-mimikatz-execution-patterns/scripts/process.py","bytes":3712,"sha256":"543cd4084be275678f3c3ccb217451c0e74ce2827687283946181d531fa15ab3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-mimikatz-execution-patterns/scripts/process.py"}],"archiveSha256":"efa8797a287a65f86a5f451f4eb83af0245ae2df32ca74f7bb9f133c1559b52e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-mimikatz-execution-patterns",
+    "name": "detecting-mimikatz-execution-patterns",
+    "description": "Detect Mimikatz credential-dumping activity via command-line pattern matching, LSASS access signatures, binary/hash indicators, and in-memory detection of known Mimikatz modules. Use when threat hunting for T1003 credential access, triaging EDR/SIEM alerts on LSASS access, scoping compromise during incident response, or validating detection coverage in a purple team exercise.",
+    "category": "Security",
+    "tags": [
+      "detecting",
+      "mimikatz",
+      "execution",
+      "patterns",
+      "detect",
+      "credential",
+      "dumping",
+      "activity",
+      "via",
+      "command",
+      "line",
+      "pattern",
+      "matching",
+      "lsass",
+      "access",
+      "signatures",
+      "binary",
+      "hash"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-mimikatz-execution-patterns/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-mimikatz-execution-patterns",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-mimikatz-execution-patterns",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 33344,
+    "sha256": "7f776bf37fae200c87cb24518c03668c4dafe25f2d950f65d5e030de8e870515",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-mimikatz-execution-patterns/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-mimikatz-execution-patterns/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-mimikatz-execution-patterns/SKILL.md",
+      "bytes": 3609,
+      "sha256": "7f776bf37fae200c87cb24518c03668c4dafe25f2d950f65d5e030de8e870515",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-mimikatz-execution-patterns/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/detecting-mimikatz-execution-patterns/assets/template.md",
+      "bytes": 2663,
+      "sha256": "b233292ad8a1e4cd88b9922f76d3e18f945973d78370b923e6add2b1a229cd30",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-mimikatz-execution-patterns/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-mimikatz-execution-patterns/references/api-reference.md",
+      "bytes": 1629,
+      "sha256": "e965998aabb33c241b49340900bf77302bc16bde673572a584380824001c4dfd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-mimikatz-execution-patterns/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/detecting-mimikatz-execution-patterns/references/standards.md",
+      "bytes": 1640,
+      "sha256": "f0cedada300dc3a7cbd050c9fb924701f6c0e615a5ff0f1f42826da0af8c8033",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-mimikatz-execution-patterns/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/detecting-mimikatz-execution-patterns/references/workflows.md",
+      "bytes": 2870,
+      "sha256": "fea32ad838ba37a39f7b5d5b0c350c52aec5c10dc120fb40680bd9215dcacf0e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-mimikatz-execution-patterns/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-mimikatz-execution-patterns/scripts/agent.py",
+      "bytes": 5966,
+      "sha256": "5e459e8dd43f5dfafaf1f04990443a122394c1c3413161431e920f62a783dc68",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-mimikatz-execution-patterns/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/detecting-mimikatz-execution-patterns/scripts/process.py",
+      "bytes": 3712,
+      "sha256": "543cd4084be275678f3c3ccb217451c0e74ce2827687283946181d531fa15ab3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-mimikatz-execution-patterns/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "efa8797a287a65f86a5f451f4eb83af0245ae2df32ca74f7bb9f133c1559b52e"
+}

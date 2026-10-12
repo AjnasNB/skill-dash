@@ -1,1 +1,56 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--gpu-server-management","name":"gpu-server-management","description":"Set up and manage NVIDIA GPU servers for AI workloads","category":"Development","tags":["gpu","server","management","set","up","manage","nvidia","servers","ai","workloads"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/gpu-server-management","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gpu-server-management","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":8991,"sha256":"2bcd6ebeb2048d951e6e27c1d00ca66c3a9e5ae759a1e7053de03528d2493bfb","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/gpu-server-management/SKILL.md","bytes":7918,"sha256":"2bcd6ebeb2048d951e6e27c1d00ca66c3a9e5ae759a1e7053de03528d2493bfb","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gpu-server-management/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"c6275f5d5310ab7e5fb1f6e8e6c7e9238a344eb6c50e677736dd6605ca267744"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--gpu-server-management",
+    "name": "gpu-server-management",
+    "description": "Set up and manage NVIDIA GPU servers for AI workloads",
+    "category": "Development",
+    "tags": [
+      "gpu",
+      "server",
+      "management",
+      "set",
+      "up",
+      "manage",
+      "nvidia",
+      "servers",
+      "ai",
+      "workloads"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/gpu-server-management",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gpu-server-management",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 8991,
+    "sha256": "2bcd6ebeb2048d951e6e27c1d00ca66c3a9e5ae759a1e7053de03528d2493bfb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/gpu-server-management/SKILL.md",
+      "bytes": 7918,
+      "sha256": "2bcd6ebeb2048d951e6e27c1d00ca66c3a9e5ae759a1e7053de03528d2493bfb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gpu-server-management/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "c6275f5d5310ab7e5fb1f6e8e6c7e9238a344eb6c50e677736dd6605ca267744"
+}

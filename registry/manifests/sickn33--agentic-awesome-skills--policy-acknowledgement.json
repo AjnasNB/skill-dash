@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--policy-acknowledgement","name":"policy-acknowledgement","description":"Policy acknowledgement register: employee, policy and version, sent and due dates, acknowledged date and flag, days overdue, reminder sent and status. Use for policy sign-off tracking.","category":"Development","tags":["policy","acknowledgement","register","employee","version","sent","due","dates","acknowledged","date","flag","days","overdue","reminder","status.","sign","off","tracking."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/policy-acknowledgement","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/policy-acknowledgement","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":14658,"sha256":"a66f649d6fdf7627df6dab4227e7d5490c3ee46e877a2b74565c85bf88726563","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/policy-acknowledgement/SKILL.md","bytes":13585,"sha256":"a66f649d6fdf7627df6dab4227e7d5490c3ee46e877a2b74565c85bf88726563","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/policy-acknowledgement/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"53148a7dcafed83af5bc5f02b09d5563e74028d017399d5639395c02891b8ba3"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--policy-acknowledgement",
+    "name": "policy-acknowledgement",
+    "description": "Policy acknowledgement register: employee, policy and version, sent and due dates, acknowledged date and flag, days overdue, reminder sent and status. Use for policy sign-off tracking.",
+    "category": "Development",
+    "tags": [
+      "policy",
+      "acknowledgement",
+      "register",
+      "employee",
+      "version",
+      "sent",
+      "due",
+      "dates",
+      "acknowledged",
+      "date",
+      "flag",
+      "days",
+      "overdue",
+      "reminder",
+      "status.",
+      "sign",
+      "off",
+      "tracking."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/policy-acknowledgement",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/policy-acknowledgement",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 14658,
+    "sha256": "a66f649d6fdf7627df6dab4227e7d5490c3ee46e877a2b74565c85bf88726563",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/policy-acknowledgement/SKILL.md",
+      "bytes": 13585,
+      "sha256": "a66f649d6fdf7627df6dab4227e7d5490c3ee46e877a2b74565c85bf88726563",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/policy-acknowledgement/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "53148a7dcafed83af5bc5f02b09d5563e74028d017399d5639395c02891b8ba3"
+}

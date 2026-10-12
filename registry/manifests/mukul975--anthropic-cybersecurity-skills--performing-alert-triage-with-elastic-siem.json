@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-alert-triage-with-elastic-siem","name":"performing-alert-triage-with-elastic-siem","description":"Perform systematic alert triage in Elastic Security SIEM—classifying, prioritizing, and investigating alerts using Kibana, ES|QL queries, and ECS-normalized data—to drive SOC analyst workflows. Use when triaging incoming Elastic Security detections, prioritizing an analyst's alert queue, or investigating alerts during SOC operations.","category":"Security","tags":["performing","alert","triage","elastic","siem","perform","systematic","security","classifying","prioritizing","investigating","alerts","kibana","es","ql","queries","ecs","normalized"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-alert-triage-with-elastic-siem/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-alert-triage-with-elastic-siem","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-alert-triage-with-elastic-siem","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":44946,"sha256":"9e12236b69d7470e8458e2e88eca5ef81dedfdc00667765278aa0c529aacd0a1","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-alert-triage-with-elastic-siem/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-alert-triage-with-elastic-siem/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-alert-triage-with-elastic-siem/SKILL.md","bytes":8062,"sha256":"9e12236b69d7470e8458e2e88eca5ef81dedfdc00667765278aa0c529aacd0a1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-alert-triage-with-elastic-siem/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/performing-alert-triage-with-elastic-siem/assets/template.md","bytes":1203,"sha256":"e9406801ec56e3cee4874bb9fa6be03f9f559a7f27b7bc63f855278dbdfa0e60","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-alert-triage-with-elastic-siem/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-alert-triage-with-elastic-siem/references/api-reference.md","bytes":2847,"sha256":"c25cda5c32b9951355e5bbf137d02543ef8a1096aa89ae33c461484f36b6c97e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-alert-triage-with-elastic-siem/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/performing-alert-triage-with-elastic-siem/references/standards.md","bytes":1699,"sha256":"39abc5b8d0f0ea0485790c564f10e1cd45bd8afd200b6eec64ae3663ab8b3826","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-alert-triage-with-elastic-siem/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/performing-alert-triage-with-elastic-siem/references/workflows.md","bytes":1618,"sha256":"cb14535b66a5bd50a12b06a79fa05022044182c47f13f880cfa99862fdef3c66","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-alert-triage-with-elastic-siem/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-alert-triage-with-elastic-siem/scripts/agent.py","bytes":6797,"sha256":"1da39434e1789133bfe3fff7294208fc0ec347df9e7031ffbc7dfa47881bdfc7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-alert-triage-with-elastic-siem/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/performing-alert-triage-with-elastic-siem/scripts/process.py","bytes":11465,"sha256":"acaf10544dc5bd85a1291de7803808ec6b60163ff382e89d0502fbb73a126c2a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-alert-triage-with-elastic-siem/scripts/process.py"}],"archiveSha256":"55c1b8a0ee01baa3770ea36e513c87dff1e32622e192f97b1533496ab9156586"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-alert-triage-with-elastic-siem",
+    "name": "performing-alert-triage-with-elastic-siem",
+    "description": "Perform systematic alert triage in Elastic Security SIEM—classifying, prioritizing, and investigating alerts using Kibana, ES|QL queries, and ECS-normalized data—to drive SOC analyst workflows. Use when triaging incoming Elastic Security detections, prioritizing an analyst's alert queue, or investigating alerts during SOC operations.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "alert",
+      "triage",
+      "elastic",
+      "siem",
+      "perform",
+      "systematic",
+      "security",
+      "classifying",
+      "prioritizing",
+      "investigating",
+      "alerts",
+      "kibana",
+      "es",
+      "ql",
+      "queries",
+      "ecs",
+      "normalized"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-alert-triage-with-elastic-siem/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-alert-triage-with-elastic-siem",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-alert-triage-with-elastic-siem",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 44946,
+    "sha256": "9e12236b69d7470e8458e2e88eca5ef81dedfdc00667765278aa0c529aacd0a1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-alert-triage-with-elastic-siem/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-alert-triage-with-elastic-siem/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-alert-triage-with-elastic-siem/SKILL.md",
+      "bytes": 8062,
+      "sha256": "9e12236b69d7470e8458e2e88eca5ef81dedfdc00667765278aa0c529aacd0a1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-alert-triage-with-elastic-siem/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-alert-triage-with-elastic-siem/assets/template.md",
+      "bytes": 1203,
+      "sha256": "e9406801ec56e3cee4874bb9fa6be03f9f559a7f27b7bc63f855278dbdfa0e60",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-alert-triage-with-elastic-siem/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-alert-triage-with-elastic-siem/references/api-reference.md",
+      "bytes": 2847,
+      "sha256": "c25cda5c32b9951355e5bbf137d02543ef8a1096aa89ae33c461484f36b6c97e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-alert-triage-with-elastic-siem/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-alert-triage-with-elastic-siem/references/standards.md",
+      "bytes": 1699,
+      "sha256": "39abc5b8d0f0ea0485790c564f10e1cd45bd8afd200b6eec64ae3663ab8b3826",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-alert-triage-with-elastic-siem/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-alert-triage-with-elastic-siem/references/workflows.md",
+      "bytes": 1618,
+      "sha256": "cb14535b66a5bd50a12b06a79fa05022044182c47f13f880cfa99862fdef3c66",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-alert-triage-with-elastic-siem/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-alert-triage-with-elastic-siem/scripts/agent.py",
+      "bytes": 6797,
+      "sha256": "1da39434e1789133bfe3fff7294208fc0ec347df9e7031ffbc7dfa47881bdfc7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-alert-triage-with-elastic-siem/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-alert-triage-with-elastic-siem/scripts/process.py",
+      "bytes": 11465,
+      "sha256": "acaf10544dc5bd85a1291de7803808ec6b60163ff382e89d0502fbb73a126c2a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-alert-triage-with-elastic-siem/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "55c1b8a0ee01baa3770ea36e513c87dff1e32622e192f97b1533496ab9156586"
+}

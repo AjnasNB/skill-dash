@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--markstream-react","name":"markstream-react","description":"Integrate the beta markstream-react renderer into React 18+ or Next.js with correct client/server entrypoints, CSS, streaming state, and component overrides.","category":"Design","tags":["markstream","react","integrate","beta","renderer","into","18+","next.js","correct","client","server","entrypoints","css","streaming","state","component","overrides."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/markstream-react","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/markstream-react","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":3835,"sha256":"09c2eecfbd10f67fbcab1b56357049631e41a8c6061a59c45a12426f7e7d60d5","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/markstream-react/SKILL.md","bytes":2762,"sha256":"09c2eecfbd10f67fbcab1b56357049631e41a8c6061a59c45a12426f7e7d60d5","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/markstream-react/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"682a688b59e9f8d87e6023f252b63e9370d84cb02a1d9281e28a1f614ddb2403"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--markstream-react",
+    "name": "markstream-react",
+    "description": "Integrate the beta markstream-react renderer into React 18+ or Next.js with correct client/server entrypoints, CSS, streaming state, and component overrides.",
+    "category": "Design",
+    "tags": [
+      "markstream",
+      "react",
+      "integrate",
+      "beta",
+      "renderer",
+      "into",
+      "18+",
+      "next.js",
+      "correct",
+      "client",
+      "server",
+      "entrypoints",
+      "css",
+      "streaming",
+      "state",
+      "component",
+      "overrides."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/markstream-react",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/markstream-react",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 3835,
+    "sha256": "09c2eecfbd10f67fbcab1b56357049631e41a8c6061a59c45a12426f7e7d60d5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/markstream-react/SKILL.md",
+      "bytes": 2762,
+      "sha256": "09c2eecfbd10f67fbcab1b56357049631e41a8c6061a59c45a12426f7e7d60d5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/markstream-react/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "682a688b59e9f8d87e6023f252b63e9370d84cb02a1d9281e28a1f614ddb2403"
+}

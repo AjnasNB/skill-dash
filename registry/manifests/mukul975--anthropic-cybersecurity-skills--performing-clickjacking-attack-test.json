@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-clickjacking-attack-test","name":"performing-clickjacking-attack-test","description":"Testing web applications for clickjacking vulnerabilities by assessing frame embedding controls and crafting proof-of-concept overlay attacks during authorized security assessments.","category":"Security","tags":["performing","clickjacking","attack","test","testing","web","applications","vulnerabilities","by","assessing","frame","embedding","controls","crafting","proof","concept","overlay","attacks"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-clickjacking-attack-test/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-clickjacking-attack-test","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-clickjacking-attack-test","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":34742,"sha256":"19f23db7c0b5d240e2b34f5e7f917db68847c7582073cf81fd967035215c8667","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-clickjacking-attack-test/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-clickjacking-attack-test/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-clickjacking-attack-test/SKILL.md","bytes":13786,"sha256":"19f23db7c0b5d240e2b34f5e7f917db68847c7582073cf81fd967035215c8667","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-clickjacking-attack-test/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-clickjacking-attack-test/references/api-reference.md","bytes":2222,"sha256":"52782e6022d3df30179edc6ee6f525a94fdab61b879cff3fb2027c61896aca88","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-clickjacking-attack-test/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-clickjacking-attack-test/scripts/agent.py","bytes":7479,"sha256":"c0c51c59a4d1cf5859e1fe40bb37cbfb96c7ff30264982cdcb863f5fa1096a4e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-clickjacking-attack-test/scripts/agent.py"}],"archiveSha256":"9db77c2f048ee90c16c5be26410c2cbac86f5279e6de259ed0ae885b110d3596"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-clickjacking-attack-test",
+    "name": "performing-clickjacking-attack-test",
+    "description": "Testing web applications for clickjacking vulnerabilities by assessing frame embedding controls and crafting proof-of-concept overlay attacks during authorized security assessments.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "clickjacking",
+      "attack",
+      "test",
+      "testing",
+      "web",
+      "applications",
+      "vulnerabilities",
+      "by",
+      "assessing",
+      "frame",
+      "embedding",
+      "controls",
+      "crafting",
+      "proof",
+      "concept",
+      "overlay",
+      "attacks"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-clickjacking-attack-test/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-clickjacking-attack-test",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-clickjacking-attack-test",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34742,
+    "sha256": "19f23db7c0b5d240e2b34f5e7f917db68847c7582073cf81fd967035215c8667",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-clickjacking-attack-test/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-clickjacking-attack-test/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-clickjacking-attack-test/SKILL.md",
+      "bytes": 13786,
+      "sha256": "19f23db7c0b5d240e2b34f5e7f917db68847c7582073cf81fd967035215c8667",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-clickjacking-attack-test/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-clickjacking-attack-test/references/api-reference.md",
+      "bytes": 2222,
+      "sha256": "52782e6022d3df30179edc6ee6f525a94fdab61b879cff3fb2027c61896aca88",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-clickjacking-attack-test/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-clickjacking-attack-test/scripts/agent.py",
+      "bytes": 7479,
+      "sha256": "c0c51c59a4d1cf5859e1fe40bb37cbfb96c7ff30264982cdcb863f5fa1096a4e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-clickjacking-attack-test/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "9db77c2f048ee90c16c5be26410c2cbac86f5279e6de259ed0ae885b110d3596"
+}

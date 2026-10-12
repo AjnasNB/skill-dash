@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-typosquatting-domains-with-dnstwist","name":"analyzing-typosquatting-domains-with-dnstwist","description":"Generate domain permutations with dnstwist and check DNS resolution to detect typosquatting, homograph phishing, and brand impersonation domains registered against your organization. Use when asked to monitor for lookalike domains, investigate a phishing domain, or assess brand-impersonation risk.","category":"Development","tags":["analyzing","typosquatting","domains","dnstwist","generate","domain","permutations","check","dns","resolution","detect","homograph","phishing","brand","impersonation","registered","against","organization."],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-typosquatting-domains-with-dnstwist/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-typosquatting-domains-with-dnstwist","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-typosquatting-domains-with-dnstwist","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":30065,"sha256":"90c5c1a48f8437bda7244c2c22f4c5e7b41ca22d389d7a0a6b18a50909f69896","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-typosquatting-domains-with-dnstwist/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-typosquatting-domains-with-dnstwist/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-typosquatting-domains-with-dnstwist/SKILL.md","bytes":13041,"sha256":"90c5c1a48f8437bda7244c2c22f4c5e7b41ca22d389d7a0a6b18a50909f69896","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-typosquatting-domains-with-dnstwist/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-typosquatting-domains-with-dnstwist/references/api-reference.md","bytes":2155,"sha256":"cbbbf1d18129c27fa7f8e2b745e08900a9c7287c048c07f39a8f9ad19410a923","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-typosquatting-domains-with-dnstwist/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-typosquatting-domains-with-dnstwist/scripts/agent.py","bytes":3614,"sha256":"ae57baa6c2ff4cf5b31204919efbf1da4bf722f1f3ef07e6766ea1c7f9d35db9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-typosquatting-domains-with-dnstwist/scripts/agent.py"}],"archiveSha256":"1afa3097506a09f5d243940e16c47b7463c1a21100693fddeab01b1bd87328c2"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-typosquatting-domains-with-dnstwist",
+    "name": "analyzing-typosquatting-domains-with-dnstwist",
+    "description": "Generate domain permutations with dnstwist and check DNS resolution to detect typosquatting, homograph phishing, and brand impersonation domains registered against your organization. Use when asked to monitor for lookalike domains, investigate a phishing domain, or assess brand-impersonation risk.",
+    "category": "Development",
+    "tags": [
+      "analyzing",
+      "typosquatting",
+      "domains",
+      "dnstwist",
+      "generate",
+      "domain",
+      "permutations",
+      "check",
+      "dns",
+      "resolution",
+      "detect",
+      "homograph",
+      "phishing",
+      "brand",
+      "impersonation",
+      "registered",
+      "against",
+      "organization."
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-typosquatting-domains-with-dnstwist/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-typosquatting-domains-with-dnstwist",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-typosquatting-domains-with-dnstwist",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 30065,
+    "sha256": "90c5c1a48f8437bda7244c2c22f4c5e7b41ca22d389d7a0a6b18a50909f69896",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-typosquatting-domains-with-dnstwist/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-typosquatting-domains-with-dnstwist/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-typosquatting-domains-with-dnstwist/SKILL.md",
+      "bytes": 13041,
+      "sha256": "90c5c1a48f8437bda7244c2c22f4c5e7b41ca22d389d7a0a6b18a50909f69896",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-typosquatting-domains-with-dnstwist/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-typosquatting-domains-with-dnstwist/references/api-reference.md",
+      "bytes": 2155,
+      "sha256": "cbbbf1d18129c27fa7f8e2b745e08900a9c7287c048c07f39a8f9ad19410a923",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-typosquatting-domains-with-dnstwist/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-typosquatting-domains-with-dnstwist/scripts/agent.py",
+      "bytes": 3614,
+      "sha256": "ae57baa6c2ff4cf5b31204919efbf1da4bf722f1f3ef07e6766ea1c7f9d35db9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-typosquatting-domains-with-dnstwist/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "1afa3097506a09f5d243940e16c47b7463c1a21100693fddeab01b1bd87328c2"
+}

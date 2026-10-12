@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--langgraph","name":"langgraph","description":"Expert in LangGraph - the production-grade framework for building stateful, multi-actor AI applications. Covers graph construction, state management, cycles and branches, persistence with checkpointers, human-in-the-loop patterns, and the ReAct agent pattern.","category":"AI & agents","tags":["langgraph","expert","production","grade","framework","building","stateful","multi","actor","ai","applications.","covers","graph","construction","state","management","cycles","branches"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/langgraph","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/langgraph","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":15004,"sha256":"d8f8cd99b24be09b41f597f00a825959e3291286a2c845e641003ce1856d0fa3","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/langgraph/SKILL.md","bytes":2553,"sha256":"d8f8cd99b24be09b41f597f00a825959e3291286a2c845e641003ce1856d0fa3","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/langgraph/SKILL.md"},{"path":"references/detailed-guide.md","sourcePath":"skills/langgraph/references/detailed-guide.md","bytes":11378,"sha256":"481589c5635e00d72a20c5f7bd17a69324613e77a914cc83b6c6d9b1501ce50d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/langgraph/references/detailed-guide.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"294806e482fd5ef3ae3b02b1e83eecf59b1f2eae38666666ac0abf7510ab2ad6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--langgraph",
+    "name": "langgraph",
+    "description": "Expert in LangGraph - the production-grade framework for building stateful, multi-actor AI applications. Covers graph construction, state management, cycles and branches, persistence with checkpointers, human-in-the-loop patterns, and the ReAct agent pattern.",
+    "category": "AI & agents",
+    "tags": [
+      "langgraph",
+      "expert",
+      "production",
+      "grade",
+      "framework",
+      "building",
+      "stateful",
+      "multi",
+      "actor",
+      "ai",
+      "applications.",
+      "covers",
+      "graph",
+      "construction",
+      "state",
+      "management",
+      "cycles",
+      "branches"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/langgraph",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/langgraph",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 15004,
+    "sha256": "d8f8cd99b24be09b41f597f00a825959e3291286a2c845e641003ce1856d0fa3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/langgraph/SKILL.md",
+      "bytes": 2553,
+      "sha256": "d8f8cd99b24be09b41f597f00a825959e3291286a2c845e641003ce1856d0fa3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/langgraph/SKILL.md"
+    },
+    {
+      "path": "references/detailed-guide.md",
+      "sourcePath": "skills/langgraph/references/detailed-guide.md",
+      "bytes": 11378,
+      "sha256": "481589c5635e00d72a20c5f7bd17a69324613e77a914cc83b6c6d9b1501ce50d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/langgraph/references/detailed-guide.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "294806e482fd5ef3ae3b02b1e83eecf59b1f2eae38666666ac0abf7510ab2ad6"
+}

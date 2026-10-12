@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-data-and-model-poisoning","name":"detecting-data-and-model-poisoning","description":"Identify poisoned training data and backdoored ML models across the pipeline using IBM's Adversarial Robustness Toolbox (activation clustering, spectral signatures, trigger reconstruction), Cleanlab for label-quality issues, and supply-chain checks like weight-hash verification and safetensors enforcement. Use before training or deploying on third-party/user-contributed data or downloaded checkpoints, during ML supply-chain reviews, or when investigating model misbehavior tied to specific inputs (suspected backdoor trigger).","category":"Cloud & DevOps","tags":["detecting","data","model","poisoning","identify","poisoned","training","backdoored","ml","models","across","pipeline","ibm","adversarial","robustness","toolbox","activation","clustering"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-data-and-model-poisoning/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-data-and-model-poisoning","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-data-and-model-poisoning","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":5,"bytes":31150,"sha256":"be0338898f0fdcc1567905dece3b9479090463d18859de732677163c15f538d2","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-data-and-model-poisoning/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-data-and-model-poisoning/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-data-and-model-poisoning/SKILL.md","bytes":10960,"sha256":"be0338898f0fdcc1567905dece3b9479090463d18859de732677163c15f538d2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-data-and-model-poisoning/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-data-and-model-poisoning/references/api-reference.md","bytes":2228,"sha256":"02d458c4d1888541b5f1974f18b2ff59e1d884c02cbcaeb4a7f6a46d26fc63c1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-data-and-model-poisoning/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/detecting-data-and-model-poisoning/references/standards.md","bytes":1674,"sha256":"18f37445e90d1f11b57e29e6fa06ab165353126d2ac21b78b1a4aec14ac164fc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-data-and-model-poisoning/references/standards.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-data-and-model-poisoning/scripts/agent.py","bytes":5033,"sha256":"cb2d2ed643bd44e94f499a66e982cfc7c63f6592f6bc6bef0a69616003da91e5","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-data-and-model-poisoning/scripts/agent.py"}],"archiveSha256":"e72d76ed2cd5a494dc5cb5fe0d599edb55a9512829fc8e06d5c8bebd9fd192fb"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-data-and-model-poisoning",
+    "name": "detecting-data-and-model-poisoning",
+    "description": "Identify poisoned training data and backdoored ML models across the pipeline using IBM's Adversarial Robustness Toolbox (activation clustering, spectral signatures, trigger reconstruction), Cleanlab for label-quality issues, and supply-chain checks like weight-hash verification and safetensors enforcement. Use before training or deploying on third-party/user-contributed data or downloaded checkpoints, during ML supply-chain reviews, or when investigating model misbehavior tied to specific inputs (suspected backdoor trigger).",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "detecting",
+      "data",
+      "model",
+      "poisoning",
+      "identify",
+      "poisoned",
+      "training",
+      "backdoored",
+      "ml",
+      "models",
+      "across",
+      "pipeline",
+      "ibm",
+      "adversarial",
+      "robustness",
+      "toolbox",
+      "activation",
+      "clustering"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-data-and-model-poisoning/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-data-and-model-poisoning",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-data-and-model-poisoning",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 31150,
+    "sha256": "be0338898f0fdcc1567905dece3b9479090463d18859de732677163c15f538d2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-data-and-model-poisoning/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-data-and-model-poisoning/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-data-and-model-poisoning/SKILL.md",
+      "bytes": 10960,
+      "sha256": "be0338898f0fdcc1567905dece3b9479090463d18859de732677163c15f538d2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-data-and-model-poisoning/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-data-and-model-poisoning/references/api-reference.md",
+      "bytes": 2228,
+      "sha256": "02d458c4d1888541b5f1974f18b2ff59e1d884c02cbcaeb4a7f6a46d26fc63c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-data-and-model-poisoning/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/detecting-data-and-model-poisoning/references/standards.md",
+      "bytes": 1674,
+      "sha256": "18f37445e90d1f11b57e29e6fa06ab165353126d2ac21b78b1a4aec14ac164fc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-data-and-model-poisoning/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-data-and-model-poisoning/scripts/agent.py",
+      "bytes": 5033,
+      "sha256": "cb2d2ed643bd44e94f499a66e982cfc7c63f6592f6bc6bef0a69616003da91e5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-data-and-model-poisoning/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "e72d76ed2cd5a494dc5cb5fe0d599edb55a9512829fc8e06d5c8bebd9fd192fb"
+}

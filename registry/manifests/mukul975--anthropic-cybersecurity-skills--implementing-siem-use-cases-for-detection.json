@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-siem-use-cases-for-detection","name":"implementing-siem-use-cases-for-detection","description":"Implements SIEM detection use cases by designing correlation rules, threshold alerts, and behavioral analytics mapped to MITRE ATT&CK techniques across Splunk, Elastic, and Sentinel. Use when SOC teams need to expand detection coverage, formalize use case lifecycle management, or build a detection library aligned to organizational threat profile.","category":"Security","tags":["implementing","siem","cases","detection","implements","by","designing","correlation","rules","threshold","alerts","behavioral","analytics","mapped","mitre","att","ck","techniques"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-siem-use-cases-for-detection/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-siem-use-cases-for-detection","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-siem-use-cases-for-detection","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":33684,"sha256":"02be5a584da3690a15d11ebcb21a4e4b41e927c7e1995569217d2d6cc5b422b7","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-siem-use-cases-for-detection/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-siem-use-cases-for-detection/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-siem-use-cases-for-detection/SKILL.md","bytes":11415,"sha256":"02be5a584da3690a15d11ebcb21a4e4b41e927c7e1995569217d2d6cc5b422b7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-siem-use-cases-for-detection/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-siem-use-cases-for-detection/references/api-reference.md","bytes":2138,"sha256":"61e85ee2037ded284d200cbe67466f38f693013eaae307f29523f671f902b41e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-siem-use-cases-for-detection/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-siem-use-cases-for-detection/scripts/agent.py","bytes":8876,"sha256":"0a725f5b3eb73716e0df6b1b9c08a475ba6eaccec1f1f9540fc88b208176509f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-siem-use-cases-for-detection/scripts/agent.py"}],"archiveSha256":"dc12ca49e620967463a5e4f86ff8a0a5c5de2863de97833bba2823084763aa09"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-siem-use-cases-for-detection",
+    "name": "implementing-siem-use-cases-for-detection",
+    "description": "Implements SIEM detection use cases by designing correlation rules, threshold alerts, and behavioral analytics mapped to MITRE ATT&CK techniques across Splunk, Elastic, and Sentinel. Use when SOC teams need to expand detection coverage, formalize use case lifecycle management, or build a detection library aligned to organizational threat profile.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "siem",
+      "cases",
+      "detection",
+      "implements",
+      "by",
+      "designing",
+      "correlation",
+      "rules",
+      "threshold",
+      "alerts",
+      "behavioral",
+      "analytics",
+      "mapped",
+      "mitre",
+      "att",
+      "ck",
+      "techniques"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-siem-use-cases-for-detection/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-siem-use-cases-for-detection",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-siem-use-cases-for-detection",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 33684,
+    "sha256": "02be5a584da3690a15d11ebcb21a4e4b41e927c7e1995569217d2d6cc5b422b7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-siem-use-cases-for-detection/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-siem-use-cases-for-detection/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-siem-use-cases-for-detection/SKILL.md",
+      "bytes": 11415,
+      "sha256": "02be5a584da3690a15d11ebcb21a4e4b41e927c7e1995569217d2d6cc5b422b7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-siem-use-cases-for-detection/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-siem-use-cases-for-detection/references/api-reference.md",
+      "bytes": 2138,
+      "sha256": "61e85ee2037ded284d200cbe67466f38f693013eaae307f29523f671f902b41e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-siem-use-cases-for-detection/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-siem-use-cases-for-detection/scripts/agent.py",
+      "bytes": 8876,
+      "sha256": "0a725f5b3eb73716e0df6b1b9c08a475ba6eaccec1f1f9540fc88b208176509f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-siem-use-cases-for-detection/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "dc12ca49e620967463a5e4f86ff8a0a5c5de2863de97833bba2823084763aa09"
+}

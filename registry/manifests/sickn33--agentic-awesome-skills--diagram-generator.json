@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--diagram-generator","name":"diagram-generator","description":"Generate, refine, validate, and render diagrams from natural language, notes, code, schemas, or existing diagram sources: flowcharts, swimlanes, attack-path graphs, data-flow diagrams, architecture, and state machines.","category":"Development","tags":["diagram","generator","generate","refine","validate","render","diagrams","from","natural","language","notes","code","schemas","existing","sources","flowcharts","swimlanes","attack"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/diagram-generator","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/diagram-generator","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":4,"bytes":15638,"sha256":"f9dc667fb4fd2559bd8b653a1bc9b5b59c306dec7527c51e2ebd95990fa189f7","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/diagram-generator/SKILL.md","bytes":9789,"sha256":"f9dc667fb4fd2559bd8b653a1bc9b5b59c306dec7527c51e2ebd95990fa189f7","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/diagram-generator/SKILL.md"},{"path":"references/README.md","sourcePath":"skills/diagram-generator/references/README.md","bytes":173,"sha256":"924b8e28ea766fae7a52ff0d7084e1188c545fd63d404663d2e47ba96782d19f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/diagram-generator/references/README.md"},{"path":"references/diagram-patterns.md","sourcePath":"skills/diagram-generator/references/diagram-patterns.md","bytes":4603,"sha256":"36b86ecd9fd3f95b5ec46465be6d99939902945cd8075b1cb1512897b75f9bb4","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/diagram-generator/references/diagram-patterns.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"a1303494ea40bd2daf5252766d564951ce44d31742a3804957181301fc0eacbb"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--diagram-generator",
+    "name": "diagram-generator",
+    "description": "Generate, refine, validate, and render diagrams from natural language, notes, code, schemas, or existing diagram sources: flowcharts, swimlanes, attack-path graphs, data-flow diagrams, architecture, and state machines.",
+    "category": "Development",
+    "tags": [
+      "diagram",
+      "generator",
+      "generate",
+      "refine",
+      "validate",
+      "render",
+      "diagrams",
+      "from",
+      "natural",
+      "language",
+      "notes",
+      "code",
+      "schemas",
+      "existing",
+      "sources",
+      "flowcharts",
+      "swimlanes",
+      "attack"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/diagram-generator",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/diagram-generator",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 4,
+    "bytes": 15638,
+    "sha256": "f9dc667fb4fd2559bd8b653a1bc9b5b59c306dec7527c51e2ebd95990fa189f7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/diagram-generator/SKILL.md",
+      "bytes": 9789,
+      "sha256": "f9dc667fb4fd2559bd8b653a1bc9b5b59c306dec7527c51e2ebd95990fa189f7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/diagram-generator/SKILL.md"
+    },
+    {
+      "path": "references/README.md",
+      "sourcePath": "skills/diagram-generator/references/README.md",
+      "bytes": 173,
+      "sha256": "924b8e28ea766fae7a52ff0d7084e1188c545fd63d404663d2e47ba96782d19f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/diagram-generator/references/README.md"
+    },
+    {
+      "path": "references/diagram-patterns.md",
+      "sourcePath": "skills/diagram-generator/references/diagram-patterns.md",
+      "bytes": 4603,
+      "sha256": "36b86ecd9fd3f95b5ec46465be6d99939902945cd8075b1cb1512897b75f9bb4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/diagram-generator/references/diagram-patterns.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "a1303494ea40bd2daf5252766d564951ce44d31742a3804957181301fc0eacbb"
+}

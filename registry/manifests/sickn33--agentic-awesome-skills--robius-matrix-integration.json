@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--robius-matrix-integration","name":"robius-matrix-integration","description":"CRITICAL: Use for Matrix SDK integration with Makepad. Triggers on: Matrix SDK, sliding sync, MatrixRequest, timeline, matrix-sdk, matrix client, robrix, matrix room, Matrix 集成, 聊天客户端","category":"Automation","tags":["robius","matrix","integration","critical","sdk","makepad.","triggers","sliding","sync","matrixrequest","timeline","client","robrix","room","集成","聊天客户端"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/robius-matrix-integration","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/robius-matrix-integration","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":15469,"sha256":"c6508f6193d240eec097b2af5e5e74d3cbe1d49637320c69c4dd472eaf4f94b2","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/robius-matrix-integration/SKILL.md","bytes":14396,"sha256":"c6508f6193d240eec097b2af5e5e74d3cbe1d49637320c69c4dd472eaf4f94b2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/robius-matrix-integration/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"e32b55d2ccd12e8f746996be10b7d9ecee72700a289e0ea3f0f462666c8bc8ff"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--robius-matrix-integration",
+    "name": "robius-matrix-integration",
+    "description": "CRITICAL: Use for Matrix SDK integration with Makepad. Triggers on: Matrix SDK, sliding sync, MatrixRequest, timeline, matrix-sdk, matrix client, robrix, matrix room, Matrix 集成, 聊天客户端",
+    "category": "Automation",
+    "tags": [
+      "robius",
+      "matrix",
+      "integration",
+      "critical",
+      "sdk",
+      "makepad.",
+      "triggers",
+      "sliding",
+      "sync",
+      "matrixrequest",
+      "timeline",
+      "client",
+      "robrix",
+      "room",
+      "集成",
+      "聊天客户端"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/robius-matrix-integration",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/robius-matrix-integration",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 15469,
+    "sha256": "c6508f6193d240eec097b2af5e5e74d3cbe1d49637320c69c4dd472eaf4f94b2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/robius-matrix-integration/SKILL.md",
+      "bytes": 14396,
+      "sha256": "c6508f6193d240eec097b2af5e5e74d3cbe1d49637320c69c4dd472eaf4f94b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/robius-matrix-integration/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "e32b55d2ccd12e8f746996be10b7d9ecee72700a289e0ea3f0f462666c8bc8ff"
+}

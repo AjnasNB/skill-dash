@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--manifest","name":"manifest","description":"Install and configure the Manifest observability plugin for your agents. Use when setting up telemetry, configuring API keys, or troubleshooting the plugin.","category":"AI & agents","tags":["manifest","install","configure","observability","plugin","agents.","when","setting","up","telemetry","configuring","api","keys","troubleshooting","plugin."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/manifest","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/manifest","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4909,"sha256":"61be3cf2053fcd4d66f9f7104895c9bb286ba0d2642c1ac333cf70a3db9a6a49","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/manifest/SKILL.md","bytes":3836,"sha256":"61be3cf2053fcd4d66f9f7104895c9bb286ba0d2642c1ac333cf70a3db9a6a49","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/manifest/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"5925362b38e6464139b430d7f92329199f4f11cf85bcbf8ed2d104ab41b58334"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--manifest",
+    "name": "manifest",
+    "description": "Install and configure the Manifest observability plugin for your agents. Use when setting up telemetry, configuring API keys, or troubleshooting the plugin.",
+    "category": "AI & agents",
+    "tags": [
+      "manifest",
+      "install",
+      "configure",
+      "observability",
+      "plugin",
+      "agents.",
+      "when",
+      "setting",
+      "up",
+      "telemetry",
+      "configuring",
+      "api",
+      "keys",
+      "troubleshooting",
+      "plugin."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/manifest",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/manifest",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4909,
+    "sha256": "61be3cf2053fcd4d66f9f7104895c9bb286ba0d2642c1ac333cf70a3db9a6a49",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/manifest/SKILL.md",
+      "bytes": 3836,
+      "sha256": "61be3cf2053fcd4d66f9f7104895c9bb286ba0d2642c1ac333cf70a3db9a6a49",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/manifest/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "5925362b38e6464139b430d7f92329199f4f11cf85bcbf8ed2d104ab41b58334"
+}

@@ -1,1 +1,104 @@
-{"schemaVersion":1,"skill":{"id":"jeffallan--claude-skills--mcp-developer","name":"mcp-developer","description":"Use when building, debugging, or extending MCP servers or clients that connect AI systems with external tools and data sources. Invoke to implement tool handlers, configure resource providers, set up stdio/HTTP/SSE transport layers, validate schemas with Zod or Pydantic, debug protocol compliance issues, or scaffold complete MCP server/client projects using TypeScript or Python SDKs.","category":"AI & agents","tags":["mcp","developer","when","building","debugging","extending","servers","clients","connect","ai","systems","external","tools","data","sources.","invoke","implement","tool"],"repo":"Jeffallan/claude-skills","owner":"Jeffallan","stars":11835,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1be15d8064f88fc25216442406d40add8fd23b53","path":"skills/mcp-developer","sourceUrl":"https://github.com/Jeffallan/claude-skills/tree/1be15d8064f88fc25216442406d40add8fd23b53/skills/mcp-developer","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-03T15:49:22Z","fileCount":7,"bytes":52483,"sha256":"d2f1ddf1ce82567c04468d041745b3c3a33d3b39ddad21de9612000c09932f3e","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/mcp-developer/SKILL.md","bytes":5900,"sha256":"d2f1ddf1ce82567c04468d041745b3c3a33d3b39ddad21de9612000c09932f3e","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/mcp-developer/SKILL.md"},{"path":"references/protocol.md","sourcePath":"skills/mcp-developer/references/protocol.md","bytes":5055,"sha256":"967f215e0ec324ddfcf95f3c98e8ccaa791484618431971b3d1d2ba994955ba9","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/mcp-developer/references/protocol.md"},{"path":"references/python-sdk.md","sourcePath":"skills/mcp-developer/references/python-sdk.md","bytes":9832,"sha256":"395b3fce55012361c9397cac7b6ab51477789756524b9ace0a7f3626946a3c9d","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/mcp-developer/references/python-sdk.md"},{"path":"references/resources.md","sourcePath":"skills/mcp-developer/references/resources.md","bytes":12214,"sha256":"c32f64a706515ea0a782c574a71024c97b43342f077f06825573e551168dd7c8","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/mcp-developer/references/resources.md"},{"path":"references/tools.md","sourcePath":"skills/mcp-developer/references/tools.md","bytes":10417,"sha256":"f261f11d0fcaa49f12b527ce64832b65c2d35ad96b913e6b476b54b06410f0f2","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/mcp-developer/references/tools.md"},{"path":"references/typescript-sdk.md","sourcePath":"skills/mcp-developer/references/typescript-sdk.md","bytes":8009,"sha256":"cc7b746f2fafac7669d9fd8f076d82181ab2177a5fe7887e054f31b59bc3eee6","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/mcp-developer/references/typescript-sdk.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1056,"sha256":"06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/LICENSE"}],"archiveSha256":"8e410e896be8ed7c5dee8da42d73125aca949616b29080fef0f802f5e76256d0"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "jeffallan--claude-skills--mcp-developer",
+    "name": "mcp-developer",
+    "description": "Use when building, debugging, or extending MCP servers or clients that connect AI systems with external tools and data sources. Invoke to implement tool handlers, configure resource providers, set up stdio/HTTP/SSE transport layers, validate schemas with Zod or Pydantic, debug protocol compliance issues, or scaffold complete MCP server/client projects using TypeScript or Python SDKs.",
+    "category": "AI & agents",
+    "tags": [
+      "mcp",
+      "developer",
+      "when",
+      "building",
+      "debugging",
+      "extending",
+      "servers",
+      "clients",
+      "connect",
+      "ai",
+      "systems",
+      "external",
+      "tools",
+      "data",
+      "sources.",
+      "invoke",
+      "implement",
+      "tool"
+    ],
+    "repo": "Jeffallan/claude-skills",
+    "owner": "Jeffallan",
+    "stars": 11835,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1be15d8064f88fc25216442406d40add8fd23b53",
+    "path": "skills/mcp-developer",
+    "sourceUrl": "https://github.com/Jeffallan/claude-skills/tree/1be15d8064f88fc25216442406d40add8fd23b53/skills/mcp-developer",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-03T15:49:22Z",
+    "fileCount": 7,
+    "bytes": 52483,
+    "sha256": "d2f1ddf1ce82567c04468d041745b3c3a33d3b39ddad21de9612000c09932f3e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/mcp-developer/SKILL.md",
+      "bytes": 5900,
+      "sha256": "d2f1ddf1ce82567c04468d041745b3c3a33d3b39ddad21de9612000c09932f3e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/mcp-developer/SKILL.md"
+    },
+    {
+      "path": "references/protocol.md",
+      "sourcePath": "skills/mcp-developer/references/protocol.md",
+      "bytes": 5055,
+      "sha256": "967f215e0ec324ddfcf95f3c98e8ccaa791484618431971b3d1d2ba994955ba9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/mcp-developer/references/protocol.md"
+    },
+    {
+      "path": "references/python-sdk.md",
+      "sourcePath": "skills/mcp-developer/references/python-sdk.md",
+      "bytes": 9832,
+      "sha256": "395b3fce55012361c9397cac7b6ab51477789756524b9ace0a7f3626946a3c9d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/mcp-developer/references/python-sdk.md"
+    },
+    {
+      "path": "references/resources.md",
+      "sourcePath": "skills/mcp-developer/references/resources.md",
+      "bytes": 12214,
+      "sha256": "c32f64a706515ea0a782c574a71024c97b43342f077f06825573e551168dd7c8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/mcp-developer/references/resources.md"
+    },
+    {
+      "path": "references/tools.md",
+      "sourcePath": "skills/mcp-developer/references/tools.md",
+      "bytes": 10417,
+      "sha256": "f261f11d0fcaa49f12b527ce64832b65c2d35ad96b913e6b476b54b06410f0f2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/mcp-developer/references/tools.md"
+    },
+    {
+      "path": "references/typescript-sdk.md",
+      "sourcePath": "skills/mcp-developer/references/typescript-sdk.md",
+      "bytes": 8009,
+      "sha256": "cc7b746f2fafac7669d9fd8f076d82181ab2177a5fe7887e054f31b59bc3eee6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/mcp-developer/references/typescript-sdk.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1056,
+      "sha256": "06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/LICENSE"
+    }
+  ],
+  "archiveSha256": "8e410e896be8ed7c5dee8da42d73125aca949616b29080fef0f802f5e76256d0"
+}

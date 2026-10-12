@@ -1,1 +1,152 @@
-{"schemaVersion":1,"skill":{"id":"coreyhaines31--marketingskills--prospecting","name":"prospecting","description":"When the user wants to find, qualify, and build a list of prospects to reach out to, across B2B SaaS, general B2B, or local small businesses. Also use when the user mentions \"prospecting,\" \"build a prospect list,\" \"find leads,\" \"lead list,\" \"outbound list,\" \"target account list,\" \"ICP-fit accounts,\" \"find local businesses,\" \"find my first customers,\" \"design partners,\" \"signal-based outbound,\" \"buying signals,\" \"intent data,\" \"job change alerts,\" \"waterfall enrichment,\" \"Clay table,\" \"lookalike accounts,\" \"catch-all emails,\" \"account tiering,\" or \"research this account before I reach out.\" Always verify emails before they reach a sequence, and never scrape LinkedIn. Define audiences in Sales Navigator and pull contacts from licensed data. Covers list building, signals, enrichment, verification, and account research. For the outreach itself (copy, sending setup, LinkedIn, cadences, replies), see cold-email. For researching competitors, see competitor-profiling.","category":"Design","tags":["prospecting","when","user","wants","find","qualify","list","prospects","reach","out","across","b2b","saas","general","local","small","businesses.","also"],"repo":"coreyhaines31/marketingskills","owner":"coreyhaines31","stars":54287,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff","path":"skills/prospecting","sourceUrl":"https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-08T21:51:37Z","fileCount":13,"bytes":114621,"sha256":"3e5c72c9779948247e56d8dd71683cb8729eb2ab99555da7bc984525d7890de7","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/prospecting/SKILL.md","bytes":20182,"sha256":"3e5c72c9779948247e56d8dd71683cb8729eb2ab99555da7bc984525d7890de7","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/SKILL.md"},{"path":"evals/evals.json","sourcePath":"skills/prospecting/evals/evals.json","bytes":15540,"sha256":"c7f1ae0362d55a89d3c6a1e4ffe6dfc41d65ae0029ff5f662fb3198b6337fe4b","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/evals/evals.json"},{"path":"references/account-research.md","sourcePath":"skills/prospecting/references/account-research.md","bytes":3771,"sha256":"cf09a7f41b4963d919dcdf96d659fe898a1ade5328ab481864419f6dd1d4bba9","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/references/account-research.md"},{"path":"references/b2b-prospecting.md","sourcePath":"skills/prospecting/references/b2b-prospecting.md","bytes":4978,"sha256":"b7a05da9d1584cc8d21432a43fe1ba802c4f9a6c601e3885d4117cc9d4d52f37","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/references/b2b-prospecting.md"},{"path":"references/compliance.md","sourcePath":"skills/prospecting/references/compliance.md","bytes":11065,"sha256":"b7f03614af776e90259f28cc1f484ce22a86c71ef35a1e5a4b9e24b6d89aecd4","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/references/compliance.md"},{"path":"references/data-sources.md","sourcePath":"skills/prospecting/references/data-sources.md","bytes":13456,"sha256":"2262f2172c285b98b1df73974d4cb441c8f835645b4d7ee21a340ff5df2a1182","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/references/data-sources.md"},{"path":"references/demand-signals.md","sourcePath":"skills/prospecting/references/demand-signals.md","bytes":10185,"sha256":"489b8fb96a828578b6812bfabfbba8ce86d07545b21716a873501ba4d464f4ee","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/references/demand-signals.md"},{"path":"references/enrichment-playbook.md","sourcePath":"skills/prospecting/references/enrichment-playbook.md","bytes":5290,"sha256":"dcdb131d83e0a010fdbb572c828b621e9db10f96b6fafd891499683ed9a4a63c","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/references/enrichment-playbook.md"},{"path":"references/local-prospecting.md","sourcePath":"skills/prospecting/references/local-prospecting.md","bytes":8150,"sha256":"1dd71471a3413d5b0a9d230b1e42ca95469c617285bf7e2abdfa463428367fc3","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/references/local-prospecting.md"},{"path":"references/saas-prospecting.md","sourcePath":"skills/prospecting/references/saas-prospecting.md","bytes":6045,"sha256":"18be53f055f3f8a2ca647dccc8d8d8d177a0df5820193463542f87fa4eeafcf8","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/references/saas-prospecting.md"},{"path":"references/signal-plays.md","sourcePath":"skills/prospecting/references/signal-plays.md","bytes":8150,"sha256":"a10434290cb82a3d8cbccfb826b64999decc0079e54be33d1114ca8e7b150886","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/references/signal-plays.md"},{"path":"references/sourcing-and-enrichment.md","sourcePath":"skills/prospecting/references/sourcing-and-enrichment.md","bytes":6740,"sha256":"d7f47cf69ee1e78bb21c50f2b0050460899f8e9e001c40261e08e38dd6fa9fbc","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/references/sourcing-and-enrichment.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1069,"sha256":"b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"}],"archiveSha256":"9c77d284adbb4e09271fe4c166ff4fd1e9cdb4254e6f8beef1484b01e274e175"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "coreyhaines31--marketingskills--prospecting",
+    "name": "prospecting",
+    "description": "When the user wants to find, qualify, and build a list of prospects to reach out to, across B2B SaaS, general B2B, or local small businesses. Also use when the user mentions \"prospecting,\" \"build a prospect list,\" \"find leads,\" \"lead list,\" \"outbound list,\" \"target account list,\" \"ICP-fit accounts,\" \"find local businesses,\" \"find my first customers,\" \"design partners,\" \"signal-based outbound,\" \"buying signals,\" \"intent data,\" \"job change alerts,\" \"waterfall enrichment,\" \"Clay table,\" \"lookalike accounts,\" \"catch-all emails,\" \"account tiering,\" or \"research this account before I reach out.\" Always verify emails before they reach a sequence, and never scrape LinkedIn. Define audiences in Sales Navigator and pull contacts from licensed data. Covers list building, signals, enrichment, verification, and account research. For the outreach itself (copy, sending setup, LinkedIn, cadences, replies), see cold-email. For researching competitors, see competitor-profiling.",
+    "category": "Design",
+    "tags": [
+      "prospecting",
+      "when",
+      "user",
+      "wants",
+      "find",
+      "qualify",
+      "list",
+      "prospects",
+      "reach",
+      "out",
+      "across",
+      "b2b",
+      "saas",
+      "general",
+      "local",
+      "small",
+      "businesses.",
+      "also"
+    ],
+    "repo": "coreyhaines31/marketingskills",
+    "owner": "coreyhaines31",
+    "stars": 54287,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff",
+    "path": "skills/prospecting",
+    "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-08T21:51:37Z",
+    "fileCount": 13,
+    "bytes": 114621,
+    "sha256": "3e5c72c9779948247e56d8dd71683cb8729eb2ab99555da7bc984525d7890de7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/prospecting/SKILL.md",
+      "bytes": 20182,
+      "sha256": "3e5c72c9779948247e56d8dd71683cb8729eb2ab99555da7bc984525d7890de7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/SKILL.md"
+    },
+    {
+      "path": "evals/evals.json",
+      "sourcePath": "skills/prospecting/evals/evals.json",
+      "bytes": 15540,
+      "sha256": "c7f1ae0362d55a89d3c6a1e4ffe6dfc41d65ae0029ff5f662fb3198b6337fe4b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/evals/evals.json"
+    },
+    {
+      "path": "references/account-research.md",
+      "sourcePath": "skills/prospecting/references/account-research.md",
+      "bytes": 3771,
+      "sha256": "cf09a7f41b4963d919dcdf96d659fe898a1ade5328ab481864419f6dd1d4bba9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/references/account-research.md"
+    },
+    {
+      "path": "references/b2b-prospecting.md",
+      "sourcePath": "skills/prospecting/references/b2b-prospecting.md",
+      "bytes": 4978,
+      "sha256": "b7a05da9d1584cc8d21432a43fe1ba802c4f9a6c601e3885d4117cc9d4d52f37",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/references/b2b-prospecting.md"
+    },
+    {
+      "path": "references/compliance.md",
+      "sourcePath": "skills/prospecting/references/compliance.md",
+      "bytes": 11065,
+      "sha256": "b7f03614af776e90259f28cc1f484ce22a86c71ef35a1e5a4b9e24b6d89aecd4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/references/compliance.md"
+    },
+    {
+      "path": "references/data-sources.md",
+      "sourcePath": "skills/prospecting/references/data-sources.md",
+      "bytes": 13456,
+      "sha256": "2262f2172c285b98b1df73974d4cb441c8f835645b4d7ee21a340ff5df2a1182",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/references/data-sources.md"
+    },
+    {
+      "path": "references/demand-signals.md",
+      "sourcePath": "skills/prospecting/references/demand-signals.md",
+      "bytes": 10185,
+      "sha256": "489b8fb96a828578b6812bfabfbba8ce86d07545b21716a873501ba4d464f4ee",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/references/demand-signals.md"
+    },
+    {
+      "path": "references/enrichment-playbook.md",
+      "sourcePath": "skills/prospecting/references/enrichment-playbook.md",
+      "bytes": 5290,
+      "sha256": "dcdb131d83e0a010fdbb572c828b621e9db10f96b6fafd891499683ed9a4a63c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/references/enrichment-playbook.md"
+    },
+    {
+      "path": "references/local-prospecting.md",
+      "sourcePath": "skills/prospecting/references/local-prospecting.md",
+      "bytes": 8150,
+      "sha256": "1dd71471a3413d5b0a9d230b1e42ca95469c617285bf7e2abdfa463428367fc3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/references/local-prospecting.md"
+    },
+    {
+      "path": "references/saas-prospecting.md",
+      "sourcePath": "skills/prospecting/references/saas-prospecting.md",
+      "bytes": 6045,
+      "sha256": "18be53f055f3f8a2ca647dccc8d8d8d177a0df5820193463542f87fa4eeafcf8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/references/saas-prospecting.md"
+    },
+    {
+      "path": "references/signal-plays.md",
+      "sourcePath": "skills/prospecting/references/signal-plays.md",
+      "bytes": 8150,
+      "sha256": "a10434290cb82a3d8cbccfb826b64999decc0079e54be33d1114ca8e7b150886",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/references/signal-plays.md"
+    },
+    {
+      "path": "references/sourcing-and-enrichment.md",
+      "sourcePath": "skills/prospecting/references/sourcing-and-enrichment.md",
+      "bytes": 6740,
+      "sha256": "d7f47cf69ee1e78bb21c50f2b0050460899f8e9e001c40261e08e38dd6fa9fbc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/prospecting/references/sourcing-and-enrichment.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"
+    }
+  ],
+  "archiveSha256": "9c77d284adbb4e09271fe4c166ff4fd1e9cdb4254e6f8beef1484b01e274e175"
+}

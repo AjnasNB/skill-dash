@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--mathguard","name":"mathguard","description":"Math-heavy escalation for n >= 10^6 — Bloom, HyperLogLog, Count-Min, MinHash/LSH, FFT, JL projection, sweep line. Use when classical O(n log n) is the floor and approximate or math wins.","category":"Development","tags":["mathguard","math","heavy","escalation","10","bloom","hyperloglog","count","min","minhash","lsh","fft","jl","projection","sweep","line.","when","classical"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/mathguard","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mathguard","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":19612,"sha256":"b9d8f1354c49b41289a00ae9b8809a9e804b47849ff3d21884f1f90085e50b1f","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/mathguard/SKILL.md","bytes":18539,"sha256":"b9d8f1354c49b41289a00ae9b8809a9e804b47849ff3d21884f1f90085e50b1f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mathguard/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"c90b513e5fdbeb6a321e7ee4e30299aaa6909c84dd26e8b67a31485ed1c3b46a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--mathguard",
+    "name": "mathguard",
+    "description": "Math-heavy escalation for n >= 10^6 — Bloom, HyperLogLog, Count-Min, MinHash/LSH, FFT, JL projection, sweep line. Use when classical O(n log n) is the floor and approximate or math wins.",
+    "category": "Development",
+    "tags": [
+      "mathguard",
+      "math",
+      "heavy",
+      "escalation",
+      "10",
+      "bloom",
+      "hyperloglog",
+      "count",
+      "min",
+      "minhash",
+      "lsh",
+      "fft",
+      "jl",
+      "projection",
+      "sweep",
+      "line.",
+      "when",
+      "classical"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/mathguard",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mathguard",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 19612,
+    "sha256": "b9d8f1354c49b41289a00ae9b8809a9e804b47849ff3d21884f1f90085e50b1f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/mathguard/SKILL.md",
+      "bytes": 18539,
+      "sha256": "b9d8f1354c49b41289a00ae9b8809a9e804b47849ff3d21884f1f90085e50b1f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mathguard/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "c90b513e5fdbeb6a321e7ee4e30299aaa6909c84dd26e8b67a31485ed1c3b46a"
+}

@@ -1,1 +1,56 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--tdd-workflow","name":"tdd-workflow","description":"Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle.","category":"Automation","tags":["tdd","workflow","test","driven","development","principles.","red","green","refactor","cycle."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/tdd-workflow","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/tdd-workflow","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4317,"sha256":"0a90f22a5ce3c9da93218b071f1fef3245b1cd1fd87ab2a39074a1c4d01795a5","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/tdd-workflow/SKILL.md","bytes":3244,"sha256":"0a90f22a5ce3c9da93218b071f1fef3245b1cd1fd87ab2a39074a1c4d01795a5","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/tdd-workflow/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"f54e9ed5b8b4e50e52b18d0fd1fcfbf663b66dd361a59e210d9a35658dfc9e89"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--tdd-workflow",
+    "name": "tdd-workflow",
+    "description": "Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle.",
+    "category": "Automation",
+    "tags": [
+      "tdd",
+      "workflow",
+      "test",
+      "driven",
+      "development",
+      "principles.",
+      "red",
+      "green",
+      "refactor",
+      "cycle."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/tdd-workflow",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/tdd-workflow",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4317,
+    "sha256": "0a90f22a5ce3c9da93218b071f1fef3245b1cd1fd87ab2a39074a1c4d01795a5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/tdd-workflow/SKILL.md",
+      "bytes": 3244,
+      "sha256": "0a90f22a5ce3c9da93218b071f1fef3245b1cd1fd87ab2a39074a1c4d01795a5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/tdd-workflow/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "f54e9ed5b8b4e50e52b18d0fd1fcfbf663b66dd361a59e210d9a35658dfc9e89"
+}

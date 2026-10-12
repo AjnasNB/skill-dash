@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--mtls-configuration","name":"mtls-configuration","description":"Configure mutual TLS (mTLS) for zero-trust service-to-service communication. Use when implementing zero-trust networking, certificate management, or securing internal service communication.","category":"Security","tags":["mtls","configuration","configure","mutual","tls","zero","trust","service","communication.","when","implementing","networking","certificate","management","securing","internal"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/mtls-configuration","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mtls-configuration","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":10413,"sha256":"7b3799f44070bb754817f9a6168c3a90b0aa401e9be7e6a92a1f2c3cf2fd8641","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/mtls-configuration/SKILL.md","bytes":9340,"sha256":"7b3799f44070bb754817f9a6168c3a90b0aa401e9be7e6a92a1f2c3cf2fd8641","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mtls-configuration/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"cbbc96cc5efde0dc6dca588f02c1748fe91d05c6f9d38c7c9f2d82c0824aec70"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--mtls-configuration",
+    "name": "mtls-configuration",
+    "description": "Configure mutual TLS (mTLS) for zero-trust service-to-service communication. Use when implementing zero-trust networking, certificate management, or securing internal service communication.",
+    "category": "Security",
+    "tags": [
+      "mtls",
+      "configuration",
+      "configure",
+      "mutual",
+      "tls",
+      "zero",
+      "trust",
+      "service",
+      "communication.",
+      "when",
+      "implementing",
+      "networking",
+      "certificate",
+      "management",
+      "securing",
+      "internal"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/mtls-configuration",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mtls-configuration",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10413,
+    "sha256": "7b3799f44070bb754817f9a6168c3a90b0aa401e9be7e6a92a1f2c3cf2fd8641",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/mtls-configuration/SKILL.md",
+      "bytes": 9340,
+      "sha256": "7b3799f44070bb754817f9a6168c3a90b0aa401e9be7e6a92a1f2c3cf2fd8641",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mtls-configuration/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "cbbc96cc5efde0dc6dca588f02c1748fe91d05c6f9d38c7c9f2d82c0824aec70"
+}

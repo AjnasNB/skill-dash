@@ -1,1 +1,57 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--nft-standards","name":"nft-standards","description":"Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and advanced NFT features.","category":"Development","tags":["nft","standards","master","erc","721","1155","metadata","best","practices","advanced","features."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/nft-standards","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nft-standards","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12794,"sha256":"7e9b1bd09eeffec955aa82d13d6a46acf7d4659c68c9ef7463558e9a6161c4a0","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/nft-standards/SKILL.md","bytes":11721,"sha256":"7e9b1bd09eeffec955aa82d13d6a46acf7d4659c68c9ef7463558e9a6161c4a0","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nft-standards/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"6dbd1c50c4c146f9c0fe3ea3a7ff28797c100c2405199b4d5e6ce949f5dbdc03"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--nft-standards",
+    "name": "nft-standards",
+    "description": "Master ERC-721 and ERC-1155 NFT standards, metadata best practices, and advanced NFT features.",
+    "category": "Development",
+    "tags": [
+      "nft",
+      "standards",
+      "master",
+      "erc",
+      "721",
+      "1155",
+      "metadata",
+      "best",
+      "practices",
+      "advanced",
+      "features."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/nft-standards",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nft-standards",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12794,
+    "sha256": "7e9b1bd09eeffec955aa82d13d6a46acf7d4659c68c9ef7463558e9a6161c4a0",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/nft-standards/SKILL.md",
+      "bytes": 11721,
+      "sha256": "7e9b1bd09eeffec955aa82d13d6a46acf7d4659c68c9ef7463558e9a6161c4a0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nft-standards/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "6dbd1c50c4c146f9c0fe3ea3a7ff28797c100c2405199b4d5e6ce949f5dbdc03"
+}

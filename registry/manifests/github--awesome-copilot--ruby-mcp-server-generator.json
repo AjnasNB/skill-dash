@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--ruby-mcp-server-generator","name":"ruby-mcp-server-generator","description":"Generate a complete Model Context Protocol server project in Ruby using the official MCP Ruby SDK gem.","category":"AI & agents","tags":["ruby","mcp","server","generator","generate","complete","model","context","protocol","project","official","sdk","gem."],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/ruby-mcp-server-generator","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/ruby-mcp-server-generator","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":15883,"sha256":"32a5f6c9be171bfb0fc8bd4a38d905dafe681fb6f0aa1edce3f4b8c7675e24be","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/ruby-mcp-server-generator/SKILL.md","bytes":14824,"sha256":"32a5f6c9be171bfb0fc8bd4a38d905dafe681fb6f0aa1edce3f4b8c7675e24be","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/ruby-mcp-server-generator/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"6a507e94cd069029165d78728182f3b06198d9b49c5b617f86b6d0d17364a4e2"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--ruby-mcp-server-generator",
+    "name": "ruby-mcp-server-generator",
+    "description": "Generate a complete Model Context Protocol server project in Ruby using the official MCP Ruby SDK gem.",
+    "category": "AI & agents",
+    "tags": [
+      "ruby",
+      "mcp",
+      "server",
+      "generator",
+      "generate",
+      "complete",
+      "model",
+      "context",
+      "protocol",
+      "project",
+      "official",
+      "sdk",
+      "gem."
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/ruby-mcp-server-generator",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/ruby-mcp-server-generator",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 15883,
+    "sha256": "32a5f6c9be171bfb0fc8bd4a38d905dafe681fb6f0aa1edce3f4b8c7675e24be",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/ruby-mcp-server-generator/SKILL.md",
+      "bytes": 14824,
+      "sha256": "32a5f6c9be171bfb0fc8bd4a38d905dafe681fb6f0aa1edce3f4b8c7675e24be",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/ruby-mcp-server-generator/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "6a507e94cd069029165d78728182f3b06198d9b49c5b617f86b6d0d17364a4e2"
+}

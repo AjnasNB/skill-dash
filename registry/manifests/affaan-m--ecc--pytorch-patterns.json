@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--pytorch-patterns","name":"pytorch-patterns","description":"PyTorch deep learning patterns and best practices for building robust, efficient, and reproducible training pipelines, model architectures, and data loading. Use when writing or reviewing PyTorch training loops, model architectures, or data loading, or when a run will not reproduce.","category":"Writing","tags":["pytorch","patterns","deep","learning","best","practices","building","robust","efficient","reproducible","training","pipelines","model","architectures","data","loading.","when","writing"],"repo":"affaan-m/ECC","owner":"affaan-m","stars":277532,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"b92f181b3b748d1abbc2afd94af6aa7d8c8fca29","path":"skills/pytorch-patterns","sourceUrl":"https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/pytorch-patterns","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T02:02:10Z","fileCount":2,"bytes":12868,"sha256":"168c8740f548414a75f576265ddb03329be98ed57f06c5edaf79c7cd4b6a9cf4","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/pytorch-patterns/SKILL.md","bytes":11797,"sha256":"168c8740f548414a75f576265ddb03329be98ed57f06c5edaf79c7cd4b6a9cf4","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/pytorch-patterns/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"}],"archiveSha256":"c7e60667a2395bf10b049459db996b25835851696d13cff43f6af8e12ea10453"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--pytorch-patterns",
+    "name": "pytorch-patterns",
+    "description": "PyTorch deep learning patterns and best practices for building robust, efficient, and reproducible training pipelines, model architectures, and data loading. Use when writing or reviewing PyTorch training loops, model architectures, or data loading, or when a run will not reproduce.",
+    "category": "Writing",
+    "tags": [
+      "pytorch",
+      "patterns",
+      "deep",
+      "learning",
+      "best",
+      "practices",
+      "building",
+      "robust",
+      "efficient",
+      "reproducible",
+      "training",
+      "pipelines",
+      "model",
+      "architectures",
+      "data",
+      "loading.",
+      "when",
+      "writing"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/pytorch-patterns",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/pytorch-patterns",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 2,
+    "bytes": 12868,
+    "sha256": "168c8740f548414a75f576265ddb03329be98ed57f06c5edaf79c7cd4b6a9cf4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/pytorch-patterns/SKILL.md",
+      "bytes": 11797,
+      "sha256": "168c8740f548414a75f576265ddb03329be98ed57f06c5edaf79c7cd4b6a9cf4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/pytorch-patterns/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "c7e60667a2395bf10b049459db996b25835851696d13cff43f6af8e12ea10453"
+}

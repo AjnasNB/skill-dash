@@ -1,1 +1,152 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--film-crew","name":"film-crew","description":"Turn a one-line AI video idea into a shot list and per-shot, model-ready prompts via a film crew (director, DP, gaffer, editor, script supervisor). Also fixes failing video prompts and diagnoses bad clips before a reroll. Works with Wan, LTX, Kling, Veo, Seedance, Hailuo, Runway.","category":"Video & audio","tags":["film","crew","turn","one","line","ai","video","idea","into","shot","list","per","model","ready","prompts","via","director","dp"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/film-crew","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":13,"bytes":28023,"sha256":"e0ede7ad7031f372becdb7e104ed41d4a18e2aaf213186f35832f69e74d82bca","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/film-crew/SKILL.md","bytes":7100,"sha256":"e0ede7ad7031f372becdb7e104ed41d4a18e2aaf213186f35832f69e74d82bca","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/SKILL.md"},{"path":"references/model-prompting.md","sourcePath":"skills/film-crew/references/model-prompting.md","bytes":4007,"sha256":"057f4d9dcc0fa3349fab6c73a71a8ad0c4d4cf3df85fec65c8103e789fa36678","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/model-prompting.md"},{"path":"references/reroll-review.md","sourcePath":"skills/film-crew/references/reroll-review.md","bytes":2712,"sha256":"fe611e9082128316550b099a3e68f822262645184e9ec969dc81b55d8d03d960","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/reroll-review.md"},{"path":"references/roles/director.md","sourcePath":"skills/film-crew/references/roles/director.md","bytes":1572,"sha256":"6abc3eb2c60c3a01ebcebb9dcfa0affee48eaef7f3ec55d3c395f0aaa3e70de0","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/roles/director.md"},{"path":"references/roles/dp.md","sourcePath":"skills/film-crew/references/roles/dp.md","bytes":1408,"sha256":"5e8e2c9fb0fb660a97e9462aa2370fa8b306428382304cc7fc2d999239a32d07","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/roles/dp.md"},{"path":"references/roles/editor.md","sourcePath":"skills/film-crew/references/roles/editor.md","bytes":1410,"sha256":"575246b6b353d28b00d75dc5826cae5331230b92e7f61dfe7cbee4994d8e78a6","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/roles/editor.md"},{"path":"references/roles/gaffer.md","sourcePath":"skills/film-crew/references/roles/gaffer.md","bytes":1187,"sha256":"73596e6dd83e7ee97761c5e4fd4ed644cb34ebd40b210885787451bb615dd14d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/roles/gaffer.md"},{"path":"references/roles/production-designer.md","sourcePath":"skills/film-crew/references/roles/production-designer.md","bytes":1995,"sha256":"459117952e8edbcba39eca11bce65eb0b53a411cca0def8d3b3785875f1feb40","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/roles/production-designer.md"},{"path":"references/roles/script-supervisor.md","sourcePath":"skills/film-crew/references/roles/script-supervisor.md","bytes":1612,"sha256":"bebc18af24e282c4f5f09563b6f40cf00ccf28f6f391ceb3aa934d10d382b13c","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/roles/script-supervisor.md"},{"path":"references/roles/sound.md","sourcePath":"skills/film-crew/references/roles/sound.md","bytes":864,"sha256":"0d59af35155e1ee4551fc697cd83a899567257fdb8362deed9dd77ff0d8106eb","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/roles/sound.md"},{"path":"references/templates/shot-list.md","sourcePath":"skills/film-crew/references/templates/shot-list.md","bytes":983,"sha256":"38729413b111dd825f16ce86316b9303af86d9a66812fde85f7c52dee0c1f869","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/templates/shot-list.md"},{"path":"references/unslop.md","sourcePath":"skills/film-crew/references/unslop.md","bytes":2100,"sha256":"dd94af9769b60a70dddfc4ada0c2c9496d5f09f2fb67e085d6b2d7c465d470ec","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/unslop.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"512a6355068ad76ba39995003e40a6b16425531e2dc4f474fb54b6d18bb7ff72"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--film-crew",
+    "name": "film-crew",
+    "description": "Turn a one-line AI video idea into a shot list and per-shot, model-ready prompts via a film crew (director, DP, gaffer, editor, script supervisor). Also fixes failing video prompts and diagnoses bad clips before a reroll. Works with Wan, LTX, Kling, Veo, Seedance, Hailuo, Runway.",
+    "category": "Video & audio",
+    "tags": [
+      "film",
+      "crew",
+      "turn",
+      "one",
+      "line",
+      "ai",
+      "video",
+      "idea",
+      "into",
+      "shot",
+      "list",
+      "per",
+      "model",
+      "ready",
+      "prompts",
+      "via",
+      "director",
+      "dp"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/film-crew",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 13,
+    "bytes": 28023,
+    "sha256": "e0ede7ad7031f372becdb7e104ed41d4a18e2aaf213186f35832f69e74d82bca",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/film-crew/SKILL.md",
+      "bytes": 7100,
+      "sha256": "e0ede7ad7031f372becdb7e104ed41d4a18e2aaf213186f35832f69e74d82bca",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/SKILL.md"
+    },
+    {
+      "path": "references/model-prompting.md",
+      "sourcePath": "skills/film-crew/references/model-prompting.md",
+      "bytes": 4007,
+      "sha256": "057f4d9dcc0fa3349fab6c73a71a8ad0c4d4cf3df85fec65c8103e789fa36678",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/model-prompting.md"
+    },
+    {
+      "path": "references/reroll-review.md",
+      "sourcePath": "skills/film-crew/references/reroll-review.md",
+      "bytes": 2712,
+      "sha256": "fe611e9082128316550b099a3e68f822262645184e9ec969dc81b55d8d03d960",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/reroll-review.md"
+    },
+    {
+      "path": "references/roles/director.md",
+      "sourcePath": "skills/film-crew/references/roles/director.md",
+      "bytes": 1572,
+      "sha256": "6abc3eb2c60c3a01ebcebb9dcfa0affee48eaef7f3ec55d3c395f0aaa3e70de0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/roles/director.md"
+    },
+    {
+      "path": "references/roles/dp.md",
+      "sourcePath": "skills/film-crew/references/roles/dp.md",
+      "bytes": 1408,
+      "sha256": "5e8e2c9fb0fb660a97e9462aa2370fa8b306428382304cc7fc2d999239a32d07",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/roles/dp.md"
+    },
+    {
+      "path": "references/roles/editor.md",
+      "sourcePath": "skills/film-crew/references/roles/editor.md",
+      "bytes": 1410,
+      "sha256": "575246b6b353d28b00d75dc5826cae5331230b92e7f61dfe7cbee4994d8e78a6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/roles/editor.md"
+    },
+    {
+      "path": "references/roles/gaffer.md",
+      "sourcePath": "skills/film-crew/references/roles/gaffer.md",
+      "bytes": 1187,
+      "sha256": "73596e6dd83e7ee97761c5e4fd4ed644cb34ebd40b210885787451bb615dd14d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/roles/gaffer.md"
+    },
+    {
+      "path": "references/roles/production-designer.md",
+      "sourcePath": "skills/film-crew/references/roles/production-designer.md",
+      "bytes": 1995,
+      "sha256": "459117952e8edbcba39eca11bce65eb0b53a411cca0def8d3b3785875f1feb40",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/roles/production-designer.md"
+    },
+    {
+      "path": "references/roles/script-supervisor.md",
+      "sourcePath": "skills/film-crew/references/roles/script-supervisor.md",
+      "bytes": 1612,
+      "sha256": "bebc18af24e282c4f5f09563b6f40cf00ccf28f6f391ceb3aa934d10d382b13c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/roles/script-supervisor.md"
+    },
+    {
+      "path": "references/roles/sound.md",
+      "sourcePath": "skills/film-crew/references/roles/sound.md",
+      "bytes": 864,
+      "sha256": "0d59af35155e1ee4551fc697cd83a899567257fdb8362deed9dd77ff0d8106eb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/roles/sound.md"
+    },
+    {
+      "path": "references/templates/shot-list.md",
+      "sourcePath": "skills/film-crew/references/templates/shot-list.md",
+      "bytes": 983,
+      "sha256": "38729413b111dd825f16ce86316b9303af86d9a66812fde85f7c52dee0c1f869",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/templates/shot-list.md"
+    },
+    {
+      "path": "references/unslop.md",
+      "sourcePath": "skills/film-crew/references/unslop.md",
+      "bytes": 2100,
+      "sha256": "dd94af9769b60a70dddfc4ada0c2c9496d5f09f2fb67e085d6b2d7c465d470ec",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/film-crew/references/unslop.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "512a6355068ad76ba39995003e40a6b16425531e2dc4f474fb54b6d18bb7ff72"
+}

@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--add-app-clip","name":"add-app-clip","description":"Add an iOS App Clip target to an Expo app. Use when the user mentions App Clip, AASA, apple-app-site-association, appclips, smart app banner, or wants to ship a lightweight iOS Clip invoked from a URL alongside their parent app.","category":"Development","tags":["add","app","clip","ios","target","expo","app.","when","user","mentions","aasa","apple","site","association","appclips","smart","banner","wants"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/add-app-clip","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/add-app-clip","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":4,"bytes":13335,"sha256":"de8c413cb99916649eea3fbc9957ea8d5084aac7599a0fb8ad73e938b53d5115","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/add-app-clip/SKILL.md","bytes":9568,"sha256":"de8c413cb99916649eea3fbc9957ea8d5084aac7599a0fb8ad73e938b53d5115","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/add-app-clip/SKILL.md"},{"path":"agents/openai.yaml","sourcePath":"skills/add-app-clip/agents/openai.yaml","bytes":389,"sha256":"872d3d2bea4cff5c5cc37c189bdc97e2bc0d5f7aa0454fb52df288d44533645c","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/add-app-clip/agents/openai.yaml"},{"path":"references/native-module.md","sourcePath":"skills/add-app-clip/references/native-module.md","bytes":2305,"sha256":"d7c9514529016e63bba6c860d3035fcdaa16a47ec16ef94bf16ba0c691bb8f98","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/add-app-clip/references/native-module.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"68df057762925af5cf04fbce09b8dbaba3519be24819928634b5730708631e7a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--add-app-clip",
+    "name": "add-app-clip",
+    "description": "Add an iOS App Clip target to an Expo app. Use when the user mentions App Clip, AASA, apple-app-site-association, appclips, smart app banner, or wants to ship a lightweight iOS Clip invoked from a URL alongside their parent app.",
+    "category": "Development",
+    "tags": [
+      "add",
+      "app",
+      "clip",
+      "ios",
+      "target",
+      "expo",
+      "app.",
+      "when",
+      "user",
+      "mentions",
+      "aasa",
+      "apple",
+      "site",
+      "association",
+      "appclips",
+      "smart",
+      "banner",
+      "wants"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/add-app-clip",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/add-app-clip",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 4,
+    "bytes": 13335,
+    "sha256": "de8c413cb99916649eea3fbc9957ea8d5084aac7599a0fb8ad73e938b53d5115",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/add-app-clip/SKILL.md",
+      "bytes": 9568,
+      "sha256": "de8c413cb99916649eea3fbc9957ea8d5084aac7599a0fb8ad73e938b53d5115",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/add-app-clip/SKILL.md"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sourcePath": "skills/add-app-clip/agents/openai.yaml",
+      "bytes": 389,
+      "sha256": "872d3d2bea4cff5c5cc37c189bdc97e2bc0d5f7aa0454fb52df288d44533645c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/add-app-clip/agents/openai.yaml"
+    },
+    {
+      "path": "references/native-module.md",
+      "sourcePath": "skills/add-app-clip/references/native-module.md",
+      "bytes": 2305,
+      "sha256": "d7c9514529016e63bba6c860d3035fcdaa16a47ec16ef94bf16ba0c691bb8f98",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/add-app-clip/references/native-module.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "68df057762925af5cf04fbce09b8dbaba3519be24819928634b5730708631e7a"
+}

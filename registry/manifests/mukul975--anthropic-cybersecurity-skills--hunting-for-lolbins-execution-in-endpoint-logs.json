@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--hunting-for-lolbins-execution-in-endpoint-logs","name":"hunting-for-lolbins-execution-in-endpoint-logs","description":"Hunts for LOLBins (Living Off the Land Binaries) abuse, mapped to MITRE T1218, by analyzing endpoint process-creation logs for suspicious execution patterns of legitimate Windows system binaries used for malicious purposes. Use when reviewing endpoint process telemetry for LOLBins-based defense evasion or building detections for signed-binary proxy execution.","category":"Development","tags":["hunting","lolbins","execution","endpoint","logs","hunts","living","off","land","binaries","abuse","mapped","mitre","t1218","by","analyzing","process","creation"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/hunting-for-lolbins-execution-in-endpoint-logs/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/hunting-for-lolbins-execution-in-endpoint-logs","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-lolbins-execution-in-endpoint-logs","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":41418,"sha256":"d228337502e19df77f900ba039b0bc53c67741b5f8076e09ccc9703c725b967a","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/hunting-for-lolbins-execution-in-endpoint-logs/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-lolbins-execution-in-endpoint-logs/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/hunting-for-lolbins-execution-in-endpoint-logs/SKILL.md","bytes":8065,"sha256":"d228337502e19df77f900ba039b0bc53c67741b5f8076e09ccc9703c725b967a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-lolbins-execution-in-endpoint-logs/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/hunting-for-lolbins-execution-in-endpoint-logs/assets/template.md","bytes":1212,"sha256":"6af354276491b0dd75dbb83270f16a8a41e5f8371140f6e26ffc3b102304ca8e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-lolbins-execution-in-endpoint-logs/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/hunting-for-lolbins-execution-in-endpoint-logs/references/api-reference.md","bytes":1830,"sha256":"50390af8e64e3e4f60080e29ecc61951c8a404f641c64e79891f8291dc5a0d5c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-lolbins-execution-in-endpoint-logs/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/hunting-for-lolbins-execution-in-endpoint-logs/references/standards.md","bytes":2642,"sha256":"7da96880d96c55dc2df9917e5be509eeef3dda567540820817d0de5a30082d6b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-lolbins-execution-in-endpoint-logs/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/hunting-for-lolbins-execution-in-endpoint-logs/references/workflows.md","bytes":3485,"sha256":"94c2fb75ef1966493de42a879165e5fc0c4258addadf314680c96706f3bc064a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-lolbins-execution-in-endpoint-logs/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/hunting-for-lolbins-execution-in-endpoint-logs/scripts/agent.py","bytes":5782,"sha256":"1a0ff731dafaf973ac75d023e042da7fb1412bd825d8d0e18e7949fcd7a87bd7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-lolbins-execution-in-endpoint-logs/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/hunting-for-lolbins-execution-in-endpoint-logs/scripts/process.py","bytes":7147,"sha256":"6e18dd05dc171ad956f2bee2ff70560473b3096aa9396f5e996e381b844e7670","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-lolbins-execution-in-endpoint-logs/scripts/process.py"}],"archiveSha256":"75694b2e9e195dbf9ef1b256bc11a60ad40a99ca0ab68c7386927394bccf6ce2"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-for-lolbins-execution-in-endpoint-logs",
+    "name": "hunting-for-lolbins-execution-in-endpoint-logs",
+    "description": "Hunts for LOLBins (Living Off the Land Binaries) abuse, mapped to MITRE T1218, by analyzing endpoint process-creation logs for suspicious execution patterns of legitimate Windows system binaries used for malicious purposes. Use when reviewing endpoint process telemetry for LOLBins-based defense evasion or building detections for signed-binary proxy execution.",
+    "category": "Development",
+    "tags": [
+      "hunting",
+      "lolbins",
+      "execution",
+      "endpoint",
+      "logs",
+      "hunts",
+      "living",
+      "off",
+      "land",
+      "binaries",
+      "abuse",
+      "mapped",
+      "mitre",
+      "t1218",
+      "by",
+      "analyzing",
+      "process",
+      "creation"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-for-lolbins-execution-in-endpoint-logs/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-for-lolbins-execution-in-endpoint-logs",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-lolbins-execution-in-endpoint-logs",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 41418,
+    "sha256": "d228337502e19df77f900ba039b0bc53c67741b5f8076e09ccc9703c725b967a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-for-lolbins-execution-in-endpoint-logs/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-lolbins-execution-in-endpoint-logs/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-for-lolbins-execution-in-endpoint-logs/SKILL.md",
+      "bytes": 8065,
+      "sha256": "d228337502e19df77f900ba039b0bc53c67741b5f8076e09ccc9703c725b967a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-lolbins-execution-in-endpoint-logs/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/hunting-for-lolbins-execution-in-endpoint-logs/assets/template.md",
+      "bytes": 1212,
+      "sha256": "6af354276491b0dd75dbb83270f16a8a41e5f8371140f6e26ffc3b102304ca8e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-lolbins-execution-in-endpoint-logs/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-for-lolbins-execution-in-endpoint-logs/references/api-reference.md",
+      "bytes": 1830,
+      "sha256": "50390af8e64e3e4f60080e29ecc61951c8a404f641c64e79891f8291dc5a0d5c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-lolbins-execution-in-endpoint-logs/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/hunting-for-lolbins-execution-in-endpoint-logs/references/standards.md",
+      "bytes": 2642,
+      "sha256": "7da96880d96c55dc2df9917e5be509eeef3dda567540820817d0de5a30082d6b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-lolbins-execution-in-endpoint-logs/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/hunting-for-lolbins-execution-in-endpoint-logs/references/workflows.md",
+      "bytes": 3485,
+      "sha256": "94c2fb75ef1966493de42a879165e5fc0c4258addadf314680c96706f3bc064a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-lolbins-execution-in-endpoint-logs/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-for-lolbins-execution-in-endpoint-logs/scripts/agent.py",
+      "bytes": 5782,
+      "sha256": "1a0ff731dafaf973ac75d023e042da7fb1412bd825d8d0e18e7949fcd7a87bd7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-lolbins-execution-in-endpoint-logs/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/hunting-for-lolbins-execution-in-endpoint-logs/scripts/process.py",
+      "bytes": 7147,
+      "sha256": "6e18dd05dc171ad956f2bee2ff70560473b3096aa9396f5e996e381b844e7670",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-lolbins-execution-in-endpoint-logs/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "75694b2e9e195dbf9ef1b256bc11a60ad40a99ca0ab68c7386927394bccf6ce2"
+}

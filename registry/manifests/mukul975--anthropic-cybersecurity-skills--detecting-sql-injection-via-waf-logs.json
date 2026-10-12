@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-sql-injection-via-waf-logs","name":"detecting-sql-injection-via-waf-logs","description":"Analyze WAF (ModSecurity/AWS WAF/Cloudflare) logs to detect SQL injection attack campaigns. Parses ModSecurity audit logs and JSON WAF event logs to identify SQLi patterns (UNION SELECT, OR 1=1, SLEEP(), BENCHMARK()), tracks attack sources, correlates multi-stage injection attempts, and generates incident reports with OWASP classification.","category":"Security","tags":["detecting","sql","injection","via","waf","logs","analyze","modsecurity","aws","cloudflare","detect","attack","campaigns.","parses","audit","json","event","identify"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-sql-injection-via-waf-logs/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-sql-injection-via-waf-logs","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-sql-injection-via-waf-logs","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":24865,"sha256":"00bd344e89268088dfcab400c9e1ffcfc056df1ab5c15f3209cdd02f04a1696a","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-sql-injection-via-waf-logs/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-sql-injection-via-waf-logs/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-sql-injection-via-waf-logs/SKILL.md","bytes":2254,"sha256":"00bd344e89268088dfcab400c9e1ffcfc056df1ab5c15f3209cdd02f04a1696a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-sql-injection-via-waf-logs/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-sql-injection-via-waf-logs/references/api-reference.md","bytes":1898,"sha256":"a26e5746bb5d4d49377a3b227b4ac453dcc0d528755d79997622459aa3dd0018","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-sql-injection-via-waf-logs/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-sql-injection-via-waf-logs/scripts/agent.py","bytes":9458,"sha256":"ed317d50e9877b3e2b830411fa792515b10bd78ffb8cf21915b57b8955947b6e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-sql-injection-via-waf-logs/scripts/agent.py"}],"archiveSha256":"3508ca5306f6b663c7842b2c9d544fc434715454daa50c73152c3a1fa7763b93"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-sql-injection-via-waf-logs",
+    "name": "detecting-sql-injection-via-waf-logs",
+    "description": "Analyze WAF (ModSecurity/AWS WAF/Cloudflare) logs to detect SQL injection attack campaigns. Parses ModSecurity audit logs and JSON WAF event logs to identify SQLi patterns (UNION SELECT, OR 1=1, SLEEP(), BENCHMARK()), tracks attack sources, correlates multi-stage injection attempts, and generates incident reports with OWASP classification.",
+    "category": "Security",
+    "tags": [
+      "detecting",
+      "sql",
+      "injection",
+      "via",
+      "waf",
+      "logs",
+      "analyze",
+      "modsecurity",
+      "aws",
+      "cloudflare",
+      "detect",
+      "attack",
+      "campaigns.",
+      "parses",
+      "audit",
+      "json",
+      "event",
+      "identify"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-sql-injection-via-waf-logs/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-sql-injection-via-waf-logs",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-sql-injection-via-waf-logs",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 24865,
+    "sha256": "00bd344e89268088dfcab400c9e1ffcfc056df1ab5c15f3209cdd02f04a1696a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-sql-injection-via-waf-logs/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-sql-injection-via-waf-logs/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-sql-injection-via-waf-logs/SKILL.md",
+      "bytes": 2254,
+      "sha256": "00bd344e89268088dfcab400c9e1ffcfc056df1ab5c15f3209cdd02f04a1696a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-sql-injection-via-waf-logs/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-sql-injection-via-waf-logs/references/api-reference.md",
+      "bytes": 1898,
+      "sha256": "a26e5746bb5d4d49377a3b227b4ac453dcc0d528755d79997622459aa3dd0018",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-sql-injection-via-waf-logs/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-sql-injection-via-waf-logs/scripts/agent.py",
+      "bytes": 9458,
+      "sha256": "ed317d50e9877b3e2b830411fa792515b10bd78ffb8cf21915b57b8955947b6e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-sql-injection-via-waf-logs/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "3508ca5306f6b663c7842b2c9d544fc434715454daa50c73152c3a1fa7763b93"
+}

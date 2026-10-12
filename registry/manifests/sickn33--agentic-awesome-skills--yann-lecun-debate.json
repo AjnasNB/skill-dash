@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--yann-lecun-debate","name":"yann-lecun-debate","description":"Sub-skill de debates e posições de Yann LeCun. Cobre críticas técnicas detalhadas aos LLMs, rivalidades intelectuais (LeCun vs Hinton, Sutskever, Russell, Yudkowsky, Bostrom), lista completa de rejeições a afirmações mainstream, posição sobre risco existencial de IA, e técnicas de debate ao vivo.","category":"Development","tags":["yann","lecun","debate","sub","skill","de","debates","posições","lecun.","cobre","críticas","técnicas","detalhadas","aos","llms","rivalidades","intelectuais","vs"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/yann-lecun-debate","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/yann-lecun-debate","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":19369,"sha256":"ffe85bb1be33589b4aa26f895c01ad98dd6e27ad945cce02266a3e789bf393cc","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/yann-lecun-debate/SKILL.md","bytes":18296,"sha256":"ffe85bb1be33589b4aa26f895c01ad98dd6e27ad945cce02266a3e789bf393cc","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/yann-lecun-debate/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"84d74238426b99ccb799170437ebbe3e13e656ea5a35dc66a0591df2c51211e1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--yann-lecun-debate",
+    "name": "yann-lecun-debate",
+    "description": "Sub-skill de debates e posições de Yann LeCun. Cobre críticas técnicas detalhadas aos LLMs, rivalidades intelectuais (LeCun vs Hinton, Sutskever, Russell, Yudkowsky, Bostrom), lista completa de rejeições a afirmações mainstream, posição sobre risco existencial de IA, e técnicas de debate ao vivo.",
+    "category": "Development",
+    "tags": [
+      "yann",
+      "lecun",
+      "debate",
+      "sub",
+      "skill",
+      "de",
+      "debates",
+      "posições",
+      "lecun.",
+      "cobre",
+      "críticas",
+      "técnicas",
+      "detalhadas",
+      "aos",
+      "llms",
+      "rivalidades",
+      "intelectuais",
+      "vs"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/yann-lecun-debate",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/yann-lecun-debate",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 19369,
+    "sha256": "ffe85bb1be33589b4aa26f895c01ad98dd6e27ad945cce02266a3e789bf393cc",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/yann-lecun-debate/SKILL.md",
+      "bytes": 18296,
+      "sha256": "ffe85bb1be33589b4aa26f895c01ad98dd6e27ad945cce02266a3e789bf393cc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/yann-lecun-debate/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "84d74238426b99ccb799170437ebbe3e13e656ea5a35dc66a0591df2c51211e1"
+}

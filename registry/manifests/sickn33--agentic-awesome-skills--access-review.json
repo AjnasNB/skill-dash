@@ -1,1 +1,67 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--access-review","name":"access-review","description":"Conduct periodic access reviews and certifications. Implement access governance and recertification workflows. Use when managing access compliance.","category":"Development","tags":["access","review","conduct","periodic","reviews","certifications.","implement","governance","recertification","workflows.","when","managing","compliance."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/access-review","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/access-review","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":20322,"sha256":"8ea9088137ca9b9b15948d291f3ee43869212530dfaf8495f269c1ab19c8af58","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/access-review/SKILL.md","bytes":14489,"sha256":"8ea9088137ca9b9b15948d291f3ee43869212530dfaf8495f269c1ab19c8af58","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/access-review/SKILL.md"},{"path":"references/details.md","sourcePath":"skills/access-review/references/details.md","bytes":4760,"sha256":"b4128bf38515599a6829b6f05f6789d1dd7f0caf4ab5a12fbcfc462a43088885","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/access-review/references/details.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"0a6ad622493cbdfa870d56fabe7b26a62d7619b3eb8dda5dfdd6c70c167fddfd"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--access-review",
+    "name": "access-review",
+    "description": "Conduct periodic access reviews and certifications. Implement access governance and recertification workflows. Use when managing access compliance.",
+    "category": "Development",
+    "tags": [
+      "access",
+      "review",
+      "conduct",
+      "periodic",
+      "reviews",
+      "certifications.",
+      "implement",
+      "governance",
+      "recertification",
+      "workflows.",
+      "when",
+      "managing",
+      "compliance."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/access-review",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/access-review",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 20322,
+    "sha256": "8ea9088137ca9b9b15948d291f3ee43869212530dfaf8495f269c1ab19c8af58",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/access-review/SKILL.md",
+      "bytes": 14489,
+      "sha256": "8ea9088137ca9b9b15948d291f3ee43869212530dfaf8495f269c1ab19c8af58",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/access-review/SKILL.md"
+    },
+    {
+      "path": "references/details.md",
+      "sourcePath": "skills/access-review/references/details.md",
+      "bytes": 4760,
+      "sha256": "b4128bf38515599a6829b6f05f6789d1dd7f0caf4ab5a12fbcfc462a43088885",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/access-review/references/details.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "0a6ad622493cbdfa870d56fabe7b26a62d7619b3eb8dda5dfdd6c70c167fddfd"
+}

@@ -1,1 +1,152 @@
-{"schemaVersion":1,"skill":{"id":"coreyhaines31--marketingskills--ai-seo","name":"ai-seo","description":"When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' 'optimize for Claude/Gemini,' 'llms.txt,' 'llms-full.txt,' 'OKF,' 'Open Knowledge Format,' 'knowledge bundle,' 'agent-readable site,' 'agent readiness,' 'is my site agent-ready,' 'WebMCP,' 'do listicles still work for AI,' 'ChatGPT stopped citing comparison pages,' 'how do LLMs see our brand,' 'LinkedIn for AEO,' or 'AI citation format shift.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema.","category":"Marketing","tags":["ai","seo","when","user","wants","optimize","content","search","engines","get","cited","by","llms","appear","generated","answers.","also","mentions"],"repo":"coreyhaines31/marketingskills","owner":"coreyhaines31","stars":54287,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff","path":"skills/ai-seo","sourceUrl":"https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-08T21:51:37Z","fileCount":13,"bytes":131418,"sha256":"97424245fab155d065e39fae5fda8c031bb2f195083411842379fddb5e035e03","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/ai-seo/SKILL.md","bytes":33670,"sha256":"97424245fab155d065e39fae5fda8c031bb2f195083411842379fddb5e035e03","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/SKILL.md"},{"path":"evals/evals.json","sourcePath":"skills/ai-seo/evals/evals.json","bytes":17529,"sha256":"0bcec784c9af432c52845822b2c2b4d9f01b653edc7f59333b93ae6f625904c9","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/evals/evals.json"},{"path":"references/agent-readiness.md","sourcePath":"skills/ai-seo/references/agent-readiness.md","bytes":8204,"sha256":"4f9acbba3dc1e01cfea1d714e97c809d210a3837c88f743dc565ab1275786ebf","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/references/agent-readiness.md"},{"path":"references/citations-vs-recommendations.md","sourcePath":"skills/ai-seo/references/citations-vs-recommendations.md","bytes":10129,"sha256":"4cb2f9ac93273daa4eb3a554ce6ddb7cbcb1d2e1e5fcb49cba898b566579ebf3","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/references/citations-vs-recommendations.md"},{"path":"references/content-patterns.md","sourcePath":"skills/ai-seo/references/content-patterns.md","bytes":10432,"sha256":"8adcfcc020a3529eda71f783e4893d3e39e8b0f503fd2fa126e8b75a80963824","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/references/content-patterns.md"},{"path":"references/content-types.md","sourcePath":"skills/ai-seo/references/content-types.md","bytes":3558,"sha256":"2323104990cb3057f3ce135c2b7bac71e5369992d5aeb24cec009c8f6d841d0b","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/references/content-types.md"},{"path":"references/format-volatility.md","sourcePath":"skills/ai-seo/references/format-volatility.md","bytes":7269,"sha256":"235858ee4d820dd0b89d3c7ffc65f4f59c7904f63feef7d2fff78cc6818caddf","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/references/format-volatility.md"},{"path":"references/linkedin-ai-citations.md","sourcePath":"skills/ai-seo/references/linkedin-ai-citations.md","bytes":8747,"sha256":"2bd191703b543fc5f3ae36f5e367ed6d5504ad38e7446797cd3c5fe23ababd4b","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/references/linkedin-ai-citations.md"},{"path":"references/okf.md","sourcePath":"skills/ai-seo/references/okf.md","bytes":5952,"sha256":"4abcab5b8ee90b63c5d09c98387a8ec3cdb8f5df33e75d3b4b91eb817283bfd8","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/references/okf.md"},{"path":"references/platform-ranking-factors.md","sourcePath":"skills/ai-seo/references/platform-ranking-factors.md","bytes":13098,"sha256":"e3b06d48e3db081ee3ee12727e864b3023f4e2c5cc73bea44215cbd15e11fbfa","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/references/platform-ranking-factors.md"},{"path":"references/positioning-and-consensus.md","sourcePath":"skills/ai-seo/references/positioning-and-consensus.md","bytes":7283,"sha256":"b7618247e57a4560c3785155c34de77adc232784b7dd91b2c44a77a73617b9b4","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/references/positioning-and-consensus.md"},{"path":"references/youtube-ai-citations.md","sourcePath":"skills/ai-seo/references/youtube-ai-citations.md","bytes":4478,"sha256":"eee24cd9f377db5f59933c775a740f5ff7ece9f238b051157ba72531d9507a99","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/references/youtube-ai-citations.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1069,"sha256":"b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"}],"archiveSha256":"1937afd887ac746467fc4bc1b3869c772c19525b1fddf82d95a7944ccd44f6e2"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "coreyhaines31--marketingskills--ai-seo",
+    "name": "ai-seo",
+    "description": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' 'optimize for Claude/Gemini,' 'llms.txt,' 'llms-full.txt,' 'OKF,' 'Open Knowledge Format,' 'knowledge bundle,' 'agent-readable site,' 'agent readiness,' 'is my site agent-ready,' 'WebMCP,' 'do listicles still work for AI,' 'ChatGPT stopped citing comparison pages,' 'how do LLMs see our brand,' 'LinkedIn for AEO,' or 'AI citation format shift.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema.",
+    "category": "Marketing",
+    "tags": [
+      "ai",
+      "seo",
+      "when",
+      "user",
+      "wants",
+      "optimize",
+      "content",
+      "search",
+      "engines",
+      "get",
+      "cited",
+      "by",
+      "llms",
+      "appear",
+      "generated",
+      "answers.",
+      "also",
+      "mentions"
+    ],
+    "repo": "coreyhaines31/marketingskills",
+    "owner": "coreyhaines31",
+    "stars": 54287,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff",
+    "path": "skills/ai-seo",
+    "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-08T21:51:37Z",
+    "fileCount": 13,
+    "bytes": 131418,
+    "sha256": "97424245fab155d065e39fae5fda8c031bb2f195083411842379fddb5e035e03",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/ai-seo/SKILL.md",
+      "bytes": 33670,
+      "sha256": "97424245fab155d065e39fae5fda8c031bb2f195083411842379fddb5e035e03",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/SKILL.md"
+    },
+    {
+      "path": "evals/evals.json",
+      "sourcePath": "skills/ai-seo/evals/evals.json",
+      "bytes": 17529,
+      "sha256": "0bcec784c9af432c52845822b2c2b4d9f01b653edc7f59333b93ae6f625904c9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/evals/evals.json"
+    },
+    {
+      "path": "references/agent-readiness.md",
+      "sourcePath": "skills/ai-seo/references/agent-readiness.md",
+      "bytes": 8204,
+      "sha256": "4f9acbba3dc1e01cfea1d714e97c809d210a3837c88f743dc565ab1275786ebf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/references/agent-readiness.md"
+    },
+    {
+      "path": "references/citations-vs-recommendations.md",
+      "sourcePath": "skills/ai-seo/references/citations-vs-recommendations.md",
+      "bytes": 10129,
+      "sha256": "4cb2f9ac93273daa4eb3a554ce6ddb7cbcb1d2e1e5fcb49cba898b566579ebf3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/references/citations-vs-recommendations.md"
+    },
+    {
+      "path": "references/content-patterns.md",
+      "sourcePath": "skills/ai-seo/references/content-patterns.md",
+      "bytes": 10432,
+      "sha256": "8adcfcc020a3529eda71f783e4893d3e39e8b0f503fd2fa126e8b75a80963824",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/references/content-patterns.md"
+    },
+    {
+      "path": "references/content-types.md",
+      "sourcePath": "skills/ai-seo/references/content-types.md",
+      "bytes": 3558,
+      "sha256": "2323104990cb3057f3ce135c2b7bac71e5369992d5aeb24cec009c8f6d841d0b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/references/content-types.md"
+    },
+    {
+      "path": "references/format-volatility.md",
+      "sourcePath": "skills/ai-seo/references/format-volatility.md",
+      "bytes": 7269,
+      "sha256": "235858ee4d820dd0b89d3c7ffc65f4f59c7904f63feef7d2fff78cc6818caddf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/references/format-volatility.md"
+    },
+    {
+      "path": "references/linkedin-ai-citations.md",
+      "sourcePath": "skills/ai-seo/references/linkedin-ai-citations.md",
+      "bytes": 8747,
+      "sha256": "2bd191703b543fc5f3ae36f5e367ed6d5504ad38e7446797cd3c5fe23ababd4b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/references/linkedin-ai-citations.md"
+    },
+    {
+      "path": "references/okf.md",
+      "sourcePath": "skills/ai-seo/references/okf.md",
+      "bytes": 5952,
+      "sha256": "4abcab5b8ee90b63c5d09c98387a8ec3cdb8f5df33e75d3b4b91eb817283bfd8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/references/okf.md"
+    },
+    {
+      "path": "references/platform-ranking-factors.md",
+      "sourcePath": "skills/ai-seo/references/platform-ranking-factors.md",
+      "bytes": 13098,
+      "sha256": "e3b06d48e3db081ee3ee12727e864b3023f4e2c5cc73bea44215cbd15e11fbfa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/references/platform-ranking-factors.md"
+    },
+    {
+      "path": "references/positioning-and-consensus.md",
+      "sourcePath": "skills/ai-seo/references/positioning-and-consensus.md",
+      "bytes": 7283,
+      "sha256": "b7618247e57a4560c3785155c34de77adc232784b7dd91b2c44a77a73617b9b4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/references/positioning-and-consensus.md"
+    },
+    {
+      "path": "references/youtube-ai-citations.md",
+      "sourcePath": "skills/ai-seo/references/youtube-ai-citations.md",
+      "bytes": 4478,
+      "sha256": "eee24cd9f377db5f59933c775a740f5ff7ece9f238b051157ba72531d9507a99",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/ai-seo/references/youtube-ai-citations.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"
+    }
+  ],
+  "archiveSha256": "1937afd887ac746467fc4bc1b3869c772c19525b1fddf82d95a7944ccd44f6e2"
+}

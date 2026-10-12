@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-modbus-command-injection-attacks","name":"detecting-modbus-command-injection-attacks","description":"Detect command injection against Modbus TCP/RTU in ICS/SCADA environments by monitoring unauthorized writes, anomalous function codes, malformed frames, and deviations from communication baselines using ICS-aware IDS and deep packet inspection. Use when deploying IDS for Modbus OT networks, investigating unauthorized PLC register/coil changes, or responding to FrostyGoop-style Modbus attacks.","category":"Cloud & DevOps","tags":["detecting","modbus","command","injection","attacks","detect","against","tcp","rtu","ics","scada","environments","by","monitoring","unauthorized","writes","anomalous","function"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-modbus-command-injection-attacks/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-modbus-command-injection-attacks","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-modbus-command-injection-attacks","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":38720,"sha256":"0a53b89c506db9f9ac604674b21a62a666d857ddf91c828afbc19cfb53109245","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-modbus-command-injection-attacks/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-modbus-command-injection-attacks/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-modbus-command-injection-attacks/SKILL.md","bytes":20590,"sha256":"0a53b89c506db9f9ac604674b21a62a666d857ddf91c828afbc19cfb53109245","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-modbus-command-injection-attacks/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-modbus-command-injection-attacks/references/api-reference.md","bytes":1636,"sha256":"edcfbd0de2c4faf0cf31ac366de4440bf59fd5a85f8460869644b74ef7595c83","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-modbus-command-injection-attacks/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-modbus-command-injection-attacks/scripts/agent.py","bytes":5239,"sha256":"59bf8163a810ef14e704d1b035b6e0344dc101cc691bebb9887f2545509eb6ba","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-modbus-command-injection-attacks/scripts/agent.py"}],"archiveSha256":"eafefc5fc6dcec046009a39893cc168d7267cde9449cb72a427b785f65a06c4c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-modbus-command-injection-attacks",
+    "name": "detecting-modbus-command-injection-attacks",
+    "description": "Detect command injection against Modbus TCP/RTU in ICS/SCADA environments by monitoring unauthorized writes, anomalous function codes, malformed frames, and deviations from communication baselines using ICS-aware IDS and deep packet inspection. Use when deploying IDS for Modbus OT networks, investigating unauthorized PLC register/coil changes, or responding to FrostyGoop-style Modbus attacks.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "detecting",
+      "modbus",
+      "command",
+      "injection",
+      "attacks",
+      "detect",
+      "against",
+      "tcp",
+      "rtu",
+      "ics",
+      "scada",
+      "environments",
+      "by",
+      "monitoring",
+      "unauthorized",
+      "writes",
+      "anomalous",
+      "function"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-modbus-command-injection-attacks/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-modbus-command-injection-attacks",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-modbus-command-injection-attacks",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 38720,
+    "sha256": "0a53b89c506db9f9ac604674b21a62a666d857ddf91c828afbc19cfb53109245",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-modbus-command-injection-attacks/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-modbus-command-injection-attacks/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-modbus-command-injection-attacks/SKILL.md",
+      "bytes": 20590,
+      "sha256": "0a53b89c506db9f9ac604674b21a62a666d857ddf91c828afbc19cfb53109245",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-modbus-command-injection-attacks/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-modbus-command-injection-attacks/references/api-reference.md",
+      "bytes": 1636,
+      "sha256": "edcfbd0de2c4faf0cf31ac366de4440bf59fd5a85f8460869644b74ef7595c83",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-modbus-command-injection-attacks/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-modbus-command-injection-attacks/scripts/agent.py",
+      "bytes": 5239,
+      "sha256": "59bf8163a810ef14e704d1b035b6e0344dc101cc691bebb9887f2545509eb6ba",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-modbus-command-injection-attacks/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "eafefc5fc6dcec046009a39893cc168d7267cde9449cb72a427b785f65a06c4c"
+}

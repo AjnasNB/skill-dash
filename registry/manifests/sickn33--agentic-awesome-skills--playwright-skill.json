@@ -1,1 +1,96 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--playwright-skill","name":"playwright-skill","description":"IMPORTANT - Path Resolution: This skill can be installed in different locations (plugin system, manual installation, global, or project-specific). Before executing any commands, determine the skill directory based on where you loaded this SKILL.md file, and use that path in all commands below.","category":"Development","tags":["playwright","skill","important","path","resolution","be","installed","different","locations","plugin","system","manual","installation","global","project","specific","before","executing"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/playwright-skill","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/playwright-skill","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":6,"bytes":51873,"sha256":"43b105448b5820bea74c52ebf6393e3d62811573b8c64906a2c84965237bdde7","historical":false},"files":[{"path":"API_REFERENCE.md","sourcePath":"skills/playwright-skill/API_REFERENCE.md","bytes":16366,"sha256":"ed10f6472af9f2597be746cb6e0bce4a8a99864ae1a724c42f0ec61b6db4dd6b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/playwright-skill/API_REFERENCE.md"},{"path":"SKILL.md","sourcePath":"skills/playwright-skill/SKILL.md","bytes":14462,"sha256":"43b105448b5820bea74c52ebf6393e3d62811573b8c64906a2c84965237bdde7","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/playwright-skill/SKILL.md"},{"path":"lib/helpers.js","sourcePath":"skills/playwright-skill/lib/helpers.js","bytes":12857,"sha256":"388959d78412167a28a5af8bdc2b1d21ab6b619bac2c65273c9198e8671beefb","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/playwright-skill/lib/helpers.js"},{"path":"package.json","sourcePath":"skills/playwright-skill/package.json","bytes":652,"sha256":"b22d10a10dfff4770cb1e35e5f52a9fa78b0f05717a7f2d4e598930ef149262a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/playwright-skill/package.json"},{"path":"run.js","sourcePath":"skills/playwright-skill/run.js","bytes":6463,"sha256":"dad710efdc4ce89cb53e4b1d79dd6abf63e4be83cc845499a2001dbf3a39c8fa","mode":493,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/playwright-skill/run.js"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"e4554ff9351fe822963ca0bffc3190a34668daf30bff12d1814a26b658c59e69"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--playwright-skill",
+    "name": "playwright-skill",
+    "description": "IMPORTANT - Path Resolution: This skill can be installed in different locations (plugin system, manual installation, global, or project-specific). Before executing any commands, determine the skill directory based on where you loaded this SKILL.md file, and use that path in all commands below.",
+    "category": "Development",
+    "tags": [
+      "playwright",
+      "skill",
+      "important",
+      "path",
+      "resolution",
+      "be",
+      "installed",
+      "different",
+      "locations",
+      "plugin",
+      "system",
+      "manual",
+      "installation",
+      "global",
+      "project",
+      "specific",
+      "before",
+      "executing"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/playwright-skill",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/playwright-skill",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 6,
+    "bytes": 51873,
+    "sha256": "43b105448b5820bea74c52ebf6393e3d62811573b8c64906a2c84965237bdde7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "API_REFERENCE.md",
+      "sourcePath": "skills/playwright-skill/API_REFERENCE.md",
+      "bytes": 16366,
+      "sha256": "ed10f6472af9f2597be746cb6e0bce4a8a99864ae1a724c42f0ec61b6db4dd6b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/playwright-skill/API_REFERENCE.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/playwright-skill/SKILL.md",
+      "bytes": 14462,
+      "sha256": "43b105448b5820bea74c52ebf6393e3d62811573b8c64906a2c84965237bdde7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/playwright-skill/SKILL.md"
+    },
+    {
+      "path": "lib/helpers.js",
+      "sourcePath": "skills/playwright-skill/lib/helpers.js",
+      "bytes": 12857,
+      "sha256": "388959d78412167a28a5af8bdc2b1d21ab6b619bac2c65273c9198e8671beefb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/playwright-skill/lib/helpers.js"
+    },
+    {
+      "path": "package.json",
+      "sourcePath": "skills/playwright-skill/package.json",
+      "bytes": 652,
+      "sha256": "b22d10a10dfff4770cb1e35e5f52a9fa78b0f05717a7f2d4e598930ef149262a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/playwright-skill/package.json"
+    },
+    {
+      "path": "run.js",
+      "sourcePath": "skills/playwright-skill/run.js",
+      "bytes": 6463,
+      "sha256": "dad710efdc4ce89cb53e4b1d79dd6abf63e4be83cc845499a2001dbf3a39c8fa",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/playwright-skill/run.js"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "e4554ff9351fe822963ca0bffc3190a34668daf30bff12d1814a26b658c59e69"
+}

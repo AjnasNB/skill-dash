@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--event-staffing-ordering","name":"event-staffing-ordering","description":"Order W-2 compliant temporary event staff for conventions, trade shows, festivals, concerts, sporting events, and brand activations across 300+ US and Canadian markets via TempGuru. Covers city coverage, role pricing, availability, state compliance lookups via MCP, and request submission.","category":"AI & agents","tags":["event","staffing","ordering","order","compliant","temporary","staff","conventions","trade","shows","festivals","concerts","sporting","events","brand","activations","across","300+"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/event-staffing-ordering","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/event-staffing-ordering","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6984,"sha256":"c04ccc5c42f847a619ff6ab55463bac44c5f7f9bd12a81a1cc86dc4ee2492a84","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/event-staffing-ordering/SKILL.md","bytes":5911,"sha256":"c04ccc5c42f847a619ff6ab55463bac44c5f7f9bd12a81a1cc86dc4ee2492a84","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/event-staffing-ordering/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"11a5cfcd0025ec4747dac37b6c6c04cb21a1e95d889ddae9c64efc9db5e6f83e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--event-staffing-ordering",
+    "name": "event-staffing-ordering",
+    "description": "Order W-2 compliant temporary event staff for conventions, trade shows, festivals, concerts, sporting events, and brand activations across 300+ US and Canadian markets via TempGuru. Covers city coverage, role pricing, availability, state compliance lookups via MCP, and request submission.",
+    "category": "AI & agents",
+    "tags": [
+      "event",
+      "staffing",
+      "ordering",
+      "order",
+      "compliant",
+      "temporary",
+      "staff",
+      "conventions",
+      "trade",
+      "shows",
+      "festivals",
+      "concerts",
+      "sporting",
+      "events",
+      "brand",
+      "activations",
+      "across",
+      "300+"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/event-staffing-ordering",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/event-staffing-ordering",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6984,
+    "sha256": "c04ccc5c42f847a619ff6ab55463bac44c5f7f9bd12a81a1cc86dc4ee2492a84",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/event-staffing-ordering/SKILL.md",
+      "bytes": 5911,
+      "sha256": "c04ccc5c42f847a619ff6ab55463bac44c5f7f9bd12a81a1cc86dc4ee2492a84",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/event-staffing-ordering/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "11a5cfcd0025ec4747dac37b6c6c04cb21a1e95d889ddae9c64efc9db5e6f83e"
+}

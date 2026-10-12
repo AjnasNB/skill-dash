@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--broken-authentication","name":"broken-authentication","description":"Identify and exploit authentication and session management vulnerabilities in web applications. Broken authentication consistently ranks in the OWASP Top 10 and can lead to account takeover, identity theft, and unauthorized access to sensitive systems.","category":"Security","tags":["broken","authentication","identify","exploit","session","management","vulnerabilities","web","applications.","consistently","ranks","owasp","top","10","lead","account","takeover","identity"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/broken-authentication","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/broken-authentication","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":14530,"sha256":"53d198f65c239cc854de17fddb3e860595aabd1af9ca597cdda3ef8339dbe653","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/broken-authentication/SKILL.md","bytes":13457,"sha256":"53d198f65c239cc854de17fddb3e860595aabd1af9ca597cdda3ef8339dbe653","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/broken-authentication/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"94d26183b319b1106635a83479f8116370ced698f50fc736e1ce92bdcac0981a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--broken-authentication",
+    "name": "broken-authentication",
+    "description": "Identify and exploit authentication and session management vulnerabilities in web applications. Broken authentication consistently ranks in the OWASP Top 10 and can lead to account takeover, identity theft, and unauthorized access to sensitive systems.",
+    "category": "Security",
+    "tags": [
+      "broken",
+      "authentication",
+      "identify",
+      "exploit",
+      "session",
+      "management",
+      "vulnerabilities",
+      "web",
+      "applications.",
+      "consistently",
+      "ranks",
+      "owasp",
+      "top",
+      "10",
+      "lead",
+      "account",
+      "takeover",
+      "identity"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/broken-authentication",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/broken-authentication",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 14530,
+    "sha256": "53d198f65c239cc854de17fddb3e860595aabd1af9ca597cdda3ef8339dbe653",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/broken-authentication/SKILL.md",
+      "bytes": 13457,
+      "sha256": "53d198f65c239cc854de17fddb3e860595aabd1af9ca597cdda3ef8339dbe653",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/broken-authentication/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "94d26183b319b1106635a83479f8116370ced698f50fc736e1ce92bdcac0981a"
+}

@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--context-window-management","name":"context-window-management","description":"Strategies for managing LLM context windows including summarization, trimming, routing, and avoiding context rot","category":"AI & agents","tags":["context","window","management","strategies","managing","llm","windows","including","summarization","trimming","routing","avoiding","rot"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/context-window-management","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/context-window-management","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":10612,"sha256":"15cbbe382e643897c9b0cf3973bc557d0ab857311f017799494c87da6787bf90","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/context-window-management/SKILL.md","bytes":9539,"sha256":"15cbbe382e643897c9b0cf3973bc557d0ab857311f017799494c87da6787bf90","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/context-window-management/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"8382e4028f3875f6ead253077c543afabb90f5b5496f3c728dd183d715ef9e9a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--context-window-management",
+    "name": "context-window-management",
+    "description": "Strategies for managing LLM context windows including summarization, trimming, routing, and avoiding context rot",
+    "category": "AI & agents",
+    "tags": [
+      "context",
+      "window",
+      "management",
+      "strategies",
+      "managing",
+      "llm",
+      "windows",
+      "including",
+      "summarization",
+      "trimming",
+      "routing",
+      "avoiding",
+      "rot"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/context-window-management",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/context-window-management",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10612,
+    "sha256": "15cbbe382e643897c9b0cf3973bc557d0ab857311f017799494c87da6787bf90",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/context-window-management/SKILL.md",
+      "bytes": 9539,
+      "sha256": "15cbbe382e643897c9b0cf3973bc557d0ab857311f017799494c87da6787bf90",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/context-window-management/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "8382e4028f3875f6ead253077c543afabb90f5b5496f3c728dd183d715ef9e9a"
+}

@@ -1,1 +1,96 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--axiom","name":"axiom","description":"First-principles assumption auditor. Classifies each hidden assumption (fact / convention / belief / interest-driven), ranks by fragility × impact, and rebuilds conclusions from verified premises. Bilingual: auto-detects Chinese or English.","category":"Development","tags":["axiom","first","principles","assumption","auditor.","classifies","each","hidden","fact","convention","belief","interest","driven","ranks","by","fragility","impact","rebuilds"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/axiom","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/axiom","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":6,"bytes":52741,"sha256":"e708ecf306dd955eeebf1618668c73b468a5557ee4d4e8246d0e33bc65dfb17f","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/axiom/SKILL.md","bytes":13324,"sha256":"e708ecf306dd955eeebf1618668c73b468a5557ee4d4e8246d0e33bc65dfb17f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/axiom/SKILL.md"},{"path":"examples/walkthrough-en.md","sourcePath":"skills/axiom/examples/walkthrough-en.md","bytes":6899,"sha256":"97da2b22df757f677cc0985c84b905fc5b1f1fbbf36a78521167efc3548b239f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/axiom/examples/walkthrough-en.md"},{"path":"examples/walkthrough-zh.md","sourcePath":"skills/axiom/examples/walkthrough-zh.md","bytes":5038,"sha256":"e8deed3b0de4104424e113312fc67d7556f75136136d2a723bb24877eef73e48","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/axiom/examples/walkthrough-zh.md"},{"path":"references/assumption-types.md","sourcePath":"skills/axiom/references/assumption-types.md","bytes":14542,"sha256":"0fa6e5143e31f083edef6379272b60710028b001d44a62ca36ba747eda2f8046","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/axiom/references/assumption-types.md"},{"path":"references/scenarios.md","sourcePath":"skills/axiom/references/scenarios.md","bytes":11865,"sha256":"7e075050b9b6b1cac36b73d307158f0b75d44bf5607bdcc5f20fd38805674c41","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/axiom/references/scenarios.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"dd4a444c727381799f068d9f14dae5a5f9b1f587ffeebb20bb796015cfead18c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--axiom",
+    "name": "axiom",
+    "description": "First-principles assumption auditor. Classifies each hidden assumption (fact / convention / belief / interest-driven), ranks by fragility × impact, and rebuilds conclusions from verified premises. Bilingual: auto-detects Chinese or English.",
+    "category": "Development",
+    "tags": [
+      "axiom",
+      "first",
+      "principles",
+      "assumption",
+      "auditor.",
+      "classifies",
+      "each",
+      "hidden",
+      "fact",
+      "convention",
+      "belief",
+      "interest",
+      "driven",
+      "ranks",
+      "by",
+      "fragility",
+      "impact",
+      "rebuilds"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/axiom",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/axiom",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 6,
+    "bytes": 52741,
+    "sha256": "e708ecf306dd955eeebf1618668c73b468a5557ee4d4e8246d0e33bc65dfb17f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/axiom/SKILL.md",
+      "bytes": 13324,
+      "sha256": "e708ecf306dd955eeebf1618668c73b468a5557ee4d4e8246d0e33bc65dfb17f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/axiom/SKILL.md"
+    },
+    {
+      "path": "examples/walkthrough-en.md",
+      "sourcePath": "skills/axiom/examples/walkthrough-en.md",
+      "bytes": 6899,
+      "sha256": "97da2b22df757f677cc0985c84b905fc5b1f1fbbf36a78521167efc3548b239f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/axiom/examples/walkthrough-en.md"
+    },
+    {
+      "path": "examples/walkthrough-zh.md",
+      "sourcePath": "skills/axiom/examples/walkthrough-zh.md",
+      "bytes": 5038,
+      "sha256": "e8deed3b0de4104424e113312fc67d7556f75136136d2a723bb24877eef73e48",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/axiom/examples/walkthrough-zh.md"
+    },
+    {
+      "path": "references/assumption-types.md",
+      "sourcePath": "skills/axiom/references/assumption-types.md",
+      "bytes": 14542,
+      "sha256": "0fa6e5143e31f083edef6379272b60710028b001d44a62ca36ba747eda2f8046",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/axiom/references/assumption-types.md"
+    },
+    {
+      "path": "references/scenarios.md",
+      "sourcePath": "skills/axiom/references/scenarios.md",
+      "bytes": 11865,
+      "sha256": "7e075050b9b6b1cac36b73d307158f0b75d44bf5607bdcc5f20fd38805674c41",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/axiom/references/scenarios.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "dd4a444c727381799f068d9f14dae5a5f9b1f587ffeebb20bb796015cfead18c"
+}

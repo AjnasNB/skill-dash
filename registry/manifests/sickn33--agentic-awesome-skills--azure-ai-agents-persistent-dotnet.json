@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--azure-ai-agents-persistent-dotnet","name":"azure-ai-agents-persistent-dotnet","description":"Azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools.","category":"Cloud & DevOps","tags":["azure","ai","agents","persistent","dotnet","sdk",".net.","low","level","creating","managing","threads","messages","runs","tools."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/azure-ai-agents-persistent-dotnet","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-agents-persistent-dotnet","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12364,"sha256":"dff99cb22948cc4e80f9603c08bd78bfdc072687291af6eba31c330667dd701c","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/azure-ai-agents-persistent-dotnet/SKILL.md","bytes":11291,"sha256":"dff99cb22948cc4e80f9603c08bd78bfdc072687291af6eba31c330667dd701c","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-agents-persistent-dotnet/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"cece91779e3521f21e2a73215918e6d920b194ecbd2b39a229482d87c1d39200"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--azure-ai-agents-persistent-dotnet",
+    "name": "azure-ai-agents-persistent-dotnet",
+    "description": "Azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "azure",
+      "ai",
+      "agents",
+      "persistent",
+      "dotnet",
+      "sdk",
+      ".net.",
+      "low",
+      "level",
+      "creating",
+      "managing",
+      "threads",
+      "messages",
+      "runs",
+      "tools."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/azure-ai-agents-persistent-dotnet",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-agents-persistent-dotnet",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12364,
+    "sha256": "dff99cb22948cc4e80f9603c08bd78bfdc072687291af6eba31c330667dd701c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/azure-ai-agents-persistent-dotnet/SKILL.md",
+      "bytes": 11291,
+      "sha256": "dff99cb22948cc4e80f9603c08bd78bfdc072687291af6eba31c330667dd701c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-agents-persistent-dotnet/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "cece91779e3521f21e2a73215918e6d920b194ecbd2b39a229482d87c1d39200"
+}

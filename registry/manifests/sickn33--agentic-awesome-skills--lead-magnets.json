@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--lead-magnets","name":"lead-magnets","description":"Plan and optimize lead magnets for email capture and lead generation. Use when designing gated content, checklists, templates, downloadable resources, or other offers that convert visitors into subscribers.","category":"Writing","tags":["lead","magnets","plan","optimize","email","capture","generation.","when","designing","gated","content","checklists","templates","downloadable","resources","other","offers","convert"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/lead-magnets","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lead-magnets","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":4,"bytes":22434,"sha256":"57239be2a07e4f396c2785829e600359d281dd148588dc73e07f1a3e2bf57cdb","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/lead-magnets/SKILL.md","bytes":11293,"sha256":"57239be2a07e4f396c2785829e600359d281dd148588dc73e07f1a3e2bf57cdb","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lead-magnets/SKILL.md"},{"path":"references/benchmarks.md","sourcePath":"skills/lead-magnets/references/benchmarks.md","bytes":4234,"sha256":"becdf4bcde17e788ead10794c797294548c712ea1074e042336da93433a61187","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lead-magnets/references/benchmarks.md"},{"path":"references/format-guide.md","sourcePath":"skills/lead-magnets/references/format-guide.md","bytes":5834,"sha256":"160b34c4c0d19e67fcc032181fdfbf1d5cae6dac94937f2333e8e21815ce9732","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lead-magnets/references/format-guide.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"921e6f7cb10dc7ef6253c96fb568a7f88d5ca01739390da373cfb712553664d8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--lead-magnets",
+    "name": "lead-magnets",
+    "description": "Plan and optimize lead magnets for email capture and lead generation. Use when designing gated content, checklists, templates, downloadable resources, or other offers that convert visitors into subscribers.",
+    "category": "Writing",
+    "tags": [
+      "lead",
+      "magnets",
+      "plan",
+      "optimize",
+      "email",
+      "capture",
+      "generation.",
+      "when",
+      "designing",
+      "gated",
+      "content",
+      "checklists",
+      "templates",
+      "downloadable",
+      "resources",
+      "other",
+      "offers",
+      "convert"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/lead-magnets",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lead-magnets",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 4,
+    "bytes": 22434,
+    "sha256": "57239be2a07e4f396c2785829e600359d281dd148588dc73e07f1a3e2bf57cdb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/lead-magnets/SKILL.md",
+      "bytes": 11293,
+      "sha256": "57239be2a07e4f396c2785829e600359d281dd148588dc73e07f1a3e2bf57cdb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lead-magnets/SKILL.md"
+    },
+    {
+      "path": "references/benchmarks.md",
+      "sourcePath": "skills/lead-magnets/references/benchmarks.md",
+      "bytes": 4234,
+      "sha256": "becdf4bcde17e788ead10794c797294548c712ea1074e042336da93433a61187",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lead-magnets/references/benchmarks.md"
+    },
+    {
+      "path": "references/format-guide.md",
+      "sourcePath": "skills/lead-magnets/references/format-guide.md",
+      "bytes": 5834,
+      "sha256": "160b34c4c0d19e67fcc032181fdfbf1d5cae6dac94937f2333e8e21815ce9732",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lead-magnets/references/format-guide.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "921e6f7cb10dc7ef6253c96fb568a7f88d5ca01739390da373cfb712553664d8"
+}

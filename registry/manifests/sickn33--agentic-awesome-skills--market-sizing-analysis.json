@@ -1,1 +1,78 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--market-sizing-analysis","name":"market-sizing-analysis","description":"Comprehensive market sizing methodologies for calculating Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) for startup opportunities.","category":"Product & business","tags":["market","sizing","analysis","comprehensive","methodologies","calculating","total","addressable","tam","serviceable","available","sam","obtainable","som","startup","opportunities."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/market-sizing-analysis","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/market-sizing-analysis","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":4,"bytes":33532,"sha256":"15c6b5a4c3eccc8d8933d1d2886ee5bdbd2368ef632381bff1e08e27b4e76df1","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/market-sizing-analysis/SKILL.md","bytes":13075,"sha256":"15c6b5a4c3eccc8d8933d1d2886ee5bdbd2368ef632381bff1e08e27b4e76df1","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/market-sizing-analysis/SKILL.md"},{"path":"examples/saas-market-sizing.md","sourcePath":"skills/market-sizing-analysis/examples/saas-market-sizing.md","bytes":10269,"sha256":"ce1514965196d1fae3e4d35198edd7a64de28bffc3ac3afd672fbf85116ad519","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/market-sizing-analysis/examples/saas-market-sizing.md"},{"path":"references/data-sources.md","sourcePath":"skills/market-sizing-analysis/references/data-sources.md","bytes":9115,"sha256":"8382b5a4c58918e157fdce45354bf4f344d6a0e781de4e73781f2eedaa93093e","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/market-sizing-analysis/references/data-sources.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"614176e8888f30363053c95ca0cfc27f5f6424bea44737df33d569edb326cde0"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--market-sizing-analysis",
+    "name": "market-sizing-analysis",
+    "description": "Comprehensive market sizing methodologies for calculating Total Addressable Market (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM) for startup opportunities.",
+    "category": "Product & business",
+    "tags": [
+      "market",
+      "sizing",
+      "analysis",
+      "comprehensive",
+      "methodologies",
+      "calculating",
+      "total",
+      "addressable",
+      "tam",
+      "serviceable",
+      "available",
+      "sam",
+      "obtainable",
+      "som",
+      "startup",
+      "opportunities."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/market-sizing-analysis",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/market-sizing-analysis",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 4,
+    "bytes": 33532,
+    "sha256": "15c6b5a4c3eccc8d8933d1d2886ee5bdbd2368ef632381bff1e08e27b4e76df1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/market-sizing-analysis/SKILL.md",
+      "bytes": 13075,
+      "sha256": "15c6b5a4c3eccc8d8933d1d2886ee5bdbd2368ef632381bff1e08e27b4e76df1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/market-sizing-analysis/SKILL.md"
+    },
+    {
+      "path": "examples/saas-market-sizing.md",
+      "sourcePath": "skills/market-sizing-analysis/examples/saas-market-sizing.md",
+      "bytes": 10269,
+      "sha256": "ce1514965196d1fae3e4d35198edd7a64de28bffc3ac3afd672fbf85116ad519",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/market-sizing-analysis/examples/saas-market-sizing.md"
+    },
+    {
+      "path": "references/data-sources.md",
+      "sourcePath": "skills/market-sizing-analysis/references/data-sources.md",
+      "bytes": 9115,
+      "sha256": "8382b5a4c58918e157fdce45354bf4f344d6a0e781de4e73781f2eedaa93093e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/market-sizing-analysis/references/data-sources.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "614176e8888f30363053c95ca0cfc27f5f6424bea44737df33d569edb326cde0"
+}

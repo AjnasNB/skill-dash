@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--alpha-vantage","name":"alpha-vantage","description":"Access 20+ years of global financial data: equities, options, forex, crypto, commodities, economic indicators, and 50+ technical indicators.","category":"Development","tags":["alpha","vantage","access","20+","years","global","financial","data","equities","options","forex","crypto","commodities","economic","indicators","50+","technical","indicators."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/alpha-vantage","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/alpha-vantage","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6453,"sha256":"dd40f652e15f42f865296f1cce36680e35e03f9f68d88ec62c814e8242949ab5","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/alpha-vantage/SKILL.md","bytes":5380,"sha256":"dd40f652e15f42f865296f1cce36680e35e03f9f68d88ec62c814e8242949ab5","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/alpha-vantage/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"aff9704bbc1f27e1acf4b9542b75d514016f956548ac782d1c7cf632083024b1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--alpha-vantage",
+    "name": "alpha-vantage",
+    "description": "Access 20+ years of global financial data: equities, options, forex, crypto, commodities, economic indicators, and 50+ technical indicators.",
+    "category": "Development",
+    "tags": [
+      "alpha",
+      "vantage",
+      "access",
+      "20+",
+      "years",
+      "global",
+      "financial",
+      "data",
+      "equities",
+      "options",
+      "forex",
+      "crypto",
+      "commodities",
+      "economic",
+      "indicators",
+      "50+",
+      "technical",
+      "indicators."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/alpha-vantage",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/alpha-vantage",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6453,
+    "sha256": "dd40f652e15f42f865296f1cce36680e35e03f9f68d88ec62c814e8242949ab5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/alpha-vantage/SKILL.md",
+      "bytes": 5380,
+      "sha256": "dd40f652e15f42f865296f1cce36680e35e03f9f68d88ec62c814e8242949ab5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/alpha-vantage/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "aff9704bbc1f27e1acf4b9542b75d514016f956548ac782d1c7cf632083024b1"
+}

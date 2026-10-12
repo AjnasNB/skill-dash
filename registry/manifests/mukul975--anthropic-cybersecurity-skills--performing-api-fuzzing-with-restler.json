@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-api-fuzzing-with-restler","name":"performing-api-fuzzing-with-restler","description":"Uses Microsoft RESTler to perform stateful REST API fuzzing: compiles an OpenAPI/Swagger spec into a RESTler grammar, configures authentication, and runs test/fuzz-lean/fuzz modes that generate request sequences exercising producer-consumer dependencies, then flags 500 errors, auth bypasses, resource leaks, and injection bugs. Use when fuzzing REST APIs for stateful bugs or running RESTler-based automated API security testing.","category":"Security","tags":["performing","api","fuzzing","restler","uses","microsoft","perform","stateful","rest","compiles","openapi","swagger","spec","into","grammar","configures","authentication","runs"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-api-fuzzing-with-restler/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-api-fuzzing-with-restler","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-api-fuzzing-with-restler","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":34222,"sha256":"61643bf5ae0534cf920b62ed629280b3605bbe085939d9f8cfd459ee625ae1c1","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-api-fuzzing-with-restler/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-api-fuzzing-with-restler/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-api-fuzzing-with-restler/SKILL.md","bytes":13577,"sha256":"61643bf5ae0534cf920b62ed629280b3605bbe085939d9f8cfd459ee625ae1c1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-api-fuzzing-with-restler/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-api-fuzzing-with-restler/references/api-reference.md","bytes":1965,"sha256":"784163dd81b544a5a78a11d7a9fd01a3c97c6d5c69a921c2d1d23eef5b844732","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-api-fuzzing-with-restler/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-api-fuzzing-with-restler/scripts/agent.py","bytes":7425,"sha256":"d19cc434b1834e84b59cc82118530a262f83bbc23683c03b4b2e0a34c24adb2e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-api-fuzzing-with-restler/scripts/agent.py"}],"archiveSha256":"8b05a6b30219c33517deaf8f01d4e4ec25ceeccce3816818043ff54cf7174835"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-api-fuzzing-with-restler",
+    "name": "performing-api-fuzzing-with-restler",
+    "description": "Uses Microsoft RESTler to perform stateful REST API fuzzing: compiles an OpenAPI/Swagger spec into a RESTler grammar, configures authentication, and runs test/fuzz-lean/fuzz modes that generate request sequences exercising producer-consumer dependencies, then flags 500 errors, auth bypasses, resource leaks, and injection bugs. Use when fuzzing REST APIs for stateful bugs or running RESTler-based automated API security testing.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "api",
+      "fuzzing",
+      "restler",
+      "uses",
+      "microsoft",
+      "perform",
+      "stateful",
+      "rest",
+      "compiles",
+      "openapi",
+      "swagger",
+      "spec",
+      "into",
+      "grammar",
+      "configures",
+      "authentication",
+      "runs"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-api-fuzzing-with-restler/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-api-fuzzing-with-restler",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-api-fuzzing-with-restler",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34222,
+    "sha256": "61643bf5ae0534cf920b62ed629280b3605bbe085939d9f8cfd459ee625ae1c1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-api-fuzzing-with-restler/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-api-fuzzing-with-restler/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-api-fuzzing-with-restler/SKILL.md",
+      "bytes": 13577,
+      "sha256": "61643bf5ae0534cf920b62ed629280b3605bbe085939d9f8cfd459ee625ae1c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-api-fuzzing-with-restler/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-api-fuzzing-with-restler/references/api-reference.md",
+      "bytes": 1965,
+      "sha256": "784163dd81b544a5a78a11d7a9fd01a3c97c6d5c69a921c2d1d23eef5b844732",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-api-fuzzing-with-restler/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-api-fuzzing-with-restler/scripts/agent.py",
+      "bytes": 7425,
+      "sha256": "d19cc434b1834e84b59cc82118530a262f83bbc23683c03b4b2e0a34c24adb2e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-api-fuzzing-with-restler/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "8b05a6b30219c33517deaf8f01d4e4ec25ceeccce3816818043ff54cf7174835"
+}

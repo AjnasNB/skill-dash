@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--gh-image","name":"gh-image","description":"Upload local images to GitHub and get canonical user-attachments embed URLs; use when asked to attach a screenshot to a PR, issue, or comment, or to embed before/after images in a README.","category":"Development","tags":["gh","image","upload","local","images","github","get","canonical","user","attachments","embed","urls","when","asked","attach","screenshot","pr","issue"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/gh-image","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gh-image","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5708,"sha256":"60debd5b0b2df4d3b2b7690e8ce1324dcd7a2604f416dd7f2bda586fb315c273","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/gh-image/SKILL.md","bytes":4635,"sha256":"60debd5b0b2df4d3b2b7690e8ce1324dcd7a2604f416dd7f2bda586fb315c273","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gh-image/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"b3efd7e3c548037aa3b93f14baad9908918aee161e556842ab0627ffe46b20cb"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--gh-image",
+    "name": "gh-image",
+    "description": "Upload local images to GitHub and get canonical user-attachments embed URLs; use when asked to attach a screenshot to a PR, issue, or comment, or to embed before/after images in a README.",
+    "category": "Development",
+    "tags": [
+      "gh",
+      "image",
+      "upload",
+      "local",
+      "images",
+      "github",
+      "get",
+      "canonical",
+      "user",
+      "attachments",
+      "embed",
+      "urls",
+      "when",
+      "asked",
+      "attach",
+      "screenshot",
+      "pr",
+      "issue"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/gh-image",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gh-image",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5708,
+    "sha256": "60debd5b0b2df4d3b2b7690e8ce1324dcd7a2604f416dd7f2bda586fb315c273",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/gh-image/SKILL.md",
+      "bytes": 4635,
+      "sha256": "60debd5b0b2df4d3b2b7690e8ce1324dcd7a2604f416dd7f2bda586fb315c273",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gh-image/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "b3efd7e3c548037aa3b93f14baad9908918aee161e556842ab0627ffe46b20cb"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--viral-generator-builder","name":"viral-generator-builder","description":"Expert in building shareable generator tools that go viral - name generators, quiz makers, avatar creators, personality tests, and calculator tools. Covers the psychology of sharing, viral mechanics, and building tools people can't resist sharing with friends.","category":"Development","tags":["viral","generator","builder","expert","building","shareable","tools","go","name","generators","quiz","makers","avatar","creators","personality","tests","calculator","tools."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/viral-generator-builder","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/viral-generator-builder","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":9042,"sha256":"91c97964800cfb3ce08ae8ed153599b00c4450933882face3cdae766ae8c8d1d","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/viral-generator-builder/SKILL.md","bytes":7969,"sha256":"91c97964800cfb3ce08ae8ed153599b00c4450933882face3cdae766ae8c8d1d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/viral-generator-builder/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"62dee934fc5ff1aeebc2cc1a956d3828225a652bb78f0f2e54e0e4768e2a7379"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--viral-generator-builder",
+    "name": "viral-generator-builder",
+    "description": "Expert in building shareable generator tools that go viral - name generators, quiz makers, avatar creators, personality tests, and calculator tools. Covers the psychology of sharing, viral mechanics, and building tools people can't resist sharing with friends.",
+    "category": "Development",
+    "tags": [
+      "viral",
+      "generator",
+      "builder",
+      "expert",
+      "building",
+      "shareable",
+      "tools",
+      "go",
+      "name",
+      "generators",
+      "quiz",
+      "makers",
+      "avatar",
+      "creators",
+      "personality",
+      "tests",
+      "calculator",
+      "tools."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/viral-generator-builder",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/viral-generator-builder",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9042,
+    "sha256": "91c97964800cfb3ce08ae8ed153599b00c4450933882face3cdae766ae8c8d1d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/viral-generator-builder/SKILL.md",
+      "bytes": 7969,
+      "sha256": "91c97964800cfb3ce08ae8ed153599b00c4450933882face3cdae766ae8c8d1d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/viral-generator-builder/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "62dee934fc5ff1aeebc2cc1a956d3828225a652bb78f0f2e54e0e4768e2a7379"
+}

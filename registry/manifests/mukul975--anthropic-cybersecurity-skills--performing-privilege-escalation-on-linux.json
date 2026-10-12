@@ -1,1 +1,96 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-privilege-escalation-on-linux","name":"performing-privilege-escalation-on-linux","description":"Guides manual enumeration and automated tooling to escalate from a low-privilege Linux user to root by exploiting misconfigurations, vulnerable services, kernel exploits, and weak permissions, mapped to MITRE ATT&CK. Use during authorized red team engagements or penetration tests once initial low-privilege access on a Linux host is obtained and root-level access is needed.","category":"Security","tags":["performing","privilege","escalation","linux","guides","manual","enumeration","automated","tooling","escalate","from","low","user","root","by","exploiting","misconfigurations","vulnerable"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-privilege-escalation-on-linux/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-privilege-escalation-on-linux","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privilege-escalation-on-linux","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":6,"bytes":30438,"sha256":"721b863a2f932c725f256b21726535ee5285c95943ef268d3d12ac3dd0e4f1fc","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-privilege-escalation-on-linux/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privilege-escalation-on-linux/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-privilege-escalation-on-linux/SKILL.md","bytes":4205,"sha256":"721b863a2f932c725f256b21726535ee5285c95943ef268d3d12ac3dd0e4f1fc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privilege-escalation-on-linux/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-privilege-escalation-on-linux/references/api-reference.md","bytes":1837,"sha256":"11c06341ad7a555c4cb7094abc571d63aa1816ba48025a6bbb8aa99e39979fdb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privilege-escalation-on-linux/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/performing-privilege-escalation-on-linux/references/standards.md","bytes":1223,"sha256":"8adc7f792f93654d241f7d1155cd8d17ddf84270a5f200ef10945226ac1c6318","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privilege-escalation-on-linux/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/performing-privilege-escalation-on-linux/references/workflows.md","bytes":3292,"sha256":"256a28d8697c05e45504dff3ea9d6d86ffe689a00a39aa2f83426814af877d33","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privilege-escalation-on-linux/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-privilege-escalation-on-linux/scripts/agent.py","bytes":8626,"sha256":"97de8ea8bbaed53e11cf6c471bfefaf65d482c5758d9cb95ee26abab229209a0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privilege-escalation-on-linux/scripts/agent.py"}],"archiveSha256":"e3956f46c8c1a3f3eb3f34a890429a9dbce02cf8a902877197221503bda72486"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-privilege-escalation-on-linux",
+    "name": "performing-privilege-escalation-on-linux",
+    "description": "Guides manual enumeration and automated tooling to escalate from a low-privilege Linux user to root by exploiting misconfigurations, vulnerable services, kernel exploits, and weak permissions, mapped to MITRE ATT&CK. Use during authorized red team engagements or penetration tests once initial low-privilege access on a Linux host is obtained and root-level access is needed.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "privilege",
+      "escalation",
+      "linux",
+      "guides",
+      "manual",
+      "enumeration",
+      "automated",
+      "tooling",
+      "escalate",
+      "from",
+      "low",
+      "user",
+      "root",
+      "by",
+      "exploiting",
+      "misconfigurations",
+      "vulnerable"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-privilege-escalation-on-linux/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-privilege-escalation-on-linux",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privilege-escalation-on-linux",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 6,
+    "bytes": 30438,
+    "sha256": "721b863a2f932c725f256b21726535ee5285c95943ef268d3d12ac3dd0e4f1fc",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-privilege-escalation-on-linux/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privilege-escalation-on-linux/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-privilege-escalation-on-linux/SKILL.md",
+      "bytes": 4205,
+      "sha256": "721b863a2f932c725f256b21726535ee5285c95943ef268d3d12ac3dd0e4f1fc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privilege-escalation-on-linux/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-privilege-escalation-on-linux/references/api-reference.md",
+      "bytes": 1837,
+      "sha256": "11c06341ad7a555c4cb7094abc571d63aa1816ba48025a6bbb8aa99e39979fdb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privilege-escalation-on-linux/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-privilege-escalation-on-linux/references/standards.md",
+      "bytes": 1223,
+      "sha256": "8adc7f792f93654d241f7d1155cd8d17ddf84270a5f200ef10945226ac1c6318",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privilege-escalation-on-linux/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-privilege-escalation-on-linux/references/workflows.md",
+      "bytes": 3292,
+      "sha256": "256a28d8697c05e45504dff3ea9d6d86ffe689a00a39aa2f83426814af877d33",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privilege-escalation-on-linux/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-privilege-escalation-on-linux/scripts/agent.py",
+      "bytes": 8626,
+      "sha256": "97de8ea8bbaed53e11cf6c471bfefaf65d482c5758d9cb95ee26abab229209a0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privilege-escalation-on-linux/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "e3956f46c8c1a3f3eb3f34a890429a9dbce02cf8a902877197221503bda72486"
+}

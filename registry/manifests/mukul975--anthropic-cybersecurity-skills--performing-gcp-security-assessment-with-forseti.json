@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-gcp-security-assessment-with-forseti","name":"performing-gcp-security-assessment-with-forseti","description":"Performing comprehensive security assessments of Google Cloud Platform environments using Forseti Security, Security Command Center, and gcloud CLI to audit IAM policies, firewall rules, storage permissions, and compliance against CIS GCP Foundations Benchmark.","category":"Security","tags":["performing","gcp","security","assessment","forseti","comprehensive","assessments","google","cloud","platform","environments","command","center","gcloud","cli","audit","iam","policies"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-gcp-security-assessment-with-forseti/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-gcp-security-assessment-with-forseti","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-gcp-security-assessment-with-forseti","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":31727,"sha256":"414468feeab2af7a7a73336311658225ed50919217822cfe386f9dc88636ad68","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-gcp-security-assessment-with-forseti/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-gcp-security-assessment-with-forseti/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-gcp-security-assessment-with-forseti/SKILL.md","bytes":11216,"sha256":"414468feeab2af7a7a73336311658225ed50919217822cfe386f9dc88636ad68","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-gcp-security-assessment-with-forseti/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-gcp-security-assessment-with-forseti/references/api-reference.md","bytes":1949,"sha256":"a5fac2c761699f033d299f00898350932c9e107af4999f436c2de9ec026f72c1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-gcp-security-assessment-with-forseti/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-gcp-security-assessment-with-forseti/scripts/agent.py","bytes":7307,"sha256":"83b7871ebb015707ad1ed939b608ff791710c3bc8a5245af76179fc272ff5009","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-gcp-security-assessment-with-forseti/scripts/agent.py"}],"archiveSha256":"89638e28e2d5119b495163d34a11d9a8bdc54c63a5dd080eedb08d4a69d4433d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-gcp-security-assessment-with-forseti",
+    "name": "performing-gcp-security-assessment-with-forseti",
+    "description": "Performing comprehensive security assessments of Google Cloud Platform environments using Forseti Security, Security Command Center, and gcloud CLI to audit IAM policies, firewall rules, storage permissions, and compliance against CIS GCP Foundations Benchmark.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "gcp",
+      "security",
+      "assessment",
+      "forseti",
+      "comprehensive",
+      "assessments",
+      "google",
+      "cloud",
+      "platform",
+      "environments",
+      "command",
+      "center",
+      "gcloud",
+      "cli",
+      "audit",
+      "iam",
+      "policies"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-gcp-security-assessment-with-forseti/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-gcp-security-assessment-with-forseti",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-gcp-security-assessment-with-forseti",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 31727,
+    "sha256": "414468feeab2af7a7a73336311658225ed50919217822cfe386f9dc88636ad68",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-gcp-security-assessment-with-forseti/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-gcp-security-assessment-with-forseti/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-gcp-security-assessment-with-forseti/SKILL.md",
+      "bytes": 11216,
+      "sha256": "414468feeab2af7a7a73336311658225ed50919217822cfe386f9dc88636ad68",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-gcp-security-assessment-with-forseti/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-gcp-security-assessment-with-forseti/references/api-reference.md",
+      "bytes": 1949,
+      "sha256": "a5fac2c761699f033d299f00898350932c9e107af4999f436c2de9ec026f72c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-gcp-security-assessment-with-forseti/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-gcp-security-assessment-with-forseti/scripts/agent.py",
+      "bytes": 7307,
+      "sha256": "83b7871ebb015707ad1ed939b608ff791710c3bc8a5245af76179fc272ff5009",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-gcp-security-assessment-with-forseti/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "89638e28e2d5119b495163d34a11d9a8bdc54c63a5dd080eedb08d4a69d4433d"
+}

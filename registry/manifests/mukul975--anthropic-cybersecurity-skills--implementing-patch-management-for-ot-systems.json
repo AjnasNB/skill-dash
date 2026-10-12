@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-patch-management-for-ot-systems","name":"implementing-patch-management-for-ot-systems","description":"Implements a structured patch management program for OT/ICS environments where IT-style patching can cause process disruption or safety hazards, covering vendor compatibility testing, risk-based prioritization, staged test deployment, maintenance window coordination, rollback procedures, and compensating controls. Use when planning or auditing patching for SCADA, PLCs, or other industrial control systems.","category":"Cloud & DevOps","tags":["implementing","patch","management","ot","systems","implements","structured","program","ics","environments","where","it","style","patching","cause","process","disruption","safety"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-patch-management-for-ot-systems/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-patch-management-for-ot-systems","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-patch-management-for-ot-systems","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":30562,"sha256":"87cfcb3d24d88279eed7b883b289d7530b6163a7ea6476c7e9ff754517b45a3b","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-patch-management-for-ot-systems/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-patch-management-for-ot-systems/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-patch-management-for-ot-systems/SKILL.md","bytes":12718,"sha256":"87cfcb3d24d88279eed7b883b289d7530b6163a7ea6476c7e9ff754517b45a3b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-patch-management-for-ot-systems/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-patch-management-for-ot-systems/references/api-reference.md","bytes":2974,"sha256":"a724817d67074477fe19e2136f3d08cb72888d29d87ffda8e05a9a995f34cbc5","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-patch-management-for-ot-systems/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-patch-management-for-ot-systems/scripts/agent.py","bytes":3615,"sha256":"06f14c14285d96bd8cb1bfda569acddcf8034b60fbf89c03a4818e38b809be9d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-patch-management-for-ot-systems/scripts/agent.py"}],"archiveSha256":"2343fbd928a750d3f2684605ec1fd04ee0c4123736c461d9854ed98f59b175c2"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-patch-management-for-ot-systems",
+    "name": "implementing-patch-management-for-ot-systems",
+    "description": "Implements a structured patch management program for OT/ICS environments where IT-style patching can cause process disruption or safety hazards, covering vendor compatibility testing, risk-based prioritization, staged test deployment, maintenance window coordination, rollback procedures, and compensating controls. Use when planning or auditing patching for SCADA, PLCs, or other industrial control systems.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "implementing",
+      "patch",
+      "management",
+      "ot",
+      "systems",
+      "implements",
+      "structured",
+      "program",
+      "ics",
+      "environments",
+      "where",
+      "it",
+      "style",
+      "patching",
+      "cause",
+      "process",
+      "disruption",
+      "safety"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-patch-management-for-ot-systems/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-patch-management-for-ot-systems",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-patch-management-for-ot-systems",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 30562,
+    "sha256": "87cfcb3d24d88279eed7b883b289d7530b6163a7ea6476c7e9ff754517b45a3b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-patch-management-for-ot-systems/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-patch-management-for-ot-systems/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-patch-management-for-ot-systems/SKILL.md",
+      "bytes": 12718,
+      "sha256": "87cfcb3d24d88279eed7b883b289d7530b6163a7ea6476c7e9ff754517b45a3b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-patch-management-for-ot-systems/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-patch-management-for-ot-systems/references/api-reference.md",
+      "bytes": 2974,
+      "sha256": "a724817d67074477fe19e2136f3d08cb72888d29d87ffda8e05a9a995f34cbc5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-patch-management-for-ot-systems/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-patch-management-for-ot-systems/scripts/agent.py",
+      "bytes": 3615,
+      "sha256": "06f14c14285d96bd8cb1bfda569acddcf8034b60fbf89c03a4818e38b809be9d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-patch-management-for-ot-systems/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "2343fbd928a750d3f2684605ec1fd04ee0c4123736c461d9854ed98f59b175c2"
+}

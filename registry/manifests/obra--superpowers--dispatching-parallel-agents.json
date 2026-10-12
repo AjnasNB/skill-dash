@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"obra--superpowers--dispatching-parallel-agents","name":"dispatching-parallel-agents","description":"Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies","category":"AI & agents","tags":["dispatching","parallel","agents","when","facing","2+","independent","tasks","be","worked","without","shared","state","sequential","dependencies"],"repo":"obra/superpowers","owner":"obra","stars":297960,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"bb92a77741419a4ab5f06e711a283343f1ada0c3","path":"skills/dispatching-parallel-agents","sourceUrl":"https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/dispatching-parallel-agents","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-10T00:28:04Z","fileCount":2,"bytes":7148,"sha256":"1968923066f3b707eb01d1992cdf4c42284c3855f70253b9cd5000ff45fca13c","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/dispatching-parallel-agents/SKILL.md","bytes":6078,"sha256":"1968923066f3b707eb01d1992cdf4c42284c3855f70253b9cd5000ff45fca13c","mode":420,"url":"https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/dispatching-parallel-agents/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1070,"sha256":"a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400","mode":420,"url":"https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/LICENSE"}],"archiveSha256":"577fc41166dbd2f26dd913dc7e8108c81b8d7c7695fdee7cf3f18f653020e9b6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "obra--superpowers--dispatching-parallel-agents",
+    "name": "dispatching-parallel-agents",
+    "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+    "category": "AI & agents",
+    "tags": [
+      "dispatching",
+      "parallel",
+      "agents",
+      "when",
+      "facing",
+      "2+",
+      "independent",
+      "tasks",
+      "be",
+      "worked",
+      "without",
+      "shared",
+      "state",
+      "sequential",
+      "dependencies"
+    ],
+    "repo": "obra/superpowers",
+    "owner": "obra",
+    "stars": 297960,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "skills/dispatching-parallel-agents",
+    "sourceUrl": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/dispatching-parallel-agents",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-10T00:28:04Z",
+    "fileCount": 2,
+    "bytes": 7148,
+    "sha256": "1968923066f3b707eb01d1992cdf4c42284c3855f70253b9cd5000ff45fca13c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/dispatching-parallel-agents/SKILL.md",
+      "bytes": 6078,
+      "sha256": "1968923066f3b707eb01d1992cdf4c42284c3855f70253b9cd5000ff45fca13c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/dispatching-parallel-agents/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1070,
+      "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/LICENSE"
+    }
+  ],
+  "archiveSha256": "577fc41166dbd2f26dd913dc7e8108c81b8d7c7695fdee7cf3f18f653020e9b6"
+}

@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--conducting-cloud-incident-response","name":"conducting-cloud-incident-response","description":"Respond to security incidents in AWS, Azure, and GCP via identity-based containment, cloud-native log analysis (CloudTrail, Azure Activity Logs, GCP Audit Logs), resource isolation, and forensic evidence acquisition adapted for ephemeral cloud infrastructure. Use when CSPM alerts or audit logs show compromised cloud credentials, unauthorized IAM changes, or a breach spanning cloud services.","category":"Security","tags":["conducting","cloud","incident","response","respond","security","incidents","aws","azure","gcp","via","identity","based","containment","native","log","analysis","cloudtrail"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/conducting-cloud-incident-response/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/conducting-cloud-incident-response","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cloud-incident-response","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":33233,"sha256":"801ed8e81767d3eb88539c70960834009ee3b1735324c0f04c58d9aedceeaafc","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/conducting-cloud-incident-response/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cloud-incident-response/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/conducting-cloud-incident-response/SKILL.md","bytes":11887,"sha256":"801ed8e81767d3eb88539c70960834009ee3b1735324c0f04c58d9aedceeaafc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cloud-incident-response/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/conducting-cloud-incident-response/references/api-reference.md","bytes":2464,"sha256":"2a0eae954f5e8a5d33d973e0f1b1e607b65cba14e734e8fe2a23cc14358034f7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cloud-incident-response/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/conducting-cloud-incident-response/scripts/agent.py","bytes":7627,"sha256":"e446b2721992d0476978c193c1ea7952aaad17bff49a9cebe0180311acfc80fb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cloud-incident-response/scripts/agent.py"}],"archiveSha256":"312498b22ca08ceffc1d75e19e8c523432ef5863267d8904a6406fb9b855ce47"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--conducting-cloud-incident-response",
+    "name": "conducting-cloud-incident-response",
+    "description": "Respond to security incidents in AWS, Azure, and GCP via identity-based containment, cloud-native log analysis (CloudTrail, Azure Activity Logs, GCP Audit Logs), resource isolation, and forensic evidence acquisition adapted for ephemeral cloud infrastructure. Use when CSPM alerts or audit logs show compromised cloud credentials, unauthorized IAM changes, or a breach spanning cloud services.",
+    "category": "Security",
+    "tags": [
+      "conducting",
+      "cloud",
+      "incident",
+      "response",
+      "respond",
+      "security",
+      "incidents",
+      "aws",
+      "azure",
+      "gcp",
+      "via",
+      "identity",
+      "based",
+      "containment",
+      "native",
+      "log",
+      "analysis",
+      "cloudtrail"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/conducting-cloud-incident-response/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/conducting-cloud-incident-response",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cloud-incident-response",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 33233,
+    "sha256": "801ed8e81767d3eb88539c70960834009ee3b1735324c0f04c58d9aedceeaafc",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/conducting-cloud-incident-response/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cloud-incident-response/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/conducting-cloud-incident-response/SKILL.md",
+      "bytes": 11887,
+      "sha256": "801ed8e81767d3eb88539c70960834009ee3b1735324c0f04c58d9aedceeaafc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cloud-incident-response/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/conducting-cloud-incident-response/references/api-reference.md",
+      "bytes": 2464,
+      "sha256": "2a0eae954f5e8a5d33d973e0f1b1e607b65cba14e734e8fe2a23cc14358034f7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cloud-incident-response/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/conducting-cloud-incident-response/scripts/agent.py",
+      "bytes": 7627,
+      "sha256": "e446b2721992d0476978c193c1ea7952aaad17bff49a9cebe0180311acfc80fb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-cloud-incident-response/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "312498b22ca08ceffc1d75e19e8c523432ef5863267d8904a6406fb9b855ce47"
+}

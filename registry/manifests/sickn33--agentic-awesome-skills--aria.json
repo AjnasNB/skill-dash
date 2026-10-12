@@ -1,1 +1,55 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--aria","name":"aria","description":"Designs the data model, API contracts, and structural foundation of the system.","category":"Development","tags":["aria","designs","data","model","api","contracts","structural","foundation","system."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/agent-squad/aria","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-squad/aria","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7159,"sha256":"dc76eddcd38e4cb74638e47d0aee966049711ff78d3a9419f21068a0ada4fe28","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/agent-squad/aria/SKILL.md","bytes":6086,"sha256":"dc76eddcd38e4cb74638e47d0aee966049711ff78d3a9419f21068a0ada4fe28","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-squad/aria/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"19e03197d6c2c1ea82eeb8c85e11c4348f8a1fe9f3a7f07ba432f282f440eaaf"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--aria",
+    "name": "aria",
+    "description": "Designs the data model, API contracts, and structural foundation of the system.",
+    "category": "Development",
+    "tags": [
+      "aria",
+      "designs",
+      "data",
+      "model",
+      "api",
+      "contracts",
+      "structural",
+      "foundation",
+      "system."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/agent-squad/aria",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-squad/aria",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7159,
+    "sha256": "dc76eddcd38e4cb74638e47d0aee966049711ff78d3a9419f21068a0ada4fe28",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/agent-squad/aria/SKILL.md",
+      "bytes": 6086,
+      "sha256": "dc76eddcd38e4cb74638e47d0aee966049711ff78d3a9419f21068a0ada4fe28",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-squad/aria/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "19e03197d6c2c1ea82eeb8c85e11c4348f8a1fe9f3a7f07ba432f282f440eaaf"
+}

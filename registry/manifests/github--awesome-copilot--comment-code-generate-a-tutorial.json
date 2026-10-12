@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--comment-code-generate-a-tutorial","name":"comment-code-generate-a-tutorial","description":"Transform this Python script into a polished, beginner-friendly project by refactoring the code, adding clear instructional comments, and generating a complete markdown tutorial.","category":"Development","tags":["comment","code","generate","tutorial","transform","python","script","into","polished","beginner","friendly","project","by","refactoring","adding","clear","instructional","comments"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/comment-code-generate-a-tutorial","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/comment-code-generate-a-tutorial","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":2448,"sha256":"eb6189f8148067297e446dd284559d12397658980d35335bd091236dcd666542","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/comment-code-generate-a-tutorial/SKILL.md","bytes":1389,"sha256":"eb6189f8148067297e446dd284559d12397658980d35335bd091236dcd666542","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/comment-code-generate-a-tutorial/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"a35993efbe65de8c33e7c11c312e916435f19da83c02d597d608d239337805b4"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--comment-code-generate-a-tutorial",
+    "name": "comment-code-generate-a-tutorial",
+    "description": "Transform this Python script into a polished, beginner-friendly project by refactoring the code, adding clear instructional comments, and generating a complete markdown tutorial.",
+    "category": "Development",
+    "tags": [
+      "comment",
+      "code",
+      "generate",
+      "tutorial",
+      "transform",
+      "python",
+      "script",
+      "into",
+      "polished",
+      "beginner",
+      "friendly",
+      "project",
+      "by",
+      "refactoring",
+      "adding",
+      "clear",
+      "instructional",
+      "comments"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/comment-code-generate-a-tutorial",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/comment-code-generate-a-tutorial",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 2448,
+    "sha256": "eb6189f8148067297e446dd284559d12397658980d35335bd091236dcd666542",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/comment-code-generate-a-tutorial/SKILL.md",
+      "bytes": 1389,
+      "sha256": "eb6189f8148067297e446dd284559d12397658980d35335bd091236dcd666542",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/comment-code-generate-a-tutorial/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "a35993efbe65de8c33e7c11c312e916435f19da83c02d597d608d239337805b4"
+}

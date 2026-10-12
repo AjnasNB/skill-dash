@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--seo-images","name":"seo-images","description":"Image optimization analysis for SEO and performance. Checks alt text, file sizes, formats, responsive images, lazy loading, and CLS prevention. Use when user says \"image optimization\", \"alt text\", \"image SEO\", \"image size\", or \"image audit\".","category":"Marketing","tags":["seo","images","image","optimization","analysis","performance.","checks","alt","text","file","sizes","formats","responsive","lazy","loading","cls","prevention.","when"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/seo-images","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-images","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7859,"sha256":"5b0ce0ccc33b01f23cd4c4691cb5554f56646c37aefd66e03bfeccbcb6f2f50a","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/seo-images/SKILL.md","bytes":6786,"sha256":"5b0ce0ccc33b01f23cd4c4691cb5554f56646c37aefd66e03bfeccbcb6f2f50a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-images/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"eb4ec83cb3f4d4e9d4bad276596e9a485c9328f387b919ce61da2932eb3ab117"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--seo-images",
+    "name": "seo-images",
+    "description": "Image optimization analysis for SEO and performance. Checks alt text, file sizes, formats, responsive images, lazy loading, and CLS prevention. Use when user says \"image optimization\", \"alt text\", \"image SEO\", \"image size\", or \"image audit\".",
+    "category": "Marketing",
+    "tags": [
+      "seo",
+      "images",
+      "image",
+      "optimization",
+      "analysis",
+      "performance.",
+      "checks",
+      "alt",
+      "text",
+      "file",
+      "sizes",
+      "formats",
+      "responsive",
+      "lazy",
+      "loading",
+      "cls",
+      "prevention.",
+      "when"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/seo-images",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-images",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7859,
+    "sha256": "5b0ce0ccc33b01f23cd4c4691cb5554f56646c37aefd66e03bfeccbcb6f2f50a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/seo-images/SKILL.md",
+      "bytes": 6786,
+      "sha256": "5b0ce0ccc33b01f23cd4c4691cb5554f56646c37aefd66e03bfeccbcb6f2f50a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-images/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "eb4ec83cb3f4d4e9d4bad276596e9a485c9328f387b919ce61da2932eb3ab117"
+}

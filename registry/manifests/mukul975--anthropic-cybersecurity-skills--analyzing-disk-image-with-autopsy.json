@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-disk-image-with-autopsy","name":"analyzing-disk-image-with-autopsy","description":"Perform comprehensive forensic analysis of raw (dd), E01, or AFF disk images with Autopsy and The Sleuth Kit, recovering deleted files, examining metadata and embedded artifacts, keyword searching, and building investigation timelines with visual reports. Use for structured analysis of a forensic disk image or when stakeholders need visual reports from evidence.","category":"Security","tags":["analyzing","disk","image","autopsy","perform","comprehensive","forensic","analysis","raw","dd","e01","aff","images","sleuth","kit","recovering","deleted","files"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-disk-image-with-autopsy/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-disk-image-with-autopsy","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-disk-image-with-autopsy","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":32651,"sha256":"809eda8936811eec0d24a143d9cc1eb333abd51b0fed453768dbbbec56477c7c","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-disk-image-with-autopsy/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-disk-image-with-autopsy/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-disk-image-with-autopsy/SKILL.md","bytes":10759,"sha256":"809eda8936811eec0d24a143d9cc1eb333abd51b0fed453768dbbbec56477c7c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-disk-image-with-autopsy/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-disk-image-with-autopsy/references/api-reference.md","bytes":2908,"sha256":"5bb41b905ba998947c065a6c65047f4e8ac6f9a886dbb52157873c459f7604b6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-disk-image-with-autopsy/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-disk-image-with-autopsy/scripts/agent.py","bytes":7729,"sha256":"0e787c3fb8ed4a0baeaf7ca738e49c5857cfca71dcfd8bf46b2d786cbd1f09ad","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-disk-image-with-autopsy/scripts/agent.py"}],"archiveSha256":"983e85d772af6f8c0ab78e9155ede1e4d8ac5e6178752ecfd486d871f6597e87"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-disk-image-with-autopsy",
+    "name": "analyzing-disk-image-with-autopsy",
+    "description": "Perform comprehensive forensic analysis of raw (dd), E01, or AFF disk images with Autopsy and The Sleuth Kit, recovering deleted files, examining metadata and embedded artifacts, keyword searching, and building investigation timelines with visual reports. Use for structured analysis of a forensic disk image or when stakeholders need visual reports from evidence.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "disk",
+      "image",
+      "autopsy",
+      "perform",
+      "comprehensive",
+      "forensic",
+      "analysis",
+      "raw",
+      "dd",
+      "e01",
+      "aff",
+      "images",
+      "sleuth",
+      "kit",
+      "recovering",
+      "deleted",
+      "files"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-disk-image-with-autopsy/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-disk-image-with-autopsy",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-disk-image-with-autopsy",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32651,
+    "sha256": "809eda8936811eec0d24a143d9cc1eb333abd51b0fed453768dbbbec56477c7c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-disk-image-with-autopsy/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-disk-image-with-autopsy/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-disk-image-with-autopsy/SKILL.md",
+      "bytes": 10759,
+      "sha256": "809eda8936811eec0d24a143d9cc1eb333abd51b0fed453768dbbbec56477c7c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-disk-image-with-autopsy/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-disk-image-with-autopsy/references/api-reference.md",
+      "bytes": 2908,
+      "sha256": "5bb41b905ba998947c065a6c65047f4e8ac6f9a886dbb52157873c459f7604b6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-disk-image-with-autopsy/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-disk-image-with-autopsy/scripts/agent.py",
+      "bytes": 7729,
+      "sha256": "0e787c3fb8ed4a0baeaf7ca738e49c5857cfca71dcfd8bf46b2d786cbd1f09ad",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-disk-image-with-autopsy/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "983e85d772af6f8c0ab78e9155ede1e4d8ac5e6178752ecfd486d871f6597e87"
+}

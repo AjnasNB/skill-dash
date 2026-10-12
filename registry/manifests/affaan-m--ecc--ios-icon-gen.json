@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--ios-icon-gen","name":"ios-icon-gen","description":"Generate iOS app icons as PNG imagesets for Xcode asset catalogs from SF Symbols (5000+ Apple-native) or Iconify API (275k+ open source icons from 200+ collections). Use when generating icons, creating icon assets, adding icons to asset catalog, or searching for icons for iOS projects.","category":"Development","tags":["ios","icon","gen","generate","app","icons","as","png","imagesets","xcode","asset","catalogs","from","sf","symbols","5000+","apple","native"],"repo":"affaan-m/ECC","owner":"affaan-m","stars":277532,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"b92f181b3b748d1abbc2afd94af6aa7d8c8fca29","path":"skills/ios-icon-gen","sourceUrl":"https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/ios-icon-gen","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T02:02:10Z","fileCount":4,"bytes":22193,"sha256":"893627c44e6d209f9b2e02de2f4879188649d22ae9723cd5b9445de6df3d6482","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/ios-icon-gen/SKILL.md","bytes":5653,"sha256":"893627c44e6d209f9b2e02de2f4879188649d22ae9723cd5b9445de6df3d6482","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/ios-icon-gen/SKILL.md"},{"path":"scripts/generate_icons.swift","sourcePath":"skills/ios-icon-gen/scripts/generate_icons.swift","bytes":8371,"sha256":"41efd2b2dc30a744e65252d7715b36ae951c489262262b42d96e06d42fd3ca2e","mode":493,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/ios-icon-gen/scripts/generate_icons.swift"},{"path":"scripts/iconify_gen.sh","sourcePath":"skills/ios-icon-gen/scripts/iconify_gen.sh","bytes":7098,"sha256":"5a0efeece4dfd4b60d345b5e2034ab152557793a4248ef6cba2f8fa4d6533c4a","mode":493,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/ios-icon-gen/scripts/iconify_gen.sh"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"}],"archiveSha256":"767df62005e4319d8e369bc70b7a17004791a780c15bf731adf3af9490cde3bc"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--ios-icon-gen",
+    "name": "ios-icon-gen",
+    "description": "Generate iOS app icons as PNG imagesets for Xcode asset catalogs from SF Symbols (5000+ Apple-native) or Iconify API (275k+ open source icons from 200+ collections). Use when generating icons, creating icon assets, adding icons to asset catalog, or searching for icons for iOS projects.",
+    "category": "Development",
+    "tags": [
+      "ios",
+      "icon",
+      "gen",
+      "generate",
+      "app",
+      "icons",
+      "as",
+      "png",
+      "imagesets",
+      "xcode",
+      "asset",
+      "catalogs",
+      "from",
+      "sf",
+      "symbols",
+      "5000+",
+      "apple",
+      "native"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/ios-icon-gen",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/ios-icon-gen",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 4,
+    "bytes": 22193,
+    "sha256": "893627c44e6d209f9b2e02de2f4879188649d22ae9723cd5b9445de6df3d6482",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/ios-icon-gen/SKILL.md",
+      "bytes": 5653,
+      "sha256": "893627c44e6d209f9b2e02de2f4879188649d22ae9723cd5b9445de6df3d6482",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/ios-icon-gen/SKILL.md"
+    },
+    {
+      "path": "scripts/generate_icons.swift",
+      "sourcePath": "skills/ios-icon-gen/scripts/generate_icons.swift",
+      "bytes": 8371,
+      "sha256": "41efd2b2dc30a744e65252d7715b36ae951c489262262b42d96e06d42fd3ca2e",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/ios-icon-gen/scripts/generate_icons.swift"
+    },
+    {
+      "path": "scripts/iconify_gen.sh",
+      "sourcePath": "skills/ios-icon-gen/scripts/iconify_gen.sh",
+      "bytes": 7098,
+      "sha256": "5a0efeece4dfd4b60d345b5e2034ab152557793a4248ef6cba2f8fa4d6533c4a",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/ios-icon-gen/scripts/iconify_gen.sh"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "767df62005e4319d8e369bc70b7a17004791a780c15bf731adf3af9490cde3bc"
+}

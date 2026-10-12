@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--nanoclaw-repl","name":"nanoclaw-repl","description":"Operate and extend NanoClaw, ECC's zero-dependency session-aware REPL, with persistent markdown-backed sessions and slash commands for model switching, skill loading, session branching, cross-session search, history compaction, and export. Use when running or extending scripts/claw.js, or when resuming, branching, compacting, searching, or exporting a NanoClaw session.","category":"Development","tags":["nanoclaw","repl","operate","extend","ecc","zero","dependency","session","aware","persistent","markdown","backed","sessions","slash","commands","model","switching","skill"],"repo":"affaan-m/ECC","owner":"affaan-m","stars":277532,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"b92f181b3b748d1abbc2afd94af6aa7d8c8fca29","path":"skills/nanoclaw-repl","sourceUrl":"https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/nanoclaw-repl","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T02:02:10Z","fileCount":2,"bytes":2215,"sha256":"75786102fd1a49d1bbed11f75bc014a93e1bb2eed2cdc0088f1bad0e92d29291","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/nanoclaw-repl/SKILL.md","bytes":1144,"sha256":"75786102fd1a49d1bbed11f75bc014a93e1bb2eed2cdc0088f1bad0e92d29291","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/nanoclaw-repl/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"}],"archiveSha256":"5f678b1b666a878ec895a8db54a7177e2e1b79c28586020486d2349a169d5ea2"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--nanoclaw-repl",
+    "name": "nanoclaw-repl",
+    "description": "Operate and extend NanoClaw, ECC's zero-dependency session-aware REPL, with persistent markdown-backed sessions and slash commands for model switching, skill loading, session branching, cross-session search, history compaction, and export. Use when running or extending scripts/claw.js, or when resuming, branching, compacting, searching, or exporting a NanoClaw session.",
+    "category": "Development",
+    "tags": [
+      "nanoclaw",
+      "repl",
+      "operate",
+      "extend",
+      "ecc",
+      "zero",
+      "dependency",
+      "session",
+      "aware",
+      "persistent",
+      "markdown",
+      "backed",
+      "sessions",
+      "slash",
+      "commands",
+      "model",
+      "switching",
+      "skill"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/nanoclaw-repl",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/nanoclaw-repl",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 2,
+    "bytes": 2215,
+    "sha256": "75786102fd1a49d1bbed11f75bc014a93e1bb2eed2cdc0088f1bad0e92d29291",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/nanoclaw-repl/SKILL.md",
+      "bytes": 1144,
+      "sha256": "75786102fd1a49d1bbed11f75bc014a93e1bb2eed2cdc0088f1bad0e92d29291",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/nanoclaw-repl/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "5f678b1b666a878ec895a8db54a7177e2e1b79c28586020486d2349a169d5ea2"
+}

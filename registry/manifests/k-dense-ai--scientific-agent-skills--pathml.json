@@ -1,1 +1,160 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--pathml","name":"pathml","description":"Supports local computational pathology research with PathML: slide loading and tiling, preprocessing and QC, h5path storage, multiplex quantification, spatial graphs, and bounded model inference. Use for whole-slide H&E, CODEX, Vectra, Mesmer, HoVer-Net, and HACTNet workflows.","category":"Data & research","tags":["pathml","supports","local","computational","pathology","research","slide","loading","tiling","preprocessing","qc","h5path","storage","multiplex","quantification","spatial","graphs","bounded"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/pathml","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":14,"bytes":167459,"sha256":"654cef910bd567689b854eab52176628f39184d7cca7a6bf405343f337e58538","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/pathml/SKILL.md","bytes":13103,"sha256":"654cef910bd567689b854eab52176628f39184d7cca7a6bf405343f337e58538","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/SKILL.md"},{"path":"references/data_management.md","sourcePath":"skills/pathml/references/data_management.md","bytes":13560,"sha256":"ffb0e9e16b13e17a4d0651edca57335bd9d4c085bc59ecb41f6807656b5cf5a6","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/references/data_management.md"},{"path":"references/graphs.md","sourcePath":"skills/pathml/references/graphs.md","bytes":11567,"sha256":"dbe86e21af1e97d0a43a84540cb28d5572ba3bf41ae1c0579982cb0ab2b21b66","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/references/graphs.md"},{"path":"references/image_loading.md","sourcePath":"skills/pathml/references/image_loading.md","bytes":11591,"sha256":"20c6fb4f0d6fce55feb6821e20b48f4322c70e6e7bb939ae03d6794fd32bb6f0","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/references/image_loading.md"},{"path":"references/machine_learning.md","sourcePath":"skills/pathml/references/machine_learning.md","bytes":14065,"sha256":"300dd2aab88bd976237d2bdb20f52b567097fccbb1a965ebee0128f66f71337d","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/references/machine_learning.md"},{"path":"references/multiparametric.md","sourcePath":"skills/pathml/references/multiparametric.md","bytes":13935,"sha256":"54e45a60e2bd19412bbbc848eb28a2160fe7d074df77b571c76763c22279f9aa","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/references/multiparametric.md"},{"path":"references/preprocessing.md","sourcePath":"skills/pathml/references/preprocessing.md","bytes":12260,"sha256":"26887b2bed4e7486580c250b2c9114146134058fe80e67dcf7585a0ce2cbd15e","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/references/preprocessing.md"},{"path":"scripts/_common.py","sourcePath":"skills/pathml/scripts/_common.py","bytes":12692,"sha256":"6c811608f2bcb66839f05dc3b9563691fc41c3468f503cf914b1ff59c46a2ae1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/scripts/_common.py"},{"path":"scripts/image_qc.py","sourcePath":"skills/pathml/scripts/image_qc.py","bytes":11238,"sha256":"966c9cd9aee301ac047a1213c00cba617583c3415110601dd0b36d5b5423e7ef","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/scripts/image_qc.py"},{"path":"scripts/plan_inference.py","sourcePath":"skills/pathml/scripts/plan_inference.py","bytes":9721,"sha256":"6e8667a22515a84d10b65de44a36b332ccc4eb5b038571144698cc40a2331d68","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/scripts/plan_inference.py"},{"path":"scripts/plan_pipeline.py","sourcePath":"skills/pathml/scripts/plan_pipeline.py","bytes":11320,"sha256":"ffa2d20144e3af9e27799a8c4731c9983fd1530a94ca3f29acc616ade6e00ef0","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/scripts/plan_pipeline.py"},{"path":"scripts/slide_manifest.py","sourcePath":"skills/pathml/scripts/slide_manifest.py","bytes":14530,"sha256":"a9476e11edde2725dae2e217cff2e1abf720bdf84edb07ce617e5a5f89778537","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/scripts/slide_manifest.py"},{"path":"scripts/validate_spatial_schema.py","sourcePath":"skills/pathml/scripts/validate_spatial_schema.py","bytes":16809,"sha256":"0aaad70642e36f6c4eb5bc5328c87a401a7ec18030f15d63af23a97dda4d41ac","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/scripts/validate_spatial_schema.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"b4e26c4efd556ef3a282e3f89a044990b9fdf2985728b47dd832bdf15c14b9c2"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--pathml",
+    "name": "pathml",
+    "description": "Supports local computational pathology research with PathML: slide loading and tiling, preprocessing and QC, h5path storage, multiplex quantification, spatial graphs, and bounded model inference. Use for whole-slide H&E, CODEX, Vectra, Mesmer, HoVer-Net, and HACTNet workflows.",
+    "category": "Data & research",
+    "tags": [
+      "pathml",
+      "supports",
+      "local",
+      "computational",
+      "pathology",
+      "research",
+      "slide",
+      "loading",
+      "tiling",
+      "preprocessing",
+      "qc",
+      "h5path",
+      "storage",
+      "multiplex",
+      "quantification",
+      "spatial",
+      "graphs",
+      "bounded"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/pathml",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 14,
+    "bytes": 167459,
+    "sha256": "654cef910bd567689b854eab52176628f39184d7cca7a6bf405343f337e58538",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/pathml/SKILL.md",
+      "bytes": 13103,
+      "sha256": "654cef910bd567689b854eab52176628f39184d7cca7a6bf405343f337e58538",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/SKILL.md"
+    },
+    {
+      "path": "references/data_management.md",
+      "sourcePath": "skills/pathml/references/data_management.md",
+      "bytes": 13560,
+      "sha256": "ffb0e9e16b13e17a4d0651edca57335bd9d4c085bc59ecb41f6807656b5cf5a6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/references/data_management.md"
+    },
+    {
+      "path": "references/graphs.md",
+      "sourcePath": "skills/pathml/references/graphs.md",
+      "bytes": 11567,
+      "sha256": "dbe86e21af1e97d0a43a84540cb28d5572ba3bf41ae1c0579982cb0ab2b21b66",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/references/graphs.md"
+    },
+    {
+      "path": "references/image_loading.md",
+      "sourcePath": "skills/pathml/references/image_loading.md",
+      "bytes": 11591,
+      "sha256": "20c6fb4f0d6fce55feb6821e20b48f4322c70e6e7bb939ae03d6794fd32bb6f0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/references/image_loading.md"
+    },
+    {
+      "path": "references/machine_learning.md",
+      "sourcePath": "skills/pathml/references/machine_learning.md",
+      "bytes": 14065,
+      "sha256": "300dd2aab88bd976237d2bdb20f52b567097fccbb1a965ebee0128f66f71337d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/references/machine_learning.md"
+    },
+    {
+      "path": "references/multiparametric.md",
+      "sourcePath": "skills/pathml/references/multiparametric.md",
+      "bytes": 13935,
+      "sha256": "54e45a60e2bd19412bbbc848eb28a2160fe7d074df77b571c76763c22279f9aa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/references/multiparametric.md"
+    },
+    {
+      "path": "references/preprocessing.md",
+      "sourcePath": "skills/pathml/references/preprocessing.md",
+      "bytes": 12260,
+      "sha256": "26887b2bed4e7486580c250b2c9114146134058fe80e67dcf7585a0ce2cbd15e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/references/preprocessing.md"
+    },
+    {
+      "path": "scripts/_common.py",
+      "sourcePath": "skills/pathml/scripts/_common.py",
+      "bytes": 12692,
+      "sha256": "6c811608f2bcb66839f05dc3b9563691fc41c3468f503cf914b1ff59c46a2ae1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/scripts/_common.py"
+    },
+    {
+      "path": "scripts/image_qc.py",
+      "sourcePath": "skills/pathml/scripts/image_qc.py",
+      "bytes": 11238,
+      "sha256": "966c9cd9aee301ac047a1213c00cba617583c3415110601dd0b36d5b5423e7ef",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/scripts/image_qc.py"
+    },
+    {
+      "path": "scripts/plan_inference.py",
+      "sourcePath": "skills/pathml/scripts/plan_inference.py",
+      "bytes": 9721,
+      "sha256": "6e8667a22515a84d10b65de44a36b332ccc4eb5b038571144698cc40a2331d68",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/scripts/plan_inference.py"
+    },
+    {
+      "path": "scripts/plan_pipeline.py",
+      "sourcePath": "skills/pathml/scripts/plan_pipeline.py",
+      "bytes": 11320,
+      "sha256": "ffa2d20144e3af9e27799a8c4731c9983fd1530a94ca3f29acc616ade6e00ef0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/scripts/plan_pipeline.py"
+    },
+    {
+      "path": "scripts/slide_manifest.py",
+      "sourcePath": "skills/pathml/scripts/slide_manifest.py",
+      "bytes": 14530,
+      "sha256": "a9476e11edde2725dae2e217cff2e1abf720bdf84edb07ce617e5a5f89778537",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/scripts/slide_manifest.py"
+    },
+    {
+      "path": "scripts/validate_spatial_schema.py",
+      "sourcePath": "skills/pathml/scripts/validate_spatial_schema.py",
+      "bytes": 16809,
+      "sha256": "0aaad70642e36f6c4eb5bc5328c87a401a7ec18030f15d63af23a97dda4d41ac",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pathml/scripts/validate_spatial_schema.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "b4e26c4efd556ef3a282e3f89a044990b9fdf2985728b47dd832bdf15c14b9c2"
+}

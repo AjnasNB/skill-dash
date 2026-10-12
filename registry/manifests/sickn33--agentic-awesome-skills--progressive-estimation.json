@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--progressive-estimation","name":"progressive-estimation","description":"Estimate AI-assisted and hybrid human+agent development work with research-backed PERT statistics and calibration feedback loops","category":"Data & research","tags":["progressive","estimation","estimate","ai","assisted","hybrid","human+agent","development","work","research","backed","pert","statistics","calibration","feedback","loops"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/progressive-estimation","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/progressive-estimation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4546,"sha256":"06c67d8239b7118a4584fe431248b20d45c2c96acbe4454b47e506e919647f83","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/progressive-estimation/SKILL.md","bytes":3473,"sha256":"06c67d8239b7118a4584fe431248b20d45c2c96acbe4454b47e506e919647f83","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/progressive-estimation/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"3224f6df9a151b11f83b675a2042d7cab72e44829430d0ce11958d7b55b1c0d3"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--progressive-estimation",
+    "name": "progressive-estimation",
+    "description": "Estimate AI-assisted and hybrid human+agent development work with research-backed PERT statistics and calibration feedback loops",
+    "category": "Data & research",
+    "tags": [
+      "progressive",
+      "estimation",
+      "estimate",
+      "ai",
+      "assisted",
+      "hybrid",
+      "human+agent",
+      "development",
+      "work",
+      "research",
+      "backed",
+      "pert",
+      "statistics",
+      "calibration",
+      "feedback",
+      "loops"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/progressive-estimation",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/progressive-estimation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4546,
+    "sha256": "06c67d8239b7118a4584fe431248b20d45c2c96acbe4454b47e506e919647f83",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/progressive-estimation/SKILL.md",
+      "bytes": 3473,
+      "sha256": "06c67d8239b7118a4584fe431248b20d45c2c96acbe4454b47e506e919647f83",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/progressive-estimation/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "3224f6df9a151b11f83b675a2042d7cab72e44829430d0ce11958d7b55b1c0d3"
+}

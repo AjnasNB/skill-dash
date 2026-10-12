@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-cloud-storage-forensic-acquisition","name":"performing-cloud-storage-forensic-acquisition","description":"Perform forensic acquisition of cloud storage services including Google Drive, OneDrive, Dropbox, and Box by pulling API-based remote data such as revision history and audit logs, and collecting local sync-client artifacts including KAPE targets and OneDrive databases from endpoints. Use during incident response or e-discovery when evidence resides in cloud-synced storage and both cloud-side and endpoint-side artifacts must be preserved.","category":"Security","tags":["performing","cloud","storage","forensic","acquisition","perform","services","including","google","drive","onedrive","dropbox","box","by","pulling","api","based","remote"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-cloud-storage-forensic-acquisition/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-cloud-storage-forensic-acquisition","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-storage-forensic-acquisition","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":49414,"sha256":"4653a3ea87df44c017f217b26620da64c52d9aa032bdd4fbdd0d212d1d6b9214","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-cloud-storage-forensic-acquisition/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-storage-forensic-acquisition/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-cloud-storage-forensic-acquisition/SKILL.md","bytes":14087,"sha256":"4653a3ea87df44c017f217b26620da64c52d9aa032bdd4fbdd0d212d1d6b9214","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-storage-forensic-acquisition/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/performing-cloud-storage-forensic-acquisition/assets/template.md","bytes":556,"sha256":"c48973a6188f64bb3b377fb93653ab62a5ce39daab1cb18c1111bab080ceda2d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-storage-forensic-acquisition/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-cloud-storage-forensic-acquisition/references/api-reference.md","bytes":6146,"sha256":"12079a2b043c9a12538a326556743bfddbbba833de79d4a813f85616b8ca317c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-storage-forensic-acquisition/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/performing-cloud-storage-forensic-acquisition/references/standards.md","bytes":784,"sha256":"96c3660bf09d93a6563590609d70e0ad5bab4ecd8b8329f8d9c833223cab6646","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-storage-forensic-acquisition/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/performing-cloud-storage-forensic-acquisition/references/workflows.md","bytes":824,"sha256":"5c9967e3b0a4781ab20bd316614ca7f9ad5fbe34e05ac6389abfece9c9bcf33b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-storage-forensic-acquisition/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-cloud-storage-forensic-acquisition/scripts/agent.py","bytes":10800,"sha256":"cccc7c6810ff480863d865636864ed9fb28e40c8fa3855f01081eb620a571c5f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-storage-forensic-acquisition/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/performing-cloud-storage-forensic-acquisition/scripts/process.py","bytes":4962,"sha256":"9edd05d7313546d648e455e78385c3146aa4cc1af020e17b13ec820f27cd00b1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-storage-forensic-acquisition/scripts/process.py"}],"archiveSha256":"b05d563815f826017e0861d3ece5a17900b10d6566e7de3b27f616de75a551f4"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-cloud-storage-forensic-acquisition",
+    "name": "performing-cloud-storage-forensic-acquisition",
+    "description": "Perform forensic acquisition of cloud storage services including Google Drive, OneDrive, Dropbox, and Box by pulling API-based remote data such as revision history and audit logs, and collecting local sync-client artifacts including KAPE targets and OneDrive databases from endpoints. Use during incident response or e-discovery when evidence resides in cloud-synced storage and both cloud-side and endpoint-side artifacts must be preserved.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "cloud",
+      "storage",
+      "forensic",
+      "acquisition",
+      "perform",
+      "services",
+      "including",
+      "google",
+      "drive",
+      "onedrive",
+      "dropbox",
+      "box",
+      "by",
+      "pulling",
+      "api",
+      "based",
+      "remote"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-cloud-storage-forensic-acquisition/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-cloud-storage-forensic-acquisition",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-storage-forensic-acquisition",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 49414,
+    "sha256": "4653a3ea87df44c017f217b26620da64c52d9aa032bdd4fbdd0d212d1d6b9214",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-cloud-storage-forensic-acquisition/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-storage-forensic-acquisition/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-cloud-storage-forensic-acquisition/SKILL.md",
+      "bytes": 14087,
+      "sha256": "4653a3ea87df44c017f217b26620da64c52d9aa032bdd4fbdd0d212d1d6b9214",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-storage-forensic-acquisition/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-cloud-storage-forensic-acquisition/assets/template.md",
+      "bytes": 556,
+      "sha256": "c48973a6188f64bb3b377fb93653ab62a5ce39daab1cb18c1111bab080ceda2d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-storage-forensic-acquisition/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-cloud-storage-forensic-acquisition/references/api-reference.md",
+      "bytes": 6146,
+      "sha256": "12079a2b043c9a12538a326556743bfddbbba833de79d4a813f85616b8ca317c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-storage-forensic-acquisition/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-cloud-storage-forensic-acquisition/references/standards.md",
+      "bytes": 784,
+      "sha256": "96c3660bf09d93a6563590609d70e0ad5bab4ecd8b8329f8d9c833223cab6646",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-storage-forensic-acquisition/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-cloud-storage-forensic-acquisition/references/workflows.md",
+      "bytes": 824,
+      "sha256": "5c9967e3b0a4781ab20bd316614ca7f9ad5fbe34e05ac6389abfece9c9bcf33b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-storage-forensic-acquisition/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-cloud-storage-forensic-acquisition/scripts/agent.py",
+      "bytes": 10800,
+      "sha256": "cccc7c6810ff480863d865636864ed9fb28e40c8fa3855f01081eb620a571c5f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-storage-forensic-acquisition/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-cloud-storage-forensic-acquisition/scripts/process.py",
+      "bytes": 4962,
+      "sha256": "9edd05d7313546d648e455e78385c3146aa4cc1af020e17b13ec820f27cd00b1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-storage-forensic-acquisition/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "b05d563815f826017e0861d3ece5a17900b10d6566e7de3b27f616de75a551f4"
+}

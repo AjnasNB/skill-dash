@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--mdpr-skill","name":"mdpr-skill","description":"Review MDPR Markdown presentation workflows with semantic hints, visual checks, and deterministic renderer boundaries.","category":"Development","tags":["mdpr","skill","review","markdown","presentation","workflows","semantic","hints","visual","checks","deterministic","renderer","boundaries."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/mdpr-skill","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mdpr-skill","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":9932,"sha256":"43be842ce4c6a025c33375712cdc21347ec8209836a2b1596dae236c42257894","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/mdpr-skill/SKILL.md","bytes":8859,"sha256":"43be842ce4c6a025c33375712cdc21347ec8209836a2b1596dae236c42257894","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mdpr-skill/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"200bc31f871ffc0ddc38374ffe6b71a8d3651a042966e863bdc6e8c816adf117"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--mdpr-skill",
+    "name": "mdpr-skill",
+    "description": "Review MDPR Markdown presentation workflows with semantic hints, visual checks, and deterministic renderer boundaries.",
+    "category": "Development",
+    "tags": [
+      "mdpr",
+      "skill",
+      "review",
+      "markdown",
+      "presentation",
+      "workflows",
+      "semantic",
+      "hints",
+      "visual",
+      "checks",
+      "deterministic",
+      "renderer",
+      "boundaries."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/mdpr-skill",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mdpr-skill",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9932,
+    "sha256": "43be842ce4c6a025c33375712cdc21347ec8209836a2b1596dae236c42257894",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/mdpr-skill/SKILL.md",
+      "bytes": 8859,
+      "sha256": "43be842ce4c6a025c33375712cdc21347ec8209836a2b1596dae236c42257894",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mdpr-skill/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "200bc31f871ffc0ddc38374ffe6b71a8d3651a042966e863bdc6e8c816adf117"
+}

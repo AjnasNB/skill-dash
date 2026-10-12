@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--copilot-spaces","name":"copilot-spaces","description":"Use Copilot Spaces to provide project-specific context to conversations. Use this skill when users mention a \"Copilot space\", want to load context from a shared knowledge base, discover available spaces, or ask questions grounded in curated project documentation, code, and instructions.","category":"Writing","tags":["copilot","spaces","provide","project","specific","context","conversations.","skill","when","users","mention","space","load","from","shared","knowledge","base","discover"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/copilot-spaces","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/copilot-spaces","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":9785,"sha256":"6069534e09f04fef7dc02113fe5981c23c73e8faeab3e68d6db21a2c48b80f73","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/copilot-spaces/SKILL.md","bytes":8726,"sha256":"6069534e09f04fef7dc02113fe5981c23c73e8faeab3e68d6db21a2c48b80f73","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/copilot-spaces/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"af2bd8dba6e72a87edeebd9f61eca539dc671973990953d407889a0717637f21"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--copilot-spaces",
+    "name": "copilot-spaces",
+    "description": "Use Copilot Spaces to provide project-specific context to conversations. Use this skill when users mention a \"Copilot space\", want to load context from a shared knowledge base, discover available spaces, or ask questions grounded in curated project documentation, code, and instructions.",
+    "category": "Writing",
+    "tags": [
+      "copilot",
+      "spaces",
+      "provide",
+      "project",
+      "specific",
+      "context",
+      "conversations.",
+      "skill",
+      "when",
+      "users",
+      "mention",
+      "space",
+      "load",
+      "from",
+      "shared",
+      "knowledge",
+      "base",
+      "discover"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/copilot-spaces",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/copilot-spaces",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 9785,
+    "sha256": "6069534e09f04fef7dc02113fe5981c23c73e8faeab3e68d6db21a2c48b80f73",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/copilot-spaces/SKILL.md",
+      "bytes": 8726,
+      "sha256": "6069534e09f04fef7dc02113fe5981c23c73e8faeab3e68d6db21a2c48b80f73",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/copilot-spaces/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "af2bd8dba6e72a87edeebd9f61eca539dc671973990953d407889a0717637f21"
+}

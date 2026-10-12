@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-arp-spoofing-attack-simulation","name":"performing-arp-spoofing-attack-simulation","description":"Simulates ARP spoofing/cache-poisoning attacks in authorized lab or pentest environments using arpspoof, Ettercap, and Scapy to demonstrate man-in-the-middle risk and validate Dynamic ARP Inspection, port security, and network monitoring detections. Use when testing whether switches, IDS/IPS, or a SIEM detect ARP spoofing under written authorization; do not use on production networks without explicit approval.","category":"Security","tags":["performing","arp","spoofing","attack","simulation","simulates","cache","poisoning","attacks","authorized","lab","pentest","environments","arpspoof","ettercap","scapy","demonstrate","man"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-arp-spoofing-attack-simulation/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-arp-spoofing-attack-simulation","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-arp-spoofing-attack-simulation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":31404,"sha256":"a9365afd3fb0188f070eeff1a9187c589d4f572531d547aab21ef079ebf119e6","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-arp-spoofing-attack-simulation/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-arp-spoofing-attack-simulation/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-arp-spoofing-attack-simulation/SKILL.md","bytes":11338,"sha256":"a9365afd3fb0188f070eeff1a9187c589d4f572531d547aab21ef079ebf119e6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-arp-spoofing-attack-simulation/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-arp-spoofing-attack-simulation/references/api-reference.md","bytes":2510,"sha256":"2366a4924d07454ae36e46db389e47bb21ff4004f77796f9e722efd7a65a40f6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-arp-spoofing-attack-simulation/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-arp-spoofing-attack-simulation/scripts/agent.py","bytes":6301,"sha256":"8660cd41732de796747a5ec6b30a447e77d7fbae2407bcc708981cd1a1638afa","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-arp-spoofing-attack-simulation/scripts/agent.py"}],"archiveSha256":"8ccc1c5f10cc38e4ff7184ea22888b5781bd63d476faa4ef3a010b9b066837da"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-arp-spoofing-attack-simulation",
+    "name": "performing-arp-spoofing-attack-simulation",
+    "description": "Simulates ARP spoofing/cache-poisoning attacks in authorized lab or pentest environments using arpspoof, Ettercap, and Scapy to demonstrate man-in-the-middle risk and validate Dynamic ARP Inspection, port security, and network monitoring detections. Use when testing whether switches, IDS/IPS, or a SIEM detect ARP spoofing under written authorization; do not use on production networks without explicit approval.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "arp",
+      "spoofing",
+      "attack",
+      "simulation",
+      "simulates",
+      "cache",
+      "poisoning",
+      "attacks",
+      "authorized",
+      "lab",
+      "pentest",
+      "environments",
+      "arpspoof",
+      "ettercap",
+      "scapy",
+      "demonstrate",
+      "man"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-arp-spoofing-attack-simulation/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-arp-spoofing-attack-simulation",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-arp-spoofing-attack-simulation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 31404,
+    "sha256": "a9365afd3fb0188f070eeff1a9187c589d4f572531d547aab21ef079ebf119e6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-arp-spoofing-attack-simulation/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-arp-spoofing-attack-simulation/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-arp-spoofing-attack-simulation/SKILL.md",
+      "bytes": 11338,
+      "sha256": "a9365afd3fb0188f070eeff1a9187c589d4f572531d547aab21ef079ebf119e6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-arp-spoofing-attack-simulation/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-arp-spoofing-attack-simulation/references/api-reference.md",
+      "bytes": 2510,
+      "sha256": "2366a4924d07454ae36e46db389e47bb21ff4004f77796f9e722efd7a65a40f6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-arp-spoofing-attack-simulation/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-arp-spoofing-attack-simulation/scripts/agent.py",
+      "bytes": 6301,
+      "sha256": "8660cd41732de796747a5ec6b30a447e77d7fbae2407bcc708981cd1a1638afa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-arp-spoofing-attack-simulation/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "8ccc1c5f10cc38e4ff7184ea22888b5781bd63d476faa4ef3a010b9b066837da"
+}

@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--azure-messaging-webpubsubservice-py","name":"azure-messaging-webpubsubservice-py","description":"Azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.","category":"Cloud & DevOps","tags":["azure","messaging","webpubsubservice","py","web","pubsub","service","sdk","python.","real","time","websocket","connections","pub","sub","patterns."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/azure-messaging-webpubsubservice-py","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-messaging-webpubsubservice-py","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7155,"sha256":"9e866e912fcb8121a3796b229d89aa1ea8bb1af5f0025d2cb83a84c97b876c14","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/azure-messaging-webpubsubservice-py/SKILL.md","bytes":6082,"sha256":"9e866e912fcb8121a3796b229d89aa1ea8bb1af5f0025d2cb83a84c97b876c14","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-messaging-webpubsubservice-py/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"8fc7be1931b2af82f6b7873d903c09ccfb0db2bd10f9b45ca73b493a63da0053"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--azure-messaging-webpubsubservice-py",
+    "name": "azure-messaging-webpubsubservice-py",
+    "description": "Azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "azure",
+      "messaging",
+      "webpubsubservice",
+      "py",
+      "web",
+      "pubsub",
+      "service",
+      "sdk",
+      "python.",
+      "real",
+      "time",
+      "websocket",
+      "connections",
+      "pub",
+      "sub",
+      "patterns."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/azure-messaging-webpubsubservice-py",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-messaging-webpubsubservice-py",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7155,
+    "sha256": "9e866e912fcb8121a3796b229d89aa1ea8bb1af5f0025d2cb83a84c97b876c14",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/azure-messaging-webpubsubservice-py/SKILL.md",
+      "bytes": 6082,
+      "sha256": "9e866e912fcb8121a3796b229d89aa1ea8bb1af5f0025d2cb83a84c97b876c14",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-messaging-webpubsubservice-py/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "8fc7be1931b2af82f6b7873d903c09ccfb0db2bd10f9b45ca73b493a63da0053"
+}

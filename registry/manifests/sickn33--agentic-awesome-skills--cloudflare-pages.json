@@ -1,1 +1,58 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--cloudflare-pages","name":"cloudflare-pages","description":"Deploy static sites and full-stack apps on Cloudflare Pages with previews, functions, and custom domains.","category":"Cloud & DevOps","tags":["cloudflare","pages","deploy","static","sites","full","stack","apps","previews","functions","custom","domains."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/cloudflare-pages","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cloudflare-pages","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":10627,"sha256":"bcd76c6014c08278508f9b68a31b53d03ba2115f573777e13ffc41cc522aaf22","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/cloudflare-pages/SKILL.md","bytes":9554,"sha256":"bcd76c6014c08278508f9b68a31b53d03ba2115f573777e13ffc41cc522aaf22","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cloudflare-pages/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"124ff466e79111e570fcd2fe1774b7fd19e5608f14695628802220fe79039715"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--cloudflare-pages",
+    "name": "cloudflare-pages",
+    "description": "Deploy static sites and full-stack apps on Cloudflare Pages with previews, functions, and custom domains.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "cloudflare",
+      "pages",
+      "deploy",
+      "static",
+      "sites",
+      "full",
+      "stack",
+      "apps",
+      "previews",
+      "functions",
+      "custom",
+      "domains."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/cloudflare-pages",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cloudflare-pages",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10627,
+    "sha256": "bcd76c6014c08278508f9b68a31b53d03ba2115f573777e13ffc41cc522aaf22",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/cloudflare-pages/SKILL.md",
+      "bytes": 9554,
+      "sha256": "bcd76c6014c08278508f9b68a31b53d03ba2115f573777e13ffc41cc522aaf22",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cloudflare-pages/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "124ff466e79111e570fcd2fe1774b7fd19e5608f14695628802220fe79039715"
+}

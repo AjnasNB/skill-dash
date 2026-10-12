@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--traderspy-position-check","name":"traderspy-position-check","description":"Health-check crypto futures positions the user describes, with TraderSpy data: liquidation and stop distance, multi-timeframe read, funding and top-trader side. Reports only; never tells the user to close or add.","category":"Development","tags":["traderspy","position","check","health","crypto","futures","positions","user","describes","data","liquidation","stop","distance","multi","timeframe","read","funding","top"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/traderspy-position-check","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/traderspy-position-check","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":11271,"sha256":"ec32009c79ece7afbb0a2ab158fcf1178d96c5490809be9c00caa8c737932448","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/traderspy-position-check/SKILL.md","bytes":7175,"sha256":"ec32009c79ece7afbb0a2ab158fcf1178d96c5490809be9c00caa8c737932448","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/traderspy-position-check/SKILL.md"},{"path":"references/risk-math.md","sourcePath":"skills/traderspy-position-check/references/risk-math.md","bytes":3023,"sha256":"670d5a4319497d8f021a3361b7920c652a356886d7f13f4bfd0ab96e0eb32aab","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/traderspy-position-check/references/risk-math.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"4a00045530f2a9f994ab8350f0c8da8961eaf7c8dc310c383f045ce650a417c9"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--traderspy-position-check",
+    "name": "traderspy-position-check",
+    "description": "Health-check crypto futures positions the user describes, with TraderSpy data: liquidation and stop distance, multi-timeframe read, funding and top-trader side. Reports only; never tells the user to close or add.",
+    "category": "Development",
+    "tags": [
+      "traderspy",
+      "position",
+      "check",
+      "health",
+      "crypto",
+      "futures",
+      "positions",
+      "user",
+      "describes",
+      "data",
+      "liquidation",
+      "stop",
+      "distance",
+      "multi",
+      "timeframe",
+      "read",
+      "funding",
+      "top"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/traderspy-position-check",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/traderspy-position-check",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 11271,
+    "sha256": "ec32009c79ece7afbb0a2ab158fcf1178d96c5490809be9c00caa8c737932448",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/traderspy-position-check/SKILL.md",
+      "bytes": 7175,
+      "sha256": "ec32009c79ece7afbb0a2ab158fcf1178d96c5490809be9c00caa8c737932448",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/traderspy-position-check/SKILL.md"
+    },
+    {
+      "path": "references/risk-math.md",
+      "sourcePath": "skills/traderspy-position-check/references/risk-math.md",
+      "bytes": 3023,
+      "sha256": "670d5a4319497d8f021a3361b7920c652a356886d7f13f4bfd0ab96e0eb32aab",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/traderspy-position-check/references/risk-math.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "4a00045530f2a9f994ab8350f0c8da8961eaf7c8dc310c383f045ce650a417c9"
+}

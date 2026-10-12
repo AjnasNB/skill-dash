@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--context-compression","name":"context-compression","description":"When agent sessions generate millions of tokens of conversation history, compression becomes mandatory. The naive approach is aggressive compression to minimize tokens per request.","category":"AI & agents","tags":["context","compression","when","agent","sessions","generate","millions","tokens","conversation","history","becomes","mandatory.","naive","approach","is","aggressive","minimize","per"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/context-compression","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/context-compression","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":13632,"sha256":"08f9a3f325a6cb96bf48e54c4893bc99a860c9c3826e6313d512238fdcc75194","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/context-compression/SKILL.md","bytes":12559,"sha256":"08f9a3f325a6cb96bf48e54c4893bc99a860c9c3826e6313d512238fdcc75194","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/context-compression/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"11ccf8e11f0694cc742da11798c4bffb9b0824714f6a856172865c7592fc474a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--context-compression",
+    "name": "context-compression",
+    "description": "When agent sessions generate millions of tokens of conversation history, compression becomes mandatory. The naive approach is aggressive compression to minimize tokens per request.",
+    "category": "AI & agents",
+    "tags": [
+      "context",
+      "compression",
+      "when",
+      "agent",
+      "sessions",
+      "generate",
+      "millions",
+      "tokens",
+      "conversation",
+      "history",
+      "becomes",
+      "mandatory.",
+      "naive",
+      "approach",
+      "is",
+      "aggressive",
+      "minimize",
+      "per"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/context-compression",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/context-compression",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13632,
+    "sha256": "08f9a3f325a6cb96bf48e54c4893bc99a860c9c3826e6313d512238fdcc75194",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/context-compression/SKILL.md",
+      "bytes": 12559,
+      "sha256": "08f9a3f325a6cb96bf48e54c4893bc99a860c9c3826e6313d512238fdcc75194",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/context-compression/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "11ccf8e11f0694cc742da11798c4bffb9b0824714f6a856172865c7592fc474a"
+}

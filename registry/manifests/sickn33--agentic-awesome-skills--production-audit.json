@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--production-audit","name":"production-audit","description":"Audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.","category":"Design","tags":["production","audit","shipped","repo","readiness","gaps","across","rls","webhooks","secrets","grants","stripe","idempotency","mobile","ux","deployment","health."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/production-audit","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/production-audit","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12003,"sha256":"2f94161129eeca90f3dd9b987a06357db14626aefcbb3ee59b41c3c902b85130","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/production-audit/SKILL.md","bytes":10930,"sha256":"2f94161129eeca90f3dd9b987a06357db14626aefcbb3ee59b41c3c902b85130","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/production-audit/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"bb2940c587ff97a9c3e84ac5d804475cf478007dda2f1412a3d9eedff9981068"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--production-audit",
+    "name": "production-audit",
+    "description": "Audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.",
+    "category": "Design",
+    "tags": [
+      "production",
+      "audit",
+      "shipped",
+      "repo",
+      "readiness",
+      "gaps",
+      "across",
+      "rls",
+      "webhooks",
+      "secrets",
+      "grants",
+      "stripe",
+      "idempotency",
+      "mobile",
+      "ux",
+      "deployment",
+      "health."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/production-audit",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/production-audit",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12003,
+    "sha256": "2f94161129eeca90f3dd9b987a06357db14626aefcbb3ee59b41c3c902b85130",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/production-audit/SKILL.md",
+      "bytes": 10930,
+      "sha256": "2f94161129eeca90f3dd9b987a06357db14626aefcbb3ee59b41c3c902b85130",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/production-audit/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "bb2940c587ff97a9c3e84ac5d804475cf478007dda2f1412a3d9eedff9981068"
+}

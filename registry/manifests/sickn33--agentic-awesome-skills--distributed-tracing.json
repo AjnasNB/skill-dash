@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--distributed-tracing","name":"distributed-tracing","description":"Implement distributed tracing with Jaeger and Tempo for request flow visibility across microservices.","category":"Development","tags":["distributed","tracing","implement","jaeger","tempo","request","flow","visibility","across","microservices."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/distributed-tracing","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/distributed-tracing","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":5,"bytes":6561,"sha256":"66f7e89f022f754f24efe3c1b79d85f4b5790542cf97e03c1c0a4a5f6ff4acb6","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/distributed-tracing/SKILL.md","bytes":2697,"sha256":"66f7e89f022f754f24efe3c1b79d85f4b5790542cf97e03c1c0a4a5f6ff4acb6","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/distributed-tracing/SKILL.md"},{"path":"references/instrumentation.md","sourcePath":"skills/distributed-tracing/references/instrumentation.md","bytes":712,"sha256":"980b64d730f40cb9e817fc6b8c2135562d16c7432359651355a83d3f120160d2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/distributed-tracing/references/instrumentation.md"},{"path":"references/jaeger-setup.md","sourcePath":"skills/distributed-tracing/references/jaeger-setup.md","bytes":821,"sha256":"9fb978d2a198f2d33d9c8a4c73a2831125b0afbafd0e86d77e65fb48c9fe19d0","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/distributed-tracing/references/jaeger-setup.md"},{"path":"resources/implementation-playbook.md","sourcePath":"skills/distributed-tracing/resources/implementation-playbook.md","bytes":1258,"sha256":"9f42f777ced72962c5fb9649ac79b0c40428605f3c808f4564029bc733514f4b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/distributed-tracing/resources/implementation-playbook.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"30c45e32b1d514486e67d7444b933d0818f075f340527c01a0bd6507e36f6173"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--distributed-tracing",
+    "name": "distributed-tracing",
+    "description": "Implement distributed tracing with Jaeger and Tempo for request flow visibility across microservices.",
+    "category": "Development",
+    "tags": [
+      "distributed",
+      "tracing",
+      "implement",
+      "jaeger",
+      "tempo",
+      "request",
+      "flow",
+      "visibility",
+      "across",
+      "microservices."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/distributed-tracing",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/distributed-tracing",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 5,
+    "bytes": 6561,
+    "sha256": "66f7e89f022f754f24efe3c1b79d85f4b5790542cf97e03c1c0a4a5f6ff4acb6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/distributed-tracing/SKILL.md",
+      "bytes": 2697,
+      "sha256": "66f7e89f022f754f24efe3c1b79d85f4b5790542cf97e03c1c0a4a5f6ff4acb6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/distributed-tracing/SKILL.md"
+    },
+    {
+      "path": "references/instrumentation.md",
+      "sourcePath": "skills/distributed-tracing/references/instrumentation.md",
+      "bytes": 712,
+      "sha256": "980b64d730f40cb9e817fc6b8c2135562d16c7432359651355a83d3f120160d2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/distributed-tracing/references/instrumentation.md"
+    },
+    {
+      "path": "references/jaeger-setup.md",
+      "sourcePath": "skills/distributed-tracing/references/jaeger-setup.md",
+      "bytes": 821,
+      "sha256": "9fb978d2a198f2d33d9c8a4c73a2831125b0afbafd0e86d77e65fb48c9fe19d0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/distributed-tracing/references/jaeger-setup.md"
+    },
+    {
+      "path": "resources/implementation-playbook.md",
+      "sourcePath": "skills/distributed-tracing/resources/implementation-playbook.md",
+      "bytes": 1258,
+      "sha256": "9f42f777ced72962c5fb9649ac79b0c40428605f3c808f4564029bc733514f4b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/distributed-tracing/resources/implementation-playbook.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "30c45e32b1d514486e67d7444b933d0818f075f340527c01a0bd6507e36f6173"
+}

@@ -1,1 +1,50 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--hunt-session","name":"hunt-session","description":"Hunt Session Management vulnerabilities","category":"Security","tags":["hunt","session","management","vulnerabilities"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/hunt-session","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-session","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":22911,"sha256":"f61e2b91b997a71a4ac2dce0c1038495ffdf49bc3191e27773ed05ce813df95e","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/hunt-session/SKILL.md","bytes":21838,"sha256":"f61e2b91b997a71a4ac2dce0c1038495ffdf49bc3191e27773ed05ce813df95e","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-session/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"50c1f18fe9a89d3c5193a63cbf0ae96a3ec5dc66e2d6e9e3924e95f454c0a0fe"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--hunt-session",
+    "name": "hunt-session",
+    "description": "Hunt Session Management vulnerabilities",
+    "category": "Security",
+    "tags": [
+      "hunt",
+      "session",
+      "management",
+      "vulnerabilities"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/hunt-session",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-session",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 22911,
+    "sha256": "f61e2b91b997a71a4ac2dce0c1038495ffdf49bc3191e27773ed05ce813df95e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunt-session/SKILL.md",
+      "bytes": 21838,
+      "sha256": "f61e2b91b997a71a4ac2dce0c1038495ffdf49bc3191e27773ed05ce813df95e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-session/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "50c1f18fe9a89d3c5193a63cbf0ae96a3ec5dc66e2d6e9e3924e95f454c0a0fe"
+}

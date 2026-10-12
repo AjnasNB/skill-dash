@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--building-detection-rules-with-sigma","name":"building-detection-rules-with-sigma","description":"Builds vendor-agnostic detection rules using the Sigma rule format for threat detection across SIEM platforms including Splunk, Elastic, and Microsoft Sentinel. Use when creating portable detection logic from threat intelligence, mapping rules to MITRE ATT&CK techniques, or converting community Sigma rules into platform-specific queries using sigmac or pySigma backends.","category":"Security","tags":["building","detection","rules","sigma","builds","vendor","agnostic","rule","format","threat","across","siem","platforms","including","splunk","elastic","microsoft","sentinel."],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/building-detection-rules-with-sigma/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/building-detection-rules-with-sigma","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-detection-rules-with-sigma","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":30525,"sha256":"37f59e2eb077b8dfdd8c476942164b5294b232829b0ca9ad20c82516730cb219","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/building-detection-rules-with-sigma/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-detection-rules-with-sigma/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/building-detection-rules-with-sigma/SKILL.md","bytes":10694,"sha256":"37f59e2eb077b8dfdd8c476942164b5294b232829b0ca9ad20c82516730cb219","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-detection-rules-with-sigma/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/building-detection-rules-with-sigma/references/api-reference.md","bytes":2127,"sha256":"437f1308634a8b01e84ef23624eaca5701c8f04e559c778e7c4eb7b3ff5de2e6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-detection-rules-with-sigma/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/building-detection-rules-with-sigma/scripts/agent.py","bytes":6449,"sha256":"f36a1576ec106063002ab76e42f10bbb4134073605efcd7c83339138780847c0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-detection-rules-with-sigma/scripts/agent.py"}],"archiveSha256":"942fb35163504912ef6f15add597714382438018831c068bff51e6bd200b273b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--building-detection-rules-with-sigma",
+    "name": "building-detection-rules-with-sigma",
+    "description": "Builds vendor-agnostic detection rules using the Sigma rule format for threat detection across SIEM platforms including Splunk, Elastic, and Microsoft Sentinel. Use when creating portable detection logic from threat intelligence, mapping rules to MITRE ATT&CK techniques, or converting community Sigma rules into platform-specific queries using sigmac or pySigma backends.",
+    "category": "Security",
+    "tags": [
+      "building",
+      "detection",
+      "rules",
+      "sigma",
+      "builds",
+      "vendor",
+      "agnostic",
+      "rule",
+      "format",
+      "threat",
+      "across",
+      "siem",
+      "platforms",
+      "including",
+      "splunk",
+      "elastic",
+      "microsoft",
+      "sentinel."
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/building-detection-rules-with-sigma/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/building-detection-rules-with-sigma",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-detection-rules-with-sigma",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 30525,
+    "sha256": "37f59e2eb077b8dfdd8c476942164b5294b232829b0ca9ad20c82516730cb219",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/building-detection-rules-with-sigma/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-detection-rules-with-sigma/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/building-detection-rules-with-sigma/SKILL.md",
+      "bytes": 10694,
+      "sha256": "37f59e2eb077b8dfdd8c476942164b5294b232829b0ca9ad20c82516730cb219",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-detection-rules-with-sigma/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/building-detection-rules-with-sigma/references/api-reference.md",
+      "bytes": 2127,
+      "sha256": "437f1308634a8b01e84ef23624eaca5701c8f04e559c778e7c4eb7b3ff5de2e6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-detection-rules-with-sigma/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/building-detection-rules-with-sigma/scripts/agent.py",
+      "bytes": 6449,
+      "sha256": "f36a1576ec106063002ab76e42f10bbb4134073605efcd7c83339138780847c0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-detection-rules-with-sigma/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "942fb35163504912ef6f15add597714382438018831c068bff51e6bd200b273b"
+}

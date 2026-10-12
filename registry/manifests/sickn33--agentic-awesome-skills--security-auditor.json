@@ -1,1 +1,55 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--security-auditor","name":"security-auditor","description":"Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.","category":"Security","tags":["security","auditor","expert","specializing","devsecops","comprehensive","cybersecurity","compliance","frameworks."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/security-auditor","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/security-auditor","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12563,"sha256":"01a5687de84be124b8d6c4ecd9e21185ddb31b5293474c60cac9c3f9fce57ca3","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/security-auditor/SKILL.md","bytes":11490,"sha256":"01a5687de84be124b8d6c4ecd9e21185ddb31b5293474c60cac9c3f9fce57ca3","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/security-auditor/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"49c238a9031f142d066b10ad615071befb70ee3540183387692a651ee5796758"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--security-auditor",
+    "name": "security-auditor",
+    "description": "Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks.",
+    "category": "Security",
+    "tags": [
+      "security",
+      "auditor",
+      "expert",
+      "specializing",
+      "devsecops",
+      "comprehensive",
+      "cybersecurity",
+      "compliance",
+      "frameworks."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/security-auditor",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/security-auditor",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12563,
+    "sha256": "01a5687de84be124b8d6c4ecd9e21185ddb31b5293474c60cac9c3f9fce57ca3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/security-auditor/SKILL.md",
+      "bytes": 11490,
+      "sha256": "01a5687de84be124b8d6c4ecd9e21185ddb31b5293474c60cac9c3f9fce57ca3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/security-auditor/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "49c238a9031f142d066b10ad615071befb70ee3540183387692a651ee5796758"
+}

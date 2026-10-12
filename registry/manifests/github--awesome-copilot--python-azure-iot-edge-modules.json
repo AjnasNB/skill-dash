@@ -1,1 +1,76 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--python-azure-iot-edge-modules","name":"python-azure-iot-edge-modules","description":"Build and operate Python Azure IoT Edge modules with robust messaging, deployment manifests, observability, and production readiness checks.","category":"Cloud & DevOps","tags":["python","azure","iot","edge","modules","operate","robust","messaging","deployment","manifests","observability","production","readiness","checks."],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/python-azure-iot-edge-modules","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/python-azure-iot-edge-modules","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":4,"bytes":8898,"sha256":"51b16bbdf7271198b60bc1958322b6c52be19ab7313e1f146b77dd7c31add26d","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/python-azure-iot-edge-modules/SKILL.md","bytes":4277,"sha256":"51b16bbdf7271198b60bc1958322b6c52be19ab7313e1f146b77dd7c31add26d","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/python-azure-iot-edge-modules/SKILL.md"},{"path":"references/python-edge-module-template.md","sourcePath":"skills/python-azure-iot-edge-modules/references/python-edge-module-template.md","bytes":1339,"sha256":"f8d0042028cf3ad60395d6c67fcca1f0dc95a69ac8faef0908bc7725a8b062db","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/python-azure-iot-edge-modules/references/python-edge-module-template.md"},{"path":"references/python-official-best-practices.md","sourcePath":"skills/python-azure-iot-edge-modules/references/python-official-best-practices.md","bytes":2223,"sha256":"9522a7e4c66da1feae0221a7cf1f9239cb47965073154e510be5276b4dc31962","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/python-azure-iot-edge-modules/references/python-official-best-practices.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"eebe295bf0b0e87f07d04f3d4a7c28c584fec54b4f136269406acbeb4219c5d0"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--python-azure-iot-edge-modules",
+    "name": "python-azure-iot-edge-modules",
+    "description": "Build and operate Python Azure IoT Edge modules with robust messaging, deployment manifests, observability, and production readiness checks.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "python",
+      "azure",
+      "iot",
+      "edge",
+      "modules",
+      "operate",
+      "robust",
+      "messaging",
+      "deployment",
+      "manifests",
+      "observability",
+      "production",
+      "readiness",
+      "checks."
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/python-azure-iot-edge-modules",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/python-azure-iot-edge-modules",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 4,
+    "bytes": 8898,
+    "sha256": "51b16bbdf7271198b60bc1958322b6c52be19ab7313e1f146b77dd7c31add26d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/python-azure-iot-edge-modules/SKILL.md",
+      "bytes": 4277,
+      "sha256": "51b16bbdf7271198b60bc1958322b6c52be19ab7313e1f146b77dd7c31add26d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/python-azure-iot-edge-modules/SKILL.md"
+    },
+    {
+      "path": "references/python-edge-module-template.md",
+      "sourcePath": "skills/python-azure-iot-edge-modules/references/python-edge-module-template.md",
+      "bytes": 1339,
+      "sha256": "f8d0042028cf3ad60395d6c67fcca1f0dc95a69ac8faef0908bc7725a8b062db",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/python-azure-iot-edge-modules/references/python-edge-module-template.md"
+    },
+    {
+      "path": "references/python-official-best-practices.md",
+      "sourcePath": "skills/python-azure-iot-edge-modules/references/python-official-best-practices.md",
+      "bytes": 2223,
+      "sha256": "9522a7e4c66da1feae0221a7cf1f9239cb47965073154e510be5276b4dc31962",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/python-azure-iot-edge-modules/references/python-official-best-practices.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "eebe295bf0b0e87f07d04f3d4a7c28c584fec54b4f136269406acbeb4219c5d0"
+}

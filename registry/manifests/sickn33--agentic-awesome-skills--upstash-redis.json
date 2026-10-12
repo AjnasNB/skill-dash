@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--upstash-redis","name":"upstash-redis","description":"Use the @upstash/redis HTTP client for caching, sessions, counters, and Redis data structures from serverless and edge runtimes without connection pooling.","category":"Development","tags":["upstash","redis","http","client","caching","sessions","counters","data","structures","from","serverless","edge","runtimes","without","connection","pooling."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/upstash-redis","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/upstash-redis","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6923,"sha256":"fbee909ae645fa8145137872bb00dc5a0886796d6018d8d5fb14c3f80d0fb91e","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/upstash-redis/SKILL.md","bytes":5850,"sha256":"fbee909ae645fa8145137872bb00dc5a0886796d6018d8d5fb14c3f80d0fb91e","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/upstash-redis/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"78ba170fd57f1455be0be3bd4568430ecc6b1b7f212729b2d4a2636496750ee1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--upstash-redis",
+    "name": "upstash-redis",
+    "description": "Use the @upstash/redis HTTP client for caching, sessions, counters, and Redis data structures from serverless and edge runtimes without connection pooling.",
+    "category": "Development",
+    "tags": [
+      "upstash",
+      "redis",
+      "http",
+      "client",
+      "caching",
+      "sessions",
+      "counters",
+      "data",
+      "structures",
+      "from",
+      "serverless",
+      "edge",
+      "runtimes",
+      "without",
+      "connection",
+      "pooling."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/upstash-redis",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/upstash-redis",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6923,
+    "sha256": "fbee909ae645fa8145137872bb00dc5a0886796d6018d8d5fb14c3f80d0fb91e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/upstash-redis/SKILL.md",
+      "bytes": 5850,
+      "sha256": "fbee909ae645fa8145137872bb00dc5a0886796d6018d8d5fb14c3f80d0fb91e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/upstash-redis/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "78ba170fd57f1455be0be3bd4568430ecc6b1b7f212729b2d4a2636496750ee1"
+}

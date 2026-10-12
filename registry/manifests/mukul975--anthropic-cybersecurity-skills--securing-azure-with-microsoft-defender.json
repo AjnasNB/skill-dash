@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--securing-azure-with-microsoft-defender","name":"securing-azure-with-microsoft-defender","description":"Deploys and configures Microsoft Defender for Cloud as a CNAPP for Azure, multi-cloud, and hybrid environments: enabling Defender plans for servers, containers, storage, and databases, configuring recommendations, and managing Secure Score via the unified Defender portal. Use when onboarding workloads to Defender for Cloud or setting up cloud workload protection and threat monitoring.","category":"Security","tags":["securing","azure","microsoft","defender","deploys","configures","cloud","as","cnapp","multi","hybrid","environments","enabling","plans","servers","containers","storage","databases"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/securing-azure-with-microsoft-defender/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/securing-azure-with-microsoft-defender","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-azure-with-microsoft-defender","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":32177,"sha256":"4036ab8eb72552757b39ac3605b2250786c4caa84a9efa07ef5d04e19203d7de","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/securing-azure-with-microsoft-defender/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-azure-with-microsoft-defender/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/securing-azure-with-microsoft-defender/SKILL.md","bytes":11972,"sha256":"4036ab8eb72552757b39ac3605b2250786c4caa84a9efa07ef5d04e19203d7de","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-azure-with-microsoft-defender/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/securing-azure-with-microsoft-defender/references/api-reference.md","bytes":2017,"sha256":"e0b348ded3c249b04a5c078a0623827f577a0e24de242fbe3fbdb4071839e842","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-azure-with-microsoft-defender/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/securing-azure-with-microsoft-defender/scripts/agent.py","bytes":6933,"sha256":"36330570cf1eccd1846884e9f8235fd0e87098b4d0f1460000d302e22e7c3242","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-azure-with-microsoft-defender/scripts/agent.py"}],"archiveSha256":"b08b0d90ba7d76f4d8dbbe8b44a1ce0ce08b442f88a9ae080dbee24a8c886328"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--securing-azure-with-microsoft-defender",
+    "name": "securing-azure-with-microsoft-defender",
+    "description": "Deploys and configures Microsoft Defender for Cloud as a CNAPP for Azure, multi-cloud, and hybrid environments: enabling Defender plans for servers, containers, storage, and databases, configuring recommendations, and managing Secure Score via the unified Defender portal. Use when onboarding workloads to Defender for Cloud or setting up cloud workload protection and threat monitoring.",
+    "category": "Security",
+    "tags": [
+      "securing",
+      "azure",
+      "microsoft",
+      "defender",
+      "deploys",
+      "configures",
+      "cloud",
+      "as",
+      "cnapp",
+      "multi",
+      "hybrid",
+      "environments",
+      "enabling",
+      "plans",
+      "servers",
+      "containers",
+      "storage",
+      "databases"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/securing-azure-with-microsoft-defender/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/securing-azure-with-microsoft-defender",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-azure-with-microsoft-defender",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32177,
+    "sha256": "4036ab8eb72552757b39ac3605b2250786c4caa84a9efa07ef5d04e19203d7de",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/securing-azure-with-microsoft-defender/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-azure-with-microsoft-defender/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/securing-azure-with-microsoft-defender/SKILL.md",
+      "bytes": 11972,
+      "sha256": "4036ab8eb72552757b39ac3605b2250786c4caa84a9efa07ef5d04e19203d7de",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-azure-with-microsoft-defender/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/securing-azure-with-microsoft-defender/references/api-reference.md",
+      "bytes": 2017,
+      "sha256": "e0b348ded3c249b04a5c078a0623827f577a0e24de242fbe3fbdb4071839e842",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-azure-with-microsoft-defender/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/securing-azure-with-microsoft-defender/scripts/agent.py",
+      "bytes": 6933,
+      "sha256": "36330570cf1eccd1846884e9f8235fd0e87098b4d0f1460000d302e22e7c3242",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-azure-with-microsoft-defender/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "b08b0d90ba7d76f4d8dbbe8b44a1ce0ce08b442f88a9ae080dbee24a8c886328"
+}

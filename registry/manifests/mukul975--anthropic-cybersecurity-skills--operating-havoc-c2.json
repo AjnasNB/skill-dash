@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--operating-havoc-c2","name":"operating-havoc-c2","description":"Deploy a Havoc C2 team server with Yaotl malleable profiles, generate evasive Demon agents using indirect syscalls and sleep obfuscation, and run post-exploitation and pivoting operations. Use during authorized, rules-of-engagement-bound red-team engagements for adversary emulation requiring a full C2 lifecycle (server setup, evasive implant generation, tasking, and lateral pivoting).","category":"Cloud & DevOps","tags":["operating","havoc","c2","deploy","team","server","yaotl","malleable","profiles","generate","evasive","demon","agents","indirect","syscalls","sleep","obfuscation","run"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/operating-havoc-c2/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/operating-havoc-c2","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/operating-havoc-c2","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":5,"bytes":31377,"sha256":"112e35072937d6a3b7d9f55960efb9d5e2c115b5ef9e36efea41d8013ea4147c","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/operating-havoc-c2/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/operating-havoc-c2/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/operating-havoc-c2/SKILL.md","bytes":10436,"sha256":"112e35072937d6a3b7d9f55960efb9d5e2c115b5ef9e36efea41d8013ea4147c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/operating-havoc-c2/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/operating-havoc-c2/references/api-reference.md","bytes":2273,"sha256":"18d129c9794b59de88cf738cefc6bd79c2c2f341c1fd2745042f9909e66e7d4c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/operating-havoc-c2/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/operating-havoc-c2/references/standards.md","bytes":1438,"sha256":"2f3b8d6364bc0bd37a61ae57d8d4d416dd5e4f1388f5f8893d4f36debb936ff2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/operating-havoc-c2/references/standards.md"},{"path":"scripts/agent.py","sourcePath":"skills/operating-havoc-c2/scripts/agent.py","bytes":5975,"sha256":"f10a1f913c2abc993cb55650f035a1413262b7ff025811b3b83f82cc6986243a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/operating-havoc-c2/scripts/agent.py"}],"archiveSha256":"9426fddfa860338c0cbda3b54f0a100c508d469170b907c43fed3ea113a12ae4"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--operating-havoc-c2",
+    "name": "operating-havoc-c2",
+    "description": "Deploy a Havoc C2 team server with Yaotl malleable profiles, generate evasive Demon agents using indirect syscalls and sleep obfuscation, and run post-exploitation and pivoting operations. Use during authorized, rules-of-engagement-bound red-team engagements for adversary emulation requiring a full C2 lifecycle (server setup, evasive implant generation, tasking, and lateral pivoting).",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "operating",
+      "havoc",
+      "c2",
+      "deploy",
+      "team",
+      "server",
+      "yaotl",
+      "malleable",
+      "profiles",
+      "generate",
+      "evasive",
+      "demon",
+      "agents",
+      "indirect",
+      "syscalls",
+      "sleep",
+      "obfuscation",
+      "run"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/operating-havoc-c2/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/operating-havoc-c2",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/operating-havoc-c2",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 31377,
+    "sha256": "112e35072937d6a3b7d9f55960efb9d5e2c115b5ef9e36efea41d8013ea4147c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/operating-havoc-c2/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/operating-havoc-c2/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/operating-havoc-c2/SKILL.md",
+      "bytes": 10436,
+      "sha256": "112e35072937d6a3b7d9f55960efb9d5e2c115b5ef9e36efea41d8013ea4147c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/operating-havoc-c2/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/operating-havoc-c2/references/api-reference.md",
+      "bytes": 2273,
+      "sha256": "18d129c9794b59de88cf738cefc6bd79c2c2f341c1fd2745042f9909e66e7d4c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/operating-havoc-c2/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/operating-havoc-c2/references/standards.md",
+      "bytes": 1438,
+      "sha256": "2f3b8d6364bc0bd37a61ae57d8d4d416dd5e4f1388f5f8893d4f36debb936ff2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/operating-havoc-c2/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/operating-havoc-c2/scripts/agent.py",
+      "bytes": 5975,
+      "sha256": "f10a1f913c2abc993cb55650f035a1413262b7ff025811b3b83f82cc6986243a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/operating-havoc-c2/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "9426fddfa860338c0cbda3b54f0a100c508d469170b907c43fed3ea113a12ae4"
+}

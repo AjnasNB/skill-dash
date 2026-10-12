@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--building-c2-redirector-infrastructure","name":"building-c2-redirector-infrastructure","description":"Build dumb-pipe and traffic-filtering C2 redirectors with nginx (proxy_pass) and Apache (mod_rewrite), deriving filter rules from a Malleable C2 profile, layering Let's Encrypt TLS, and applying OPSEC controls like domain fronting and UA/geo filtering. Use when standing up red-team C2 that must survive blue-team triage or ensuring only profile-matching implant traffic reaches the hidden team server.","category":"Cloud & DevOps","tags":["building","c2","redirector","infrastructure","dumb","pipe","traffic","filtering","redirectors","nginx","proxy","pass","apache","mod","rewrite","deriving","filter","rules"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/building-c2-redirector-infrastructure/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/building-c2-redirector-infrastructure","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-redirector-infrastructure","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":5,"bytes":31688,"sha256":"325a80a46eea1108e887ec0e60bb897955f2b7384b8c8f867efe3c0610fecb72","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/building-c2-redirector-infrastructure/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-redirector-infrastructure/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/building-c2-redirector-infrastructure/SKILL.md","bytes":11601,"sha256":"325a80a46eea1108e887ec0e60bb897955f2b7384b8c8f867efe3c0610fecb72","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-redirector-infrastructure/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/building-c2-redirector-infrastructure/references/api-reference.md","bytes":2195,"sha256":"7b75486676694e4ed72a488a952b9cb16b1c801c749beb961b75f54b44eb9fda","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-redirector-infrastructure/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/building-c2-redirector-infrastructure/references/standards.md","bytes":1819,"sha256":"175b003513bcee22230fd641ae717d9a248fbffd1221edbab4b8cfe7e8448637","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-redirector-infrastructure/references/standards.md"},{"path":"scripts/agent.py","sourcePath":"skills/building-c2-redirector-infrastructure/scripts/agent.py","bytes":4818,"sha256":"61826e2df3584c9dde5bb9627c40ab268fbb9e7961fc9d6dfbc01c99ea48fbd8","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-redirector-infrastructure/scripts/agent.py"}],"archiveSha256":"6e87edae696a6ed7dd2c53d7853e346f2f0b8ae460b356c991aac933b3bb8107"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--building-c2-redirector-infrastructure",
+    "name": "building-c2-redirector-infrastructure",
+    "description": "Build dumb-pipe and traffic-filtering C2 redirectors with nginx (proxy_pass) and Apache (mod_rewrite), deriving filter rules from a Malleable C2 profile, layering Let's Encrypt TLS, and applying OPSEC controls like domain fronting and UA/geo filtering. Use when standing up red-team C2 that must survive blue-team triage or ensuring only profile-matching implant traffic reaches the hidden team server.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "building",
+      "c2",
+      "redirector",
+      "infrastructure",
+      "dumb",
+      "pipe",
+      "traffic",
+      "filtering",
+      "redirectors",
+      "nginx",
+      "proxy",
+      "pass",
+      "apache",
+      "mod",
+      "rewrite",
+      "deriving",
+      "filter",
+      "rules"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/building-c2-redirector-infrastructure/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/building-c2-redirector-infrastructure",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-redirector-infrastructure",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 31688,
+    "sha256": "325a80a46eea1108e887ec0e60bb897955f2b7384b8c8f867efe3c0610fecb72",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/building-c2-redirector-infrastructure/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-redirector-infrastructure/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/building-c2-redirector-infrastructure/SKILL.md",
+      "bytes": 11601,
+      "sha256": "325a80a46eea1108e887ec0e60bb897955f2b7384b8c8f867efe3c0610fecb72",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-redirector-infrastructure/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/building-c2-redirector-infrastructure/references/api-reference.md",
+      "bytes": 2195,
+      "sha256": "7b75486676694e4ed72a488a952b9cb16b1c801c749beb961b75f54b44eb9fda",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-redirector-infrastructure/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/building-c2-redirector-infrastructure/references/standards.md",
+      "bytes": 1819,
+      "sha256": "175b003513bcee22230fd641ae717d9a248fbffd1221edbab4b8cfe7e8448637",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-redirector-infrastructure/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/building-c2-redirector-infrastructure/scripts/agent.py",
+      "bytes": 4818,
+      "sha256": "61826e2df3584c9dde5bb9627c40ab268fbb9e7961fc9d6dfbc01c99ea48fbd8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-c2-redirector-infrastructure/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "6e87edae696a6ed7dd2c53d7853e346f2f0b8ae460b356c991aac933b3bb8107"
+}

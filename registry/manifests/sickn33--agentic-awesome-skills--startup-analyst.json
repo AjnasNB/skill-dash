@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--startup-analyst","name":"startup-analyst","description":"Expert startup business analyst specializing in market sizing, financial modeling, competitive analysis, and strategic planning for early-stage companies.","category":"Product & business","tags":["startup","analyst","expert","business","specializing","market","sizing","financial","modeling","competitive","analysis","strategic","planning","early","stage","companies."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/startup-analyst","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/startup-analyst","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12833,"sha256":"7d38172c11460765164e6d14a3f1e35697e462b3ac33be2ba829f3699a96dab0","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/startup-analyst/SKILL.md","bytes":11760,"sha256":"7d38172c11460765164e6d14a3f1e35697e462b3ac33be2ba829f3699a96dab0","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/startup-analyst/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"4d066a7eadda845352eae3b8b893acdc3878edf523a9ad51fd375a1e2e5d21be"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--startup-analyst",
+    "name": "startup-analyst",
+    "description": "Expert startup business analyst specializing in market sizing, financial modeling, competitive analysis, and strategic planning for early-stage companies.",
+    "category": "Product & business",
+    "tags": [
+      "startup",
+      "analyst",
+      "expert",
+      "business",
+      "specializing",
+      "market",
+      "sizing",
+      "financial",
+      "modeling",
+      "competitive",
+      "analysis",
+      "strategic",
+      "planning",
+      "early",
+      "stage",
+      "companies."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/startup-analyst",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/startup-analyst",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12833,
+    "sha256": "7d38172c11460765164e6d14a3f1e35697e462b3ac33be2ba829f3699a96dab0",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/startup-analyst/SKILL.md",
+      "bytes": 11760,
+      "sha256": "7d38172c11460765164e6d14a3f1e35697e462b3ac33be2ba829f3699a96dab0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/startup-analyst/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "4d066a7eadda845352eae3b8b893acdc3878edf523a9ad51fd375a1e2e5d21be"
+}

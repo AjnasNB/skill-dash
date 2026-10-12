@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--hunting-evtx-with-chainsaw","name":"hunting-evtx-with-chainsaw","description":"Run Chainsaw against collected Windows EVTX files to hunt with the SigmaHQ rule corpus, built-in detection rules, and high-speed keyword/regex search, plus analyze shimcache, SRUM, and event-log gaps, outputting colorized tables, CSV, or JSON. Use during first-response triage for offline, SIEM-free detection over Windows event logs, or to quickly confirm a hunt hypothesis and produce reporting output.","category":"Development","tags":["hunting","evtx","chainsaw","run","against","collected","windows","files","hunt","sigmahq","rule","corpus","built","detection","rules","high","speed","keyword"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/hunting-evtx-with-chainsaw/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/hunting-evtx-with-chainsaw","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-evtx-with-chainsaw","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":5,"bytes":28525,"sha256":"775cf5e4b1ed5e6f2eef8a4937805f6d1650bf8a974c5ffb71e3a206cffaa436","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/hunting-evtx-with-chainsaw/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-evtx-with-chainsaw/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/hunting-evtx-with-chainsaw/SKILL.md","bytes":8492,"sha256":"775cf5e4b1ed5e6f2eef8a4937805f6d1650bf8a974c5ffb71e3a206cffaa436","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-evtx-with-chainsaw/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/hunting-evtx-with-chainsaw/references/api-reference.md","bytes":2204,"sha256":"a8b09a79aa5d34542f486e5cd8d589a0f0b7a181c392a13187a1c97b5cd76130","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-evtx-with-chainsaw/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/hunting-evtx-with-chainsaw/references/standards.md","bytes":1771,"sha256":"e7123c69f62c8087286dda1a0f668856ae943ea3e305ac42b25ad37d83ab9e7c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-evtx-with-chainsaw/references/standards.md"},{"path":"scripts/agent.py","sourcePath":"skills/hunting-evtx-with-chainsaw/scripts/agent.py","bytes":4803,"sha256":"49fecc96494e2969542d19601ad07a3a5ec2b280eaa9cec36d1f5cd78288a952","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-evtx-with-chainsaw/scripts/agent.py"}],"archiveSha256":"99954b40c55af111aa32445418fd486eaaf62809f8012c9cf11b796f7a2f469b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-evtx-with-chainsaw",
+    "name": "hunting-evtx-with-chainsaw",
+    "description": "Run Chainsaw against collected Windows EVTX files to hunt with the SigmaHQ rule corpus, built-in detection rules, and high-speed keyword/regex search, plus analyze shimcache, SRUM, and event-log gaps, outputting colorized tables, CSV, or JSON. Use during first-response triage for offline, SIEM-free detection over Windows event logs, or to quickly confirm a hunt hypothesis and produce reporting output.",
+    "category": "Development",
+    "tags": [
+      "hunting",
+      "evtx",
+      "chainsaw",
+      "run",
+      "against",
+      "collected",
+      "windows",
+      "files",
+      "hunt",
+      "sigmahq",
+      "rule",
+      "corpus",
+      "built",
+      "detection",
+      "rules",
+      "high",
+      "speed",
+      "keyword"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-evtx-with-chainsaw/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-evtx-with-chainsaw",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-evtx-with-chainsaw",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 28525,
+    "sha256": "775cf5e4b1ed5e6f2eef8a4937805f6d1650bf8a974c5ffb71e3a206cffaa436",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-evtx-with-chainsaw/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-evtx-with-chainsaw/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-evtx-with-chainsaw/SKILL.md",
+      "bytes": 8492,
+      "sha256": "775cf5e4b1ed5e6f2eef8a4937805f6d1650bf8a974c5ffb71e3a206cffaa436",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-evtx-with-chainsaw/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-evtx-with-chainsaw/references/api-reference.md",
+      "bytes": 2204,
+      "sha256": "a8b09a79aa5d34542f486e5cd8d589a0f0b7a181c392a13187a1c97b5cd76130",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-evtx-with-chainsaw/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/hunting-evtx-with-chainsaw/references/standards.md",
+      "bytes": 1771,
+      "sha256": "e7123c69f62c8087286dda1a0f668856ae943ea3e305ac42b25ad37d83ab9e7c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-evtx-with-chainsaw/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-evtx-with-chainsaw/scripts/agent.py",
+      "bytes": 4803,
+      "sha256": "49fecc96494e2969542d19601ad07a3a5ec2b280eaa9cec36d1f5cd78288a952",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-evtx-with-chainsaw/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "99954b40c55af111aa32445418fd486eaaf62809f8012c9cf11b796f7a2f469b"
+}

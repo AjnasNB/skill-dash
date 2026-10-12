@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--azure-cosmos-db-py","name":"azure-cosmos-db-py","description":"Build production-grade Azure Cosmos DB NoSQL services following clean code, security best practices, and TDD principles.","category":"Security","tags":["azure","cosmos","db","py","production","grade","nosql","services","following","clean","code","security","best","practices","tdd","principles."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/azure-cosmos-db-py","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-cosmos-db-py","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":10294,"sha256":"af5c4f0751edd5b50d3a12f51555b6dac191c2904702d0ba1c975c221ab0b61e","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/azure-cosmos-db-py/SKILL.md","bytes":9221,"sha256":"af5c4f0751edd5b50d3a12f51555b6dac191c2904702d0ba1c975c221ab0b61e","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-cosmos-db-py/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"2b6de4b6eab0a57c6b6f19df3d95751b03f3fa96a64c160bcf82a5a683d246dd"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--azure-cosmos-db-py",
+    "name": "azure-cosmos-db-py",
+    "description": "Build production-grade Azure Cosmos DB NoSQL services following clean code, security best practices, and TDD principles.",
+    "category": "Security",
+    "tags": [
+      "azure",
+      "cosmos",
+      "db",
+      "py",
+      "production",
+      "grade",
+      "nosql",
+      "services",
+      "following",
+      "clean",
+      "code",
+      "security",
+      "best",
+      "practices",
+      "tdd",
+      "principles."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/azure-cosmos-db-py",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-cosmos-db-py",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10294,
+    "sha256": "af5c4f0751edd5b50d3a12f51555b6dac191c2904702d0ba1c975c221ab0b61e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/azure-cosmos-db-py/SKILL.md",
+      "bytes": 9221,
+      "sha256": "af5c4f0751edd5b50d3a12f51555b6dac191c2904702d0ba1c975c221ab0b61e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-cosmos-db-py/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "2b6de4b6eab0a57c6b6f19df3d95751b03f3fa96a64c160bcf82a5a683d246dd"
+}

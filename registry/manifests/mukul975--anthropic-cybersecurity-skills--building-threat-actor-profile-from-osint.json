@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--building-threat-actor-profile-from-osint","name":"building-threat-actor-profile-from-osint","description":"Build threat actor profiles by collecting OSINT from vendor reports, paste sites, dark web forums, social media, and code repos, correlating indicators, mapping adversary infrastructure with tools like Maltego and SpiderFoot, and producing structured dossiers of motivations, capabilities, infrastructure, and TTPs. Use when performing attribution or building an adversary dossier from open-source intelligence.","category":"Security","tags":["building","threat","actor","profile","from","osint","profiles","by","collecting","vendor","reports","paste","sites","dark","web","forums","social","media"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/building-threat-actor-profile-from-osint/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/building-threat-actor-profile-from-osint","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-actor-profile-from-osint","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":35155,"sha256":"936fff120cb0c5e2c742f72919babe0b53f76087485a633bf10179078862b0ba","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/building-threat-actor-profile-from-osint/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-actor-profile-from-osint/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/building-threat-actor-profile-from-osint/SKILL.md","bytes":15202,"sha256":"936fff120cb0c5e2c742f72919babe0b53f76087485a633bf10179078862b0ba","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-actor-profile-from-osint/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/building-threat-actor-profile-from-osint/references/api-reference.md","bytes":1839,"sha256":"a9213abb68d4f221d868dda2388f57ce611b1c67c462eeffe17bedb20352e21e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-actor-profile-from-osint/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/building-threat-actor-profile-from-osint/scripts/agent.py","bytes":6859,"sha256":"8f2e72aeeaa30cb464e5ac3fea621dd246bb6f4844fbdba6acb1b691245d7b67","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-actor-profile-from-osint/scripts/agent.py"}],"archiveSha256":"40a99cb62d134d1b569f907e08487d3a7c29f67b6ce9f4d05127d81f0aa5ed9e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--building-threat-actor-profile-from-osint",
+    "name": "building-threat-actor-profile-from-osint",
+    "description": "Build threat actor profiles by collecting OSINT from vendor reports, paste sites, dark web forums, social media, and code repos, correlating indicators, mapping adversary infrastructure with tools like Maltego and SpiderFoot, and producing structured dossiers of motivations, capabilities, infrastructure, and TTPs. Use when performing attribution or building an adversary dossier from open-source intelligence.",
+    "category": "Security",
+    "tags": [
+      "building",
+      "threat",
+      "actor",
+      "profile",
+      "from",
+      "osint",
+      "profiles",
+      "by",
+      "collecting",
+      "vendor",
+      "reports",
+      "paste",
+      "sites",
+      "dark",
+      "web",
+      "forums",
+      "social",
+      "media"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/building-threat-actor-profile-from-osint/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/building-threat-actor-profile-from-osint",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-actor-profile-from-osint",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 35155,
+    "sha256": "936fff120cb0c5e2c742f72919babe0b53f76087485a633bf10179078862b0ba",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/building-threat-actor-profile-from-osint/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-actor-profile-from-osint/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/building-threat-actor-profile-from-osint/SKILL.md",
+      "bytes": 15202,
+      "sha256": "936fff120cb0c5e2c742f72919babe0b53f76087485a633bf10179078862b0ba",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-actor-profile-from-osint/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/building-threat-actor-profile-from-osint/references/api-reference.md",
+      "bytes": 1839,
+      "sha256": "a9213abb68d4f221d868dda2388f57ce611b1c67c462eeffe17bedb20352e21e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-actor-profile-from-osint/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/building-threat-actor-profile-from-osint/scripts/agent.py",
+      "bytes": 6859,
+      "sha256": "8f2e72aeeaa30cb464e5ac3fea621dd246bb6f4844fbdba6acb1b691245d7b67",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-actor-profile-from-osint/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "40a99cb62d134d1b569f907e08487d3a7c29f67b6ce9f4d05127d81f0aa5ed9e"
+}

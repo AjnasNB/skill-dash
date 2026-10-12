@@ -1,1 +1,96 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--pycalphad","name":"pycalphad","description":"Computes finite-temperature CALPHAD equilibria, phase fractions, and phase compositions from thermodynamic TDB databases using pycalphad. Use for alloy phase stability, equilibrium temperature sweeps, tie lines, lever-rule checks, or reproducible phase-fraction calculations with explicit components and mole-fraction conditions.","category":"Development","tags":["pycalphad","computes","finite","temperature","calphad","equilibria","phase","fractions","compositions","from","thermodynamic","tdb","databases","pycalphad.","alloy","stability","equilibrium","sweeps"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/pycalphad","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pycalphad","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":6,"bytes":31567,"sha256":"7748a9413e22566316893d882596b5c2a321e9e03de93e6097c59a003e899a24","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/pycalphad/SKILL.md","bytes":8194,"sha256":"7748a9413e22566316893d882596b5c2a321e9e03de93e6097c59a003e899a24","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pycalphad/SKILL.md"},{"path":"assets/equilibrium.json","sourcePath":"skills/pycalphad/assets/equilibrium.json","bytes":443,"sha256":"b44ad449b3946ae6becdf20bcde0e3c5e76146cc63b385f2e88a5f80f155ddf9","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pycalphad/assets/equilibrium.json"},{"path":"assets/ideal-cu-ni.tdb","sourcePath":"skills/pycalphad/assets/ideal-cu-ni.tdb","bytes":702,"sha256":"b8e45e1b89fff906f538ec5c60a57ed4e66b67cceab7eae092cab0dae0ea14a2","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pycalphad/assets/ideal-cu-ni.tdb"},{"path":"references/model-and-validation.md","sourcePath":"skills/pycalphad/references/model-and-validation.md","bytes":10048,"sha256":"05554407db7383be95728fb3f9af0149b1991e14caf72aa52087aa5bb933fac8","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pycalphad/references/model-and-validation.md"},{"path":"scripts/equilibrate.py","sourcePath":"skills/pycalphad/scripts/equilibrate.py","bytes":11112,"sha256":"f69618d7831c35a02c287ace6ea2a26d3868a785af5b97974c7271da63031885","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pycalphad/scripts/equilibrate.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"22ed8f4e74c796d4f5fa24afd05387019c5572f8fcc781d7ec510a3ef5b12d2f"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--pycalphad",
+    "name": "pycalphad",
+    "description": "Computes finite-temperature CALPHAD equilibria, phase fractions, and phase compositions from thermodynamic TDB databases using pycalphad. Use for alloy phase stability, equilibrium temperature sweeps, tie lines, lever-rule checks, or reproducible phase-fraction calculations with explicit components and mole-fraction conditions.",
+    "category": "Development",
+    "tags": [
+      "pycalphad",
+      "computes",
+      "finite",
+      "temperature",
+      "calphad",
+      "equilibria",
+      "phase",
+      "fractions",
+      "compositions",
+      "from",
+      "thermodynamic",
+      "tdb",
+      "databases",
+      "pycalphad.",
+      "alloy",
+      "stability",
+      "equilibrium",
+      "sweeps"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/pycalphad",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pycalphad",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 6,
+    "bytes": 31567,
+    "sha256": "7748a9413e22566316893d882596b5c2a321e9e03de93e6097c59a003e899a24",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/pycalphad/SKILL.md",
+      "bytes": 8194,
+      "sha256": "7748a9413e22566316893d882596b5c2a321e9e03de93e6097c59a003e899a24",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pycalphad/SKILL.md"
+    },
+    {
+      "path": "assets/equilibrium.json",
+      "sourcePath": "skills/pycalphad/assets/equilibrium.json",
+      "bytes": 443,
+      "sha256": "b44ad449b3946ae6becdf20bcde0e3c5e76146cc63b385f2e88a5f80f155ddf9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pycalphad/assets/equilibrium.json"
+    },
+    {
+      "path": "assets/ideal-cu-ni.tdb",
+      "sourcePath": "skills/pycalphad/assets/ideal-cu-ni.tdb",
+      "bytes": 702,
+      "sha256": "b8e45e1b89fff906f538ec5c60a57ed4e66b67cceab7eae092cab0dae0ea14a2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pycalphad/assets/ideal-cu-ni.tdb"
+    },
+    {
+      "path": "references/model-and-validation.md",
+      "sourcePath": "skills/pycalphad/references/model-and-validation.md",
+      "bytes": 10048,
+      "sha256": "05554407db7383be95728fb3f9af0149b1991e14caf72aa52087aa5bb933fac8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pycalphad/references/model-and-validation.md"
+    },
+    {
+      "path": "scripts/equilibrate.py",
+      "sourcePath": "skills/pycalphad/scripts/equilibrate.py",
+      "bytes": 11112,
+      "sha256": "f69618d7831c35a02c287ace6ea2a26d3868a785af5b97974c7271da63031885",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pycalphad/scripts/equilibrate.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "22ed8f4e74c796d4f5fa24afd05387019c5572f8fcc781d7ec510a3ef5b12d2f"
+}

@@ -1,1 +1,60 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--tmux","name":"tmux","description":"Expert tmux session, window, and pane management for terminal multiplexing, persistent remote workflows, and shell scripting automation.","category":"Automation","tags":["tmux","expert","session","window","pane","management","terminal","multiplexing","persistent","remote","workflows","shell","scripting","automation."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/tmux","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/tmux","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12319,"sha256":"590dad5ff545ec626ad084cc44b883a7279aa4b1e9aecdd5c61cae3734e3fdb2","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/tmux/SKILL.md","bytes":11246,"sha256":"590dad5ff545ec626ad084cc44b883a7279aa4b1e9aecdd5c61cae3734e3fdb2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/tmux/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"d41f723e10b5d1a4e31aa0b048d10ac93f62e837a0ba6ca20d22d7867fd3dcb8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--tmux",
+    "name": "tmux",
+    "description": "Expert tmux session, window, and pane management for terminal multiplexing, persistent remote workflows, and shell scripting automation.",
+    "category": "Automation",
+    "tags": [
+      "tmux",
+      "expert",
+      "session",
+      "window",
+      "pane",
+      "management",
+      "terminal",
+      "multiplexing",
+      "persistent",
+      "remote",
+      "workflows",
+      "shell",
+      "scripting",
+      "automation."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/tmux",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/tmux",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12319,
+    "sha256": "590dad5ff545ec626ad084cc44b883a7279aa4b1e9aecdd5c61cae3734e3fdb2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/tmux/SKILL.md",
+      "bytes": 11246,
+      "sha256": "590dad5ff545ec626ad084cc44b883a7279aa4b1e9aecdd5c61cae3734e3fdb2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/tmux/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "d41f723e10b5d1a4e31aa0b048d10ac93f62e837a0ba6ca20d22d7867fd3dcb8"
+}

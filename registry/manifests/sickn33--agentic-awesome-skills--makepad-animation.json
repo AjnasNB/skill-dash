@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--makepad-animation","name":"makepad-animation","description":"CRITICAL: Use for Makepad animation system. Triggers on: makepad animation, makepad animator, makepad hover, makepad state, makepad transition, \"from: { all: Forward\", makepad pressed, makepad 动画, makepad 状态, makepad 过渡, makepad 悬停效果","category":"Design","tags":["makepad","animation","critical","system.","triggers","animator","hover","state","transition","from","all","forward","pressed","动画","状态","过渡","悬停效果"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/makepad-animation","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/makepad-animation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":9303,"sha256":"9b677647fc97258a19fa0337e90bbb43be85f8ff2580dac0c0b27b208d83a8b0","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/makepad-animation/SKILL.md","bytes":8230,"sha256":"9b677647fc97258a19fa0337e90bbb43be85f8ff2580dac0c0b27b208d83a8b0","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/makepad-animation/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"96918c35708f0d5ea6cc4ed2c098faa7a4ff57c047ca3591d4dc890f8de42207"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--makepad-animation",
+    "name": "makepad-animation",
+    "description": "CRITICAL: Use for Makepad animation system. Triggers on: makepad animation, makepad animator, makepad hover, makepad state, makepad transition, \"from: { all: Forward\", makepad pressed, makepad 动画, makepad 状态, makepad 过渡, makepad 悬停效果",
+    "category": "Design",
+    "tags": [
+      "makepad",
+      "animation",
+      "critical",
+      "system.",
+      "triggers",
+      "animator",
+      "hover",
+      "state",
+      "transition",
+      "from",
+      "all",
+      "forward",
+      "pressed",
+      "动画",
+      "状态",
+      "过渡",
+      "悬停效果"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/makepad-animation",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/makepad-animation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9303,
+    "sha256": "9b677647fc97258a19fa0337e90bbb43be85f8ff2580dac0c0b27b208d83a8b0",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/makepad-animation/SKILL.md",
+      "bytes": 8230,
+      "sha256": "9b677647fc97258a19fa0337e90bbb43be85f8ff2580dac0c0b27b208d83a8b0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/makepad-animation/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "96918c35708f0d5ea6cc4ed2c098faa7a4ff57c047ca3591d4dc890f8de42207"
+}

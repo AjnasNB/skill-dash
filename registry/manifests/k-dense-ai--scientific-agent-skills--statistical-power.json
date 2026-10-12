@@ -1,1 +1,104 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--statistical-power","name":"statistical-power","description":"Calculates sample sizes and statistical power for study planning. Applies when someone asks \"how many subjects/samples/replicates do I need\", wants an a priori power analysis, a minimum detectable effect (MDE), a power curve, or needs to justify a sample size for a grant, IRB protocol, or pre-registration. Covers closed-form power for t-tests, ANOVA, proportions, correlations, chi-square, and regression, plus simulation-based (Monte Carlo) power for complex designs — logistic/Poisson regression, mixed models, cluster-randomized trials, survival, and interactions. Also handles requests that only mention an effect size, alpha, or \"80% power\" without saying \"power analysis\" explicitly. For laying out the study (randomization, blocking, factorial/DOE, crossover, sequential designs) use experimental-design; for analyzing data already collected and reporting it use statistical-analysis.","category":"Design","tags":["statistical","power","calculates","sample","sizes","study","planning.","applies","when","someone","asks","many","subjects","samples","replicates","do","wants","priori"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/statistical-power","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/statistical-power","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":7,"bytes":79493,"sha256":"a969660eafdc3504ac36e49bd7ded00e18b00fe5cef5699940d5d8281e24dd3d","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/statistical-power/SKILL.md","bytes":17834,"sha256":"a969660eafdc3504ac36e49bd7ded00e18b00fe5cef5699940d5d8281e24dd3d","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/statistical-power/SKILL.md"},{"path":"references/closed_form_recipes.md","sourcePath":"skills/statistical-power/references/closed_form_recipes.md","bytes":11159,"sha256":"c303aa5b5103077304254f48309169609a3b0537748c68e0df4abd33cb9d4384","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/statistical-power/references/closed_form_recipes.md"},{"path":"references/effect_sizes.md","sourcePath":"skills/statistical-power/references/effect_sizes.md","bytes":6110,"sha256":"b2e3c9578dce59222797ea55e9bc2c3883764adfdfdc0eed3793fb4d71fbf0a7","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/statistical-power/references/effect_sizes.md"},{"path":"references/simulation_based_power.md","sourcePath":"skills/statistical-power/references/simulation_based_power.md","bytes":10163,"sha256":"963fd56791e6db1bffb94efda7c9bef9c3195e3dec3e2a9918d17f3536ec150f","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/statistical-power/references/simulation_based_power.md"},{"path":"scripts/power.py","sourcePath":"skills/statistical-power/scripts/power.py","bytes":19966,"sha256":"9124b7c657ccbfe8b41c777bd9e17ae076641939e4ae93b4ba17f2de18284b7d","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/statistical-power/scripts/power.py"},{"path":"scripts/simulate_power.py","sourcePath":"skills/statistical-power/scripts/simulate_power.py","bytes":13193,"sha256":"bfbe75908ca071528b7b02aa1ed53949a7291f928f30634abe29b3ce23c564f4","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/statistical-power/scripts/simulate_power.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"6d181a68f0e72f30500c6a12c5ae941efe1bc2d828224f921e499e6ae48efcd0"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--statistical-power",
+    "name": "statistical-power",
+    "description": "Calculates sample sizes and statistical power for study planning. Applies when someone asks \"how many subjects/samples/replicates do I need\", wants an a priori power analysis, a minimum detectable effect (MDE), a power curve, or needs to justify a sample size for a grant, IRB protocol, or pre-registration. Covers closed-form power for t-tests, ANOVA, proportions, correlations, chi-square, and regression, plus simulation-based (Monte Carlo) power for complex designs — logistic/Poisson regression, mixed models, cluster-randomized trials, survival, and interactions. Also handles requests that only mention an effect size, alpha, or \"80% power\" without saying \"power analysis\" explicitly. For laying out the study (randomization, blocking, factorial/DOE, crossover, sequential designs) use experimental-design; for analyzing data already collected and reporting it use statistical-analysis.",
+    "category": "Design",
+    "tags": [
+      "statistical",
+      "power",
+      "calculates",
+      "sample",
+      "sizes",
+      "study",
+      "planning.",
+      "applies",
+      "when",
+      "someone",
+      "asks",
+      "many",
+      "subjects",
+      "samples",
+      "replicates",
+      "do",
+      "wants",
+      "priori"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/statistical-power",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/statistical-power",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 7,
+    "bytes": 79493,
+    "sha256": "a969660eafdc3504ac36e49bd7ded00e18b00fe5cef5699940d5d8281e24dd3d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/statistical-power/SKILL.md",
+      "bytes": 17834,
+      "sha256": "a969660eafdc3504ac36e49bd7ded00e18b00fe5cef5699940d5d8281e24dd3d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/statistical-power/SKILL.md"
+    },
+    {
+      "path": "references/closed_form_recipes.md",
+      "sourcePath": "skills/statistical-power/references/closed_form_recipes.md",
+      "bytes": 11159,
+      "sha256": "c303aa5b5103077304254f48309169609a3b0537748c68e0df4abd33cb9d4384",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/statistical-power/references/closed_form_recipes.md"
+    },
+    {
+      "path": "references/effect_sizes.md",
+      "sourcePath": "skills/statistical-power/references/effect_sizes.md",
+      "bytes": 6110,
+      "sha256": "b2e3c9578dce59222797ea55e9bc2c3883764adfdfdc0eed3793fb4d71fbf0a7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/statistical-power/references/effect_sizes.md"
+    },
+    {
+      "path": "references/simulation_based_power.md",
+      "sourcePath": "skills/statistical-power/references/simulation_based_power.md",
+      "bytes": 10163,
+      "sha256": "963fd56791e6db1bffb94efda7c9bef9c3195e3dec3e2a9918d17f3536ec150f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/statistical-power/references/simulation_based_power.md"
+    },
+    {
+      "path": "scripts/power.py",
+      "sourcePath": "skills/statistical-power/scripts/power.py",
+      "bytes": 19966,
+      "sha256": "9124b7c657ccbfe8b41c777bd9e17ae076641939e4ae93b4ba17f2de18284b7d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/statistical-power/scripts/power.py"
+    },
+    {
+      "path": "scripts/simulate_power.py",
+      "sourcePath": "skills/statistical-power/scripts/simulate_power.py",
+      "bytes": 13193,
+      "sha256": "bfbe75908ca071528b7b02aa1ed53949a7291f928f30634abe29b3ce23c564f4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/statistical-power/scripts/simulate_power.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "6d181a68f0e72f30500c6a12c5ae941efe1bc2d828224f921e499e6ae48efcd0"
+}

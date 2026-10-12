@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--snowflake-semanticview","name":"snowflake-semanticview","description":"Create, alter, and validate Snowflake semantic views using Snowflake CLI (snow). Use when asked to build or troubleshoot semantic views/semantic layer definitions with CREATE/ALTER SEMANTIC VIEW, to validate semantic-view DDL against Snowflake via CLI, or to guide Snowflake CLI installation and connection setup.","category":"Development","tags":["snowflake","semanticview","alter","validate","semantic","views","cli","snow","when","asked","troubleshoot","layer","definitions","view","ddl","against","via","guide"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/snowflake-semanticview","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/snowflake-semanticview","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":5470,"sha256":"f9fd64e6980ec2016956afa1dbc3997da9a5d3f3c80a5df0aa78f133a5a4fbb6","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/snowflake-semanticview/SKILL.md","bytes":4411,"sha256":"f9fd64e6980ec2016956afa1dbc3997da9a5d3f3c80a5df0aa78f133a5a4fbb6","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/snowflake-semanticview/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"c475e507aba6b3779c5f85157eeac227f033315dd0aa168b79ecbbd95b75554a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--snowflake-semanticview",
+    "name": "snowflake-semanticview",
+    "description": "Create, alter, and validate Snowflake semantic views using Snowflake CLI (snow). Use when asked to build or troubleshoot semantic views/semantic layer definitions with CREATE/ALTER SEMANTIC VIEW, to validate semantic-view DDL against Snowflake via CLI, or to guide Snowflake CLI installation and connection setup.",
+    "category": "Development",
+    "tags": [
+      "snowflake",
+      "semanticview",
+      "alter",
+      "validate",
+      "semantic",
+      "views",
+      "cli",
+      "snow",
+      "when",
+      "asked",
+      "troubleshoot",
+      "layer",
+      "definitions",
+      "view",
+      "ddl",
+      "against",
+      "via",
+      "guide"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/snowflake-semanticview",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/snowflake-semanticview",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 5470,
+    "sha256": "f9fd64e6980ec2016956afa1dbc3997da9a5d3f3c80a5df0aa78f133a5a4fbb6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/snowflake-semanticview/SKILL.md",
+      "bytes": 4411,
+      "sha256": "f9fd64e6980ec2016956afa1dbc3997da9a5d3f3c80a5df0aa78f133a5a4fbb6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/snowflake-semanticview/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "c475e507aba6b3779c5f85157eeac227f033315dd0aa168b79ecbbd95b75554a"
+}

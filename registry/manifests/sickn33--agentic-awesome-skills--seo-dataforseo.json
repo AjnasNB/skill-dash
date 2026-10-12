@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--seo-dataforseo","name":"seo-dataforseo","description":"Use DataForSEO for live SERPs, keyword metrics, backlinks, competitor analysis, on-page checks, and AI visibility data. Trigger when the user needs real SEO data rather than static guidance.","category":"Marketing","tags":["seo","dataforseo","live","serps","keyword","metrics","backlinks","competitor","analysis","page","checks","ai","visibility","data.","trigger","when","user","needs"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/seo-dataforseo","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-dataforseo","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":18664,"sha256":"a9ed242550beadd276497c9f09624ebc2aa64f2e4edcc0f639895feccefe4657","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/seo-dataforseo/SKILL.md","bytes":17591,"sha256":"a9ed242550beadd276497c9f09624ebc2aa64f2e4edcc0f639895feccefe4657","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-dataforseo/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"06d9b4575e34ec987655c3e767e537ac61253b236dc04f45cd45879d585f51da"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--seo-dataforseo",
+    "name": "seo-dataforseo",
+    "description": "Use DataForSEO for live SERPs, keyword metrics, backlinks, competitor analysis, on-page checks, and AI visibility data. Trigger when the user needs real SEO data rather than static guidance.",
+    "category": "Marketing",
+    "tags": [
+      "seo",
+      "dataforseo",
+      "live",
+      "serps",
+      "keyword",
+      "metrics",
+      "backlinks",
+      "competitor",
+      "analysis",
+      "page",
+      "checks",
+      "ai",
+      "visibility",
+      "data.",
+      "trigger",
+      "when",
+      "user",
+      "needs"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/seo-dataforseo",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-dataforseo",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 18664,
+    "sha256": "a9ed242550beadd276497c9f09624ebc2aa64f2e4edcc0f639895feccefe4657",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/seo-dataforseo/SKILL.md",
+      "bytes": 17591,
+      "sha256": "a9ed242550beadd276497c9f09624ebc2aa64f2e4edcc0f639895feccefe4657",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-dataforseo/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "06d9b4575e34ec987655c3e767e537ac61253b236dc04f45cd45879d585f51da"
+}

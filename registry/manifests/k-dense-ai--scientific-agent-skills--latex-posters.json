@@ -1,1 +1,192 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--latex-posters","name":"latex-posters","description":"Creates research posters in LaTeX using beamerposter, tikzposter, or baposter. Use for conference posters, academic presentations, multi-column scientific layouts, figure integration, typography, compilation, and PDF preflight.","category":"Documents","tags":["latex","posters","creates","research","beamerposter","tikzposter","baposter.","conference","academic","presentations","multi","column","scientific","layouts","figure","integration","typography","compilation"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/latex-posters","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":18,"bytes":213372,"sha256":"4350dc80280fea210f9682991103445e97c58504ddd14e7a26f3d84e2fee5837","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/latex-posters/SKILL.md","bytes":10624,"sha256":"4350dc80280fea210f9682991103445e97c58504ddd14e7a26f3d84e2fee5837","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/SKILL.md"},{"path":"assets/baposter_template.tex","sourcePath":"skills/latex-posters/assets/baposter_template.tex","bytes":8030,"sha256":"05d52aa0bcc7d704525a3c09edb72c478f3ed5de29e1d8d751c046aa69649045","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/assets/baposter_template.tex"},{"path":"assets/beamerposter_template.tex","sourcePath":"skills/latex-posters/assets/beamerposter_template.tex","bytes":8280,"sha256":"79df337979df21b20c6852ada7860a6fe186d7189550bfe831db9a27513c0dbb","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/assets/beamerposter_template.tex"},{"path":"assets/poster_quality_checklist.md","sourcePath":"skills/latex-posters/assets/poster_quality_checklist.md","bytes":11606,"sha256":"1d6fb4875798aa349180e07919e0dd2ad8b8cb8357a0fb5106e9914bdd0ea4db","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/assets/poster_quality_checklist.md"},{"path":"assets/tikzposter_template.tex","sourcePath":"skills/latex-posters/assets/tikzposter_template.tex","bytes":8396,"sha256":"39ef6e3dc99240481e56a439d23d438f84a264b53933d5b8d3c713d5bf918d04","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/assets/tikzposter_template.tex"},{"path":"references/README.md","sourcePath":"skills/latex-posters/references/README.md","bytes":3026,"sha256":"c468139388159d4333d1118504d46df1518c6f9ae5051309f7207e24aa4d44ac","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/references/README.md"},{"path":"references/ai_graphics_for_posters.md","sourcePath":"skills/latex-posters/references/ai_graphics_for_posters.md","bytes":6613,"sha256":"a8090976bc9d195fac6e4ed115e64ab28a6a8c93412d5cd3185e5a73a5dc1d5a","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/references/ai_graphics_for_posters.md"},{"path":"references/compilation_and_quality_control.md","sourcePath":"skills/latex-posters/references/compilation_and_quality_control.md","bytes":8283,"sha256":"2fdeabd760c2e56ee26be771a373cb5809655831a5a82d60010bbe3a22993fc6","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/references/compilation_and_quality_control.md"},{"path":"references/latex_poster_packages.md","sourcePath":"skills/latex-posters/references/latex_poster_packages.md","bytes":19908,"sha256":"d120828344c56093a5c71fe91d821c38e3768dcfd9e149c5412c6ff0af71eda6","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/references/latex_poster_packages.md"},{"path":"references/latex_poster_reference.md","sourcePath":"skills/latex-posters/references/latex_poster_reference.md","bytes":7693,"sha256":"beef5f9e5d931d43ebf41233e42413f07bf2bb235b19cc952e52e23227595ee1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/references/latex_poster_reference.md"},{"path":"references/poster_content_guide.md","sourcePath":"skills/latex-posters/references/poster_content_guide.md","bytes":21156,"sha256":"047f27c34c6a31673ce96dd0a08ca0ac8934ee7d4374da4b244782690e96d224","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/references/poster_content_guide.md"},{"path":"references/poster_design_principles.md","sourcePath":"skills/latex-posters/references/poster_design_principles.md","bytes":22881,"sha256":"53a1e16ddf7eb3f1e9e5cb47af02327b3ed21986334f8c7f7a3bb612da0324ad","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/references/poster_design_principles.md"},{"path":"references/poster_layout_design.md","sourcePath":"skills/latex-posters/references/poster_layout_design.md","bytes":22863,"sha256":"c7ef85b5620ea58cdf985bca99313a41a2cb762437209dad6333e0dd15fe018e","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/references/poster_layout_design.md"},{"path":"references/poster_patterns_and_presentation.md","sourcePath":"skills/latex-posters/references/poster_patterns_and_presentation.md","bytes":2998,"sha256":"b465767303ddcd4d2e720dd82722bcafbb6d4948e9b614307cd3608b23e3f593","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/references/poster_patterns_and_presentation.md"},{"path":"scripts/generate_schematic.py","sourcePath":"skills/latex-posters/scripts/generate_schematic.py","bytes":7782,"sha256":"0c81ce099d5ab9aa3d3c486aa9bd3e81ee1117e18a54db14bb0a68de61eaa4bc","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/scripts/generate_schematic.py"},{"path":"scripts/generate_schematic_ai.py","sourcePath":"skills/latex-posters/scripts/generate_schematic_ai.py","bytes":35684,"sha256":"7316f2df92f442b8c60a5dd2bd8b504e17449d4be89352e5af24be2239700046","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/scripts/generate_schematic_ai.py"},{"path":"scripts/review_poster.sh","sourcePath":"skills/latex-posters/scripts/review_poster.sh","bytes":6481,"sha256":"4bb2956a7920c58c5bdd9a20c3bd402c7b72432a7dbfeebe4d82f78250234bff","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/scripts/review_poster.sh"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"6184e063abc38505edd78280df15683e6dbe0edc82ea58cbb6d6fed926843031"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--latex-posters",
+    "name": "latex-posters",
+    "description": "Creates research posters in LaTeX using beamerposter, tikzposter, or baposter. Use for conference posters, academic presentations, multi-column scientific layouts, figure integration, typography, compilation, and PDF preflight.",
+    "category": "Documents",
+    "tags": [
+      "latex",
+      "posters",
+      "creates",
+      "research",
+      "beamerposter",
+      "tikzposter",
+      "baposter.",
+      "conference",
+      "academic",
+      "presentations",
+      "multi",
+      "column",
+      "scientific",
+      "layouts",
+      "figure",
+      "integration",
+      "typography",
+      "compilation"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/latex-posters",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 18,
+    "bytes": 213372,
+    "sha256": "4350dc80280fea210f9682991103445e97c58504ddd14e7a26f3d84e2fee5837",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/latex-posters/SKILL.md",
+      "bytes": 10624,
+      "sha256": "4350dc80280fea210f9682991103445e97c58504ddd14e7a26f3d84e2fee5837",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/SKILL.md"
+    },
+    {
+      "path": "assets/baposter_template.tex",
+      "sourcePath": "skills/latex-posters/assets/baposter_template.tex",
+      "bytes": 8030,
+      "sha256": "05d52aa0bcc7d704525a3c09edb72c478f3ed5de29e1d8d751c046aa69649045",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/assets/baposter_template.tex"
+    },
+    {
+      "path": "assets/beamerposter_template.tex",
+      "sourcePath": "skills/latex-posters/assets/beamerposter_template.tex",
+      "bytes": 8280,
+      "sha256": "79df337979df21b20c6852ada7860a6fe186d7189550bfe831db9a27513c0dbb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/assets/beamerposter_template.tex"
+    },
+    {
+      "path": "assets/poster_quality_checklist.md",
+      "sourcePath": "skills/latex-posters/assets/poster_quality_checklist.md",
+      "bytes": 11606,
+      "sha256": "1d6fb4875798aa349180e07919e0dd2ad8b8cb8357a0fb5106e9914bdd0ea4db",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/assets/poster_quality_checklist.md"
+    },
+    {
+      "path": "assets/tikzposter_template.tex",
+      "sourcePath": "skills/latex-posters/assets/tikzposter_template.tex",
+      "bytes": 8396,
+      "sha256": "39ef6e3dc99240481e56a439d23d438f84a264b53933d5b8d3c713d5bf918d04",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/assets/tikzposter_template.tex"
+    },
+    {
+      "path": "references/README.md",
+      "sourcePath": "skills/latex-posters/references/README.md",
+      "bytes": 3026,
+      "sha256": "c468139388159d4333d1118504d46df1518c6f9ae5051309f7207e24aa4d44ac",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/references/README.md"
+    },
+    {
+      "path": "references/ai_graphics_for_posters.md",
+      "sourcePath": "skills/latex-posters/references/ai_graphics_for_posters.md",
+      "bytes": 6613,
+      "sha256": "a8090976bc9d195fac6e4ed115e64ab28a6a8c93412d5cd3185e5a73a5dc1d5a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/references/ai_graphics_for_posters.md"
+    },
+    {
+      "path": "references/compilation_and_quality_control.md",
+      "sourcePath": "skills/latex-posters/references/compilation_and_quality_control.md",
+      "bytes": 8283,
+      "sha256": "2fdeabd760c2e56ee26be771a373cb5809655831a5a82d60010bbe3a22993fc6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/references/compilation_and_quality_control.md"
+    },
+    {
+      "path": "references/latex_poster_packages.md",
+      "sourcePath": "skills/latex-posters/references/latex_poster_packages.md",
+      "bytes": 19908,
+      "sha256": "d120828344c56093a5c71fe91d821c38e3768dcfd9e149c5412c6ff0af71eda6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/references/latex_poster_packages.md"
+    },
+    {
+      "path": "references/latex_poster_reference.md",
+      "sourcePath": "skills/latex-posters/references/latex_poster_reference.md",
+      "bytes": 7693,
+      "sha256": "beef5f9e5d931d43ebf41233e42413f07bf2bb235b19cc952e52e23227595ee1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/references/latex_poster_reference.md"
+    },
+    {
+      "path": "references/poster_content_guide.md",
+      "sourcePath": "skills/latex-posters/references/poster_content_guide.md",
+      "bytes": 21156,
+      "sha256": "047f27c34c6a31673ce96dd0a08ca0ac8934ee7d4374da4b244782690e96d224",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/references/poster_content_guide.md"
+    },
+    {
+      "path": "references/poster_design_principles.md",
+      "sourcePath": "skills/latex-posters/references/poster_design_principles.md",
+      "bytes": 22881,
+      "sha256": "53a1e16ddf7eb3f1e9e5cb47af02327b3ed21986334f8c7f7a3bb612da0324ad",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/references/poster_design_principles.md"
+    },
+    {
+      "path": "references/poster_layout_design.md",
+      "sourcePath": "skills/latex-posters/references/poster_layout_design.md",
+      "bytes": 22863,
+      "sha256": "c7ef85b5620ea58cdf985bca99313a41a2cb762437209dad6333e0dd15fe018e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/references/poster_layout_design.md"
+    },
+    {
+      "path": "references/poster_patterns_and_presentation.md",
+      "sourcePath": "skills/latex-posters/references/poster_patterns_and_presentation.md",
+      "bytes": 2998,
+      "sha256": "b465767303ddcd4d2e720dd82722bcafbb6d4948e9b614307cd3608b23e3f593",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/references/poster_patterns_and_presentation.md"
+    },
+    {
+      "path": "scripts/generate_schematic.py",
+      "sourcePath": "skills/latex-posters/scripts/generate_schematic.py",
+      "bytes": 7782,
+      "sha256": "0c81ce099d5ab9aa3d3c486aa9bd3e81ee1117e18a54db14bb0a68de61eaa4bc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/scripts/generate_schematic.py"
+    },
+    {
+      "path": "scripts/generate_schematic_ai.py",
+      "sourcePath": "skills/latex-posters/scripts/generate_schematic_ai.py",
+      "bytes": 35684,
+      "sha256": "7316f2df92f442b8c60a5dd2bd8b504e17449d4be89352e5af24be2239700046",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/scripts/generate_schematic_ai.py"
+    },
+    {
+      "path": "scripts/review_poster.sh",
+      "sourcePath": "skills/latex-posters/scripts/review_poster.sh",
+      "bytes": 6481,
+      "sha256": "4bb2956a7920c58c5bdd9a20c3bd402c7b72432a7dbfeebe4d82f78250234bff",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/latex-posters/scripts/review_poster.sh"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "6184e063abc38505edd78280df15683e6dbe0edc82ea58cbb6d6fed926843031"
+}

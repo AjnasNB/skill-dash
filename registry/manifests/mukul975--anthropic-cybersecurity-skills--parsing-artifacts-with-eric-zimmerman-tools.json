@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--parsing-artifacts-with-eric-zimmerman-tools","name":"parsing-artifacts-with-eric-zimmerman-tools","description":"Parse Windows forensic artifacts—$MFT/$J (MFTECmd), Prefetch (PECmd), registry hives (RECmd), shellbags, and Amcache—into normalized CSV/JSON with Eric Zimmerman's EZ Tools, then load results into Timeline Explorer for analysis. Use during DFIR/incident-response investigations, after triage collection (e.g. with KAPE), to establish program execution, file/folder access, and persistence evidence from acquired forensic images.","category":"Security","tags":["parsing","artifacts","eric","zimmerman","tools","parse","windows","forensic","mft","mftecmd","prefetch","pecmd","registry","hives","recmd","shellbags","amcache","into"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/parsing-artifacts-with-eric-zimmerman-tools/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/parsing-artifacts-with-eric-zimmerman-tools","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/parsing-artifacts-with-eric-zimmerman-tools","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":5,"bytes":27704,"sha256":"dd4a0cc46223c8e3ac6d482495898f24c24a0bda01bd4a4f525a589e79605817","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/parsing-artifacts-with-eric-zimmerman-tools/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/parsing-artifacts-with-eric-zimmerman-tools/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/parsing-artifacts-with-eric-zimmerman-tools/SKILL.md","bytes":8186,"sha256":"dd4a0cc46223c8e3ac6d482495898f24c24a0bda01bd4a4f525a589e79605817","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/parsing-artifacts-with-eric-zimmerman-tools/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/parsing-artifacts-with-eric-zimmerman-tools/references/api-reference.md","bytes":2305,"sha256":"0a8e79b7dcfe32e7cc3b5b04f907dd02b63635dc0118b9822326db4244dda258","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/parsing-artifacts-with-eric-zimmerman-tools/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/parsing-artifacts-with-eric-zimmerman-tools/references/standards.md","bytes":1213,"sha256":"895e08aa851dd7174219cd5d8beb5c460a5edc802f892a02558d5da1a88944ac","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/parsing-artifacts-with-eric-zimmerman-tools/references/standards.md"},{"path":"scripts/agent.py","sourcePath":"skills/parsing-artifacts-with-eric-zimmerman-tools/scripts/agent.py","bytes":4745,"sha256":"9c575a1db91f260926c7a540b24f77acf911aa738495562f901df0208f634aae","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/parsing-artifacts-with-eric-zimmerman-tools/scripts/agent.py"}],"archiveSha256":"22e06eb5baa8b1d816b5eba7407b15e9ce3ed212ca3e27b6b9c073277c083459"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--parsing-artifacts-with-eric-zimmerman-tools",
+    "name": "parsing-artifacts-with-eric-zimmerman-tools",
+    "description": "Parse Windows forensic artifacts—$MFT/$J (MFTECmd), Prefetch (PECmd), registry hives (RECmd), shellbags, and Amcache—into normalized CSV/JSON with Eric Zimmerman's EZ Tools, then load results into Timeline Explorer for analysis. Use during DFIR/incident-response investigations, after triage collection (e.g. with KAPE), to establish program execution, file/folder access, and persistence evidence from acquired forensic images.",
+    "category": "Security",
+    "tags": [
+      "parsing",
+      "artifacts",
+      "eric",
+      "zimmerman",
+      "tools",
+      "parse",
+      "windows",
+      "forensic",
+      "mft",
+      "mftecmd",
+      "prefetch",
+      "pecmd",
+      "registry",
+      "hives",
+      "recmd",
+      "shellbags",
+      "amcache",
+      "into"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/parsing-artifacts-with-eric-zimmerman-tools/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/parsing-artifacts-with-eric-zimmerman-tools",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/parsing-artifacts-with-eric-zimmerman-tools",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 27704,
+    "sha256": "dd4a0cc46223c8e3ac6d482495898f24c24a0bda01bd4a4f525a589e79605817",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/parsing-artifacts-with-eric-zimmerman-tools/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/parsing-artifacts-with-eric-zimmerman-tools/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/parsing-artifacts-with-eric-zimmerman-tools/SKILL.md",
+      "bytes": 8186,
+      "sha256": "dd4a0cc46223c8e3ac6d482495898f24c24a0bda01bd4a4f525a589e79605817",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/parsing-artifacts-with-eric-zimmerman-tools/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/parsing-artifacts-with-eric-zimmerman-tools/references/api-reference.md",
+      "bytes": 2305,
+      "sha256": "0a8e79b7dcfe32e7cc3b5b04f907dd02b63635dc0118b9822326db4244dda258",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/parsing-artifacts-with-eric-zimmerman-tools/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/parsing-artifacts-with-eric-zimmerman-tools/references/standards.md",
+      "bytes": 1213,
+      "sha256": "895e08aa851dd7174219cd5d8beb5c460a5edc802f892a02558d5da1a88944ac",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/parsing-artifacts-with-eric-zimmerman-tools/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/parsing-artifacts-with-eric-zimmerman-tools/scripts/agent.py",
+      "bytes": 4745,
+      "sha256": "9c575a1db91f260926c7a540b24f77acf911aa738495562f901df0208f634aae",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/parsing-artifacts-with-eric-zimmerman-tools/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "22e06eb5baa8b1d816b5eba7407b15e9ce3ed212ca3e27b6b9c073277c083459"
+}

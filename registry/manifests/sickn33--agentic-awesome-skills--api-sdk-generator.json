@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--api-sdk-generator","name":"api-sdk-generator","description":"Generates client SDK code, API wrapper libraries, request/response models, and language-specific usage patterns for any REST API.","category":"Development","tags":["api","sdk","generator","generates","client","code","wrapper","libraries","request","response","models","language","specific","usage","patterns","any","rest","api."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/api-sdk-generator","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/api-sdk-generator","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7937,"sha256":"19001bc2368d89ea0249c0909c48543e0d05d226709d83b9342a2cc9c11f6aed","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/api-sdk-generator/SKILL.md","bytes":6864,"sha256":"19001bc2368d89ea0249c0909c48543e0d05d226709d83b9342a2cc9c11f6aed","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/api-sdk-generator/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"0bf61c91f87c7a3f229ed8960afbdafb6ca100c3a499bc042e883585adca47d4"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--api-sdk-generator",
+    "name": "api-sdk-generator",
+    "description": "Generates client SDK code, API wrapper libraries, request/response models, and language-specific usage patterns for any REST API.",
+    "category": "Development",
+    "tags": [
+      "api",
+      "sdk",
+      "generator",
+      "generates",
+      "client",
+      "code",
+      "wrapper",
+      "libraries",
+      "request",
+      "response",
+      "models",
+      "language",
+      "specific",
+      "usage",
+      "patterns",
+      "any",
+      "rest",
+      "api."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/api-sdk-generator",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/api-sdk-generator",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7937,
+    "sha256": "19001bc2368d89ea0249c0909c48543e0d05d226709d83b9342a2cc9c11f6aed",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/api-sdk-generator/SKILL.md",
+      "bytes": 6864,
+      "sha256": "19001bc2368d89ea0249c0909c48543e0d05d226709d83b9342a2cc9c11f6aed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/api-sdk-generator/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "0bf61c91f87c7a3f229ed8960afbdafb6ca100c3a499bc042e883585adca47d4"
+}

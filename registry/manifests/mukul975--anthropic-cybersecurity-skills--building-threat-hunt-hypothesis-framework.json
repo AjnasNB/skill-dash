@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--building-threat-hunt-hypothesis-framework","name":"building-threat-hunt-hypothesis-framework","description":"Build a systematic threat-hunt workflow that turns threat intelligence and ATT&CK gap analysis into testable hypotheses, then executes and validates them via EDR/SIEM queries (CrowdStrike, Defender, Splunk, Elastic, Sysmon, Velociraptor, Sigma) and documents findings in a standardized hunt report. Use when planning or running a proactive threat hunt or scoping compromise from an intel- or anomaly-driven lead.","category":"Security","tags":["building","threat","hunt","hypothesis","framework","systematic","workflow","turns","intelligence","att","ck","gap","analysis","into","testable","hypotheses","then","executes"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/building-threat-hunt-hypothesis-framework/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/building-threat-hunt-hypothesis-framework","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-hunt-hypothesis-framework","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":34803,"sha256":"839804d8a8f524f558f2909f7901c2de03a8f85f929307a21409c867bec295fb","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/building-threat-hunt-hypothesis-framework/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-hunt-hypothesis-framework/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/building-threat-hunt-hypothesis-framework/SKILL.md","bytes":3571,"sha256":"839804d8a8f524f558f2909f7901c2de03a8f85f929307a21409c867bec295fb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-hunt-hypothesis-framework/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/building-threat-hunt-hypothesis-framework/assets/template.md","bytes":2664,"sha256":"31e1b19280d897e57e5a0c7b4b4e2a278d2484c19cce5286fef225e58ea0c3dc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-hunt-hypothesis-framework/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/building-threat-hunt-hypothesis-framework/references/api-reference.md","bytes":2199,"sha256":"6ce6036bc3575652dc71a618daac54c5da14b15729e23d63b7268abeb6aa30c5","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-hunt-hypothesis-framework/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/building-threat-hunt-hypothesis-framework/references/standards.md","bytes":1629,"sha256":"e64bf162ea25fa52597622bbc3648aa5c10c3c425d205113f8c69d8457039806","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-hunt-hypothesis-framework/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/building-threat-hunt-hypothesis-framework/references/workflows.md","bytes":3158,"sha256":"d1e619cde2d2c28ba2db5e97882c318cccf45b2765322d4c411aeee85eed5a7d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-hunt-hypothesis-framework/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/building-threat-hunt-hypothesis-framework/scripts/agent.py","bytes":6743,"sha256":"601af6973b2657857cd393bd4aab1d698616bde575a4bc31a474bb969f0b9803","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-hunt-hypothesis-framework/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/building-threat-hunt-hypothesis-framework/scripts/process.py","bytes":3584,"sha256":"3e6585207fae2a1e93f85bb1278cdeceae21ad03e7607c8e2d09569d381c67ed","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-hunt-hypothesis-framework/scripts/process.py"}],"archiveSha256":"3da64b5d0d8eb8a70f2d748e1866ff946ffbd075bac4abd2d1941a802ae56e23"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--building-threat-hunt-hypothesis-framework",
+    "name": "building-threat-hunt-hypothesis-framework",
+    "description": "Build a systematic threat-hunt workflow that turns threat intelligence and ATT&CK gap analysis into testable hypotheses, then executes and validates them via EDR/SIEM queries (CrowdStrike, Defender, Splunk, Elastic, Sysmon, Velociraptor, Sigma) and documents findings in a standardized hunt report. Use when planning or running a proactive threat hunt or scoping compromise from an intel- or anomaly-driven lead.",
+    "category": "Security",
+    "tags": [
+      "building",
+      "threat",
+      "hunt",
+      "hypothesis",
+      "framework",
+      "systematic",
+      "workflow",
+      "turns",
+      "intelligence",
+      "att",
+      "ck",
+      "gap",
+      "analysis",
+      "into",
+      "testable",
+      "hypotheses",
+      "then",
+      "executes"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/building-threat-hunt-hypothesis-framework/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/building-threat-hunt-hypothesis-framework",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-hunt-hypothesis-framework",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 34803,
+    "sha256": "839804d8a8f524f558f2909f7901c2de03a8f85f929307a21409c867bec295fb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/building-threat-hunt-hypothesis-framework/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-hunt-hypothesis-framework/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/building-threat-hunt-hypothesis-framework/SKILL.md",
+      "bytes": 3571,
+      "sha256": "839804d8a8f524f558f2909f7901c2de03a8f85f929307a21409c867bec295fb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-hunt-hypothesis-framework/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/building-threat-hunt-hypothesis-framework/assets/template.md",
+      "bytes": 2664,
+      "sha256": "31e1b19280d897e57e5a0c7b4b4e2a278d2484c19cce5286fef225e58ea0c3dc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-hunt-hypothesis-framework/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/building-threat-hunt-hypothesis-framework/references/api-reference.md",
+      "bytes": 2199,
+      "sha256": "6ce6036bc3575652dc71a618daac54c5da14b15729e23d63b7268abeb6aa30c5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-hunt-hypothesis-framework/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/building-threat-hunt-hypothesis-framework/references/standards.md",
+      "bytes": 1629,
+      "sha256": "e64bf162ea25fa52597622bbc3648aa5c10c3c425d205113f8c69d8457039806",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-hunt-hypothesis-framework/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/building-threat-hunt-hypothesis-framework/references/workflows.md",
+      "bytes": 3158,
+      "sha256": "d1e619cde2d2c28ba2db5e97882c318cccf45b2765322d4c411aeee85eed5a7d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-hunt-hypothesis-framework/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/building-threat-hunt-hypothesis-framework/scripts/agent.py",
+      "bytes": 6743,
+      "sha256": "601af6973b2657857cd393bd4aab1d698616bde575a4bc31a474bb969f0b9803",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-hunt-hypothesis-framework/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/building-threat-hunt-hypothesis-framework/scripts/process.py",
+      "bytes": 3584,
+      "sha256": "3e6585207fae2a1e93f85bb1278cdeceae21ad03e7607c8e2d09569d381c67ed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-threat-hunt-hypothesis-framework/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "3da64b5d0d8eb8a70f2d748e1866ff946ffbd075bac4abd2d1941a802ae56e23"
+}

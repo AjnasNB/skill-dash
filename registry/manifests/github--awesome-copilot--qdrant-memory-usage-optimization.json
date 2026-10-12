@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--qdrant-memory-usage-optimization","name":"qdrant-memory-usage-optimization","description":"Diagnoses and reduces Qdrant memory usage. Use when someone reports 'memory too high', 'RAM keeps growing', 'node crashed', 'out of memory', 'memory leak', or asks 'why is memory usage so high?', 'how to reduce RAM?'. Also use when memory doesn't match calculations, quantization didn't help, or nodes crash during recovery.","category":"Development","tags":["qdrant","memory","usage","optimization","diagnoses","reduces","usage.","when","someone","reports","too","high","ram","keeps","growing","node","crashed","out"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/qdrant-performance-optimization/memory-usage-optimization","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/qdrant-performance-optimization/memory-usage-optimization","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":5918,"sha256":"d3be8c9d207f4b625b4724048e45e438f0efeb4650e7cca1da2d40e2ba37dd9d","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/qdrant-performance-optimization/memory-usage-optimization/SKILL.md","bytes":4859,"sha256":"d3be8c9d207f4b625b4724048e45e438f0efeb4650e7cca1da2d40e2ba37dd9d","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/qdrant-performance-optimization/memory-usage-optimization/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"39de3c0bd3e2108d0db0a554d93ea9ac3ef000cfdaa05d41cce9904a73b1d927"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--qdrant-memory-usage-optimization",
+    "name": "qdrant-memory-usage-optimization",
+    "description": "Diagnoses and reduces Qdrant memory usage. Use when someone reports 'memory too high', 'RAM keeps growing', 'node crashed', 'out of memory', 'memory leak', or asks 'why is memory usage so high?', 'how to reduce RAM?'. Also use when memory doesn't match calculations, quantization didn't help, or nodes crash during recovery.",
+    "category": "Development",
+    "tags": [
+      "qdrant",
+      "memory",
+      "usage",
+      "optimization",
+      "diagnoses",
+      "reduces",
+      "usage.",
+      "when",
+      "someone",
+      "reports",
+      "too",
+      "high",
+      "ram",
+      "keeps",
+      "growing",
+      "node",
+      "crashed",
+      "out"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/qdrant-performance-optimization/memory-usage-optimization",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/qdrant-performance-optimization/memory-usage-optimization",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 5918,
+    "sha256": "d3be8c9d207f4b625b4724048e45e438f0efeb4650e7cca1da2d40e2ba37dd9d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/qdrant-performance-optimization/memory-usage-optimization/SKILL.md",
+      "bytes": 4859,
+      "sha256": "d3be8c9d207f4b625b4724048e45e438f0efeb4650e7cca1da2d40e2ba37dd9d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/qdrant-performance-optimization/memory-usage-optimization/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "39de3c0bd3e2108d0db0a554d93ea9ac3ef000cfdaa05d41cce9904a73b1d927"
+}

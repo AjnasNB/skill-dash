@@ -1,1 +1,128 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--etetoolkit","name":"etetoolkit","description":"Analyzes, manipulates, compares, annotates, and visualizes phylogenetic or other hierarchical trees with ETE 4. Supports Newick/Nexus tree I/O, topology edits and pattern matching, Robinson-Foulds comparisons, gene-tree evolutionary events and reconciliation, NCBI/GTDB taxonomy, SmartView exploration, and publication rendering. Applies to existing trees after alignment and phylogenetic inference, rather than inferring trees from raw sequences.","category":"AI & agents","tags":["etetoolkit","analyzes","manipulates","compares","annotates","visualizes","phylogenetic","other","hierarchical","trees","ete","4.","supports","newick","nexus","tree","topology","edits"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/etetoolkit","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/etetoolkit","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":10,"bytes":120447,"sha256":"da2e57c0e3677a4219d0629a2c1392470f20bc3ade2809c1f0334fd84441da08","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/etetoolkit/SKILL.md","bytes":13286,"sha256":"da2e57c0e3677a4219d0629a2c1392470f20bc3ade2809c1f0334fd84441da08","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/etetoolkit/SKILL.md"},{"path":"references/api_reference.md","sourcePath":"skills/etetoolkit/references/api_reference.md","bytes":15124,"sha256":"162589999885f0a8cf9c1f58b5a732fc0f390960c51ff0d8ecdcdcf53d091e44","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/etetoolkit/references/api_reference.md"},{"path":"references/migration-ete3-to-ete4.md","sourcePath":"skills/etetoolkit/references/migration-ete3-to-ete4.md","bytes":11848,"sha256":"a15f52185e64ab3d4ff6b0addf77e99c3007241b9288d2d6bbc93b0eca517b1a","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/etetoolkit/references/migration-ete3-to-ete4.md"},{"path":"references/review.md","sourcePath":"skills/etetoolkit/references/review.md","bytes":5486,"sha256":"300fb2cf971d2fa384b68ea9a6cd45f4473d35c066f3fc159659acd3d1b3c4c3","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/etetoolkit/references/review.md"},{"path":"references/taxonomy.md","sourcePath":"skills/etetoolkit/references/taxonomy.md","bytes":10847,"sha256":"f24319c3b20eb96875b9fe82803dc1e94ffc922618578fd646623744b4cc4b57","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/etetoolkit/references/taxonomy.md"},{"path":"references/visualization.md","sourcePath":"skills/etetoolkit/references/visualization.md","bytes":13193,"sha256":"5fb56a198d5b0cfda8698c5f67d946324ac32284de58f772b190eebdf7718884","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/etetoolkit/references/visualization.md"},{"path":"references/workflows.md","sourcePath":"skills/etetoolkit/references/workflows.md","bytes":16169,"sha256":"181322aa607b43065328f84883bc72d2f33ed525ed4495114276b9ddbcd086a8","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/etetoolkit/references/workflows.md"},{"path":"scripts/quick_visualize.py","sourcePath":"skills/etetoolkit/scripts/quick_visualize.py","bytes":16791,"sha256":"0a717a87b9e48f74fda6a1212cde2802bc73df43bc9b8463b49870cd82abda57","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/etetoolkit/scripts/quick_visualize.py"},{"path":"scripts/tree_operations.py","sourcePath":"skills/etetoolkit/scripts/tree_operations.py","bytes":16635,"sha256":"fc85104b201a51fc61365c37a97decb0ae9af7a033ade374b5dcb14b30015486","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/etetoolkit/scripts/tree_operations.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"ed676edaf97f638e1f7c8ed6eedb81dc0d625eed2ac1b14d1fef386be6ba1f47"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--etetoolkit",
+    "name": "etetoolkit",
+    "description": "Analyzes, manipulates, compares, annotates, and visualizes phylogenetic or other hierarchical trees with ETE 4. Supports Newick/Nexus tree I/O, topology edits and pattern matching, Robinson-Foulds comparisons, gene-tree evolutionary events and reconciliation, NCBI/GTDB taxonomy, SmartView exploration, and publication rendering. Applies to existing trees after alignment and phylogenetic inference, rather than inferring trees from raw sequences.",
+    "category": "AI & agents",
+    "tags": [
+      "etetoolkit",
+      "analyzes",
+      "manipulates",
+      "compares",
+      "annotates",
+      "visualizes",
+      "phylogenetic",
+      "other",
+      "hierarchical",
+      "trees",
+      "ete",
+      "4.",
+      "supports",
+      "newick",
+      "nexus",
+      "tree",
+      "topology",
+      "edits"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/etetoolkit",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/etetoolkit",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 10,
+    "bytes": 120447,
+    "sha256": "da2e57c0e3677a4219d0629a2c1392470f20bc3ade2809c1f0334fd84441da08",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/etetoolkit/SKILL.md",
+      "bytes": 13286,
+      "sha256": "da2e57c0e3677a4219d0629a2c1392470f20bc3ade2809c1f0334fd84441da08",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/etetoolkit/SKILL.md"
+    },
+    {
+      "path": "references/api_reference.md",
+      "sourcePath": "skills/etetoolkit/references/api_reference.md",
+      "bytes": 15124,
+      "sha256": "162589999885f0a8cf9c1f58b5a732fc0f390960c51ff0d8ecdcdcf53d091e44",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/etetoolkit/references/api_reference.md"
+    },
+    {
+      "path": "references/migration-ete3-to-ete4.md",
+      "sourcePath": "skills/etetoolkit/references/migration-ete3-to-ete4.md",
+      "bytes": 11848,
+      "sha256": "a15f52185e64ab3d4ff6b0addf77e99c3007241b9288d2d6bbc93b0eca517b1a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/etetoolkit/references/migration-ete3-to-ete4.md"
+    },
+    {
+      "path": "references/review.md",
+      "sourcePath": "skills/etetoolkit/references/review.md",
+      "bytes": 5486,
+      "sha256": "300fb2cf971d2fa384b68ea9a6cd45f4473d35c066f3fc159659acd3d1b3c4c3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/etetoolkit/references/review.md"
+    },
+    {
+      "path": "references/taxonomy.md",
+      "sourcePath": "skills/etetoolkit/references/taxonomy.md",
+      "bytes": 10847,
+      "sha256": "f24319c3b20eb96875b9fe82803dc1e94ffc922618578fd646623744b4cc4b57",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/etetoolkit/references/taxonomy.md"
+    },
+    {
+      "path": "references/visualization.md",
+      "sourcePath": "skills/etetoolkit/references/visualization.md",
+      "bytes": 13193,
+      "sha256": "5fb56a198d5b0cfda8698c5f67d946324ac32284de58f772b190eebdf7718884",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/etetoolkit/references/visualization.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/etetoolkit/references/workflows.md",
+      "bytes": 16169,
+      "sha256": "181322aa607b43065328f84883bc72d2f33ed525ed4495114276b9ddbcd086a8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/etetoolkit/references/workflows.md"
+    },
+    {
+      "path": "scripts/quick_visualize.py",
+      "sourcePath": "skills/etetoolkit/scripts/quick_visualize.py",
+      "bytes": 16791,
+      "sha256": "0a717a87b9e48f74fda6a1212cde2802bc73df43bc9b8463b49870cd82abda57",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/etetoolkit/scripts/quick_visualize.py"
+    },
+    {
+      "path": "scripts/tree_operations.py",
+      "sourcePath": "skills/etetoolkit/scripts/tree_operations.py",
+      "bytes": 16635,
+      "sha256": "fc85104b201a51fc61365c37a97decb0ae9af7a033ade374b5dcb14b30015486",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/etetoolkit/scripts/tree_operations.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "ed676edaf97f638e1f7c8ed6eedb81dc0d625eed2ac1b14d1fef386be6ba1f47"
+}

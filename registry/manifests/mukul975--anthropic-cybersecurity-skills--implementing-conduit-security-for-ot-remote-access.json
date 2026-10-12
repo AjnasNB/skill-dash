@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-conduit-security-for-ot-remote-access","name":"implementing-conduit-security-for-ot-remote-access","description":"Implements secure conduit architecture for OT remote access under the IEC 62443 zones-and-conduits model, deploying jump servers, MFA gateways, session recording, and approval-based workflows for vendor and engineer access to ICS. Use when replacing direct VPN access into OT networks, securing third-party vendor access to SCADA equipment, or remediating audit findings on uncontrolled OT remote access.","category":"Security","tags":["implementing","conduit","security","ot","remote","access","implements","secure","architecture","under","iec","62443","zones","conduits","model","deploying","jump","servers"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-conduit-security-for-ot-remote-access/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-conduit-security-for-ot-remote-access","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-conduit-security-for-ot-remote-access","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":31587,"sha256":"b6bb8b8be184337cb162762a93b68364bb7239aadd9ec0b3aafadd8c6fdac0ac","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-conduit-security-for-ot-remote-access/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-conduit-security-for-ot-remote-access/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-conduit-security-for-ot-remote-access/SKILL.md","bytes":13425,"sha256":"b6bb8b8be184337cb162762a93b68364bb7239aadd9ec0b3aafadd8c6fdac0ac","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-conduit-security-for-ot-remote-access/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-conduit-security-for-ot-remote-access/references/api-reference.md","bytes":1609,"sha256":"d97ebb648713bbf4c37d6659c64ba1cd45b501609e42b37c3c8c638213a58b34","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-conduit-security-for-ot-remote-access/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-conduit-security-for-ot-remote-access/scripts/agent.py","bytes":5298,"sha256":"052b66bab8b34c4e9c4c277fabd50f001aa86df9e15b7685cabf001c93051009","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-conduit-security-for-ot-remote-access/scripts/agent.py"}],"archiveSha256":"4703df9b7552844f11c05a3a2e80d5b55c8f08cbd9ebd70f221064d6efdd7f92"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-conduit-security-for-ot-remote-access",
+    "name": "implementing-conduit-security-for-ot-remote-access",
+    "description": "Implements secure conduit architecture for OT remote access under the IEC 62443 zones-and-conduits model, deploying jump servers, MFA gateways, session recording, and approval-based workflows for vendor and engineer access to ICS. Use when replacing direct VPN access into OT networks, securing third-party vendor access to SCADA equipment, or remediating audit findings on uncontrolled OT remote access.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "conduit",
+      "security",
+      "ot",
+      "remote",
+      "access",
+      "implements",
+      "secure",
+      "architecture",
+      "under",
+      "iec",
+      "62443",
+      "zones",
+      "conduits",
+      "model",
+      "deploying",
+      "jump",
+      "servers"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-conduit-security-for-ot-remote-access/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-conduit-security-for-ot-remote-access",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-conduit-security-for-ot-remote-access",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 31587,
+    "sha256": "b6bb8b8be184337cb162762a93b68364bb7239aadd9ec0b3aafadd8c6fdac0ac",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-conduit-security-for-ot-remote-access/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-conduit-security-for-ot-remote-access/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-conduit-security-for-ot-remote-access/SKILL.md",
+      "bytes": 13425,
+      "sha256": "b6bb8b8be184337cb162762a93b68364bb7239aadd9ec0b3aafadd8c6fdac0ac",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-conduit-security-for-ot-remote-access/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-conduit-security-for-ot-remote-access/references/api-reference.md",
+      "bytes": 1609,
+      "sha256": "d97ebb648713bbf4c37d6659c64ba1cd45b501609e42b37c3c8c638213a58b34",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-conduit-security-for-ot-remote-access/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-conduit-security-for-ot-remote-access/scripts/agent.py",
+      "bytes": 5298,
+      "sha256": "052b66bab8b34c4e9c4c277fabd50f001aa86df9e15b7685cabf001c93051009",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-conduit-security-for-ot-remote-access/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "4703df9b7552844f11c05a3a2e80d5b55c8f08cbd9ebd70f221064d6efdd7f92"
+}

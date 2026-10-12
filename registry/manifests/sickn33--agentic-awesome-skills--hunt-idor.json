@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--hunt-idor","name":"hunt-idor","description":"Hunting skill for idor vulnerabilities. Built from 26 public bug bounty reports. Use when hunting idor on any target.","category":"Security","tags":["hunt","idor","hunting","skill","vulnerabilities.","built","from","26","public","bug","bounty","reports.","when","any","target."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/hunt-idor","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-idor","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":25086,"sha256":"b43469fc51913ab3c5557aec51c3df2f662881c9075db36e23ab454f6ff871a3","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/hunt-idor/SKILL.md","bytes":24013,"sha256":"b43469fc51913ab3c5557aec51c3df2f662881c9075db36e23ab454f6ff871a3","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-idor/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"2673036a428405a82dee44e990ed59cf776999d85f12a087500ce783bdeda097"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--hunt-idor",
+    "name": "hunt-idor",
+    "description": "Hunting skill for idor vulnerabilities. Built from 26 public bug bounty reports. Use when hunting idor on any target.",
+    "category": "Security",
+    "tags": [
+      "hunt",
+      "idor",
+      "hunting",
+      "skill",
+      "vulnerabilities.",
+      "built",
+      "from",
+      "26",
+      "public",
+      "bug",
+      "bounty",
+      "reports.",
+      "when",
+      "any",
+      "target."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/hunt-idor",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-idor",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 25086,
+    "sha256": "b43469fc51913ab3c5557aec51c3df2f662881c9075db36e23ab454f6ff871a3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunt-idor/SKILL.md",
+      "bytes": 24013,
+      "sha256": "b43469fc51913ab3c5557aec51c3df2f662881c9075db36e23ab454f6ff871a3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-idor/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "2673036a428405a82dee44e990ed59cf776999d85f12a087500ce783bdeda097"
+}

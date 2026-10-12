@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--music-generation-studio","name":"music-generation-studio","description":"Install and use the official AI Music Generator package, pinned by digest, for paid hosted work on the Beatra service.","category":"Video & audio","tags":["music","generation","studio","install","official","ai","generator","package","pinned","by","digest","paid","hosted","work","beatra","service."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/music-generation-studio","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/music-generation-studio","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":13537,"sha256":"03fdee3341f28030ad45f1e4ac6497e6e534c0ea98bfd5fa5d4dff1a52c6c9a2","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/music-generation-studio/SKILL.md","bytes":12464,"sha256":"03fdee3341f28030ad45f1e4ac6497e6e534c0ea98bfd5fa5d4dff1a52c6c9a2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/music-generation-studio/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"d9a3feb74e8d0f939f155996b2d43a6fdc87a7c12c5d8f0d5bba01b497296a14"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--music-generation-studio",
+    "name": "music-generation-studio",
+    "description": "Install and use the official AI Music Generator package, pinned by digest, for paid hosted work on the Beatra service.",
+    "category": "Video & audio",
+    "tags": [
+      "music",
+      "generation",
+      "studio",
+      "install",
+      "official",
+      "ai",
+      "generator",
+      "package",
+      "pinned",
+      "by",
+      "digest",
+      "paid",
+      "hosted",
+      "work",
+      "beatra",
+      "service."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/music-generation-studio",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/music-generation-studio",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13537,
+    "sha256": "03fdee3341f28030ad45f1e4ac6497e6e534c0ea98bfd5fa5d4dff1a52c6c9a2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/music-generation-studio/SKILL.md",
+      "bytes": 12464,
+      "sha256": "03fdee3341f28030ad45f1e4ac6497e6e534c0ea98bfd5fa5d4dff1a52c6c9a2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/music-generation-studio/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "d9a3feb74e8d0f939f155996b2d43a6fdc87a7c12c5d8f0d5bba01b497296a14"
+}

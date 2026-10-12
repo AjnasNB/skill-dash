@@ -1,1 +1,60 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--sop-company-wiki","name":"sop-company-wiki","description":"SOP and company wiki register: title, category, department, owner, version, priority and review dates. Use for process documentation.","category":"Writing","tags":["sop","company","wiki","register","title","category","department","owner","version","priority","review","dates.","process","documentation."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/sop-company-wiki","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sop-company-wiki","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":14575,"sha256":"8a72d3d632334379b722e483e525418c08fec8ccca913234fe95db117e10cf2a","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/sop-company-wiki/SKILL.md","bytes":13502,"sha256":"8a72d3d632334379b722e483e525418c08fec8ccca913234fe95db117e10cf2a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sop-company-wiki/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"8871e0b3e5b370f432f5fc267ff666dfb25bd864c7d8abdf8d0e707453f65e08"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--sop-company-wiki",
+    "name": "sop-company-wiki",
+    "description": "SOP and company wiki register: title, category, department, owner, version, priority and review dates. Use for process documentation.",
+    "category": "Writing",
+    "tags": [
+      "sop",
+      "company",
+      "wiki",
+      "register",
+      "title",
+      "category",
+      "department",
+      "owner",
+      "version",
+      "priority",
+      "review",
+      "dates.",
+      "process",
+      "documentation."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/sop-company-wiki",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sop-company-wiki",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 14575,
+    "sha256": "8a72d3d632334379b722e483e525418c08fec8ccca913234fe95db117e10cf2a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/sop-company-wiki/SKILL.md",
+      "bytes": 13502,
+      "sha256": "8a72d3d632334379b722e483e525418c08fec8ccca913234fe95db117e10cf2a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sop-company-wiki/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "8871e0b3e5b370f432f5fc267ff666dfb25bd864c7d8abdf8d0e707453f65e08"
+}

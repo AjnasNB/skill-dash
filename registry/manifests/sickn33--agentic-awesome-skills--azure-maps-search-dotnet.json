@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--azure-maps-search-dotnet","name":"azure-maps-search-dotnet","description":"Azure Maps SDK for .NET. Location-based services including geocoding, routing, rendering, geolocation, and weather. Use for address search, directions, map tiles, IP geolocation, and weather data.","category":"Cloud & DevOps","tags":["azure","maps","search","dotnet","sdk",".net.","location","based","services","including","geocoding","routing","rendering","geolocation","weather.","address","directions","map"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/azure-maps-search-dotnet","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-maps-search-dotnet","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":17143,"sha256":"28cff8c22806ad5407983c8eccbf9a196d7dd825dfd3396a5265e0f3ca5af99c","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/azure-maps-search-dotnet/SKILL.md","bytes":1199,"sha256":"28cff8c22806ad5407983c8eccbf9a196d7dd825dfd3396a5265e0f3ca5af99c","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-maps-search-dotnet/SKILL.md"},{"path":"references/detailed-guide.md","sourcePath":"skills/azure-maps-search-dotnet/references/detailed-guide.md","bytes":14871,"sha256":"1a712ee0049aac2898649d3392146b0a2ec79f0347e58483504cf9bca5efe369","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-maps-search-dotnet/references/detailed-guide.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"8531a6dab25bb73811d74127db4181d308c9f26c979f68a39c287a339888e6a4"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--azure-maps-search-dotnet",
+    "name": "azure-maps-search-dotnet",
+    "description": "Azure Maps SDK for .NET. Location-based services including geocoding, routing, rendering, geolocation, and weather. Use for address search, directions, map tiles, IP geolocation, and weather data.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "azure",
+      "maps",
+      "search",
+      "dotnet",
+      "sdk",
+      ".net.",
+      "location",
+      "based",
+      "services",
+      "including",
+      "geocoding",
+      "routing",
+      "rendering",
+      "geolocation",
+      "weather.",
+      "address",
+      "directions",
+      "map"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/azure-maps-search-dotnet",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-maps-search-dotnet",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 17143,
+    "sha256": "28cff8c22806ad5407983c8eccbf9a196d7dd825dfd3396a5265e0f3ca5af99c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/azure-maps-search-dotnet/SKILL.md",
+      "bytes": 1199,
+      "sha256": "28cff8c22806ad5407983c8eccbf9a196d7dd825dfd3396a5265e0f3ca5af99c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-maps-search-dotnet/SKILL.md"
+    },
+    {
+      "path": "references/detailed-guide.md",
+      "sourcePath": "skills/azure-maps-search-dotnet/references/detailed-guide.md",
+      "bytes": 14871,
+      "sha256": "1a712ee0049aac2898649d3392146b0a2ec79f0347e58483504cf9bca5efe369",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-maps-search-dotnet/references/detailed-guide.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "8531a6dab25bb73811d74127db4181d308c9f26c979f68a39c287a339888e6a4"
+}

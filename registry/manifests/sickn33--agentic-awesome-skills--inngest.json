@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--inngest","name":"inngest","description":"Inngest expert for serverless-first background jobs, event-driven workflows, and durable execution without managing queues or workers.","category":"Development","tags":["inngest","expert","serverless","first","background","jobs","event","driven","workflows","durable","execution","without","managing","queues","workers."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/inngest","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inngest","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":13654,"sha256":"9bffd148d1dd2d790a506c793809b161a73eed56d3655cea8a847d771315a161","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/inngest/SKILL.md","bytes":12581,"sha256":"9bffd148d1dd2d790a506c793809b161a73eed56d3655cea8a847d771315a161","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inngest/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"4766a27c62ce9329b4e9c263c52f893d371928ce1fe7460e168c39dafcd5c200"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--inngest",
+    "name": "inngest",
+    "description": "Inngest expert for serverless-first background jobs, event-driven workflows, and durable execution without managing queues or workers.",
+    "category": "Development",
+    "tags": [
+      "inngest",
+      "expert",
+      "serverless",
+      "first",
+      "background",
+      "jobs",
+      "event",
+      "driven",
+      "workflows",
+      "durable",
+      "execution",
+      "without",
+      "managing",
+      "queues",
+      "workers."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/inngest",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inngest",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13654,
+    "sha256": "9bffd148d1dd2d790a506c793809b161a73eed56d3655cea8a847d771315a161",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/inngest/SKILL.md",
+      "bytes": 12581,
+      "sha256": "9bffd148d1dd2d790a506c793809b161a73eed56d3655cea8a847d771315a161",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inngest/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "4766a27c62ce9329b4e9c263c52f893d371928ce1fe7460e168c39dafcd5c200"
+}

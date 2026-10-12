@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--javascript-typescript-typescript-scaffold","name":"javascript-typescript-typescript-scaffold","description":"You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N","category":"Development","tags":["javascript","typescript","scaffold","you","are","project","architecture","expert","specializing","scaffolding","production","ready","node.js","frontend","applications.","generate","complete","structures"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/javascript-typescript-typescript-scaffold","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/javascript-typescript-typescript-scaffold","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":10136,"sha256":"f8185fc830b2754d90020fddc4e1915c7f6c545aca896c880eed43be4c99a0f0","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/javascript-typescript-typescript-scaffold/SKILL.md","bytes":9063,"sha256":"f8185fc830b2754d90020fddc4e1915c7f6c545aca896c880eed43be4c99a0f0","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/javascript-typescript-typescript-scaffold/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"cbe997bd3fabefdbb33700a29a1220f883f8f62bcc84b4c221ad3b84fbbbee4c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--javascript-typescript-typescript-scaffold",
+    "name": "javascript-typescript-typescript-scaffold",
+    "description": "You are a TypeScript project architecture expert specializing in scaffolding production-ready Node.js and frontend applications. Generate complete project structures with modern tooling (pnpm, Vite, N",
+    "category": "Development",
+    "tags": [
+      "javascript",
+      "typescript",
+      "scaffold",
+      "you",
+      "are",
+      "project",
+      "architecture",
+      "expert",
+      "specializing",
+      "scaffolding",
+      "production",
+      "ready",
+      "node.js",
+      "frontend",
+      "applications.",
+      "generate",
+      "complete",
+      "structures"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/javascript-typescript-typescript-scaffold",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/javascript-typescript-typescript-scaffold",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10136,
+    "sha256": "f8185fc830b2754d90020fddc4e1915c7f6c545aca896c880eed43be4c99a0f0",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/javascript-typescript-typescript-scaffold/SKILL.md",
+      "bytes": 9063,
+      "sha256": "f8185fc830b2754d90020fddc4e1915c7f6c545aca896c880eed43be4c99a0f0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/javascript-typescript-typescript-scaffold/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "cbe997bd3fabefdbb33700a29a1220f883f8f62bcc84b4c221ad3b84fbbbee4c"
+}

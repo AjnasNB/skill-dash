@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"coreyhaines31--marketingskills--churn-prevention","name":"churn-prevention","description":"When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' 'involuntary churn,' 'people keep canceling,' 'churn rate is too high,' 'how do I keep users,' or 'customers are leaving.' Use this whenever someone is losing subscribers or wants to build systems to prevent it. For post-cancel win-back email sequences, see emails. For in-app upgrade paywalls, see paywalls.","category":"Development","tags":["churn","prevention","when","user","wants","reduce","cancellation","flows","set","up","save","offers","recover","failed","payments","implement","retention","strategies."],"repo":"coreyhaines31/marketingskills","owner":"coreyhaines31","stars":54287,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff","path":"skills/churn-prevention","sourceUrl":"https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/churn-prevention","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-08T21:51:37Z","fileCount":5,"bytes":52059,"sha256":"4cd7d6f80022dc6c41ea87d49bd22be335618362f5091445037b1dcfb8c3375b","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/churn-prevention/SKILL.md","bytes":18526,"sha256":"4cd7d6f80022dc6c41ea87d49bd22be335618362f5091445037b1dcfb8c3375b","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/churn-prevention/SKILL.md"},{"path":"evals/evals.json","sourcePath":"skills/churn-prevention/evals/evals.json","bytes":8144,"sha256":"ee85b927a1bea665b0c080034c76dcc1a81c57be1f4e974a664c7f62c4329dfd","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/churn-prevention/evals/evals.json"},{"path":"references/cancel-flow-patterns.md","sourcePath":"skills/churn-prevention/references/cancel-flow-patterns.md","bytes":10650,"sha256":"d64b9282b956da6831ec97a1fffda5841c5c43a71721b512b66b04bde104c139","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/churn-prevention/references/cancel-flow-patterns.md"},{"path":"references/dunning-playbook.md","sourcePath":"skills/churn-prevention/references/dunning-playbook.md","bytes":13670,"sha256":"38c48aee72f813085dec2b5b50853569387d623332fb17566b6bb8a77077bca1","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/churn-prevention/references/dunning-playbook.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1069,"sha256":"b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"}],"archiveSha256":"048dda4a72947eb54698cf1f05f380bf752a511e04bddc125cbe6cbb5cca1580"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "coreyhaines31--marketingskills--churn-prevention",
+    "name": "churn-prevention",
+    "description": "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' 'involuntary churn,' 'people keep canceling,' 'churn rate is too high,' 'how do I keep users,' or 'customers are leaving.' Use this whenever someone is losing subscribers or wants to build systems to prevent it. For post-cancel win-back email sequences, see emails. For in-app upgrade paywalls, see paywalls.",
+    "category": "Development",
+    "tags": [
+      "churn",
+      "prevention",
+      "when",
+      "user",
+      "wants",
+      "reduce",
+      "cancellation",
+      "flows",
+      "set",
+      "up",
+      "save",
+      "offers",
+      "recover",
+      "failed",
+      "payments",
+      "implement",
+      "retention",
+      "strategies."
+    ],
+    "repo": "coreyhaines31/marketingskills",
+    "owner": "coreyhaines31",
+    "stars": 54287,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff",
+    "path": "skills/churn-prevention",
+    "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/churn-prevention",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-08T21:51:37Z",
+    "fileCount": 5,
+    "bytes": 52059,
+    "sha256": "4cd7d6f80022dc6c41ea87d49bd22be335618362f5091445037b1dcfb8c3375b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/churn-prevention/SKILL.md",
+      "bytes": 18526,
+      "sha256": "4cd7d6f80022dc6c41ea87d49bd22be335618362f5091445037b1dcfb8c3375b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/churn-prevention/SKILL.md"
+    },
+    {
+      "path": "evals/evals.json",
+      "sourcePath": "skills/churn-prevention/evals/evals.json",
+      "bytes": 8144,
+      "sha256": "ee85b927a1bea665b0c080034c76dcc1a81c57be1f4e974a664c7f62c4329dfd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/churn-prevention/evals/evals.json"
+    },
+    {
+      "path": "references/cancel-flow-patterns.md",
+      "sourcePath": "skills/churn-prevention/references/cancel-flow-patterns.md",
+      "bytes": 10650,
+      "sha256": "d64b9282b956da6831ec97a1fffda5841c5c43a71721b512b66b04bde104c139",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/churn-prevention/references/cancel-flow-patterns.md"
+    },
+    {
+      "path": "references/dunning-playbook.md",
+      "sourcePath": "skills/churn-prevention/references/dunning-playbook.md",
+      "bytes": 13670,
+      "sha256": "38c48aee72f813085dec2b5b50853569387d623332fb17566b6bb8a77077bca1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/churn-prevention/references/dunning-playbook.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"
+    }
+  ],
+  "archiveSha256": "048dda4a72947eb54698cf1f05f380bf752a511e04bddc125cbe6cbb5cca1580"
+}

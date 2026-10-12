@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-active-directory-penetration-test","name":"performing-active-directory-penetration-test","description":"Conduct a focused Active Directory penetration test using BloodHound, Impacket, Certipy, Rubeus, and NetExec to enumerate domain objects, discover attack paths, exploit Kerberos weaknesses, escalate privileges via ADCS/DCSync, and demonstrate domain compromise. Use when running an authorized AD pentest from a standard domain user foothold toward Domain Admin or Enterprise Admin.","category":"Security","tags":["performing","active","directory","penetration","test","conduct","focused","bloodhound","impacket","certipy","rubeus","netexec","enumerate","domain","objects","discover","attack","paths"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-active-directory-penetration-test/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-active-directory-penetration-test","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-penetration-test","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":41031,"sha256":"df29dfd3f446d8dba8a24890c0c4e383b65a987748828f6ee7807a8ca8249a3d","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-active-directory-penetration-test/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-penetration-test/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-active-directory-penetration-test/SKILL.md","bytes":9982,"sha256":"df29dfd3f446d8dba8a24890c0c4e383b65a987748828f6ee7807a8ca8249a3d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-penetration-test/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/performing-active-directory-penetration-test/assets/template.md","bytes":1195,"sha256":"8b93883692ca2fa529d3ca3c6b175e36c324c984dc4471e91df38c6547ee15a0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-penetration-test/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-active-directory-penetration-test/references/api-reference.md","bytes":2314,"sha256":"6a7461913dd1dab7527085cf527f9d54ed1ece0094c88abd804e25396c9fbae8","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-penetration-test/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/performing-active-directory-penetration-test/references/standards.md","bytes":1125,"sha256":"524522d0429f13e2365f1c528a14abe420c632a3b2b040be2d3cd067af11666e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-penetration-test/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/performing-active-directory-penetration-test/references/workflows.md","bytes":1169,"sha256":"d0673170c78afcb6d6c1639581c2e393562061c69a23027b0253f1a5fc6dcb55","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-penetration-test/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-active-directory-penetration-test/scripts/agent.py","bytes":7053,"sha256":"4700864467979a016686de234dd11fc993c39055f29abff7477bafd38063eb82","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-penetration-test/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/performing-active-directory-penetration-test/scripts/process.py","bytes":6938,"sha256":"8a29b6c102e08f7d94aa52e16340ec541edc2f99d795933b460e31a08f70dec0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-penetration-test/scripts/process.py"}],"archiveSha256":"abf9cf8a5bfe4a73fc06afa27f99749679906e3673a69f1d4dba1b6a5ff26392"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-active-directory-penetration-test",
+    "name": "performing-active-directory-penetration-test",
+    "description": "Conduct a focused Active Directory penetration test using BloodHound, Impacket, Certipy, Rubeus, and NetExec to enumerate domain objects, discover attack paths, exploit Kerberos weaknesses, escalate privileges via ADCS/DCSync, and demonstrate domain compromise. Use when running an authorized AD pentest from a standard domain user foothold toward Domain Admin or Enterprise Admin.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "active",
+      "directory",
+      "penetration",
+      "test",
+      "conduct",
+      "focused",
+      "bloodhound",
+      "impacket",
+      "certipy",
+      "rubeus",
+      "netexec",
+      "enumerate",
+      "domain",
+      "objects",
+      "discover",
+      "attack",
+      "paths"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-active-directory-penetration-test/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-active-directory-penetration-test",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-penetration-test",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 41031,
+    "sha256": "df29dfd3f446d8dba8a24890c0c4e383b65a987748828f6ee7807a8ca8249a3d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-active-directory-penetration-test/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-penetration-test/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-active-directory-penetration-test/SKILL.md",
+      "bytes": 9982,
+      "sha256": "df29dfd3f446d8dba8a24890c0c4e383b65a987748828f6ee7807a8ca8249a3d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-penetration-test/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-active-directory-penetration-test/assets/template.md",
+      "bytes": 1195,
+      "sha256": "8b93883692ca2fa529d3ca3c6b175e36c324c984dc4471e91df38c6547ee15a0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-penetration-test/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-active-directory-penetration-test/references/api-reference.md",
+      "bytes": 2314,
+      "sha256": "6a7461913dd1dab7527085cf527f9d54ed1ece0094c88abd804e25396c9fbae8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-penetration-test/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-active-directory-penetration-test/references/standards.md",
+      "bytes": 1125,
+      "sha256": "524522d0429f13e2365f1c528a14abe420c632a3b2b040be2d3cd067af11666e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-penetration-test/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-active-directory-penetration-test/references/workflows.md",
+      "bytes": 1169,
+      "sha256": "d0673170c78afcb6d6c1639581c2e393562061c69a23027b0253f1a5fc6dcb55",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-penetration-test/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-active-directory-penetration-test/scripts/agent.py",
+      "bytes": 7053,
+      "sha256": "4700864467979a016686de234dd11fc993c39055f29abff7477bafd38063eb82",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-penetration-test/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-active-directory-penetration-test/scripts/process.py",
+      "bytes": 6938,
+      "sha256": "8a29b6c102e08f7d94aa52e16340ec541edc2f99d795933b460e31a08f70dec0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-active-directory-penetration-test/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "abf9cf8a5bfe4a73fc06afa27f99749679906e3673a69f1d4dba1b6a5ff26392"
+}

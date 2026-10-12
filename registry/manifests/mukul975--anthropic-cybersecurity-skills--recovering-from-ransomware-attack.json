@@ -1,1 +1,104 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--recovering-from-ransomware-attack","name":"recovering-from-ransomware-attack","description":"Executes structured ransomware incident recovery following NIST/CISA frameworks: environment isolation, forensic evidence preservation, clean infrastructure rebuild, prioritized restoration from verified backups, credential reset, and Active Directory/database recovery in dependency order. Use when recovering from a ransomware attack, performing post-encryption restoration, or executing disaster recovery after ransomware encryption.","category":"Security","tags":["recovering","from","ransomware","attack","executes","structured","incident","recovery","following","nist","cisa","frameworks","environment","isolation","forensic","evidence","preservation","clean"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/recovering-from-ransomware-attack/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/recovering-from-ransomware-attack","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/recovering-from-ransomware-attack","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":7,"bytes":46079,"sha256":"bf370fb34adaf246b051be87a33abb677cfcb699651d12418c105b607d8cfa8d","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/recovering-from-ransomware-attack/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/recovering-from-ransomware-attack/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/recovering-from-ransomware-attack/SKILL.md","bytes":12776,"sha256":"bf370fb34adaf246b051be87a33abb677cfcb699651d12418c105b607d8cfa8d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/recovering-from-ransomware-attack/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/recovering-from-ransomware-attack/references/api-reference.md","bytes":1726,"sha256":"20e0a11bd1a8cbf8bcbfbd26ef079838b0e16a2819fe043fbbc3fb74461828f9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/recovering-from-ransomware-attack/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/recovering-from-ransomware-attack/references/standards.md","bytes":1069,"sha256":"7d7a663ff38848be74add9ef83b321d91cbe0a685272c8c1d41543829e840dd2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/recovering-from-ransomware-attack/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/recovering-from-ransomware-attack/references/workflows.md","bytes":1403,"sha256":"314c9ced975783a39daa4af68dffac4fde0eddb94967be24bcc34bb5e60da553","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/recovering-from-ransomware-attack/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/recovering-from-ransomware-attack/scripts/agent.py","bytes":6735,"sha256":"eb0ad28e09a94a8fe583ef7dab0797a7ba04a9522391de531ca8ccc20e56ca64","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/recovering-from-ransomware-attack/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/recovering-from-ransomware-attack/scripts/process.py","bytes":11115,"sha256":"d3b53ed913c621145323648ffb475e476da3a9856cb44b0d58b6c71e786da44f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/recovering-from-ransomware-attack/scripts/process.py"}],"archiveSha256":"eb6222390ed622a1529f5b2fd52d4c366815467e7285ae70cc694b2dad96b2d2"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--recovering-from-ransomware-attack",
+    "name": "recovering-from-ransomware-attack",
+    "description": "Executes structured ransomware incident recovery following NIST/CISA frameworks: environment isolation, forensic evidence preservation, clean infrastructure rebuild, prioritized restoration from verified backups, credential reset, and Active Directory/database recovery in dependency order. Use when recovering from a ransomware attack, performing post-encryption restoration, or executing disaster recovery after ransomware encryption.",
+    "category": "Security",
+    "tags": [
+      "recovering",
+      "from",
+      "ransomware",
+      "attack",
+      "executes",
+      "structured",
+      "incident",
+      "recovery",
+      "following",
+      "nist",
+      "cisa",
+      "frameworks",
+      "environment",
+      "isolation",
+      "forensic",
+      "evidence",
+      "preservation",
+      "clean"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/recovering-from-ransomware-attack/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/recovering-from-ransomware-attack",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/recovering-from-ransomware-attack",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 7,
+    "bytes": 46079,
+    "sha256": "bf370fb34adaf246b051be87a33abb677cfcb699651d12418c105b607d8cfa8d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/recovering-from-ransomware-attack/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/recovering-from-ransomware-attack/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/recovering-from-ransomware-attack/SKILL.md",
+      "bytes": 12776,
+      "sha256": "bf370fb34adaf246b051be87a33abb677cfcb699651d12418c105b607d8cfa8d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/recovering-from-ransomware-attack/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/recovering-from-ransomware-attack/references/api-reference.md",
+      "bytes": 1726,
+      "sha256": "20e0a11bd1a8cbf8bcbfbd26ef079838b0e16a2819fe043fbbc3fb74461828f9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/recovering-from-ransomware-attack/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/recovering-from-ransomware-attack/references/standards.md",
+      "bytes": 1069,
+      "sha256": "7d7a663ff38848be74add9ef83b321d91cbe0a685272c8c1d41543829e840dd2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/recovering-from-ransomware-attack/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/recovering-from-ransomware-attack/references/workflows.md",
+      "bytes": 1403,
+      "sha256": "314c9ced975783a39daa4af68dffac4fde0eddb94967be24bcc34bb5e60da553",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/recovering-from-ransomware-attack/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/recovering-from-ransomware-attack/scripts/agent.py",
+      "bytes": 6735,
+      "sha256": "eb0ad28e09a94a8fe583ef7dab0797a7ba04a9522391de531ca8ccc20e56ca64",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/recovering-from-ransomware-attack/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/recovering-from-ransomware-attack/scripts/process.py",
+      "bytes": 11115,
+      "sha256": "d3b53ed913c621145323648ffb475e476da3a9856cb44b0d58b6c71e786da44f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/recovering-from-ransomware-attack/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "eb6222390ed622a1529f5b2fd52d4c366815467e7285ae70cc694b2dad96b2d2"
+}

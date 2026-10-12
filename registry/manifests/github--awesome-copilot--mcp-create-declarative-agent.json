@@ -1,1 +1,53 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--mcp-create-declarative-agent","name":"mcp-create-declarative-agent","description":"Skill converted from mcp-create-declarative-agent.prompt.md","category":"AI & agents","tags":["mcp","declarative","agent","skill","converted","from","agent.prompt.md"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/mcp-create-declarative-agent","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/mcp-create-declarative-agent","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":9203,"sha256":"8aa6694de0da94ea8e1231555cca446d50a1c4553c898e7382e04b30120a2820","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/mcp-create-declarative-agent/SKILL.md","bytes":8144,"sha256":"8aa6694de0da94ea8e1231555cca446d50a1c4553c898e7382e04b30120a2820","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/mcp-create-declarative-agent/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"c000d1ea60ac047942cd282dbfa3200a5503d481375a1fc0189f4a268f2e6370"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--mcp-create-declarative-agent",
+    "name": "mcp-create-declarative-agent",
+    "description": "Skill converted from mcp-create-declarative-agent.prompt.md",
+    "category": "AI & agents",
+    "tags": [
+      "mcp",
+      "declarative",
+      "agent",
+      "skill",
+      "converted",
+      "from",
+      "agent.prompt.md"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/mcp-create-declarative-agent",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/mcp-create-declarative-agent",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 9203,
+    "sha256": "8aa6694de0da94ea8e1231555cca446d50a1c4553c898e7382e04b30120a2820",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/mcp-create-declarative-agent/SKILL.md",
+      "bytes": 8144,
+      "sha256": "8aa6694de0da94ea8e1231555cca446d50a1c4553c898e7382e04b30120a2820",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/mcp-create-declarative-agent/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "c000d1ea60ac047942cd282dbfa3200a5503d481375a1fc0189f4a268f2e6370"
+}

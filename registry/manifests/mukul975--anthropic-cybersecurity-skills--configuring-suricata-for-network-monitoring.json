@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--configuring-suricata-for-network-monitoring","name":"configuring-suricata-for-network-monitoring","description":"Deploys and configures Suricata IDS/IPS with Emerging Threats rulesets, EVE JSON logging, and custom rules for high-throughput, protocol-aware traffic inspection (HTTP, TLS, DNS, SMB) and SIEM integration. Use when running Suricata in IDS or inline IPS mode to detect or block malicious traffic, or when combining signature-based and protocol anomaly detection with file extraction.","category":"Cloud & DevOps","tags":["configuring","suricata","network","monitoring","deploys","configures","ids","ips","emerging","threats","rulesets","eve","json","logging","custom","rules","high","throughput"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/configuring-suricata-for-network-monitoring/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/configuring-suricata-for-network-monitoring","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-suricata-for-network-monitoring","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":5,"bytes":37364,"sha256":"1fbbfe83f93dfabb405cb2e04409b5d8dafad0dfb8b741ab664c8ee059e3c8e4","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/configuring-suricata-for-network-monitoring/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-suricata-for-network-monitoring/LICENSE"},{"path":"SKILL.es.md","sourcePath":"skills/configuring-suricata-for-network-monitoring/SKILL.es.md","bytes":1214,"sha256":"2fdec1f80b765fdf2230cd93593d589050a1fa40274077a8a72be184d03c870b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-suricata-for-network-monitoring/SKILL.es.md"},{"path":"SKILL.md","sourcePath":"skills/configuring-suricata-for-network-monitoring/SKILL.md","bytes":14454,"sha256":"1fbbfe83f93dfabb405cb2e04409b5d8dafad0dfb8b741ab664c8ee059e3c8e4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-suricata-for-network-monitoring/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/configuring-suricata-for-network-monitoring/references/api-reference.md","bytes":2627,"sha256":"3501f18c885b82fac9459f45925ba979774806a6973ec0602a0e1a6ab3de919f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-suricata-for-network-monitoring/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/configuring-suricata-for-network-monitoring/scripts/agent.py","bytes":7814,"sha256":"5fd10353096728de87cc75792bae902a4a3ca105d327972b9d69f8fa9e469197","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-suricata-for-network-monitoring/scripts/agent.py"}],"archiveSha256":"b6d814d383b175b14b11c388b893009681da86ff8c22fa5587863b4807aeef37"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--configuring-suricata-for-network-monitoring",
+    "name": "configuring-suricata-for-network-monitoring",
+    "description": "Deploys and configures Suricata IDS/IPS with Emerging Threats rulesets, EVE JSON logging, and custom rules for high-throughput, protocol-aware traffic inspection (HTTP, TLS, DNS, SMB) and SIEM integration. Use when running Suricata in IDS or inline IPS mode to detect or block malicious traffic, or when combining signature-based and protocol anomaly detection with file extraction.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "configuring",
+      "suricata",
+      "network",
+      "monitoring",
+      "deploys",
+      "configures",
+      "ids",
+      "ips",
+      "emerging",
+      "threats",
+      "rulesets",
+      "eve",
+      "json",
+      "logging",
+      "custom",
+      "rules",
+      "high",
+      "throughput"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/configuring-suricata-for-network-monitoring/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/configuring-suricata-for-network-monitoring",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-suricata-for-network-monitoring",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 37364,
+    "sha256": "1fbbfe83f93dfabb405cb2e04409b5d8dafad0dfb8b741ab664c8ee059e3c8e4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/configuring-suricata-for-network-monitoring/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-suricata-for-network-monitoring/LICENSE"
+    },
+    {
+      "path": "SKILL.es.md",
+      "sourcePath": "skills/configuring-suricata-for-network-monitoring/SKILL.es.md",
+      "bytes": 1214,
+      "sha256": "2fdec1f80b765fdf2230cd93593d589050a1fa40274077a8a72be184d03c870b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-suricata-for-network-monitoring/SKILL.es.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/configuring-suricata-for-network-monitoring/SKILL.md",
+      "bytes": 14454,
+      "sha256": "1fbbfe83f93dfabb405cb2e04409b5d8dafad0dfb8b741ab664c8ee059e3c8e4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-suricata-for-network-monitoring/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/configuring-suricata-for-network-monitoring/references/api-reference.md",
+      "bytes": 2627,
+      "sha256": "3501f18c885b82fac9459f45925ba979774806a6973ec0602a0e1a6ab3de919f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-suricata-for-network-monitoring/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/configuring-suricata-for-network-monitoring/scripts/agent.py",
+      "bytes": 7814,
+      "sha256": "5fd10353096728de87cc75792bae902a4a3ca105d327972b9d69f8fa9e469197",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-suricata-for-network-monitoring/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "b6d814d383b175b14b11c388b893009681da86ff8c22fa5587863b4807aeef37"
+}

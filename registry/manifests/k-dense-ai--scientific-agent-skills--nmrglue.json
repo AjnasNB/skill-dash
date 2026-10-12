@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--nmrglue","name":"nmrglue","description":"Processes calibrated one-dimensional complex NMR free-induction decays with nmrglue into phased spectra, peak candidates, and signed integration regions. Use for raw 1D NMR processing, ppm-axis verification, apodization, Fourier transformation, manual phasing, baseline correction, or reproducible spectral integration.","category":"Automation","tags":["nmrglue","processes","calibrated","one","dimensional","complex","nmr","free","induction","decays","into","phased","spectra","peak","candidates","signed","integration","regions."],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/nmrglue","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nmrglue","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":5,"bytes":26824,"sha256":"358b5a5d64d20092e8631aeb8f4a06f11634a9fdeb8c594a93e6c1282b04b10b","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/nmrglue/SKILL.md","bytes":8448,"sha256":"358b5a5d64d20092e8631aeb8f4a06f11634a9fdeb8c594a93e6c1282b04b10b","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nmrglue/SKILL.md"},{"path":"assets/processing.json","sourcePath":"skills/nmrglue/assets/processing.json","bytes":364,"sha256":"127f6796efaf47a8349f1061c01f31202b34fe20fd4baba13d4f4dc8982feb1b","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nmrglue/assets/processing.json"},{"path":"references/acquisition-and-validation.md","sourcePath":"skills/nmrglue/references/acquisition-and-validation.md","bytes":6157,"sha256":"0d220724cff854d39aeabdab4fa20ae7b9c73f38fe7a1aa653082985e9fae736","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nmrglue/references/acquisition-and-validation.md"},{"path":"scripts/process_1d.py","sourcePath":"skills/nmrglue/scripts/process_1d.py","bytes":10787,"sha256":"8268bd1b0b445c373e4d105faae6485dee1b41506d09cec9cd7ba8c307e6c81d","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nmrglue/scripts/process_1d.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"2417b67772ccd8290b56f3ff58207f532f740aa30f03e63c8f11d545026f97d1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--nmrglue",
+    "name": "nmrglue",
+    "description": "Processes calibrated one-dimensional complex NMR free-induction decays with nmrglue into phased spectra, peak candidates, and signed integration regions. Use for raw 1D NMR processing, ppm-axis verification, apodization, Fourier transformation, manual phasing, baseline correction, or reproducible spectral integration.",
+    "category": "Automation",
+    "tags": [
+      "nmrglue",
+      "processes",
+      "calibrated",
+      "one",
+      "dimensional",
+      "complex",
+      "nmr",
+      "free",
+      "induction",
+      "decays",
+      "into",
+      "phased",
+      "spectra",
+      "peak",
+      "candidates",
+      "signed",
+      "integration",
+      "regions."
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/nmrglue",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nmrglue",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 5,
+    "bytes": 26824,
+    "sha256": "358b5a5d64d20092e8631aeb8f4a06f11634a9fdeb8c594a93e6c1282b04b10b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/nmrglue/SKILL.md",
+      "bytes": 8448,
+      "sha256": "358b5a5d64d20092e8631aeb8f4a06f11634a9fdeb8c594a93e6c1282b04b10b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nmrglue/SKILL.md"
+    },
+    {
+      "path": "assets/processing.json",
+      "sourcePath": "skills/nmrglue/assets/processing.json",
+      "bytes": 364,
+      "sha256": "127f6796efaf47a8349f1061c01f31202b34fe20fd4baba13d4f4dc8982feb1b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nmrglue/assets/processing.json"
+    },
+    {
+      "path": "references/acquisition-and-validation.md",
+      "sourcePath": "skills/nmrglue/references/acquisition-and-validation.md",
+      "bytes": 6157,
+      "sha256": "0d220724cff854d39aeabdab4fa20ae7b9c73f38fe7a1aa653082985e9fae736",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nmrglue/references/acquisition-and-validation.md"
+    },
+    {
+      "path": "scripts/process_1d.py",
+      "sourcePath": "skills/nmrglue/scripts/process_1d.py",
+      "bytes": 10787,
+      "sha256": "8268bd1b0b445c373e4d105faae6485dee1b41506d09cec9cd7ba8c307e6c81d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nmrglue/scripts/process_1d.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "2417b67772ccd8290b56f3ff58207f532f740aa30f03e63c8f11d545026f97d1"
+}

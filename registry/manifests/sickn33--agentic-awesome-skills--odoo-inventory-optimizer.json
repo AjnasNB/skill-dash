@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--odoo-inventory-optimizer","name":"odoo-inventory-optimizer","description":"Expert guide for Odoo Inventory: stock valuation (FIFO/AVCO), reordering rules, putaway strategies, routes, and multi-warehouse configuration.","category":"Development","tags":["odoo","inventory","optimizer","expert","guide","stock","valuation","fifo","avco","reordering","rules","putaway","strategies","routes","multi","warehouse","configuration."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/odoo-inventory-optimizer","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-inventory-optimizer","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5704,"sha256":"50f97b9250dccb16632ae01e48921e0ab2fb78460f2d727891632632d081f327","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/odoo-inventory-optimizer/SKILL.md","bytes":4631,"sha256":"50f97b9250dccb16632ae01e48921e0ab2fb78460f2d727891632632d081f327","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-inventory-optimizer/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"ac933f3645364aca758c5bb1152586b1656a17dd5bf6bdb25e0e34824d9affc0"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--odoo-inventory-optimizer",
+    "name": "odoo-inventory-optimizer",
+    "description": "Expert guide for Odoo Inventory: stock valuation (FIFO/AVCO), reordering rules, putaway strategies, routes, and multi-warehouse configuration.",
+    "category": "Development",
+    "tags": [
+      "odoo",
+      "inventory",
+      "optimizer",
+      "expert",
+      "guide",
+      "stock",
+      "valuation",
+      "fifo",
+      "avco",
+      "reordering",
+      "rules",
+      "putaway",
+      "strategies",
+      "routes",
+      "multi",
+      "warehouse",
+      "configuration."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/odoo-inventory-optimizer",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-inventory-optimizer",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5704,
+    "sha256": "50f97b9250dccb16632ae01e48921e0ab2fb78460f2d727891632632d081f327",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/odoo-inventory-optimizer/SKILL.md",
+      "bytes": 4631,
+      "sha256": "50f97b9250dccb16632ae01e48921e0ab2fb78460f2d727891632632d081f327",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-inventory-optimizer/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ac933f3645364aca758c5bb1152586b1656a17dd5bf6bdb25e0e34824d9affc0"
+}

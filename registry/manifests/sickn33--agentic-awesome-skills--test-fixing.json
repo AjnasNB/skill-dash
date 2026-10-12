@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--test-fixing","name":"test-fixing","description":"Systematically identify and fix all failing tests using smart grouping strategies. Use when explicitly asks to fix tests (\"fix these tests\", \"make tests pass\"), reports test failures (\"tests are failing\", \"test suite is broken\"), or completes implementation and wants tests passing.","category":"Development","tags":["test","fixing","systematically","identify","fix","all","failing","tests","smart","grouping","strategies.","when","explicitly","asks","these","pass","reports","failures"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/test-fixing","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/test-fixing","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4500,"sha256":"2524e2193dcc765137811de75531edf71688c831f1d183cb416d437827724a54","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/test-fixing/SKILL.md","bytes":3427,"sha256":"2524e2193dcc765137811de75531edf71688c831f1d183cb416d437827724a54","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/test-fixing/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"53a5762ded20d231ef73c5eb0623ea88842d52cf4190893b8e82e84c6241bc66"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--test-fixing",
+    "name": "test-fixing",
+    "description": "Systematically identify and fix all failing tests using smart grouping strategies. Use when explicitly asks to fix tests (\"fix these tests\", \"make tests pass\"), reports test failures (\"tests are failing\", \"test suite is broken\"), or completes implementation and wants tests passing.",
+    "category": "Development",
+    "tags": [
+      "test",
+      "fixing",
+      "systematically",
+      "identify",
+      "fix",
+      "all",
+      "failing",
+      "tests",
+      "smart",
+      "grouping",
+      "strategies.",
+      "when",
+      "explicitly",
+      "asks",
+      "these",
+      "pass",
+      "reports",
+      "failures"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/test-fixing",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/test-fixing",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4500,
+    "sha256": "2524e2193dcc765137811de75531edf71688c831f1d183cb416d437827724a54",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/test-fixing/SKILL.md",
+      "bytes": 3427,
+      "sha256": "2524e2193dcc765137811de75531edf71688c831f1d183cb416d437827724a54",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/test-fixing/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "53a5762ded20d231ef73c5eb0623ea88842d52cf4190893b8e82e84c6241bc66"
+}

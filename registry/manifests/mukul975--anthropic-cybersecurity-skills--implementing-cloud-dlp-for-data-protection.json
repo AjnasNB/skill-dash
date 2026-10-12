@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-cloud-dlp-for-data-protection","name":"implementing-cloud-dlp-for-data-protection","description":"Implement cloud DLP using Amazon Macie, Google Cloud DLP API, Microsoft Purview, Azure Information Protection, and Nightfall AI to discover, classify, label, de-identify, and protect sensitive data (PII, PHI, financial data) across cloud storage, databases, and pipelines. Use for GDPR/HIPAA/PCI DSS data-discovery, cloud data governance, or CI/CD DLP scanning; not for endpoint, email, or network-level DLP.","category":"Cloud & DevOps","tags":["implementing","cloud","dlp","data","protection","implement","amazon","macie","google","api","microsoft","purview","azure","information","nightfall","ai","discover","classify"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-cloud-dlp-for-data-protection/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-cloud-dlp-for-data-protection","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-dlp-for-data-protection","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":37421,"sha256":"490332dfbdf096aa59432d8a3346130660fad2f2d858271062bcf2694593b85e","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-cloud-dlp-for-data-protection/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-dlp-for-data-protection/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-cloud-dlp-for-data-protection/SKILL.md","bytes":16610,"sha256":"490332dfbdf096aa59432d8a3346130660fad2f2d858271062bcf2694593b85e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-dlp-for-data-protection/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-cloud-dlp-for-data-protection/references/api-reference.md","bytes":2179,"sha256":"5432d1f21d30edde49f3c38d5b904766eac49d90dec673ebabef4a5ed11d5795","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-dlp-for-data-protection/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-cloud-dlp-for-data-protection/scripts/agent.py","bytes":7377,"sha256":"053c54c5f260f39ed6a9a7e64028c750d29aa90651c0534311e1f5234ed1adff","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-dlp-for-data-protection/scripts/agent.py"}],"archiveSha256":"869e0a6e46e577cc6d738a52d9e86c792d13243a3c640c210bb32fc239991137"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-cloud-dlp-for-data-protection",
+    "name": "implementing-cloud-dlp-for-data-protection",
+    "description": "Implement cloud DLP using Amazon Macie, Google Cloud DLP API, Microsoft Purview, Azure Information Protection, and Nightfall AI to discover, classify, label, de-identify, and protect sensitive data (PII, PHI, financial data) across cloud storage, databases, and pipelines. Use for GDPR/HIPAA/PCI DSS data-discovery, cloud data governance, or CI/CD DLP scanning; not for endpoint, email, or network-level DLP.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "implementing",
+      "cloud",
+      "dlp",
+      "data",
+      "protection",
+      "implement",
+      "amazon",
+      "macie",
+      "google",
+      "api",
+      "microsoft",
+      "purview",
+      "azure",
+      "information",
+      "nightfall",
+      "ai",
+      "discover",
+      "classify"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-cloud-dlp-for-data-protection/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-cloud-dlp-for-data-protection",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-dlp-for-data-protection",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 37421,
+    "sha256": "490332dfbdf096aa59432d8a3346130660fad2f2d858271062bcf2694593b85e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-cloud-dlp-for-data-protection/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-dlp-for-data-protection/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-cloud-dlp-for-data-protection/SKILL.md",
+      "bytes": 16610,
+      "sha256": "490332dfbdf096aa59432d8a3346130660fad2f2d858271062bcf2694593b85e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-dlp-for-data-protection/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-cloud-dlp-for-data-protection/references/api-reference.md",
+      "bytes": 2179,
+      "sha256": "5432d1f21d30edde49f3c38d5b904766eac49d90dec673ebabef4a5ed11d5795",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-dlp-for-data-protection/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-cloud-dlp-for-data-protection/scripts/agent.py",
+      "bytes": 7377,
+      "sha256": "053c54c5f260f39ed6a9a7e64028c750d29aa90651c0534311e1f5234ed1adff",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-cloud-dlp-for-data-protection/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "869e0a6e46e577cc6d738a52d9e86c792d13243a3c640c210bb32fc239991137"
+}

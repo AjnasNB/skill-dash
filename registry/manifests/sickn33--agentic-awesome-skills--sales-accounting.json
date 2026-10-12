@@ -1,1 +1,86 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--sales-accounting","name":"sales-accounting","description":"Sales register: customer, invoice, gross amount, discount, VAT and TDS, net receivable, credit terms and balance. Use for sales accounting.","category":"Product & business","tags":["sales","accounting","register","customer","invoice","gross","amount","discount","vat","tds","net","receivable","credit","terms","balance.","accounting."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/sales-accounting","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sales-accounting","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":5,"bytes":29525,"sha256":"c1778af79d8aa98c2fb0482a2854f407ab811ecd9a767971e76945c682a066a7","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/sales-accounting/SKILL.md","bytes":25527,"sha256":"c1778af79d8aa98c2fb0482a2854f407ab811ecd9a767971e76945c682a066a7","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sales-accounting/SKILL.md"},{"path":"references/common-pitfalls.md","sourcePath":"skills/sales-accounting/references/common-pitfalls.md","bytes":1703,"sha256":"e903cb0da06ce25f5e11214201f0dab21fbf9640e468457b62408a72951af479","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sales-accounting/references/common-pitfalls.md"},{"path":"references/related-skills.md","sourcePath":"skills/sales-accounting/references/related-skills.md","bytes":853,"sha256":"fe2d212be3187596414a43eb4389071c63a04cf3979a8ed86ca23089e5a2eb30","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sales-accounting/references/related-skills.md"},{"path":"references/reusable-prompt.md","sourcePath":"skills/sales-accounting/references/reusable-prompt.md","bytes":369,"sha256":"3907f9d43c0c11a0d248f0ccf460c8df67c27294dd27585ac2af75a63f56158d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sales-accounting/references/reusable-prompt.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"4573b0f3cb412d9da156a81e1ee5455a8cfdefdcfa147c3539621dd0f2199ff6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--sales-accounting",
+    "name": "sales-accounting",
+    "description": "Sales register: customer, invoice, gross amount, discount, VAT and TDS, net receivable, credit terms and balance. Use for sales accounting.",
+    "category": "Product & business",
+    "tags": [
+      "sales",
+      "accounting",
+      "register",
+      "customer",
+      "invoice",
+      "gross",
+      "amount",
+      "discount",
+      "vat",
+      "tds",
+      "net",
+      "receivable",
+      "credit",
+      "terms",
+      "balance.",
+      "accounting."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/sales-accounting",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sales-accounting",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 5,
+    "bytes": 29525,
+    "sha256": "c1778af79d8aa98c2fb0482a2854f407ab811ecd9a767971e76945c682a066a7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/sales-accounting/SKILL.md",
+      "bytes": 25527,
+      "sha256": "c1778af79d8aa98c2fb0482a2854f407ab811ecd9a767971e76945c682a066a7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sales-accounting/SKILL.md"
+    },
+    {
+      "path": "references/common-pitfalls.md",
+      "sourcePath": "skills/sales-accounting/references/common-pitfalls.md",
+      "bytes": 1703,
+      "sha256": "e903cb0da06ce25f5e11214201f0dab21fbf9640e468457b62408a72951af479",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sales-accounting/references/common-pitfalls.md"
+    },
+    {
+      "path": "references/related-skills.md",
+      "sourcePath": "skills/sales-accounting/references/related-skills.md",
+      "bytes": 853,
+      "sha256": "fe2d212be3187596414a43eb4389071c63a04cf3979a8ed86ca23089e5a2eb30",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sales-accounting/references/related-skills.md"
+    },
+    {
+      "path": "references/reusable-prompt.md",
+      "sourcePath": "skills/sales-accounting/references/reusable-prompt.md",
+      "bytes": 369,
+      "sha256": "3907f9d43c0c11a0d248f0ccf460c8df67c27294dd27585ac2af75a63f56158d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sales-accounting/references/reusable-prompt.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "4573b0f3cb412d9da156a81e1ee5455a8cfdefdcfa147c3539621dd0f2199ff6"
+}

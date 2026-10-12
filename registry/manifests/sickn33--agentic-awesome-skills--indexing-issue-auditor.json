@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--indexing-issue-auditor","name":"indexing-issue-auditor","description":"High-level technical SEO and site architecture auditor. Invoke to scan local or live environments for indexing, crawl budget, and structural errors.","category":"Marketing","tags":["indexing","issue","auditor","high","level","technical","seo","site","architecture","auditor.","invoke","scan","local","live","environments","crawl","budget","structural"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/indexing-issue-auditor","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/indexing-issue-auditor","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7098,"sha256":"d921f615d9e477bc1f0ed7c27ce4845f24dcf788f01cff4017a6bfd1d50aff84","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/indexing-issue-auditor/SKILL.md","bytes":6025,"sha256":"d921f615d9e477bc1f0ed7c27ce4845f24dcf788f01cff4017a6bfd1d50aff84","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/indexing-issue-auditor/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"1a866cab74586fb629b093902212c7abfe95e760849fda033b8894465c6ca985"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--indexing-issue-auditor",
+    "name": "indexing-issue-auditor",
+    "description": "High-level technical SEO and site architecture auditor. Invoke to scan local or live environments for indexing, crawl budget, and structural errors.",
+    "category": "Marketing",
+    "tags": [
+      "indexing",
+      "issue",
+      "auditor",
+      "high",
+      "level",
+      "technical",
+      "seo",
+      "site",
+      "architecture",
+      "auditor.",
+      "invoke",
+      "scan",
+      "local",
+      "live",
+      "environments",
+      "crawl",
+      "budget",
+      "structural"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/indexing-issue-auditor",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/indexing-issue-auditor",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7098,
+    "sha256": "d921f615d9e477bc1f0ed7c27ce4845f24dcf788f01cff4017a6bfd1d50aff84",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/indexing-issue-auditor/SKILL.md",
+      "bytes": 6025,
+      "sha256": "d921f615d9e477bc1f0ed7c27ce4845f24dcf788f01cff4017a6bfd1d50aff84",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/indexing-issue-auditor/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "1a866cab74586fb629b093902212c7abfe95e760849fda033b8894465c6ca985"
+}

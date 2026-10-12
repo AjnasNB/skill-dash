@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--vector-database-engineer","name":"vector-database-engineer","description":"Expert in vector databases, embedding strategies, and semantic search implementation. Masters Pinecone, Weaviate, Qdrant, Milvus, and pgvector for RAG applications, recommendation systems, and similar","category":"AI & agents","tags":["vector","database","engineer","expert","databases","embedding","strategies","semantic","search","implementation.","masters","pinecone","weaviate","qdrant","milvus","pgvector","rag","applications"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/vector-database-engineer","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vector-database-engineer","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":4996,"sha256":"5ef0cf180a02015a070b24f8e8eacf692d6c01194ba4e4d4c656be2715677ef9","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/vector-database-engineer/SKILL.md","bytes":2714,"sha256":"5ef0cf180a02015a070b24f8e8eacf692d6c01194ba4e4d4c656be2715677ef9","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vector-database-engineer/SKILL.md"},{"path":"resources/implementation-playbook.md","sourcePath":"skills/vector-database-engineer/resources/implementation-playbook.md","bytes":1209,"sha256":"e06ec130b62042f1e3f09c835e701f3442430141d17be1ad05b43df1e852947d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vector-database-engineer/resources/implementation-playbook.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"fe69b45da3b1aa55382d4c9052b77e443331fe82c0cc968abbc11e1db845cad9"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--vector-database-engineer",
+    "name": "vector-database-engineer",
+    "description": "Expert in vector databases, embedding strategies, and semantic search implementation. Masters Pinecone, Weaviate, Qdrant, Milvus, and pgvector for RAG applications, recommendation systems, and similar",
+    "category": "AI & agents",
+    "tags": [
+      "vector",
+      "database",
+      "engineer",
+      "expert",
+      "databases",
+      "embedding",
+      "strategies",
+      "semantic",
+      "search",
+      "implementation.",
+      "masters",
+      "pinecone",
+      "weaviate",
+      "qdrant",
+      "milvus",
+      "pgvector",
+      "rag",
+      "applications"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/vector-database-engineer",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vector-database-engineer",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 4996,
+    "sha256": "5ef0cf180a02015a070b24f8e8eacf692d6c01194ba4e4d4c656be2715677ef9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/vector-database-engineer/SKILL.md",
+      "bytes": 2714,
+      "sha256": "5ef0cf180a02015a070b24f8e8eacf692d6c01194ba4e4d4c656be2715677ef9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vector-database-engineer/SKILL.md"
+    },
+    {
+      "path": "resources/implementation-playbook.md",
+      "sourcePath": "skills/vector-database-engineer/resources/implementation-playbook.md",
+      "bytes": 1209,
+      "sha256": "e06ec130b62042f1e3f09c835e701f3442430141d17be1ad05b43df1e852947d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vector-database-engineer/resources/implementation-playbook.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "fe69b45da3b1aa55382d4c9052b77e443331fe82c0cc968abbc11e1db845cad9"
+}

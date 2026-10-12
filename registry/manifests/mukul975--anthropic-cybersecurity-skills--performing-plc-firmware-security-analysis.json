@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-plc-firmware-security-analysis","name":"performing-plc-firmware-security-analysis","description":"This skill covers analyzing Programmable Logic Controller (PLC) firmware for security vulnerabilities including hardcoded credentials, insecure update mechanisms, backdoor functions, memory corruption flaws, and undocumented debug interfaces. It addresses firmware extraction from common PLC platforms (Siemens S7, Allen-Bradley, Schneider Modicon), static analysis of firmware images, dynamic analysis in emulated environments, and comparison against known-good baselines to detect tampering.","category":"Security","tags":["performing","plc","firmware","security","analysis","skill","covers","analyzing","programmable","logic","controller","vulnerabilities","including","hardcoded","credentials","insecure","update","mechanisms"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-plc-firmware-security-analysis/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-plc-firmware-security-analysis","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-plc-firmware-security-analysis","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":40063,"sha256":"f5eb45d2da16ec948ef370cc87efd0481180582c10d3c5f27e56ed9825909cdc","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-plc-firmware-security-analysis/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-plc-firmware-security-analysis/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-plc-firmware-security-analysis/SKILL.md","bytes":19566,"sha256":"f5eb45d2da16ec948ef370cc87efd0481180582c10d3c5f27e56ed9825909cdc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-plc-firmware-security-analysis/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-plc-firmware-security-analysis/references/api-reference.md","bytes":1760,"sha256":"b75e0a4a0905095d59dbdb3acf5266957b067e3087cdfe92d6423e3761b24b1d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-plc-firmware-security-analysis/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-plc-firmware-security-analysis/scripts/agent.py","bytes":7482,"sha256":"67c99f0c71d53829d8c9a6c8ab76c4baacc0738cdbd18f2a60d7816cecb438aa","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-plc-firmware-security-analysis/scripts/agent.py"}],"archiveSha256":"912bd500b22bc0e56689bcfc3b069ea58acb1f3646a8d1e79a0c7e38353d8d50"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-plc-firmware-security-analysis",
+    "name": "performing-plc-firmware-security-analysis",
+    "description": "This skill covers analyzing Programmable Logic Controller (PLC) firmware for security vulnerabilities including hardcoded credentials, insecure update mechanisms, backdoor functions, memory corruption flaws, and undocumented debug interfaces. It addresses firmware extraction from common PLC platforms (Siemens S7, Allen-Bradley, Schneider Modicon), static analysis of firmware images, dynamic analysis in emulated environments, and comparison against known-good baselines to detect tampering.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "plc",
+      "firmware",
+      "security",
+      "analysis",
+      "skill",
+      "covers",
+      "analyzing",
+      "programmable",
+      "logic",
+      "controller",
+      "vulnerabilities",
+      "including",
+      "hardcoded",
+      "credentials",
+      "insecure",
+      "update",
+      "mechanisms"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-plc-firmware-security-analysis/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-plc-firmware-security-analysis",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-plc-firmware-security-analysis",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 40063,
+    "sha256": "f5eb45d2da16ec948ef370cc87efd0481180582c10d3c5f27e56ed9825909cdc",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-plc-firmware-security-analysis/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-plc-firmware-security-analysis/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-plc-firmware-security-analysis/SKILL.md",
+      "bytes": 19566,
+      "sha256": "f5eb45d2da16ec948ef370cc87efd0481180582c10d3c5f27e56ed9825909cdc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-plc-firmware-security-analysis/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-plc-firmware-security-analysis/references/api-reference.md",
+      "bytes": 1760,
+      "sha256": "b75e0a4a0905095d59dbdb3acf5266957b067e3087cdfe92d6423e3761b24b1d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-plc-firmware-security-analysis/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-plc-firmware-security-analysis/scripts/agent.py",
+      "bytes": 7482,
+      "sha256": "67c99f0c71d53829d8c9a6c8ab76c4baacc0738cdbd18f2a60d7816cecb438aa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-plc-firmware-security-analysis/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "912bd500b22bc0e56689bcfc3b069ea58acb1f3646a8d1e79a0c7e38353d8d50"
+}

@@ -1,1 +1,57 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--ux-persuasion-engineer","name":"ux-persuasion-engineer","description":"One sentence - what this skill does and when to invoke it","category":"Design","tags":["ux","persuasion","engineer","one","sentence","what","skill","does","when","invoke","it"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/ux-persuasion-engineer","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ux-persuasion-engineer","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6406,"sha256":"e4072d30b4429d346fb4cfd36ba16fa2b3d2821f7bc800f07c10302cab36c484","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/ux-persuasion-engineer/SKILL.md","bytes":5333,"sha256":"e4072d30b4429d346fb4cfd36ba16fa2b3d2821f7bc800f07c10302cab36c484","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ux-persuasion-engineer/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"15e8090089246bc9145c32006b859b83b0c1575abd0d6da9eb1807704fb22a76"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--ux-persuasion-engineer",
+    "name": "ux-persuasion-engineer",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "category": "Design",
+    "tags": [
+      "ux",
+      "persuasion",
+      "engineer",
+      "one",
+      "sentence",
+      "what",
+      "skill",
+      "does",
+      "when",
+      "invoke",
+      "it"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/ux-persuasion-engineer",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ux-persuasion-engineer",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6406,
+    "sha256": "e4072d30b4429d346fb4cfd36ba16fa2b3d2821f7bc800f07c10302cab36c484",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/ux-persuasion-engineer/SKILL.md",
+      "bytes": 5333,
+      "sha256": "e4072d30b4429d346fb4cfd36ba16fa2b3d2821f7bc800f07c10302cab36c484",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ux-persuasion-engineer/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "15e8090089246bc9145c32006b859b83b0c1575abd0d6da9eb1807704fb22a76"
+}

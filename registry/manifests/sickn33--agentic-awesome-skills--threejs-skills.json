@@ -1,1 +1,71 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--threejs-skills","name":"threejs-skills","description":"Create 3D scenes, interactive experiences, and visual effects using Three.js. Use when user requests 3D graphics, WebGL experiences, 3D visualizations, animations, or interactive 3D elements.","category":"Design","tags":["threejs","skills","3d","scenes","interactive","experiences","visual","effects","three.js.","when","user","requests","graphics","webgl","visualizations","animations","elements."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/threejs-skills","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/threejs-skills","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":20413,"sha256":"7282d934dff199cd49dae2a6ecef2e53e83d011f06ddadab7ac64274fea0dfc8","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/threejs-skills/SKILL.md","bytes":1982,"sha256":"7282d934dff199cd49dae2a6ecef2e53e83d011f06ddadab7ac64274fea0dfc8","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/threejs-skills/SKILL.md"},{"path":"references/detailed-guide.md","sourcePath":"skills/threejs-skills/references/detailed-guide.md","bytes":17358,"sha256":"4a257bdc89de80eda7ea7cabf46055d3c5b5fef8099480ce3b3534791e99d3f2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/threejs-skills/references/detailed-guide.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"d62bfb00c7118d738c1c54afde5ac6779008b99457930d6ca880795f2f3873bb"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--threejs-skills",
+    "name": "threejs-skills",
+    "description": "Create 3D scenes, interactive experiences, and visual effects using Three.js. Use when user requests 3D graphics, WebGL experiences, 3D visualizations, animations, or interactive 3D elements.",
+    "category": "Design",
+    "tags": [
+      "threejs",
+      "skills",
+      "3d",
+      "scenes",
+      "interactive",
+      "experiences",
+      "visual",
+      "effects",
+      "three.js.",
+      "when",
+      "user",
+      "requests",
+      "graphics",
+      "webgl",
+      "visualizations",
+      "animations",
+      "elements."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/threejs-skills",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/threejs-skills",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 20413,
+    "sha256": "7282d934dff199cd49dae2a6ecef2e53e83d011f06ddadab7ac64274fea0dfc8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/threejs-skills/SKILL.md",
+      "bytes": 1982,
+      "sha256": "7282d934dff199cd49dae2a6ecef2e53e83d011f06ddadab7ac64274fea0dfc8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/threejs-skills/SKILL.md"
+    },
+    {
+      "path": "references/detailed-guide.md",
+      "sourcePath": "skills/threejs-skills/references/detailed-guide.md",
+      "bytes": 17358,
+      "sha256": "4a257bdc89de80eda7ea7cabf46055d3c5b5fef8099480ce3b3534791e99d3f2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/threejs-skills/references/detailed-guide.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "d62bfb00c7118d738c1c54afde5ac6779008b99457930d6ca880795f2f3873bb"
+}

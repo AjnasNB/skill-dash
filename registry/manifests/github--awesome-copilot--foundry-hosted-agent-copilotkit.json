@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--foundry-hosted-agent-copilotkit","name":"foundry-hosted-agent-copilotkit","description":"Build and evolve agentic web apps that pair a CopilotKit React frontend with a Microsoft Agent Framework agent running as a Microsoft Foundry hosted agent, connected over the AG-UI protocol. Covers choosing the wiring, using Foundry-native primitives instead of hand-rolled plumbing, agent tools, human-in-the-loop approvals, generative UI and shared state, local run and azd deploy, debugging the event stream, and safe upgrades.","category":"Design","tags":["foundry","hosted","agent","copilotkit","evolve","agentic","web","apps","pair","react","frontend","microsoft","framework","running","as","connected","over","ag"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/foundry-hosted-agent-copilotkit","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/foundry-hosted-agent-copilotkit","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":5,"bytes":46079,"sha256":"63fef867b096178e2836c714a0d0fce85b8373a13e87321201e682eda30b77a1","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/foundry-hosted-agent-copilotkit/SKILL.md","bytes":9856,"sha256":"63fef867b096178e2836c714a0d0fce85b8373a13e87321201e682eda30b77a1","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/foundry-hosted-agent-copilotkit/SKILL.md"},{"path":"references/hitl.md","sourcePath":"skills/foundry-hosted-agent-copilotkit/references/hitl.md","bytes":8645,"sha256":"6db32b4f064eeae68540a67b98e0d975b4fad8a19689f00202ea28af9c78445f","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/foundry-hosted-agent-copilotkit/references/hitl.md"},{"path":"references/troubleshooting.md","sourcePath":"skills/foundry-hosted-agent-copilotkit/references/troubleshooting.md","bytes":7855,"sha256":"de567962624533a88b31e21b64c6f2f194d14fcdd9d7b0778f7c7bd0aa159484","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/foundry-hosted-agent-copilotkit/references/troubleshooting.md"},{"path":"references/wiring.md","sourcePath":"skills/foundry-hosted-agent-copilotkit/references/wiring.md","bytes":18664,"sha256":"3361fe8dbeaa52d8e99575abadf058aec871f76adda4c80c489613143a61d20b","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/foundry-hosted-agent-copilotkit/references/wiring.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"998f94ea464b414228dfcc080414b48698af029331993ee36baa19ba23542dbc"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--foundry-hosted-agent-copilotkit",
+    "name": "foundry-hosted-agent-copilotkit",
+    "description": "Build and evolve agentic web apps that pair a CopilotKit React frontend with a Microsoft Agent Framework agent running as a Microsoft Foundry hosted agent, connected over the AG-UI protocol. Covers choosing the wiring, using Foundry-native primitives instead of hand-rolled plumbing, agent tools, human-in-the-loop approvals, generative UI and shared state, local run and azd deploy, debugging the event stream, and safe upgrades.",
+    "category": "Design",
+    "tags": [
+      "foundry",
+      "hosted",
+      "agent",
+      "copilotkit",
+      "evolve",
+      "agentic",
+      "web",
+      "apps",
+      "pair",
+      "react",
+      "frontend",
+      "microsoft",
+      "framework",
+      "running",
+      "as",
+      "connected",
+      "over",
+      "ag"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/foundry-hosted-agent-copilotkit",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/foundry-hosted-agent-copilotkit",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 5,
+    "bytes": 46079,
+    "sha256": "63fef867b096178e2836c714a0d0fce85b8373a13e87321201e682eda30b77a1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/foundry-hosted-agent-copilotkit/SKILL.md",
+      "bytes": 9856,
+      "sha256": "63fef867b096178e2836c714a0d0fce85b8373a13e87321201e682eda30b77a1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/foundry-hosted-agent-copilotkit/SKILL.md"
+    },
+    {
+      "path": "references/hitl.md",
+      "sourcePath": "skills/foundry-hosted-agent-copilotkit/references/hitl.md",
+      "bytes": 8645,
+      "sha256": "6db32b4f064eeae68540a67b98e0d975b4fad8a19689f00202ea28af9c78445f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/foundry-hosted-agent-copilotkit/references/hitl.md"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "sourcePath": "skills/foundry-hosted-agent-copilotkit/references/troubleshooting.md",
+      "bytes": 7855,
+      "sha256": "de567962624533a88b31e21b64c6f2f194d14fcdd9d7b0778f7c7bd0aa159484",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/foundry-hosted-agent-copilotkit/references/troubleshooting.md"
+    },
+    {
+      "path": "references/wiring.md",
+      "sourcePath": "skills/foundry-hosted-agent-copilotkit/references/wiring.md",
+      "bytes": 18664,
+      "sha256": "3361fe8dbeaa52d8e99575abadf058aec871f76adda4c80c489613143a61d20b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/foundry-hosted-agent-copilotkit/references/wiring.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "998f94ea464b414228dfcc080414b48698af029331993ee36baa19ba23542dbc"
+}

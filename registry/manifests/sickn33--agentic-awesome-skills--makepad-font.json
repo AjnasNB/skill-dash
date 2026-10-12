@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--makepad-font","name":"makepad-font","description":"CRITICAL: Use for Makepad font and text rendering. Triggers on: makepad font, makepad text, makepad glyph, makepad typography, font atlas, text layout, font family, font size, text shaping, makepad 字体, makepad 文字, makepad 排版, makepad 字形","category":"Design","tags":["makepad","font","critical","text","rendering.","triggers","glyph","typography","atlas","layout","family","size","shaping","字体","文字","排版","字形"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/makepad-font","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/makepad-font","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7390,"sha256":"5a2e81e54b6dc82c82b0f446a494b5159fe5cae947deb245d29aa707366fc79f","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/makepad-font/SKILL.md","bytes":6317,"sha256":"5a2e81e54b6dc82c82b0f446a494b5159fe5cae947deb245d29aa707366fc79f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/makepad-font/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"1701a872ce10e2683a63ffd2ec701e19834b2e30cc01c1ce7698026434bb9c08"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--makepad-font",
+    "name": "makepad-font",
+    "description": "CRITICAL: Use for Makepad font and text rendering. Triggers on: makepad font, makepad text, makepad glyph, makepad typography, font atlas, text layout, font family, font size, text shaping, makepad 字体, makepad 文字, makepad 排版, makepad 字形",
+    "category": "Design",
+    "tags": [
+      "makepad",
+      "font",
+      "critical",
+      "text",
+      "rendering.",
+      "triggers",
+      "glyph",
+      "typography",
+      "atlas",
+      "layout",
+      "family",
+      "size",
+      "shaping",
+      "字体",
+      "文字",
+      "排版",
+      "字形"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/makepad-font",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/makepad-font",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7390,
+    "sha256": "5a2e81e54b6dc82c82b0f446a494b5159fe5cae947deb245d29aa707366fc79f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/makepad-font/SKILL.md",
+      "bytes": 6317,
+      "sha256": "5a2e81e54b6dc82c82b0f446a494b5159fe5cae947deb245d29aa707366fc79f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/makepad-font/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "1701a872ce10e2683a63ffd2ec701e19834b2e30cc01c1ce7698026434bb9c08"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--linktree-link-hub","name":"linktree-link-hub","description":"Link-in-bio register: label, destination URL, link type, priority order, audience, click tracking, UTM source, schedule, click count and status. Use for link hub tracking.","category":"Development","tags":["linktree","link","hub","bio","register","label","destination","url","type","priority","order","audience","click","tracking","utm","source","schedule","count"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/linktree-link-hub","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/linktree-link-hub","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":23580,"sha256":"1c40e4024f1e4b0571285ad2374407674b20bf8ddedb64d5d006ff727a01cf09","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/linktree-link-hub/SKILL.md","bytes":22507,"sha256":"1c40e4024f1e4b0571285ad2374407674b20bf8ddedb64d5d006ff727a01cf09","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/linktree-link-hub/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"4ae5e8940ea474adb802edb503f060ec1800d05df002eb358a31589009494402"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--linktree-link-hub",
+    "name": "linktree-link-hub",
+    "description": "Link-in-bio register: label, destination URL, link type, priority order, audience, click tracking, UTM source, schedule, click count and status. Use for link hub tracking.",
+    "category": "Development",
+    "tags": [
+      "linktree",
+      "link",
+      "hub",
+      "bio",
+      "register",
+      "label",
+      "destination",
+      "url",
+      "type",
+      "priority",
+      "order",
+      "audience",
+      "click",
+      "tracking",
+      "utm",
+      "source",
+      "schedule",
+      "count"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/linktree-link-hub",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/linktree-link-hub",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 23580,
+    "sha256": "1c40e4024f1e4b0571285ad2374407674b20bf8ddedb64d5d006ff727a01cf09",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/linktree-link-hub/SKILL.md",
+      "bytes": 22507,
+      "sha256": "1c40e4024f1e4b0571285ad2374407674b20bf8ddedb64d5d006ff727a01cf09",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/linktree-link-hub/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "4ae5e8940ea474adb802edb503f060ec1800d05df002eb358a31589009494402"
+}

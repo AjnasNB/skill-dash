@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--business-website-setup","name":"business-website-setup","description":"Website page register: URL, title, meta description, search intent, NAP block, schema type, canonical, indexability and Core Web Vitals target. Use for site builds and SEO reviews.","category":"Marketing","tags":["business","website","setup","page","register","url","title","meta","description","search","intent","nap","block","schema","type","canonical","indexability","core"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/business-website-setup","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/business-website-setup","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":28026,"sha256":"2290410f31279947397135639925735e551549cac548d3b290acf1197ce8f5bf","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/business-website-setup/SKILL.md","bytes":25016,"sha256":"2290410f31279947397135639925735e551549cac548d3b290acf1197ce8f5bf","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/business-website-setup/SKILL.md"},{"path":"references/common-pitfalls.md","sourcePath":"skills/business-website-setup/references/common-pitfalls.md","bytes":1937,"sha256":"a45e5e6408fa2418e42612c2bec94923b7aa4a27e5d88c0c1099a86fe310197c","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/business-website-setup/references/common-pitfalls.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"9da7914a025c7348a8e3dc553c3b814623c5acf68e062a75fca4319f80830de1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--business-website-setup",
+    "name": "business-website-setup",
+    "description": "Website page register: URL, title, meta description, search intent, NAP block, schema type, canonical, indexability and Core Web Vitals target. Use for site builds and SEO reviews.",
+    "category": "Marketing",
+    "tags": [
+      "business",
+      "website",
+      "setup",
+      "page",
+      "register",
+      "url",
+      "title",
+      "meta",
+      "description",
+      "search",
+      "intent",
+      "nap",
+      "block",
+      "schema",
+      "type",
+      "canonical",
+      "indexability",
+      "core"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/business-website-setup",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/business-website-setup",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 28026,
+    "sha256": "2290410f31279947397135639925735e551549cac548d3b290acf1197ce8f5bf",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/business-website-setup/SKILL.md",
+      "bytes": 25016,
+      "sha256": "2290410f31279947397135639925735e551549cac548d3b290acf1197ce8f5bf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/business-website-setup/SKILL.md"
+    },
+    {
+      "path": "references/common-pitfalls.md",
+      "sourcePath": "skills/business-website-setup/references/common-pitfalls.md",
+      "bytes": 1937,
+      "sha256": "a45e5e6408fa2418e42612c2bec94923b7aa4a27e5d88c0c1099a86fe310197c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/business-website-setup/references/common-pitfalls.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "9da7914a025c7348a8e3dc553c3b814623c5acf68e062a75fca4319f80830de1"
+}

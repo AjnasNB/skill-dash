@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--monte-carlo-storage-cost-analysis","name":"monte-carlo-storage-cost-analysis","description":"Analyze a warehouse for stale, unused, or redundant tables via the analyze_storage_costs MCP tool. Classifies waste patterns and table categories, computes safety tiers, and handles category drill-downs and lineage follow-ups.","category":"AI & agents","tags":["monte","carlo","storage","cost","analysis","analyze","warehouse","stale","unused","redundant","tables","via","costs","mcp","tool.","classifies","waste","patterns"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/monte-carlo-storage-cost-analysis","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/monte-carlo-storage-cost-analysis","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":10172,"sha256":"60d7ca1e552ec2947e10488ac6ae495e579511e2d58d70b787d19857f8561df6","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/monte-carlo-storage-cost-analysis/SKILL.md","bytes":9099,"sha256":"60d7ca1e552ec2947e10488ac6ae495e579511e2d58d70b787d19857f8561df6","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/monte-carlo-storage-cost-analysis/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"7a65aa8fe791c0686b5373829e28118c73681b60b213feb05d1f8a09a4977e5d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--monte-carlo-storage-cost-analysis",
+    "name": "monte-carlo-storage-cost-analysis",
+    "description": "Analyze a warehouse for stale, unused, or redundant tables via the analyze_storage_costs MCP tool. Classifies waste patterns and table categories, computes safety tiers, and handles category drill-downs and lineage follow-ups.",
+    "category": "AI & agents",
+    "tags": [
+      "monte",
+      "carlo",
+      "storage",
+      "cost",
+      "analysis",
+      "analyze",
+      "warehouse",
+      "stale",
+      "unused",
+      "redundant",
+      "tables",
+      "via",
+      "costs",
+      "mcp",
+      "tool.",
+      "classifies",
+      "waste",
+      "patterns"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/monte-carlo-storage-cost-analysis",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/monte-carlo-storage-cost-analysis",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10172,
+    "sha256": "60d7ca1e552ec2947e10488ac6ae495e579511e2d58d70b787d19857f8561df6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/monte-carlo-storage-cost-analysis/SKILL.md",
+      "bytes": 9099,
+      "sha256": "60d7ca1e552ec2947e10488ac6ae495e579511e2d58d70b787d19857f8561df6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/monte-carlo-storage-cost-analysis/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "7a65aa8fe791c0686b5373829e28118c73681b60b213feb05d1f8a09a4977e5d"
+}

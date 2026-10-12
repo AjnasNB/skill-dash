@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--disciplinary-pip-tracker","name":"disciplinary-pip-tracker","description":"Disciplinary and performance-improvement case register: case type, linked review or issue, improvement goals, review dates, outcome and confidentiality. Use for PIP tracking.","category":"Development","tags":["disciplinary","pip","tracker","performance","improvement","case","register","type","linked","review","issue","goals","dates","outcome","confidentiality.","tracking."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/disciplinary-pip-tracker","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/disciplinary-pip-tracker","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":16483,"sha256":"629f57182ad1a831601f0e5d4a014138ccfab9af60857e47c4aac6851b43e16c","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/disciplinary-pip-tracker/SKILL.md","bytes":15410,"sha256":"629f57182ad1a831601f0e5d4a014138ccfab9af60857e47c4aac6851b43e16c","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/disciplinary-pip-tracker/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"144ef14bf9aef9d718928efbda7d8b57f81242147faf3d1372c4f329d31949cb"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--disciplinary-pip-tracker",
+    "name": "disciplinary-pip-tracker",
+    "description": "Disciplinary and performance-improvement case register: case type, linked review or issue, improvement goals, review dates, outcome and confidentiality. Use for PIP tracking.",
+    "category": "Development",
+    "tags": [
+      "disciplinary",
+      "pip",
+      "tracker",
+      "performance",
+      "improvement",
+      "case",
+      "register",
+      "type",
+      "linked",
+      "review",
+      "issue",
+      "goals",
+      "dates",
+      "outcome",
+      "confidentiality.",
+      "tracking."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/disciplinary-pip-tracker",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/disciplinary-pip-tracker",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 16483,
+    "sha256": "629f57182ad1a831601f0e5d4a014138ccfab9af60857e47c4aac6851b43e16c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/disciplinary-pip-tracker/SKILL.md",
+      "bytes": 15410,
+      "sha256": "629f57182ad1a831601f0e5d4a014138ccfab9af60857e47c4aac6851b43e16c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/disciplinary-pip-tracker/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "144ef14bf9aef9d718928efbda7d8b57f81242147faf3d1372c4f329d31949cb"
+}

@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-data-loss-prevention-with-microsoft-purview","name":"implementing-data-loss-prevention-with-microsoft-purview","description":"Implements DLP policies using Microsoft Purview PowerShell cmdlets and the Graph API to protect data across Exchange Online, SharePoint, OneDrive, Teams, endpoints, and Power BI, including sensitivity labels, custom sensitive information types with regex, endpoint DLP rules, and Activity Explorer monitoring. Use when stopping PII/PHI/PCI exfiltration, configuring sensitivity labels, or investigating DLP incidents for policy tuning.","category":"Development","tags":["implementing","data","loss","prevention","microsoft","purview","implements","dlp","policies","powershell","cmdlets","graph","api","protect","across","exchange","online","sharepoint"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-data-loss-prevention-with-microsoft-purview/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-data-loss-prevention-with-microsoft-purview","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-data-loss-prevention-with-microsoft-purview","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":62873,"sha256":"015f72413a5978954978e8eb1d8a12fbc89a8736aecc1a7c04a10fa650f44e41","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-data-loss-prevention-with-microsoft-purview/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-data-loss-prevention-with-microsoft-purview/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-data-loss-prevention-with-microsoft-purview/SKILL.md","bytes":31423,"sha256":"015f72413a5978954978e8eb1d8a12fbc89a8736aecc1a7c04a10fa650f44e41","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-data-loss-prevention-with-microsoft-purview/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-data-loss-prevention-with-microsoft-purview/references/api-reference.md","bytes":5368,"sha256":"052389e0b8c2d1d5473e6e2b2a005cba09a886e2cfa71a51882c2cdd0fc71321","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-data-loss-prevention-with-microsoft-purview/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-data-loss-prevention-with-microsoft-purview/scripts/agent.py","bytes":14827,"sha256":"aec9d7205073a59cea675bd846f0b5fbf9cb721ee0369d5f2506ace91d7a37fc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-data-loss-prevention-with-microsoft-purview/scripts/agent.py"}],"archiveSha256":"ff0bb61f6a94ac8271e25fcb344e62a6a4d2f456bf71f8626629feba0a92c4c6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-data-loss-prevention-with-microsoft-purview",
+    "name": "implementing-data-loss-prevention-with-microsoft-purview",
+    "description": "Implements DLP policies using Microsoft Purview PowerShell cmdlets and the Graph API to protect data across Exchange Online, SharePoint, OneDrive, Teams, endpoints, and Power BI, including sensitivity labels, custom sensitive information types with regex, endpoint DLP rules, and Activity Explorer monitoring. Use when stopping PII/PHI/PCI exfiltration, configuring sensitivity labels, or investigating DLP incidents for policy tuning.",
+    "category": "Development",
+    "tags": [
+      "implementing",
+      "data",
+      "loss",
+      "prevention",
+      "microsoft",
+      "purview",
+      "implements",
+      "dlp",
+      "policies",
+      "powershell",
+      "cmdlets",
+      "graph",
+      "api",
+      "protect",
+      "across",
+      "exchange",
+      "online",
+      "sharepoint"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-data-loss-prevention-with-microsoft-purview/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-data-loss-prevention-with-microsoft-purview",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-data-loss-prevention-with-microsoft-purview",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 62873,
+    "sha256": "015f72413a5978954978e8eb1d8a12fbc89a8736aecc1a7c04a10fa650f44e41",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-data-loss-prevention-with-microsoft-purview/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-data-loss-prevention-with-microsoft-purview/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-data-loss-prevention-with-microsoft-purview/SKILL.md",
+      "bytes": 31423,
+      "sha256": "015f72413a5978954978e8eb1d8a12fbc89a8736aecc1a7c04a10fa650f44e41",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-data-loss-prevention-with-microsoft-purview/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-data-loss-prevention-with-microsoft-purview/references/api-reference.md",
+      "bytes": 5368,
+      "sha256": "052389e0b8c2d1d5473e6e2b2a005cba09a886e2cfa71a51882c2cdd0fc71321",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-data-loss-prevention-with-microsoft-purview/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-data-loss-prevention-with-microsoft-purview/scripts/agent.py",
+      "bytes": 14827,
+      "sha256": "aec9d7205073a59cea675bd846f0b5fbf9cb721ee0369d5f2506ace91d7a37fc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-data-loss-prevention-with-microsoft-purview/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "ff0bb61f6a94ac8271e25fcb344e62a6a4d2f456bf71f8626629feba0a92c4c6"
+}

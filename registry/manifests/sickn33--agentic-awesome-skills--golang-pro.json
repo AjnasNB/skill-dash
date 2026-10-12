@@ -1,1 +1,60 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--golang-pro","name":"golang-pro","description":"Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices.","category":"Development","tags":["golang","pro","master","go","1.21+","modern","patterns","advanced","concurrency","performance","optimization","production","ready","microservices."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/golang-pro","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/golang-pro","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":8814,"sha256":"a1c6e19e3a9266c88ead5a13314481c90e4efec8873b5900a7fb0638feaf65fd","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/golang-pro/SKILL.md","bytes":7741,"sha256":"a1c6e19e3a9266c88ead5a13314481c90e4efec8873b5900a7fb0638feaf65fd","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/golang-pro/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"a1b93378a73ac76d6e465a744cb9c6a145716c0fc5ebf2cb4f7b3c2237a5e769"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--golang-pro",
+    "name": "golang-pro",
+    "description": "Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices.",
+    "category": "Development",
+    "tags": [
+      "golang",
+      "pro",
+      "master",
+      "go",
+      "1.21+",
+      "modern",
+      "patterns",
+      "advanced",
+      "concurrency",
+      "performance",
+      "optimization",
+      "production",
+      "ready",
+      "microservices."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/golang-pro",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/golang-pro",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 8814,
+    "sha256": "a1c6e19e3a9266c88ead5a13314481c90e4efec8873b5900a7fb0638feaf65fd",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/golang-pro/SKILL.md",
+      "bytes": 7741,
+      "sha256": "a1c6e19e3a9266c88ead5a13314481c90e4efec8873b5900a7fb0638feaf65fd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/golang-pro/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "a1b93378a73ac76d6e465a744cb9c6a145716c0fc5ebf2cb4f7b3c2237a5e769"
+}

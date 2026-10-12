@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"phuryn--pm-skills--brainstorm-experiments-new","name":"brainstorm-experiments-new","description":"Design lean startup experiments (pretotypes) for a new product. Creates XYZ hypotheses and suggests low-effort validation methods like landing pages, explainer videos, and pre-orders. Use when validating a new product idea, creating pretotypes, or testing market demand.","category":"Design","tags":["brainstorm","experiments","new","design","lean","startup","pretotypes","product.","creates","xyz","hypotheses","suggests","low","effort","validation","methods","like","landing"],"repo":"phuryn/pm-skills","owner":"phuryn","stars":26912,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"c68487d721e419ec87af1ae6412a842978eab785","path":"pm-product-discovery/skills/brainstorm-experiments-new","sourceUrl":"https://github.com/phuryn/pm-skills/tree/c68487d721e419ec87af1ae6412a842978eab785/pm-product-discovery/skills/brainstorm-experiments-new","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-10T10:56:23Z","fileCount":2,"bytes":3606,"sha256":"fe66d9ba76cf6b0e156298c88f752d8e1e62549fe77a7c01c0a74d8679da9334","historical":false},"files":[{"path":"SKILL.md","sourcePath":"pm-product-discovery/skills/brainstorm-experiments-new/SKILL.md","bytes":2538,"sha256":"fe66d9ba76cf6b0e156298c88f752d8e1e62549fe77a7c01c0a74d8679da9334","mode":420,"url":"https://raw.githubusercontent.com/phuryn/pm-skills/c68487d721e419ec87af1ae6412a842978eab785/pm-product-discovery/skills/brainstorm-experiments-new/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1068,"sha256":"a2c922f9b81b4f40347ddfa79c38eda0f1278b5a6d108bd4099b4da254c774ee","mode":420,"url":"https://raw.githubusercontent.com/phuryn/pm-skills/c68487d721e419ec87af1ae6412a842978eab785/LICENSE"}],"archiveSha256":"ec1b352f01c02eaf99272d6c4c293eed977386a036d9f02da11e3ec1da07be27"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "phuryn--pm-skills--brainstorm-experiments-new",
+    "name": "brainstorm-experiments-new",
+    "description": "Design lean startup experiments (pretotypes) for a new product. Creates XYZ hypotheses and suggests low-effort validation methods like landing pages, explainer videos, and pre-orders. Use when validating a new product idea, creating pretotypes, or testing market demand.",
+    "category": "Design",
+    "tags": [
+      "brainstorm",
+      "experiments",
+      "new",
+      "design",
+      "lean",
+      "startup",
+      "pretotypes",
+      "product.",
+      "creates",
+      "xyz",
+      "hypotheses",
+      "suggests",
+      "low",
+      "effort",
+      "validation",
+      "methods",
+      "like",
+      "landing"
+    ],
+    "repo": "phuryn/pm-skills",
+    "owner": "phuryn",
+    "stars": 26912,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "c68487d721e419ec87af1ae6412a842978eab785",
+    "path": "pm-product-discovery/skills/brainstorm-experiments-new",
+    "sourceUrl": "https://github.com/phuryn/pm-skills/tree/c68487d721e419ec87af1ae6412a842978eab785/pm-product-discovery/skills/brainstorm-experiments-new",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-10T10:56:23Z",
+    "fileCount": 2,
+    "bytes": 3606,
+    "sha256": "fe66d9ba76cf6b0e156298c88f752d8e1e62549fe77a7c01c0a74d8679da9334",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "pm-product-discovery/skills/brainstorm-experiments-new/SKILL.md",
+      "bytes": 2538,
+      "sha256": "fe66d9ba76cf6b0e156298c88f752d8e1e62549fe77a7c01c0a74d8679da9334",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/phuryn/pm-skills/c68487d721e419ec87af1ae6412a842978eab785/pm-product-discovery/skills/brainstorm-experiments-new/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1068,
+      "sha256": "a2c922f9b81b4f40347ddfa79c38eda0f1278b5a6d108bd4099b4da254c774ee",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/phuryn/pm-skills/c68487d721e419ec87af1ae6412a842978eab785/LICENSE"
+    }
+  ],
+  "archiveSha256": "ec1b352f01c02eaf99272d6c4c293eed977386a036d9f02da11e3ec1da07be27"
+}

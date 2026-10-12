@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--deepseek-harness-setup","name":"deepseek-harness-setup","description":"Install and operate Everything Claude Code (ECC) on the DeepSeek Harness (DSH): native skill roots (~/.dsh/skills, .agents/skills), the @deepseek-ai/dsh-hooks-claude-code bridge for command hooks, bare-insert patch mounting, generator usage, event-support limits, and update workflow. Use when setting up ECC on DeepSeek Harness, wiring ECC hooks into a DSH profile, or debugging why ECC skills or hooks do not appear in a DSH session.","category":"AI & agents","tags":["deepseek","harness","setup","install","operate","everything","claude","code","ecc","dsh","native","skill","roots",".dsh","skills",".agents","ai","hooks"],"repo":"affaan-m/ECC","owner":"affaan-m","stars":277532,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"b92f181b3b748d1abbc2afd94af6aa7d8c8fca29","path":"skills/deepseek-harness-setup","sourceUrl":"https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/deepseek-harness-setup","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T02:02:10Z","fileCount":2,"bytes":4788,"sha256":"63431ebd83dbcf712031cf22efccc55179ecff6352aca34213121bd7a5685180","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/deepseek-harness-setup/SKILL.md","bytes":3717,"sha256":"63431ebd83dbcf712031cf22efccc55179ecff6352aca34213121bd7a5685180","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/deepseek-harness-setup/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"}],"archiveSha256":"0d9519415aa40b44765f6700e6bb5889d61cf6b987d260c169431ec1af7ca5b8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--deepseek-harness-setup",
+    "name": "deepseek-harness-setup",
+    "description": "Install and operate Everything Claude Code (ECC) on the DeepSeek Harness (DSH): native skill roots (~/.dsh/skills, .agents/skills), the @deepseek-ai/dsh-hooks-claude-code bridge for command hooks, bare-insert patch mounting, generator usage, event-support limits, and update workflow. Use when setting up ECC on DeepSeek Harness, wiring ECC hooks into a DSH profile, or debugging why ECC skills or hooks do not appear in a DSH session.",
+    "category": "AI & agents",
+    "tags": [
+      "deepseek",
+      "harness",
+      "setup",
+      "install",
+      "operate",
+      "everything",
+      "claude",
+      "code",
+      "ecc",
+      "dsh",
+      "native",
+      "skill",
+      "roots",
+      ".dsh",
+      "skills",
+      ".agents",
+      "ai",
+      "hooks"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/deepseek-harness-setup",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/deepseek-harness-setup",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 2,
+    "bytes": 4788,
+    "sha256": "63431ebd83dbcf712031cf22efccc55179ecff6352aca34213121bd7a5685180",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/deepseek-harness-setup/SKILL.md",
+      "bytes": 3717,
+      "sha256": "63431ebd83dbcf712031cf22efccc55179ecff6352aca34213121bd7a5685180",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/deepseek-harness-setup/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "0d9519415aa40b44765f6700e6bb5889d61cf6b987d260c169431ec1af7ca5b8"
+}

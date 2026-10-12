@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--organization-design","name":"organization-design","description":"Org structure register: department, type, parent, head, location, approved against actual headcount, annual budget, cost centre code and establishment date. Use for org design.","category":"Design","tags":["organization","design","org","structure","register","department","type","parent","head","location","approved","against","actual","headcount","annual","budget","cost","centre"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/organization-design","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/organization-design","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":15287,"sha256":"3186d4df123dd5bd81013cb8ebc837dc0b30a89061394b988668181690048e4a","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/organization-design/SKILL.md","bytes":14214,"sha256":"3186d4df123dd5bd81013cb8ebc837dc0b30a89061394b988668181690048e4a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/organization-design/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"aa115978ac8682c56bcd18d505c8564026c119e790814cc2c386f352c847b21c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--organization-design",
+    "name": "organization-design",
+    "description": "Org structure register: department, type, parent, head, location, approved against actual headcount, annual budget, cost centre code and establishment date. Use for org design.",
+    "category": "Design",
+    "tags": [
+      "organization",
+      "design",
+      "org",
+      "structure",
+      "register",
+      "department",
+      "type",
+      "parent",
+      "head",
+      "location",
+      "approved",
+      "against",
+      "actual",
+      "headcount",
+      "annual",
+      "budget",
+      "cost",
+      "centre"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/organization-design",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/organization-design",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 15287,
+    "sha256": "3186d4df123dd5bd81013cb8ebc837dc0b30a89061394b988668181690048e4a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/organization-design/SKILL.md",
+      "bytes": 14214,
+      "sha256": "3186d4df123dd5bd81013cb8ebc837dc0b30a89061394b988668181690048e4a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/organization-design/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "aa115978ac8682c56bcd18d505c8564026c119e790814cc2c386f352c847b21c"
+}

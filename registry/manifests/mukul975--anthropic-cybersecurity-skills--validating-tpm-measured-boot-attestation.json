@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--validating-tpm-measured-boot-attestation","name":"validating-tpm-measured-boot-attestation","description":"Verifies TPM 2.0 measured-boot integrity and remote attestation with tpm2-tools -- reading PCRs (tpm2_pcrread), replaying the boot event log, generating and checking signed quotes (tpm2_quote/tpm2_checkquote), and sealing secrets to a PCR policy. Use to confirm a system booted trusted firmware/kernel for Zero Trust device posture, detect boot-chain tampering via PCR drift, or build a golden-value baseline for fleet attestation.","category":"Security","tags":["validating","tpm","measured","boot","attestation","verifies","2.0","integrity","remote","tpm2","tools","reading","pcrs","pcrread","replaying","event","log","generating"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/validating-tpm-measured-boot-attestation/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/validating-tpm-measured-boot-attestation","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/validating-tpm-measured-boot-attestation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":5,"bytes":31589,"sha256":"844d5b952f41e382a5fc474976235da93cb5826c132a0085c8231c05b8c14b05","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/validating-tpm-measured-boot-attestation/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/validating-tpm-measured-boot-attestation/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/validating-tpm-measured-boot-attestation/SKILL.md","bytes":9806,"sha256":"844d5b952f41e382a5fc474976235da93cb5826c132a0085c8231c05b8c14b05","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/validating-tpm-measured-boot-attestation/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/validating-tpm-measured-boot-attestation/references/api-reference.md","bytes":2594,"sha256":"c9e43aa0aae0a8a34064da579d383a1486e9c3b9195f589985c711514a0509a4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/validating-tpm-measured-boot-attestation/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/validating-tpm-measured-boot-attestation/references/standards.md","bytes":1537,"sha256":"db1946dcbe2c6bdbb83ee6cdc01f40715d387f8d2ca79942e3f6932a025652ee","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/validating-tpm-measured-boot-attestation/references/standards.md"},{"path":"scripts/agent.py","sourcePath":"skills/validating-tpm-measured-boot-attestation/scripts/agent.py","bytes":6397,"sha256":"2c3971a9ed57e76f0861a2752f7f58c903010131429a8682643a6a5df2c4f849","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/validating-tpm-measured-boot-attestation/scripts/agent.py"}],"archiveSha256":"445010e73cd25e2424982b1cda59ffa4c8efdd216505e08d5e53f7e504e40187"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--validating-tpm-measured-boot-attestation",
+    "name": "validating-tpm-measured-boot-attestation",
+    "description": "Verifies TPM 2.0 measured-boot integrity and remote attestation with tpm2-tools -- reading PCRs (tpm2_pcrread), replaying the boot event log, generating and checking signed quotes (tpm2_quote/tpm2_checkquote), and sealing secrets to a PCR policy. Use to confirm a system booted trusted firmware/kernel for Zero Trust device posture, detect boot-chain tampering via PCR drift, or build a golden-value baseline for fleet attestation.",
+    "category": "Security",
+    "tags": [
+      "validating",
+      "tpm",
+      "measured",
+      "boot",
+      "attestation",
+      "verifies",
+      "2.0",
+      "integrity",
+      "remote",
+      "tpm2",
+      "tools",
+      "reading",
+      "pcrs",
+      "pcrread",
+      "replaying",
+      "event",
+      "log",
+      "generating"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/validating-tpm-measured-boot-attestation/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/validating-tpm-measured-boot-attestation",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/validating-tpm-measured-boot-attestation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 31589,
+    "sha256": "844d5b952f41e382a5fc474976235da93cb5826c132a0085c8231c05b8c14b05",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/validating-tpm-measured-boot-attestation/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/validating-tpm-measured-boot-attestation/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/validating-tpm-measured-boot-attestation/SKILL.md",
+      "bytes": 9806,
+      "sha256": "844d5b952f41e382a5fc474976235da93cb5826c132a0085c8231c05b8c14b05",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/validating-tpm-measured-boot-attestation/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/validating-tpm-measured-boot-attestation/references/api-reference.md",
+      "bytes": 2594,
+      "sha256": "c9e43aa0aae0a8a34064da579d383a1486e9c3b9195f589985c711514a0509a4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/validating-tpm-measured-boot-attestation/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/validating-tpm-measured-boot-attestation/references/standards.md",
+      "bytes": 1537,
+      "sha256": "db1946dcbe2c6bdbb83ee6cdc01f40715d387f8d2ca79942e3f6932a025652ee",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/validating-tpm-measured-boot-attestation/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/validating-tpm-measured-boot-attestation/scripts/agent.py",
+      "bytes": 6397,
+      "sha256": "2c3971a9ed57e76f0861a2752f7f58c903010131429a8682643a6a5df2c4f849",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/validating-tpm-measured-boot-attestation/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "445010e73cd25e2424982b1cda59ffa4c8efdd216505e08d5e53f7e504e40187"
+}

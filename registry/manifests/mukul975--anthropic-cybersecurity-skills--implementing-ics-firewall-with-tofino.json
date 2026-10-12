@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-ics-firewall-with-tofino","name":"implementing-ics-firewall-with-tofino","description":"Deploys and configures Tofino industrial firewalls (Belden/Hirschmann) to protect SCADA systems and PLCs, using deep packet inspection of OT protocols (Modbus, EtherNet/IP, OPC, S7comm) to enforce access control between ICS zones. Use when deploying zone-level firewall protection in front of PLCs/RTUs, enforcing IEC 62443 zone/conduit boundaries, or adding compensating controls for unpatchable legacy PLCs.","category":"Cloud & DevOps","tags":["implementing","ics","firewall","tofino","deploys","configures","industrial","firewalls","belden","hirschmann","protect","scada","systems","plcs","deep","packet","inspection","ot"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-ics-firewall-with-tofino/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-ics-firewall-with-tofino","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ics-firewall-with-tofino","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":33272,"sha256":"42a1f77ed91aa3dfe34058aa7ed04cbdbcac6f6755f13a8e7ee5cb38abd22f63","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-ics-firewall-with-tofino/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ics-firewall-with-tofino/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-ics-firewall-with-tofino/SKILL.md","bytes":12246,"sha256":"42a1f77ed91aa3dfe34058aa7ed04cbdbcac6f6755f13a8e7ee5cb38abd22f63","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ics-firewall-with-tofino/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-ics-firewall-with-tofino/references/api-reference.md","bytes":1565,"sha256":"99d5aef3b3126821024fcf8b5b99a6ae0c105b87250f91ee3db26bce17cbbc97","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ics-firewall-with-tofino/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-ics-firewall-with-tofino/scripts/agent.py","bytes":8206,"sha256":"a726ed9c7b2d3fa9724c42b934a92cb21ce5c22fb03d3fdae018d78f1a5736c2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ics-firewall-with-tofino/scripts/agent.py"}],"archiveSha256":"12806f7de08741ab8cf5b494b8da46943c2b1698c884e82122cdec0f1d3b31e1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-ics-firewall-with-tofino",
+    "name": "implementing-ics-firewall-with-tofino",
+    "description": "Deploys and configures Tofino industrial firewalls (Belden/Hirschmann) to protect SCADA systems and PLCs, using deep packet inspection of OT protocols (Modbus, EtherNet/IP, OPC, S7comm) to enforce access control between ICS zones. Use when deploying zone-level firewall protection in front of PLCs/RTUs, enforcing IEC 62443 zone/conduit boundaries, or adding compensating controls for unpatchable legacy PLCs.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "implementing",
+      "ics",
+      "firewall",
+      "tofino",
+      "deploys",
+      "configures",
+      "industrial",
+      "firewalls",
+      "belden",
+      "hirschmann",
+      "protect",
+      "scada",
+      "systems",
+      "plcs",
+      "deep",
+      "packet",
+      "inspection",
+      "ot"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-ics-firewall-with-tofino/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-ics-firewall-with-tofino",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ics-firewall-with-tofino",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 33272,
+    "sha256": "42a1f77ed91aa3dfe34058aa7ed04cbdbcac6f6755f13a8e7ee5cb38abd22f63",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-ics-firewall-with-tofino/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ics-firewall-with-tofino/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-ics-firewall-with-tofino/SKILL.md",
+      "bytes": 12246,
+      "sha256": "42a1f77ed91aa3dfe34058aa7ed04cbdbcac6f6755f13a8e7ee5cb38abd22f63",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ics-firewall-with-tofino/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-ics-firewall-with-tofino/references/api-reference.md",
+      "bytes": 1565,
+      "sha256": "99d5aef3b3126821024fcf8b5b99a6ae0c105b87250f91ee3db26bce17cbbc97",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ics-firewall-with-tofino/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-ics-firewall-with-tofino/scripts/agent.py",
+      "bytes": 8206,
+      "sha256": "a726ed9c7b2d3fa9724c42b934a92cb21ce5c22fb03d3fdae018d78f1a5736c2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ics-firewall-with-tofino/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "12806f7de08741ab8cf5b494b8da46943c2b1698c884e82122cdec0f1d3b31e1"
+}

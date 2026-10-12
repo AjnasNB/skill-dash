@@ -1,1 +1,58 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--bug-bounty","name":"bug-bounty","description":"Complete bug bounty workflow","category":"Automation","tags":["bug","bounty","complete","workflow"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/bug-bounty","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/bug-bounty","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":83719,"sha256":"2987d6c8873abc4ccd2f88dd4433a5bf89baac847a9438ea34ba7a0415614118","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/bug-bounty/SKILL.md","bytes":19857,"sha256":"2987d6c8873abc4ccd2f88dd4433a5bf89baac847a9438ea34ba7a0415614118","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/bug-bounty/SKILL.md"},{"path":"references/details.md","sourcePath":"skills/bug-bounty/references/details.md","bytes":62789,"sha256":"012986f5c4a6e8193cff350bb1c0073d0377bed9e54baef3391ae6d295498a2e","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/bug-bounty/references/details.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"53da72d61620efa5e9432686f569694fdddd29401ac91d513afc8a9c47d7bdac"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--bug-bounty",
+    "name": "bug-bounty",
+    "description": "Complete bug bounty workflow",
+    "category": "Automation",
+    "tags": [
+      "bug",
+      "bounty",
+      "complete",
+      "workflow"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/bug-bounty",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/bug-bounty",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 83719,
+    "sha256": "2987d6c8873abc4ccd2f88dd4433a5bf89baac847a9438ea34ba7a0415614118",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/bug-bounty/SKILL.md",
+      "bytes": 19857,
+      "sha256": "2987d6c8873abc4ccd2f88dd4433a5bf89baac847a9438ea34ba7a0415614118",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/bug-bounty/SKILL.md"
+    },
+    {
+      "path": "references/details.md",
+      "sourcePath": "skills/bug-bounty/references/details.md",
+      "bytes": 62789,
+      "sha256": "012986f5c4a6e8193cff350bb1c0073d0377bed9e54baef3391ae6d295498a2e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/bug-bounty/references/details.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "53da72d61620efa5e9432686f569694fdddd29401ac91d513afc8a9c47d7bdac"
+}

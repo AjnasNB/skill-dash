@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--cloud-devops","name":"cloud-devops","description":"Cloud infrastructure and DevOps workflow covering AWS, Azure, GCP, Kubernetes, Terraform, CI/CD, monitoring, and cloud-native development.","category":"Cloud & DevOps","tags":["cloud","devops","infrastructure","workflow","covering","aws","azure","gcp","kubernetes","terraform","ci","cd","monitoring","native","development."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/cloud-devops","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cloud-devops","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6846,"sha256":"b4bb0e1f2d24a1f9ade3a6b4a518dd3f4c3806fd5416610f6363c6b38271eca9","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/cloud-devops/SKILL.md","bytes":5773,"sha256":"b4bb0e1f2d24a1f9ade3a6b4a518dd3f4c3806fd5416610f6363c6b38271eca9","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cloud-devops/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"409d0d33ce8013f4e0472e61fef0fe402e4c22f0f6dcf69be55878ebd323d762"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--cloud-devops",
+    "name": "cloud-devops",
+    "description": "Cloud infrastructure and DevOps workflow covering AWS, Azure, GCP, Kubernetes, Terraform, CI/CD, monitoring, and cloud-native development.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "cloud",
+      "devops",
+      "infrastructure",
+      "workflow",
+      "covering",
+      "aws",
+      "azure",
+      "gcp",
+      "kubernetes",
+      "terraform",
+      "ci",
+      "cd",
+      "monitoring",
+      "native",
+      "development."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/cloud-devops",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cloud-devops",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6846,
+    "sha256": "b4bb0e1f2d24a1f9ade3a6b4a518dd3f4c3806fd5416610f6363c6b38271eca9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/cloud-devops/SKILL.md",
+      "bytes": 5773,
+      "sha256": "b4bb0e1f2d24a1f9ade3a6b4a518dd3f4c3806fd5416610f6363c6b38271eca9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cloud-devops/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "409d0d33ce8013f4e0472e61fef0fe402e4c22f0f6dcf69be55878ebd323d762"
+}

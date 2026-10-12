@@ -1,1 +1,120 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--inventory-stock-reconciliation","name":"inventory-stock-reconciliation","description":"Stock reconciliation register: count date, item, warehouse, book vs physical quantity, variance quantity and value, variance reason, damage and expiry, adjustment and approval. Use for stock counts.","category":"Development","tags":["inventory","stock","reconciliation","register","count","date","item","warehouse","book","vs","physical","quantity","variance","value","reason","damage","expiry","adjustment"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/inventory-stock-reconciliation","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inventory-stock-reconciliation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":9,"bytes":35094,"sha256":"e8f2b57eb8df184fb0d4b3e374ea06d35c0bf599e147f07d7688bb0bb26998c7","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/inventory-stock-reconciliation/SKILL.md","bytes":25595,"sha256":"e8f2b57eb8df184fb0d4b3e374ea06d35c0bf599e147f07d7688bb0bb26998c7","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inventory-stock-reconciliation/SKILL.md"},{"path":"references/best-practices.md","sourcePath":"skills/inventory-stock-reconciliation/references/best-practices.md","bytes":1165,"sha256":"7c5cb7b2087731ade60c86d42f6fd9a077fc107edf745572097ad63b264959ac","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inventory-stock-reconciliation/references/best-practices.md"},{"path":"references/common-pitfalls.md","sourcePath":"skills/inventory-stock-reconciliation/references/common-pitfalls.md","bytes":2512,"sha256":"b857e0981526b5d03e0804b5f00a8a30ec225b4a21b76c32f81fe704c40694b6","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inventory-stock-reconciliation/references/common-pitfalls.md"},{"path":"references/related-skills.md","sourcePath":"skills/inventory-stock-reconciliation/references/related-skills.md","bytes":810,"sha256":"9d3d605ead2c213bd2fc1205b3c1b8dbf1b59514e44ee5a2825f6e488037dd28","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inventory-stock-reconciliation/references/related-skills.md"},{"path":"references/relations.md","sourcePath":"skills/inventory-stock-reconciliation/references/relations.md","bytes":357,"sha256":"81ecba820a854f0c6e8308658aee1fc1009c3569fa571eb4d0815c197788ee8a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inventory-stock-reconciliation/references/relations.md"},{"path":"references/reusable-prompt.md","sourcePath":"skills/inventory-stock-reconciliation/references/reusable-prompt.md","bytes":1507,"sha256":"1ebcccc5c94a812ebf1ea6e6512ffe1b7b7222b060c3f92b7bb4da839ba7d036","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inventory-stock-reconciliation/references/reusable-prompt.md"},{"path":"references/security-safety-notes.md","sourcePath":"skills/inventory-stock-reconciliation/references/security-safety-notes.md","bytes":1083,"sha256":"9e84d0d0bf17183258f4385057c73dc698d9a33ae5aff07a7c277e13b1de9b4a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inventory-stock-reconciliation/references/security-safety-notes.md"},{"path":"references/select-options.md","sourcePath":"skills/inventory-stock-reconciliation/references/select-options.md","bytes":992,"sha256":"d746c187ba245ae745a880b3803cb28be85bb3bd99c816521d98f1faaf0fdd77","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inventory-stock-reconciliation/references/select-options.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"4bd0672c1d607b75d5858e32e08e1f062e0f8445439d788a305f7b9acc1276da"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--inventory-stock-reconciliation",
+    "name": "inventory-stock-reconciliation",
+    "description": "Stock reconciliation register: count date, item, warehouse, book vs physical quantity, variance quantity and value, variance reason, damage and expiry, adjustment and approval. Use for stock counts.",
+    "category": "Development",
+    "tags": [
+      "inventory",
+      "stock",
+      "reconciliation",
+      "register",
+      "count",
+      "date",
+      "item",
+      "warehouse",
+      "book",
+      "vs",
+      "physical",
+      "quantity",
+      "variance",
+      "value",
+      "reason",
+      "damage",
+      "expiry",
+      "adjustment"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/inventory-stock-reconciliation",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inventory-stock-reconciliation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 9,
+    "bytes": 35094,
+    "sha256": "e8f2b57eb8df184fb0d4b3e374ea06d35c0bf599e147f07d7688bb0bb26998c7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/inventory-stock-reconciliation/SKILL.md",
+      "bytes": 25595,
+      "sha256": "e8f2b57eb8df184fb0d4b3e374ea06d35c0bf599e147f07d7688bb0bb26998c7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inventory-stock-reconciliation/SKILL.md"
+    },
+    {
+      "path": "references/best-practices.md",
+      "sourcePath": "skills/inventory-stock-reconciliation/references/best-practices.md",
+      "bytes": 1165,
+      "sha256": "7c5cb7b2087731ade60c86d42f6fd9a077fc107edf745572097ad63b264959ac",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inventory-stock-reconciliation/references/best-practices.md"
+    },
+    {
+      "path": "references/common-pitfalls.md",
+      "sourcePath": "skills/inventory-stock-reconciliation/references/common-pitfalls.md",
+      "bytes": 2512,
+      "sha256": "b857e0981526b5d03e0804b5f00a8a30ec225b4a21b76c32f81fe704c40694b6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inventory-stock-reconciliation/references/common-pitfalls.md"
+    },
+    {
+      "path": "references/related-skills.md",
+      "sourcePath": "skills/inventory-stock-reconciliation/references/related-skills.md",
+      "bytes": 810,
+      "sha256": "9d3d605ead2c213bd2fc1205b3c1b8dbf1b59514e44ee5a2825f6e488037dd28",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inventory-stock-reconciliation/references/related-skills.md"
+    },
+    {
+      "path": "references/relations.md",
+      "sourcePath": "skills/inventory-stock-reconciliation/references/relations.md",
+      "bytes": 357,
+      "sha256": "81ecba820a854f0c6e8308658aee1fc1009c3569fa571eb4d0815c197788ee8a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inventory-stock-reconciliation/references/relations.md"
+    },
+    {
+      "path": "references/reusable-prompt.md",
+      "sourcePath": "skills/inventory-stock-reconciliation/references/reusable-prompt.md",
+      "bytes": 1507,
+      "sha256": "1ebcccc5c94a812ebf1ea6e6512ffe1b7b7222b060c3f92b7bb4da839ba7d036",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inventory-stock-reconciliation/references/reusable-prompt.md"
+    },
+    {
+      "path": "references/security-safety-notes.md",
+      "sourcePath": "skills/inventory-stock-reconciliation/references/security-safety-notes.md",
+      "bytes": 1083,
+      "sha256": "9e84d0d0bf17183258f4385057c73dc698d9a33ae5aff07a7c277e13b1de9b4a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inventory-stock-reconciliation/references/security-safety-notes.md"
+    },
+    {
+      "path": "references/select-options.md",
+      "sourcePath": "skills/inventory-stock-reconciliation/references/select-options.md",
+      "bytes": 992,
+      "sha256": "d746c187ba245ae745a880b3803cb28be85bb3bd99c816521d98f1faaf0fdd77",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/inventory-stock-reconciliation/references/select-options.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "4bd0672c1d607b75d5858e32e08e1f062e0f8445439d788a305f7b9acc1276da"
+}

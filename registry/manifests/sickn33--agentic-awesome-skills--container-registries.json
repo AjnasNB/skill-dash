@@ -1,1 +1,55 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--container-registries","name":"container-registries","description":"Manage container registries including ECR, ACR, GCR, and Docker Hub.","category":"Cloud & DevOps","tags":["container","registries","manage","including","ecr","acr","gcr","docker","hub."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/container-registries","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/container-registries","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":10554,"sha256":"dc8a914deb11210731f26bb80c759fa64893def99c232945ee9cabd256f04823","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/container-registries/SKILL.md","bytes":9481,"sha256":"dc8a914deb11210731f26bb80c759fa64893def99c232945ee9cabd256f04823","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/container-registries/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"719fe72ea0208371d21d3adafb679146fe11a574538c468cf481003cb8971ff3"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--container-registries",
+    "name": "container-registries",
+    "description": "Manage container registries including ECR, ACR, GCR, and Docker Hub.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "container",
+      "registries",
+      "manage",
+      "including",
+      "ecr",
+      "acr",
+      "gcr",
+      "docker",
+      "hub."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/container-registries",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/container-registries",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10554,
+    "sha256": "dc8a914deb11210731f26bb80c759fa64893def99c232945ee9cabd256f04823",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/container-registries/SKILL.md",
+      "bytes": 9481,
+      "sha256": "dc8a914deb11210731f26bb80c759fa64893def99c232945ee9cabd256f04823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/container-registries/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "719fe72ea0208371d21d3adafb679146fe11a574538c468cf481003cb8971ff3"
+}

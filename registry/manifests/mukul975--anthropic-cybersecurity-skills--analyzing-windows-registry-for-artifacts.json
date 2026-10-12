@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-windows-registry-for-artifacts","name":"analyzing-windows-registry-for-artifacts","description":"Extract and analyze Windows Registry hives with tools like RegRipper and Registry Explorer to uncover user activity, installed software, autostart/persistence entries, and evidence of system compromise. Use when investigating registry-based persistence, reconstructing user or system activity, or performing DFIR triage on a Windows image.","category":"Development","tags":["analyzing","windows","registry","artifacts","extract","analyze","hives","tools","like","regripper","explorer","uncover","user","activity","installed","software","autostart","persistence"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-windows-registry-for-artifacts/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-windows-registry-for-artifacts","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-registry-for-artifacts","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":33360,"sha256":"da539598d8f7481467064f41d8929192158b0d1a5714e26528e4d2363cc4574e","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-windows-registry-for-artifacts/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-registry-for-artifacts/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-windows-registry-for-artifacts/SKILL.md","bytes":11767,"sha256":"da539598d8f7481467064f41d8929192158b0d1a5714e26528e4d2363cc4574e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-registry-for-artifacts/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-windows-registry-for-artifacts/references/api-reference.md","bytes":2135,"sha256":"ed1d726176def8d09888a5c15cd3c725de1219970c09c3fa4269cd2776bb759b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-registry-for-artifacts/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-windows-registry-for-artifacts/scripts/agent.py","bytes":8203,"sha256":"a0345069efcd909cf75a38d388a310cfff90244745195e4415573125ae72f04a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-registry-for-artifacts/scripts/agent.py"}],"archiveSha256":"b919df13a0dde7a6f6260149bb6b9835c4db8a7f066fcc8b8d895b7acf8eba5e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-windows-registry-for-artifacts",
+    "name": "analyzing-windows-registry-for-artifacts",
+    "description": "Extract and analyze Windows Registry hives with tools like RegRipper and Registry Explorer to uncover user activity, installed software, autostart/persistence entries, and evidence of system compromise. Use when investigating registry-based persistence, reconstructing user or system activity, or performing DFIR triage on a Windows image.",
+    "category": "Development",
+    "tags": [
+      "analyzing",
+      "windows",
+      "registry",
+      "artifacts",
+      "extract",
+      "analyze",
+      "hives",
+      "tools",
+      "like",
+      "regripper",
+      "explorer",
+      "uncover",
+      "user",
+      "activity",
+      "installed",
+      "software",
+      "autostart",
+      "persistence"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-windows-registry-for-artifacts/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-windows-registry-for-artifacts",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-registry-for-artifacts",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 33360,
+    "sha256": "da539598d8f7481467064f41d8929192158b0d1a5714e26528e4d2363cc4574e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-windows-registry-for-artifacts/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-registry-for-artifacts/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-windows-registry-for-artifacts/SKILL.md",
+      "bytes": 11767,
+      "sha256": "da539598d8f7481467064f41d8929192158b0d1a5714e26528e4d2363cc4574e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-registry-for-artifacts/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-windows-registry-for-artifacts/references/api-reference.md",
+      "bytes": 2135,
+      "sha256": "ed1d726176def8d09888a5c15cd3c725de1219970c09c3fa4269cd2776bb759b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-registry-for-artifacts/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-windows-registry-for-artifacts/scripts/agent.py",
+      "bytes": 8203,
+      "sha256": "a0345069efcd909cf75a38d388a310cfff90244745195e4415573125ae72f04a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-registry-for-artifacts/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "b919df13a0dde7a6f6260149bb6b9835c4db8a7f066fcc8b8d895b7acf8eba5e"
+}

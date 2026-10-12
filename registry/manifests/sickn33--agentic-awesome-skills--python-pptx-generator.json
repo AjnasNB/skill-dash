@@ -1,1 +1,66 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--python-pptx-generator","name":"python-pptx-generator","description":"Generate complete Python scripts that build polished PowerPoint decks with python-pptx and real slide content.","category":"Documents","tags":["python","pptx","generator","generate","complete","scripts","polished","powerpoint","decks","real","slide","content."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/python-pptx-generator","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/python-pptx-generator","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":7384,"sha256":"4156422fc83cd032073828b479f56d904593152f10b89774ed3ca096963c407e","historical":false},"files":[{"path":"README.md","sourcePath":"skills/python-pptx-generator/README.md","bytes":1841,"sha256":"409d9e619d06b1a550d768760993d09bbf69f51aaeaf50660d75a16eafac790f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/python-pptx-generator/README.md"},{"path":"SKILL.md","sourcePath":"skills/python-pptx-generator/SKILL.md","bytes":4470,"sha256":"4156422fc83cd032073828b479f56d904593152f10b89774ed3ca096963c407e","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/python-pptx-generator/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"8ff735421952b2224e6bd45b4901d66e9958e1e50c0c2b59fd167bdb4ef1a45f"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--python-pptx-generator",
+    "name": "python-pptx-generator",
+    "description": "Generate complete Python scripts that build polished PowerPoint decks with python-pptx and real slide content.",
+    "category": "Documents",
+    "tags": [
+      "python",
+      "pptx",
+      "generator",
+      "generate",
+      "complete",
+      "scripts",
+      "polished",
+      "powerpoint",
+      "decks",
+      "real",
+      "slide",
+      "content."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/python-pptx-generator",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/python-pptx-generator",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 7384,
+    "sha256": "4156422fc83cd032073828b479f56d904593152f10b89774ed3ca096963c407e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sourcePath": "skills/python-pptx-generator/README.md",
+      "bytes": 1841,
+      "sha256": "409d9e619d06b1a550d768760993d09bbf69f51aaeaf50660d75a16eafac790f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/python-pptx-generator/README.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/python-pptx-generator/SKILL.md",
+      "bytes": 4470,
+      "sha256": "4156422fc83cd032073828b479f56d904593152f10b89774ed3ca096963c407e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/python-pptx-generator/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "8ff735421952b2224e6bd45b4901d66e9958e1e50c0c2b59fd167bdb4ef1a45f"
+}

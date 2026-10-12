@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--startup-financial-modeling","name":"startup-financial-modeling","description":"Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow analysis, and scenario planning for early-stage startups.","category":"Product & business","tags":["startup","financial","modeling","comprehensive","year","models","revenue","projections","cost","structures","cash","flow","analysis","scenario","planning","early","stage","startups."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/startup-financial-modeling","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/startup-financial-modeling","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12880,"sha256":"8b6bb2c80fa3811b666bead650d7430ff47f3e8c55dab117387fef9ff8e1a162","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/startup-financial-modeling/SKILL.md","bytes":11807,"sha256":"8b6bb2c80fa3811b666bead650d7430ff47f3e8c55dab117387fef9ff8e1a162","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/startup-financial-modeling/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"debde75348b5e0b5391a9ce97e118b6e0d13372fc0f43e4a0f0878789464c9b0"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--startup-financial-modeling",
+    "name": "startup-financial-modeling",
+    "description": "Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow analysis, and scenario planning for early-stage startups.",
+    "category": "Product & business",
+    "tags": [
+      "startup",
+      "financial",
+      "modeling",
+      "comprehensive",
+      "year",
+      "models",
+      "revenue",
+      "projections",
+      "cost",
+      "structures",
+      "cash",
+      "flow",
+      "analysis",
+      "scenario",
+      "planning",
+      "early",
+      "stage",
+      "startups."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/startup-financial-modeling",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/startup-financial-modeling",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12880,
+    "sha256": "8b6bb2c80fa3811b666bead650d7430ff47f3e8c55dab117387fef9ff8e1a162",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/startup-financial-modeling/SKILL.md",
+      "bytes": 11807,
+      "sha256": "8b6bb2c80fa3811b666bead650d7430ff47f3e8c55dab117387fef9ff8e1a162",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/startup-financial-modeling/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "debde75348b5e0b5391a9ce97e118b6e0d13372fc0f43e4a0f0878789464c9b0"
+}

@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-ssl-certificate-lifecycle-management","name":"performing-ssl-certificate-lifecycle-management","description":"Automates the full SSL/TLS certificate lifecycle, including generating Certificate Signing Requests, issuing, deploying, monitoring, renewing, and revoking X.509 certificates, using Python and ACME protocol tools. Use when managing certificate issuance or renewal, preventing certificate-expiry outages, or building automated PKI/ACME workflows.","category":"Cloud & DevOps","tags":["performing","ssl","certificate","lifecycle","management","automates","full","tls","including","generating","signing","requests","issuing","deploying","monitoring","renewing","revoking","x.509"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-ssl-certificate-lifecycle-management/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-ssl-certificate-lifecycle-management","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-certificate-lifecycle-management","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":40019,"sha256":"1db13b2ce9e3da9ab7c27b4d74a18d41b38aff14cdbe89da0400145354ad2be3","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-ssl-certificate-lifecycle-management/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-certificate-lifecycle-management/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-ssl-certificate-lifecycle-management/SKILL.md","bytes":3465,"sha256":"1db13b2ce9e3da9ab7c27b4d74a18d41b38aff14cdbe89da0400145354ad2be3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-certificate-lifecycle-management/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/performing-ssl-certificate-lifecycle-management/assets/template.md","bytes":1507,"sha256":"59db39b608e080d29ac6d30b8a7ec461577e9674cc9a7075ece628c0b6ec8d94","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-certificate-lifecycle-management/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-ssl-certificate-lifecycle-management/references/api-reference.md","bytes":2243,"sha256":"7800e07cf82e3167aea5df8a309804d3586d9b52f382d022ab1bde3bdde28d10","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-certificate-lifecycle-management/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/performing-ssl-certificate-lifecycle-management/references/standards.md","bytes":1616,"sha256":"4e3ce49c1a3ca2486c5989ad33edbba3f26fc93d37cd413351f9b275cb6a30c0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-certificate-lifecycle-management/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/performing-ssl-certificate-lifecycle-management/references/workflows.md","bytes":1566,"sha256":"6d57cae68a88b0b0c6b06f8ac55fdae783d00e0861728744bb9cf3be715199b0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-certificate-lifecycle-management/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-ssl-certificate-lifecycle-management/scripts/agent.py","bytes":6170,"sha256":"85d2d430d8e0e9c54f2eca47bb38b9d9f38614f6d6aa8b9fafd3680613420910","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-certificate-lifecycle-management/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/performing-ssl-certificate-lifecycle-management/scripts/process.py","bytes":12197,"sha256":"b58bfd6e8b1ba2a23a0dd729879ba9f74df65e2f54e475ccaa6d93d389b99427","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-certificate-lifecycle-management/scripts/process.py"}],"archiveSha256":"69757a9ffff4cefb680b066c6042435796e337ee5c59f22adc32ebed3e02cc55"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-ssl-certificate-lifecycle-management",
+    "name": "performing-ssl-certificate-lifecycle-management",
+    "description": "Automates the full SSL/TLS certificate lifecycle, including generating Certificate Signing Requests, issuing, deploying, monitoring, renewing, and revoking X.509 certificates, using Python and ACME protocol tools. Use when managing certificate issuance or renewal, preventing certificate-expiry outages, or building automated PKI/ACME workflows.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "performing",
+      "ssl",
+      "certificate",
+      "lifecycle",
+      "management",
+      "automates",
+      "full",
+      "tls",
+      "including",
+      "generating",
+      "signing",
+      "requests",
+      "issuing",
+      "deploying",
+      "monitoring",
+      "renewing",
+      "revoking",
+      "x.509"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-ssl-certificate-lifecycle-management/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-ssl-certificate-lifecycle-management",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-certificate-lifecycle-management",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 40019,
+    "sha256": "1db13b2ce9e3da9ab7c27b4d74a18d41b38aff14cdbe89da0400145354ad2be3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-ssl-certificate-lifecycle-management/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-certificate-lifecycle-management/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-ssl-certificate-lifecycle-management/SKILL.md",
+      "bytes": 3465,
+      "sha256": "1db13b2ce9e3da9ab7c27b4d74a18d41b38aff14cdbe89da0400145354ad2be3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-certificate-lifecycle-management/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-ssl-certificate-lifecycle-management/assets/template.md",
+      "bytes": 1507,
+      "sha256": "59db39b608e080d29ac6d30b8a7ec461577e9674cc9a7075ece628c0b6ec8d94",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-certificate-lifecycle-management/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-ssl-certificate-lifecycle-management/references/api-reference.md",
+      "bytes": 2243,
+      "sha256": "7800e07cf82e3167aea5df8a309804d3586d9b52f382d022ab1bde3bdde28d10",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-certificate-lifecycle-management/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-ssl-certificate-lifecycle-management/references/standards.md",
+      "bytes": 1616,
+      "sha256": "4e3ce49c1a3ca2486c5989ad33edbba3f26fc93d37cd413351f9b275cb6a30c0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-certificate-lifecycle-management/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-ssl-certificate-lifecycle-management/references/workflows.md",
+      "bytes": 1566,
+      "sha256": "6d57cae68a88b0b0c6b06f8ac55fdae783d00e0861728744bb9cf3be715199b0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-certificate-lifecycle-management/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-ssl-certificate-lifecycle-management/scripts/agent.py",
+      "bytes": 6170,
+      "sha256": "85d2d430d8e0e9c54f2eca47bb38b9d9f38614f6d6aa8b9fafd3680613420910",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-certificate-lifecycle-management/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-ssl-certificate-lifecycle-management/scripts/process.py",
+      "bytes": 12197,
+      "sha256": "b58bfd6e8b1ba2a23a0dd729879ba9f74df65e2f54e475ccaa6d93d389b99427",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-ssl-certificate-lifecycle-management/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "69757a9ffff4cefb680b066c6042435796e337ee5c59f22adc32ebed3e02cc55"
+}

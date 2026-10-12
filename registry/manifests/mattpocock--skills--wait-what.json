@@ -1,1 +1,65 @@
-{"schemaVersion":1,"skill":{"id":"mattpocock--skills--wait-what","name":"wait-what","description":"Stop. That last message did not land: re-pitch it.","category":"Development","tags":["wait","what","stop.","last","message","did","not","land","re","pitch","it."],"repo":"mattpocock/skills","owner":"mattpocock","stars":287125,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"49dd158d1076134a641b33efb035946536778336","path":"skills/productivity/wait-what","sourceUrl":"https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/productivity/wait-what","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-09T10:56:49Z","fileCount":3,"bytes":1622,"sha256":"d961bb37defd975c539427edb8f450cdbccdcdd552e213c1ece46676a7970905","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/productivity/wait-what/SKILL.md","bytes":396,"sha256":"d961bb37defd975c539427edb8f450cdbccdcdd552e213c1ece46676a7970905","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/productivity/wait-what/SKILL.md"},{"path":"agents/openai.yaml","sourcePath":"skills/productivity/wait-what/agents/openai.yaml","bytes":158,"sha256":"b41faadf741d51e4ea184148b2d1854d93f947aaf754c7844f70a00f04194999","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/productivity/wait-what/agents/openai.yaml"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1068,"sha256":"0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/LICENSE"}],"archiveSha256":"e65f1930c75de2145b4840f465ee24a07f13b169cd7d545aa62408df826d4d6b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mattpocock--skills--wait-what",
+    "name": "wait-what",
+    "description": "Stop. That last message did not land: re-pitch it.",
+    "category": "Development",
+    "tags": [
+      "wait",
+      "what",
+      "stop.",
+      "last",
+      "message",
+      "did",
+      "not",
+      "land",
+      "re",
+      "pitch",
+      "it."
+    ],
+    "repo": "mattpocock/skills",
+    "owner": "mattpocock",
+    "stars": 287125,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "49dd158d1076134a641b33efb035946536778336",
+    "path": "skills/productivity/wait-what",
+    "sourceUrl": "https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/productivity/wait-what",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-09T10:56:49Z",
+    "fileCount": 3,
+    "bytes": 1622,
+    "sha256": "d961bb37defd975c539427edb8f450cdbccdcdd552e213c1ece46676a7970905",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/productivity/wait-what/SKILL.md",
+      "bytes": 396,
+      "sha256": "d961bb37defd975c539427edb8f450cdbccdcdd552e213c1ece46676a7970905",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/productivity/wait-what/SKILL.md"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sourcePath": "skills/productivity/wait-what/agents/openai.yaml",
+      "bytes": 158,
+      "sha256": "b41faadf741d51e4ea184148b2d1854d93f947aaf754c7844f70a00f04194999",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/productivity/wait-what/agents/openai.yaml"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1068,
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/LICENSE"
+    }
+  ],
+  "archiveSha256": "e65f1930c75de2145b4840f465ee24a07f13b169cd7d545aa62408df826d4d6b"
+}

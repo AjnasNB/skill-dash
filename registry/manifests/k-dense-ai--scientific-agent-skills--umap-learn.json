@@ -1,1 +1,71 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--umap-learn","name":"umap-learn","description":"Applies UMAP-learn to nonlinear dimensionality reduction, 2D/3D embeddings, clustering preprocessing, supervised or semi-supervised UMAP, DensMAP, AlignedUMAP, and Parametric UMAP workflows.","category":"Development","tags":["umap","learn","applies","nonlinear","dimensionality","reduction","2d","3d","embeddings","clustering","preprocessing","supervised","semi","densmap","alignedumap","parametric","workflows."],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/umap-learn","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/umap-learn","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":3,"bytes":51146,"sha256":"0cfef32ae0e1d52eec6513bafc0ab4387cf38e43121fba715762b2b2c11b6930","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/umap-learn/SKILL.md","bytes":21534,"sha256":"0cfef32ae0e1d52eec6513bafc0ab4387cf38e43121fba715762b2b2c11b6930","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/umap-learn/SKILL.md"},{"path":"references/api_reference.md","sourcePath":"skills/umap-learn/references/api_reference.md","bytes":28544,"sha256":"7713fd3ed704af27890942df5d1e29f3e304636dd8b9b5767d13a6cf911323f9","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/umap-learn/references/api_reference.md"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"9f2b8cb6916981e4d6fb8bc5f82088bf8bb462d9b38d3bb5e62eabf54045da20"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--umap-learn",
+    "name": "umap-learn",
+    "description": "Applies UMAP-learn to nonlinear dimensionality reduction, 2D/3D embeddings, clustering preprocessing, supervised or semi-supervised UMAP, DensMAP, AlignedUMAP, and Parametric UMAP workflows.",
+    "category": "Development",
+    "tags": [
+      "umap",
+      "learn",
+      "applies",
+      "nonlinear",
+      "dimensionality",
+      "reduction",
+      "2d",
+      "3d",
+      "embeddings",
+      "clustering",
+      "preprocessing",
+      "supervised",
+      "semi",
+      "densmap",
+      "alignedumap",
+      "parametric",
+      "workflows."
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/umap-learn",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/umap-learn",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 3,
+    "bytes": 51146,
+    "sha256": "0cfef32ae0e1d52eec6513bafc0ab4387cf38e43121fba715762b2b2c11b6930",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/umap-learn/SKILL.md",
+      "bytes": 21534,
+      "sha256": "0cfef32ae0e1d52eec6513bafc0ab4387cf38e43121fba715762b2b2c11b6930",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/umap-learn/SKILL.md"
+    },
+    {
+      "path": "references/api_reference.md",
+      "sourcePath": "skills/umap-learn/references/api_reference.md",
+      "bytes": 28544,
+      "sha256": "7713fd3ed704af27890942df5d1e29f3e304636dd8b9b5767d13a6cf911323f9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/umap-learn/references/api_reference.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "9f2b8cb6916981e4d6fb8bc5f82088bf8bb462d9b38d3bb5e62eabf54045da20"
+}

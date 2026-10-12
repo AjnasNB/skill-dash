@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--azure-ai-language-conversations-py","name":"azure-ai-language-conversations-py","description":"Implement Conversational Language Understanding (CLU) using the azure-ai-language-conversations Python SDK. Use when working with ConversationAnalysisClient to analyze conversation intent and entities, building NLP features, or integrating language understanding into applications.","category":"Cloud & DevOps","tags":["azure","ai","language","conversations","py","implement","conversational","understanding","clu","python","sdk.","when","working","conversationanalysisclient","analyze","conversation","intent","entities"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/azure-ai-language-conversations-py","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-language-conversations-py","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7165,"sha256":"f2d1a0fbad02bdcbb4b63d25156020101fa737df9e8647bce5c73dcb6b285265","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/azure-ai-language-conversations-py/SKILL.md","bytes":6092,"sha256":"f2d1a0fbad02bdcbb4b63d25156020101fa737df9e8647bce5c73dcb6b285265","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-language-conversations-py/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"2eccb77df8162d6cd06be37f6bd03eb0dae8d54c82af2e3297ea7b7a32794aab"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--azure-ai-language-conversations-py",
+    "name": "azure-ai-language-conversations-py",
+    "description": "Implement Conversational Language Understanding (CLU) using the azure-ai-language-conversations Python SDK. Use when working with ConversationAnalysisClient to analyze conversation intent and entities, building NLP features, or integrating language understanding into applications.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "azure",
+      "ai",
+      "language",
+      "conversations",
+      "py",
+      "implement",
+      "conversational",
+      "understanding",
+      "clu",
+      "python",
+      "sdk.",
+      "when",
+      "working",
+      "conversationanalysisclient",
+      "analyze",
+      "conversation",
+      "intent",
+      "entities"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/azure-ai-language-conversations-py",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-language-conversations-py",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7165,
+    "sha256": "f2d1a0fbad02bdcbb4b63d25156020101fa737df9e8647bce5c73dcb6b285265",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/azure-ai-language-conversations-py/SKILL.md",
+      "bytes": 6092,
+      "sha256": "f2d1a0fbad02bdcbb4b63d25156020101fa737df9e8647bce5c73dcb6b285265",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-language-conversations-py/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "2eccb77df8162d6cd06be37f6bd03eb0dae8d54c82af2e3297ea7b7a32794aab"
+}

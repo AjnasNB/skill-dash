@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--threejs-shaders","name":"threejs-shaders","description":"Three.js shaders - GLSL, ShaderMaterial, uniforms, custom effects. Use when creating custom visual effects, modifying vertices, writing fragment shaders, or extending built-in materials.","category":"Design","tags":["threejs","shaders","three.js","glsl","shadermaterial","uniforms","custom","effects.","when","creating","visual","effects","modifying","vertices","writing","fragment","extending","built"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/threejs-shaders","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/threejs-shaders","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":17904,"sha256":"7ff660d77128e3c778aafec9d88455aeb7dce9ad1b2b2402648dd513664ebf86","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/threejs-shaders/SKILL.md","bytes":1198,"sha256":"7ff660d77128e3c778aafec9d88455aeb7dce9ad1b2b2402648dd513664ebf86","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/threejs-shaders/SKILL.md"},{"path":"references/detailed-guide.md","sourcePath":"skills/threejs-shaders/references/detailed-guide.md","bytes":15633,"sha256":"2b49a892d9938beefb4d5d7aa6359ae21ecb1afc4cfc61668ef21c94f7847230","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/threejs-shaders/references/detailed-guide.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"42d431b9ed4c83b2c27d721b710a821b13516f8582183c0088f6b1f4263f6f7c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--threejs-shaders",
+    "name": "threejs-shaders",
+    "description": "Three.js shaders - GLSL, ShaderMaterial, uniforms, custom effects. Use when creating custom visual effects, modifying vertices, writing fragment shaders, or extending built-in materials.",
+    "category": "Design",
+    "tags": [
+      "threejs",
+      "shaders",
+      "three.js",
+      "glsl",
+      "shadermaterial",
+      "uniforms",
+      "custom",
+      "effects.",
+      "when",
+      "creating",
+      "visual",
+      "effects",
+      "modifying",
+      "vertices",
+      "writing",
+      "fragment",
+      "extending",
+      "built"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/threejs-shaders",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/threejs-shaders",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 17904,
+    "sha256": "7ff660d77128e3c778aafec9d88455aeb7dce9ad1b2b2402648dd513664ebf86",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/threejs-shaders/SKILL.md",
+      "bytes": 1198,
+      "sha256": "7ff660d77128e3c778aafec9d88455aeb7dce9ad1b2b2402648dd513664ebf86",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/threejs-shaders/SKILL.md"
+    },
+    {
+      "path": "references/detailed-guide.md",
+      "sourcePath": "skills/threejs-shaders/references/detailed-guide.md",
+      "bytes": 15633,
+      "sha256": "2b49a892d9938beefb4d5d7aa6359ae21ecb1afc4cfc61668ef21c94f7847230",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/threejs-shaders/references/detailed-guide.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "42d431b9ed4c83b2c27d721b710a821b13516f8582183c0088f6b1f4263f6f7c"
+}

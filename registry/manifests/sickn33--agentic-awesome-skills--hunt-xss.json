@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--hunt-xss","name":"hunt-xss","description":"Hunting skill for xss vulnerabilities.","category":"Security","tags":["hunt","xss","hunting","skill","vulnerabilities."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/hunt-xss","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-xss","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":33617,"sha256":"945c000c99b417e8c9ff8ecd58c8715cad1020f9753e8d3dc19d3e629e274e96","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/hunt-xss/SKILL.md","bytes":23777,"sha256":"945c000c99b417e8c9ff8ecd58c8715cad1020f9753e8d3dc19d3e629e274e96","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-xss/SKILL.md"},{"path":"references/details.md","sourcePath":"skills/hunt-xss/references/details.md","bytes":8767,"sha256":"aa54289fd81758bd6da8764dd6680539f8c5cd93a197f86f77429bf6f67d176f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-xss/references/details.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"7c4c05d74416a303a06e17ea4925ef6fa00e622a78669a0287578cc1f2a50a67"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--hunt-xss",
+    "name": "hunt-xss",
+    "description": "Hunting skill for xss vulnerabilities.",
+    "category": "Security",
+    "tags": [
+      "hunt",
+      "xss",
+      "hunting",
+      "skill",
+      "vulnerabilities."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/hunt-xss",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-xss",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 33617,
+    "sha256": "945c000c99b417e8c9ff8ecd58c8715cad1020f9753e8d3dc19d3e629e274e96",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunt-xss/SKILL.md",
+      "bytes": 23777,
+      "sha256": "945c000c99b417e8c9ff8ecd58c8715cad1020f9753e8d3dc19d3e629e274e96",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-xss/SKILL.md"
+    },
+    {
+      "path": "references/details.md",
+      "sourcePath": "skills/hunt-xss/references/details.md",
+      "bytes": 8767,
+      "sha256": "aa54289fd81758bd6da8764dd6680539f8c5cd93a197f86f77429bf6f67d176f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-xss/references/details.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "7c4c05d74416a303a06e17ea4925ef6fa00e622a78669a0287578cc1f2a50a67"
+}

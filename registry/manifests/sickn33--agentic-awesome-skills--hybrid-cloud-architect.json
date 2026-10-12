@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--hybrid-cloud-architect","name":"hybrid-cloud-architect","description":"Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (OpenStack/VMware).","category":"Cloud & DevOps","tags":["hybrid","cloud","architect","expert","specializing","complex","multi","solutions","across","aws","azure","gcp","private","clouds","openstack","vmware"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/hybrid-cloud-architect","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hybrid-cloud-architect","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11049,"sha256":"62175edb4bf680a03d2ad901f1190fb1afb4dab5d4e9d30036a396a9ef92fc49","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/hybrid-cloud-architect/SKILL.md","bytes":9976,"sha256":"62175edb4bf680a03d2ad901f1190fb1afb4dab5d4e9d30036a396a9ef92fc49","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hybrid-cloud-architect/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"1feb2a5356eb50ddbf3f2d16a5591812d25e53975b581607c8086a4553b7eb2e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--hybrid-cloud-architect",
+    "name": "hybrid-cloud-architect",
+    "description": "Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP and private clouds (OpenStack/VMware).",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "hybrid",
+      "cloud",
+      "architect",
+      "expert",
+      "specializing",
+      "complex",
+      "multi",
+      "solutions",
+      "across",
+      "aws",
+      "azure",
+      "gcp",
+      "private",
+      "clouds",
+      "openstack",
+      "vmware"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/hybrid-cloud-architect",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hybrid-cloud-architect",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11049,
+    "sha256": "62175edb4bf680a03d2ad901f1190fb1afb4dab5d4e9d30036a396a9ef92fc49",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hybrid-cloud-architect/SKILL.md",
+      "bytes": 9976,
+      "sha256": "62175edb4bf680a03d2ad901f1190fb1afb4dab5d4e9d30036a396a9ef92fc49",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hybrid-cloud-architect/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "1feb2a5356eb50ddbf3f2d16a5591812d25e53975b581607c8086a4553b7eb2e"
+}

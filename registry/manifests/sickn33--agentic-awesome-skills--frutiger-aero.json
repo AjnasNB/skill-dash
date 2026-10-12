@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--frutiger-aero","name":"frutiger-aero","description":"Web and App implementation guide for Frutiger Aero. Trigger when user wants glossy gradients, early 2000s nature-inspired tech, glass, and water motifs.","category":"Development","tags":["frutiger","aero","web","app","implementation","guide","aero.","trigger","when","user","wants","glossy","gradients","early","2000s","nature","inspired","tech"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/design-it/frutiger-aero","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/frutiger-aero","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11789,"sha256":"e29052a350c5c0be6fe8d89aee379d314305f69bbd4d3757d877ec77f9370435","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/design-it/frutiger-aero/SKILL.md","bytes":10716,"sha256":"e29052a350c5c0be6fe8d89aee379d314305f69bbd4d3757d877ec77f9370435","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/frutiger-aero/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"7d346d8ea987ad3d0c253a149f9f42acf3259019f13cde5ae751f17cf8193541"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--frutiger-aero",
+    "name": "frutiger-aero",
+    "description": "Web and App implementation guide for Frutiger Aero. Trigger when user wants glossy gradients, early 2000s nature-inspired tech, glass, and water motifs.",
+    "category": "Development",
+    "tags": [
+      "frutiger",
+      "aero",
+      "web",
+      "app",
+      "implementation",
+      "guide",
+      "aero.",
+      "trigger",
+      "when",
+      "user",
+      "wants",
+      "glossy",
+      "gradients",
+      "early",
+      "2000s",
+      "nature",
+      "inspired",
+      "tech"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/design-it/frutiger-aero",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/frutiger-aero",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11789,
+    "sha256": "e29052a350c5c0be6fe8d89aee379d314305f69bbd4d3757d877ec77f9370435",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/design-it/frutiger-aero/SKILL.md",
+      "bytes": 10716,
+      "sha256": "e29052a350c5c0be6fe8d89aee379d314305f69bbd4d3757d877ec77f9370435",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/frutiger-aero/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "7d346d8ea987ad3d0c253a149f9f42acf3259019f13cde5ae751f17cf8193541"
+}

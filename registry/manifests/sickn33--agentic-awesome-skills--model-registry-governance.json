@@ -1,1 +1,60 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--model-registry-governance","name":"model-registry-governance","description":"Establish model registry standards, governance controls, metadata schemas, approvals, and lifecycle policies for enterprise AI deployments.","category":"Cloud & DevOps","tags":["model","registry","governance","establish","standards","controls","metadata","schemas","approvals","lifecycle","policies","enterprise","ai","deployments."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/model-registry-governance","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/model-registry-governance","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":16624,"sha256":"bec712dde456b7f71ce10a2b154e2fb16219a0d793dc9752d042e2d9b94dcecf","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/model-registry-governance/SKILL.md","bytes":15551,"sha256":"bec712dde456b7f71ce10a2b154e2fb16219a0d793dc9752d042e2d9b94dcecf","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/model-registry-governance/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"ea7ee16fa98f2e563a5bfca7e056abfae0c6c9ae2b07eadddac117de83b65ade"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--model-registry-governance",
+    "name": "model-registry-governance",
+    "description": "Establish model registry standards, governance controls, metadata schemas, approvals, and lifecycle policies for enterprise AI deployments.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "model",
+      "registry",
+      "governance",
+      "establish",
+      "standards",
+      "controls",
+      "metadata",
+      "schemas",
+      "approvals",
+      "lifecycle",
+      "policies",
+      "enterprise",
+      "ai",
+      "deployments."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/model-registry-governance",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/model-registry-governance",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 16624,
+    "sha256": "bec712dde456b7f71ce10a2b154e2fb16219a0d793dc9752d042e2d9b94dcecf",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/model-registry-governance/SKILL.md",
+      "bytes": 15551,
+      "sha256": "bec712dde456b7f71ce10a2b154e2fb16219a0d793dc9752d042e2d9b94dcecf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/model-registry-governance/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ea7ee16fa98f2e563a5bfca7e056abfae0c6c9ae2b07eadddac117de83b65ade"
+}

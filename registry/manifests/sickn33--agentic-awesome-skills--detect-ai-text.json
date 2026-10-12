@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--detect-ai-text","name":"detect-ai-text","description":"Estimate whether a document's prose was written by AI, with the linguistic tells and honest abstention on non-prose. Use when the user asks whether an essay, report, CV, submission, or article was AI-generated — for triage, not proof.","category":"Development","tags":["detect","ai","text","estimate","whether","document","prose","was","written","by","linguistic","tells","honest","abstention","non","prose.","when","user"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/detect-ai-text","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/detect-ai-text","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4868,"sha256":"fdf5c0e0aeeee752cbc670c6143767b364b36b2d55ec23355f25fadf880fca29","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/detect-ai-text/SKILL.md","bytes":3795,"sha256":"fdf5c0e0aeeee752cbc670c6143767b364b36b2d55ec23355f25fadf880fca29","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/detect-ai-text/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"c1c12d9f5de340e869e60fac3aebc2f4d89355dda2915045cf90231421898c3a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--detect-ai-text",
+    "name": "detect-ai-text",
+    "description": "Estimate whether a document's prose was written by AI, with the linguistic tells and honest abstention on non-prose. Use when the user asks whether an essay, report, CV, submission, or article was AI-generated — for triage, not proof.",
+    "category": "Development",
+    "tags": [
+      "detect",
+      "ai",
+      "text",
+      "estimate",
+      "whether",
+      "document",
+      "prose",
+      "was",
+      "written",
+      "by",
+      "linguistic",
+      "tells",
+      "honest",
+      "abstention",
+      "non",
+      "prose.",
+      "when",
+      "user"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/detect-ai-text",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/detect-ai-text",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4868,
+    "sha256": "fdf5c0e0aeeee752cbc670c6143767b364b36b2d55ec23355f25fadf880fca29",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detect-ai-text/SKILL.md",
+      "bytes": 3795,
+      "sha256": "fdf5c0e0aeeee752cbc670c6143767b364b36b2d55ec23355f25fadf880fca29",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/detect-ai-text/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "c1c12d9f5de340e869e60fac3aebc2f4d89355dda2915045cf90231421898c3a"
+}

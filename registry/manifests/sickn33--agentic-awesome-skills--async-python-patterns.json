@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--async-python-patterns","name":"async-python-patterns","description":"Comprehensive guidance for implementing asynchronous Python applications using asyncio, concurrent programming patterns, and async/await for building high-performance, non-blocking systems.","category":"Development","tags":["async","python","patterns","comprehensive","guidance","implementing","asynchronous","applications","asyncio","concurrent","programming","await","building","high","performance","non","blocking","systems."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/async-python-patterns","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/async-python-patterns","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":21046,"sha256":"ec109a485750ee96486cda7d7617db2b852b5705d85281cbe786793234cf089f","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/async-python-patterns/SKILL.md","bytes":2038,"sha256":"ec109a485750ee96486cda7d7617db2b852b5705d85281cbe786793234cf089f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/async-python-patterns/SKILL.md"},{"path":"resources/implementation-playbook.md","sourcePath":"skills/async-python-patterns/resources/implementation-playbook.md","bytes":17935,"sha256":"1a1ff5b00ab550b74d407261352ba4b97a643d3a2f24416937be964554431d13","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/async-python-patterns/resources/implementation-playbook.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"1a18246cd5ddc235238320b6dfaa10a156b6c1630eadd0dec10049c215de056f"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--async-python-patterns",
+    "name": "async-python-patterns",
+    "description": "Comprehensive guidance for implementing asynchronous Python applications using asyncio, concurrent programming patterns, and async/await for building high-performance, non-blocking systems.",
+    "category": "Development",
+    "tags": [
+      "async",
+      "python",
+      "patterns",
+      "comprehensive",
+      "guidance",
+      "implementing",
+      "asynchronous",
+      "applications",
+      "asyncio",
+      "concurrent",
+      "programming",
+      "await",
+      "building",
+      "high",
+      "performance",
+      "non",
+      "blocking",
+      "systems."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/async-python-patterns",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/async-python-patterns",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 21046,
+    "sha256": "ec109a485750ee96486cda7d7617db2b852b5705d85281cbe786793234cf089f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/async-python-patterns/SKILL.md",
+      "bytes": 2038,
+      "sha256": "ec109a485750ee96486cda7d7617db2b852b5705d85281cbe786793234cf089f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/async-python-patterns/SKILL.md"
+    },
+    {
+      "path": "resources/implementation-playbook.md",
+      "sourcePath": "skills/async-python-patterns/resources/implementation-playbook.md",
+      "bytes": 17935,
+      "sha256": "1a1ff5b00ab550b74d407261352ba4b97a643d3a2f24416937be964554431d13",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/async-python-patterns/resources/implementation-playbook.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "1a18246cd5ddc235238320b6dfaa10a156b6c1630eadd0dec10049c215de056f"
+}

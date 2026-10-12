@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--opensource-pipeline","name":"opensource-pipeline","description":"Open-source pipeline: fork, sanitize, and package private projects for safe public release. Chains 3 agents (forker, sanitizer, packager). Triggers: '/opensource', 'open source this', 'make this public', 'prepare for open source'. Use when a private project must be forked, stripped of secrets, and packaged for public release.","category":"AI & agents","tags":["opensource","pipeline","open","source","fork","sanitize","package","private","projects","safe","public","release.","chains","agents","forker","sanitizer","packager","triggers"],"repo":"affaan-m/ECC","owner":"affaan-m","stars":277532,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"b92f181b3b748d1abbc2afd94af6aa7d8c8fca29","path":"skills/opensource-pipeline","sourceUrl":"https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/opensource-pipeline","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T02:02:10Z","fileCount":2,"bytes":10019,"sha256":"1d4ef417d0254893968f9e9479ac23fea3643b95e86fb42d98d3de3e020a1a33","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/opensource-pipeline/SKILL.md","bytes":8948,"sha256":"1d4ef417d0254893968f9e9479ac23fea3643b95e86fb42d98d3de3e020a1a33","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/opensource-pipeline/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"}],"archiveSha256":"099e781146d1d3b38fe5b03c02f7c035e1e9929d60a2f68469ba3540e198907a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--opensource-pipeline",
+    "name": "opensource-pipeline",
+    "description": "Open-source pipeline: fork, sanitize, and package private projects for safe public release. Chains 3 agents (forker, sanitizer, packager). Triggers: '/opensource', 'open source this', 'make this public', 'prepare for open source'. Use when a private project must be forked, stripped of secrets, and packaged for public release.",
+    "category": "AI & agents",
+    "tags": [
+      "opensource",
+      "pipeline",
+      "open",
+      "source",
+      "fork",
+      "sanitize",
+      "package",
+      "private",
+      "projects",
+      "safe",
+      "public",
+      "release.",
+      "chains",
+      "agents",
+      "forker",
+      "sanitizer",
+      "packager",
+      "triggers"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/opensource-pipeline",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/opensource-pipeline",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 2,
+    "bytes": 10019,
+    "sha256": "1d4ef417d0254893968f9e9479ac23fea3643b95e86fb42d98d3de3e020a1a33",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/opensource-pipeline/SKILL.md",
+      "bytes": 8948,
+      "sha256": "1d4ef417d0254893968f9e9479ac23fea3643b95e86fb42d98d3de3e020a1a33",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/opensource-pipeline/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "099e781146d1d3b38fe5b03c02f7c035e1e9929d60a2f68469ba3540e198907a"
+}

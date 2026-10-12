@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-container-security-scanning-with-trivy","name":"performing-container-security-scanning-with-trivy","description":"Runs Trivy across every target type it supports - container images, filesystems, Git repositories, and Kubernetes clusters - for OS and dependency vulnerabilities, IaC misconfiguration, exposed secrets, and licences, generating CycloneDX or SPDX SBOMs. Use when integrating Trivy into CI/CD, deploying the Trivy Kubernetes operator, scanning non-image targets, or triaging results at scale. Keywords: Trivy, trivy k8s, operator, SBOM, CycloneDX, SPDX, misconfig, secret scanning. Do not use for a single Docker image scan - use scanning-docker-images-with-trivy.","category":"Security","tags":["performing","container","security","scanning","trivy","runs","across","every","target","type","it","supports","images","filesystems","git","repositories","kubernetes","clusters"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-container-security-scanning-with-trivy/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-container-security-scanning-with-trivy","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-security-scanning-with-trivy","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":23697,"sha256":"df0f442f21daaedb9a69edce88afafe40fa72930f95d17eb0f9f93464517ea96","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-container-security-scanning-with-trivy/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-security-scanning-with-trivy/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-container-security-scanning-with-trivy/SKILL.md","bytes":3269,"sha256":"df0f442f21daaedb9a69edce88afafe40fa72930f95d17eb0f9f93464517ea96","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-security-scanning-with-trivy/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-container-security-scanning-with-trivy/references/api-reference.md","bytes":2517,"sha256":"bcbd2a79ce835ec414232774bf74be5598261be95b59a20891f8be0346b48a1c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-security-scanning-with-trivy/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-container-security-scanning-with-trivy/scripts/agent.py","bytes":6656,"sha256":"72b4b63c99d22d31f1e6cd185ab59a8b854d4731878a7302bb32a0d1e325800c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-security-scanning-with-trivy/scripts/agent.py"}],"archiveSha256":"dc56acb5b28af463501d3d786ea7cf69d0660fad8f4665a8c777833fdafdab62"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-container-security-scanning-with-trivy",
+    "name": "performing-container-security-scanning-with-trivy",
+    "description": "Runs Trivy across every target type it supports - container images, filesystems, Git repositories, and Kubernetes clusters - for OS and dependency vulnerabilities, IaC misconfiguration, exposed secrets, and licences, generating CycloneDX or SPDX SBOMs. Use when integrating Trivy into CI/CD, deploying the Trivy Kubernetes operator, scanning non-image targets, or triaging results at scale. Keywords: Trivy, trivy k8s, operator, SBOM, CycloneDX, SPDX, misconfig, secret scanning. Do not use for a single Docker image scan - use scanning-docker-images-with-trivy.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "container",
+      "security",
+      "scanning",
+      "trivy",
+      "runs",
+      "across",
+      "every",
+      "target",
+      "type",
+      "it",
+      "supports",
+      "images",
+      "filesystems",
+      "git",
+      "repositories",
+      "kubernetes",
+      "clusters"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-container-security-scanning-with-trivy/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-container-security-scanning-with-trivy",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-security-scanning-with-trivy",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 23697,
+    "sha256": "df0f442f21daaedb9a69edce88afafe40fa72930f95d17eb0f9f93464517ea96",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-container-security-scanning-with-trivy/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-security-scanning-with-trivy/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-container-security-scanning-with-trivy/SKILL.md",
+      "bytes": 3269,
+      "sha256": "df0f442f21daaedb9a69edce88afafe40fa72930f95d17eb0f9f93464517ea96",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-security-scanning-with-trivy/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-container-security-scanning-with-trivy/references/api-reference.md",
+      "bytes": 2517,
+      "sha256": "bcbd2a79ce835ec414232774bf74be5598261be95b59a20891f8be0346b48a1c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-security-scanning-with-trivy/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-container-security-scanning-with-trivy/scripts/agent.py",
+      "bytes": 6656,
+      "sha256": "72b4b63c99d22d31f1e6cd185ab59a8b854d4731878a7302bb32a0d1e325800c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-security-scanning-with-trivy/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "dc56acb5b28af463501d3d786ea7cf69d0660fad8f4665a8c777833fdafdab62"
+}

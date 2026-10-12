@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--posthog-automation","name":"posthog-automation","description":"Automate PostHog tasks via Rube MCP (Composio): events, feature flags, projects, user profiles, annotations. Always search tools first for current schemas.","category":"AI & agents","tags":["posthog","automation","automate","tasks","via","rube","mcp","composio","events","feature","flags","projects","user","profiles","annotations.","always","search","tools"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/posthog-automation","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/posthog-automation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":9517,"sha256":"5217bbd67a7ad4e7ba414a0f45cd7fb07741b0270836d5096a2510f305d173ba","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/posthog-automation/SKILL.md","bytes":8444,"sha256":"5217bbd67a7ad4e7ba414a0f45cd7fb07741b0270836d5096a2510f305d173ba","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/posthog-automation/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"3aedae0ff6b7b4b23ed8057f71e73054591dd1727e3885fd461e924a5d56e6b9"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--posthog-automation",
+    "name": "posthog-automation",
+    "description": "Automate PostHog tasks via Rube MCP (Composio): events, feature flags, projects, user profiles, annotations. Always search tools first for current schemas.",
+    "category": "AI & agents",
+    "tags": [
+      "posthog",
+      "automation",
+      "automate",
+      "tasks",
+      "via",
+      "rube",
+      "mcp",
+      "composio",
+      "events",
+      "feature",
+      "flags",
+      "projects",
+      "user",
+      "profiles",
+      "annotations.",
+      "always",
+      "search",
+      "tools"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/posthog-automation",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/posthog-automation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9517,
+    "sha256": "5217bbd67a7ad4e7ba414a0f45cd7fb07741b0270836d5096a2510f305d173ba",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/posthog-automation/SKILL.md",
+      "bytes": 8444,
+      "sha256": "5217bbd67a7ad4e7ba414a0f45cd7fb07741b0270836d5096a2510f305d173ba",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/posthog-automation/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "3aedae0ff6b7b4b23ed8057f71e73054591dd1727e3885fd461e924a5d56e6b9"
+}

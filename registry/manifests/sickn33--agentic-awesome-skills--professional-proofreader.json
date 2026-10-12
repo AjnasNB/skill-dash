@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--professional-proofreader","name":"professional-proofreader","description":"Use when a user asks to \"proofread\", \"review and correct\", \"fix grammar\", \"improve readability while keeping my voice\", and to proofread a document file and save an updated version.","category":"Writing","tags":["professional","proofreader","when","user","asks","proofread","review","correct","fix","grammar","improve","readability","while","keeping","voice","document","file","save"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/professional-proofreader","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/professional-proofreader","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":4,"bytes":6775,"sha256":"c31b025f63847f25d1daa158349992dee57e6006adbe99ccb190cd3992d0b553","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/professional-proofreader/SKILL.md","bytes":3209,"sha256":"c31b025f63847f25d1daa158349992dee57e6006adbe99ccb190cd3992d0b553","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/professional-proofreader/SKILL.md"},{"path":"references/file-processing-mode.md","sourcePath":"skills/professional-proofreader/references/file-processing-mode.md","bytes":730,"sha256":"abe2aefc4bfe5cd561db25ab2e69eeeb426da675bb60b19559b591c1b252aef2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/professional-proofreader/references/file-processing-mode.md"},{"path":"references/inline-text-mode.md","sourcePath":"skills/professional-proofreader/references/inline-text-mode.md","bytes":1763,"sha256":"d1909f1d2b709efad41bfd61a7d0702d463f3b81ded86c5be73621dfb5f713c0","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/professional-proofreader/references/inline-text-mode.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"66304995d7150ab2003a8312bf07e632587627ece6bd616006ee1f5002bc39de"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--professional-proofreader",
+    "name": "professional-proofreader",
+    "description": "Use when a user asks to \"proofread\", \"review and correct\", \"fix grammar\", \"improve readability while keeping my voice\", and to proofread a document file and save an updated version.",
+    "category": "Writing",
+    "tags": [
+      "professional",
+      "proofreader",
+      "when",
+      "user",
+      "asks",
+      "proofread",
+      "review",
+      "correct",
+      "fix",
+      "grammar",
+      "improve",
+      "readability",
+      "while",
+      "keeping",
+      "voice",
+      "document",
+      "file",
+      "save"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/professional-proofreader",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/professional-proofreader",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 4,
+    "bytes": 6775,
+    "sha256": "c31b025f63847f25d1daa158349992dee57e6006adbe99ccb190cd3992d0b553",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/professional-proofreader/SKILL.md",
+      "bytes": 3209,
+      "sha256": "c31b025f63847f25d1daa158349992dee57e6006adbe99ccb190cd3992d0b553",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/professional-proofreader/SKILL.md"
+    },
+    {
+      "path": "references/file-processing-mode.md",
+      "sourcePath": "skills/professional-proofreader/references/file-processing-mode.md",
+      "bytes": 730,
+      "sha256": "abe2aefc4bfe5cd561db25ab2e69eeeb426da675bb60b19559b591c1b252aef2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/professional-proofreader/references/file-processing-mode.md"
+    },
+    {
+      "path": "references/inline-text-mode.md",
+      "sourcePath": "skills/professional-proofreader/references/inline-text-mode.md",
+      "bytes": 1763,
+      "sha256": "d1909f1d2b709efad41bfd61a7d0702d463f3b81ded86c5be73621dfb5f713c0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/professional-proofreader/references/inline-text-mode.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "66304995d7150ab2003a8312bf07e632587627ece6bd616006ee1f5002bc39de"
+}

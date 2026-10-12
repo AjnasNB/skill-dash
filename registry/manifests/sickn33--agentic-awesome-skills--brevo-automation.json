@@ -1,1 +1,60 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--brevo-automation","name":"brevo-automation","description":"Automate Brevo (formerly Sendinblue) email marketing operations through Composio's Brevo toolkit via Rube MCP.","category":"Marketing","tags":["brevo","automation","automate","formerly","sendinblue","email","marketing","operations","through","composio","toolkit","via","rube","mcp."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/brevo-automation","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brevo-automation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":9234,"sha256":"ed263aad876f523b636acbb149bc6d999eaf18e0a39427a6897e05bc4753bad9","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/brevo-automation/SKILL.md","bytes":8161,"sha256":"ed263aad876f523b636acbb149bc6d999eaf18e0a39427a6897e05bc4753bad9","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brevo-automation/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"723aa47a4072794f926871aef6c133bae4dfa4f57099ec6fa09c44c2adb60b98"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--brevo-automation",
+    "name": "brevo-automation",
+    "description": "Automate Brevo (formerly Sendinblue) email marketing operations through Composio's Brevo toolkit via Rube MCP.",
+    "category": "Marketing",
+    "tags": [
+      "brevo",
+      "automation",
+      "automate",
+      "formerly",
+      "sendinblue",
+      "email",
+      "marketing",
+      "operations",
+      "through",
+      "composio",
+      "toolkit",
+      "via",
+      "rube",
+      "mcp."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/brevo-automation",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brevo-automation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9234,
+    "sha256": "ed263aad876f523b636acbb149bc6d999eaf18e0a39427a6897e05bc4753bad9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/brevo-automation/SKILL.md",
+      "bytes": 8161,
+      "sha256": "ed263aad876f523b636acbb149bc6d999eaf18e0a39427a6897e05bc4753bad9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brevo-automation/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "723aa47a4072794f926871aef6c133bae4dfa4f57099ec6fa09c44c2adb60b98"
+}

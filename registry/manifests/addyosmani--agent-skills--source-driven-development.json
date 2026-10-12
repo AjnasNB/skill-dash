@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"addyosmani--agent-skills--source-driven-development","name":"source-driven-development","description":"Grounds every implementation decision in official documentation. Use when you want to verify an approach against the official docs before implementing it, or when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.","category":"Writing","tags":["source","driven","development","grounds","every","implementation","decision","official","documentation.","when","you","verify","approach","against","docs","before","implementing","it"],"repo":"addyosmani/agent-skills","owner":"addyosmani","stars":105293,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1be8e34187e34647bb83adc3a1323b26ae6f6abe","path":"skills/source-driven-development","sourceUrl":"https://github.com/addyosmani/agent-skills/tree/1be8e34187e34647bb83adc3a1323b26ae6f6abe/skills/source-driven-development","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-10T08:28:48Z","fileCount":2,"bytes":11106,"sha256":"c59faf851377f0eeda45306398d16eb96d77ab1c2fd3e1a7fb58e9a0af33c1e9","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/source-driven-development/SKILL.md","bytes":10038,"sha256":"c59faf851377f0eeda45306398d16eb96d77ab1c2fd3e1a7fb58e9a0af33c1e9","mode":420,"url":"https://raw.githubusercontent.com/addyosmani/agent-skills/1be8e34187e34647bb83adc3a1323b26ae6f6abe/skills/source-driven-development/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1068,"sha256":"6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7","mode":420,"url":"https://raw.githubusercontent.com/addyosmani/agent-skills/1be8e34187e34647bb83adc3a1323b26ae6f6abe/LICENSE"}],"archiveSha256":"0434cb26adb6ec8cc16a9d97e28b4c3a126b78887fc2268208af7c19114f72d7"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "addyosmani--agent-skills--source-driven-development",
+    "name": "source-driven-development",
+    "description": "Grounds every implementation decision in official documentation. Use when you want to verify an approach against the official docs before implementing it, or when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.",
+    "category": "Writing",
+    "tags": [
+      "source",
+      "driven",
+      "development",
+      "grounds",
+      "every",
+      "implementation",
+      "decision",
+      "official",
+      "documentation.",
+      "when",
+      "you",
+      "verify",
+      "approach",
+      "against",
+      "docs",
+      "before",
+      "implementing",
+      "it"
+    ],
+    "repo": "addyosmani/agent-skills",
+    "owner": "addyosmani",
+    "stars": 105293,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1be8e34187e34647bb83adc3a1323b26ae6f6abe",
+    "path": "skills/source-driven-development",
+    "sourceUrl": "https://github.com/addyosmani/agent-skills/tree/1be8e34187e34647bb83adc3a1323b26ae6f6abe/skills/source-driven-development",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-10T08:28:48Z",
+    "fileCount": 2,
+    "bytes": 11106,
+    "sha256": "c59faf851377f0eeda45306398d16eb96d77ab1c2fd3e1a7fb58e9a0af33c1e9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/source-driven-development/SKILL.md",
+      "bytes": 10038,
+      "sha256": "c59faf851377f0eeda45306398d16eb96d77ab1c2fd3e1a7fb58e9a0af33c1e9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/addyosmani/agent-skills/1be8e34187e34647bb83adc3a1323b26ae6f6abe/skills/source-driven-development/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1068,
+      "sha256": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/addyosmani/agent-skills/1be8e34187e34647bb83adc3a1323b26ae6f6abe/LICENSE"
+    }
+  ],
+  "archiveSha256": "0434cb26adb6ec8cc16a9d97e28b4c3a126b78887fc2268208af7c19114f72d7"
+}

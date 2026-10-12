@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--antigravity-design-expert","name":"antigravity-design-expert","description":"Core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.","category":"Design","tags":["antigravity","design","expert","core","ui","ux","engineering","skill","building","highly","interactive","spatial","weightless","glassmorphism","based","web","interfaces","gsap"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/antigravity-design-expert","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/antigravity-design-expert","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4557,"sha256":"f755d5a18ed77ce189823c68613111b46b0fa1d6d9c0f072b88adff2b3a0f0b7","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/antigravity-design-expert/SKILL.md","bytes":3484,"sha256":"f755d5a18ed77ce189823c68613111b46b0fa1d6d9c0f072b88adff2b3a0f0b7","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/antigravity-design-expert/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"45394f3d6cfd951eb8d3187d6fe16e3bf0f66d20e791babaa4e7c22982954be5"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--antigravity-design-expert",
+    "name": "antigravity-design-expert",
+    "description": "Core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.",
+    "category": "Design",
+    "tags": [
+      "antigravity",
+      "design",
+      "expert",
+      "core",
+      "ui",
+      "ux",
+      "engineering",
+      "skill",
+      "building",
+      "highly",
+      "interactive",
+      "spatial",
+      "weightless",
+      "glassmorphism",
+      "based",
+      "web",
+      "interfaces",
+      "gsap"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/antigravity-design-expert",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/antigravity-design-expert",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4557,
+    "sha256": "f755d5a18ed77ce189823c68613111b46b0fa1d6d9c0f072b88adff2b3a0f0b7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/antigravity-design-expert/SKILL.md",
+      "bytes": 3484,
+      "sha256": "f755d5a18ed77ce189823c68613111b46b0fa1d6d9c0f072b88adff2b3a0f0b7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/antigravity-design-expert/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "45394f3d6cfd951eb8d3187d6fe16e3bf0f66d20e791babaa4e7c22982954be5"
+}

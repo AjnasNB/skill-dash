@@ -1,1 +1,192 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--fluidsim","name":"fluidsim","description":"Plans, configures, inspects, restarts, and analyzes bounded FluidSim computational-fluid-dynamics simulations with explicit numerical-validity and HPC safety checks. Use for FluidSim solver selection, parameter review, FFT/MPI setup, output diagnostics, or restart compatibility.","category":"Development","tags":["fluidsim","plans","configures","inspects","restarts","analyzes","bounded","computational","fluid","dynamics","simulations","explicit","numerical","validity","hpc","safety","checks.","solver"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/fluidsim","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":18,"bytes":208056,"sha256":"7784bbf33615014f5965ff1db3d11bcc42e1bc4bb1f18f26208c62892b66df28","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/fluidsim/SKILL.md","bytes":14005,"sha256":"7784bbf33615014f5965ff1db3d11bcc42e1bc4bb1f18f26208c62892b66df28","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/SKILL.md"},{"path":"references/advanced_features.md","sourcePath":"skills/fluidsim/references/advanced_features.md","bytes":11806,"sha256":"95190bbe71a3b45ecf4fd7925e249c7f3386a298c0f77d191b95a0a5a0534b76","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/references/advanced_features.md"},{"path":"references/installation.md","sourcePath":"skills/fluidsim/references/installation.md","bytes":10455,"sha256":"b8fa4dec90e43dfa3ce3daadb7800c927af739a2df4f945028352aac710088f7","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/references/installation.md"},{"path":"references/output_analysis.md","sourcePath":"skills/fluidsim/references/output_analysis.md","bytes":11322,"sha256":"6df3b6344818410b3ae059fd593f7935d57f77f4c344b151dce3ce5881c91d1c","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/references/output_analysis.md"},{"path":"references/parameters.md","sourcePath":"skills/fluidsim/references/parameters.md","bytes":10710,"sha256":"caae7e4024af2042145a4aa2bab18da53f4b2498dcdfcc121ecd71e25032024f","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/references/parameters.md"},{"path":"references/simulation_workflow.md","sourcePath":"skills/fluidsim/references/simulation_workflow.md","bytes":12650,"sha256":"61ee56f8d1e86be9eee8b89f656948344a82f1cbf07d9f97471574c78e1b5655","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/references/simulation_workflow.md"},{"path":"references/solvers.md","sourcePath":"skills/fluidsim/references/solvers.md","bytes":8324,"sha256":"05aa4b8b4c030ad017528636464af43b221762329638b5d409026458c97ef7d9","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/references/solvers.md"},{"path":"scripts/__init__.py","sourcePath":"skills/fluidsim/scripts/__init__.py","bytes":74,"sha256":"93b33cb86288cb882ac5876c2cc1db9bae72fc96296abc75c7ecfab97a052989","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/scripts/__init__.py"},{"path":"scripts/_common.py","sourcePath":"skills/fluidsim/scripts/_common.py","bytes":15709,"sha256":"b705a7bba218497a655bf8d1bbfe7d7ee97e09f5bf70be1564718a9835e35293","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/scripts/_common.py"},{"path":"scripts/_profiles.py","sourcePath":"skills/fluidsim/scripts/_profiles.py","bytes":12628,"sha256":"256cb706ee57ff93db7404258fb1ff3a20377a7f375be2d1e05c507d07e44590","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/scripts/_profiles.py"},{"path":"scripts/_schema.py","sourcePath":"skills/fluidsim/scripts/_schema.py","bytes":31497,"sha256":"2a8a382b366c803bfc0dcf2fe6859f95a2033566e2e68ed66bb18511b45b21e4","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/scripts/_schema.py"},{"path":"scripts/budget_summary.py","sourcePath":"skills/fluidsim/scripts/budget_summary.py","bytes":14541,"sha256":"92c081fae97e377540cb6c11e1a3a633550d609d716c5cc90c97fd551cbdef2b","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/scripts/budget_summary.py"},{"path":"scripts/grid_resource_estimator.py","sourcePath":"skills/fluidsim/scripts/grid_resource_estimator.py","bytes":9695,"sha256":"dae8e7777996bb64799be2d2c258a1da31e69ba9fdf975c53db4ad72467498e0","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/scripts/grid_resource_estimator.py"},{"path":"scripts/output_inventory.py","sourcePath":"skills/fluidsim/scripts/output_inventory.py","bytes":11198,"sha256":"b57238d1a3d02c0a440676642b562f79a8e9338559b228d14d7f40b5d7517194","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/scripts/output_inventory.py"},{"path":"scripts/restart_compatibility.py","sourcePath":"skills/fluidsim/scripts/restart_compatibility.py","bytes":19943,"sha256":"6f2900fd08cf047ab0fb80d970eb033c3855695afb0e56176efbf7d5772d7d1f","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/scripts/restart_compatibility.py"},{"path":"scripts/simulation_dry_run.py","sourcePath":"skills/fluidsim/scripts/simulation_dry_run.py","bytes":10324,"sha256":"3bab7bf15e0037caa5c3758c54c00eecb860ba1444c6210460600669e62fd561","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/scripts/simulation_dry_run.py"},{"path":"scripts/solver_config_validator.py","sourcePath":"skills/fluidsim/scripts/solver_config_validator.py","bytes":2107,"sha256":"afd7f5d9581fee0229bfb3ad167e57fe6fe407b16fe404ab60bef4aed51cec4b","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/scripts/solver_config_validator.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"598d895336354439ff82da0d5ae0e7483a274ca05accdeb9064903513c46e80e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--fluidsim",
+    "name": "fluidsim",
+    "description": "Plans, configures, inspects, restarts, and analyzes bounded FluidSim computational-fluid-dynamics simulations with explicit numerical-validity and HPC safety checks. Use for FluidSim solver selection, parameter review, FFT/MPI setup, output diagnostics, or restart compatibility.",
+    "category": "Development",
+    "tags": [
+      "fluidsim",
+      "plans",
+      "configures",
+      "inspects",
+      "restarts",
+      "analyzes",
+      "bounded",
+      "computational",
+      "fluid",
+      "dynamics",
+      "simulations",
+      "explicit",
+      "numerical",
+      "validity",
+      "hpc",
+      "safety",
+      "checks.",
+      "solver"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/fluidsim",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 18,
+    "bytes": 208056,
+    "sha256": "7784bbf33615014f5965ff1db3d11bcc42e1bc4bb1f18f26208c62892b66df28",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/fluidsim/SKILL.md",
+      "bytes": 14005,
+      "sha256": "7784bbf33615014f5965ff1db3d11bcc42e1bc4bb1f18f26208c62892b66df28",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/SKILL.md"
+    },
+    {
+      "path": "references/advanced_features.md",
+      "sourcePath": "skills/fluidsim/references/advanced_features.md",
+      "bytes": 11806,
+      "sha256": "95190bbe71a3b45ecf4fd7925e249c7f3386a298c0f77d191b95a0a5a0534b76",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/references/advanced_features.md"
+    },
+    {
+      "path": "references/installation.md",
+      "sourcePath": "skills/fluidsim/references/installation.md",
+      "bytes": 10455,
+      "sha256": "b8fa4dec90e43dfa3ce3daadb7800c927af739a2df4f945028352aac710088f7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/references/installation.md"
+    },
+    {
+      "path": "references/output_analysis.md",
+      "sourcePath": "skills/fluidsim/references/output_analysis.md",
+      "bytes": 11322,
+      "sha256": "6df3b6344818410b3ae059fd593f7935d57f77f4c344b151dce3ce5881c91d1c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/references/output_analysis.md"
+    },
+    {
+      "path": "references/parameters.md",
+      "sourcePath": "skills/fluidsim/references/parameters.md",
+      "bytes": 10710,
+      "sha256": "caae7e4024af2042145a4aa2bab18da53f4b2498dcdfcc121ecd71e25032024f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/references/parameters.md"
+    },
+    {
+      "path": "references/simulation_workflow.md",
+      "sourcePath": "skills/fluidsim/references/simulation_workflow.md",
+      "bytes": 12650,
+      "sha256": "61ee56f8d1e86be9eee8b89f656948344a82f1cbf07d9f97471574c78e1b5655",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/references/simulation_workflow.md"
+    },
+    {
+      "path": "references/solvers.md",
+      "sourcePath": "skills/fluidsim/references/solvers.md",
+      "bytes": 8324,
+      "sha256": "05aa4b8b4c030ad017528636464af43b221762329638b5d409026458c97ef7d9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/references/solvers.md"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "sourcePath": "skills/fluidsim/scripts/__init__.py",
+      "bytes": 74,
+      "sha256": "93b33cb86288cb882ac5876c2cc1db9bae72fc96296abc75c7ecfab97a052989",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/scripts/__init__.py"
+    },
+    {
+      "path": "scripts/_common.py",
+      "sourcePath": "skills/fluidsim/scripts/_common.py",
+      "bytes": 15709,
+      "sha256": "b705a7bba218497a655bf8d1bbfe7d7ee97e09f5bf70be1564718a9835e35293",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/scripts/_common.py"
+    },
+    {
+      "path": "scripts/_profiles.py",
+      "sourcePath": "skills/fluidsim/scripts/_profiles.py",
+      "bytes": 12628,
+      "sha256": "256cb706ee57ff93db7404258fb1ff3a20377a7f375be2d1e05c507d07e44590",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/scripts/_profiles.py"
+    },
+    {
+      "path": "scripts/_schema.py",
+      "sourcePath": "skills/fluidsim/scripts/_schema.py",
+      "bytes": 31497,
+      "sha256": "2a8a382b366c803bfc0dcf2fe6859f95a2033566e2e68ed66bb18511b45b21e4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/scripts/_schema.py"
+    },
+    {
+      "path": "scripts/budget_summary.py",
+      "sourcePath": "skills/fluidsim/scripts/budget_summary.py",
+      "bytes": 14541,
+      "sha256": "92c081fae97e377540cb6c11e1a3a633550d609d716c5cc90c97fd551cbdef2b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/scripts/budget_summary.py"
+    },
+    {
+      "path": "scripts/grid_resource_estimator.py",
+      "sourcePath": "skills/fluidsim/scripts/grid_resource_estimator.py",
+      "bytes": 9695,
+      "sha256": "dae8e7777996bb64799be2d2c258a1da31e69ba9fdf975c53db4ad72467498e0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/scripts/grid_resource_estimator.py"
+    },
+    {
+      "path": "scripts/output_inventory.py",
+      "sourcePath": "skills/fluidsim/scripts/output_inventory.py",
+      "bytes": 11198,
+      "sha256": "b57238d1a3d02c0a440676642b562f79a8e9338559b228d14d7f40b5d7517194",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/scripts/output_inventory.py"
+    },
+    {
+      "path": "scripts/restart_compatibility.py",
+      "sourcePath": "skills/fluidsim/scripts/restart_compatibility.py",
+      "bytes": 19943,
+      "sha256": "6f2900fd08cf047ab0fb80d970eb033c3855695afb0e56176efbf7d5772d7d1f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/scripts/restart_compatibility.py"
+    },
+    {
+      "path": "scripts/simulation_dry_run.py",
+      "sourcePath": "skills/fluidsim/scripts/simulation_dry_run.py",
+      "bytes": 10324,
+      "sha256": "3bab7bf15e0037caa5c3758c54c00eecb860ba1444c6210460600669e62fd561",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/scripts/simulation_dry_run.py"
+    },
+    {
+      "path": "scripts/solver_config_validator.py",
+      "sourcePath": "skills/fluidsim/scripts/solver_config_validator.py",
+      "bytes": 2107,
+      "sha256": "afd7f5d9581fee0229bfb3ad167e57fe6fe407b16fe404ab60bef4aed51cec4b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/fluidsim/scripts/solver_config_validator.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "598d895336354439ff82da0d5ae0e7483a274ca05accdeb9064903513c46e80e"
+}

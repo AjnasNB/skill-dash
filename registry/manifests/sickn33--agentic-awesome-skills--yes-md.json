@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--yes-md","name":"yes-md","description":"6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest.","category":"Development","tags":["yes","md","layer","ai","governance","safety","gates","evidence","based","debugging","anti","slack","detection","machine","enforced","hooks.","makes","safe"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/yes-md","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/yes-md","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12236,"sha256":"8fbd63e871333964bad038a87065f9d6e69ce8979eb070e577bb0bbf33bff9ba","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/yes-md/SKILL.md","bytes":11163,"sha256":"8fbd63e871333964bad038a87065f9d6e69ce8979eb070e577bb0bbf33bff9ba","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/yes-md/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"ec9c2ef2d153c7ed870bb3b245ffc787078cfcfe69622daf54a8f2f3f7421fcc"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--yes-md",
+    "name": "yes-md",
+    "description": "6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest.",
+    "category": "Development",
+    "tags": [
+      "yes",
+      "md",
+      "layer",
+      "ai",
+      "governance",
+      "safety",
+      "gates",
+      "evidence",
+      "based",
+      "debugging",
+      "anti",
+      "slack",
+      "detection",
+      "machine",
+      "enforced",
+      "hooks.",
+      "makes",
+      "safe"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/yes-md",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/yes-md",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12236,
+    "sha256": "8fbd63e871333964bad038a87065f9d6e69ce8979eb070e577bb0bbf33bff9ba",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/yes-md/SKILL.md",
+      "bytes": 11163,
+      "sha256": "8fbd63e871333964bad038a87065f9d6e69ce8979eb070e577bb0bbf33bff9ba",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/yes-md/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ec9c2ef2d153c7ed870bb3b245ffc787078cfcfe69622daf54a8f2f3f7421fcc"
+}

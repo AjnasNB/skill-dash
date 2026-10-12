@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--quarkus-patterns","name":"quarkus-patterns","description":"Quarkus 3.x LTS architecture patterns with Camel for messaging, RESTful API design, CDI services, data access with Panache, and async processing. Use for Java Quarkus backend work with event-driven architectures. Use when building or reviewing a Quarkus service, especially with Camel messaging or Panache data access.","category":"Design","tags":["quarkus","patterns","3.x","lts","architecture","camel","messaging","restful","api","design","cdi","services","data","access","panache","async","processing.","java"],"repo":"affaan-m/ECC","owner":"affaan-m","stars":277532,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"b92f181b3b748d1abbc2afd94af6aa7d8c8fca29","path":"skills/quarkus-patterns","sourceUrl":"https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/quarkus-patterns","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T02:02:10Z","fileCount":2,"bytes":22591,"sha256":"5f91bed186170a23837452508fc731ec4cada0a337ae95b1327f80311fa6ab6b","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/quarkus-patterns/SKILL.md","bytes":21520,"sha256":"5f91bed186170a23837452508fc731ec4cada0a337ae95b1327f80311fa6ab6b","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/quarkus-patterns/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"}],"archiveSha256":"567449015e4290c42a2ce437379fd0d1061c0c1539ce3bd33ed577f144e3213d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--quarkus-patterns",
+    "name": "quarkus-patterns",
+    "description": "Quarkus 3.x LTS architecture patterns with Camel for messaging, RESTful API design, CDI services, data access with Panache, and async processing. Use for Java Quarkus backend work with event-driven architectures. Use when building or reviewing a Quarkus service, especially with Camel messaging or Panache data access.",
+    "category": "Design",
+    "tags": [
+      "quarkus",
+      "patterns",
+      "3.x",
+      "lts",
+      "architecture",
+      "camel",
+      "messaging",
+      "restful",
+      "api",
+      "design",
+      "cdi",
+      "services",
+      "data",
+      "access",
+      "panache",
+      "async",
+      "processing.",
+      "java"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/quarkus-patterns",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/quarkus-patterns",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 2,
+    "bytes": 22591,
+    "sha256": "5f91bed186170a23837452508fc731ec4cada0a337ae95b1327f80311fa6ab6b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/quarkus-patterns/SKILL.md",
+      "bytes": 21520,
+      "sha256": "5f91bed186170a23837452508fc731ec4cada0a337ae95b1327f80311fa6ab6b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/quarkus-patterns/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "567449015e4290c42a2ce437379fd0d1061c0c1539ce3bd33ed577f144e3213d"
+}

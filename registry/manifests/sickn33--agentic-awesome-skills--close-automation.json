@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--close-automation","name":"close-automation","description":"Automate Close CRM tasks via Rube MCP (Composio): create leads, manage calls/SMS, handle tasks, and track notes. Always search tools first for current schemas.","category":"AI & agents","tags":["close","automation","automate","crm","tasks","via","rube","mcp","composio","leads","manage","calls","sms","handle","track","notes.","always","search"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/close-automation","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/close-automation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":8172,"sha256":"64ab2c5b554f881e8cd6a94730f3da50d15f55b70287b2711db0a48ff37a16c6","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/close-automation/SKILL.md","bytes":7099,"sha256":"64ab2c5b554f881e8cd6a94730f3da50d15f55b70287b2711db0a48ff37a16c6","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/close-automation/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"273d065b46f06823bdb6ca024d46ba06a18c5f6089f82a4317606a8f0ce44d7a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--close-automation",
+    "name": "close-automation",
+    "description": "Automate Close CRM tasks via Rube MCP (Composio): create leads, manage calls/SMS, handle tasks, and track notes. Always search tools first for current schemas.",
+    "category": "AI & agents",
+    "tags": [
+      "close",
+      "automation",
+      "automate",
+      "crm",
+      "tasks",
+      "via",
+      "rube",
+      "mcp",
+      "composio",
+      "leads",
+      "manage",
+      "calls",
+      "sms",
+      "handle",
+      "track",
+      "notes.",
+      "always",
+      "search"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/close-automation",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/close-automation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 8172,
+    "sha256": "64ab2c5b554f881e8cd6a94730f3da50d15f55b70287b2711db0a48ff37a16c6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/close-automation/SKILL.md",
+      "bytes": 7099,
+      "sha256": "64ab2c5b554f881e8cd6a94730f3da50d15f55b70287b2711db0a48ff37a16c6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/close-automation/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "273d065b46f06823bdb6ca024d46ba06a18c5f6089f82a4317606a8f0ce44d7a"
+}

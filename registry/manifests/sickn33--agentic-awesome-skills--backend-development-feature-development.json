@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--backend-development-feature-development","name":"backend-development-feature-development","description":"Orchestrate end-to-end backend feature development from requirements to deployment. Use when coordinating multi-phase feature delivery across teams and services.","category":"Cloud & DevOps","tags":["backend","development","feature","orchestrate","end","from","requirements","deployment.","when","coordinating","multi","phase","delivery","across","teams","services."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/backend-development-feature-development","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/backend-development-feature-development","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12759,"sha256":"ad851e56d945adae6132a6857c49dc921aeb133bf9e4f1786b2b1df64aee58e8","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/backend-development-feature-development/SKILL.md","bytes":11686,"sha256":"ad851e56d945adae6132a6857c49dc921aeb133bf9e4f1786b2b1df64aee58e8","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/backend-development-feature-development/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"27023104fc118d07ff79044d3449795adcfd0a613115e80f3f0ce27d7e2e144a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--backend-development-feature-development",
+    "name": "backend-development-feature-development",
+    "description": "Orchestrate end-to-end backend feature development from requirements to deployment. Use when coordinating multi-phase feature delivery across teams and services.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "backend",
+      "development",
+      "feature",
+      "orchestrate",
+      "end",
+      "from",
+      "requirements",
+      "deployment.",
+      "when",
+      "coordinating",
+      "multi",
+      "phase",
+      "delivery",
+      "across",
+      "teams",
+      "services."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/backend-development-feature-development",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/backend-development-feature-development",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12759,
+    "sha256": "ad851e56d945adae6132a6857c49dc921aeb133bf9e4f1786b2b1df64aee58e8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/backend-development-feature-development/SKILL.md",
+      "bytes": 11686,
+      "sha256": "ad851e56d945adae6132a6857c49dc921aeb133bf9e4f1786b2b1df64aee58e8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/backend-development-feature-development/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "27023104fc118d07ff79044d3449795adcfd0a613115e80f3f0ce27d7e2e144a"
+}

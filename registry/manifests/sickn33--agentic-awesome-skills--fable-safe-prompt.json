@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--fable-safe-prompt","name":"fable-safe-prompt","description":"Rewrite allowed prompts to reduce false-positive safety triggers without bypassing policy or changing intent.","category":"AI & agents","tags":["fable","safe","prompt","rewrite","allowed","prompts","reduce","false","positive","safety","triggers","without","bypassing","policy","changing","intent."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/fable-safe-prompt","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fable-safe-prompt","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6134,"sha256":"cfa94982fbfbf9c22a3d6930fc7f79afde13cfa901d3805a37bded99143d9266","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/fable-safe-prompt/SKILL.md","bytes":5061,"sha256":"cfa94982fbfbf9c22a3d6930fc7f79afde13cfa901d3805a37bded99143d9266","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fable-safe-prompt/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"dcc30db4ab0a59856970fc4eae1d7e218fb4ed6b8f576c1d23f3926bb726dc7f"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--fable-safe-prompt",
+    "name": "fable-safe-prompt",
+    "description": "Rewrite allowed prompts to reduce false-positive safety triggers without bypassing policy or changing intent.",
+    "category": "AI & agents",
+    "tags": [
+      "fable",
+      "safe",
+      "prompt",
+      "rewrite",
+      "allowed",
+      "prompts",
+      "reduce",
+      "false",
+      "positive",
+      "safety",
+      "triggers",
+      "without",
+      "bypassing",
+      "policy",
+      "changing",
+      "intent."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/fable-safe-prompt",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fable-safe-prompt",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6134,
+    "sha256": "cfa94982fbfbf9c22a3d6930fc7f79afde13cfa901d3805a37bded99143d9266",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/fable-safe-prompt/SKILL.md",
+      "bytes": 5061,
+      "sha256": "cfa94982fbfbf9c22a3d6930fc7f79afde13cfa901d3805a37bded99143d9266",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fable-safe-prompt/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "dcc30db4ab0a59856970fc4eae1d7e218fb4ed6b8f576c1d23f3926bb726dc7f"
+}

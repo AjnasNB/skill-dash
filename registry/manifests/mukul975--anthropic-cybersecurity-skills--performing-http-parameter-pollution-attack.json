@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-http-parameter-pollution-attack","name":"performing-http-parameter-pollution-attack","description":"Executes HTTP Parameter Pollution attacks that inject duplicate request parameters to bypass input validation, WAF rules, and other security controls when front-end and back-end systems parse duplicate parameters differently. Use during web application penetration testing to test for parameter parsing inconsistencies or WAF/validation bypass.","category":"Security","tags":["performing","http","parameter","pollution","attack","executes","attacks","inject","duplicate","request","parameters","bypass","input","validation","waf","rules","other","security"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-http-parameter-pollution-attack/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-http-parameter-pollution-attack","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-http-parameter-pollution-attack","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":28002,"sha256":"a5ec8a0d8a7481170d5705116f2f947222112c81fad6423d2b74a6ec9f64405f","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-http-parameter-pollution-attack/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-http-parameter-pollution-attack/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-http-parameter-pollution-attack/SKILL.md","bytes":7959,"sha256":"a5ec8a0d8a7481170d5705116f2f947222112c81fad6423d2b74a6ec9f64405f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-http-parameter-pollution-attack/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-http-parameter-pollution-attack/references/api-reference.md","bytes":1590,"sha256":"f98f82753a49198c6737f9dacb37305de476ae90c6092ea3d158f65e5283269f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-http-parameter-pollution-attack/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-http-parameter-pollution-attack/scripts/agent.py","bytes":7198,"sha256":"48432bfa622bdb0a7a6811f6b8ed7618904153cda134b4c3e6c60415939f50b0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-http-parameter-pollution-attack/scripts/agent.py"}],"archiveSha256":"da64472d547cada2c0ed41a52a05f8eaae844b2f5aa3b9d62f44359fe192402d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-http-parameter-pollution-attack",
+    "name": "performing-http-parameter-pollution-attack",
+    "description": "Executes HTTP Parameter Pollution attacks that inject duplicate request parameters to bypass input validation, WAF rules, and other security controls when front-end and back-end systems parse duplicate parameters differently. Use during web application penetration testing to test for parameter parsing inconsistencies or WAF/validation bypass.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "http",
+      "parameter",
+      "pollution",
+      "attack",
+      "executes",
+      "attacks",
+      "inject",
+      "duplicate",
+      "request",
+      "parameters",
+      "bypass",
+      "input",
+      "validation",
+      "waf",
+      "rules",
+      "other",
+      "security"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-http-parameter-pollution-attack/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-http-parameter-pollution-attack",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-http-parameter-pollution-attack",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 28002,
+    "sha256": "a5ec8a0d8a7481170d5705116f2f947222112c81fad6423d2b74a6ec9f64405f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-http-parameter-pollution-attack/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-http-parameter-pollution-attack/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-http-parameter-pollution-attack/SKILL.md",
+      "bytes": 7959,
+      "sha256": "a5ec8a0d8a7481170d5705116f2f947222112c81fad6423d2b74a6ec9f64405f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-http-parameter-pollution-attack/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-http-parameter-pollution-attack/references/api-reference.md",
+      "bytes": 1590,
+      "sha256": "f98f82753a49198c6737f9dacb37305de476ae90c6092ea3d158f65e5283269f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-http-parameter-pollution-attack/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-http-parameter-pollution-attack/scripts/agent.py",
+      "bytes": 7198,
+      "sha256": "48432bfa622bdb0a7a6811f6b8ed7618904153cda134b4c3e6c60415939f50b0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-http-parameter-pollution-attack/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "da64472d547cada2c0ed41a52a05f8eaae844b2f5aa3b9d62f44359fe192402d"
+}

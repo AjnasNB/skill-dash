@@ -1,1 +1,224 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--pptx-posters","name":"pptx-posters","description":"Creates and audits editable scientific posters in macro-free PowerPoint (.pptx) from author-approved local content and assets. Used when the requested deliverable is a PowerPoint research/conference poster and exact physical, printer, accessibility, provenance, and package-security checks are required.","category":"Documents","tags":["pptx","posters","creates","audits","editable","scientific","macro","free","powerpoint",".pptx","from","author","approved","local","content","assets.","used","when"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/pptx-posters","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":22,"bytes":254199,"sha256":"bb4923ec520ac5175f837e75c8b600344cc1eb71490b1fa9c809ac65e64f1fb9","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/pptx-posters/SKILL.md","bytes":12459,"sha256":"bb4923ec520ac5175f837e75c8b600344cc1eb71490b1fa9c809ac65e64f1fb9","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/SKILL.md"},{"path":"assets/generation_dependencies.json","sourcePath":"skills/pptx-posters/assets/generation_dependencies.json","bytes":70,"sha256":"49a5cfa05452a2f0705564403bc2a5112715c9930d6e2bc7ccd5f6a739719a94","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/assets/generation_dependencies.json"},{"path":"assets/poster_manifest_template.json","sourcePath":"skills/pptx-posters/assets/poster_manifest_template.json","bytes":4494,"sha256":"89a90c38b843132c303844d311a525eade912a746e800ff933513f31b6e17930","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/assets/poster_manifest_template.json"},{"path":"assets/poster_quality_checklist.md","sourcePath":"skills/pptx-posters/assets/poster_quality_checklist.md","bytes":8710,"sha256":"80652cf483e62b806fe93a72a62350532f9b60b4bdcb91f0f5cfb5b55f9b90e3","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/assets/poster_quality_checklist.md"},{"path":"references/manifest_spec.md","sourcePath":"skills/pptx-posters/references/manifest_spec.md","bytes":9406,"sha256":"e0cfd7cff23044eac88778250b405d90c82b52877eda8ad6ac3b33edb5d2d16c","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/references/manifest_spec.md"},{"path":"references/poster_content_guide.md","sourcePath":"skills/pptx-posters/references/poster_content_guide.md","bytes":7789,"sha256":"dea961f67f1da228da3deb873770f61780789108183450d84f93078d40884a63","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/references/poster_content_guide.md"},{"path":"references/poster_design_principles.md","sourcePath":"skills/pptx-posters/references/poster_design_principles.md","bytes":10566,"sha256":"7fac4022b656ad9dc529a7a9fc192b88818db7217798941fbb1a4ca3beb6ed4c","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/references/poster_design_principles.md"},{"path":"references/poster_layout_design.md","sourcePath":"skills/pptx-posters/references/poster_layout_design.md","bytes":8607,"sha256":"1de74eb36dad66918b625861406f0d939d6c50a2c03035f1e6c53481412310de","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/references/poster_layout_design.md"},{"path":"references/pptx_security.md","sourcePath":"skills/pptx-posters/references/pptx_security.md","bytes":8913,"sha256":"a349556e4be4db69153a3ca6a00a1cd8212b218e5d38b0861929cb2be9fd2fed","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/references/pptx_security.md"},{"path":"references/security_validation.md","sourcePath":"skills/pptx-posters/references/security_validation.md","bytes":4429,"sha256":"7816362599697b0e01d4b01861711d6a212d1d09d358282c272d856f12632f00","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/references/security_validation.md"},{"path":"references/source_ledger.md","sourcePath":"skills/pptx-posters/references/source_ledger.md","bytes":14826,"sha256":"95f151df546050a949b5364d145227da0030bfb97abcb40b41a4a17ca1658deb","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/references/source_ledger.md"},{"path":"scripts/_common.py","sourcePath":"skills/pptx-posters/scripts/_common.py","bytes":13542,"sha256":"9e3ccb3dd3ad34802a3b79f0c5b12d7c82f32fa7513bf3a7d340707f3ed0846c","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/scripts/_common.py"},{"path":"scripts/_manifest.py","sourcePath":"skills/pptx-posters/scripts/_manifest.py","bytes":46762,"sha256":"14188676f811c23cadaecf85ec9fc2c27f21b22ba9bd35a82480ad9f4253940c","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/scripts/_manifest.py"},{"path":"scripts/_pptx.py","sourcePath":"skills/pptx-posters/scripts/_pptx.py","bytes":54581,"sha256":"7c350c4aa56db63ae2789c499ad8b48a037a0847d4d0408adfe99a0054ad0394","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/scripts/_pptx.py"},{"path":"scripts/check_layout.py","sourcePath":"skills/pptx-posters/scripts/check_layout.py","bytes":5952,"sha256":"d49588b8c9658abe3e621b2ddbbf9fd7253e3b2f0e01185eb145a1c8d23d9d5b","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/scripts/check_layout.py"},{"path":"scripts/check_palette.py","sourcePath":"skills/pptx-posters/scripts/check_palette.py","bytes":4856,"sha256":"f9bfc91cfc9c95461acb6c7ade5c4cf60fa76ebf2e2cdd818ed4b9a13ced6b32","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/scripts/check_palette.py"},{"path":"scripts/generate_poster.py","sourcePath":"skills/pptx-posters/scripts/generate_poster.py","bytes":15401,"sha256":"b8ce6011c1a17191b62f73e2563e2b2d65f85d74a91c9b62650fa43b0f42b34c","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/scripts/generate_poster.py"},{"path":"scripts/inspect_pptx.py","sourcePath":"skills/pptx-posters/scripts/inspect_pptx.py","bytes":1254,"sha256":"76b504075af984436db03b7d093cc80a373c3388c993cda7c4a2be4668aebafc","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/scripts/inspect_pptx.py"},{"path":"scripts/inventory_images.py","sourcePath":"skills/pptx-posters/scripts/inventory_images.py","bytes":9603,"sha256":"07c6df85ca9f05510224c4e976b344d46a218d1843d9f31196adae31d975ed82","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/scripts/inventory_images.py"},{"path":"scripts/plan_export.py","sourcePath":"skills/pptx-posters/scripts/plan_export.py","bytes":9265,"sha256":"e428f3b29b584898508cf1571a5515155c603b5b3d5276be5c92de23a1237e86","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/scripts/plan_export.py"},{"path":"scripts/validate_manifest.py","sourcePath":"skills/pptx-posters/scripts/validate_manifest.py","bytes":1646,"sha256":"e888bc04fca0e326091e6be509fa31d9b5097127aaf42bb045aa337320237c33","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/scripts/validate_manifest.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"8a9b413bbe0b4725cbeab4a8cc63ab76444acd6dca863b5d0570c1959513b528"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--pptx-posters",
+    "name": "pptx-posters",
+    "description": "Creates and audits editable scientific posters in macro-free PowerPoint (.pptx) from author-approved local content and assets. Used when the requested deliverable is a PowerPoint research/conference poster and exact physical, printer, accessibility, provenance, and package-security checks are required.",
+    "category": "Documents",
+    "tags": [
+      "pptx",
+      "posters",
+      "creates",
+      "audits",
+      "editable",
+      "scientific",
+      "macro",
+      "free",
+      "powerpoint",
+      ".pptx",
+      "from",
+      "author",
+      "approved",
+      "local",
+      "content",
+      "assets.",
+      "used",
+      "when"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/pptx-posters",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 22,
+    "bytes": 254199,
+    "sha256": "bb4923ec520ac5175f837e75c8b600344cc1eb71490b1fa9c809ac65e64f1fb9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/pptx-posters/SKILL.md",
+      "bytes": 12459,
+      "sha256": "bb4923ec520ac5175f837e75c8b600344cc1eb71490b1fa9c809ac65e64f1fb9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/SKILL.md"
+    },
+    {
+      "path": "assets/generation_dependencies.json",
+      "sourcePath": "skills/pptx-posters/assets/generation_dependencies.json",
+      "bytes": 70,
+      "sha256": "49a5cfa05452a2f0705564403bc2a5112715c9930d6e2bc7ccd5f6a739719a94",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/assets/generation_dependencies.json"
+    },
+    {
+      "path": "assets/poster_manifest_template.json",
+      "sourcePath": "skills/pptx-posters/assets/poster_manifest_template.json",
+      "bytes": 4494,
+      "sha256": "89a90c38b843132c303844d311a525eade912a746e800ff933513f31b6e17930",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/assets/poster_manifest_template.json"
+    },
+    {
+      "path": "assets/poster_quality_checklist.md",
+      "sourcePath": "skills/pptx-posters/assets/poster_quality_checklist.md",
+      "bytes": 8710,
+      "sha256": "80652cf483e62b806fe93a72a62350532f9b60b4bdcb91f0f5cfb5b55f9b90e3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/assets/poster_quality_checklist.md"
+    },
+    {
+      "path": "references/manifest_spec.md",
+      "sourcePath": "skills/pptx-posters/references/manifest_spec.md",
+      "bytes": 9406,
+      "sha256": "e0cfd7cff23044eac88778250b405d90c82b52877eda8ad6ac3b33edb5d2d16c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/references/manifest_spec.md"
+    },
+    {
+      "path": "references/poster_content_guide.md",
+      "sourcePath": "skills/pptx-posters/references/poster_content_guide.md",
+      "bytes": 7789,
+      "sha256": "dea961f67f1da228da3deb873770f61780789108183450d84f93078d40884a63",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/references/poster_content_guide.md"
+    },
+    {
+      "path": "references/poster_design_principles.md",
+      "sourcePath": "skills/pptx-posters/references/poster_design_principles.md",
+      "bytes": 10566,
+      "sha256": "7fac4022b656ad9dc529a7a9fc192b88818db7217798941fbb1a4ca3beb6ed4c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/references/poster_design_principles.md"
+    },
+    {
+      "path": "references/poster_layout_design.md",
+      "sourcePath": "skills/pptx-posters/references/poster_layout_design.md",
+      "bytes": 8607,
+      "sha256": "1de74eb36dad66918b625861406f0d939d6c50a2c03035f1e6c53481412310de",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/references/poster_layout_design.md"
+    },
+    {
+      "path": "references/pptx_security.md",
+      "sourcePath": "skills/pptx-posters/references/pptx_security.md",
+      "bytes": 8913,
+      "sha256": "a349556e4be4db69153a3ca6a00a1cd8212b218e5d38b0861929cb2be9fd2fed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/references/pptx_security.md"
+    },
+    {
+      "path": "references/security_validation.md",
+      "sourcePath": "skills/pptx-posters/references/security_validation.md",
+      "bytes": 4429,
+      "sha256": "7816362599697b0e01d4b01861711d6a212d1d09d358282c272d856f12632f00",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/references/security_validation.md"
+    },
+    {
+      "path": "references/source_ledger.md",
+      "sourcePath": "skills/pptx-posters/references/source_ledger.md",
+      "bytes": 14826,
+      "sha256": "95f151df546050a949b5364d145227da0030bfb97abcb40b41a4a17ca1658deb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/references/source_ledger.md"
+    },
+    {
+      "path": "scripts/_common.py",
+      "sourcePath": "skills/pptx-posters/scripts/_common.py",
+      "bytes": 13542,
+      "sha256": "9e3ccb3dd3ad34802a3b79f0c5b12d7c82f32fa7513bf3a7d340707f3ed0846c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/scripts/_common.py"
+    },
+    {
+      "path": "scripts/_manifest.py",
+      "sourcePath": "skills/pptx-posters/scripts/_manifest.py",
+      "bytes": 46762,
+      "sha256": "14188676f811c23cadaecf85ec9fc2c27f21b22ba9bd35a82480ad9f4253940c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/scripts/_manifest.py"
+    },
+    {
+      "path": "scripts/_pptx.py",
+      "sourcePath": "skills/pptx-posters/scripts/_pptx.py",
+      "bytes": 54581,
+      "sha256": "7c350c4aa56db63ae2789c499ad8b48a037a0847d4d0408adfe99a0054ad0394",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/scripts/_pptx.py"
+    },
+    {
+      "path": "scripts/check_layout.py",
+      "sourcePath": "skills/pptx-posters/scripts/check_layout.py",
+      "bytes": 5952,
+      "sha256": "d49588b8c9658abe3e621b2ddbbf9fd7253e3b2f0e01185eb145a1c8d23d9d5b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/scripts/check_layout.py"
+    },
+    {
+      "path": "scripts/check_palette.py",
+      "sourcePath": "skills/pptx-posters/scripts/check_palette.py",
+      "bytes": 4856,
+      "sha256": "f9bfc91cfc9c95461acb6c7ade5c4cf60fa76ebf2e2cdd818ed4b9a13ced6b32",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/scripts/check_palette.py"
+    },
+    {
+      "path": "scripts/generate_poster.py",
+      "sourcePath": "skills/pptx-posters/scripts/generate_poster.py",
+      "bytes": 15401,
+      "sha256": "b8ce6011c1a17191b62f73e2563e2b2d65f85d74a91c9b62650fa43b0f42b34c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/scripts/generate_poster.py"
+    },
+    {
+      "path": "scripts/inspect_pptx.py",
+      "sourcePath": "skills/pptx-posters/scripts/inspect_pptx.py",
+      "bytes": 1254,
+      "sha256": "76b504075af984436db03b7d093cc80a373c3388c993cda7c4a2be4668aebafc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/scripts/inspect_pptx.py"
+    },
+    {
+      "path": "scripts/inventory_images.py",
+      "sourcePath": "skills/pptx-posters/scripts/inventory_images.py",
+      "bytes": 9603,
+      "sha256": "07c6df85ca9f05510224c4e976b344d46a218d1843d9f31196adae31d975ed82",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/scripts/inventory_images.py"
+    },
+    {
+      "path": "scripts/plan_export.py",
+      "sourcePath": "skills/pptx-posters/scripts/plan_export.py",
+      "bytes": 9265,
+      "sha256": "e428f3b29b584898508cf1571a5515155c603b5b3d5276be5c92de23a1237e86",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/scripts/plan_export.py"
+    },
+    {
+      "path": "scripts/validate_manifest.py",
+      "sourcePath": "skills/pptx-posters/scripts/validate_manifest.py",
+      "bytes": 1646,
+      "sha256": "e888bc04fca0e326091e6be509fa31d9b5097127aaf42bb045aa337320237c33",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pptx-posters/scripts/validate_manifest.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "8a9b413bbe0b4725cbeab4a8cc63ab76444acd6dca863b5d0570c1959513b528"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--lookdev","name":"lookdev","description":"Human-in-the-loop web studio to tune AI-generated output by eye. Stand up a local interactive studio (sliders, pickers, drag handles) or an inline edit/highlight/comment annotation studio for prose & media, instead of guessing values or shipping a static comparison grid.","category":"Development","tags":["lookdev","human","loop","web","studio","tune","ai","generated","output","by","eye.","stand","up","local","interactive","sliders","pickers","drag"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/lookdev","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lookdev","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":33753,"sha256":"56ca1a929b7bc360d42f66324a4e735f44b5ac913c9e43bc70a5b16d68b04d61","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/lookdev/SKILL.md","bytes":32680,"sha256":"56ca1a929b7bc360d42f66324a4e735f44b5ac913c9e43bc70a5b16d68b04d61","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lookdev/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"e4b63aaced522433caaf6f5f5547e1e8cb2027e56100831fccd4062e0a3260a9"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--lookdev",
+    "name": "lookdev",
+    "description": "Human-in-the-loop web studio to tune AI-generated output by eye. Stand up a local interactive studio (sliders, pickers, drag handles) or an inline edit/highlight/comment annotation studio for prose & media, instead of guessing values or shipping a static comparison grid.",
+    "category": "Development",
+    "tags": [
+      "lookdev",
+      "human",
+      "loop",
+      "web",
+      "studio",
+      "tune",
+      "ai",
+      "generated",
+      "output",
+      "by",
+      "eye.",
+      "stand",
+      "up",
+      "local",
+      "interactive",
+      "sliders",
+      "pickers",
+      "drag"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/lookdev",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lookdev",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 33753,
+    "sha256": "56ca1a929b7bc360d42f66324a4e735f44b5ac913c9e43bc70a5b16d68b04d61",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/lookdev/SKILL.md",
+      "bytes": 32680,
+      "sha256": "56ca1a929b7bc360d42f66324a4e735f44b5ac913c9e43bc70a5b16d68b04d61",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lookdev/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "e4b63aaced522433caaf6f5f5547e1e8cb2027e56100831fccd4062e0a3260a9"
+}

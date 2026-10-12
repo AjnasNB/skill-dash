@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--deploying-software-defined-perimeter","name":"deploying-software-defined-perimeter","description":"Deploys a Software-Defined Perimeter per the CSA v2.0 specification, configuring Single Packet Authorization, mutual TLS, and SDP controller/gateway components to enforce zero trust network access. Use when building or hardening zero trust network architecture, implementing SPA-based \"invisible\" infrastructure that cloaks services from unauthenticated scanning, or meeting compliance requirements for zero trust network access.","category":"Security","tags":["deploying","software","defined","perimeter","deploys","per","csa","v2.0","specification","configuring","single","packet","authorization","mutual","tls","sdp","controller","gateway"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/deploying-software-defined-perimeter/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/deploying-software-defined-perimeter","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-software-defined-perimeter","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":47987,"sha256":"a337d29ce9b4c6adf344a6f103d8409e70b67de8a9610b869744c9f63ce2eb31","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/deploying-software-defined-perimeter/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-software-defined-perimeter/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/deploying-software-defined-perimeter/SKILL.md","bytes":8043,"sha256":"a337d29ce9b4c6adf344a6f103d8409e70b67de8a9610b869744c9f63ce2eb31","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-software-defined-perimeter/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/deploying-software-defined-perimeter/assets/template.md","bytes":1512,"sha256":"bc45725d6efb17995ccdb4f0fff2c8345165457c5d58a6b976f0cf1796e3315c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-software-defined-perimeter/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/deploying-software-defined-perimeter/references/api-reference.md","bytes":1886,"sha256":"7210d2471958429c591eb20962feb15d2b0eaebe87ec22b1dbe2132cdf3fada5","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-software-defined-perimeter/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/deploying-software-defined-perimeter/references/standards.md","bytes":2867,"sha256":"32450bf7ac5aecb8e633ca3b4f6b2e3a394e845227f167d253619d57675dcb2b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-software-defined-perimeter/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/deploying-software-defined-perimeter/references/workflows.md","bytes":5201,"sha256":"b09800d940353649e387ac7953eecd6d49bb400d48526a2cd912c53c9a47412c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-software-defined-perimeter/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/deploying-software-defined-perimeter/scripts/agent.py","bytes":6804,"sha256":"aa98e0a5654f48c264aae0c811102d4f9df4c42915020b106eb1a591abe59dcc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-software-defined-perimeter/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/deploying-software-defined-perimeter/scripts/process.py","bytes":10419,"sha256":"90e3c6e2a4e1a4a5815437babfcedfe32800c667ab17c859c2197ff37a80bacc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-software-defined-perimeter/scripts/process.py"}],"archiveSha256":"c42648b524ea9994106132328bcbcae5032c596bbbea631cc951fe07b0f0f28c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--deploying-software-defined-perimeter",
+    "name": "deploying-software-defined-perimeter",
+    "description": "Deploys a Software-Defined Perimeter per the CSA v2.0 specification, configuring Single Packet Authorization, mutual TLS, and SDP controller/gateway components to enforce zero trust network access. Use when building or hardening zero trust network architecture, implementing SPA-based \"invisible\" infrastructure that cloaks services from unauthenticated scanning, or meeting compliance requirements for zero trust network access.",
+    "category": "Security",
+    "tags": [
+      "deploying",
+      "software",
+      "defined",
+      "perimeter",
+      "deploys",
+      "per",
+      "csa",
+      "v2.0",
+      "specification",
+      "configuring",
+      "single",
+      "packet",
+      "authorization",
+      "mutual",
+      "tls",
+      "sdp",
+      "controller",
+      "gateway"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/deploying-software-defined-perimeter/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/deploying-software-defined-perimeter",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-software-defined-perimeter",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 47987,
+    "sha256": "a337d29ce9b4c6adf344a6f103d8409e70b67de8a9610b869744c9f63ce2eb31",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/deploying-software-defined-perimeter/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-software-defined-perimeter/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/deploying-software-defined-perimeter/SKILL.md",
+      "bytes": 8043,
+      "sha256": "a337d29ce9b4c6adf344a6f103d8409e70b67de8a9610b869744c9f63ce2eb31",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-software-defined-perimeter/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/deploying-software-defined-perimeter/assets/template.md",
+      "bytes": 1512,
+      "sha256": "bc45725d6efb17995ccdb4f0fff2c8345165457c5d58a6b976f0cf1796e3315c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-software-defined-perimeter/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/deploying-software-defined-perimeter/references/api-reference.md",
+      "bytes": 1886,
+      "sha256": "7210d2471958429c591eb20962feb15d2b0eaebe87ec22b1dbe2132cdf3fada5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-software-defined-perimeter/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/deploying-software-defined-perimeter/references/standards.md",
+      "bytes": 2867,
+      "sha256": "32450bf7ac5aecb8e633ca3b4f6b2e3a394e845227f167d253619d57675dcb2b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-software-defined-perimeter/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/deploying-software-defined-perimeter/references/workflows.md",
+      "bytes": 5201,
+      "sha256": "b09800d940353649e387ac7953eecd6d49bb400d48526a2cd912c53c9a47412c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-software-defined-perimeter/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/deploying-software-defined-perimeter/scripts/agent.py",
+      "bytes": 6804,
+      "sha256": "aa98e0a5654f48c264aae0c811102d4f9df4c42915020b106eb1a591abe59dcc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-software-defined-perimeter/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/deploying-software-defined-perimeter/scripts/process.py",
+      "bytes": 10419,
+      "sha256": "90e3c6e2a4e1a4a5815437babfcedfe32800c667ab17c859c2197ff37a80bacc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-software-defined-perimeter/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "c42648b524ea9994106132328bcbcae5032c596bbbea631cc951fe07b0f0f28c"
+}

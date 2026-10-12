@@ -1,1 +1,54 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--differential-review","name":"differential-review","description":"Security-focused code review for PRs, commits, and diffs.","category":"Security","tags":["differential","review","security","focused","code","prs","commits","diffs."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/differential-review","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/differential-review","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7959,"sha256":"f456539614f022c00e22e57ef329b682be6313ec2dbcf16a6a946fd370b8efd2","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/differential-review/SKILL.md","bytes":6886,"sha256":"f456539614f022c00e22e57ef329b682be6313ec2dbcf16a6a946fd370b8efd2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/differential-review/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"281ddbb5b33141554376d2a4a3a62e1d3b03f06714f2e3fd762b28fb5db38b9b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--differential-review",
+    "name": "differential-review",
+    "description": "Security-focused code review for PRs, commits, and diffs.",
+    "category": "Security",
+    "tags": [
+      "differential",
+      "review",
+      "security",
+      "focused",
+      "code",
+      "prs",
+      "commits",
+      "diffs."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/differential-review",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/differential-review",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7959,
+    "sha256": "f456539614f022c00e22e57ef329b682be6313ec2dbcf16a6a946fd370b8efd2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/differential-review/SKILL.md",
+      "bytes": 6886,
+      "sha256": "f456539614f022c00e22e57ef329b682be6313ec2dbcf16a6a946fd370b8efd2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/differential-review/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "281ddbb5b33141554376d2a4a3a62e1d3b03f06714f2e3fd762b28fb5db38b9b"
+}

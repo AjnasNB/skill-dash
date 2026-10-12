@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--audit-context-building","name":"audit-context-building","description":"Enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding.","category":"Security","tags":["audit","context","building","enables","ultra","granular","line","by","code","analysis","deep","architectural","before","vulnerability","bug","finding."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/audit-context-building","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/audit-context-building","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11111,"sha256":"ddf268186b090c3e920225dba0eeb467694f6d56905e6d0e6b89b2764c146a44","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/audit-context-building/SKILL.md","bytes":10038,"sha256":"ddf268186b090c3e920225dba0eeb467694f6d56905e6d0e6b89b2764c146a44","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/audit-context-building/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"7b7e57f424bf29d5d53c2d629a0345516fa92b3633a5a043cfbf46442c2445bd"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--audit-context-building",
+    "name": "audit-context-building",
+    "description": "Enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding.",
+    "category": "Security",
+    "tags": [
+      "audit",
+      "context",
+      "building",
+      "enables",
+      "ultra",
+      "granular",
+      "line",
+      "by",
+      "code",
+      "analysis",
+      "deep",
+      "architectural",
+      "before",
+      "vulnerability",
+      "bug",
+      "finding."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/audit-context-building",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/audit-context-building",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11111,
+    "sha256": "ddf268186b090c3e920225dba0eeb467694f6d56905e6d0e6b89b2764c146a44",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/audit-context-building/SKILL.md",
+      "bytes": 10038,
+      "sha256": "ddf268186b090c3e920225dba0eeb467694f6d56905e6d0e6b89b2764c146a44",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/audit-context-building/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "7b7e57f424bf29d5d53c2d629a0345516fa92b3633a5a043cfbf46442c2445bd"
+}

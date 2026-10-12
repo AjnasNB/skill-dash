@@ -1,1 +1,200 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--scientific-visualization","name":"scientific-visualization","description":"Creates and audits truthful, accessible, publication-ready scientific figures with Matplotlib, Seaborn, or Plotly. Use it for figure design, multi-panel layouts, uncertainty and missing-data displays, color/contrast review, image metadata validation, and journal export planning.","category":"Design","tags":["scientific","visualization","creates","audits","truthful","accessible","publication","ready","figures","matplotlib","seaborn","plotly.","it","figure","design","multi","panel","layouts"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/scientific-visualization","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":19,"bytes":205229,"sha256":"8cbde7cdc10d959cf72cfd08335cc8ce996247eee6ebdb900eb64a4cb0ff34a3","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/scientific-visualization/SKILL.md","bytes":15478,"sha256":"8cbde7cdc10d959cf72cfd08335cc8ce996247eee6ebdb900eb64a4cb0ff34a3","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/SKILL.md"},{"path":"assets/color_palettes.py","sourcePath":"skills/scientific-visualization/assets/color_palettes.py","bytes":6756,"sha256":"98ee4aa4b9bbb010996d55144ea6bf45a0ab294009b9bb0ef6d9c5ec9fed5154","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/assets/color_palettes.py"},{"path":"assets/nature.mplstyle","sourcePath":"skills/scientific-visualization/assets/nature.mplstyle","bytes":1624,"sha256":"f37a361cdda8846da0794fd879cc8173402094f110239d57e0227fdd8299a4f6","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/assets/nature.mplstyle"},{"path":"assets/presentation.mplstyle","sourcePath":"skills/scientific-visualization/assets/presentation.mplstyle","bytes":1465,"sha256":"d0e5a768e5965aa3893b12c0f7decd4c3b09502044391a840ebdee37dfea44da","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/assets/presentation.mplstyle"},{"path":"assets/publication.mplstyle","sourcePath":"skills/scientific-visualization/assets/publication.mplstyle","bytes":1822,"sha256":"eba3001f346649a9e41d9ac1d56101abbae10aefecdad3be9530f4c9cd9269b3","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/assets/publication.mplstyle"},{"path":"assets/publisher_profiles.json","sourcePath":"skills/scientific-visualization/assets/publisher_profiles.json","bytes":10870,"sha256":"1e1b1b5a4e0e3dfc57877f2abf1e96888fe6b65617234b078f193b8f76e0ebe9","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/assets/publisher_profiles.json"},{"path":"references/color_palettes.md","sourcePath":"skills/scientific-visualization/references/color_palettes.md","bytes":9094,"sha256":"c9b6a596dd1dd1e08050fdcbb304a0268ee515bce2120a9bbd3fba31cd7fa119","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/references/color_palettes.md"},{"path":"references/journal_requirements.md","sourcePath":"skills/scientific-visualization/references/journal_requirements.md","bytes":11200,"sha256":"f7c4b6660eb70f7c5778d13908409e1dc690f00e3dfc8314f430feb89781740c","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/references/journal_requirements.md"},{"path":"references/matplotlib_examples.md","sourcePath":"skills/scientific-visualization/references/matplotlib_examples.md","bytes":12165,"sha256":"74fd5977ce57b09b476285309559bbcbe3b1748943b719844b28a6b61378c041","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/references/matplotlib_examples.md"},{"path":"references/publication_guidelines.md","sourcePath":"skills/scientific-visualization/references/publication_guidelines.md","bytes":12853,"sha256":"5f70c6b22dbb5e0fae18b0f1197b8794896bf7afc059874bcf7afbd5aa86bbe5","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/references/publication_guidelines.md"},{"path":"references/sources.md","sourcePath":"skills/scientific-visualization/references/sources.md","bytes":10697,"sha256":"3ff34759c0fed3baf33286a8005fd81f0c3466a554c8b0d45f43ad30b1e5b505","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/references/sources.md"},{"path":"scripts/_common.py","sourcePath":"skills/scientific-visualization/scripts/_common.py","bytes":4618,"sha256":"e4eea2c2e5f5d8cfa544c6bed152cdb88a3d7c7952df99bcd74b45077fd6f707","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/scripts/_common.py"},{"path":"scripts/export_plan.py","sourcePath":"skills/scientific-visualization/scripts/export_plan.py","bytes":19682,"sha256":"c20962bf4c624b9939c80bd16815fc0a18fe2be285f0654a6a53704c663add0e","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/scripts/export_plan.py"},{"path":"scripts/figure_export.py","sourcePath":"skills/scientific-visualization/scripts/figure_export.py","bytes":23652,"sha256":"fe9c77878da61297ce55224b67282d128631deb628d930aa1929c9eb7330bf79","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/scripts/figure_export.py"},{"path":"scripts/image_metadata.py","sourcePath":"skills/scientific-visualization/scripts/image_metadata.py","bytes":26596,"sha256":"45f79cefd99b8e5dabcbfd1a29b7346363f383411cc43540bf9f73e67fed634e","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/scripts/image_metadata.py"},{"path":"scripts/palette_audit.py","sourcePath":"skills/scientific-visualization/scripts/palette_audit.py","bytes":11654,"sha256":"3a90b3c9a4a39dde6a341dc3de7b99cd2bca4773c66564fc90cdc2706a5a8165","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/scripts/palette_audit.py"},{"path":"scripts/style_presets.py","sourcePath":"skills/scientific-visualization/scripts/style_presets.py","bytes":16173,"sha256":"8413cfae7f2cbc4a5dd9d4301d74b051fd8eb0c7a4b3375ae59e1da91db3a985","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/scripts/style_presets.py"},{"path":"scripts/style_preview.py","sourcePath":"skills/scientific-visualization/scripts/style_preview.py","bytes":7762,"sha256":"ca14e714dc2fb32541ff80292db97b3acbac074a65c4f2fb290f38354f880ba7","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/scripts/style_preview.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"7aa12da0029f992e62e60b9f2053c9564586d64980d1c36e72880b19f65b5f09"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--scientific-visualization",
+    "name": "scientific-visualization",
+    "description": "Creates and audits truthful, accessible, publication-ready scientific figures with Matplotlib, Seaborn, or Plotly. Use it for figure design, multi-panel layouts, uncertainty and missing-data displays, color/contrast review, image metadata validation, and journal export planning.",
+    "category": "Design",
+    "tags": [
+      "scientific",
+      "visualization",
+      "creates",
+      "audits",
+      "truthful",
+      "accessible",
+      "publication",
+      "ready",
+      "figures",
+      "matplotlib",
+      "seaborn",
+      "plotly.",
+      "it",
+      "figure",
+      "design",
+      "multi",
+      "panel",
+      "layouts"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/scientific-visualization",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 19,
+    "bytes": 205229,
+    "sha256": "8cbde7cdc10d959cf72cfd08335cc8ce996247eee6ebdb900eb64a4cb0ff34a3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/scientific-visualization/SKILL.md",
+      "bytes": 15478,
+      "sha256": "8cbde7cdc10d959cf72cfd08335cc8ce996247eee6ebdb900eb64a4cb0ff34a3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/SKILL.md"
+    },
+    {
+      "path": "assets/color_palettes.py",
+      "sourcePath": "skills/scientific-visualization/assets/color_palettes.py",
+      "bytes": 6756,
+      "sha256": "98ee4aa4b9bbb010996d55144ea6bf45a0ab294009b9bb0ef6d9c5ec9fed5154",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/assets/color_palettes.py"
+    },
+    {
+      "path": "assets/nature.mplstyle",
+      "sourcePath": "skills/scientific-visualization/assets/nature.mplstyle",
+      "bytes": 1624,
+      "sha256": "f37a361cdda8846da0794fd879cc8173402094f110239d57e0227fdd8299a4f6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/assets/nature.mplstyle"
+    },
+    {
+      "path": "assets/presentation.mplstyle",
+      "sourcePath": "skills/scientific-visualization/assets/presentation.mplstyle",
+      "bytes": 1465,
+      "sha256": "d0e5a768e5965aa3893b12c0f7decd4c3b09502044391a840ebdee37dfea44da",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/assets/presentation.mplstyle"
+    },
+    {
+      "path": "assets/publication.mplstyle",
+      "sourcePath": "skills/scientific-visualization/assets/publication.mplstyle",
+      "bytes": 1822,
+      "sha256": "eba3001f346649a9e41d9ac1d56101abbae10aefecdad3be9530f4c9cd9269b3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/assets/publication.mplstyle"
+    },
+    {
+      "path": "assets/publisher_profiles.json",
+      "sourcePath": "skills/scientific-visualization/assets/publisher_profiles.json",
+      "bytes": 10870,
+      "sha256": "1e1b1b5a4e0e3dfc57877f2abf1e96888fe6b65617234b078f193b8f76e0ebe9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/assets/publisher_profiles.json"
+    },
+    {
+      "path": "references/color_palettes.md",
+      "sourcePath": "skills/scientific-visualization/references/color_palettes.md",
+      "bytes": 9094,
+      "sha256": "c9b6a596dd1dd1e08050fdcbb304a0268ee515bce2120a9bbd3fba31cd7fa119",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/references/color_palettes.md"
+    },
+    {
+      "path": "references/journal_requirements.md",
+      "sourcePath": "skills/scientific-visualization/references/journal_requirements.md",
+      "bytes": 11200,
+      "sha256": "f7c4b6660eb70f7c5778d13908409e1dc690f00e3dfc8314f430feb89781740c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/references/journal_requirements.md"
+    },
+    {
+      "path": "references/matplotlib_examples.md",
+      "sourcePath": "skills/scientific-visualization/references/matplotlib_examples.md",
+      "bytes": 12165,
+      "sha256": "74fd5977ce57b09b476285309559bbcbe3b1748943b719844b28a6b61378c041",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/references/matplotlib_examples.md"
+    },
+    {
+      "path": "references/publication_guidelines.md",
+      "sourcePath": "skills/scientific-visualization/references/publication_guidelines.md",
+      "bytes": 12853,
+      "sha256": "5f70c6b22dbb5e0fae18b0f1197b8794896bf7afc059874bcf7afbd5aa86bbe5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/references/publication_guidelines.md"
+    },
+    {
+      "path": "references/sources.md",
+      "sourcePath": "skills/scientific-visualization/references/sources.md",
+      "bytes": 10697,
+      "sha256": "3ff34759c0fed3baf33286a8005fd81f0c3466a554c8b0d45f43ad30b1e5b505",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/references/sources.md"
+    },
+    {
+      "path": "scripts/_common.py",
+      "sourcePath": "skills/scientific-visualization/scripts/_common.py",
+      "bytes": 4618,
+      "sha256": "e4eea2c2e5f5d8cfa544c6bed152cdb88a3d7c7952df99bcd74b45077fd6f707",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/scripts/_common.py"
+    },
+    {
+      "path": "scripts/export_plan.py",
+      "sourcePath": "skills/scientific-visualization/scripts/export_plan.py",
+      "bytes": 19682,
+      "sha256": "c20962bf4c624b9939c80bd16815fc0a18fe2be285f0654a6a53704c663add0e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/scripts/export_plan.py"
+    },
+    {
+      "path": "scripts/figure_export.py",
+      "sourcePath": "skills/scientific-visualization/scripts/figure_export.py",
+      "bytes": 23652,
+      "sha256": "fe9c77878da61297ce55224b67282d128631deb628d930aa1929c9eb7330bf79",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/scripts/figure_export.py"
+    },
+    {
+      "path": "scripts/image_metadata.py",
+      "sourcePath": "skills/scientific-visualization/scripts/image_metadata.py",
+      "bytes": 26596,
+      "sha256": "45f79cefd99b8e5dabcbfd1a29b7346363f383411cc43540bf9f73e67fed634e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/scripts/image_metadata.py"
+    },
+    {
+      "path": "scripts/palette_audit.py",
+      "sourcePath": "skills/scientific-visualization/scripts/palette_audit.py",
+      "bytes": 11654,
+      "sha256": "3a90b3c9a4a39dde6a341dc3de7b99cd2bca4773c66564fc90cdc2706a5a8165",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/scripts/palette_audit.py"
+    },
+    {
+      "path": "scripts/style_presets.py",
+      "sourcePath": "skills/scientific-visualization/scripts/style_presets.py",
+      "bytes": 16173,
+      "sha256": "8413cfae7f2cbc4a5dd9d4301d74b051fd8eb0c7a4b3375ae59e1da91db3a985",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/scripts/style_presets.py"
+    },
+    {
+      "path": "scripts/style_preview.py",
+      "sourcePath": "skills/scientific-visualization/scripts/style_preview.py",
+      "bytes": 7762,
+      "sha256": "ca14e714dc2fb32541ff80292db97b3acbac074a65c4f2fb290f38354f880ba7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/scripts/style_preview.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "7aa12da0029f992e62e60b9f2053c9564586d64980d1c36e72880b19f65b5f09"
+}

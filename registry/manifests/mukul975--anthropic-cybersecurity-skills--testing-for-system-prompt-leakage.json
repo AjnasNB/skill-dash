@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--testing-for-system-prompt-leakage","name":"testing-for-system-prompt-leakage","description":"Extracts LLM system prompts using direct requests, jailbreak/instruction-override framing, translation/encoding tricks, and few-shot replay, combining manual payloads with automated garak and Promptfoo scanners to surface embedded secrets, routing logic, and policy leakage (OWASP LLM07:2025). Use during LLM application red-team engagements or when validating that no credentials or authorization logic live in the system prompt.","category":"Security","tags":["testing","system","prompt","leakage","extracts","llm","prompts","direct","requests","jailbreak","instruction","override","framing","translation","encoding","tricks","few","shot"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/testing-for-system-prompt-leakage/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/testing-for-system-prompt-leakage","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-system-prompt-leakage","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":5,"bytes":29458,"sha256":"cc16016d74654788d81ca7e573fabf34cd902470af3587b78dd624f97f1e85cc","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/testing-for-system-prompt-leakage/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-system-prompt-leakage/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/testing-for-system-prompt-leakage/SKILL.md","bytes":9466,"sha256":"cc16016d74654788d81ca7e573fabf34cd902470af3587b78dd624f97f1e85cc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-system-prompt-leakage/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/testing-for-system-prompt-leakage/references/api-reference.md","bytes":2673,"sha256":"3cc50cb566e1c3d8e571ac550fbc555b942c7d65bd1b62d1910f1d1ff7e5714b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-system-prompt-leakage/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/testing-for-system-prompt-leakage/references/standards.md","bytes":1558,"sha256":"71cbd6818ec66b3e0931acd177befc0b258e8c36cdda3e1d214e70aef230ba3f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-system-prompt-leakage/references/standards.md"},{"path":"scripts/agent.py","sourcePath":"skills/testing-for-system-prompt-leakage/scripts/agent.py","bytes":4506,"sha256":"a610678203646f6961091bca099b809d87a3d71fce103791b6c6135d26ff7056","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-system-prompt-leakage/scripts/agent.py"}],"archiveSha256":"61895f91637ee3194ee8f8a13ac43a7ba2ef33055a226910920ccbaf9572fa11"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--testing-for-system-prompt-leakage",
+    "name": "testing-for-system-prompt-leakage",
+    "description": "Extracts LLM system prompts using direct requests, jailbreak/instruction-override framing, translation/encoding tricks, and few-shot replay, combining manual payloads with automated garak and Promptfoo scanners to surface embedded secrets, routing logic, and policy leakage (OWASP LLM07:2025). Use during LLM application red-team engagements or when validating that no credentials or authorization logic live in the system prompt.",
+    "category": "Security",
+    "tags": [
+      "testing",
+      "system",
+      "prompt",
+      "leakage",
+      "extracts",
+      "llm",
+      "prompts",
+      "direct",
+      "requests",
+      "jailbreak",
+      "instruction",
+      "override",
+      "framing",
+      "translation",
+      "encoding",
+      "tricks",
+      "few",
+      "shot"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/testing-for-system-prompt-leakage/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/testing-for-system-prompt-leakage",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-system-prompt-leakage",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 29458,
+    "sha256": "cc16016d74654788d81ca7e573fabf34cd902470af3587b78dd624f97f1e85cc",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/testing-for-system-prompt-leakage/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-system-prompt-leakage/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/testing-for-system-prompt-leakage/SKILL.md",
+      "bytes": 9466,
+      "sha256": "cc16016d74654788d81ca7e573fabf34cd902470af3587b78dd624f97f1e85cc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-system-prompt-leakage/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/testing-for-system-prompt-leakage/references/api-reference.md",
+      "bytes": 2673,
+      "sha256": "3cc50cb566e1c3d8e571ac550fbc555b942c7d65bd1b62d1910f1d1ff7e5714b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-system-prompt-leakage/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/testing-for-system-prompt-leakage/references/standards.md",
+      "bytes": 1558,
+      "sha256": "71cbd6818ec66b3e0931acd177befc0b258e8c36cdda3e1d214e70aef230ba3f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-system-prompt-leakage/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/testing-for-system-prompt-leakage/scripts/agent.py",
+      "bytes": 4506,
+      "sha256": "a610678203646f6961091bca099b809d87a3d71fce103791b6c6135d26ff7056",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-system-prompt-leakage/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "61895f91637ee3194ee8f8a13ac43a7ba2ef33055a226910920ccbaf9572fa11"
+}

@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--api-endpoint-builder","name":"api-endpoint-builder","description":"Builds production-ready REST API endpoints with validation, error handling, authentication, and documentation. Follows best practices for security and scalability.","category":"Security","tags":["api","endpoint","builder","builds","production","ready","rest","endpoints","validation","error","handling","authentication","documentation.","follows","best","practices","security","scalability."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/api-endpoint-builder","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/api-endpoint-builder","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":9237,"sha256":"bb9f07b95cd6e4da7b97d5c518b66019822f62abecc0b5d7e02c56f64de36fb5","historical":false},"files":[{"path":"README.md","sourcePath":"skills/api-endpoint-builder/README.md","bytes":757,"sha256":"852fe52e2c9834d04b6594a83b073aab82c32a2037c810f54724f9d997680f4a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/api-endpoint-builder/README.md"},{"path":"SKILL.md","sourcePath":"skills/api-endpoint-builder/SKILL.md","bytes":7407,"sha256":"bb9f07b95cd6e4da7b97d5c518b66019822f62abecc0b5d7e02c56f64de36fb5","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/api-endpoint-builder/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"205a7c8457a57a61ec007eefe9a9c8a77407ccd5f4b465bd97624d769d072ea1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--api-endpoint-builder",
+    "name": "api-endpoint-builder",
+    "description": "Builds production-ready REST API endpoints with validation, error handling, authentication, and documentation. Follows best practices for security and scalability.",
+    "category": "Security",
+    "tags": [
+      "api",
+      "endpoint",
+      "builder",
+      "builds",
+      "production",
+      "ready",
+      "rest",
+      "endpoints",
+      "validation",
+      "error",
+      "handling",
+      "authentication",
+      "documentation.",
+      "follows",
+      "best",
+      "practices",
+      "security",
+      "scalability."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/api-endpoint-builder",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/api-endpoint-builder",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 9237,
+    "sha256": "bb9f07b95cd6e4da7b97d5c518b66019822f62abecc0b5d7e02c56f64de36fb5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sourcePath": "skills/api-endpoint-builder/README.md",
+      "bytes": 757,
+      "sha256": "852fe52e2c9834d04b6594a83b073aab82c32a2037c810f54724f9d997680f4a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/api-endpoint-builder/README.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/api-endpoint-builder/SKILL.md",
+      "bytes": 7407,
+      "sha256": "bb9f07b95cd6e4da7b97d5c518b66019822f62abecc0b5d7e02c56f64de36fb5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/api-endpoint-builder/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "205a7c8457a57a61ec007eefe9a9c8a77407ccd5f4b465bd97624d769d072ea1"
+}

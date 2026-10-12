@@ -1,1 +1,60 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--c4-component","name":"c4-component","description":"Expert C4 Component-level documentation specialist. Synthesizes C4 Code-level documentation into Component-level architecture, defining component boundaries, interfaces, and relationships.","category":"Writing","tags":["c4","component","expert","level","documentation","specialist.","synthesizes","code","into","architecture","defining","boundaries","interfaces","relationships."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/c4-component","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/c4-component","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6100,"sha256":"6bca1fbb1fc7fb77e968b0d417175053b38ca26d87ff6f7f8212922a2c984f17","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/c4-component/SKILL.md","bytes":5027,"sha256":"6bca1fbb1fc7fb77e968b0d417175053b38ca26d87ff6f7f8212922a2c984f17","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/c4-component/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"e66be82c6a92e6bb03a655d9ccbaa05ca6f61895ef2d29150e096ba047b18c6d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--c4-component",
+    "name": "c4-component",
+    "description": "Expert C4 Component-level documentation specialist. Synthesizes C4 Code-level documentation into Component-level architecture, defining component boundaries, interfaces, and relationships.",
+    "category": "Writing",
+    "tags": [
+      "c4",
+      "component",
+      "expert",
+      "level",
+      "documentation",
+      "specialist.",
+      "synthesizes",
+      "code",
+      "into",
+      "architecture",
+      "defining",
+      "boundaries",
+      "interfaces",
+      "relationships."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/c4-component",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/c4-component",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6100,
+    "sha256": "6bca1fbb1fc7fb77e968b0d417175053b38ca26d87ff6f7f8212922a2c984f17",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/c4-component/SKILL.md",
+      "bytes": 5027,
+      "sha256": "6bca1fbb1fc7fb77e968b0d417175053b38ca26d87ff6f7f8212922a2c984f17",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/c4-component/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "e66be82c6a92e6bb03a655d9ccbaa05ca6f61895ef2d29150e096ba047b18c6d"
+}

@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--configuring-ldap-security-hardening","name":"configuring-ldap-security-hardening","description":"Hardens LDAP directory services against credential harvesting, LDAP injection, anonymous binding, and channel-binding bypass by enforcing LDAPS, channel binding, and LDAP signing. Use when securing an LDAP or Active Directory environment against these attack classes or auditing directory service configurations for these vulnerabilities.","category":"Security","tags":["configuring","ldap","security","hardening","hardens","directory","services","against","credential","harvesting","injection","anonymous","binding","channel","bypass","by","enforcing","ldaps"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/configuring-ldap-security-hardening/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/configuring-ldap-security-hardening","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-ldap-security-hardening","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":21355,"sha256":"c7a87a4cf643f39c8534c9004a19eb043a6ea8a82f7fb990e555650862bcd563","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/configuring-ldap-security-hardening/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-ldap-security-hardening/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/configuring-ldap-security-hardening/SKILL.md","bytes":3021,"sha256":"c7a87a4cf643f39c8534c9004a19eb043a6ea8a82f7fb990e555650862bcd563","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-ldap-security-hardening/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/configuring-ldap-security-hardening/references/api-reference.md","bytes":1667,"sha256":"358d7fed454280516493281e76d316cf3b231012432246cbea094514dcf12bed","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-ldap-security-hardening/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/configuring-ldap-security-hardening/scripts/agent.py","bytes":5412,"sha256":"1b906640bff596edb94dda045fc6cb1bc78742a3c471e5297b4ff95f72766a76","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-ldap-security-hardening/scripts/agent.py"}],"archiveSha256":"02096ddfff6d1e80efbba44cac8af3116c21f60b951adf42e3fcc96ebac8b38f"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--configuring-ldap-security-hardening",
+    "name": "configuring-ldap-security-hardening",
+    "description": "Hardens LDAP directory services against credential harvesting, LDAP injection, anonymous binding, and channel-binding bypass by enforcing LDAPS, channel binding, and LDAP signing. Use when securing an LDAP or Active Directory environment against these attack classes or auditing directory service configurations for these vulnerabilities.",
+    "category": "Security",
+    "tags": [
+      "configuring",
+      "ldap",
+      "security",
+      "hardening",
+      "hardens",
+      "directory",
+      "services",
+      "against",
+      "credential",
+      "harvesting",
+      "injection",
+      "anonymous",
+      "binding",
+      "channel",
+      "bypass",
+      "by",
+      "enforcing",
+      "ldaps"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/configuring-ldap-security-hardening/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/configuring-ldap-security-hardening",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-ldap-security-hardening",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 21355,
+    "sha256": "c7a87a4cf643f39c8534c9004a19eb043a6ea8a82f7fb990e555650862bcd563",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/configuring-ldap-security-hardening/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-ldap-security-hardening/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/configuring-ldap-security-hardening/SKILL.md",
+      "bytes": 3021,
+      "sha256": "c7a87a4cf643f39c8534c9004a19eb043a6ea8a82f7fb990e555650862bcd563",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-ldap-security-hardening/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/configuring-ldap-security-hardening/references/api-reference.md",
+      "bytes": 1667,
+      "sha256": "358d7fed454280516493281e76d316cf3b231012432246cbea094514dcf12bed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-ldap-security-hardening/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/configuring-ldap-security-hardening/scripts/agent.py",
+      "bytes": 5412,
+      "sha256": "1b906640bff596edb94dda045fc6cb1bc78742a3c471e5297b4ff95f72766a76",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-ldap-security-hardening/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "02096ddfff6d1e80efbba44cac8af3116c21f60b951adf42e3fcc96ebac8b38f"
+}

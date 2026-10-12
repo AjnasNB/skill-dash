@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--deploying-tailscale-for-zero-trust-vpn","name":"deploying-tailscale-for-zero-trust-vpn","description":"Deploys and configures Tailscale (or self-hosted Headscale) as a WireGuard-based zero trust mesh VPN, setting up identity-aware ACLs, exit nodes, subnet routers, and MagicDNS for encrypted peer-to-peer connectivity. Use when replacing traditional VPN servers with an identity-authenticated mesh network or enforcing granular per-device access control lists.","category":"Security","tags":["deploying","tailscale","zero","trust","vpn","deploys","configures","self","hosted","headscale","as","wireguard","based","mesh","setting","up","identity","aware"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/deploying-tailscale-for-zero-trust-vpn/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/deploying-tailscale-for-zero-trust-vpn","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-tailscale-for-zero-trust-vpn","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":49295,"sha256":"425f34d310b04d775551121d917edb99e521a0de4b48113ee7b2f2893660a6fb","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/deploying-tailscale-for-zero-trust-vpn/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-tailscale-for-zero-trust-vpn/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/deploying-tailscale-for-zero-trust-vpn/SKILL.md","bytes":11513,"sha256":"425f34d310b04d775551121d917edb99e521a0de4b48113ee7b2f2893660a6fb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-tailscale-for-zero-trust-vpn/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/deploying-tailscale-for-zero-trust-vpn/assets/template.md","bytes":2377,"sha256":"323951763e5184d0197b8198196703e79951b8cabb97d9bfb8159e691e546342","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-tailscale-for-zero-trust-vpn/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/deploying-tailscale-for-zero-trust-vpn/references/api-reference.md","bytes":1815,"sha256":"08632e8bbb9261cf73d024eae98f9eae38239a380d002f54f0b7061d8136f74c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-tailscale-for-zero-trust-vpn/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/deploying-tailscale-for-zero-trust-vpn/references/standards.md","bytes":1986,"sha256":"89fb02c69271495ce0c3676a663dd15a87a2b345b923ee377a41924dedafecfc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-tailscale-for-zero-trust-vpn/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/deploying-tailscale-for-zero-trust-vpn/references/workflows.md","bytes":3334,"sha256":"eed2b760d4cf5f5f1d9583cfae66cb9e0550423807ac70bd554ed347902bdddb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-tailscale-for-zero-trust-vpn/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/deploying-tailscale-for-zero-trust-vpn/scripts/agent.py","bytes":5131,"sha256":"e0a004e06a3b0ce1cbbb2c5255a7c769dcc21396a43bba2af4fc0126c191be37","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-tailscale-for-zero-trust-vpn/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/deploying-tailscale-for-zero-trust-vpn/scripts/process.py","bytes":11884,"sha256":"a8ffff5cf223f78eb0ff3662fb55cf37e9ecc4ea6d8db94dd0c42305ec766017","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-tailscale-for-zero-trust-vpn/scripts/process.py"}],"archiveSha256":"caf34045be4e5274d46d5c7e3dc94ec8f36d9c7ec1b52f92944bac139c2fe62a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--deploying-tailscale-for-zero-trust-vpn",
+    "name": "deploying-tailscale-for-zero-trust-vpn",
+    "description": "Deploys and configures Tailscale (or self-hosted Headscale) as a WireGuard-based zero trust mesh VPN, setting up identity-aware ACLs, exit nodes, subnet routers, and MagicDNS for encrypted peer-to-peer connectivity. Use when replacing traditional VPN servers with an identity-authenticated mesh network or enforcing granular per-device access control lists.",
+    "category": "Security",
+    "tags": [
+      "deploying",
+      "tailscale",
+      "zero",
+      "trust",
+      "vpn",
+      "deploys",
+      "configures",
+      "self",
+      "hosted",
+      "headscale",
+      "as",
+      "wireguard",
+      "based",
+      "mesh",
+      "setting",
+      "up",
+      "identity",
+      "aware"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/deploying-tailscale-for-zero-trust-vpn/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/deploying-tailscale-for-zero-trust-vpn",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-tailscale-for-zero-trust-vpn",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 49295,
+    "sha256": "425f34d310b04d775551121d917edb99e521a0de4b48113ee7b2f2893660a6fb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/deploying-tailscale-for-zero-trust-vpn/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-tailscale-for-zero-trust-vpn/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/deploying-tailscale-for-zero-trust-vpn/SKILL.md",
+      "bytes": 11513,
+      "sha256": "425f34d310b04d775551121d917edb99e521a0de4b48113ee7b2f2893660a6fb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-tailscale-for-zero-trust-vpn/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/deploying-tailscale-for-zero-trust-vpn/assets/template.md",
+      "bytes": 2377,
+      "sha256": "323951763e5184d0197b8198196703e79951b8cabb97d9bfb8159e691e546342",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-tailscale-for-zero-trust-vpn/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/deploying-tailscale-for-zero-trust-vpn/references/api-reference.md",
+      "bytes": 1815,
+      "sha256": "08632e8bbb9261cf73d024eae98f9eae38239a380d002f54f0b7061d8136f74c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-tailscale-for-zero-trust-vpn/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/deploying-tailscale-for-zero-trust-vpn/references/standards.md",
+      "bytes": 1986,
+      "sha256": "89fb02c69271495ce0c3676a663dd15a87a2b345b923ee377a41924dedafecfc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-tailscale-for-zero-trust-vpn/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/deploying-tailscale-for-zero-trust-vpn/references/workflows.md",
+      "bytes": 3334,
+      "sha256": "eed2b760d4cf5f5f1d9583cfae66cb9e0550423807ac70bd554ed347902bdddb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-tailscale-for-zero-trust-vpn/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/deploying-tailscale-for-zero-trust-vpn/scripts/agent.py",
+      "bytes": 5131,
+      "sha256": "e0a004e06a3b0ce1cbbb2c5255a7c769dcc21396a43bba2af4fc0126c191be37",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-tailscale-for-zero-trust-vpn/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/deploying-tailscale-for-zero-trust-vpn/scripts/process.py",
+      "bytes": 11884,
+      "sha256": "a8ffff5cf223f78eb0ff3662fb55cf37e9ecc4ea6d8db94dd0c42305ec766017",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-tailscale-for-zero-trust-vpn/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "caf34045be4e5274d46d5c7e3dc94ec8f36d9c7ec1b52f92944bac139c2fe62a"
+}

@@ -1,1 +1,136 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--day-book","name":"day-book","description":"Daily cash, bank and digital day book: opening and closing balances per book, in/out movements, debit/credit presentation and reconciliation status. Use for daily bookkeeping.","category":"Development","tags":["day","book","daily","cash","bank","digital","opening","closing","balances","per","out","movements","debit","credit","presentation","reconciliation","status.","bookkeeping."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/day-book","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":11,"bytes":46565,"sha256":"2108127b1ecb3cf859e6f266969a5dc465d349f78929ad78f2eb7ae66ff6b8e0","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/day-book/SKILL.md","bytes":27990,"sha256":"2108127b1ecb3cf859e6f266969a5dc465d349f78929ad78f2eb7ae66ff6b8e0","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book/SKILL.md"},{"path":"references/best-practices.md","sourcePath":"skills/day-book/references/best-practices.md","bytes":2314,"sha256":"99f3b9617a47275957a1b07de919591b4bc33f59040f49c8f4e9139fbfe8cef4","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book/references/best-practices.md"},{"path":"references/common-pitfalls.md","sourcePath":"skills/day-book/references/common-pitfalls.md","bytes":3760,"sha256":"1c58f2f79c4dc7dc55127d98b1403058eca3200cf5a32ce7a2aabc24217dc771","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book/references/common-pitfalls.md"},{"path":"references/field-reference.md","sourcePath":"skills/day-book/references/field-reference.md","bytes":4201,"sha256":"53e99059525803c912eb4f44de84db0837186a1f4d332008e335f4e8063e9ac4","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book/references/field-reference.md"},{"path":"references/how-it-works.md","sourcePath":"skills/day-book/references/how-it-works.md","bytes":262,"sha256":"979e7c965b780bedcc12bcada456d439659f6684d933711431379c07de0dea52","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book/references/how-it-works.md"},{"path":"references/related-skills.md","sourcePath":"skills/day-book/references/related-skills.md","bytes":1139,"sha256":"48d83905d072d741248763cf2adf359228f3fb2016e698b6b15f17ffda5b6b3f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book/references/related-skills.md"},{"path":"references/relations.md","sourcePath":"skills/day-book/references/relations.md","bytes":804,"sha256":"0d683ff4e6958be86933fa9ac374ebedbe5fc2aef47acfdfc678e31b956f4a88","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book/references/relations.md"},{"path":"references/reusable-prompt.md","sourcePath":"skills/day-book/references/reusable-prompt.md","bytes":3188,"sha256":"de918cffeb4513127f5e718aa473d6590d051596791df6fc82a68b646add706d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book/references/reusable-prompt.md"},{"path":"references/security-safety-notes.md","sourcePath":"skills/day-book/references/security-safety-notes.md","bytes":1123,"sha256":"d5b8a002638e13c9bb546c584e76a9dbe3343cf98876d778dff3e0c4558451fb","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book/references/security-safety-notes.md"},{"path":"references/select-options.md","sourcePath":"skills/day-book/references/select-options.md","bytes":711,"sha256":"b5aa8acff480f9083252b2e58dc7ba6ecc18ab195e69803dd3a63ca49a5cde70","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book/references/select-options.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"19772b5751999239c29b843aca265ba73d5b6fe4a172f62452770875110ae8d6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--day-book",
+    "name": "day-book",
+    "description": "Daily cash, bank and digital day book: opening and closing balances per book, in/out movements, debit/credit presentation and reconciliation status. Use for daily bookkeeping.",
+    "category": "Development",
+    "tags": [
+      "day",
+      "book",
+      "daily",
+      "cash",
+      "bank",
+      "digital",
+      "opening",
+      "closing",
+      "balances",
+      "per",
+      "out",
+      "movements",
+      "debit",
+      "credit",
+      "presentation",
+      "reconciliation",
+      "status.",
+      "bookkeeping."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/day-book",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 11,
+    "bytes": 46565,
+    "sha256": "2108127b1ecb3cf859e6f266969a5dc465d349f78929ad78f2eb7ae66ff6b8e0",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/day-book/SKILL.md",
+      "bytes": 27990,
+      "sha256": "2108127b1ecb3cf859e6f266969a5dc465d349f78929ad78f2eb7ae66ff6b8e0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book/SKILL.md"
+    },
+    {
+      "path": "references/best-practices.md",
+      "sourcePath": "skills/day-book/references/best-practices.md",
+      "bytes": 2314,
+      "sha256": "99f3b9617a47275957a1b07de919591b4bc33f59040f49c8f4e9139fbfe8cef4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book/references/best-practices.md"
+    },
+    {
+      "path": "references/common-pitfalls.md",
+      "sourcePath": "skills/day-book/references/common-pitfalls.md",
+      "bytes": 3760,
+      "sha256": "1c58f2f79c4dc7dc55127d98b1403058eca3200cf5a32ce7a2aabc24217dc771",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book/references/common-pitfalls.md"
+    },
+    {
+      "path": "references/field-reference.md",
+      "sourcePath": "skills/day-book/references/field-reference.md",
+      "bytes": 4201,
+      "sha256": "53e99059525803c912eb4f44de84db0837186a1f4d332008e335f4e8063e9ac4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book/references/field-reference.md"
+    },
+    {
+      "path": "references/how-it-works.md",
+      "sourcePath": "skills/day-book/references/how-it-works.md",
+      "bytes": 262,
+      "sha256": "979e7c965b780bedcc12bcada456d439659f6684d933711431379c07de0dea52",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book/references/how-it-works.md"
+    },
+    {
+      "path": "references/related-skills.md",
+      "sourcePath": "skills/day-book/references/related-skills.md",
+      "bytes": 1139,
+      "sha256": "48d83905d072d741248763cf2adf359228f3fb2016e698b6b15f17ffda5b6b3f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book/references/related-skills.md"
+    },
+    {
+      "path": "references/relations.md",
+      "sourcePath": "skills/day-book/references/relations.md",
+      "bytes": 804,
+      "sha256": "0d683ff4e6958be86933fa9ac374ebedbe5fc2aef47acfdfc678e31b956f4a88",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book/references/relations.md"
+    },
+    {
+      "path": "references/reusable-prompt.md",
+      "sourcePath": "skills/day-book/references/reusable-prompt.md",
+      "bytes": 3188,
+      "sha256": "de918cffeb4513127f5e718aa473d6590d051596791df6fc82a68b646add706d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book/references/reusable-prompt.md"
+    },
+    {
+      "path": "references/security-safety-notes.md",
+      "sourcePath": "skills/day-book/references/security-safety-notes.md",
+      "bytes": 1123,
+      "sha256": "d5b8a002638e13c9bb546c584e76a9dbe3343cf98876d778dff3e0c4558451fb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book/references/security-safety-notes.md"
+    },
+    {
+      "path": "references/select-options.md",
+      "sourcePath": "skills/day-book/references/select-options.md",
+      "bytes": 711,
+      "sha256": "b5aa8acff480f9083252b2e58dc7ba6ecc18ab195e69803dd3a63ca49a5cde70",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/day-book/references/select-options.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "19772b5751999239c29b843aca265ba73d5b6fe4a172f62452770875110ae8d6"
+}

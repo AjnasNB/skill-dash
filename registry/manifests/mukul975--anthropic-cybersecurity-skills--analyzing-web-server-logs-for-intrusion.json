@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-web-server-logs-for-intrusion","name":"analyzing-web-server-logs-for-intrusion","description":"Parse Apache and Nginx access logs to detect SQL injection attempts, local file inclusion, directory traversal, web scanner fingerprints, and brute-force patterns. Uses regex-based pattern matching against OWASP attack signatures, GeoIP enrichment for source attribution, and statistical anomaly detection for request frequency and response size outliers.","category":"Security","tags":["analyzing","web","server","logs","intrusion","parse","apache","nginx","access","detect","sql","injection","attempts","local","file","inclusion","directory","traversal"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-web-server-logs-for-intrusion/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-web-server-logs-for-intrusion","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-web-server-logs-for-intrusion","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":23760,"sha256":"c38e659c6294024622a52a0d6c5170742c636690bf1de42f26b0e479c0215ca6","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-web-server-logs-for-intrusion/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-web-server-logs-for-intrusion/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-web-server-logs-for-intrusion/SKILL.md","bytes":2574,"sha256":"c38e659c6294024622a52a0d6c5170742c636690bf1de42f26b0e479c0215ca6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-web-server-logs-for-intrusion/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-web-server-logs-for-intrusion/references/api-reference.md","bytes":1450,"sha256":"d620378e97228f17073904aa2023754ccb1b0bb516dc87a4b2ff94035442cb24","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-web-server-logs-for-intrusion/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-web-server-logs-for-intrusion/scripts/agent.py","bytes":8481,"sha256":"3c4764a13228ee3d0e6f6f20ea01f1621cce63cac2f8652695be81e52108b7f3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-web-server-logs-for-intrusion/scripts/agent.py"}],"archiveSha256":"ffbe2f651405fed3857716b9b3261b4ff0d47d183de787da120de986b99ac8b7"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-web-server-logs-for-intrusion",
+    "name": "analyzing-web-server-logs-for-intrusion",
+    "description": "Parse Apache and Nginx access logs to detect SQL injection attempts, local file inclusion, directory traversal, web scanner fingerprints, and brute-force patterns. Uses regex-based pattern matching against OWASP attack signatures, GeoIP enrichment for source attribution, and statistical anomaly detection for request frequency and response size outliers.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "web",
+      "server",
+      "logs",
+      "intrusion",
+      "parse",
+      "apache",
+      "nginx",
+      "access",
+      "detect",
+      "sql",
+      "injection",
+      "attempts",
+      "local",
+      "file",
+      "inclusion",
+      "directory",
+      "traversal"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-web-server-logs-for-intrusion/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-web-server-logs-for-intrusion",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-web-server-logs-for-intrusion",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 23760,
+    "sha256": "c38e659c6294024622a52a0d6c5170742c636690bf1de42f26b0e479c0215ca6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-web-server-logs-for-intrusion/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-web-server-logs-for-intrusion/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-web-server-logs-for-intrusion/SKILL.md",
+      "bytes": 2574,
+      "sha256": "c38e659c6294024622a52a0d6c5170742c636690bf1de42f26b0e479c0215ca6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-web-server-logs-for-intrusion/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-web-server-logs-for-intrusion/references/api-reference.md",
+      "bytes": 1450,
+      "sha256": "d620378e97228f17073904aa2023754ccb1b0bb516dc87a4b2ff94035442cb24",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-web-server-logs-for-intrusion/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-web-server-logs-for-intrusion/scripts/agent.py",
+      "bytes": 8481,
+      "sha256": "3c4764a13228ee3d0e6f6f20ea01f1621cce63cac2f8652695be81e52108b7f3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-web-server-logs-for-intrusion/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "ffbe2f651405fed3857716b9b3261b4ff0d47d183de787da120de986b99ac8b7"
+}

@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-lateral-movement-with-zeek","name":"detecting-lateral-movement-with-zeek","description":"Detect lateral movement in network traffic using Zeek (formerly Bro) log analysis. Parses conn.log, smb_mapping.log, smb_files.log, dce_rpc.log, kerberos.log, and ntlm.log to identify SMB file transfers, NTLM account spray activity, remote service execution, and anomalous internal connections.","category":"Development","tags":["detecting","lateral","movement","zeek","detect","network","traffic","formerly","bro","log","analysis.","parses","conn.log","smb","mapping.log","files.log","dce","rpc.log"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-lateral-movement-with-zeek/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-lateral-movement-with-zeek","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-zeek","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":58641,"sha256":"c2d7c7854a43a260353a4574f5ddd459a66b5b580f59f4492a45632586baf2f8","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-lateral-movement-with-zeek/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-zeek/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-lateral-movement-with-zeek/SKILL.md","bytes":7722,"sha256":"c2d7c7854a43a260353a4574f5ddd459a66b5b580f59f4492a45632586baf2f8","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-zeek/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/detecting-lateral-movement-with-zeek/assets/template.md","bytes":4437,"sha256":"855f0dc8c0ee17310ee732b22c1c1afef757a108172a68417d136203c22d6e4e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-zeek/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-lateral-movement-with-zeek/references/api-reference.md","bytes":4465,"sha256":"b2010ccb858fb2efc7f5dae25ca6555062d75881cb4c6dd017c8ecca9da7b33f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-zeek/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/detecting-lateral-movement-with-zeek/references/standards.md","bytes":818,"sha256":"7f2ca50ddb97485e53efeb2918c19ff77f6cb9f289c864414705e7002c9b6703","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-zeek/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/detecting-lateral-movement-with-zeek/references/workflows.md","bytes":4831,"sha256":"7bb5d0bf96d7cafa937ee5acd154ed0271673a58c8befaa6b259f1efd3bf3a37","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-zeek/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-lateral-movement-with-zeek/scripts/agent.py","bytes":19431,"sha256":"e55c8e2b24416edbb64f07cfa144a1b00aaae0bebcfa1f99dfdf4afde5a6418d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-zeek/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/detecting-lateral-movement-with-zeek/scripts/process.py","bytes":5682,"sha256":"802fd4245c916efba4480a81084837f46438f4b70e8886fc94b7f3c20aa8c996","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-zeek/scripts/process.py"}],"archiveSha256":"8c20465197dc15caf2946c3add2562a6e76d36fc5abd72835da73e595cd8993c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-lateral-movement-with-zeek",
+    "name": "detecting-lateral-movement-with-zeek",
+    "description": "Detect lateral movement in network traffic using Zeek (formerly Bro) log analysis. Parses conn.log, smb_mapping.log, smb_files.log, dce_rpc.log, kerberos.log, and ntlm.log to identify SMB file transfers, NTLM account spray activity, remote service execution, and anomalous internal connections.",
+    "category": "Development",
+    "tags": [
+      "detecting",
+      "lateral",
+      "movement",
+      "zeek",
+      "detect",
+      "network",
+      "traffic",
+      "formerly",
+      "bro",
+      "log",
+      "analysis.",
+      "parses",
+      "conn.log",
+      "smb",
+      "mapping.log",
+      "files.log",
+      "dce",
+      "rpc.log"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-lateral-movement-with-zeek/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-lateral-movement-with-zeek",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-zeek",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 58641,
+    "sha256": "c2d7c7854a43a260353a4574f5ddd459a66b5b580f59f4492a45632586baf2f8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-lateral-movement-with-zeek/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-zeek/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-lateral-movement-with-zeek/SKILL.md",
+      "bytes": 7722,
+      "sha256": "c2d7c7854a43a260353a4574f5ddd459a66b5b580f59f4492a45632586baf2f8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-zeek/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/detecting-lateral-movement-with-zeek/assets/template.md",
+      "bytes": 4437,
+      "sha256": "855f0dc8c0ee17310ee732b22c1c1afef757a108172a68417d136203c22d6e4e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-zeek/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-lateral-movement-with-zeek/references/api-reference.md",
+      "bytes": 4465,
+      "sha256": "b2010ccb858fb2efc7f5dae25ca6555062d75881cb4c6dd017c8ecca9da7b33f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-zeek/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/detecting-lateral-movement-with-zeek/references/standards.md",
+      "bytes": 818,
+      "sha256": "7f2ca50ddb97485e53efeb2918c19ff77f6cb9f289c864414705e7002c9b6703",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-zeek/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/detecting-lateral-movement-with-zeek/references/workflows.md",
+      "bytes": 4831,
+      "sha256": "7bb5d0bf96d7cafa937ee5acd154ed0271673a58c8befaa6b259f1efd3bf3a37",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-zeek/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-lateral-movement-with-zeek/scripts/agent.py",
+      "bytes": 19431,
+      "sha256": "e55c8e2b24416edbb64f07cfa144a1b00aaae0bebcfa1f99dfdf4afde5a6418d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-zeek/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/detecting-lateral-movement-with-zeek/scripts/process.py",
+      "bytes": 5682,
+      "sha256": "802fd4245c916efba4480a81084837f46438f4b70e8886fc94b7f3c20aa8c996",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-zeek/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "8c20465197dc15caf2946c3add2562a6e76d36fc5abd72835da73e595cd8993c"
+}

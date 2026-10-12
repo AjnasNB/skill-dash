@@ -1,1 +1,57 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--web2-recon","name":"web2-recon","description":"Web2 recon pipeline","category":"Development","tags":["web2","recon","pipeline"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/web2-recon","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/web2-recon","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":28090,"sha256":"cd9ee31fdb592d27556b91a2da8ce305e27c35007e4008c13a1505c90d607e3a","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/web2-recon/SKILL.md","bytes":14464,"sha256":"cd9ee31fdb592d27556b91a2da8ce305e27c35007e4008c13a1505c90d607e3a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/web2-recon/SKILL.md"},{"path":"references/details.md","sourcePath":"skills/web2-recon/references/details.md","bytes":12553,"sha256":"e774bab3319e4abffa83b0faf791a972f862d43a51d2ba941850cb21065fba27","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/web2-recon/references/details.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"503b1659e099cf8d3e16df777010de0c6928a8d54fcca0240d5f10d5f4547517"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--web2-recon",
+    "name": "web2-recon",
+    "description": "Web2 recon pipeline",
+    "category": "Development",
+    "tags": [
+      "web2",
+      "recon",
+      "pipeline"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/web2-recon",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/web2-recon",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 28090,
+    "sha256": "cd9ee31fdb592d27556b91a2da8ce305e27c35007e4008c13a1505c90d607e3a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/web2-recon/SKILL.md",
+      "bytes": 14464,
+      "sha256": "cd9ee31fdb592d27556b91a2da8ce305e27c35007e4008c13a1505c90d607e3a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/web2-recon/SKILL.md"
+    },
+    {
+      "path": "references/details.md",
+      "sourcePath": "skills/web2-recon/references/details.md",
+      "bytes": 12553,
+      "sha256": "e774bab3319e4abffa83b0faf791a972f862d43a51d2ba941850cb21065fba27",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/web2-recon/references/details.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "503b1659e099cf8d3e16df777010de0c6928a8d54fcca0240d5f10d5f4547517"
+}

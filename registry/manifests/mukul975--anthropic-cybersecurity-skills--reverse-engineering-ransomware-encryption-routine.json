@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--reverse-engineering-ransomware-encryption-routine","name":"reverse-engineering-ransomware-encryption-routine","description":"Reverse engineer ransomware encryption routines to identify cryptographic algorithms, key generation flaws, and potential decryption opportunities using static and dynamic analysis.","category":"Development","tags":["reverse","engineering","ransomware","encryption","routine","engineer","routines","identify","cryptographic","algorithms","key","generation","flaws","potential","decryption","opportunities","static","dynamic"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/reverse-engineering-ransomware-encryption-routine/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/reverse-engineering-ransomware-encryption-routine","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/reverse-engineering-ransomware-encryption-routine","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":40262,"sha256":"a6f48f1d93975b060ef554355aa8ec1721734a6c9203f465257852d65468eb29","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/reverse-engineering-ransomware-encryption-routine/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/reverse-engineering-ransomware-encryption-routine/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/reverse-engineering-ransomware-encryption-routine/SKILL.md","bytes":11062,"sha256":"a6f48f1d93975b060ef554355aa8ec1721734a6c9203f465257852d65468eb29","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/reverse-engineering-ransomware-encryption-routine/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/reverse-engineering-ransomware-encryption-routine/assets/template.md","bytes":849,"sha256":"ae1c2c612790b1480a47b9c882f3bdeefc4ab27f20b4f990be0c993617f3830d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/reverse-engineering-ransomware-encryption-routine/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/reverse-engineering-ransomware-encryption-routine/references/api-reference.md","bytes":1902,"sha256":"55aa9ddf59d38a338db78be55dc9f50a645c3429dd6887707bee5715aedf4976","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/reverse-engineering-ransomware-encryption-routine/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/reverse-engineering-ransomware-encryption-routine/references/standards.md","bytes":1168,"sha256":"f8a5d993a4da5517424fbd63e445d323f9b0c16ebb78d0aba9467b79dbd38a9e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/reverse-engineering-ransomware-encryption-routine/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/reverse-engineering-ransomware-encryption-routine/references/workflows.md","bytes":1698,"sha256":"b79371c39337ff1ba2b5b7c0af2f2c8d0319a9476f25b582159b76b3e6252de0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/reverse-engineering-ransomware-encryption-routine/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/reverse-engineering-ransomware-encryption-routine/scripts/agent.py","bytes":6767,"sha256":"ba86d92beba6868ba56ab957ce316794d41fdd6e284cca46093ebe8be3e875d9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/reverse-engineering-ransomware-encryption-routine/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/reverse-engineering-ransomware-encryption-routine/scripts/process.py","bytes":5561,"sha256":"9366f200ef86ac3416d5847a1003e928660f7e1f644e7c82eeb1099cbb6f88cb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/reverse-engineering-ransomware-encryption-routine/scripts/process.py"}],"archiveSha256":"528448014f8b9477b4ba7c60fa9dacf9e4a5097aef50afddbe0b1d672afab34a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--reverse-engineering-ransomware-encryption-routine",
+    "name": "reverse-engineering-ransomware-encryption-routine",
+    "description": "Reverse engineer ransomware encryption routines to identify cryptographic algorithms, key generation flaws, and potential decryption opportunities using static and dynamic analysis.",
+    "category": "Development",
+    "tags": [
+      "reverse",
+      "engineering",
+      "ransomware",
+      "encryption",
+      "routine",
+      "engineer",
+      "routines",
+      "identify",
+      "cryptographic",
+      "algorithms",
+      "key",
+      "generation",
+      "flaws",
+      "potential",
+      "decryption",
+      "opportunities",
+      "static",
+      "dynamic"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/reverse-engineering-ransomware-encryption-routine/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/reverse-engineering-ransomware-encryption-routine",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/reverse-engineering-ransomware-encryption-routine",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 40262,
+    "sha256": "a6f48f1d93975b060ef554355aa8ec1721734a6c9203f465257852d65468eb29",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/reverse-engineering-ransomware-encryption-routine/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/reverse-engineering-ransomware-encryption-routine/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/reverse-engineering-ransomware-encryption-routine/SKILL.md",
+      "bytes": 11062,
+      "sha256": "a6f48f1d93975b060ef554355aa8ec1721734a6c9203f465257852d65468eb29",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/reverse-engineering-ransomware-encryption-routine/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/reverse-engineering-ransomware-encryption-routine/assets/template.md",
+      "bytes": 849,
+      "sha256": "ae1c2c612790b1480a47b9c882f3bdeefc4ab27f20b4f990be0c993617f3830d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/reverse-engineering-ransomware-encryption-routine/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/reverse-engineering-ransomware-encryption-routine/references/api-reference.md",
+      "bytes": 1902,
+      "sha256": "55aa9ddf59d38a338db78be55dc9f50a645c3429dd6887707bee5715aedf4976",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/reverse-engineering-ransomware-encryption-routine/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/reverse-engineering-ransomware-encryption-routine/references/standards.md",
+      "bytes": 1168,
+      "sha256": "f8a5d993a4da5517424fbd63e445d323f9b0c16ebb78d0aba9467b79dbd38a9e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/reverse-engineering-ransomware-encryption-routine/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/reverse-engineering-ransomware-encryption-routine/references/workflows.md",
+      "bytes": 1698,
+      "sha256": "b79371c39337ff1ba2b5b7c0af2f2c8d0319a9476f25b582159b76b3e6252de0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/reverse-engineering-ransomware-encryption-routine/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/reverse-engineering-ransomware-encryption-routine/scripts/agent.py",
+      "bytes": 6767,
+      "sha256": "ba86d92beba6868ba56ab957ce316794d41fdd6e284cca46093ebe8be3e875d9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/reverse-engineering-ransomware-encryption-routine/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/reverse-engineering-ransomware-encryption-routine/scripts/process.py",
+      "bytes": 5561,
+      "sha256": "9366f200ef86ac3416d5847a1003e928660f7e1f644e7c82eeb1099cbb6f88cb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/reverse-engineering-ransomware-encryption-routine/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "528448014f8b9477b4ba7c60fa9dacf9e4a5097aef50afddbe0b1d672afab34a"
+}

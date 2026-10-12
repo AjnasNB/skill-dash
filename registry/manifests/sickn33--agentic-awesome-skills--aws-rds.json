@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--aws-rds","name":"aws-rds","description":"Provision and manage RDS databases. Configure backups, replication, and security. Use when deploying managed relational databases on AWS.","category":"Security","tags":["aws","rds","provision","manage","databases.","configure","backups","replication","security.","when","deploying","managed","relational","databases","aws."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/aws-rds","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/aws-rds","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":14382,"sha256":"1bcf7234170333fd6cbe994061e80b26952508c2f2e513313fd87ac693fd3b87","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/aws-rds/SKILL.md","bytes":13309,"sha256":"1bcf7234170333fd6cbe994061e80b26952508c2f2e513313fd87ac693fd3b87","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/aws-rds/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"ef46ed97784099c7d6aab4c94f8cb41348d5a627b63a114eb11afcced32170c8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--aws-rds",
+    "name": "aws-rds",
+    "description": "Provision and manage RDS databases. Configure backups, replication, and security. Use when deploying managed relational databases on AWS.",
+    "category": "Security",
+    "tags": [
+      "aws",
+      "rds",
+      "provision",
+      "manage",
+      "databases.",
+      "configure",
+      "backups",
+      "replication",
+      "security.",
+      "when",
+      "deploying",
+      "managed",
+      "relational",
+      "databases",
+      "aws."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/aws-rds",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/aws-rds",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 14382,
+    "sha256": "1bcf7234170333fd6cbe994061e80b26952508c2f2e513313fd87ac693fd3b87",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/aws-rds/SKILL.md",
+      "bytes": 13309,
+      "sha256": "1bcf7234170333fd6cbe994061e80b26952508c2f2e513313fd87ac693fd3b87",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/aws-rds/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ef46ed97784099c7d6aab4c94f8cb41348d5a627b63a114eb11afcced32170c8"
+}

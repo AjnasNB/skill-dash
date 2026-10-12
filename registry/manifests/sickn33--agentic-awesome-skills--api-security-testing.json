@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--api-security-testing","name":"api-security-testing","description":"API security testing workflow for REST and GraphQL APIs covering authentication, authorization, rate limiting, input validation, and security best practices.","category":"Security","tags":["api","security","testing","workflow","rest","graphql","apis","covering","authentication","authorization","rate","limiting","input","validation","best","practices."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/api-security-testing","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/api-security-testing","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4998,"sha256":"5eb0a027aa1175b651510b74251adff43714edc6ade893665fcc415a59163cca","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/api-security-testing/SKILL.md","bytes":3925,"sha256":"5eb0a027aa1175b651510b74251adff43714edc6ade893665fcc415a59163cca","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/api-security-testing/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"d73a27140d3858ad8ee0c386692d2db19ac3a3e7e25c2d88c35f481d1f1228f3"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--api-security-testing",
+    "name": "api-security-testing",
+    "description": "API security testing workflow for REST and GraphQL APIs covering authentication, authorization, rate limiting, input validation, and security best practices.",
+    "category": "Security",
+    "tags": [
+      "api",
+      "security",
+      "testing",
+      "workflow",
+      "rest",
+      "graphql",
+      "apis",
+      "covering",
+      "authentication",
+      "authorization",
+      "rate",
+      "limiting",
+      "input",
+      "validation",
+      "best",
+      "practices."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/api-security-testing",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/api-security-testing",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4998,
+    "sha256": "5eb0a027aa1175b651510b74251adff43714edc6ade893665fcc415a59163cca",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/api-security-testing/SKILL.md",
+      "bytes": 3925,
+      "sha256": "5eb0a027aa1175b651510b74251adff43714edc6ade893665fcc415a59163cca",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/api-security-testing/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "d73a27140d3858ad8ee0c386692d2db19ac3a3e7e25c2d88c35f481d1f1228f3"
+}

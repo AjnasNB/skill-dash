@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--hunting-for-dcom-lateral-movement","name":"hunting-for-dcom-lateral-movement","description":"Hunt for DCOM-based lateral movement (MITRE ATT&CK T1021.003) by detecting abuse of MMC20.Application, ShellBrowserWindow, and ShellWindows COM objects via Sysmon Event ID 1/3 correlation, WMI event analysis, and RPC endpoint mapper traffic on port 135. Use when investigating suspicious mmc.exe/dllhost.exe child processes, building T1021.003 detections, or auditing DCOM exposure during purple-team exercises.","category":"Development","tags":["hunting","dcom","lateral","movement","hunt","based","mitre","att","ck","t1021.003","by","detecting","abuse","mmc20.application","shellbrowserwindow","shellwindows","com","objects"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/hunting-for-dcom-lateral-movement/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/hunting-for-dcom-lateral-movement","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dcom-lateral-movement","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":5,"bytes":79810,"sha256":"3358c28c24aea31f168c417e450ee8fc912e9d7f70afd7941524fea81f159c77","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/hunting-for-dcom-lateral-movement/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dcom-lateral-movement/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/hunting-for-dcom-lateral-movement/SKILL.md","bytes":29813,"sha256":"3358c28c24aea31f168c417e450ee8fc912e9d7f70afd7941524fea81f159c77","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dcom-lateral-movement/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/hunting-for-dcom-lateral-movement/references/api-reference.md","bytes":5744,"sha256":"55bfea0ebc70fa38f1e9f5d06566221411003ea265d3fabe62c60d990715e7ce","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dcom-lateral-movement/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/hunting-for-dcom-lateral-movement/scripts/agent.py","bytes":14078,"sha256":"daa942659ddcc406f92e0538ce0ced064464537692ed2f38ad085015368e2fd2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dcom-lateral-movement/scripts/agent.py"},{"path":"scripts/detect_dcom_lateral_movement.py","sourcePath":"skills/hunting-for-dcom-lateral-movement/scripts/detect_dcom_lateral_movement.py","bytes":18920,"sha256":"952b84997d634689e61329fecd50326478bdf61991f096c539f3320d256b8987","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dcom-lateral-movement/scripts/detect_dcom_lateral_movement.py"}],"archiveSha256":"51a785ae8b25b472ba184ce0df7ac33967da035e73ac54a49fb2c789ba886eeb"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-for-dcom-lateral-movement",
+    "name": "hunting-for-dcom-lateral-movement",
+    "description": "Hunt for DCOM-based lateral movement (MITRE ATT&CK T1021.003) by detecting abuse of MMC20.Application, ShellBrowserWindow, and ShellWindows COM objects via Sysmon Event ID 1/3 correlation, WMI event analysis, and RPC endpoint mapper traffic on port 135. Use when investigating suspicious mmc.exe/dllhost.exe child processes, building T1021.003 detections, or auditing DCOM exposure during purple-team exercises.",
+    "category": "Development",
+    "tags": [
+      "hunting",
+      "dcom",
+      "lateral",
+      "movement",
+      "hunt",
+      "based",
+      "mitre",
+      "att",
+      "ck",
+      "t1021.003",
+      "by",
+      "detecting",
+      "abuse",
+      "mmc20.application",
+      "shellbrowserwindow",
+      "shellwindows",
+      "com",
+      "objects"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-for-dcom-lateral-movement/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-for-dcom-lateral-movement",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dcom-lateral-movement",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 79810,
+    "sha256": "3358c28c24aea31f168c417e450ee8fc912e9d7f70afd7941524fea81f159c77",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-for-dcom-lateral-movement/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dcom-lateral-movement/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-for-dcom-lateral-movement/SKILL.md",
+      "bytes": 29813,
+      "sha256": "3358c28c24aea31f168c417e450ee8fc912e9d7f70afd7941524fea81f159c77",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dcom-lateral-movement/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-for-dcom-lateral-movement/references/api-reference.md",
+      "bytes": 5744,
+      "sha256": "55bfea0ebc70fa38f1e9f5d06566221411003ea265d3fabe62c60d990715e7ce",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dcom-lateral-movement/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-for-dcom-lateral-movement/scripts/agent.py",
+      "bytes": 14078,
+      "sha256": "daa942659ddcc406f92e0538ce0ced064464537692ed2f38ad085015368e2fd2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dcom-lateral-movement/scripts/agent.py"
+    },
+    {
+      "path": "scripts/detect_dcom_lateral_movement.py",
+      "sourcePath": "skills/hunting-for-dcom-lateral-movement/scripts/detect_dcom_lateral_movement.py",
+      "bytes": 18920,
+      "sha256": "952b84997d634689e61329fecd50326478bdf61991f096c539f3320d256b8987",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dcom-lateral-movement/scripts/detect_dcom_lateral_movement.py"
+    }
+  ],
+  "archiveSha256": "51a785ae8b25b472ba184ce0df7ac33967da035e73ac54a49fb2c789ba886eeb"
+}

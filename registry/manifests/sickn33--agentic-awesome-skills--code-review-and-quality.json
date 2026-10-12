@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--code-review-and-quality","name":"code-review-and-quality","description":"Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch.","category":"AI & agents","tags":["code","review","quality","conducts","multi","axis","review.","before","merging","any","change.","when","reviewing","written","by","yourself","another","agent"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/code-review-and-quality","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/code-review-and-quality","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":20183,"sha256":"8e7bce542662056895bbf9a31e1334c2d2ebabebb6ab9f6ffb3834752ebbe333","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/code-review-and-quality/SKILL.md","bytes":19110,"sha256":"8e7bce542662056895bbf9a31e1334c2d2ebabebb6ab9f6ffb3834752ebbe333","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/code-review-and-quality/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"98855712d82791d0f946d3d6ba49a21c9febc40cc106ea24376d7693e12060a6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--code-review-and-quality",
+    "name": "code-review-and-quality",
+    "description": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch.",
+    "category": "AI & agents",
+    "tags": [
+      "code",
+      "review",
+      "quality",
+      "conducts",
+      "multi",
+      "axis",
+      "review.",
+      "before",
+      "merging",
+      "any",
+      "change.",
+      "when",
+      "reviewing",
+      "written",
+      "by",
+      "yourself",
+      "another",
+      "agent"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/code-review-and-quality",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/code-review-and-quality",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 20183,
+    "sha256": "8e7bce542662056895bbf9a31e1334c2d2ebabebb6ab9f6ffb3834752ebbe333",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/code-review-and-quality/SKILL.md",
+      "bytes": 19110,
+      "sha256": "8e7bce542662056895bbf9a31e1334c2d2ebabebb6ab9f6ffb3834752ebbe333",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/code-review-and-quality/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "98855712d82791d0f946d3d6ba49a21c9febc40cc106ea24376d7693e12060a6"
+}

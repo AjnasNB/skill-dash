@@ -1,1 +1,128 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--scientific-critical-thinking","name":"scientific-critical-thinking","description":"Evaluates scientific claims and evidence quality. Applies to experimental design validity, biases and confounders, statistical interpretation, evidence grading frameworks (GRADE, Cochrane Risk of Bias), and teaching critical analysis. Supports evidence appraisal and identifying flaws; formal peer review writing belongs to peer-review.","category":"Design","tags":["scientific","critical","thinking","evaluates","claims","evidence","quality.","applies","experimental","design","validity","biases","confounders","statistical","interpretation","grading","frameworks","grade"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/scientific-critical-thinking","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-critical-thinking","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":10,"bytes":134227,"sha256":"563af70571b7dcd6a96bf2e303bedfdcba623b4e9f082d58f04aacbc961fdae4","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/scientific-critical-thinking/SKILL.md","bytes":13146,"sha256":"563af70571b7dcd6a96bf2e303bedfdcba623b4e9f082d58f04aacbc961fdae4","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-critical-thinking/SKILL.md"},{"path":"references/common_biases.md","sourcePath":"skills/scientific-critical-thinking/references/common_biases.md","bytes":12368,"sha256":"641e8e8e6dfadac1643ea8691b7d3e4e58cf013f134cd42c71301878096a5a39","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-critical-thinking/references/common_biases.md"},{"path":"references/core_capabilities.md","sourcePath":"skills/scientific-critical-thinking/references/core_capabilities.md","bytes":16975,"sha256":"0f337b96aa2d7453433a17824368fbd0638b9469d4f90a5fd23f4167c9dee180","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-critical-thinking/references/core_capabilities.md"},{"path":"references/evidence_hierarchy.md","sourcePath":"skills/scientific-critical-thinking/references/evidence_hierarchy.md","bytes":17435,"sha256":"534fbe991ecfb2d162f755004dc528118ce74a78862917c2911595a522d76e6c","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-critical-thinking/references/evidence_hierarchy.md"},{"path":"references/experimental_design.md","sourcePath":"skills/scientific-critical-thinking/references/experimental_design.md","bytes":18227,"sha256":"eca7e42025393984c07676f3d4bc354d217e5604dc2209c76215d31953a7c74c","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-critical-thinking/references/experimental_design.md"},{"path":"references/logical_fallacies.md","sourcePath":"skills/scientific-critical-thinking/references/logical_fallacies.md","bytes":18659,"sha256":"becfc5bfac7b831dca67cc442cd0fcb42d8eea527a6fc2921c1b704e592ff593","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-critical-thinking/references/logical_fallacies.md"},{"path":"references/review_sources.md","sourcePath":"skills/scientific-critical-thinking/references/review_sources.md","bytes":7557,"sha256":"71e75106f36f3e69b28959ad1fec503ccdb21b7f5361ab230173e4812accbf62","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-critical-thinking/references/review_sources.md"},{"path":"references/scientific_method.md","sourcePath":"skills/scientific-critical-thinking/references/scientific_method.md","bytes":7641,"sha256":"5aa925b97c7a916f819dafc8b42a9c24e4bd3eb2836594e724f1e7f9ae75ea0f","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-critical-thinking/references/scientific_method.md"},{"path":"references/statistical_pitfalls.md","sourcePath":"skills/scientific-critical-thinking/references/statistical_pitfalls.md","bytes":21151,"sha256":"0c43204a0a81110cfeb7c982fa4caa89f274bdcebf096e09e5adfccf31241cb9","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-critical-thinking/references/statistical_pitfalls.md"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"464b0446b012438f3e97f30b6841354631c39600938dc953d9e954a042d82ec1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--scientific-critical-thinking",
+    "name": "scientific-critical-thinking",
+    "description": "Evaluates scientific claims and evidence quality. Applies to experimental design validity, biases and confounders, statistical interpretation, evidence grading frameworks (GRADE, Cochrane Risk of Bias), and teaching critical analysis. Supports evidence appraisal and identifying flaws; formal peer review writing belongs to peer-review.",
+    "category": "Design",
+    "tags": [
+      "scientific",
+      "critical",
+      "thinking",
+      "evaluates",
+      "claims",
+      "evidence",
+      "quality.",
+      "applies",
+      "experimental",
+      "design",
+      "validity",
+      "biases",
+      "confounders",
+      "statistical",
+      "interpretation",
+      "grading",
+      "frameworks",
+      "grade"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/scientific-critical-thinking",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-critical-thinking",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 10,
+    "bytes": 134227,
+    "sha256": "563af70571b7dcd6a96bf2e303bedfdcba623b4e9f082d58f04aacbc961fdae4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/scientific-critical-thinking/SKILL.md",
+      "bytes": 13146,
+      "sha256": "563af70571b7dcd6a96bf2e303bedfdcba623b4e9f082d58f04aacbc961fdae4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-critical-thinking/SKILL.md"
+    },
+    {
+      "path": "references/common_biases.md",
+      "sourcePath": "skills/scientific-critical-thinking/references/common_biases.md",
+      "bytes": 12368,
+      "sha256": "641e8e8e6dfadac1643ea8691b7d3e4e58cf013f134cd42c71301878096a5a39",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-critical-thinking/references/common_biases.md"
+    },
+    {
+      "path": "references/core_capabilities.md",
+      "sourcePath": "skills/scientific-critical-thinking/references/core_capabilities.md",
+      "bytes": 16975,
+      "sha256": "0f337b96aa2d7453433a17824368fbd0638b9469d4f90a5fd23f4167c9dee180",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-critical-thinking/references/core_capabilities.md"
+    },
+    {
+      "path": "references/evidence_hierarchy.md",
+      "sourcePath": "skills/scientific-critical-thinking/references/evidence_hierarchy.md",
+      "bytes": 17435,
+      "sha256": "534fbe991ecfb2d162f755004dc528118ce74a78862917c2911595a522d76e6c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-critical-thinking/references/evidence_hierarchy.md"
+    },
+    {
+      "path": "references/experimental_design.md",
+      "sourcePath": "skills/scientific-critical-thinking/references/experimental_design.md",
+      "bytes": 18227,
+      "sha256": "eca7e42025393984c07676f3d4bc354d217e5604dc2209c76215d31953a7c74c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-critical-thinking/references/experimental_design.md"
+    },
+    {
+      "path": "references/logical_fallacies.md",
+      "sourcePath": "skills/scientific-critical-thinking/references/logical_fallacies.md",
+      "bytes": 18659,
+      "sha256": "becfc5bfac7b831dca67cc442cd0fcb42d8eea527a6fc2921c1b704e592ff593",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-critical-thinking/references/logical_fallacies.md"
+    },
+    {
+      "path": "references/review_sources.md",
+      "sourcePath": "skills/scientific-critical-thinking/references/review_sources.md",
+      "bytes": 7557,
+      "sha256": "71e75106f36f3e69b28959ad1fec503ccdb21b7f5361ab230173e4812accbf62",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-critical-thinking/references/review_sources.md"
+    },
+    {
+      "path": "references/scientific_method.md",
+      "sourcePath": "skills/scientific-critical-thinking/references/scientific_method.md",
+      "bytes": 7641,
+      "sha256": "5aa925b97c7a916f819dafc8b42a9c24e4bd3eb2836594e724f1e7f9ae75ea0f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-critical-thinking/references/scientific_method.md"
+    },
+    {
+      "path": "references/statistical_pitfalls.md",
+      "sourcePath": "skills/scientific-critical-thinking/references/statistical_pitfalls.md",
+      "bytes": 21151,
+      "sha256": "0c43204a0a81110cfeb7c982fa4caa89f274bdcebf096e09e5adfccf31241cb9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-critical-thinking/references/statistical_pitfalls.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "464b0446b012438f3e97f30b6841354631c39600938dc953d9e954a042d82ec1"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--culture-retention","name":"culture-retention","description":"Employee survey and retention register: engagement, growth, happiness, work-life balance and manager-relationship scores, key concern and retention risk. Use for culture surveys.","category":"Marketing","tags":["culture","retention","employee","survey","register","engagement","growth","happiness","work","life","balance","manager","relationship","scores","key","concern","risk.","surveys."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/culture-retention","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/culture-retention","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":16216,"sha256":"23175b23e1d81dc1c15ee17352b2d7c409b9cb7f060a9759914f2e4a7056f79e","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/culture-retention/SKILL.md","bytes":15143,"sha256":"23175b23e1d81dc1c15ee17352b2d7c409b9cb7f060a9759914f2e4a7056f79e","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/culture-retention/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"4c7b16fa0bd7499f8aa27b76b80254f711bd85f36d703e62fc3a42d38e581984"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--culture-retention",
+    "name": "culture-retention",
+    "description": "Employee survey and retention register: engagement, growth, happiness, work-life balance and manager-relationship scores, key concern and retention risk. Use for culture surveys.",
+    "category": "Marketing",
+    "tags": [
+      "culture",
+      "retention",
+      "employee",
+      "survey",
+      "register",
+      "engagement",
+      "growth",
+      "happiness",
+      "work",
+      "life",
+      "balance",
+      "manager",
+      "relationship",
+      "scores",
+      "key",
+      "concern",
+      "risk.",
+      "surveys."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/culture-retention",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/culture-retention",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 16216,
+    "sha256": "23175b23e1d81dc1c15ee17352b2d7c409b9cb7f060a9759914f2e4a7056f79e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/culture-retention/SKILL.md",
+      "bytes": 15143,
+      "sha256": "23175b23e1d81dc1c15ee17352b2d7c409b9cb7f060a9759914f2e4a7056f79e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/culture-retention/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "4c7b16fa0bd7499f8aa27b76b80254f711bd85f36d703e62fc3a42d38e581984"
+}

@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--laravel-security-audit","name":"laravel-security-audit","description":"Security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.","category":"Security","tags":["laravel","security","audit","auditor","applications.","analyzes","code","vulnerabilities","misconfigurations","insecure","practices","owasp","standards","best","practices."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/laravel-security-audit","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/laravel-security-audit","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5885,"sha256":"0f3270f77fa6b95626a21e30f39cd70ef50f62a08633e0629ab0ec8b298f2a12","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/laravel-security-audit/SKILL.md","bytes":4812,"sha256":"0f3270f77fa6b95626a21e30f39cd70ef50f62a08633e0629ab0ec8b298f2a12","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/laravel-security-audit/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"330ad0a3bddc31e7b7796351567254a1a66c6a4f49ea9a511e29d58ee1cc6d33"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--laravel-security-audit",
+    "name": "laravel-security-audit",
+    "description": "Security auditor for Laravel applications. Analyzes code for vulnerabilities, misconfigurations, and insecure practices using OWASP standards and Laravel security best practices.",
+    "category": "Security",
+    "tags": [
+      "laravel",
+      "security",
+      "audit",
+      "auditor",
+      "applications.",
+      "analyzes",
+      "code",
+      "vulnerabilities",
+      "misconfigurations",
+      "insecure",
+      "practices",
+      "owasp",
+      "standards",
+      "best",
+      "practices."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/laravel-security-audit",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/laravel-security-audit",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5885,
+    "sha256": "0f3270f77fa6b95626a21e30f39cd70ef50f62a08633e0629ab0ec8b298f2a12",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/laravel-security-audit/SKILL.md",
+      "bytes": 4812,
+      "sha256": "0f3270f77fa6b95626a21e30f39cd70ef50f62a08633e0629ab0ec8b298f2a12",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/laravel-security-audit/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "330ad0a3bddc31e7b7796351567254a1a66c6a4f49ea9a511e29d58ee1cc6d33"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--faf-expert","name":"faf-expert","description":"Advanced .faf (Foundational AI-context Format) specialist. IANA-registered format, MCP server config, championship scoring, bi-directional sync.","category":"AI & agents","tags":["faf","expert","advanced",".faf","foundational","ai","context","format","specialist.","iana","registered","mcp","server","config","championship","scoring","bi","directional"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/faf-expert","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/faf-expert","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7065,"sha256":"59db0cec54f1b6654d7d30e4b1c9db03727a834354557f57fba0fa692183c6d5","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/faf-expert/SKILL.md","bytes":5992,"sha256":"59db0cec54f1b6654d7d30e4b1c9db03727a834354557f57fba0fa692183c6d5","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/faf-expert/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"b08fd99780ac33b82c8677cd7f40e4e15e6973a63403bbccbd167e8a3b3e4ea8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--faf-expert",
+    "name": "faf-expert",
+    "description": "Advanced .faf (Foundational AI-context Format) specialist. IANA-registered format, MCP server config, championship scoring, bi-directional sync.",
+    "category": "AI & agents",
+    "tags": [
+      "faf",
+      "expert",
+      "advanced",
+      ".faf",
+      "foundational",
+      "ai",
+      "context",
+      "format",
+      "specialist.",
+      "iana",
+      "registered",
+      "mcp",
+      "server",
+      "config",
+      "championship",
+      "scoring",
+      "bi",
+      "directional"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/faf-expert",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/faf-expert",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7065,
+    "sha256": "59db0cec54f1b6654d7d30e4b1c9db03727a834354557f57fba0fa692183c6d5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/faf-expert/SKILL.md",
+      "bytes": 5992,
+      "sha256": "59db0cec54f1b6654d7d30e4b1c9db03727a834354557f57fba0fa692183c6d5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/faf-expert/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "b08fd99780ac33b82c8677cd7f40e4e15e6973a63403bbccbd167e8a3b3e4ea8"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--ai-native-ui","name":"ai-native-ui","description":"Web and App implementation guide for AI Native UI. Trigger when user wants conversational interfaces, adaptive layouts, and generative AI aesthetics.","category":"Design","tags":["ai","native","ui","web","app","implementation","guide","ui.","trigger","when","user","wants","conversational","interfaces","adaptive","layouts","generative","aesthetics."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/design-it/ai-native-ui","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/ai-native-ui","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11859,"sha256":"467b247194c16d5216ac844b6c675d064255ab6b266cbe31e5f68b86c6179db9","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/design-it/ai-native-ui/SKILL.md","bytes":10786,"sha256":"467b247194c16d5216ac844b6c675d064255ab6b266cbe31e5f68b86c6179db9","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/ai-native-ui/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"5fd939a257fceb8afec0b2f6aa236cef2c59d0bd052ab5ce1ddf89fc4b82bd68"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--ai-native-ui",
+    "name": "ai-native-ui",
+    "description": "Web and App implementation guide for AI Native UI. Trigger when user wants conversational interfaces, adaptive layouts, and generative AI aesthetics.",
+    "category": "Design",
+    "tags": [
+      "ai",
+      "native",
+      "ui",
+      "web",
+      "app",
+      "implementation",
+      "guide",
+      "ui.",
+      "trigger",
+      "when",
+      "user",
+      "wants",
+      "conversational",
+      "interfaces",
+      "adaptive",
+      "layouts",
+      "generative",
+      "aesthetics."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/design-it/ai-native-ui",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/ai-native-ui",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11859,
+    "sha256": "467b247194c16d5216ac844b6c675d064255ab6b266cbe31e5f68b86c6179db9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/design-it/ai-native-ui/SKILL.md",
+      "bytes": 10786,
+      "sha256": "467b247194c16d5216ac844b6c675d064255ab6b266cbe31e5f68b86c6179db9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/ai-native-ui/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "5fd939a257fceb8afec0b2f6aa236cef2c59d0bd052ab5ce1ddf89fc4b82bd68"
+}

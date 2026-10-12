@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-just-in-time-access-provisioning","name":"implementing-just-in-time-access-provisioning","description":"Implements Just-In-Time (JIT) access provisioning to eliminate standing privileges by granting temporary, time-bound access, covering approval workflows, automatic expiration/revocation, and PAM/IGA integration. Use when designing access approval workflows or replacing standing privileged accounts with time-bound, zero-trust-aligned grants.","category":"Security","tags":["implementing","just","time","access","provisioning","implements","jit","eliminate","standing","privileges","by","granting","temporary","bound","covering","approval","workflows","automatic"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-just-in-time-access-provisioning/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-just-in-time-access-provisioning","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-just-in-time-access-provisioning","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":45679,"sha256":"1d9501801564d942270c354b13514b5afdd3f0c50a1482946f84d79039beef7b","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-just-in-time-access-provisioning/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-just-in-time-access-provisioning/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-just-in-time-access-provisioning/SKILL.md","bytes":5259,"sha256":"1d9501801564d942270c354b13514b5afdd3f0c50a1482946f84d79039beef7b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-just-in-time-access-provisioning/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-just-in-time-access-provisioning/assets/template.md","bytes":1769,"sha256":"38c1db5284e0acc95d672d6927bfc89fd29adfdd34e856f72ff2b2967387e6ce","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-just-in-time-access-provisioning/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-just-in-time-access-provisioning/references/api-reference.md","bytes":1685,"sha256":"22f2f68d932b20c0558f861060a366dd652e21c9c15f75117b7e4a77eca7dc0d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-just-in-time-access-provisioning/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-just-in-time-access-provisioning/references/standards.md","bytes":1152,"sha256":"67f069d06a9fea215f861c8f06c28b4e6ec95914c38297f3a94ffa7e666d36a9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-just-in-time-access-provisioning/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-just-in-time-access-provisioning/references/workflows.md","bytes":2307,"sha256":"f2361742c6d93f7878f4c0a329db988767471609ece56c449763b1327e6490b6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-just-in-time-access-provisioning/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-just-in-time-access-provisioning/scripts/agent.py","bytes":8370,"sha256":"ebb009cdd368274d476a9246499b38fc0bd9a7d87e0ba7829ac7416c2fb3c113","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-just-in-time-access-provisioning/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-just-in-time-access-provisioning/scripts/process.py","bytes":13882,"sha256":"c80b9e0edefe05c7097a45d19ad1b7509100f224680500482487a92eeaa015a6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-just-in-time-access-provisioning/scripts/process.py"}],"archiveSha256":"2ea33724aeffaf622907c5efcd39c90d3a2a62a989de989884986139ce8065c8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-just-in-time-access-provisioning",
+    "name": "implementing-just-in-time-access-provisioning",
+    "description": "Implements Just-In-Time (JIT) access provisioning to eliminate standing privileges by granting temporary, time-bound access, covering approval workflows, automatic expiration/revocation, and PAM/IGA integration. Use when designing access approval workflows or replacing standing privileged accounts with time-bound, zero-trust-aligned grants.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "just",
+      "time",
+      "access",
+      "provisioning",
+      "implements",
+      "jit",
+      "eliminate",
+      "standing",
+      "privileges",
+      "by",
+      "granting",
+      "temporary",
+      "bound",
+      "covering",
+      "approval",
+      "workflows",
+      "automatic"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-just-in-time-access-provisioning/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-just-in-time-access-provisioning",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-just-in-time-access-provisioning",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 45679,
+    "sha256": "1d9501801564d942270c354b13514b5afdd3f0c50a1482946f84d79039beef7b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-just-in-time-access-provisioning/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-just-in-time-access-provisioning/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-just-in-time-access-provisioning/SKILL.md",
+      "bytes": 5259,
+      "sha256": "1d9501801564d942270c354b13514b5afdd3f0c50a1482946f84d79039beef7b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-just-in-time-access-provisioning/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-just-in-time-access-provisioning/assets/template.md",
+      "bytes": 1769,
+      "sha256": "38c1db5284e0acc95d672d6927bfc89fd29adfdd34e856f72ff2b2967387e6ce",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-just-in-time-access-provisioning/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-just-in-time-access-provisioning/references/api-reference.md",
+      "bytes": 1685,
+      "sha256": "22f2f68d932b20c0558f861060a366dd652e21c9c15f75117b7e4a77eca7dc0d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-just-in-time-access-provisioning/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-just-in-time-access-provisioning/references/standards.md",
+      "bytes": 1152,
+      "sha256": "67f069d06a9fea215f861c8f06c28b4e6ec95914c38297f3a94ffa7e666d36a9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-just-in-time-access-provisioning/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-just-in-time-access-provisioning/references/workflows.md",
+      "bytes": 2307,
+      "sha256": "f2361742c6d93f7878f4c0a329db988767471609ece56c449763b1327e6490b6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-just-in-time-access-provisioning/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-just-in-time-access-provisioning/scripts/agent.py",
+      "bytes": 8370,
+      "sha256": "ebb009cdd368274d476a9246499b38fc0bd9a7d87e0ba7829ac7416c2fb3c113",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-just-in-time-access-provisioning/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-just-in-time-access-provisioning/scripts/process.py",
+      "bytes": 13882,
+      "sha256": "c80b9e0edefe05c7097a45d19ad1b7509100f224680500482487a92eeaa015a6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-just-in-time-access-provisioning/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "2ea33724aeffaf622907c5efcd39c90d3a2a62a989de989884986139ce8065c8"
+}

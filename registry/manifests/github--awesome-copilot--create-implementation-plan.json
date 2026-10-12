@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--create-implementation-plan","name":"create-implementation-plan","description":"Create a new implementation plan file for new features, refactoring existing code or upgrading packages, design, architecture or infrastructure.","category":"Design","tags":["implementation","plan","new","file","features","refactoring","existing","code","upgrading","packages","design","architecture","infrastructure."],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/create-implementation-plan","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/create-implementation-plan","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":9425,"sha256":"11caba1048cbdbfca6f7ce13a0e0580d6e9d943f7b775ee24978ece1d3334066","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/create-implementation-plan/SKILL.md","bytes":8366,"sha256":"11caba1048cbdbfca6f7ce13a0e0580d6e9d943f7b775ee24978ece1d3334066","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/create-implementation-plan/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"215db8abe8320099e22325528b3774246979b86812e9ae979fd22201978173d9"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--create-implementation-plan",
+    "name": "create-implementation-plan",
+    "description": "Create a new implementation plan file for new features, refactoring existing code or upgrading packages, design, architecture or infrastructure.",
+    "category": "Design",
+    "tags": [
+      "implementation",
+      "plan",
+      "new",
+      "file",
+      "features",
+      "refactoring",
+      "existing",
+      "code",
+      "upgrading",
+      "packages",
+      "design",
+      "architecture",
+      "infrastructure."
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/create-implementation-plan",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/create-implementation-plan",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 9425,
+    "sha256": "11caba1048cbdbfca6f7ce13a0e0580d6e9d943f7b775ee24978ece1d3334066",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/create-implementation-plan/SKILL.md",
+      "bytes": 8366,
+      "sha256": "11caba1048cbdbfca6f7ce13a0e0580d6e9d943f7b775ee24978ece1d3334066",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/create-implementation-plan/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "215db8abe8320099e22325528b3774246979b86812e9ae979fd22201978173d9"
+}

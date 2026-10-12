@@ -1,1 +1,55 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--ui-a11y","name":"ui-a11y","description":"Audit a component or page for accessibility issues and fix them","category":"Design","tags":["ui","a11y","audit","component","page","accessibility","issues","fix","them"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/ui-a11y","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ui-a11y","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4841,"sha256":"e497e2d429d14beb492978228f2c60e36bf70565ef232d86eb27f2b5d0215cf5","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/ui-a11y/SKILL.md","bytes":3768,"sha256":"e497e2d429d14beb492978228f2c60e36bf70565ef232d86eb27f2b5d0215cf5","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ui-a11y/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"5f166e709992094ce429814a7acc7a4a543142c35fb0d02f468f121bab6d4c7e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--ui-a11y",
+    "name": "ui-a11y",
+    "description": "Audit a component or page for accessibility issues and fix them",
+    "category": "Design",
+    "tags": [
+      "ui",
+      "a11y",
+      "audit",
+      "component",
+      "page",
+      "accessibility",
+      "issues",
+      "fix",
+      "them"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/ui-a11y",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ui-a11y",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4841,
+    "sha256": "e497e2d429d14beb492978228f2c60e36bf70565ef232d86eb27f2b5d0215cf5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/ui-a11y/SKILL.md",
+      "bytes": 3768,
+      "sha256": "e497e2d429d14beb492978228f2c60e36bf70565ef232d86eb27f2b5d0215cf5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ui-a11y/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "5f166e709992094ce429814a7acc7a4a543142c35fb0d02f468f121bab6d4c7e"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--hexagonal-architecture","name":"hexagonal-architecture","description":"Design, implement, and refactor Ports & Adapters systems with clear domain boundaries, dependency inversion, and testable use-case orchestration across TypeScript, Java, Kotlin, and Go services. Use when introducing or refactoring toward Ports and Adapters, or when domain logic has become entangled with I/O.","category":"Design","tags":["hexagonal","architecture","design","implement","refactor","ports","adapters","systems","clear","domain","boundaries","dependency","inversion","testable","case","orchestration","across","typescript"],"repo":"affaan-m/ECC","owner":"affaan-m","stars":277532,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"b92f181b3b748d1abbc2afd94af6aa7d8c8fca29","path":"skills/hexagonal-architecture","sourceUrl":"https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/hexagonal-architecture","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T02:02:10Z","fileCount":2,"bytes":12591,"sha256":"1579f70e4cd5a2dde39d29a2055d18b39f06b063a308d3b43a498900c99495b7","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/hexagonal-architecture/SKILL.md","bytes":11520,"sha256":"1579f70e4cd5a2dde39d29a2055d18b39f06b063a308d3b43a498900c99495b7","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/hexagonal-architecture/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"}],"archiveSha256":"e88df08ded8df2072ea32ce873cfaf29f8d2f5634e34f7d5c3ec3632ce89849d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--hexagonal-architecture",
+    "name": "hexagonal-architecture",
+    "description": "Design, implement, and refactor Ports & Adapters systems with clear domain boundaries, dependency inversion, and testable use-case orchestration across TypeScript, Java, Kotlin, and Go services. Use when introducing or refactoring toward Ports and Adapters, or when domain logic has become entangled with I/O.",
+    "category": "Design",
+    "tags": [
+      "hexagonal",
+      "architecture",
+      "design",
+      "implement",
+      "refactor",
+      "ports",
+      "adapters",
+      "systems",
+      "clear",
+      "domain",
+      "boundaries",
+      "dependency",
+      "inversion",
+      "testable",
+      "case",
+      "orchestration",
+      "across",
+      "typescript"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/hexagonal-architecture",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/hexagonal-architecture",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 2,
+    "bytes": 12591,
+    "sha256": "1579f70e4cd5a2dde39d29a2055d18b39f06b063a308d3b43a498900c99495b7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hexagonal-architecture/SKILL.md",
+      "bytes": 11520,
+      "sha256": "1579f70e4cd5a2dde39d29a2055d18b39f06b063a308d3b43a498900c99495b7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/hexagonal-architecture/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "e88df08ded8df2072ea32ce873cfaf29f8d2f5634e34f7d5c3ec3632ce89849d"
+}

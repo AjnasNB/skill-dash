@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-typosquatting-packages-in-npm-pypi","name":"detecting-typosquatting-packages-in-npm-pypi","description":"Detects typosquatting attacks in npm and PyPI package registries by analyzing package name similarity using Levenshtein distance and other string metrics, examining publish date heuristics to identify recently created packages mimicking established ones, and flagging download count anomalies where suspicious packages have disproportionately low usage compared to their legitimate targets. The analyst queries the PyPI JSON API and npm registry API to gather package metadata for automated comparison. Activates for requests involving package typosquatting detection, dependency confusion analysis, malicious package identification, or software supply chain threat hunting in package registries.","category":"Security","tags":["detecting","typosquatting","packages","npm","pypi","detects","attacks","package","registries","by","analyzing","name","similarity","levenshtein","distance","other","string","metrics"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-typosquatting-packages-in-npm-pypi/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-typosquatting-packages-in-npm-pypi","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-typosquatting-packages-in-npm-pypi","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":50417,"sha256":"b3d46c0184c4a0993b1c31f0e1d91e368d14a47063dd0083e9e51f87d4cfe0ed","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-typosquatting-packages-in-npm-pypi/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-typosquatting-packages-in-npm-pypi/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-typosquatting-packages-in-npm-pypi/SKILL.md","bytes":13306,"sha256":"b3d46c0184c4a0993b1c31f0e1d91e368d14a47063dd0083e9e51f87d4cfe0ed","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-typosquatting-packages-in-npm-pypi/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-typosquatting-packages-in-npm-pypi/references/api-reference.md","bytes":5615,"sha256":"7268e827935fc224e4d45566f9884b4addfe44bf292e237d0a044fc0c122d625","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-typosquatting-packages-in-npm-pypi/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-typosquatting-packages-in-npm-pypi/scripts/agent.py","bytes":20241,"sha256":"b947788626593fbfe9eb3b4ed90499b6064ba683a7bacc33c9be5e74842a27f4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-typosquatting-packages-in-npm-pypi/scripts/agent.py"}],"archiveSha256":"badaa9849cf2cd8dcc7878ba9ab58e51892426ea591ca68f808310958aa53d34"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-typosquatting-packages-in-npm-pypi",
+    "name": "detecting-typosquatting-packages-in-npm-pypi",
+    "description": "Detects typosquatting attacks in npm and PyPI package registries by analyzing package name similarity using Levenshtein distance and other string metrics, examining publish date heuristics to identify recently created packages mimicking established ones, and flagging download count anomalies where suspicious packages have disproportionately low usage compared to their legitimate targets. The analyst queries the PyPI JSON API and npm registry API to gather package metadata for automated comparison. Activates for requests involving package typosquatting detection, dependency confusion analysis, malicious package identification, or software supply chain threat hunting in package registries.",
+    "category": "Security",
+    "tags": [
+      "detecting",
+      "typosquatting",
+      "packages",
+      "npm",
+      "pypi",
+      "detects",
+      "attacks",
+      "package",
+      "registries",
+      "by",
+      "analyzing",
+      "name",
+      "similarity",
+      "levenshtein",
+      "distance",
+      "other",
+      "string",
+      "metrics"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-typosquatting-packages-in-npm-pypi/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-typosquatting-packages-in-npm-pypi",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-typosquatting-packages-in-npm-pypi",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 50417,
+    "sha256": "b3d46c0184c4a0993b1c31f0e1d91e368d14a47063dd0083e9e51f87d4cfe0ed",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-typosquatting-packages-in-npm-pypi/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-typosquatting-packages-in-npm-pypi/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-typosquatting-packages-in-npm-pypi/SKILL.md",
+      "bytes": 13306,
+      "sha256": "b3d46c0184c4a0993b1c31f0e1d91e368d14a47063dd0083e9e51f87d4cfe0ed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-typosquatting-packages-in-npm-pypi/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-typosquatting-packages-in-npm-pypi/references/api-reference.md",
+      "bytes": 5615,
+      "sha256": "7268e827935fc224e4d45566f9884b4addfe44bf292e237d0a044fc0c122d625",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-typosquatting-packages-in-npm-pypi/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-typosquatting-packages-in-npm-pypi/scripts/agent.py",
+      "bytes": 20241,
+      "sha256": "b947788626593fbfe9eb3b4ed90499b6064ba683a7bacc33c9be5e74842a27f4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-typosquatting-packages-in-npm-pypi/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "badaa9849cf2cd8dcc7878ba9ab58e51892426ea591ca68f808310958aa53d34"
+}

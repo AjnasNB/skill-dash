@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--square-automation","name":"square-automation","description":"Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locations. Always search tools first for current schemas.","category":"AI & agents","tags":["square","automation","automate","tasks","via","rube","mcp","composio","payments","orders","invoices","locations.","always","search","tools","first","current","schemas."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/square-automation","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/square-automation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":8044,"sha256":"4079b41a2aa5ff167d5dac5156d5f7a313203a9e8c5bf6701560c5c857d1d6f8","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/square-automation/SKILL.md","bytes":6971,"sha256":"4079b41a2aa5ff167d5dac5156d5f7a313203a9e8c5bf6701560c5c857d1d6f8","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/square-automation/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"de12405545d6a3c123c7ad34a7a82b999ad688d2396db860c3942e53303e792d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--square-automation",
+    "name": "square-automation",
+    "description": "Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locations. Always search tools first for current schemas.",
+    "category": "AI & agents",
+    "tags": [
+      "square",
+      "automation",
+      "automate",
+      "tasks",
+      "via",
+      "rube",
+      "mcp",
+      "composio",
+      "payments",
+      "orders",
+      "invoices",
+      "locations.",
+      "always",
+      "search",
+      "tools",
+      "first",
+      "current",
+      "schemas."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/square-automation",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/square-automation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 8044,
+    "sha256": "4079b41a2aa5ff167d5dac5156d5f7a313203a9e8c5bf6701560c5c857d1d6f8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/square-automation/SKILL.md",
+      "bytes": 6971,
+      "sha256": "4079b41a2aa5ff167d5dac5156d5f7a313203a9e8c5bf6701560c5c857d1d6f8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/square-automation/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "de12405545d6a3c123c7ad34a7a82b999ad688d2396db860c3942e53303e792d"
+}

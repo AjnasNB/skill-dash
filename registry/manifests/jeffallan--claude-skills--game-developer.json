@@ -1,1 +1,104 @@
-{"schemaVersion":1,"skill":{"id":"jeffallan--claude-skills--game-developer","name":"game-developer","description":"Use when building game systems, implementing Unity/Unreal Engine features, or optimizing game performance. Invoke to implement ECS architecture, configure physics systems and colliders, set up multiplayer networking with lag compensation, optimize frame rates to 60+ FPS targets, develop shaders, or apply game design patterns such as object pooling and state machines. Trigger keywords: Unity, Unreal Engine, game development, ECS architecture, game physics, multiplayer networking, game optimization, shader programming, game AI.","category":"Design","tags":["game","developer","when","building","systems","implementing","unity","unreal","engine","features","optimizing","performance.","invoke","implement","ecs","architecture","configure","physics"],"repo":"Jeffallan/claude-skills","owner":"Jeffallan","stars":11835,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1be15d8064f88fc25216442406d40add8fd23b53","path":"skills/game-developer","sourceUrl":"https://github.com/Jeffallan/claude-skills/tree/1be15d8064f88fc25216442406d40add8fd23b53/skills/game-developer","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-03T15:49:22Z","fileCount":7,"bytes":55514,"sha256":"4578facce19ac99396e5fe904eac173066fa517af16ae0f49b03f9082a1057ec","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/game-developer/SKILL.md","bytes":5898,"sha256":"4578facce19ac99396e5fe904eac173066fa517af16ae0f49b03f9082a1057ec","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/game-developer/SKILL.md"},{"path":"references/ecs-patterns.md","sourcePath":"skills/game-developer/references/ecs-patterns.md","bytes":10329,"sha256":"5ef2de275b32bcf78a215ac09e101e70c06d5bb64e2577dc61fba811950a49c6","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/game-developer/references/ecs-patterns.md"},{"path":"references/multiplayer-networking.md","sourcePath":"skills/game-developer/references/multiplayer-networking.md","bytes":12678,"sha256":"10c22a22749041b99f09a4e365dadbe6e58fc1b56c90407960bb466aa2de8611","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/game-developer/references/multiplayer-networking.md"},{"path":"references/performance-optimization.md","sourcePath":"skills/game-developer/references/performance-optimization.md","bytes":10285,"sha256":"57ce6a6de9b66f4ab5b2b7bd7349fa6694e5eb641e5a94bcf80e1351ad4fd4ed","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/game-developer/references/performance-optimization.md"},{"path":"references/unity-patterns.md","sourcePath":"skills/game-developer/references/unity-patterns.md","bytes":6489,"sha256":"0f8b0ffada2a9e997c7db40cc472babf30c670514f01441c3dbd2f25a573fefc","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/game-developer/references/unity-patterns.md"},{"path":"references/unreal-cpp.md","sourcePath":"skills/game-developer/references/unreal-cpp.md","bytes":8779,"sha256":"b41b68aa1dba6635924a909c4d749ae199bd6ac8fed263598163c9bbbce807e6","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/game-developer/references/unreal-cpp.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1056,"sha256":"06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/LICENSE"}],"archiveSha256":"d1127e1fa35e6376ddaa12e6f9d9f363f639e59dfa3474c7347f6e8edab0e850"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "jeffallan--claude-skills--game-developer",
+    "name": "game-developer",
+    "description": "Use when building game systems, implementing Unity/Unreal Engine features, or optimizing game performance. Invoke to implement ECS architecture, configure physics systems and colliders, set up multiplayer networking with lag compensation, optimize frame rates to 60+ FPS targets, develop shaders, or apply game design patterns such as object pooling and state machines. Trigger keywords: Unity, Unreal Engine, game development, ECS architecture, game physics, multiplayer networking, game optimization, shader programming, game AI.",
+    "category": "Design",
+    "tags": [
+      "game",
+      "developer",
+      "when",
+      "building",
+      "systems",
+      "implementing",
+      "unity",
+      "unreal",
+      "engine",
+      "features",
+      "optimizing",
+      "performance.",
+      "invoke",
+      "implement",
+      "ecs",
+      "architecture",
+      "configure",
+      "physics"
+    ],
+    "repo": "Jeffallan/claude-skills",
+    "owner": "Jeffallan",
+    "stars": 11835,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1be15d8064f88fc25216442406d40add8fd23b53",
+    "path": "skills/game-developer",
+    "sourceUrl": "https://github.com/Jeffallan/claude-skills/tree/1be15d8064f88fc25216442406d40add8fd23b53/skills/game-developer",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-03T15:49:22Z",
+    "fileCount": 7,
+    "bytes": 55514,
+    "sha256": "4578facce19ac99396e5fe904eac173066fa517af16ae0f49b03f9082a1057ec",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/game-developer/SKILL.md",
+      "bytes": 5898,
+      "sha256": "4578facce19ac99396e5fe904eac173066fa517af16ae0f49b03f9082a1057ec",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/game-developer/SKILL.md"
+    },
+    {
+      "path": "references/ecs-patterns.md",
+      "sourcePath": "skills/game-developer/references/ecs-patterns.md",
+      "bytes": 10329,
+      "sha256": "5ef2de275b32bcf78a215ac09e101e70c06d5bb64e2577dc61fba811950a49c6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/game-developer/references/ecs-patterns.md"
+    },
+    {
+      "path": "references/multiplayer-networking.md",
+      "sourcePath": "skills/game-developer/references/multiplayer-networking.md",
+      "bytes": 12678,
+      "sha256": "10c22a22749041b99f09a4e365dadbe6e58fc1b56c90407960bb466aa2de8611",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/game-developer/references/multiplayer-networking.md"
+    },
+    {
+      "path": "references/performance-optimization.md",
+      "sourcePath": "skills/game-developer/references/performance-optimization.md",
+      "bytes": 10285,
+      "sha256": "57ce6a6de9b66f4ab5b2b7bd7349fa6694e5eb641e5a94bcf80e1351ad4fd4ed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/game-developer/references/performance-optimization.md"
+    },
+    {
+      "path": "references/unity-patterns.md",
+      "sourcePath": "skills/game-developer/references/unity-patterns.md",
+      "bytes": 6489,
+      "sha256": "0f8b0ffada2a9e997c7db40cc472babf30c670514f01441c3dbd2f25a573fefc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/game-developer/references/unity-patterns.md"
+    },
+    {
+      "path": "references/unreal-cpp.md",
+      "sourcePath": "skills/game-developer/references/unreal-cpp.md",
+      "bytes": 8779,
+      "sha256": "b41b68aa1dba6635924a909c4d749ae199bd6ac8fed263598163c9bbbce807e6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/game-developer/references/unreal-cpp.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1056,
+      "sha256": "06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/LICENSE"
+    }
+  ],
+  "archiveSha256": "d1127e1fa35e6376ddaa12e6f9d9f363f639e59dfa3474c7347f6e8edab0e850"
+}

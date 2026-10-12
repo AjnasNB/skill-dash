@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-supply-chain-attacks-in-ci-cd","name":"detecting-supply-chain-attacks-in-ci-cd","description":"Scans GitHub Actions workflows and CI/CD pipeline configurations for supply chain attack vectors including unpinned actions, script injection via expressions, dependency confusion, and secrets exposure. Uses PyGithub and YAML parsing for automated audit. Use when hardening CI/CD pipelines or investigating compromised build systems.","category":"Cloud & DevOps","tags":["detecting","supply","chain","attacks","ci","cd","scans","github","actions","workflows","pipeline","configurations","attack","vectors","including","unpinned","script","injection"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-supply-chain-attacks-in-ci-cd/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-supply-chain-attacks-in-ci-cd","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-supply-chain-attacks-in-ci-cd","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":23068,"sha256":"c873c94e8bad78a782ce991ca402a56c7169cfc6e1f630488a05d0cbc17551e7","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-supply-chain-attacks-in-ci-cd/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-supply-chain-attacks-in-ci-cd/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-supply-chain-attacks-in-ci-cd/SKILL.md","bytes":2617,"sha256":"c873c94e8bad78a782ce991ca402a56c7169cfc6e1f630488a05d0cbc17551e7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-supply-chain-attacks-in-ci-cd/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-supply-chain-attacks-in-ci-cd/references/api-reference.md","bytes":1638,"sha256":"1077007df2ba57051eb26adf90c52c95e3b2bbebd132d07eb787d90ecbe47350","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-supply-chain-attacks-in-ci-cd/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-supply-chain-attacks-in-ci-cd/scripts/agent.py","bytes":7558,"sha256":"083b5d4da8422accdb0d0755668018c86c5cd42f8da715a4805f3fb19dce59ab","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-supply-chain-attacks-in-ci-cd/scripts/agent.py"}],"archiveSha256":"4bba45a7c3f6c358880aaec0ffcbd29401e1204f8255077ba6bdf17a8d98e4d4"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-supply-chain-attacks-in-ci-cd",
+    "name": "detecting-supply-chain-attacks-in-ci-cd",
+    "description": "Scans GitHub Actions workflows and CI/CD pipeline configurations for supply chain attack vectors including unpinned actions, script injection via expressions, dependency confusion, and secrets exposure. Uses PyGithub and YAML parsing for automated audit. Use when hardening CI/CD pipelines or investigating compromised build systems.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "detecting",
+      "supply",
+      "chain",
+      "attacks",
+      "ci",
+      "cd",
+      "scans",
+      "github",
+      "actions",
+      "workflows",
+      "pipeline",
+      "configurations",
+      "attack",
+      "vectors",
+      "including",
+      "unpinned",
+      "script",
+      "injection"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-supply-chain-attacks-in-ci-cd/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-supply-chain-attacks-in-ci-cd",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-supply-chain-attacks-in-ci-cd",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 23068,
+    "sha256": "c873c94e8bad78a782ce991ca402a56c7169cfc6e1f630488a05d0cbc17551e7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-supply-chain-attacks-in-ci-cd/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-supply-chain-attacks-in-ci-cd/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-supply-chain-attacks-in-ci-cd/SKILL.md",
+      "bytes": 2617,
+      "sha256": "c873c94e8bad78a782ce991ca402a56c7169cfc6e1f630488a05d0cbc17551e7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-supply-chain-attacks-in-ci-cd/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-supply-chain-attacks-in-ci-cd/references/api-reference.md",
+      "bytes": 1638,
+      "sha256": "1077007df2ba57051eb26adf90c52c95e3b2bbebd132d07eb787d90ecbe47350",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-supply-chain-attacks-in-ci-cd/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-supply-chain-attacks-in-ci-cd/scripts/agent.py",
+      "bytes": 7558,
+      "sha256": "083b5d4da8422accdb0d0755668018c86c5cd42f8da715a4805f3fb19dce59ab",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-supply-chain-attacks-in-ci-cd/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "4bba45a7c3f6c358880aaec0ffcbd29401e1204f8255077ba6bdf17a8d98e4d4"
+}

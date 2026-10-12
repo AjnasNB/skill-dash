@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--testing-cors-misconfiguration","name":"testing-cors-misconfiguration","description":"Identifying and exploiting Cross-Origin Resource Sharing misconfigurations that allow unauthorized cross-domain data access and credential theft during security assessments.","category":"Security","tags":["testing","cors","misconfiguration","identifying","exploiting","cross","origin","resource","sharing","misconfigurations","allow","unauthorized","domain","data","access","credential","theft","during"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/testing-cors-misconfiguration/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/testing-cors-misconfiguration","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-cors-misconfiguration","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":34336,"sha256":"f00f0bdea8ad16da64cf736c6925458bc1c32d84aa8bc8cd0ad69572fddff8bd","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/testing-cors-misconfiguration/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-cors-misconfiguration/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/testing-cors-misconfiguration/SKILL.md","bytes":12089,"sha256":"f00f0bdea8ad16da64cf736c6925458bc1c32d84aa8bc8cd0ad69572fddff8bd","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-cors-misconfiguration/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/testing-cors-misconfiguration/references/api-reference.md","bytes":2188,"sha256":"6516ae8ccc787878cf8a6c8962ae0eefb084df2e1f0d9f1b04dbb73bf3523969","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-cors-misconfiguration/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/testing-cors-misconfiguration/scripts/agent.py","bytes":8804,"sha256":"478a85c04e0c87aea5c42099ca551b1fb4e166349dc339870ae4753712845eb9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-cors-misconfiguration/scripts/agent.py"}],"archiveSha256":"dddd7a0f997d4d88c24dbcc08d844df736fdf2c8a731edcc5637ddb9d809b516"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--testing-cors-misconfiguration",
+    "name": "testing-cors-misconfiguration",
+    "description": "Identifying and exploiting Cross-Origin Resource Sharing misconfigurations that allow unauthorized cross-domain data access and credential theft during security assessments.",
+    "category": "Security",
+    "tags": [
+      "testing",
+      "cors",
+      "misconfiguration",
+      "identifying",
+      "exploiting",
+      "cross",
+      "origin",
+      "resource",
+      "sharing",
+      "misconfigurations",
+      "allow",
+      "unauthorized",
+      "domain",
+      "data",
+      "access",
+      "credential",
+      "theft",
+      "during"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/testing-cors-misconfiguration/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/testing-cors-misconfiguration",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-cors-misconfiguration",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34336,
+    "sha256": "f00f0bdea8ad16da64cf736c6925458bc1c32d84aa8bc8cd0ad69572fddff8bd",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/testing-cors-misconfiguration/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-cors-misconfiguration/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/testing-cors-misconfiguration/SKILL.md",
+      "bytes": 12089,
+      "sha256": "f00f0bdea8ad16da64cf736c6925458bc1c32d84aa8bc8cd0ad69572fddff8bd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-cors-misconfiguration/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/testing-cors-misconfiguration/references/api-reference.md",
+      "bytes": 2188,
+      "sha256": "6516ae8ccc787878cf8a6c8962ae0eefb084df2e1f0d9f1b04dbb73bf3523969",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-cors-misconfiguration/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/testing-cors-misconfiguration/scripts/agent.py",
+      "bytes": 8804,
+      "sha256": "478a85c04e0c87aea5c42099ca551b1fb4e166349dc339870ae4753712845eb9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-cors-misconfiguration/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "dddd7a0f997d4d88c24dbcc08d844df736fdf2c8a731edcc5637ddb9d809b516"
+}

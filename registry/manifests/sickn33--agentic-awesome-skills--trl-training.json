@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--trl-training","name":"trl-training","description":"Train and fine-tune transformer language models using TRL (Transformers Reinforcement Learning). Supports SFT, DPO, GRPO, KTO, RLOO and Reward Model training via CLI commands.","category":"Development","tags":["trl","training","train","fine","tune","transformer","language","models","transformers","reinforcement","learning","supports","sft","dpo","grpo","kto","rloo","reward"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/trl-training","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/trl-training","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":10409,"sha256":"1ff245f665becf9f5e2438231866609243bef47cdad823fff02050b66ef343c2","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/trl-training/SKILL.md","bytes":9336,"sha256":"1ff245f665becf9f5e2438231866609243bef47cdad823fff02050b66ef343c2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/trl-training/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"7a5f49ab28a26e75117f2fcef1997b34c2c17e6cbc00b5c3e332c0bf2fbdbabf"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--trl-training",
+    "name": "trl-training",
+    "description": "Train and fine-tune transformer language models using TRL (Transformers Reinforcement Learning). Supports SFT, DPO, GRPO, KTO, RLOO and Reward Model training via CLI commands.",
+    "category": "Development",
+    "tags": [
+      "trl",
+      "training",
+      "train",
+      "fine",
+      "tune",
+      "transformer",
+      "language",
+      "models",
+      "transformers",
+      "reinforcement",
+      "learning",
+      "supports",
+      "sft",
+      "dpo",
+      "grpo",
+      "kto",
+      "rloo",
+      "reward"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/trl-training",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/trl-training",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10409,
+    "sha256": "1ff245f665becf9f5e2438231866609243bef47cdad823fff02050b66ef343c2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/trl-training/SKILL.md",
+      "bytes": 9336,
+      "sha256": "1ff245f665becf9f5e2438231866609243bef47cdad823fff02050b66ef343c2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/trl-training/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "7a5f49ab28a26e75117f2fcef1997b34c2c17e6cbc00b5c3e332c0bf2fbdbabf"
+}

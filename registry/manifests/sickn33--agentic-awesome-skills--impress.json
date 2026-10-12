@@ -1,1 +1,58 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--impress","name":"impress","description":"Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress.","category":"Documents","tags":["impress","presentation","creation","format","conversion","odp","pptx","pdf","slide","automation","libreoffice","impress."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/libreoffice/impress","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/libreoffice/impress","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5622,"sha256":"c8d4cb29afd6b487b2c9d06f641d26b5e0fb315cc5a1c1319f6bd4f226ad1fda","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/libreoffice/impress/SKILL.md","bytes":4549,"sha256":"c8d4cb29afd6b487b2c9d06f641d26b5e0fb315cc5a1c1319f6bd4f226ad1fda","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/libreoffice/impress/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"2529483c8c890dfedc07b4e0d4e3424305e1cd5331dcae005b0cb46f8c9e90a6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--impress",
+    "name": "impress",
+    "description": "Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress.",
+    "category": "Documents",
+    "tags": [
+      "impress",
+      "presentation",
+      "creation",
+      "format",
+      "conversion",
+      "odp",
+      "pptx",
+      "pdf",
+      "slide",
+      "automation",
+      "libreoffice",
+      "impress."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/libreoffice/impress",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/libreoffice/impress",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5622,
+    "sha256": "c8d4cb29afd6b487b2c9d06f641d26b5e0fb315cc5a1c1319f6bd4f226ad1fda",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/libreoffice/impress/SKILL.md",
+      "bytes": 4549,
+      "sha256": "c8d4cb29afd6b487b2c9d06f641d26b5e0fb315cc5a1c1319f6bd4f226ad1fda",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/libreoffice/impress/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "2529483c8c890dfedc07b4e0d4e3424305e1cd5331dcae005b0cb46f8c9e90a6"
+}

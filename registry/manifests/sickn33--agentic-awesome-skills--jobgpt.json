@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--jobgpt","name":"jobgpt","description":"Job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outreach using the JobGPT MCP server.","category":"AI & agents","tags":["jobgpt","job","search","automation","auto","apply","resume","generation","application","tracking","salary","intelligence","recruiter","outreach","mcp","server."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/jobgpt","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/jobgpt","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6749,"sha256":"8b25106dde31f3d47738b74cfc04f5ba00488d95283a77203caec468e86a5045","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/jobgpt/SKILL.md","bytes":5676,"sha256":"8b25106dde31f3d47738b74cfc04f5ba00488d95283a77203caec468e86a5045","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/jobgpt/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"2734789911055a704b2512fb497ae6fadf2dd32c7c5660e0ac2ac03489973a55"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--jobgpt",
+    "name": "jobgpt",
+    "description": "Job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outreach using the JobGPT MCP server.",
+    "category": "AI & agents",
+    "tags": [
+      "jobgpt",
+      "job",
+      "search",
+      "automation",
+      "auto",
+      "apply",
+      "resume",
+      "generation",
+      "application",
+      "tracking",
+      "salary",
+      "intelligence",
+      "recruiter",
+      "outreach",
+      "mcp",
+      "server."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/jobgpt",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/jobgpt",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6749,
+    "sha256": "8b25106dde31f3d47738b74cfc04f5ba00488d95283a77203caec468e86a5045",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/jobgpt/SKILL.md",
+      "bytes": 5676,
+      "sha256": "8b25106dde31f3d47738b74cfc04f5ba00488d95283a77203caec468e86a5045",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/jobgpt/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "2734789911055a704b2512fb497ae6fadf2dd32c7c5660e0ac2ac03489973a55"
+}

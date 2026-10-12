@@ -1,1 +1,104 @@
-{"schemaVersion":1,"skill":{"id":"jeffallan--claude-skills--spring-boot-engineer","name":"spring-boot-engineer","description":"Generates Spring Boot 3.x configurations, creates REST controllers, implements Spring Security 6 authentication flows, sets up Spring Data JPA repositories, and configures reactive WebFlux endpoints. Use when building Spring Boot 3.x applications, microservices, or reactive Java applications; invoke for Spring Data JPA, Spring Security 6, WebFlux, Spring Cloud integration, Java REST API design, or Microservices Java architecture.","category":"Design","tags":["spring","boot","engineer","generates","3.x","configurations","creates","rest","controllers","implements","security","authentication","flows","sets","up","data","jpa","repositories"],"repo":"Jeffallan/claude-skills","owner":"Jeffallan","stars":11835,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1be15d8064f88fc25216442406d40add8fd23b53","path":"skills/spring-boot-engineer","sourceUrl":"https://github.com/Jeffallan/claude-skills/tree/1be15d8064f88fc25216442406d40add8fd23b53/skills/spring-boot-engineer","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-03T15:49:22Z","fileCount":7,"bytes":71111,"sha256":"05ae6815d8677bc13d6859f540939123d6dc3993ea7268dcb3c2167524a0959b","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/spring-boot-engineer/SKILL.md","bytes":7523,"sha256":"05ae6815d8677bc13d6859f540939123d6dc3993ea7268dcb3c2167524a0959b","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/spring-boot-engineer/SKILL.md"},{"path":"references/cloud.md","sourcePath":"skills/spring-boot-engineer/references/cloud.md","bytes":12339,"sha256":"d2ae703cf2c9723d6e249b5dc149d825683e68b50aa5ba3343f4ac2a84976f51","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/spring-boot-engineer/references/cloud.md"},{"path":"references/data.md","sourcePath":"skills/spring-boot-engineer/references/data.md","bytes":11023,"sha256":"87bb091f484121d76bd25bef5e5b63c17a781c071f2498345af9b75c40ca9cdc","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/spring-boot-engineer/references/data.md"},{"path":"references/security.md","sourcePath":"skills/spring-boot-engineer/references/security.md","bytes":15275,"sha256":"aae4cf3e8f7e99298dc9f7b156dac97c6f656f89329ffdad8ba0bf5d3dfa684e","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/spring-boot-engineer/references/security.md"},{"path":"references/testing.md","sourcePath":"skills/spring-boot-engineer/references/testing.md","bytes":14905,"sha256":"b3bc0fdbacf47a096fcf2b4ebdfba7c7e190f8fb8f312bf96c70313de7b28564","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/spring-boot-engineer/references/testing.md"},{"path":"references/web.md","sourcePath":"skills/spring-boot-engineer/references/web.md","bytes":8990,"sha256":"670edd1b9e7807e0481b90f7df814b2bc3aa1b5f53b5b80908805dcd248fa844","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/spring-boot-engineer/references/web.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1056,"sha256":"06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/LICENSE"}],"archiveSha256":"c7127ced6352d1060182ba932e887f9d8fbe402442aa10e666e512f84447f91f"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "jeffallan--claude-skills--spring-boot-engineer",
+    "name": "spring-boot-engineer",
+    "description": "Generates Spring Boot 3.x configurations, creates REST controllers, implements Spring Security 6 authentication flows, sets up Spring Data JPA repositories, and configures reactive WebFlux endpoints. Use when building Spring Boot 3.x applications, microservices, or reactive Java applications; invoke for Spring Data JPA, Spring Security 6, WebFlux, Spring Cloud integration, Java REST API design, or Microservices Java architecture.",
+    "category": "Design",
+    "tags": [
+      "spring",
+      "boot",
+      "engineer",
+      "generates",
+      "3.x",
+      "configurations",
+      "creates",
+      "rest",
+      "controllers",
+      "implements",
+      "security",
+      "authentication",
+      "flows",
+      "sets",
+      "up",
+      "data",
+      "jpa",
+      "repositories"
+    ],
+    "repo": "Jeffallan/claude-skills",
+    "owner": "Jeffallan",
+    "stars": 11835,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1be15d8064f88fc25216442406d40add8fd23b53",
+    "path": "skills/spring-boot-engineer",
+    "sourceUrl": "https://github.com/Jeffallan/claude-skills/tree/1be15d8064f88fc25216442406d40add8fd23b53/skills/spring-boot-engineer",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-03T15:49:22Z",
+    "fileCount": 7,
+    "bytes": 71111,
+    "sha256": "05ae6815d8677bc13d6859f540939123d6dc3993ea7268dcb3c2167524a0959b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/spring-boot-engineer/SKILL.md",
+      "bytes": 7523,
+      "sha256": "05ae6815d8677bc13d6859f540939123d6dc3993ea7268dcb3c2167524a0959b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/spring-boot-engineer/SKILL.md"
+    },
+    {
+      "path": "references/cloud.md",
+      "sourcePath": "skills/spring-boot-engineer/references/cloud.md",
+      "bytes": 12339,
+      "sha256": "d2ae703cf2c9723d6e249b5dc149d825683e68b50aa5ba3343f4ac2a84976f51",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/spring-boot-engineer/references/cloud.md"
+    },
+    {
+      "path": "references/data.md",
+      "sourcePath": "skills/spring-boot-engineer/references/data.md",
+      "bytes": 11023,
+      "sha256": "87bb091f484121d76bd25bef5e5b63c17a781c071f2498345af9b75c40ca9cdc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/spring-boot-engineer/references/data.md"
+    },
+    {
+      "path": "references/security.md",
+      "sourcePath": "skills/spring-boot-engineer/references/security.md",
+      "bytes": 15275,
+      "sha256": "aae4cf3e8f7e99298dc9f7b156dac97c6f656f89329ffdad8ba0bf5d3dfa684e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/spring-boot-engineer/references/security.md"
+    },
+    {
+      "path": "references/testing.md",
+      "sourcePath": "skills/spring-boot-engineer/references/testing.md",
+      "bytes": 14905,
+      "sha256": "b3bc0fdbacf47a096fcf2b4ebdfba7c7e190f8fb8f312bf96c70313de7b28564",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/spring-boot-engineer/references/testing.md"
+    },
+    {
+      "path": "references/web.md",
+      "sourcePath": "skills/spring-boot-engineer/references/web.md",
+      "bytes": 8990,
+      "sha256": "670edd1b9e7807e0481b90f7df814b2bc3aa1b5f53b5b80908805dcd248fa844",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/spring-boot-engineer/references/web.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1056,
+      "sha256": "06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/LICENSE"
+    }
+  ],
+  "archiveSha256": "c7127ced6352d1060182ba932e887f9d8fbe402442aa10e666e512f84447f91f"
+}

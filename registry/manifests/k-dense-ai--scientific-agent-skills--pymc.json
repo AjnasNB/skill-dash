@@ -1,1 +1,136 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--pymc","name":"pymc","description":"Builds and checks Bayesian models with PyMC, including hierarchical models, NUTS MCMC, variational inference, mutable-data predictions, posterior predictive checks, diagnostics, and PSIS-LOO model comparison. Use for probabilistic modeling and uncertainty inference in PyMC.","category":"AI & agents","tags":["pymc","builds","checks","bayesian","models","including","hierarchical","nuts","mcmc","variational","inference","mutable","data","predictions","posterior","predictive","diagnostics","psis"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/pymc","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":11,"bytes":86503,"sha256":"77d29ba7adf73d822329eab576d15a748811633a60bca88f5e93954793b3ea8a","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/pymc/SKILL.md","bytes":10736,"sha256":"77d29ba7adf73d822329eab576d15a748811633a60bca88f5e93954793b3ea8a","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc/SKILL.md"},{"path":"assets/hierarchical_model_template.py","sourcePath":"skills/pymc/assets/hierarchical_model_template.py","bytes":5794,"sha256":"62c482d984830329cf8b6a112e37ef3189a05e243777670a800ca7136067d4fe","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc/assets/hierarchical_model_template.py"},{"path":"assets/linear_regression_template.py","sourcePath":"skills/pymc/assets/linear_regression_template.py","bytes":4740,"sha256":"0461fe20e6c5b51f811572f4a71ca9c87b2ea04d50f165788da7ab6eaa565794","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc/assets/linear_regression_template.py"},{"path":"references/distributions.md","sourcePath":"skills/pymc/references/distributions.md","bytes":14893,"sha256":"8c65dfa852e63b132cd7d9690b59ebddd1480b6965d355939d9c4e0816db3386","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc/references/distributions.md"},{"path":"references/model_patterns.md","sourcePath":"skills/pymc/references/model_patterns.md","bytes":4627,"sha256":"7a6e83919e7e0d0985ff0df3e51e8c4c7810f48b80a0956288efaa0cf973783a","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc/references/model_patterns.md"},{"path":"references/sampling_inference.md","sourcePath":"skills/pymc/references/sampling_inference.md","bytes":8044,"sha256":"f55cec6f7c3e623a5039ae3893e59e7a1b93e923ad8d961bb5132f285f804212","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc/references/sampling_inference.md"},{"path":"references/standard_workflow.md","sourcePath":"skills/pymc/references/standard_workflow.md","bytes":4889,"sha256":"acf52b6bd774f9e189cd864c584c56e44b572caaab6b5b1d963aaee042ae7654","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc/references/standard_workflow.md"},{"path":"references/workflows.md","sourcePath":"skills/pymc/references/workflows.md","bytes":7753,"sha256":"02210930a621675676988ba92fce3f441f1e0e38b4e8721614273b137ab43323","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc/references/workflows.md"},{"path":"scripts/model_comparison.py","sourcePath":"skills/pymc/scripts/model_comparison.py","bytes":14760,"sha256":"6d9f7e7abf53d1499e999d1d6308a2903729c31c30b0da447ce4c83b780841ae","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc/scripts/model_comparison.py"},{"path":"scripts/model_diagnostics.py","sourcePath":"skills/pymc/scripts/model_diagnostics.py","bytes":9199,"sha256":"32fa8260161de387955345f51a0c3698943aa1eb8184d3176f4a1f4fafb6ebf1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc/scripts/model_diagnostics.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"cce194036503be9d13569d0ef283f9d0eece4010dd5bca236f172e02966ad347"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--pymc",
+    "name": "pymc",
+    "description": "Builds and checks Bayesian models with PyMC, including hierarchical models, NUTS MCMC, variational inference, mutable-data predictions, posterior predictive checks, diagnostics, and PSIS-LOO model comparison. Use for probabilistic modeling and uncertainty inference in PyMC.",
+    "category": "AI & agents",
+    "tags": [
+      "pymc",
+      "builds",
+      "checks",
+      "bayesian",
+      "models",
+      "including",
+      "hierarchical",
+      "nuts",
+      "mcmc",
+      "variational",
+      "inference",
+      "mutable",
+      "data",
+      "predictions",
+      "posterior",
+      "predictive",
+      "diagnostics",
+      "psis"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/pymc",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 11,
+    "bytes": 86503,
+    "sha256": "77d29ba7adf73d822329eab576d15a748811633a60bca88f5e93954793b3ea8a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/pymc/SKILL.md",
+      "bytes": 10736,
+      "sha256": "77d29ba7adf73d822329eab576d15a748811633a60bca88f5e93954793b3ea8a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc/SKILL.md"
+    },
+    {
+      "path": "assets/hierarchical_model_template.py",
+      "sourcePath": "skills/pymc/assets/hierarchical_model_template.py",
+      "bytes": 5794,
+      "sha256": "62c482d984830329cf8b6a112e37ef3189a05e243777670a800ca7136067d4fe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc/assets/hierarchical_model_template.py"
+    },
+    {
+      "path": "assets/linear_regression_template.py",
+      "sourcePath": "skills/pymc/assets/linear_regression_template.py",
+      "bytes": 4740,
+      "sha256": "0461fe20e6c5b51f811572f4a71ca9c87b2ea04d50f165788da7ab6eaa565794",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc/assets/linear_regression_template.py"
+    },
+    {
+      "path": "references/distributions.md",
+      "sourcePath": "skills/pymc/references/distributions.md",
+      "bytes": 14893,
+      "sha256": "8c65dfa852e63b132cd7d9690b59ebddd1480b6965d355939d9c4e0816db3386",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc/references/distributions.md"
+    },
+    {
+      "path": "references/model_patterns.md",
+      "sourcePath": "skills/pymc/references/model_patterns.md",
+      "bytes": 4627,
+      "sha256": "7a6e83919e7e0d0985ff0df3e51e8c4c7810f48b80a0956288efaa0cf973783a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc/references/model_patterns.md"
+    },
+    {
+      "path": "references/sampling_inference.md",
+      "sourcePath": "skills/pymc/references/sampling_inference.md",
+      "bytes": 8044,
+      "sha256": "f55cec6f7c3e623a5039ae3893e59e7a1b93e923ad8d961bb5132f285f804212",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc/references/sampling_inference.md"
+    },
+    {
+      "path": "references/standard_workflow.md",
+      "sourcePath": "skills/pymc/references/standard_workflow.md",
+      "bytes": 4889,
+      "sha256": "acf52b6bd774f9e189cd864c584c56e44b572caaab6b5b1d963aaee042ae7654",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc/references/standard_workflow.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/pymc/references/workflows.md",
+      "bytes": 7753,
+      "sha256": "02210930a621675676988ba92fce3f441f1e0e38b4e8721614273b137ab43323",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc/references/workflows.md"
+    },
+    {
+      "path": "scripts/model_comparison.py",
+      "sourcePath": "skills/pymc/scripts/model_comparison.py",
+      "bytes": 14760,
+      "sha256": "6d9f7e7abf53d1499e999d1d6308a2903729c31c30b0da447ce4c83b780841ae",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc/scripts/model_comparison.py"
+    },
+    {
+      "path": "scripts/model_diagnostics.py",
+      "sourcePath": "skills/pymc/scripts/model_diagnostics.py",
+      "bytes": 9199,
+      "sha256": "32fa8260161de387955345f51a0c3698943aa1eb8184d3176f4a1f4fafb6ebf1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/pymc/scripts/model_diagnostics.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "cce194036503be9d13569d0ef283f9d0eece4010dd5bca236f172e02966ad347"
+}

@@ -1,1 +1,104 @@
-{"schemaVersion":1,"skill":{"id":"coreyhaines31--marketingskills--sms","name":"sms","description":"When the user wants to plan, build, or optimize SMS, MMS, or WhatsApp marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth SMS. Also use when the user mentions \"SMS marketing,\" \"text message campaigns,\" \"SMS sequence,\" \"SMS automation,\" \"abandoned cart text,\" \"post-purchase SMS,\" \"Klaviyo SMS,\" \"Postscript,\" \"Attentive,\" \"Twilio,\" \"A2P 10DLC,\" \"TCPA,\" \"SMS compliance,\" \"short code,\" \"toll-free SMS,\" \"MMS campaign,\" \"should I do SMS,\" \"SMS vs email,\" \"WhatsApp marketing,\" \"WhatsApp Business API,\" \"WhatsApp templates,\" or \"click-to-WhatsApp.\" For email sequences, see emails. For SMS copy framing, see copywriting. For opt-in popups that capture phone numbers, see popups.","category":"Marketing","tags":["sms","when","user","wants","plan","optimize","mms","whatsapp","marketing","including","welcome","flows","abandoned","cart","texts","post","purchase","win"],"repo":"coreyhaines31/marketingskills","owner":"coreyhaines31","stars":54287,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff","path":"skills/sms","sourceUrl":"https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/sms","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-08T21:51:37Z","fileCount":7,"bytes":71721,"sha256":"b4c7365b280ce1b2cffa58cffb11ca9f0d414fbccefae3e73c52312c52afab85","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/sms/SKILL.md","bytes":18421,"sha256":"b4c7365b280ce1b2cffa58cffb11ca9f0d414fbccefae3e73c52312c52afab85","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/sms/SKILL.md"},{"path":"evals/evals.json","sourcePath":"skills/sms/evals/evals.json","bytes":11269,"sha256":"cb0b825cb124b131792e6d7bb5f7bdd1557b39905568f356e1e3a172f197bbd1","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/sms/evals/evals.json"},{"path":"references/compliance.md","sourcePath":"skills/sms/references/compliance.md","bytes":7833,"sha256":"bbfb8f7c359cad650b7b2d27108e2bb12365a6c604e464ba3e94195b3938f149","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/sms/references/compliance.md"},{"path":"references/platforms.md","sourcePath":"skills/sms/references/platforms.md","bytes":9865,"sha256":"3f3e54cae72bb722703be6bae76dc1f6fa2312d5541105d425bcc07cd7a3ff12","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/sms/references/platforms.md"},{"path":"references/sequence-templates.md","sourcePath":"skills/sms/references/sequence-templates.md","bytes":7070,"sha256":"c61e72b00bfbe80e87a771840164a2a487585f202bbd3f010d8c60485339b220","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/sms/references/sequence-templates.md"},{"path":"references/whatsapp.md","sourcePath":"skills/sms/references/whatsapp.md","bytes":16194,"sha256":"359f03cd9528a5ddf19344b1ac156daed77ff3396921ffa31ede0fda4799ce63","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/sms/references/whatsapp.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1069,"sha256":"b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"}],"archiveSha256":"571f93c9ac58dcda25dafa33e3657a1619a31581874021029351d1215f91267a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "coreyhaines31--marketingskills--sms",
+    "name": "sms",
+    "description": "When the user wants to plan, build, or optimize SMS, MMS, or WhatsApp marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth SMS. Also use when the user mentions \"SMS marketing,\" \"text message campaigns,\" \"SMS sequence,\" \"SMS automation,\" \"abandoned cart text,\" \"post-purchase SMS,\" \"Klaviyo SMS,\" \"Postscript,\" \"Attentive,\" \"Twilio,\" \"A2P 10DLC,\" \"TCPA,\" \"SMS compliance,\" \"short code,\" \"toll-free SMS,\" \"MMS campaign,\" \"should I do SMS,\" \"SMS vs email,\" \"WhatsApp marketing,\" \"WhatsApp Business API,\" \"WhatsApp templates,\" or \"click-to-WhatsApp.\" For email sequences, see emails. For SMS copy framing, see copywriting. For opt-in popups that capture phone numbers, see popups.",
+    "category": "Marketing",
+    "tags": [
+      "sms",
+      "when",
+      "user",
+      "wants",
+      "plan",
+      "optimize",
+      "mms",
+      "whatsapp",
+      "marketing",
+      "including",
+      "welcome",
+      "flows",
+      "abandoned",
+      "cart",
+      "texts",
+      "post",
+      "purchase",
+      "win"
+    ],
+    "repo": "coreyhaines31/marketingskills",
+    "owner": "coreyhaines31",
+    "stars": 54287,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff",
+    "path": "skills/sms",
+    "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/sms",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-08T21:51:37Z",
+    "fileCount": 7,
+    "bytes": 71721,
+    "sha256": "b4c7365b280ce1b2cffa58cffb11ca9f0d414fbccefae3e73c52312c52afab85",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/sms/SKILL.md",
+      "bytes": 18421,
+      "sha256": "b4c7365b280ce1b2cffa58cffb11ca9f0d414fbccefae3e73c52312c52afab85",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/sms/SKILL.md"
+    },
+    {
+      "path": "evals/evals.json",
+      "sourcePath": "skills/sms/evals/evals.json",
+      "bytes": 11269,
+      "sha256": "cb0b825cb124b131792e6d7bb5f7bdd1557b39905568f356e1e3a172f197bbd1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/sms/evals/evals.json"
+    },
+    {
+      "path": "references/compliance.md",
+      "sourcePath": "skills/sms/references/compliance.md",
+      "bytes": 7833,
+      "sha256": "bbfb8f7c359cad650b7b2d27108e2bb12365a6c604e464ba3e94195b3938f149",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/sms/references/compliance.md"
+    },
+    {
+      "path": "references/platforms.md",
+      "sourcePath": "skills/sms/references/platforms.md",
+      "bytes": 9865,
+      "sha256": "3f3e54cae72bb722703be6bae76dc1f6fa2312d5541105d425bcc07cd7a3ff12",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/sms/references/platforms.md"
+    },
+    {
+      "path": "references/sequence-templates.md",
+      "sourcePath": "skills/sms/references/sequence-templates.md",
+      "bytes": 7070,
+      "sha256": "c61e72b00bfbe80e87a771840164a2a487585f202bbd3f010d8c60485339b220",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/sms/references/sequence-templates.md"
+    },
+    {
+      "path": "references/whatsapp.md",
+      "sourcePath": "skills/sms/references/whatsapp.md",
+      "bytes": 16194,
+      "sha256": "359f03cd9528a5ddf19344b1ac156daed77ff3396921ffa31ede0fda4799ce63",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/sms/references/whatsapp.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"
+    }
+  ],
+  "archiveSha256": "571f93c9ac58dcda25dafa33e3657a1619a31581874021029351d1215f91267a"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--onboarding-psychologist","name":"onboarding-psychologist","description":"Design first-use and onboarding experiences that bring an early win, cut setup friction, build ownership and form habits through stable cues. Use when onboarding loses users early, time-to-value is long, or the first session should build confidence, momentum and a lasting habit.","category":"Design","tags":["onboarding","psychologist","design","first","experiences","bring","early","win","cut","setup","friction","ownership","form","habits","through","stable","cues.","when"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/onboarding-psychologist","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/onboarding-psychologist","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6759,"sha256":"27c0fadbeffa4114e234ca27f05a734ca593388a28f470f98aade668ab526cb2","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/onboarding-psychologist/SKILL.md","bytes":5686,"sha256":"27c0fadbeffa4114e234ca27f05a734ca593388a28f470f98aade668ab526cb2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/onboarding-psychologist/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"919a5e3c564b932c102465cb0b63b445ee8b38564d7c265a32499be2ee03b82a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--onboarding-psychologist",
+    "name": "onboarding-psychologist",
+    "description": "Design first-use and onboarding experiences that bring an early win, cut setup friction, build ownership and form habits through stable cues. Use when onboarding loses users early, time-to-value is long, or the first session should build confidence, momentum and a lasting habit.",
+    "category": "Design",
+    "tags": [
+      "onboarding",
+      "psychologist",
+      "design",
+      "first",
+      "experiences",
+      "bring",
+      "early",
+      "win",
+      "cut",
+      "setup",
+      "friction",
+      "ownership",
+      "form",
+      "habits",
+      "through",
+      "stable",
+      "cues.",
+      "when"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/onboarding-psychologist",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/onboarding-psychologist",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6759,
+    "sha256": "27c0fadbeffa4114e234ca27f05a734ca593388a28f470f98aade668ab526cb2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/onboarding-psychologist/SKILL.md",
+      "bytes": 5686,
+      "sha256": "27c0fadbeffa4114e234ca27f05a734ca593388a28f470f98aade668ab526cb2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/onboarding-psychologist/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "919a5e3c564b932c102465cb0b63b445ee8b38564d7c265a32499be2ee03b82a"
+}

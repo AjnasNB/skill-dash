@@ -1,1 +1,104 @@
-{"schemaVersion":1,"skill":{"id":"jeffallan--claude-skills--chaos-engineer","name":"chaos-engineer","description":"Designs chaos experiments, creates failure injection frameworks, and facilitates game day exercises for distributed systems — producing runbooks, experiment manifests, rollback procedures, and post-mortem templates. Use when designing chaos experiments, implementing failure injection frameworks, or conducting game day exercises. Invoke for chaos experiments, resilience testing, blast radius control, game days, antifragile systems, fault injection, Chaos Monkey, Litmus Chaos.","category":"Development","tags":["chaos","engineer","designs","experiments","creates","failure","injection","frameworks","facilitates","game","day","exercises","distributed","systems","producing","runbooks","experiment","manifests"],"repo":"Jeffallan/claude-skills","owner":"Jeffallan","stars":11835,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1be15d8064f88fc25216442406d40add8fd23b53","path":"skills/chaos-engineer","sourceUrl":"https://github.com/Jeffallan/claude-skills/tree/1be15d8064f88fc25216442406d40add8fd23b53/skills/chaos-engineer","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-03T15:49:22Z","fileCount":7,"bytes":62545,"sha256":"97b9db30c0b8a94ec09c8fc8e06ebee6192d9b3845997d841fca8c35b8f454a3","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/chaos-engineer/SKILL.md","bytes":7066,"sha256":"97b9db30c0b8a94ec09c8fc8e06ebee6192d9b3845997d841fca8c35b8f454a3","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/chaos-engineer/SKILL.md"},{"path":"references/chaos-tools.md","sourcePath":"skills/chaos-engineer/references/chaos-tools.md","bytes":14217,"sha256":"701f68e6130651ad8045303a236176c905f2cc2caad3a5ffb29dab35ae856a77","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/chaos-engineer/references/chaos-tools.md"},{"path":"references/experiment-design.md","sourcePath":"skills/chaos-engineer/references/experiment-design.md","bytes":7031,"sha256":"308bead232d95dba4d9e27608e20c2d4a6511daa38b7b5fb033753bd1c827d83","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/chaos-engineer/references/experiment-design.md"},{"path":"references/game-days.md","sourcePath":"skills/chaos-engineer/references/game-days.md","bytes":12355,"sha256":"7a19400b365b68bd6d69255d34ebe6ce733f97b87a5d7d168a83744acd652bde","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/chaos-engineer/references/game-days.md"},{"path":"references/infrastructure-chaos.md","sourcePath":"skills/chaos-engineer/references/infrastructure-chaos.md","bytes":10035,"sha256":"26580545f0509baa464829b2ad1a7cf53408df19c6d50015fa23ec32464f29f2","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/chaos-engineer/references/infrastructure-chaos.md"},{"path":"references/kubernetes-chaos.md","sourcePath":"skills/chaos-engineer/references/kubernetes-chaos.md","bytes":10785,"sha256":"2b8ae4817420a156ecbe337709336762e3d0b68d24e539af566118c39264efe6","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/chaos-engineer/references/kubernetes-chaos.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1056,"sha256":"06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/LICENSE"}],"archiveSha256":"1f30d61dfa4f74350c2727af1deecde56d6f9cdfce02e0f84fa2bacf45fe0e76"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "jeffallan--claude-skills--chaos-engineer",
+    "name": "chaos-engineer",
+    "description": "Designs chaos experiments, creates failure injection frameworks, and facilitates game day exercises for distributed systems — producing runbooks, experiment manifests, rollback procedures, and post-mortem templates. Use when designing chaos experiments, implementing failure injection frameworks, or conducting game day exercises. Invoke for chaos experiments, resilience testing, blast radius control, game days, antifragile systems, fault injection, Chaos Monkey, Litmus Chaos.",
+    "category": "Development",
+    "tags": [
+      "chaos",
+      "engineer",
+      "designs",
+      "experiments",
+      "creates",
+      "failure",
+      "injection",
+      "frameworks",
+      "facilitates",
+      "game",
+      "day",
+      "exercises",
+      "distributed",
+      "systems",
+      "producing",
+      "runbooks",
+      "experiment",
+      "manifests"
+    ],
+    "repo": "Jeffallan/claude-skills",
+    "owner": "Jeffallan",
+    "stars": 11835,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1be15d8064f88fc25216442406d40add8fd23b53",
+    "path": "skills/chaos-engineer",
+    "sourceUrl": "https://github.com/Jeffallan/claude-skills/tree/1be15d8064f88fc25216442406d40add8fd23b53/skills/chaos-engineer",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-03T15:49:22Z",
+    "fileCount": 7,
+    "bytes": 62545,
+    "sha256": "97b9db30c0b8a94ec09c8fc8e06ebee6192d9b3845997d841fca8c35b8f454a3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/chaos-engineer/SKILL.md",
+      "bytes": 7066,
+      "sha256": "97b9db30c0b8a94ec09c8fc8e06ebee6192d9b3845997d841fca8c35b8f454a3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/chaos-engineer/SKILL.md"
+    },
+    {
+      "path": "references/chaos-tools.md",
+      "sourcePath": "skills/chaos-engineer/references/chaos-tools.md",
+      "bytes": 14217,
+      "sha256": "701f68e6130651ad8045303a236176c905f2cc2caad3a5ffb29dab35ae856a77",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/chaos-engineer/references/chaos-tools.md"
+    },
+    {
+      "path": "references/experiment-design.md",
+      "sourcePath": "skills/chaos-engineer/references/experiment-design.md",
+      "bytes": 7031,
+      "sha256": "308bead232d95dba4d9e27608e20c2d4a6511daa38b7b5fb033753bd1c827d83",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/chaos-engineer/references/experiment-design.md"
+    },
+    {
+      "path": "references/game-days.md",
+      "sourcePath": "skills/chaos-engineer/references/game-days.md",
+      "bytes": 12355,
+      "sha256": "7a19400b365b68bd6d69255d34ebe6ce733f97b87a5d7d168a83744acd652bde",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/chaos-engineer/references/game-days.md"
+    },
+    {
+      "path": "references/infrastructure-chaos.md",
+      "sourcePath": "skills/chaos-engineer/references/infrastructure-chaos.md",
+      "bytes": 10035,
+      "sha256": "26580545f0509baa464829b2ad1a7cf53408df19c6d50015fa23ec32464f29f2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/chaos-engineer/references/infrastructure-chaos.md"
+    },
+    {
+      "path": "references/kubernetes-chaos.md",
+      "sourcePath": "skills/chaos-engineer/references/kubernetes-chaos.md",
+      "bytes": 10785,
+      "sha256": "2b8ae4817420a156ecbe337709336762e3d0b68d24e539af566118c39264efe6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/chaos-engineer/references/kubernetes-chaos.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1056,
+      "sha256": "06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/LICENSE"
+    }
+  ],
+  "archiveSha256": "1f30d61dfa4f74350c2727af1deecde56d6f9cdfce02e0f84fa2bacf45fe0e76"
+}

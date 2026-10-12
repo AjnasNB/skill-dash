@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--conducting-network-penetration-test","name":"conducting-network-penetration-test","description":"Conducts comprehensive network penetration tests against authorized target environments by performing host discovery, port scanning, service enumeration, vulnerability identification, and controlled exploitation to assess the security posture of network infrastructure. The tester follows PTES methodology from reconnaissance through post-exploitation and reporting. Activates for requests involving network pentest, infrastructure security assessment, internal network testing, or external perimeter testing.","category":"Security","tags":["conducting","network","penetration","test","conducts","comprehensive","tests","against","authorized","target","environments","by","performing","host","discovery","port","scanning","service"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/conducting-network-penetration-test/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/conducting-network-penetration-test","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-network-penetration-test","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":33679,"sha256":"b7521af5038b93cfab7f85ac9be3cd9952092cede1872d8e7a46e364f06be333","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/conducting-network-penetration-test/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-network-penetration-test/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/conducting-network-penetration-test/SKILL.md","bytes":12666,"sha256":"b7521af5038b93cfab7f85ac9be3cd9952092cede1872d8e7a46e364f06be333","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-network-penetration-test/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/conducting-network-penetration-test/references/api-reference.md","bytes":2209,"sha256":"4229353f1bbb9f2975d1fb23cc5a7941589adee23cab878421dc144a3e4a651b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-network-penetration-test/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/conducting-network-penetration-test/scripts/agent.py","bytes":7549,"sha256":"0179a0e0df632e1e177800cf113c03192a46083a909a3b8d87c9073bbf5d020b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-network-penetration-test/scripts/agent.py"}],"archiveSha256":"30cc05776f6149f09309be28ae5411f8558433ec5e709e784dfa3c1bb31bb5fc"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--conducting-network-penetration-test",
+    "name": "conducting-network-penetration-test",
+    "description": "Conducts comprehensive network penetration tests against authorized target environments by performing host discovery, port scanning, service enumeration, vulnerability identification, and controlled exploitation to assess the security posture of network infrastructure. The tester follows PTES methodology from reconnaissance through post-exploitation and reporting. Activates for requests involving network pentest, infrastructure security assessment, internal network testing, or external perimeter testing.",
+    "category": "Security",
+    "tags": [
+      "conducting",
+      "network",
+      "penetration",
+      "test",
+      "conducts",
+      "comprehensive",
+      "tests",
+      "against",
+      "authorized",
+      "target",
+      "environments",
+      "by",
+      "performing",
+      "host",
+      "discovery",
+      "port",
+      "scanning",
+      "service"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/conducting-network-penetration-test/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/conducting-network-penetration-test",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-network-penetration-test",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 33679,
+    "sha256": "b7521af5038b93cfab7f85ac9be3cd9952092cede1872d8e7a46e364f06be333",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/conducting-network-penetration-test/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-network-penetration-test/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/conducting-network-penetration-test/SKILL.md",
+      "bytes": 12666,
+      "sha256": "b7521af5038b93cfab7f85ac9be3cd9952092cede1872d8e7a46e364f06be333",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-network-penetration-test/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/conducting-network-penetration-test/references/api-reference.md",
+      "bytes": 2209,
+      "sha256": "4229353f1bbb9f2975d1fb23cc5a7941589adee23cab878421dc144a3e4a651b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-network-penetration-test/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/conducting-network-penetration-test/scripts/agent.py",
+      "bytes": 7549,
+      "sha256": "0179a0e0df632e1e177800cf113c03192a46083a909a3b8d87c9073bbf5d020b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-network-penetration-test/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "30cc05776f6149f09309be28ae5411f8558433ec5e709e784dfa3c1bb31bb5fc"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--prediction-market-risk-review","name":"prediction-market-risk-review","description":"Review prediction-market, basket, oracle, and trading-agent workflows for compliance, safety, data-quality, privacy, and execution risk. Use before any workflow handles venue auth, user portfolio data, API keys, or trade planning.","category":"AI & agents","tags":["prediction","market","risk","review","basket","oracle","trading","agent","workflows","compliance","safety","data","quality","privacy","execution","risk.","before","any"],"repo":"affaan-m/ECC","owner":"affaan-m","stars":277532,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"b92f181b3b748d1abbc2afd94af6aa7d8c8fca29","path":"skills/prediction-market-risk-review","sourceUrl":"https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/prediction-market-risk-review","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T02:02:10Z","fileCount":2,"bytes":2953,"sha256":"19195e218716ed298fd8de9743e78462d17d95233b14e052c3bd1d1d7df31f91","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/prediction-market-risk-review/SKILL.md","bytes":1882,"sha256":"19195e218716ed298fd8de9743e78462d17d95233b14e052c3bd1d1d7df31f91","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/prediction-market-risk-review/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"}],"archiveSha256":"848ec4b538199cba090b2841dc17789ed1078faea36e97ff397e6e79df0fe635"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--prediction-market-risk-review",
+    "name": "prediction-market-risk-review",
+    "description": "Review prediction-market, basket, oracle, and trading-agent workflows for compliance, safety, data-quality, privacy, and execution risk. Use before any workflow handles venue auth, user portfolio data, API keys, or trade planning.",
+    "category": "AI & agents",
+    "tags": [
+      "prediction",
+      "market",
+      "risk",
+      "review",
+      "basket",
+      "oracle",
+      "trading",
+      "agent",
+      "workflows",
+      "compliance",
+      "safety",
+      "data",
+      "quality",
+      "privacy",
+      "execution",
+      "risk.",
+      "before",
+      "any"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/prediction-market-risk-review",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/prediction-market-risk-review",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 2,
+    "bytes": 2953,
+    "sha256": "19195e218716ed298fd8de9743e78462d17d95233b14e052c3bd1d1d7df31f91",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/prediction-market-risk-review/SKILL.md",
+      "bytes": 1882,
+      "sha256": "19195e218716ed298fd8de9743e78462d17d95233b14e052c3bd1d1d7df31f91",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/prediction-market-risk-review/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "848ec4b538199cba090b2841dc17789ed1078faea36e97ff397e6e79df0fe635"
+}

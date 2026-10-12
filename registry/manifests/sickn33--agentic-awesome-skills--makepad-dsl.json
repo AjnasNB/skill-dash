@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--makepad-dsl","name":"makepad-dsl","description":"CRITICAL: Use for Makepad DSL syntax and inheritance. Triggers on: makepad dsl, live_design, makepad inheritance, makepad prototype, \"<Widget>\", \"Foo = { }\", makepad object, makepad property, makepad DSL 语法, makepad 继承, makepad 原型, 如何定义 makepad 组件","category":"Development","tags":["makepad","dsl","critical","syntax","inheritance.","triggers","live","design","inheritance","prototype","widget","foo","object","property","语法","继承","原型","如何定义"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/makepad-dsl","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/makepad-dsl","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5972,"sha256":"4fcb23da1890659eb901c975d58dcd02d43bdf7fd72ac4adfb8cd83ac72db9b7","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/makepad-dsl/SKILL.md","bytes":4899,"sha256":"4fcb23da1890659eb901c975d58dcd02d43bdf7fd72ac4adfb8cd83ac72db9b7","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/makepad-dsl/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"6e9ec105c19c027c5461cec90ad72475c508806662c654b0ee452d94f1eea8f3"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--makepad-dsl",
+    "name": "makepad-dsl",
+    "description": "CRITICAL: Use for Makepad DSL syntax and inheritance. Triggers on: makepad dsl, live_design, makepad inheritance, makepad prototype, \"<Widget>\", \"Foo = { }\", makepad object, makepad property, makepad DSL 语法, makepad 继承, makepad 原型, 如何定义 makepad 组件",
+    "category": "Development",
+    "tags": [
+      "makepad",
+      "dsl",
+      "critical",
+      "syntax",
+      "inheritance.",
+      "triggers",
+      "live",
+      "design",
+      "inheritance",
+      "prototype",
+      "widget",
+      "foo",
+      "object",
+      "property",
+      "语法",
+      "继承",
+      "原型",
+      "如何定义"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/makepad-dsl",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/makepad-dsl",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5972,
+    "sha256": "4fcb23da1890659eb901c975d58dcd02d43bdf7fd72ac4adfb8cd83ac72db9b7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/makepad-dsl/SKILL.md",
+      "bytes": 4899,
+      "sha256": "4fcb23da1890659eb901c975d58dcd02d43bdf7fd72ac4adfb8cd83ac72db9b7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/makepad-dsl/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "6e9ec105c19c027c5461cec90ad72475c508806662c654b0ee452d94f1eea8f3"
+}

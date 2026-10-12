@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--configuring-pfsense-firewall-rules","name":"configuring-pfsense-firewall-rules","description":"Configures pfSense firewall rules, NAT policies, IPsec/OpenVPN tunnels, and traffic shaping to enforce network segmentation and control traffic between zones such as DMZ, internal, guest, and IoT. Use when deploying a pfSense perimeter or internal firewall, setting up port-forwarding NAT, configuring site-to-site or remote-access VPNs, or applying QoS/bandwidth policies.","category":"Cloud & DevOps","tags":["configuring","pfsense","firewall","rules","configures","nat","policies","ipsec","openvpn","tunnels","traffic","shaping","enforce","network","segmentation","control","between","zones"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/configuring-pfsense-firewall-rules/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/configuring-pfsense-firewall-rules","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-pfsense-firewall-rules","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":34677,"sha256":"f7ede9358003034d19c888243b9d0d4644157a4930349e406d04050bce9e2042","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/configuring-pfsense-firewall-rules/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-pfsense-firewall-rules/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/configuring-pfsense-firewall-rules/SKILL.md","bytes":12426,"sha256":"f7ede9358003034d19c888243b9d0d4644157a4930349e406d04050bce9e2042","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-pfsense-firewall-rules/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/configuring-pfsense-firewall-rules/references/api-reference.md","bytes":2427,"sha256":"5d9070a7dad5af2132075c1220b45380ead838f33fed291a7931032e510dba97","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-pfsense-firewall-rules/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/configuring-pfsense-firewall-rules/scripts/agent.py","bytes":8569,"sha256":"1c8920fd9893fea946ac20cf88c8d4f6e8396fba40bb3555a0e95bc4531e7498","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-pfsense-firewall-rules/scripts/agent.py"}],"archiveSha256":"832d0c01832e0152256117364cbba917392d72cfaefd65f7fc5cbedc4da945af"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--configuring-pfsense-firewall-rules",
+    "name": "configuring-pfsense-firewall-rules",
+    "description": "Configures pfSense firewall rules, NAT policies, IPsec/OpenVPN tunnels, and traffic shaping to enforce network segmentation and control traffic between zones such as DMZ, internal, guest, and IoT. Use when deploying a pfSense perimeter or internal firewall, setting up port-forwarding NAT, configuring site-to-site or remote-access VPNs, or applying QoS/bandwidth policies.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "configuring",
+      "pfsense",
+      "firewall",
+      "rules",
+      "configures",
+      "nat",
+      "policies",
+      "ipsec",
+      "openvpn",
+      "tunnels",
+      "traffic",
+      "shaping",
+      "enforce",
+      "network",
+      "segmentation",
+      "control",
+      "between",
+      "zones"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/configuring-pfsense-firewall-rules/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/configuring-pfsense-firewall-rules",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-pfsense-firewall-rules",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34677,
+    "sha256": "f7ede9358003034d19c888243b9d0d4644157a4930349e406d04050bce9e2042",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/configuring-pfsense-firewall-rules/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-pfsense-firewall-rules/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/configuring-pfsense-firewall-rules/SKILL.md",
+      "bytes": 12426,
+      "sha256": "f7ede9358003034d19c888243b9d0d4644157a4930349e406d04050bce9e2042",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-pfsense-firewall-rules/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/configuring-pfsense-firewall-rules/references/api-reference.md",
+      "bytes": 2427,
+      "sha256": "5d9070a7dad5af2132075c1220b45380ead838f33fed291a7931032e510dba97",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-pfsense-firewall-rules/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/configuring-pfsense-firewall-rules/scripts/agent.py",
+      "bytes": 8569,
+      "sha256": "1c8920fd9893fea946ac20cf88c8d4f6e8396fba40bb3555a0e95bc4531e7498",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-pfsense-firewall-rules/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "832d0c01832e0152256117364cbba917392d72cfaefd65f7fc5cbedc4da945af"
+}

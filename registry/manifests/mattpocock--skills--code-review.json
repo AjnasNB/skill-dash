@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"mattpocock--skills--code-review","name":"code-review","description":"Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/spec asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \"review since X\".","category":"AI & agents","tags":["code","review","changes","since","fixed","point","commit","branch","tag","merge","base","along","two","axes","standards","does","follow","repo"],"repo":"mattpocock/skills","owner":"mattpocock","stars":287125,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"49dd158d1076134a641b33efb035946536778336","path":"skills/engineering/code-review","sourceUrl":"https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/engineering/code-review","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-09T10:56:49Z","fileCount":3,"bytes":7838,"sha256":"09eb147f793e4647949edd32dbad278f0554dfb56e0d46b699cd4c2c55bf0357","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/engineering/code-review/SKILL.md","bytes":6670,"sha256":"09eb147f793e4647949edd32dbad278f0554dfb56e0d46b699cd4c2c55bf0357","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/code-review/SKILL.md"},{"path":"agents/openai.yaml","sourcePath":"skills/engineering/code-review/agents/openai.yaml","bytes":100,"sha256":"8229ca854e11dc8e6aef2131ee03f31fb1561cf905fab9ccc325180cf3331352","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/code-review/agents/openai.yaml"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1068,"sha256":"0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/LICENSE"}],"archiveSha256":"11d505e38ab35a3269cfa4caccf55ff3144a245992cde80bf552997756a0d3ac"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mattpocock--skills--code-review",
+    "name": "code-review",
+    "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/spec asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \"review since X\".",
+    "category": "AI & agents",
+    "tags": [
+      "code",
+      "review",
+      "changes",
+      "since",
+      "fixed",
+      "point",
+      "commit",
+      "branch",
+      "tag",
+      "merge",
+      "base",
+      "along",
+      "two",
+      "axes",
+      "standards",
+      "does",
+      "follow",
+      "repo"
+    ],
+    "repo": "mattpocock/skills",
+    "owner": "mattpocock",
+    "stars": 287125,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "49dd158d1076134a641b33efb035946536778336",
+    "path": "skills/engineering/code-review",
+    "sourceUrl": "https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/engineering/code-review",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-09T10:56:49Z",
+    "fileCount": 3,
+    "bytes": 7838,
+    "sha256": "09eb147f793e4647949edd32dbad278f0554dfb56e0d46b699cd4c2c55bf0357",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/engineering/code-review/SKILL.md",
+      "bytes": 6670,
+      "sha256": "09eb147f793e4647949edd32dbad278f0554dfb56e0d46b699cd4c2c55bf0357",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/code-review/SKILL.md"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sourcePath": "skills/engineering/code-review/agents/openai.yaml",
+      "bytes": 100,
+      "sha256": "8229ca854e11dc8e6aef2131ee03f31fb1561cf905fab9ccc325180cf3331352",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/code-review/agents/openai.yaml"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1068,
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/LICENSE"
+    }
+  ],
+  "archiveSha256": "11d505e38ab35a3269cfa4caccf55ff3144a245992cde80bf552997756a0d3ac"
+}

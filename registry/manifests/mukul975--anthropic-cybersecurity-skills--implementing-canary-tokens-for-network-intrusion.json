@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-canary-tokens-for-network-intrusion","name":"implementing-canary-tokens-for-network-intrusion","description":"Deploys DNS, HTTP, and AWS API key canary tokens across network infrastructure to detect unauthorized access and lateral movement. Integrates with webhook alerting (Slack, Teams, email, generic HTTP) for real-time intrusion notifications. Provides automated token generation, placement strategies, and monitoring for enterprise network environments. Use when building deception-based network intrusion detection with Canarytokens.org and Thinkst Canary platforms.","category":"Cloud & DevOps","tags":["implementing","canary","tokens","network","intrusion","deploys","dns","http","aws","api","key","across","infrastructure","detect","unauthorized","access","lateral","movement."],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-canary-tokens-for-network-intrusion/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-canary-tokens-for-network-intrusion","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-canary-tokens-for-network-intrusion","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":63888,"sha256":"91478d919212791e38629117928269803ec605801a59aa3c356a753364aef71c","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-canary-tokens-for-network-intrusion/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-canary-tokens-for-network-intrusion/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-canary-tokens-for-network-intrusion/SKILL.md","bytes":12438,"sha256":"91478d919212791e38629117928269803ec605801a59aa3c356a753364aef71c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-canary-tokens-for-network-intrusion/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-canary-tokens-for-network-intrusion/references/api-reference.md","bytes":6001,"sha256":"0831830590e99fa6222d179e9760a4ace7820ae978d0660bfda5093396bee516","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-canary-tokens-for-network-intrusion/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-canary-tokens-for-network-intrusion/scripts/agent.py","bytes":34194,"sha256":"6025d52cbd33da95303b4ba64fd4526653dbb43228708c5383ecdf354af9257d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-canary-tokens-for-network-intrusion/scripts/agent.py"}],"archiveSha256":"825161f7771fc08767ede639023d1b88e09144ed954df757bc8d13230f6d4cd9"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-canary-tokens-for-network-intrusion",
+    "name": "implementing-canary-tokens-for-network-intrusion",
+    "description": "Deploys DNS, HTTP, and AWS API key canary tokens across network infrastructure to detect unauthorized access and lateral movement. Integrates with webhook alerting (Slack, Teams, email, generic HTTP) for real-time intrusion notifications. Provides automated token generation, placement strategies, and monitoring for enterprise network environments. Use when building deception-based network intrusion detection with Canarytokens.org and Thinkst Canary platforms.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "implementing",
+      "canary",
+      "tokens",
+      "network",
+      "intrusion",
+      "deploys",
+      "dns",
+      "http",
+      "aws",
+      "api",
+      "key",
+      "across",
+      "infrastructure",
+      "detect",
+      "unauthorized",
+      "access",
+      "lateral",
+      "movement."
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-canary-tokens-for-network-intrusion/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-canary-tokens-for-network-intrusion",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-canary-tokens-for-network-intrusion",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 63888,
+    "sha256": "91478d919212791e38629117928269803ec605801a59aa3c356a753364aef71c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-canary-tokens-for-network-intrusion/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-canary-tokens-for-network-intrusion/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-canary-tokens-for-network-intrusion/SKILL.md",
+      "bytes": 12438,
+      "sha256": "91478d919212791e38629117928269803ec605801a59aa3c356a753364aef71c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-canary-tokens-for-network-intrusion/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-canary-tokens-for-network-intrusion/references/api-reference.md",
+      "bytes": 6001,
+      "sha256": "0831830590e99fa6222d179e9760a4ace7820ae978d0660bfda5093396bee516",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-canary-tokens-for-network-intrusion/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-canary-tokens-for-network-intrusion/scripts/agent.py",
+      "bytes": 34194,
+      "sha256": "6025d52cbd33da95303b4ba64fd4526653dbb43228708c5383ecdf354af9257d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-canary-tokens-for-network-intrusion/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "825161f7771fc08767ede639023d1b88e09144ed954df757bc8d13230f6d4cd9"
+}

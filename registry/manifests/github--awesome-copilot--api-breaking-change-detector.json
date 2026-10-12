@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--api-breaking-change-detector","name":"api-breaking-change-detector","description":"Cross-references C# Web API controllers/DTOs against their TypeScript/JavaScript consumers (React, Angular, Vue, Svelte, Node.js, or hand-written/auto-generated HTTP clients like Fetch, Axios, NSwag) to catch contract drift in both directions: backend changes that break client applications (renamed/removed JSON keys, new required parameters, status code shifts) and frontend code sending fields the backend no longer reads. Works directly against source code, not exported OpenAPI spec files. Use when the user asks to check for breaking API changes, verify frontend/backend contract sync, or audit a DTO/controller change against its TypeScript/JS consumers before merging. Not for generating new API code from a spec (see openapi-to-application-code) or scaffolding new endpoints (see aspnet-minimal-api-openapi).","category":"Development","tags":["api","breaking","change","detector","cross","references","c#","web","controllers","dtos","against","their","typescript","javascript","consumers","react","angular","vue"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/api-breaking-change-detector","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/api-breaking-change-detector","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":7800,"sha256":"1fcd27dcb533c23baaeef7a70089a8095fa0cc21425457b9a653535034d71a80","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/api-breaking-change-detector/SKILL.md","bytes":6741,"sha256":"1fcd27dcb533c23baaeef7a70089a8095fa0cc21425457b9a653535034d71a80","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/api-breaking-change-detector/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"cceb477af7ec1fcf21c60aa71e2dbae849c4a12041e8b5334e6dafdf043e3c6a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--api-breaking-change-detector",
+    "name": "api-breaking-change-detector",
+    "description": "Cross-references C# Web API controllers/DTOs against their TypeScript/JavaScript consumers (React, Angular, Vue, Svelte, Node.js, or hand-written/auto-generated HTTP clients like Fetch, Axios, NSwag) to catch contract drift in both directions: backend changes that break client applications (renamed/removed JSON keys, new required parameters, status code shifts) and frontend code sending fields the backend no longer reads. Works directly against source code, not exported OpenAPI spec files. Use when the user asks to check for breaking API changes, verify frontend/backend contract sync, or audit a DTO/controller change against its TypeScript/JS consumers before merging. Not for generating new API code from a spec (see openapi-to-application-code) or scaffolding new endpoints (see aspnet-minimal-api-openapi).",
+    "category": "Development",
+    "tags": [
+      "api",
+      "breaking",
+      "change",
+      "detector",
+      "cross",
+      "references",
+      "c#",
+      "web",
+      "controllers",
+      "dtos",
+      "against",
+      "their",
+      "typescript",
+      "javascript",
+      "consumers",
+      "react",
+      "angular",
+      "vue"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/api-breaking-change-detector",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/api-breaking-change-detector",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 7800,
+    "sha256": "1fcd27dcb533c23baaeef7a70089a8095fa0cc21425457b9a653535034d71a80",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/api-breaking-change-detector/SKILL.md",
+      "bytes": 6741,
+      "sha256": "1fcd27dcb533c23baaeef7a70089a8095fa0cc21425457b9a653535034d71a80",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/api-breaking-change-detector/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "cceb477af7ec1fcf21c60aa71e2dbae849c4a12041e8b5334e6dafdf043e3c6a"
+}

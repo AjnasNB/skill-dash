@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--ruby-pro","name":"ruby-pro","description":"Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and testing frameworks.","category":"Writing","tags":["ruby","pro","write","idiomatic","code","metaprogramming","rails","patterns","performance","optimization.","specializes","gem","development","testing","frameworks."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/ruby-pro","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ruby-pro","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":3303,"sha256":"c1246448e047b3dfcb491cca3f426b56741a67f32161cfaf0721555ecf08e1f1","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/ruby-pro/SKILL.md","bytes":2230,"sha256":"c1246448e047b3dfcb491cca3f426b56741a67f32161cfaf0721555ecf08e1f1","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ruby-pro/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"945a8291594347874bcb862b489ab2aabcd4681e95414555fe4644d0b24eed2f"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--ruby-pro",
+    "name": "ruby-pro",
+    "description": "Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and testing frameworks.",
+    "category": "Writing",
+    "tags": [
+      "ruby",
+      "pro",
+      "write",
+      "idiomatic",
+      "code",
+      "metaprogramming",
+      "rails",
+      "patterns",
+      "performance",
+      "optimization.",
+      "specializes",
+      "gem",
+      "development",
+      "testing",
+      "frameworks."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/ruby-pro",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ruby-pro",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 3303,
+    "sha256": "c1246448e047b3dfcb491cca3f426b56741a67f32161cfaf0721555ecf08e1f1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/ruby-pro/SKILL.md",
+      "bytes": 2230,
+      "sha256": "c1246448e047b3dfcb491cca3f426b56741a67f32161cfaf0721555ecf08e1f1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ruby-pro/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "945a8291594347874bcb862b489ab2aabcd4681e95414555fe4644d0b24eed2f"
+}

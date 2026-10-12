@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--electron-development","name":"electron-development","description":"Master Electron desktop app development with secure IPC, contextIsolation, preload scripts, multi-process architecture, electron-builder packaging, code signing, and auto-update.","category":"Development","tags":["electron","development","master","desktop","app","secure","ipc","contextisolation","preload","scripts","multi","process","architecture","builder","packaging","code","signing","auto"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/electron-development","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-development","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":30181,"sha256":"dfc11196c7faf2cb72df4da39518bfa086743e20f6c03bea1dd1efcb3a015509","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/electron-development/SKILL.md","bytes":2744,"sha256":"dfc11196c7faf2cb72df4da39518bfa086743e20f6c03bea1dd1efcb3a015509","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-development/SKILL.md"},{"path":"references/detailed-guide.md","sourcePath":"skills/electron-development/references/detailed-guide.md","bytes":26364,"sha256":"b2ad060753139110def51850d148d88cb3812969eac9bc903d847e3303abe592","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-development/references/detailed-guide.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"affde0d4f86a49ad21e0465f4cbe33d3f5bd922a1ea1496091a6193c443246f9"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--electron-development",
+    "name": "electron-development",
+    "description": "Master Electron desktop app development with secure IPC, contextIsolation, preload scripts, multi-process architecture, electron-builder packaging, code signing, and auto-update.",
+    "category": "Development",
+    "tags": [
+      "electron",
+      "development",
+      "master",
+      "desktop",
+      "app",
+      "secure",
+      "ipc",
+      "contextisolation",
+      "preload",
+      "scripts",
+      "multi",
+      "process",
+      "architecture",
+      "builder",
+      "packaging",
+      "code",
+      "signing",
+      "auto"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/electron-development",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-development",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 30181,
+    "sha256": "dfc11196c7faf2cb72df4da39518bfa086743e20f6c03bea1dd1efcb3a015509",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/electron-development/SKILL.md",
+      "bytes": 2744,
+      "sha256": "dfc11196c7faf2cb72df4da39518bfa086743e20f6c03bea1dd1efcb3a015509",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-development/SKILL.md"
+    },
+    {
+      "path": "references/detailed-guide.md",
+      "sourcePath": "skills/electron-development/references/detailed-guide.md",
+      "bytes": 26364,
+      "sha256": "b2ad060753139110def51850d148d88cb3812969eac9bc903d847e3303abe592",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-development/references/detailed-guide.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "affde0d4f86a49ad21e0465f4cbe33d3f5bd922a1ea1496091a6193c443246f9"
+}

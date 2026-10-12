@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--sshepherd","name":"sshepherd","description":"Zero-knowledge SSH ops CLI — server health checks, docker/systemd control, log tailing, Postgres introspection, and declarative deploys, without ever exposing credentials to the agent.","category":"Cloud & DevOps","tags":["sshepherd","zero","knowledge","ssh","ops","cli","server","health","checks","docker","systemd","control","log","tailing","postgres","introspection","declarative","deploys"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/sshepherd","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sshepherd","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7657,"sha256":"7e3b140718c64c58355d7bfebb151ff082b775fa58ded8dc25846571c9a80694","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/sshepherd/SKILL.md","bytes":6584,"sha256":"7e3b140718c64c58355d7bfebb151ff082b775fa58ded8dc25846571c9a80694","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sshepherd/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"267a70d5d93f576c447c714d6509ed1f84e3b80223c1db1c97808d2d22ec3fb9"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--sshepherd",
+    "name": "sshepherd",
+    "description": "Zero-knowledge SSH ops CLI — server health checks, docker/systemd control, log tailing, Postgres introspection, and declarative deploys, without ever exposing credentials to the agent.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "sshepherd",
+      "zero",
+      "knowledge",
+      "ssh",
+      "ops",
+      "cli",
+      "server",
+      "health",
+      "checks",
+      "docker",
+      "systemd",
+      "control",
+      "log",
+      "tailing",
+      "postgres",
+      "introspection",
+      "declarative",
+      "deploys"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/sshepherd",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sshepherd",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7657,
+    "sha256": "7e3b140718c64c58355d7bfebb151ff082b775fa58ded8dc25846571c9a80694",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/sshepherd/SKILL.md",
+      "bytes": 6584,
+      "sha256": "7e3b140718c64c58355d7bfebb151ff082b775fa58ded8dc25846571c9a80694",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sshepherd/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "267a70d5d93f576c447c714d6509ed1f84e3b80223c1db1c97808d2d22ec3fb9"
+}

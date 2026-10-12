@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--lesson-generator","name":"lesson-generator","description":"Build compact, standalone multi-lesson course artifacts with lesson navigation, objectives, flashcards, quizzes, and source links.","category":"Development","tags":["lesson","generator","compact","standalone","multi","course","artifacts","navigation","objectives","flashcards","quizzes","source","links."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/lesson-generator","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lesson-generator","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6601,"sha256":"633a2b2eccfa9cd01c6f4eef2329543c2c6b8f855b6de64feed3e3ca647c9774","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/lesson-generator/SKILL.md","bytes":5528,"sha256":"633a2b2eccfa9cd01c6f4eef2329543c2c6b8f855b6de64feed3e3ca647c9774","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lesson-generator/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"a8a9b68dc72046e7ff687c26d11a534da9404a70a59fe45120a776bcadad1ad8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--lesson-generator",
+    "name": "lesson-generator",
+    "description": "Build compact, standalone multi-lesson course artifacts with lesson navigation, objectives, flashcards, quizzes, and source links.",
+    "category": "Development",
+    "tags": [
+      "lesson",
+      "generator",
+      "compact",
+      "standalone",
+      "multi",
+      "course",
+      "artifacts",
+      "navigation",
+      "objectives",
+      "flashcards",
+      "quizzes",
+      "source",
+      "links."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/lesson-generator",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lesson-generator",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6601,
+    "sha256": "633a2b2eccfa9cd01c6f4eef2329543c2c6b8f855b6de64feed3e3ca647c9774",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/lesson-generator/SKILL.md",
+      "bytes": 5528,
+      "sha256": "633a2b2eccfa9cd01c6f4eef2329543c2c6b8f855b6de64feed3e3ca647c9774",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lesson-generator/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "a8a9b68dc72046e7ff687c26d11a534da9404a70a59fe45120a776bcadad1ad8"
+}

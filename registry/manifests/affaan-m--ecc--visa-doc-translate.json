@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--visa-doc-translate","name":"visa-doc-translate","description":"Translate visa document images (bank deposit, employment, income, and retirement certificates; HEIC, PNG, or JPG) into English via OCR and produce a bilingual PDF pairing the original image with a formatted certified-style translation. Use when a visa application needs a document translated to English, an official certificate OCR'd and translated, or a bilingual translation PDF for immigration paperwork.","category":"Documents","tags":["visa","doc","translate","document","images","bank","deposit","employment","income","retirement","certificates","heic","png","jpg","into","english","via","ocr"],"repo":"affaan-m/ECC","owner":"affaan-m","stars":277532,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"b92f181b3b748d1abbc2afd94af6aa7d8c8fca29","path":"skills/visa-doc-translate","sourceUrl":"https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/visa-doc-translate","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T02:02:10Z","fileCount":3,"bytes":7060,"sha256":"528a180f10389f3228980a487f004e0eaccccf00be0d88073a554001c36bcd89","historical":false},"files":[{"path":"README.md","sourcePath":"skills/visa-doc-translate/README.md","bytes":1836,"sha256":"34c2550bd066d0dbfb976704da8c532f52f7c788b9ecad31f1262754d426e152","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/visa-doc-translate/README.md"},{"path":"SKILL.md","sourcePath":"skills/visa-doc-translate/SKILL.md","bytes":4153,"sha256":"528a180f10389f3228980a487f004e0eaccccf00be0d88073a554001c36bcd89","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/visa-doc-translate/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"}],"archiveSha256":"3f715febb7f4b19bccd26521e291810a52e3cedaa7b296a7cdd1f2d7ce863891"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--visa-doc-translate",
+    "name": "visa-doc-translate",
+    "description": "Translate visa document images (bank deposit, employment, income, and retirement certificates; HEIC, PNG, or JPG) into English via OCR and produce a bilingual PDF pairing the original image with a formatted certified-style translation. Use when a visa application needs a document translated to English, an official certificate OCR'd and translated, or a bilingual translation PDF for immigration paperwork.",
+    "category": "Documents",
+    "tags": [
+      "visa",
+      "doc",
+      "translate",
+      "document",
+      "images",
+      "bank",
+      "deposit",
+      "employment",
+      "income",
+      "retirement",
+      "certificates",
+      "heic",
+      "png",
+      "jpg",
+      "into",
+      "english",
+      "via",
+      "ocr"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/visa-doc-translate",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/visa-doc-translate",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 3,
+    "bytes": 7060,
+    "sha256": "528a180f10389f3228980a487f004e0eaccccf00be0d88073a554001c36bcd89",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sourcePath": "skills/visa-doc-translate/README.md",
+      "bytes": 1836,
+      "sha256": "34c2550bd066d0dbfb976704da8c532f52f7c788b9ecad31f1262754d426e152",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/visa-doc-translate/README.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/visa-doc-translate/SKILL.md",
+      "bytes": 4153,
+      "sha256": "528a180f10389f3228980a487f004e0eaccccf00be0d88073a554001c36bcd89",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/visa-doc-translate/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "3f715febb7f4b19bccd26521e291810a52e3cedaa7b296a7cdd1f2d7ce863891"
+}

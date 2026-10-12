@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--vercel-automation","name":"vercel-automation","description":"Automate Vercel tasks via Rube MCP (Composio): manage deployments, domains, DNS, env vars, projects, and teams. Always search tools first for current schemas.","category":"Cloud & DevOps","tags":["vercel","automation","automate","tasks","via","rube","mcp","composio","manage","deployments","domains","dns","env","vars","projects","teams.","always","search"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/vercel-automation","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vercel-automation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":10640,"sha256":"31627fb59a9c053370c7ff7a65e848b518fa7e57001959e2283fda45933f4060","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/vercel-automation/SKILL.md","bytes":9567,"sha256":"31627fb59a9c053370c7ff7a65e848b518fa7e57001959e2283fda45933f4060","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vercel-automation/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"115737dc3a210063e4dd680851ec8ebec35be19d8035e54e49108179d5867f0d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--vercel-automation",
+    "name": "vercel-automation",
+    "description": "Automate Vercel tasks via Rube MCP (Composio): manage deployments, domains, DNS, env vars, projects, and teams. Always search tools first for current schemas.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "vercel",
+      "automation",
+      "automate",
+      "tasks",
+      "via",
+      "rube",
+      "mcp",
+      "composio",
+      "manage",
+      "deployments",
+      "domains",
+      "dns",
+      "env",
+      "vars",
+      "projects",
+      "teams.",
+      "always",
+      "search"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/vercel-automation",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vercel-automation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10640,
+    "sha256": "31627fb59a9c053370c7ff7a65e848b518fa7e57001959e2283fda45933f4060",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/vercel-automation/SKILL.md",
+      "bytes": 9567,
+      "sha256": "31627fb59a9c053370c7ff7a65e848b518fa7e57001959e2283fda45933f4060",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vercel-automation/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "115737dc3a210063e4dd680851ec8ebec35be19d8035e54e49108179d5867f0d"
+}

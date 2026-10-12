@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-privileged-access-management-with-cyberark","name":"implementing-privileged-access-management-with-cyberark","description":"Deploy CyberArk Privileged Access Management to discover, vault, rotate, and monitor privileged credentials across enterprise infrastructure, covering vault architecture, session isolation, credential rotation policies, and integration with NIST 800-53 access control requirements. Use when standing up CyberArk PAM, vaulting privileged credentials, or designing credential rotation policies.","category":"Cloud & DevOps","tags":["implementing","privileged","access","management","cyberark","deploy","discover","vault","rotate","monitor","credentials","across","enterprise","infrastructure","covering","architecture","session","isolation"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-privileged-access-management-with-cyberark/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-privileged-access-management-with-cyberark","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-access-management-with-cyberark","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":56990,"sha256":"15f0f68f846b69a0286fd7e252f55f12a7d1551a93a92592dff3a8657e3e49c1","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-privileged-access-management-with-cyberark/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-access-management-with-cyberark/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-privileged-access-management-with-cyberark/SKILL.md","bytes":7367,"sha256":"15f0f68f846b69a0286fd7e252f55f12a7d1551a93a92592dff3a8657e3e49c1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-access-management-with-cyberark/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-privileged-access-management-with-cyberark/assets/template.md","bytes":2510,"sha256":"f5d8b9f8327e7f406e70eb664041295757ab3dbf2c28edd3dc75a809dba31c2d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-access-management-with-cyberark/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-privileged-access-management-with-cyberark/references/api-reference.md","bytes":4591,"sha256":"4009fe140fd1b6bce72ae8142346fcdcd46e776738d69e0921f9f0b632351965","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-access-management-with-cyberark/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-privileged-access-management-with-cyberark/references/standards.md","bytes":1542,"sha256":"189636f4259086d1755caf516e2fa8c21cd3c2aa9a9d9f9a35df540784fc0555","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-access-management-with-cyberark/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-privileged-access-management-with-cyberark/references/workflows.md","bytes":3063,"sha256":"0838e09b9c00d570b082f580d41d51dfe5e74877c8fa6fe93a0ef14253594dde","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-access-management-with-cyberark/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-privileged-access-management-with-cyberark/scripts/agent.py","bytes":9803,"sha256":"b2033e66ec6033d936d26db62407ff4ea6755435132ef417f75e62d090972bbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-access-management-with-cyberark/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-privileged-access-management-with-cyberark/scripts/process.py","bytes":16859,"sha256":"0a921252a0146d82352bf38fb550ee48757d6d50ae6d8f65cdfd6acafc8e7d81","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-access-management-with-cyberark/scripts/process.py"}],"archiveSha256":"45b2ba809789ea5f99596d4fdd087dc9df749423323db45eeeab82daa24fd5da"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-privileged-access-management-with-cyberark",
+    "name": "implementing-privileged-access-management-with-cyberark",
+    "description": "Deploy CyberArk Privileged Access Management to discover, vault, rotate, and monitor privileged credentials across enterprise infrastructure, covering vault architecture, session isolation, credential rotation policies, and integration with NIST 800-53 access control requirements. Use when standing up CyberArk PAM, vaulting privileged credentials, or designing credential rotation policies.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "implementing",
+      "privileged",
+      "access",
+      "management",
+      "cyberark",
+      "deploy",
+      "discover",
+      "vault",
+      "rotate",
+      "monitor",
+      "credentials",
+      "across",
+      "enterprise",
+      "infrastructure",
+      "covering",
+      "architecture",
+      "session",
+      "isolation"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-privileged-access-management-with-cyberark/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-privileged-access-management-with-cyberark",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-access-management-with-cyberark",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 56990,
+    "sha256": "15f0f68f846b69a0286fd7e252f55f12a7d1551a93a92592dff3a8657e3e49c1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-privileged-access-management-with-cyberark/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-access-management-with-cyberark/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-privileged-access-management-with-cyberark/SKILL.md",
+      "bytes": 7367,
+      "sha256": "15f0f68f846b69a0286fd7e252f55f12a7d1551a93a92592dff3a8657e3e49c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-access-management-with-cyberark/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-privileged-access-management-with-cyberark/assets/template.md",
+      "bytes": 2510,
+      "sha256": "f5d8b9f8327e7f406e70eb664041295757ab3dbf2c28edd3dc75a809dba31c2d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-access-management-with-cyberark/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-privileged-access-management-with-cyberark/references/api-reference.md",
+      "bytes": 4591,
+      "sha256": "4009fe140fd1b6bce72ae8142346fcdcd46e776738d69e0921f9f0b632351965",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-access-management-with-cyberark/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-privileged-access-management-with-cyberark/references/standards.md",
+      "bytes": 1542,
+      "sha256": "189636f4259086d1755caf516e2fa8c21cd3c2aa9a9d9f9a35df540784fc0555",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-access-management-with-cyberark/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-privileged-access-management-with-cyberark/references/workflows.md",
+      "bytes": 3063,
+      "sha256": "0838e09b9c00d570b082f580d41d51dfe5e74877c8fa6fe93a0ef14253594dde",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-access-management-with-cyberark/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-privileged-access-management-with-cyberark/scripts/agent.py",
+      "bytes": 9803,
+      "sha256": "b2033e66ec6033d936d26db62407ff4ea6755435132ef417f75e62d090972bbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-access-management-with-cyberark/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-privileged-access-management-with-cyberark/scripts/process.py",
+      "bytes": 16859,
+      "sha256": "0a921252a0146d82352bf38fb550ee48757d6d50ae6d8f65cdfd6acafc8e7d81",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-privileged-access-management-with-cyberark/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "45b2ba809789ea5f99596d4fdd087dc9df749423323db45eeeab82daa24fd5da"
+}

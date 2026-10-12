@@ -1,1 +1,57 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--brand-perception-psychologist","name":"brand-perception-psychologist","description":"One sentence - what this skill does and when to invoke it","category":"Development","tags":["brand","perception","psychologist","one","sentence","what","skill","does","when","invoke","it"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/brand-perception-psychologist","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brand-perception-psychologist","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6576,"sha256":"fd7210722eba98e91945a6ccd72200b32968817722f6b628f2bc105f7816feac","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/brand-perception-psychologist/SKILL.md","bytes":5503,"sha256":"fd7210722eba98e91945a6ccd72200b32968817722f6b628f2bc105f7816feac","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brand-perception-psychologist/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"422c594dd56e798706d4010031f41ed02f29201e6c9abc5d562b438d8dfa58e0"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--brand-perception-psychologist",
+    "name": "brand-perception-psychologist",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "category": "Development",
+    "tags": [
+      "brand",
+      "perception",
+      "psychologist",
+      "one",
+      "sentence",
+      "what",
+      "skill",
+      "does",
+      "when",
+      "invoke",
+      "it"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/brand-perception-psychologist",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brand-perception-psychologist",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6576,
+    "sha256": "fd7210722eba98e91945a6ccd72200b32968817722f6b628f2bc105f7816feac",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/brand-perception-psychologist/SKILL.md",
+      "bytes": 5503,
+      "sha256": "fd7210722eba98e91945a6ccd72200b32968817722f6b628f2bc105f7816feac",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brand-perception-psychologist/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "422c594dd56e798706d4010031f41ed02f29201e6c9abc5d562b438d8dfa58e0"
+}

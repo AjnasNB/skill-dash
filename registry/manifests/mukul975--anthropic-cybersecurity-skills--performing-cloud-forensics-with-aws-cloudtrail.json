@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-cloud-forensics-with-aws-cloudtrail","name":"performing-cloud-forensics-with-aws-cloudtrail","description":"Investigate AWS account compromise by querying CloudTrail with boto3's LookupEvents or AWS Athena SQL over S3-delivered logs, filtering on suspicious user agents, source IPs, and event names to reconstruct an attacker timeline. Use when tracing unauthorized API calls, S3 data exfiltration, IAM privilege escalation, or credential exposure, and building a forensic report of findings and remediation steps.","category":"Security","tags":["performing","cloud","forensics","aws","cloudtrail","investigate","account","compromise","by","querying","boto3","lookupevents","athena","sql","over","s3","delivered","logs"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-cloud-forensics-with-aws-cloudtrail/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-cloud-forensics-with-aws-cloudtrail","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-forensics-with-aws-cloudtrail","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":26717,"sha256":"032fa76a4eaf214e62e216fce552d28c93f34f14d054c5a61d3187dde7255ea2","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-cloud-forensics-with-aws-cloudtrail/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-forensics-with-aws-cloudtrail/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-cloud-forensics-with-aws-cloudtrail/SKILL.md","bytes":3378,"sha256":"032fa76a4eaf214e62e216fce552d28c93f34f14d054c5a61d3187dde7255ea2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-forensics-with-aws-cloudtrail/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-cloud-forensics-with-aws-cloudtrail/references/api-reference.md","bytes":3244,"sha256":"d6750d3e92032fe17528f1cfef93d35b2c0105d3493d25a308bc2447ea78870c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-forensics-with-aws-cloudtrail/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-cloud-forensics-with-aws-cloudtrail/scripts/agent.py","bytes":8840,"sha256":"1ae624864b17fb861d41e04b07f342ed5909204de2c13839a88b7fbfbf09bc7e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-forensics-with-aws-cloudtrail/scripts/agent.py"}],"archiveSha256":"22b2d1ffebbbefa1c44a65b09d295c8426a30ccf63a5ab526d16dc046065b536"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-cloud-forensics-with-aws-cloudtrail",
+    "name": "performing-cloud-forensics-with-aws-cloudtrail",
+    "description": "Investigate AWS account compromise by querying CloudTrail with boto3's LookupEvents or AWS Athena SQL over S3-delivered logs, filtering on suspicious user agents, source IPs, and event names to reconstruct an attacker timeline. Use when tracing unauthorized API calls, S3 data exfiltration, IAM privilege escalation, or credential exposure, and building a forensic report of findings and remediation steps.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "cloud",
+      "forensics",
+      "aws",
+      "cloudtrail",
+      "investigate",
+      "account",
+      "compromise",
+      "by",
+      "querying",
+      "boto3",
+      "lookupevents",
+      "athena",
+      "sql",
+      "over",
+      "s3",
+      "delivered",
+      "logs"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-cloud-forensics-with-aws-cloudtrail/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-cloud-forensics-with-aws-cloudtrail",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-forensics-with-aws-cloudtrail",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 26717,
+    "sha256": "032fa76a4eaf214e62e216fce552d28c93f34f14d054c5a61d3187dde7255ea2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-cloud-forensics-with-aws-cloudtrail/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-forensics-with-aws-cloudtrail/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-cloud-forensics-with-aws-cloudtrail/SKILL.md",
+      "bytes": 3378,
+      "sha256": "032fa76a4eaf214e62e216fce552d28c93f34f14d054c5a61d3187dde7255ea2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-forensics-with-aws-cloudtrail/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-cloud-forensics-with-aws-cloudtrail/references/api-reference.md",
+      "bytes": 3244,
+      "sha256": "d6750d3e92032fe17528f1cfef93d35b2c0105d3493d25a308bc2447ea78870c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-forensics-with-aws-cloudtrail/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-cloud-forensics-with-aws-cloudtrail/scripts/agent.py",
+      "bytes": 8840,
+      "sha256": "1ae624864b17fb861d41e04b07f342ed5909204de2c13839a88b7fbfbf09bc7e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-forensics-with-aws-cloudtrail/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "22b2d1ffebbbefa1c44a65b09d295c8426a30ccf63a5ab526d16dc046065b536"
+}

@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-soar-playbook-with-palo-alto-xsoar","name":"implementing-soar-playbook-with-palo-alto-xsoar","description":"Build automated incident response playbooks in Cortex XSOAR (Demisto) using its YAML playbook structure, integration commands, and task types to orchestrate phishing, malware, account-compromise, and DDoS response workflows across SOC tools. Use when authoring or wiring up an XSOAR playbook, adding custom XSOAR integration commands or Python automation scripts, or reducing manual SOC response time via orchestration.","category":"Security","tags":["implementing","soar","playbook","palo","alto","xsoar","automated","incident","response","playbooks","cortex","demisto","its","yaml","structure","integration","commands","task"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-soar-playbook-with-palo-alto-xsoar/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-soar-playbook-with-palo-alto-xsoar","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-with-palo-alto-xsoar","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":47900,"sha256":"450ca9e78a78dc61246806707401bb8a6b047a78d31d274aef996d522e2392f1","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-soar-playbook-with-palo-alto-xsoar/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-with-palo-alto-xsoar/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-soar-playbook-with-palo-alto-xsoar/SKILL.md","bytes":9624,"sha256":"450ca9e78a78dc61246806707401bb8a6b047a78d31d274aef996d522e2392f1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-with-palo-alto-xsoar/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-soar-playbook-with-palo-alto-xsoar/assets/template.md","bytes":1408,"sha256":"df707e07ad769274efb21b4415fdfd21099434769bd103cec2d10bd654c35c9d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-with-palo-alto-xsoar/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-soar-playbook-with-palo-alto-xsoar/references/api-reference.md","bytes":4203,"sha256":"f7f3eda183d685e539dc0468065346ce6e52f20ce4a343032d72b8440a5d0cc9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-with-palo-alto-xsoar/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-soar-playbook-with-palo-alto-xsoar/references/standards.md","bytes":1761,"sha256":"bc159ebc944f11d6d1122b43baadeeff1a69a886e7d7b8e3111c986f81185fe6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-with-palo-alto-xsoar/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-soar-playbook-with-palo-alto-xsoar/references/workflows.md","bytes":2043,"sha256":"6cbcd848291e679ffd7256fdd1d78fffdee4583b78424d456b82e5fb10a7bfd2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-with-palo-alto-xsoar/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-soar-playbook-with-palo-alto-xsoar/scripts/agent.py","bytes":7525,"sha256":"799cf8eaf7743ee097bb1c0080eb4ac4d979dbe0c977ad8aeffb643f66bd0417","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-with-palo-alto-xsoar/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-soar-playbook-with-palo-alto-xsoar/scripts/process.py","bytes":10081,"sha256":"1ed71ad5053a777365dd477e138a6db5a1a3660ae3d5feef7f9739faba538722","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-with-palo-alto-xsoar/scripts/process.py"}],"archiveSha256":"336920268ee4aa2bfedf9ac7cba330e282c99393843b96dbc880b2b9dd637955"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-soar-playbook-with-palo-alto-xsoar",
+    "name": "implementing-soar-playbook-with-palo-alto-xsoar",
+    "description": "Build automated incident response playbooks in Cortex XSOAR (Demisto) using its YAML playbook structure, integration commands, and task types to orchestrate phishing, malware, account-compromise, and DDoS response workflows across SOC tools. Use when authoring or wiring up an XSOAR playbook, adding custom XSOAR integration commands or Python automation scripts, or reducing manual SOC response time via orchestration.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "soar",
+      "playbook",
+      "palo",
+      "alto",
+      "xsoar",
+      "automated",
+      "incident",
+      "response",
+      "playbooks",
+      "cortex",
+      "demisto",
+      "its",
+      "yaml",
+      "structure",
+      "integration",
+      "commands",
+      "task"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-soar-playbook-with-palo-alto-xsoar/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-soar-playbook-with-palo-alto-xsoar",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-with-palo-alto-xsoar",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 47900,
+    "sha256": "450ca9e78a78dc61246806707401bb8a6b047a78d31d274aef996d522e2392f1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-soar-playbook-with-palo-alto-xsoar/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-with-palo-alto-xsoar/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-soar-playbook-with-palo-alto-xsoar/SKILL.md",
+      "bytes": 9624,
+      "sha256": "450ca9e78a78dc61246806707401bb8a6b047a78d31d274aef996d522e2392f1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-with-palo-alto-xsoar/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-soar-playbook-with-palo-alto-xsoar/assets/template.md",
+      "bytes": 1408,
+      "sha256": "df707e07ad769274efb21b4415fdfd21099434769bd103cec2d10bd654c35c9d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-with-palo-alto-xsoar/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-soar-playbook-with-palo-alto-xsoar/references/api-reference.md",
+      "bytes": 4203,
+      "sha256": "f7f3eda183d685e539dc0468065346ce6e52f20ce4a343032d72b8440a5d0cc9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-with-palo-alto-xsoar/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-soar-playbook-with-palo-alto-xsoar/references/standards.md",
+      "bytes": 1761,
+      "sha256": "bc159ebc944f11d6d1122b43baadeeff1a69a886e7d7b8e3111c986f81185fe6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-with-palo-alto-xsoar/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-soar-playbook-with-palo-alto-xsoar/references/workflows.md",
+      "bytes": 2043,
+      "sha256": "6cbcd848291e679ffd7256fdd1d78fffdee4583b78424d456b82e5fb10a7bfd2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-with-palo-alto-xsoar/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-soar-playbook-with-palo-alto-xsoar/scripts/agent.py",
+      "bytes": 7525,
+      "sha256": "799cf8eaf7743ee097bb1c0080eb4ac4d979dbe0c977ad8aeffb643f66bd0417",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-with-palo-alto-xsoar/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-soar-playbook-with-palo-alto-xsoar/scripts/process.py",
+      "bytes": 10081,
+      "sha256": "1ed71ad5053a777365dd477e138a6db5a1a3660ae3d5feef7f9739faba538722",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-soar-playbook-with-palo-alto-xsoar/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "336920268ee4aa2bfedf9ac7cba330e282c99393843b96dbc880b2b9dd637955"
+}

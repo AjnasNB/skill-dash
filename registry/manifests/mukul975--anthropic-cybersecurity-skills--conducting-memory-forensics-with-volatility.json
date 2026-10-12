@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--conducting-memory-forensics-with-volatility","name":"conducting-memory-forensics-with-volatility","description":"Performs memory forensics analysis using Volatility 3 to extract evidence of malware execution, process injection, network connections, and credential theft from RAM dumps captured during incident response. Covers memory acquisition, process analysis, DLL inspection, and malware detection. Activates for requests involving memory forensics, RAM analysis, Volatility framework, memory dump investigation, volatile evidence analysis, or live memory acquisition.","category":"Security","tags":["conducting","memory","forensics","volatility","performs","analysis","extract","evidence","malware","execution","process","injection","network","connections","credential","theft","from","ram"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/conducting-memory-forensics-with-volatility/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/conducting-memory-forensics-with-volatility","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-memory-forensics-with-volatility","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":31037,"sha256":"1959b65c644eda06e71863005ee2ab220eb303bcb6d2e2d97d2c781334efe806","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/conducting-memory-forensics-with-volatility/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-memory-forensics-with-volatility/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/conducting-memory-forensics-with-volatility/SKILL.md","bytes":10633,"sha256":"1959b65c644eda06e71863005ee2ab220eb303bcb6d2e2d97d2c781334efe806","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-memory-forensics-with-volatility/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/conducting-memory-forensics-with-volatility/references/api-reference.md","bytes":2361,"sha256":"280984704b04d3f21e2ec6ac27c0e56f0fa15795aac90878654295eb7db1986e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-memory-forensics-with-volatility/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/conducting-memory-forensics-with-volatility/scripts/agent.py","bytes":6788,"sha256":"052891e43558e46fe63fbf69c437089c610a059959a654a1afa4af35d6c91767","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-memory-forensics-with-volatility/scripts/agent.py"}],"archiveSha256":"f04201883a0b0f6465d4b7159c4f5c0a84f24ee705e5b22c475a8f931f1afb64"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--conducting-memory-forensics-with-volatility",
+    "name": "conducting-memory-forensics-with-volatility",
+    "description": "Performs memory forensics analysis using Volatility 3 to extract evidence of malware execution, process injection, network connections, and credential theft from RAM dumps captured during incident response. Covers memory acquisition, process analysis, DLL inspection, and malware detection. Activates for requests involving memory forensics, RAM analysis, Volatility framework, memory dump investigation, volatile evidence analysis, or live memory acquisition.",
+    "category": "Security",
+    "tags": [
+      "conducting",
+      "memory",
+      "forensics",
+      "volatility",
+      "performs",
+      "analysis",
+      "extract",
+      "evidence",
+      "malware",
+      "execution",
+      "process",
+      "injection",
+      "network",
+      "connections",
+      "credential",
+      "theft",
+      "from",
+      "ram"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/conducting-memory-forensics-with-volatility/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/conducting-memory-forensics-with-volatility",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-memory-forensics-with-volatility",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 31037,
+    "sha256": "1959b65c644eda06e71863005ee2ab220eb303bcb6d2e2d97d2c781334efe806",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/conducting-memory-forensics-with-volatility/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-memory-forensics-with-volatility/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/conducting-memory-forensics-with-volatility/SKILL.md",
+      "bytes": 10633,
+      "sha256": "1959b65c644eda06e71863005ee2ab220eb303bcb6d2e2d97d2c781334efe806",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-memory-forensics-with-volatility/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/conducting-memory-forensics-with-volatility/references/api-reference.md",
+      "bytes": 2361,
+      "sha256": "280984704b04d3f21e2ec6ac27c0e56f0fa15795aac90878654295eb7db1986e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-memory-forensics-with-volatility/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/conducting-memory-forensics-with-volatility/scripts/agent.py",
+      "bytes": 6788,
+      "sha256": "052891e43558e46fe63fbf69c437089c610a059959a654a1afa4af35d6c91767",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-memory-forensics-with-volatility/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "f04201883a0b0f6465d4b7159c4f5c0a84f24ee705e5b22c475a8f931f1afb64"
+}

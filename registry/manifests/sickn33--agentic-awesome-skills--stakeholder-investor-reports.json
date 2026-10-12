@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--stakeholder-investor-reports","name":"stakeholder-investor-reports","description":"Stakeholder report register: stakeholder, period, key metrics, preparer, approver, send date and report link. Use for investor and board reporting.","category":"Product & business","tags":["stakeholder","investor","reports","report","register","period","key","metrics","preparer","approver","send","date","link.","board","reporting."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/stakeholder-investor-reports","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/stakeholder-investor-reports","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":13879,"sha256":"f5f3c5f3fc49ce6c0cbd6c74788769f086ca01197632002ed435b2683089b4b8","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/stakeholder-investor-reports/SKILL.md","bytes":12806,"sha256":"f5f3c5f3fc49ce6c0cbd6c74788769f086ca01197632002ed435b2683089b4b8","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/stakeholder-investor-reports/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"8e814fc1d4919872a200c0df5463b5ca04bf74d9bcfd691d8cf9235c76b9fbe4"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--stakeholder-investor-reports",
+    "name": "stakeholder-investor-reports",
+    "description": "Stakeholder report register: stakeholder, period, key metrics, preparer, approver, send date and report link. Use for investor and board reporting.",
+    "category": "Product & business",
+    "tags": [
+      "stakeholder",
+      "investor",
+      "reports",
+      "report",
+      "register",
+      "period",
+      "key",
+      "metrics",
+      "preparer",
+      "approver",
+      "send",
+      "date",
+      "link.",
+      "board",
+      "reporting."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/stakeholder-investor-reports",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/stakeholder-investor-reports",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13879,
+    "sha256": "f5f3c5f3fc49ce6c0cbd6c74788769f086ca01197632002ed435b2683089b4b8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/stakeholder-investor-reports/SKILL.md",
+      "bytes": 12806,
+      "sha256": "f5f3c5f3fc49ce6c0cbd6c74788769f086ca01197632002ed435b2683089b4b8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/stakeholder-investor-reports/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "8e814fc1d4919872a200c0df5463b5ca04bf74d9bcfd691d8cf9235c76b9fbe4"
+}

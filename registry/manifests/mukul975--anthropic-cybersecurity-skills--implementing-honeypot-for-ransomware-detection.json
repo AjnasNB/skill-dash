@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-honeypot-for-ransomware-detection","name":"implementing-honeypot-for-ransomware-detection","description":"Deploys canary files, honeypot shares, and decoy systems to detect ransomware activity at the earliest possible stage. Configures canary tokens embedded in strategic file locations that trigger alerts when ransomware attempts encryption, uses honeypot network shares that mimic high-value targets, and deploys Thinkst Canary appliances for comprehensive deception-based detection. Activates for requests involving ransomware honeypots, canary files, deception technology for ransomware, or early ransomware alerting.","category":"Cloud & DevOps","tags":["implementing","honeypot","ransomware","detection","deploys","canary","files","shares","decoy","systems","detect","activity","at","earliest","possible","stage.","configures","tokens"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-honeypot-for-ransomware-detection/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-honeypot-for-ransomware-detection","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-honeypot-for-ransomware-detection","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":52586,"sha256":"973c6548106286c0f7a0ee3cf8aebc8b4dbc31417fe096fa6770803bac647e84","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-honeypot-for-ransomware-detection/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-honeypot-for-ransomware-detection/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-honeypot-for-ransomware-detection/SKILL.md","bytes":15634,"sha256":"973c6548106286c0f7a0ee3cf8aebc8b4dbc31417fe096fa6770803bac647e84","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-honeypot-for-ransomware-detection/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-honeypot-for-ransomware-detection/assets/template.md","bytes":1011,"sha256":"6a4c14231a1701716a2633ba31e1140d0b0dc4793392f9a66c569384f73a5394","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-honeypot-for-ransomware-detection/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-honeypot-for-ransomware-detection/references/api-reference.md","bytes":1731,"sha256":"ecec8e37869b58d63b1d338f78e284d458ee740fd15c8008837cbc17d52a7ce0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-honeypot-for-ransomware-detection/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-honeypot-for-ransomware-detection/references/standards.md","bytes":1007,"sha256":"5d8e551bf67787b3a2e333f0c5e85c8daedb7d32df023cd2953f960a1b91500e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-honeypot-for-ransomware-detection/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-honeypot-for-ransomware-detection/references/workflows.md","bytes":1476,"sha256":"5c201da96205da4802060861dda56ccbd5adc892b9c607eccdaf1d4005ebe950","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-honeypot-for-ransomware-detection/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-honeypot-for-ransomware-detection/scripts/agent.py","bytes":8854,"sha256":"c6a3e5e90307c8e5f53450c02acd777a2c35455dbfd32f53d37774582fd7a823","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-honeypot-for-ransomware-detection/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-honeypot-for-ransomware-detection/scripts/process.py","bytes":11618,"sha256":"434e18183034c7ad4fd39957f227659ffac6e622f61e2facd8fa779f39bcaddf","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-honeypot-for-ransomware-detection/scripts/process.py"}],"archiveSha256":"32580b86bc7cd81089d470d2eff5adba3a03a1774b4c70898d92f1eb15b381f8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-honeypot-for-ransomware-detection",
+    "name": "implementing-honeypot-for-ransomware-detection",
+    "description": "Deploys canary files, honeypot shares, and decoy systems to detect ransomware activity at the earliest possible stage. Configures canary tokens embedded in strategic file locations that trigger alerts when ransomware attempts encryption, uses honeypot network shares that mimic high-value targets, and deploys Thinkst Canary appliances for comprehensive deception-based detection. Activates for requests involving ransomware honeypots, canary files, deception technology for ransomware, or early ransomware alerting.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "implementing",
+      "honeypot",
+      "ransomware",
+      "detection",
+      "deploys",
+      "canary",
+      "files",
+      "shares",
+      "decoy",
+      "systems",
+      "detect",
+      "activity",
+      "at",
+      "earliest",
+      "possible",
+      "stage.",
+      "configures",
+      "tokens"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-honeypot-for-ransomware-detection/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-honeypot-for-ransomware-detection",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-honeypot-for-ransomware-detection",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 52586,
+    "sha256": "973c6548106286c0f7a0ee3cf8aebc8b4dbc31417fe096fa6770803bac647e84",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-honeypot-for-ransomware-detection/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-honeypot-for-ransomware-detection/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-honeypot-for-ransomware-detection/SKILL.md",
+      "bytes": 15634,
+      "sha256": "973c6548106286c0f7a0ee3cf8aebc8b4dbc31417fe096fa6770803bac647e84",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-honeypot-for-ransomware-detection/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-honeypot-for-ransomware-detection/assets/template.md",
+      "bytes": 1011,
+      "sha256": "6a4c14231a1701716a2633ba31e1140d0b0dc4793392f9a66c569384f73a5394",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-honeypot-for-ransomware-detection/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-honeypot-for-ransomware-detection/references/api-reference.md",
+      "bytes": 1731,
+      "sha256": "ecec8e37869b58d63b1d338f78e284d458ee740fd15c8008837cbc17d52a7ce0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-honeypot-for-ransomware-detection/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-honeypot-for-ransomware-detection/references/standards.md",
+      "bytes": 1007,
+      "sha256": "5d8e551bf67787b3a2e333f0c5e85c8daedb7d32df023cd2953f960a1b91500e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-honeypot-for-ransomware-detection/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-honeypot-for-ransomware-detection/references/workflows.md",
+      "bytes": 1476,
+      "sha256": "5c201da96205da4802060861dda56ccbd5adc892b9c607eccdaf1d4005ebe950",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-honeypot-for-ransomware-detection/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-honeypot-for-ransomware-detection/scripts/agent.py",
+      "bytes": 8854,
+      "sha256": "c6a3e5e90307c8e5f53450c02acd777a2c35455dbfd32f53d37774582fd7a823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-honeypot-for-ransomware-detection/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-honeypot-for-ransomware-detection/scripts/process.py",
+      "bytes": 11618,
+      "sha256": "434e18183034c7ad4fd39957f227659ffac6e622f61e2facd8fa779f39bcaddf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-honeypot-for-ransomware-detection/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "32580b86bc7cd81089d470d2eff5adba3a03a1774b4c70898d92f1eb15b381f8"
+}

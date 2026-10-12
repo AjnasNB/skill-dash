@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--testing-patterns","name":"testing-patterns","description":"Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle.","category":"Writing","tags":["testing","patterns","jest","factory","functions","mocking","strategies","tdd","workflow.","when","writing","unit","tests","creating","test","factories","following","red"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/testing-patterns","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/testing-patterns","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7406,"sha256":"4fb8a974ca6352cb1d0419534d3b0f37939868730e413036c55a2fed5a6b4dfa","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/testing-patterns/SKILL.md","bytes":6333,"sha256":"4fb8a974ca6352cb1d0419534d3b0f37939868730e413036c55a2fed5a6b4dfa","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/testing-patterns/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"b797143ef915d019625773bfdef2098069edc77da3f21fc80ad3f1adb9fb172c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--testing-patterns",
+    "name": "testing-patterns",
+    "description": "Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle.",
+    "category": "Writing",
+    "tags": [
+      "testing",
+      "patterns",
+      "jest",
+      "factory",
+      "functions",
+      "mocking",
+      "strategies",
+      "tdd",
+      "workflow.",
+      "when",
+      "writing",
+      "unit",
+      "tests",
+      "creating",
+      "test",
+      "factories",
+      "following",
+      "red"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/testing-patterns",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/testing-patterns",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7406,
+    "sha256": "4fb8a974ca6352cb1d0419534d3b0f37939868730e413036c55a2fed5a6b4dfa",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/testing-patterns/SKILL.md",
+      "bytes": 6333,
+      "sha256": "4fb8a974ca6352cb1d0419534d3b0f37939868730e413036c55a2fed5a6b4dfa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/testing-patterns/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "b797143ef915d019625773bfdef2098069edc77da3f21fc80ad3f1adb9fb172c"
+}

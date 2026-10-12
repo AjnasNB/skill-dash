@@ -1,1 +1,67 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--markstream-install","name":"markstream-install","description":"Install and configure Markstream streaming Markdown renderers for Vue, React, Svelte, Angular, Nuxt, Next.js, and Vue 2 applications.","category":"Development","tags":["markstream","install","configure","streaming","markdown","renderers","vue","react","svelte","angular","nuxt","next.js","applications."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/markstream-install","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/markstream-install","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":11584,"sha256":"4cab4b427bac39f2572fa5ac0f03655c8f912a2071208e06b541010ddc2c5890","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/markstream-install/SKILL.md","bytes":7905,"sha256":"4cab4b427bac39f2572fa5ac0f03655c8f912a2071208e06b541010ddc2c5890","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/markstream-install/SKILL.md"},{"path":"references/scenarios.md","sourcePath":"skills/markstream-install/references/scenarios.md","bytes":2606,"sha256":"829bf10239f94816c6284a2fc9e4bed666f34065dc3eee8668a8a007e223955f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/markstream-install/references/scenarios.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"0993b55fca8c3de54b5ec375ce764aaa32a0aeb7cb0d6bf96aa7f5be96246083"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--markstream-install",
+    "name": "markstream-install",
+    "description": "Install and configure Markstream streaming Markdown renderers for Vue, React, Svelte, Angular, Nuxt, Next.js, and Vue 2 applications.",
+    "category": "Development",
+    "tags": [
+      "markstream",
+      "install",
+      "configure",
+      "streaming",
+      "markdown",
+      "renderers",
+      "vue",
+      "react",
+      "svelte",
+      "angular",
+      "nuxt",
+      "next.js",
+      "applications."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/markstream-install",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/markstream-install",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 11584,
+    "sha256": "4cab4b427bac39f2572fa5ac0f03655c8f912a2071208e06b541010ddc2c5890",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/markstream-install/SKILL.md",
+      "bytes": 7905,
+      "sha256": "4cab4b427bac39f2572fa5ac0f03655c8f912a2071208e06b541010ddc2c5890",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/markstream-install/SKILL.md"
+    },
+    {
+      "path": "references/scenarios.md",
+      "sourcePath": "skills/markstream-install/references/scenarios.md",
+      "bytes": 2606,
+      "sha256": "829bf10239f94816c6284a2fc9e4bed666f34065dc3eee8668a8a007e223955f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/markstream-install/references/scenarios.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "0993b55fca8c3de54b5ec375ce764aaa32a0aeb7cb0d6bf96aa7f5be96246083"
+}

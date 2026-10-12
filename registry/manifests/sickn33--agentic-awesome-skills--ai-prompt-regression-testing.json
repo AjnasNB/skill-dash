@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--ai-prompt-regression-testing","name":"ai-prompt-regression-testing","description":"Prompt engineering regression test matrix register: baseline outputs, semantic drift thresholds, judge evaluations, and golden dataset.","category":"Data & research","tags":["ai","prompt","regression","testing","engineering","test","matrix","register","baseline","outputs","semantic","drift","thresholds","judge","evaluations","golden","dataset."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/ai-prompt-regression-testing","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ai-prompt-regression-testing","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6433,"sha256":"bd48f8169228347c6e6c3c19ed4e3046fd96bcb3e1e3973d7d0ded9302c85415","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/ai-prompt-regression-testing/SKILL.md","bytes":5360,"sha256":"bd48f8169228347c6e6c3c19ed4e3046fd96bcb3e1e3973d7d0ded9302c85415","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ai-prompt-regression-testing/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"21b26be7b0c34adb542fd24e497b16c00afa972e4137ae3d3bd315bd8ccfcde7"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--ai-prompt-regression-testing",
+    "name": "ai-prompt-regression-testing",
+    "description": "Prompt engineering regression test matrix register: baseline outputs, semantic drift thresholds, judge evaluations, and golden dataset.",
+    "category": "Data & research",
+    "tags": [
+      "ai",
+      "prompt",
+      "regression",
+      "testing",
+      "engineering",
+      "test",
+      "matrix",
+      "register",
+      "baseline",
+      "outputs",
+      "semantic",
+      "drift",
+      "thresholds",
+      "judge",
+      "evaluations",
+      "golden",
+      "dataset."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/ai-prompt-regression-testing",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ai-prompt-regression-testing",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6433,
+    "sha256": "bd48f8169228347c6e6c3c19ed4e3046fd96bcb3e1e3973d7d0ded9302c85415",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/ai-prompt-regression-testing/SKILL.md",
+      "bytes": 5360,
+      "sha256": "bd48f8169228347c6e6c3c19ed4e3046fd96bcb3e1e3973d7d0ded9302c85415",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ai-prompt-regression-testing/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "21b26be7b0c34adb542fd24e497b16c00afa972e4137ae3d3bd315bd8ccfcde7"
+}

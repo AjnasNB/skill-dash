@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--wjttc-builder","name":"wjttc-builder","description":"PLAN and GENERATE WJTTC (Championship-Grade) test suites for any project. Analyzes the codebase, classifies components across the WJTTC five tiers (Brake · Engine · Aero · Tyre · Pit), writes a tiered test plan, and scaffolds executable test files.","category":"Development","tags":["wjttc","builder","plan","generate","championship","grade","test","suites","any","project.","analyzes","codebase","classifies","components","across","five","tiers","brake"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/wjttc-builder","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wjttc-builder","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":14770,"sha256":"37f0e915bc927fda349bdf914a53dc3f2e233a075ea07d664a80955c2271ebe6","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/wjttc-builder/SKILL.md","bytes":13697,"sha256":"37f0e915bc927fda349bdf914a53dc3f2e233a075ea07d664a80955c2271ebe6","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wjttc-builder/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"df64164a89060bec3062dab25fe060567649e46a73152a083b86f2a212d0f8fc"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--wjttc-builder",
+    "name": "wjttc-builder",
+    "description": "PLAN and GENERATE WJTTC (Championship-Grade) test suites for any project. Analyzes the codebase, classifies components across the WJTTC five tiers (Brake · Engine · Aero · Tyre · Pit), writes a tiered test plan, and scaffolds executable test files.",
+    "category": "Development",
+    "tags": [
+      "wjttc",
+      "builder",
+      "plan",
+      "generate",
+      "championship",
+      "grade",
+      "test",
+      "suites",
+      "any",
+      "project.",
+      "analyzes",
+      "codebase",
+      "classifies",
+      "components",
+      "across",
+      "five",
+      "tiers",
+      "brake"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/wjttc-builder",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wjttc-builder",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 14770,
+    "sha256": "37f0e915bc927fda349bdf914a53dc3f2e233a075ea07d664a80955c2271ebe6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/wjttc-builder/SKILL.md",
+      "bytes": 13697,
+      "sha256": "37f0e915bc927fda349bdf914a53dc3f2e233a075ea07d664a80955c2271ebe6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wjttc-builder/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "df64164a89060bec3062dab25fe060567649e46a73152a083b86f2a212d0f8fc"
+}

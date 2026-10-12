@@ -1,1 +1,83 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--ab-testing","name":"ab-testing","description":"When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program.","category":"Design","tags":["ab","testing","when","user","wants","plan","design","implement","test","experiment","growth","experimentation","program."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/ab-testing","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ab-testing","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":5,"bytes":34385,"sha256":"926c50e112bc455133c9e92280867fad2f3aea911d234a9ba65a6c0ca48c8157","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/ab-testing/SKILL.md","bytes":11464,"sha256":"926c50e112bc455133c9e92280867fad2f3aea911d234a9ba65a6c0ca48c8157","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ab-testing/SKILL.md"},{"path":"evals/evals.json","sourcePath":"skills/ab-testing/evals/evals.json","bytes":7922,"sha256":"215cb581a3ef018365a4c9a9145ee5ae8bfc93e48ebeab9417224ccf3e89c6b8","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ab-testing/evals/evals.json"},{"path":"references/sample-size-guide.md","sourcePath":"skills/ab-testing/references/sample-size-guide.md","bytes":7453,"sha256":"96aef9d20c4607662beb924fa31260dee4c0db0c1dd6b607cdb3c4c701f9efd2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ab-testing/references/sample-size-guide.md"},{"path":"references/test-templates.md","sourcePath":"skills/ab-testing/references/test-templates.md","bytes":6473,"sha256":"761a40b9de8d16f18fa7f60b59e77aa749607ac8014af43e0b022f47fa87c812","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ab-testing/references/test-templates.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"b8f584a7ea8b99dbafa1b7e1e1efb8f44f1eaca1d8d4004e7866a33b66dddc04"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--ab-testing",
+    "name": "ab-testing",
+    "description": "When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program.",
+    "category": "Design",
+    "tags": [
+      "ab",
+      "testing",
+      "when",
+      "user",
+      "wants",
+      "plan",
+      "design",
+      "implement",
+      "test",
+      "experiment",
+      "growth",
+      "experimentation",
+      "program."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/ab-testing",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ab-testing",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 5,
+    "bytes": 34385,
+    "sha256": "926c50e112bc455133c9e92280867fad2f3aea911d234a9ba65a6c0ca48c8157",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/ab-testing/SKILL.md",
+      "bytes": 11464,
+      "sha256": "926c50e112bc455133c9e92280867fad2f3aea911d234a9ba65a6c0ca48c8157",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ab-testing/SKILL.md"
+    },
+    {
+      "path": "evals/evals.json",
+      "sourcePath": "skills/ab-testing/evals/evals.json",
+      "bytes": 7922,
+      "sha256": "215cb581a3ef018365a4c9a9145ee5ae8bfc93e48ebeab9417224ccf3e89c6b8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ab-testing/evals/evals.json"
+    },
+    {
+      "path": "references/sample-size-guide.md",
+      "sourcePath": "skills/ab-testing/references/sample-size-guide.md",
+      "bytes": 7453,
+      "sha256": "96aef9d20c4607662beb924fa31260dee4c0db0c1dd6b607cdb3c4c701f9efd2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ab-testing/references/sample-size-guide.md"
+    },
+    {
+      "path": "references/test-templates.md",
+      "sourcePath": "skills/ab-testing/references/test-templates.md",
+      "bytes": 6473,
+      "sha256": "761a40b9de8d16f18fa7f60b59e77aa749607ac8014af43e0b022f47fa87c812",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ab-testing/references/test-templates.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "b8f584a7ea8b99dbafa1b7e1e1efb8f44f1eaca1d8d4004e7866a33b66dddc04"
+}

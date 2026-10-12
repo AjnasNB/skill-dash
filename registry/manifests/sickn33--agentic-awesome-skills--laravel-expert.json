@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--laravel-expert","name":"laravel-expert","description":"Senior Laravel Engineer role for production-grade, maintainable, and idiomatic Laravel solutions. Focuses on clean architecture, security, performance, and modern standards (Laravel 10/11+).","category":"Security","tags":["laravel","expert","senior","engineer","role","production","grade","maintainable","idiomatic","solutions.","focuses","clean","architecture","security","performance","modern","standards","10"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/laravel-expert","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/laravel-expert","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5325,"sha256":"71abc83eebdd7cb9d704c00d3cd0d7aa6edb26d02f253f3c98395be6db1e6804","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/laravel-expert/SKILL.md","bytes":4252,"sha256":"71abc83eebdd7cb9d704c00d3cd0d7aa6edb26d02f253f3c98395be6db1e6804","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/laravel-expert/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"e29636ac0a8d5ca8826cba27f6ac2cbbe16c6731a7702d0da52d4f866c115d9e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--laravel-expert",
+    "name": "laravel-expert",
+    "description": "Senior Laravel Engineer role for production-grade, maintainable, and idiomatic Laravel solutions. Focuses on clean architecture, security, performance, and modern standards (Laravel 10/11+).",
+    "category": "Security",
+    "tags": [
+      "laravel",
+      "expert",
+      "senior",
+      "engineer",
+      "role",
+      "production",
+      "grade",
+      "maintainable",
+      "idiomatic",
+      "solutions.",
+      "focuses",
+      "clean",
+      "architecture",
+      "security",
+      "performance",
+      "modern",
+      "standards",
+      "10"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/laravel-expert",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/laravel-expert",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5325,
+    "sha256": "71abc83eebdd7cb9d704c00d3cd0d7aa6edb26d02f253f3c98395be6db1e6804",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/laravel-expert/SKILL.md",
+      "bytes": 4252,
+      "sha256": "71abc83eebdd7cb9d704c00d3cd0d7aa6edb26d02f253f3c98395be6db1e6804",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/laravel-expert/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "e29636ac0a8d5ca8826cba27f6ac2cbbe16c6731a7702d0da52d4f866c115d9e"
+}

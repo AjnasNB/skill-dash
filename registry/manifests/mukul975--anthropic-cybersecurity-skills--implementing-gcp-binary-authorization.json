@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-gcp-binary-authorization","name":"implementing-gcp-binary-authorization","description":"Implements GCP Binary Authorization end to end, including creating KMS-backed attestors, Container Analysis notes, deploy-time policies, and signing image attestations, so that only trusted, verified images deploy to GKE and Cloud Run. Use when enforcing container supply-chain integrity or deploy-time attestation checks on GCP.","category":"Cloud & DevOps","tags":["implementing","gcp","binary","authorization","implements","end","including","creating","kms","backed","attestors","container","analysis","notes","deploy","time","policies","signing"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-gcp-binary-authorization/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-gcp-binary-authorization","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-binary-authorization","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":36811,"sha256":"3cb8b52412b606e9297033f1ce7d74bcad080bfe301ad23ff4a6e70a372a8e62","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-gcp-binary-authorization/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-binary-authorization/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-gcp-binary-authorization/SKILL.md","bytes":7838,"sha256":"3cb8b52412b606e9297033f1ce7d74bcad080bfe301ad23ff4a6e70a372a8e62","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-binary-authorization/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-gcp-binary-authorization/assets/template.md","bytes":690,"sha256":"1ecf103045aa5ccc33c3f388008874e5727b3bb74d4445720333f9266cba8068","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-binary-authorization/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-gcp-binary-authorization/references/api-reference.md","bytes":1796,"sha256":"c9f43efbb6905db58bdcc76aa564760868d7e0d4c42d4069dd0a629c12977e87","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-binary-authorization/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-gcp-binary-authorization/references/standards.md","bytes":473,"sha256":"f4a383655275e42e43dcd7cac2d6590c4635b8a78545c90e89544592c415e60c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-binary-authorization/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-gcp-binary-authorization/references/workflows.md","bytes":653,"sha256":"52b4df60994a96ac3dc84abc01faab4544204166801a3f50d0531ae18dab14ef","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-binary-authorization/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-gcp-binary-authorization/scripts/agent.py","bytes":8013,"sha256":"15fde9def333ee6772a3193f44f61f4b8182561791f3f3eb21e0e109399488e3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-binary-authorization/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-gcp-binary-authorization/scripts/process.py","bytes":6093,"sha256":"c863113201cb9ea5adfa9e00c3075a17018a4512c76c9324f3d6acce60552857","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-binary-authorization/scripts/process.py"}],"archiveSha256":"8006619f67b50861380d82122abc652830ef89fbcbd0bddaebb3894ee3f1b8d3"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-gcp-binary-authorization",
+    "name": "implementing-gcp-binary-authorization",
+    "description": "Implements GCP Binary Authorization end to end, including creating KMS-backed attestors, Container Analysis notes, deploy-time policies, and signing image attestations, so that only trusted, verified images deploy to GKE and Cloud Run. Use when enforcing container supply-chain integrity or deploy-time attestation checks on GCP.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "implementing",
+      "gcp",
+      "binary",
+      "authorization",
+      "implements",
+      "end",
+      "including",
+      "creating",
+      "kms",
+      "backed",
+      "attestors",
+      "container",
+      "analysis",
+      "notes",
+      "deploy",
+      "time",
+      "policies",
+      "signing"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-gcp-binary-authorization/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-gcp-binary-authorization",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-binary-authorization",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 36811,
+    "sha256": "3cb8b52412b606e9297033f1ce7d74bcad080bfe301ad23ff4a6e70a372a8e62",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-gcp-binary-authorization/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-binary-authorization/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-gcp-binary-authorization/SKILL.md",
+      "bytes": 7838,
+      "sha256": "3cb8b52412b606e9297033f1ce7d74bcad080bfe301ad23ff4a6e70a372a8e62",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-binary-authorization/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-gcp-binary-authorization/assets/template.md",
+      "bytes": 690,
+      "sha256": "1ecf103045aa5ccc33c3f388008874e5727b3bb74d4445720333f9266cba8068",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-binary-authorization/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-gcp-binary-authorization/references/api-reference.md",
+      "bytes": 1796,
+      "sha256": "c9f43efbb6905db58bdcc76aa564760868d7e0d4c42d4069dd0a629c12977e87",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-binary-authorization/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-gcp-binary-authorization/references/standards.md",
+      "bytes": 473,
+      "sha256": "f4a383655275e42e43dcd7cac2d6590c4635b8a78545c90e89544592c415e60c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-binary-authorization/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-gcp-binary-authorization/references/workflows.md",
+      "bytes": 653,
+      "sha256": "52b4df60994a96ac3dc84abc01faab4544204166801a3f50d0531ae18dab14ef",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-binary-authorization/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-gcp-binary-authorization/scripts/agent.py",
+      "bytes": 8013,
+      "sha256": "15fde9def333ee6772a3193f44f61f4b8182561791f3f3eb21e0e109399488e3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-binary-authorization/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-gcp-binary-authorization/scripts/process.py",
+      "bytes": 6093,
+      "sha256": "c863113201cb9ea5adfa9e00c3075a17018a4512c76c9324f3d6acce60552857",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gcp-binary-authorization/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "8006619f67b50861380d82122abc652830ef89fbcbd0bddaebb3894ee3f1b8d3"
+}

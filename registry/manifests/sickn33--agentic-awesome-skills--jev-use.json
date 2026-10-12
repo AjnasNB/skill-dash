@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--jev-use","name":"jev-use","description":"Route enumerable judgment steps - did it work, which option, how risky, is this safe to run - to the Jev judgment model through the jev_judge and jev_gate MCP tools, batched into one call per state.","category":"AI & agents","tags":["jev","route","enumerable","judgment","steps","did","it","work","which","option","risky","is","safe","run","model","through","judge","gate"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/jev-use","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/jev-use","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11049,"sha256":"51467141bda328da5af6fa88fc47b0755c7342809ff009c2f4f05b1608df6e44","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/jev-use/SKILL.md","bytes":9976,"sha256":"51467141bda328da5af6fa88fc47b0755c7342809ff009c2f4f05b1608df6e44","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/jev-use/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"28284685ecb70e485583996e7d9dedbaec655489d398282323ef185b25762f3c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--jev-use",
+    "name": "jev-use",
+    "description": "Route enumerable judgment steps - did it work, which option, how risky, is this safe to run - to the Jev judgment model through the jev_judge and jev_gate MCP tools, batched into one call per state.",
+    "category": "AI & agents",
+    "tags": [
+      "jev",
+      "route",
+      "enumerable",
+      "judgment",
+      "steps",
+      "did",
+      "it",
+      "work",
+      "which",
+      "option",
+      "risky",
+      "is",
+      "safe",
+      "run",
+      "model",
+      "through",
+      "judge",
+      "gate"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/jev-use",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/jev-use",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11049,
+    "sha256": "51467141bda328da5af6fa88fc47b0755c7342809ff009c2f4f05b1608df6e44",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/jev-use/SKILL.md",
+      "bytes": 9976,
+      "sha256": "51467141bda328da5af6fa88fc47b0755c7342809ff009c2f4f05b1608df6e44",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/jev-use/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "28284685ecb70e485583996e7d9dedbaec655489d398282323ef185b25762f3c"
+}

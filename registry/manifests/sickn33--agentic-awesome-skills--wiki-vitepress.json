@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--wiki-vitepress","name":"wiki-vitepress","description":"Transform generated wiki Markdown files into a polished VitePress static site with dark theme and interactive Mermaid diagrams. Use when user asks to \"build a site\" or \"package as VitePress\", user runs the /deep-wiki, or user wants a browsable HTML output from generated wiki pages.","category":"Development","tags":["wiki","vitepress","transform","generated","markdown","files","into","polished","static","site","dark","theme","interactive","mermaid","diagrams.","when","user","asks"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/wiki-vitepress","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wiki-vitepress","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6072,"sha256":"59d6e38e2a7bcaf4e4795266faa11cc21cdb6e4381504fc2b46ab885d527ddf8","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/wiki-vitepress/SKILL.md","bytes":4999,"sha256":"59d6e38e2a7bcaf4e4795266faa11cc21cdb6e4381504fc2b46ab885d527ddf8","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wiki-vitepress/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"e7910ea9b89099186ff6b6c53c92499b67c209d8cd01d7dd2ecd8201529400f5"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--wiki-vitepress",
+    "name": "wiki-vitepress",
+    "description": "Transform generated wiki Markdown files into a polished VitePress static site with dark theme and interactive Mermaid diagrams. Use when user asks to \"build a site\" or \"package as VitePress\", user runs the /deep-wiki, or user wants a browsable HTML output from generated wiki pages.",
+    "category": "Development",
+    "tags": [
+      "wiki",
+      "vitepress",
+      "transform",
+      "generated",
+      "markdown",
+      "files",
+      "into",
+      "polished",
+      "static",
+      "site",
+      "dark",
+      "theme",
+      "interactive",
+      "mermaid",
+      "diagrams.",
+      "when",
+      "user",
+      "asks"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/wiki-vitepress",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wiki-vitepress",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6072,
+    "sha256": "59d6e38e2a7bcaf4e4795266faa11cc21cdb6e4381504fc2b46ab885d527ddf8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/wiki-vitepress/SKILL.md",
+      "bytes": 4999,
+      "sha256": "59d6e38e2a7bcaf4e4795266faa11cc21cdb6e4381504fc2b46ab885d527ddf8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wiki-vitepress/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "e7910ea9b89099186ff6b6c53c92499b67c209d8cd01d7dd2ecd8201529400f5"
+}

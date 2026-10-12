@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-t1055-process-injection-with-sysmon","name":"detecting-t1055-process-injection-with-sysmon","description":"Detect process injection techniques (T1055) - including DLL injection, process hollowing, and APC injection - by analyzing Sysmon Event IDs 1, 7, 8, 10, and 25 for cross-process memory operations, remote thread creation, and anomalous DLL loads. Use when hunting defense-evasion activity that hides code inside legitimate processes, investigating an EDR alert on suspicious cross-process access, or validating Sysmon coverage for injection detection.","category":"Development","tags":["detecting","t1055","process","injection","sysmon","detect","techniques","including","dll","hollowing","apc","by","analyzing","event","ids","10","25","cross"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-t1055-process-injection-with-sysmon/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-t1055-process-injection-with-sysmon","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-t1055-process-injection-with-sysmon","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":40686,"sha256":"7864e1cbb218367f30cb0da0e327ac798b392ecb49f8212ed0529926aef81de3","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-t1055-process-injection-with-sysmon/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-t1055-process-injection-with-sysmon/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-t1055-process-injection-with-sysmon/SKILL.md","bytes":7848,"sha256":"7864e1cbb218367f30cb0da0e327ac798b392ecb49f8212ed0529926aef81de3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-t1055-process-injection-with-sysmon/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/detecting-t1055-process-injection-with-sysmon/assets/template.md","bytes":978,"sha256":"ce2a958f1971965e8783bc23d36b627b73a83f90d9beec88ce344a557118b425","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-t1055-process-injection-with-sysmon/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-t1055-process-injection-with-sysmon/references/api-reference.md","bytes":2750,"sha256":"c4650e86766dac686d8c7898cb56108eab700ea269024a9754e0728e906a8df6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-t1055-process-injection-with-sysmon/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/detecting-t1055-process-injection-with-sysmon/references/standards.md","bytes":3243,"sha256":"a0d61f8eddfc644e07f4234f6b8ddd3312fedc6fabe57aeec8e47252f9d1c803","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-t1055-process-injection-with-sysmon/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/detecting-t1055-process-injection-with-sysmon/references/workflows.md","bytes":3109,"sha256":"b1a15bed9edd0dce2a1166a1d4ea7e776a16c1d324ce1060e18a09905769085c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-t1055-process-injection-with-sysmon/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-t1055-process-injection-with-sysmon/scripts/agent.py","bytes":5480,"sha256":"05f69c72f1426f96d45f54426cecd510b3d67b279815581f45d768b906f956c7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-t1055-process-injection-with-sysmon/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/detecting-t1055-process-injection-with-sysmon/scripts/process.py","bytes":6023,"sha256":"29a27f74c2d5eb6ba284a3912d8cb5d62925bb64af931fe2a3a5173c12757f91","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-t1055-process-injection-with-sysmon/scripts/process.py"}],"archiveSha256":"47a52a8742ea3b9c29f198742e4c4a6120277c30a530153aa4de95910f6a0731"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-t1055-process-injection-with-sysmon",
+    "name": "detecting-t1055-process-injection-with-sysmon",
+    "description": "Detect process injection techniques (T1055) - including DLL injection, process hollowing, and APC injection - by analyzing Sysmon Event IDs 1, 7, 8, 10, and 25 for cross-process memory operations, remote thread creation, and anomalous DLL loads. Use when hunting defense-evasion activity that hides code inside legitimate processes, investigating an EDR alert on suspicious cross-process access, or validating Sysmon coverage for injection detection.",
+    "category": "Development",
+    "tags": [
+      "detecting",
+      "t1055",
+      "process",
+      "injection",
+      "sysmon",
+      "detect",
+      "techniques",
+      "including",
+      "dll",
+      "hollowing",
+      "apc",
+      "by",
+      "analyzing",
+      "event",
+      "ids",
+      "10",
+      "25",
+      "cross"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-t1055-process-injection-with-sysmon/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-t1055-process-injection-with-sysmon",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-t1055-process-injection-with-sysmon",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 40686,
+    "sha256": "7864e1cbb218367f30cb0da0e327ac798b392ecb49f8212ed0529926aef81de3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-t1055-process-injection-with-sysmon/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-t1055-process-injection-with-sysmon/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-t1055-process-injection-with-sysmon/SKILL.md",
+      "bytes": 7848,
+      "sha256": "7864e1cbb218367f30cb0da0e327ac798b392ecb49f8212ed0529926aef81de3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-t1055-process-injection-with-sysmon/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/detecting-t1055-process-injection-with-sysmon/assets/template.md",
+      "bytes": 978,
+      "sha256": "ce2a958f1971965e8783bc23d36b627b73a83f90d9beec88ce344a557118b425",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-t1055-process-injection-with-sysmon/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-t1055-process-injection-with-sysmon/references/api-reference.md",
+      "bytes": 2750,
+      "sha256": "c4650e86766dac686d8c7898cb56108eab700ea269024a9754e0728e906a8df6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-t1055-process-injection-with-sysmon/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/detecting-t1055-process-injection-with-sysmon/references/standards.md",
+      "bytes": 3243,
+      "sha256": "a0d61f8eddfc644e07f4234f6b8ddd3312fedc6fabe57aeec8e47252f9d1c803",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-t1055-process-injection-with-sysmon/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/detecting-t1055-process-injection-with-sysmon/references/workflows.md",
+      "bytes": 3109,
+      "sha256": "b1a15bed9edd0dce2a1166a1d4ea7e776a16c1d324ce1060e18a09905769085c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-t1055-process-injection-with-sysmon/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-t1055-process-injection-with-sysmon/scripts/agent.py",
+      "bytes": 5480,
+      "sha256": "05f69c72f1426f96d45f54426cecd510b3d67b279815581f45d768b906f956c7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-t1055-process-injection-with-sysmon/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/detecting-t1055-process-injection-with-sysmon/scripts/process.py",
+      "bytes": 6023,
+      "sha256": "29a27f74c2d5eb6ba284a3912d8cb5d62925bb64af931fe2a3a5173c12757f91",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-t1055-process-injection-with-sysmon/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "47a52a8742ea3b9c29f198742e4c4a6120277c30a530153aa4de95910f6a0731"
+}

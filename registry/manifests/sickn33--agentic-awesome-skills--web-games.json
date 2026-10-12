@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--web-games","name":"web-games","description":"Web browser game development. Framework selection (Phaser, PixiJS, Kaplay, Canvas/WebGL, Three.js, Babylon.js), hybrid DOM+canvas, WebGPU, optimization, PWA, audio unlock. Use when building HTML5/WebGL/WebGPU games or choosing a browser runtime.","category":"Video & audio","tags":["web","games","browser","game","development.","framework","selection","phaser","pixijs","kaplay","canvas","webgl","three.js","babylon.js","hybrid","dom+canvas","webgpu","optimization"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/game-development/web-games","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/game-development/web-games","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5642,"sha256":"7aeae6d5a05639dcabe8d532513881d808aef8c14df2d107d866c4052bf2dc60","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/game-development/web-games/SKILL.md","bytes":4569,"sha256":"7aeae6d5a05639dcabe8d532513881d808aef8c14df2d107d866c4052bf2dc60","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/game-development/web-games/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"1146c21897ce0513b79d25af3f8e86d26a350b11f01a1462290a3b703df5e687"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--web-games",
+    "name": "web-games",
+    "description": "Web browser game development. Framework selection (Phaser, PixiJS, Kaplay, Canvas/WebGL, Three.js, Babylon.js), hybrid DOM+canvas, WebGPU, optimization, PWA, audio unlock. Use when building HTML5/WebGL/WebGPU games or choosing a browser runtime.",
+    "category": "Video & audio",
+    "tags": [
+      "web",
+      "games",
+      "browser",
+      "game",
+      "development.",
+      "framework",
+      "selection",
+      "phaser",
+      "pixijs",
+      "kaplay",
+      "canvas",
+      "webgl",
+      "three.js",
+      "babylon.js",
+      "hybrid",
+      "dom+canvas",
+      "webgpu",
+      "optimization"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/game-development/web-games",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/game-development/web-games",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5642,
+    "sha256": "7aeae6d5a05639dcabe8d532513881d808aef8c14df2d107d866c4052bf2dc60",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/game-development/web-games/SKILL.md",
+      "bytes": 4569,
+      "sha256": "7aeae6d5a05639dcabe8d532513881d808aef8c14df2d107d866c4052bf2dc60",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/game-development/web-games/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "1146c21897ce0513b79d25af3f8e86d26a350b11f01a1462290a3b703df5e687"
+}

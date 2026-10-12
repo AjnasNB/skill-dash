@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--google-docs-automation","name":"google-docs-automation","description":"Read and edit Google Docs through an available authenticated connector or reviewed API integration, with scoped changes and read-back verification.","category":"Automation","tags":["google","docs","automation","read","edit","through","available","authenticated","connector","reviewed","api","integration","scoped","changes","back","verification."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/google-docs-automation","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/google-docs-automation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":3681,"sha256":"9a09b7a9f9e13deea7493d8e0c51c1e3738a9a683c7a141e8a111c19e58468a7","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/google-docs-automation/SKILL.md","bytes":2608,"sha256":"9a09b7a9f9e13deea7493d8e0c51c1e3738a9a683c7a141e8a111c19e58468a7","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/google-docs-automation/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"4d2ed9f6ab47dc90c816a395bf2f7b870b9a3d22f0c3de4050a718222972e245"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--google-docs-automation",
+    "name": "google-docs-automation",
+    "description": "Read and edit Google Docs through an available authenticated connector or reviewed API integration, with scoped changes and read-back verification.",
+    "category": "Automation",
+    "tags": [
+      "google",
+      "docs",
+      "automation",
+      "read",
+      "edit",
+      "through",
+      "available",
+      "authenticated",
+      "connector",
+      "reviewed",
+      "api",
+      "integration",
+      "scoped",
+      "changes",
+      "back",
+      "verification."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/google-docs-automation",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/google-docs-automation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 3681,
+    "sha256": "9a09b7a9f9e13deea7493d8e0c51c1e3738a9a683c7a141e8a111c19e58468a7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/google-docs-automation/SKILL.md",
+      "bytes": 2608,
+      "sha256": "9a09b7a9f9e13deea7493d8e0c51c1e3738a9a683c7a141e8a111c19e58468a7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/google-docs-automation/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "4d2ed9f6ab47dc90c816a395bf2f7b870b9a3d22f0c3de4050a718222972e245"
+}

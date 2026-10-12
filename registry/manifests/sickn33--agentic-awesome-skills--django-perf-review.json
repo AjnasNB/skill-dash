@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--django-perf-review","name":"django-perf-review","description":"Django performance code review. Use when asked to \"review Django performance\", \"find N+1 queries\", \"optimize Django\", \"check queryset performance\", \"database performance\", \"Django ORM issues\", or audit Django code for performance problems.","category":"Development","tags":["django","perf","review","performance","code","review.","when","asked","find","n+1","queries","optimize","check","queryset","database","orm","issues","audit"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/django-perf-review","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/django-perf-review","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":13172,"sha256":"62d8fe2c2af6f479eeda066fed67f95f629bbaa99e35239e96b0cde235ece192","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/django-perf-review/SKILL.md","bytes":12099,"sha256":"62d8fe2c2af6f479eeda066fed67f95f629bbaa99e35239e96b0cde235ece192","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/django-perf-review/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"c5cf2e936b6555ef20f4723890dfaa247e21ece41864b9c72bfeea7a5f3667a4"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--django-perf-review",
+    "name": "django-perf-review",
+    "description": "Django performance code review. Use when asked to \"review Django performance\", \"find N+1 queries\", \"optimize Django\", \"check queryset performance\", \"database performance\", \"Django ORM issues\", or audit Django code for performance problems.",
+    "category": "Development",
+    "tags": [
+      "django",
+      "perf",
+      "review",
+      "performance",
+      "code",
+      "review.",
+      "when",
+      "asked",
+      "find",
+      "n+1",
+      "queries",
+      "optimize",
+      "check",
+      "queryset",
+      "database",
+      "orm",
+      "issues",
+      "audit"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/django-perf-review",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/django-perf-review",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13172,
+    "sha256": "62d8fe2c2af6f479eeda066fed67f95f629bbaa99e35239e96b0cde235ece192",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/django-perf-review/SKILL.md",
+      "bytes": 12099,
+      "sha256": "62d8fe2c2af6f479eeda066fed67f95f629bbaa99e35239e96b0cde235ece192",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/django-perf-review/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "c5cf2e936b6555ef20f4723890dfaa247e21ece41864b9c72bfeea7a5f3667a4"
+}

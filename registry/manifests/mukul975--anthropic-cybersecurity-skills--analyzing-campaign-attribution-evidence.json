@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-campaign-attribution-evidence","name":"analyzing-campaign-attribution-evidence","description":"Systematically evaluate cyber-campaign evidence to attribute an operation to a threat actor, using the Diamond Model and Analysis of Competing Hypotheses (ACH) to weigh infrastructure overlaps, TTP consistency, malware code similarity, and timing/language artifacts into confidence-weighted attribution assessments. Use when an incident investigation needs a defensible attribution confidence level.","category":"Security","tags":["analyzing","campaign","attribution","evidence","systematically","evaluate","cyber","attribute","operation","threat","actor","diamond","model","analysis","competing","hypotheses","ach","weigh"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-campaign-attribution-evidence/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-campaign-attribution-evidence","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-campaign-attribution-evidence","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":43438,"sha256":"6b03f30f7b1f13326999ec37a70c00594a20d9f94433e46285b525ff9dece794","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-campaign-attribution-evidence/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-campaign-attribution-evidence/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-campaign-attribution-evidence/SKILL.md","bytes":9210,"sha256":"6b03f30f7b1f13326999ec37a70c00594a20d9f94433e46285b525ff9dece794","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-campaign-attribution-evidence/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/analyzing-campaign-attribution-evidence/assets/template.md","bytes":1003,"sha256":"45b90266d49ac08a0ec3a50f2165181e5ed7deccd755ea3cd202d46e580bcdee","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-campaign-attribution-evidence/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-campaign-attribution-evidence/references/api-reference.md","bytes":3153,"sha256":"3b9a212deead5583c1aea2601797d3e2287732af8170813d692f553d40685278","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-campaign-attribution-evidence/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/analyzing-campaign-attribution-evidence/references/standards.md","bytes":1156,"sha256":"970ae8703ca53c871f93dd8ffc97992f7e2b2b78a0ad7a670b826f0086ef195c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-campaign-attribution-evidence/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/analyzing-campaign-attribution-evidence/references/workflows.md","bytes":1408,"sha256":"f5153b94407f24bea2282572c41d7a6b6e061b8eb426bc5e5016406a5b75b1ef","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-campaign-attribution-evidence/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-campaign-attribution-evidence/scripts/agent.py","bytes":10177,"sha256":"850c546b4eb5513b9fd66c07c9025514d96b29d3c28a0a55861a72880a71a197","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-campaign-attribution-evidence/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/analyzing-campaign-attribution-evidence/scripts/process.py","bytes":6076,"sha256":"76991e0eaf13ec19a7f7831bd1c7bb0e12cb059b5673674e8ce724e008f4e43d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-campaign-attribution-evidence/scripts/process.py"}],"archiveSha256":"da4bc78e5ebbc63312afa1250738934237e0eddfa6e8d05d04f6e44264c25b3e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-campaign-attribution-evidence",
+    "name": "analyzing-campaign-attribution-evidence",
+    "description": "Systematically evaluate cyber-campaign evidence to attribute an operation to a threat actor, using the Diamond Model and Analysis of Competing Hypotheses (ACH) to weigh infrastructure overlaps, TTP consistency, malware code similarity, and timing/language artifacts into confidence-weighted attribution assessments. Use when an incident investigation needs a defensible attribution confidence level.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "campaign",
+      "attribution",
+      "evidence",
+      "systematically",
+      "evaluate",
+      "cyber",
+      "attribute",
+      "operation",
+      "threat",
+      "actor",
+      "diamond",
+      "model",
+      "analysis",
+      "competing",
+      "hypotheses",
+      "ach",
+      "weigh"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-campaign-attribution-evidence/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-campaign-attribution-evidence",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-campaign-attribution-evidence",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 43438,
+    "sha256": "6b03f30f7b1f13326999ec37a70c00594a20d9f94433e46285b525ff9dece794",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-campaign-attribution-evidence/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-campaign-attribution-evidence/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-campaign-attribution-evidence/SKILL.md",
+      "bytes": 9210,
+      "sha256": "6b03f30f7b1f13326999ec37a70c00594a20d9f94433e46285b525ff9dece794",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-campaign-attribution-evidence/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/analyzing-campaign-attribution-evidence/assets/template.md",
+      "bytes": 1003,
+      "sha256": "45b90266d49ac08a0ec3a50f2165181e5ed7deccd755ea3cd202d46e580bcdee",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-campaign-attribution-evidence/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-campaign-attribution-evidence/references/api-reference.md",
+      "bytes": 3153,
+      "sha256": "3b9a212deead5583c1aea2601797d3e2287732af8170813d692f553d40685278",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-campaign-attribution-evidence/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/analyzing-campaign-attribution-evidence/references/standards.md",
+      "bytes": 1156,
+      "sha256": "970ae8703ca53c871f93dd8ffc97992f7e2b2b78a0ad7a670b826f0086ef195c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-campaign-attribution-evidence/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/analyzing-campaign-attribution-evidence/references/workflows.md",
+      "bytes": 1408,
+      "sha256": "f5153b94407f24bea2282572c41d7a6b6e061b8eb426bc5e5016406a5b75b1ef",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-campaign-attribution-evidence/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-campaign-attribution-evidence/scripts/agent.py",
+      "bytes": 10177,
+      "sha256": "850c546b4eb5513b9fd66c07c9025514d96b29d3c28a0a55861a72880a71a197",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-campaign-attribution-evidence/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/analyzing-campaign-attribution-evidence/scripts/process.py",
+      "bytes": 6076,
+      "sha256": "76991e0eaf13ec19a7f7831bd1c7bb0e12cb059b5673674e8ce724e008f4e43d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-campaign-attribution-evidence/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "da4bc78e5ebbc63312afa1250738934237e0eddfa6e8d05d04f6e44264c25b3e"
+}

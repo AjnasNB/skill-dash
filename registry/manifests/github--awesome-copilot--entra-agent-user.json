@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--entra-agent-user","name":"entra-agent-user","description":"Create Agent Users in Microsoft Entra ID from Agent Identities, enabling AI agents to act as digital workers with user identity capabilities in Microsoft 365 and Azure environments.","category":"Cloud & DevOps","tags":["entra","agent","user","users","microsoft","id","from","identities","enabling","ai","agents","act","as","digital","workers","identity","capabilities","365"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/entra-agent-user","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/entra-agent-user","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":10365,"sha256":"1d36474ce96eb53bc1aabe1f0005fa9df18e7502af1e412d7c679ce45c4e6807","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/entra-agent-user/SKILL.md","bytes":9306,"sha256":"1d36474ce96eb53bc1aabe1f0005fa9df18e7502af1e412d7c679ce45c4e6807","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/entra-agent-user/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"7f6026ab338430032c0d8f39336a09dac882b4d68655bee3b4c541dddaf571a4"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--entra-agent-user",
+    "name": "entra-agent-user",
+    "description": "Create Agent Users in Microsoft Entra ID from Agent Identities, enabling AI agents to act as digital workers with user identity capabilities in Microsoft 365 and Azure environments.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "entra",
+      "agent",
+      "user",
+      "users",
+      "microsoft",
+      "id",
+      "from",
+      "identities",
+      "enabling",
+      "ai",
+      "agents",
+      "act",
+      "as",
+      "digital",
+      "workers",
+      "identity",
+      "capabilities",
+      "365"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/entra-agent-user",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/entra-agent-user",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 10365,
+    "sha256": "1d36474ce96eb53bc1aabe1f0005fa9df18e7502af1e412d7c679ce45c4e6807",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/entra-agent-user/SKILL.md",
+      "bytes": 9306,
+      "sha256": "1d36474ce96eb53bc1aabe1f0005fa9df18e7502af1e412d7c679ce45c4e6807",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/entra-agent-user/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "7f6026ab338430032c0d8f39336a09dac882b4d68655bee3b4c541dddaf571a4"
+}

@@ -1,1 +1,60 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--aws-resource-health-diagnose","name":"aws-resource-health-diagnose","description":"Analyze AWS resource health, diagnose issues from CloudWatch logs and metrics, and create a remediation plan for identified problems.","category":"Cloud & DevOps","tags":["aws","resource","health","diagnose","analyze","issues","from","cloudwatch","logs","metrics","remediation","plan","identified","problems."],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/aws-resource-health-diagnose","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/aws-resource-health-diagnose","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":8073,"sha256":"80bb83b79e74c7f4b97994f89e4feb821bb68868e4809dcffbdbc9d2dc3f00cc","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/aws-resource-health-diagnose/SKILL.md","bytes":7014,"sha256":"80bb83b79e74c7f4b97994f89e4feb821bb68868e4809dcffbdbc9d2dc3f00cc","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/aws-resource-health-diagnose/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"04cec63a9a83e72049938f003a2447b8e44b0e3ee3dc581b21e127a2987333fe"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--aws-resource-health-diagnose",
+    "name": "aws-resource-health-diagnose",
+    "description": "Analyze AWS resource health, diagnose issues from CloudWatch logs and metrics, and create a remediation plan for identified problems.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "aws",
+      "resource",
+      "health",
+      "diagnose",
+      "analyze",
+      "issues",
+      "from",
+      "cloudwatch",
+      "logs",
+      "metrics",
+      "remediation",
+      "plan",
+      "identified",
+      "problems."
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/aws-resource-health-diagnose",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/aws-resource-health-diagnose",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 8073,
+    "sha256": "80bb83b79e74c7f4b97994f89e4feb821bb68868e4809dcffbdbc9d2dc3f00cc",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/aws-resource-health-diagnose/SKILL.md",
+      "bytes": 7014,
+      "sha256": "80bb83b79e74c7f4b97994f89e4feb821bb68868e4809dcffbdbc9d2dc3f00cc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/aws-resource-health-diagnose/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "04cec63a9a83e72049938f003a2447b8e44b0e3ee3dc581b21e127a2987333fe"
+}

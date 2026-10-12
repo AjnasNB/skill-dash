@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"emilkowalski--skills--improve-animations","name":"improve-animations","description":"Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source code — it plans improvements, it does not apply them. Use when the user asks to \"improve the animations\", \"audit the motion\", \"make this app feel better\", or wants a roadmap of animation fixes rather than a review of a single diff.","category":"Design","tags":["improve","animations","survey","codebase","animation","motion","code","as","senior","advisor","then","produce","prioritized","audit","self","contained","implementation","plans"],"repo":"emilkowalski/skills","owner":"emilkowalski","stars":45550,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"2d228630ba1446365f614a108cb8252f1feda202","path":"skills/improve-animations","sourceUrl":"https://github.com/emilkowalski/skills/tree/2d228630ba1446365f614a108cb8252f1feda202/skills/improve-animations","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T13:58:32Z","fileCount":4,"bytes":19765,"sha256":"73962447464433476343e2c12cd08ab39cc99a9e5f3c118c5fb54ed897574ef6","historical":false},"files":[{"path":"AUDIT.md","sourcePath":"skills/improve-animations/AUDIT.md","bytes":7387,"sha256":"551c8473e20e5f4774680bc24d45e1c68e50992582720905c6b077756b7b5a55","mode":420,"url":"https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/improve-animations/AUDIT.md"},{"path":"PLAN-TEMPLATE.md","sourcePath":"skills/improve-animations/PLAN-TEMPLATE.md","bytes":3100,"sha256":"0a08ac8e23fd2082d7ffb86aeed7b789de77328c3cf874b16f1a755f2ef0a6ad","mode":420,"url":"https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/improve-animations/PLAN-TEMPLATE.md"},{"path":"SKILL.md","sourcePath":"skills/improve-animations/SKILL.md","bytes":8208,"sha256":"73962447464433476343e2c12cd08ab39cc99a9e5f3c118c5fb54ed897574ef6","mode":420,"url":"https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/improve-animations/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1070,"sha256":"4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b","mode":420,"url":"https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/LICENSE"}],"archiveSha256":"f134cf76e6d0abbf80b2f91f71b98bfd0c817e96d9cc6905e301e7afbbd75e5c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "emilkowalski--skills--improve-animations",
+    "name": "improve-animations",
+    "description": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source code — it plans improvements, it does not apply them. Use when the user asks to \"improve the animations\", \"audit the motion\", \"make this app feel better\", or wants a roadmap of animation fixes rather than a review of a single diff.",
+    "category": "Design",
+    "tags": [
+      "improve",
+      "animations",
+      "survey",
+      "codebase",
+      "animation",
+      "motion",
+      "code",
+      "as",
+      "senior",
+      "advisor",
+      "then",
+      "produce",
+      "prioritized",
+      "audit",
+      "self",
+      "contained",
+      "implementation",
+      "plans"
+    ],
+    "repo": "emilkowalski/skills",
+    "owner": "emilkowalski",
+    "stars": 45550,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "2d228630ba1446365f614a108cb8252f1feda202",
+    "path": "skills/improve-animations",
+    "sourceUrl": "https://github.com/emilkowalski/skills/tree/2d228630ba1446365f614a108cb8252f1feda202/skills/improve-animations",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T13:58:32Z",
+    "fileCount": 4,
+    "bytes": 19765,
+    "sha256": "73962447464433476343e2c12cd08ab39cc99a9e5f3c118c5fb54ed897574ef6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "AUDIT.md",
+      "sourcePath": "skills/improve-animations/AUDIT.md",
+      "bytes": 7387,
+      "sha256": "551c8473e20e5f4774680bc24d45e1c68e50992582720905c6b077756b7b5a55",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/improve-animations/AUDIT.md"
+    },
+    {
+      "path": "PLAN-TEMPLATE.md",
+      "sourcePath": "skills/improve-animations/PLAN-TEMPLATE.md",
+      "bytes": 3100,
+      "sha256": "0a08ac8e23fd2082d7ffb86aeed7b789de77328c3cf874b16f1a755f2ef0a6ad",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/improve-animations/PLAN-TEMPLATE.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/improve-animations/SKILL.md",
+      "bytes": 8208,
+      "sha256": "73962447464433476343e2c12cd08ab39cc99a9e5f3c118c5fb54ed897574ef6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/improve-animations/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1070,
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/LICENSE"
+    }
+  ],
+  "archiveSha256": "f134cf76e6d0abbf80b2f91f71b98bfd0c817e96d9cc6905e301e7afbbd75e5c"
+}

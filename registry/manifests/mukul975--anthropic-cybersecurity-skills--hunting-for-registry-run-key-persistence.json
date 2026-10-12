@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--hunting-for-registry-run-key-persistence","name":"hunting-for-registry-run-key-persistence","description":"Detect MITRE ATT&CK T1547.001 registry Run key persistence by analyzing Sysmon Event ID 13 logs and registry queries to identify malicious auto-start entries.","category":"Development","tags":["hunting","registry","run","key","persistence","detect","mitre","att","ck","t1547.001","by","analyzing","sysmon","event","id","13","logs","queries"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/hunting-for-registry-run-key-persistence/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/hunting-for-registry-run-key-persistence","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-run-key-persistence","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":27203,"sha256":"440e6a7c7760ab38543b839f6625f9d5e9e8b524c6cfd91c232be97f28aeaf99","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/hunting-for-registry-run-key-persistence/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-run-key-persistence/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/hunting-for-registry-run-key-persistence/SKILL.md","bytes":3384,"sha256":"440e6a7c7760ab38543b839f6625f9d5e9e8b524c6cfd91c232be97f28aeaf99","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-run-key-persistence/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/hunting-for-registry-run-key-persistence/references/api-reference.md","bytes":3198,"sha256":"b973ab230fa9766fd03036c0476af5474073f20201d23fd1b6c728b500a69980","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-run-key-persistence/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/hunting-for-registry-run-key-persistence/scripts/agent.py","bytes":9366,"sha256":"d9ea07f0727162f45b53700681422979cf3e551d875544c0ed519f0af9b0ed96","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-run-key-persistence/scripts/agent.py"}],"archiveSha256":"47ae10857290f6222ac90815fdff3b6921d172047eb1aeb13fd3d542b0177b02"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-for-registry-run-key-persistence",
+    "name": "hunting-for-registry-run-key-persistence",
+    "description": "Detect MITRE ATT&CK T1547.001 registry Run key persistence by analyzing Sysmon Event ID 13 logs and registry queries to identify malicious auto-start entries.",
+    "category": "Development",
+    "tags": [
+      "hunting",
+      "registry",
+      "run",
+      "key",
+      "persistence",
+      "detect",
+      "mitre",
+      "att",
+      "ck",
+      "t1547.001",
+      "by",
+      "analyzing",
+      "sysmon",
+      "event",
+      "id",
+      "13",
+      "logs",
+      "queries"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-for-registry-run-key-persistence/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-for-registry-run-key-persistence",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-run-key-persistence",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 27203,
+    "sha256": "440e6a7c7760ab38543b839f6625f9d5e9e8b524c6cfd91c232be97f28aeaf99",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-for-registry-run-key-persistence/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-run-key-persistence/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-for-registry-run-key-persistence/SKILL.md",
+      "bytes": 3384,
+      "sha256": "440e6a7c7760ab38543b839f6625f9d5e9e8b524c6cfd91c232be97f28aeaf99",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-run-key-persistence/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-for-registry-run-key-persistence/references/api-reference.md",
+      "bytes": 3198,
+      "sha256": "b973ab230fa9766fd03036c0476af5474073f20201d23fd1b6c728b500a69980",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-run-key-persistence/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-for-registry-run-key-persistence/scripts/agent.py",
+      "bytes": 9366,
+      "sha256": "d9ea07f0727162f45b53700681422979cf3e551d875544c0ed519f0af9b0ed96",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-run-key-persistence/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "47ae10857290f6222ac90815fdff3b6921d172047eb1aeb13fd3d542b0177b02"
+}

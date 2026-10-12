@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-rootkit-activity","name":"detecting-rootkit-activity","description":"Detects rootkit presence on compromised systems by identifying hidden processes, hooked system calls, modified kernel structures, and covert network connections using Volatility memory forensics, cross-view detection, and tools like GMER, rkhunter, chkrootkit, and RootkitRevealer. Use when standard tools (Task Manager, netstat, AV/EDR) show nothing abnormal but compromise is suspected.","category":"Security","tags":["detecting","rootkit","activity","detects","presence","compromised","systems","by","identifying","hidden","processes","hooked","system","calls","modified","kernel","structures","covert"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-rootkit-activity/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-rootkit-activity","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-rootkit-activity","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":33833,"sha256":"11aa001d883ee561ad408460c030ead0c15691d501432876311d9fd72615c39f","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-rootkit-activity/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-rootkit-activity/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-rootkit-activity/SKILL.md","bytes":11975,"sha256":"11aa001d883ee561ad408460c030ead0c15691d501432876311d9fd72615c39f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-rootkit-activity/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-rootkit-activity/references/api-reference.md","bytes":2367,"sha256":"5a53eb6f53f651d98bf6e94bd078b5149efc74167e65856f5cf271c1219bb940","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-rootkit-activity/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-rootkit-activity/scripts/agent.py","bytes":8236,"sha256":"19b54dd3318d4d0843c02e3498b814c7095be99d09464a322aab4b763d7d635c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-rootkit-activity/scripts/agent.py"}],"archiveSha256":"625f68381f44a8af0cd7085c533bfa8105396c74691c40314b07b51f2a8aa2d6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-rootkit-activity",
+    "name": "detecting-rootkit-activity",
+    "description": "Detects rootkit presence on compromised systems by identifying hidden processes, hooked system calls, modified kernel structures, and covert network connections using Volatility memory forensics, cross-view detection, and tools like GMER, rkhunter, chkrootkit, and RootkitRevealer. Use when standard tools (Task Manager, netstat, AV/EDR) show nothing abnormal but compromise is suspected.",
+    "category": "Security",
+    "tags": [
+      "detecting",
+      "rootkit",
+      "activity",
+      "detects",
+      "presence",
+      "compromised",
+      "systems",
+      "by",
+      "identifying",
+      "hidden",
+      "processes",
+      "hooked",
+      "system",
+      "calls",
+      "modified",
+      "kernel",
+      "structures",
+      "covert"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-rootkit-activity/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-rootkit-activity",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-rootkit-activity",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 33833,
+    "sha256": "11aa001d883ee561ad408460c030ead0c15691d501432876311d9fd72615c39f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-rootkit-activity/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-rootkit-activity/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-rootkit-activity/SKILL.md",
+      "bytes": 11975,
+      "sha256": "11aa001d883ee561ad408460c030ead0c15691d501432876311d9fd72615c39f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-rootkit-activity/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-rootkit-activity/references/api-reference.md",
+      "bytes": 2367,
+      "sha256": "5a53eb6f53f651d98bf6e94bd078b5149efc74167e65856f5cf271c1219bb940",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-rootkit-activity/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-rootkit-activity/scripts/agent.py",
+      "bytes": 8236,
+      "sha256": "19b54dd3318d4d0843c02e3498b814c7095be99d09464a322aab4b763d7d635c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-rootkit-activity/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "625f68381f44a8af0cd7085c533bfa8105396c74691c40314b07b51f2a8aa2d6"
+}

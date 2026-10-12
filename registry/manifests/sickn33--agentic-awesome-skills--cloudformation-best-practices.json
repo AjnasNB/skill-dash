@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--cloudformation-best-practices","name":"cloudformation-best-practices","description":"CloudFormation template optimization, nested stacks, drift detection, and production-ready patterns. Use when writing or reviewing CF templates.","category":"Writing","tags":["cloudformation","best","practices","template","optimization","nested","stacks","drift","detection","production","ready","patterns.","when","writing","reviewing","cf","templates."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/cloudformation-best-practices","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cloudformation-best-practices","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":3870,"sha256":"c9e5c1ceb5513420b72ded60705669e377bcff5f4258a3d673f20bfd767f9775","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/cloudformation-best-practices/SKILL.md","bytes":2797,"sha256":"c9e5c1ceb5513420b72ded60705669e377bcff5f4258a3d673f20bfd767f9775","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cloudformation-best-practices/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"2f2148f1074c72456f25fdc0f4b270bd54b07f35f403715acc9d113001692bef"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--cloudformation-best-practices",
+    "name": "cloudformation-best-practices",
+    "description": "CloudFormation template optimization, nested stacks, drift detection, and production-ready patterns. Use when writing or reviewing CF templates.",
+    "category": "Writing",
+    "tags": [
+      "cloudformation",
+      "best",
+      "practices",
+      "template",
+      "optimization",
+      "nested",
+      "stacks",
+      "drift",
+      "detection",
+      "production",
+      "ready",
+      "patterns.",
+      "when",
+      "writing",
+      "reviewing",
+      "cf",
+      "templates."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/cloudformation-best-practices",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cloudformation-best-practices",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 3870,
+    "sha256": "c9e5c1ceb5513420b72ded60705669e377bcff5f4258a3d673f20bfd767f9775",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/cloudformation-best-practices/SKILL.md",
+      "bytes": 2797,
+      "sha256": "c9e5c1ceb5513420b72ded60705669e377bcff5f4258a3d673f20bfd767f9775",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cloudformation-best-practices/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "2f2148f1074c72456f25fdc0f4b270bd54b07f35f403715acc9d113001692bef"
+}

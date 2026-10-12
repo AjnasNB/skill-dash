@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"emilkowalski--skills--ask-sonner","name":"ask-sonner","description":"Guide to Sonner, the React toast library — install and wire up the Toaster, pick the right toast() call, promise and loading toasts, updating, dismissing and persisting toasts, styling, theming and icons, positioning and multiple toasters. Use when working with Sonner or troubleshooting it — toasts that don't appear, appear twice, lose their styles, ignore Tailwind classes, sit behind a modal, or don't follow dark mode.","category":"Development","tags":["ask","sonner","guide","react","toast","library","install","wire","up","toaster","pick","right","call","promise","loading","toasts","updating","dismissing"],"repo":"emilkowalski/skills","owner":"emilkowalski","stars":45550,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"2d228630ba1446365f614a108cb8252f1feda202","path":"skills/ask-sonner","sourceUrl":"https://github.com/emilkowalski/skills/tree/2d228630ba1446365f614a108cb8252f1feda202/skills/ask-sonner","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T13:58:32Z","fileCount":3,"bytes":12848,"sha256":"39f3ee185b3aa2cf70a689052ff078953ce7ba5915ed7a9391d232e9d4dcf57f","historical":false},"files":[{"path":"API.md","sourcePath":"skills/ask-sonner/API.md","bytes":4545,"sha256":"4bb06f482c5757529e3d7a672a30fbeed42d24919a63e2571384a9ce1549aa7f","mode":420,"url":"https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/ask-sonner/API.md"},{"path":"SKILL.md","sourcePath":"skills/ask-sonner/SKILL.md","bytes":7233,"sha256":"39f3ee185b3aa2cf70a689052ff078953ce7ba5915ed7a9391d232e9d4dcf57f","mode":420,"url":"https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/ask-sonner/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1070,"sha256":"4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b","mode":420,"url":"https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/LICENSE"}],"archiveSha256":"eece45aeb09406f38c83a0d2138525586d08fb61c8a0543827e1d3cc516b877e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "emilkowalski--skills--ask-sonner",
+    "name": "ask-sonner",
+    "description": "Guide to Sonner, the React toast library — install and wire up the Toaster, pick the right toast() call, promise and loading toasts, updating, dismissing and persisting toasts, styling, theming and icons, positioning and multiple toasters. Use when working with Sonner or troubleshooting it — toasts that don't appear, appear twice, lose their styles, ignore Tailwind classes, sit behind a modal, or don't follow dark mode.",
+    "category": "Development",
+    "tags": [
+      "ask",
+      "sonner",
+      "guide",
+      "react",
+      "toast",
+      "library",
+      "install",
+      "wire",
+      "up",
+      "toaster",
+      "pick",
+      "right",
+      "call",
+      "promise",
+      "loading",
+      "toasts",
+      "updating",
+      "dismissing"
+    ],
+    "repo": "emilkowalski/skills",
+    "owner": "emilkowalski",
+    "stars": 45550,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "2d228630ba1446365f614a108cb8252f1feda202",
+    "path": "skills/ask-sonner",
+    "sourceUrl": "https://github.com/emilkowalski/skills/tree/2d228630ba1446365f614a108cb8252f1feda202/skills/ask-sonner",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T13:58:32Z",
+    "fileCount": 3,
+    "bytes": 12848,
+    "sha256": "39f3ee185b3aa2cf70a689052ff078953ce7ba5915ed7a9391d232e9d4dcf57f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "API.md",
+      "sourcePath": "skills/ask-sonner/API.md",
+      "bytes": 4545,
+      "sha256": "4bb06f482c5757529e3d7a672a30fbeed42d24919a63e2571384a9ce1549aa7f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/ask-sonner/API.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/ask-sonner/SKILL.md",
+      "bytes": 7233,
+      "sha256": "39f3ee185b3aa2cf70a689052ff078953ce7ba5915ed7a9391d232e9d4dcf57f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/ask-sonner/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1070,
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/LICENSE"
+    }
+  ],
+  "archiveSha256": "eece45aeb09406f38c83a0d2138525586d08fb61c8a0543827e1d3cc516b877e"
+}

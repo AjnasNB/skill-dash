@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--frontend-mobile-development-component-scaffold","name":"frontend-mobile-development-component-scaffold","description":"You are a React component architecture expert specializing in scaffolding production-ready, accessible, and performant components. Generate complete component implementations with TypeScript, tests, s","category":"Development","tags":["frontend","mobile","development","component","scaffold","you","are","react","architecture","expert","specializing","scaffolding","production","ready","accessible","performant","components.","generate"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/frontend-mobile-development-component-scaffold","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/frontend-mobile-development-component-scaffold","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":13018,"sha256":"f000ccb8a48aea79509bd3246f753d229560ba37f60c1c97f5c889945517bad4","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/frontend-mobile-development-component-scaffold/SKILL.md","bytes":11945,"sha256":"f000ccb8a48aea79509bd3246f753d229560ba37f60c1c97f5c889945517bad4","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/frontend-mobile-development-component-scaffold/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"6d6d0c34b2ca1a52742cbbb7b6c74e49b2ffac377ec30652cb27756a2ad708de"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--frontend-mobile-development-component-scaffold",
+    "name": "frontend-mobile-development-component-scaffold",
+    "description": "You are a React component architecture expert specializing in scaffolding production-ready, accessible, and performant components. Generate complete component implementations with TypeScript, tests, s",
+    "category": "Development",
+    "tags": [
+      "frontend",
+      "mobile",
+      "development",
+      "component",
+      "scaffold",
+      "you",
+      "are",
+      "react",
+      "architecture",
+      "expert",
+      "specializing",
+      "scaffolding",
+      "production",
+      "ready",
+      "accessible",
+      "performant",
+      "components.",
+      "generate"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/frontend-mobile-development-component-scaffold",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/frontend-mobile-development-component-scaffold",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13018,
+    "sha256": "f000ccb8a48aea79509bd3246f753d229560ba37f60c1c97f5c889945517bad4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/frontend-mobile-development-component-scaffold/SKILL.md",
+      "bytes": 11945,
+      "sha256": "f000ccb8a48aea79509bd3246f753d229560ba37f60c1c97f5c889945517bad4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/frontend-mobile-development-component-scaffold/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "6d6d0c34b2ca1a52742cbbb7b6c74e49b2ffac377ec30652cb27756a2ad708de"
+}

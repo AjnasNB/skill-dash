@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-windows-amcache-artifacts","name":"analyzing-windows-amcache-artifacts","description":"Parses the Windows Amcache.hve registry hive with Eric Zimmerman's AmcacheParser and Timeline Explorer to extract evidence of program execution, application installation, and driver loading, including SHA-1 hash correlation with threat intel and timeline reconstruction. Use for Amcache forensics, program execution evidence gathering, or application compatibility cache investigations in DFIR work.","category":"Security","tags":["analyzing","windows","amcache","artifacts","parses","amcache.hve","registry","hive","eric","zimmerman","amcacheparser","timeline","explorer","extract","evidence","program","execution","application"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-windows-amcache-artifacts/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-windows-amcache-artifacts","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-amcache-artifacts","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":30712,"sha256":"f8785cc7e2bca692b96d5a131eba8b85fcd6ef629aa830bc117ed14b82ae6d23","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-windows-amcache-artifacts/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-amcache-artifacts/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-windows-amcache-artifacts/SKILL.md","bytes":11173,"sha256":"f8785cc7e2bca692b96d5a131eba8b85fcd6ef629aa830bc117ed14b82ae6d23","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-amcache-artifacts/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-windows-amcache-artifacts/references/api-reference.md","bytes":2076,"sha256":"d80958e3c0ce393496d57a97b77032968d98c7376989978c0536e0f1aaf02b27","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-amcache-artifacts/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-windows-amcache-artifacts/scripts/agent.py","bytes":6208,"sha256":"9680d5beab0f481e9ac730813e7d98555ccf5c635f8edcb08f2f146a132f1ec0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-amcache-artifacts/scripts/agent.py"}],"archiveSha256":"982e65d2b7d29e665d5b8445d392ad237577442b29b47578de5b5d339198739b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-windows-amcache-artifacts",
+    "name": "analyzing-windows-amcache-artifacts",
+    "description": "Parses the Windows Amcache.hve registry hive with Eric Zimmerman's AmcacheParser and Timeline Explorer to extract evidence of program execution, application installation, and driver loading, including SHA-1 hash correlation with threat intel and timeline reconstruction. Use for Amcache forensics, program execution evidence gathering, or application compatibility cache investigations in DFIR work.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "windows",
+      "amcache",
+      "artifacts",
+      "parses",
+      "amcache.hve",
+      "registry",
+      "hive",
+      "eric",
+      "zimmerman",
+      "amcacheparser",
+      "timeline",
+      "explorer",
+      "extract",
+      "evidence",
+      "program",
+      "execution",
+      "application"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-windows-amcache-artifacts/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-windows-amcache-artifacts",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-amcache-artifacts",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 30712,
+    "sha256": "f8785cc7e2bca692b96d5a131eba8b85fcd6ef629aa830bc117ed14b82ae6d23",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-windows-amcache-artifacts/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-amcache-artifacts/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-windows-amcache-artifacts/SKILL.md",
+      "bytes": 11173,
+      "sha256": "f8785cc7e2bca692b96d5a131eba8b85fcd6ef629aa830bc117ed14b82ae6d23",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-amcache-artifacts/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-windows-amcache-artifacts/references/api-reference.md",
+      "bytes": 2076,
+      "sha256": "d80958e3c0ce393496d57a97b77032968d98c7376989978c0536e0f1aaf02b27",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-amcache-artifacts/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-windows-amcache-artifacts/scripts/agent.py",
+      "bytes": 6208,
+      "sha256": "9680d5beab0f481e9ac730813e7d98555ccf5c635f8edcb08f2f146a132f1ec0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-windows-amcache-artifacts/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "982e65d2b7d29e665d5b8445d392ad237577442b29b47578de5b5d339198739b"
+}

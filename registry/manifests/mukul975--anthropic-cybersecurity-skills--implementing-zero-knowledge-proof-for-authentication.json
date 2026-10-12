@@ -1,1 +1,96 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-zero-knowledge-proof-for-authentication","name":"implementing-zero-knowledge-proof-for-authentication","description":"Implements the Schnorr identification protocol and a simplified Zero-Knowledge Password Proof (ZKPP) over the discrete logarithm problem, letting a prover authenticate by demonstrating knowledge of a secret without ever revealing it to the server. Use when designing or building password-less or password-secret-free authentication, or when a server must verify a user's credential without learning or storing the underlying secret.","category":"Development","tags":["implementing","zero","knowledge","proof","authentication","implements","schnorr","identification","protocol","simplified","password","zkpp","over","discrete","logarithm","problem","letting","prover"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-zero-knowledge-proof-for-authentication/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-zero-knowledge-proof-for-authentication","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-knowledge-proof-for-authentication","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":6,"bytes":24200,"sha256":"d6fb53922f03e6d3cb4974e75dcaa76e187af509b4f3dedcf4df56cb383a96bd","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-zero-knowledge-proof-for-authentication/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-knowledge-proof-for-authentication/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-zero-knowledge-proof-for-authentication/SKILL.md","bytes":3431,"sha256":"d6fb53922f03e6d3cb4974e75dcaa76e187af509b4f3dedcf4df56cb383a96bd","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-knowledge-proof-for-authentication/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-zero-knowledge-proof-for-authentication/references/api-reference.md","bytes":1612,"sha256":"ef2bdaee3f8766f25e9b4849a526b21384a9fe1cff3a87b68faaf4ee686a55df","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-knowledge-proof-for-authentication/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-zero-knowledge-proof-for-authentication/references/standards.md","bytes":1042,"sha256":"60fbde184b444cd3855e2738bb435c227ba8995839e20d33978552eb85c4a8d1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-knowledge-proof-for-authentication/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-zero-knowledge-proof-for-authentication/references/workflows.md","bytes":1298,"sha256":"539dc3414ede7c9657343fa03da98ff9e4704efe4fad19fb57fa8395d696c97d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-knowledge-proof-for-authentication/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-zero-knowledge-proof-for-authentication/scripts/agent.py","bytes":5562,"sha256":"8073707ced0d5d97c3c946b76064c9e591856a32520a970deb47b6f1b1210687","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-knowledge-proof-for-authentication/scripts/agent.py"}],"archiveSha256":"2f62fbce1facb5a773476b9893ce3782db96cddf065081085ebe6c7b5cbcc0e6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-zero-knowledge-proof-for-authentication",
+    "name": "implementing-zero-knowledge-proof-for-authentication",
+    "description": "Implements the Schnorr identification protocol and a simplified Zero-Knowledge Password Proof (ZKPP) over the discrete logarithm problem, letting a prover authenticate by demonstrating knowledge of a secret without ever revealing it to the server. Use when designing or building password-less or password-secret-free authentication, or when a server must verify a user's credential without learning or storing the underlying secret.",
+    "category": "Development",
+    "tags": [
+      "implementing",
+      "zero",
+      "knowledge",
+      "proof",
+      "authentication",
+      "implements",
+      "schnorr",
+      "identification",
+      "protocol",
+      "simplified",
+      "password",
+      "zkpp",
+      "over",
+      "discrete",
+      "logarithm",
+      "problem",
+      "letting",
+      "prover"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-zero-knowledge-proof-for-authentication/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-zero-knowledge-proof-for-authentication",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-knowledge-proof-for-authentication",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 6,
+    "bytes": 24200,
+    "sha256": "d6fb53922f03e6d3cb4974e75dcaa76e187af509b4f3dedcf4df56cb383a96bd",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-zero-knowledge-proof-for-authentication/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-knowledge-proof-for-authentication/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-zero-knowledge-proof-for-authentication/SKILL.md",
+      "bytes": 3431,
+      "sha256": "d6fb53922f03e6d3cb4974e75dcaa76e187af509b4f3dedcf4df56cb383a96bd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-knowledge-proof-for-authentication/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-zero-knowledge-proof-for-authentication/references/api-reference.md",
+      "bytes": 1612,
+      "sha256": "ef2bdaee3f8766f25e9b4849a526b21384a9fe1cff3a87b68faaf4ee686a55df",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-knowledge-proof-for-authentication/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-zero-knowledge-proof-for-authentication/references/standards.md",
+      "bytes": 1042,
+      "sha256": "60fbde184b444cd3855e2738bb435c227ba8995839e20d33978552eb85c4a8d1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-knowledge-proof-for-authentication/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-zero-knowledge-proof-for-authentication/references/workflows.md",
+      "bytes": 1298,
+      "sha256": "539dc3414ede7c9657343fa03da98ff9e4704efe4fad19fb57fa8395d696c97d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-knowledge-proof-for-authentication/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-zero-knowledge-proof-for-authentication/scripts/agent.py",
+      "bytes": 5562,
+      "sha256": "8073707ced0d5d97c3c946b76064c9e591856a32520a970deb47b6f1b1210687",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-knowledge-proof-for-authentication/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "2f62fbce1facb5a773476b9893ce3782db96cddf065081085ebe6c7b5cbcc0e6"
+}

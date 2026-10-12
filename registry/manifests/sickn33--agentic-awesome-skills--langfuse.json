@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--langfuse","name":"langfuse","description":"Expert in Langfuse - the open-source LLM observability platform. Covers tracing, prompt management, evaluation, datasets, and integration with LangChain, LlamaIndex, and OpenAI. Essential for debugging, monitoring, and improving LLM applications in production.","category":"AI & agents","tags":["langfuse","expert","open","source","llm","observability","platform.","covers","tracing","prompt","management","evaluation","datasets","integration","langchain","llamaindex","openai.","essential"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/langfuse","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/langfuse","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6868,"sha256":"561b576ebdd10745006581699733938c606b1dca63c4d57ded0333d688041af3","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/langfuse/SKILL.md","bytes":5795,"sha256":"561b576ebdd10745006581699733938c606b1dca63c4d57ded0333d688041af3","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/langfuse/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"ecaf4947a2b45b1ebbadf55e7866ee23a6d995f0816883f7f4e1328aa2cdb908"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--langfuse",
+    "name": "langfuse",
+    "description": "Expert in Langfuse - the open-source LLM observability platform. Covers tracing, prompt management, evaluation, datasets, and integration with LangChain, LlamaIndex, and OpenAI. Essential for debugging, monitoring, and improving LLM applications in production.",
+    "category": "AI & agents",
+    "tags": [
+      "langfuse",
+      "expert",
+      "open",
+      "source",
+      "llm",
+      "observability",
+      "platform.",
+      "covers",
+      "tracing",
+      "prompt",
+      "management",
+      "evaluation",
+      "datasets",
+      "integration",
+      "langchain",
+      "llamaindex",
+      "openai.",
+      "essential"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/langfuse",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/langfuse",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6868,
+    "sha256": "561b576ebdd10745006581699733938c606b1dca63c4d57ded0333d688041af3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/langfuse/SKILL.md",
+      "bytes": 5795,
+      "sha256": "561b576ebdd10745006581699733938c606b1dca63c4d57ded0333d688041af3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/langfuse/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ecaf4947a2b45b1ebbadf55e7866ee23a6d995f0816883f7f4e1328aa2cdb908"
+}

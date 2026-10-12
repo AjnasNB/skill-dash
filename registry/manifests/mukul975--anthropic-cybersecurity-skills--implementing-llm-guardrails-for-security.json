@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-llm-guardrails-for-security","name":"implementing-llm-guardrails-for-security","description":"Implements input/output validation guardrails for LLM applications using NVIDIA NeMo Guardrails (Colang), custom Python validators for PII detection, and the Guardrails AI framework, intercepting user inputs (prompt injection, PII, off-topic queries) and model outputs (hallucinations, toxic content, schema compliance). Use when adding safety controls to an LLM app/chatbot/RAG pipeline or validating outputs conform to expected schemas.","category":"Security","tags":["implementing","llm","guardrails","security","implements","input","output","validation","applications","nvidia","nemo","colang","custom","python","validators","pii","detection","ai"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-llm-guardrails-for-security/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-llm-guardrails-for-security","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-llm-guardrails-for-security","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":49400,"sha256":"e72d132720a7650e85bdc573596cbae65b286725da82fb7aa84f05286f8a2ec3","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-llm-guardrails-for-security/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-llm-guardrails-for-security/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-llm-guardrails-for-security/SKILL.md","bytes":8889,"sha256":"e72d132720a7650e85bdc573596cbae65b286725da82fb7aa84f05286f8a2ec3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-llm-guardrails-for-security/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-llm-guardrails-for-security/references/api-reference.md","bytes":7186,"sha256":"37fcb04bab7b12727dbb08537c675d2bcdec77a48a093a696fa70946a674bbce","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-llm-guardrails-for-security/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-llm-guardrails-for-security/scripts/agent.py","bytes":22070,"sha256":"7691fd4fd366a7058255daa9ae84851b7ba8f5b6048217a2f32936a9a301d6b4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-llm-guardrails-for-security/scripts/agent.py"}],"archiveSha256":"bc60ad020ebafb1fb7b3ec4d22293313df2e54c64b10573ac4cb1f090086c454"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-llm-guardrails-for-security",
+    "name": "implementing-llm-guardrails-for-security",
+    "description": "Implements input/output validation guardrails for LLM applications using NVIDIA NeMo Guardrails (Colang), custom Python validators for PII detection, and the Guardrails AI framework, intercepting user inputs (prompt injection, PII, off-topic queries) and model outputs (hallucinations, toxic content, schema compliance). Use when adding safety controls to an LLM app/chatbot/RAG pipeline or validating outputs conform to expected schemas.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "llm",
+      "guardrails",
+      "security",
+      "implements",
+      "input",
+      "output",
+      "validation",
+      "applications",
+      "nvidia",
+      "nemo",
+      "colang",
+      "custom",
+      "python",
+      "validators",
+      "pii",
+      "detection",
+      "ai"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-llm-guardrails-for-security/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-llm-guardrails-for-security",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-llm-guardrails-for-security",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 49400,
+    "sha256": "e72d132720a7650e85bdc573596cbae65b286725da82fb7aa84f05286f8a2ec3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-llm-guardrails-for-security/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-llm-guardrails-for-security/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-llm-guardrails-for-security/SKILL.md",
+      "bytes": 8889,
+      "sha256": "e72d132720a7650e85bdc573596cbae65b286725da82fb7aa84f05286f8a2ec3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-llm-guardrails-for-security/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-llm-guardrails-for-security/references/api-reference.md",
+      "bytes": 7186,
+      "sha256": "37fcb04bab7b12727dbb08537c675d2bcdec77a48a093a696fa70946a674bbce",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-llm-guardrails-for-security/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-llm-guardrails-for-security/scripts/agent.py",
+      "bytes": 22070,
+      "sha256": "7691fd4fd366a7058255daa9ae84851b7ba8f5b6048217a2f32936a9a301d6b4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-llm-guardrails-for-security/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "bc60ad020ebafb1fb7b3ec4d22293313df2e54c64b10573ac4cb1f090086c454"
+}

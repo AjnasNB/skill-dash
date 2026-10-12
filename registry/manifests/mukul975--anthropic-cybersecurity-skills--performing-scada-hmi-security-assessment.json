@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-scada-hmi-security-assessment","name":"performing-scada-hmi-security-assessment","description":"Perform security assessments of SCADA Human-Machine Interface (HMI) systems to identify vulnerabilities in web-based HMIs, thin-client configurations, authentication mechanisms, and communication channels between HMI and PLCs, aligned with IEC 62443 and NIST SP 800-82 guidelines.","category":"Security","tags":["performing","scada","hmi","security","assessment","perform","assessments","human","machine","interface","systems","identify","vulnerabilities","web","based","hmis","thin","client"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-scada-hmi-security-assessment/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-scada-hmi-security-assessment","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-scada-hmi-security-assessment","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":32598,"sha256":"261181967779a22ef11347bf30bd59b8a6a80cd8e3bb5df83a8f1125ea176222","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-scada-hmi-security-assessment/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-scada-hmi-security-assessment/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-scada-hmi-security-assessment/SKILL.md","bytes":11834,"sha256":"261181967779a22ef11347bf30bd59b8a6a80cd8e3bb5df83a8f1125ea176222","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-scada-hmi-security-assessment/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-scada-hmi-security-assessment/references/api-reference.md","bytes":2601,"sha256":"722c914466a0c5f7e2627aef0b023b5f610add52c74327b7ae3b2c41b4e587ef","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-scada-hmi-security-assessment/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-scada-hmi-security-assessment/scripts/agent.py","bytes":6908,"sha256":"3e6c390060d21903b84d87ab2a03e434dfcea801bc17ca66e10f4ff0604788e2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-scada-hmi-security-assessment/scripts/agent.py"}],"archiveSha256":"ad17994152b1bf9a48c4aa1181eefac64f0598ebfef2650efe000a8c71e71cbb"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-scada-hmi-security-assessment",
+    "name": "performing-scada-hmi-security-assessment",
+    "description": "Perform security assessments of SCADA Human-Machine Interface (HMI) systems to identify vulnerabilities in web-based HMIs, thin-client configurations, authentication mechanisms, and communication channels between HMI and PLCs, aligned with IEC 62443 and NIST SP 800-82 guidelines.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "scada",
+      "hmi",
+      "security",
+      "assessment",
+      "perform",
+      "assessments",
+      "human",
+      "machine",
+      "interface",
+      "systems",
+      "identify",
+      "vulnerabilities",
+      "web",
+      "based",
+      "hmis",
+      "thin",
+      "client"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-scada-hmi-security-assessment/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-scada-hmi-security-assessment",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-scada-hmi-security-assessment",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32598,
+    "sha256": "261181967779a22ef11347bf30bd59b8a6a80cd8e3bb5df83a8f1125ea176222",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-scada-hmi-security-assessment/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-scada-hmi-security-assessment/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-scada-hmi-security-assessment/SKILL.md",
+      "bytes": 11834,
+      "sha256": "261181967779a22ef11347bf30bd59b8a6a80cd8e3bb5df83a8f1125ea176222",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-scada-hmi-security-assessment/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-scada-hmi-security-assessment/references/api-reference.md",
+      "bytes": 2601,
+      "sha256": "722c914466a0c5f7e2627aef0b023b5f610add52c74327b7ae3b2c41b4e587ef",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-scada-hmi-security-assessment/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-scada-hmi-security-assessment/scripts/agent.py",
+      "bytes": 6908,
+      "sha256": "3e6c390060d21903b84d87ab2a03e434dfcea801bc17ca66e10f4ff0604788e2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-scada-hmi-security-assessment/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "ad17994152b1bf9a48c4aa1181eefac64f0598ebfef2650efe000a8c71e71cbb"
+}

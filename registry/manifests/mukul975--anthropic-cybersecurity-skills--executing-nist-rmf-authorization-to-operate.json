@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--executing-nist-rmf-authorization-to-operate","name":"executing-nist-rmf-authorization-to-operate","description":"Drive a federal system through the NIST Risk Management Framework (SP 800-37 Rev 2) to an Authorization to Operate (ATO): Prepare, Categorize (FIPS 199), Select a control baseline (FIPS 200 / SP 800-53 Rev 5), Implement, Assess (SP 800-53A), Authorize, and Monitor continuously. Use when a system needs an ATO or a renewal, when working a FISMA/FedRAMP authorization package, when building or reviewing an SSP, SAR, or POA&M, when categorizing a system as Low/Moderate/High impact, when selecting or tailoring a control baseline, or when standing up continuous monitoring (ConMon) after authorization. Covers ATO, conditional ATO (cATO), and the artifacts assessors expect. Keywords: NIST RMF, 800-37, ATO, authorization to operate, FISMA, FedRAMP, SSP, SAR, POA&M, FIPS 199, FIPS 200, 800-53, 800-53A, control baseline, security categorization, continuous monitoring, authorizing official, system boundary, ongoing authorization.","category":"Security","tags":["executing","nist","rmf","authorization","operate","drive","federal","system","through","risk","management","framework","sp","800","37","rev","ato","prepare"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/executing-nist-rmf-authorization-to-operate/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/executing-nist-rmf-authorization-to-operate","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-nist-rmf-authorization-to-operate","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":5,"bytes":37114,"sha256":"48c8e110fd95a5cbf653f50eefe75b1f1f2cdfc40b70ba842dbe035b6519a732","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/executing-nist-rmf-authorization-to-operate/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-nist-rmf-authorization-to-operate/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/executing-nist-rmf-authorization-to-operate/SKILL.md","bytes":8846,"sha256":"48c8e110fd95a5cbf653f50eefe75b1f1f2cdfc40b70ba842dbe035b6519a732","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-nist-rmf-authorization-to-operate/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/executing-nist-rmf-authorization-to-operate/assets/template.md","bytes":4344,"sha256":"8528f3a2a948cf4ed6ca28af146519cdee3168b4b3bf558422dd8c0b658830fe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-nist-rmf-authorization-to-operate/assets/template.md"},{"path":"references/standards.md","sourcePath":"skills/executing-nist-rmf-authorization-to-operate/references/standards.md","bytes":4750,"sha256":"cbad00a5c45b3d86cf8fb1be38d2372548e2850aabe991575503db330952844f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-nist-rmf-authorization-to-operate/references/standards.md"},{"path":"scripts/process.py","sourcePath":"skills/executing-nist-rmf-authorization-to-operate/scripts/process.py","bytes":7919,"sha256":"2e59d12da6d38b543f69f777a12b2b2754836fa122d77d78192ff067269547bd","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-nist-rmf-authorization-to-operate/scripts/process.py"}],"archiveSha256":"11c818b04c0d3acf787cd88b0a8feb40d4fd3dd9cb4be5bc0d5bd680f6f3005a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--executing-nist-rmf-authorization-to-operate",
+    "name": "executing-nist-rmf-authorization-to-operate",
+    "description": "Drive a federal system through the NIST Risk Management Framework (SP 800-37 Rev 2) to an Authorization to Operate (ATO): Prepare, Categorize (FIPS 199), Select a control baseline (FIPS 200 / SP 800-53 Rev 5), Implement, Assess (SP 800-53A), Authorize, and Monitor continuously. Use when a system needs an ATO or a renewal, when working a FISMA/FedRAMP authorization package, when building or reviewing an SSP, SAR, or POA&M, when categorizing a system as Low/Moderate/High impact, when selecting or tailoring a control baseline, or when standing up continuous monitoring (ConMon) after authorization. Covers ATO, conditional ATO (cATO), and the artifacts assessors expect. Keywords: NIST RMF, 800-37, ATO, authorization to operate, FISMA, FedRAMP, SSP, SAR, POA&M, FIPS 199, FIPS 200, 800-53, 800-53A, control baseline, security categorization, continuous monitoring, authorizing official, system boundary, ongoing authorization.",
+    "category": "Security",
+    "tags": [
+      "executing",
+      "nist",
+      "rmf",
+      "authorization",
+      "operate",
+      "drive",
+      "federal",
+      "system",
+      "through",
+      "risk",
+      "management",
+      "framework",
+      "sp",
+      "800",
+      "37",
+      "rev",
+      "ato",
+      "prepare"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/executing-nist-rmf-authorization-to-operate/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/executing-nist-rmf-authorization-to-operate",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-nist-rmf-authorization-to-operate",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 37114,
+    "sha256": "48c8e110fd95a5cbf653f50eefe75b1f1f2cdfc40b70ba842dbe035b6519a732",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/executing-nist-rmf-authorization-to-operate/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-nist-rmf-authorization-to-operate/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/executing-nist-rmf-authorization-to-operate/SKILL.md",
+      "bytes": 8846,
+      "sha256": "48c8e110fd95a5cbf653f50eefe75b1f1f2cdfc40b70ba842dbe035b6519a732",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-nist-rmf-authorization-to-operate/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/executing-nist-rmf-authorization-to-operate/assets/template.md",
+      "bytes": 4344,
+      "sha256": "8528f3a2a948cf4ed6ca28af146519cdee3168b4b3bf558422dd8c0b658830fe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-nist-rmf-authorization-to-operate/assets/template.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/executing-nist-rmf-authorization-to-operate/references/standards.md",
+      "bytes": 4750,
+      "sha256": "cbad00a5c45b3d86cf8fb1be38d2372548e2850aabe991575503db330952844f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-nist-rmf-authorization-to-operate/references/standards.md"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/executing-nist-rmf-authorization-to-operate/scripts/process.py",
+      "bytes": 7919,
+      "sha256": "2e59d12da6d38b543f69f777a12b2b2754836fa122d77d78192ff067269547bd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-nist-rmf-authorization-to-operate/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "11c818b04c0d3acf787cd88b0a8feb40d4fd3dd9cb4be5bc0d5bd680f6f3005a"
+}

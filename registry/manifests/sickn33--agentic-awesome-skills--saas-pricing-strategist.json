@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--saas-pricing-strategist","name":"saas-pricing-strategist","description":"Design, optimize, and test pricing strategies for SaaS products using data-driven frameworks, competitive analysis, and psychological pricing principles.","category":"Design","tags":["saas","pricing","strategist","design","optimize","test","strategies","products","data","driven","frameworks","competitive","analysis","psychological","principles."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/saas-pricing-strategist","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/saas-pricing-strategist","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7353,"sha256":"7be880760b745b57c2802b079eefe51300228411e2f83b2afa93dae8d896c1e8","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/saas-pricing-strategist/SKILL.md","bytes":6280,"sha256":"7be880760b745b57c2802b079eefe51300228411e2f83b2afa93dae8d896c1e8","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/saas-pricing-strategist/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"5a79433a6b5f0fde42b23199016121aa46cbc6484c16e8d89de3b0d480950544"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--saas-pricing-strategist",
+    "name": "saas-pricing-strategist",
+    "description": "Design, optimize, and test pricing strategies for SaaS products using data-driven frameworks, competitive analysis, and psychological pricing principles.",
+    "category": "Design",
+    "tags": [
+      "saas",
+      "pricing",
+      "strategist",
+      "design",
+      "optimize",
+      "test",
+      "strategies",
+      "products",
+      "data",
+      "driven",
+      "frameworks",
+      "competitive",
+      "analysis",
+      "psychological",
+      "principles."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/saas-pricing-strategist",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/saas-pricing-strategist",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7353,
+    "sha256": "7be880760b745b57c2802b079eefe51300228411e2f83b2afa93dae8d896c1e8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/saas-pricing-strategist/SKILL.md",
+      "bytes": 6280,
+      "sha256": "7be880760b745b57c2802b079eefe51300228411e2f83b2afa93dae8d896c1e8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/saas-pricing-strategist/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "5a79433a6b5f0fde42b23199016121aa46cbc6484c16e8d89de3b0d480950544"
+}

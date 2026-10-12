@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-aws-iam-privilege-escalation","name":"detecting-aws-iam-privilege-escalation","description":"Detect AWS IAM privilege escalation paths using boto3 and Cloudsplaining policy analysis to identify overly permissive policies, dangerous permission combinations, and least-privilege violations","category":"Cloud & DevOps","tags":["detecting","aws","iam","privilege","escalation","detect","paths","boto3","cloudsplaining","policy","analysis","identify","overly","permissive","policies","dangerous","permission","combinations"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-aws-iam-privilege-escalation/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-aws-iam-privilege-escalation","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-iam-privilege-escalation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":25459,"sha256":"e29258c1b879099f67a013fcc385c46e4923359e8aff19b79c998c0d671951d9","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-aws-iam-privilege-escalation/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-iam-privilege-escalation/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-aws-iam-privilege-escalation/SKILL.md","bytes":2446,"sha256":"e29258c1b879099f67a013fcc385c46e4923359e8aff19b79c998c0d671951d9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-iam-privilege-escalation/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-aws-iam-privilege-escalation/references/api-reference.md","bytes":2238,"sha256":"6fb2d5174d0dd8ff3eb109b45cfcd74e814ccb8489690ac451d27aab46a89a9c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-iam-privilege-escalation/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-aws-iam-privilege-escalation/scripts/agent.py","bytes":9520,"sha256":"3bce5a59d609535f6a19b28e812489d2bddd9876899312ac1b993c11a3ab65c0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-iam-privilege-escalation/scripts/agent.py"}],"archiveSha256":"24d0aa3d1343287b76ed293427068d9291e0f750d1b2c23ae1a90f5b3372f944"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-aws-iam-privilege-escalation",
+    "name": "detecting-aws-iam-privilege-escalation",
+    "description": "Detect AWS IAM privilege escalation paths using boto3 and Cloudsplaining policy analysis to identify overly permissive policies, dangerous permission combinations, and least-privilege violations",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "detecting",
+      "aws",
+      "iam",
+      "privilege",
+      "escalation",
+      "detect",
+      "paths",
+      "boto3",
+      "cloudsplaining",
+      "policy",
+      "analysis",
+      "identify",
+      "overly",
+      "permissive",
+      "policies",
+      "dangerous",
+      "permission",
+      "combinations"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-aws-iam-privilege-escalation/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-aws-iam-privilege-escalation",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-iam-privilege-escalation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 25459,
+    "sha256": "e29258c1b879099f67a013fcc385c46e4923359e8aff19b79c998c0d671951d9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-aws-iam-privilege-escalation/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-iam-privilege-escalation/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-aws-iam-privilege-escalation/SKILL.md",
+      "bytes": 2446,
+      "sha256": "e29258c1b879099f67a013fcc385c46e4923359e8aff19b79c998c0d671951d9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-iam-privilege-escalation/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-aws-iam-privilege-escalation/references/api-reference.md",
+      "bytes": 2238,
+      "sha256": "6fb2d5174d0dd8ff3eb109b45cfcd74e814ccb8489690ac451d27aab46a89a9c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-iam-privilege-escalation/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-aws-iam-privilege-escalation/scripts/agent.py",
+      "bytes": 9520,
+      "sha256": "3bce5a59d609535f6a19b28e812489d2bddd9876899312ac1b993c11a3ab65c0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-iam-privilege-escalation/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "24d0aa3d1343287b76ed293427068d9291e0f750d1b2c23ae1a90f5b3372f944"
+}

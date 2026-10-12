@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"coreyhaines31--marketingskills--competitor-profiling","name":"competitor-profiling","description":"When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile this competitor,' 'analyze competitor,' 'competitive intelligence,' 'competitor deep dive,' 'who are my competitors,' 'competitor landscape,' 'competitor dossier,' 'competitive audit,' or 'research these competitors.' Input is a list of competitor URLs. Output is structured competitor profile markdown files. For creating comparison/alternative pages from profiles, see competitors. For sales-specific battle cards, see sales-enablement. For researching accounts you're selling to, see prospecting.","category":"Data & research","tags":["competitor","profiling","when","user","wants","research","profile","analyze","competitors","from","their","urls.","also","mentions","analysis","competitive","intelligence","deep"],"repo":"coreyhaines31/marketingskills","owner":"coreyhaines31","stars":54287,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff","path":"skills/competitor-profiling","sourceUrl":"https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/competitor-profiling","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-08T21:51:37Z","fileCount":5,"bytes":44859,"sha256":"ed74677eb8dfe4a3c97ccb0f7f1a1070dc6aed1d93836ed9322d99d86e558928","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/competitor-profiling/SKILL.md","bytes":17425,"sha256":"ed74677eb8dfe4a3c97ccb0f7f1a1070dc6aed1d93836ed9322d99d86e558928","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/competitor-profiling/SKILL.md"},{"path":"evals/evals.json","sourcePath":"skills/competitor-profiling/evals/evals.json","bytes":8565,"sha256":"89e7a8dee7c688adde18f2885ee4b52011faab29255f182c401b19fe78caf264","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/competitor-profiling/evals/evals.json"},{"path":"references/templates.md","sourcePath":"skills/competitor-profiling/references/templates.md","bytes":4668,"sha256":"710d78cb519012eb7e39f63643e22d7b9026c91c569262b44c45535c10717a91","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/competitor-profiling/references/templates.md"},{"path":"references/tool-reference.md","sourcePath":"skills/competitor-profiling/references/tool-reference.md","bytes":13132,"sha256":"fda64910bc1b3a2bc7df21c15701220849b4b79a58a51f9d3ccae1b7311dbd79","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/competitor-profiling/references/tool-reference.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1069,"sha256":"b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"}],"archiveSha256":"14d18383c90bf06d6e48eae21680d17a8f91ad3ab60a71b5834bcf1a358cc671"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "coreyhaines31--marketingskills--competitor-profiling",
+    "name": "competitor-profiling",
+    "description": "When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile this competitor,' 'analyze competitor,' 'competitive intelligence,' 'competitor deep dive,' 'who are my competitors,' 'competitor landscape,' 'competitor dossier,' 'competitive audit,' or 'research these competitors.' Input is a list of competitor URLs. Output is structured competitor profile markdown files. For creating comparison/alternative pages from profiles, see competitors. For sales-specific battle cards, see sales-enablement. For researching accounts you're selling to, see prospecting.",
+    "category": "Data & research",
+    "tags": [
+      "competitor",
+      "profiling",
+      "when",
+      "user",
+      "wants",
+      "research",
+      "profile",
+      "analyze",
+      "competitors",
+      "from",
+      "their",
+      "urls.",
+      "also",
+      "mentions",
+      "analysis",
+      "competitive",
+      "intelligence",
+      "deep"
+    ],
+    "repo": "coreyhaines31/marketingskills",
+    "owner": "coreyhaines31",
+    "stars": 54287,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff",
+    "path": "skills/competitor-profiling",
+    "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/competitor-profiling",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-08T21:51:37Z",
+    "fileCount": 5,
+    "bytes": 44859,
+    "sha256": "ed74677eb8dfe4a3c97ccb0f7f1a1070dc6aed1d93836ed9322d99d86e558928",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/competitor-profiling/SKILL.md",
+      "bytes": 17425,
+      "sha256": "ed74677eb8dfe4a3c97ccb0f7f1a1070dc6aed1d93836ed9322d99d86e558928",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/competitor-profiling/SKILL.md"
+    },
+    {
+      "path": "evals/evals.json",
+      "sourcePath": "skills/competitor-profiling/evals/evals.json",
+      "bytes": 8565,
+      "sha256": "89e7a8dee7c688adde18f2885ee4b52011faab29255f182c401b19fe78caf264",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/competitor-profiling/evals/evals.json"
+    },
+    {
+      "path": "references/templates.md",
+      "sourcePath": "skills/competitor-profiling/references/templates.md",
+      "bytes": 4668,
+      "sha256": "710d78cb519012eb7e39f63643e22d7b9026c91c569262b44c45535c10717a91",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/competitor-profiling/references/templates.md"
+    },
+    {
+      "path": "references/tool-reference.md",
+      "sourcePath": "skills/competitor-profiling/references/tool-reference.md",
+      "bytes": 13132,
+      "sha256": "fda64910bc1b3a2bc7df21c15701220849b4b79a58a51f9d3ccae1b7311dbd79",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/competitor-profiling/references/tool-reference.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"
+    }
+  ],
+  "archiveSha256": "14d18383c90bf06d6e48eae21680d17a8f91ad3ab60a71b5834bcf1a358cc671"
+}

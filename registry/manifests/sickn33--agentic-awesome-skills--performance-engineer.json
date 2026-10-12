@@ -1,1 +1,52 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--performance-engineer","name":"performance-engineer","description":"Expert performance engineer specializing in modern observability,","category":"Development","tags":["performance","engineer","expert","specializing","modern","observability"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/performance-engineer","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/performance-engineer","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12227,"sha256":"551387dcfa7464aa931a803778f58af90650d19904204aef6909139ed35e31e2","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/performance-engineer/SKILL.md","bytes":11154,"sha256":"551387dcfa7464aa931a803778f58af90650d19904204aef6909139ed35e31e2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/performance-engineer/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"838119dc62d9f8f1ca59cb4f83bd95a52fd71a324a0997a0cc03bcab5b0084a0"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--performance-engineer",
+    "name": "performance-engineer",
+    "description": "Expert performance engineer specializing in modern observability,",
+    "category": "Development",
+    "tags": [
+      "performance",
+      "engineer",
+      "expert",
+      "specializing",
+      "modern",
+      "observability"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/performance-engineer",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/performance-engineer",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12227,
+    "sha256": "551387dcfa7464aa931a803778f58af90650d19904204aef6909139ed35e31e2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performance-engineer/SKILL.md",
+      "bytes": 11154,
+      "sha256": "551387dcfa7464aa931a803778f58af90650d19904204aef6909139ed35e31e2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/performance-engineer/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "838119dc62d9f8f1ca59cb4f83bd95a52fd71a324a0997a0cc03bcab5b0084a0"
+}

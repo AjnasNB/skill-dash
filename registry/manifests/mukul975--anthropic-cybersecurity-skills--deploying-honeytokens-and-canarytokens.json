@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--deploying-honeytokens-and-canarytokens","name":"deploying-honeytokens-and-canarytokens","description":"Plants Canarytokens-based decoy artifacts (honey credentials, DNS tokens, web-bug URLs, AWS keys, documents, kubeconfigs) using Thinkst's open-source Canarytokens project and alerts via email or webhook when a token is touched. Use for high-fidelity intrusion detection in low-telemetry areas like file shares or credential stores, or to catch credential dumping and data-theft staging.","category":"Cloud & DevOps","tags":["deploying","honeytokens","canarytokens","plants","based","decoy","artifacts","honey","credentials","dns","tokens","web","bug","urls","aws","keys","documents","kubeconfigs"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/deploying-honeytokens-and-canarytokens/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/deploying-honeytokens-and-canarytokens","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-honeytokens-and-canarytokens","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":5,"bytes":36224,"sha256":"b1774ae5ebc67d781cc2316d85314e2031f792a96aa5259865ca3ad27d2cfe79","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/deploying-honeytokens-and-canarytokens/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-honeytokens-and-canarytokens/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/deploying-honeytokens-and-canarytokens/SKILL.md","bytes":13030,"sha256":"b1774ae5ebc67d781cc2316d85314e2031f792a96aa5259865ca3ad27d2cfe79","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-honeytokens-and-canarytokens/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/deploying-honeytokens-and-canarytokens/references/api-reference.md","bytes":3632,"sha256":"d88872636b124cfd36f29f443a5f261f53c9435b28a4d6a14309342f69b58465","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-honeytokens-and-canarytokens/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/deploying-honeytokens-and-canarytokens/references/standards.md","bytes":1534,"sha256":"d53f107774da2a379fde71df96c818a6c6599ef328af6cb804d34ef61d7d31a2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-honeytokens-and-canarytokens/references/standards.md"},{"path":"scripts/agent.py","sourcePath":"skills/deploying-honeytokens-and-canarytokens/scripts/agent.py","bytes":6773,"sha256":"de38d1bfcf2a04408b8ee51aaf74baee0e2b55285182bdfeae982698f0b0faad","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-honeytokens-and-canarytokens/scripts/agent.py"}],"archiveSha256":"27938dc83c8f82d5ecdbcdd327f7f5a483473e1fc76194467dbf7feebd2b0828"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--deploying-honeytokens-and-canarytokens",
+    "name": "deploying-honeytokens-and-canarytokens",
+    "description": "Plants Canarytokens-based decoy artifacts (honey credentials, DNS tokens, web-bug URLs, AWS keys, documents, kubeconfigs) using Thinkst's open-source Canarytokens project and alerts via email or webhook when a token is touched. Use for high-fidelity intrusion detection in low-telemetry areas like file shares or credential stores, or to catch credential dumping and data-theft staging.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "deploying",
+      "honeytokens",
+      "canarytokens",
+      "plants",
+      "based",
+      "decoy",
+      "artifacts",
+      "honey",
+      "credentials",
+      "dns",
+      "tokens",
+      "web",
+      "bug",
+      "urls",
+      "aws",
+      "keys",
+      "documents",
+      "kubeconfigs"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/deploying-honeytokens-and-canarytokens/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/deploying-honeytokens-and-canarytokens",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-honeytokens-and-canarytokens",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 36224,
+    "sha256": "b1774ae5ebc67d781cc2316d85314e2031f792a96aa5259865ca3ad27d2cfe79",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/deploying-honeytokens-and-canarytokens/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-honeytokens-and-canarytokens/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/deploying-honeytokens-and-canarytokens/SKILL.md",
+      "bytes": 13030,
+      "sha256": "b1774ae5ebc67d781cc2316d85314e2031f792a96aa5259865ca3ad27d2cfe79",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-honeytokens-and-canarytokens/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/deploying-honeytokens-and-canarytokens/references/api-reference.md",
+      "bytes": 3632,
+      "sha256": "d88872636b124cfd36f29f443a5f261f53c9435b28a4d6a14309342f69b58465",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-honeytokens-and-canarytokens/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/deploying-honeytokens-and-canarytokens/references/standards.md",
+      "bytes": 1534,
+      "sha256": "d53f107774da2a379fde71df96c818a6c6599ef328af6cb804d34ef61d7d31a2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-honeytokens-and-canarytokens/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/deploying-honeytokens-and-canarytokens/scripts/agent.py",
+      "bytes": 6773,
+      "sha256": "de38d1bfcf2a04408b8ee51aaf74baee0e2b55285182bdfeae982698f0b0faad",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-honeytokens-and-canarytokens/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "27938dc83c8f82d5ecdbcdd327f7f5a483473e1fc76194467dbf7feebd2b0828"
+}

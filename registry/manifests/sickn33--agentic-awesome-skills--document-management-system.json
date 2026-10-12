@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--document-management-system","name":"document-management-system","description":"Document register: type, owner, upload and signed dates, version, storage link, confidentiality and signature-required flag. Use for document control.","category":"Development","tags":["document","management","system","register","type","owner","upload","signed","dates","version","storage","link","confidentiality","signature","required","flag.","control."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/document-management-system","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/document-management-system","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":15170,"sha256":"73bbd1a9cf8c8f5d6c5f90c892fd0b05dd6e5511fdd5a9c068c64fdd64982ac5","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/document-management-system/SKILL.md","bytes":14097,"sha256":"73bbd1a9cf8c8f5d6c5f90c892fd0b05dd6e5511fdd5a9c068c64fdd64982ac5","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/document-management-system/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"3a3439c48d7c445e9b1db29f3f4f9098dd0fadf3a56a549ddb023b56353d2ee9"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--document-management-system",
+    "name": "document-management-system",
+    "description": "Document register: type, owner, upload and signed dates, version, storage link, confidentiality and signature-required flag. Use for document control.",
+    "category": "Development",
+    "tags": [
+      "document",
+      "management",
+      "system",
+      "register",
+      "type",
+      "owner",
+      "upload",
+      "signed",
+      "dates",
+      "version",
+      "storage",
+      "link",
+      "confidentiality",
+      "signature",
+      "required",
+      "flag.",
+      "control."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/document-management-system",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/document-management-system",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 15170,
+    "sha256": "73bbd1a9cf8c8f5d6c5f90c892fd0b05dd6e5511fdd5a9c068c64fdd64982ac5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/document-management-system/SKILL.md",
+      "bytes": 14097,
+      "sha256": "73bbd1a9cf8c8f5d6c5f90c892fd0b05dd6e5511fdd5a9c068c64fdd64982ac5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/document-management-system/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "3a3439c48d7c445e9b1db29f3f4f9098dd0fadf3a56a549ddb023b56353d2ee9"
+}

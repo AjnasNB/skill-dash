@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--automating-ioc-enrichment","name":"automating-ioc-enrichment","description":"Automates the enrichment of raw indicators of compromise with multi-source threat intelligence context using SOAR platforms, Python pipelines, or TIP playbooks to reduce analyst triage time and standardize enrichment outputs. Use when building automated enrichment workflows integrated with SIEM alerts, email submission pipelines, or bulk IOC processing from threat feeds. Activates for requests involving SOAR enrichment, Cortex XSOAR, Splunk SOAR, TheHive, Python enrichment pipelines, or automated IOC processing.","category":"Security","tags":["automating","ioc","enrichment","automates","raw","indicators","compromise","multi","source","threat","intelligence","context","soar","platforms","python","pipelines","tip","playbooks"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/automating-ioc-enrichment/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/automating-ioc-enrichment","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/automating-ioc-enrichment","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":29764,"sha256":"185037aedd5f7c642f53ed3539620c0ff7833aadaa22959b5df534062488f4c4","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/automating-ioc-enrichment/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/automating-ioc-enrichment/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/automating-ioc-enrichment/SKILL.md","bytes":8667,"sha256":"185037aedd5f7c642f53ed3539620c0ff7833aadaa22959b5df534062488f4c4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/automating-ioc-enrichment/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/automating-ioc-enrichment/references/api-reference.md","bytes":1845,"sha256":"c2776074100e08e58749170dc6d3d39ca6d094c26e46e3625d25a543efe67bd7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/automating-ioc-enrichment/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/automating-ioc-enrichment/scripts/agent.py","bytes":7997,"sha256":"82b506efb37d982d06ac89e5e4ab8315571be1e64459effe23f5d75369ee4c74","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/automating-ioc-enrichment/scripts/agent.py"}],"archiveSha256":"98ed07cc44966aa92a6ab768171b6180ed73c9ea2363ce4877582533d9bc0c4d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--automating-ioc-enrichment",
+    "name": "automating-ioc-enrichment",
+    "description": "Automates the enrichment of raw indicators of compromise with multi-source threat intelligence context using SOAR platforms, Python pipelines, or TIP playbooks to reduce analyst triage time and standardize enrichment outputs. Use when building automated enrichment workflows integrated with SIEM alerts, email submission pipelines, or bulk IOC processing from threat feeds. Activates for requests involving SOAR enrichment, Cortex XSOAR, Splunk SOAR, TheHive, Python enrichment pipelines, or automated IOC processing.",
+    "category": "Security",
+    "tags": [
+      "automating",
+      "ioc",
+      "enrichment",
+      "automates",
+      "raw",
+      "indicators",
+      "compromise",
+      "multi",
+      "source",
+      "threat",
+      "intelligence",
+      "context",
+      "soar",
+      "platforms",
+      "python",
+      "pipelines",
+      "tip",
+      "playbooks"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/automating-ioc-enrichment/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/automating-ioc-enrichment",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/automating-ioc-enrichment",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 29764,
+    "sha256": "185037aedd5f7c642f53ed3539620c0ff7833aadaa22959b5df534062488f4c4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/automating-ioc-enrichment/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/automating-ioc-enrichment/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/automating-ioc-enrichment/SKILL.md",
+      "bytes": 8667,
+      "sha256": "185037aedd5f7c642f53ed3539620c0ff7833aadaa22959b5df534062488f4c4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/automating-ioc-enrichment/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/automating-ioc-enrichment/references/api-reference.md",
+      "bytes": 1845,
+      "sha256": "c2776074100e08e58749170dc6d3d39ca6d094c26e46e3625d25a543efe67bd7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/automating-ioc-enrichment/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/automating-ioc-enrichment/scripts/agent.py",
+      "bytes": 7997,
+      "sha256": "82b506efb37d982d06ac89e5e4ab8315571be1e64459effe23f5d75369ee4c74",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/automating-ioc-enrichment/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "98ed07cc44966aa92a6ab768171b6180ed73c9ea2363ce4877582533d9bc0c4d"
+}

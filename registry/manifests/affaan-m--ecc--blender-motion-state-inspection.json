@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--blender-motion-state-inspection","name":"blender-motion-state-inspection","description":"Use this skill when inspecting Blender characters, rigs, poses, animation retargeting, ground contact, facing direction, or model-vs-motion alignment where screenshots alone are not enough.","category":"Design","tags":["blender","motion","state","inspection","skill","when","inspecting","characters","rigs","poses","animation","retargeting","ground","contact","facing","direction","model","vs"],"repo":"affaan-m/ECC","owner":"affaan-m","stars":277532,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"b92f181b3b748d1abbc2afd94af6aa7d8c8fca29","path":"skills/blender-motion-state-inspection","sourceUrl":"https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/blender-motion-state-inspection","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T02:02:10Z","fileCount":2,"bytes":9217,"sha256":"97b8aee8822a8603e2fc930f66b4bd18507c11ca756accd1419a2a3526196f5c","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/blender-motion-state-inspection/SKILL.md","bytes":8146,"sha256":"97b8aee8822a8603e2fc930f66b4bd18507c11ca756accd1419a2a3526196f5c","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/blender-motion-state-inspection/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"}],"archiveSha256":"576010eb0aa599aebb1246e1f2b9b4d2baa38e693ddbde1620f26831a230bfe6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--blender-motion-state-inspection",
+    "name": "blender-motion-state-inspection",
+    "description": "Use this skill when inspecting Blender characters, rigs, poses, animation retargeting, ground contact, facing direction, or model-vs-motion alignment where screenshots alone are not enough.",
+    "category": "Design",
+    "tags": [
+      "blender",
+      "motion",
+      "state",
+      "inspection",
+      "skill",
+      "when",
+      "inspecting",
+      "characters",
+      "rigs",
+      "poses",
+      "animation",
+      "retargeting",
+      "ground",
+      "contact",
+      "facing",
+      "direction",
+      "model",
+      "vs"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/blender-motion-state-inspection",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/blender-motion-state-inspection",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 2,
+    "bytes": 9217,
+    "sha256": "97b8aee8822a8603e2fc930f66b4bd18507c11ca756accd1419a2a3526196f5c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/blender-motion-state-inspection/SKILL.md",
+      "bytes": 8146,
+      "sha256": "97b8aee8822a8603e2fc930f66b4bd18507c11ca756accd1419a2a3526196f5c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/blender-motion-state-inspection/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "576010eb0aa599aebb1246e1f2b9b4d2baa38e693ddbde1620f26831a230bfe6"
+}

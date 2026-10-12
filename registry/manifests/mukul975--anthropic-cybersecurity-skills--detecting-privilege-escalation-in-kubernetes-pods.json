@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-privilege-escalation-in-kubernetes-pods","name":"detecting-privilege-escalation-in-kubernetes-pods","description":"Detects and prevents privilege escalation inside Kubernetes pods by combining admission control (OPA policies), runtime monitoring (Falco), and audit log analysis of security contexts, Linux capabilities, and syscall patterns. Use when investigating a pod running as root or privileged, hardening workloads against in-pod escalation, or hunting for containers exceeding their intended scope. Keywords: allowPrivilegeEscalation, runAsRoot, capabilities, securityContext, OPA, Falco, audit log. Do not use for escalation through RBAC and service-account permissions - use auditing-kubernetes-rbac-privilege-escalation.","category":"Security","tags":["detecting","privilege","escalation","kubernetes","pods","detects","prevents","inside","by","combining","admission","control","opa","policies","runtime","monitoring","falco","audit"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-privilege-escalation-in-kubernetes-pods/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-privilege-escalation-in-kubernetes-pods","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-in-kubernetes-pods","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":34939,"sha256":"fbadde97dd456a82afa3e53e571d83cc0d84c8059d099d6e309349a7c561121b","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-privilege-escalation-in-kubernetes-pods/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-in-kubernetes-pods/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-privilege-escalation-in-kubernetes-pods/SKILL.md","bytes":9427,"sha256":"fbadde97dd456a82afa3e53e571d83cc0d84c8059d099d6e309349a7c561121b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-in-kubernetes-pods/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/detecting-privilege-escalation-in-kubernetes-pods/assets/template.md","bytes":1064,"sha256":"5e6125343dac7faeccc873f6ae19fb36fe1eb277552fbc342492b31ff27bde38","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-in-kubernetes-pods/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-privilege-escalation-in-kubernetes-pods/references/api-reference.md","bytes":1220,"sha256":"4960ba2898781fe6e8cf52d85445e3174ebb1164ede61cf80876842001e1abf9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-in-kubernetes-pods/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/detecting-privilege-escalation-in-kubernetes-pods/references/standards.md","bytes":1066,"sha256":"e0d1ab864dd363543c9ae8dfc70f76566c9526314fc2406d409be85eb8bbc7e6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-in-kubernetes-pods/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/detecting-privilege-escalation-in-kubernetes-pods/references/workflows.md","bytes":1200,"sha256":"0e6896a25de0f3dc326f369de06b8b718f499b6cbac98cd0fff51c724e9ffbb1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-in-kubernetes-pods/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-privilege-escalation-in-kubernetes-pods/scripts/agent.py","bytes":4301,"sha256":"ff60d49de507ea535b23768af0fe8371183cea73afc6a37b77ed837410baf4ba","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-in-kubernetes-pods/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/detecting-privilege-escalation-in-kubernetes-pods/scripts/process.py","bytes":5406,"sha256":"ce895111663841bc084b12a9f521e638fdf023cafef42e2b634d7520f96d248d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-in-kubernetes-pods/scripts/process.py"}],"archiveSha256":"dbbb16e99832f19acce14287b066cf8faa6610aab7b7f248ca06232e4945b55a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-privilege-escalation-in-kubernetes-pods",
+    "name": "detecting-privilege-escalation-in-kubernetes-pods",
+    "description": "Detects and prevents privilege escalation inside Kubernetes pods by combining admission control (OPA policies), runtime monitoring (Falco), and audit log analysis of security contexts, Linux capabilities, and syscall patterns. Use when investigating a pod running as root or privileged, hardening workloads against in-pod escalation, or hunting for containers exceeding their intended scope. Keywords: allowPrivilegeEscalation, runAsRoot, capabilities, securityContext, OPA, Falco, audit log. Do not use for escalation through RBAC and service-account permissions - use auditing-kubernetes-rbac-privilege-escalation.",
+    "category": "Security",
+    "tags": [
+      "detecting",
+      "privilege",
+      "escalation",
+      "kubernetes",
+      "pods",
+      "detects",
+      "prevents",
+      "inside",
+      "by",
+      "combining",
+      "admission",
+      "control",
+      "opa",
+      "policies",
+      "runtime",
+      "monitoring",
+      "falco",
+      "audit"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-privilege-escalation-in-kubernetes-pods/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-privilege-escalation-in-kubernetes-pods",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-in-kubernetes-pods",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 34939,
+    "sha256": "fbadde97dd456a82afa3e53e571d83cc0d84c8059d099d6e309349a7c561121b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-privilege-escalation-in-kubernetes-pods/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-in-kubernetes-pods/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-privilege-escalation-in-kubernetes-pods/SKILL.md",
+      "bytes": 9427,
+      "sha256": "fbadde97dd456a82afa3e53e571d83cc0d84c8059d099d6e309349a7c561121b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-in-kubernetes-pods/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/detecting-privilege-escalation-in-kubernetes-pods/assets/template.md",
+      "bytes": 1064,
+      "sha256": "5e6125343dac7faeccc873f6ae19fb36fe1eb277552fbc342492b31ff27bde38",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-in-kubernetes-pods/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-privilege-escalation-in-kubernetes-pods/references/api-reference.md",
+      "bytes": 1220,
+      "sha256": "4960ba2898781fe6e8cf52d85445e3174ebb1164ede61cf80876842001e1abf9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-in-kubernetes-pods/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/detecting-privilege-escalation-in-kubernetes-pods/references/standards.md",
+      "bytes": 1066,
+      "sha256": "e0d1ab864dd363543c9ae8dfc70f76566c9526314fc2406d409be85eb8bbc7e6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-in-kubernetes-pods/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/detecting-privilege-escalation-in-kubernetes-pods/references/workflows.md",
+      "bytes": 1200,
+      "sha256": "0e6896a25de0f3dc326f369de06b8b718f499b6cbac98cd0fff51c724e9ffbb1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-in-kubernetes-pods/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-privilege-escalation-in-kubernetes-pods/scripts/agent.py",
+      "bytes": 4301,
+      "sha256": "ff60d49de507ea535b23768af0fe8371183cea73afc6a37b77ed837410baf4ba",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-in-kubernetes-pods/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/detecting-privilege-escalation-in-kubernetes-pods/scripts/process.py",
+      "bytes": 5406,
+      "sha256": "ce895111663841bc084b12a9f521e638fdf023cafef42e2b634d7520f96d248d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-privilege-escalation-in-kubernetes-pods/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "dbbb16e99832f19acce14287b066cf8faa6610aab7b7f248ca06232e4945b55a"
+}

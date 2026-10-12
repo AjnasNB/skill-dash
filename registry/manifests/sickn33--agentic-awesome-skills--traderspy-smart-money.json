@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--traderspy-smart-money","name":"traderspy-smart-money","description":"Track what top crypto futures traders hold on Binance, Hyperliquid, Bybit and OKX with TraderSpy: elite leaderboard, positions, trader profiles and history. Use for \"what are whales doing\".","category":"Development","tags":["traderspy","smart","money","track","what","top","crypto","futures","traders","hold","binance","hyperliquid","bybit","okx","elite","leaderboard","positions","trader"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/traderspy-smart-money","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/traderspy-smart-money","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":13203,"sha256":"b319b49c4c84accc6fc18b372f533a446ac61d3da3d9bd0385dd95a299d7ae8b","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/traderspy-smart-money/SKILL.md","bytes":9609,"sha256":"b319b49c4c84accc6fc18b372f533a446ac61d3da3d9bd0385dd95a299d7ae8b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/traderspy-smart-money/SKILL.md"},{"path":"references/exchange-notes.md","sourcePath":"skills/traderspy-smart-money/references/exchange-notes.md","bytes":2521,"sha256":"7c4b270f2246ca51dc37b6aada94d9acfced125f2312b6c729e4048835507cf0","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/traderspy-smart-money/references/exchange-notes.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"6971e370336b7bb3c0882ec100524b5955f8686a2a053a9ef2e7d4a6a5cc88c8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--traderspy-smart-money",
+    "name": "traderspy-smart-money",
+    "description": "Track what top crypto futures traders hold on Binance, Hyperliquid, Bybit and OKX with TraderSpy: elite leaderboard, positions, trader profiles and history. Use for \"what are whales doing\".",
+    "category": "Development",
+    "tags": [
+      "traderspy",
+      "smart",
+      "money",
+      "track",
+      "what",
+      "top",
+      "crypto",
+      "futures",
+      "traders",
+      "hold",
+      "binance",
+      "hyperliquid",
+      "bybit",
+      "okx",
+      "elite",
+      "leaderboard",
+      "positions",
+      "trader"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/traderspy-smart-money",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/traderspy-smart-money",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 13203,
+    "sha256": "b319b49c4c84accc6fc18b372f533a446ac61d3da3d9bd0385dd95a299d7ae8b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/traderspy-smart-money/SKILL.md",
+      "bytes": 9609,
+      "sha256": "b319b49c4c84accc6fc18b372f533a446ac61d3da3d9bd0385dd95a299d7ae8b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/traderspy-smart-money/SKILL.md"
+    },
+    {
+      "path": "references/exchange-notes.md",
+      "sourcePath": "skills/traderspy-smart-money/references/exchange-notes.md",
+      "bytes": 2521,
+      "sha256": "7c4b270f2246ca51dc37b6aada94d9acfced125f2312b6c729e4048835507cf0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/traderspy-smart-money/references/exchange-notes.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "6971e370336b7bb3c0882ec100524b5955f8686a2a053a9ef2e7d4a6a5cc88c8"
+}

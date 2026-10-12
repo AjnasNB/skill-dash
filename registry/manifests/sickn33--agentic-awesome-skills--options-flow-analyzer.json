@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--options-flow-analyzer","name":"options-flow-analyzer","description":"Real vs lottery call separation for options P/C ratio analysis — prevents signal inversion from deep OTM noise","category":"Development","tags":["options","flow","analyzer","real","vs","lottery","call","separation","ratio","analysis","prevents","signal","inversion","from","deep","otm","noise"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/options-flow-analyzer","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/options-flow-analyzer","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4790,"sha256":"72ec215ce178fa5d18f916ea505f25fc3fda5ad8f6d6d855d27e3b1d08fc9c0c","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/options-flow-analyzer/SKILL.md","bytes":3717,"sha256":"72ec215ce178fa5d18f916ea505f25fc3fda5ad8f6d6d855d27e3b1d08fc9c0c","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/options-flow-analyzer/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"77af21803865c16d6c11c03c6513ad56701fc86806fefc680ed1d25a2aebe83f"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--options-flow-analyzer",
+    "name": "options-flow-analyzer",
+    "description": "Real vs lottery call separation for options P/C ratio analysis — prevents signal inversion from deep OTM noise",
+    "category": "Development",
+    "tags": [
+      "options",
+      "flow",
+      "analyzer",
+      "real",
+      "vs",
+      "lottery",
+      "call",
+      "separation",
+      "ratio",
+      "analysis",
+      "prevents",
+      "signal",
+      "inversion",
+      "from",
+      "deep",
+      "otm",
+      "noise"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/options-flow-analyzer",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/options-flow-analyzer",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4790,
+    "sha256": "72ec215ce178fa5d18f916ea505f25fc3fda5ad8f6d6d855d27e3b1d08fc9c0c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/options-flow-analyzer/SKILL.md",
+      "bytes": 3717,
+      "sha256": "72ec215ce178fa5d18f916ea505f25fc3fda5ad8f6d6d855d27e3b1d08fc9c0c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/options-flow-analyzer/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "77af21803865c16d6c11c03c6513ad56701fc86806fefc680ed1d25a2aebe83f"
+}

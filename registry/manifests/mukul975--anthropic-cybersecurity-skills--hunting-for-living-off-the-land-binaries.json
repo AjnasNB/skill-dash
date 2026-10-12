@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--hunting-for-living-off-the-land-binaries","name":"hunting-for-living-off-the-land-binaries","description":"Proactively hunts for adversary abuse of legitimate, signed system binaries (LOLBins) used to execute malicious payloads, download files, or proxy execution while evading application allowlisting and defense-evasion controls. Use when building LOLBins detection rules for EDR/SIEM or when threat hunting for defense-evasion activity involving trusted system binaries.","category":"Security","tags":["hunting","living","off","land","binaries","proactively","hunts","adversary","abuse","legitimate","signed","system","lolbins","used","execute","malicious","payloads","download"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/hunting-for-living-off-the-land-binaries/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/hunting-for-living-off-the-land-binaries","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-land-binaries","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":56102,"sha256":"8b2ba9c161c4ccab587e4d73e627de525cdd57ee59fe19ec49a2a3781c4ffbbe","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/hunting-for-living-off-the-land-binaries/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-land-binaries/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/hunting-for-living-off-the-land-binaries/SKILL.md","bytes":5582,"sha256":"8b2ba9c161c4ccab587e4d73e627de525cdd57ee59fe19ec49a2a3781c4ffbbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-land-binaries/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/hunting-for-living-off-the-land-binaries/assets/template.md","bytes":3740,"sha256":"205b33f5d94c5022dcc3422358edb9f863b9486cd760d8774ca88170752114ec","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-land-binaries/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/hunting-for-living-off-the-land-binaries/references/api-reference.md","bytes":1958,"sha256":"03c7fe7665366eb186dc2d99371956522ec0ba1946df494bb58d31e48ad1cb27","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-land-binaries/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/hunting-for-living-off-the-land-binaries/references/standards.md","bytes":3135,"sha256":"a5e644f0bac83148ae5d1b082f89cea96016748816e310ae9b6041066e85d7dc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-land-binaries/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/hunting-for-living-off-the-land-binaries/references/workflows.md","bytes":4551,"sha256":"59d5e3eacc1fdf88f7837fdfb6290abab93107aa8d257de2cd23b56ffff92bef","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-land-binaries/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/hunting-for-living-off-the-land-binaries/scripts/agent.py","bytes":6474,"sha256":"b3606033729e79f1a37d1e61da5e8f14a20203bfda8b7b44f920743c2c1e00c3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-land-binaries/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/hunting-for-living-off-the-land-binaries/scripts/process.py","bytes":19407,"sha256":"77a1c5e9beb6f153eb11e238d4a676ef81a7a9e87bda3cd45c5ed7ddd1251063","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-land-binaries/scripts/process.py"}],"archiveSha256":"3a406e5e2700ffae65b888a7975e4c848ca5b3b0bfad84bd63c210c87bf0a272"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-for-living-off-the-land-binaries",
+    "name": "hunting-for-living-off-the-land-binaries",
+    "description": "Proactively hunts for adversary abuse of legitimate, signed system binaries (LOLBins) used to execute malicious payloads, download files, or proxy execution while evading application allowlisting and defense-evasion controls. Use when building LOLBins detection rules for EDR/SIEM or when threat hunting for defense-evasion activity involving trusted system binaries.",
+    "category": "Security",
+    "tags": [
+      "hunting",
+      "living",
+      "off",
+      "land",
+      "binaries",
+      "proactively",
+      "hunts",
+      "adversary",
+      "abuse",
+      "legitimate",
+      "signed",
+      "system",
+      "lolbins",
+      "used",
+      "execute",
+      "malicious",
+      "payloads",
+      "download"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-for-living-off-the-land-binaries/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-for-living-off-the-land-binaries",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-land-binaries",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 56102,
+    "sha256": "8b2ba9c161c4ccab587e4d73e627de525cdd57ee59fe19ec49a2a3781c4ffbbe",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-for-living-off-the-land-binaries/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-land-binaries/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-for-living-off-the-land-binaries/SKILL.md",
+      "bytes": 5582,
+      "sha256": "8b2ba9c161c4ccab587e4d73e627de525cdd57ee59fe19ec49a2a3781c4ffbbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-land-binaries/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/hunting-for-living-off-the-land-binaries/assets/template.md",
+      "bytes": 3740,
+      "sha256": "205b33f5d94c5022dcc3422358edb9f863b9486cd760d8774ca88170752114ec",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-land-binaries/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-for-living-off-the-land-binaries/references/api-reference.md",
+      "bytes": 1958,
+      "sha256": "03c7fe7665366eb186dc2d99371956522ec0ba1946df494bb58d31e48ad1cb27",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-land-binaries/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/hunting-for-living-off-the-land-binaries/references/standards.md",
+      "bytes": 3135,
+      "sha256": "a5e644f0bac83148ae5d1b082f89cea96016748816e310ae9b6041066e85d7dc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-land-binaries/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/hunting-for-living-off-the-land-binaries/references/workflows.md",
+      "bytes": 4551,
+      "sha256": "59d5e3eacc1fdf88f7837fdfb6290abab93107aa8d257de2cd23b56ffff92bef",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-land-binaries/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-for-living-off-the-land-binaries/scripts/agent.py",
+      "bytes": 6474,
+      "sha256": "b3606033729e79f1a37d1e61da5e8f14a20203bfda8b7b44f920743c2c1e00c3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-land-binaries/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/hunting-for-living-off-the-land-binaries/scripts/process.py",
+      "bytes": 19407,
+      "sha256": "77a1c5e9beb6f153eb11e238d4a676ef81a7a9e87bda3cd45c5ed7ddd1251063",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-living-off-the-land-binaries/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "3a406e5e2700ffae65b888a7975e4c848ca5b3b0bfad84bd63c210c87bf0a272"
+}

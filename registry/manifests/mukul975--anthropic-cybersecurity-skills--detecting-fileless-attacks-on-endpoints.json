@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-fileless-attacks-on-endpoints","name":"detecting-fileless-attacks-on-endpoints","description":"Detects fileless malware and in-memory attacks that execute entirely in RAM without writing persistent files to disk, evading traditional antivirus. Use when building detections for PowerShell-based attacks, reflective DLL injection, WMI persistence, and registry-resident malware. Activates for requests involving fileless malware detection, in-memory attacks, PowerShell exploitation, or living-off-the-land techniques.","category":"Security","tags":["detecting","fileless","attacks","endpoints","detects","malware","memory","execute","entirely","ram","without","writing","persistent","files","disk","evading","traditional","antivirus."],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-fileless-attacks-on-endpoints/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-fileless-attacks-on-endpoints","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-fileless-attacks-on-endpoints","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":30338,"sha256":"d0deea298ac6eb95a27ca3ffdfc438c3198b6a87ee663e164368c161ab924cd2","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-fileless-attacks-on-endpoints/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-fileless-attacks-on-endpoints/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-fileless-attacks-on-endpoints/SKILL.md","bytes":7103,"sha256":"d0deea298ac6eb95a27ca3ffdfc438c3198b6a87ee663e164368c161ab924cd2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-fileless-attacks-on-endpoints/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/detecting-fileless-attacks-on-endpoints/assets/template.md","bytes":484,"sha256":"26ed4e018e6cd681863e3a3574dc079ab0783c5d1bbedf1414976ccd797164fb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-fileless-attacks-on-endpoints/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-fileless-attacks-on-endpoints/references/api-reference.md","bytes":1905,"sha256":"6bb55fd4f6bfbd638a4fe73674d1ba7d9eb2a940b135586fc870504a1a5ccc0c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-fileless-attacks-on-endpoints/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/detecting-fileless-attacks-on-endpoints/references/standards.md","bytes":475,"sha256":"67ed43b54421e8ddc3396af7313b60b7a8076bf700a43594b9b112aefe9ee5ea","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-fileless-attacks-on-endpoints/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/detecting-fileless-attacks-on-endpoints/references/workflows.md","bytes":354,"sha256":"e084a5abb8f411270087b6e8bbbe2e26857431bf652c39b07190e82a8fb887ac","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-fileless-attacks-on-endpoints/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-fileless-attacks-on-endpoints/scripts/agent.py","bytes":6474,"sha256":"def23eb9d28000878ab3f84136360faa539fe9c0f5b1982be1222d20a649793d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-fileless-attacks-on-endpoints/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/detecting-fileless-attacks-on-endpoints/scripts/process.py","bytes":2288,"sha256":"373458371c79054abb9afdca425a2ec5e5f0eb87e56e53f0b01fa55f0a9163b8","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-fileless-attacks-on-endpoints/scripts/process.py"}],"archiveSha256":"7b70e6d7e70455421f101e5fec1cbcd9331d336c64003dacd9d41dc7a4c32728"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-fileless-attacks-on-endpoints",
+    "name": "detecting-fileless-attacks-on-endpoints",
+    "description": "Detects fileless malware and in-memory attacks that execute entirely in RAM without writing persistent files to disk, evading traditional antivirus. Use when building detections for PowerShell-based attacks, reflective DLL injection, WMI persistence, and registry-resident malware. Activates for requests involving fileless malware detection, in-memory attacks, PowerShell exploitation, or living-off-the-land techniques.",
+    "category": "Security",
+    "tags": [
+      "detecting",
+      "fileless",
+      "attacks",
+      "endpoints",
+      "detects",
+      "malware",
+      "memory",
+      "execute",
+      "entirely",
+      "ram",
+      "without",
+      "writing",
+      "persistent",
+      "files",
+      "disk",
+      "evading",
+      "traditional",
+      "antivirus."
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-fileless-attacks-on-endpoints/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-fileless-attacks-on-endpoints",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-fileless-attacks-on-endpoints",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 30338,
+    "sha256": "d0deea298ac6eb95a27ca3ffdfc438c3198b6a87ee663e164368c161ab924cd2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-fileless-attacks-on-endpoints/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-fileless-attacks-on-endpoints/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-fileless-attacks-on-endpoints/SKILL.md",
+      "bytes": 7103,
+      "sha256": "d0deea298ac6eb95a27ca3ffdfc438c3198b6a87ee663e164368c161ab924cd2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-fileless-attacks-on-endpoints/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/detecting-fileless-attacks-on-endpoints/assets/template.md",
+      "bytes": 484,
+      "sha256": "26ed4e018e6cd681863e3a3574dc079ab0783c5d1bbedf1414976ccd797164fb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-fileless-attacks-on-endpoints/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-fileless-attacks-on-endpoints/references/api-reference.md",
+      "bytes": 1905,
+      "sha256": "6bb55fd4f6bfbd638a4fe73674d1ba7d9eb2a940b135586fc870504a1a5ccc0c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-fileless-attacks-on-endpoints/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/detecting-fileless-attacks-on-endpoints/references/standards.md",
+      "bytes": 475,
+      "sha256": "67ed43b54421e8ddc3396af7313b60b7a8076bf700a43594b9b112aefe9ee5ea",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-fileless-attacks-on-endpoints/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/detecting-fileless-attacks-on-endpoints/references/workflows.md",
+      "bytes": 354,
+      "sha256": "e084a5abb8f411270087b6e8bbbe2e26857431bf652c39b07190e82a8fb887ac",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-fileless-attacks-on-endpoints/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-fileless-attacks-on-endpoints/scripts/agent.py",
+      "bytes": 6474,
+      "sha256": "def23eb9d28000878ab3f84136360faa539fe9c0f5b1982be1222d20a649793d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-fileless-attacks-on-endpoints/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/detecting-fileless-attacks-on-endpoints/scripts/process.py",
+      "bytes": 2288,
+      "sha256": "373458371c79054abb9afdca425a2ec5e5f0eb87e56e53f0b01fa55f0a9163b8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-fileless-attacks-on-endpoints/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "7b70e6d7e70455421f101e5fec1cbcd9331d336c64003dacd9d41dc7a4c32728"
+}

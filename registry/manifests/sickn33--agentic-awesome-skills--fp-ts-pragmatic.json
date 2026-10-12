@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--fp-ts-pragmatic","name":"fp-ts-pragmatic","description":"A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead. Use when writing TypeScript with fp-ts library.","category":"Writing","tags":["fp","ts","pragmatic","practical","jargon","free","guide","functional","programming","80","20","approach","gets","results","without","academic","overhead.","when"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/fp-ts-pragmatic","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fp-ts-pragmatic","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":17855,"sha256":"fb9f516599ec4df8dfaed20eddf10157422583a2c99906566d44824827398cd8","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/fp-ts-pragmatic/SKILL.md","bytes":3381,"sha256":"fb9f516599ec4df8dfaed20eddf10157422583a2c99906566d44824827398cd8","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fp-ts-pragmatic/SKILL.md"},{"path":"references/detailed-guide.md","sourcePath":"skills/fp-ts-pragmatic/references/detailed-guide.md","bytes":13401,"sha256":"dfaeedfc61db6e83586531b9f88fbe279d87f3caaf75fc0a58ebb6c6f1a88861","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fp-ts-pragmatic/references/detailed-guide.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"4b9c25ad84a2994e2bb40b1aa39074097b8727287e9222ef3ae4e226a315bc1d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--fp-ts-pragmatic",
+    "name": "fp-ts-pragmatic",
+    "description": "A practical, jargon-free guide to fp-ts functional programming - the 80/20 approach that gets results without the academic overhead. Use when writing TypeScript with fp-ts library.",
+    "category": "Writing",
+    "tags": [
+      "fp",
+      "ts",
+      "pragmatic",
+      "practical",
+      "jargon",
+      "free",
+      "guide",
+      "functional",
+      "programming",
+      "80",
+      "20",
+      "approach",
+      "gets",
+      "results",
+      "without",
+      "academic",
+      "overhead.",
+      "when"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/fp-ts-pragmatic",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fp-ts-pragmatic",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 17855,
+    "sha256": "fb9f516599ec4df8dfaed20eddf10157422583a2c99906566d44824827398cd8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/fp-ts-pragmatic/SKILL.md",
+      "bytes": 3381,
+      "sha256": "fb9f516599ec4df8dfaed20eddf10157422583a2c99906566d44824827398cd8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fp-ts-pragmatic/SKILL.md"
+    },
+    {
+      "path": "references/detailed-guide.md",
+      "sourcePath": "skills/fp-ts-pragmatic/references/detailed-guide.md",
+      "bytes": 13401,
+      "sha256": "dfaeedfc61db6e83586531b9f88fbe279d87f3caaf75fc0a58ebb6c6f1a88861",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fp-ts-pragmatic/references/detailed-guide.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "4b9c25ad84a2994e2bb40b1aa39074097b8727287e9222ef3ae4e226a315bc1d"
+}

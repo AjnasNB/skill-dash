@@ -1,1 +1,256 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--claude-api","name":"claude-api","description":"Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-science tasks.","category":"AI & agents","tags":["claude","api","apps","anthropic","sdk.","trigger","when","code","imports","ai","sdk","agent","user","asks","sdks","do","not","openai"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/claude-api/LICENSE.txt","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/claude-api","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":26,"bytes":187577,"sha256":"e40f22d1b5d2b61339588a147a1113fe047583b9fefd879d8500c2dcd452c1f1","historical":false},"files":[{"path":"LICENSE.txt","sourcePath":"skills/claude-api/LICENSE.txt","bytes":11357,"sha256":"58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/LICENSE.txt"},{"path":"SKILL.md","sourcePath":"skills/claude-api/SKILL.md","bytes":18923,"sha256":"e40f22d1b5d2b61339588a147a1113fe047583b9fefd879d8500c2dcd452c1f1","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/SKILL.md"},{"path":"csharp/claude-api.md","sourcePath":"skills/claude-api/csharp/claude-api.md","bytes":1758,"sha256":"55e92c36329806fe659c10965c42f7d121c6b6c085aa7e39ea80b3809e4f13aa","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/csharp/claude-api.md"},{"path":"curl/examples.md","sourcePath":"skills/claude-api/curl/examples.md","bytes":4465,"sha256":"97e4749f469150a926f0738e74ee4215721bd311c44417f7b8162e3ee5c532a9","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/curl/examples.md"},{"path":"go/claude-api.md","sourcePath":"skills/claude-api/go/claude-api.md","bytes":3980,"sha256":"56de3a202ca5f65b33d74349ade747ec783738e8225f4447cadc86ac153778f2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/go/claude-api.md"},{"path":"java/claude-api.md","sourcePath":"skills/claude-api/java/claude-api.md","bytes":3939,"sha256":"1ec16c72bc5cb0f4d7e0b34a018f283cb8e6b7d6fd2f19d05b4733a9b4830c97","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/java/claude-api.md"},{"path":"php/claude-api.md","sourcePath":"skills/claude-api/php/claude-api.md","bytes":1564,"sha256":"2a9b0ca8297903851ae322cb321b58da21b53b9f764a64e7e0fddee393d707e3","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/php/claude-api.md"},{"path":"python/agent-sdk/README.md","sourcePath":"skills/claude-api/python/agent-sdk/README.md","bytes":9869,"sha256":"1ec9db636b305cc27b2ab035953c43dc13d8963224f017c8460eebb27389d1fd","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/python/agent-sdk/README.md"},{"path":"python/agent-sdk/patterns.md","sourcePath":"skills/claude-api/python/agent-sdk/patterns.md","bytes":8208,"sha256":"fc6e7c2bbd70ec8f5149e32d46a5304c46998d9cd5237daf3a7413ee20642818","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/python/agent-sdk/patterns.md"},{"path":"python/claude-api/README.md","sourcePath":"skills/claude-api/python/claude-api/README.md","bytes":10916,"sha256":"984949912a3489b32c87af8bcf3ee3fffcf4880472435367339258a536f29f61","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/python/claude-api/README.md"},{"path":"python/claude-api/batches.md","sourcePath":"skills/claude-api/python/claude-api/batches.md","bytes":4942,"sha256":"a1fd039dfc0090773e68aad4075bc64ea86023fe5d611bb026091ececfe2a120","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/python/claude-api/batches.md"},{"path":"python/claude-api/files-api.md","sourcePath":"skills/claude-api/python/claude-api/files-api.md","bytes":3875,"sha256":"3f9c79814ece4daf2837209797a133d21397d66239dea62b1e8989dab5af8117","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/python/claude-api/files-api.md"},{"path":"python/claude-api/streaming.md","sourcePath":"skills/claude-api/python/claude-api/streaming.md","bytes":5205,"sha256":"8d3dc8644643b113ffe8b020667b939e0fbf349ff60c67569a361704b41e210c","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/python/claude-api/streaming.md"},{"path":"python/claude-api/tool-use.md","sourcePath":"skills/claude-api/python/claude-api/tool-use.md","bytes":16692,"sha256":"ab01c70e3e8cb513fac8b689121ca4fc63925e02b5f09a9af86f79303ac328ec","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/python/claude-api/tool-use.md"},{"path":"ruby/claude-api.md","sourcePath":"skills/claude-api/ruby/claude-api.md","bytes":1810,"sha256":"e69577d0e3cf039ae5c1fc17af74cf32027d52bec91953c323abe9d4c84268ed","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/ruby/claude-api.md"},{"path":"shared/error-codes.md","sourcePath":"skills/claude-api/shared/error-codes.md","bytes":7046,"sha256":"f1b524a3b8c9fef22335051bcc732c8cdaf37b4a2d21eef174e2f0b81f57edaa","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/shared/error-codes.md"},{"path":"shared/live-sources.md","sourcePath":"skills/claude-api/shared/live-sources.md","bytes":10725,"sha256":"54724ec0a34ba02a561273fb372e23ae3a9d7c7e4a4887aabbae2264c9b40443","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/shared/live-sources.md"},{"path":"shared/models.md","sourcePath":"skills/claude-api/shared/models.md","bytes":4615,"sha256":"fb565e55cdc652ce932d0f799ea4421e61bde102bfdf714f9d684cc49734d650","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/shared/models.md"},{"path":"shared/tool-use-concepts.md","sourcePath":"skills/claude-api/shared/tool-use-concepts.md","bytes":14757,"sha256":"cc23d8561a5d4276a74da2116d49a5d631ff506e4b0428622fd2cf3298a8faef","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/shared/tool-use-concepts.md"},{"path":"typescript/agent-sdk/README.md","sourcePath":"skills/claude-api/typescript/agent-sdk/README.md","bytes":7839,"sha256":"472ca07247b47e4ca8bba4e809b2114bbe46b0a07148f18ffe93ff5ef5a06763","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/typescript/agent-sdk/README.md"},{"path":"typescript/agent-sdk/patterns.md","sourcePath":"skills/claude-api/typescript/agent-sdk/patterns.md","bytes":3274,"sha256":"afbf6b496ba0af63de26caa6fd9b98c8d4e7f7d821494888b6a0d072819d63e1","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/typescript/agent-sdk/patterns.md"},{"path":"typescript/claude-api/README.md","sourcePath":"skills/claude-api/typescript/claude-api/README.md","bytes":8603,"sha256":"827c6940cf123c1453a3fb1e1ff601af49bc5816a1d5fc1afe12c0127e861f5e","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/typescript/claude-api/README.md"},{"path":"typescript/claude-api/batches.md","sourcePath":"skills/claude-api/typescript/claude-api/batches.md","bytes":2590,"sha256":"07681422308c8abe42253362f632de628d34fa2178943674dfb52bb3abe858e1","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/typescript/claude-api/batches.md"},{"path":"typescript/claude-api/files-api.md","sourcePath":"skills/claude-api/typescript/claude-api/files-api.md","bytes":2258,"sha256":"8994fd2176961031c4e79f0d791dbe37ddd6af8f233305c58d9e1ea90cea8e65","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/typescript/claude-api/files-api.md"},{"path":"typescript/claude-api/streaming.md","sourcePath":"skills/claude-api/typescript/claude-api/streaming.md","bytes":5574,"sha256":"52aceb9115b182066501d9fe164a180e7f6f4e76a89dee1eec6c2de86cb42963","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/typescript/claude-api/streaming.md"},{"path":"typescript/claude-api/tool-use.md","sourcePath":"skills/claude-api/typescript/claude-api/tool-use.md","bytes":12793,"sha256":"9485f13421a9d9ccf7ff9c56a2e328920f02d6a94b58e46eafc47cc20cd52d0f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/typescript/claude-api/tool-use.md"}],"archiveSha256":"629ac3dd9e3eb6d5d9e9e334277f847a6fff23a3fd29d59dc7065ae013ce50d2"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--claude-api",
+    "name": "claude-api",
+    "description": "Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-science tasks.",
+    "category": "AI & agents",
+    "tags": [
+      "claude",
+      "api",
+      "apps",
+      "anthropic",
+      "sdk.",
+      "trigger",
+      "when",
+      "code",
+      "imports",
+      "ai",
+      "sdk",
+      "agent",
+      "user",
+      "asks",
+      "sdks",
+      "do",
+      "not",
+      "openai"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/claude-api/LICENSE.txt",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/claude-api",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 26,
+    "bytes": 187577,
+    "sha256": "e40f22d1b5d2b61339588a147a1113fe047583b9fefd879d8500c2dcd452c1f1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sourcePath": "skills/claude-api/LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/LICENSE.txt"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/claude-api/SKILL.md",
+      "bytes": 18923,
+      "sha256": "e40f22d1b5d2b61339588a147a1113fe047583b9fefd879d8500c2dcd452c1f1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/SKILL.md"
+    },
+    {
+      "path": "csharp/claude-api.md",
+      "sourcePath": "skills/claude-api/csharp/claude-api.md",
+      "bytes": 1758,
+      "sha256": "55e92c36329806fe659c10965c42f7d121c6b6c085aa7e39ea80b3809e4f13aa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/csharp/claude-api.md"
+    },
+    {
+      "path": "curl/examples.md",
+      "sourcePath": "skills/claude-api/curl/examples.md",
+      "bytes": 4465,
+      "sha256": "97e4749f469150a926f0738e74ee4215721bd311c44417f7b8162e3ee5c532a9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/curl/examples.md"
+    },
+    {
+      "path": "go/claude-api.md",
+      "sourcePath": "skills/claude-api/go/claude-api.md",
+      "bytes": 3980,
+      "sha256": "56de3a202ca5f65b33d74349ade747ec783738e8225f4447cadc86ac153778f2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/go/claude-api.md"
+    },
+    {
+      "path": "java/claude-api.md",
+      "sourcePath": "skills/claude-api/java/claude-api.md",
+      "bytes": 3939,
+      "sha256": "1ec16c72bc5cb0f4d7e0b34a018f283cb8e6b7d6fd2f19d05b4733a9b4830c97",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/java/claude-api.md"
+    },
+    {
+      "path": "php/claude-api.md",
+      "sourcePath": "skills/claude-api/php/claude-api.md",
+      "bytes": 1564,
+      "sha256": "2a9b0ca8297903851ae322cb321b58da21b53b9f764a64e7e0fddee393d707e3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/php/claude-api.md"
+    },
+    {
+      "path": "python/agent-sdk/README.md",
+      "sourcePath": "skills/claude-api/python/agent-sdk/README.md",
+      "bytes": 9869,
+      "sha256": "1ec9db636b305cc27b2ab035953c43dc13d8963224f017c8460eebb27389d1fd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/python/agent-sdk/README.md"
+    },
+    {
+      "path": "python/agent-sdk/patterns.md",
+      "sourcePath": "skills/claude-api/python/agent-sdk/patterns.md",
+      "bytes": 8208,
+      "sha256": "fc6e7c2bbd70ec8f5149e32d46a5304c46998d9cd5237daf3a7413ee20642818",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/python/agent-sdk/patterns.md"
+    },
+    {
+      "path": "python/claude-api/README.md",
+      "sourcePath": "skills/claude-api/python/claude-api/README.md",
+      "bytes": 10916,
+      "sha256": "984949912a3489b32c87af8bcf3ee3fffcf4880472435367339258a536f29f61",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/python/claude-api/README.md"
+    },
+    {
+      "path": "python/claude-api/batches.md",
+      "sourcePath": "skills/claude-api/python/claude-api/batches.md",
+      "bytes": 4942,
+      "sha256": "a1fd039dfc0090773e68aad4075bc64ea86023fe5d611bb026091ececfe2a120",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/python/claude-api/batches.md"
+    },
+    {
+      "path": "python/claude-api/files-api.md",
+      "sourcePath": "skills/claude-api/python/claude-api/files-api.md",
+      "bytes": 3875,
+      "sha256": "3f9c79814ece4daf2837209797a133d21397d66239dea62b1e8989dab5af8117",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/python/claude-api/files-api.md"
+    },
+    {
+      "path": "python/claude-api/streaming.md",
+      "sourcePath": "skills/claude-api/python/claude-api/streaming.md",
+      "bytes": 5205,
+      "sha256": "8d3dc8644643b113ffe8b020667b939e0fbf349ff60c67569a361704b41e210c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/python/claude-api/streaming.md"
+    },
+    {
+      "path": "python/claude-api/tool-use.md",
+      "sourcePath": "skills/claude-api/python/claude-api/tool-use.md",
+      "bytes": 16692,
+      "sha256": "ab01c70e3e8cb513fac8b689121ca4fc63925e02b5f09a9af86f79303ac328ec",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/python/claude-api/tool-use.md"
+    },
+    {
+      "path": "ruby/claude-api.md",
+      "sourcePath": "skills/claude-api/ruby/claude-api.md",
+      "bytes": 1810,
+      "sha256": "e69577d0e3cf039ae5c1fc17af74cf32027d52bec91953c323abe9d4c84268ed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/ruby/claude-api.md"
+    },
+    {
+      "path": "shared/error-codes.md",
+      "sourcePath": "skills/claude-api/shared/error-codes.md",
+      "bytes": 7046,
+      "sha256": "f1b524a3b8c9fef22335051bcc732c8cdaf37b4a2d21eef174e2f0b81f57edaa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/shared/error-codes.md"
+    },
+    {
+      "path": "shared/live-sources.md",
+      "sourcePath": "skills/claude-api/shared/live-sources.md",
+      "bytes": 10725,
+      "sha256": "54724ec0a34ba02a561273fb372e23ae3a9d7c7e4a4887aabbae2264c9b40443",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/shared/live-sources.md"
+    },
+    {
+      "path": "shared/models.md",
+      "sourcePath": "skills/claude-api/shared/models.md",
+      "bytes": 4615,
+      "sha256": "fb565e55cdc652ce932d0f799ea4421e61bde102bfdf714f9d684cc49734d650",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/shared/models.md"
+    },
+    {
+      "path": "shared/tool-use-concepts.md",
+      "sourcePath": "skills/claude-api/shared/tool-use-concepts.md",
+      "bytes": 14757,
+      "sha256": "cc23d8561a5d4276a74da2116d49a5d631ff506e4b0428622fd2cf3298a8faef",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/shared/tool-use-concepts.md"
+    },
+    {
+      "path": "typescript/agent-sdk/README.md",
+      "sourcePath": "skills/claude-api/typescript/agent-sdk/README.md",
+      "bytes": 7839,
+      "sha256": "472ca07247b47e4ca8bba4e809b2114bbe46b0a07148f18ffe93ff5ef5a06763",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/typescript/agent-sdk/README.md"
+    },
+    {
+      "path": "typescript/agent-sdk/patterns.md",
+      "sourcePath": "skills/claude-api/typescript/agent-sdk/patterns.md",
+      "bytes": 3274,
+      "sha256": "afbf6b496ba0af63de26caa6fd9b98c8d4e7f7d821494888b6a0d072819d63e1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/typescript/agent-sdk/patterns.md"
+    },
+    {
+      "path": "typescript/claude-api/README.md",
+      "sourcePath": "skills/claude-api/typescript/claude-api/README.md",
+      "bytes": 8603,
+      "sha256": "827c6940cf123c1453a3fb1e1ff601af49bc5816a1d5fc1afe12c0127e861f5e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/typescript/claude-api/README.md"
+    },
+    {
+      "path": "typescript/claude-api/batches.md",
+      "sourcePath": "skills/claude-api/typescript/claude-api/batches.md",
+      "bytes": 2590,
+      "sha256": "07681422308c8abe42253362f632de628d34fa2178943674dfb52bb3abe858e1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/typescript/claude-api/batches.md"
+    },
+    {
+      "path": "typescript/claude-api/files-api.md",
+      "sourcePath": "skills/claude-api/typescript/claude-api/files-api.md",
+      "bytes": 2258,
+      "sha256": "8994fd2176961031c4e79f0d791dbe37ddd6af8f233305c58d9e1ea90cea8e65",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/typescript/claude-api/files-api.md"
+    },
+    {
+      "path": "typescript/claude-api/streaming.md",
+      "sourcePath": "skills/claude-api/typescript/claude-api/streaming.md",
+      "bytes": 5574,
+      "sha256": "52aceb9115b182066501d9fe164a180e7f6f4e76a89dee1eec6c2de86cb42963",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/typescript/claude-api/streaming.md"
+    },
+    {
+      "path": "typescript/claude-api/tool-use.md",
+      "sourcePath": "skills/claude-api/typescript/claude-api/tool-use.md",
+      "bytes": 12793,
+      "sha256": "9485f13421a9d9ccf7ff9c56a2e328920f02d6a94b58e46eafc47cc20cd52d0f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-api/typescript/claude-api/tool-use.md"
+    }
+  ],
+  "archiveSha256": "629ac3dd9e3eb6d5d9e9e334277f847a6fff23a3fd29d59dc7065ae013ce50d2"
+}

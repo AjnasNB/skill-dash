@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--incident-response","name":"incident-response","description":"Handle security incidents with IR playbooks and procedures.","category":"Security","tags":["incident","response","handle","security","incidents","ir","playbooks","procedures."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/incident-response","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/incident-response","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":20447,"sha256":"117324ecbd333f2d5c0807643e2db168a64cc56eacc2f2c67392ea6c574832b5","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/incident-response/SKILL.md","bytes":14964,"sha256":"117324ecbd333f2d5c0807643e2db168a64cc56eacc2f2c67392ea6c574832b5","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/incident-response/SKILL.md"},{"path":"references/details.md","sourcePath":"skills/incident-response/references/details.md","bytes":4410,"sha256":"551551abcc8a53ea57494954b1afd423690934626ed6076c9db0262ffdd6bb29","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/incident-response/references/details.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"be9f72e435307877742356ced7ca6b4b638ed23950bf8e757f4c50d197e16557"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--incident-response",
+    "name": "incident-response",
+    "description": "Handle security incidents with IR playbooks and procedures.",
+    "category": "Security",
+    "tags": [
+      "incident",
+      "response",
+      "handle",
+      "security",
+      "incidents",
+      "ir",
+      "playbooks",
+      "procedures."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/incident-response",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/incident-response",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 20447,
+    "sha256": "117324ecbd333f2d5c0807643e2db168a64cc56eacc2f2c67392ea6c574832b5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/incident-response/SKILL.md",
+      "bytes": 14964,
+      "sha256": "117324ecbd333f2d5c0807643e2db168a64cc56eacc2f2c67392ea6c574832b5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/incident-response/SKILL.md"
+    },
+    {
+      "path": "references/details.md",
+      "sourcePath": "skills/incident-response/references/details.md",
+      "bytes": 4410,
+      "sha256": "551551abcc8a53ea57494954b1afd423690934626ed6076c9db0262ffdd6bb29",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/incident-response/references/details.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "be9f72e435307877742356ced7ca6b4b638ed23950bf8e757f4c50d197e16557"
+}

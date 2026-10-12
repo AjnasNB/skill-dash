@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--stellar-multisig-threshold-coordinator","name":"stellar-multisig-threshold-coordinator","description":"Multi-signature signer and threshold coordination register: weight configurations, master key locks, and cosigner quorum thresholds for Stellar.","category":"Development","tags":["stellar","multisig","threshold","coordinator","multi","signature","signer","coordination","register","weight","configurations","master","key","locks","cosigner","quorum","thresholds","stellar."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/stellar-multisig-threshold-coordinator","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/stellar-multisig-threshold-coordinator","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6196,"sha256":"a2e8b0dc8436f8cfddd06cb03eb07d81da62a8186b214f4590c31df3eb8895eb","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/stellar-multisig-threshold-coordinator/SKILL.md","bytes":5123,"sha256":"a2e8b0dc8436f8cfddd06cb03eb07d81da62a8186b214f4590c31df3eb8895eb","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/stellar-multisig-threshold-coordinator/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"3ef05278ac5675430cee4444cbcaaac0174f86c751a3780453a30c13d94a545a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--stellar-multisig-threshold-coordinator",
+    "name": "stellar-multisig-threshold-coordinator",
+    "description": "Multi-signature signer and threshold coordination register: weight configurations, master key locks, and cosigner quorum thresholds for Stellar.",
+    "category": "Development",
+    "tags": [
+      "stellar",
+      "multisig",
+      "threshold",
+      "coordinator",
+      "multi",
+      "signature",
+      "signer",
+      "coordination",
+      "register",
+      "weight",
+      "configurations",
+      "master",
+      "key",
+      "locks",
+      "cosigner",
+      "quorum",
+      "thresholds",
+      "stellar."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/stellar-multisig-threshold-coordinator",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/stellar-multisig-threshold-coordinator",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6196,
+    "sha256": "a2e8b0dc8436f8cfddd06cb03eb07d81da62a8186b214f4590c31df3eb8895eb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/stellar-multisig-threshold-coordinator/SKILL.md",
+      "bytes": 5123,
+      "sha256": "a2e8b0dc8436f8cfddd06cb03eb07d81da62a8186b214f4590c31df3eb8895eb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/stellar-multisig-threshold-coordinator/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "3ef05278ac5675430cee4444cbcaaac0174f86c751a3780453a30c13d94a545a"
+}

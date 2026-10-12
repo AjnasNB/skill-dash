@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--load-balancing","name":"load-balancing","description":"Configure load balancers and traffic distribution. Implement health checks and SSL termination. Use when distributing traffic across servers.","category":"Development","tags":["load","balancing","configure","balancers","traffic","distribution.","implement","health","checks","ssl","termination.","when","distributing","across","servers."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/load-balancing","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/load-balancing","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12837,"sha256":"a4593f25f15945d73e00f4d28faf54e1bda271a03b9afef3d01d8ab5ae3b558d","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/load-balancing/SKILL.md","bytes":11764,"sha256":"a4593f25f15945d73e00f4d28faf54e1bda271a03b9afef3d01d8ab5ae3b558d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/load-balancing/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"1abc98ba7ba9c5dbad45e9b32a95f150c196e2e24594e736445cb5feaff47840"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--load-balancing",
+    "name": "load-balancing",
+    "description": "Configure load balancers and traffic distribution. Implement health checks and SSL termination. Use when distributing traffic across servers.",
+    "category": "Development",
+    "tags": [
+      "load",
+      "balancing",
+      "configure",
+      "balancers",
+      "traffic",
+      "distribution.",
+      "implement",
+      "health",
+      "checks",
+      "ssl",
+      "termination.",
+      "when",
+      "distributing",
+      "across",
+      "servers."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/load-balancing",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/load-balancing",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12837,
+    "sha256": "a4593f25f15945d73e00f4d28faf54e1bda271a03b9afef3d01d8ab5ae3b558d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/load-balancing/SKILL.md",
+      "bytes": 11764,
+      "sha256": "a4593f25f15945d73e00f4d28faf54e1bda271a03b9afef3d01d8ab5ae3b558d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/load-balancing/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "1abc98ba7ba9c5dbad45e9b32a95f150c196e2e24594e736445cb5feaff47840"
+}

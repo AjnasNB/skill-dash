@@ -1,1 +1,53 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--container-hardening","name":"container-hardening","description":"Secure Docker images and container runtime configurations.","category":"Cloud & DevOps","tags":["container","hardening","secure","docker","images","runtime","configurations."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/container-hardening","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/container-hardening","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4070,"sha256":"988fc1236dee7fc52917874edc1a85879869819ee3d2fa75572e429b4929464c","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/container-hardening/SKILL.md","bytes":2997,"sha256":"988fc1236dee7fc52917874edc1a85879869819ee3d2fa75572e429b4929464c","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/container-hardening/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"09eb61201337715ba5c99759782ff3603610679ced26a2746086d8440bf09183"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--container-hardening",
+    "name": "container-hardening",
+    "description": "Secure Docker images and container runtime configurations.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "container",
+      "hardening",
+      "secure",
+      "docker",
+      "images",
+      "runtime",
+      "configurations."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/container-hardening",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/container-hardening",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4070,
+    "sha256": "988fc1236dee7fc52917874edc1a85879869819ee3d2fa75572e429b4929464c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/container-hardening/SKILL.md",
+      "bytes": 2997,
+      "sha256": "988fc1236dee7fc52917874edc1a85879869819ee3d2fa75572e429b4929464c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/container-hardening/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "09eb61201337715ba5c99759782ff3603610679ced26a2746086d8440bf09183"
+}

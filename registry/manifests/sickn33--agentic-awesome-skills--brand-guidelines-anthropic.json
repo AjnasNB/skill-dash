@@ -1,1 +1,55 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--brand-guidelines-anthropic","name":"brand-guidelines-anthropic","description":"To access Anthropic's official brand identity and style resources, use this skill.","category":"Development","tags":["brand","guidelines","anthropic","access","official","identity","style","resources","skill."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/brand-guidelines-anthropic/LICENSE.txt","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/brand-guidelines-anthropic","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brand-guidelines-anthropic","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":14896,"sha256":"40d29cf4ad3318026920ad36f07b1f302837a434be3982e691f2f89fb169ee67","historical":false},"files":[{"path":"LICENSE.txt","sourcePath":"skills/brand-guidelines-anthropic/LICENSE.txt","bytes":11357,"sha256":"58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brand-guidelines-anthropic/LICENSE.txt"},{"path":"SKILL.md","sourcePath":"skills/brand-guidelines-anthropic/SKILL.md","bytes":3539,"sha256":"40d29cf4ad3318026920ad36f07b1f302837a434be3982e691f2f89fb169ee67","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brand-guidelines-anthropic/SKILL.md"}],"archiveSha256":"32214e85201cc8cc2970c9e17b703220979c42b6d526a7e08e277bbaaa98f104"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--brand-guidelines-anthropic",
+    "name": "brand-guidelines-anthropic",
+    "description": "To access Anthropic's official brand identity and style resources, use this skill.",
+    "category": "Development",
+    "tags": [
+      "brand",
+      "guidelines",
+      "anthropic",
+      "access",
+      "official",
+      "identity",
+      "style",
+      "resources",
+      "skill."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/brand-guidelines-anthropic/LICENSE.txt",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/brand-guidelines-anthropic",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brand-guidelines-anthropic",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 14896,
+    "sha256": "40d29cf4ad3318026920ad36f07b1f302837a434be3982e691f2f89fb169ee67",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sourcePath": "skills/brand-guidelines-anthropic/LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brand-guidelines-anthropic/LICENSE.txt"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/brand-guidelines-anthropic/SKILL.md",
+      "bytes": 3539,
+      "sha256": "40d29cf4ad3318026920ad36f07b1f302837a434be3982e691f2f89fb169ee67",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brand-guidelines-anthropic/SKILL.md"
+    }
+  ],
+  "archiveSha256": "32214e85201cc8cc2970c9e17b703220979c42b6d526a7e08e277bbaaa98f104"
+}

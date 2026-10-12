@@ -1,1 +1,83 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--orchestrate-batch-refactor","name":"orchestrate-batch-refactor","description":"Plan and execute large refactors with dependency-aware work packets and parallel analysis.","category":"Development","tags":["orchestrate","batch","refactor","plan","execute","large","refactors","dependency","aware","work","packets","parallel","analysis."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/orchestrate-batch-refactor","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/orchestrate-batch-refactor","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":5,"bytes":7621,"sha256":"20ae7d71da8b4f4815a00511eecd6d4fcebd45757251e1592d72ebf14ac917fc","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/orchestrate-batch-refactor/SKILL.md","bytes":3920,"sha256":"20ae7d71da8b4f4815a00511eecd6d4fcebd45757251e1592d72ebf14ac917fc","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/orchestrate-batch-refactor/SKILL.md"},{"path":"agents/openai.yaml","sourcePath":"skills/orchestrate-batch-refactor/agents/openai.yaml","bytes":271,"sha256":"94b8d94e21c7d473d8787a28d8a98c3e37a89bfb5c5995e7ada7eb2d3ed97cf2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/orchestrate-batch-refactor/agents/openai.yaml"},{"path":"references/agent-prompt-templates.md","sourcePath":"skills/orchestrate-batch-refactor/references/agent-prompt-templates.md","bytes":1360,"sha256":"69a717f14be63a5cae7449aebeea90f10d48053fe2afad9fa5a0f207b50d456f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/orchestrate-batch-refactor/references/agent-prompt-templates.md"},{"path":"references/work-packet-template.md","sourcePath":"skills/orchestrate-batch-refactor/references/work-packet-template.md","bytes":997,"sha256":"7140d0cf79589c62cbfa474b726fca9011ff8639c9e270be56b7d34aeea1e1a2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/orchestrate-batch-refactor/references/work-packet-template.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"274df2e22013d8f541255ab4c65f4126b248a6b6826711315d66fad1811e2067"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--orchestrate-batch-refactor",
+    "name": "orchestrate-batch-refactor",
+    "description": "Plan and execute large refactors with dependency-aware work packets and parallel analysis.",
+    "category": "Development",
+    "tags": [
+      "orchestrate",
+      "batch",
+      "refactor",
+      "plan",
+      "execute",
+      "large",
+      "refactors",
+      "dependency",
+      "aware",
+      "work",
+      "packets",
+      "parallel",
+      "analysis."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/orchestrate-batch-refactor",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/orchestrate-batch-refactor",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 5,
+    "bytes": 7621,
+    "sha256": "20ae7d71da8b4f4815a00511eecd6d4fcebd45757251e1592d72ebf14ac917fc",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/orchestrate-batch-refactor/SKILL.md",
+      "bytes": 3920,
+      "sha256": "20ae7d71da8b4f4815a00511eecd6d4fcebd45757251e1592d72ebf14ac917fc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/orchestrate-batch-refactor/SKILL.md"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sourcePath": "skills/orchestrate-batch-refactor/agents/openai.yaml",
+      "bytes": 271,
+      "sha256": "94b8d94e21c7d473d8787a28d8a98c3e37a89bfb5c5995e7ada7eb2d3ed97cf2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/orchestrate-batch-refactor/agents/openai.yaml"
+    },
+    {
+      "path": "references/agent-prompt-templates.md",
+      "sourcePath": "skills/orchestrate-batch-refactor/references/agent-prompt-templates.md",
+      "bytes": 1360,
+      "sha256": "69a717f14be63a5cae7449aebeea90f10d48053fe2afad9fa5a0f207b50d456f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/orchestrate-batch-refactor/references/agent-prompt-templates.md"
+    },
+    {
+      "path": "references/work-packet-template.md",
+      "sourcePath": "skills/orchestrate-batch-refactor/references/work-packet-template.md",
+      "bytes": 997,
+      "sha256": "7140d0cf79589c62cbfa474b726fca9011ff8639c9e270be56b7d34aeea1e1a2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/orchestrate-batch-refactor/references/work-packet-template.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "274df2e22013d8f541255ab4c65f4126b248a6b6826711315d66fad1811e2067"
+}

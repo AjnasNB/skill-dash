@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--sre-dashboards","name":"sre-dashboards","description":"Design and operationalize SRE dashboards that surface reliability, latency, error, saturation, and capacity signals across services.","category":"Design","tags":["sre","dashboards","design","operationalize","surface","reliability","latency","error","saturation","capacity","signals","across","services."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/sre-dashboards","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sre-dashboards","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5670,"sha256":"be661e37e592caae27dbfb2b5f5d84cb3b502277caab8d1033b8fc72c7c2f6bb","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/sre-dashboards/SKILL.md","bytes":4597,"sha256":"be661e37e592caae27dbfb2b5f5d84cb3b502277caab8d1033b8fc72c7c2f6bb","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sre-dashboards/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"b360268cf60d3fc1cf4791cc1fa23edafd37295777cbd575623ee331566a2396"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--sre-dashboards",
+    "name": "sre-dashboards",
+    "description": "Design and operationalize SRE dashboards that surface reliability, latency, error, saturation, and capacity signals across services.",
+    "category": "Design",
+    "tags": [
+      "sre",
+      "dashboards",
+      "design",
+      "operationalize",
+      "surface",
+      "reliability",
+      "latency",
+      "error",
+      "saturation",
+      "capacity",
+      "signals",
+      "across",
+      "services."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/sre-dashboards",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sre-dashboards",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5670,
+    "sha256": "be661e37e592caae27dbfb2b5f5d84cb3b502277caab8d1033b8fc72c7c2f6bb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/sre-dashboards/SKILL.md",
+      "bytes": 4597,
+      "sha256": "be661e37e592caae27dbfb2b5f5d84cb3b502277caab8d1033b8fc72c7c2f6bb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sre-dashboards/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "b360268cf60d3fc1cf4791cc1fa23edafd37295777cbd575623ee331566a2396"
+}

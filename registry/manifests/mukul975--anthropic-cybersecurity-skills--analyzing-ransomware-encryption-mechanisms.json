@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-ransomware-encryption-mechanisms","name":"analyzing-ransomware-encryption-mechanisms","description":"Analyzes encryption algorithms, key management, and file encryption routines used by ransomware families to assess decryption feasibility, identify implementation weaknesses, and support recovery efforts. Covers AES, RSA, ChaCha20, and hybrid encryption schemes. Activates for requests involving ransomware cryptanalysis, encryption analysis, key recovery assessment, or ransomware decryption feasibility.","category":"Development","tags":["analyzing","ransomware","encryption","mechanisms","analyzes","algorithms","key","management","file","routines","used","by","families","assess","decryption","feasibility","identify","implementation"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-ransomware-encryption-mechanisms/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-ransomware-encryption-mechanisms","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ransomware-encryption-mechanisms","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":43331,"sha256":"9b0ad1aeba938fb63912ea25b83f01b14be7bc3e968dff16a06e11859f8aa062","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-ransomware-encryption-mechanisms/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ransomware-encryption-mechanisms/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-ransomware-encryption-mechanisms/SKILL.md","bytes":14193,"sha256":"9b0ad1aeba938fb63912ea25b83f01b14be7bc3e968dff16a06e11859f8aa062","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ransomware-encryption-mechanisms/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-ransomware-encryption-mechanisms/references/api-reference.md","bytes":4076,"sha256":"7a03a0c88bed791c92a1df02c3b764b98c7429d749691a00c353ebb58d487b50","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ransomware-encryption-mechanisms/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-ransomware-encryption-mechanisms/scripts/agent.py","bytes":13807,"sha256":"3f1a4532f13552d1f1db00a770e9840d89fb33bcb0f67ba1e16c79d602d460e4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ransomware-encryption-mechanisms/scripts/agent.py"}],"archiveSha256":"ad42478233c0690dab101e375f91870088216ae9765b93f502e4bdfee9573128"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-ransomware-encryption-mechanisms",
+    "name": "analyzing-ransomware-encryption-mechanisms",
+    "description": "Analyzes encryption algorithms, key management, and file encryption routines used by ransomware families to assess decryption feasibility, identify implementation weaknesses, and support recovery efforts. Covers AES, RSA, ChaCha20, and hybrid encryption schemes. Activates for requests involving ransomware cryptanalysis, encryption analysis, key recovery assessment, or ransomware decryption feasibility.",
+    "category": "Development",
+    "tags": [
+      "analyzing",
+      "ransomware",
+      "encryption",
+      "mechanisms",
+      "analyzes",
+      "algorithms",
+      "key",
+      "management",
+      "file",
+      "routines",
+      "used",
+      "by",
+      "families",
+      "assess",
+      "decryption",
+      "feasibility",
+      "identify",
+      "implementation"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-ransomware-encryption-mechanisms/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-ransomware-encryption-mechanisms",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ransomware-encryption-mechanisms",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 43331,
+    "sha256": "9b0ad1aeba938fb63912ea25b83f01b14be7bc3e968dff16a06e11859f8aa062",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-ransomware-encryption-mechanisms/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ransomware-encryption-mechanisms/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-ransomware-encryption-mechanisms/SKILL.md",
+      "bytes": 14193,
+      "sha256": "9b0ad1aeba938fb63912ea25b83f01b14be7bc3e968dff16a06e11859f8aa062",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ransomware-encryption-mechanisms/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-ransomware-encryption-mechanisms/references/api-reference.md",
+      "bytes": 4076,
+      "sha256": "7a03a0c88bed791c92a1df02c3b764b98c7429d749691a00c353ebb58d487b50",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ransomware-encryption-mechanisms/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-ransomware-encryption-mechanisms/scripts/agent.py",
+      "bytes": 13807,
+      "sha256": "3f1a4532f13552d1f1db00a770e9840d89fb33bcb0f67ba1e16c79d602d460e4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-ransomware-encryption-mechanisms/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "ad42478233c0690dab101e375f91870088216ae9765b93f502e4bdfee9573128"
+}

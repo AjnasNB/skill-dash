@@ -1,1 +1,77 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--lint-and-validate","name":"lint-and-validate","description":"Run configured lint and type checks, distinguish failures from checks that did not run, and report concrete validation results.","category":"Development","tags":["lint","validate","run","configured","type","checks","distinguish","failures","from","did","not","report","concrete","validation","results."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/lint-and-validate","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lint-and-validate","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":4,"bytes":13508,"sha256":"6756e4dd35b4b62cab9ebe4bcd3d9b3839ebe1ea87030ea0a8d758c828240483","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/lint-and-validate/SKILL.md","bytes":3255,"sha256":"6756e4dd35b4b62cab9ebe4bcd3d9b3839ebe1ea87030ea0a8d758c828240483","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lint-and-validate/SKILL.md"},{"path":"scripts/lint_runner.py","sourcePath":"skills/lint-and-validate/scripts/lint_runner.py","bytes":5394,"sha256":"fe1230c95c7a38c11fd330b8b2ba57ab4e2744dc423e84637d3ca31c4562a20d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lint-and-validate/scripts/lint_runner.py"},{"path":"scripts/type_coverage.py","sourcePath":"skills/lint-and-validate/scripts/type_coverage.py","bytes":3786,"sha256":"e77b76f87e56ccdc805fb6a042828bd83fcb7f9f06c2fe19742ea829d6158a55","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lint-and-validate/scripts/type_coverage.py"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"1a36ca9230d6133a1ff0e8ab096968cf0f260896a9b8b83cd445ca4f133f48f0"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--lint-and-validate",
+    "name": "lint-and-validate",
+    "description": "Run configured lint and type checks, distinguish failures from checks that did not run, and report concrete validation results.",
+    "category": "Development",
+    "tags": [
+      "lint",
+      "validate",
+      "run",
+      "configured",
+      "type",
+      "checks",
+      "distinguish",
+      "failures",
+      "from",
+      "did",
+      "not",
+      "report",
+      "concrete",
+      "validation",
+      "results."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/lint-and-validate",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lint-and-validate",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 4,
+    "bytes": 13508,
+    "sha256": "6756e4dd35b4b62cab9ebe4bcd3d9b3839ebe1ea87030ea0a8d758c828240483",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/lint-and-validate/SKILL.md",
+      "bytes": 3255,
+      "sha256": "6756e4dd35b4b62cab9ebe4bcd3d9b3839ebe1ea87030ea0a8d758c828240483",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lint-and-validate/SKILL.md"
+    },
+    {
+      "path": "scripts/lint_runner.py",
+      "sourcePath": "skills/lint-and-validate/scripts/lint_runner.py",
+      "bytes": 5394,
+      "sha256": "fe1230c95c7a38c11fd330b8b2ba57ab4e2744dc423e84637d3ca31c4562a20d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lint-and-validate/scripts/lint_runner.py"
+    },
+    {
+      "path": "scripts/type_coverage.py",
+      "sourcePath": "skills/lint-and-validate/scripts/type_coverage.py",
+      "bytes": 3786,
+      "sha256": "e77b76f87e56ccdc805fb6a042828bd83fcb7f9f06c2fe19742ea829d6158a55",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lint-and-validate/scripts/type_coverage.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "1a36ca9230d6133a1ff0e8ab096968cf0f260896a9b8b83cd445ca4f133f48f0"
+}

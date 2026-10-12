@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-security-monitoring-with-datadog","name":"implementing-security-monitoring-with-datadog","description":"Implements security monitoring using Datadog Cloud SIEM, Cloud Security Management (CSM), and Workload Protection to detect threats, enforce compliance, and respond to security events across cloud and hybrid infrastructure. Covers Agent deployment, log source ingestion, detection rule creation, security dashboards, and automated notification workflows. Activates for requests involving Datadog security setup, Cloud SIEM configuration, CSM threat detection, or security monitoring dashboards.","category":"Security","tags":["implementing","security","monitoring","datadog","implements","cloud","siem","management","csm","workload","protection","detect","threats","enforce","compliance","respond","events","across"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-security-monitoring-with-datadog/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-security-monitoring-with-datadog","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-security-monitoring-with-datadog","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":35289,"sha256":"a1f0e225d6e80f5f70e5e5667c4e6b8e6f767891130529f93a8b6e0301b76ca7","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-security-monitoring-with-datadog/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-security-monitoring-with-datadog/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-security-monitoring-with-datadog/SKILL.md","bytes":14666,"sha256":"a1f0e225d6e80f5f70e5e5667c4e6b8e6f767891130529f93a8b6e0301b76ca7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-security-monitoring-with-datadog/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-security-monitoring-with-datadog/references/api-reference.md","bytes":3473,"sha256":"4159d5eb820d01db8dcdeabc7fa9d8f19a0a766ed6bd5c4f743c9e94122f30c0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-security-monitoring-with-datadog/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-security-monitoring-with-datadog/scripts/agent.py","bytes":5895,"sha256":"1300d56c31f96acc3d5200728cf94777dbef324d6a1ce0bfeeae042d2c450382","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-security-monitoring-with-datadog/scripts/agent.py"}],"archiveSha256":"6fdb85f32932732a84b5fccad528522257f8c81b552037eaf34fb79d0cbb4dc6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-security-monitoring-with-datadog",
+    "name": "implementing-security-monitoring-with-datadog",
+    "description": "Implements security monitoring using Datadog Cloud SIEM, Cloud Security Management (CSM), and Workload Protection to detect threats, enforce compliance, and respond to security events across cloud and hybrid infrastructure. Covers Agent deployment, log source ingestion, detection rule creation, security dashboards, and automated notification workflows. Activates for requests involving Datadog security setup, Cloud SIEM configuration, CSM threat detection, or security monitoring dashboards.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "security",
+      "monitoring",
+      "datadog",
+      "implements",
+      "cloud",
+      "siem",
+      "management",
+      "csm",
+      "workload",
+      "protection",
+      "detect",
+      "threats",
+      "enforce",
+      "compliance",
+      "respond",
+      "events",
+      "across"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-security-monitoring-with-datadog/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-security-monitoring-with-datadog",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-security-monitoring-with-datadog",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 35289,
+    "sha256": "a1f0e225d6e80f5f70e5e5667c4e6b8e6f767891130529f93a8b6e0301b76ca7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-security-monitoring-with-datadog/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-security-monitoring-with-datadog/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-security-monitoring-with-datadog/SKILL.md",
+      "bytes": 14666,
+      "sha256": "a1f0e225d6e80f5f70e5e5667c4e6b8e6f767891130529f93a8b6e0301b76ca7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-security-monitoring-with-datadog/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-security-monitoring-with-datadog/references/api-reference.md",
+      "bytes": 3473,
+      "sha256": "4159d5eb820d01db8dcdeabc7fa9d8f19a0a766ed6bd5c4f743c9e94122f30c0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-security-monitoring-with-datadog/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-security-monitoring-with-datadog/scripts/agent.py",
+      "bytes": 5895,
+      "sha256": "1300d56c31f96acc3d5200728cf94777dbef324d6a1ce0bfeeae042d2c450382",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-security-monitoring-with-datadog/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "6fdb85f32932732a84b5fccad528522257f8c81b552037eaf34fb79d0cbb4dc6"
+}

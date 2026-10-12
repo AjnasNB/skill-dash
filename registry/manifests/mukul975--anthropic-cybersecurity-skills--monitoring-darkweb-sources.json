@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--monitoring-darkweb-sources","name":"monitoring-darkweb-sources","description":"Monitors dark web forums, marketplaces, paste sites, and ransomware leak sites for mentions of organizational assets, leaked credentials, threatened attacks, and threat actor communications to provide early warning intelligence. Use when establishing dark web monitoring coverage, investigating specific data breach claims, or enriching incident investigations with dark web context. Activates for requests involving dark web OSINT, leak site monitoring, credential exposure, Recorded Future dark web, or Tor hidden service intelligence.","category":"Security","tags":["monitoring","darkweb","sources","monitors","dark","web","forums","marketplaces","paste","sites","ransomware","leak","mentions","organizational","assets","leaked","credentials","threatened"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/monitoring-darkweb-sources/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/monitoring-darkweb-sources","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/monitoring-darkweb-sources","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":28557,"sha256":"d778a2fb6ec2a8edf07118da5a560832f6930634ce2678e702529804648d1bc6","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/monitoring-darkweb-sources/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/monitoring-darkweb-sources/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/monitoring-darkweb-sources/SKILL.md","bytes":8249,"sha256":"d778a2fb6ec2a8edf07118da5a560832f6930634ce2678e702529804648d1bc6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/monitoring-darkweb-sources/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/monitoring-darkweb-sources/references/api-reference.md","bytes":2268,"sha256":"dbd250c19055f80953fee2adeef8df14b596f34a8b0bce83eb775287b291f1df","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/monitoring-darkweb-sources/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/monitoring-darkweb-sources/scripts/agent.py","bytes":6785,"sha256":"ff9f51548991d601c951963f13f2910c3f47063e5b58b148c27b4dd95531d72f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/monitoring-darkweb-sources/scripts/agent.py"}],"archiveSha256":"428e1b219f517d556080086da3e6db6355fcace848df06e30a10cd1c63c896b5"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--monitoring-darkweb-sources",
+    "name": "monitoring-darkweb-sources",
+    "description": "Monitors dark web forums, marketplaces, paste sites, and ransomware leak sites for mentions of organizational assets, leaked credentials, threatened attacks, and threat actor communications to provide early warning intelligence. Use when establishing dark web monitoring coverage, investigating specific data breach claims, or enriching incident investigations with dark web context. Activates for requests involving dark web OSINT, leak site monitoring, credential exposure, Recorded Future dark web, or Tor hidden service intelligence.",
+    "category": "Security",
+    "tags": [
+      "monitoring",
+      "darkweb",
+      "sources",
+      "monitors",
+      "dark",
+      "web",
+      "forums",
+      "marketplaces",
+      "paste",
+      "sites",
+      "ransomware",
+      "leak",
+      "mentions",
+      "organizational",
+      "assets",
+      "leaked",
+      "credentials",
+      "threatened"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/monitoring-darkweb-sources/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/monitoring-darkweb-sources",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/monitoring-darkweb-sources",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 28557,
+    "sha256": "d778a2fb6ec2a8edf07118da5a560832f6930634ce2678e702529804648d1bc6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/monitoring-darkweb-sources/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/monitoring-darkweb-sources/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/monitoring-darkweb-sources/SKILL.md",
+      "bytes": 8249,
+      "sha256": "d778a2fb6ec2a8edf07118da5a560832f6930634ce2678e702529804648d1bc6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/monitoring-darkweb-sources/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/monitoring-darkweb-sources/references/api-reference.md",
+      "bytes": 2268,
+      "sha256": "dbd250c19055f80953fee2adeef8df14b596f34a8b0bce83eb775287b291f1df",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/monitoring-darkweb-sources/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/monitoring-darkweb-sources/scripts/agent.py",
+      "bytes": 6785,
+      "sha256": "ff9f51548991d601c951963f13f2910c3f47063e5b58b148c27b4dd95531d72f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/monitoring-darkweb-sources/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "428e1b219f517d556080086da3e6db6355fcace848df06e30a10cd1c63c896b5"
+}

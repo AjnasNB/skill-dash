@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-docker-container-forensics","name":"analyzing-docker-container-forensics","description":"Investigate compromised Docker containers by analyzing images, layers, volumes, logs, and runtime artifacts to identify malicious activity and evidence.","category":"Security","tags":["analyzing","docker","container","forensics","investigate","compromised","containers","by","images","layers","volumes","logs","runtime","artifacts","identify","malicious","activity","evidence."],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-docker-container-forensics/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-docker-container-forensics","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-docker-container-forensics","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":35900,"sha256":"7d1f7b43d2147f9d349d1618f1bc091311c2e074c766e63589571cc29c6fbeed","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-docker-container-forensics/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-docker-container-forensics/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-docker-container-forensics/SKILL.md","bytes":12886,"sha256":"7d1f7b43d2147f9d349d1618f1bc091311c2e074c766e63589571cc29c6fbeed","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-docker-container-forensics/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-docker-container-forensics/references/api-reference.md","bytes":2915,"sha256":"ce78a658017e62e33abceae83b999b6fdfd20f314d94518c3577e468bb9a0c0b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-docker-container-forensics/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-docker-container-forensics/scripts/agent.py","bytes":8844,"sha256":"e600491a86dbce699c6bfc880c7c19825fd6f645df88cd351a0e9b540666cee9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-docker-container-forensics/scripts/agent.py"}],"archiveSha256":"a79efa6b97626954a4f90d3ed3f206c400b8312212658647e1a2bffbb4dac977"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-docker-container-forensics",
+    "name": "analyzing-docker-container-forensics",
+    "description": "Investigate compromised Docker containers by analyzing images, layers, volumes, logs, and runtime artifacts to identify malicious activity and evidence.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "docker",
+      "container",
+      "forensics",
+      "investigate",
+      "compromised",
+      "containers",
+      "by",
+      "images",
+      "layers",
+      "volumes",
+      "logs",
+      "runtime",
+      "artifacts",
+      "identify",
+      "malicious",
+      "activity",
+      "evidence."
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-docker-container-forensics/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-docker-container-forensics",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-docker-container-forensics",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 35900,
+    "sha256": "7d1f7b43d2147f9d349d1618f1bc091311c2e074c766e63589571cc29c6fbeed",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-docker-container-forensics/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-docker-container-forensics/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-docker-container-forensics/SKILL.md",
+      "bytes": 12886,
+      "sha256": "7d1f7b43d2147f9d349d1618f1bc091311c2e074c766e63589571cc29c6fbeed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-docker-container-forensics/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-docker-container-forensics/references/api-reference.md",
+      "bytes": 2915,
+      "sha256": "ce78a658017e62e33abceae83b999b6fdfd20f314d94518c3577e468bb9a0c0b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-docker-container-forensics/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-docker-container-forensics/scripts/agent.py",
+      "bytes": 8844,
+      "sha256": "e600491a86dbce699c6bfc880c7c19825fd6f645df88cd351a0e9b540666cee9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-docker-container-forensics/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "a79efa6b97626954a4f90d3ed3f206c400b8312212658647e1a2bffbb4dac977"
+}

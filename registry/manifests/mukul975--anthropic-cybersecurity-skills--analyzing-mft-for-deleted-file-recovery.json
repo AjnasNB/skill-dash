@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-mft-for-deleted-file-recovery","name":"analyzing-mft-for-deleted-file-recovery","description":"Analyze the NTFS Master File Table ($MFT) with MFTECmd, analyzeMFT, and X-Ways Forensics to recover metadata and content of deleted files by examining MFT record entries, $LogFile, $UsnJrnl, and MFT slack space. Use when recovering evidence of deleted files, reconstructing NTFS file-system timelines, or detecting anti-forensic timestomping during a Windows forensic examination.","category":"Security","tags":["analyzing","mft","deleted","file","recovery","analyze","ntfs","master","table","mftecmd","analyzemft","ways","forensics","recover","metadata","content","files","by"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-mft-for-deleted-file-recovery/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-mft-for-deleted-file-recovery","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-mft-for-deleted-file-recovery","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":37098,"sha256":"37d49a2017270c1ffcd738ff61c17686fa79be306bfe7165c1fca57e558e763b","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-mft-for-deleted-file-recovery/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-mft-for-deleted-file-recovery/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-mft-for-deleted-file-recovery/SKILL.md","bytes":10634,"sha256":"37d49a2017270c1ffcd738ff61c17686fa79be306bfe7165c1fca57e558e763b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-mft-for-deleted-file-recovery/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/analyzing-mft-for-deleted-file-recovery/assets/template.md","bytes":741,"sha256":"4462713ed736bb798c1b05ca8b9885c1f347e3015be63272f01c2b59000e2eb3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-mft-for-deleted-file-recovery/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-mft-for-deleted-file-recovery/references/api-reference.md","bytes":1672,"sha256":"a1dd8e1c7ab6787eef422e2317a8671fbf0d71504f56a91d1abbe0d8cb8de048","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-mft-for-deleted-file-recovery/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/analyzing-mft-for-deleted-file-recovery/references/standards.md","bytes":1169,"sha256":"5b56cd65f5d8c4354677e4af74da82c5374dedcb31c1a3a1b158937f3fcbfa17","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-mft-for-deleted-file-recovery/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/analyzing-mft-for-deleted-file-recovery/references/workflows.md","bytes":1038,"sha256":"32a3b7328455f3f4252837959760b1d1a59d5e1e3a15eabd1b4aefdc675b5454","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-mft-for-deleted-file-recovery/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-mft-for-deleted-file-recovery/scripts/agent.py","bytes":6088,"sha256":"18c27596ef41ee70180a4302b0658ee518ff252b213a4310c4f764a94bffe077","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-mft-for-deleted-file-recovery/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/analyzing-mft-for-deleted-file-recovery/scripts/process.py","bytes":4501,"sha256":"a8560e4e886a935c2664e1a49a2eb8323d334807200fa84dd707cf81c4c7af56","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-mft-for-deleted-file-recovery/scripts/process.py"}],"archiveSha256":"3a1f3fd45cb3760ffeca48a9f769c5de8327242ef71f3314d8dfc7cebc83f27c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-mft-for-deleted-file-recovery",
+    "name": "analyzing-mft-for-deleted-file-recovery",
+    "description": "Analyze the NTFS Master File Table ($MFT) with MFTECmd, analyzeMFT, and X-Ways Forensics to recover metadata and content of deleted files by examining MFT record entries, $LogFile, $UsnJrnl, and MFT slack space. Use when recovering evidence of deleted files, reconstructing NTFS file-system timelines, or detecting anti-forensic timestomping during a Windows forensic examination.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "mft",
+      "deleted",
+      "file",
+      "recovery",
+      "analyze",
+      "ntfs",
+      "master",
+      "table",
+      "mftecmd",
+      "analyzemft",
+      "ways",
+      "forensics",
+      "recover",
+      "metadata",
+      "content",
+      "files",
+      "by"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-mft-for-deleted-file-recovery/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-mft-for-deleted-file-recovery",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-mft-for-deleted-file-recovery",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 37098,
+    "sha256": "37d49a2017270c1ffcd738ff61c17686fa79be306bfe7165c1fca57e558e763b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-mft-for-deleted-file-recovery/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-mft-for-deleted-file-recovery/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-mft-for-deleted-file-recovery/SKILL.md",
+      "bytes": 10634,
+      "sha256": "37d49a2017270c1ffcd738ff61c17686fa79be306bfe7165c1fca57e558e763b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-mft-for-deleted-file-recovery/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/analyzing-mft-for-deleted-file-recovery/assets/template.md",
+      "bytes": 741,
+      "sha256": "4462713ed736bb798c1b05ca8b9885c1f347e3015be63272f01c2b59000e2eb3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-mft-for-deleted-file-recovery/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-mft-for-deleted-file-recovery/references/api-reference.md",
+      "bytes": 1672,
+      "sha256": "a1dd8e1c7ab6787eef422e2317a8671fbf0d71504f56a91d1abbe0d8cb8de048",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-mft-for-deleted-file-recovery/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/analyzing-mft-for-deleted-file-recovery/references/standards.md",
+      "bytes": 1169,
+      "sha256": "5b56cd65f5d8c4354677e4af74da82c5374dedcb31c1a3a1b158937f3fcbfa17",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-mft-for-deleted-file-recovery/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/analyzing-mft-for-deleted-file-recovery/references/workflows.md",
+      "bytes": 1038,
+      "sha256": "32a3b7328455f3f4252837959760b1d1a59d5e1e3a15eabd1b4aefdc675b5454",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-mft-for-deleted-file-recovery/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-mft-for-deleted-file-recovery/scripts/agent.py",
+      "bytes": 6088,
+      "sha256": "18c27596ef41ee70180a4302b0658ee518ff252b213a4310c4f764a94bffe077",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-mft-for-deleted-file-recovery/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/analyzing-mft-for-deleted-file-recovery/scripts/process.py",
+      "bytes": 4501,
+      "sha256": "a8560e4e886a935c2664e1a49a2eb8323d334807200fa84dd707cf81c4c7af56",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-mft-for-deleted-file-recovery/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "3a1f3fd45cb3760ffeca48a9f769c5de8327242ef71f3314d8dfc7cebc83f27c"
+}

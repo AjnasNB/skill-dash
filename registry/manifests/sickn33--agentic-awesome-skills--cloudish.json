@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--cloudish","name":"cloudish","description":"Deploy a Dockerfile, source folder, or existing image to Cloudish as a running container at a live URL, built server-side with no local Docker, with confirmation before spending credits.","category":"Cloud & DevOps","tags":["cloudish","deploy","dockerfile","source","folder","existing","image","as","running","container","at","live","url","built","server","side","no","local"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/cloudish","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cloudish","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":10503,"sha256":"a9a15155cc9a81160f557ab87b7362664679fe68a945d63c0cf1807a24babcdd","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/cloudish/SKILL.md","bytes":9430,"sha256":"a9a15155cc9a81160f557ab87b7362664679fe68a945d63c0cf1807a24babcdd","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cloudish/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"88145ea7ea4ac8831c70b8723b515376f45d979c95ee328ef3be7cc8059443c9"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--cloudish",
+    "name": "cloudish",
+    "description": "Deploy a Dockerfile, source folder, or existing image to Cloudish as a running container at a live URL, built server-side with no local Docker, with confirmation before spending credits.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "cloudish",
+      "deploy",
+      "dockerfile",
+      "source",
+      "folder",
+      "existing",
+      "image",
+      "as",
+      "running",
+      "container",
+      "at",
+      "live",
+      "url",
+      "built",
+      "server",
+      "side",
+      "no",
+      "local"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/cloudish",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cloudish",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10503,
+    "sha256": "a9a15155cc9a81160f557ab87b7362664679fe68a945d63c0cf1807a24babcdd",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/cloudish/SKILL.md",
+      "bytes": 9430,
+      "sha256": "a9a15155cc9a81160f557ab87b7362664679fe68a945d63c0cf1807a24babcdd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cloudish/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "88145ea7ea4ac8831c70b8723b515376f45d979c95ee328ef3be7cc8059443c9"
+}

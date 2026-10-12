@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--people-directory","name":"people-directory","description":"Employee master record: name, employee id, department, job title, grade, manager, employment type, contact and emergency details, access role, start and end dates, status. Use for people records.","category":"Development","tags":["people","directory","employee","master","record","name","id","department","job","title","grade","manager","employment","type","contact","emergency","details","access"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/people-directory","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/people-directory","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":19067,"sha256":"a83c87644197572af73651b3a5021b2d9275724544b5fe181100ddab80cdcff8","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/people-directory/SKILL.md","bytes":17994,"sha256":"a83c87644197572af73651b3a5021b2d9275724544b5fe181100ddab80cdcff8","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/people-directory/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"b70293f6525b203567c25a0bbd5a51ab7fb275f23b5fb464c396c318516d3d49"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--people-directory",
+    "name": "people-directory",
+    "description": "Employee master record: name, employee id, department, job title, grade, manager, employment type, contact and emergency details, access role, start and end dates, status. Use for people records.",
+    "category": "Development",
+    "tags": [
+      "people",
+      "directory",
+      "employee",
+      "master",
+      "record",
+      "name",
+      "id",
+      "department",
+      "job",
+      "title",
+      "grade",
+      "manager",
+      "employment",
+      "type",
+      "contact",
+      "emergency",
+      "details",
+      "access"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/people-directory",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/people-directory",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 19067,
+    "sha256": "a83c87644197572af73651b3a5021b2d9275724544b5fe181100ddab80cdcff8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/people-directory/SKILL.md",
+      "bytes": 17994,
+      "sha256": "a83c87644197572af73651b3a5021b2d9275724544b5fe181100ddab80cdcff8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/people-directory/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "b70293f6525b203567c25a0bbd5a51ab7fb275f23b5fb464c396c318516d3d49"
+}

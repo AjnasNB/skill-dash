@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--neo-brutalism","name":"neo-brutalism","description":"Web and App implementation guide for Neo-Brutalism. Trigger when user wants thick borders, hard shadows, bright colors, and a playful yet structured look.","category":"Development","tags":["neo","brutalism","web","app","implementation","guide","brutalism.","trigger","when","user","wants","thick","borders","hard","shadows","bright","colors","playful"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/design-it/neo-brutalism","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/neo-brutalism","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":10706,"sha256":"64dcbbf58eb61985cf5185ed083b762d19f41fca41af510799e28ce151680ddd","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/design-it/neo-brutalism/SKILL.md","bytes":9633,"sha256":"64dcbbf58eb61985cf5185ed083b762d19f41fca41af510799e28ce151680ddd","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/neo-brutalism/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"ed6ca905dbc0b9685c73c296246ff720211dc131ff82cc20090c7a435ea90238"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--neo-brutalism",
+    "name": "neo-brutalism",
+    "description": "Web and App implementation guide for Neo-Brutalism. Trigger when user wants thick borders, hard shadows, bright colors, and a playful yet structured look.",
+    "category": "Development",
+    "tags": [
+      "neo",
+      "brutalism",
+      "web",
+      "app",
+      "implementation",
+      "guide",
+      "brutalism.",
+      "trigger",
+      "when",
+      "user",
+      "wants",
+      "thick",
+      "borders",
+      "hard",
+      "shadows",
+      "bright",
+      "colors",
+      "playful"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/design-it/neo-brutalism",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/neo-brutalism",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10706,
+    "sha256": "64dcbbf58eb61985cf5185ed083b762d19f41fca41af510799e28ce151680ddd",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/design-it/neo-brutalism/SKILL.md",
+      "bytes": 9633,
+      "sha256": "64dcbbf58eb61985cf5185ed083b762d19f41fca41af510799e28ce151680ddd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/neo-brutalism/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ed6ca905dbc0b9685c73c296246ff720211dc131ff82cc20090c7a435ea90238"
+}

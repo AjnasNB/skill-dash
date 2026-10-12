@@ -1,1 +1,54 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--mcp-deploy-manage-agents","name":"mcp-deploy-manage-agents","description":"Skill converted from mcp-deploy-manage-agents.prompt.md","category":"Cloud & DevOps","tags":["mcp","deploy","manage","agents","skill","converted","from","agents.prompt.md"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/mcp-deploy-manage-agents","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/mcp-deploy-manage-agents","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":10942,"sha256":"9da69b1360ab1e8cfa07e0d1900e0dbdd2ec3927136985d34ad17d0ad099f58d","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/mcp-deploy-manage-agents/SKILL.md","bytes":9883,"sha256":"9da69b1360ab1e8cfa07e0d1900e0dbdd2ec3927136985d34ad17d0ad099f58d","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/mcp-deploy-manage-agents/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"5542302f370223cd99d5fc26643b5f3a4588ae715533f3b45d7127f1e87e047a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--mcp-deploy-manage-agents",
+    "name": "mcp-deploy-manage-agents",
+    "description": "Skill converted from mcp-deploy-manage-agents.prompt.md",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "mcp",
+      "deploy",
+      "manage",
+      "agents",
+      "skill",
+      "converted",
+      "from",
+      "agents.prompt.md"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/mcp-deploy-manage-agents",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/mcp-deploy-manage-agents",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 10942,
+    "sha256": "9da69b1360ab1e8cfa07e0d1900e0dbdd2ec3927136985d34ad17d0ad099f58d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/mcp-deploy-manage-agents/SKILL.md",
+      "bytes": 9883,
+      "sha256": "9da69b1360ab1e8cfa07e0d1900e0dbdd2ec3927136985d34ad17d0ad099f58d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/mcp-deploy-manage-agents/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "5542302f370223cd99d5fc26643b5f3a4588ae715533f3b45d7127f1e87e047a"
+}

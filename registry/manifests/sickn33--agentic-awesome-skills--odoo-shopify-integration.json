@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--odoo-shopify-integration","name":"odoo-shopify-integration","description":"Connect Odoo with Shopify: sync products, inventory, orders, and customers using the Shopify API and Odoo's external API or connector modules.","category":"Automation","tags":["odoo","shopify","integration","connect","sync","products","inventory","orders","customers","api","external","connector","modules."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/odoo-shopify-integration","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-shopify-integration","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5522,"sha256":"c32abb3c2751a8c3414a3607affd13313676bcf09c83ae885ccc451f2286ef43","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/odoo-shopify-integration/SKILL.md","bytes":4449,"sha256":"c32abb3c2751a8c3414a3607affd13313676bcf09c83ae885ccc451f2286ef43","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-shopify-integration/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"81c2633c2c85add260a12654a1780565f4f6804fee0cae56b027217f859bb8b6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--odoo-shopify-integration",
+    "name": "odoo-shopify-integration",
+    "description": "Connect Odoo with Shopify: sync products, inventory, orders, and customers using the Shopify API and Odoo's external API or connector modules.",
+    "category": "Automation",
+    "tags": [
+      "odoo",
+      "shopify",
+      "integration",
+      "connect",
+      "sync",
+      "products",
+      "inventory",
+      "orders",
+      "customers",
+      "api",
+      "external",
+      "connector",
+      "modules."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/odoo-shopify-integration",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-shopify-integration",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5522,
+    "sha256": "c32abb3c2751a8c3414a3607affd13313676bcf09c83ae885ccc451f2286ef43",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/odoo-shopify-integration/SKILL.md",
+      "bytes": 4449,
+      "sha256": "c32abb3c2751a8c3414a3607affd13313676bcf09c83ae885ccc451f2286ef43",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-shopify-integration/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "81c2633c2c85add260a12654a1780565f4f6804fee0cae56b027217f859bb8b6"
+}

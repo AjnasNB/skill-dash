@@ -1,1 +1,57 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--awareness-stage-mapper","name":"awareness-stage-mapper","description":"One sentence - what this skill does and when to invoke it","category":"Development","tags":["awareness","stage","mapper","one","sentence","what","skill","does","when","invoke","it"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/awareness-stage-mapper","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/awareness-stage-mapper","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7151,"sha256":"7ac579ce02d5d8ae0c07dced024dd23dd25dd6200248f6f9c4ae00397ed5b7e4","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/awareness-stage-mapper/SKILL.md","bytes":6078,"sha256":"7ac579ce02d5d8ae0c07dced024dd23dd25dd6200248f6f9c4ae00397ed5b7e4","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/awareness-stage-mapper/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"967da090a1ee6be6ca38eeed5352a20d1fa24cd316d57c35906a17f53335a11a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--awareness-stage-mapper",
+    "name": "awareness-stage-mapper",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "category": "Development",
+    "tags": [
+      "awareness",
+      "stage",
+      "mapper",
+      "one",
+      "sentence",
+      "what",
+      "skill",
+      "does",
+      "when",
+      "invoke",
+      "it"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/awareness-stage-mapper",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/awareness-stage-mapper",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7151,
+    "sha256": "7ac579ce02d5d8ae0c07dced024dd23dd25dd6200248f6f9c4ae00397ed5b7e4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/awareness-stage-mapper/SKILL.md",
+      "bytes": 6078,
+      "sha256": "7ac579ce02d5d8ae0c07dced024dd23dd25dd6200248f6f9c4ae00397ed5b7e4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/awareness-stage-mapper/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "967da090a1ee6be6ca38eeed5352a20d1fa24cd316d57c35906a17f53335a11a"
+}

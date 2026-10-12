@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"alirezarezvani--claude-skills--ai-act-readiness","name":"ai-act-readiness","description":"/cs:ai-act-readiness <system> — EU AI Act 6-question forcing interrogation. Use during AI-system intake, before EU deployment, or during annual compliance refresh as Article 113 obligations phase in (2025-02-02 / 2025-08-02 / 2026-08-02 / 2027-08-02).","category":"Cloud & DevOps","tags":["ai","act","readiness","cs","system","eu","question","forcing","interrogation.","during","intake","before","deployment","annual","compliance","refresh","as","article"],"repo":"alirezarezvani/claude-skills","owner":"alirezarezvani","stars":28045,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"19392f7a08264ed00486a251f5b2098321771f94","path":"compliance-os/skills/ai-act-readiness","sourceUrl":"https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/compliance-os/skills/ai-act-readiness","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-26T13:53:02Z","fileCount":2,"bytes":8201,"sha256":"6dae080a48c671919a108b7fa545e8ef56b8b13151f0aa2beb9da3b12944b741","historical":false},"files":[{"path":"SKILL.md","sourcePath":"compliance-os/skills/ai-act-readiness/SKILL.md","bytes":7129,"sha256":"6dae080a48c671919a108b7fa545e8ef56b8b13151f0aa2beb9da3b12944b741","mode":420,"url":"https://raw.githubusercontent.com/alirezarezvani/claude-skills/19392f7a08264ed00486a251f5b2098321771f94/compliance-os/skills/ai-act-readiness/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1072,"sha256":"a20126646f93d32a8989c3cf4772d59194f405034f7babe7daebeac22b8ab151","mode":420,"url":"https://raw.githubusercontent.com/alirezarezvani/claude-skills/19392f7a08264ed00486a251f5b2098321771f94/LICENSE"}],"archiveSha256":"85c3049ccdf4c5dfcca6b87cfdbafcda58e8a2b9f3ebe77339b044d565949774"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "alirezarezvani--claude-skills--ai-act-readiness",
+    "name": "ai-act-readiness",
+    "description": "/cs:ai-act-readiness <system> — EU AI Act 6-question forcing interrogation. Use during AI-system intake, before EU deployment, or during annual compliance refresh as Article 113 obligations phase in (2025-02-02 / 2025-08-02 / 2026-08-02 / 2027-08-02).",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "ai",
+      "act",
+      "readiness",
+      "cs",
+      "system",
+      "eu",
+      "question",
+      "forcing",
+      "interrogation.",
+      "during",
+      "intake",
+      "before",
+      "deployment",
+      "annual",
+      "compliance",
+      "refresh",
+      "as",
+      "article"
+    ],
+    "repo": "alirezarezvani/claude-skills",
+    "owner": "alirezarezvani",
+    "stars": 28045,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "19392f7a08264ed00486a251f5b2098321771f94",
+    "path": "compliance-os/skills/ai-act-readiness",
+    "sourceUrl": "https://github.com/alirezarezvani/claude-skills/tree/19392f7a08264ed00486a251f5b2098321771f94/compliance-os/skills/ai-act-readiness",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-26T13:53:02Z",
+    "fileCount": 2,
+    "bytes": 8201,
+    "sha256": "6dae080a48c671919a108b7fa545e8ef56b8b13151f0aa2beb9da3b12944b741",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "compliance-os/skills/ai-act-readiness/SKILL.md",
+      "bytes": 7129,
+      "sha256": "6dae080a48c671919a108b7fa545e8ef56b8b13151f0aa2beb9da3b12944b741",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/19392f7a08264ed00486a251f5b2098321771f94/compliance-os/skills/ai-act-readiness/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1072,
+      "sha256": "a20126646f93d32a8989c3cf4772d59194f405034f7babe7daebeac22b8ab151",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/19392f7a08264ed00486a251f5b2098321771f94/LICENSE"
+    }
+  ],
+  "archiveSha256": "85c3049ccdf4c5dfcca6b87cfdbafcda58e8a2b9f3ebe77339b044d565949774"
+}

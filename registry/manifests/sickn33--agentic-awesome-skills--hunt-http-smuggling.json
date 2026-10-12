@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--hunt-http-smuggling","name":"hunt-http-smuggling","description":"Hunt HTTP request smuggling (CL.TE, TE.CL, H2.CL, H2.TE).","category":"Development","tags":["hunt","http","smuggling","request","cl.te","te.cl","h2.cl","h2.te"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/hunt-http-smuggling","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-http-smuggling","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":18445,"sha256":"f3dd383862b5d5bdd8f041043ba7c0f1acc73db5f9938849265dbd88073f0743","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/hunt-http-smuggling/SKILL.md","bytes":9106,"sha256":"f3dd383862b5d5bdd8f041043ba7c0f1acc73db5f9938849265dbd88073f0743","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-http-smuggling/SKILL.md"},{"path":"references/phase2h-smuggling-cachepoison.md","sourcePath":"skills/hunt-http-smuggling/references/phase2h-smuggling-cachepoison.md","bytes":8266,"sha256":"03830d300830eae968db367f8f5632903425168cf9b5ab47b0a79fe6bb5c8876","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-http-smuggling/references/phase2h-smuggling-cachepoison.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"d204f1fb194f290c7c5eff685e1b77b20d74713395a9dadff6d5f4b995201f56"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--hunt-http-smuggling",
+    "name": "hunt-http-smuggling",
+    "description": "Hunt HTTP request smuggling (CL.TE, TE.CL, H2.CL, H2.TE).",
+    "category": "Development",
+    "tags": [
+      "hunt",
+      "http",
+      "smuggling",
+      "request",
+      "cl.te",
+      "te.cl",
+      "h2.cl",
+      "h2.te"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/hunt-http-smuggling",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-http-smuggling",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 18445,
+    "sha256": "f3dd383862b5d5bdd8f041043ba7c0f1acc73db5f9938849265dbd88073f0743",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunt-http-smuggling/SKILL.md",
+      "bytes": 9106,
+      "sha256": "f3dd383862b5d5bdd8f041043ba7c0f1acc73db5f9938849265dbd88073f0743",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-http-smuggling/SKILL.md"
+    },
+    {
+      "path": "references/phase2h-smuggling-cachepoison.md",
+      "sourcePath": "skills/hunt-http-smuggling/references/phase2h-smuggling-cachepoison.md",
+      "bytes": 8266,
+      "sha256": "03830d300830eae968db367f8f5632903425168cf9b5ab47b0a79fe6bb5c8876",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-http-smuggling/references/phase2h-smuggling-cachepoison.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "d204f1fb194f290c7c5eff685e1b77b20d74713395a9dadff6d5f4b995201f56"
+}

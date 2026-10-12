@@ -1,1 +1,109 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--hunting-for-spearphishing-indicators","name":"hunting-for-spearphishing-indicators","description":"Hunt for spearphishing campaign indicators across email logs, endpoint telemetry, and network data to detect targeted email attacks.","category":"Marketing","tags":["hunting","spearphishing","indicators","hunt","campaign","across","email","logs","endpoint","telemetry","network","data","detect","targeted","attacks."],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/hunting-for-spearphishing-indicators/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/hunting-for-spearphishing-indicators","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-spearphishing-indicators","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":34889,"sha256":"91278c4f16d596985c13afa5bf7ac8ab8a0c2552f613578178837c598fb40efc","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/hunting-for-spearphishing-indicators/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-spearphishing-indicators/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/hunting-for-spearphishing-indicators/SKILL.md","bytes":4021,"sha256":"91278c4f16d596985c13afa5bf7ac8ab8a0c2552f613578178837c598fb40efc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-spearphishing-indicators/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/hunting-for-spearphishing-indicators/assets/template.md","bytes":2666,"sha256":"ee1b2628cc72671d2d218d214cb3a00bd0b1edf2499429d0881f82002c7a753a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-spearphishing-indicators/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/hunting-for-spearphishing-indicators/references/api-reference.md","bytes":1834,"sha256":"87e1f291da03ede5ca5a39f0574253314d0bba54a120e33cfe3907293c899086","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-spearphishing-indicators/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/hunting-for-spearphishing-indicators/references/standards.md","bytes":1601,"sha256":"cafc75be50ec5db6f929f0fdfeddcba68755c12a58f5cee1dadb9926d2afcc89","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-spearphishing-indicators/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/hunting-for-spearphishing-indicators/references/workflows.md","bytes":3024,"sha256":"490485218a379563080d79a2f6ac7a47ea0256af1dc4adbd582bd9837bde9008","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-spearphishing-indicators/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/hunting-for-spearphishing-indicators/scripts/agent.py","bytes":6854,"sha256":"e565d5afee1b305bcb2bfe98513c7dfbe83a9cf47ce20b1007978c81cb09162d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-spearphishing-indicators/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/hunting-for-spearphishing-indicators/scripts/process.py","bytes":3634,"sha256":"c876512e3e9bf06aea2421d6db2d70be71e11f2306ead22a1d74b6e8ddeb513a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-spearphishing-indicators/scripts/process.py"}],"archiveSha256":"c870298fc9e3ca6c59a44b934f75ca6eb717ae98a5b83ed063caa46bc835bcb9"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-for-spearphishing-indicators",
+    "name": "hunting-for-spearphishing-indicators",
+    "description": "Hunt for spearphishing campaign indicators across email logs, endpoint telemetry, and network data to detect targeted email attacks.",
+    "category": "Marketing",
+    "tags": [
+      "hunting",
+      "spearphishing",
+      "indicators",
+      "hunt",
+      "campaign",
+      "across",
+      "email",
+      "logs",
+      "endpoint",
+      "telemetry",
+      "network",
+      "data",
+      "detect",
+      "targeted",
+      "attacks."
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-for-spearphishing-indicators/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-for-spearphishing-indicators",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-spearphishing-indicators",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 34889,
+    "sha256": "91278c4f16d596985c13afa5bf7ac8ab8a0c2552f613578178837c598fb40efc",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-for-spearphishing-indicators/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-spearphishing-indicators/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-for-spearphishing-indicators/SKILL.md",
+      "bytes": 4021,
+      "sha256": "91278c4f16d596985c13afa5bf7ac8ab8a0c2552f613578178837c598fb40efc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-spearphishing-indicators/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/hunting-for-spearphishing-indicators/assets/template.md",
+      "bytes": 2666,
+      "sha256": "ee1b2628cc72671d2d218d214cb3a00bd0b1edf2499429d0881f82002c7a753a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-spearphishing-indicators/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-for-spearphishing-indicators/references/api-reference.md",
+      "bytes": 1834,
+      "sha256": "87e1f291da03ede5ca5a39f0574253314d0bba54a120e33cfe3907293c899086",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-spearphishing-indicators/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/hunting-for-spearphishing-indicators/references/standards.md",
+      "bytes": 1601,
+      "sha256": "cafc75be50ec5db6f929f0fdfeddcba68755c12a58f5cee1dadb9926d2afcc89",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-spearphishing-indicators/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/hunting-for-spearphishing-indicators/references/workflows.md",
+      "bytes": 3024,
+      "sha256": "490485218a379563080d79a2f6ac7a47ea0256af1dc4adbd582bd9837bde9008",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-spearphishing-indicators/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-for-spearphishing-indicators/scripts/agent.py",
+      "bytes": 6854,
+      "sha256": "e565d5afee1b305bcb2bfe98513c7dfbe83a9cf47ce20b1007978c81cb09162d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-spearphishing-indicators/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/hunting-for-spearphishing-indicators/scripts/process.py",
+      "bytes": 3634,
+      "sha256": "c876512e3e9bf06aea2421d6db2d70be71e11f2306ead22a1d74b6e8ddeb513a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-spearphishing-indicators/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "c870298fc9e3ca6c59a44b934f75ca6eb717ae98a5b83ed063caa46bc835bcb9"
+}

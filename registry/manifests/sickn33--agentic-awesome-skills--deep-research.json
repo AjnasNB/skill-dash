@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--deep-research","name":"deep-research","description":"Run autonomous research tasks that plan, search, read, and synthesize information into comprehensive reports.","category":"Data & research","tags":["deep","research","run","autonomous","tasks","plan","search","read","synthesize","information","into","comprehensive","reports."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/deep-research","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/deep-research","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4260,"sha256":"7ca511af215323d3acaee6113799d4dcbfba8a224b423bea5216f099246f5e56","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/deep-research/SKILL.md","bytes":3187,"sha256":"7ca511af215323d3acaee6113799d4dcbfba8a224b423bea5216f099246f5e56","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/deep-research/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"f794fd7bc53a1769057400db48ecf21c89cf657b2e77562d5b55f4adc26134f2"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--deep-research",
+    "name": "deep-research",
+    "description": "Run autonomous research tasks that plan, search, read, and synthesize information into comprehensive reports.",
+    "category": "Data & research",
+    "tags": [
+      "deep",
+      "research",
+      "run",
+      "autonomous",
+      "tasks",
+      "plan",
+      "search",
+      "read",
+      "synthesize",
+      "information",
+      "into",
+      "comprehensive",
+      "reports."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/deep-research",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/deep-research",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4260,
+    "sha256": "7ca511af215323d3acaee6113799d4dcbfba8a224b423bea5216f099246f5e56",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/deep-research/SKILL.md",
+      "bytes": 3187,
+      "sha256": "7ca511af215323d3acaee6113799d4dcbfba8a224b423bea5216f099246f5e56",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/deep-research/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "f794fd7bc53a1769057400db48ecf21c89cf657b2e77562d5b55f4adc26134f2"
+}

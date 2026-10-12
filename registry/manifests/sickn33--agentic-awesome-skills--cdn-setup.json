@@ -1,1 +1,60 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--cdn-setup","name":"cdn-setup","description":"Configure CDNs for content delivery. Set up CloudFront, Cloudflare, and Fastly. Use when optimizing global content delivery.","category":"Cloud & DevOps","tags":["cdn","setup","configure","cdns","content","delivery.","set","up","cloudfront","cloudflare","fastly.","when","optimizing","global"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/cdn-setup","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cdn-setup","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12645,"sha256":"8b5760517c4f5abf31f106d5b1e6e5d696d6ef3df470854d95d58809f762c647","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/cdn-setup/SKILL.md","bytes":11572,"sha256":"8b5760517c4f5abf31f106d5b1e6e5d696d6ef3df470854d95d58809f762c647","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cdn-setup/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"57e4a95a4e0e3c636f03c5ed15549049f50fb736282508fa86db659588d8bc39"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--cdn-setup",
+    "name": "cdn-setup",
+    "description": "Configure CDNs for content delivery. Set up CloudFront, Cloudflare, and Fastly. Use when optimizing global content delivery.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "cdn",
+      "setup",
+      "configure",
+      "cdns",
+      "content",
+      "delivery.",
+      "set",
+      "up",
+      "cloudfront",
+      "cloudflare",
+      "fastly.",
+      "when",
+      "optimizing",
+      "global"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/cdn-setup",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cdn-setup",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12645,
+    "sha256": "8b5760517c4f5abf31f106d5b1e6e5d696d6ef3df470854d95d58809f762c647",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/cdn-setup/SKILL.md",
+      "bytes": 11572,
+      "sha256": "8b5760517c4f5abf31f106d5b1e6e5d696d6ef3df470854d95d58809f762c647",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cdn-setup/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "57e4a95a4e0e3c636f03c5ed15549049f50fb736282508fa86db659588d8bc39"
+}

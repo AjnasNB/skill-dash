@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-zero-trust-network-access-with-zscaler","name":"implementing-zero-trust-network-access-with-zscaler","description":"Configures Zero Trust Network Access using Zscaler Private Access (ZPA) to broker identity-based, context-aware connections between authenticated users and internal applications through the Zscaler Zero Trust Exchange, without placing users on the corporate network. Use when replacing traditional VPN architectures with ZTNA, or when brokering secure per-application access for remote and hybrid users via Zscaler.","category":"Security","tags":["implementing","zero","trust","network","access","zscaler","configures","private","zpa","broker","identity","based","context","aware","connections","between","authenticated","users"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-zero-trust-network-access-with-zscaler/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-zero-trust-network-access-with-zscaler","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access-with-zscaler","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":58549,"sha256":"dbd6939deefac72b9f9cb93106007cc569951e3c21a043626f42de912dec0c17","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-zero-trust-network-access-with-zscaler/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access-with-zscaler/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-zero-trust-network-access-with-zscaler/SKILL.md","bytes":7652,"sha256":"dbd6939deefac72b9f9cb93106007cc569951e3c21a043626f42de912dec0c17","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access-with-zscaler/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-zero-trust-network-access-with-zscaler/assets/template.md","bytes":3587,"sha256":"085ddd59d7ef278748991d32d38b65f9c8f73840776af8e96b22ae8595f6cb9a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access-with-zscaler/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-zero-trust-network-access-with-zscaler/references/api-reference.md","bytes":1644,"sha256":"4bc8c6f94eee9f968b76b32c963615d75542821863fe77dc3a940e5955242a32","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access-with-zscaler/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-zero-trust-network-access-with-zscaler/references/standards.md","bytes":4968,"sha256":"4832bc2bf9d694c7d53eac6784853355f99e3dd9202c3bc17539da2f4bc34570","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access-with-zscaler/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-zero-trust-network-access-with-zscaler/references/workflows.md","bytes":7752,"sha256":"0d7aa9b4b69598d5235b9ae80a5e4c56d1012db4adb4e18396a7565dd858beb4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access-with-zscaler/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-zero-trust-network-access-with-zscaler/scripts/agent.py","bytes":5658,"sha256":"613286ac655ed50ebb6cc159186f8feb076f04b9ed99613da0259161d1ad9ad1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access-with-zscaler/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-zero-trust-network-access-with-zscaler/scripts/process.py","bytes":16033,"sha256":"25cdf9a1d748b9ad7a3c4e3ffe02fb5c5caf7ac46c2291951be022d3c034aa6c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access-with-zscaler/scripts/process.py"}],"archiveSha256":"5cd79cd1b3fe3243eefc8bcbe996b74843cb1f5f0e826d8d454312ccea31d650"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-zero-trust-network-access-with-zscaler",
+    "name": "implementing-zero-trust-network-access-with-zscaler",
+    "description": "Configures Zero Trust Network Access using Zscaler Private Access (ZPA) to broker identity-based, context-aware connections between authenticated users and internal applications through the Zscaler Zero Trust Exchange, without placing users on the corporate network. Use when replacing traditional VPN architectures with ZTNA, or when brokering secure per-application access for remote and hybrid users via Zscaler.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "zero",
+      "trust",
+      "network",
+      "access",
+      "zscaler",
+      "configures",
+      "private",
+      "zpa",
+      "broker",
+      "identity",
+      "based",
+      "context",
+      "aware",
+      "connections",
+      "between",
+      "authenticated",
+      "users"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-zero-trust-network-access-with-zscaler/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-zero-trust-network-access-with-zscaler",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access-with-zscaler",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 58549,
+    "sha256": "dbd6939deefac72b9f9cb93106007cc569951e3c21a043626f42de912dec0c17",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-zero-trust-network-access-with-zscaler/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access-with-zscaler/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-zero-trust-network-access-with-zscaler/SKILL.md",
+      "bytes": 7652,
+      "sha256": "dbd6939deefac72b9f9cb93106007cc569951e3c21a043626f42de912dec0c17",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access-with-zscaler/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-zero-trust-network-access-with-zscaler/assets/template.md",
+      "bytes": 3587,
+      "sha256": "085ddd59d7ef278748991d32d38b65f9c8f73840776af8e96b22ae8595f6cb9a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access-with-zscaler/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-zero-trust-network-access-with-zscaler/references/api-reference.md",
+      "bytes": 1644,
+      "sha256": "4bc8c6f94eee9f968b76b32c963615d75542821863fe77dc3a940e5955242a32",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access-with-zscaler/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-zero-trust-network-access-with-zscaler/references/standards.md",
+      "bytes": 4968,
+      "sha256": "4832bc2bf9d694c7d53eac6784853355f99e3dd9202c3bc17539da2f4bc34570",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access-with-zscaler/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-zero-trust-network-access-with-zscaler/references/workflows.md",
+      "bytes": 7752,
+      "sha256": "0d7aa9b4b69598d5235b9ae80a5e4c56d1012db4adb4e18396a7565dd858beb4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access-with-zscaler/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-zero-trust-network-access-with-zscaler/scripts/agent.py",
+      "bytes": 5658,
+      "sha256": "613286ac655ed50ebb6cc159186f8feb076f04b9ed99613da0259161d1ad9ad1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access-with-zscaler/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-zero-trust-network-access-with-zscaler/scripts/process.py",
+      "bytes": 16033,
+      "sha256": "25cdf9a1d748b9ad7a3c4e3ffe02fb5c5caf7ac46c2291951be022d3c034aa6c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access-with-zscaler/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "5cd79cd1b3fe3243eefc8bcbe996b74843cb1f5f0e826d8d454312ccea31d650"
+}

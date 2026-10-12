@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--awt-e2e-testing","name":"awt-e2e-testing","description":"AI-powered E2E web testing — eyes and hands for AI coding tools. Declarative YAML scenarios, Playwright execution, visual matching (OpenCV + OCR), platform auto-detection (Flutter/React/Vue), learning DB. Install: npx skills add ksgisang/awt-skill --skill awt -g","category":"Development","tags":["awt","e2e","testing","ai","powered","web","eyes","hands","coding","tools.","declarative","yaml","scenarios","playwright","execution","visual","matching","opencv"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/awt-e2e-testing","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/awt-e2e-testing","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":3304,"sha256":"b517888c05b0a3ef0a155404ac9cbac903a8afad65f39ef9f96d1a4b22050f18","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/awt-e2e-testing/SKILL.md","bytes":2231,"sha256":"b517888c05b0a3ef0a155404ac9cbac903a8afad65f39ef9f96d1a4b22050f18","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/awt-e2e-testing/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"ee6c9676b6d816937da1b0cd299ec27c63210bcb2a4cbf3437df15e64a9d6361"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--awt-e2e-testing",
+    "name": "awt-e2e-testing",
+    "description": "AI-powered E2E web testing — eyes and hands for AI coding tools. Declarative YAML scenarios, Playwright execution, visual matching (OpenCV + OCR), platform auto-detection (Flutter/React/Vue), learning DB. Install: npx skills add ksgisang/awt-skill --skill awt -g",
+    "category": "Development",
+    "tags": [
+      "awt",
+      "e2e",
+      "testing",
+      "ai",
+      "powered",
+      "web",
+      "eyes",
+      "hands",
+      "coding",
+      "tools.",
+      "declarative",
+      "yaml",
+      "scenarios",
+      "playwright",
+      "execution",
+      "visual",
+      "matching",
+      "opencv"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/awt-e2e-testing",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/awt-e2e-testing",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 3304,
+    "sha256": "b517888c05b0a3ef0a155404ac9cbac903a8afad65f39ef9f96d1a4b22050f18",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/awt-e2e-testing/SKILL.md",
+      "bytes": 2231,
+      "sha256": "b517888c05b0a3ef0a155404ac9cbac903a8afad65f39ef9f96d1a4b22050f18",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/awt-e2e-testing/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ee6c9676b6d816937da1b0cd299ec27c63210bcb2a4cbf3437df15e64a9d6361"
+}

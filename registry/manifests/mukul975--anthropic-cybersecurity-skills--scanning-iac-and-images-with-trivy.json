@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--scanning-iac-and-images-with-trivy","name":"scanning-iac-and-images-with-trivy","description":"Scans container images, Infrastructure-as-Code (Terraform, CloudFormation, Kubernetes manifests, Dockerfile, Helm), filesystems, git repos, and SBOMs with Trivy's vuln, misconfig, secret, and license scanners. Use when building a CI/CD security gate that scans images before push, IaC before apply, or SBOMs for supply-chain weaknesses, and fails the build on policy violations.","category":"Security","tags":["scanning","iac","images","trivy","scans","container","infrastructure","as","code","terraform","cloudformation","kubernetes","manifests","dockerfile","helm","filesystems","git","repos"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/scanning-iac-and-images-with-trivy/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/scanning-iac-and-images-with-trivy","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-iac-and-images-with-trivy","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":5,"bytes":32292,"sha256":"23eb97a3eb3173701ff55ed4e3d6d875baf6cee055c61d5d7628e2ab4403be4b","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/scanning-iac-and-images-with-trivy/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-iac-and-images-with-trivy/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/scanning-iac-and-images-with-trivy/SKILL.md","bytes":10499,"sha256":"23eb97a3eb3173701ff55ed4e3d6d875baf6cee055c61d5d7628e2ab4403be4b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-iac-and-images-with-trivy/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/scanning-iac-and-images-with-trivy/references/api-reference.md","bytes":2940,"sha256":"30f543b4143eb9cb3c1aac762704998571b656a6de413f4f228c6ae0cd5a78fe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-iac-and-images-with-trivy/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/scanning-iac-and-images-with-trivy/references/standards.md","bytes":1424,"sha256":"e98429ae70bfc7e413bcdb4f9596a9c4c6e56112ea496e8233646f2299895a51","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-iac-and-images-with-trivy/references/standards.md"},{"path":"scripts/agent.py","sourcePath":"skills/scanning-iac-and-images-with-trivy/scripts/agent.py","bytes":6174,"sha256":"39ed65ab610ec9c35df31503bc16fc6f669d373126d8c0bfc8f8848c7e905495","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-iac-and-images-with-trivy/scripts/agent.py"}],"archiveSha256":"9e0d764c778fb3526115b9c8676fe0d291feeed51ab2fceea84d7e381704aa3c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--scanning-iac-and-images-with-trivy",
+    "name": "scanning-iac-and-images-with-trivy",
+    "description": "Scans container images, Infrastructure-as-Code (Terraform, CloudFormation, Kubernetes manifests, Dockerfile, Helm), filesystems, git repos, and SBOMs with Trivy's vuln, misconfig, secret, and license scanners. Use when building a CI/CD security gate that scans images before push, IaC before apply, or SBOMs for supply-chain weaknesses, and fails the build on policy violations.",
+    "category": "Security",
+    "tags": [
+      "scanning",
+      "iac",
+      "images",
+      "trivy",
+      "scans",
+      "container",
+      "infrastructure",
+      "as",
+      "code",
+      "terraform",
+      "cloudformation",
+      "kubernetes",
+      "manifests",
+      "dockerfile",
+      "helm",
+      "filesystems",
+      "git",
+      "repos"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/scanning-iac-and-images-with-trivy/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/scanning-iac-and-images-with-trivy",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-iac-and-images-with-trivy",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 32292,
+    "sha256": "23eb97a3eb3173701ff55ed4e3d6d875baf6cee055c61d5d7628e2ab4403be4b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/scanning-iac-and-images-with-trivy/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-iac-and-images-with-trivy/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/scanning-iac-and-images-with-trivy/SKILL.md",
+      "bytes": 10499,
+      "sha256": "23eb97a3eb3173701ff55ed4e3d6d875baf6cee055c61d5d7628e2ab4403be4b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-iac-and-images-with-trivy/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/scanning-iac-and-images-with-trivy/references/api-reference.md",
+      "bytes": 2940,
+      "sha256": "30f543b4143eb9cb3c1aac762704998571b656a6de413f4f228c6ae0cd5a78fe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-iac-and-images-with-trivy/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/scanning-iac-and-images-with-trivy/references/standards.md",
+      "bytes": 1424,
+      "sha256": "e98429ae70bfc7e413bcdb4f9596a9c4c6e56112ea496e8233646f2299895a51",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-iac-and-images-with-trivy/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/scanning-iac-and-images-with-trivy/scripts/agent.py",
+      "bytes": 6174,
+      "sha256": "39ed65ab610ec9c35df31503bc16fc6f669d373126d8c0bfc8f8848c7e905495",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/scanning-iac-and-images-with-trivy/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "9e0d764c778fb3526115b9c8676fe0d291feeed51ab2fceea84d7e381704aa3c"
+}

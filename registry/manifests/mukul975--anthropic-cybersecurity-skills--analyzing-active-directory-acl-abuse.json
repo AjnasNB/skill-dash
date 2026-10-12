@@ -1,1 +1,76 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-active-directory-acl-abuse","name":"analyzing-active-directory-acl-abuse","description":"Detect dangerous ACL misconfigurations in Active Directory using ldap3 to identify GenericAll, WriteDACL, and WriteOwner abuse paths","category":"Development","tags":["analyzing","active","directory","acl","abuse","detect","dangerous","misconfigurations","ldap3","identify","genericall","writedacl","writeowner","paths"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-active-directory-acl-abuse/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-active-directory-acl-abuse","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-active-directory-acl-abuse","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":27980,"sha256":"e72ab21e752ec57aff3ecd6b612add8c18b7df0b3ace10789209eeca1c01b2d5","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-active-directory-acl-abuse/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-active-directory-acl-abuse/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-active-directory-acl-abuse/SKILL.md","bytes":4248,"sha256":"e72ab21e752ec57aff3ecd6b612add8c18b7df0b3ace10789209eeca1c01b2d5","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-active-directory-acl-abuse/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-active-directory-acl-abuse/references/api-reference.md","bytes":2951,"sha256":"6dee04876a1a9d7276a384894c192bc7cf4d87fdb9133222db6a2e24af31dbc6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-active-directory-acl-abuse/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-active-directory-acl-abuse/scripts/agent.py","bytes":9526,"sha256":"8b92e319323b26479a80a0142a27d2689abcd7aac9f4370e7049e79640e457a6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-active-directory-acl-abuse/scripts/agent.py"}],"archiveSha256":"28cac80374482094619cdd4464f06cb8ebb817d5c0777472e0572b945c971087"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-active-directory-acl-abuse",
+    "name": "analyzing-active-directory-acl-abuse",
+    "description": "Detect dangerous ACL misconfigurations in Active Directory using ldap3 to identify GenericAll, WriteDACL, and WriteOwner abuse paths",
+    "category": "Development",
+    "tags": [
+      "analyzing",
+      "active",
+      "directory",
+      "acl",
+      "abuse",
+      "detect",
+      "dangerous",
+      "misconfigurations",
+      "ldap3",
+      "identify",
+      "genericall",
+      "writedacl",
+      "writeowner",
+      "paths"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-active-directory-acl-abuse/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-active-directory-acl-abuse",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-active-directory-acl-abuse",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 27980,
+    "sha256": "e72ab21e752ec57aff3ecd6b612add8c18b7df0b3ace10789209eeca1c01b2d5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-active-directory-acl-abuse/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-active-directory-acl-abuse/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-active-directory-acl-abuse/SKILL.md",
+      "bytes": 4248,
+      "sha256": "e72ab21e752ec57aff3ecd6b612add8c18b7df0b3ace10789209eeca1c01b2d5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-active-directory-acl-abuse/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-active-directory-acl-abuse/references/api-reference.md",
+      "bytes": 2951,
+      "sha256": "6dee04876a1a9d7276a384894c192bc7cf4d87fdb9133222db6a2e24af31dbc6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-active-directory-acl-abuse/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-active-directory-acl-abuse/scripts/agent.py",
+      "bytes": 9526,
+      "sha256": "8b92e319323b26479a80a0142a27d2689abcd7aac9f4370e7049e79640e457a6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-active-directory-acl-abuse/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "28cac80374482094619cdd4464f06cb8ebb817d5c0777472e0572b945c971087"
+}

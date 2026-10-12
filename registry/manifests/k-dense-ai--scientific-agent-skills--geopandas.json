@@ -1,1 +1,165 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--geopandas","name":"geopandas","description":"Guidance and local audit tools for Python workflows that directly use GeoPandas GeoSeries, GeoDataFrame, spatial operations, or vector-data I/O.","category":"Development","tags":["geopandas","guidance","local","audit","tools","python","workflows","directly","geoseries","geodataframe","spatial","operations","vector","data","o."],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/geopandas","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":15,"bytes":152644,"sha256":"c03a46f911535326802af476208a1e04de13ea385f4d5309b022ad931826b222","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/geopandas/SKILL.md","bytes":15374,"sha256":"c03a46f911535326802af476208a1e04de13ea385f4d5309b022ad931826b222","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/SKILL.md"},{"path":"references/crs-management.md","sourcePath":"skills/geopandas/references/crs-management.md","bytes":9281,"sha256":"39c0f83941fa8d781e7a5f2d78f6525ef7f154d5a41659fd64e312a9ca05852b","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/references/crs-management.md"},{"path":"references/data-io.md","sourcePath":"skills/geopandas/references/data-io.md","bytes":13955,"sha256":"62a6c42142aa28ebc75b948a4ca1425ac475dcc135c71b4a20705c9b75dde409","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/references/data-io.md"},{"path":"references/data-structures.md","sourcePath":"skills/geopandas/references/data-structures.md","bytes":7611,"sha256":"6468ee20c71fbdfac409c4cf33f61c6e07cc0ff31e0d92e2eb193c39610637ec","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/references/data-structures.md"},{"path":"references/geometric-operations.md","sourcePath":"skills/geopandas/references/geometric-operations.md","bytes":10041,"sha256":"a335fa87508b20a110c4e0905459a18abdd9267b19bec6daf327864ca071d732","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/references/geometric-operations.md"},{"path":"references/spatial-analysis.md","sourcePath":"skills/geopandas/references/spatial-analysis.md","bytes":10060,"sha256":"9f29ca1cd7c818baf887684bda5b1c6433a8feb0a8afff0cd6c911821cb15765","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/references/spatial-analysis.md"},{"path":"references/visualization.md","sourcePath":"skills/geopandas/references/visualization.md","bytes":9793,"sha256":"a6d20e0370e71fd6994c4381743ecbf5fd19edd0087e140cdddc6096fb9b209e","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/references/visualization.md"},{"path":"scripts/_common.py","sourcePath":"skills/geopandas/scripts/_common.py","bytes":22036,"sha256":"6cf6999f0dff04f65d9ba5387c43262ba9210f6a32769a786dfe346a9e76bdcd","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/scripts/_common.py"},{"path":"scripts/crs_reprojection_plan.py","sourcePath":"skills/geopandas/scripts/crs_reprojection_plan.py","bytes":8118,"sha256":"bc31f67674903f87625b9c88e699097bdeab5fdd919111fc31bae516d0328589","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/scripts/crs_reprojection_plan.py"},{"path":"scripts/export_plan.py","sourcePath":"skills/geopandas/scripts/export_plan.py","bytes":11149,"sha256":"f2f9de1616c846be48e30812abf3d3c02f29302ee007f162f1cc4dd913e9bc22","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/scripts/export_plan.py"},{"path":"scripts/geometry_validity_report.py","sourcePath":"skills/geopandas/scripts/geometry_validity_report.py","bytes":7436,"sha256":"d1727489a97f8b5941fecb9e7612da727416f4bc3c91a6bc5a8b86052e62f798","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/scripts/geometry_validity_report.py"},{"path":"scripts/sensitive_coordinates_checklist.py","sourcePath":"skills/geopandas/scripts/sensitive_coordinates_checklist.py","bytes":8980,"sha256":"b53830e89bae6c359d237895d8836df29f11b0220facb97eda444d0d98b89079","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/scripts/sensitive_coordinates_checklist.py"},{"path":"scripts/spatial_join_audit.py","sourcePath":"skills/geopandas/scripts/spatial_join_audit.py","bytes":13254,"sha256":"a3828a96b5d4861e2fcea642687e4e7408b6e58631d3198c499b8f8272374661","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/scripts/spatial_join_audit.py"},{"path":"scripts/vector_inventory.py","sourcePath":"skills/geopandas/scripts/vector_inventory.py","bytes":4488,"sha256":"5b69d0c0f1e99cb9c7c663e4286f703c797b0d150711e1e4c293f6082767483f","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/scripts/vector_inventory.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"bee943cccda2a3d10bb0d1837bd03369952631195ee5100d3e83e944a7b0a7b1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--geopandas",
+    "name": "geopandas",
+    "description": "Guidance and local audit tools for Python workflows that directly use GeoPandas GeoSeries, GeoDataFrame, spatial operations, or vector-data I/O.",
+    "category": "Development",
+    "tags": [
+      "geopandas",
+      "guidance",
+      "local",
+      "audit",
+      "tools",
+      "python",
+      "workflows",
+      "directly",
+      "geoseries",
+      "geodataframe",
+      "spatial",
+      "operations",
+      "vector",
+      "data",
+      "o."
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/geopandas",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 15,
+    "bytes": 152644,
+    "sha256": "c03a46f911535326802af476208a1e04de13ea385f4d5309b022ad931826b222",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/geopandas/SKILL.md",
+      "bytes": 15374,
+      "sha256": "c03a46f911535326802af476208a1e04de13ea385f4d5309b022ad931826b222",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/SKILL.md"
+    },
+    {
+      "path": "references/crs-management.md",
+      "sourcePath": "skills/geopandas/references/crs-management.md",
+      "bytes": 9281,
+      "sha256": "39c0f83941fa8d781e7a5f2d78f6525ef7f154d5a41659fd64e312a9ca05852b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/references/crs-management.md"
+    },
+    {
+      "path": "references/data-io.md",
+      "sourcePath": "skills/geopandas/references/data-io.md",
+      "bytes": 13955,
+      "sha256": "62a6c42142aa28ebc75b948a4ca1425ac475dcc135c71b4a20705c9b75dde409",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/references/data-io.md"
+    },
+    {
+      "path": "references/data-structures.md",
+      "sourcePath": "skills/geopandas/references/data-structures.md",
+      "bytes": 7611,
+      "sha256": "6468ee20c71fbdfac409c4cf33f61c6e07cc0ff31e0d92e2eb193c39610637ec",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/references/data-structures.md"
+    },
+    {
+      "path": "references/geometric-operations.md",
+      "sourcePath": "skills/geopandas/references/geometric-operations.md",
+      "bytes": 10041,
+      "sha256": "a335fa87508b20a110c4e0905459a18abdd9267b19bec6daf327864ca071d732",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/references/geometric-operations.md"
+    },
+    {
+      "path": "references/spatial-analysis.md",
+      "sourcePath": "skills/geopandas/references/spatial-analysis.md",
+      "bytes": 10060,
+      "sha256": "9f29ca1cd7c818baf887684bda5b1c6433a8feb0a8afff0cd6c911821cb15765",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/references/spatial-analysis.md"
+    },
+    {
+      "path": "references/visualization.md",
+      "sourcePath": "skills/geopandas/references/visualization.md",
+      "bytes": 9793,
+      "sha256": "a6d20e0370e71fd6994c4381743ecbf5fd19edd0087e140cdddc6096fb9b209e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/references/visualization.md"
+    },
+    {
+      "path": "scripts/_common.py",
+      "sourcePath": "skills/geopandas/scripts/_common.py",
+      "bytes": 22036,
+      "sha256": "6cf6999f0dff04f65d9ba5387c43262ba9210f6a32769a786dfe346a9e76bdcd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/scripts/_common.py"
+    },
+    {
+      "path": "scripts/crs_reprojection_plan.py",
+      "sourcePath": "skills/geopandas/scripts/crs_reprojection_plan.py",
+      "bytes": 8118,
+      "sha256": "bc31f67674903f87625b9c88e699097bdeab5fdd919111fc31bae516d0328589",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/scripts/crs_reprojection_plan.py"
+    },
+    {
+      "path": "scripts/export_plan.py",
+      "sourcePath": "skills/geopandas/scripts/export_plan.py",
+      "bytes": 11149,
+      "sha256": "f2f9de1616c846be48e30812abf3d3c02f29302ee007f162f1cc4dd913e9bc22",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/scripts/export_plan.py"
+    },
+    {
+      "path": "scripts/geometry_validity_report.py",
+      "sourcePath": "skills/geopandas/scripts/geometry_validity_report.py",
+      "bytes": 7436,
+      "sha256": "d1727489a97f8b5941fecb9e7612da727416f4bc3c91a6bc5a8b86052e62f798",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/scripts/geometry_validity_report.py"
+    },
+    {
+      "path": "scripts/sensitive_coordinates_checklist.py",
+      "sourcePath": "skills/geopandas/scripts/sensitive_coordinates_checklist.py",
+      "bytes": 8980,
+      "sha256": "b53830e89bae6c359d237895d8836df29f11b0220facb97eda444d0d98b89079",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/scripts/sensitive_coordinates_checklist.py"
+    },
+    {
+      "path": "scripts/spatial_join_audit.py",
+      "sourcePath": "skills/geopandas/scripts/spatial_join_audit.py",
+      "bytes": 13254,
+      "sha256": "a3828a96b5d4861e2fcea642687e4e7408b6e58631d3198c499b8f8272374661",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/scripts/spatial_join_audit.py"
+    },
+    {
+      "path": "scripts/vector_inventory.py",
+      "sourcePath": "skills/geopandas/scripts/vector_inventory.py",
+      "bytes": 4488,
+      "sha256": "5b69d0c0f1e99cb9c7c663e4286f703c797b0d150711e1e4c293f6082767483f",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/geopandas/scripts/vector_inventory.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "bee943cccda2a3d10bb0d1837bd03369952631195ee5100d3e83e944a7b0a7b1"
+}

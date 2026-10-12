@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--azure-cosmos-java","name":"azure-cosmos-java","description":"Azure Cosmos DB SDK for Java. NoSQL database operations with global distribution, multi-model support, and reactive patterns.","category":"Cloud & DevOps","tags":["azure","cosmos","java","db","sdk","java.","nosql","database","operations","global","distribution","multi","model","support","reactive","patterns."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/azure-cosmos-java","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-cosmos-java","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":8841,"sha256":"6ea79d1921bd393d9164489860cfa6de54badfaa51ae331bdf7260da5c177291","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/azure-cosmos-java/SKILL.md","bytes":7768,"sha256":"6ea79d1921bd393d9164489860cfa6de54badfaa51ae331bdf7260da5c177291","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-cosmos-java/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"3b7afa73dc287a6fbb54f8d30f4453fe408ea456540cddf7ba0b5db6dc85c74e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--azure-cosmos-java",
+    "name": "azure-cosmos-java",
+    "description": "Azure Cosmos DB SDK for Java. NoSQL database operations with global distribution, multi-model support, and reactive patterns.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "azure",
+      "cosmos",
+      "java",
+      "db",
+      "sdk",
+      "java.",
+      "nosql",
+      "database",
+      "operations",
+      "global",
+      "distribution",
+      "multi",
+      "model",
+      "support",
+      "reactive",
+      "patterns."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/azure-cosmos-java",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-cosmos-java",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 8841,
+    "sha256": "6ea79d1921bd393d9164489860cfa6de54badfaa51ae331bdf7260da5c177291",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/azure-cosmos-java/SKILL.md",
+      "bytes": 7768,
+      "sha256": "6ea79d1921bd393d9164489860cfa6de54badfaa51ae331bdf7260da5c177291",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-cosmos-java/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "3b7afa73dc287a6fbb54f8d30f4453fe408ea456540cddf7ba0b5db6dc85c74e"
+}

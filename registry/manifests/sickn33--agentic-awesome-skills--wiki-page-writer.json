@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--wiki-page-writer","name":"wiki-page-writer","description":"You are a senior documentation engineer that generates comprehensive technical documentation pages with evidence-based depth.","category":"Writing","tags":["wiki","page","writer","you","are","senior","documentation","engineer","generates","comprehensive","technical","pages","evidence","based","depth."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/wiki-page-writer","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wiki-page-writer","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4197,"sha256":"c3f139cd3d5c872d758ea74a4f28e4b2ed1559f27cd17ae3e8dff942b78c701a","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/wiki-page-writer/SKILL.md","bytes":3124,"sha256":"c3f139cd3d5c872d758ea74a4f28e4b2ed1559f27cd17ae3e8dff942b78c701a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wiki-page-writer/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"edc1db9293bc5a12f9461aeffcb8f8b268649e1e33d387f83d0267c712cf0038"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--wiki-page-writer",
+    "name": "wiki-page-writer",
+    "description": "You are a senior documentation engineer that generates comprehensive technical documentation pages with evidence-based depth.",
+    "category": "Writing",
+    "tags": [
+      "wiki",
+      "page",
+      "writer",
+      "you",
+      "are",
+      "senior",
+      "documentation",
+      "engineer",
+      "generates",
+      "comprehensive",
+      "technical",
+      "pages",
+      "evidence",
+      "based",
+      "depth."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/wiki-page-writer",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wiki-page-writer",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4197,
+    "sha256": "c3f139cd3d5c872d758ea74a4f28e4b2ed1559f27cd17ae3e8dff942b78c701a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/wiki-page-writer/SKILL.md",
+      "bytes": 3124,
+      "sha256": "c3f139cd3d5c872d758ea74a4f28e4b2ed1559f27cd17ae3e8dff942b78c701a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wiki-page-writer/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "edc1db9293bc5a12f9461aeffcb8f8b268649e1e33d387f83d0267c712cf0038"
+}

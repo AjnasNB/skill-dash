@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-cloud-native-forensics-with-falco","name":"performing-cloud-native-forensics-with-falco","description":"Uses Falco YAML rules for runtime threat detection in containers and Kubernetes, monitoring syscalls for shell spawns, file tampering, network anomalies, and privilege escalation. Manages Falco rules via the Falco gRPC API and parses Falco alert output. Use when building container runtime security or investigating k8s cluster compromises.","category":"Security","tags":["performing","cloud","native","forensics","falco","uses","yaml","rules","runtime","threat","detection","containers","kubernetes","monitoring","syscalls","shell","spawns","file"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-cloud-native-forensics-with-falco/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-cloud-native-forensics-with-falco","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-forensics-with-falco","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":23140,"sha256":"e6c17735287b76f12cdcc209d208addfdd721e10f79379141829a14d42f95c39","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-cloud-native-forensics-with-falco/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-forensics-with-falco/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-cloud-native-forensics-with-falco/SKILL.md","bytes":2537,"sha256":"e6c17735287b76f12cdcc209d208addfdd721e10f79379141829a14d42f95c39","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-forensics-with-falco/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-cloud-native-forensics-with-falco/references/api-reference.md","bytes":1550,"sha256":"5a7dc8b2c6ea29f8eeafdc5a259ca6cc29fe8356a60fc2a2d984abbbb66c5a7f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-forensics-with-falco/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-cloud-native-forensics-with-falco/scripts/agent.py","bytes":7798,"sha256":"0a52d7af800926b8ce96cef4a112e029eecc21ac0f24fb0aaff1580d444e8873","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-forensics-with-falco/scripts/agent.py"}],"archiveSha256":"5aa832a8d8dc48696e54833578dd726fc7aad74ea5899712ce73fea01a4025bb"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-cloud-native-forensics-with-falco",
+    "name": "performing-cloud-native-forensics-with-falco",
+    "description": "Uses Falco YAML rules for runtime threat detection in containers and Kubernetes, monitoring syscalls for shell spawns, file tampering, network anomalies, and privilege escalation. Manages Falco rules via the Falco gRPC API and parses Falco alert output. Use when building container runtime security or investigating k8s cluster compromises.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "cloud",
+      "native",
+      "forensics",
+      "falco",
+      "uses",
+      "yaml",
+      "rules",
+      "runtime",
+      "threat",
+      "detection",
+      "containers",
+      "kubernetes",
+      "monitoring",
+      "syscalls",
+      "shell",
+      "spawns",
+      "file"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-cloud-native-forensics-with-falco/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-cloud-native-forensics-with-falco",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-forensics-with-falco",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 23140,
+    "sha256": "e6c17735287b76f12cdcc209d208addfdd721e10f79379141829a14d42f95c39",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-cloud-native-forensics-with-falco/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-forensics-with-falco/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-cloud-native-forensics-with-falco/SKILL.md",
+      "bytes": 2537,
+      "sha256": "e6c17735287b76f12cdcc209d208addfdd721e10f79379141829a14d42f95c39",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-forensics-with-falco/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-cloud-native-forensics-with-falco/references/api-reference.md",
+      "bytes": 1550,
+      "sha256": "5a7dc8b2c6ea29f8eeafdc5a259ca6cc29fe8356a60fc2a2d984abbbb66c5a7f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-forensics-with-falco/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-cloud-native-forensics-with-falco/scripts/agent.py",
+      "bytes": 7798,
+      "sha256": "0a52d7af800926b8ce96cef4a112e029eecc21ac0f24fb0aaff1580d444e8873",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-native-forensics-with-falco/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "5aa832a8d8dc48696e54833578dd726fc7aad74ea5899712ce73fea01a4025bb"
+}

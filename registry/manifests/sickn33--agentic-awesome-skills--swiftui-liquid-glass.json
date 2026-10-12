@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--swiftui-liquid-glass","name":"swiftui-liquid-glass","description":"Implement or review SwiftUI Liquid Glass APIs with correct fallbacks and modifier order.","category":"Development","tags":["swiftui","liquid","glass","implement","review","apis","correct","fallbacks","modifier","order."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/swiftui-liquid-glass","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/swiftui-liquid-glass","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":4,"bytes":13605,"sha256":"87ea1108516bd87e124e6b8ef12b27459de4d933eea1b3f789f21545f2d67a82","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/swiftui-liquid-glass/SKILL.md","bytes":4152,"sha256":"87ea1108516bd87e124e6b8ef12b27459de4d933eea1b3f789f21545f2d67a82","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/swiftui-liquid-glass/SKILL.md"},{"path":"agents/openai.yaml","sourcePath":"skills/swiftui-liquid-glass/agents/openai.yaml","bytes":221,"sha256":"c0558fe64c07f3cef63a002c4dacaf32fd9424700356d2fdc1262a2b27481e56","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/swiftui-liquid-glass/agents/openai.yaml"},{"path":"references/liquid-glass.md","sourcePath":"skills/swiftui-liquid-glass/references/liquid-glass.md","bytes":8159,"sha256":"76b075006934bd4bdba7df53fa046502db3c2f6cc3d383d58e56bff308468608","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/swiftui-liquid-glass/references/liquid-glass.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"8d222f36409ffc0cb7f08d345a4edea21d7f5f492cf2c539b6907cc682746942"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--swiftui-liquid-glass",
+    "name": "swiftui-liquid-glass",
+    "description": "Implement or review SwiftUI Liquid Glass APIs with correct fallbacks and modifier order.",
+    "category": "Development",
+    "tags": [
+      "swiftui",
+      "liquid",
+      "glass",
+      "implement",
+      "review",
+      "apis",
+      "correct",
+      "fallbacks",
+      "modifier",
+      "order."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/swiftui-liquid-glass",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/swiftui-liquid-glass",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 4,
+    "bytes": 13605,
+    "sha256": "87ea1108516bd87e124e6b8ef12b27459de4d933eea1b3f789f21545f2d67a82",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/swiftui-liquid-glass/SKILL.md",
+      "bytes": 4152,
+      "sha256": "87ea1108516bd87e124e6b8ef12b27459de4d933eea1b3f789f21545f2d67a82",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/swiftui-liquid-glass/SKILL.md"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sourcePath": "skills/swiftui-liquid-glass/agents/openai.yaml",
+      "bytes": 221,
+      "sha256": "c0558fe64c07f3cef63a002c4dacaf32fd9424700356d2fdc1262a2b27481e56",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/swiftui-liquid-glass/agents/openai.yaml"
+    },
+    {
+      "path": "references/liquid-glass.md",
+      "sourcePath": "skills/swiftui-liquid-glass/references/liquid-glass.md",
+      "bytes": 8159,
+      "sha256": "76b075006934bd4bdba7df53fa046502db3c2f6cc3d383d58e56bff308468608",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/swiftui-liquid-glass/references/liquid-glass.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "8d222f36409ffc0cb7f08d345a4edea21d7f5f492cf2c539b6907cc682746942"
+}

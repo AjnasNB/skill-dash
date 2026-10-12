@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"mattpocock--skills--scaffold-exercises","name":"scaffold-exercises","description":"Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exercise stubs, or set up a new course section.","category":"Development","tags":["scaffold","exercises","exercise","directory","structures","sections","problems","solutions","explainers","pass","linting.","when","user","wants","stubs","set","up","new"],"repo":"mattpocock/skills","owner":"mattpocock","stars":287125,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"49dd158d1076134a641b33efb035946536778336","path":"skills/misc/scaffold-exercises","sourceUrl":"https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/misc/scaffold-exercises","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-09T10:56:49Z","fileCount":3,"bytes":4765,"sha256":"75f5c9d771606fb9762f16522efc954df11c324f87148d8ff069bce166257de9","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/misc/scaffold-exercises/SKILL.md","bytes":3589,"sha256":"75f5c9d771606fb9762f16522efc954df11c324f87148d8ff069bce166257de9","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/misc/scaffold-exercises/SKILL.md"},{"path":"agents/openai.yaml","sourcePath":"skills/misc/scaffold-exercises/agents/openai.yaml","bytes":108,"sha256":"525b33913340bea7947ad2de17f2a7c5fb94be543345fe80ae753b9a44ba601d","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/misc/scaffold-exercises/agents/openai.yaml"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1068,"sha256":"0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/LICENSE"}],"archiveSha256":"70386f2f3e1bf18a88d61daeec6541986090156c0b7409f79139f37a488a4edc"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mattpocock--skills--scaffold-exercises",
+    "name": "scaffold-exercises",
+    "description": "Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exercise stubs, or set up a new course section.",
+    "category": "Development",
+    "tags": [
+      "scaffold",
+      "exercises",
+      "exercise",
+      "directory",
+      "structures",
+      "sections",
+      "problems",
+      "solutions",
+      "explainers",
+      "pass",
+      "linting.",
+      "when",
+      "user",
+      "wants",
+      "stubs",
+      "set",
+      "up",
+      "new"
+    ],
+    "repo": "mattpocock/skills",
+    "owner": "mattpocock",
+    "stars": 287125,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "49dd158d1076134a641b33efb035946536778336",
+    "path": "skills/misc/scaffold-exercises",
+    "sourceUrl": "https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/misc/scaffold-exercises",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-09T10:56:49Z",
+    "fileCount": 3,
+    "bytes": 4765,
+    "sha256": "75f5c9d771606fb9762f16522efc954df11c324f87148d8ff069bce166257de9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/misc/scaffold-exercises/SKILL.md",
+      "bytes": 3589,
+      "sha256": "75f5c9d771606fb9762f16522efc954df11c324f87148d8ff069bce166257de9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/misc/scaffold-exercises/SKILL.md"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sourcePath": "skills/misc/scaffold-exercises/agents/openai.yaml",
+      "bytes": 108,
+      "sha256": "525b33913340bea7947ad2de17f2a7c5fb94be543345fe80ae753b9a44ba601d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/misc/scaffold-exercises/agents/openai.yaml"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1068,
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/LICENSE"
+    }
+  ],
+  "archiveSha256": "70386f2f3e1bf18a88d61daeec6541986090156c0b7409f79139f37a488a4edc"
+}

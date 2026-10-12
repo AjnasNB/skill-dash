@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"phuryn--pm-skills--market-sizing","name":"market-sizing","description":"Estimate market size using TAM, SAM, and SOM with top-down and bottom-up approaches. Use when sizing a market opportunity, estimating addressable market, preparing for investor pitches, or evaluating market entry.","category":"Development","tags":["market","sizing","estimate","size","tam","sam","som","top","down","bottom","up","approaches.","when","opportunity","estimating","addressable","preparing","investor"],"repo":"phuryn/pm-skills","owner":"phuryn","stars":26912,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"c68487d721e419ec87af1ae6412a842978eab785","path":"pm-market-research/skills/market-sizing","sourceUrl":"https://github.com/phuryn/pm-skills/tree/c68487d721e419ec87af1ae6412a842978eab785/pm-market-research/skills/market-sizing","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-10T10:56:23Z","fileCount":2,"bytes":5492,"sha256":"96d1250ba0ab7e5b64c9be8278f63f9661b510237e423b42ef70ab914184faf8","historical":false},"files":[{"path":"SKILL.md","sourcePath":"pm-market-research/skills/market-sizing/SKILL.md","bytes":4424,"sha256":"96d1250ba0ab7e5b64c9be8278f63f9661b510237e423b42ef70ab914184faf8","mode":420,"url":"https://raw.githubusercontent.com/phuryn/pm-skills/c68487d721e419ec87af1ae6412a842978eab785/pm-market-research/skills/market-sizing/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1068,"sha256":"a2c922f9b81b4f40347ddfa79c38eda0f1278b5a6d108bd4099b4da254c774ee","mode":420,"url":"https://raw.githubusercontent.com/phuryn/pm-skills/c68487d721e419ec87af1ae6412a842978eab785/LICENSE"}],"archiveSha256":"f0c8df6d91461ce5b9f55d7c76bf7ab17bf3820b2ca693215c2294b13e562491"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "phuryn--pm-skills--market-sizing",
+    "name": "market-sizing",
+    "description": "Estimate market size using TAM, SAM, and SOM with top-down and bottom-up approaches. Use when sizing a market opportunity, estimating addressable market, preparing for investor pitches, or evaluating market entry.",
+    "category": "Development",
+    "tags": [
+      "market",
+      "sizing",
+      "estimate",
+      "size",
+      "tam",
+      "sam",
+      "som",
+      "top",
+      "down",
+      "bottom",
+      "up",
+      "approaches.",
+      "when",
+      "opportunity",
+      "estimating",
+      "addressable",
+      "preparing",
+      "investor"
+    ],
+    "repo": "phuryn/pm-skills",
+    "owner": "phuryn",
+    "stars": 26912,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "c68487d721e419ec87af1ae6412a842978eab785",
+    "path": "pm-market-research/skills/market-sizing",
+    "sourceUrl": "https://github.com/phuryn/pm-skills/tree/c68487d721e419ec87af1ae6412a842978eab785/pm-market-research/skills/market-sizing",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-10T10:56:23Z",
+    "fileCount": 2,
+    "bytes": 5492,
+    "sha256": "96d1250ba0ab7e5b64c9be8278f63f9661b510237e423b42ef70ab914184faf8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "pm-market-research/skills/market-sizing/SKILL.md",
+      "bytes": 4424,
+      "sha256": "96d1250ba0ab7e5b64c9be8278f63f9661b510237e423b42ef70ab914184faf8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/phuryn/pm-skills/c68487d721e419ec87af1ae6412a842978eab785/pm-market-research/skills/market-sizing/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1068,
+      "sha256": "a2c922f9b81b4f40347ddfa79c38eda0f1278b5a6d108bd4099b4da254c774ee",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/phuryn/pm-skills/c68487d721e419ec87af1ae6412a842978eab785/LICENSE"
+    }
+  ],
+  "archiveSha256": "f0c8df6d91461ce5b9f55d7c76bf7ab17bf3820b2ca693215c2294b13e562491"
+}

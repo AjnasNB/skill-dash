@@ -1,1 +1,60 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--application-performance-performance-optimization","name":"application-performance-performance-optimization","description":"Optimize end-to-end application performance with profiling, observability, and backend/frontend tuning. Use when coordinating performance optimization across the stack.","category":"Development","tags":["application","performance","optimization","optimize","end","profiling","observability","backend","frontend","tuning.","when","coordinating","across","stack."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/application-performance-performance-optimization","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/application-performance-performance-optimization","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12711,"sha256":"4d55000f25adf9b44312b6d4b6fbc2e9099e061ff769271cab1d53336e237a64","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/application-performance-performance-optimization/SKILL.md","bytes":11638,"sha256":"4d55000f25adf9b44312b6d4b6fbc2e9099e061ff769271cab1d53336e237a64","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/application-performance-performance-optimization/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"dde651da5edee95865b92207d96393ca40682c90c3ca4fa667f1b781ff896251"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--application-performance-performance-optimization",
+    "name": "application-performance-performance-optimization",
+    "description": "Optimize end-to-end application performance with profiling, observability, and backend/frontend tuning. Use when coordinating performance optimization across the stack.",
+    "category": "Development",
+    "tags": [
+      "application",
+      "performance",
+      "optimization",
+      "optimize",
+      "end",
+      "profiling",
+      "observability",
+      "backend",
+      "frontend",
+      "tuning.",
+      "when",
+      "coordinating",
+      "across",
+      "stack."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/application-performance-performance-optimization",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/application-performance-performance-optimization",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12711,
+    "sha256": "4d55000f25adf9b44312b6d4b6fbc2e9099e061ff769271cab1d53336e237a64",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/application-performance-performance-optimization/SKILL.md",
+      "bytes": 11638,
+      "sha256": "4d55000f25adf9b44312b6d4b6fbc2e9099e061ff769271cab1d53336e237a64",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/application-performance-performance-optimization/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "dde651da5edee95865b92207d96393ca40682c90c3ca4fa667f1b781ff896251"
+}

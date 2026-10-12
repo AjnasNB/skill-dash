@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--wechat-official-account-strategist","name":"wechat-official-account-strategist","description":"Grow WeChat Official Accounts (微信公众号) with high-conversion content strategy, title formulas, article architecture, and Mini-Program integration.","category":"Marketing","tags":["wechat","official","account","strategist","grow","accounts","微信公众号","high","conversion","content","strategy","title","formulas","article","architecture","mini","program","integration."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/wechat-official-account-strategist","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wechat-official-account-strategist","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6235,"sha256":"e569bde46d853ac98b84c11e750474f09caf49e06877a310bdafd0dbc132a78c","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/wechat-official-account-strategist/SKILL.md","bytes":5162,"sha256":"e569bde46d853ac98b84c11e750474f09caf49e06877a310bdafd0dbc132a78c","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wechat-official-account-strategist/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"9f95a7f7e205f6a5c5f41cefa24e9366b00d4eed25a41653f2c0428dadc44300"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--wechat-official-account-strategist",
+    "name": "wechat-official-account-strategist",
+    "description": "Grow WeChat Official Accounts (微信公众号) with high-conversion content strategy, title formulas, article architecture, and Mini-Program integration.",
+    "category": "Marketing",
+    "tags": [
+      "wechat",
+      "official",
+      "account",
+      "strategist",
+      "grow",
+      "accounts",
+      "微信公众号",
+      "high",
+      "conversion",
+      "content",
+      "strategy",
+      "title",
+      "formulas",
+      "article",
+      "architecture",
+      "mini",
+      "program",
+      "integration."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/wechat-official-account-strategist",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wechat-official-account-strategist",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6235,
+    "sha256": "e569bde46d853ac98b84c11e750474f09caf49e06877a310bdafd0dbc132a78c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/wechat-official-account-strategist/SKILL.md",
+      "bytes": 5162,
+      "sha256": "e569bde46d853ac98b84c11e750474f09caf49e06877a310bdafd0dbc132a78c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wechat-official-account-strategist/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "9f95a7f7e205f6a5c5f41cefa24e9366b00d4eed25a41653f2c0428dadc44300"
+}

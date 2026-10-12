@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--vizcom","name":"vizcom","description":"AI-powered product design tool for transforming sketches into full-fidelity 3D renders.","category":"Design","tags":["vizcom","ai","powered","product","design","tool","transforming","sketches","into","full","fidelity","3d","renders."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/vizcom","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vizcom","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":3648,"sha256":"bd914e98908b171b0952c14cf802594c3f226680fa51d13a66969912d38a5e70","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/vizcom/SKILL.md","bytes":2575,"sha256":"bd914e98908b171b0952c14cf802594c3f226680fa51d13a66969912d38a5e70","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vizcom/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"8ebfa924a4bd32e26cd91a0fb2d778763bd3a19f7a9b9687bf88d6551f99db50"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--vizcom",
+    "name": "vizcom",
+    "description": "AI-powered product design tool for transforming sketches into full-fidelity 3D renders.",
+    "category": "Design",
+    "tags": [
+      "vizcom",
+      "ai",
+      "powered",
+      "product",
+      "design",
+      "tool",
+      "transforming",
+      "sketches",
+      "into",
+      "full",
+      "fidelity",
+      "3d",
+      "renders."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/vizcom",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vizcom",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 3648,
+    "sha256": "bd914e98908b171b0952c14cf802594c3f226680fa51d13a66969912d38a5e70",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/vizcom/SKILL.md",
+      "bytes": 2575,
+      "sha256": "bd914e98908b171b0952c14cf802594c3f226680fa51d13a66969912d38a5e70",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vizcom/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "8ebfa924a4bd32e26cd91a0fb2d778763bd3a19f7a9b9687bf88d6551f99db50"
+}

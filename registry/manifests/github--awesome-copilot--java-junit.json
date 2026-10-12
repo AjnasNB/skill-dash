@@ -1,1 +1,57 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--java-junit","name":"java-junit","description":"Get best practices for JUnit 5 unit testing, including data-driven tests","category":"Development","tags":["java","junit","get","best","practices","unit","testing","including","data","driven","tests"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/java-junit","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/java-junit","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":4040,"sha256":"beeae246a2b1a8debffb53b005eba0e025f70923fa26a11f3c4bfefd99388fa3","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/java-junit/SKILL.md","bytes":2981,"sha256":"beeae246a2b1a8debffb53b005eba0e025f70923fa26a11f3c4bfefd99388fa3","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/java-junit/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"ea58cb08c5aefbbe6457c6b6aaec85a658772f0983772dffc554d0cad72e7fd9"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--java-junit",
+    "name": "java-junit",
+    "description": "Get best practices for JUnit 5 unit testing, including data-driven tests",
+    "category": "Development",
+    "tags": [
+      "java",
+      "junit",
+      "get",
+      "best",
+      "practices",
+      "unit",
+      "testing",
+      "including",
+      "data",
+      "driven",
+      "tests"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/java-junit",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/java-junit",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 4040,
+    "sha256": "beeae246a2b1a8debffb53b005eba0e025f70923fa26a11f3c4bfefd99388fa3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/java-junit/SKILL.md",
+      "bytes": 2981,
+      "sha256": "beeae246a2b1a8debffb53b005eba0e025f70923fa26a11f3c4bfefd99388fa3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/java-junit/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "ea58cb08c5aefbbe6457c6b6aaec85a658772f0983772dffc554d0cad72e7fd9"
+}

@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-security-headers-audit","name":"performing-security-headers-audit","description":"Auditing HTTP security headers including CSP, HSTS, X-Frame-Options, and cookie attributes to identify missing or misconfigured browser-level protections.","category":"Security","tags":["performing","security","headers","audit","auditing","http","including","csp","hsts","frame","options","cookie","attributes","identify","missing","misconfigured","browser","level"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-security-headers-audit/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-security-headers-audit","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-security-headers-audit","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":36769,"sha256":"7467c71ba1d46bb53d41bdc3d46965705550c2d2c2a35d3a94d27c2169f560e8","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-security-headers-audit/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-security-headers-audit/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-security-headers-audit/SKILL.md","bytes":12923,"sha256":"7467c71ba1d46bb53d41bdc3d46965705550c2d2c2a35d3a94d27c2169f560e8","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-security-headers-audit/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-security-headers-audit/references/api-reference.md","bytes":1762,"sha256":"0ab1b82fb75336cbf6b94725fb67bf8b1a562a275972453ac3ac0f08763efd3e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-security-headers-audit/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-security-headers-audit/scripts/agent.py","bytes":10829,"sha256":"032521cba4f8b485d0fbf7f9e9ab2d7403c654a0ffb8662277a4f913b5f54584","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-security-headers-audit/scripts/agent.py"}],"archiveSha256":"d6aa50a0b75c98a07abfe992b22afeff7a426e75f2a560e8a90dfdb2d3e39ba6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-security-headers-audit",
+    "name": "performing-security-headers-audit",
+    "description": "Auditing HTTP security headers including CSP, HSTS, X-Frame-Options, and cookie attributes to identify missing or misconfigured browser-level protections.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "security",
+      "headers",
+      "audit",
+      "auditing",
+      "http",
+      "including",
+      "csp",
+      "hsts",
+      "frame",
+      "options",
+      "cookie",
+      "attributes",
+      "identify",
+      "missing",
+      "misconfigured",
+      "browser",
+      "level"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-security-headers-audit/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-security-headers-audit",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-security-headers-audit",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 36769,
+    "sha256": "7467c71ba1d46bb53d41bdc3d46965705550c2d2c2a35d3a94d27c2169f560e8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-security-headers-audit/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-security-headers-audit/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-security-headers-audit/SKILL.md",
+      "bytes": 12923,
+      "sha256": "7467c71ba1d46bb53d41bdc3d46965705550c2d2c2a35d3a94d27c2169f560e8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-security-headers-audit/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-security-headers-audit/references/api-reference.md",
+      "bytes": 1762,
+      "sha256": "0ab1b82fb75336cbf6b94725fb67bf8b1a562a275972453ac3ac0f08763efd3e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-security-headers-audit/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-security-headers-audit/scripts/agent.py",
+      "bytes": 10829,
+      "sha256": "032521cba4f8b485d0fbf7f9e9ab2d7403c654a0ffb8662277a4f913b5f54584",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-security-headers-audit/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "d6aa50a0b75c98a07abfe992b22afeff7a426e75f2a560e8a90dfdb2d3e39ba6"
+}

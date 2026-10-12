@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-zero-trust-dns-with-nextdns","name":"implementing-zero-trust-dns-with-nextdns","description":"Configure NextDNS as an encrypted (DoH/DoT) zero trust DNS resolver that blocks malicious, phishing, and cryptojacking domains via real-time threat intelligence, detects DNS rebinding and CNAME cloaking, and enforces organizational DNS policy across endpoints. Use when deploying DNS-layer threat blocking and acceptable-use enforcement, or when extending zero trust controls (including Windows 11 Zero Trust DNS) to the DNS resolution path.","category":"Security","tags":["implementing","zero","trust","dns","nextdns","configure","as","encrypted","doh","dot","resolver","blocks","malicious","phishing","cryptojacking","domains","via","real"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-zero-trust-dns-with-nextdns/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-zero-trust-dns-with-nextdns","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-dns-with-nextdns","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":45567,"sha256":"678699045e0ceb8ca897e987bcdc49bb36287b7d80aaaf5527e9ea7653695878","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-zero-trust-dns-with-nextdns/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-dns-with-nextdns/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-zero-trust-dns-with-nextdns/SKILL.md","bytes":11280,"sha256":"678699045e0ceb8ca897e987bcdc49bb36287b7d80aaaf5527e9ea7653695878","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-dns-with-nextdns/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-zero-trust-dns-with-nextdns/assets/template.md","bytes":1526,"sha256":"c4a4ebcbaa5bed31587fa2932cbfa35bc1cdad4f09948742c554f607079ecdf9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-dns-with-nextdns/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-zero-trust-dns-with-nextdns/references/api-reference.md","bytes":1696,"sha256":"66369da9f6fd348906489db61b57bfb46dc4202d4d9257b9ae67b19fc0044acc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-dns-with-nextdns/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-zero-trust-dns-with-nextdns/references/standards.md","bytes":1759,"sha256":"8e48093d879a0ad62800286d04a0f763b469b731b12b1499cc1642459c456397","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-dns-with-nextdns/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-zero-trust-dns-with-nextdns/references/workflows.md","bytes":2462,"sha256":"f04e14a034bc4aec77f3117546b4a6b70575e2dcf11d9b64b9e2337e951d9a30","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-dns-with-nextdns/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-zero-trust-dns-with-nextdns/scripts/agent.py","bytes":6000,"sha256":"c087ebfdac7ae5844767489d79bb5c2e85399c12afdb5327b04f5b5eb142031b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-dns-with-nextdns/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-zero-trust-dns-with-nextdns/scripts/process.py","bytes":9589,"sha256":"a4cb669368e9f8cc6076645da8faeb3cbb44ff017b8146f914e31146549d0137","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-dns-with-nextdns/scripts/process.py"}],"archiveSha256":"64d04f50fbe3c75580c07c8fd45e6c14f1170e8c7ab2533d9557b3432a2466a9"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-zero-trust-dns-with-nextdns",
+    "name": "implementing-zero-trust-dns-with-nextdns",
+    "description": "Configure NextDNS as an encrypted (DoH/DoT) zero trust DNS resolver that blocks malicious, phishing, and cryptojacking domains via real-time threat intelligence, detects DNS rebinding and CNAME cloaking, and enforces organizational DNS policy across endpoints. Use when deploying DNS-layer threat blocking and acceptable-use enforcement, or when extending zero trust controls (including Windows 11 Zero Trust DNS) to the DNS resolution path.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "zero",
+      "trust",
+      "dns",
+      "nextdns",
+      "configure",
+      "as",
+      "encrypted",
+      "doh",
+      "dot",
+      "resolver",
+      "blocks",
+      "malicious",
+      "phishing",
+      "cryptojacking",
+      "domains",
+      "via",
+      "real"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-zero-trust-dns-with-nextdns/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-zero-trust-dns-with-nextdns",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-dns-with-nextdns",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 45567,
+    "sha256": "678699045e0ceb8ca897e987bcdc49bb36287b7d80aaaf5527e9ea7653695878",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-zero-trust-dns-with-nextdns/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-dns-with-nextdns/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-zero-trust-dns-with-nextdns/SKILL.md",
+      "bytes": 11280,
+      "sha256": "678699045e0ceb8ca897e987bcdc49bb36287b7d80aaaf5527e9ea7653695878",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-dns-with-nextdns/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-zero-trust-dns-with-nextdns/assets/template.md",
+      "bytes": 1526,
+      "sha256": "c4a4ebcbaa5bed31587fa2932cbfa35bc1cdad4f09948742c554f607079ecdf9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-dns-with-nextdns/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-zero-trust-dns-with-nextdns/references/api-reference.md",
+      "bytes": 1696,
+      "sha256": "66369da9f6fd348906489db61b57bfb46dc4202d4d9257b9ae67b19fc0044acc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-dns-with-nextdns/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-zero-trust-dns-with-nextdns/references/standards.md",
+      "bytes": 1759,
+      "sha256": "8e48093d879a0ad62800286d04a0f763b469b731b12b1499cc1642459c456397",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-dns-with-nextdns/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-zero-trust-dns-with-nextdns/references/workflows.md",
+      "bytes": 2462,
+      "sha256": "f04e14a034bc4aec77f3117546b4a6b70575e2dcf11d9b64b9e2337e951d9a30",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-dns-with-nextdns/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-zero-trust-dns-with-nextdns/scripts/agent.py",
+      "bytes": 6000,
+      "sha256": "c087ebfdac7ae5844767489d79bb5c2e85399c12afdb5327b04f5b5eb142031b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-dns-with-nextdns/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-zero-trust-dns-with-nextdns/scripts/process.py",
+      "bytes": 9589,
+      "sha256": "a4cb669368e9f8cc6076645da8faeb3cbb44ff017b8146f914e31146549d0137",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-dns-with-nextdns/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "64d04f50fbe3c75580c07c8fd45e6c14f1170e8c7ab2533d9557b3432a2466a9"
+}

@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-network-traffic-with-wireshark","name":"analyzing-network-traffic-with-wireshark","description":"Captures and analyzes network packet data using Wireshark and tshark to identify malicious traffic patterns, diagnose protocol issues, extract artifacts, and support incident response investigations on authorized network segments.","category":"Development","tags":["analyzing","network","traffic","wireshark","captures","analyzes","packet","data","tshark","identify","malicious","patterns","diagnose","protocol","issues","extract","artifacts","support"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-network-traffic-with-wireshark/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-network-traffic-with-wireshark","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-traffic-with-wireshark","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":32048,"sha256":"79f1843a33814eaf38639249a2f6165805a2ae6bf35db286eb9afca45f680ba5","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-network-traffic-with-wireshark/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-traffic-with-wireshark/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-network-traffic-with-wireshark/SKILL.md","bytes":10374,"sha256":"79f1843a33814eaf38639249a2f6165805a2ae6bf35db286eb9afca45f680ba5","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-traffic-with-wireshark/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-network-traffic-with-wireshark/references/api-reference.md","bytes":2971,"sha256":"0f9b1eb056e385c012491fcef34110c5535d2a11b1d035d56d93a31cf69d230f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-traffic-with-wireshark/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-network-traffic-with-wireshark/scripts/agent.py","bytes":7448,"sha256":"bae475fba00adbd9b47cb959f459477ff8f72ed1a8d7dfd81fa84fccda0374b0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-traffic-with-wireshark/scripts/agent.py"}],"archiveSha256":"8873f81bbfd37907c84b85e3356b06305c8c6f2fe71f5910294bea09c430b646"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-network-traffic-with-wireshark",
+    "name": "analyzing-network-traffic-with-wireshark",
+    "description": "Captures and analyzes network packet data using Wireshark and tshark to identify malicious traffic patterns, diagnose protocol issues, extract artifacts, and support incident response investigations on authorized network segments.",
+    "category": "Development",
+    "tags": [
+      "analyzing",
+      "network",
+      "traffic",
+      "wireshark",
+      "captures",
+      "analyzes",
+      "packet",
+      "data",
+      "tshark",
+      "identify",
+      "malicious",
+      "patterns",
+      "diagnose",
+      "protocol",
+      "issues",
+      "extract",
+      "artifacts",
+      "support"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-network-traffic-with-wireshark/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-network-traffic-with-wireshark",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-traffic-with-wireshark",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32048,
+    "sha256": "79f1843a33814eaf38639249a2f6165805a2ae6bf35db286eb9afca45f680ba5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-network-traffic-with-wireshark/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-traffic-with-wireshark/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-network-traffic-with-wireshark/SKILL.md",
+      "bytes": 10374,
+      "sha256": "79f1843a33814eaf38639249a2f6165805a2ae6bf35db286eb9afca45f680ba5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-traffic-with-wireshark/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-network-traffic-with-wireshark/references/api-reference.md",
+      "bytes": 2971,
+      "sha256": "0f9b1eb056e385c012491fcef34110c5535d2a11b1d035d56d93a31cf69d230f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-traffic-with-wireshark/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-network-traffic-with-wireshark/scripts/agent.py",
+      "bytes": 7448,
+      "sha256": "bae475fba00adbd9b47cb959f459477ff8f72ed1a8d7dfd81fa84fccda0374b0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-traffic-with-wireshark/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "8873f81bbfd37907c84b85e3356b06305c8c6f2fe71f5910294bea09c430b646"
+}

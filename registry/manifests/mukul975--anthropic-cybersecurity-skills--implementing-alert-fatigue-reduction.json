@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-alert-fatigue-reduction","name":"implementing-alert-fatigue-reduction","description":"Implements strategies to reduce SOC alert fatigue by tuning detection rules, consolidating duplicate alerts, implementing risk-based alerting, and measuring alert quality metrics to maintain analyst effectiveness and prevent critical alert dismissal. Use when SOC teams face overwhelming alert volumes, high false positive rates, or declining analyst performance.","category":"Development","tags":["implementing","alert","fatigue","reduction","implements","strategies","reduce","soc","by","tuning","detection","rules","consolidating","duplicate","alerts","risk","based","alerting"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-alert-fatigue-reduction/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-alert-fatigue-reduction","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-alert-fatigue-reduction","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":32903,"sha256":"dab041b8d8bf983c4ab9edcbbf234367f269d066db4458ae7583db29a24bd152","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-alert-fatigue-reduction/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-alert-fatigue-reduction/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-alert-fatigue-reduction/SKILL.md","bytes":12364,"sha256":"dab041b8d8bf983c4ab9edcbbf234367f269d066db4458ae7583db29a24bd152","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-alert-fatigue-reduction/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-alert-fatigue-reduction/references/api-reference.md","bytes":2002,"sha256":"9285351684e836af20d70e2d1a4e0eb5af7a66033ea1a0cf22ac85af35c2b8e8","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-alert-fatigue-reduction/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-alert-fatigue-reduction/scripts/agent.py","bytes":7282,"sha256":"f7c353c490d7972def13362a38dfd76de8eb510f69c9e5bf68b51fffc6a873c9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-alert-fatigue-reduction/scripts/agent.py"}],"archiveSha256":"303f2d238315785a8e017ceadbe347def6eb015ec0487e6d7d4d46870bb87fd6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-alert-fatigue-reduction",
+    "name": "implementing-alert-fatigue-reduction",
+    "description": "Implements strategies to reduce SOC alert fatigue by tuning detection rules, consolidating duplicate alerts, implementing risk-based alerting, and measuring alert quality metrics to maintain analyst effectiveness and prevent critical alert dismissal. Use when SOC teams face overwhelming alert volumes, high false positive rates, or declining analyst performance.",
+    "category": "Development",
+    "tags": [
+      "implementing",
+      "alert",
+      "fatigue",
+      "reduction",
+      "implements",
+      "strategies",
+      "reduce",
+      "soc",
+      "by",
+      "tuning",
+      "detection",
+      "rules",
+      "consolidating",
+      "duplicate",
+      "alerts",
+      "risk",
+      "based",
+      "alerting"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-alert-fatigue-reduction/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-alert-fatigue-reduction",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-alert-fatigue-reduction",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32903,
+    "sha256": "dab041b8d8bf983c4ab9edcbbf234367f269d066db4458ae7583db29a24bd152",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-alert-fatigue-reduction/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-alert-fatigue-reduction/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-alert-fatigue-reduction/SKILL.md",
+      "bytes": 12364,
+      "sha256": "dab041b8d8bf983c4ab9edcbbf234367f269d066db4458ae7583db29a24bd152",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-alert-fatigue-reduction/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-alert-fatigue-reduction/references/api-reference.md",
+      "bytes": 2002,
+      "sha256": "9285351684e836af20d70e2d1a4e0eb5af7a66033ea1a0cf22ac85af35c2b8e8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-alert-fatigue-reduction/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-alert-fatigue-reduction/scripts/agent.py",
+      "bytes": 7282,
+      "sha256": "f7c353c490d7972def13362a38dfd76de8eb510f69c9e5bf68b51fffc6a873c9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-alert-fatigue-reduction/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "303f2d238315785a8e017ceadbe347def6eb015ec0487e6d7d4d46870bb87fd6"
+}

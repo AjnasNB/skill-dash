@@ -1,1 +1,84 @@
-{"schemaVersion":1,"skill":{"id":"mattpocock--skills--domain-modeling","name":"domain-modeling","description":"Build and sharpen a project's domain model. Use when discussing codebase terminology, writing or editing a GLOSSARY.md, or recording or editing an ADR.","category":"Writing","tags":["domain","modeling","sharpen","project","model.","when","discussing","codebase","terminology","writing","editing","glossary.md","recording","adr."],"repo":"mattpocock/skills","owner":"mattpocock","stars":287125,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"49dd158d1076134a641b33efb035946536778336","path":"skills/engineering/domain-modeling","sourceUrl":"https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/engineering/domain-modeling","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-09T10:56:49Z","fileCount":5,"bytes":9548,"sha256":"7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3","historical":false},"files":[{"path":"ADR-FORMAT.md","sourcePath":"skills/engineering/domain-modeling/ADR-FORMAT.md","bytes":2733,"sha256":"944c92aa790e8fbdc9199640b170979abb8a34ba8d0fe18c2a01a63bce140ca0","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/domain-modeling/ADR-FORMAT.md"},{"path":"GLOSSARY-FORMAT.md","sourcePath":"skills/engineering/domain-modeling/GLOSSARY-FORMAT.md","bytes":2300,"sha256":"21dcc40cdec8e151a829b98ab1517c1867bc444e3665134a98c6983411996801","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/domain-modeling/GLOSSARY-FORMAT.md"},{"path":"SKILL.md","sourcePath":"skills/engineering/domain-modeling/SKILL.md","bytes":3346,"sha256":"7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/domain-modeling/SKILL.md"},{"path":"agents/openai.yaml","sourcePath":"skills/engineering/domain-modeling/agents/openai.yaml","bytes":101,"sha256":"f6bf2aa996c6e6f53fdd0708e18a0d16a56aed8322cca59fedbe3c0d2c75f06b","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/domain-modeling/agents/openai.yaml"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1068,"sha256":"0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/LICENSE"}],"archiveSha256":"40a90fc49abdbdf2a447f8b654ae0b06a9c52eb802b19049db823690757e8a06"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mattpocock--skills--domain-modeling",
+    "name": "domain-modeling",
+    "description": "Build and sharpen a project's domain model. Use when discussing codebase terminology, writing or editing a GLOSSARY.md, or recording or editing an ADR.",
+    "category": "Writing",
+    "tags": [
+      "domain",
+      "modeling",
+      "sharpen",
+      "project",
+      "model.",
+      "when",
+      "discussing",
+      "codebase",
+      "terminology",
+      "writing",
+      "editing",
+      "glossary.md",
+      "recording",
+      "adr."
+    ],
+    "repo": "mattpocock/skills",
+    "owner": "mattpocock",
+    "stars": 287125,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "49dd158d1076134a641b33efb035946536778336",
+    "path": "skills/engineering/domain-modeling",
+    "sourceUrl": "https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/engineering/domain-modeling",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-09T10:56:49Z",
+    "fileCount": 5,
+    "bytes": 9548,
+    "sha256": "7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "ADR-FORMAT.md",
+      "sourcePath": "skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "bytes": 2733,
+      "sha256": "944c92aa790e8fbdc9199640b170979abb8a34ba8d0fe18c2a01a63bce140ca0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/domain-modeling/ADR-FORMAT.md"
+    },
+    {
+      "path": "GLOSSARY-FORMAT.md",
+      "sourcePath": "skills/engineering/domain-modeling/GLOSSARY-FORMAT.md",
+      "bytes": 2300,
+      "sha256": "21dcc40cdec8e151a829b98ab1517c1867bc444e3665134a98c6983411996801",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/domain-modeling/GLOSSARY-FORMAT.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/engineering/domain-modeling/SKILL.md",
+      "bytes": 3346,
+      "sha256": "7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/domain-modeling/SKILL.md"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sourcePath": "skills/engineering/domain-modeling/agents/openai.yaml",
+      "bytes": 101,
+      "sha256": "f6bf2aa996c6e6f53fdd0708e18a0d16a56aed8322cca59fedbe3c0d2c75f06b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/domain-modeling/agents/openai.yaml"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1068,
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/LICENSE"
+    }
+  ],
+  "archiveSha256": "40a90fc49abdbdf2a447f8b654ae0b06a9c52eb802b19049db823690757e8a06"
+}

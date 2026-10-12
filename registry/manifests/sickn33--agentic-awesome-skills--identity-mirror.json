@@ -1,1 +1,56 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--identity-mirror","name":"identity-mirror","description":"One sentence - what this skill does and when to invoke it","category":"Development","tags":["identity","mirror","one","sentence","what","skill","does","when","invoke","it"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/identity-mirror","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/identity-mirror","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6321,"sha256":"0135a9dfb499d03bba8e3a9ebdf530a6ae38bfd1b6b6bf4d5151107a76f663c5","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/identity-mirror/SKILL.md","bytes":5248,"sha256":"0135a9dfb499d03bba8e3a9ebdf530a6ae38bfd1b6b6bf4d5151107a76f663c5","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/identity-mirror/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"dfa59225497311e7ca843507de32aff6fc97e629ee3c7a67c54a7b2be650568c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--identity-mirror",
+    "name": "identity-mirror",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "category": "Development",
+    "tags": [
+      "identity",
+      "mirror",
+      "one",
+      "sentence",
+      "what",
+      "skill",
+      "does",
+      "when",
+      "invoke",
+      "it"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/identity-mirror",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/identity-mirror",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6321,
+    "sha256": "0135a9dfb499d03bba8e3a9ebdf530a6ae38bfd1b6b6bf4d5151107a76f663c5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/identity-mirror/SKILL.md",
+      "bytes": 5248,
+      "sha256": "0135a9dfb499d03bba8e3a9ebdf530a6ae38bfd1b6b6bf4d5151107a76f663c5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/identity-mirror/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "dfa59225497311e7ca843507de32aff6fc97e629ee3c7a67c54a7b2be650568c"
+}

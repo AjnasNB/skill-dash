@@ -1,1 +1,56 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--aws-cdk-development","name":"aws-cdk-development","description":"AWS Cloud Development Kit (CDK) expert for building cloud infrastructure with TypeScript/Python.","category":"Cloud & DevOps","tags":["aws","cdk","development","cloud","kit","expert","building","infrastructure","typescript","python."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/aws-cdk-development","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/aws-cdk-development","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11033,"sha256":"a32eddf7b3412bb221f89997d15fa36254878c6ce92f4e40b8042fdc7182cc77","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/aws-cdk-development/SKILL.md","bytes":9960,"sha256":"a32eddf7b3412bb221f89997d15fa36254878c6ce92f4e40b8042fdc7182cc77","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/aws-cdk-development/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"097eaf9871e32b45fa9bf09d7903ec4a5404717bc1ae3747e290c6b5c5135569"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--aws-cdk-development",
+    "name": "aws-cdk-development",
+    "description": "AWS Cloud Development Kit (CDK) expert for building cloud infrastructure with TypeScript/Python.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "aws",
+      "cdk",
+      "development",
+      "cloud",
+      "kit",
+      "expert",
+      "building",
+      "infrastructure",
+      "typescript",
+      "python."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/aws-cdk-development",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/aws-cdk-development",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11033,
+    "sha256": "a32eddf7b3412bb221f89997d15fa36254878c6ce92f4e40b8042fdc7182cc77",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/aws-cdk-development/SKILL.md",
+      "bytes": 9960,
+      "sha256": "a32eddf7b3412bb221f89997d15fa36254878c6ce92f4e40b8042fdc7182cc77",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/aws-cdk-development/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "097eaf9871e32b45fa9bf09d7903ec4a5404717bc1ae3747e290c6b5c5135569"
+}

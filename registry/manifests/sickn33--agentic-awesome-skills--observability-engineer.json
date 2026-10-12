@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--observability-engineer","name":"observability-engineer","description":"Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response workflows.","category":"Development","tags":["observability","engineer","production","ready","monitoring","logging","tracing","systems.","implements","comprehensive","strategies","sli","slo","management","incident","response","workflows."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/observability-engineer","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-engineer","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":15606,"sha256":"ec6a567dfc8be5a4c8941b73f76951245e01fe038ad9c6bebb77d77b70021461","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/observability-engineer/SKILL.md","bytes":14533,"sha256":"ec6a567dfc8be5a4c8941b73f76951245e01fe038ad9c6bebb77d77b70021461","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-engineer/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"5f79717ea85ebaedb4755c482d9c00f1d0cad7ce7bf7f8df4e035d6f828d799b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--observability-engineer",
+    "name": "observability-engineer",
+    "description": "Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response workflows.",
+    "category": "Development",
+    "tags": [
+      "observability",
+      "engineer",
+      "production",
+      "ready",
+      "monitoring",
+      "logging",
+      "tracing",
+      "systems.",
+      "implements",
+      "comprehensive",
+      "strategies",
+      "sli",
+      "slo",
+      "management",
+      "incident",
+      "response",
+      "workflows."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/observability-engineer",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-engineer",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 15606,
+    "sha256": "ec6a567dfc8be5a4c8941b73f76951245e01fe038ad9c6bebb77d77b70021461",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/observability-engineer/SKILL.md",
+      "bytes": 14533,
+      "sha256": "ec6a567dfc8be5a4c8941b73f76951245e01fe038ad9c6bebb77d77b70021461",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-engineer/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "5f79717ea85ebaedb4755c482d9c00f1d0cad7ce7bf7f8df4e035d6f828d799b"
+}

@@ -1,1 +1,54 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--conductor-status","name":"conductor-status","description":"Display project status, active tracks, and next actions","category":"Development","tags":["conductor","status","display","project","active","tracks","next","actions"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/conductor-status","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/conductor-status","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":10942,"sha256":"5ffb86f92533fb7edfa12d202a503bbf97d16383c578a5dcddd65a3914c6b8aa","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/conductor-status/SKILL.md","bytes":9869,"sha256":"5ffb86f92533fb7edfa12d202a503bbf97d16383c578a5dcddd65a3914c6b8aa","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/conductor-status/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"1279d7d4538f8563b088e127dacd7c9e0f6acf94a2a643e4cdd9b7e006deb12a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--conductor-status",
+    "name": "conductor-status",
+    "description": "Display project status, active tracks, and next actions",
+    "category": "Development",
+    "tags": [
+      "conductor",
+      "status",
+      "display",
+      "project",
+      "active",
+      "tracks",
+      "next",
+      "actions"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/conductor-status",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/conductor-status",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10942,
+    "sha256": "5ffb86f92533fb7edfa12d202a503bbf97d16383c578a5dcddd65a3914c6b8aa",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/conductor-status/SKILL.md",
+      "bytes": 9869,
+      "sha256": "5ffb86f92533fb7edfa12d202a503bbf97d16383c578a5dcddd65a3914c6b8aa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/conductor-status/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "1279d7d4538f8563b088e127dacd7c9e0f6acf94a2a643e4cdd9b7e006deb12a"
+}

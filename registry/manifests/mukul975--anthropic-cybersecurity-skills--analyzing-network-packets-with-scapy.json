@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-network-packets-with-scapy","name":"analyzing-network-packets-with-scapy","description":"Use Scapy to craft, send, sniff, and dissect TCP/UDP/ICMP/DNS packets, analyze pcap files, implement SYN scans, and detect anomalous traffic such as fragmented or malformed packets. Use when performing authorized network reconnaissance, protocol-level forensic analysis, or building traffic anomaly detection during security testing.","category":"Security","tags":["analyzing","network","packets","scapy","craft","send","sniff","dissect","tcp","udp","icmp","dns","analyze","pcap","files","implement","syn","scans"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-network-packets-with-scapy/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-network-packets-with-scapy","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-packets-with-scapy","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":22808,"sha256":"7a3a712799039972864c9a75f15d4058dff46994756150d7ea57af2f0a6199f1","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-network-packets-with-scapy/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-packets-with-scapy/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-network-packets-with-scapy/SKILL.md","bytes":2501,"sha256":"7a3a712799039972864c9a75f15d4058dff46994756150d7ea57af2f0a6199f1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-packets-with-scapy/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-network-packets-with-scapy/references/api-reference.md","bytes":2171,"sha256":"e73e8ac63ad4af243195a3f3714eae3c889b8873f933867fd77ba7ad0f18ca88","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-packets-with-scapy/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-network-packets-with-scapy/scripts/agent.py","bytes":6881,"sha256":"fa522fc710008a709601f338d39e828123030f78f079ada408f066986e97bd8b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-packets-with-scapy/scripts/agent.py"}],"archiveSha256":"6a04ebcf7821fcb11207bfaec53ba791c101de433d4b117366eb67100ca39c9a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-network-packets-with-scapy",
+    "name": "analyzing-network-packets-with-scapy",
+    "description": "Use Scapy to craft, send, sniff, and dissect TCP/UDP/ICMP/DNS packets, analyze pcap files, implement SYN scans, and detect anomalous traffic such as fragmented or malformed packets. Use when performing authorized network reconnaissance, protocol-level forensic analysis, or building traffic anomaly detection during security testing.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "network",
+      "packets",
+      "scapy",
+      "craft",
+      "send",
+      "sniff",
+      "dissect",
+      "tcp",
+      "udp",
+      "icmp",
+      "dns",
+      "analyze",
+      "pcap",
+      "files",
+      "implement",
+      "syn",
+      "scans"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-network-packets-with-scapy/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-network-packets-with-scapy",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-packets-with-scapy",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 22808,
+    "sha256": "7a3a712799039972864c9a75f15d4058dff46994756150d7ea57af2f0a6199f1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-network-packets-with-scapy/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-packets-with-scapy/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-network-packets-with-scapy/SKILL.md",
+      "bytes": 2501,
+      "sha256": "7a3a712799039972864c9a75f15d4058dff46994756150d7ea57af2f0a6199f1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-packets-with-scapy/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-network-packets-with-scapy/references/api-reference.md",
+      "bytes": 2171,
+      "sha256": "e73e8ac63ad4af243195a3f3714eae3c889b8873f933867fd77ba7ad0f18ca88",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-packets-with-scapy/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-network-packets-with-scapy/scripts/agent.py",
+      "bytes": 6881,
+      "sha256": "fa522fc710008a709601f338d39e828123030f78f079ada408f066986e97bd8b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-packets-with-scapy/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "6a04ebcf7821fcb11207bfaec53ba791c101de433d4b117366eb67100ca39c9a"
+}

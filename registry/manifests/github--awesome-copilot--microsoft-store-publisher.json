@@ -1,1 +1,160 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--microsoft-store-publisher","name":"microsoft-store-publisher","description":"Prepare, validate, submit, and monitor Windows desktop apps in Microsoft Partner Center. Use for MSIX packaging, Store identity, listings, WACK, Partner Center automation, certification, and publishing.","category":"Automation","tags":["microsoft","store","publisher","prepare","validate","submit","monitor","windows","desktop","apps","partner","center.","msix","packaging","identity","listings","wack","center"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/microsoft-store-publisher","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":14,"bytes":95529,"sha256":"5e59b0b34dfacd7d9c4cf3ab08f6106f2f8fcc982e1edbe2a1629fc2b81b1c39","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/microsoft-store-publisher/SKILL.md","bytes":15220,"sha256":"5e59b0b34dfacd7d9c4cf3ab08f6106f2f8fcc982e1edbe2a1629fc2b81b1c39","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/SKILL.md"},{"path":"references/msix-checklist.md","sourcePath":"skills/microsoft-store-publisher/references/msix-checklist.md","bytes":3421,"sha256":"2cba9286e1e66190f1b2930bc225a397e287c444be66a3f9ee7c5873284f95bc","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/references/msix-checklist.md"},{"path":"references/partner-center-dom.md","sourcePath":"skills/microsoft-store-publisher/references/partner-center-dom.md","bytes":10974,"sha256":"bc8a8cbab10dfe6c4a814255d82e0dbb0468ab3d54924578877027de68d74c00","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/references/partner-center-dom.md"},{"path":"references/submission-playbook.md","sourcePath":"skills/microsoft-store-publisher/references/submission-playbook.md","bytes":5071,"sha256":"31aad814334090f737089e73c95ad2ae0f58230bcbef6fe7047f7201f19932e7","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/references/submission-playbook.md"},{"path":"references/worked-example.md","sourcePath":"skills/microsoft-store-publisher/references/worked-example.md","bytes":8587,"sha256":"daf256142619e9f4641c3f2521e1277c7ca257efc9e0848e98a2d677c5c04c1f","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/references/worked-example.md"},{"path":"scripts/inspect-msix.ps1","sourcePath":"skills/microsoft-store-publisher/scripts/inspect-msix.ps1","bytes":6563,"sha256":"4f1c922cc71674df321f56c1332fb57700b8217d73205c6422de3cff4c87b2ce","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/scripts/inspect-msix.ps1"},{"path":"scripts/invoke-wack.ps1","sourcePath":"skills/microsoft-store-publisher/scripts/invoke-wack.ps1","bytes":19847,"sha256":"2665a89428f835e67dd5defea8c5a20b66880b5caffec0978561f627ad32d8c4","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/scripts/invoke-wack.ps1"},{"path":"scripts/package.json","sourcePath":"skills/microsoft-store-publisher/scripts/package.json","bytes":144,"sha256":"408909684f5d9bcd3d16b375aa6d1d31ef8ae314cc76f609fec879c25310ec2c","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/scripts/package.json"},{"path":"scripts/partner-center-control.mjs","sourcePath":"skills/microsoft-store-publisher/scripts/partner-center-control.mjs","bytes":19683,"sha256":"d08b5f08cf60109b248db275d361ac4ded8d25c99204d42e2cf9fc71a3892fb6","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/scripts/partner-center-control.mjs"},{"path":"templates/certification-notes.md","sourcePath":"skills/microsoft-store-publisher/templates/certification-notes.md","bytes":1381,"sha256":"ed56e6ac52be531af3ddf6dbf36160d1f8f1a51a538c21a2f309b7d08688f68f","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/templates/certification-notes.md"},{"path":"templates/run-full-trust-rationale.md","sourcePath":"skills/microsoft-store-publisher/templates/run-full-trust-rationale.md","bytes":1163,"sha256":"84cc03a84f2940d44c5fb88e581e60ba05891b56664544fdf0ac06657004cb7b","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/templates/run-full-trust-rationale.md"},{"path":"templates/store-listing.md","sourcePath":"skills/microsoft-store-publisher/templates/store-listing.md","bytes":1313,"sha256":"faab05059d8a927f026cb30256d4dc0ac9f895e677490e8134d2f448a315afeb","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/templates/store-listing.md"},{"path":"templates/submission-record.json","sourcePath":"skills/microsoft-store-publisher/templates/submission-record.json","bytes":1103,"sha256":"b343b9ae2089d8df5f090d67487e4ebbc0fee6119471606ba9e4aadec19671bb","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/templates/submission-record.json"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"9d05f616851a4aac9248afb2fe50dec05d174ac244294aeb432ddd14c3093c9c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--microsoft-store-publisher",
+    "name": "microsoft-store-publisher",
+    "description": "Prepare, validate, submit, and monitor Windows desktop apps in Microsoft Partner Center. Use for MSIX packaging, Store identity, listings, WACK, Partner Center automation, certification, and publishing.",
+    "category": "Automation",
+    "tags": [
+      "microsoft",
+      "store",
+      "publisher",
+      "prepare",
+      "validate",
+      "submit",
+      "monitor",
+      "windows",
+      "desktop",
+      "apps",
+      "partner",
+      "center.",
+      "msix",
+      "packaging",
+      "identity",
+      "listings",
+      "wack",
+      "center"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/microsoft-store-publisher",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 14,
+    "bytes": 95529,
+    "sha256": "5e59b0b34dfacd7d9c4cf3ab08f6106f2f8fcc982e1edbe2a1629fc2b81b1c39",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/microsoft-store-publisher/SKILL.md",
+      "bytes": 15220,
+      "sha256": "5e59b0b34dfacd7d9c4cf3ab08f6106f2f8fcc982e1edbe2a1629fc2b81b1c39",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/SKILL.md"
+    },
+    {
+      "path": "references/msix-checklist.md",
+      "sourcePath": "skills/microsoft-store-publisher/references/msix-checklist.md",
+      "bytes": 3421,
+      "sha256": "2cba9286e1e66190f1b2930bc225a397e287c444be66a3f9ee7c5873284f95bc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/references/msix-checklist.md"
+    },
+    {
+      "path": "references/partner-center-dom.md",
+      "sourcePath": "skills/microsoft-store-publisher/references/partner-center-dom.md",
+      "bytes": 10974,
+      "sha256": "bc8a8cbab10dfe6c4a814255d82e0dbb0468ab3d54924578877027de68d74c00",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/references/partner-center-dom.md"
+    },
+    {
+      "path": "references/submission-playbook.md",
+      "sourcePath": "skills/microsoft-store-publisher/references/submission-playbook.md",
+      "bytes": 5071,
+      "sha256": "31aad814334090f737089e73c95ad2ae0f58230bcbef6fe7047f7201f19932e7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/references/submission-playbook.md"
+    },
+    {
+      "path": "references/worked-example.md",
+      "sourcePath": "skills/microsoft-store-publisher/references/worked-example.md",
+      "bytes": 8587,
+      "sha256": "daf256142619e9f4641c3f2521e1277c7ca257efc9e0848e98a2d677c5c04c1f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/references/worked-example.md"
+    },
+    {
+      "path": "scripts/inspect-msix.ps1",
+      "sourcePath": "skills/microsoft-store-publisher/scripts/inspect-msix.ps1",
+      "bytes": 6563,
+      "sha256": "4f1c922cc71674df321f56c1332fb57700b8217d73205c6422de3cff4c87b2ce",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/scripts/inspect-msix.ps1"
+    },
+    {
+      "path": "scripts/invoke-wack.ps1",
+      "sourcePath": "skills/microsoft-store-publisher/scripts/invoke-wack.ps1",
+      "bytes": 19847,
+      "sha256": "2665a89428f835e67dd5defea8c5a20b66880b5caffec0978561f627ad32d8c4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/scripts/invoke-wack.ps1"
+    },
+    {
+      "path": "scripts/package.json",
+      "sourcePath": "skills/microsoft-store-publisher/scripts/package.json",
+      "bytes": 144,
+      "sha256": "408909684f5d9bcd3d16b375aa6d1d31ef8ae314cc76f609fec879c25310ec2c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/scripts/package.json"
+    },
+    {
+      "path": "scripts/partner-center-control.mjs",
+      "sourcePath": "skills/microsoft-store-publisher/scripts/partner-center-control.mjs",
+      "bytes": 19683,
+      "sha256": "d08b5f08cf60109b248db275d361ac4ded8d25c99204d42e2cf9fc71a3892fb6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/scripts/partner-center-control.mjs"
+    },
+    {
+      "path": "templates/certification-notes.md",
+      "sourcePath": "skills/microsoft-store-publisher/templates/certification-notes.md",
+      "bytes": 1381,
+      "sha256": "ed56e6ac52be531af3ddf6dbf36160d1f8f1a51a538c21a2f309b7d08688f68f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/templates/certification-notes.md"
+    },
+    {
+      "path": "templates/run-full-trust-rationale.md",
+      "sourcePath": "skills/microsoft-store-publisher/templates/run-full-trust-rationale.md",
+      "bytes": 1163,
+      "sha256": "84cc03a84f2940d44c5fb88e581e60ba05891b56664544fdf0ac06657004cb7b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/templates/run-full-trust-rationale.md"
+    },
+    {
+      "path": "templates/store-listing.md",
+      "sourcePath": "skills/microsoft-store-publisher/templates/store-listing.md",
+      "bytes": 1313,
+      "sha256": "faab05059d8a927f026cb30256d4dc0ac9f895e677490e8134d2f448a315afeb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/templates/store-listing.md"
+    },
+    {
+      "path": "templates/submission-record.json",
+      "sourcePath": "skills/microsoft-store-publisher/templates/submission-record.json",
+      "bytes": 1103,
+      "sha256": "b343b9ae2089d8df5f090d67487e4ebbc0fee6119471606ba9e4aadec19671bb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/microsoft-store-publisher/templates/submission-record.json"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "9d05f616851a4aac9248afb2fe50dec05d174ac244294aeb432ddd14c3093c9c"
+}

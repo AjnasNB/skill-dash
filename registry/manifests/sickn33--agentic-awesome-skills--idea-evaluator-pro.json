@@ -1,1 +1,60 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--idea-evaluator-pro","name":"idea-evaluator-pro","description":"The Pro Agent persona for idea evaluation. Logically supports an idea, arguing for its market fit, feasibility, and potential.","category":"AI & agents","tags":["idea","evaluator","pro","agent","persona","evaluation.","logically","supports","arguing","its","market","fit","feasibility","potential."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/idea-evaluator/idea-evaluator-pro","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-evaluator/idea-evaluator-pro","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4198,"sha256":"5f5aadccf78cc409a28923415ff6e1a6224adb69b82c4ca0879cff0bee47b235","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/idea-evaluator/idea-evaluator-pro/SKILL.md","bytes":3125,"sha256":"5f5aadccf78cc409a28923415ff6e1a6224adb69b82c4ca0879cff0bee47b235","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-evaluator/idea-evaluator-pro/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"79e14c7564a59934df361a2e395328bd112bbc96bb414ee9691405b449f0ce57"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--idea-evaluator-pro",
+    "name": "idea-evaluator-pro",
+    "description": "The Pro Agent persona for idea evaluation. Logically supports an idea, arguing for its market fit, feasibility, and potential.",
+    "category": "AI & agents",
+    "tags": [
+      "idea",
+      "evaluator",
+      "pro",
+      "agent",
+      "persona",
+      "evaluation.",
+      "logically",
+      "supports",
+      "arguing",
+      "its",
+      "market",
+      "fit",
+      "feasibility",
+      "potential."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/idea-evaluator/idea-evaluator-pro",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-evaluator/idea-evaluator-pro",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4198,
+    "sha256": "5f5aadccf78cc409a28923415ff6e1a6224adb69b82c4ca0879cff0bee47b235",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/idea-evaluator/idea-evaluator-pro/SKILL.md",
+      "bytes": 3125,
+      "sha256": "5f5aadccf78cc409a28923415ff6e1a6224adb69b82c4ca0879cff0bee47b235",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-evaluator/idea-evaluator-pro/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "79e14c7564a59934df361a2e395328bd112bbc96bb414ee9691405b449f0ce57"
+}

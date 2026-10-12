@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--namecheap","name":"namecheap","description":"Manage DNS records for domains registered with Namecheap via their API. List domains, view/add/update/remove DNS host entries (A, AAAA, CNAME, MX, TXT, etc.), and guide users through API setup including public IP detection and credential configuration. Use when the user mentions Namecheap, DNS records, domain management, or wants to add/change/remove A records, CNAME records, MX records, or TXT records for their domains.","category":"Development","tags":["namecheap","manage","dns","records","domains","registered","via","their","api.","list","view","add","update","remove","host","entries","aaaa","cname"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/namecheap","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/namecheap","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":4,"bytes":43346,"sha256":"5023cc6052e48e32c5f93a076cf88d67ea7fd2ed20e67e5a1d0f78daa0457ca6","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/namecheap/SKILL.md","bytes":6921,"sha256":"5023cc6052e48e32c5f93a076cf88d67ea7fd2ed20e67e5a1d0f78daa0457ca6","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/namecheap/SKILL.md"},{"path":"namecheap.py","sourcePath":"skills/namecheap/namecheap.py","bytes":24525,"sha256":"e592b9c85f83a9479b1899bf695929a0efc929393571b3f57551f03726d9903f","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/namecheap/namecheap.py"},{"path":"references/namecheap-api.md","sourcePath":"skills/namecheap/references/namecheap-api.md","bytes":10841,"sha256":"df8d2d7bfbafa1e625d623155b2f9c20dfc769260287c48ec9a248e01d5d4762","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/namecheap/references/namecheap-api.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"9e058291e35c209b5f02e8c290e82a8e6842894185eac915afb0123d23b403d9"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--namecheap",
+    "name": "namecheap",
+    "description": "Manage DNS records for domains registered with Namecheap via their API. List domains, view/add/update/remove DNS host entries (A, AAAA, CNAME, MX, TXT, etc.), and guide users through API setup including public IP detection and credential configuration. Use when the user mentions Namecheap, DNS records, domain management, or wants to add/change/remove A records, CNAME records, MX records, or TXT records for their domains.",
+    "category": "Development",
+    "tags": [
+      "namecheap",
+      "manage",
+      "dns",
+      "records",
+      "domains",
+      "registered",
+      "via",
+      "their",
+      "api.",
+      "list",
+      "view",
+      "add",
+      "update",
+      "remove",
+      "host",
+      "entries",
+      "aaaa",
+      "cname"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/namecheap",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/namecheap",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 4,
+    "bytes": 43346,
+    "sha256": "5023cc6052e48e32c5f93a076cf88d67ea7fd2ed20e67e5a1d0f78daa0457ca6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/namecheap/SKILL.md",
+      "bytes": 6921,
+      "sha256": "5023cc6052e48e32c5f93a076cf88d67ea7fd2ed20e67e5a1d0f78daa0457ca6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/namecheap/SKILL.md"
+    },
+    {
+      "path": "namecheap.py",
+      "sourcePath": "skills/namecheap/namecheap.py",
+      "bytes": 24525,
+      "sha256": "e592b9c85f83a9479b1899bf695929a0efc929393571b3f57551f03726d9903f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/namecheap/namecheap.py"
+    },
+    {
+      "path": "references/namecheap-api.md",
+      "sourcePath": "skills/namecheap/references/namecheap-api.md",
+      "bytes": 10841,
+      "sha256": "df8d2d7bfbafa1e625d623155b2f9c20dfc769260287c48ec9a248e01d5d4762",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/namecheap/references/namecheap-api.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "9e058291e35c209b5f02e8c290e82a8e6842894185eac915afb0123d23b403d9"
+}

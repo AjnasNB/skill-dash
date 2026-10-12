@@ -1,1 +1,65 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--screen-reader-testing","name":"screen-reader-testing","description":"Practical guide to testing web applications with screen readers for comprehensive accessibility validation.","category":"Design","tags":["screen","reader","testing","practical","guide","web","applications","readers","comprehensive","accessibility","validation."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/screen-reader-testing","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/screen-reader-testing","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":14736,"sha256":"351a27532ecfefb9ed832fc525466636b6f18c4f01ae0f96e5dbc59366ccfac4","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/screen-reader-testing/SKILL.md","bytes":1391,"sha256":"351a27532ecfefb9ed832fc525466636b6f18c4f01ae0f96e5dbc59366ccfac4","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/screen-reader-testing/SKILL.md"},{"path":"resources/implementation-playbook.md","sourcePath":"skills/screen-reader-testing/resources/implementation-playbook.md","bytes":12272,"sha256":"c8fc33fdc5130d3a5763cc8cd24850d8f9659edfe11e8835068362548128fdd3","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/screen-reader-testing/resources/implementation-playbook.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"7b33b01afe3f0adcf99a9889415ed37ee1f0096a887c57a961e1adcc10cf339e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--screen-reader-testing",
+    "name": "screen-reader-testing",
+    "description": "Practical guide to testing web applications with screen readers for comprehensive accessibility validation.",
+    "category": "Design",
+    "tags": [
+      "screen",
+      "reader",
+      "testing",
+      "practical",
+      "guide",
+      "web",
+      "applications",
+      "readers",
+      "comprehensive",
+      "accessibility",
+      "validation."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/screen-reader-testing",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/screen-reader-testing",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 14736,
+    "sha256": "351a27532ecfefb9ed832fc525466636b6f18c4f01ae0f96e5dbc59366ccfac4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/screen-reader-testing/SKILL.md",
+      "bytes": 1391,
+      "sha256": "351a27532ecfefb9ed832fc525466636b6f18c4f01ae0f96e5dbc59366ccfac4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/screen-reader-testing/SKILL.md"
+    },
+    {
+      "path": "resources/implementation-playbook.md",
+      "sourcePath": "skills/screen-reader-testing/resources/implementation-playbook.md",
+      "bytes": 12272,
+      "sha256": "c8fc33fdc5130d3a5763cc8cd24850d8f9659edfe11e8835068362548128fdd3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/screen-reader-testing/resources/implementation-playbook.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "7b33b01afe3f0adcf99a9889415ed37ee1f0096a887c57a961e1adcc10cf339e"
+}

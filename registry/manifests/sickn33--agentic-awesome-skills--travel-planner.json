@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--travel-planner","name":"travel-planner","description":"旅行/行程规划需求时使用:规划去某地旅行、X天X城、带老人孩子、自驾、假期安排等。产出逐日行程表、预算估算(经济/舒适/奢华三档)、交通住宿建议、景点美食清单。必须先问预算,预算未确认只输出问题清单;事实数据带来源和查询日期。","category":"Development","tags":["travel","planner","旅行","行程规划需求时使用","规划去某地旅行","x天x城","带老人孩子","自驾","假期安排等","产出逐日行程表","预算估算","经济","舒适","奢华三档","交通住宿建议","景点美食清单","必须先问预算","预算未确认只输出问题清单"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/travel-planner","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/travel-planner","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":19522,"sha256":"daa56598e727dd9050fb20b3280d6facd081d74c88a1b120c77cfe737be99b1b","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/travel-planner/SKILL.md","bytes":18449,"sha256":"daa56598e727dd9050fb20b3280d6facd081d74c88a1b120c77cfe737be99b1b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/travel-planner/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"9be60f82720e811623745c2557009450c7bd0fc723829fe8b22f4911ac930860"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--travel-planner",
+    "name": "travel-planner",
+    "description": "旅行/行程规划需求时使用:规划去某地旅行、X天X城、带老人孩子、自驾、假期安排等。产出逐日行程表、预算估算(经济/舒适/奢华三档)、交通住宿建议、景点美食清单。必须先问预算,预算未确认只输出问题清单;事实数据带来源和查询日期。",
+    "category": "Development",
+    "tags": [
+      "travel",
+      "planner",
+      "旅行",
+      "行程规划需求时使用",
+      "规划去某地旅行",
+      "x天x城",
+      "带老人孩子",
+      "自驾",
+      "假期安排等",
+      "产出逐日行程表",
+      "预算估算",
+      "经济",
+      "舒适",
+      "奢华三档",
+      "交通住宿建议",
+      "景点美食清单",
+      "必须先问预算",
+      "预算未确认只输出问题清单"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/travel-planner",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/travel-planner",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 19522,
+    "sha256": "daa56598e727dd9050fb20b3280d6facd081d74c88a1b120c77cfe737be99b1b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/travel-planner/SKILL.md",
+      "bytes": 18449,
+      "sha256": "daa56598e727dd9050fb20b3280d6facd081d74c88a1b120c77cfe737be99b1b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/travel-planner/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "9be60f82720e811623745c2557009450c7bd0fc723829fe8b22f4911ac930860"
+}

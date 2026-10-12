@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--mailtrap-managing-contacts","name":"mailtrap-managing-contacts","description":"Manage Mailtrap contacts, lists, segments, custom fields, imports, CRM syncs, and campaign audiences through the UI or API.","category":"Design","tags":["mailtrap","managing","contacts","manage","lists","segments","custom","fields","imports","crm","syncs","campaign","audiences","through","ui","api."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/mailtrap-managing-contacts","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mailtrap-managing-contacts","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":8493,"sha256":"2917884d34e03717de2aa526761548b31e760d5110a78ce500f45bcc22ffd745","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/mailtrap-managing-contacts/SKILL.md","bytes":7420,"sha256":"2917884d34e03717de2aa526761548b31e760d5110a78ce500f45bcc22ffd745","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mailtrap-managing-contacts/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"fc8ffa61ca60d00e71da69afc89df5163ef80b8e82d41c42ee1bd55297ac4517"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--mailtrap-managing-contacts",
+    "name": "mailtrap-managing-contacts",
+    "description": "Manage Mailtrap contacts, lists, segments, custom fields, imports, CRM syncs, and campaign audiences through the UI or API.",
+    "category": "Design",
+    "tags": [
+      "mailtrap",
+      "managing",
+      "contacts",
+      "manage",
+      "lists",
+      "segments",
+      "custom",
+      "fields",
+      "imports",
+      "crm",
+      "syncs",
+      "campaign",
+      "audiences",
+      "through",
+      "ui",
+      "api."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/mailtrap-managing-contacts",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mailtrap-managing-contacts",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 8493,
+    "sha256": "2917884d34e03717de2aa526761548b31e760d5110a78ce500f45bcc22ffd745",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/mailtrap-managing-contacts/SKILL.md",
+      "bytes": 7420,
+      "sha256": "2917884d34e03717de2aa526761548b31e760d5110a78ce500f45bcc22ffd745",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mailtrap-managing-contacts/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "fc8ffa61ca60d00e71da69afc89df5163ef80b8e82d41c42ee1bd55297ac4517"
+}

@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--gcp-compute","name":"gcp-compute","description":"Manage Compute Engine instances and instance templates. Configure managed instance groups and preemptible VMs. Use when deploying compute resources on GCP.","category":"Cloud & DevOps","tags":["gcp","compute","manage","engine","instances","instance","templates.","configure","managed","groups","preemptible","vms.","when","deploying","resources","gcp."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/gcp-compute","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gcp-compute","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11380,"sha256":"d72576b7afff792877fbbbedee9e88b69d46c7d30495c21ab058c34d1ab953d1","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/gcp-compute/SKILL.md","bytes":10307,"sha256":"d72576b7afff792877fbbbedee9e88b69d46c7d30495c21ab058c34d1ab953d1","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gcp-compute/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"34833481535153aaa85c95ced292c05f1a522020970e69656cd5521d4f530dcd"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--gcp-compute",
+    "name": "gcp-compute",
+    "description": "Manage Compute Engine instances and instance templates. Configure managed instance groups and preemptible VMs. Use when deploying compute resources on GCP.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "gcp",
+      "compute",
+      "manage",
+      "engine",
+      "instances",
+      "instance",
+      "templates.",
+      "configure",
+      "managed",
+      "groups",
+      "preemptible",
+      "vms.",
+      "when",
+      "deploying",
+      "resources",
+      "gcp."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/gcp-compute",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gcp-compute",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11380,
+    "sha256": "d72576b7afff792877fbbbedee9e88b69d46c7d30495c21ab058c34d1ab953d1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/gcp-compute/SKILL.md",
+      "bytes": 10307,
+      "sha256": "d72576b7afff792877fbbbedee9e88b69d46c7d30495c21ab058c34d1ab953d1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gcp-compute/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "34833481535153aaa85c95ced292c05f1a522020970e69656cd5521d4f530dcd"
+}

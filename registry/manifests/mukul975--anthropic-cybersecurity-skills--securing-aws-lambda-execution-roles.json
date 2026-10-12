@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--securing-aws-lambda-execution-roles","name":"securing-aws-lambda-execution-roles","description":"Hardens AWS Lambda execution roles by writing least-privilege IAM policies, applying permission boundaries, restricting resource-based policies, validating permissions with IAM Access Analyzer, and enforcing role scoping through SCPs. Use when deploying new Lambda functions, remediating overly permissive Lambda roles found in an audit, or building reusable least-privilege IAM role templates for serverless teams.","category":"Cloud & DevOps","tags":["securing","aws","lambda","execution","roles","hardens","by","writing","least","privilege","iam","policies","applying","permission","boundaries","restricting","resource","based"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/securing-aws-lambda-execution-roles/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/securing-aws-lambda-execution-roles","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-aws-lambda-execution-roles","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":34249,"sha256":"5a2e043ad1384ae0115da880d0ed1ba8b025ed47ccf26a9d425a1637dee09159","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/securing-aws-lambda-execution-roles/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-aws-lambda-execution-roles/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/securing-aws-lambda-execution-roles/SKILL.md","bytes":13358,"sha256":"5a2e043ad1384ae0115da880d0ed1ba8b025ed47ccf26a9d425a1637dee09159","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-aws-lambda-execution-roles/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/securing-aws-lambda-execution-roles/references/api-reference.md","bytes":2320,"sha256":"7c0325f9becddd02bebaab3616cbe13640a5b904e79ae1fd43dceb7989e13034","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-aws-lambda-execution-roles/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/securing-aws-lambda-execution-roles/scripts/agent.py","bytes":7316,"sha256":"f439fedcb4f24e597184a033901a27de362b0789bea673c10a468ec3d8a3f175","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-aws-lambda-execution-roles/scripts/agent.py"}],"archiveSha256":"e2ae7801379f4fc3bcb37b2f95c8151f61813141ef4e9093d2626096ac2548d9"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--securing-aws-lambda-execution-roles",
+    "name": "securing-aws-lambda-execution-roles",
+    "description": "Hardens AWS Lambda execution roles by writing least-privilege IAM policies, applying permission boundaries, restricting resource-based policies, validating permissions with IAM Access Analyzer, and enforcing role scoping through SCPs. Use when deploying new Lambda functions, remediating overly permissive Lambda roles found in an audit, or building reusable least-privilege IAM role templates for serverless teams.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "securing",
+      "aws",
+      "lambda",
+      "execution",
+      "roles",
+      "hardens",
+      "by",
+      "writing",
+      "least",
+      "privilege",
+      "iam",
+      "policies",
+      "applying",
+      "permission",
+      "boundaries",
+      "restricting",
+      "resource",
+      "based"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/securing-aws-lambda-execution-roles/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/securing-aws-lambda-execution-roles",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-aws-lambda-execution-roles",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34249,
+    "sha256": "5a2e043ad1384ae0115da880d0ed1ba8b025ed47ccf26a9d425a1637dee09159",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/securing-aws-lambda-execution-roles/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-aws-lambda-execution-roles/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/securing-aws-lambda-execution-roles/SKILL.md",
+      "bytes": 13358,
+      "sha256": "5a2e043ad1384ae0115da880d0ed1ba8b025ed47ccf26a9d425a1637dee09159",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-aws-lambda-execution-roles/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/securing-aws-lambda-execution-roles/references/api-reference.md",
+      "bytes": 2320,
+      "sha256": "7c0325f9becddd02bebaab3616cbe13640a5b904e79ae1fd43dceb7989e13034",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-aws-lambda-execution-roles/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/securing-aws-lambda-execution-roles/scripts/agent.py",
+      "bytes": 7316,
+      "sha256": "f439fedcb4f24e597184a033901a27de362b0789bea673c10a468ec3d8a3f175",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/securing-aws-lambda-execution-roles/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "e2ae7801379f4fc3bcb37b2f95c8151f61813141ef4e9093d2626096ac2548d9"
+}

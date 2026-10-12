@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--data-export-engine","name":"data-export-engine","description":"Data export log: source module, purpose, format, requester and approver, delivery dates, personal-data flag and status. Use for export audit trails.","category":"Development","tags":["data","export","engine","log","source","module","purpose","format","requester","approver","delivery","dates","personal","flag","status.","audit","trails."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/data-export-engine","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/data-export-engine","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":13953,"sha256":"8a35a1b9bfcbc57a84e1928bc3b0daf887d650e55ab4dd868d4d67384b49925e","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/data-export-engine/SKILL.md","bytes":12880,"sha256":"8a35a1b9bfcbc57a84e1928bc3b0daf887d650e55ab4dd868d4d67384b49925e","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/data-export-engine/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"12d94845661756e5e2d510022bc1f6efee8577723cf40d5fc94eaa7dfbf11f5e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--data-export-engine",
+    "name": "data-export-engine",
+    "description": "Data export log: source module, purpose, format, requester and approver, delivery dates, personal-data flag and status. Use for export audit trails.",
+    "category": "Development",
+    "tags": [
+      "data",
+      "export",
+      "engine",
+      "log",
+      "source",
+      "module",
+      "purpose",
+      "format",
+      "requester",
+      "approver",
+      "delivery",
+      "dates",
+      "personal",
+      "flag",
+      "status.",
+      "audit",
+      "trails."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/data-export-engine",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/data-export-engine",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13953,
+    "sha256": "8a35a1b9bfcbc57a84e1928bc3b0daf887d650e55ab4dd868d4d67384b49925e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/data-export-engine/SKILL.md",
+      "bytes": 12880,
+      "sha256": "8a35a1b9bfcbc57a84e1928bc3b0daf887d650e55ab4dd868d4d67384b49925e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/data-export-engine/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "12d94845661756e5e2d510022bc1f6efee8577723cf40d5fc94eaa7dfbf11f5e"
+}

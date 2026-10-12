@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--freshservice-automation","name":"freshservice-automation","description":"Automate Freshservice ITSM tasks via Rube MCP (Composio): create/update tickets, bulk operations, service requests, and outbound emails. Always search tools first for current schemas.","category":"AI & agents","tags":["freshservice","automation","automate","itsm","tasks","via","rube","mcp","composio","update","tickets","bulk","operations","service","requests","outbound","emails.","always"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/freshservice-automation","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/freshservice-automation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":9787,"sha256":"7cabcb5d8723e46e73fddad7813a7909dd1832edf263b0a9ab254658e0882781","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/freshservice-automation/SKILL.md","bytes":8714,"sha256":"7cabcb5d8723e46e73fddad7813a7909dd1832edf263b0a9ab254658e0882781","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/freshservice-automation/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"5d1498f25c2a0355425a5e1edb5c395e007a7c66629a1461441fd339f00f801f"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--freshservice-automation",
+    "name": "freshservice-automation",
+    "description": "Automate Freshservice ITSM tasks via Rube MCP (Composio): create/update tickets, bulk operations, service requests, and outbound emails. Always search tools first for current schemas.",
+    "category": "AI & agents",
+    "tags": [
+      "freshservice",
+      "automation",
+      "automate",
+      "itsm",
+      "tasks",
+      "via",
+      "rube",
+      "mcp",
+      "composio",
+      "update",
+      "tickets",
+      "bulk",
+      "operations",
+      "service",
+      "requests",
+      "outbound",
+      "emails.",
+      "always"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/freshservice-automation",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/freshservice-automation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9787,
+    "sha256": "7cabcb5d8723e46e73fddad7813a7909dd1832edf263b0a9ab254658e0882781",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/freshservice-automation/SKILL.md",
+      "bytes": 8714,
+      "sha256": "7cabcb5d8723e46e73fddad7813a7909dd1832edf263b0a9ab254658e0882781",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/freshservice-automation/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "5d1498f25c2a0355425a5e1edb5c395e007a7c66629a1461441fd339f00f801f"
+}

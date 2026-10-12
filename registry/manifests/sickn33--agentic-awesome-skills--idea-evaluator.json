@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--idea-evaluator","name":"idea-evaluator","description":"Evaluates an idea by hosting a multi-turn debate between a Pro and Con agent, delivering a final verdict on whether it's worth pursuing.","category":"AI & agents","tags":["idea","evaluator","evaluates","by","hosting","multi","turn","debate","between","pro","con","agent","delivering","final","verdict","whether","it","worth"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/idea-evaluator","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-evaluator","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":4,"bytes":11241,"sha256":"4ec77835581f3874dff0f32d8c68511b9a218f5ad43f8d19f4fe2f7cd0ec70ad","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/idea-evaluator/SKILL.md","bytes":3725,"sha256":"4ec77835581f3874dff0f32d8c68511b9a218f5ad43f8d19f4fe2f7cd0ec70ad","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-evaluator/SKILL.md"},{"path":"idea-evaluator-con/SKILL.md","sourcePath":"skills/idea-evaluator/idea-evaluator-con/SKILL.md","bytes":3318,"sha256":"c36abf06430928db719a9f280fb6aed095a384fab8c83fc4a395aa248792b55a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-evaluator/idea-evaluator-con/SKILL.md"},{"path":"idea-evaluator-pro/SKILL.md","sourcePath":"skills/idea-evaluator/idea-evaluator-pro/SKILL.md","bytes":3125,"sha256":"5f5aadccf78cc409a28923415ff6e1a6224adb69b82c4ca0879cff0bee47b235","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-evaluator/idea-evaluator-pro/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"2b761c7af31d1664ca8b1a6d6e4211478b03728a2a9a92e9f32f9f1405118b21"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--idea-evaluator",
+    "name": "idea-evaluator",
+    "description": "Evaluates an idea by hosting a multi-turn debate between a Pro and Con agent, delivering a final verdict on whether it's worth pursuing.",
+    "category": "AI & agents",
+    "tags": [
+      "idea",
+      "evaluator",
+      "evaluates",
+      "by",
+      "hosting",
+      "multi",
+      "turn",
+      "debate",
+      "between",
+      "pro",
+      "con",
+      "agent",
+      "delivering",
+      "final",
+      "verdict",
+      "whether",
+      "it",
+      "worth"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/idea-evaluator",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-evaluator",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 4,
+    "bytes": 11241,
+    "sha256": "4ec77835581f3874dff0f32d8c68511b9a218f5ad43f8d19f4fe2f7cd0ec70ad",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/idea-evaluator/SKILL.md",
+      "bytes": 3725,
+      "sha256": "4ec77835581f3874dff0f32d8c68511b9a218f5ad43f8d19f4fe2f7cd0ec70ad",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-evaluator/SKILL.md"
+    },
+    {
+      "path": "idea-evaluator-con/SKILL.md",
+      "sourcePath": "skills/idea-evaluator/idea-evaluator-con/SKILL.md",
+      "bytes": 3318,
+      "sha256": "c36abf06430928db719a9f280fb6aed095a384fab8c83fc4a395aa248792b55a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-evaluator/idea-evaluator-con/SKILL.md"
+    },
+    {
+      "path": "idea-evaluator-pro/SKILL.md",
+      "sourcePath": "skills/idea-evaluator/idea-evaluator-pro/SKILL.md",
+      "bytes": 3125,
+      "sha256": "5f5aadccf78cc409a28923415ff6e1a6224adb69b82c4ca0879cff0bee47b235",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/idea-evaluator/idea-evaluator-pro/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "2b761c7af31d1664ca8b1a6d6e4211478b03728a2a9a92e9f32f9f1405118b21"
+}

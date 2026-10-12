@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--odoo-project-timesheet","name":"odoo-project-timesheet","description":"Expert guide for Odoo Project and Timesheets: task stages, billable time tracking, timesheet approval, budget alerts, and invoicing from timesheets.","category":"Development","tags":["odoo","project","timesheet","expert","guide","timesheets","task","stages","billable","time","tracking","approval","budget","alerts","invoicing","from","timesheets."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/odoo-project-timesheet","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-project-timesheet","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5563,"sha256":"436d30628811e45c3d68984e41844dda7d2a075c8f66f540c81d1acdebe3fb52","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/odoo-project-timesheet/SKILL.md","bytes":4490,"sha256":"436d30628811e45c3d68984e41844dda7d2a075c8f66f540c81d1acdebe3fb52","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-project-timesheet/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"a0b72f79792c3b0c2515f67512e75d63afc02ed3d71f9b82dcd30ffefbe218eb"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--odoo-project-timesheet",
+    "name": "odoo-project-timesheet",
+    "description": "Expert guide for Odoo Project and Timesheets: task stages, billable time tracking, timesheet approval, budget alerts, and invoicing from timesheets.",
+    "category": "Development",
+    "tags": [
+      "odoo",
+      "project",
+      "timesheet",
+      "expert",
+      "guide",
+      "timesheets",
+      "task",
+      "stages",
+      "billable",
+      "time",
+      "tracking",
+      "approval",
+      "budget",
+      "alerts",
+      "invoicing",
+      "from",
+      "timesheets."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/odoo-project-timesheet",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-project-timesheet",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5563,
+    "sha256": "436d30628811e45c3d68984e41844dda7d2a075c8f66f540c81d1acdebe3fb52",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/odoo-project-timesheet/SKILL.md",
+      "bytes": 4490,
+      "sha256": "436d30628811e45c3d68984e41844dda7d2a075c8f66f540c81d1acdebe3fb52",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-project-timesheet/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "a0b72f79792c3b0c2515f67512e75d63afc02ed3d71f9b82dcd30ffefbe218eb"
+}

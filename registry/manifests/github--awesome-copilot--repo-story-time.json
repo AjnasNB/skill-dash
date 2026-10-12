@@ -1,1 +1,57 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--repo-story-time","name":"repo-story-time","description":"Generate a comprehensive repository summary and narrative story from commit history","category":"Development","tags":["repo","story","time","generate","comprehensive","repository","summary","narrative","from","commit","history"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/repo-story-time","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/repo-story-time","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":7735,"sha256":"1b5e89152b3c3201726c4e12d582c90c952f61a99bfc94c0e34f633391be324a","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/repo-story-time/SKILL.md","bytes":6676,"sha256":"1b5e89152b3c3201726c4e12d582c90c952f61a99bfc94c0e34f633391be324a","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/repo-story-time/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"596f722c0201b7801efd2359da84cabc84cf212e0e039a8bbea6632957580bc6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--repo-story-time",
+    "name": "repo-story-time",
+    "description": "Generate a comprehensive repository summary and narrative story from commit history",
+    "category": "Development",
+    "tags": [
+      "repo",
+      "story",
+      "time",
+      "generate",
+      "comprehensive",
+      "repository",
+      "summary",
+      "narrative",
+      "from",
+      "commit",
+      "history"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/repo-story-time",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/repo-story-time",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 7735,
+    "sha256": "1b5e89152b3c3201726c4e12d582c90c952f61a99bfc94c0e34f633391be324a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/repo-story-time/SKILL.md",
+      "bytes": 6676,
+      "sha256": "1b5e89152b3c3201726c4e12d582c90c952f61a99bfc94c0e34f633391be324a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/repo-story-time/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "596f722c0201b7801efd2359da84cabc84cf212e0e039a8bbea6632957580bc6"
+}

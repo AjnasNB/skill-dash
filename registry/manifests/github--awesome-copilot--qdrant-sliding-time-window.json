@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--qdrant-sliding-time-window","name":"qdrant-sliding-time-window","description":"Guides sliding time window scaling in Qdrant. Use when someone asks 'only recent data matters', 'how to expire old vectors', 'time-based data rotation', 'delete old data efficiently', 'social media feed search', 'news search', 'log search with retention', or 'how to keep only last N months of data'.","category":"Marketing","tags":["qdrant","sliding","time","window","guides","scaling","qdrant.","when","someone","asks","only","recent","data","matters","expire","old","vectors","based"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/qdrant-scaling/scaling-data-volume/sliding-time-window","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/qdrant-scaling/scaling-data-volume/sliding-time-window","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":5535,"sha256":"cc055f73d7c163fb7ea0e9400497ed4ed4b2d350169ca08cc34ede524f71a753","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/qdrant-scaling/scaling-data-volume/sliding-time-window/SKILL.md","bytes":4476,"sha256":"cc055f73d7c163fb7ea0e9400497ed4ed4b2d350169ca08cc34ede524f71a753","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/qdrant-scaling/scaling-data-volume/sliding-time-window/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"b8855c57d98905f9d40f517dcc9bba70dde93f7b45274164ea5335c35ea40526"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--qdrant-sliding-time-window",
+    "name": "qdrant-sliding-time-window",
+    "description": "Guides sliding time window scaling in Qdrant. Use when someone asks 'only recent data matters', 'how to expire old vectors', 'time-based data rotation', 'delete old data efficiently', 'social media feed search', 'news search', 'log search with retention', or 'how to keep only last N months of data'.",
+    "category": "Marketing",
+    "tags": [
+      "qdrant",
+      "sliding",
+      "time",
+      "window",
+      "guides",
+      "scaling",
+      "qdrant.",
+      "when",
+      "someone",
+      "asks",
+      "only",
+      "recent",
+      "data",
+      "matters",
+      "expire",
+      "old",
+      "vectors",
+      "based"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/qdrant-scaling/scaling-data-volume/sliding-time-window",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/qdrant-scaling/scaling-data-volume/sliding-time-window",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 5535,
+    "sha256": "cc055f73d7c163fb7ea0e9400497ed4ed4b2d350169ca08cc34ede524f71a753",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/qdrant-scaling/scaling-data-volume/sliding-time-window/SKILL.md",
+      "bytes": 4476,
+      "sha256": "cc055f73d7c163fb7ea0e9400497ed4ed4b2d350169ca08cc34ede524f71a753",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/qdrant-scaling/scaling-data-volume/sliding-time-window/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "b8855c57d98905f9d40f517dcc9bba70dde93f7b45274164ea5335c35ea40526"
+}

@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--markstream-nuxt","name":"markstream-nuxt","description":"Integrate markstream-vue into Nuxt 3 or 4 with SSR-safe client boundaries, renderer modes, explicit CSS, and browser-only optional peers.","category":"Design","tags":["markstream","nuxt","integrate","vue","into","ssr","safe","client","boundaries","renderer","modes","explicit","css","browser","only","optional","peers."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/markstream-nuxt","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/markstream-nuxt","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":3750,"sha256":"908324011bd7fa6b397c70d8874fb94a794cb84a06be2f945b107382b11f5a64","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/markstream-nuxt/SKILL.md","bytes":2677,"sha256":"908324011bd7fa6b397c70d8874fb94a794cb84a06be2f945b107382b11f5a64","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/markstream-nuxt/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"baeb828f3aa6626c431a4bafe7aa6787ac3e18c1912259bae7d8c7989285d9ed"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--markstream-nuxt",
+    "name": "markstream-nuxt",
+    "description": "Integrate markstream-vue into Nuxt 3 or 4 with SSR-safe client boundaries, renderer modes, explicit CSS, and browser-only optional peers.",
+    "category": "Design",
+    "tags": [
+      "markstream",
+      "nuxt",
+      "integrate",
+      "vue",
+      "into",
+      "ssr",
+      "safe",
+      "client",
+      "boundaries",
+      "renderer",
+      "modes",
+      "explicit",
+      "css",
+      "browser",
+      "only",
+      "optional",
+      "peers."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/markstream-nuxt",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/markstream-nuxt",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 3750,
+    "sha256": "908324011bd7fa6b397c70d8874fb94a794cb84a06be2f945b107382b11f5a64",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/markstream-nuxt/SKILL.md",
+      "bytes": 2677,
+      "sha256": "908324011bd7fa6b397c70d8874fb94a794cb84a06be2f945b107382b11f5a64",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/markstream-nuxt/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "baeb828f3aa6626c431a4bafe7aa6787ac3e18c1912259bae7d8c7989285d9ed"
+}

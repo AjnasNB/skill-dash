@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--hunting-for-unusual-service-installations","name":"hunting-for-unusual-service-installations","description":"Detects suspicious Windows service installations (MITRE ATT&CK T1543.003) by parsing System event log Event ID 7045, analyzing service binary paths, and flagging indicators of persistence mechanisms via Sysmon/EDR telemetry. Use when hunting for new-service persistence after a suspected compromise, when Event ID 7045 fires for an unfamiliar service, or during incident response to enumerate service-based persistence on Windows hosts.","category":"Development","tags":["hunting","unusual","service","installations","detects","suspicious","windows","mitre","att","ck","t1543.003","by","parsing","system","event","log","id","7045"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/hunting-for-unusual-service-installations/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/hunting-for-unusual-service-installations","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-unusual-service-installations","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":24381,"sha256":"489e8635577d16cea4927ba064fa462c7a158c8743813d24602995845e2ca6c2","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/hunting-for-unusual-service-installations/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-unusual-service-installations/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/hunting-for-unusual-service-installations/SKILL.md","bytes":2708,"sha256":"489e8635577d16cea4927ba064fa462c7a158c8743813d24602995845e2ca6c2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-unusual-service-installations/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/hunting-for-unusual-service-installations/references/api-reference.md","bytes":2639,"sha256":"72894df432c2b0e85bbfd552cbd8c5ae2176ffaab8e10893324aa1ebbcd13b2f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-unusual-service-installations/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/hunting-for-unusual-service-installations/scripts/agent.py","bytes":7779,"sha256":"62f273311542a8798beb98a6e35a2060c997c429fd7f1d99ff78d43605400384","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-unusual-service-installations/scripts/agent.py"}],"archiveSha256":"edab70eeeb8417d450392428a4586ba3a8a749ace771cec973335b70aed57f0c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-for-unusual-service-installations",
+    "name": "hunting-for-unusual-service-installations",
+    "description": "Detects suspicious Windows service installations (MITRE ATT&CK T1543.003) by parsing System event log Event ID 7045, analyzing service binary paths, and flagging indicators of persistence mechanisms via Sysmon/EDR telemetry. Use when hunting for new-service persistence after a suspected compromise, when Event ID 7045 fires for an unfamiliar service, or during incident response to enumerate service-based persistence on Windows hosts.",
+    "category": "Development",
+    "tags": [
+      "hunting",
+      "unusual",
+      "service",
+      "installations",
+      "detects",
+      "suspicious",
+      "windows",
+      "mitre",
+      "att",
+      "ck",
+      "t1543.003",
+      "by",
+      "parsing",
+      "system",
+      "event",
+      "log",
+      "id",
+      "7045"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-for-unusual-service-installations/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-for-unusual-service-installations",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-unusual-service-installations",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 24381,
+    "sha256": "489e8635577d16cea4927ba064fa462c7a158c8743813d24602995845e2ca6c2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-for-unusual-service-installations/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-unusual-service-installations/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-for-unusual-service-installations/SKILL.md",
+      "bytes": 2708,
+      "sha256": "489e8635577d16cea4927ba064fa462c7a158c8743813d24602995845e2ca6c2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-unusual-service-installations/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-for-unusual-service-installations/references/api-reference.md",
+      "bytes": 2639,
+      "sha256": "72894df432c2b0e85bbfd552cbd8c5ae2176ffaab8e10893324aa1ebbcd13b2f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-unusual-service-installations/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-for-unusual-service-installations/scripts/agent.py",
+      "bytes": 7779,
+      "sha256": "62f273311542a8798beb98a6e35a2060c997c429fd7f1d99ff78d43605400384",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-unusual-service-installations/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "edab70eeeb8417d450392428a4586ba3a8a749ace771cec973335b70aed57f0c"
+}

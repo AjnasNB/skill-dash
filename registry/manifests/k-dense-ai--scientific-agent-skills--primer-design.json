@@ -1,1 +1,176 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--primer-design","name":"primer-design","description":"Designs and audits PCR and RT-qPCR primers with Primer3, explicit thermodynamic conditions, reference-based off-target amplification searches, and traceable sequence coordinates. Use for designing primer pairs, checking existing primers, exon-junction or isoform-specific assays, variant masking, cloning tails, multiplex compatibility, and interpreting Primer-BLAST results. Includes bounded local in-silico PCR and BLAST screening; distinguishes computational candidates from experimentally validated assays.","category":"Design","tags":["primer","design","designs","audits","pcr","rt","qpcr","primers","primer3","explicit","thermodynamic","conditions","reference","based","off","target","amplification","searches"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/primer-design","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":16,"bytes":127106,"sha256":"ea8bed0aa340a5f6538c206bb3d9fe503da6759e68a944a2bce564fa115d25e4","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/primer-design/SKILL.md","bytes":16361,"sha256":"ea8bed0aa340a5f6538c206bb3d9fe503da6759e68a944a2bce564fa115d25e4","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/SKILL.md"},{"path":"assets/assay-report-template.md","sourcePath":"skills/primer-design/assets/assay-report-template.md","bytes":2440,"sha256":"62f3a9a292b7c176425a4a4c4ee10b45acd7bc1217bea33d6fd492f0cbd7bf1b","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/assets/assay-report-template.md"},{"path":"assets/demo-template.fasta","sourcePath":"skills/primer-design/assets/demo-template.fasta","bytes":577,"sha256":"a0d8982da90dba6608b40c10d48b4380eae5d815c36583a546b3eeef01dfd40c","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/assets/demo-template.fasta"},{"path":"assets/qpcr-config.json","sourcePath":"skills/primer-design/assets/qpcr-config.json","bytes":233,"sha256":"eba6ae9ab645501a429aaa2178d31bb81f6b0890061a6bcc3ea684f6d71bfe0e","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/assets/qpcr-config.json"},{"path":"assets/requirements.txt","sourcePath":"skills/primer-design/assets/requirements.txt","bytes":18,"sha256":"869df4503af0601aab43e7c177486df03b249da308934ed4ccc656b611824bdf","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/assets/requirements.txt"},{"path":"references/design-workflows.md","sourcePath":"skills/primer-design/references/design-workflows.md","bytes":10570,"sha256":"75057ee4eed7866f530ed342ae2fd8bdc8cf103447e8f618774d8d3ca22b27ba","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/references/design-workflows.md"},{"path":"references/input-contract.md","sourcePath":"skills/primer-design/references/input-contract.md","bytes":11910,"sha256":"de977bfb771a5fe8e56739cbdb86ba63d043d2bcd37cb9d96c64a43aa0dbaa5f","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/references/input-contract.md"},{"path":"references/sources.md","sourcePath":"skills/primer-design/references/sources.md","bytes":4552,"sha256":"4f4eb4d76141732e447c959b76d69f1c6f30ad5d6a77fd67a8467959c60a3268","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/references/sources.md"},{"path":"references/specificity.md","sourcePath":"skills/primer-design/references/specificity.md","bytes":10559,"sha256":"d081128b1764f40b4616a849701b3ece0f33bbd77e078f0fbeacdcd938139edc","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/references/specificity.md"},{"path":"references/thermodynamics.md","sourcePath":"skills/primer-design/references/thermodynamics.md","bytes":7172,"sha256":"6f11bb0a6bffee3e2ba1058fc260567590b542e6e2de0bf7ea5aed03095015c4","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/references/thermodynamics.md"},{"path":"scripts/_common.py","sourcePath":"skills/primer-design/scripts/_common.py","bytes":5626,"sha256":"35d1a9fa5f197e849ae65a69217fa2e337f715e2c6ae52d9fa1189e6a61e14eb","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/scripts/_common.py"},{"path":"scripts/_specificity.py","sourcePath":"skills/primer-design/scripts/_specificity.py","bytes":20595,"sha256":"bb3bba39018038b5c39ef21047cf7504aee01bbb96f3c178b3725638dac6d142","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/scripts/_specificity.py"},{"path":"scripts/check_thermodynamics.py","sourcePath":"skills/primer-design/scripts/check_thermodynamics.py","bytes":8742,"sha256":"901ffe9850638686828408018ba9984bd6d91aaf01f9c6dc978163d849925b49","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/scripts/check_thermodynamics.py"},{"path":"scripts/design_primers.py","sourcePath":"skills/primer-design/scripts/design_primers.py","bytes":15676,"sha256":"c09e7fe81f309d0ae2f3ce30721daf944fdfc976e23aa4ea98313a330f807c98","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/scripts/design_primers.py"},{"path":"scripts/screen_specificity.py","sourcePath":"skills/primer-design/scripts/screen_specificity.py","bytes":11007,"sha256":"3aff33dfd4d0cf6670005469ac29bec66de397b74a354dd092dccbc20900b85f","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/scripts/screen_specificity.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"dba218ca4f09fa1f7ac1e1579b42cb3a81ac71925f507dff3a53c3f1a32b313a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--primer-design",
+    "name": "primer-design",
+    "description": "Designs and audits PCR and RT-qPCR primers with Primer3, explicit thermodynamic conditions, reference-based off-target amplification searches, and traceable sequence coordinates. Use for designing primer pairs, checking existing primers, exon-junction or isoform-specific assays, variant masking, cloning tails, multiplex compatibility, and interpreting Primer-BLAST results. Includes bounded local in-silico PCR and BLAST screening; distinguishes computational candidates from experimentally validated assays.",
+    "category": "Design",
+    "tags": [
+      "primer",
+      "design",
+      "designs",
+      "audits",
+      "pcr",
+      "rt",
+      "qpcr",
+      "primers",
+      "primer3",
+      "explicit",
+      "thermodynamic",
+      "conditions",
+      "reference",
+      "based",
+      "off",
+      "target",
+      "amplification",
+      "searches"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/primer-design",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 16,
+    "bytes": 127106,
+    "sha256": "ea8bed0aa340a5f6538c206bb3d9fe503da6759e68a944a2bce564fa115d25e4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/primer-design/SKILL.md",
+      "bytes": 16361,
+      "sha256": "ea8bed0aa340a5f6538c206bb3d9fe503da6759e68a944a2bce564fa115d25e4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/SKILL.md"
+    },
+    {
+      "path": "assets/assay-report-template.md",
+      "sourcePath": "skills/primer-design/assets/assay-report-template.md",
+      "bytes": 2440,
+      "sha256": "62f3a9a292b7c176425a4a4c4ee10b45acd7bc1217bea33d6fd492f0cbd7bf1b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/assets/assay-report-template.md"
+    },
+    {
+      "path": "assets/demo-template.fasta",
+      "sourcePath": "skills/primer-design/assets/demo-template.fasta",
+      "bytes": 577,
+      "sha256": "a0d8982da90dba6608b40c10d48b4380eae5d815c36583a546b3eeef01dfd40c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/assets/demo-template.fasta"
+    },
+    {
+      "path": "assets/qpcr-config.json",
+      "sourcePath": "skills/primer-design/assets/qpcr-config.json",
+      "bytes": 233,
+      "sha256": "eba6ae9ab645501a429aaa2178d31bb81f6b0890061a6bcc3ea684f6d71bfe0e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/assets/qpcr-config.json"
+    },
+    {
+      "path": "assets/requirements.txt",
+      "sourcePath": "skills/primer-design/assets/requirements.txt",
+      "bytes": 18,
+      "sha256": "869df4503af0601aab43e7c177486df03b249da308934ed4ccc656b611824bdf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/assets/requirements.txt"
+    },
+    {
+      "path": "references/design-workflows.md",
+      "sourcePath": "skills/primer-design/references/design-workflows.md",
+      "bytes": 10570,
+      "sha256": "75057ee4eed7866f530ed342ae2fd8bdc8cf103447e8f618774d8d3ca22b27ba",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/references/design-workflows.md"
+    },
+    {
+      "path": "references/input-contract.md",
+      "sourcePath": "skills/primer-design/references/input-contract.md",
+      "bytes": 11910,
+      "sha256": "de977bfb771a5fe8e56739cbdb86ba63d043d2bcd37cb9d96c64a43aa0dbaa5f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/references/input-contract.md"
+    },
+    {
+      "path": "references/sources.md",
+      "sourcePath": "skills/primer-design/references/sources.md",
+      "bytes": 4552,
+      "sha256": "4f4eb4d76141732e447c959b76d69f1c6f30ad5d6a77fd67a8467959c60a3268",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/references/sources.md"
+    },
+    {
+      "path": "references/specificity.md",
+      "sourcePath": "skills/primer-design/references/specificity.md",
+      "bytes": 10559,
+      "sha256": "d081128b1764f40b4616a849701b3ece0f33bbd77e078f0fbeacdcd938139edc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/references/specificity.md"
+    },
+    {
+      "path": "references/thermodynamics.md",
+      "sourcePath": "skills/primer-design/references/thermodynamics.md",
+      "bytes": 7172,
+      "sha256": "6f11bb0a6bffee3e2ba1058fc260567590b542e6e2de0bf7ea5aed03095015c4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/references/thermodynamics.md"
+    },
+    {
+      "path": "scripts/_common.py",
+      "sourcePath": "skills/primer-design/scripts/_common.py",
+      "bytes": 5626,
+      "sha256": "35d1a9fa5f197e849ae65a69217fa2e337f715e2c6ae52d9fa1189e6a61e14eb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/scripts/_common.py"
+    },
+    {
+      "path": "scripts/_specificity.py",
+      "sourcePath": "skills/primer-design/scripts/_specificity.py",
+      "bytes": 20595,
+      "sha256": "bb3bba39018038b5c39ef21047cf7504aee01bbb96f3c178b3725638dac6d142",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/scripts/_specificity.py"
+    },
+    {
+      "path": "scripts/check_thermodynamics.py",
+      "sourcePath": "skills/primer-design/scripts/check_thermodynamics.py",
+      "bytes": 8742,
+      "sha256": "901ffe9850638686828408018ba9984bd6d91aaf01f9c6dc978163d849925b49",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/scripts/check_thermodynamics.py"
+    },
+    {
+      "path": "scripts/design_primers.py",
+      "sourcePath": "skills/primer-design/scripts/design_primers.py",
+      "bytes": 15676,
+      "sha256": "c09e7fe81f309d0ae2f3ce30721daf944fdfc976e23aa4ea98313a330f807c98",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/scripts/design_primers.py"
+    },
+    {
+      "path": "scripts/screen_specificity.py",
+      "sourcePath": "skills/primer-design/scripts/screen_specificity.py",
+      "bytes": 11007,
+      "sha256": "3aff33dfd4d0cf6670005469ac29bec66de397b74a354dd092dccbc20900b85f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/primer-design/scripts/screen_specificity.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "dba218ca4f09fa1f7ac1e1579b42cb3a81ac71925f507dff3a53c3f1a32b313a"
+}

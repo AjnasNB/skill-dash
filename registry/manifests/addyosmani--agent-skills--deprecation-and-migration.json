@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"addyosmani--agent-skills--deprecation-and-migration","name":"deprecation-and-migration","description":"Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when migrating a database schema in production, such as renaming or dropping a column without downtime (expand/contract). Use when deciding whether to maintain or sunset existing code.","category":"Development","tags":["deprecation","migration","manages","migration.","when","removing","old","systems","apis","features.","migrating","users","from","one","implementation","another.","database","schema"],"repo":"addyosmani/agent-skills","owner":"addyosmani","stars":105293,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1be8e34187e34647bb83adc3a1323b26ae6f6abe","path":"skills/deprecation-and-migration","sourceUrl":"https://github.com/addyosmani/agent-skills/tree/1be8e34187e34647bb83adc3a1323b26ae6f6abe/skills/deprecation-and-migration","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-10T08:28:48Z","fileCount":2,"bytes":13710,"sha256":"6a624f942e09c69863a4219b9bd5d56975026b67b0c70bc83385ffd2120b6142","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/deprecation-and-migration/SKILL.md","bytes":12642,"sha256":"6a624f942e09c69863a4219b9bd5d56975026b67b0c70bc83385ffd2120b6142","mode":420,"url":"https://raw.githubusercontent.com/addyosmani/agent-skills/1be8e34187e34647bb83adc3a1323b26ae6f6abe/skills/deprecation-and-migration/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1068,"sha256":"6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7","mode":420,"url":"https://raw.githubusercontent.com/addyosmani/agent-skills/1be8e34187e34647bb83adc3a1323b26ae6f6abe/LICENSE"}],"archiveSha256":"c80ce39c0f16c0bafa090f7d8b991795b72773e18dd61539da75d59a4ca7b85f"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "addyosmani--agent-skills--deprecation-and-migration",
+    "name": "deprecation-and-migration",
+    "description": "Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when migrating a database schema in production, such as renaming or dropping a column without downtime (expand/contract). Use when deciding whether to maintain or sunset existing code.",
+    "category": "Development",
+    "tags": [
+      "deprecation",
+      "migration",
+      "manages",
+      "migration.",
+      "when",
+      "removing",
+      "old",
+      "systems",
+      "apis",
+      "features.",
+      "migrating",
+      "users",
+      "from",
+      "one",
+      "implementation",
+      "another.",
+      "database",
+      "schema"
+    ],
+    "repo": "addyosmani/agent-skills",
+    "owner": "addyosmani",
+    "stars": 105293,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1be8e34187e34647bb83adc3a1323b26ae6f6abe",
+    "path": "skills/deprecation-and-migration",
+    "sourceUrl": "https://github.com/addyosmani/agent-skills/tree/1be8e34187e34647bb83adc3a1323b26ae6f6abe/skills/deprecation-and-migration",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-10T08:28:48Z",
+    "fileCount": 2,
+    "bytes": 13710,
+    "sha256": "6a624f942e09c69863a4219b9bd5d56975026b67b0c70bc83385ffd2120b6142",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/deprecation-and-migration/SKILL.md",
+      "bytes": 12642,
+      "sha256": "6a624f942e09c69863a4219b9bd5d56975026b67b0c70bc83385ffd2120b6142",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/addyosmani/agent-skills/1be8e34187e34647bb83adc3a1323b26ae6f6abe/skills/deprecation-and-migration/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1068,
+      "sha256": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/addyosmani/agent-skills/1be8e34187e34647bb83adc3a1323b26ae6f6abe/LICENSE"
+    }
+  ],
+  "archiveSha256": "c80ce39c0f16c0bafa090f7d8b991795b72773e18dd61539da75d59a4ca7b85f"
+}

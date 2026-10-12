@@ -1,1 +1,52 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--ios-redteam-pipeline","name":"ios-redteam-pipeline","description":"End-to-end iOS red-team pipeline","category":"Development","tags":["ios","redteam","pipeline","end","red","team"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/ios-redteam-pipeline","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ios-redteam-pipeline","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":17259,"sha256":"888e6709d84024a26bcc062f35693f4adbdce62a45768187ffe332fd0cc2c290","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/ios-redteam-pipeline/SKILL.md","bytes":16186,"sha256":"888e6709d84024a26bcc062f35693f4adbdce62a45768187ffe332fd0cc2c290","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ios-redteam-pipeline/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"a99d637a114f6c7b03eabdb7a3f503c41bf7f4477b481393c6101d018b9dd94f"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--ios-redteam-pipeline",
+    "name": "ios-redteam-pipeline",
+    "description": "End-to-end iOS red-team pipeline",
+    "category": "Development",
+    "tags": [
+      "ios",
+      "redteam",
+      "pipeline",
+      "end",
+      "red",
+      "team"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/ios-redteam-pipeline",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ios-redteam-pipeline",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 17259,
+    "sha256": "888e6709d84024a26bcc062f35693f4adbdce62a45768187ffe332fd0cc2c290",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/ios-redteam-pipeline/SKILL.md",
+      "bytes": 16186,
+      "sha256": "888e6709d84024a26bcc062f35693f4adbdce62a45768187ffe332fd0cc2c290",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ios-redteam-pipeline/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "a99d637a114f6c7b03eabdb7a3f503c41bf7f4477b481393c6101d018b9dd94f"
+}

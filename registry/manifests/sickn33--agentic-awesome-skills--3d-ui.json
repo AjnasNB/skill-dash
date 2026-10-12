@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--3d-ui","name":"3d-ui","description":"Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth.","category":"Design","tags":["3d","ui","web","app","implementation","guide","ui.","trigger","when","user","wants","actual","objects","perspective","effects","spatial","depth."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/design-it/3d-ui","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/3d-ui","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":9989,"sha256":"e6495f49a6e0224d7b89aceb11f628e8ff0f8735abb31a246781f92f39745b5f","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/design-it/3d-ui/SKILL.md","bytes":8916,"sha256":"e6495f49a6e0224d7b89aceb11f628e8ff0f8735abb31a246781f92f39745b5f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/3d-ui/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"210f59e6f0512a43329443abb0433131ad53f856a746708228bc829725125429"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--3d-ui",
+    "name": "3d-ui",
+    "description": "Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth.",
+    "category": "Design",
+    "tags": [
+      "3d",
+      "ui",
+      "web",
+      "app",
+      "implementation",
+      "guide",
+      "ui.",
+      "trigger",
+      "when",
+      "user",
+      "wants",
+      "actual",
+      "objects",
+      "perspective",
+      "effects",
+      "spatial",
+      "depth."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/design-it/3d-ui",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/3d-ui",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9989,
+    "sha256": "e6495f49a6e0224d7b89aceb11f628e8ff0f8735abb31a246781f92f39745b5f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/design-it/3d-ui/SKILL.md",
+      "bytes": 8916,
+      "sha256": "e6495f49a6e0224d7b89aceb11f628e8ff0f8735abb31a246781f92f39745b5f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/3d-ui/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "210f59e6f0512a43329443abb0433131ad53f856a746708228bc829725125429"
+}

@@ -1,1 +1,60 @@
-{"schemaVersion":1,"skill":{"id":"obra--superpowers--finishing-a-development-branch","name":"finishing-a-development-branch","description":"Use when implementation is complete, all tests pass, and you need to decide how to integrate the work","category":"Automation","tags":["finishing","development","branch","when","implementation","is","complete","all","tests","pass","you","decide","integrate","work"],"repo":"obra/superpowers","owner":"obra","stars":297960,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"bb92a77741419a4ab5f06e711a283343f1ada0c3","path":"skills/finishing-a-development-branch","sourceUrl":"https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/finishing-a-development-branch","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-10T00:28:04Z","fileCount":2,"bytes":8851,"sha256":"8db5a922b242dd4e1bf824cb91c13b3e8d8e8a86d6ceaf7f0774eb9cce909d65","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/finishing-a-development-branch/SKILL.md","bytes":7781,"sha256":"8db5a922b242dd4e1bf824cb91c13b3e8d8e8a86d6ceaf7f0774eb9cce909d65","mode":420,"url":"https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/finishing-a-development-branch/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1070,"sha256":"a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400","mode":420,"url":"https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/LICENSE"}],"archiveSha256":"f5e8b2f86f48482ef9f818ff8fd1cda2f5520d5451d0a1036e6094a65754e6f6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "obra--superpowers--finishing-a-development-branch",
+    "name": "finishing-a-development-branch",
+    "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
+    "category": "Automation",
+    "tags": [
+      "finishing",
+      "development",
+      "branch",
+      "when",
+      "implementation",
+      "is",
+      "complete",
+      "all",
+      "tests",
+      "pass",
+      "you",
+      "decide",
+      "integrate",
+      "work"
+    ],
+    "repo": "obra/superpowers",
+    "owner": "obra",
+    "stars": 297960,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "skills/finishing-a-development-branch",
+    "sourceUrl": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/finishing-a-development-branch",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-10T00:28:04Z",
+    "fileCount": 2,
+    "bytes": 8851,
+    "sha256": "8db5a922b242dd4e1bf824cb91c13b3e8d8e8a86d6ceaf7f0774eb9cce909d65",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/finishing-a-development-branch/SKILL.md",
+      "bytes": 7781,
+      "sha256": "8db5a922b242dd4e1bf824cb91c13b3e8d8e8a86d6ceaf7f0774eb9cce909d65",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/finishing-a-development-branch/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1070,
+      "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/LICENSE"
+    }
+  ],
+  "archiveSha256": "f5e8b2f86f48482ef9f818ff8fd1cda2f5520d5451d0a1036e6094a65754e6f6"
+}

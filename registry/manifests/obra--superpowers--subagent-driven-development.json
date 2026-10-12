@@ -1,1 +1,105 @@
-{"schemaVersion":1,"skill":{"id":"obra--superpowers--subagent-driven-development","name":"subagent-driven-development","description":"Use when executing implementation plans with independent tasks in the current session","category":"Development","tags":["subagent","driven","development","when","executing","implementation","plans","independent","tasks","current","session"],"repo":"obra/superpowers","owner":"obra","stars":297960,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"bb92a77741419a4ab5f06e711a283343f1ada0c3","path":"skills/subagent-driven-development","sourceUrl":"https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/subagent-driven-development","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-10T00:28:04Z","fileCount":8,"bytes":60809,"sha256":"8dde5589ee083fb4999106d116f01c8fdaf3116a8a9813fdedeb80329de49046","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/subagent-driven-development/SKILL.md","bytes":32577,"sha256":"8dde5589ee083fb4999106d116f01c8fdaf3116a8a9813fdedeb80329de49046","mode":420,"url":"https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/subagent-driven-development/SKILL.md"},{"path":"implementer-prompt.md","sourcePath":"skills/subagent-driven-development/implementer-prompt.md","bytes":6335,"sha256":"81dd9d5a3fb0b09b96b5829f03b9796842f3199ef7591d1ba1c2db2a515f64d0","mode":420,"url":"https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/subagent-driven-development/implementer-prompt.md"},{"path":"re-review-prompt.md","sourcePath":"skills/subagent-driven-development/re-review-prompt.md","bytes":4761,"sha256":"0828a5e9cbb12ba49f14621dd8c3953c48c0fc383e75bb5494f055ed0d6d824f","mode":420,"url":"https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/subagent-driven-development/re-review-prompt.md"},{"path":"scripts/review-package","sourcePath":"skills/subagent-driven-development/scripts/review-package","bytes":2029,"sha256":"f9275175b2276b1d5fdb1bae0bedaadd2a950659b7c6f311ea37ff85e1861b1f","mode":493,"url":"https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/subagent-driven-development/scripts/review-package"},{"path":"scripts/sdd-workspace","sourcePath":"skills/subagent-driven-development/scripts/sdd-workspace","bytes":3684,"sha256":"4fd9770e7a49b6bde488c0e92bac1b3bd01fcbdaf8f06b6c4efbe3a1abd99f86","mode":493,"url":"https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/subagent-driven-development/scripts/sdd-workspace"},{"path":"scripts/task-brief","sourcePath":"skills/subagent-driven-development/scripts/task-brief","bytes":1322,"sha256":"cc563538e09abf719b34ddf4b2fa7a65cf3b301729039dbfa923cb060f729146","mode":493,"url":"https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/subagent-driven-development/scripts/task-brief"},{"path":"task-reviewer-prompt.md","sourcePath":"skills/subagent-driven-development/task-reviewer-prompt.md","bytes":9031,"sha256":"bfed55c8f19d0ff6ed57b0fe09127c92890e9311c6c73917129598826bf9ebe8","mode":420,"url":"https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/subagent-driven-development/task-reviewer-prompt.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1070,"sha256":"a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400","mode":420,"url":"https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/LICENSE"}],"archiveSha256":"84e22535995c9e6c8eee086f3118b583d548cd98f7a74edc25630e6d6ca18747"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "obra--superpowers--subagent-driven-development",
+    "name": "subagent-driven-development",
+    "description": "Use when executing implementation plans with independent tasks in the current session",
+    "category": "Development",
+    "tags": [
+      "subagent",
+      "driven",
+      "development",
+      "when",
+      "executing",
+      "implementation",
+      "plans",
+      "independent",
+      "tasks",
+      "current",
+      "session"
+    ],
+    "repo": "obra/superpowers",
+    "owner": "obra",
+    "stars": 297960,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "skills/subagent-driven-development",
+    "sourceUrl": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/subagent-driven-development",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-10T00:28:04Z",
+    "fileCount": 8,
+    "bytes": 60809,
+    "sha256": "8dde5589ee083fb4999106d116f01c8fdaf3116a8a9813fdedeb80329de49046",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/subagent-driven-development/SKILL.md",
+      "bytes": 32577,
+      "sha256": "8dde5589ee083fb4999106d116f01c8fdaf3116a8a9813fdedeb80329de49046",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/subagent-driven-development/SKILL.md"
+    },
+    {
+      "path": "implementer-prompt.md",
+      "sourcePath": "skills/subagent-driven-development/implementer-prompt.md",
+      "bytes": 6335,
+      "sha256": "81dd9d5a3fb0b09b96b5829f03b9796842f3199ef7591d1ba1c2db2a515f64d0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/subagent-driven-development/implementer-prompt.md"
+    },
+    {
+      "path": "re-review-prompt.md",
+      "sourcePath": "skills/subagent-driven-development/re-review-prompt.md",
+      "bytes": 4761,
+      "sha256": "0828a5e9cbb12ba49f14621dd8c3953c48c0fc383e75bb5494f055ed0d6d824f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/subagent-driven-development/re-review-prompt.md"
+    },
+    {
+      "path": "scripts/review-package",
+      "sourcePath": "skills/subagent-driven-development/scripts/review-package",
+      "bytes": 2029,
+      "sha256": "f9275175b2276b1d5fdb1bae0bedaadd2a950659b7c6f311ea37ff85e1861b1f",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/subagent-driven-development/scripts/review-package"
+    },
+    {
+      "path": "scripts/sdd-workspace",
+      "sourcePath": "skills/subagent-driven-development/scripts/sdd-workspace",
+      "bytes": 3684,
+      "sha256": "4fd9770e7a49b6bde488c0e92bac1b3bd01fcbdaf8f06b6c4efbe3a1abd99f86",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/subagent-driven-development/scripts/sdd-workspace"
+    },
+    {
+      "path": "scripts/task-brief",
+      "sourcePath": "skills/subagent-driven-development/scripts/task-brief",
+      "bytes": 1322,
+      "sha256": "cc563538e09abf719b34ddf4b2fa7a65cf3b301729039dbfa923cb060f729146",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/subagent-driven-development/scripts/task-brief"
+    },
+    {
+      "path": "task-reviewer-prompt.md",
+      "sourcePath": "skills/subagent-driven-development/task-reviewer-prompt.md",
+      "bytes": 9031,
+      "sha256": "bfed55c8f19d0ff6ed57b0fe09127c92890e9311c6c73917129598826bf9ebe8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/subagent-driven-development/task-reviewer-prompt.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1070,
+      "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/LICENSE"
+    }
+  ],
+  "archiveSha256": "84e22535995c9e6c8eee086f3118b583d548cd98f7a74edc25630e6d6ca18747"
+}

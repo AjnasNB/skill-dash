@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--qdrant-horizontal-scaling","name":"qdrant-horizontal-scaling","description":"Diagnoses and guides Qdrant horizontal scaling decisions. Use when someone asks 'vertical or horizontal?', 'how many nodes?', 'how many shards?', 'how to add nodes', 'resharding', 'data doesn't fit', or 'need more capacity'. Also use when data growth outpaces current deployment.","category":"Marketing","tags":["qdrant","horizontal","scaling","diagnoses","guides","decisions.","when","someone","asks","vertical","many","nodes","shards","add","resharding","data","doesn","fit"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/qdrant-scaling/scaling-data-volume/horizontal-scaling","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/qdrant-scaling/scaling-data-volume/horizontal-scaling","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":4054,"sha256":"e768679bda54dd9f333a9b1861bfc239922d5c07725418b72df69dcd0fe020c4","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/qdrant-scaling/scaling-data-volume/horizontal-scaling/SKILL.md","bytes":2995,"sha256":"e768679bda54dd9f333a9b1861bfc239922d5c07725418b72df69dcd0fe020c4","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/qdrant-scaling/scaling-data-volume/horizontal-scaling/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"bfbf75d8d0eba5c28ecdfc5c81d831550f822dc1505f41939231aeac23acd640"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--qdrant-horizontal-scaling",
+    "name": "qdrant-horizontal-scaling",
+    "description": "Diagnoses and guides Qdrant horizontal scaling decisions. Use when someone asks 'vertical or horizontal?', 'how many nodes?', 'how many shards?', 'how to add nodes', 'resharding', 'data doesn't fit', or 'need more capacity'. Also use when data growth outpaces current deployment.",
+    "category": "Marketing",
+    "tags": [
+      "qdrant",
+      "horizontal",
+      "scaling",
+      "diagnoses",
+      "guides",
+      "decisions.",
+      "when",
+      "someone",
+      "asks",
+      "vertical",
+      "many",
+      "nodes",
+      "shards",
+      "add",
+      "resharding",
+      "data",
+      "doesn",
+      "fit"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/qdrant-scaling/scaling-data-volume/horizontal-scaling",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/qdrant-scaling/scaling-data-volume/horizontal-scaling",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 4054,
+    "sha256": "e768679bda54dd9f333a9b1861bfc239922d5c07725418b72df69dcd0fe020c4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/qdrant-scaling/scaling-data-volume/horizontal-scaling/SKILL.md",
+      "bytes": 2995,
+      "sha256": "e768679bda54dd9f333a9b1861bfc239922d5c07725418b72df69dcd0fe020c4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/qdrant-scaling/scaling-data-volume/horizontal-scaling/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "bfbf75d8d0eba5c28ecdfc5c81d831550f822dc1505f41939231aeac23acd640"
+}

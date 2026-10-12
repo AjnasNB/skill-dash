@@ -1,1 +1,60 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--avoid-ai-writing","name":"avoid-ai-writing","description":"Audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replacement table","category":"Writing","tags":["avoid","ai","writing","audit","rewrite","content","remove","21","categories","patterns","43","entry","replacement","table"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/avoid-ai-writing","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/avoid-ai-writing","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":3826,"sha256":"33e0d1c7cb330f0ddc218a7fe1c17f603e9ba4e22d3321295da3fa88cb7a3c82","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/avoid-ai-writing/SKILL.md","bytes":2753,"sha256":"33e0d1c7cb330f0ddc218a7fe1c17f603e9ba4e22d3321295da3fa88cb7a3c82","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/avoid-ai-writing/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"53c4dfe0f649736e089f8fd1c8b59a4321ae1f24507d49032c561df8bb2e67f0"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--avoid-ai-writing",
+    "name": "avoid-ai-writing",
+    "description": "Audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replacement table",
+    "category": "Writing",
+    "tags": [
+      "avoid",
+      "ai",
+      "writing",
+      "audit",
+      "rewrite",
+      "content",
+      "remove",
+      "21",
+      "categories",
+      "patterns",
+      "43",
+      "entry",
+      "replacement",
+      "table"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/avoid-ai-writing",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/avoid-ai-writing",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 3826,
+    "sha256": "33e0d1c7cb330f0ddc218a7fe1c17f603e9ba4e22d3321295da3fa88cb7a3c82",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/avoid-ai-writing/SKILL.md",
+      "bytes": 2753,
+      "sha256": "33e0d1c7cb330f0ddc218a7fe1c17f603e9ba4e22d3321295da3fa88cb7a3c82",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/avoid-ai-writing/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "53c4dfe0f649736e089f8fd1c8b59a4321ae1f24507d49032c561df8bb2e67f0"
+}

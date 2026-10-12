@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-aws-security-hub","name":"implementing-aws-security-hub","description":"Deploy AWS Security Hub as a centralized CSPM platform, backed by AWS Config, aggregating findings from GuardDuty, Inspector, Macie, and third-party tools; enable CIS Foundations, PCI-DSS, and NIST standards; automate remediation via EventBridge/Systems Manager; and produce Audit Manager evidence. Use for a centralized findings dashboard or compliance audit evidence; not for threat detection or container scanning.","category":"Security","tags":["implementing","aws","security","hub","deploy","as","centralized","cspm","platform","backed","by","config","aggregating","findings","from","guardduty","inspector","macie"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-aws-security-hub/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-aws-security-hub","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-security-hub","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":30431,"sha256":"f75ddb090d268df76b96a09ee576a8c9724428f4ec5aa218968c1e566227d244","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-aws-security-hub/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-security-hub/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-aws-security-hub/SKILL.md","bytes":9889,"sha256":"f75ddb090d268df76b96a09ee576a8c9724428f4ec5aa218968c1e566227d244","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-security-hub/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-aws-security-hub/references/api-reference.md","bytes":2354,"sha256":"052c1e1313becf41e6193218ab5aee5768277b47f59dfed335b663eee9aee8f8","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-security-hub/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-aws-security-hub/scripts/agent.py","bytes":6933,"sha256":"b21de532f26b4779714f62fac62e7811b28cfa8e0da47ca19df1b08a2cdf4f0f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-security-hub/scripts/agent.py"}],"archiveSha256":"4a1e424e531e9dc432deb500291eff87f3951863b4074a66bda1044c1671d2e8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-aws-security-hub",
+    "name": "implementing-aws-security-hub",
+    "description": "Deploy AWS Security Hub as a centralized CSPM platform, backed by AWS Config, aggregating findings from GuardDuty, Inspector, Macie, and third-party tools; enable CIS Foundations, PCI-DSS, and NIST standards; automate remediation via EventBridge/Systems Manager; and produce Audit Manager evidence. Use for a centralized findings dashboard or compliance audit evidence; not for threat detection or container scanning.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "aws",
+      "security",
+      "hub",
+      "deploy",
+      "as",
+      "centralized",
+      "cspm",
+      "platform",
+      "backed",
+      "by",
+      "config",
+      "aggregating",
+      "findings",
+      "from",
+      "guardduty",
+      "inspector",
+      "macie"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-aws-security-hub/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-aws-security-hub",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-security-hub",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 30431,
+    "sha256": "f75ddb090d268df76b96a09ee576a8c9724428f4ec5aa218968c1e566227d244",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-aws-security-hub/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-security-hub/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-aws-security-hub/SKILL.md",
+      "bytes": 9889,
+      "sha256": "f75ddb090d268df76b96a09ee576a8c9724428f4ec5aa218968c1e566227d244",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-security-hub/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-aws-security-hub/references/api-reference.md",
+      "bytes": 2354,
+      "sha256": "052c1e1313becf41e6193218ab5aee5768277b47f59dfed335b663eee9aee8f8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-security-hub/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-aws-security-hub/scripts/agent.py",
+      "bytes": 6933,
+      "sha256": "b21de532f26b4779714f62fac62e7811b28cfa8e0da47ca19df1b08a2cdf4f0f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aws-security-hub/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "4a1e424e531e9dc432deb500291eff87f3951863b4074a66bda1044c1671d2e8"
+}

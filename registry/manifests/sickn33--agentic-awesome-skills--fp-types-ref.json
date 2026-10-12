@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--fp-types-ref","name":"fp-types-ref","description":"Quick reference for fp-ts types. Use when user asks which type to use, needs Option/Either/Task decision help, or wants fp-ts imports.","category":"Development","tags":["fp","types","ref","quick","reference","ts","types.","when","user","asks","which","type","needs","option","either","task","decision","wants"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/fp-types-ref","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fp-types-ref","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":3462,"sha256":"c4c7b8ed7acb200f1861b25ed45e9e77a8270070c450ef7c5c7ec28ad5f59de6","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/fp-types-ref/SKILL.md","bytes":2389,"sha256":"c4c7b8ed7acb200f1861b25ed45e9e77a8270070c450ef7c5c7ec28ad5f59de6","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fp-types-ref/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"4fe5e19b204f8c588f253e4bbe6a14fb76667e28b7991ec07fc00419849e5093"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--fp-types-ref",
+    "name": "fp-types-ref",
+    "description": "Quick reference for fp-ts types. Use when user asks which type to use, needs Option/Either/Task decision help, or wants fp-ts imports.",
+    "category": "Development",
+    "tags": [
+      "fp",
+      "types",
+      "ref",
+      "quick",
+      "reference",
+      "ts",
+      "types.",
+      "when",
+      "user",
+      "asks",
+      "which",
+      "type",
+      "needs",
+      "option",
+      "either",
+      "task",
+      "decision",
+      "wants"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/fp-types-ref",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fp-types-ref",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 3462,
+    "sha256": "c4c7b8ed7acb200f1861b25ed45e9e77a8270070c450ef7c5c7ec28ad5f59de6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/fp-types-ref/SKILL.md",
+      "bytes": 2389,
+      "sha256": "c4c7b8ed7acb200f1861b25ed45e9e77a8270070c450ef7c5c7ec28ad5f59de6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fp-types-ref/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "4fe5e19b204f8c588f253e4bbe6a14fb76667e28b7991ec07fc00419849e5093"
+}

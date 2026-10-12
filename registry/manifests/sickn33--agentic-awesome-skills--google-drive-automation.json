@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--google-drive-automation","name":"google-drive-automation","description":"Lightweight Google Drive integration with standalone OAuth authentication. No MCP server required. Full read/write access.","category":"AI & agents","tags":["google","drive","automation","lightweight","integration","standalone","oauth","authentication.","no","mcp","server","required.","full","read","write","access."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/google-drive-automation","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/google-drive-automation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5449,"sha256":"4568e5755b405100f32b6d28e4c138e76dcbbd6a1b5b1416b6d569466cc208e0","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/google-drive-automation/SKILL.md","bytes":4376,"sha256":"4568e5755b405100f32b6d28e4c138e76dcbbd6a1b5b1416b6d569466cc208e0","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/google-drive-automation/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"00434bc82520d7f5cc7d6225dfb809aca1d54382474de8eec4f5968dd824512d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--google-drive-automation",
+    "name": "google-drive-automation",
+    "description": "Lightweight Google Drive integration with standalone OAuth authentication. No MCP server required. Full read/write access.",
+    "category": "AI & agents",
+    "tags": [
+      "google",
+      "drive",
+      "automation",
+      "lightweight",
+      "integration",
+      "standalone",
+      "oauth",
+      "authentication.",
+      "no",
+      "mcp",
+      "server",
+      "required.",
+      "full",
+      "read",
+      "write",
+      "access."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/google-drive-automation",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/google-drive-automation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5449,
+    "sha256": "4568e5755b405100f32b6d28e4c138e76dcbbd6a1b5b1416b6d569466cc208e0",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/google-drive-automation/SKILL.md",
+      "bytes": 4376,
+      "sha256": "4568e5755b405100f32b6d28e4c138e76dcbbd6a1b5b1416b6d569466cc208e0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/google-drive-automation/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "00434bc82520d7f5cc7d6225dfb809aca1d54382474de8eec4f5968dd824512d"
+}

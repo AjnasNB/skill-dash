@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-syslog-centralization-with-rsyslog","name":"implementing-syslog-centralization-with-rsyslog","description":"Configure rsyslog for centralized log collection with TLS encryption, custom templates, and log rotation, generating server and client configuration files with GnuTLS stream drivers, x509 certificate authentication, per-host log segregation, and reliable queue settings. Use when building a centralized, encrypted syslog pipeline, hardening rsyslog client/server configs for high-availability log infrastructure, or troubleshooting TLS-based syslog forwarding.","category":"Cloud & DevOps","tags":["implementing","syslog","centralization","rsyslog","configure","centralized","log","collection","tls","encryption","custom","templates","rotation","generating","server","client","configuration","files"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-syslog-centralization-with-rsyslog/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-syslog-centralization-with-rsyslog","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-syslog-centralization-with-rsyslog","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":24945,"sha256":"4e55bb7102d3d3fbb2f5d13501c32fded312c1d7a541c55b6e45e6dcf069b316","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-syslog-centralization-with-rsyslog/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-syslog-centralization-with-rsyslog/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-syslog-centralization-with-rsyslog/SKILL.md","bytes":2775,"sha256":"4e55bb7102d3d3fbb2f5d13501c32fded312c1d7a541c55b6e45e6dcf069b316","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-syslog-centralization-with-rsyslog/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-syslog-centralization-with-rsyslog/references/api-reference.md","bytes":1897,"sha256":"ea6d29e0687d973cbd1c9841e64992be8f2ff8ded0c3b4508459300918527e63","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-syslog-centralization-with-rsyslog/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-syslog-centralization-with-rsyslog/scripts/agent.py","bytes":9018,"sha256":"ce34242ef01e535735117cfb176436eefba3b4ee9c28d278a8c303ba3ce7bc48","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-syslog-centralization-with-rsyslog/scripts/agent.py"}],"archiveSha256":"6173cf0967885d2e10ceac943a0ef638544b4c524c171f3e386e5381d10a1dd0"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-syslog-centralization-with-rsyslog",
+    "name": "implementing-syslog-centralization-with-rsyslog",
+    "description": "Configure rsyslog for centralized log collection with TLS encryption, custom templates, and log rotation, generating server and client configuration files with GnuTLS stream drivers, x509 certificate authentication, per-host log segregation, and reliable queue settings. Use when building a centralized, encrypted syslog pipeline, hardening rsyslog client/server configs for high-availability log infrastructure, or troubleshooting TLS-based syslog forwarding.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "implementing",
+      "syslog",
+      "centralization",
+      "rsyslog",
+      "configure",
+      "centralized",
+      "log",
+      "collection",
+      "tls",
+      "encryption",
+      "custom",
+      "templates",
+      "rotation",
+      "generating",
+      "server",
+      "client",
+      "configuration",
+      "files"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-syslog-centralization-with-rsyslog/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-syslog-centralization-with-rsyslog",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-syslog-centralization-with-rsyslog",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 24945,
+    "sha256": "4e55bb7102d3d3fbb2f5d13501c32fded312c1d7a541c55b6e45e6dcf069b316",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-syslog-centralization-with-rsyslog/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-syslog-centralization-with-rsyslog/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-syslog-centralization-with-rsyslog/SKILL.md",
+      "bytes": 2775,
+      "sha256": "4e55bb7102d3d3fbb2f5d13501c32fded312c1d7a541c55b6e45e6dcf069b316",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-syslog-centralization-with-rsyslog/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-syslog-centralization-with-rsyslog/references/api-reference.md",
+      "bytes": 1897,
+      "sha256": "ea6d29e0687d973cbd1c9841e64992be8f2ff8ded0c3b4508459300918527e63",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-syslog-centralization-with-rsyslog/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-syslog-centralization-with-rsyslog/scripts/agent.py",
+      "bytes": 9018,
+      "sha256": "ce34242ef01e535735117cfb176436eefba3b4ee9c28d278a8c303ba3ce7bc48",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-syslog-centralization-with-rsyslog/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "6173cf0967885d2e10ceac943a0ef638544b4c524c171f3e386e5381d10a1dd0"
+}

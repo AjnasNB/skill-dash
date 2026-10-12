@@ -1,1 +1,120 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--histolab","name":"histolab","description":"Extracts and preprocesses whole-slide histology image tiles with Histolab. Use for WSI inspection, tissue masks, random/grid/score-based tile extraction, H&E stain normalization, and tile dataset preparation. For multiplexed imaging or deep learning inference pipelines, use pathml.","category":"Data & research","tags":["histolab","extracts","preprocesses","whole","slide","histology","image","tiles","histolab.","wsi","inspection","tissue","masks","random","grid","score","based","tile"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/histolab","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/histolab","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":9,"bytes":50376,"sha256":"af0c6c98951d02cab64e904504a8ab97b815a461e99744134da0e7dd57189331","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/histolab/SKILL.md","bytes":8788,"sha256":"af0c6c98951d02cab64e904504a8ab97b815a461e99744134da0e7dd57189331","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/histolab/SKILL.md"},{"path":"references/core_capabilities.md","sourcePath":"skills/histolab/references/core_capabilities.md","bytes":1824,"sha256":"4fe619353f18b777bdf06802c47d6dfcd986dc0c2c9897110b343e77b378b61c","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/histolab/references/core_capabilities.md"},{"path":"references/filters_preprocessing.md","sourcePath":"skills/histolab/references/filters_preprocessing.md","bytes":7632,"sha256":"69a8a29ad4a3a7f7cef339829d2537128a01bc8b0d38a7e86bed17de067a78c0","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/histolab/references/filters_preprocessing.md"},{"path":"references/slide_management.md","sourcePath":"skills/histolab/references/slide_management.md","bytes":6169,"sha256":"ca00855c4d5f07ea4800d846c2f0e7479b8500e8e6e355c81e527ac5e736ed9b","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/histolab/references/slide_management.md"},{"path":"references/tile_extraction.md","sourcePath":"skills/histolab/references/tile_extraction.md","bytes":7726,"sha256":"2ccc97eb7e41aa5c2cf2f3c2e6de37b82279bc653df707d411fc4569159df656","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/histolab/references/tile_extraction.md"},{"path":"references/tissue_masks.md","sourcePath":"skills/histolab/references/tissue_masks.md","bytes":5815,"sha256":"86e6ae5bc9b0016da8d67cd09dfc03e0ef73de28da103976aca586494ad4081b","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/histolab/references/tissue_masks.md"},{"path":"references/typical_workflows.md","sourcePath":"skills/histolab/references/typical_workflows.md","bytes":4756,"sha256":"2cea51e844087bc215aa5c78de6317d19425ca8265cdd5929416a0c01f0f4660","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/histolab/references/typical_workflows.md"},{"path":"references/visualization.md","sourcePath":"skills/histolab/references/visualization.md","bytes":6598,"sha256":"b5d07ffb9e88ab2d78536072800653da8f1167bf11afe6dc5bacec074e7168bc","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/histolab/references/visualization.md"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"7e80621b26a7816bc7cf7013e40b41b422123af610f31600919bce4325326156"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--histolab",
+    "name": "histolab",
+    "description": "Extracts and preprocesses whole-slide histology image tiles with Histolab. Use for WSI inspection, tissue masks, random/grid/score-based tile extraction, H&E stain normalization, and tile dataset preparation. For multiplexed imaging or deep learning inference pipelines, use pathml.",
+    "category": "Data & research",
+    "tags": [
+      "histolab",
+      "extracts",
+      "preprocesses",
+      "whole",
+      "slide",
+      "histology",
+      "image",
+      "tiles",
+      "histolab.",
+      "wsi",
+      "inspection",
+      "tissue",
+      "masks",
+      "random",
+      "grid",
+      "score",
+      "based",
+      "tile"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/histolab",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/histolab",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 9,
+    "bytes": 50376,
+    "sha256": "af0c6c98951d02cab64e904504a8ab97b815a461e99744134da0e7dd57189331",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/histolab/SKILL.md",
+      "bytes": 8788,
+      "sha256": "af0c6c98951d02cab64e904504a8ab97b815a461e99744134da0e7dd57189331",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/histolab/SKILL.md"
+    },
+    {
+      "path": "references/core_capabilities.md",
+      "sourcePath": "skills/histolab/references/core_capabilities.md",
+      "bytes": 1824,
+      "sha256": "4fe619353f18b777bdf06802c47d6dfcd986dc0c2c9897110b343e77b378b61c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/histolab/references/core_capabilities.md"
+    },
+    {
+      "path": "references/filters_preprocessing.md",
+      "sourcePath": "skills/histolab/references/filters_preprocessing.md",
+      "bytes": 7632,
+      "sha256": "69a8a29ad4a3a7f7cef339829d2537128a01bc8b0d38a7e86bed17de067a78c0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/histolab/references/filters_preprocessing.md"
+    },
+    {
+      "path": "references/slide_management.md",
+      "sourcePath": "skills/histolab/references/slide_management.md",
+      "bytes": 6169,
+      "sha256": "ca00855c4d5f07ea4800d846c2f0e7479b8500e8e6e355c81e527ac5e736ed9b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/histolab/references/slide_management.md"
+    },
+    {
+      "path": "references/tile_extraction.md",
+      "sourcePath": "skills/histolab/references/tile_extraction.md",
+      "bytes": 7726,
+      "sha256": "2ccc97eb7e41aa5c2cf2f3c2e6de37b82279bc653df707d411fc4569159df656",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/histolab/references/tile_extraction.md"
+    },
+    {
+      "path": "references/tissue_masks.md",
+      "sourcePath": "skills/histolab/references/tissue_masks.md",
+      "bytes": 5815,
+      "sha256": "86e6ae5bc9b0016da8d67cd09dfc03e0ef73de28da103976aca586494ad4081b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/histolab/references/tissue_masks.md"
+    },
+    {
+      "path": "references/typical_workflows.md",
+      "sourcePath": "skills/histolab/references/typical_workflows.md",
+      "bytes": 4756,
+      "sha256": "2cea51e844087bc215aa5c78de6317d19425ca8265cdd5929416a0c01f0f4660",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/histolab/references/typical_workflows.md"
+    },
+    {
+      "path": "references/visualization.md",
+      "sourcePath": "skills/histolab/references/visualization.md",
+      "bytes": 6598,
+      "sha256": "b5d07ffb9e88ab2d78536072800653da8f1167bf11afe6dc5bacec074e7168bc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/histolab/references/visualization.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "7e80621b26a7816bc7cf7013e40b41b422123af610f31600919bce4325326156"
+}

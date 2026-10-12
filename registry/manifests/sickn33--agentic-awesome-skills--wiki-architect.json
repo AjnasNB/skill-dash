@@ -1,1 +1,58 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--wiki-architect","name":"wiki-architect","description":"You are a documentation architect that produces structured wiki catalogues and onboarding guides from codebases.","category":"Writing","tags":["wiki","architect","you","are","documentation","produces","structured","catalogues","onboarding","guides","from","codebases."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/wiki-architect","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wiki-architect","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":3990,"sha256":"6f10420d435303d39ffb55b09eae2b84347d9abfd3ae5cd155ed8ab5f6dcb51a","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/wiki-architect/SKILL.md","bytes":2917,"sha256":"6f10420d435303d39ffb55b09eae2b84347d9abfd3ae5cd155ed8ab5f6dcb51a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wiki-architect/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"5b5a939d3ed3866cbb0298616863ed83d5d81257ee48843328a38b7ed6cfb49c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--wiki-architect",
+    "name": "wiki-architect",
+    "description": "You are a documentation architect that produces structured wiki catalogues and onboarding guides from codebases.",
+    "category": "Writing",
+    "tags": [
+      "wiki",
+      "architect",
+      "you",
+      "are",
+      "documentation",
+      "produces",
+      "structured",
+      "catalogues",
+      "onboarding",
+      "guides",
+      "from",
+      "codebases."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/wiki-architect",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wiki-architect",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 3990,
+    "sha256": "6f10420d435303d39ffb55b09eae2b84347d9abfd3ae5cd155ed8ab5f6dcb51a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/wiki-architect/SKILL.md",
+      "bytes": 2917,
+      "sha256": "6f10420d435303d39ffb55b09eae2b84347d9abfd3ae5cd155ed8ab5f6dcb51a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wiki-architect/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "5b5a939d3ed3866cbb0298616863ed83d5d81257ee48843328a38b7ed6cfb49c"
+}

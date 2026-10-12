@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-container-image-hardening","name":"performing-container-image-hardening","description":"Harden container images by minimizing attack surface, stripping unnecessary packages, implementing multi-stage builds, configuring non-root users, and applying CIS Docker Benchmark recommendations to produce secure, production-ready images. Use when building production container images, when compliance requires CIS Docker Benchmark adherence, or when shrinking image size to reduce vulnerability exposure from unused packages.","category":"Security","tags":["performing","container","image","hardening","harden","images","by","minimizing","attack","surface","stripping","unnecessary","packages","implementing","multi","stage","builds","configuring"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-container-image-hardening/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-container-image-hardening","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-image-hardening","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":47888,"sha256":"8e54b13b8cc1f0ef8bfc2c51c335cf1cd3dea49ca1aac28851157844ee2ea6f7","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-container-image-hardening/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-image-hardening/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-container-image-hardening/SKILL.md","bytes":8531,"sha256":"8e54b13b8cc1f0ef8bfc2c51c335cf1cd3dea49ca1aac28851157844ee2ea6f7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-image-hardening/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/performing-container-image-hardening/assets/template.md","bytes":1391,"sha256":"a8b31197fa86d0ede9d79454c4aa9257dc3a1e71e313979827f86292932b07eb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-image-hardening/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-container-image-hardening/references/api-reference.md","bytes":5250,"sha256":"28ed9938d7cf9b7508f89dc3692782751a8bd225aa5abd543d1a2c7b5eb90e6b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-image-hardening/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/performing-container-image-hardening/references/standards.md","bytes":953,"sha256":"130ef483951b7c09d6ca71341a9b0221797287fce6481dda30b59c67d2618097","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-image-hardening/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/performing-container-image-hardening/references/workflows.md","bytes":1827,"sha256":"51a9ae503cd35481e1848c85f7ce292dd14d1dbfff3650e3d58d1103181f405e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-image-hardening/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-container-image-hardening/scripts/agent.py","bytes":11579,"sha256":"b571e46d53de2bafd170fc37d7372294dc2d518a1fc2f554a29c3d0d258cb7c0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-image-hardening/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/performing-container-image-hardening/scripts/process.py","bytes":7102,"sha256":"7a321de54660fdf8153a5f56493365e6e710382637757f5d1f9e7f5f5b60b762","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-image-hardening/scripts/process.py"}],"archiveSha256":"dfb00c167bb812e146a508d21c3d75e7c7a1e194a8dfc5a31686722bc31c559c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-container-image-hardening",
+    "name": "performing-container-image-hardening",
+    "description": "Harden container images by minimizing attack surface, stripping unnecessary packages, implementing multi-stage builds, configuring non-root users, and applying CIS Docker Benchmark recommendations to produce secure, production-ready images. Use when building production container images, when compliance requires CIS Docker Benchmark adherence, or when shrinking image size to reduce vulnerability exposure from unused packages.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "container",
+      "image",
+      "hardening",
+      "harden",
+      "images",
+      "by",
+      "minimizing",
+      "attack",
+      "surface",
+      "stripping",
+      "unnecessary",
+      "packages",
+      "implementing",
+      "multi",
+      "stage",
+      "builds",
+      "configuring"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-container-image-hardening/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-container-image-hardening",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-image-hardening",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 47888,
+    "sha256": "8e54b13b8cc1f0ef8bfc2c51c335cf1cd3dea49ca1aac28851157844ee2ea6f7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-container-image-hardening/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-image-hardening/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-container-image-hardening/SKILL.md",
+      "bytes": 8531,
+      "sha256": "8e54b13b8cc1f0ef8bfc2c51c335cf1cd3dea49ca1aac28851157844ee2ea6f7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-image-hardening/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-container-image-hardening/assets/template.md",
+      "bytes": 1391,
+      "sha256": "a8b31197fa86d0ede9d79454c4aa9257dc3a1e71e313979827f86292932b07eb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-image-hardening/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-container-image-hardening/references/api-reference.md",
+      "bytes": 5250,
+      "sha256": "28ed9938d7cf9b7508f89dc3692782751a8bd225aa5abd543d1a2c7b5eb90e6b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-image-hardening/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-container-image-hardening/references/standards.md",
+      "bytes": 953,
+      "sha256": "130ef483951b7c09d6ca71341a9b0221797287fce6481dda30b59c67d2618097",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-image-hardening/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-container-image-hardening/references/workflows.md",
+      "bytes": 1827,
+      "sha256": "51a9ae503cd35481e1848c85f7ce292dd14d1dbfff3650e3d58d1103181f405e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-image-hardening/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-container-image-hardening/scripts/agent.py",
+      "bytes": 11579,
+      "sha256": "b571e46d53de2bafd170fc37d7372294dc2d518a1fc2f554a29c3d0d258cb7c0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-image-hardening/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-container-image-hardening/scripts/process.py",
+      "bytes": 7102,
+      "sha256": "7a321de54660fdf8153a5f56493365e6e710382637757f5d1f9e7f5f5b60b762",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-container-image-hardening/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "dfb00c167bb812e146a508d21c3d75e7c7a1e194a8dfc5a31686722bc31c559c"
+}

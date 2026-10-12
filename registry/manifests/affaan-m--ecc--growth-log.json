@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--growth-log","name":"growth-log","description":"Write growth log entries that extract reusable patterns from completed work — root cause, transferable rule, and a recognizable signal — instead of diary-style event narration, with a 4-8 sentence template and merge-duplicates discipline. Use when capturing what was learned after a complex task, debugging session, failure, or rollback, when reviewing progress over a period, or when a delivery gate asks what was learned.","category":"Marketing","tags":["growth","log","write","entries","extract","reusable","patterns","from","completed","work","root","cause","transferable","rule","recognizable","signal","instead","diary"],"repo":"affaan-m/ECC","owner":"affaan-m","stars":277532,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"b92f181b3b748d1abbc2afd94af6aa7d8c8fca29","path":"skills/growth-log","sourceUrl":"https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/growth-log","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T02:02:10Z","fileCount":2,"bytes":8105,"sha256":"1cfaf2a0bf341087bbeeb8db0dc7c5edd5bad241ce4d89df728d22f2c5c72809","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/growth-log/SKILL.md","bytes":7034,"sha256":"1cfaf2a0bf341087bbeeb8db0dc7c5edd5bad241ce4d89df728d22f2c5c72809","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/growth-log/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"}],"archiveSha256":"6ad64143c9becf475517fb6469b150bfec40ed73ac94ff5b7ecc11c59451552d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--growth-log",
+    "name": "growth-log",
+    "description": "Write growth log entries that extract reusable patterns from completed work — root cause, transferable rule, and a recognizable signal — instead of diary-style event narration, with a 4-8 sentence template and merge-duplicates discipline. Use when capturing what was learned after a complex task, debugging session, failure, or rollback, when reviewing progress over a period, or when a delivery gate asks what was learned.",
+    "category": "Marketing",
+    "tags": [
+      "growth",
+      "log",
+      "write",
+      "entries",
+      "extract",
+      "reusable",
+      "patterns",
+      "from",
+      "completed",
+      "work",
+      "root",
+      "cause",
+      "transferable",
+      "rule",
+      "recognizable",
+      "signal",
+      "instead",
+      "diary"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/growth-log",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/growth-log",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 2,
+    "bytes": 8105,
+    "sha256": "1cfaf2a0bf341087bbeeb8db0dc7c5edd5bad241ce4d89df728d22f2c5c72809",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/growth-log/SKILL.md",
+      "bytes": 7034,
+      "sha256": "1cfaf2a0bf341087bbeeb8db0dc7c5edd5bad241ce4d89df728d22f2c5c72809",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/growth-log/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "6ad64143c9becf475517fb6469b150bfec40ed73ac94ff5b7ecc11c59451552d"
+}

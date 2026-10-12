@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--c4-context","name":"c4-context","description":"Expert C4 Context-level documentation specialist. Creates high-level system context diagrams, documents personas, user journeys, system features, and external dependencies.","category":"Writing","tags":["c4","context","expert","level","documentation","specialist.","creates","high","system","diagrams","documents","personas","user","journeys","features","external","dependencies."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/c4-context","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/c4-context","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6347,"sha256":"7f70a235ee74592c6f392a1fa2506c252d058accf15d7f174c0e5bb09a9f565b","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/c4-context/SKILL.md","bytes":5274,"sha256":"7f70a235ee74592c6f392a1fa2506c252d058accf15d7f174c0e5bb09a9f565b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/c4-context/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"a19b9e72e422af63f1b59961c4397411022aabb68402ebad58f2e24d160f0841"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--c4-context",
+    "name": "c4-context",
+    "description": "Expert C4 Context-level documentation specialist. Creates high-level system context diagrams, documents personas, user journeys, system features, and external dependencies.",
+    "category": "Writing",
+    "tags": [
+      "c4",
+      "context",
+      "expert",
+      "level",
+      "documentation",
+      "specialist.",
+      "creates",
+      "high",
+      "system",
+      "diagrams",
+      "documents",
+      "personas",
+      "user",
+      "journeys",
+      "features",
+      "external",
+      "dependencies."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/c4-context",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/c4-context",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6347,
+    "sha256": "7f70a235ee74592c6f392a1fa2506c252d058accf15d7f174c0e5bb09a9f565b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/c4-context/SKILL.md",
+      "bytes": 5274,
+      "sha256": "7f70a235ee74592c6f392a1fa2506c252d058accf15d7f174c0e5bb09a9f565b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/c4-context/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "a19b9e72e422af63f1b59961c4397411022aabb68402ebad58f2e24d160f0841"
+}

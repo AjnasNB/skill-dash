@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-threat-intelligence-feeds","name":"analyzing-threat-intelligence-feeds","description":"Analyzes structured and unstructured threat intelligence feeds to extract actionable indicators, adversary tactics, and campaign context. Use when ingesting commercial or open-source CTI feeds, evaluating feed quality, normalizing data into STIX 2.1 format, or enriching existing IOCs with campaign attribution. Activates for requests involving ThreatConnect, Recorded Future, Mandiant Advantage, MISP, AlienVault OTX, or automated feed aggregation pipelines.","category":"Security","tags":["analyzing","threat","intelligence","feeds","analyzes","structured","unstructured","extract","actionable","indicators","adversary","tactics","campaign","context.","when","ingesting","commercial","open"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-threat-intelligence-feeds/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-threat-intelligence-feeds","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-intelligence-feeds","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":26822,"sha256":"876fa700c16f5cf1863867078f481a1528762dbf5bba527b809060f4979d2af1","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-threat-intelligence-feeds/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-intelligence-feeds/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-threat-intelligence-feeds/SKILL.md","bytes":6274,"sha256":"876fa700c16f5cf1863867078f481a1528762dbf5bba527b809060f4979d2af1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-intelligence-feeds/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-threat-intelligence-feeds/references/api-reference.md","bytes":2326,"sha256":"f084709f604789cef3b23250b14fad9e04c2a7946e406ea3ebae328df2aa256b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-intelligence-feeds/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-threat-intelligence-feeds/scripts/agent.py","bytes":6967,"sha256":"e633804088a1f4f07c3d41a7b12903f0359c2836931c310ca2282c9a0bacd697","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-intelligence-feeds/scripts/agent.py"}],"archiveSha256":"26fd1888e4996a2cb30d53f93454f613aed23bf060cbf0762b4057956dcfb441"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-threat-intelligence-feeds",
+    "name": "analyzing-threat-intelligence-feeds",
+    "description": "Analyzes structured and unstructured threat intelligence feeds to extract actionable indicators, adversary tactics, and campaign context. Use when ingesting commercial or open-source CTI feeds, evaluating feed quality, normalizing data into STIX 2.1 format, or enriching existing IOCs with campaign attribution. Activates for requests involving ThreatConnect, Recorded Future, Mandiant Advantage, MISP, AlienVault OTX, or automated feed aggregation pipelines.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "threat",
+      "intelligence",
+      "feeds",
+      "analyzes",
+      "structured",
+      "unstructured",
+      "extract",
+      "actionable",
+      "indicators",
+      "adversary",
+      "tactics",
+      "campaign",
+      "context.",
+      "when",
+      "ingesting",
+      "commercial",
+      "open"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-threat-intelligence-feeds/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-threat-intelligence-feeds",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-intelligence-feeds",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 26822,
+    "sha256": "876fa700c16f5cf1863867078f481a1528762dbf5bba527b809060f4979d2af1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-threat-intelligence-feeds/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-intelligence-feeds/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-threat-intelligence-feeds/SKILL.md",
+      "bytes": 6274,
+      "sha256": "876fa700c16f5cf1863867078f481a1528762dbf5bba527b809060f4979d2af1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-intelligence-feeds/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-threat-intelligence-feeds/references/api-reference.md",
+      "bytes": 2326,
+      "sha256": "f084709f604789cef3b23250b14fad9e04c2a7946e406ea3ebae328df2aa256b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-intelligence-feeds/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-threat-intelligence-feeds/scripts/agent.py",
+      "bytes": 6967,
+      "sha256": "e633804088a1f4f07c3d41a7b12903f0359c2836931c310ca2282c9a0bacd697",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-intelligence-feeds/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "26fd1888e4996a2cb30d53f93454f613aed23bf060cbf0762b4057956dcfb441"
+}

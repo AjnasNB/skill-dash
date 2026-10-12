@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--postgresql","name":"postgresql","description":"Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features","category":"Design","tags":["postgresql","design","specific","schema.","covers","best","practices","data","types","indexing","constraints","performance","patterns","advanced","features"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/postgresql","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/postgresql","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":18047,"sha256":"bdbe61deaa7f9cefae98c6938d0ac606c4db7ad8f568da4fcc785b6e090b4fe5","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/postgresql/SKILL.md","bytes":16974,"sha256":"bdbe61deaa7f9cefae98c6938d0ac606c4db7ad8f568da4fcc785b6e090b4fe5","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/postgresql/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"d856c8b516fd31dc095f889a68a1bfe333c749e9bdc957f7a8d0b904c150cd86"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--postgresql",
+    "name": "postgresql",
+    "description": "Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features",
+    "category": "Design",
+    "tags": [
+      "postgresql",
+      "design",
+      "specific",
+      "schema.",
+      "covers",
+      "best",
+      "practices",
+      "data",
+      "types",
+      "indexing",
+      "constraints",
+      "performance",
+      "patterns",
+      "advanced",
+      "features"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/postgresql",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/postgresql",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 18047,
+    "sha256": "bdbe61deaa7f9cefae98c6938d0ac606c4db7ad8f568da4fcc785b6e090b4fe5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/postgresql/SKILL.md",
+      "bytes": 16974,
+      "sha256": "bdbe61deaa7f9cefae98c6938d0ac606c4db7ad8f568da4fcc785b6e090b4fe5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/postgresql/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "d856c8b516fd31dc095f889a68a1bfe333c749e9bdc957f7a8d0b904c150cd86"
+}

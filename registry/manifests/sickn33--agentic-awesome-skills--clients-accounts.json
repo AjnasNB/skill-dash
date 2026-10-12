@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--clients-accounts","name":"clients-accounts","description":"Client and account register: contacts, billing address, tax ID and basis, payment terms, invoice totals, amounts paid and outstanding balance. Use for account tracking.","category":"Development","tags":["clients","accounts","client","account","register","contacts","billing","address","tax","id","basis","payment","terms","invoice","totals","amounts","paid","outstanding"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/clients-accounts","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/clients-accounts","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":20075,"sha256":"8eceb1212c02f17e272649d4e22a965a14a16b78830693f058192e6036e1fe26","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/clients-accounts/SKILL.md","bytes":19002,"sha256":"8eceb1212c02f17e272649d4e22a965a14a16b78830693f058192e6036e1fe26","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/clients-accounts/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"f1022a7f723b73eeb0b619c2521031130e714883ef43fc99263c2b7050b9c3ef"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--clients-accounts",
+    "name": "clients-accounts",
+    "description": "Client and account register: contacts, billing address, tax ID and basis, payment terms, invoice totals, amounts paid and outstanding balance. Use for account tracking.",
+    "category": "Development",
+    "tags": [
+      "clients",
+      "accounts",
+      "client",
+      "account",
+      "register",
+      "contacts",
+      "billing",
+      "address",
+      "tax",
+      "id",
+      "basis",
+      "payment",
+      "terms",
+      "invoice",
+      "totals",
+      "amounts",
+      "paid",
+      "outstanding"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/clients-accounts",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/clients-accounts",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 20075,
+    "sha256": "8eceb1212c02f17e272649d4e22a965a14a16b78830693f058192e6036e1fe26",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/clients-accounts/SKILL.md",
+      "bytes": 19002,
+      "sha256": "8eceb1212c02f17e272649d4e22a965a14a16b78830693f058192e6036e1fe26",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/clients-accounts/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "f1022a7f723b73eeb0b619c2521031130e714883ef43fc99263c2b7050b9c3ef"
+}

@@ -1,1 +1,69 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--hunt-rce","name":"hunt-rce","description":"Hunting skill for rce vulnerabilities. Built from 67 public bug bounty reports. Use when hunting rce on any target.","category":"Security","tags":["hunt","rce","hunting","skill","vulnerabilities.","built","from","67","public","bug","bounty","reports.","when","any","target."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/hunt-rce","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-rce","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":34612,"sha256":"a82073884564586cc8018fd0b338fef786aaeb8e20b1fb3c7c2b4a67da47af66","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/hunt-rce/SKILL.md","bytes":20747,"sha256":"a82073884564586cc8018fd0b338fef786aaeb8e20b1fb3c7c2b4a67da47af66","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-rce/SKILL.md"},{"path":"references/details.md","sourcePath":"skills/hunt-rce/references/details.md","bytes":12792,"sha256":"035146ef6f74345bcf1536ea7979ed280de05e5c9acfbe4ba32276fba595edbb","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-rce/references/details.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"7f0883b7b4905ccc7f955618b82099872fca266204a696630dae815e277990c4"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--hunt-rce",
+    "name": "hunt-rce",
+    "description": "Hunting skill for rce vulnerabilities. Built from 67 public bug bounty reports. Use when hunting rce on any target.",
+    "category": "Security",
+    "tags": [
+      "hunt",
+      "rce",
+      "hunting",
+      "skill",
+      "vulnerabilities.",
+      "built",
+      "from",
+      "67",
+      "public",
+      "bug",
+      "bounty",
+      "reports.",
+      "when",
+      "any",
+      "target."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/hunt-rce",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-rce",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 34612,
+    "sha256": "a82073884564586cc8018fd0b338fef786aaeb8e20b1fb3c7c2b4a67da47af66",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunt-rce/SKILL.md",
+      "bytes": 20747,
+      "sha256": "a82073884564586cc8018fd0b338fef786aaeb8e20b1fb3c7c2b4a67da47af66",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-rce/SKILL.md"
+    },
+    {
+      "path": "references/details.md",
+      "sourcePath": "skills/hunt-rce/references/details.md",
+      "bytes": 12792,
+      "sha256": "035146ef6f74345bcf1536ea7979ed280de05e5c9acfbe4ba32276fba595edbb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-rce/references/details.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "7f0883b7b4905ccc7f955618b82099872fca266204a696630dae815e277990c4"
+}

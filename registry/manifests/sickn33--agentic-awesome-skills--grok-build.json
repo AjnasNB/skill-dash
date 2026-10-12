@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--grok-build","name":"grok-build","description":"Delegate well-specified implementation tasks to xAI's Grok Build CLI running headlessly while the orchestrating agent plans, writes task specs, reviews every diff, and owns the result.","category":"AI & agents","tags":["grok","delegate","well","specified","implementation","tasks","xai","cli","running","headlessly","while","orchestrating","agent","plans","writes","task","specs","reviews"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/grok-build","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/grok-build","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":12404,"sha256":"552e31c0c21cebea33a3f1334f937e4ec5a37325ad8899607fbf3ede2c842bdb","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/grok-build/SKILL.md","bytes":7102,"sha256":"552e31c0c21cebea33a3f1334f937e4ec5a37325ad8899607fbf3ede2c842bdb","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/grok-build/SKILL.md"},{"path":"references/cli.md","sourcePath":"skills/grok-build/references/cli.md","bytes":4229,"sha256":"edcea1537a9fafa88452961c557b761c6cbe1fd13a2a2d545e387c3fe29140fd","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/grok-build/references/cli.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"9208baae1d3d93a10f02ab655f711fd77f33fa2cce003e347123405707dcc071"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--grok-build",
+    "name": "grok-build",
+    "description": "Delegate well-specified implementation tasks to xAI's Grok Build CLI running headlessly while the orchestrating agent plans, writes task specs, reviews every diff, and owns the result.",
+    "category": "AI & agents",
+    "tags": [
+      "grok",
+      "delegate",
+      "well",
+      "specified",
+      "implementation",
+      "tasks",
+      "xai",
+      "cli",
+      "running",
+      "headlessly",
+      "while",
+      "orchestrating",
+      "agent",
+      "plans",
+      "writes",
+      "task",
+      "specs",
+      "reviews"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/grok-build",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/grok-build",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 12404,
+    "sha256": "552e31c0c21cebea33a3f1334f937e4ec5a37325ad8899607fbf3ede2c842bdb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/grok-build/SKILL.md",
+      "bytes": 7102,
+      "sha256": "552e31c0c21cebea33a3f1334f937e4ec5a37325ad8899607fbf3ede2c842bdb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/grok-build/SKILL.md"
+    },
+    {
+      "path": "references/cli.md",
+      "sourcePath": "skills/grok-build/references/cli.md",
+      "bytes": 4229,
+      "sha256": "edcea1537a9fafa88452961c557b761c6cbe1fd13a2a2d545e387c3fe29140fd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/grok-build/references/cli.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "9208baae1d3d93a10f02ab655f711fd77f33fa2cce003e347123405707dcc071"
+}

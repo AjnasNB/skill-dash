@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-spearphishing-with-email-gateway","name":"detecting-spearphishing-with-email-gateway","description":"Detect and block spearphishing emails that use personalized, researched content to evade generic spam filters, by configuring email security gateway (SEG) impersonation protection, URL rewriting, attachment sandboxing, and custom detection rules in Microsoft Defender for Office 365, Proofpoint, Mimecast, or Barracuda. Use when hardening a mail gateway against targeted phishing or investigating a suspected spearphishing campaign.","category":"Security","tags":["detecting","spearphishing","email","gateway","detect","block","emails","personalized","researched","content","evade","generic","spam","filters","by","configuring","security","seg"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-spearphishing-with-email-gateway/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-spearphishing-with-email-gateway","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-spearphishing-with-email-gateway","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":54703,"sha256":"3015374924723812858995f549396019c607837a16d22f32115a41323529ca58","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-spearphishing-with-email-gateway/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-spearphishing-with-email-gateway/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-spearphishing-with-email-gateway/SKILL.md","bytes":5551,"sha256":"3015374924723812858995f549396019c607837a16d22f32115a41323529ca58","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-spearphishing-with-email-gateway/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/detecting-spearphishing-with-email-gateway/assets/template.md","bytes":1928,"sha256":"e1b5d21af1368a58c84d204156a4baf73591847b56d2eb897a3d99242f8b55e1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-spearphishing-with-email-gateway/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-spearphishing-with-email-gateway/references/api-reference.md","bytes":2296,"sha256":"24386dec6f5740e09b4e66740a2a99272cf9fa7ffdfa984bfe2193eff48f8e6c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-spearphishing-with-email-gateway/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/detecting-spearphishing-with-email-gateway/references/standards.md","bytes":2489,"sha256":"459b2d134c24c293a4ee7c06755d3a2015f20ded159f6c67e337c45bc412fc8d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-spearphishing-with-email-gateway/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/detecting-spearphishing-with-email-gateway/references/workflows.md","bytes":3813,"sha256":"ea7c2dd3fb99e6403c57e29922147e3ddd6c0cf75e07da1ce0f0d0a724f37230","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-spearphishing-with-email-gateway/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-spearphishing-with-email-gateway/scripts/agent.py","bytes":5768,"sha256":"6192de9027160096358a47b6b39f7723c279e6d61c7f32e160c809d4ea5a63f5","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-spearphishing-with-email-gateway/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/detecting-spearphishing-with-email-gateway/scripts/process.py","bytes":21603,"sha256":"b63cd3e0ce25157af41a014ab90ed2e74c2ea76d4708cf85115a74807caac2c5","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-spearphishing-with-email-gateway/scripts/process.py"}],"archiveSha256":"1382bac909e72b800a11ebaf5fccb577283200091168f76e6b13a70156387f81"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-spearphishing-with-email-gateway",
+    "name": "detecting-spearphishing-with-email-gateway",
+    "description": "Detect and block spearphishing emails that use personalized, researched content to evade generic spam filters, by configuring email security gateway (SEG) impersonation protection, URL rewriting, attachment sandboxing, and custom detection rules in Microsoft Defender for Office 365, Proofpoint, Mimecast, or Barracuda. Use when hardening a mail gateway against targeted phishing or investigating a suspected spearphishing campaign.",
+    "category": "Security",
+    "tags": [
+      "detecting",
+      "spearphishing",
+      "email",
+      "gateway",
+      "detect",
+      "block",
+      "emails",
+      "personalized",
+      "researched",
+      "content",
+      "evade",
+      "generic",
+      "spam",
+      "filters",
+      "by",
+      "configuring",
+      "security",
+      "seg"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-spearphishing-with-email-gateway/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-spearphishing-with-email-gateway",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-spearphishing-with-email-gateway",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 54703,
+    "sha256": "3015374924723812858995f549396019c607837a16d22f32115a41323529ca58",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-spearphishing-with-email-gateway/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-spearphishing-with-email-gateway/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-spearphishing-with-email-gateway/SKILL.md",
+      "bytes": 5551,
+      "sha256": "3015374924723812858995f549396019c607837a16d22f32115a41323529ca58",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-spearphishing-with-email-gateway/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/detecting-spearphishing-with-email-gateway/assets/template.md",
+      "bytes": 1928,
+      "sha256": "e1b5d21af1368a58c84d204156a4baf73591847b56d2eb897a3d99242f8b55e1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-spearphishing-with-email-gateway/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-spearphishing-with-email-gateway/references/api-reference.md",
+      "bytes": 2296,
+      "sha256": "24386dec6f5740e09b4e66740a2a99272cf9fa7ffdfa984bfe2193eff48f8e6c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-spearphishing-with-email-gateway/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/detecting-spearphishing-with-email-gateway/references/standards.md",
+      "bytes": 2489,
+      "sha256": "459b2d134c24c293a4ee7c06755d3a2015f20ded159f6c67e337c45bc412fc8d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-spearphishing-with-email-gateway/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/detecting-spearphishing-with-email-gateway/references/workflows.md",
+      "bytes": 3813,
+      "sha256": "ea7c2dd3fb99e6403c57e29922147e3ddd6c0cf75e07da1ce0f0d0a724f37230",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-spearphishing-with-email-gateway/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-spearphishing-with-email-gateway/scripts/agent.py",
+      "bytes": 5768,
+      "sha256": "6192de9027160096358a47b6b39f7723c279e6d61c7f32e160c809d4ea5a63f5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-spearphishing-with-email-gateway/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/detecting-spearphishing-with-email-gateway/scripts/process.py",
+      "bytes": 21603,
+      "sha256": "b63cd3e0ce25157af41a014ab90ed2e74c2ea76d4708cf85115a74807caac2c5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-spearphishing-with-email-gateway/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "1382bac909e72b800a11ebaf5fccb577283200091168f76e6b13a70156387f81"
+}

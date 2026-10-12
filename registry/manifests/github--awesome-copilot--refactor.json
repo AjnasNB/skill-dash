@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--refactor","name":"refactor","description":"Surgical code refactoring to improve maintainability without changing behavior. Covers extracting functions, renaming variables, breaking down god functions, improving type safety, eliminating code smells, and applying design patterns. Less drastic than repo-rebuilder; use for gradual improvements.","category":"Design","tags":["refactor","surgical","code","refactoring","improve","maintainability","without","changing","behavior.","covers","extracting","functions","renaming","variables","breaking","down","god","improving"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/refactor","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/refactor","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":17902,"sha256":"58a38edd230cdcdd866939906321c8ba6f47c98a70d0cda373360196ee2ca1a7","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/refactor/SKILL.md","bytes":16843,"sha256":"58a38edd230cdcdd866939906321c8ba6f47c98a70d0cda373360196ee2ca1a7","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/refactor/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"9b03222f1ad2af2d41628431658f52007098ae2e99a38eab4049d3f1006f1b77"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--refactor",
+    "name": "refactor",
+    "description": "Surgical code refactoring to improve maintainability without changing behavior. Covers extracting functions, renaming variables, breaking down god functions, improving type safety, eliminating code smells, and applying design patterns. Less drastic than repo-rebuilder; use for gradual improvements.",
+    "category": "Design",
+    "tags": [
+      "refactor",
+      "surgical",
+      "code",
+      "refactoring",
+      "improve",
+      "maintainability",
+      "without",
+      "changing",
+      "behavior.",
+      "covers",
+      "extracting",
+      "functions",
+      "renaming",
+      "variables",
+      "breaking",
+      "down",
+      "god",
+      "improving"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/refactor",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/refactor",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 17902,
+    "sha256": "58a38edd230cdcdd866939906321c8ba6f47c98a70d0cda373360196ee2ca1a7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/refactor/SKILL.md",
+      "bytes": 16843,
+      "sha256": "58a38edd230cdcdd866939906321c8ba6f47c98a70d0cda373360196ee2ca1a7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/refactor/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "9b03222f1ad2af2d41628431658f52007098ae2e99a38eab4049d3f1006f1b77"
+}

@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--auditing-tls-certificate-transparency-logs","name":"auditing-tls-certificate-transparency-logs","description":"Monitors Certificate Transparency (CT) logs to detect unauthorized certificate issuance, discover subdomains via CT data, and alert on suspicious certificate activity for owned domains. Uses the crt.sh API and direct CT log querying based on RFC 6962 to build continuous monitoring pipelines that catch rogue certificates, track CA behavior, and map the external attack surface. Activates for requests involving certificate transparency monitoring, CT log auditing, subdomain discovery via certificates, or certificate issuance alerting.","category":"Development","tags":["auditing","tls","certificate","transparency","logs","monitors","ct","detect","unauthorized","issuance","discover","subdomains","via","data","alert","suspicious","activity","owned"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/auditing-tls-certificate-transparency-logs/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/auditing-tls-certificate-transparency-logs","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-tls-certificate-transparency-logs","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":72769,"sha256":"9885e9fb0f540680b2af59809a0c458038af18fe7a57d017157a76a05e1cf48d","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/auditing-tls-certificate-transparency-logs/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-tls-certificate-transparency-logs/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/auditing-tls-certificate-transparency-logs/SKILL.md","bytes":15799,"sha256":"9885e9fb0f540680b2af59809a0c458038af18fe7a57d017157a76a05e1cf48d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-tls-certificate-transparency-logs/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/auditing-tls-certificate-transparency-logs/references/api-reference.md","bytes":6514,"sha256":"d43f3cb8196c6141bf1e9398fd4dbf19a6e568673d3506b75832b39459be664f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-tls-certificate-transparency-logs/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/auditing-tls-certificate-transparency-logs/scripts/agent.py","bytes":39201,"sha256":"0f43d98c4752709bab52ad81235497159cf70078827df770f4c3707b28f80674","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-tls-certificate-transparency-logs/scripts/agent.py"}],"archiveSha256":"8fb333f5e52e3f316bd1ba46498971a19bc491cfac63165b132edcdffb6a8221"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--auditing-tls-certificate-transparency-logs",
+    "name": "auditing-tls-certificate-transparency-logs",
+    "description": "Monitors Certificate Transparency (CT) logs to detect unauthorized certificate issuance, discover subdomains via CT data, and alert on suspicious certificate activity for owned domains. Uses the crt.sh API and direct CT log querying based on RFC 6962 to build continuous monitoring pipelines that catch rogue certificates, track CA behavior, and map the external attack surface. Activates for requests involving certificate transparency monitoring, CT log auditing, subdomain discovery via certificates, or certificate issuance alerting.",
+    "category": "Development",
+    "tags": [
+      "auditing",
+      "tls",
+      "certificate",
+      "transparency",
+      "logs",
+      "monitors",
+      "ct",
+      "detect",
+      "unauthorized",
+      "issuance",
+      "discover",
+      "subdomains",
+      "via",
+      "data",
+      "alert",
+      "suspicious",
+      "activity",
+      "owned"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/auditing-tls-certificate-transparency-logs/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/auditing-tls-certificate-transparency-logs",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-tls-certificate-transparency-logs",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 72769,
+    "sha256": "9885e9fb0f540680b2af59809a0c458038af18fe7a57d017157a76a05e1cf48d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/auditing-tls-certificate-transparency-logs/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-tls-certificate-transparency-logs/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/auditing-tls-certificate-transparency-logs/SKILL.md",
+      "bytes": 15799,
+      "sha256": "9885e9fb0f540680b2af59809a0c458038af18fe7a57d017157a76a05e1cf48d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-tls-certificate-transparency-logs/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/auditing-tls-certificate-transparency-logs/references/api-reference.md",
+      "bytes": 6514,
+      "sha256": "d43f3cb8196c6141bf1e9398fd4dbf19a6e568673d3506b75832b39459be664f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-tls-certificate-transparency-logs/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/auditing-tls-certificate-transparency-logs/scripts/agent.py",
+      "bytes": 39201,
+      "sha256": "0f43d98c4752709bab52ad81235497159cf70078827df770f4c3707b28f80674",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-tls-certificate-transparency-logs/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "8fb333f5e52e3f316bd1ba46498971a19bc491cfac63165b132edcdffb6a8221"
+}

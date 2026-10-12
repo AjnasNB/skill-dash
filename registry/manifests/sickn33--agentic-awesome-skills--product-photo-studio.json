@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--product-photo-studio","name":"product-photo-studio","description":"Install and use the official AI Product Photography package, pinned by digest, for paid hosted work on the Beatra service.","category":"Development","tags":["product","photo","studio","install","official","ai","photography","package","pinned","by","digest","paid","hosted","work","beatra","service."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/product-photo-studio","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/product-photo-studio","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":13529,"sha256":"d287c6604e7ab09c498f00db255d3f5797b55438ea97e57b89fabeea45b559d3","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/product-photo-studio/SKILL.md","bytes":12456,"sha256":"d287c6604e7ab09c498f00db255d3f5797b55438ea97e57b89fabeea45b559d3","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/product-photo-studio/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"5d80f2273de6b21b622692635e1e797a0cc65c6274a82881f33bd5a9489296ac"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--product-photo-studio",
+    "name": "product-photo-studio",
+    "description": "Install and use the official AI Product Photography package, pinned by digest, for paid hosted work on the Beatra service.",
+    "category": "Development",
+    "tags": [
+      "product",
+      "photo",
+      "studio",
+      "install",
+      "official",
+      "ai",
+      "photography",
+      "package",
+      "pinned",
+      "by",
+      "digest",
+      "paid",
+      "hosted",
+      "work",
+      "beatra",
+      "service."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/product-photo-studio",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/product-photo-studio",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13529,
+    "sha256": "d287c6604e7ab09c498f00db255d3f5797b55438ea97e57b89fabeea45b559d3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/product-photo-studio/SKILL.md",
+      "bytes": 12456,
+      "sha256": "d287c6604e7ab09c498f00db255d3f5797b55438ea97e57b89fabeea45b559d3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/product-photo-studio/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "5d80f2273de6b21b622692635e1e797a0cc65c6274a82881f33bd5a9489296ac"
+}

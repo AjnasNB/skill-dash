@@ -1,1 +1,52 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--favicon","name":"favicon","description":"Generate favicons from a source image","category":"Development","tags":["favicon","generate","favicons","from","source","image"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/favicon","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/favicon","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":10781,"sha256":"6efbcf5aee6823b935c954b15f5a521983d19e0b73a47c9ee0b1190a65b3fa09","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/favicon/SKILL.md","bytes":9708,"sha256":"6efbcf5aee6823b935c954b15f5a521983d19e0b73a47c9ee0b1190a65b3fa09","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/favicon/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"ca83f3f91e539887290b26ec7fa8451a80e87a16f10337b10c2046957335b1a8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--favicon",
+    "name": "favicon",
+    "description": "Generate favicons from a source image",
+    "category": "Development",
+    "tags": [
+      "favicon",
+      "generate",
+      "favicons",
+      "from",
+      "source",
+      "image"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/favicon",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/favicon",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10781,
+    "sha256": "6efbcf5aee6823b935c954b15f5a521983d19e0b73a47c9ee0b1190a65b3fa09",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/favicon/SKILL.md",
+      "bytes": 9708,
+      "sha256": "6efbcf5aee6823b935c954b15f5a521983d19e0b73a47c9ee0b1190a65b3fa09",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/favicon/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ca83f3f91e539887290b26ec7fa8451a80e87a16f10337b10c2046957335b1a8"
+}

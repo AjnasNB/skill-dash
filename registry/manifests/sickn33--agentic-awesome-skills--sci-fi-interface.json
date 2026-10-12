@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--sci-fi-interface","name":"sci-fi-interface","description":"Web and App implementation guide for Sci-Fi Interface Design. Trigger when user wants HUDs, spacecraft dashboards, or tactical military readouts.","category":"Design","tags":["sci","fi","interface","web","app","implementation","guide","design.","trigger","when","user","wants","huds","spacecraft","dashboards","tactical","military","readouts."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/design-it/sci-fi-interface","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/sci-fi-interface","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":13371,"sha256":"8621c7726444e5d11bb5eb2c9ddf57d0eddbb465a9c3f6e00a9f4a4051c3ee5b","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/design-it/sci-fi-interface/SKILL.md","bytes":12298,"sha256":"8621c7726444e5d11bb5eb2c9ddf57d0eddbb465a9c3f6e00a9f4a4051c3ee5b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/sci-fi-interface/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"1b4c6300e0ac7d7029b45de81b085e58cf67338a249a16fb8d8c4486cec15547"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--sci-fi-interface",
+    "name": "sci-fi-interface",
+    "description": "Web and App implementation guide for Sci-Fi Interface Design. Trigger when user wants HUDs, spacecraft dashboards, or tactical military readouts.",
+    "category": "Design",
+    "tags": [
+      "sci",
+      "fi",
+      "interface",
+      "web",
+      "app",
+      "implementation",
+      "guide",
+      "design.",
+      "trigger",
+      "when",
+      "user",
+      "wants",
+      "huds",
+      "spacecraft",
+      "dashboards",
+      "tactical",
+      "military",
+      "readouts."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/design-it/sci-fi-interface",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/sci-fi-interface",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13371,
+    "sha256": "8621c7726444e5d11bb5eb2c9ddf57d0eddbb465a9c3f6e00a9f4a4051c3ee5b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/design-it/sci-fi-interface/SKILL.md",
+      "bytes": 12298,
+      "sha256": "8621c7726444e5d11bb5eb2c9ddf57d0eddbb465a9c3f6e00a9f4a4051c3ee5b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/sci-fi-interface/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "1b4c6300e0ac7d7029b45de81b085e58cf67338a249a16fb8d8c4486cec15547"
+}

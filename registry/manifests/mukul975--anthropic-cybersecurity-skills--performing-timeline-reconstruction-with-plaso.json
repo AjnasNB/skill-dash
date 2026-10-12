@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-timeline-reconstruction-with-plaso","name":"performing-timeline-reconstruction-with-plaso","description":"Builds comprehensive forensic super-timelines using Plaso (log2timeline and psort) to correlate events across file system metadata, event logs, browser history, and registry artifacts into a unified chronological view. Use during complex forensic investigations that need cross-source event correlation, or when standard log analysis is insufficient to establish the sequence of activities for reporting findings.","category":"Security","tags":["performing","timeline","reconstruction","plaso","builds","comprehensive","forensic","super","timelines","log2timeline","psort","correlate","events","across","file","system","metadata","event"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-timeline-reconstruction-with-plaso/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-timeline-reconstruction-with-plaso","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-timeline-reconstruction-with-plaso","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":32777,"sha256":"e06416f0f1badc4b1c437aca51b56c4036bb0cee70a06ad4c7933ada649e62cc","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-timeline-reconstruction-with-plaso/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-timeline-reconstruction-with-plaso/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-timeline-reconstruction-with-plaso/SKILL.md","bytes":12075,"sha256":"e06416f0f1badc4b1c437aca51b56c4036bb0cee70a06ad4c7933ada649e62cc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-timeline-reconstruction-with-plaso/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-timeline-reconstruction-with-plaso/references/api-reference.md","bytes":2575,"sha256":"440714b0bebd46dc66a30c0eb4fa36627e4ae44705ebce28775fbbcce8ee21fc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-timeline-reconstruction-with-plaso/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-timeline-reconstruction-with-plaso/scripts/agent.py","bytes":6872,"sha256":"8c982d60c54350f5aea21fd241a30be21acc04f7692dbd73fc814cf47e87e7b9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-timeline-reconstruction-with-plaso/scripts/agent.py"}],"archiveSha256":"4b66953f1a88bf775446182c30395b4cd53ef3a047b4f36ddb356724323f6454"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-timeline-reconstruction-with-plaso",
+    "name": "performing-timeline-reconstruction-with-plaso",
+    "description": "Builds comprehensive forensic super-timelines using Plaso (log2timeline and psort) to correlate events across file system metadata, event logs, browser history, and registry artifacts into a unified chronological view. Use during complex forensic investigations that need cross-source event correlation, or when standard log analysis is insufficient to establish the sequence of activities for reporting findings.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "timeline",
+      "reconstruction",
+      "plaso",
+      "builds",
+      "comprehensive",
+      "forensic",
+      "super",
+      "timelines",
+      "log2timeline",
+      "psort",
+      "correlate",
+      "events",
+      "across",
+      "file",
+      "system",
+      "metadata",
+      "event"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-timeline-reconstruction-with-plaso/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-timeline-reconstruction-with-plaso",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-timeline-reconstruction-with-plaso",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32777,
+    "sha256": "e06416f0f1badc4b1c437aca51b56c4036bb0cee70a06ad4c7933ada649e62cc",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-timeline-reconstruction-with-plaso/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-timeline-reconstruction-with-plaso/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-timeline-reconstruction-with-plaso/SKILL.md",
+      "bytes": 12075,
+      "sha256": "e06416f0f1badc4b1c437aca51b56c4036bb0cee70a06ad4c7933ada649e62cc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-timeline-reconstruction-with-plaso/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-timeline-reconstruction-with-plaso/references/api-reference.md",
+      "bytes": 2575,
+      "sha256": "440714b0bebd46dc66a30c0eb4fa36627e4ae44705ebce28775fbbcce8ee21fc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-timeline-reconstruction-with-plaso/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-timeline-reconstruction-with-plaso/scripts/agent.py",
+      "bytes": 6872,
+      "sha256": "8c982d60c54350f5aea21fd241a30be21acc04f7692dbd73fc814cf47e87e7b9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-timeline-reconstruction-with-plaso/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "4b66953f1a88bf775446182c30395b4cd53ef3a047b4f36ddb356724323f6454"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--smartui-skill","name":"smartui-skill","description":"Generates SmartUI visual regression test configurations for screenshot comparison on TestMu AI cloud. Framework-agnostic — works with Playwright, Selenium, Cypress, Puppeteer. Use when user mentions \"SmartUI\", \"visual regression\", \"screenshot comparison\", \"visual testing\".","category":"Development","tags":["smartui","skill","generates","visual","regression","test","configurations","screenshot","comparison","testmu","ai","cloud.","framework","agnostic","works","playwright","selenium","cypress"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/smartui-skill","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/smartui-skill","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5650,"sha256":"ea474e5dc5fc63ad813fabf8292259e7ed4cf3fffa83aac660ecd53340e4f253","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/smartui-skill/SKILL.md","bytes":4577,"sha256":"ea474e5dc5fc63ad813fabf8292259e7ed4cf3fffa83aac660ecd53340e4f253","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/smartui-skill/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"eab942fa6828e740bfff4575b08e2923f6bf34247576885e496c81e989fa481a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--smartui-skill",
+    "name": "smartui-skill",
+    "description": "Generates SmartUI visual regression test configurations for screenshot comparison on TestMu AI cloud. Framework-agnostic — works with Playwright, Selenium, Cypress, Puppeteer. Use when user mentions \"SmartUI\", \"visual regression\", \"screenshot comparison\", \"visual testing\".",
+    "category": "Development",
+    "tags": [
+      "smartui",
+      "skill",
+      "generates",
+      "visual",
+      "regression",
+      "test",
+      "configurations",
+      "screenshot",
+      "comparison",
+      "testmu",
+      "ai",
+      "cloud.",
+      "framework",
+      "agnostic",
+      "works",
+      "playwright",
+      "selenium",
+      "cypress"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/smartui-skill",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/smartui-skill",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5650,
+    "sha256": "ea474e5dc5fc63ad813fabf8292259e7ed4cf3fffa83aac660ecd53340e4f253",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/smartui-skill/SKILL.md",
+      "bytes": 4577,
+      "sha256": "ea474e5dc5fc63ad813fabf8292259e7ed4cf3fffa83aac660ecd53340e4f253",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/smartui-skill/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "eab942fa6828e740bfff4575b08e2923f6bf34247576885e496c81e989fa481a"
+}

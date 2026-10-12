@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"jeffallan--claude-skills--graphql-architect","name":"graphql-architect","description":"Use when designing GraphQL schemas, implementing Apollo Federation, or building real-time subscriptions. Invoke for schema design, resolvers with DataLoader, query optimization, federation directives.","category":"Design","tags":["graphql","architect","when","designing","schemas","implementing","apollo","federation","building","real","time","subscriptions.","invoke","schema","design","resolvers","dataloader","query"],"repo":"Jeffallan/claude-skills","owner":"Jeffallan","stars":11835,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1be15d8064f88fc25216442406d40add8fd23b53","path":"skills/graphql-architect","sourceUrl":"https://github.com/Jeffallan/claude-skills/tree/1be15d8064f88fc25216442406d40add8fd23b53/skills/graphql-architect","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-03T15:49:22Z","fileCount":8,"bytes":82707,"sha256":"48f2b8c386de38961810bc9849fdf8cef6d82ee1f68d0f13554e4efec4c704fe","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/graphql-architect/SKILL.md","bytes":5271,"sha256":"48f2b8c386de38961810bc9849fdf8cef6d82ee1f68d0f13554e4efec4c704fe","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/graphql-architect/SKILL.md"},{"path":"references/federation.md","sourcePath":"skills/graphql-architect/references/federation.md","bytes":9233,"sha256":"1e6d69c8f04c5361e9a9f1734c673627fff2e243c0f444c4aa2ab467a94f1c46","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/graphql-architect/references/federation.md"},{"path":"references/migration-from-rest.md","sourcePath":"skills/graphql-architect/references/migration-from-rest.md","bytes":25024,"sha256":"9945f1c60a8b8a775f02495546c855275fb7d2dfe65e17a08e439b4beeecd15d","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/graphql-architect/references/migration-from-rest.md"},{"path":"references/resolvers.md","sourcePath":"skills/graphql-architect/references/resolvers.md","bytes":10239,"sha256":"9afe8b918261aaa9f9e06414412ea321fa387112d6245f506ae2d477e6e51d25","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/graphql-architect/references/resolvers.md"},{"path":"references/schema-design.md","sourcePath":"skills/graphql-architect/references/schema-design.md","bytes":6531,"sha256":"c248fc402e41bfe50f7ee78b484f8319f30441dbaba111ff5ed620c2178ac771","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/graphql-architect/references/schema-design.md"},{"path":"references/security.md","sourcePath":"skills/graphql-architect/references/security.md","bytes":13199,"sha256":"385fc5a98ee18751e1ee5dd920aafb7daea9f41312c5e713612827846c8b4f25","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/graphql-architect/references/security.md"},{"path":"references/subscriptions.md","sourcePath":"skills/graphql-architect/references/subscriptions.md","bytes":12154,"sha256":"83f6f57a6b8692daddb319eea85e9534fa208b7c796cf9650c6042fe2dbb5ddc","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/graphql-architect/references/subscriptions.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1056,"sha256":"06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/LICENSE"}],"archiveSha256":"eae43f88c2f9b87a8e9586681bdf8643e751eb75a4ae73f04e0b438f5ef1bc54"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "jeffallan--claude-skills--graphql-architect",
+    "name": "graphql-architect",
+    "description": "Use when designing GraphQL schemas, implementing Apollo Federation, or building real-time subscriptions. Invoke for schema design, resolvers with DataLoader, query optimization, federation directives.",
+    "category": "Design",
+    "tags": [
+      "graphql",
+      "architect",
+      "when",
+      "designing",
+      "schemas",
+      "implementing",
+      "apollo",
+      "federation",
+      "building",
+      "real",
+      "time",
+      "subscriptions.",
+      "invoke",
+      "schema",
+      "design",
+      "resolvers",
+      "dataloader",
+      "query"
+    ],
+    "repo": "Jeffallan/claude-skills",
+    "owner": "Jeffallan",
+    "stars": 11835,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1be15d8064f88fc25216442406d40add8fd23b53",
+    "path": "skills/graphql-architect",
+    "sourceUrl": "https://github.com/Jeffallan/claude-skills/tree/1be15d8064f88fc25216442406d40add8fd23b53/skills/graphql-architect",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-03T15:49:22Z",
+    "fileCount": 8,
+    "bytes": 82707,
+    "sha256": "48f2b8c386de38961810bc9849fdf8cef6d82ee1f68d0f13554e4efec4c704fe",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/graphql-architect/SKILL.md",
+      "bytes": 5271,
+      "sha256": "48f2b8c386de38961810bc9849fdf8cef6d82ee1f68d0f13554e4efec4c704fe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/graphql-architect/SKILL.md"
+    },
+    {
+      "path": "references/federation.md",
+      "sourcePath": "skills/graphql-architect/references/federation.md",
+      "bytes": 9233,
+      "sha256": "1e6d69c8f04c5361e9a9f1734c673627fff2e243c0f444c4aa2ab467a94f1c46",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/graphql-architect/references/federation.md"
+    },
+    {
+      "path": "references/migration-from-rest.md",
+      "sourcePath": "skills/graphql-architect/references/migration-from-rest.md",
+      "bytes": 25024,
+      "sha256": "9945f1c60a8b8a775f02495546c855275fb7d2dfe65e17a08e439b4beeecd15d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/graphql-architect/references/migration-from-rest.md"
+    },
+    {
+      "path": "references/resolvers.md",
+      "sourcePath": "skills/graphql-architect/references/resolvers.md",
+      "bytes": 10239,
+      "sha256": "9afe8b918261aaa9f9e06414412ea321fa387112d6245f506ae2d477e6e51d25",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/graphql-architect/references/resolvers.md"
+    },
+    {
+      "path": "references/schema-design.md",
+      "sourcePath": "skills/graphql-architect/references/schema-design.md",
+      "bytes": 6531,
+      "sha256": "c248fc402e41bfe50f7ee78b484f8319f30441dbaba111ff5ed620c2178ac771",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/graphql-architect/references/schema-design.md"
+    },
+    {
+      "path": "references/security.md",
+      "sourcePath": "skills/graphql-architect/references/security.md",
+      "bytes": 13199,
+      "sha256": "385fc5a98ee18751e1ee5dd920aafb7daea9f41312c5e713612827846c8b4f25",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/graphql-architect/references/security.md"
+    },
+    {
+      "path": "references/subscriptions.md",
+      "sourcePath": "skills/graphql-architect/references/subscriptions.md",
+      "bytes": 12154,
+      "sha256": "83f6f57a6b8692daddb319eea85e9534fa208b7c796cf9650c6042fe2dbb5ddc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/graphql-architect/references/subscriptions.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1056,
+      "sha256": "06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/LICENSE"
+    }
+  ],
+  "archiveSha256": "eae43f88c2f9b87a8e9586681bdf8643e751eb75a4ae73f04e0b438f5ef1bc54"
+}

@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-github-advanced-security-for-code-scanning","name":"implementing-github-advanced-security-for-code-scanning","description":"Configures GitHub Advanced Security (code scanning with CodeQL, secret scanning, dependency review, and Dependabot alerts) to perform automated static analysis and vulnerability detection across repositories at enterprise scale, including custom CodeQL queries and CI workflow integration. Use when setting up or tuning code scanning, rolling out CodeQL across an organization, or shifting SAST left into pull request workflows.","category":"Security","tags":["implementing","github","advanced","security","code","scanning","configures","codeql","secret","dependency","review","dependabot","alerts","perform","automated","static","analysis","vulnerability"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-github-advanced-security-for-code-scanning/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-github-advanced-security-for-code-scanning","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-github-advanced-security-for-code-scanning","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":44965,"sha256":"003627b37b2a69fcc7f20c2935a7288e72e32c26c10c87f963adbcfbe01dba51","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-github-advanced-security-for-code-scanning/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-github-advanced-security-for-code-scanning/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-github-advanced-security-for-code-scanning/SKILL.md","bytes":9120,"sha256":"003627b37b2a69fcc7f20c2935a7288e72e32c26c10c87f963adbcfbe01dba51","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-github-advanced-security-for-code-scanning/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-github-advanced-security-for-code-scanning/assets/template.md","bytes":2484,"sha256":"71e47cf5748832ca37d4118e008a835f26e7f6c04897ba641cea456c81b25bfd","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-github-advanced-security-for-code-scanning/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-github-advanced-security-for-code-scanning/references/api-reference.md","bytes":1935,"sha256":"bb98e42f02f13d54ca69c5b497ec0f443175c8ec2780d0d0473eeb507becb7d3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-github-advanced-security-for-code-scanning/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-github-advanced-security-for-code-scanning/references/standards.md","bytes":2220,"sha256":"15c0cf30a7cf78578d0e0f72e44c47634149976d1153504e7ff380e3653f437f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-github-advanced-security-for-code-scanning/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-github-advanced-security-for-code-scanning/references/workflows.md","bytes":3311,"sha256":"d709136d6492d5a033b325e35cdc126eb654100f5f80cd64cb796f0509b80137","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-github-advanced-security-for-code-scanning/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-github-advanced-security-for-code-scanning/scripts/agent.py","bytes":7888,"sha256":"535a6cf673a15362afde678839d6302582c07a8233f5039f71fac353791276da","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-github-advanced-security-for-code-scanning/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-github-advanced-security-for-code-scanning/scripts/process.py","bytes":6752,"sha256":"0362ac87d2258938081445200c93fdc0158e47f94847222c1b6f768902b5d989","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-github-advanced-security-for-code-scanning/scripts/process.py"}],"archiveSha256":"25b6c3292d292a459a05065b12bab2e5d96518d1a099a35383fc2231a3b8675d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-github-advanced-security-for-code-scanning",
+    "name": "implementing-github-advanced-security-for-code-scanning",
+    "description": "Configures GitHub Advanced Security (code scanning with CodeQL, secret scanning, dependency review, and Dependabot alerts) to perform automated static analysis and vulnerability detection across repositories at enterprise scale, including custom CodeQL queries and CI workflow integration. Use when setting up or tuning code scanning, rolling out CodeQL across an organization, or shifting SAST left into pull request workflows.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "github",
+      "advanced",
+      "security",
+      "code",
+      "scanning",
+      "configures",
+      "codeql",
+      "secret",
+      "dependency",
+      "review",
+      "dependabot",
+      "alerts",
+      "perform",
+      "automated",
+      "static",
+      "analysis",
+      "vulnerability"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-github-advanced-security-for-code-scanning/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-github-advanced-security-for-code-scanning",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-github-advanced-security-for-code-scanning",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 44965,
+    "sha256": "003627b37b2a69fcc7f20c2935a7288e72e32c26c10c87f963adbcfbe01dba51",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-github-advanced-security-for-code-scanning/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-github-advanced-security-for-code-scanning/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-github-advanced-security-for-code-scanning/SKILL.md",
+      "bytes": 9120,
+      "sha256": "003627b37b2a69fcc7f20c2935a7288e72e32c26c10c87f963adbcfbe01dba51",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-github-advanced-security-for-code-scanning/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-github-advanced-security-for-code-scanning/assets/template.md",
+      "bytes": 2484,
+      "sha256": "71e47cf5748832ca37d4118e008a835f26e7f6c04897ba641cea456c81b25bfd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-github-advanced-security-for-code-scanning/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-github-advanced-security-for-code-scanning/references/api-reference.md",
+      "bytes": 1935,
+      "sha256": "bb98e42f02f13d54ca69c5b497ec0f443175c8ec2780d0d0473eeb507becb7d3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-github-advanced-security-for-code-scanning/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-github-advanced-security-for-code-scanning/references/standards.md",
+      "bytes": 2220,
+      "sha256": "15c0cf30a7cf78578d0e0f72e44c47634149976d1153504e7ff380e3653f437f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-github-advanced-security-for-code-scanning/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-github-advanced-security-for-code-scanning/references/workflows.md",
+      "bytes": 3311,
+      "sha256": "d709136d6492d5a033b325e35cdc126eb654100f5f80cd64cb796f0509b80137",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-github-advanced-security-for-code-scanning/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-github-advanced-security-for-code-scanning/scripts/agent.py",
+      "bytes": 7888,
+      "sha256": "535a6cf673a15362afde678839d6302582c07a8233f5039f71fac353791276da",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-github-advanced-security-for-code-scanning/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-github-advanced-security-for-code-scanning/scripts/process.py",
+      "bytes": 6752,
+      "sha256": "0362ac87d2258938081445200c93fdc0158e47f94847222c1b6f768902b5d989",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-github-advanced-security-for-code-scanning/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "25b6c3292d292a459a05065b12bab2e5d96518d1a099a35383fc2231a3b8675d"
+}

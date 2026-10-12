@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--convex-backend","name":"convex-backend","description":"Build reactive backends with Convex functions, schema validation, auth integration, and deployment workflows. Use when building real-time apps with type-safe server functions and automatic caching.","category":"Cloud & DevOps","tags":["convex","backend","reactive","backends","functions","schema","validation","auth","integration","deployment","workflows.","when","building","real","time","apps","type","safe"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/convex-backend","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/convex-backend","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":9906,"sha256":"982eb403ee201441600d7116f6c839a62daf194803dea51028aa8e04615d00a4","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/convex-backend/SKILL.md","bytes":8833,"sha256":"982eb403ee201441600d7116f6c839a62daf194803dea51028aa8e04615d00a4","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/convex-backend/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"02933edf2ad27325cee064069b8e97e99065bc548de2cb68935db9d854bba236"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--convex-backend",
+    "name": "convex-backend",
+    "description": "Build reactive backends with Convex functions, schema validation, auth integration, and deployment workflows. Use when building real-time apps with type-safe server functions and automatic caching.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "convex",
+      "backend",
+      "reactive",
+      "backends",
+      "functions",
+      "schema",
+      "validation",
+      "auth",
+      "integration",
+      "deployment",
+      "workflows.",
+      "when",
+      "building",
+      "real",
+      "time",
+      "apps",
+      "type",
+      "safe"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/convex-backend",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/convex-backend",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9906,
+    "sha256": "982eb403ee201441600d7116f6c839a62daf194803dea51028aa8e04615d00a4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/convex-backend/SKILL.md",
+      "bytes": 8833,
+      "sha256": "982eb403ee201441600d7116f6c839a62daf194803dea51028aa8e04615d00a4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/convex-backend/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "02933edf2ad27325cee064069b8e97e99065bc548de2cb68935db9d854bba236"
+}

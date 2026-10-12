@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--processing-stix-taxii-feeds","name":"processing-stix-taxii-feeds","description":"Processes STIX 2.1 threat intelligence bundles delivered via TAXII 2.1 servers, normalizing objects into platform-native schemas and routing them to appropriate consuming systems. Use when onboarding new TAXII collection endpoints, automating bi-directional intelligence sharing with ISACs, or building pipeline validation for malformed STIX bundles. Activates for requests involving OASIS STIX, TAXII server configuration, MISP TAXII, or Cortex XSOAR feed integrations.","category":"Security","tags":["processing","stix","taxii","feeds","processes","2.1","threat","intelligence","bundles","delivered","via","servers","normalizing","objects","into","platform","native","schemas"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/processing-stix-taxii-feeds/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/processing-stix-taxii-feeds","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/processing-stix-taxii-feeds","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":28794,"sha256":"52c6736e7c937b09dcb2a1e4acff134503b075425172e2ca1eea2a2a8c7a5fe2","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/processing-stix-taxii-feeds/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/processing-stix-taxii-feeds/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/processing-stix-taxii-feeds/SKILL.md","bytes":6888,"sha256":"52c6736e7c937b09dcb2a1e4acff134503b075425172e2ca1eea2a2a8c7a5fe2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/processing-stix-taxii-feeds/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/processing-stix-taxii-feeds/references/api-reference.md","bytes":2282,"sha256":"eb4be6455b201a38f2c0ecaa9962dffcfae9d32e5588a26acb5f7c5c7a7f9194","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/processing-stix-taxii-feeds/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/processing-stix-taxii-feeds/scripts/agent.py","bytes":8369,"sha256":"9245f324de37d2aa7e1a2cf3f0029503423f43f0de32addf11fab1d9613a2134","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/processing-stix-taxii-feeds/scripts/agent.py"}],"archiveSha256":"91b1b8d6d74b68fadb89d4ca0808a70640c009f02ce24cc41d9c090211f3a114"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--processing-stix-taxii-feeds",
+    "name": "processing-stix-taxii-feeds",
+    "description": "Processes STIX 2.1 threat intelligence bundles delivered via TAXII 2.1 servers, normalizing objects into platform-native schemas and routing them to appropriate consuming systems. Use when onboarding new TAXII collection endpoints, automating bi-directional intelligence sharing with ISACs, or building pipeline validation for malformed STIX bundles. Activates for requests involving OASIS STIX, TAXII server configuration, MISP TAXII, or Cortex XSOAR feed integrations.",
+    "category": "Security",
+    "tags": [
+      "processing",
+      "stix",
+      "taxii",
+      "feeds",
+      "processes",
+      "2.1",
+      "threat",
+      "intelligence",
+      "bundles",
+      "delivered",
+      "via",
+      "servers",
+      "normalizing",
+      "objects",
+      "into",
+      "platform",
+      "native",
+      "schemas"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/processing-stix-taxii-feeds/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/processing-stix-taxii-feeds",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/processing-stix-taxii-feeds",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 28794,
+    "sha256": "52c6736e7c937b09dcb2a1e4acff134503b075425172e2ca1eea2a2a8c7a5fe2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/processing-stix-taxii-feeds/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/processing-stix-taxii-feeds/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/processing-stix-taxii-feeds/SKILL.md",
+      "bytes": 6888,
+      "sha256": "52c6736e7c937b09dcb2a1e4acff134503b075425172e2ca1eea2a2a8c7a5fe2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/processing-stix-taxii-feeds/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/processing-stix-taxii-feeds/references/api-reference.md",
+      "bytes": 2282,
+      "sha256": "eb4be6455b201a38f2c0ecaa9962dffcfae9d32e5588a26acb5f7c5c7a7f9194",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/processing-stix-taxii-feeds/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/processing-stix-taxii-feeds/scripts/agent.py",
+      "bytes": 8369,
+      "sha256": "9245f324de37d2aa7e1a2cf3f0029503423f43f0de32addf11fab1d9613a2134",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/processing-stix-taxii-feeds/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "91b1b8d6d74b68fadb89d4ca0808a70640c009f02ce24cc41d9c090211f3a114"
+}

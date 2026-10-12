@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--configuring-tls-1-3-for-secure-communications","name":"configuring-tls-1-3-for-secure-communications","description":"Configures TLS 1.3 (RFC 8446) on servers, covering cipher suite and key-exchange group selection, and validates the resulting configuration with openssl s_client and testssl.sh. Use when deploying or hardening TLS 1.3 for secure communications, or when testing a server for common TLS misconfigurations and vulnerabilities.","category":"Security","tags":["configuring","tls","secure","communications","configures","1.3","rfc","8446","servers","covering","cipher","suite","key","exchange","group","selection","validates","resulting"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/configuring-tls-1-3-for-secure-communications/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/configuring-tls-1-3-for-secure-communications","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-tls-1-3-for-secure-communications","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":44051,"sha256":"d953d35da7393d45f097341eb350a01951e3b3ef5acc3d5a688c8036554271e0","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/configuring-tls-1-3-for-secure-communications/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-tls-1-3-for-secure-communications/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/configuring-tls-1-3-for-secure-communications/SKILL.md","bytes":4340,"sha256":"d953d35da7393d45f097341eb350a01951e3b3ef5acc3d5a688c8036554271e0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-tls-1-3-for-secure-communications/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/configuring-tls-1-3-for-secure-communications/assets/template.md","bytes":2127,"sha256":"db6df91bb9323546f4c506d1957f77a5a2d947353dfd568c0af5aaadea1b1f92","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-tls-1-3-for-secure-communications/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/configuring-tls-1-3-for-secure-communications/references/api-reference.md","bytes":1481,"sha256":"4153acf04ad627cbca4c3845368ead6400b4d5ea7465a1c80b6206d9898d3be2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-tls-1-3-for-secure-communications/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/configuring-tls-1-3-for-secure-communications/references/standards.md","bytes":2573,"sha256":"d7b3bad39024cf65786bac6c976b506ab8653e1271670cded66adfc374a4eaf9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-tls-1-3-for-secure-communications/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/configuring-tls-1-3-for-secure-communications/references/workflows.md","bytes":2304,"sha256":"db8560e119bd163839ef18ffe79efd175d4445e81bf3bca3e477e65c4bfcaf99","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-tls-1-3-for-secure-communications/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/configuring-tls-1-3-for-secure-communications/scripts/agent.py","bytes":5490,"sha256":"a62ceba726a1e70adcb05b0a1a4fcd25d4e86c6f35e462630ca579f5912d1338","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-tls-1-3-for-secure-communications/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/configuring-tls-1-3-for-secure-communications/scripts/process.py","bytes":14481,"sha256":"cf1f97ba8d22724566a7117a829ff949b6b578d8b192ce16371a634f034ee8f3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-tls-1-3-for-secure-communications/scripts/process.py"}],"archiveSha256":"df0fa2cc321b64b60ccda1c4553502cb63ef388c050522c20efa5cf78bd3d281"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--configuring-tls-1-3-for-secure-communications",
+    "name": "configuring-tls-1-3-for-secure-communications",
+    "description": "Configures TLS 1.3 (RFC 8446) on servers, covering cipher suite and key-exchange group selection, and validates the resulting configuration with openssl s_client and testssl.sh. Use when deploying or hardening TLS 1.3 for secure communications, or when testing a server for common TLS misconfigurations and vulnerabilities.",
+    "category": "Security",
+    "tags": [
+      "configuring",
+      "tls",
+      "secure",
+      "communications",
+      "configures",
+      "1.3",
+      "rfc",
+      "8446",
+      "servers",
+      "covering",
+      "cipher",
+      "suite",
+      "key",
+      "exchange",
+      "group",
+      "selection",
+      "validates",
+      "resulting"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/configuring-tls-1-3-for-secure-communications/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/configuring-tls-1-3-for-secure-communications",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-tls-1-3-for-secure-communications",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 44051,
+    "sha256": "d953d35da7393d45f097341eb350a01951e3b3ef5acc3d5a688c8036554271e0",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/configuring-tls-1-3-for-secure-communications/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-tls-1-3-for-secure-communications/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/configuring-tls-1-3-for-secure-communications/SKILL.md",
+      "bytes": 4340,
+      "sha256": "d953d35da7393d45f097341eb350a01951e3b3ef5acc3d5a688c8036554271e0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-tls-1-3-for-secure-communications/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/configuring-tls-1-3-for-secure-communications/assets/template.md",
+      "bytes": 2127,
+      "sha256": "db6df91bb9323546f4c506d1957f77a5a2d947353dfd568c0af5aaadea1b1f92",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-tls-1-3-for-secure-communications/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/configuring-tls-1-3-for-secure-communications/references/api-reference.md",
+      "bytes": 1481,
+      "sha256": "4153acf04ad627cbca4c3845368ead6400b4d5ea7465a1c80b6206d9898d3be2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-tls-1-3-for-secure-communications/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/configuring-tls-1-3-for-secure-communications/references/standards.md",
+      "bytes": 2573,
+      "sha256": "d7b3bad39024cf65786bac6c976b506ab8653e1271670cded66adfc374a4eaf9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-tls-1-3-for-secure-communications/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/configuring-tls-1-3-for-secure-communications/references/workflows.md",
+      "bytes": 2304,
+      "sha256": "db8560e119bd163839ef18ffe79efd175d4445e81bf3bca3e477e65c4bfcaf99",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-tls-1-3-for-secure-communications/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/configuring-tls-1-3-for-secure-communications/scripts/agent.py",
+      "bytes": 5490,
+      "sha256": "a62ceba726a1e70adcb05b0a1a4fcd25d4e86c6f35e462630ca579f5912d1338",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-tls-1-3-for-secure-communications/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/configuring-tls-1-3-for-secure-communications/scripts/process.py",
+      "bytes": 14481,
+      "sha256": "cf1f97ba8d22724566a7117a829ff949b6b578d8b192ce16371a634f034ee8f3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-tls-1-3-for-secure-communications/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "df0fa2cc321b64b60ccda1c4553502cb63ef388c050522c20efa5cf78bd3d281"
+}

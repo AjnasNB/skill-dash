@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--seo-technical","name":"seo-technical","description":"Audit technical SEO across crawlability, indexability, security, URLs, mobile, Core Web Vitals, structured data, JavaScript rendering, and related platform signals like robots.txt and AI crawler access.","category":"Security","tags":["seo","technical","audit","across","crawlability","indexability","security","urls","mobile","core","web","vitals","structured","data","javascript","rendering","related","platform"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/seo-technical","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-technical","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":9725,"sha256":"7ca1535f6c241d7ef1978fd64184c1f795ad2413c0b8048c8aac89bcb0f51f82","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/seo-technical/SKILL.md","bytes":8652,"sha256":"7ca1535f6c241d7ef1978fd64184c1f795ad2413c0b8048c8aac89bcb0f51f82","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-technical/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"666c5b3a705d8f5c4d1efd8bc34283c149cc4127010e97199660e88fa8165301"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--seo-technical",
+    "name": "seo-technical",
+    "description": "Audit technical SEO across crawlability, indexability, security, URLs, mobile, Core Web Vitals, structured data, JavaScript rendering, and related platform signals like robots.txt and AI crawler access.",
+    "category": "Security",
+    "tags": [
+      "seo",
+      "technical",
+      "audit",
+      "across",
+      "crawlability",
+      "indexability",
+      "security",
+      "urls",
+      "mobile",
+      "core",
+      "web",
+      "vitals",
+      "structured",
+      "data",
+      "javascript",
+      "rendering",
+      "related",
+      "platform"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/seo-technical",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-technical",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9725,
+    "sha256": "7ca1535f6c241d7ef1978fd64184c1f795ad2413c0b8048c8aac89bcb0f51f82",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/seo-technical/SKILL.md",
+      "bytes": 8652,
+      "sha256": "7ca1535f6c241d7ef1978fd64184c1f795ad2413c0b8048c8aac89bcb0f51f82",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/seo-technical/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "666c5b3a705d8f5c4d1efd8bc34283c149cc4127010e97199660e88fa8165301"
+}

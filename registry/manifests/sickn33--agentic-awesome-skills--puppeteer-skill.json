@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--puppeteer-skill","name":"puppeteer-skill","description":"Generates Puppeteer scripts for browser automation, scraping, and PDF generation. Triggers on: \"Puppeteer\", \"headless Chrome\", \"page.goto\", \"scrape\", \"PDF generation\".","category":"Documents","tags":["puppeteer","skill","generates","scripts","browser","automation","scraping","pdf","generation.","triggers","headless","chrome","page.goto","scrape","generation"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/puppeteer-skill","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/puppeteer-skill","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6008,"sha256":"75d62d3e68680ffe87ffb6456f11697d6b5f3671bcf270cd0a836ed09149e426","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/puppeteer-skill/SKILL.md","bytes":4935,"sha256":"75d62d3e68680ffe87ffb6456f11697d6b5f3671bcf270cd0a836ed09149e426","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/puppeteer-skill/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"d2b1a91273354518836330fc5159ea762d87a9c6182071bbf1ecd9f261628079"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--puppeteer-skill",
+    "name": "puppeteer-skill",
+    "description": "Generates Puppeteer scripts for browser automation, scraping, and PDF generation. Triggers on: \"Puppeteer\", \"headless Chrome\", \"page.goto\", \"scrape\", \"PDF generation\".",
+    "category": "Documents",
+    "tags": [
+      "puppeteer",
+      "skill",
+      "generates",
+      "scripts",
+      "browser",
+      "automation",
+      "scraping",
+      "pdf",
+      "generation.",
+      "triggers",
+      "headless",
+      "chrome",
+      "page.goto",
+      "scrape",
+      "generation"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/puppeteer-skill",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/puppeteer-skill",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6008,
+    "sha256": "75d62d3e68680ffe87ffb6456f11697d6b5f3671bcf270cd0a836ed09149e426",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/puppeteer-skill/SKILL.md",
+      "bytes": 4935,
+      "sha256": "75d62d3e68680ffe87ffb6456f11697d6b5f3671bcf270cd0a836ed09149e426",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/puppeteer-skill/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "d2b1a91273354518836330fc5159ea762d87a9c6182071bbf1ecd9f261628079"
+}

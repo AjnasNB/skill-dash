@@ -1,1 +1,53 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--circleci","name":"circleci","description":"Configure CircleCI workflows and orbs for continuous integration and deployment.","category":"Cloud & DevOps","tags":["circleci","configure","workflows","orbs","continuous","integration","deployment."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/circleci","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/circleci","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":10340,"sha256":"8f8fd8f37b13d2d5c4096d1a3339344185b75e195289a8d85c84018c0e9db529","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/circleci/SKILL.md","bytes":9267,"sha256":"8f8fd8f37b13d2d5c4096d1a3339344185b75e195289a8d85c84018c0e9db529","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/circleci/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"94ffa392688dc117411aa445e600a56f60349a9753a5cbc5199042ae19c40ea8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--circleci",
+    "name": "circleci",
+    "description": "Configure CircleCI workflows and orbs for continuous integration and deployment.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "circleci",
+      "configure",
+      "workflows",
+      "orbs",
+      "continuous",
+      "integration",
+      "deployment."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/circleci",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/circleci",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10340,
+    "sha256": "8f8fd8f37b13d2d5c4096d1a3339344185b75e195289a8d85c84018c0e9db529",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/circleci/SKILL.md",
+      "bytes": 9267,
+      "sha256": "8f8fd8f37b13d2d5c4096d1a3339344185b75e195289a8d85c84018c0e9db529",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/circleci/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "94ffa392688dc117411aa445e600a56f60349a9753a5cbc5199042ae19c40ea8"
+}

@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--integrating-dast-with-owasp-zap-in-pipeline","name":"integrating-dast-with-owasp-zap-in-pipeline","description":"Integrates OWASP ZAP (Zed Attack Proxy) into GitHub Actions and GitLab CI pipelines, covering baseline, full, and API scan configuration against running applications, ZAP finding interpretation, scan policy tuning, and DAST quality gates. Use when testing running web apps or REST/GraphQL APIs for XSS, SQLi, CSRF, and auth/authz flaws, or when SAST alone is insufficient and runtime DAST is required for compliance or release gating.","category":"Security","tags":["integrating","dast","owasp","zap","pipeline","integrates","zed","attack","proxy","into","github","actions","gitlab","ci","pipelines","covering","baseline","full"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/integrating-dast-with-owasp-zap-in-pipeline/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/integrating-dast-with-owasp-zap-in-pipeline","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/integrating-dast-with-owasp-zap-in-pipeline","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":41548,"sha256":"d7abc8a0f986b6459d323fb1f2f8b7f8bede347dbcc6b444bb4290646e13b19d","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/integrating-dast-with-owasp-zap-in-pipeline/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/integrating-dast-with-owasp-zap-in-pipeline/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/integrating-dast-with-owasp-zap-in-pipeline/SKILL.md","bytes":8368,"sha256":"d7abc8a0f986b6459d323fb1f2f8b7f8bede347dbcc6b444bb4290646e13b19d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/integrating-dast-with-owasp-zap-in-pipeline/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/integrating-dast-with-owasp-zap-in-pipeline/assets/template.md","bytes":2410,"sha256":"d4628f628ed47cec7725fedb2f19e367b62f754396ada452be7d07bb27282cab","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/integrating-dast-with-owasp-zap-in-pipeline/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/integrating-dast-with-owasp-zap-in-pipeline/references/api-reference.md","bytes":1496,"sha256":"109e418452b0b418313159b2081566de10f69271afaff527d19edc54e42f2c4f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/integrating-dast-with-owasp-zap-in-pipeline/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/integrating-dast-with-owasp-zap-in-pipeline/references/standards.md","bytes":1412,"sha256":"75debcd828630070b920f7ef377dae6087628eebfc2ed4deb613692607edbf7b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/integrating-dast-with-owasp-zap-in-pipeline/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/integrating-dast-with-owasp-zap-in-pipeline/references/workflows.md","bytes":2443,"sha256":"9192c99835fe6f479e4eb536752825ee14919bf10397341cba26745175262832","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/integrating-dast-with-owasp-zap-in-pipeline/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/integrating-dast-with-owasp-zap-in-pipeline/scripts/agent.py","bytes":6106,"sha256":"f661cc112da1a63d04c3b0201ac33cfafd0a3d37271da974c33d30211a19fd6b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/integrating-dast-with-owasp-zap-in-pipeline/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/integrating-dast-with-owasp-zap-in-pipeline/scripts/process.py","bytes":8058,"sha256":"b87a55c03ff52f85ea32b8f705c63865f389bf330411b6bb08f68817864afe17","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/integrating-dast-with-owasp-zap-in-pipeline/scripts/process.py"}],"archiveSha256":"c13b30fcaff260bfd48976f0725be729d7078ad6ee5bc9d8bb59e759dd22345a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--integrating-dast-with-owasp-zap-in-pipeline",
+    "name": "integrating-dast-with-owasp-zap-in-pipeline",
+    "description": "Integrates OWASP ZAP (Zed Attack Proxy) into GitHub Actions and GitLab CI pipelines, covering baseline, full, and API scan configuration against running applications, ZAP finding interpretation, scan policy tuning, and DAST quality gates. Use when testing running web apps or REST/GraphQL APIs for XSS, SQLi, CSRF, and auth/authz flaws, or when SAST alone is insufficient and runtime DAST is required for compliance or release gating.",
+    "category": "Security",
+    "tags": [
+      "integrating",
+      "dast",
+      "owasp",
+      "zap",
+      "pipeline",
+      "integrates",
+      "zed",
+      "attack",
+      "proxy",
+      "into",
+      "github",
+      "actions",
+      "gitlab",
+      "ci",
+      "pipelines",
+      "covering",
+      "baseline",
+      "full"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/integrating-dast-with-owasp-zap-in-pipeline/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/integrating-dast-with-owasp-zap-in-pipeline",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/integrating-dast-with-owasp-zap-in-pipeline",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 41548,
+    "sha256": "d7abc8a0f986b6459d323fb1f2f8b7f8bede347dbcc6b444bb4290646e13b19d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/integrating-dast-with-owasp-zap-in-pipeline/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/integrating-dast-with-owasp-zap-in-pipeline/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/integrating-dast-with-owasp-zap-in-pipeline/SKILL.md",
+      "bytes": 8368,
+      "sha256": "d7abc8a0f986b6459d323fb1f2f8b7f8bede347dbcc6b444bb4290646e13b19d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/integrating-dast-with-owasp-zap-in-pipeline/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/integrating-dast-with-owasp-zap-in-pipeline/assets/template.md",
+      "bytes": 2410,
+      "sha256": "d4628f628ed47cec7725fedb2f19e367b62f754396ada452be7d07bb27282cab",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/integrating-dast-with-owasp-zap-in-pipeline/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/integrating-dast-with-owasp-zap-in-pipeline/references/api-reference.md",
+      "bytes": 1496,
+      "sha256": "109e418452b0b418313159b2081566de10f69271afaff527d19edc54e42f2c4f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/integrating-dast-with-owasp-zap-in-pipeline/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/integrating-dast-with-owasp-zap-in-pipeline/references/standards.md",
+      "bytes": 1412,
+      "sha256": "75debcd828630070b920f7ef377dae6087628eebfc2ed4deb613692607edbf7b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/integrating-dast-with-owasp-zap-in-pipeline/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/integrating-dast-with-owasp-zap-in-pipeline/references/workflows.md",
+      "bytes": 2443,
+      "sha256": "9192c99835fe6f479e4eb536752825ee14919bf10397341cba26745175262832",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/integrating-dast-with-owasp-zap-in-pipeline/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/integrating-dast-with-owasp-zap-in-pipeline/scripts/agent.py",
+      "bytes": 6106,
+      "sha256": "f661cc112da1a63d04c3b0201ac33cfafd0a3d37271da974c33d30211a19fd6b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/integrating-dast-with-owasp-zap-in-pipeline/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/integrating-dast-with-owasp-zap-in-pipeline/scripts/process.py",
+      "bytes": 8058,
+      "sha256": "b87a55c03ff52f85ea32b8f705c63865f389bf330411b6bb08f68817864afe17",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/integrating-dast-with-owasp-zap-in-pipeline/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "c13b30fcaff260bfd48976f0725be729d7078ad6ee5bc9d8bb59e759dd22345a"
+}

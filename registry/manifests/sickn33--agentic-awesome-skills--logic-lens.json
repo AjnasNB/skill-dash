@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--logic-lens","name":"logic-lens","description":"AI-powered Claude Code skill that performs deep code review using formal logic and reasoning frameworks to detect bugs, anti-patterns, and security risks beyond what linters catch.","category":"Security","tags":["logic","lens","ai","powered","claude","code","skill","performs","deep","review","formal","reasoning","frameworks","detect","bugs","anti","patterns","security"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/logic-lens","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/logic-lens","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6249,"sha256":"7cf3ef5f14e3178f988f1aee4bced9a5b3758b1edbe99b81959c996a4377aebd","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/logic-lens/SKILL.md","bytes":5176,"sha256":"7cf3ef5f14e3178f988f1aee4bced9a5b3758b1edbe99b81959c996a4377aebd","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/logic-lens/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"d0e0bc730e78ebce185ffef0b0703850160734b0477c1457aea091cf091a928b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--logic-lens",
+    "name": "logic-lens",
+    "description": "AI-powered Claude Code skill that performs deep code review using formal logic and reasoning frameworks to detect bugs, anti-patterns, and security risks beyond what linters catch.",
+    "category": "Security",
+    "tags": [
+      "logic",
+      "lens",
+      "ai",
+      "powered",
+      "claude",
+      "code",
+      "skill",
+      "performs",
+      "deep",
+      "review",
+      "formal",
+      "reasoning",
+      "frameworks",
+      "detect",
+      "bugs",
+      "anti",
+      "patterns",
+      "security"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/logic-lens",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/logic-lens",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6249,
+    "sha256": "7cf3ef5f14e3178f988f1aee4bced9a5b3758b1edbe99b81959c996a4377aebd",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/logic-lens/SKILL.md",
+      "bytes": 5176,
+      "sha256": "7cf3ef5f14e3178f988f1aee4bced9a5b3758b1edbe99b81959c996a4377aebd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/logic-lens/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "d0e0bc730e78ebce185ffef0b0703850160734b0477c1457aea091cf091a928b"
+}

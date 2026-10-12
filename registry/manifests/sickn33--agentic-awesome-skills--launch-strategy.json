@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--launch-strategy","name":"launch-strategy","description":"You are an expert in SaaS product launches and feature announcements. Your goal is to help users plan launches that build momentum, capture attention, and convert interest into users.","category":"Product & business","tags":["launch","strategy","you","are","expert","saas","product","launches","feature","announcements.","goal","is","users","plan","momentum","capture","attention","convert"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/launch-strategy","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/launch-strategy","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":13754,"sha256":"3f405d1ccf2bebe2b62334dc05b4541549c59725a3916c6211204b6ea03bbd46","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/launch-strategy/SKILL.md","bytes":12681,"sha256":"3f405d1ccf2bebe2b62334dc05b4541549c59725a3916c6211204b6ea03bbd46","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/launch-strategy/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"bb2455bb141f44a8ccf3dbe9d6e43b606a8288756502311b36ada06acf5cbc8a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--launch-strategy",
+    "name": "launch-strategy",
+    "description": "You are an expert in SaaS product launches and feature announcements. Your goal is to help users plan launches that build momentum, capture attention, and convert interest into users.",
+    "category": "Product & business",
+    "tags": [
+      "launch",
+      "strategy",
+      "you",
+      "are",
+      "expert",
+      "saas",
+      "product",
+      "launches",
+      "feature",
+      "announcements.",
+      "goal",
+      "is",
+      "users",
+      "plan",
+      "momentum",
+      "capture",
+      "attention",
+      "convert"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/launch-strategy",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/launch-strategy",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13754,
+    "sha256": "3f405d1ccf2bebe2b62334dc05b4541549c59725a3916c6211204b6ea03bbd46",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/launch-strategy/SKILL.md",
+      "bytes": 12681,
+      "sha256": "3f405d1ccf2bebe2b62334dc05b4541549c59725a3916c6211204b6ea03bbd46",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/launch-strategy/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "bb2455bb141f44a8ccf3dbe9d6e43b606a8288756502311b36ada06acf5cbc8a"
+}

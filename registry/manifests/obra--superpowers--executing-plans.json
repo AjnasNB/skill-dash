@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"obra--superpowers--executing-plans","name":"executing-plans","description":"Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose inline execution, or no subagent tool is available","category":"Development","tags":["executing","plans","when","implementation","plan","current","session","as","implementer","yourself","human","partner","chose","inline","execution","no","subagent","tool"],"repo":"obra/superpowers","owner":"obra","stars":297960,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"bb92a77741419a4ab5f06e711a283343f1ada0c3","path":"skills/executing-plans","sourceUrl":"https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/executing-plans","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-10T00:28:04Z","fileCount":4,"bytes":24130,"sha256":"f38e8f2ddcf079f65493adc713c1fed78421dfaf5f4dbf6b3a6b2b1d95466e71","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/executing-plans/SKILL.md","bytes":20405,"sha256":"f38e8f2ddcf079f65493adc713c1fed78421dfaf5f4dbf6b3a6b2b1d95466e71","mode":420,"url":"https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/executing-plans/SKILL.md"},{"path":"scripts/task-done","sourcePath":"skills/executing-plans/scripts/task-done","bytes":1692,"sha256":"d0d4f2397c85a4426443ea955e699ef12568b41b408ec6122d4ec2433ee3a5f6","mode":493,"url":"https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/executing-plans/scripts/task-done"},{"path":"scripts/task-start","sourcePath":"skills/executing-plans/scripts/task-start","bytes":963,"sha256":"f833693c8fce3700fc9f841562d80f8015cd40f652c168a3405ac3e46947a1fe","mode":493,"url":"https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/executing-plans/scripts/task-start"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1070,"sha256":"a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400","mode":420,"url":"https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/LICENSE"}],"archiveSha256":"f7c00abdb14419c353e84ff3313eeabdafc76ff21f46a282df0cbf351539e309"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "obra--superpowers--executing-plans",
+    "name": "executing-plans",
+    "description": "Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose inline execution, or no subagent tool is available",
+    "category": "Development",
+    "tags": [
+      "executing",
+      "plans",
+      "when",
+      "implementation",
+      "plan",
+      "current",
+      "session",
+      "as",
+      "implementer",
+      "yourself",
+      "human",
+      "partner",
+      "chose",
+      "inline",
+      "execution",
+      "no",
+      "subagent",
+      "tool"
+    ],
+    "repo": "obra/superpowers",
+    "owner": "obra",
+    "stars": 297960,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "skills/executing-plans",
+    "sourceUrl": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/executing-plans",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-10T00:28:04Z",
+    "fileCount": 4,
+    "bytes": 24130,
+    "sha256": "f38e8f2ddcf079f65493adc713c1fed78421dfaf5f4dbf6b3a6b2b1d95466e71",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/executing-plans/SKILL.md",
+      "bytes": 20405,
+      "sha256": "f38e8f2ddcf079f65493adc713c1fed78421dfaf5f4dbf6b3a6b2b1d95466e71",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/executing-plans/SKILL.md"
+    },
+    {
+      "path": "scripts/task-done",
+      "sourcePath": "skills/executing-plans/scripts/task-done",
+      "bytes": 1692,
+      "sha256": "d0d4f2397c85a4426443ea955e699ef12568b41b408ec6122d4ec2433ee3a5f6",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/executing-plans/scripts/task-done"
+    },
+    {
+      "path": "scripts/task-start",
+      "sourcePath": "skills/executing-plans/scripts/task-start",
+      "bytes": 963,
+      "sha256": "f833693c8fce3700fc9f841562d80f8015cd40f652c168a3405ac3e46947a1fe",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/executing-plans/scripts/task-start"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1070,
+      "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/LICENSE"
+    }
+  ],
+  "archiveSha256": "f7c00abdb14419c353e84ff3313eeabdafc76ff21f46a282df0cbf351539e309"
+}

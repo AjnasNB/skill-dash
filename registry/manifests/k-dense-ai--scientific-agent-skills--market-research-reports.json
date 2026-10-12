@@ -1,1 +1,264 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--market-research-reports","name":"market-research-reports","description":"Builds evidence-traceable market research reports and assumption-driven market sizing or forecast scenarios. Use for market definition, industry and customer evidence, competitive landscapes, TAM/SAM/SOM reconciliation, forecast sensitivity, and auditable report scaffolds.","category":"Data & research","tags":["market","research","reports","builds","evidence","traceable","assumption","driven","sizing","forecast","scenarios.","definition","industry","customer","competitive","landscapes","tam","sam"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/market-research-reports","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":27,"bytes":194306,"sha256":"8fba27d8509bb95caade7ef856d83ddbd7e51303590f5f2db149b0270cf6fd40","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/market-research-reports/SKILL.md","bytes":15349,"sha256":"8fba27d8509bb95caade7ef856d83ddbd7e51303590f5f2db149b0270cf6fd40","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/SKILL.md"},{"path":"assets/FORMATTING_GUIDE.md","sourcePath":"skills/market-research-reports/assets/FORMATTING_GUIDE.md","bytes":5906,"sha256":"1cdf272eefe81ae679ce6f02ba3bb9036cd97283680dd55293abbf3f9f659e82","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/assets/FORMATTING_GUIDE.md"},{"path":"assets/claims_ledger_template.csv","sourcePath":"skills/market-research-reports/assets/claims_ledger_template.csv","bytes":957,"sha256":"ff8daf6e418713a51a1a13c6ccff88e3f5716b2cc098b9a4c4385653bb731348","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/assets/claims_ledger_template.csv"},{"path":"assets/competitor_feature_matrix_template.csv","sourcePath":"skills/market-research-reports/assets/competitor_feature_matrix_template.csv","bytes":683,"sha256":"721fbe2dee19ab4e611ae10899cb0492773b74a7a8e32fb0e9eaef9cfd56a690","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/assets/competitor_feature_matrix_template.csv"},{"path":"assets/consistency_check_template.csv","sourcePath":"skills/market-research-reports/assets/consistency_check_template.csv","bytes":432,"sha256":"8bd009d185eb415640f14ffc1a0dc3a123a724390a729b6f4a3979db6c9329f4","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/assets/consistency_check_template.csv"},{"path":"assets/forecast_sensitivity_template.json","sourcePath":"skills/market-research-reports/assets/forecast_sensitivity_template.json","bytes":1807,"sha256":"f29a38e188c01cca6e52ce860424fe08905460e5505f1ac89528357e18fdf0b6","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/assets/forecast_sensitivity_template.json"},{"path":"assets/market_report_template.tex","sourcePath":"skills/market-research-reports/assets/market_report_template.tex","bytes":10045,"sha256":"bcc98b71a10ef726c364142512fc6f95af9496d8a8e87f39c09295ce4691a9cb","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/assets/market_report_template.tex"},{"path":"assets/market_research.sty","sourcePath":"skills/market-research-reports/assets/market_research.sty","bytes":6501,"sha256":"ce12c00746086c1385676cd863baf0802f3c1d923ad7f2312e96bfbf42ce6518","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/assets/market_research.sty"},{"path":"assets/market_sizing_scenarios_template.json","sourcePath":"skills/market-research-reports/assets/market_sizing_scenarios_template.json","bytes":3177,"sha256":"58722edb120d11273e3b121a8a1d2fa122c33c21d242c3efae7d6094e8f25817","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/assets/market_sizing_scenarios_template.json"},{"path":"assets/report_manifest_template.json","sourcePath":"skills/market-research-reports/assets/report_manifest_template.json","bytes":882,"sha256":"6d06ce899066bce3ea14e0a6bfc8b352d0d43591f9ca3672bd54c42e12ad1ca4","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/assets/report_manifest_template.json"},{"path":"assets/source_ledger_template.csv","sourcePath":"skills/market-research-reports/assets/source_ledger_template.csv","bytes":1353,"sha256":"a2e10d3ab743a6e879b43efb47c3069104d45f68898b1ab71ac2ca1f161f8ad7","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/assets/source_ledger_template.csv"},{"path":"references/data_analysis_patterns.md","sourcePath":"skills/market-research-reports/references/data_analysis_patterns.md","bytes":10025,"sha256":"af33ed9575d0c44e47a220b8234be904b47f2741a7f3276c521d32f6d2bcf399","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/references/data_analysis_patterns.md"},{"path":"references/evidence_model.md","sourcePath":"skills/market-research-reports/references/evidence_model.md","bytes":6139,"sha256":"180631d70e9602c995f4e001ed9305d928d10441a6dc396df924a88f7c03d2a1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/references/evidence_model.md"},{"path":"references/methods_and_ethics.md","sourcePath":"skills/market-research-reports/references/methods_and_ethics.md","bytes":8087,"sha256":"e0e8321f18b8bc497041c1f2c4ba3d09414118d06f6d8f84719c9389a887920d","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/references/methods_and_ethics.md"},{"path":"references/official_data_sources.md","sourcePath":"skills/market-research-reports/references/official_data_sources.md","bytes":10797,"sha256":"f14ab8c055011b731d838288d4dd9c8dc2c2d81b51e9f448ae4a27cbebd03499","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/references/official_data_sources.md"},{"path":"references/report_structure_guide.md","sourcePath":"skills/market-research-reports/references/report_structure_guide.md","bytes":8630,"sha256":"0b8d3dd6821b9cafa35f6a9739e31e46f965ba4994077a205f1bfa7c8fd9417d","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/references/report_structure_guide.md"},{"path":"references/sources.md","sourcePath":"skills/market-research-reports/references/sources.md","bytes":10716,"sha256":"96ef07f4797181016efa4775c767e69cb06800917fc4bc1e25b66340bcad6f01","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/references/sources.md"},{"path":"references/visual_generation_guide.md","sourcePath":"skills/market-research-reports/references/visual_generation_guide.md","bytes":5237,"sha256":"45315257e787ae313fa263984e5ec923811568306e6f08fc9fbf5ee5ac9c9b31","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/references/visual_generation_guide.md"},{"path":"scripts/_common.py","sourcePath":"skills/market-research-reports/scripts/_common.py","bytes":11213,"sha256":"ec1f8424e6f9bc147e8c0e17228cd277512678ba811c94388c19be004e6970ed","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/scripts/_common.py"},{"path":"scripts/audit_claim_citations.py","sourcePath":"skills/market-research-reports/scripts/audit_claim_citations.py","bytes":11051,"sha256":"4a6a8f254838aaefe6d14bf38e0bdb2b03bafb9e1ca93afec873527bf0c2b054","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/scripts/audit_claim_citations.py"},{"path":"scripts/calculate_market_sizing.py","sourcePath":"skills/market-research-reports/scripts/calculate_market_sizing.py","bytes":13738,"sha256":"aa6daa9b80707099572cdf513d519fa15836c0bd6c72ba7123d83282b4949c0f","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/scripts/calculate_market_sizing.py"},{"path":"scripts/check_unit_consistency.py","sourcePath":"skills/market-research-reports/scripts/check_unit_consistency.py","bytes":7118,"sha256":"e7ae86dc78556d3570b920d6187a5dc3b483382c5f48f2bcfac6db4630fc6bf6","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/scripts/check_unit_consistency.py"},{"path":"scripts/forecast_sensitivity.py","sourcePath":"skills/market-research-reports/scripts/forecast_sensitivity.py","bytes":11102,"sha256":"a8580d913613fb4432329d8cf49b92072e168420db3b23a35ce64ee0274b00f6","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/scripts/forecast_sensitivity.py"},{"path":"scripts/generate_report_scaffold.py","sourcePath":"skills/market-research-reports/scripts/generate_report_scaffold.py","bytes":15284,"sha256":"5711c19340316cf2ba26ace356ebaa13525fa74c13963fba4c9ccd014953e95d","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/scripts/generate_report_scaffold.py"},{"path":"scripts/validate_competitor_matrix.py","sourcePath":"skills/market-research-reports/scripts/validate_competitor_matrix.py","bytes":7807,"sha256":"ff5359654e66a6a291aa62deb54322ccc8082311c8a3a15fec2e9c6b6bbb440a","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/scripts/validate_competitor_matrix.py"},{"path":"scripts/validate_evidence_ledger.py","sourcePath":"skills/market-research-reports/scripts/validate_evidence_ledger.py","bytes":9202,"sha256":"c1176271a8a9d3b41363f187dbec55a60c481e39bba8356e4ecde30ec32cc3d5","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/scripts/validate_evidence_ledger.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"9ea132de260208e97ae9b1c3be72c2b416786d52f385e13c6a2855edbec9afdc"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--market-research-reports",
+    "name": "market-research-reports",
+    "description": "Builds evidence-traceable market research reports and assumption-driven market sizing or forecast scenarios. Use for market definition, industry and customer evidence, competitive landscapes, TAM/SAM/SOM reconciliation, forecast sensitivity, and auditable report scaffolds.",
+    "category": "Data & research",
+    "tags": [
+      "market",
+      "research",
+      "reports",
+      "builds",
+      "evidence",
+      "traceable",
+      "assumption",
+      "driven",
+      "sizing",
+      "forecast",
+      "scenarios.",
+      "definition",
+      "industry",
+      "customer",
+      "competitive",
+      "landscapes",
+      "tam",
+      "sam"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/market-research-reports",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 27,
+    "bytes": 194306,
+    "sha256": "8fba27d8509bb95caade7ef856d83ddbd7e51303590f5f2db149b0270cf6fd40",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/market-research-reports/SKILL.md",
+      "bytes": 15349,
+      "sha256": "8fba27d8509bb95caade7ef856d83ddbd7e51303590f5f2db149b0270cf6fd40",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/SKILL.md"
+    },
+    {
+      "path": "assets/FORMATTING_GUIDE.md",
+      "sourcePath": "skills/market-research-reports/assets/FORMATTING_GUIDE.md",
+      "bytes": 5906,
+      "sha256": "1cdf272eefe81ae679ce6f02ba3bb9036cd97283680dd55293abbf3f9f659e82",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/assets/FORMATTING_GUIDE.md"
+    },
+    {
+      "path": "assets/claims_ledger_template.csv",
+      "sourcePath": "skills/market-research-reports/assets/claims_ledger_template.csv",
+      "bytes": 957,
+      "sha256": "ff8daf6e418713a51a1a13c6ccff88e3f5716b2cc098b9a4c4385653bb731348",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/assets/claims_ledger_template.csv"
+    },
+    {
+      "path": "assets/competitor_feature_matrix_template.csv",
+      "sourcePath": "skills/market-research-reports/assets/competitor_feature_matrix_template.csv",
+      "bytes": 683,
+      "sha256": "721fbe2dee19ab4e611ae10899cb0492773b74a7a8e32fb0e9eaef9cfd56a690",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/assets/competitor_feature_matrix_template.csv"
+    },
+    {
+      "path": "assets/consistency_check_template.csv",
+      "sourcePath": "skills/market-research-reports/assets/consistency_check_template.csv",
+      "bytes": 432,
+      "sha256": "8bd009d185eb415640f14ffc1a0dc3a123a724390a729b6f4a3979db6c9329f4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/assets/consistency_check_template.csv"
+    },
+    {
+      "path": "assets/forecast_sensitivity_template.json",
+      "sourcePath": "skills/market-research-reports/assets/forecast_sensitivity_template.json",
+      "bytes": 1807,
+      "sha256": "f29a38e188c01cca6e52ce860424fe08905460e5505f1ac89528357e18fdf0b6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/assets/forecast_sensitivity_template.json"
+    },
+    {
+      "path": "assets/market_report_template.tex",
+      "sourcePath": "skills/market-research-reports/assets/market_report_template.tex",
+      "bytes": 10045,
+      "sha256": "bcc98b71a10ef726c364142512fc6f95af9496d8a8e87f39c09295ce4691a9cb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/assets/market_report_template.tex"
+    },
+    {
+      "path": "assets/market_research.sty",
+      "sourcePath": "skills/market-research-reports/assets/market_research.sty",
+      "bytes": 6501,
+      "sha256": "ce12c00746086c1385676cd863baf0802f3c1d923ad7f2312e96bfbf42ce6518",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/assets/market_research.sty"
+    },
+    {
+      "path": "assets/market_sizing_scenarios_template.json",
+      "sourcePath": "skills/market-research-reports/assets/market_sizing_scenarios_template.json",
+      "bytes": 3177,
+      "sha256": "58722edb120d11273e3b121a8a1d2fa122c33c21d242c3efae7d6094e8f25817",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/assets/market_sizing_scenarios_template.json"
+    },
+    {
+      "path": "assets/report_manifest_template.json",
+      "sourcePath": "skills/market-research-reports/assets/report_manifest_template.json",
+      "bytes": 882,
+      "sha256": "6d06ce899066bce3ea14e0a6bfc8b352d0d43591f9ca3672bd54c42e12ad1ca4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/assets/report_manifest_template.json"
+    },
+    {
+      "path": "assets/source_ledger_template.csv",
+      "sourcePath": "skills/market-research-reports/assets/source_ledger_template.csv",
+      "bytes": 1353,
+      "sha256": "a2e10d3ab743a6e879b43efb47c3069104d45f68898b1ab71ac2ca1f161f8ad7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/assets/source_ledger_template.csv"
+    },
+    {
+      "path": "references/data_analysis_patterns.md",
+      "sourcePath": "skills/market-research-reports/references/data_analysis_patterns.md",
+      "bytes": 10025,
+      "sha256": "af33ed9575d0c44e47a220b8234be904b47f2741a7f3276c521d32f6d2bcf399",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/references/data_analysis_patterns.md"
+    },
+    {
+      "path": "references/evidence_model.md",
+      "sourcePath": "skills/market-research-reports/references/evidence_model.md",
+      "bytes": 6139,
+      "sha256": "180631d70e9602c995f4e001ed9305d928d10441a6dc396df924a88f7c03d2a1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/references/evidence_model.md"
+    },
+    {
+      "path": "references/methods_and_ethics.md",
+      "sourcePath": "skills/market-research-reports/references/methods_and_ethics.md",
+      "bytes": 8087,
+      "sha256": "e0e8321f18b8bc497041c1f2c4ba3d09414118d06f6d8f84719c9389a887920d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/references/methods_and_ethics.md"
+    },
+    {
+      "path": "references/official_data_sources.md",
+      "sourcePath": "skills/market-research-reports/references/official_data_sources.md",
+      "bytes": 10797,
+      "sha256": "f14ab8c055011b731d838288d4dd9c8dc2c2d81b51e9f448ae4a27cbebd03499",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/references/official_data_sources.md"
+    },
+    {
+      "path": "references/report_structure_guide.md",
+      "sourcePath": "skills/market-research-reports/references/report_structure_guide.md",
+      "bytes": 8630,
+      "sha256": "0b8d3dd6821b9cafa35f6a9739e31e46f965ba4994077a205f1bfa7c8fd9417d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/references/report_structure_guide.md"
+    },
+    {
+      "path": "references/sources.md",
+      "sourcePath": "skills/market-research-reports/references/sources.md",
+      "bytes": 10716,
+      "sha256": "96ef07f4797181016efa4775c767e69cb06800917fc4bc1e25b66340bcad6f01",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/references/sources.md"
+    },
+    {
+      "path": "references/visual_generation_guide.md",
+      "sourcePath": "skills/market-research-reports/references/visual_generation_guide.md",
+      "bytes": 5237,
+      "sha256": "45315257e787ae313fa263984e5ec923811568306e6f08fc9fbf5ee5ac9c9b31",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/references/visual_generation_guide.md"
+    },
+    {
+      "path": "scripts/_common.py",
+      "sourcePath": "skills/market-research-reports/scripts/_common.py",
+      "bytes": 11213,
+      "sha256": "ec1f8424e6f9bc147e8c0e17228cd277512678ba811c94388c19be004e6970ed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/scripts/_common.py"
+    },
+    {
+      "path": "scripts/audit_claim_citations.py",
+      "sourcePath": "skills/market-research-reports/scripts/audit_claim_citations.py",
+      "bytes": 11051,
+      "sha256": "4a6a8f254838aaefe6d14bf38e0bdb2b03bafb9e1ca93afec873527bf0c2b054",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/scripts/audit_claim_citations.py"
+    },
+    {
+      "path": "scripts/calculate_market_sizing.py",
+      "sourcePath": "skills/market-research-reports/scripts/calculate_market_sizing.py",
+      "bytes": 13738,
+      "sha256": "aa6daa9b80707099572cdf513d519fa15836c0bd6c72ba7123d83282b4949c0f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/scripts/calculate_market_sizing.py"
+    },
+    {
+      "path": "scripts/check_unit_consistency.py",
+      "sourcePath": "skills/market-research-reports/scripts/check_unit_consistency.py",
+      "bytes": 7118,
+      "sha256": "e7ae86dc78556d3570b920d6187a5dc3b483382c5f48f2bcfac6db4630fc6bf6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/scripts/check_unit_consistency.py"
+    },
+    {
+      "path": "scripts/forecast_sensitivity.py",
+      "sourcePath": "skills/market-research-reports/scripts/forecast_sensitivity.py",
+      "bytes": 11102,
+      "sha256": "a8580d913613fb4432329d8cf49b92072e168420db3b23a35ce64ee0274b00f6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/scripts/forecast_sensitivity.py"
+    },
+    {
+      "path": "scripts/generate_report_scaffold.py",
+      "sourcePath": "skills/market-research-reports/scripts/generate_report_scaffold.py",
+      "bytes": 15284,
+      "sha256": "5711c19340316cf2ba26ace356ebaa13525fa74c13963fba4c9ccd014953e95d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/scripts/generate_report_scaffold.py"
+    },
+    {
+      "path": "scripts/validate_competitor_matrix.py",
+      "sourcePath": "skills/market-research-reports/scripts/validate_competitor_matrix.py",
+      "bytes": 7807,
+      "sha256": "ff5359654e66a6a291aa62deb54322ccc8082311c8a3a15fec2e9c6b6bbb440a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/scripts/validate_competitor_matrix.py"
+    },
+    {
+      "path": "scripts/validate_evidence_ledger.py",
+      "sourcePath": "skills/market-research-reports/scripts/validate_evidence_ledger.py",
+      "bytes": 9202,
+      "sha256": "c1176271a8a9d3b41363f187dbec55a60c481e39bba8356e4ecde30ec32cc3d5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/market-research-reports/scripts/validate_evidence_ledger.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "9ea132de260208e97ae9b1c3be72c2b416786d52f385e13c6a2855edbec9afdc"
+}

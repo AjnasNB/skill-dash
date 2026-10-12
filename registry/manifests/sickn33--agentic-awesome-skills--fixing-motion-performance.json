@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--fixing-motion-performance","name":"fixing-motion-performance","description":"Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.","category":"Design","tags":["fixing","motion","performance","audit","fix","animation","issues","including","layout","thrashing","compositor","properties","scroll","linked","blur","effects.","when","animations"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/fixing-motion-performance","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fixing-motion-performance","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7546,"sha256":"027e3332720dbc40409241ad675d6f62b6442dac80068100838eb0e1d6f12de6","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/fixing-motion-performance/SKILL.md","bytes":6473,"sha256":"027e3332720dbc40409241ad675d6f62b6442dac80068100838eb0e1d6f12de6","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fixing-motion-performance/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"ed3d90fef00e013eb96d85357c359c44661b86492b24408d9dfd1354ce57dfda"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--fixing-motion-performance",
+    "name": "fixing-motion-performance",
+    "description": "Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.",
+    "category": "Design",
+    "tags": [
+      "fixing",
+      "motion",
+      "performance",
+      "audit",
+      "fix",
+      "animation",
+      "issues",
+      "including",
+      "layout",
+      "thrashing",
+      "compositor",
+      "properties",
+      "scroll",
+      "linked",
+      "blur",
+      "effects.",
+      "when",
+      "animations"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/fixing-motion-performance",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fixing-motion-performance",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7546,
+    "sha256": "027e3332720dbc40409241ad675d6f62b6442dac80068100838eb0e1d6f12de6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/fixing-motion-performance/SKILL.md",
+      "bytes": 6473,
+      "sha256": "027e3332720dbc40409241ad675d6f62b6442dac80068100838eb0e1d6f12de6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fixing-motion-performance/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ed3d90fef00e013eb96d85357c359c44661b86492b24408d9dfd1354ce57dfda"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--pr-screenshots","name":"pr-screenshots","description":"Embed before/after screenshots and annotated images in pull request descriptions. Covers PR description patterns, image upload for Azure DevOps and GitHub, and sizing best practices.","category":"Cloud & DevOps","tags":["pr","screenshots","embed","before","after","annotated","images","pull","request","descriptions.","covers","description","patterns","image","upload","azure","devops","github"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/pr-screenshots","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/pr-screenshots","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":5983,"sha256":"9f385d36d5341c16005ed107568b9826ebdf5c9cd4475bfb1a4226defc641622","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/pr-screenshots/SKILL.md","bytes":4924,"sha256":"9f385d36d5341c16005ed107568b9826ebdf5c9cd4475bfb1a4226defc641622","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/pr-screenshots/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"f83aa865f428fd0ec7081c5884a48dc4a1f3b266b891ef724fe0d7472156fa9b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--pr-screenshots",
+    "name": "pr-screenshots",
+    "description": "Embed before/after screenshots and annotated images in pull request descriptions. Covers PR description patterns, image upload for Azure DevOps and GitHub, and sizing best practices.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "pr",
+      "screenshots",
+      "embed",
+      "before",
+      "after",
+      "annotated",
+      "images",
+      "pull",
+      "request",
+      "descriptions.",
+      "covers",
+      "description",
+      "patterns",
+      "image",
+      "upload",
+      "azure",
+      "devops",
+      "github"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/pr-screenshots",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/pr-screenshots",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 5983,
+    "sha256": "9f385d36d5341c16005ed107568b9826ebdf5c9cd4475bfb1a4226defc641622",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/pr-screenshots/SKILL.md",
+      "bytes": 4924,
+      "sha256": "9f385d36d5341c16005ed107568b9826ebdf5c9cd4475bfb1a4226defc641622",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/pr-screenshots/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "f83aa865f428fd0ec7081c5884a48dc4a1f3b266b891ef724fe0d7472156fa9b"
+}

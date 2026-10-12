@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--ai-code-generation-guardrails","name":"ai-code-generation-guardrails","description":"Autonomous AI code generation safety guardrail register: static AST analysis, forbidden import filters, and zero-day vulnerability checks.","category":"Security","tags":["ai","code","generation","guardrails","autonomous","safety","guardrail","register","static","ast","analysis","forbidden","import","filters","zero","day","vulnerability","checks."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/ai-code-generation-guardrails","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ai-code-generation-guardrails","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6689,"sha256":"15fe9f2c8fd4d401e903999594cf3ffd22b0100cf895fa9c045957d0b4aec0c3","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/ai-code-generation-guardrails/SKILL.md","bytes":5616,"sha256":"15fe9f2c8fd4d401e903999594cf3ffd22b0100cf895fa9c045957d0b4aec0c3","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ai-code-generation-guardrails/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"da0fb862d091fe9bee2b0fc096f27baa344a47fe816f5293d5654dec7a84ddd3"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--ai-code-generation-guardrails",
+    "name": "ai-code-generation-guardrails",
+    "description": "Autonomous AI code generation safety guardrail register: static AST analysis, forbidden import filters, and zero-day vulnerability checks.",
+    "category": "Security",
+    "tags": [
+      "ai",
+      "code",
+      "generation",
+      "guardrails",
+      "autonomous",
+      "safety",
+      "guardrail",
+      "register",
+      "static",
+      "ast",
+      "analysis",
+      "forbidden",
+      "import",
+      "filters",
+      "zero",
+      "day",
+      "vulnerability",
+      "checks."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/ai-code-generation-guardrails",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ai-code-generation-guardrails",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6689,
+    "sha256": "15fe9f2c8fd4d401e903999594cf3ffd22b0100cf895fa9c045957d0b4aec0c3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/ai-code-generation-guardrails/SKILL.md",
+      "bytes": 5616,
+      "sha256": "15fe9f2c8fd4d401e903999594cf3ffd22b0100cf895fa9c045957d0b4aec0c3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ai-code-generation-guardrails/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "da0fb862d091fe9bee2b0fc096f27baa344a47fe816f5293d5654dec7a84ddd3"
+}

@@ -1,1 +1,104 @@
-{"schemaVersion":1,"skill":{"id":"jeffallan--claude-skills--pandas-pro","name":"pandas-pro","description":"Performs pandas DataFrame operations for data analysis, manipulation, and transformation. Use when working with pandas DataFrames, data cleaning, aggregation, merging, or time series analysis. Invoke for data manipulation tasks such as joining DataFrames on multiple keys, pivoting tables, resampling time series, handling NaN values with interpolation or forward-fill, groupby aggregations, type conversion, or performance optimization of large datasets.","category":"Marketing","tags":["pandas","pro","performs","dataframe","operations","data","analysis","manipulation","transformation.","when","working","dataframes","cleaning","aggregation","merging","time","series","analysis."],"repo":"Jeffallan/claude-skills","owner":"Jeffallan","stars":11835,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1be15d8064f88fc25216442406d40add8fd23b53","path":"skills/pandas-pro","sourceUrl":"https://github.com/Jeffallan/claude-skills/tree/1be15d8064f88fc25216442406d40add8fd23b53/skills/pandas-pro","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-03T15:49:22Z","fileCount":7,"bytes":71660,"sha256":"56191905164612548aa61b3434b5543bb3256bf38577d48dfca4f7a7497f9f6c","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/pandas-pro/SKILL.md","bytes":6177,"sha256":"56191905164612548aa61b3434b5543bb3256bf38577d48dfca4f7a7497f9f6c","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/pandas-pro/SKILL.md"},{"path":"references/aggregation-groupby.md","sourcePath":"skills/pandas-pro/references/aggregation-groupby.md","bytes":13206,"sha256":"d71f9e011ebbcc62e4b695932c8e526cfe45b37ec05088bf2995a6f49f26a68d","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/pandas-pro/references/aggregation-groupby.md"},{"path":"references/data-cleaning.md","sourcePath":"skills/pandas-pro/references/data-cleaning.md","bytes":12969,"sha256":"99468b768f3bfe7a6efb24999462d80791292861c3037ca46b8073d2828490f4","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/pandas-pro/references/data-cleaning.md"},{"path":"references/dataframe-operations.md","sourcePath":"skills/pandas-pro/references/dataframe-operations.md","bytes":9667,"sha256":"ea3807160696538f33abda69d557f2810bdff7e746f01673e94f1a349dca3e3e","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/pandas-pro/references/dataframe-operations.md"},{"path":"references/merging-joining.md","sourcePath":"skills/pandas-pro/references/merging-joining.md","bytes":13517,"sha256":"f51f06377908a6aaa9ed498a673d993826bd6d642e3d6af2c26878dd9c80bb87","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/pandas-pro/references/merging-joining.md"},{"path":"references/performance-optimization.md","sourcePath":"skills/pandas-pro/references/performance-optimization.md","bytes":15068,"sha256":"a34ad5df2cba5465ceea51ed61191b0eaf9adf38c65bc2ef18aacd21ca5ecb48","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/pandas-pro/references/performance-optimization.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1056,"sha256":"06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/LICENSE"}],"archiveSha256":"07f0a16233bc87d2ac0f590f15449abecc6de79358b48d5394112225a9082c9e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "jeffallan--claude-skills--pandas-pro",
+    "name": "pandas-pro",
+    "description": "Performs pandas DataFrame operations for data analysis, manipulation, and transformation. Use when working with pandas DataFrames, data cleaning, aggregation, merging, or time series analysis. Invoke for data manipulation tasks such as joining DataFrames on multiple keys, pivoting tables, resampling time series, handling NaN values with interpolation or forward-fill, groupby aggregations, type conversion, or performance optimization of large datasets.",
+    "category": "Marketing",
+    "tags": [
+      "pandas",
+      "pro",
+      "performs",
+      "dataframe",
+      "operations",
+      "data",
+      "analysis",
+      "manipulation",
+      "transformation.",
+      "when",
+      "working",
+      "dataframes",
+      "cleaning",
+      "aggregation",
+      "merging",
+      "time",
+      "series",
+      "analysis."
+    ],
+    "repo": "Jeffallan/claude-skills",
+    "owner": "Jeffallan",
+    "stars": 11835,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1be15d8064f88fc25216442406d40add8fd23b53",
+    "path": "skills/pandas-pro",
+    "sourceUrl": "https://github.com/Jeffallan/claude-skills/tree/1be15d8064f88fc25216442406d40add8fd23b53/skills/pandas-pro",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-03T15:49:22Z",
+    "fileCount": 7,
+    "bytes": 71660,
+    "sha256": "56191905164612548aa61b3434b5543bb3256bf38577d48dfca4f7a7497f9f6c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/pandas-pro/SKILL.md",
+      "bytes": 6177,
+      "sha256": "56191905164612548aa61b3434b5543bb3256bf38577d48dfca4f7a7497f9f6c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/pandas-pro/SKILL.md"
+    },
+    {
+      "path": "references/aggregation-groupby.md",
+      "sourcePath": "skills/pandas-pro/references/aggregation-groupby.md",
+      "bytes": 13206,
+      "sha256": "d71f9e011ebbcc62e4b695932c8e526cfe45b37ec05088bf2995a6f49f26a68d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/pandas-pro/references/aggregation-groupby.md"
+    },
+    {
+      "path": "references/data-cleaning.md",
+      "sourcePath": "skills/pandas-pro/references/data-cleaning.md",
+      "bytes": 12969,
+      "sha256": "99468b768f3bfe7a6efb24999462d80791292861c3037ca46b8073d2828490f4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/pandas-pro/references/data-cleaning.md"
+    },
+    {
+      "path": "references/dataframe-operations.md",
+      "sourcePath": "skills/pandas-pro/references/dataframe-operations.md",
+      "bytes": 9667,
+      "sha256": "ea3807160696538f33abda69d557f2810bdff7e746f01673e94f1a349dca3e3e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/pandas-pro/references/dataframe-operations.md"
+    },
+    {
+      "path": "references/merging-joining.md",
+      "sourcePath": "skills/pandas-pro/references/merging-joining.md",
+      "bytes": 13517,
+      "sha256": "f51f06377908a6aaa9ed498a673d993826bd6d642e3d6af2c26878dd9c80bb87",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/pandas-pro/references/merging-joining.md"
+    },
+    {
+      "path": "references/performance-optimization.md",
+      "sourcePath": "skills/pandas-pro/references/performance-optimization.md",
+      "bytes": 15068,
+      "sha256": "a34ad5df2cba5465ceea51ed61191b0eaf9adf38c65bc2ef18aacd21ca5ecb48",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/pandas-pro/references/performance-optimization.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1056,
+      "sha256": "06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/LICENSE"
+    }
+  ],
+  "archiveSha256": "07f0a16233bc87d2ac0f590f15449abecc6de79358b48d5394112225a9082c9e"
+}

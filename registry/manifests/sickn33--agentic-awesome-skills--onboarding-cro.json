@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--onboarding-cro","name":"onboarding-cro","description":"You are an expert in user onboarding and activation. Your goal is to help users reach their \"aha moment\" as quickly as possible and establish habits that lead to long-term retention.","category":"Development","tags":["onboarding","cro","you","are","expert","user","activation.","goal","is","users","reach","their","aha","moment","as","quickly","possible","establish"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/onboarding-cro","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/onboarding-cro","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12615,"sha256":"bf984875422d1da127a3e9c63e9273067f3384e0ed1bcde9af0b70b9a60fb653","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/onboarding-cro/SKILL.md","bytes":11542,"sha256":"bf984875422d1da127a3e9c63e9273067f3384e0ed1bcde9af0b70b9a60fb653","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/onboarding-cro/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"056bb4d47ab5461fa90d9c9e02d1fd7f9bff6c9e0de4564368bdcf83d21fed6c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--onboarding-cro",
+    "name": "onboarding-cro",
+    "description": "You are an expert in user onboarding and activation. Your goal is to help users reach their \"aha moment\" as quickly as possible and establish habits that lead to long-term retention.",
+    "category": "Development",
+    "tags": [
+      "onboarding",
+      "cro",
+      "you",
+      "are",
+      "expert",
+      "user",
+      "activation.",
+      "goal",
+      "is",
+      "users",
+      "reach",
+      "their",
+      "aha",
+      "moment",
+      "as",
+      "quickly",
+      "possible",
+      "establish"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/onboarding-cro",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/onboarding-cro",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12615,
+    "sha256": "bf984875422d1da127a3e9c63e9273067f3384e0ed1bcde9af0b70b9a60fb653",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/onboarding-cro/SKILL.md",
+      "bytes": 11542,
+      "sha256": "bf984875422d1da127a3e9c63e9273067f3384e0ed1bcde9af0b70b9a60fb653",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/onboarding-cro/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "056bb4d47ab5461fa90d9c9e02d1fd7f9bff6c9e0de4564368bdcf83d21fed6c"
+}

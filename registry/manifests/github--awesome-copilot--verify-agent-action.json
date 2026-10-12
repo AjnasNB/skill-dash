@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--verify-agent-action","name":"verify-agent-action","description":"Review a proposed AI-agent action or human-approval packet before execution. Use when an agent wants to run a consequential tool, command, deployment, message, purchase, credential operation, or data mutation; when checking whether approval still matches the exact action; or when auditing action evidence for forged results, parameter swaps, replay, correlated reviewers, missing evidence, expiry, or stale monitoring. Produce an evidence-based review only—never execute or authorize the action.","category":"Cloud & DevOps","tags":["verify","agent","action","review","proposed","ai","human","approval","packet","before","execution.","when","wants","run","consequential","tool","command","deployment"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/verify-agent-action","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/verify-agent-action","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":9277,"sha256":"13138bebda37fea1fdc235db035a3b43b12545311c20962fe28188b2b8514bb2","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/verify-agent-action/SKILL.md","bytes":8218,"sha256":"13138bebda37fea1fdc235db035a3b43b12545311c20962fe28188b2b8514bb2","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/verify-agent-action/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"3844f37de18ca25ab88a20f8f7d277fd190dcdb9e2ceb3bb8de7b62f29f04c2d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--verify-agent-action",
+    "name": "verify-agent-action",
+    "description": "Review a proposed AI-agent action or human-approval packet before execution. Use when an agent wants to run a consequential tool, command, deployment, message, purchase, credential operation, or data mutation; when checking whether approval still matches the exact action; or when auditing action evidence for forged results, parameter swaps, replay, correlated reviewers, missing evidence, expiry, or stale monitoring. Produce an evidence-based review only—never execute or authorize the action.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "verify",
+      "agent",
+      "action",
+      "review",
+      "proposed",
+      "ai",
+      "human",
+      "approval",
+      "packet",
+      "before",
+      "execution.",
+      "when",
+      "wants",
+      "run",
+      "consequential",
+      "tool",
+      "command",
+      "deployment"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/verify-agent-action",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/verify-agent-action",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 9277,
+    "sha256": "13138bebda37fea1fdc235db035a3b43b12545311c20962fe28188b2b8514bb2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/verify-agent-action/SKILL.md",
+      "bytes": 8218,
+      "sha256": "13138bebda37fea1fdc235db035a3b43b12545311c20962fe28188b2b8514bb2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/verify-agent-action/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "3844f37de18ca25ab88a20f8f7d277fd190dcdb9e2ceb3bb8de7b62f29f04c2d"
+}

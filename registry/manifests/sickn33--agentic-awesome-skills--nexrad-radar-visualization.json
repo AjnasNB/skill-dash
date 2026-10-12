@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--nexrad-radar-visualization","name":"nexrad-radar-visualization","description":"Plot NEXRAD Level II/III site scans and decoded radar mosaics with correct radar geometry, map grids, units, quality masks, timestamps, and provenance.","category":"Development","tags":["nexrad","radar","visualization","plot","level","ii","iii","site","scans","decoded","mosaics","correct","geometry","map","grids","units","quality","masks"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/nexrad-radar-visualization","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nexrad-radar-visualization","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":15786,"sha256":"a66f0ee3b4e4e48aafcd9c3726554a1678b29325ecedf88eeeb0f67f2926af07","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/nexrad-radar-visualization/SKILL.md","bytes":14713,"sha256":"a66f0ee3b4e4e48aafcd9c3726554a1678b29325ecedf88eeeb0f67f2926af07","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nexrad-radar-visualization/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"064bcc27635baf3fe9336e85bfb9be0fdcfbf5f274e351a6256b0ece05e9349c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--nexrad-radar-visualization",
+    "name": "nexrad-radar-visualization",
+    "description": "Plot NEXRAD Level II/III site scans and decoded radar mosaics with correct radar geometry, map grids, units, quality masks, timestamps, and provenance.",
+    "category": "Development",
+    "tags": [
+      "nexrad",
+      "radar",
+      "visualization",
+      "plot",
+      "level",
+      "ii",
+      "iii",
+      "site",
+      "scans",
+      "decoded",
+      "mosaics",
+      "correct",
+      "geometry",
+      "map",
+      "grids",
+      "units",
+      "quality",
+      "masks"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/nexrad-radar-visualization",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nexrad-radar-visualization",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 15786,
+    "sha256": "a66f0ee3b4e4e48aafcd9c3726554a1678b29325ecedf88eeeb0f67f2926af07",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/nexrad-radar-visualization/SKILL.md",
+      "bytes": 14713,
+      "sha256": "a66f0ee3b4e4e48aafcd9c3726554a1678b29325ecedf88eeeb0f67f2926af07",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nexrad-radar-visualization/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "064bcc27635baf3fe9336e85bfb9be0fdcfbf5f274e351a6256b0ece05e9349c"
+}

@@ -1,1 +1,57 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--azure-ai-contentsafety-ts","name":"azure-ai-contentsafety-ts","description":"Analyze text and images for harmful content with customizable blocklists.","category":"Cloud & DevOps","tags":["azure","ai","contentsafety","ts","analyze","text","images","harmful","content","customizable","blocklists."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/azure-ai-contentsafety-ts","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-contentsafety-ts","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":9019,"sha256":"19596bfc64f7f2777fa62733dda7f5c277d6b71bf0eb332e10dc767b422623bf","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/azure-ai-contentsafety-ts/SKILL.md","bytes":7946,"sha256":"19596bfc64f7f2777fa62733dda7f5c277d6b71bf0eb332e10dc767b422623bf","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-contentsafety-ts/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"fea8c085c3a80dcbed2644d717725c662eb6d85a8a773b3425f8b302d7aabc6d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--azure-ai-contentsafety-ts",
+    "name": "azure-ai-contentsafety-ts",
+    "description": "Analyze text and images for harmful content with customizable blocklists.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "azure",
+      "ai",
+      "contentsafety",
+      "ts",
+      "analyze",
+      "text",
+      "images",
+      "harmful",
+      "content",
+      "customizable",
+      "blocklists."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/azure-ai-contentsafety-ts",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-contentsafety-ts",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9019,
+    "sha256": "19596bfc64f7f2777fa62733dda7f5c277d6b71bf0eb332e10dc767b422623bf",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/azure-ai-contentsafety-ts/SKILL.md",
+      "bytes": 7946,
+      "sha256": "19596bfc64f7f2777fa62733dda7f5c277d6b71bf0eb332e10dc767b422623bf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-contentsafety-ts/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "fea8c085c3a80dcbed2644d717725c662eb6d85a8a773b3425f8b302d7aabc6d"
+}

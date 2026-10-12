@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--image-studio","name":"image-studio","description":"Studio de geracao de imagens inteligente — roteamento automatico entre ai-studio-image (fotos humanizadas/influencer) e stability-ai (arte/ ilustracao/edicao). Detecta o tipo de imagem solicitada e escolhe o modelo ideal automaticamente.","category":"Development","tags":["image","studio","de","geracao","imagens","inteligente","roteamento","automatico","entre","ai","fotos","humanizadas","influencer","stability","arte","ilustracao","edicao","detecta"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/image-studio","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/image-studio","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":10572,"sha256":"48f41268fa5dcfec7092dc235dda16c0dc7e32d7494de7044af13f388eaa5e67","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/image-studio/SKILL.md","bytes":9499,"sha256":"48f41268fa5dcfec7092dc235dda16c0dc7e32d7494de7044af13f388eaa5e67","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/image-studio/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"7f2282905dcfee6924bf25f22c29b233fecf7631bc815b47d8ef55865ba8ce5d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--image-studio",
+    "name": "image-studio",
+    "description": "Studio de geracao de imagens inteligente — roteamento automatico entre ai-studio-image (fotos humanizadas/influencer) e stability-ai (arte/ ilustracao/edicao). Detecta o tipo de imagem solicitada e escolhe o modelo ideal automaticamente.",
+    "category": "Development",
+    "tags": [
+      "image",
+      "studio",
+      "de",
+      "geracao",
+      "imagens",
+      "inteligente",
+      "roteamento",
+      "automatico",
+      "entre",
+      "ai",
+      "fotos",
+      "humanizadas",
+      "influencer",
+      "stability",
+      "arte",
+      "ilustracao",
+      "edicao",
+      "detecta"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/image-studio",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/image-studio",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10572,
+    "sha256": "48f41268fa5dcfec7092dc235dda16c0dc7e32d7494de7044af13f388eaa5e67",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/image-studio/SKILL.md",
+      "bytes": 9499,
+      "sha256": "48f41268fa5dcfec7092dc235dda16c0dc7e32d7494de7044af13f388eaa5e67",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/image-studio/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "7f2282905dcfee6924bf25f22c29b233fecf7631bc815b47d8ef55865ba8ce5d"
+}

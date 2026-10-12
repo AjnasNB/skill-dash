@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--liteparse","name":"liteparse","description":"Local document and PDF parsing that returns spatial text with bounding boxes. Use for extracting text from PDFs, DOCX, Office files, and images; running OCR on scans; producing layout-preserved JSON for RAG; batch-ingesting folders of papers; or rendering pages to PNG for multimodal agents. Distinguishing capabilities are spatial text boxes, Markdown, page raster output, and local parsing with optional custom HTTP OCR.","category":"Documents","tags":["liteparse","local","document","pdf","parsing","returns","spatial","text","bounding","boxes.","extracting","from","pdfs","docx","office","files","images","running"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/liteparse","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/liteparse","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":8,"bytes":45650,"sha256":"02a789c7959670cb8898e329588a41d43fa7b270c768a70c22aed05031d042a4","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/liteparse/SKILL.md","bytes":12382,"sha256":"02a789c7959670cb8898e329588a41d43fa7b270c768a70c22aed05031d042a4","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/liteparse/SKILL.md"},{"path":"references/api_reference.md","sourcePath":"skills/liteparse/references/api_reference.md","bytes":8514,"sha256":"2aa143daf3423f460a73c37d36441af782819d3aeae0bcf61023f8d340364973","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/liteparse/references/api_reference.md"},{"path":"references/choosing_a_parser.md","sourcePath":"skills/liteparse/references/choosing_a_parser.md","bytes":1878,"sha256":"12a2c9259fd057b7d981e8941a94f1331a78f38c42eae6bde6d8f1f8c4f75c5a","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/liteparse/references/choosing_a_parser.md"},{"path":"references/cli_reference.md","sourcePath":"skills/liteparse/references/cli_reference.md","bytes":5164,"sha256":"29ea20076e374045d6bbc2219f6c5c946cc322dc43e5c60fa6d9f83a1efce158","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/liteparse/references/cli_reference.md"},{"path":"references/ocr_and_formats.md","sourcePath":"skills/liteparse/references/ocr_and_formats.md","bytes":6190,"sha256":"406cefd0f561e6a42ec6f7851333edae07f39367498e8b099e05b93140e3d667","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/liteparse/references/ocr_and_formats.md"},{"path":"references/output_formats.md","sourcePath":"skills/liteparse/references/output_formats.md","bytes":4744,"sha256":"69478a672bc8312322f6a10484be98029f7ced378b5863be3b12696f2732d97f","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/liteparse/references/output_formats.md"},{"path":"scripts/batch_parse_dir.py","sourcePath":"skills/liteparse/scripts/batch_parse_dir.py","bytes":5710,"sha256":"e6250a342cd756eaf3da155cbfa3684f88cf8eedc476275e62466e299f726b93","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/liteparse/scripts/batch_parse_dir.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"2b199a94c045dd5e5a93b4d047171e19111bfb2fdb21131f7c3228620ab02b8e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--liteparse",
+    "name": "liteparse",
+    "description": "Local document and PDF parsing that returns spatial text with bounding boxes. Use for extracting text from PDFs, DOCX, Office files, and images; running OCR on scans; producing layout-preserved JSON for RAG; batch-ingesting folders of papers; or rendering pages to PNG for multimodal agents. Distinguishing capabilities are spatial text boxes, Markdown, page raster output, and local parsing with optional custom HTTP OCR.",
+    "category": "Documents",
+    "tags": [
+      "liteparse",
+      "local",
+      "document",
+      "pdf",
+      "parsing",
+      "returns",
+      "spatial",
+      "text",
+      "bounding",
+      "boxes.",
+      "extracting",
+      "from",
+      "pdfs",
+      "docx",
+      "office",
+      "files",
+      "images",
+      "running"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/liteparse",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/liteparse",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 8,
+    "bytes": 45650,
+    "sha256": "02a789c7959670cb8898e329588a41d43fa7b270c768a70c22aed05031d042a4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/liteparse/SKILL.md",
+      "bytes": 12382,
+      "sha256": "02a789c7959670cb8898e329588a41d43fa7b270c768a70c22aed05031d042a4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/liteparse/SKILL.md"
+    },
+    {
+      "path": "references/api_reference.md",
+      "sourcePath": "skills/liteparse/references/api_reference.md",
+      "bytes": 8514,
+      "sha256": "2aa143daf3423f460a73c37d36441af782819d3aeae0bcf61023f8d340364973",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/liteparse/references/api_reference.md"
+    },
+    {
+      "path": "references/choosing_a_parser.md",
+      "sourcePath": "skills/liteparse/references/choosing_a_parser.md",
+      "bytes": 1878,
+      "sha256": "12a2c9259fd057b7d981e8941a94f1331a78f38c42eae6bde6d8f1f8c4f75c5a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/liteparse/references/choosing_a_parser.md"
+    },
+    {
+      "path": "references/cli_reference.md",
+      "sourcePath": "skills/liteparse/references/cli_reference.md",
+      "bytes": 5164,
+      "sha256": "29ea20076e374045d6bbc2219f6c5c946cc322dc43e5c60fa6d9f83a1efce158",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/liteparse/references/cli_reference.md"
+    },
+    {
+      "path": "references/ocr_and_formats.md",
+      "sourcePath": "skills/liteparse/references/ocr_and_formats.md",
+      "bytes": 6190,
+      "sha256": "406cefd0f561e6a42ec6f7851333edae07f39367498e8b099e05b93140e3d667",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/liteparse/references/ocr_and_formats.md"
+    },
+    {
+      "path": "references/output_formats.md",
+      "sourcePath": "skills/liteparse/references/output_formats.md",
+      "bytes": 4744,
+      "sha256": "69478a672bc8312322f6a10484be98029f7ced378b5863be3b12696f2732d97f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/liteparse/references/output_formats.md"
+    },
+    {
+      "path": "scripts/batch_parse_dir.py",
+      "sourcePath": "skills/liteparse/scripts/batch_parse_dir.py",
+      "bytes": 5710,
+      "sha256": "e6250a342cd756eaf3da155cbfa3684f88cf8eedc476275e62466e299f726b93",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/liteparse/scripts/batch_parse_dir.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "2b199a94c045dd5e5a93b4d047171e19111bfb2fdb21131f7c3228620ab02b8e"
+}

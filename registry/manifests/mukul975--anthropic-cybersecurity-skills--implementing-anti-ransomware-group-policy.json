@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-anti-ransomware-group-policy","name":"implementing-anti-ransomware-group-policy","description":"Configures Windows Group Policy Objects to block ransomware execution and lateral spread, covering AppLocker rules, Software Restriction Policies, Controlled Folder Access, attack surface reduction rules, and network protection settings. Use when hardening Windows endpoints against ransomware via GPO, configuring AppLocker or Controlled Folder Access, or building endpoint protection policies through Group Policy.","category":"Development","tags":["implementing","anti","ransomware","group","policy","configures","windows","objects","block","execution","lateral","spread","covering","applocker","rules","software","restriction","policies"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-anti-ransomware-group-policy/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-anti-ransomware-group-policy","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-anti-ransomware-group-policy","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":37029,"sha256":"9fe8d9e3367b8ca11053dc98bccad14977452313e562fe027d475514fb2fec71","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-anti-ransomware-group-policy/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-anti-ransomware-group-policy/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-anti-ransomware-group-policy/SKILL.md","bytes":9542,"sha256":"9fe8d9e3367b8ca11053dc98bccad14977452313e562fe027d475514fb2fec71","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-anti-ransomware-group-policy/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-anti-ransomware-group-policy/references/api-reference.md","bytes":3986,"sha256":"7c5477381ff14dddaf1b59011022a6ddc7155477b033deca0cbba2db7aa030fe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-anti-ransomware-group-policy/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-anti-ransomware-group-policy/scripts/agent.py","bytes":12246,"sha256":"b771d4c3f8df3987f6ddbdc10f925091e19f4d65240b3d64a755bffdad8df4bb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-anti-ransomware-group-policy/scripts/agent.py"}],"archiveSha256":"d50115e870705c80a6f1e7aa6796179d608acdbc81e18333dd93e6129acd63d7"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-anti-ransomware-group-policy",
+    "name": "implementing-anti-ransomware-group-policy",
+    "description": "Configures Windows Group Policy Objects to block ransomware execution and lateral spread, covering AppLocker rules, Software Restriction Policies, Controlled Folder Access, attack surface reduction rules, and network protection settings. Use when hardening Windows endpoints against ransomware via GPO, configuring AppLocker or Controlled Folder Access, or building endpoint protection policies through Group Policy.",
+    "category": "Development",
+    "tags": [
+      "implementing",
+      "anti",
+      "ransomware",
+      "group",
+      "policy",
+      "configures",
+      "windows",
+      "objects",
+      "block",
+      "execution",
+      "lateral",
+      "spread",
+      "covering",
+      "applocker",
+      "rules",
+      "software",
+      "restriction",
+      "policies"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-anti-ransomware-group-policy/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-anti-ransomware-group-policy",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-anti-ransomware-group-policy",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 37029,
+    "sha256": "9fe8d9e3367b8ca11053dc98bccad14977452313e562fe027d475514fb2fec71",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-anti-ransomware-group-policy/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-anti-ransomware-group-policy/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-anti-ransomware-group-policy/SKILL.md",
+      "bytes": 9542,
+      "sha256": "9fe8d9e3367b8ca11053dc98bccad14977452313e562fe027d475514fb2fec71",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-anti-ransomware-group-policy/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-anti-ransomware-group-policy/references/api-reference.md",
+      "bytes": 3986,
+      "sha256": "7c5477381ff14dddaf1b59011022a6ddc7155477b033deca0cbba2db7aa030fe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-anti-ransomware-group-policy/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-anti-ransomware-group-policy/scripts/agent.py",
+      "bytes": 12246,
+      "sha256": "b771d4c3f8df3987f6ddbdc10f925091e19f4d65240b3d64a755bffdad8df4bb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-anti-ransomware-group-policy/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "d50115e870705c80a6f1e7aa6796179d608acdbc81e18333dd93e6129acd63d7"
+}

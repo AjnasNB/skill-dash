@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--model-supply-chain-security","name":"model-supply-chain-security","description":"Secure the AI model supply chain with artifact signing, provenance attestation, SBOM workflows, dependency controls, and trusted model promotion.","category":"Security","tags":["model","supply","chain","security","secure","ai","artifact","signing","provenance","attestation","sbom","workflows","dependency","controls","trusted","promotion."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/model-supply-chain-security","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/model-supply-chain-security","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":14490,"sha256":"dc94de8fbedf3a7d8d4be588dadba6df54d6adf217a63d62e3f915bd94eb2aa0","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/model-supply-chain-security/SKILL.md","bytes":13417,"sha256":"dc94de8fbedf3a7d8d4be588dadba6df54d6adf217a63d62e3f915bd94eb2aa0","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/model-supply-chain-security/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"41d6d4b26d0b05fec8073422777084a0e38ca3c93185eef318c8e8d5a0a4d20c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--model-supply-chain-security",
+    "name": "model-supply-chain-security",
+    "description": "Secure the AI model supply chain with artifact signing, provenance attestation, SBOM workflows, dependency controls, and trusted model promotion.",
+    "category": "Security",
+    "tags": [
+      "model",
+      "supply",
+      "chain",
+      "security",
+      "secure",
+      "ai",
+      "artifact",
+      "signing",
+      "provenance",
+      "attestation",
+      "sbom",
+      "workflows",
+      "dependency",
+      "controls",
+      "trusted",
+      "promotion."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/model-supply-chain-security",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/model-supply-chain-security",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 14490,
+    "sha256": "dc94de8fbedf3a7d8d4be588dadba6df54d6adf217a63d62e3f915bd94eb2aa0",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/model-supply-chain-security/SKILL.md",
+      "bytes": 13417,
+      "sha256": "dc94de8fbedf3a7d8d4be588dadba6df54d6adf217a63d62e3f915bd94eb2aa0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/model-supply-chain-security/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "41d6d4b26d0b05fec8073422777084a0e38ca3c93185eef318c8e8d5a0a4d20c"
+}

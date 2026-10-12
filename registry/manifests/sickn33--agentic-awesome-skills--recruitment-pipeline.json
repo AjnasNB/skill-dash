@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--recruitment-pipeline","name":"recruitment-pipeline","description":"Recruitment pipeline: candidate, position, stage, source, applied and interview dates, interview score, notice period and offer. Use for hiring tracking.","category":"Development","tags":["recruitment","pipeline","candidate","position","stage","source","applied","interview","dates","score","notice","period","offer.","hiring","tracking."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/recruitment-pipeline","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/recruitment-pipeline","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":17206,"sha256":"f52e92b63ab8f98967969e49764edb23bb87d456c169c9b37c46c38e83243735","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/recruitment-pipeline/SKILL.md","bytes":16133,"sha256":"f52e92b63ab8f98967969e49764edb23bb87d456c169c9b37c46c38e83243735","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/recruitment-pipeline/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"ebc3cfadbc44e933cf065cb04d17b1247a6b8085cb48264c15e1ab681df14c95"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--recruitment-pipeline",
+    "name": "recruitment-pipeline",
+    "description": "Recruitment pipeline: candidate, position, stage, source, applied and interview dates, interview score, notice period and offer. Use for hiring tracking.",
+    "category": "Development",
+    "tags": [
+      "recruitment",
+      "pipeline",
+      "candidate",
+      "position",
+      "stage",
+      "source",
+      "applied",
+      "interview",
+      "dates",
+      "score",
+      "notice",
+      "period",
+      "offer.",
+      "hiring",
+      "tracking."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/recruitment-pipeline",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/recruitment-pipeline",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 17206,
+    "sha256": "f52e92b63ab8f98967969e49764edb23bb87d456c169c9b37c46c38e83243735",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/recruitment-pipeline/SKILL.md",
+      "bytes": 16133,
+      "sha256": "f52e92b63ab8f98967969e49764edb23bb87d456c169c9b37c46c38e83243735",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/recruitment-pipeline/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ebc3cfadbc44e933cf065cb04d17b1247a6b8085cb48264c15e1ab681df14c95"
+}

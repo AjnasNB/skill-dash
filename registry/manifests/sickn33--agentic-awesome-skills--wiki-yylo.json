@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--wiki-yylo","name":"wiki-yylo","description":"Use YYLO Ledger wiki Records as durable project knowledge. Search before creating, classify information correctly, and make revision-safe Markdown updates without editing Ledger storage directly.","category":"Development","tags":["wiki","yylo","ledger","records","as","durable","project","knowledge.","search","before","creating","classify","information","correctly","revision","safe","markdown","updates"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/wiki-yylo","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wiki-yylo","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6031,"sha256":"d9fb7b2cf7af3520c65fcc4ba9d3d3298f25905c71f944c288b5b30e0f8ad270","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/wiki-yylo/SKILL.md","bytes":4958,"sha256":"d9fb7b2cf7af3520c65fcc4ba9d3d3298f25905c71f944c288b5b30e0f8ad270","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wiki-yylo/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"28a0ab36a245449ad3b2e2f5c6b2c76b2d74b5f1078467b5f52d82b9208775a7"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--wiki-yylo",
+    "name": "wiki-yylo",
+    "description": "Use YYLO Ledger wiki Records as durable project knowledge. Search before creating, classify information correctly, and make revision-safe Markdown updates without editing Ledger storage directly.",
+    "category": "Development",
+    "tags": [
+      "wiki",
+      "yylo",
+      "ledger",
+      "records",
+      "as",
+      "durable",
+      "project",
+      "knowledge.",
+      "search",
+      "before",
+      "creating",
+      "classify",
+      "information",
+      "correctly",
+      "revision",
+      "safe",
+      "markdown",
+      "updates"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/wiki-yylo",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wiki-yylo",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6031,
+    "sha256": "d9fb7b2cf7af3520c65fcc4ba9d3d3298f25905c71f944c288b5b30e0f8ad270",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/wiki-yylo/SKILL.md",
+      "bytes": 4958,
+      "sha256": "d9fb7b2cf7af3520c65fcc4ba9d3d3298f25905c71f944c288b5b30e0f8ad270",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/wiki-yylo/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "28a0ab36a245449ad3b2e2f5c6b2c76b2d74b5f1078467b5f52d82b9208775a7"
+}

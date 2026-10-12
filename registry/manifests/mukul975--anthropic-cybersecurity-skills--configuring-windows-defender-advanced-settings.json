@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--configuring-windows-defender-advanced-settings","name":"configuring-windows-defender-advanced-settings","description":"Configures Microsoft Defender for Endpoint (MDE) advanced protection settings including attack surface reduction rules, controlled folder access, network protection, and exploit protection. Use when hardening Windows endpoints beyond default Defender settings, deploying enterprise-grade endpoint protection, or meeting compliance requirements for advanced malware defense. Activates for requests involving Windows Defender configuration, ASR rules, MDE tuning, or Microsoft endpoint security.","category":"Security","tags":["configuring","windows","defender","advanced","settings","configures","microsoft","endpoint","mde","protection","including","attack","surface","reduction","rules","controlled","folder","access"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/configuring-windows-defender-advanced-settings/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/configuring-windows-defender-advanced-settings","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-defender-advanced-settings","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":48587,"sha256":"b61fec85a8be254691a666bbff4bfef12d19ffcbab26efaa9d4a075cfbde1b7b","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/configuring-windows-defender-advanced-settings/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-defender-advanced-settings/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/configuring-windows-defender-advanced-settings/SKILL.md","bytes":12264,"sha256":"b61fec85a8be254691a666bbff4bfef12d19ffcbab26efaa9d4a075cfbde1b7b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-defender-advanced-settings/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/configuring-windows-defender-advanced-settings/assets/template.md","bytes":2624,"sha256":"8f30f5af848618f70c033221345388bebd647fbb4462858f96c73cd509d5efe3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-defender-advanced-settings/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/configuring-windows-defender-advanced-settings/references/api-reference.md","bytes":1380,"sha256":"6663d36213ee4b469f862d93251ca242a46351c2d0b6f172a64a8a2c2867ecb6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-defender-advanced-settings/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/configuring-windows-defender-advanced-settings/references/standards.md","bytes":3313,"sha256":"426506a258b4bdb6835fa27925f7c0a1399f90ec36069dced7b36f3f499609e2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-defender-advanced-settings/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/configuring-windows-defender-advanced-settings/references/workflows.md","bytes":3088,"sha256":"2e83bd1109ce0285aaa843eeb9f396373c4a100db9b8bd533071075fd312a3f1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-defender-advanced-settings/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/configuring-windows-defender-advanced-settings/scripts/agent.py","bytes":5097,"sha256":"574268394ec18daa318adb9b07be6ad931df7213e0e2b23a4eaeafa25a4411fd","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-defender-advanced-settings/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/configuring-windows-defender-advanced-settings/scripts/process.py","bytes":9566,"sha256":"38f9ca552e3e8a96e7298a6fcce04740fc1dad2ec009f7f645fbbc23e646d8e0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-defender-advanced-settings/scripts/process.py"}],"archiveSha256":"c72f05487eae9751347374e8fdecdaa94032676221d4b94554a1893bb097cb46"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--configuring-windows-defender-advanced-settings",
+    "name": "configuring-windows-defender-advanced-settings",
+    "description": "Configures Microsoft Defender for Endpoint (MDE) advanced protection settings including attack surface reduction rules, controlled folder access, network protection, and exploit protection. Use when hardening Windows endpoints beyond default Defender settings, deploying enterprise-grade endpoint protection, or meeting compliance requirements for advanced malware defense. Activates for requests involving Windows Defender configuration, ASR rules, MDE tuning, or Microsoft endpoint security.",
+    "category": "Security",
+    "tags": [
+      "configuring",
+      "windows",
+      "defender",
+      "advanced",
+      "settings",
+      "configures",
+      "microsoft",
+      "endpoint",
+      "mde",
+      "protection",
+      "including",
+      "attack",
+      "surface",
+      "reduction",
+      "rules",
+      "controlled",
+      "folder",
+      "access"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/configuring-windows-defender-advanced-settings/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/configuring-windows-defender-advanced-settings",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-defender-advanced-settings",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 48587,
+    "sha256": "b61fec85a8be254691a666bbff4bfef12d19ffcbab26efaa9d4a075cfbde1b7b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/configuring-windows-defender-advanced-settings/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-defender-advanced-settings/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/configuring-windows-defender-advanced-settings/SKILL.md",
+      "bytes": 12264,
+      "sha256": "b61fec85a8be254691a666bbff4bfef12d19ffcbab26efaa9d4a075cfbde1b7b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-defender-advanced-settings/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/configuring-windows-defender-advanced-settings/assets/template.md",
+      "bytes": 2624,
+      "sha256": "8f30f5af848618f70c033221345388bebd647fbb4462858f96c73cd509d5efe3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-defender-advanced-settings/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/configuring-windows-defender-advanced-settings/references/api-reference.md",
+      "bytes": 1380,
+      "sha256": "6663d36213ee4b469f862d93251ca242a46351c2d0b6f172a64a8a2c2867ecb6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-defender-advanced-settings/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/configuring-windows-defender-advanced-settings/references/standards.md",
+      "bytes": 3313,
+      "sha256": "426506a258b4bdb6835fa27925f7c0a1399f90ec36069dced7b36f3f499609e2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-defender-advanced-settings/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/configuring-windows-defender-advanced-settings/references/workflows.md",
+      "bytes": 3088,
+      "sha256": "2e83bd1109ce0285aaa843eeb9f396373c4a100db9b8bd533071075fd312a3f1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-defender-advanced-settings/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/configuring-windows-defender-advanced-settings/scripts/agent.py",
+      "bytes": 5097,
+      "sha256": "574268394ec18daa318adb9b07be6ad931df7213e0e2b23a4eaeafa25a4411fd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-defender-advanced-settings/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/configuring-windows-defender-advanced-settings/scripts/process.py",
+      "bytes": 9566,
+      "sha256": "38f9ca552e3e8a96e7298a6fcce04740fc1dad2ec009f7f645fbbc23e646d8e0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-windows-defender-advanced-settings/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "c72f05487eae9751347374e8fdecdaa94032676221d4b94554a1893bb097cb46"
+}

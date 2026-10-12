@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-aws-account-enumeration-with-scout-suite","name":"performing-aws-account-enumeration-with-scout-suite","description":"Run the agentless, open-source ScoutSuite tool (via pip install and the `scout` CLI) against an AWS account to enumerate resources across services, identify misconfigurations, and generate an interactive HTML security report. Use when assessing an AWS account's overall security posture with read-only IAM credentials, such as during a cloud security audit or compliance review.","category":"Security","tags":["performing","aws","account","enumeration","scout","suite","run","agentless","open","source","scoutsuite","tool","via","pip","install","cli","against","enumerate"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-aws-account-enumeration-with-scout-suite/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-aws-account-enumeration-with-scout-suite","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-account-enumeration-with-scout-suite","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":47999,"sha256":"1e7a9ebac6fb4ba8c940fe8d1455a9405a7a7377da9e79f39a9f4e3513f7fdc7","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-aws-account-enumeration-with-scout-suite/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-account-enumeration-with-scout-suite/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-aws-account-enumeration-with-scout-suite/SKILL.md","bytes":7535,"sha256":"1e7a9ebac6fb4ba8c940fe8d1455a9405a7a7377da9e79f39a9f4e3513f7fdc7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-account-enumeration-with-scout-suite/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/performing-aws-account-enumeration-with-scout-suite/assets/template.md","bytes":2043,"sha256":"909fe7016ab3bfde397fc4a1b198cf8fae432d54f9635933385476c5bf4c3c99","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-account-enumeration-with-scout-suite/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-aws-account-enumeration-with-scout-suite/references/api-reference.md","bytes":5113,"sha256":"7f080c73b5b47041e0328efe398529b7d00933219a6230d6c35a787992c7a990","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-account-enumeration-with-scout-suite/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/performing-aws-account-enumeration-with-scout-suite/references/standards.md","bytes":1985,"sha256":"42fa391e6b0e561aee89f2094fb4e1595779f591e5752eb9d53bcd1a38cd6719","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-account-enumeration-with-scout-suite/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/performing-aws-account-enumeration-with-scout-suite/references/workflows.md","bytes":2456,"sha256":"a9b230e468d6f0ce7971596fb08b0b71a0366f162f6d5cf72d9f92a5cfd6c649","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-account-enumeration-with-scout-suite/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-aws-account-enumeration-with-scout-suite/scripts/agent.py","bytes":9285,"sha256":"49ea3886a685fec064abc9d6324b90545769ebfc328aeda2ba3e69cb174581c3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-account-enumeration-with-scout-suite/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/performing-aws-account-enumeration-with-scout-suite/scripts/process.py","bytes":8327,"sha256":"09b5786868f408109f95738ce9eb8b442816412cc76844e0156e064293f2b41f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-account-enumeration-with-scout-suite/scripts/process.py"}],"archiveSha256":"4bc45f29794273a0151abee82789444cf3582f6472bfe7b19233a476414cffb0"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-aws-account-enumeration-with-scout-suite",
+    "name": "performing-aws-account-enumeration-with-scout-suite",
+    "description": "Run the agentless, open-source ScoutSuite tool (via pip install and the `scout` CLI) against an AWS account to enumerate resources across services, identify misconfigurations, and generate an interactive HTML security report. Use when assessing an AWS account's overall security posture with read-only IAM credentials, such as during a cloud security audit or compliance review.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "aws",
+      "account",
+      "enumeration",
+      "scout",
+      "suite",
+      "run",
+      "agentless",
+      "open",
+      "source",
+      "scoutsuite",
+      "tool",
+      "via",
+      "pip",
+      "install",
+      "cli",
+      "against",
+      "enumerate"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-aws-account-enumeration-with-scout-suite/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-aws-account-enumeration-with-scout-suite",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-account-enumeration-with-scout-suite",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 47999,
+    "sha256": "1e7a9ebac6fb4ba8c940fe8d1455a9405a7a7377da9e79f39a9f4e3513f7fdc7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-aws-account-enumeration-with-scout-suite/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-account-enumeration-with-scout-suite/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-aws-account-enumeration-with-scout-suite/SKILL.md",
+      "bytes": 7535,
+      "sha256": "1e7a9ebac6fb4ba8c940fe8d1455a9405a7a7377da9e79f39a9f4e3513f7fdc7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-account-enumeration-with-scout-suite/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-aws-account-enumeration-with-scout-suite/assets/template.md",
+      "bytes": 2043,
+      "sha256": "909fe7016ab3bfde397fc4a1b198cf8fae432d54f9635933385476c5bf4c3c99",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-account-enumeration-with-scout-suite/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-aws-account-enumeration-with-scout-suite/references/api-reference.md",
+      "bytes": 5113,
+      "sha256": "7f080c73b5b47041e0328efe398529b7d00933219a6230d6c35a787992c7a990",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-account-enumeration-with-scout-suite/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-aws-account-enumeration-with-scout-suite/references/standards.md",
+      "bytes": 1985,
+      "sha256": "42fa391e6b0e561aee89f2094fb4e1595779f591e5752eb9d53bcd1a38cd6719",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-account-enumeration-with-scout-suite/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-aws-account-enumeration-with-scout-suite/references/workflows.md",
+      "bytes": 2456,
+      "sha256": "a9b230e468d6f0ce7971596fb08b0b71a0366f162f6d5cf72d9f92a5cfd6c649",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-account-enumeration-with-scout-suite/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-aws-account-enumeration-with-scout-suite/scripts/agent.py",
+      "bytes": 9285,
+      "sha256": "49ea3886a685fec064abc9d6324b90545769ebfc328aeda2ba3e69cb174581c3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-account-enumeration-with-scout-suite/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-aws-account-enumeration-with-scout-suite/scripts/process.py",
+      "bytes": 8327,
+      "sha256": "09b5786868f408109f95738ce9eb8b442816412cc76844e0156e064293f2b41f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-aws-account-enumeration-with-scout-suite/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "4bc45f29794273a0151abee82789444cf3582f6472bfe7b19233a476414cffb0"
+}

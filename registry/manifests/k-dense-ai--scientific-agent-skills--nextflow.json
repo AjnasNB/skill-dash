@@ -1,1 +1,120 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--nextflow","name":"nextflow","description":"Builds, runs, and debugs Nextflow DSL2 pipelines and nf-core workflows. Use for Nextflow, nf-core, .nf files, nextflow.config, processes/channels/operators, samplesheets, nf-test, modules/subworkflows, container and executor configuration, HPC/SLURM or cloud deployment, and failed or resumed pipeline runs.","category":"Cloud & DevOps","tags":["nextflow","builds","runs","debugs","dsl2","pipelines","nf","core","workflows.",".nf","files","nextflow.config","processes","channels","operators","samplesheets","test","modules"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/nextflow","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nextflow","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":9,"bytes":94416,"sha256":"daa37795b3fe13ebf1c980acafb8401c4d1d7749dae013acc948f76c50c7379c","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/nextflow/SKILL.md","bytes":14939,"sha256":"daa37795b3fe13ebf1c980acafb8401c4d1d7749dae013acc948f76c50c7379c","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nextflow/SKILL.md"},{"path":"references/configuration.md","sourcePath":"skills/nextflow/references/configuration.md","bytes":12974,"sha256":"33eb19fe062ee61ac3158691f4f5ef04b440e6a2213e383534055ceaf0bd25de","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nextflow/references/configuration.md"},{"path":"references/containers.md","sourcePath":"skills/nextflow/references/containers.md","bytes":5426,"sha256":"30d9d91854539e76624a5535770072f9f14fc6fc2a7d80e74b0cdca9dc5a125b","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nextflow/references/containers.md"},{"path":"references/developing.md","sourcePath":"skills/nextflow/references/developing.md","bytes":17038,"sha256":"37f34c046f8381c02bc14df57bfc7e5d3344d9c980cd33871fed941c4aade05c","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nextflow/references/developing.md"},{"path":"references/language.md","sourcePath":"skills/nextflow/references/language.md","bytes":18642,"sha256":"0a50f71afc1baa1494ab71a265044f40d5afcae7cddda223476c268e488b88c0","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nextflow/references/language.md"},{"path":"references/nf-core-tools.md","sourcePath":"skills/nextflow/references/nf-core-tools.md","bytes":7002,"sha256":"8fb3cad8d9c4912dd09fdeced3d455f242b32a7bf59fba17b7a7e52d967ad133","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nextflow/references/nf-core-tools.md"},{"path":"references/running-pipelines.md","sourcePath":"skills/nextflow/references/running-pipelines.md","bytes":8108,"sha256":"4051abf017bc4e058bfe631e1cbee6b79ed354ecfd96d3ab7843dc1c7aa19a01","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nextflow/references/running-pipelines.md"},{"path":"references/testing.md","sourcePath":"skills/nextflow/references/testing.md","bytes":9219,"sha256":"0f209c70205105db021771b45c0740458294d1c39cf1b19ec3598664272601ba","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nextflow/references/testing.md"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"1a30e541721e48a614c18a399d2b9c88c661e83975d3225e8c4bb1eca985739d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--nextflow",
+    "name": "nextflow",
+    "description": "Builds, runs, and debugs Nextflow DSL2 pipelines and nf-core workflows. Use for Nextflow, nf-core, .nf files, nextflow.config, processes/channels/operators, samplesheets, nf-test, modules/subworkflows, container and executor configuration, HPC/SLURM or cloud deployment, and failed or resumed pipeline runs.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "nextflow",
+      "builds",
+      "runs",
+      "debugs",
+      "dsl2",
+      "pipelines",
+      "nf",
+      "core",
+      "workflows.",
+      ".nf",
+      "files",
+      "nextflow.config",
+      "processes",
+      "channels",
+      "operators",
+      "samplesheets",
+      "test",
+      "modules"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/nextflow",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nextflow",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 9,
+    "bytes": 94416,
+    "sha256": "daa37795b3fe13ebf1c980acafb8401c4d1d7749dae013acc948f76c50c7379c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/nextflow/SKILL.md",
+      "bytes": 14939,
+      "sha256": "daa37795b3fe13ebf1c980acafb8401c4d1d7749dae013acc948f76c50c7379c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nextflow/SKILL.md"
+    },
+    {
+      "path": "references/configuration.md",
+      "sourcePath": "skills/nextflow/references/configuration.md",
+      "bytes": 12974,
+      "sha256": "33eb19fe062ee61ac3158691f4f5ef04b440e6a2213e383534055ceaf0bd25de",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nextflow/references/configuration.md"
+    },
+    {
+      "path": "references/containers.md",
+      "sourcePath": "skills/nextflow/references/containers.md",
+      "bytes": 5426,
+      "sha256": "30d9d91854539e76624a5535770072f9f14fc6fc2a7d80e74b0cdca9dc5a125b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nextflow/references/containers.md"
+    },
+    {
+      "path": "references/developing.md",
+      "sourcePath": "skills/nextflow/references/developing.md",
+      "bytes": 17038,
+      "sha256": "37f34c046f8381c02bc14df57bfc7e5d3344d9c980cd33871fed941c4aade05c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nextflow/references/developing.md"
+    },
+    {
+      "path": "references/language.md",
+      "sourcePath": "skills/nextflow/references/language.md",
+      "bytes": 18642,
+      "sha256": "0a50f71afc1baa1494ab71a265044f40d5afcae7cddda223476c268e488b88c0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nextflow/references/language.md"
+    },
+    {
+      "path": "references/nf-core-tools.md",
+      "sourcePath": "skills/nextflow/references/nf-core-tools.md",
+      "bytes": 7002,
+      "sha256": "8fb3cad8d9c4912dd09fdeced3d455f242b32a7bf59fba17b7a7e52d967ad133",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nextflow/references/nf-core-tools.md"
+    },
+    {
+      "path": "references/running-pipelines.md",
+      "sourcePath": "skills/nextflow/references/running-pipelines.md",
+      "bytes": 8108,
+      "sha256": "4051abf017bc4e058bfe631e1cbee6b79ed354ecfd96d3ab7843dc1c7aa19a01",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nextflow/references/running-pipelines.md"
+    },
+    {
+      "path": "references/testing.md",
+      "sourcePath": "skills/nextflow/references/testing.md",
+      "bytes": 9219,
+      "sha256": "0f209c70205105db021771b45c0740458294d1c39cf1b19ec3598664272601ba",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/nextflow/references/testing.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "1a30e541721e48a614c18a399d2b9c88c661e83975d3225e8c4bb1eca985739d"
+}

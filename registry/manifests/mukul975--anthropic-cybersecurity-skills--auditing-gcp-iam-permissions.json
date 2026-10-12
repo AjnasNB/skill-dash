@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--auditing-gcp-iam-permissions","name":"auditing-gcp-iam-permissions","description":"Auditing Google Cloud Platform IAM permissions to identify overly permissive bindings, primitive role usage, service account key proliferation, and cross-project access risks using gcloud CLI, Policy Analyzer, and IAM Recommender.","category":"Development","tags":["auditing","gcp","iam","permissions","google","cloud","platform","identify","overly","permissive","bindings","primitive","role","usage","service","account","key","proliferation"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/auditing-gcp-iam-permissions/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/auditing-gcp-iam-permissions","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-gcp-iam-permissions","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":32298,"sha256":"5200c83cb8d96bb1e8dc7b36faf28f554665ed241d38731c4c64c6eaceccff28","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/auditing-gcp-iam-permissions/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-gcp-iam-permissions/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/auditing-gcp-iam-permissions/SKILL.md","bytes":12701,"sha256":"5200c83cb8d96bb1e8dc7b36faf28f554665ed241d38731c4c64c6eaceccff28","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-gcp-iam-permissions/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/auditing-gcp-iam-permissions/references/api-reference.md","bytes":2205,"sha256":"d89d566dd2dcc3e05d52d7cf069486265a1a4eac41546842738be9a90d28c919","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-gcp-iam-permissions/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/auditing-gcp-iam-permissions/scripts/agent.py","bytes":6137,"sha256":"db151f7b9eaa281d7ab5b8584096a4dc2c76e4599a58b50a92718265c1f3852b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-gcp-iam-permissions/scripts/agent.py"}],"archiveSha256":"b062683d2e44d44b8f246aa7813bcac71fa57db75e1ef0e749d73cb2db688495"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--auditing-gcp-iam-permissions",
+    "name": "auditing-gcp-iam-permissions",
+    "description": "Auditing Google Cloud Platform IAM permissions to identify overly permissive bindings, primitive role usage, service account key proliferation, and cross-project access risks using gcloud CLI, Policy Analyzer, and IAM Recommender.",
+    "category": "Development",
+    "tags": [
+      "auditing",
+      "gcp",
+      "iam",
+      "permissions",
+      "google",
+      "cloud",
+      "platform",
+      "identify",
+      "overly",
+      "permissive",
+      "bindings",
+      "primitive",
+      "role",
+      "usage",
+      "service",
+      "account",
+      "key",
+      "proliferation"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/auditing-gcp-iam-permissions/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/auditing-gcp-iam-permissions",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-gcp-iam-permissions",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32298,
+    "sha256": "5200c83cb8d96bb1e8dc7b36faf28f554665ed241d38731c4c64c6eaceccff28",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/auditing-gcp-iam-permissions/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-gcp-iam-permissions/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/auditing-gcp-iam-permissions/SKILL.md",
+      "bytes": 12701,
+      "sha256": "5200c83cb8d96bb1e8dc7b36faf28f554665ed241d38731c4c64c6eaceccff28",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-gcp-iam-permissions/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/auditing-gcp-iam-permissions/references/api-reference.md",
+      "bytes": 2205,
+      "sha256": "d89d566dd2dcc3e05d52d7cf069486265a1a4eac41546842738be9a90d28c919",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-gcp-iam-permissions/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/auditing-gcp-iam-permissions/scripts/agent.py",
+      "bytes": 6137,
+      "sha256": "db151f7b9eaa281d7ab5b8584096a4dc2c76e4599a58b50a92718265c1f3852b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-gcp-iam-permissions/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "b062683d2e44d44b8f246aa7813bcac71fa57db75e1ef0e749d73cb2db688495"
+}

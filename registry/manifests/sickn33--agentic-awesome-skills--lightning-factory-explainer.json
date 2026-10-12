@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--lightning-factory-explainer","name":"lightning-factory-explainer","description":"Explain Bitcoin Lightning channel factories and the SuperScalar protocol — scalable Lightning onboarding using shared UTXOs, Decker-Wattenhofer trees, timeout-signature trees, MuSig2, and Taproot. No soft fork required.","category":"Development","tags":["lightning","factory","explainer","explain","bitcoin","channel","factories","superscalar","protocol","scalable","onboarding","shared","utxos","decker","wattenhofer","trees","timeout","signature"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/lightning-factory-explainer","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lightning-factory-explainer","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":3701,"sha256":"6f67b5f51355cc619f366c242d4ab50a2a2f502087ac02f62f7bfd29042130f9","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/lightning-factory-explainer/SKILL.md","bytes":2628,"sha256":"6f67b5f51355cc619f366c242d4ab50a2a2f502087ac02f62f7bfd29042130f9","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lightning-factory-explainer/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"e82ec1111e5fa9e0d42b3148f68a383f400cdfc379c2873e38d7eb3e4b2542ce"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--lightning-factory-explainer",
+    "name": "lightning-factory-explainer",
+    "description": "Explain Bitcoin Lightning channel factories and the SuperScalar protocol — scalable Lightning onboarding using shared UTXOs, Decker-Wattenhofer trees, timeout-signature trees, MuSig2, and Taproot. No soft fork required.",
+    "category": "Development",
+    "tags": [
+      "lightning",
+      "factory",
+      "explainer",
+      "explain",
+      "bitcoin",
+      "channel",
+      "factories",
+      "superscalar",
+      "protocol",
+      "scalable",
+      "onboarding",
+      "shared",
+      "utxos",
+      "decker",
+      "wattenhofer",
+      "trees",
+      "timeout",
+      "signature"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/lightning-factory-explainer",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lightning-factory-explainer",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 3701,
+    "sha256": "6f67b5f51355cc619f366c242d4ab50a2a2f502087ac02f62f7bfd29042130f9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/lightning-factory-explainer/SKILL.md",
+      "bytes": 2628,
+      "sha256": "6f67b5f51355cc619f366c242d4ab50a2a2f502087ac02f62f7bfd29042130f9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lightning-factory-explainer/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "e82ec1111e5fa9e0d42b3148f68a383f400cdfc379c2873e38d7eb3e4b2542ce"
+}

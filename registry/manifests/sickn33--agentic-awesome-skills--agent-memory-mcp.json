@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--agent-memory-mcp","name":"agent-memory-mcp","description":"A hybrid memory system that provides persistent, searchable knowledge management for AI agents (Architecture, Patterns, Decisions).","category":"AI & agents","tags":["agent","memory","mcp","hybrid","system","provides","persistent","searchable","knowledge","management","ai","agents","architecture","patterns","decisions"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/agent-memory-mcp","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-memory-mcp","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4407,"sha256":"79beb3cef4b82bf4eb2621d7a15378f91fe158b72baa3d49c4eeaa044677753d","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/agent-memory-mcp/SKILL.md","bytes":3334,"sha256":"79beb3cef4b82bf4eb2621d7a15378f91fe158b72baa3d49c4eeaa044677753d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-memory-mcp/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"4c7f376b10383513314801c37f2b6b912f6ccca2844f59a3671096976c897a61"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--agent-memory-mcp",
+    "name": "agent-memory-mcp",
+    "description": "A hybrid memory system that provides persistent, searchable knowledge management for AI agents (Architecture, Patterns, Decisions).",
+    "category": "AI & agents",
+    "tags": [
+      "agent",
+      "memory",
+      "mcp",
+      "hybrid",
+      "system",
+      "provides",
+      "persistent",
+      "searchable",
+      "knowledge",
+      "management",
+      "ai",
+      "agents",
+      "architecture",
+      "patterns",
+      "decisions"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/agent-memory-mcp",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-memory-mcp",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4407,
+    "sha256": "79beb3cef4b82bf4eb2621d7a15378f91fe158b72baa3d49c4eeaa044677753d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/agent-memory-mcp/SKILL.md",
+      "bytes": 3334,
+      "sha256": "79beb3cef4b82bf4eb2621d7a15378f91fe158b72baa3d49c4eeaa044677753d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-memory-mcp/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "4c7f376b10383513314801c37f2b6b912f6ccca2844f59a3671096976c897a61"
+}

@@ -1,1 +1,96 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--molfeat","name":"molfeat","description":"Featurizes small molecules with Molfeat for QSAR/QSPR, chemical similarity, virtual screening, and molecular ML. Covers ECFP/MACCS fingerprints, RDKit descriptors, pharmacophores, pretrained embeddings, configuration persistence, and molecule-to-label alignment.","category":"Development","tags":["molfeat","featurizes","small","molecules","qsar","qspr","chemical","similarity","virtual","screening","molecular","ml.","covers","ecfp","maccs","fingerprints","rdkit","descriptors"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/molfeat","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/molfeat","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":6,"bytes":33494,"sha256":"6bc3c336b58c8c7214042c5679cd793e655c15e703fa5d5ac34e09250d11df5e","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/molfeat/SKILL.md","bytes":9489,"sha256":"6bc3c336b58c8c7214042c5679cd793e655c15e703fa5d5ac34e09250d11df5e","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/molfeat/SKILL.md"},{"path":"references/api_reference.md","sourcePath":"skills/molfeat/references/api_reference.md","bytes":7386,"sha256":"079989fb679122c2d1962ee5266e2d36af0ee510e8ac9cf9d5208106e1e2fcf1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/molfeat/references/api_reference.md"},{"path":"references/available_featurizers.md","sourcePath":"skills/molfeat/references/available_featurizers.md","bytes":5113,"sha256":"d7ada0b18bbdcfcd5d3a241048e05ea09a6e46f2772b99243024460ce35dced6","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/molfeat/references/available_featurizers.md"},{"path":"references/choosing_a_featurizer.md","sourcePath":"skills/molfeat/references/choosing_a_featurizer.md","bytes":5051,"sha256":"611573acb4603040a2c9f39c87dd616fb606e348c57917806d03b400fc595f30","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/molfeat/references/choosing_a_featurizer.md"},{"path":"references/examples.md","sourcePath":"skills/molfeat/references/examples.md","bytes":5387,"sha256":"e8623e34848b985bc1dccb46470a62cd28fd664ab821cb2a97b3d6203f477e43","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/molfeat/references/examples.md"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"dce2480e0d3fa105110994e206d15fc0205172f650df95a4bc6b93bca6e3943e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--molfeat",
+    "name": "molfeat",
+    "description": "Featurizes small molecules with Molfeat for QSAR/QSPR, chemical similarity, virtual screening, and molecular ML. Covers ECFP/MACCS fingerprints, RDKit descriptors, pharmacophores, pretrained embeddings, configuration persistence, and molecule-to-label alignment.",
+    "category": "Development",
+    "tags": [
+      "molfeat",
+      "featurizes",
+      "small",
+      "molecules",
+      "qsar",
+      "qspr",
+      "chemical",
+      "similarity",
+      "virtual",
+      "screening",
+      "molecular",
+      "ml.",
+      "covers",
+      "ecfp",
+      "maccs",
+      "fingerprints",
+      "rdkit",
+      "descriptors"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/molfeat",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/molfeat",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 6,
+    "bytes": 33494,
+    "sha256": "6bc3c336b58c8c7214042c5679cd793e655c15e703fa5d5ac34e09250d11df5e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/molfeat/SKILL.md",
+      "bytes": 9489,
+      "sha256": "6bc3c336b58c8c7214042c5679cd793e655c15e703fa5d5ac34e09250d11df5e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/molfeat/SKILL.md"
+    },
+    {
+      "path": "references/api_reference.md",
+      "sourcePath": "skills/molfeat/references/api_reference.md",
+      "bytes": 7386,
+      "sha256": "079989fb679122c2d1962ee5266e2d36af0ee510e8ac9cf9d5208106e1e2fcf1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/molfeat/references/api_reference.md"
+    },
+    {
+      "path": "references/available_featurizers.md",
+      "sourcePath": "skills/molfeat/references/available_featurizers.md",
+      "bytes": 5113,
+      "sha256": "d7ada0b18bbdcfcd5d3a241048e05ea09a6e46f2772b99243024460ce35dced6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/molfeat/references/available_featurizers.md"
+    },
+    {
+      "path": "references/choosing_a_featurizer.md",
+      "sourcePath": "skills/molfeat/references/choosing_a_featurizer.md",
+      "bytes": 5051,
+      "sha256": "611573acb4603040a2c9f39c87dd616fb606e348c57917806d03b400fc595f30",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/molfeat/references/choosing_a_featurizer.md"
+    },
+    {
+      "path": "references/examples.md",
+      "sourcePath": "skills/molfeat/references/examples.md",
+      "bytes": 5387,
+      "sha256": "e8623e34848b985bc1dccb46470a62cd28fd664ab821cb2a97b3d6203f477e43",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/molfeat/references/examples.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "dce2480e0d3fa105110994e206d15fc0205172f650df95a4bc6b93bca6e3943e"
+}

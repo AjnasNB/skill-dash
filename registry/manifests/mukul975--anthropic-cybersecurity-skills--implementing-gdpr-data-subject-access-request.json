@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-gdpr-data-subject-access-request","name":"implementing-gdpr-data-subject-access-request","description":"Automates GDPR Data Subject Access Request (DSAR) workflows including identity verification, PII discovery across databases and files using regex and NER, data mapping, response templating per Article 15 requirements, deadline tracking, and audit logging. Covers ICO/EDPB guidance compliance, exemption handling, and scalable batch processing. Use when building or auditing DSAR response capabilities under GDPR/UK GDPR.","category":"Development","tags":["implementing","gdpr","data","subject","access","request","automates","dsar","workflows","including","identity","verification","pii","discovery","across","databases","files","regex"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-gdpr-data-subject-access-request/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-gdpr-data-subject-access-request","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gdpr-data-subject-access-request","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":92405,"sha256":"df6727d144a9d926647a39cf2b860915f129ff43566383e77042e5715885e950","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-gdpr-data-subject-access-request/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gdpr-data-subject-access-request/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-gdpr-data-subject-access-request/SKILL.md","bytes":9894,"sha256":"df6727d144a9d926647a39cf2b860915f129ff43566383e77042e5715885e950","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gdpr-data-subject-access-request/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-gdpr-data-subject-access-request/references/api-reference.md","bytes":11411,"sha256":"7f0f22da9192332c013da1f3f7d6215a5712427348e88f76867cf552c5d2a0f4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gdpr-data-subject-access-request/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-gdpr-data-subject-access-request/scripts/agent.py","bytes":59845,"sha256":"e9b67fc1fc8f557c891b7507e68946f3a4e6cd5e1c081e8bb96f46030f9937f0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gdpr-data-subject-access-request/scripts/agent.py"}],"archiveSha256":"3bf03778b0b6049d5054d618edd5ff22132bde19abec4c7fca4004ceb8d9013d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-gdpr-data-subject-access-request",
+    "name": "implementing-gdpr-data-subject-access-request",
+    "description": "Automates GDPR Data Subject Access Request (DSAR) workflows including identity verification, PII discovery across databases and files using regex and NER, data mapping, response templating per Article 15 requirements, deadline tracking, and audit logging. Covers ICO/EDPB guidance compliance, exemption handling, and scalable batch processing. Use when building or auditing DSAR response capabilities under GDPR/UK GDPR.",
+    "category": "Development",
+    "tags": [
+      "implementing",
+      "gdpr",
+      "data",
+      "subject",
+      "access",
+      "request",
+      "automates",
+      "dsar",
+      "workflows",
+      "including",
+      "identity",
+      "verification",
+      "pii",
+      "discovery",
+      "across",
+      "databases",
+      "files",
+      "regex"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-gdpr-data-subject-access-request/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-gdpr-data-subject-access-request",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gdpr-data-subject-access-request",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 92405,
+    "sha256": "df6727d144a9d926647a39cf2b860915f129ff43566383e77042e5715885e950",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-gdpr-data-subject-access-request/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gdpr-data-subject-access-request/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-gdpr-data-subject-access-request/SKILL.md",
+      "bytes": 9894,
+      "sha256": "df6727d144a9d926647a39cf2b860915f129ff43566383e77042e5715885e950",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gdpr-data-subject-access-request/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-gdpr-data-subject-access-request/references/api-reference.md",
+      "bytes": 11411,
+      "sha256": "7f0f22da9192332c013da1f3f7d6215a5712427348e88f76867cf552c5d2a0f4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gdpr-data-subject-access-request/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-gdpr-data-subject-access-request/scripts/agent.py",
+      "bytes": 59845,
+      "sha256": "e9b67fc1fc8f557c891b7507e68946f3a4e6cd5e1c081e8bb96f46030f9937f0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-gdpr-data-subject-access-request/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "3bf03778b0b6049d5054d618edd5ff22132bde19abec4c7fca4004ceb8d9013d"
+}

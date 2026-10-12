@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--hunting-for-dns-tunneling-with-zeek","name":"hunting-for-dns-tunneling-with-zeek","description":"Detects DNS tunneling and covert-channel data exfiltration by analyzing Zeek dns.log for high-entropy subdomain queries, excessive query volume, abnormally long query lengths, and unusual DNS record types (TXT/NULL/CNAME). Use when hunting for DNS-based data exfiltration or C2 covert channels in network traffic, or when triaging suspicious DNS query volume/patterns surfaced by Zeek logs.","category":"Development","tags":["hunting","dns","tunneling","zeek","detects","covert","channel","data","exfiltration","by","analyzing","dns.log","high","entropy","subdomain","queries","excessive","query"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/hunting-for-dns-tunneling-with-zeek/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/hunting-for-dns-tunneling-with-zeek","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-tunneling-with-zeek","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":36908,"sha256":"c9067d9f809597121febe8bf2c842770661fe22bb956dfd4b0604eab53929073","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/hunting-for-dns-tunneling-with-zeek/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-tunneling-with-zeek/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/hunting-for-dns-tunneling-with-zeek/SKILL.md","bytes":6661,"sha256":"c9067d9f809597121febe8bf2c842770661fe22bb956dfd4b0604eab53929073","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-tunneling-with-zeek/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/hunting-for-dns-tunneling-with-zeek/assets/template.md","bytes":1046,"sha256":"9d71d4af835158c3031ba331c3b3a1d14755f58eac530f2f3c364280802cdbd4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-tunneling-with-zeek/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/hunting-for-dns-tunneling-with-zeek/references/api-reference.md","bytes":1567,"sha256":"a38a8ff83685706621161addcc501d185e036f7dd71566fa0c4079cd3065e825","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-tunneling-with-zeek/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/hunting-for-dns-tunneling-with-zeek/references/standards.md","bytes":2256,"sha256":"b75a9e5d371b6ba0d1a88746dc54032ae43789380175b49bcc8a4effbf1f2aed","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-tunneling-with-zeek/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/hunting-for-dns-tunneling-with-zeek/references/workflows.md","bytes":2508,"sha256":"46adcee72fc21f9fca48f51e4d16dfe990020d36c2226993d6eeda4b87e1e715","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-tunneling-with-zeek/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/hunting-for-dns-tunneling-with-zeek/scripts/agent.py","bytes":5605,"sha256":"61ea9a7f085b75d4b08b4e5fc7714930d13001519c07a6a1366a2228dec511fe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-tunneling-with-zeek/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/hunting-for-dns-tunneling-with-zeek/scripts/process.py","bytes":6010,"sha256":"0d06f2785376ad47558002a2a0609185c721b28917e4b37a495af97977db1ed1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-tunneling-with-zeek/scripts/process.py"}],"archiveSha256":"7dd7ce108aea57bedb905946599a6baf5dfc37434596865634940f4eaa8cd3fd"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-for-dns-tunneling-with-zeek",
+    "name": "hunting-for-dns-tunneling-with-zeek",
+    "description": "Detects DNS tunneling and covert-channel data exfiltration by analyzing Zeek dns.log for high-entropy subdomain queries, excessive query volume, abnormally long query lengths, and unusual DNS record types (TXT/NULL/CNAME). Use when hunting for DNS-based data exfiltration or C2 covert channels in network traffic, or when triaging suspicious DNS query volume/patterns surfaced by Zeek logs.",
+    "category": "Development",
+    "tags": [
+      "hunting",
+      "dns",
+      "tunneling",
+      "zeek",
+      "detects",
+      "covert",
+      "channel",
+      "data",
+      "exfiltration",
+      "by",
+      "analyzing",
+      "dns.log",
+      "high",
+      "entropy",
+      "subdomain",
+      "queries",
+      "excessive",
+      "query"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-for-dns-tunneling-with-zeek/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-for-dns-tunneling-with-zeek",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-tunneling-with-zeek",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 36908,
+    "sha256": "c9067d9f809597121febe8bf2c842770661fe22bb956dfd4b0604eab53929073",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-for-dns-tunneling-with-zeek/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-tunneling-with-zeek/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-for-dns-tunneling-with-zeek/SKILL.md",
+      "bytes": 6661,
+      "sha256": "c9067d9f809597121febe8bf2c842770661fe22bb956dfd4b0604eab53929073",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-tunneling-with-zeek/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/hunting-for-dns-tunneling-with-zeek/assets/template.md",
+      "bytes": 1046,
+      "sha256": "9d71d4af835158c3031ba331c3b3a1d14755f58eac530f2f3c364280802cdbd4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-tunneling-with-zeek/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-for-dns-tunneling-with-zeek/references/api-reference.md",
+      "bytes": 1567,
+      "sha256": "a38a8ff83685706621161addcc501d185e036f7dd71566fa0c4079cd3065e825",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-tunneling-with-zeek/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/hunting-for-dns-tunneling-with-zeek/references/standards.md",
+      "bytes": 2256,
+      "sha256": "b75a9e5d371b6ba0d1a88746dc54032ae43789380175b49bcc8a4effbf1f2aed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-tunneling-with-zeek/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/hunting-for-dns-tunneling-with-zeek/references/workflows.md",
+      "bytes": 2508,
+      "sha256": "46adcee72fc21f9fca48f51e4d16dfe990020d36c2226993d6eeda4b87e1e715",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-tunneling-with-zeek/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-for-dns-tunneling-with-zeek/scripts/agent.py",
+      "bytes": 5605,
+      "sha256": "61ea9a7f085b75d4b08b4e5fc7714930d13001519c07a6a1366a2228dec511fe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-tunneling-with-zeek/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/hunting-for-dns-tunneling-with-zeek/scripts/process.py",
+      "bytes": 6010,
+      "sha256": "0d06f2785376ad47558002a2a0609185c721b28917e4b37a495af97977db1ed1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-tunneling-with-zeek/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "7dd7ce108aea57bedb905946599a6baf5dfc37434596865634940f4eaa8cd3fd"
+}

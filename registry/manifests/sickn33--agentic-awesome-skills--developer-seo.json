@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--developer-seo","name":"developer-seo","description":"SEO strategy for technical queries and developer audiences. Covers keyword research for \"how to X in language\" queries, error message SEO, Stack Overflow-style content, technical long-tail keywords, and competing with official documentation sites.","category":"Marketing","tags":["developer","seo","strategy","technical","queries","audiences.","covers","keyword","research","language","error","message","stack","overflow","style","content","long","tail"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/developer-seo","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/developer-seo","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":12149,"sha256":"41efca9e971aedb4f950d887948b67ef9062fc0dd393c00dba2a3dc3692ba1a2","historical":false},"files":[{"path":"README.md","sourcePath":"skills/developer-seo/README.md","bytes":1367,"sha256":"6b9ab1023a5ad88c4a631cc81be50cf5d648b481bee4ece088249332716170de","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/developer-seo/README.md"},{"path":"SKILL.md","sourcePath":"skills/developer-seo/SKILL.md","bytes":9709,"sha256":"41efca9e971aedb4f950d887948b67ef9062fc0dd393c00dba2a3dc3692ba1a2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/developer-seo/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"dd9432fa7d04c604a4f8b324211b0a26f918b94aa4b8c3e4cc23ab9cc6c8cc18"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--developer-seo",
+    "name": "developer-seo",
+    "description": "SEO strategy for technical queries and developer audiences. Covers keyword research for \"how to X in language\" queries, error message SEO, Stack Overflow-style content, technical long-tail keywords, and competing with official documentation sites.",
+    "category": "Marketing",
+    "tags": [
+      "developer",
+      "seo",
+      "strategy",
+      "technical",
+      "queries",
+      "audiences.",
+      "covers",
+      "keyword",
+      "research",
+      "language",
+      "error",
+      "message",
+      "stack",
+      "overflow",
+      "style",
+      "content",
+      "long",
+      "tail"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/developer-seo",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/developer-seo",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 12149,
+    "sha256": "41efca9e971aedb4f950d887948b67ef9062fc0dd393c00dba2a3dc3692ba1a2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sourcePath": "skills/developer-seo/README.md",
+      "bytes": 1367,
+      "sha256": "6b9ab1023a5ad88c4a631cc81be50cf5d648b481bee4ece088249332716170de",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/developer-seo/README.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/developer-seo/SKILL.md",
+      "bytes": 9709,
+      "sha256": "41efca9e971aedb4f950d887948b67ef9062fc0dd393c00dba2a3dc3692ba1a2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/developer-seo/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "dd9432fa7d04c604a4f8b324211b0a26f918b94aa4b8c3e4cc23ab9cc6c8cc18"
+}

@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--deploying-palo-alto-prisma-access-zero-trust","name":"deploying-palo-alto-prisma-access-zero-trust","description":"Deploys Palo Alto Networks Prisma Access for SASE-based zero trust network access, configuring GlobalProtect agents, ZTNA Connectors, security policy enforcement, and Strata Cloud Manager integration for unified management. Use when implementing enterprise-grade SASE with integrated ZTNA/SWG/CASB/FWaaS, replacing both VPN and branch firewalls with cloud-delivered security, or integrating ZTNA with an existing Palo Alto NGFW estate.","category":"Security","tags":["deploying","palo","alto","prisma","access","zero","trust","deploys","networks","sase","based","network","configuring","globalprotect","agents","ztna","connectors","security"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/deploying-palo-alto-prisma-access-zero-trust/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/deploying-palo-alto-prisma-access-zero-trust","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-palo-alto-prisma-access-zero-trust","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":29124,"sha256":"603f19a709ceed3d6cadc3cb2ee3ff282ee1179cea60d9e8650fb42f945caba1","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/deploying-palo-alto-prisma-access-zero-trust/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-palo-alto-prisma-access-zero-trust/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/deploying-palo-alto-prisma-access-zero-trust/SKILL.md","bytes":11195,"sha256":"603f19a709ceed3d6cadc3cb2ee3ff282ee1179cea60d9e8650fb42f945caba1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-palo-alto-prisma-access-zero-trust/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/deploying-palo-alto-prisma-access-zero-trust/references/api-reference.md","bytes":1786,"sha256":"b62f072cfcb90748cd7a44c8706cb12c5597b7142251ce5c907c8c62f32a508b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-palo-alto-prisma-access-zero-trust/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/deploying-palo-alto-prisma-access-zero-trust/scripts/agent.py","bytes":4888,"sha256":"049bf799a8c22e9672201017288269695d3f9e04c12f870bbbff3c6f233bee42","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-palo-alto-prisma-access-zero-trust/scripts/agent.py"}],"archiveSha256":"fa56936a08c29ebda7c83300f46cd553b63d75d6dc99ed9940d0d602b4fccaab"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--deploying-palo-alto-prisma-access-zero-trust",
+    "name": "deploying-palo-alto-prisma-access-zero-trust",
+    "description": "Deploys Palo Alto Networks Prisma Access for SASE-based zero trust network access, configuring GlobalProtect agents, ZTNA Connectors, security policy enforcement, and Strata Cloud Manager integration for unified management. Use when implementing enterprise-grade SASE with integrated ZTNA/SWG/CASB/FWaaS, replacing both VPN and branch firewalls with cloud-delivered security, or integrating ZTNA with an existing Palo Alto NGFW estate.",
+    "category": "Security",
+    "tags": [
+      "deploying",
+      "palo",
+      "alto",
+      "prisma",
+      "access",
+      "zero",
+      "trust",
+      "deploys",
+      "networks",
+      "sase",
+      "based",
+      "network",
+      "configuring",
+      "globalprotect",
+      "agents",
+      "ztna",
+      "connectors",
+      "security"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/deploying-palo-alto-prisma-access-zero-trust/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/deploying-palo-alto-prisma-access-zero-trust",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-palo-alto-prisma-access-zero-trust",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 29124,
+    "sha256": "603f19a709ceed3d6cadc3cb2ee3ff282ee1179cea60d9e8650fb42f945caba1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/deploying-palo-alto-prisma-access-zero-trust/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-palo-alto-prisma-access-zero-trust/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/deploying-palo-alto-prisma-access-zero-trust/SKILL.md",
+      "bytes": 11195,
+      "sha256": "603f19a709ceed3d6cadc3cb2ee3ff282ee1179cea60d9e8650fb42f945caba1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-palo-alto-prisma-access-zero-trust/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/deploying-palo-alto-prisma-access-zero-trust/references/api-reference.md",
+      "bytes": 1786,
+      "sha256": "b62f072cfcb90748cd7a44c8706cb12c5597b7142251ce5c907c8c62f32a508b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-palo-alto-prisma-access-zero-trust/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/deploying-palo-alto-prisma-access-zero-trust/scripts/agent.py",
+      "bytes": 4888,
+      "sha256": "049bf799a8c22e9672201017288269695d3f9e04c12f870bbbff3c6f233bee42",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/deploying-palo-alto-prisma-access-zero-trust/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "fa56936a08c29ebda7c83300f46cd553b63d75d6dc99ed9940d0d602b4fccaab"
+}

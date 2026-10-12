@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--calc","name":"calc","description":"Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc.","category":"Documents","tags":["calc","spreadsheet","creation","format","conversion","ods","xlsx","csv","formulas","data","automation","libreoffice","calc."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/libreoffice/calc","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/libreoffice/calc","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6238,"sha256":"44e118a409727f7e1d9542a9952632c0ef7db13b5fbc822a95c16d67ae0fbe75","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/libreoffice/calc/SKILL.md","bytes":5165,"sha256":"44e118a409727f7e1d9542a9952632c0ef7db13b5fbc822a95c16d67ae0fbe75","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/libreoffice/calc/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"675fa850aca80c6e5115409e4b462f8f9fbe40f97b9b2f81881195398477cd20"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--calc",
+    "name": "calc",
+    "description": "Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc.",
+    "category": "Documents",
+    "tags": [
+      "calc",
+      "spreadsheet",
+      "creation",
+      "format",
+      "conversion",
+      "ods",
+      "xlsx",
+      "csv",
+      "formulas",
+      "data",
+      "automation",
+      "libreoffice",
+      "calc."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/libreoffice/calc",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/libreoffice/calc",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6238,
+    "sha256": "44e118a409727f7e1d9542a9952632c0ef7db13b5fbc822a95c16d67ae0fbe75",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/libreoffice/calc/SKILL.md",
+      "bytes": 5165,
+      "sha256": "44e118a409727f7e1d9542a9952632c0ef7db13b5fbc822a95c16d67ae0fbe75",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/libreoffice/calc/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "675fa850aca80c6e5115409e4b462f8f9fbe40f97b9b2f81881195398477cd20"
+}

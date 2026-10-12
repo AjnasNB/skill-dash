@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--azure-ai-projects-java","name":"azure-ai-projects-java","description":"Azure AI Projects SDK for Java. High-level SDK for Azure AI Foundry project management including connections, datasets, indexes, and evaluations.","category":"Cloud & DevOps","tags":["azure","ai","projects","java","sdk","java.","high","level","foundry","project","management","including","connections","datasets","indexes","evaluations."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/azure-ai-projects-java","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-projects-java","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6169,"sha256":"ad518e8b5a7471b28411a779887991ba2c19bb7b0268e7569a5f625205920d53","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/azure-ai-projects-java/SKILL.md","bytes":5096,"sha256":"ad518e8b5a7471b28411a779887991ba2c19bb7b0268e7569a5f625205920d53","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-projects-java/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"a047b7544acff2a50f94a352a665a05c665311e5c793f7fc04b950c9ede0f019"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--azure-ai-projects-java",
+    "name": "azure-ai-projects-java",
+    "description": "Azure AI Projects SDK for Java. High-level SDK for Azure AI Foundry project management including connections, datasets, indexes, and evaluations.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "azure",
+      "ai",
+      "projects",
+      "java",
+      "sdk",
+      "java.",
+      "high",
+      "level",
+      "foundry",
+      "project",
+      "management",
+      "including",
+      "connections",
+      "datasets",
+      "indexes",
+      "evaluations."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/azure-ai-projects-java",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-projects-java",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6169,
+    "sha256": "ad518e8b5a7471b28411a779887991ba2c19bb7b0268e7569a5f625205920d53",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/azure-ai-projects-java/SKILL.md",
+      "bytes": 5096,
+      "sha256": "ad518e8b5a7471b28411a779887991ba2c19bb7b0268e7569a5f625205920d53",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-projects-java/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "a047b7544acff2a50f94a352a665a05c665311e5c793f7fc04b950c9ede0f019"
+}

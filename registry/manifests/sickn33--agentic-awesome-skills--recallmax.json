@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--recallmax","name":"recallmax","description":"FREE — God-tier long-context memory for AI agents. Injects 500K-1M clean tokens, auto-summarizes with tone/intent preservation, compresses 14-turn history into 800 tokens.","category":"AI & agents","tags":["recallmax","free","god","tier","long","context","memory","ai","agents.","injects","500k","1m","clean","tokens","auto","summarizes","tone","intent"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/recallmax","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/recallmax","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4435,"sha256":"74442b66f19f5096312caae5886988d27c35338bd8fddf20ce9407a1c801c936","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/recallmax/SKILL.md","bytes":3362,"sha256":"74442b66f19f5096312caae5886988d27c35338bd8fddf20ce9407a1c801c936","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/recallmax/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"1bf1c271f40ac6b0be3e3c31946c6c0570356de8ce31a8c2dc815a1dbcdb8e11"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--recallmax",
+    "name": "recallmax",
+    "description": "FREE — God-tier long-context memory for AI agents. Injects 500K-1M clean tokens, auto-summarizes with tone/intent preservation, compresses 14-turn history into 800 tokens.",
+    "category": "AI & agents",
+    "tags": [
+      "recallmax",
+      "free",
+      "god",
+      "tier",
+      "long",
+      "context",
+      "memory",
+      "ai",
+      "agents.",
+      "injects",
+      "500k",
+      "1m",
+      "clean",
+      "tokens",
+      "auto",
+      "summarizes",
+      "tone",
+      "intent"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/recallmax",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/recallmax",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4435,
+    "sha256": "74442b66f19f5096312caae5886988d27c35338bd8fddf20ce9407a1c801c936",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/recallmax/SKILL.md",
+      "bytes": 3362,
+      "sha256": "74442b66f19f5096312caae5886988d27c35338bd8fddf20ce9407a1c801c936",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/recallmax/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "1bf1c271f40ac6b0be3e3c31946c6c0570356de8ce31a8c2dc815a1dbcdb8e11"
+}

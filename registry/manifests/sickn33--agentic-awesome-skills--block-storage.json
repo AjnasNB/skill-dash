@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--block-storage","name":"block-storage","description":"Manage block storage volumes and LVM. Configure cloud block storage and local disks. Use when managing disk storage.","category":"Development","tags":["block","storage","manage","volumes","lvm.","configure","cloud","local","disks.","when","managing","disk","storage."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/block-storage","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/block-storage","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11988,"sha256":"aca86bdf43edb10c7c68cd0403e112eed580be603764a1fc61ecc73f5dee9122","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/block-storage/SKILL.md","bytes":10915,"sha256":"aca86bdf43edb10c7c68cd0403e112eed580be603764a1fc61ecc73f5dee9122","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/block-storage/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"57136610f3472ef813e30df80d2d815ed835c729f7855aee97969b97c00ce8f7"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--block-storage",
+    "name": "block-storage",
+    "description": "Manage block storage volumes and LVM. Configure cloud block storage and local disks. Use when managing disk storage.",
+    "category": "Development",
+    "tags": [
+      "block",
+      "storage",
+      "manage",
+      "volumes",
+      "lvm.",
+      "configure",
+      "cloud",
+      "local",
+      "disks.",
+      "when",
+      "managing",
+      "disk",
+      "storage."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/block-storage",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/block-storage",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11988,
+    "sha256": "aca86bdf43edb10c7c68cd0403e112eed580be603764a1fc61ecc73f5dee9122",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/block-storage/SKILL.md",
+      "bytes": 10915,
+      "sha256": "aca86bdf43edb10c7c68cd0403e112eed580be603764a1fc61ecc73f5dee9122",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/block-storage/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "57136610f3472ef813e30df80d2d815ed835c729f7855aee97969b97c00ce8f7"
+}

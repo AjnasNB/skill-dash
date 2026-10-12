@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-aws-guardduty-findings-automation","name":"detecting-aws-guardduty-findings-automation","description":"Build automated AWS GuardDuty finding response pipelines using EventBridge and Lambda to trigger real-time incident response, automatically quarantine compromised resources, and route security notifications. Use when designing automated remediation playbooks for GuardDuty findings across VPC Flow Logs, CloudTrail, DNS, EKS, or S3 data events, or when reducing mean time to respond to cloud threats.","category":"Security","tags":["detecting","aws","guardduty","findings","automation","automated","finding","response","pipelines","eventbridge","lambda","trigger","real","time","incident","automatically","quarantine","compromised"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-aws-guardduty-findings-automation/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-aws-guardduty-findings-automation","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-guardduty-findings-automation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":37709,"sha256":"9e727be15e52ae2ac3d81dc30dc580bf343ecaed7564aff15544c29c7366e5e4","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-aws-guardduty-findings-automation/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-guardduty-findings-automation/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-aws-guardduty-findings-automation/SKILL.md","bytes":10666,"sha256":"9e727be15e52ae2ac3d81dc30dc580bf343ecaed7564aff15544c29c7366e5e4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-guardduty-findings-automation/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/detecting-aws-guardduty-findings-automation/assets/template.md","bytes":784,"sha256":"8011e3792d2b113cdd3b85fc144d1fd1e8b8b5ea4ef5e771fb5b57fb8b8d55fc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-guardduty-findings-automation/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-aws-guardduty-findings-automation/references/api-reference.md","bytes":2450,"sha256":"b874db08cfc1ed42d02fc671226e68aea80f36a7d917bf2452ce7eda7181592c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-guardduty-findings-automation/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/detecting-aws-guardduty-findings-automation/references/standards.md","bytes":668,"sha256":"6f53bcae2e10cffd7d61b00295072baee19b9a39cf1111e60fa76dd6ae0eec1a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-guardduty-findings-automation/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/detecting-aws-guardduty-findings-automation/references/workflows.md","bytes":693,"sha256":"57dd4d36898ad75909905c9f98127215c5682b965f31b40bd49237072cd3d137","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-guardduty-findings-automation/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-aws-guardduty-findings-automation/scripts/agent.py","bytes":7106,"sha256":"173c4b249aec62a719b9d1d49f3b2f3ab40cd12b2dd6c14a5556d9d28240cbb0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-guardduty-findings-automation/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/detecting-aws-guardduty-findings-automation/scripts/process.py","bytes":4087,"sha256":"277cf18501e7af7fe57a0e9c9f9b9f53bc438213f2bed05da422aa94e52eb00f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-guardduty-findings-automation/scripts/process.py"}],"archiveSha256":"de0c3af83b3329d8f3524aab7b66324448b3f4f1524ac9ff1ccea2e6068b884f"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-aws-guardduty-findings-automation",
+    "name": "detecting-aws-guardduty-findings-automation",
+    "description": "Build automated AWS GuardDuty finding response pipelines using EventBridge and Lambda to trigger real-time incident response, automatically quarantine compromised resources, and route security notifications. Use when designing automated remediation playbooks for GuardDuty findings across VPC Flow Logs, CloudTrail, DNS, EKS, or S3 data events, or when reducing mean time to respond to cloud threats.",
+    "category": "Security",
+    "tags": [
+      "detecting",
+      "aws",
+      "guardduty",
+      "findings",
+      "automation",
+      "automated",
+      "finding",
+      "response",
+      "pipelines",
+      "eventbridge",
+      "lambda",
+      "trigger",
+      "real",
+      "time",
+      "incident",
+      "automatically",
+      "quarantine",
+      "compromised"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-aws-guardduty-findings-automation/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-aws-guardduty-findings-automation",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-guardduty-findings-automation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 37709,
+    "sha256": "9e727be15e52ae2ac3d81dc30dc580bf343ecaed7564aff15544c29c7366e5e4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-aws-guardduty-findings-automation/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-guardduty-findings-automation/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-aws-guardduty-findings-automation/SKILL.md",
+      "bytes": 10666,
+      "sha256": "9e727be15e52ae2ac3d81dc30dc580bf343ecaed7564aff15544c29c7366e5e4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-guardduty-findings-automation/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/detecting-aws-guardduty-findings-automation/assets/template.md",
+      "bytes": 784,
+      "sha256": "8011e3792d2b113cdd3b85fc144d1fd1e8b8b5ea4ef5e771fb5b57fb8b8d55fc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-guardduty-findings-automation/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-aws-guardduty-findings-automation/references/api-reference.md",
+      "bytes": 2450,
+      "sha256": "b874db08cfc1ed42d02fc671226e68aea80f36a7d917bf2452ce7eda7181592c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-guardduty-findings-automation/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/detecting-aws-guardduty-findings-automation/references/standards.md",
+      "bytes": 668,
+      "sha256": "6f53bcae2e10cffd7d61b00295072baee19b9a39cf1111e60fa76dd6ae0eec1a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-guardduty-findings-automation/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/detecting-aws-guardduty-findings-automation/references/workflows.md",
+      "bytes": 693,
+      "sha256": "57dd4d36898ad75909905c9f98127215c5682b965f31b40bd49237072cd3d137",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-guardduty-findings-automation/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-aws-guardduty-findings-automation/scripts/agent.py",
+      "bytes": 7106,
+      "sha256": "173c4b249aec62a719b9d1d49f3b2f3ab40cd12b2dd6c14a5556d9d28240cbb0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-guardduty-findings-automation/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/detecting-aws-guardduty-findings-automation/scripts/process.py",
+      "bytes": 4087,
+      "sha256": "277cf18501e7af7fe57a0e9c9f9b9f53bc438213f2bed05da422aa94e52eb00f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-aws-guardduty-findings-automation/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "de0c3af83b3329d8f3524aab7b66324448b3f4f1524ac9ff1ccea2e6068b884f"
+}

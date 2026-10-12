@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--agent-evaluation-reporting","name":"agent-evaluation-reporting","description":"Use when summarizing agent evaluations where autonomous, assisted, failed, timed-out, or invalid outcomes must remain distinct and comparable.","category":"AI & agents","tags":["agent","evaluation","reporting","when","summarizing","evaluations","where","autonomous","assisted","failed","timed","out","invalid","outcomes","must","remain","distinct","comparable."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/agent-evaluation-reporting","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-evaluation-reporting","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":9337,"sha256":"800b27a3d99da18961afaadb8678450f14552313f9f9380b255c893f68f5ee88","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/agent-evaluation-reporting/SKILL.md","bytes":8264,"sha256":"800b27a3d99da18961afaadb8678450f14552313f9f9380b255c893f68f5ee88","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-evaluation-reporting/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"acd9c73468048e1e1ee26f455d8c1f8db93ad53c8a2f768da02461a0ecd2a0ed"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--agent-evaluation-reporting",
+    "name": "agent-evaluation-reporting",
+    "description": "Use when summarizing agent evaluations where autonomous, assisted, failed, timed-out, or invalid outcomes must remain distinct and comparable.",
+    "category": "AI & agents",
+    "tags": [
+      "agent",
+      "evaluation",
+      "reporting",
+      "when",
+      "summarizing",
+      "evaluations",
+      "where",
+      "autonomous",
+      "assisted",
+      "failed",
+      "timed",
+      "out",
+      "invalid",
+      "outcomes",
+      "must",
+      "remain",
+      "distinct",
+      "comparable."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/agent-evaluation-reporting",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-evaluation-reporting",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9337,
+    "sha256": "800b27a3d99da18961afaadb8678450f14552313f9f9380b255c893f68f5ee88",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/agent-evaluation-reporting/SKILL.md",
+      "bytes": 8264,
+      "sha256": "800b27a3d99da18961afaadb8678450f14552313f9f9380b255c893f68f5ee88",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-evaluation-reporting/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "acd9c73468048e1e1ee26f455d8c1f8db93ad53c8a2f768da02461a0ecd2a0ed"
+}

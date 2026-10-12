@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-bootkit-and-rootkit-samples","name":"analyzing-bootkit-and-rootkit-samples","description":"Analyzes bootkit and advanced rootkit malware infecting the Master Boot Record (MBR), Volume Boot Record (VBR), or UEFI firmware for below-OS persistence, covering boot sector analysis, UEFI module inspection, and anti-rootkit detection. Use when compromise survives OS reinstallation or antivirus/EDR fails to detect malware despite clear infection signs.","category":"Security","tags":["analyzing","bootkit","rootkit","samples","analyzes","advanced","malware","infecting","master","boot","record","mbr","volume","vbr","uefi","firmware","below","os"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-bootkit-and-rootkit-samples/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-bootkit-and-rootkit-samples","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-bootkit-and-rootkit-samples","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":34178,"sha256":"f1e225f6d60620b07aa1851d55ecfd478ff92919fc8164d0fa659007901bcf6d","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-bootkit-and-rootkit-samples/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-bootkit-and-rootkit-samples/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-bootkit-and-rootkit-samples/SKILL.md","bytes":12989,"sha256":"f1e225f6d60620b07aa1851d55ecfd478ff92919fc8164d0fa659007901bcf6d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-bootkit-and-rootkit-samples/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-bootkit-and-rootkit-samples/references/api-reference.md","bytes":2798,"sha256":"237c51f000b93477446cb1e4a32eba7bc6d0f3f13ce5d5a1abae2e514f034f04","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-bootkit-and-rootkit-samples/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-bootkit-and-rootkit-samples/scripts/agent.py","bytes":7136,"sha256":"937fe71d3006b59dd4afb41e67b7b511dae9a54532ab48a5a967b802673de397","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-bootkit-and-rootkit-samples/scripts/agent.py"}],"archiveSha256":"8953b61f48e19d72968d1ebd8e656aa89da618eb023024437acc5397a43b5d73"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-bootkit-and-rootkit-samples",
+    "name": "analyzing-bootkit-and-rootkit-samples",
+    "description": "Analyzes bootkit and advanced rootkit malware infecting the Master Boot Record (MBR), Volume Boot Record (VBR), or UEFI firmware for below-OS persistence, covering boot sector analysis, UEFI module inspection, and anti-rootkit detection. Use when compromise survives OS reinstallation or antivirus/EDR fails to detect malware despite clear infection signs.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "bootkit",
+      "rootkit",
+      "samples",
+      "analyzes",
+      "advanced",
+      "malware",
+      "infecting",
+      "master",
+      "boot",
+      "record",
+      "mbr",
+      "volume",
+      "vbr",
+      "uefi",
+      "firmware",
+      "below",
+      "os"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-bootkit-and-rootkit-samples/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-bootkit-and-rootkit-samples",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-bootkit-and-rootkit-samples",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34178,
+    "sha256": "f1e225f6d60620b07aa1851d55ecfd478ff92919fc8164d0fa659007901bcf6d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-bootkit-and-rootkit-samples/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-bootkit-and-rootkit-samples/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-bootkit-and-rootkit-samples/SKILL.md",
+      "bytes": 12989,
+      "sha256": "f1e225f6d60620b07aa1851d55ecfd478ff92919fc8164d0fa659007901bcf6d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-bootkit-and-rootkit-samples/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-bootkit-and-rootkit-samples/references/api-reference.md",
+      "bytes": 2798,
+      "sha256": "237c51f000b93477446cb1e4a32eba7bc6d0f3f13ce5d5a1abae2e514f034f04",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-bootkit-and-rootkit-samples/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-bootkit-and-rootkit-samples/scripts/agent.py",
+      "bytes": 7136,
+      "sha256": "937fe71d3006b59dd4afb41e67b7b511dae9a54532ab48a5a967b802673de397",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-bootkit-and-rootkit-samples/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "8953b61f48e19d72968d1ebd8e656aa89da618eb023024437acc5397a43b5d73"
+}

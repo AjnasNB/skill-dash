@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--notion-template-business","name":"notion-template-business","description":"Expert in building and selling Notion templates as a business - not just making templates, but building a sustainable digital product business. Covers template design, pricing, marketplaces, marketing, and scaling to real revenue.","category":"Design","tags":["notion","template","business","expert","building","selling","templates","as","not","just","making","but","sustainable","digital","product","business.","covers","design"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/notion-template-business","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/notion-template-business","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":14461,"sha256":"3c8c9fb8bc6f2f13850bf27ac1a59536cf6a93e3857587620db62ca2bb935158","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/notion-template-business/SKILL.md","bytes":2024,"sha256":"3c8c9fb8bc6f2f13850bf27ac1a59536cf6a93e3857587620db62ca2bb935158","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/notion-template-business/SKILL.md"},{"path":"references/detailed-guide.md","sourcePath":"skills/notion-template-business/references/detailed-guide.md","bytes":11364,"sha256":"f4374839c806ca35eec5b5da16ac7421e93bd9293502b64995c42a17e3e38e1d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/notion-template-business/references/detailed-guide.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"85e27957c3d0afc343218bd987aae28324a60627b9671821de82f8dccad67282"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--notion-template-business",
+    "name": "notion-template-business",
+    "description": "Expert in building and selling Notion templates as a business - not just making templates, but building a sustainable digital product business. Covers template design, pricing, marketplaces, marketing, and scaling to real revenue.",
+    "category": "Design",
+    "tags": [
+      "notion",
+      "template",
+      "business",
+      "expert",
+      "building",
+      "selling",
+      "templates",
+      "as",
+      "not",
+      "just",
+      "making",
+      "but",
+      "sustainable",
+      "digital",
+      "product",
+      "business.",
+      "covers",
+      "design"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/notion-template-business",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/notion-template-business",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 14461,
+    "sha256": "3c8c9fb8bc6f2f13850bf27ac1a59536cf6a93e3857587620db62ca2bb935158",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/notion-template-business/SKILL.md",
+      "bytes": 2024,
+      "sha256": "3c8c9fb8bc6f2f13850bf27ac1a59536cf6a93e3857587620db62ca2bb935158",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/notion-template-business/SKILL.md"
+    },
+    {
+      "path": "references/detailed-guide.md",
+      "sourcePath": "skills/notion-template-business/references/detailed-guide.md",
+      "bytes": 11364,
+      "sha256": "f4374839c806ca35eec5b5da16ac7421e93bd9293502b64995c42a17e3e38e1d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/notion-template-business/references/detailed-guide.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "85e27957c3d0afc343218bd987aae28324a60627b9671821de82f8dccad67282"
+}

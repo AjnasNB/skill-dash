@@ -1,1 +1,69 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--sql-optimization-patterns","name":"sql-optimization-patterns","description":"Diagnose slow SQL with query plans, preserve query results, and verify indexing or query changes against representative data.","category":"Development","tags":["sql","optimization","patterns","diagnose","slow","query","plans","preserve","results","verify","indexing","changes","against","representative","data."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/sql-optimization-patterns","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sql-optimization-patterns","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":18225,"sha256":"e5e212280c58e04ed35df715b093f6e95ef0c382235104e3b4477fd9920bbd03","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/sql-optimization-patterns/SKILL.md","bytes":2261,"sha256":"e5e212280c58e04ed35df715b093f6e95ef0c382235104e3b4477fd9920bbd03","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sql-optimization-patterns/SKILL.md"},{"path":"resources/implementation-playbook.md","sourcePath":"skills/sql-optimization-patterns/resources/implementation-playbook.md","bytes":14891,"sha256":"a42a1614aafa56f50dac45735a87b982a1c437ca57d876b570dcbd072d09c648","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sql-optimization-patterns/resources/implementation-playbook.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"50a4c249ae2ef3929ae4a515fdfe211ee048c86436e20ad6a8ddee5a230bc372"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--sql-optimization-patterns",
+    "name": "sql-optimization-patterns",
+    "description": "Diagnose slow SQL with query plans, preserve query results, and verify indexing or query changes against representative data.",
+    "category": "Development",
+    "tags": [
+      "sql",
+      "optimization",
+      "patterns",
+      "diagnose",
+      "slow",
+      "query",
+      "plans",
+      "preserve",
+      "results",
+      "verify",
+      "indexing",
+      "changes",
+      "against",
+      "representative",
+      "data."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/sql-optimization-patterns",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sql-optimization-patterns",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 18225,
+    "sha256": "e5e212280c58e04ed35df715b093f6e95ef0c382235104e3b4477fd9920bbd03",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/sql-optimization-patterns/SKILL.md",
+      "bytes": 2261,
+      "sha256": "e5e212280c58e04ed35df715b093f6e95ef0c382235104e3b4477fd9920bbd03",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sql-optimization-patterns/SKILL.md"
+    },
+    {
+      "path": "resources/implementation-playbook.md",
+      "sourcePath": "skills/sql-optimization-patterns/resources/implementation-playbook.md",
+      "bytes": 14891,
+      "sha256": "a42a1614aafa56f50dac45735a87b982a1c437ca57d876b570dcbd072d09c648",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sql-optimization-patterns/resources/implementation-playbook.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "50a4c249ae2ef3929ae4a515fdfe211ee048c86436e20ad6a8ddee5a230bc372"
+}

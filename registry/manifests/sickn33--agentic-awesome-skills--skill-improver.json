@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--skill-improver","name":"skill-improver","description":"Iteratively improve a Claude Code skill using the skill-reviewer agent until it meets quality standards. Use when improving a skill with multiple quality issues, iterating on a new skill until it meets standards, or automated fix-review cycles instead of manual editing.","category":"AI & agents","tags":["skill","improver","iteratively","improve","claude","code","reviewer","agent","until","it","meets","quality","standards.","when","improving","multiple","issues","iterating"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/skill-improver","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/skill-improver","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7173,"sha256":"7167d277f3677c00e5effb1acdafb362f0553e82e37f3fdf3a4dabfe3cf2475d","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/skill-improver/SKILL.md","bytes":6100,"sha256":"7167d277f3677c00e5effb1acdafb362f0553e82e37f3fdf3a4dabfe3cf2475d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/skill-improver/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"5090ead4ed03124e8b6927809394e149dea67b7cbb0b3798e665e1349c5a8190"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--skill-improver",
+    "name": "skill-improver",
+    "description": "Iteratively improve a Claude Code skill using the skill-reviewer agent until it meets quality standards. Use when improving a skill with multiple quality issues, iterating on a new skill until it meets standards, or automated fix-review cycles instead of manual editing.",
+    "category": "AI & agents",
+    "tags": [
+      "skill",
+      "improver",
+      "iteratively",
+      "improve",
+      "claude",
+      "code",
+      "reviewer",
+      "agent",
+      "until",
+      "it",
+      "meets",
+      "quality",
+      "standards.",
+      "when",
+      "improving",
+      "multiple",
+      "issues",
+      "iterating"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/skill-improver",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/skill-improver",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7173,
+    "sha256": "7167d277f3677c00e5effb1acdafb362f0553e82e37f3fdf3a4dabfe3cf2475d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/skill-improver/SKILL.md",
+      "bytes": 6100,
+      "sha256": "7167d277f3677c00e5effb1acdafb362f0553e82e37f3fdf3a4dabfe3cf2475d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/skill-improver/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "5090ead4ed03124e8b6927809394e149dea67b7cbb0b3798e665e1349c5a8190"
+}

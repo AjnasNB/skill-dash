@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--cron-doctor","name":"cron-doctor","description":"Diagnose and validate cron expressions before they ship. Catches the five silent death-traps: impossible dates that never fire, OR-semantics that fire too often, midnight spikes, uneven step drift, and leap-year February 29.","category":"Development","tags":["cron","doctor","diagnose","validate","expressions","before","they","ship.","catches","five","silent","death","traps","impossible","dates","never","fire","semantics"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/cron-doctor","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cron-doctor","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":4,"bytes":34748,"sha256":"1b64b8176a4e64a567c614685d462be2d621f035bb9bfa14860f8f1642c1865b","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/cron-doctor/SKILL.md","bytes":9556,"sha256":"1b64b8176a4e64a567c614685d462be2d621f035bb9bfa14860f8f1642c1865b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cron-doctor/SKILL.md"},{"path":"scripts/cli.js","sourcePath":"skills/cron-doctor/scripts/cli.js","bytes":2184,"sha256":"d9e2b7664d5dc7a78f195f2083959f46c18fbf21c11b836bd59fae5203d23858","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cron-doctor/scripts/cli.js"},{"path":"scripts/cron-engine.js","sourcePath":"skills/cron-doctor/scripts/cron-engine.js","bytes":21935,"sha256":"e1c710eb21042406afd930cd669ff9c718b01e2b32020534c26e57dd19bbe842","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cron-doctor/scripts/cron-engine.js"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"6d150f3979b0d25462b9529ee94d6bcdd324295932054d52f53f5a0b5672d73d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--cron-doctor",
+    "name": "cron-doctor",
+    "description": "Diagnose and validate cron expressions before they ship. Catches the five silent death-traps: impossible dates that never fire, OR-semantics that fire too often, midnight spikes, uneven step drift, and leap-year February 29.",
+    "category": "Development",
+    "tags": [
+      "cron",
+      "doctor",
+      "diagnose",
+      "validate",
+      "expressions",
+      "before",
+      "they",
+      "ship.",
+      "catches",
+      "five",
+      "silent",
+      "death",
+      "traps",
+      "impossible",
+      "dates",
+      "never",
+      "fire",
+      "semantics"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/cron-doctor",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cron-doctor",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 4,
+    "bytes": 34748,
+    "sha256": "1b64b8176a4e64a567c614685d462be2d621f035bb9bfa14860f8f1642c1865b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/cron-doctor/SKILL.md",
+      "bytes": 9556,
+      "sha256": "1b64b8176a4e64a567c614685d462be2d621f035bb9bfa14860f8f1642c1865b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cron-doctor/SKILL.md"
+    },
+    {
+      "path": "scripts/cli.js",
+      "sourcePath": "skills/cron-doctor/scripts/cli.js",
+      "bytes": 2184,
+      "sha256": "d9e2b7664d5dc7a78f195f2083959f46c18fbf21c11b836bd59fae5203d23858",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cron-doctor/scripts/cli.js"
+    },
+    {
+      "path": "scripts/cron-engine.js",
+      "sourcePath": "skills/cron-doctor/scripts/cron-engine.js",
+      "bytes": 21935,
+      "sha256": "e1c710eb21042406afd930cd669ff9c718b01e2b32020534c26e57dd19bbe842",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cron-doctor/scripts/cron-engine.js"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "6d150f3979b0d25462b9529ee94d6bcdd324295932054d52f53f5a0b5672d73d"
+}

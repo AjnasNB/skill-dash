@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--readme-blueprint-generator","name":"readme-blueprint-generator","description":"Intelligent README.md generation prompt that analyzes project documentation structure and creates comprehensive repository documentation. Scans .github/copilot directory files and copilot-instructions.md to extract project information, technology stack, architecture, development workflow, coding standards, and testing approaches while generating well-structured markdown documentation with proper formatting, cross-references, and developer-focused content.","category":"AI & agents","tags":["readme","blueprint","generator","intelligent","readme.md","generation","prompt","analyzes","project","documentation","structure","creates","comprehensive","repository","documentation.","scans",".github","copilot"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/readme-blueprint-generator","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/readme-blueprint-generator","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":3973,"sha256":"571094038e74bd3de56356f67d1e73af69afc4ce63f886c2b047f351b85a3183","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/readme-blueprint-generator/SKILL.md","bytes":2914,"sha256":"571094038e74bd3de56356f67d1e73af69afc4ce63f886c2b047f351b85a3183","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/readme-blueprint-generator/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"7c2e16e3f8984ba92f2d43beb56eec11e061066fd8fb1b3e04b55a1728ac3d2d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--readme-blueprint-generator",
+    "name": "readme-blueprint-generator",
+    "description": "Intelligent README.md generation prompt that analyzes project documentation structure and creates comprehensive repository documentation. Scans .github/copilot directory files and copilot-instructions.md to extract project information, technology stack, architecture, development workflow, coding standards, and testing approaches while generating well-structured markdown documentation with proper formatting, cross-references, and developer-focused content.",
+    "category": "AI & agents",
+    "tags": [
+      "readme",
+      "blueprint",
+      "generator",
+      "intelligent",
+      "readme.md",
+      "generation",
+      "prompt",
+      "analyzes",
+      "project",
+      "documentation",
+      "structure",
+      "creates",
+      "comprehensive",
+      "repository",
+      "documentation.",
+      "scans",
+      ".github",
+      "copilot"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/readme-blueprint-generator",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/readme-blueprint-generator",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 3973,
+    "sha256": "571094038e74bd3de56356f67d1e73af69afc4ce63f886c2b047f351b85a3183",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/readme-blueprint-generator/SKILL.md",
+      "bytes": 2914,
+      "sha256": "571094038e74bd3de56356f67d1e73af69afc4ce63f886c2b047f351b85a3183",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/readme-blueprint-generator/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "7c2e16e3f8984ba92f2d43beb56eec11e061066fd8fb1b3e04b55a1728ac3d2d"
+}

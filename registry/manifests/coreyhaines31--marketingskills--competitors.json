@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"coreyhaines31--marketingskills--competitors","name":"competitors","description":"When the user wants to create competitor comparison or alternative pages for SEO and buyer-facing use. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how do we compare to X,' 'competitor teardown,' 'audit our competitor pages,' 'are our comparison pages out of date,' or 'competitive asset audit.' Use this for any content that positions your product against competitors. Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. For auditing existing claims (not researching competitors from scratch, which is competitor-profiling; not technical SEO on these pages, which is seo-audit), use the asset audit here. For internal battle cards and sales-specific competitor docs, see sales-enablement.","category":"Marketing","tags":["competitors","when","user","wants","competitor","comparison","alternative","pages","seo","buyer","facing","use.","also","mentions","page","vs","product","competitive"],"repo":"coreyhaines31/marketingskills","owner":"coreyhaines31","stars":54287,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff","path":"skills/competitors","sourceUrl":"https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/competitors","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-08T21:51:37Z","fileCount":5,"bytes":35675,"sha256":"ff77b76dfe43158b2fc248bb8c41fe94745d1264abb0a0c665b2c55318287a35","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/competitors/SKILL.md","bytes":12075,"sha256":"ff77b76dfe43158b2fc248bb8c41fe94745d1264abb0a0c665b2c55318287a35","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/competitors/SKILL.md"},{"path":"evals/evals.json","sourcePath":"skills/competitors/evals/evals.json","bytes":9137,"sha256":"da6c92781fdd077dbac1ea9c35cd1fb4f0ec542075ee00966c058d3287a2d2e7","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/competitors/evals/evals.json"},{"path":"references/content-architecture.md","sourcePath":"skills/competitors/references/content-architecture.md","bytes":7745,"sha256":"893b0bf30a630753bff02345029a96959ac359a5221467132d553d8e09a2d433","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/competitors/references/content-architecture.md"},{"path":"references/templates.md","sourcePath":"skills/competitors/references/templates.md","bytes":5649,"sha256":"138f4367a45fc9cc775f9fd67324f8a6f1e1f5c3c1a90bd952db4731f080844f","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/competitors/references/templates.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1069,"sha256":"b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"}],"archiveSha256":"237906942662c8cb9dbfefb8fb5d844b2615b1aec29cdaf024ef39ee64236df0"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "coreyhaines31--marketingskills--competitors",
+    "name": "competitors",
+    "description": "When the user wants to create competitor comparison or alternative pages for SEO and buyer-facing use. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how do we compare to X,' 'competitor teardown,' 'audit our competitor pages,' 'are our comparison pages out of date,' or 'competitive asset audit.' Use this for any content that positions your product against competitors. Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. For auditing existing claims (not researching competitors from scratch, which is competitor-profiling; not technical SEO on these pages, which is seo-audit), use the asset audit here. For internal battle cards and sales-specific competitor docs, see sales-enablement.",
+    "category": "Marketing",
+    "tags": [
+      "competitors",
+      "when",
+      "user",
+      "wants",
+      "competitor",
+      "comparison",
+      "alternative",
+      "pages",
+      "seo",
+      "buyer",
+      "facing",
+      "use.",
+      "also",
+      "mentions",
+      "page",
+      "vs",
+      "product",
+      "competitive"
+    ],
+    "repo": "coreyhaines31/marketingskills",
+    "owner": "coreyhaines31",
+    "stars": 54287,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff",
+    "path": "skills/competitors",
+    "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/competitors",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-08T21:51:37Z",
+    "fileCount": 5,
+    "bytes": 35675,
+    "sha256": "ff77b76dfe43158b2fc248bb8c41fe94745d1264abb0a0c665b2c55318287a35",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/competitors/SKILL.md",
+      "bytes": 12075,
+      "sha256": "ff77b76dfe43158b2fc248bb8c41fe94745d1264abb0a0c665b2c55318287a35",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/competitors/SKILL.md"
+    },
+    {
+      "path": "evals/evals.json",
+      "sourcePath": "skills/competitors/evals/evals.json",
+      "bytes": 9137,
+      "sha256": "da6c92781fdd077dbac1ea9c35cd1fb4f0ec542075ee00966c058d3287a2d2e7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/competitors/evals/evals.json"
+    },
+    {
+      "path": "references/content-architecture.md",
+      "sourcePath": "skills/competitors/references/content-architecture.md",
+      "bytes": 7745,
+      "sha256": "893b0bf30a630753bff02345029a96959ac359a5221467132d553d8e09a2d433",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/competitors/references/content-architecture.md"
+    },
+    {
+      "path": "references/templates.md",
+      "sourcePath": "skills/competitors/references/templates.md",
+      "bytes": 5649,
+      "sha256": "138f4367a45fc9cc775f9fd67324f8a6f1e1f5c3c1a90bd952db4731f080844f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/competitors/references/templates.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"
+    }
+  ],
+  "archiveSha256": "237906942662c8cb9dbfefb8fb5d844b2615b1aec29cdaf024ef39ee64236df0"
+}

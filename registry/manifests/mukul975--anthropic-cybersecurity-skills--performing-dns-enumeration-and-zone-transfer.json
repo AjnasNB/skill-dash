@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-dns-enumeration-and-zone-transfer","name":"performing-dns-enumeration-and-zone-transfer","description":"Enumerates DNS records, attempts zone transfers, brute-forces subdomains, and maps DNS infrastructure during authorized reconnaissance to identify attack surface, misconfigurations, and information disclosure in target domains.","category":"Cloud & DevOps","tags":["performing","dns","enumeration","zone","transfer","enumerates","records","attempts","transfers","brute","forces","subdomains","maps","infrastructure","during","authorized","reconnaissance","identify"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-dns-enumeration-and-zone-transfer/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-dns-enumeration-and-zone-transfer","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dns-enumeration-and-zone-transfer","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":32710,"sha256":"98dda8abdf10a40c2aca1446e6d487fb6dbf6983050fc126f07a7d97adf3bd83","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-dns-enumeration-and-zone-transfer/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dns-enumeration-and-zone-transfer/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-dns-enumeration-and-zone-transfer/SKILL.md","bytes":10765,"sha256":"98dda8abdf10a40c2aca1446e6d487fb6dbf6983050fc126f07a7d97adf3bd83","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dns-enumeration-and-zone-transfer/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-dns-enumeration-and-zone-transfer/references/api-reference.md","bytes":2198,"sha256":"d9e934f41b4a57919ea8fbbf6c0e69b60c5472f400e472da801ddf6c1f9c1480","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dns-enumeration-and-zone-transfer/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-dns-enumeration-and-zone-transfer/scripts/agent.py","bytes":8492,"sha256":"f954da41d2080834d6e7b6b6bcf31015b1010253b92fd93efe2ffcb929d80cc1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dns-enumeration-and-zone-transfer/scripts/agent.py"}],"archiveSha256":"e0206b971bd82708ab2a34b685c29ad4f49e6cf68dc01c57ff59abe1fadbd995"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-dns-enumeration-and-zone-transfer",
+    "name": "performing-dns-enumeration-and-zone-transfer",
+    "description": "Enumerates DNS records, attempts zone transfers, brute-forces subdomains, and maps DNS infrastructure during authorized reconnaissance to identify attack surface, misconfigurations, and information disclosure in target domains.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "performing",
+      "dns",
+      "enumeration",
+      "zone",
+      "transfer",
+      "enumerates",
+      "records",
+      "attempts",
+      "transfers",
+      "brute",
+      "forces",
+      "subdomains",
+      "maps",
+      "infrastructure",
+      "during",
+      "authorized",
+      "reconnaissance",
+      "identify"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-dns-enumeration-and-zone-transfer/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-dns-enumeration-and-zone-transfer",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dns-enumeration-and-zone-transfer",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32710,
+    "sha256": "98dda8abdf10a40c2aca1446e6d487fb6dbf6983050fc126f07a7d97adf3bd83",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-dns-enumeration-and-zone-transfer/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dns-enumeration-and-zone-transfer/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-dns-enumeration-and-zone-transfer/SKILL.md",
+      "bytes": 10765,
+      "sha256": "98dda8abdf10a40c2aca1446e6d487fb6dbf6983050fc126f07a7d97adf3bd83",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dns-enumeration-and-zone-transfer/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-dns-enumeration-and-zone-transfer/references/api-reference.md",
+      "bytes": 2198,
+      "sha256": "d9e934f41b4a57919ea8fbbf6c0e69b60c5472f400e472da801ddf6c1f9c1480",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dns-enumeration-and-zone-transfer/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-dns-enumeration-and-zone-transfer/scripts/agent.py",
+      "bytes": 8492,
+      "sha256": "f954da41d2080834d6e7b6b6bcf31015b1010253b92fd93efe2ffcb929d80cc1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dns-enumeration-and-zone-transfer/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "e0206b971bd82708ab2a34b685c29ad4f49e6cf68dc01c57ff59abe1fadbd995"
+}

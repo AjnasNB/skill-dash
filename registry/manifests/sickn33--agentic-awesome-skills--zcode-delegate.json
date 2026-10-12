@@ -1,1 +1,96 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--zcode-delegate","name":"zcode-delegate","description":"Delegate coding tasks to the Z.AI ZCode CLI only when the user explicitly requests it, while the orchestrator retains review and landing responsibility.","category":"Development","tags":["zcode","delegate","coding","tasks","z.ai","cli","only","when","user","explicitly","requests","it","while","orchestrator","retains","review","landing","responsibility."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/zcode-delegate","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/zcode-delegate","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":6,"bytes":30452,"sha256":"c2fdd350991583c92e60ccafaddc6702c5abdd417ff34a690939d7a796bb59c3","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/zcode-delegate/SKILL.md","bytes":10112,"sha256":"c2fdd350991583c92e60ccafaddc6702c5abdd417ff34a690939d7a796bb59c3","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/zcode-delegate/SKILL.md"},{"path":"references/dispatch-and-poll.md","sourcePath":"skills/zcode-delegate/references/dispatch-and-poll.md","bytes":6534,"sha256":"221d459fd2e1d70447628f294066d8216d380864dc8d12413e9ceb0fda5abf43","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/zcode-delegate/references/dispatch-and-poll.md"},{"path":"references/multi-task-queues.md","sourcePath":"skills/zcode-delegate/references/multi-task-queues.md","bytes":3626,"sha256":"d98644ae41644361801e1a7334e513d9101d0885506392b90899a367edd526df","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/zcode-delegate/references/multi-task-queues.md"},{"path":"references/review-and-land.md","sourcePath":"skills/zcode-delegate/references/review-and-land.md","bytes":4139,"sha256":"f7258c98325dcf4e3b0e199ac99de51ad5c61484fda66b509db3648a72d52f8a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/zcode-delegate/references/review-and-land.md"},{"path":"references/writing-the-brief.md","sourcePath":"skills/zcode-delegate/references/writing-the-brief.md","bytes":4968,"sha256":"2f28a142265e97d4a9fc22b69e16886ceb0162c2d8c69efd241bedda805e4193","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/zcode-delegate/references/writing-the-brief.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"6b5730dc8a6324217b5d8b7415f30b4cc9d018baaa1bf04d84b185a75ae09e2d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--zcode-delegate",
+    "name": "zcode-delegate",
+    "description": "Delegate coding tasks to the Z.AI ZCode CLI only when the user explicitly requests it, while the orchestrator retains review and landing responsibility.",
+    "category": "Development",
+    "tags": [
+      "zcode",
+      "delegate",
+      "coding",
+      "tasks",
+      "z.ai",
+      "cli",
+      "only",
+      "when",
+      "user",
+      "explicitly",
+      "requests",
+      "it",
+      "while",
+      "orchestrator",
+      "retains",
+      "review",
+      "landing",
+      "responsibility."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/zcode-delegate",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/zcode-delegate",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 6,
+    "bytes": 30452,
+    "sha256": "c2fdd350991583c92e60ccafaddc6702c5abdd417ff34a690939d7a796bb59c3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/zcode-delegate/SKILL.md",
+      "bytes": 10112,
+      "sha256": "c2fdd350991583c92e60ccafaddc6702c5abdd417ff34a690939d7a796bb59c3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/zcode-delegate/SKILL.md"
+    },
+    {
+      "path": "references/dispatch-and-poll.md",
+      "sourcePath": "skills/zcode-delegate/references/dispatch-and-poll.md",
+      "bytes": 6534,
+      "sha256": "221d459fd2e1d70447628f294066d8216d380864dc8d12413e9ceb0fda5abf43",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/zcode-delegate/references/dispatch-and-poll.md"
+    },
+    {
+      "path": "references/multi-task-queues.md",
+      "sourcePath": "skills/zcode-delegate/references/multi-task-queues.md",
+      "bytes": 3626,
+      "sha256": "d98644ae41644361801e1a7334e513d9101d0885506392b90899a367edd526df",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/zcode-delegate/references/multi-task-queues.md"
+    },
+    {
+      "path": "references/review-and-land.md",
+      "sourcePath": "skills/zcode-delegate/references/review-and-land.md",
+      "bytes": 4139,
+      "sha256": "f7258c98325dcf4e3b0e199ac99de51ad5c61484fda66b509db3648a72d52f8a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/zcode-delegate/references/review-and-land.md"
+    },
+    {
+      "path": "references/writing-the-brief.md",
+      "sourcePath": "skills/zcode-delegate/references/writing-the-brief.md",
+      "bytes": 4968,
+      "sha256": "2f28a142265e97d4a9fc22b69e16886ceb0162c2d8c69efd241bedda805e4193",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/zcode-delegate/references/writing-the-brief.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "6b5730dc8a6324217b5d8b7415f30b4cc9d018baaa1bf04d84b185a75ae09e2d"
+}

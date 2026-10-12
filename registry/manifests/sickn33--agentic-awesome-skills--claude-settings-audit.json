@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--claude-settings-audit","name":"claude-settings-audit","description":"Analyze a repository to generate recommended Claude Code settings.json permissions. Use when setting up a new project, auditing existing settings, or determining which read-only bash commands to allow. Detects tech stack, build tools, and monorepo structure.","category":"Development","tags":["claude","settings","audit","analyze","repository","generate","recommended","code","settings.json","permissions.","when","setting","up","new","project","auditing","existing","determining"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/claude-settings-audit","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-settings-audit","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":13445,"sha256":"f6efc0542de4f293bac330e621d8e70480fe9484ad657b37ab58aa639b7816c4","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/claude-settings-audit/SKILL.md","bytes":12372,"sha256":"f6efc0542de4f293bac330e621d8e70480fe9484ad657b37ab58aa639b7816c4","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-settings-audit/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"cb55b1443c301fc9510d22ad0c13b47a7bd6e33245f94a0476e49e42613d1e91"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--claude-settings-audit",
+    "name": "claude-settings-audit",
+    "description": "Analyze a repository to generate recommended Claude Code settings.json permissions. Use when setting up a new project, auditing existing settings, or determining which read-only bash commands to allow. Detects tech stack, build tools, and monorepo structure.",
+    "category": "Development",
+    "tags": [
+      "claude",
+      "settings",
+      "audit",
+      "analyze",
+      "repository",
+      "generate",
+      "recommended",
+      "code",
+      "settings.json",
+      "permissions.",
+      "when",
+      "setting",
+      "up",
+      "new",
+      "project",
+      "auditing",
+      "existing",
+      "determining"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/claude-settings-audit",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-settings-audit",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13445,
+    "sha256": "f6efc0542de4f293bac330e621d8e70480fe9484ad657b37ab58aa639b7816c4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/claude-settings-audit/SKILL.md",
+      "bytes": 12372,
+      "sha256": "f6efc0542de4f293bac330e621d8e70480fe9484ad657b37ab58aa639b7816c4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claude-settings-audit/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "cb55b1443c301fc9510d22ad0c13b47a7bd6e33245f94a0476e49e42613d1e91"
+}

@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-velociraptor-for-ir-collection","name":"implementing-velociraptor-for-ir-collection","description":"Deploy and configure Velociraptor for scalable endpoint forensic artifact collection during incident response using VQL queries, hunts, and pre-built artifact packs across Windows, Linux, and macOS environments.","category":"Security","tags":["implementing","velociraptor","ir","collection","deploy","configure","scalable","endpoint","forensic","artifact","during","incident","response","vql","queries","hunts","pre","built"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-velociraptor-for-ir-collection/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-velociraptor-for-ir-collection","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-velociraptor-for-ir-collection","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":54451,"sha256":"5b2b2950ff908b43b155e0437d87ee15f934a0e70a2b3e63e8940e2b74d90574","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-velociraptor-for-ir-collection/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-velociraptor-for-ir-collection/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-velociraptor-for-ir-collection/SKILL.md","bytes":9209,"sha256":"5b2b2950ff908b43b155e0437d87ee15f934a0e70a2b3e63e8940e2b74d90574","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-velociraptor-for-ir-collection/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-velociraptor-for-ir-collection/assets/template.md","bytes":1237,"sha256":"5f9fb477ec26bc1334edae4e3980561e994d1ab163ff332b7728278a2daab8fb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-velociraptor-for-ir-collection/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-velociraptor-for-ir-collection/references/api-reference.md","bytes":4564,"sha256":"85270c3982e00478d607dcb0fac1eb59ab8434d6bdca22578078ce68c40f9125","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-velociraptor-for-ir-collection/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-velociraptor-for-ir-collection/references/standards.md","bytes":1795,"sha256":"c8f08f0bd9bad66a35a59dbb8914f48674831d97ecda4ac2b5ee0d68bf163914","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-velociraptor-for-ir-collection/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-velociraptor-for-ir-collection/references/workflows.md","bytes":3139,"sha256":"4ad491bfe65bf209447cfd55c619adff1936568308b363520cac0a2c68f4d38e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-velociraptor-for-ir-collection/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-velociraptor-for-ir-collection/scripts/agent.py","bytes":10647,"sha256":"4a49ff906b12682d7c64f1024f077d789b9e94eb872bf3e5647f722ee12d3abe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-velociraptor-for-ir-collection/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-velociraptor-for-ir-collection/scripts/process.py","bytes":12605,"sha256":"4c4d3becd5bac1a4dbb3b6bc9d16c2a3521f12ef1902c2e7973ae9a5f673007b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-velociraptor-for-ir-collection/scripts/process.py"}],"archiveSha256":"422b3cf0928a97caa70b9d841ef9b4d05d5a5f5e96ca66ae538606056e8698f8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-velociraptor-for-ir-collection",
+    "name": "implementing-velociraptor-for-ir-collection",
+    "description": "Deploy and configure Velociraptor for scalable endpoint forensic artifact collection during incident response using VQL queries, hunts, and pre-built artifact packs across Windows, Linux, and macOS environments.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "velociraptor",
+      "ir",
+      "collection",
+      "deploy",
+      "configure",
+      "scalable",
+      "endpoint",
+      "forensic",
+      "artifact",
+      "during",
+      "incident",
+      "response",
+      "vql",
+      "queries",
+      "hunts",
+      "pre",
+      "built"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-velociraptor-for-ir-collection/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-velociraptor-for-ir-collection",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-velociraptor-for-ir-collection",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 54451,
+    "sha256": "5b2b2950ff908b43b155e0437d87ee15f934a0e70a2b3e63e8940e2b74d90574",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-velociraptor-for-ir-collection/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-velociraptor-for-ir-collection/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-velociraptor-for-ir-collection/SKILL.md",
+      "bytes": 9209,
+      "sha256": "5b2b2950ff908b43b155e0437d87ee15f934a0e70a2b3e63e8940e2b74d90574",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-velociraptor-for-ir-collection/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-velociraptor-for-ir-collection/assets/template.md",
+      "bytes": 1237,
+      "sha256": "5f9fb477ec26bc1334edae4e3980561e994d1ab163ff332b7728278a2daab8fb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-velociraptor-for-ir-collection/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-velociraptor-for-ir-collection/references/api-reference.md",
+      "bytes": 4564,
+      "sha256": "85270c3982e00478d607dcb0fac1eb59ab8434d6bdca22578078ce68c40f9125",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-velociraptor-for-ir-collection/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-velociraptor-for-ir-collection/references/standards.md",
+      "bytes": 1795,
+      "sha256": "c8f08f0bd9bad66a35a59dbb8914f48674831d97ecda4ac2b5ee0d68bf163914",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-velociraptor-for-ir-collection/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-velociraptor-for-ir-collection/references/workflows.md",
+      "bytes": 3139,
+      "sha256": "4ad491bfe65bf209447cfd55c619adff1936568308b363520cac0a2c68f4d38e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-velociraptor-for-ir-collection/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-velociraptor-for-ir-collection/scripts/agent.py",
+      "bytes": 10647,
+      "sha256": "4a49ff906b12682d7c64f1024f077d789b9e94eb872bf3e5647f722ee12d3abe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-velociraptor-for-ir-collection/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-velociraptor-for-ir-collection/scripts/process.py",
+      "bytes": 12605,
+      "sha256": "4c4d3becd5bac1a4dbb3b6bc9d16c2a3521f12ef1902c2e7973ae9a5f673007b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-velociraptor-for-ir-collection/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "422b3cf0928a97caa70b9d841ef9b4d05d5a5f5e96ca66ae538606056e8698f8"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--azure-servicebus-rust","name":"azure-servicebus-rust","description":"Azure Service Bus library for Rust. Send and receive messages using queues, topics, and subscriptions. Triggers: \"service bus rust\", \"ServiceBusClient rust\", \"send message servicebus rust\", \"receive message servicebus rust\", \"queue rust messaging\", \"topic subscription rust\".","category":"Cloud & DevOps","tags":["azure","servicebus","rust","service","bus","library","rust.","send","receive","messages","queues","topics","subscriptions.","triggers","servicebusclient","message","queue","messaging"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/azure-servicebus-rust","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-servicebus-rust","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":9114,"sha256":"bb4b917a9ad9cf8c97ab6e5c8fa7ae73317241fbfe8a1882167e954f0ecf9976","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/azure-servicebus-rust/SKILL.md","bytes":8041,"sha256":"bb4b917a9ad9cf8c97ab6e5c8fa7ae73317241fbfe8a1882167e954f0ecf9976","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-servicebus-rust/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"6f7d1d2e612b4adbcffeca7163d5a966c54cb921027577d64b2cd03ad14e3f91"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--azure-servicebus-rust",
+    "name": "azure-servicebus-rust",
+    "description": "Azure Service Bus library for Rust. Send and receive messages using queues, topics, and subscriptions. Triggers: \"service bus rust\", \"ServiceBusClient rust\", \"send message servicebus rust\", \"receive message servicebus rust\", \"queue rust messaging\", \"topic subscription rust\".",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "azure",
+      "servicebus",
+      "rust",
+      "service",
+      "bus",
+      "library",
+      "rust.",
+      "send",
+      "receive",
+      "messages",
+      "queues",
+      "topics",
+      "subscriptions.",
+      "triggers",
+      "servicebusclient",
+      "message",
+      "queue",
+      "messaging"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/azure-servicebus-rust",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-servicebus-rust",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9114,
+    "sha256": "bb4b917a9ad9cf8c97ab6e5c8fa7ae73317241fbfe8a1882167e954f0ecf9976",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/azure-servicebus-rust/SKILL.md",
+      "bytes": 8041,
+      "sha256": "bb4b917a9ad9cf8c97ab6e5c8fa7ae73317241fbfe8a1882167e954f0ecf9976",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-servicebus-rust/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "6f7d1d2e612b4adbcffeca7163d5a966c54cb921027577d64b2cd03ad14e3f91"
+}

@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-subdomain-enumeration-with-subfinder","name":"performing-subdomain-enumeration-with-subfinder","description":"Enumerate subdomains of target domains using ProjectDiscovery's Subfinder passive reconnaissance tool to map the attack surface during security assessments.","category":"Security","tags":["performing","subdomain","enumeration","subfinder","enumerate","subdomains","target","domains","projectdiscovery","passive","reconnaissance","tool","map","attack","surface","during","security","assessments."],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-subdomain-enumeration-with-subfinder/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-subdomain-enumeration-with-subfinder","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-subdomain-enumeration-with-subfinder","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":37408,"sha256":"527927896d91d4e1b06fb37d5f478ffeaf92d6fbaa0b9c0d899c884f4e761f5e","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-subdomain-enumeration-with-subfinder/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-subdomain-enumeration-with-subfinder/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-subdomain-enumeration-with-subfinder/SKILL.md","bytes":6997,"sha256":"527927896d91d4e1b06fb37d5f478ffeaf92d6fbaa0b9c0d899c884f4e761f5e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-subdomain-enumeration-with-subfinder/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/performing-subdomain-enumeration-with-subfinder/assets/template.md","bytes":1494,"sha256":"7f6a6b3aaaa634c68ceb139eff69c9d114cba79a35e01e58b362a557e90c0fde","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-subdomain-enumeration-with-subfinder/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-subdomain-enumeration-with-subfinder/references/api-reference.md","bytes":2097,"sha256":"83243a0b3331d476ba4d802f0e66d4501f483fb709ec86c3d1531a4263ade152","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-subdomain-enumeration-with-subfinder/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/performing-subdomain-enumeration-with-subfinder/references/standards.md","bytes":1509,"sha256":"5ee9266b69ba32c60862289772a1c3933bcfba929263e3117f37af5ff0e27c77","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-subdomain-enumeration-with-subfinder/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/performing-subdomain-enumeration-with-subfinder/references/workflows.md","bytes":1627,"sha256":"20b2f151c3e63055066dd0d7da841d696ca9cc2f644a1ff185c7e36016813899","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-subdomain-enumeration-with-subfinder/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-subdomain-enumeration-with-subfinder/scripts/agent.py","bytes":6602,"sha256":"80887cc85a74a367f48fa4a3481bd652d1f052838ceb2a913328a74ca6b7d532","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-subdomain-enumeration-with-subfinder/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/performing-subdomain-enumeration-with-subfinder/scripts/process.py","bytes":5827,"sha256":"624d0c16177de9ca7671c2738f75f9f818ece1d2d8db93c1965a5fce7c1cf93a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-subdomain-enumeration-with-subfinder/scripts/process.py"}],"archiveSha256":"5da0ee2febc2cb2dbde401db66b1f8fa537ba20c141f86d5bfbac0ad53d54238"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-subdomain-enumeration-with-subfinder",
+    "name": "performing-subdomain-enumeration-with-subfinder",
+    "description": "Enumerate subdomains of target domains using ProjectDiscovery's Subfinder passive reconnaissance tool to map the attack surface during security assessments.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "subdomain",
+      "enumeration",
+      "subfinder",
+      "enumerate",
+      "subdomains",
+      "target",
+      "domains",
+      "projectdiscovery",
+      "passive",
+      "reconnaissance",
+      "tool",
+      "map",
+      "attack",
+      "surface",
+      "during",
+      "security",
+      "assessments."
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-subdomain-enumeration-with-subfinder/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-subdomain-enumeration-with-subfinder",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-subdomain-enumeration-with-subfinder",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 37408,
+    "sha256": "527927896d91d4e1b06fb37d5f478ffeaf92d6fbaa0b9c0d899c884f4e761f5e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-subdomain-enumeration-with-subfinder/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-subdomain-enumeration-with-subfinder/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-subdomain-enumeration-with-subfinder/SKILL.md",
+      "bytes": 6997,
+      "sha256": "527927896d91d4e1b06fb37d5f478ffeaf92d6fbaa0b9c0d899c884f4e761f5e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-subdomain-enumeration-with-subfinder/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-subdomain-enumeration-with-subfinder/assets/template.md",
+      "bytes": 1494,
+      "sha256": "7f6a6b3aaaa634c68ceb139eff69c9d114cba79a35e01e58b362a557e90c0fde",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-subdomain-enumeration-with-subfinder/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-subdomain-enumeration-with-subfinder/references/api-reference.md",
+      "bytes": 2097,
+      "sha256": "83243a0b3331d476ba4d802f0e66d4501f483fb709ec86c3d1531a4263ade152",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-subdomain-enumeration-with-subfinder/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-subdomain-enumeration-with-subfinder/references/standards.md",
+      "bytes": 1509,
+      "sha256": "5ee9266b69ba32c60862289772a1c3933bcfba929263e3117f37af5ff0e27c77",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-subdomain-enumeration-with-subfinder/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-subdomain-enumeration-with-subfinder/references/workflows.md",
+      "bytes": 1627,
+      "sha256": "20b2f151c3e63055066dd0d7da841d696ca9cc2f644a1ff185c7e36016813899",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-subdomain-enumeration-with-subfinder/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-subdomain-enumeration-with-subfinder/scripts/agent.py",
+      "bytes": 6602,
+      "sha256": "80887cc85a74a367f48fa4a3481bd652d1f052838ceb2a913328a74ca6b7d532",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-subdomain-enumeration-with-subfinder/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-subdomain-enumeration-with-subfinder/scripts/process.py",
+      "bytes": 5827,
+      "sha256": "624d0c16177de9ca7671c2738f75f9f818ece1d2d8db93c1965a5fce7c1cf93a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-subdomain-enumeration-with-subfinder/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "5da0ee2febc2cb2dbde401db66b1f8fa537ba20c141f86d5bfbac0ad53d54238"
+}

@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--qiime2-amplicon","name":"qiime2-amplicon","description":"Processes paired-end 16S amplicon reads into QIIME 2 ASVs and taxonomy with retained artifact provenance. Checks paired FASTQ manifests, primer orientation diagnostics, predicted post-trimming overlap, sample IDs, runtime versions and read retention, and guides selection of compatible taxonomic classifiers.","category":"Development","tags":["qiime2","amplicon","processes","paired","end","16s","reads","into","qiime","asvs","taxonomy","retained","artifact","provenance.","checks","fastq","manifests","primer"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/qiime2-amplicon","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/qiime2-amplicon","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":4,"bytes":38969,"sha256":"605ae0581620f654ca9e12122a2bdb1d62a813841c5fea61b0eacb2031377cf7","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/qiime2-amplicon/SKILL.md","bytes":8648,"sha256":"605ae0581620f654ca9e12122a2bdb1d62a813841c5fea61b0eacb2031377cf7","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/qiime2-amplicon/SKILL.md"},{"path":"references/runtime-and-interpretation.md","sourcePath":"skills/qiime2-amplicon/references/runtime-and-interpretation.md","bytes":13632,"sha256":"d364d7f4ae66d3481168f71ce677e188c6135db349d498744ebf387223cd9741","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/qiime2-amplicon/references/runtime-and-interpretation.md"},{"path":"scripts/amplicon_workflow.py","sourcePath":"skills/qiime2-amplicon/scripts/amplicon_workflow.py","bytes":15621,"sha256":"4f781d70594f8624af3ad71e3cdedc0f5cbcd285ed630a3277cae2fe8a94827a","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/qiime2-amplicon/scripts/amplicon_workflow.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"b2a9988ba46fc35fa53ec7d2a510cca14b01f411c9eaedfd73e453474c063d0a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--qiime2-amplicon",
+    "name": "qiime2-amplicon",
+    "description": "Processes paired-end 16S amplicon reads into QIIME 2 ASVs and taxonomy with retained artifact provenance. Checks paired FASTQ manifests, primer orientation diagnostics, predicted post-trimming overlap, sample IDs, runtime versions and read retention, and guides selection of compatible taxonomic classifiers.",
+    "category": "Development",
+    "tags": [
+      "qiime2",
+      "amplicon",
+      "processes",
+      "paired",
+      "end",
+      "16s",
+      "reads",
+      "into",
+      "qiime",
+      "asvs",
+      "taxonomy",
+      "retained",
+      "artifact",
+      "provenance.",
+      "checks",
+      "fastq",
+      "manifests",
+      "primer"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/qiime2-amplicon",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/qiime2-amplicon",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 4,
+    "bytes": 38969,
+    "sha256": "605ae0581620f654ca9e12122a2bdb1d62a813841c5fea61b0eacb2031377cf7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/qiime2-amplicon/SKILL.md",
+      "bytes": 8648,
+      "sha256": "605ae0581620f654ca9e12122a2bdb1d62a813841c5fea61b0eacb2031377cf7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/qiime2-amplicon/SKILL.md"
+    },
+    {
+      "path": "references/runtime-and-interpretation.md",
+      "sourcePath": "skills/qiime2-amplicon/references/runtime-and-interpretation.md",
+      "bytes": 13632,
+      "sha256": "d364d7f4ae66d3481168f71ce677e188c6135db349d498744ebf387223cd9741",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/qiime2-amplicon/references/runtime-and-interpretation.md"
+    },
+    {
+      "path": "scripts/amplicon_workflow.py",
+      "sourcePath": "skills/qiime2-amplicon/scripts/amplicon_workflow.py",
+      "bytes": 15621,
+      "sha256": "4f781d70594f8624af3ad71e3cdedc0f5cbcd285ed630a3277cae2fe8a94827a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/qiime2-amplicon/scripts/amplicon_workflow.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "b2a9988ba46fc35fa53ec7d2a510cca14b01f411c9eaedfd73e453474c063d0a"
+}

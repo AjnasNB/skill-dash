@@ -1,1 +1,184 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--simpy","name":"simpy","description":"Builds, inspects, tests, and analyzes bounded process-based discrete-event simulations with SimPy. Use for event scheduling, resource queues, interrupts, monitoring, independent replications, warm-up, and reproducible output analysis.","category":"Automation","tags":["simpy","builds","inspects","tests","analyzes","bounded","process","based","discrete","event","simulations","simpy.","scheduling","resource","queues","interrupts","monitoring","independent"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/simpy","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":17,"bytes":160183,"sha256":"027244a3587e70c3e2f1aed4bfb5d737cb24fdc6b2ad276302ed81c02e38a7fc","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/simpy/SKILL.md","bytes":14395,"sha256":"027244a3587e70c3e2f1aed4bfb5d737cb24fdc6b2ad276302ed81c02e38a7fc","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/SKILL.md"},{"path":"references/cli-guide.md","sourcePath":"skills/simpy/references/cli-guide.md","bytes":9534,"sha256":"b4a755812b5d3e588ef21ef1f0c38b9aed487a9d0ff959a69735753fc7d394b7","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/references/cli-guide.md"},{"path":"references/events.md","sourcePath":"skills/simpy/references/events.md","bytes":7710,"sha256":"aa9995f0f5e374f2df19f12e73bde5abdeb5ed17a2a993cf61aa823151c67c02","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/references/events.md"},{"path":"references/monitoring.md","sourcePath":"skills/simpy/references/monitoring.md","bytes":8960,"sha256":"44c8448e977311715f8ddd293cfb76df722c72b388892df6ad616261820ad983","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/references/monitoring.md"},{"path":"references/process-interaction.md","sourcePath":"skills/simpy/references/process-interaction.md","bytes":7719,"sha256":"e50aa436664d48de65e7b51d1cf4f5b6dbf8d02559094c0c52fb18c782b772d7","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/references/process-interaction.md"},{"path":"references/real-time.md","sourcePath":"skills/simpy/references/real-time.md","bytes":5551,"sha256":"700aaba4f10e7dad87da05166daf127a905aff2c16a12ac5917536c789e53dd1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/references/real-time.md"},{"path":"references/resources.md","sourcePath":"skills/simpy/references/resources.md","bytes":8817,"sha256":"5763a4756a2a50a70a2650a5406777cd4afc481db21ed6911293903adc262502","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/references/resources.md"},{"path":"references/simulation-methodology.md","sourcePath":"skills/simpy/references/simulation-methodology.md","bytes":11962,"sha256":"e25164d41106c13bed7845d8167e38acbded4d2073b58dee5613d95bd50fb9cf","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/references/simulation-methodology.md"},{"path":"references/sources.md","sourcePath":"skills/simpy/references/sources.md","bytes":13046,"sha256":"a8b1a39038477a382588c02cf4763d276bc4032c84cb9d34952bac8e7f9d0a4e","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/references/sources.md"},{"path":"scripts/_common.py","sourcePath":"skills/simpy/scripts/_common.py","bytes":15389,"sha256":"ccf17251d29de7b8d53029fc277218874f291fd6976c47486d1cb2113a735b60","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/scripts/_common.py"},{"path":"scripts/basic_simulation_template.py","sourcePath":"skills/simpy/scripts/basic_simulation_template.py","bytes":14482,"sha256":"010adb7db53981afd78e57b6df37b45a5ad6386ed4c0cede13d350177cb89712","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/scripts/basic_simulation_template.py"},{"path":"scripts/bounded_queue_scenario.py","sourcePath":"skills/simpy/scripts/bounded_queue_scenario.py","bytes":3609,"sha256":"8d8de80d5c241c8c677754810ce293d667498e618493a75418b35247e5613f0f","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/scripts/bounded_queue_scenario.py"},{"path":"scripts/event_trace_summary.py","sourcePath":"skills/simpy/scripts/event_trace_summary.py","bytes":11178,"sha256":"79de6801a69365ac8b0b4832c47e21f87b2aee875a42467b82bfaec3a7569e4b","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/scripts/event_trace_summary.py"},{"path":"scripts/replication_runner.py","sourcePath":"skills/simpy/scripts/replication_runner.py","bytes":6411,"sha256":"4160eb858779df62171d4dbbf459bb003666e1995791b401b253dce47b9c56da","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/scripts/replication_runner.py"},{"path":"scripts/resource_monitor.py","sourcePath":"skills/simpy/scripts/resource_monitor.py","bytes":16673,"sha256":"04ce449920627cf343d423ca5d86b990a4e5b5a80e2b10f9403d4e3d5c42f904","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/scripts/resource_monitor.py"},{"path":"scripts/validate_simulation_config.py","sourcePath":"skills/simpy/scripts/validate_simulation_config.py","bytes":3679,"sha256":"2482b5a7d8f389ed892d0e4edfcce13cbd4144e64490513194791f8d1f0e555e","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/scripts/validate_simulation_config.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"023508c8ac1bdb9f5450d1c6d5223a5c120d8df0c49c3b2e51d167843376e697"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--simpy",
+    "name": "simpy",
+    "description": "Builds, inspects, tests, and analyzes bounded process-based discrete-event simulations with SimPy. Use for event scheduling, resource queues, interrupts, monitoring, independent replications, warm-up, and reproducible output analysis.",
+    "category": "Automation",
+    "tags": [
+      "simpy",
+      "builds",
+      "inspects",
+      "tests",
+      "analyzes",
+      "bounded",
+      "process",
+      "based",
+      "discrete",
+      "event",
+      "simulations",
+      "simpy.",
+      "scheduling",
+      "resource",
+      "queues",
+      "interrupts",
+      "monitoring",
+      "independent"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/simpy",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 17,
+    "bytes": 160183,
+    "sha256": "027244a3587e70c3e2f1aed4bfb5d737cb24fdc6b2ad276302ed81c02e38a7fc",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/simpy/SKILL.md",
+      "bytes": 14395,
+      "sha256": "027244a3587e70c3e2f1aed4bfb5d737cb24fdc6b2ad276302ed81c02e38a7fc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/SKILL.md"
+    },
+    {
+      "path": "references/cli-guide.md",
+      "sourcePath": "skills/simpy/references/cli-guide.md",
+      "bytes": 9534,
+      "sha256": "b4a755812b5d3e588ef21ef1f0c38b9aed487a9d0ff959a69735753fc7d394b7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/references/cli-guide.md"
+    },
+    {
+      "path": "references/events.md",
+      "sourcePath": "skills/simpy/references/events.md",
+      "bytes": 7710,
+      "sha256": "aa9995f0f5e374f2df19f12e73bde5abdeb5ed17a2a993cf61aa823151c67c02",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/references/events.md"
+    },
+    {
+      "path": "references/monitoring.md",
+      "sourcePath": "skills/simpy/references/monitoring.md",
+      "bytes": 8960,
+      "sha256": "44c8448e977311715f8ddd293cfb76df722c72b388892df6ad616261820ad983",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/references/monitoring.md"
+    },
+    {
+      "path": "references/process-interaction.md",
+      "sourcePath": "skills/simpy/references/process-interaction.md",
+      "bytes": 7719,
+      "sha256": "e50aa436664d48de65e7b51d1cf4f5b6dbf8d02559094c0c52fb18c782b772d7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/references/process-interaction.md"
+    },
+    {
+      "path": "references/real-time.md",
+      "sourcePath": "skills/simpy/references/real-time.md",
+      "bytes": 5551,
+      "sha256": "700aaba4f10e7dad87da05166daf127a905aff2c16a12ac5917536c789e53dd1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/references/real-time.md"
+    },
+    {
+      "path": "references/resources.md",
+      "sourcePath": "skills/simpy/references/resources.md",
+      "bytes": 8817,
+      "sha256": "5763a4756a2a50a70a2650a5406777cd4afc481db21ed6911293903adc262502",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/references/resources.md"
+    },
+    {
+      "path": "references/simulation-methodology.md",
+      "sourcePath": "skills/simpy/references/simulation-methodology.md",
+      "bytes": 11962,
+      "sha256": "e25164d41106c13bed7845d8167e38acbded4d2073b58dee5613d95bd50fb9cf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/references/simulation-methodology.md"
+    },
+    {
+      "path": "references/sources.md",
+      "sourcePath": "skills/simpy/references/sources.md",
+      "bytes": 13046,
+      "sha256": "a8b1a39038477a382588c02cf4763d276bc4032c84cb9d34952bac8e7f9d0a4e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/references/sources.md"
+    },
+    {
+      "path": "scripts/_common.py",
+      "sourcePath": "skills/simpy/scripts/_common.py",
+      "bytes": 15389,
+      "sha256": "ccf17251d29de7b8d53029fc277218874f291fd6976c47486d1cb2113a735b60",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/scripts/_common.py"
+    },
+    {
+      "path": "scripts/basic_simulation_template.py",
+      "sourcePath": "skills/simpy/scripts/basic_simulation_template.py",
+      "bytes": 14482,
+      "sha256": "010adb7db53981afd78e57b6df37b45a5ad6386ed4c0cede13d350177cb89712",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/scripts/basic_simulation_template.py"
+    },
+    {
+      "path": "scripts/bounded_queue_scenario.py",
+      "sourcePath": "skills/simpy/scripts/bounded_queue_scenario.py",
+      "bytes": 3609,
+      "sha256": "8d8de80d5c241c8c677754810ce293d667498e618493a75418b35247e5613f0f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/scripts/bounded_queue_scenario.py"
+    },
+    {
+      "path": "scripts/event_trace_summary.py",
+      "sourcePath": "skills/simpy/scripts/event_trace_summary.py",
+      "bytes": 11178,
+      "sha256": "79de6801a69365ac8b0b4832c47e21f87b2aee875a42467b82bfaec3a7569e4b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/scripts/event_trace_summary.py"
+    },
+    {
+      "path": "scripts/replication_runner.py",
+      "sourcePath": "skills/simpy/scripts/replication_runner.py",
+      "bytes": 6411,
+      "sha256": "4160eb858779df62171d4dbbf459bb003666e1995791b401b253dce47b9c56da",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/scripts/replication_runner.py"
+    },
+    {
+      "path": "scripts/resource_monitor.py",
+      "sourcePath": "skills/simpy/scripts/resource_monitor.py",
+      "bytes": 16673,
+      "sha256": "04ce449920627cf343d423ca5d86b990a4e5b5a80e2b10f9403d4e3d5c42f904",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/scripts/resource_monitor.py"
+    },
+    {
+      "path": "scripts/validate_simulation_config.py",
+      "sourcePath": "skills/simpy/scripts/validate_simulation_config.py",
+      "bytes": 3679,
+      "sha256": "2482b5a7d8f389ed892d0e4edfcce13cbd4144e64490513194791f8d1f0e555e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/simpy/scripts/validate_simulation_config.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "023508c8ac1bdb9f5450d1c6d5223a5c120d8df0c49c3b2e51d167843376e697"
+}

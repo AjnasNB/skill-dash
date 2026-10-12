@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--testing-oauth2-implementation-flaws","name":"testing-oauth2-implementation-flaws","description":"Tests OAuth 2.0 and OpenID Connect implementations for authorization code interception, redirect URI manipulation, CSRF in OAuth flows, token leakage, scope escalation, and PKCE bypass, using Burp Suite Professional and the EsPReSSO extension to probe the authorization server, client, and token handling. Use when assessing OAuth2/OIDC flows or SSO systems for misconfigurations enabling account takeover.","category":"Development","tags":["testing","oauth2","implementation","flaws","tests","oauth","2.0","openid","connect","implementations","authorization","code","interception","redirect","uri","manipulation","csrf","flows"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/testing-oauth2-implementation-flaws/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/testing-oauth2-implementation-flaws","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-oauth2-implementation-flaws","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":38681,"sha256":"ba67e85958369eeeb9344b359fc2bf371609a9207d05466811e0a7f4f7757007","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/testing-oauth2-implementation-flaws/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-oauth2-implementation-flaws/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/testing-oauth2-implementation-flaws/SKILL.md","bytes":17351,"sha256":"ba67e85958369eeeb9344b359fc2bf371609a9207d05466811e0a7f4f7757007","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-oauth2-implementation-flaws/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/testing-oauth2-implementation-flaws/references/api-reference.md","bytes":1903,"sha256":"17c8914ba82e41d0021a7af149876b4c05615a5ae6ab5791133473b57f158a91","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-oauth2-implementation-flaws/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/testing-oauth2-implementation-flaws/scripts/agent.py","bytes":8172,"sha256":"a9064017b2c9b8751deafc2d586a45c680db778d4ec8457fa425095571c7107d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-oauth2-implementation-flaws/scripts/agent.py"}],"archiveSha256":"a9219046e7c836686e82122f4d6ab13085244e1433d1765ba60f9fd5e557a664"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--testing-oauth2-implementation-flaws",
+    "name": "testing-oauth2-implementation-flaws",
+    "description": "Tests OAuth 2.0 and OpenID Connect implementations for authorization code interception, redirect URI manipulation, CSRF in OAuth flows, token leakage, scope escalation, and PKCE bypass, using Burp Suite Professional and the EsPReSSO extension to probe the authorization server, client, and token handling. Use when assessing OAuth2/OIDC flows or SSO systems for misconfigurations enabling account takeover.",
+    "category": "Development",
+    "tags": [
+      "testing",
+      "oauth2",
+      "implementation",
+      "flaws",
+      "tests",
+      "oauth",
+      "2.0",
+      "openid",
+      "connect",
+      "implementations",
+      "authorization",
+      "code",
+      "interception",
+      "redirect",
+      "uri",
+      "manipulation",
+      "csrf",
+      "flows"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/testing-oauth2-implementation-flaws/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/testing-oauth2-implementation-flaws",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-oauth2-implementation-flaws",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 38681,
+    "sha256": "ba67e85958369eeeb9344b359fc2bf371609a9207d05466811e0a7f4f7757007",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/testing-oauth2-implementation-flaws/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-oauth2-implementation-flaws/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/testing-oauth2-implementation-flaws/SKILL.md",
+      "bytes": 17351,
+      "sha256": "ba67e85958369eeeb9344b359fc2bf371609a9207d05466811e0a7f4f7757007",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-oauth2-implementation-flaws/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/testing-oauth2-implementation-flaws/references/api-reference.md",
+      "bytes": 1903,
+      "sha256": "17c8914ba82e41d0021a7af149876b4c05615a5ae6ab5791133473b57f158a91",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-oauth2-implementation-flaws/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/testing-oauth2-implementation-flaws/scripts/agent.py",
+      "bytes": 8172,
+      "sha256": "a9064017b2c9b8751deafc2d586a45c680db778d4ec8457fa425095571c7107d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-oauth2-implementation-flaws/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "a9219046e7c836686e82122f4d6ab13085244e1433d1765ba60f9fd5e557a664"
+}

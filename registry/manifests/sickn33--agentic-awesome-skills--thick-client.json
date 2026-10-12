@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--thick-client","name":"thick-client","description":"Authorized security testing of desktop thick clients: local storage, update channels, IPC, traffic interception, and client-side trust-boundary review.","category":"Security","tags":["thick","client","authorized","security","testing","desktop","clients","local","storage","update","channels","ipc","traffic","interception","side","trust","boundary","review."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/thick-client","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/thick-client","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":4563,"sha256":"30e71c286da3e34fcdb0c079ba1ca4f8b469534c78ea716d16e945cc36b4b72b","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/thick-client/SKILL.md","bytes":3225,"sha256":"30e71c286da3e34fcdb0c079ba1ca4f8b469534c78ea716d16e945cc36b4b72b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/thick-client/SKILL.md"},{"path":"references/thick-client-checklist.md","sourcePath":"skills/thick-client/references/thick-client-checklist.md","bytes":265,"sha256":"c9e593a932ffa3f45b5a183ca9c0f0852a607ca69dd44589bb73900c12e56682","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/thick-client/references/thick-client-checklist.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"02b1ecfa7e5e4aba2e66824bff3a4e5bd7dc77486fde3b44362886ef30991a5a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--thick-client",
+    "name": "thick-client",
+    "description": "Authorized security testing of desktop thick clients: local storage, update channels, IPC, traffic interception, and client-side trust-boundary review.",
+    "category": "Security",
+    "tags": [
+      "thick",
+      "client",
+      "authorized",
+      "security",
+      "testing",
+      "desktop",
+      "clients",
+      "local",
+      "storage",
+      "update",
+      "channels",
+      "ipc",
+      "traffic",
+      "interception",
+      "side",
+      "trust",
+      "boundary",
+      "review."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/thick-client",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/thick-client",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 4563,
+    "sha256": "30e71c286da3e34fcdb0c079ba1ca4f8b469534c78ea716d16e945cc36b4b72b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/thick-client/SKILL.md",
+      "bytes": 3225,
+      "sha256": "30e71c286da3e34fcdb0c079ba1ca4f8b469534c78ea716d16e945cc36b4b72b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/thick-client/SKILL.md"
+    },
+    {
+      "path": "references/thick-client-checklist.md",
+      "sourcePath": "skills/thick-client/references/thick-client-checklist.md",
+      "bytes": 265,
+      "sha256": "c9e593a932ffa3f45b5a183ca9c0f0852a607ca69dd44589bb73900c12e56682",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/thick-client/references/thick-client-checklist.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "02b1ecfa7e5e4aba2e66824bff3a4e5bd7dc77486fde3b44362886ef30991a5a"
+}

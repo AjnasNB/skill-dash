@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-digital-signatures-with-ed25519","name":"implementing-digital-signatures-with-ed25519","description":"Implements digital signatures using the Ed25519 algorithm (Curve25519), covering key-pair generation, signing, signature verification, and security tradeoffs versus RSA and ECDSA. Use when adding message or artifact signing and authentication-integrity checks to a system, or when advising on Ed25519 key properties and validation criteria.","category":"Security","tags":["implementing","digital","signatures","ed25519","implements","algorithm","curve25519","covering","key","pair","generation","signing","signature","verification","security","tradeoffs","versus","rsa"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-digital-signatures-with-ed25519/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-digital-signatures-with-ed25519","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-digital-signatures-with-ed25519","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":37091,"sha256":"fda6c08cee727a38c50a7d166c8be787fddf0c1d08b55fabd9097863de01e68f","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-digital-signatures-with-ed25519/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-digital-signatures-with-ed25519/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-digital-signatures-with-ed25519/SKILL.md","bytes":3500,"sha256":"fda6c08cee727a38c50a7d166c8be787fddf0c1d08b55fabd9097863de01e68f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-digital-signatures-with-ed25519/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-digital-signatures-with-ed25519/assets/template.md","bytes":890,"sha256":"869e43dad21147b5a66ea13ab3c62c25e5a330bb0e209f3a27b8a821a6d5f85c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-digital-signatures-with-ed25519/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-digital-signatures-with-ed25519/references/api-reference.md","bytes":1712,"sha256":"3b3914e96f69e2b10a923fb0f5d9c9b08f9eadc3e4884fa755ca1d120dcb67cf","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-digital-signatures-with-ed25519/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-digital-signatures-with-ed25519/references/standards.md","bytes":1314,"sha256":"0be896438a5dbdecf3db1e0faee0a504e3c5c09fea2475ce5abf9d91f572ace2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-digital-signatures-with-ed25519/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-digital-signatures-with-ed25519/references/workflows.md","bytes":1343,"sha256":"f98be21d2581e060f3d8b04a58cad99dddb3a159bc4917699a3583e4ac036b31","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-digital-signatures-with-ed25519/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-digital-signatures-with-ed25519/scripts/agent.py","bytes":5885,"sha256":"8e179b32104bfd06b5f5475ee1b9e7ac3a4d9b0ff794c97409933c125be47dee","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-digital-signatures-with-ed25519/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-digital-signatures-with-ed25519/scripts/process.py","bytes":11192,"sha256":"75ba7622204d4c5a482cc983a3677e447454ef248d4b3faa17993c74dec41222","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-digital-signatures-with-ed25519/scripts/process.py"}],"archiveSha256":"9ce8e97e044086aaeeb08ebb14545d96174243b95311086f0ffed28b1349aa93"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-digital-signatures-with-ed25519",
+    "name": "implementing-digital-signatures-with-ed25519",
+    "description": "Implements digital signatures using the Ed25519 algorithm (Curve25519), covering key-pair generation, signing, signature verification, and security tradeoffs versus RSA and ECDSA. Use when adding message or artifact signing and authentication-integrity checks to a system, or when advising on Ed25519 key properties and validation criteria.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "digital",
+      "signatures",
+      "ed25519",
+      "implements",
+      "algorithm",
+      "curve25519",
+      "covering",
+      "key",
+      "pair",
+      "generation",
+      "signing",
+      "signature",
+      "verification",
+      "security",
+      "tradeoffs",
+      "versus",
+      "rsa"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-digital-signatures-with-ed25519/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-digital-signatures-with-ed25519",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-digital-signatures-with-ed25519",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 37091,
+    "sha256": "fda6c08cee727a38c50a7d166c8be787fddf0c1d08b55fabd9097863de01e68f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-digital-signatures-with-ed25519/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-digital-signatures-with-ed25519/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-digital-signatures-with-ed25519/SKILL.md",
+      "bytes": 3500,
+      "sha256": "fda6c08cee727a38c50a7d166c8be787fddf0c1d08b55fabd9097863de01e68f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-digital-signatures-with-ed25519/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-digital-signatures-with-ed25519/assets/template.md",
+      "bytes": 890,
+      "sha256": "869e43dad21147b5a66ea13ab3c62c25e5a330bb0e209f3a27b8a821a6d5f85c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-digital-signatures-with-ed25519/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-digital-signatures-with-ed25519/references/api-reference.md",
+      "bytes": 1712,
+      "sha256": "3b3914e96f69e2b10a923fb0f5d9c9b08f9eadc3e4884fa755ca1d120dcb67cf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-digital-signatures-with-ed25519/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-digital-signatures-with-ed25519/references/standards.md",
+      "bytes": 1314,
+      "sha256": "0be896438a5dbdecf3db1e0faee0a504e3c5c09fea2475ce5abf9d91f572ace2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-digital-signatures-with-ed25519/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-digital-signatures-with-ed25519/references/workflows.md",
+      "bytes": 1343,
+      "sha256": "f98be21d2581e060f3d8b04a58cad99dddb3a159bc4917699a3583e4ac036b31",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-digital-signatures-with-ed25519/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-digital-signatures-with-ed25519/scripts/agent.py",
+      "bytes": 5885,
+      "sha256": "8e179b32104bfd06b5f5475ee1b9e7ac3a4d9b0ff794c97409933c125be47dee",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-digital-signatures-with-ed25519/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-digital-signatures-with-ed25519/scripts/process.py",
+      "bytes": 11192,
+      "sha256": "75ba7622204d4c5a482cc983a3677e447454ef248d4b3faa17993c74dec41222",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-digital-signatures-with-ed25519/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "9ce8e97e044086aaeeb08ebb14545d96174243b95311086f0ffed28b1349aa93"
+}

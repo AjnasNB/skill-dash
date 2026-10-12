@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--announcement-board","name":"announcement-board","description":"Announcement board: author, category, department, priority, audience, publish and expiry dates, status and acknowledgements, as CSV, SQL, JSON Schema or Notion on request. Use for internal notices.","category":"Development","tags":["announcement","board","author","category","department","priority","audience","publish","expiry","dates","status","acknowledgements","as","csv","sql","json","schema","notion"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/announcement-board","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/announcement-board","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":14869,"sha256":"5b06e44cebf0722468afa2b5f659706def8faa37b63cb67e26a9c58096db11b8","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/announcement-board/SKILL.md","bytes":13796,"sha256":"5b06e44cebf0722468afa2b5f659706def8faa37b63cb67e26a9c58096db11b8","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/announcement-board/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"0f7128e00c3c669afc8cc8104e6ec7bc85df89211029dc1a73cbb588aaf1c43b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--announcement-board",
+    "name": "announcement-board",
+    "description": "Announcement board: author, category, department, priority, audience, publish and expiry dates, status and acknowledgements, as CSV, SQL, JSON Schema or Notion on request. Use for internal notices.",
+    "category": "Development",
+    "tags": [
+      "announcement",
+      "board",
+      "author",
+      "category",
+      "department",
+      "priority",
+      "audience",
+      "publish",
+      "expiry",
+      "dates",
+      "status",
+      "acknowledgements",
+      "as",
+      "csv",
+      "sql",
+      "json",
+      "schema",
+      "notion"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/announcement-board",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/announcement-board",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 14869,
+    "sha256": "5b06e44cebf0722468afa2b5f659706def8faa37b63cb67e26a9c58096db11b8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/announcement-board/SKILL.md",
+      "bytes": 13796,
+      "sha256": "5b06e44cebf0722468afa2b5f659706def8faa37b63cb67e26a9c58096db11b8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/announcement-board/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "0f7128e00c3c669afc8cc8104e6ec7bc85df89211029dc1a73cbb588aaf1c43b"
+}

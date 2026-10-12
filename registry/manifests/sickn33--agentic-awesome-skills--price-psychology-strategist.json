@@ -1,1 +1,57 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--price-psychology-strategist","name":"price-psychology-strategist","description":"One sentence - what this skill does and when to invoke it","category":"Development","tags":["price","psychology","strategist","one","sentence","what","skill","does","when","invoke","it"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/price-psychology-strategist","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/price-psychology-strategist","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6380,"sha256":"5f6e34d56b69d9ad0fbb568cff304eaed1fa106c389df3dfe452c63bf7bb4ab9","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/price-psychology-strategist/SKILL.md","bytes":5307,"sha256":"5f6e34d56b69d9ad0fbb568cff304eaed1fa106c389df3dfe452c63bf7bb4ab9","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/price-psychology-strategist/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"6309f41105bceabb9ee3d7c39419998c1273c0ca116c8ef5fbf5d0e77aa5389b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--price-psychology-strategist",
+    "name": "price-psychology-strategist",
+    "description": "One sentence - what this skill does and when to invoke it",
+    "category": "Development",
+    "tags": [
+      "price",
+      "psychology",
+      "strategist",
+      "one",
+      "sentence",
+      "what",
+      "skill",
+      "does",
+      "when",
+      "invoke",
+      "it"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/price-psychology-strategist",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/price-psychology-strategist",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6380,
+    "sha256": "5f6e34d56b69d9ad0fbb568cff304eaed1fa106c389df3dfe452c63bf7bb4ab9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/price-psychology-strategist/SKILL.md",
+      "bytes": 5307,
+      "sha256": "5f6e34d56b69d9ad0fbb568cff304eaed1fa106c389df3dfe452c63bf7bb4ab9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/price-psychology-strategist/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "6309f41105bceabb9ee3d7c39419998c1273c0ca116c8ef5fbf5d0e77aa5389b"
+}

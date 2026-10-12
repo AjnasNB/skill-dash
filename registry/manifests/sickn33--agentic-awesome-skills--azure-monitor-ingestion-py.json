@@ -1,1 +1,60 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--azure-monitor-ingestion-py","name":"azure-monitor-ingestion-py","description":"Azure Monitor Ingestion SDK for Python. Use for sending custom logs to Log Analytics workspace via Logs Ingestion API.","category":"Cloud & DevOps","tags":["azure","monitor","ingestion","py","sdk","python.","sending","custom","logs","log","analytics","workspace","via","api."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/azure-monitor-ingestion-py","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-monitor-ingestion-py","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6794,"sha256":"2de618ab22b8bebabf553d970d461f176f519f75b416c58ee33f4671be40e585","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/azure-monitor-ingestion-py/SKILL.md","bytes":5721,"sha256":"2de618ab22b8bebabf553d970d461f176f519f75b416c58ee33f4671be40e585","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-monitor-ingestion-py/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"c2f9ee891df0a7ea52ff57d4fa4507ead45b3f766f0c9f8fd7365815964dbbbe"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--azure-monitor-ingestion-py",
+    "name": "azure-monitor-ingestion-py",
+    "description": "Azure Monitor Ingestion SDK for Python. Use for sending custom logs to Log Analytics workspace via Logs Ingestion API.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "azure",
+      "monitor",
+      "ingestion",
+      "py",
+      "sdk",
+      "python.",
+      "sending",
+      "custom",
+      "logs",
+      "log",
+      "analytics",
+      "workspace",
+      "via",
+      "api."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/azure-monitor-ingestion-py",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-monitor-ingestion-py",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6794,
+    "sha256": "2de618ab22b8bebabf553d970d461f176f519f75b416c58ee33f4671be40e585",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/azure-monitor-ingestion-py/SKILL.md",
+      "bytes": 5721,
+      "sha256": "2de618ab22b8bebabf553d970d461f176f519f75b416c58ee33f4671be40e585",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-monitor-ingestion-py/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "c2f9ee891df0a7ea52ff57d4fa4507ead45b3f766f0c9f8fd7365815964dbbbe"
+}

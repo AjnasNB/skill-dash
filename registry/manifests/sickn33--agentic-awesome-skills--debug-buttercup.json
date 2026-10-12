@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--debug-buttercup","name":"debug-buttercup","description":"All pods run in namespace crs. Use when pods in the crs namespace are in CrashLoopBackOff, OOMKilled, or restarting, multiple services restart simultaneously (cascade failure), or redis is unresponsive or showing AOF warnings.","category":"Development","tags":["debug","buttercup","all","pods","run","namespace","crs.","when","crs","are","crashloopbackoff","oomkilled","restarting","multiple","services","restart","simultaneously","cascade"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/debug-buttercup","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/debug-buttercup","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":10987,"sha256":"76bd1e2e26939c6f39159c1550b659632577c7834757a77edf11128b8d800955","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/debug-buttercup/SKILL.md","bytes":9914,"sha256":"76bd1e2e26939c6f39159c1550b659632577c7834757a77edf11128b8d800955","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/debug-buttercup/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"c9facd4739d5a8394d7ea0f93524b9593d197c1520b8700623fabac687142594"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--debug-buttercup",
+    "name": "debug-buttercup",
+    "description": "All pods run in namespace crs. Use when pods in the crs namespace are in CrashLoopBackOff, OOMKilled, or restarting, multiple services restart simultaneously (cascade failure), or redis is unresponsive or showing AOF warnings.",
+    "category": "Development",
+    "tags": [
+      "debug",
+      "buttercup",
+      "all",
+      "pods",
+      "run",
+      "namespace",
+      "crs.",
+      "when",
+      "crs",
+      "are",
+      "crashloopbackoff",
+      "oomkilled",
+      "restarting",
+      "multiple",
+      "services",
+      "restart",
+      "simultaneously",
+      "cascade"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/debug-buttercup",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/debug-buttercup",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10987,
+    "sha256": "76bd1e2e26939c6f39159c1550b659632577c7834757a77edf11128b8d800955",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/debug-buttercup/SKILL.md",
+      "bytes": 9914,
+      "sha256": "76bd1e2e26939c6f39159c1550b659632577c7834757a77edf11128b8d800955",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/debug-buttercup/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "c9facd4739d5a8394d7ea0f93524b9593d197c1520b8700623fabac687142594"
+}

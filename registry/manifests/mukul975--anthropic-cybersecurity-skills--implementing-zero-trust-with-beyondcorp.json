@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-zero-trust-with-beyondcorp","name":"implementing-zero-trust-with-beyondcorp","description":"Configures Google BeyondCorp Enterprise Identity-Aware Proxy (IAP) as the access enforcement point for web applications, defining Access Context Manager access levels from device trust and network attributes, and auditing the resulting policies for compliance. Use when eliminating perimeter/VPN trust for GCP resources or internal apps, or when setting up identity- and device-posture-based access controls on Google Cloud.","category":"Security","tags":["implementing","zero","trust","beyondcorp","configures","google","enterprise","identity","aware","proxy","iap","as","access","enforcement","point","web","applications","defining"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-zero-trust-with-beyondcorp/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-zero-trust-with-beyondcorp","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-with-beyondcorp","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":23852,"sha256":"c9d06c3147941625f07ecfefada372dd8f4790175b82744e95e1dd9b178b8ac3","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-zero-trust-with-beyondcorp/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-with-beyondcorp/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-zero-trust-with-beyondcorp/SKILL.md","bytes":2928,"sha256":"c9d06c3147941625f07ecfefada372dd8f4790175b82744e95e1dd9b178b8ac3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-with-beyondcorp/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-zero-trust-with-beyondcorp/references/api-reference.md","bytes":2619,"sha256":"60fc6b9765bf39c308dfb900149ce205afe6431799f3f4c9da3352fed58b86a2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-with-beyondcorp/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-zero-trust-with-beyondcorp/scripts/agent.py","bytes":7050,"sha256":"a2fbb82a775df95ed5e9b272cea0778365acd874a3483ff0a26fd9ac83fad93d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-with-beyondcorp/scripts/agent.py"}],"archiveSha256":"c31c37abf59d35c18647c6a75f7dfcaf505c591bfcec6ddd6bd889c179a33cd9"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-zero-trust-with-beyondcorp",
+    "name": "implementing-zero-trust-with-beyondcorp",
+    "description": "Configures Google BeyondCorp Enterprise Identity-Aware Proxy (IAP) as the access enforcement point for web applications, defining Access Context Manager access levels from device trust and network attributes, and auditing the resulting policies for compliance. Use when eliminating perimeter/VPN trust for GCP resources or internal apps, or when setting up identity- and device-posture-based access controls on Google Cloud.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "zero",
+      "trust",
+      "beyondcorp",
+      "configures",
+      "google",
+      "enterprise",
+      "identity",
+      "aware",
+      "proxy",
+      "iap",
+      "as",
+      "access",
+      "enforcement",
+      "point",
+      "web",
+      "applications",
+      "defining"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-zero-trust-with-beyondcorp/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-zero-trust-with-beyondcorp",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-with-beyondcorp",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 23852,
+    "sha256": "c9d06c3147941625f07ecfefada372dd8f4790175b82744e95e1dd9b178b8ac3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-zero-trust-with-beyondcorp/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-with-beyondcorp/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-zero-trust-with-beyondcorp/SKILL.md",
+      "bytes": 2928,
+      "sha256": "c9d06c3147941625f07ecfefada372dd8f4790175b82744e95e1dd9b178b8ac3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-with-beyondcorp/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-zero-trust-with-beyondcorp/references/api-reference.md",
+      "bytes": 2619,
+      "sha256": "60fc6b9765bf39c308dfb900149ce205afe6431799f3f4c9da3352fed58b86a2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-with-beyondcorp/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-zero-trust-with-beyondcorp/scripts/agent.py",
+      "bytes": 7050,
+      "sha256": "a2fbb82a775df95ed5e9b272cea0778365acd874a3483ff0a26fd9ac83fad93d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-with-beyondcorp/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "c31c37abf59d35c18647c6a75f7dfcaf505c591bfcec6ddd6bd889c179a33cd9"
+}

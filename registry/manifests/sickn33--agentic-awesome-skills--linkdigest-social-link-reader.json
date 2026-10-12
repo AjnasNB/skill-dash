@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--linkdigest-social-link-reader","name":"linkdigest-social-link-reader","description":"Read one public Xiaohongshu, Douyin, TikTok, YouTube, X or WeChat article link into text an agent can use (transcript, image text, key points) via the LinkDigest API or MCP server.","category":"AI & agents","tags":["linkdigest","social","link","reader","read","one","public","xiaohongshu","douyin","tiktok","youtube","wechat","article","into","text","agent","transcript","image"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/linkdigest-social-link-reader","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/linkdigest-social-link-reader","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":14779,"sha256":"19bae25f9be5377d8653bd447e26a9a45973eac3c884ffa173ef81ab57f46c46","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/linkdigest-social-link-reader/SKILL.md","bytes":13706,"sha256":"19bae25f9be5377d8653bd447e26a9a45973eac3c884ffa173ef81ab57f46c46","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/linkdigest-social-link-reader/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"e1adf808dbba0061cda75fa18948e4008d78096beaa2362b6291a0364657dcfe"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--linkdigest-social-link-reader",
+    "name": "linkdigest-social-link-reader",
+    "description": "Read one public Xiaohongshu, Douyin, TikTok, YouTube, X or WeChat article link into text an agent can use (transcript, image text, key points) via the LinkDigest API or MCP server.",
+    "category": "AI & agents",
+    "tags": [
+      "linkdigest",
+      "social",
+      "link",
+      "reader",
+      "read",
+      "one",
+      "public",
+      "xiaohongshu",
+      "douyin",
+      "tiktok",
+      "youtube",
+      "wechat",
+      "article",
+      "into",
+      "text",
+      "agent",
+      "transcript",
+      "image"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/linkdigest-social-link-reader",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/linkdigest-social-link-reader",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 14779,
+    "sha256": "19bae25f9be5377d8653bd447e26a9a45973eac3c884ffa173ef81ab57f46c46",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/linkdigest-social-link-reader/SKILL.md",
+      "bytes": 13706,
+      "sha256": "19bae25f9be5377d8653bd447e26a9a45973eac3c884ffa173ef81ab57f46c46",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/linkdigest-social-link-reader/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "e1adf808dbba0061cda75fa18948e4008d78096beaa2362b6291a0364657dcfe"
+}

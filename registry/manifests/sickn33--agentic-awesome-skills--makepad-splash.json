@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--makepad-splash","name":"makepad-splash","description":"CRITICAL: Use for Makepad Splash scripting language. Triggers on: splash language, makepad script, makepad scripting, script!, cx.eval, makepad dynamic, makepad AI, splash 语言, makepad 脚本","category":"Development","tags":["makepad","splash","critical","scripting","language.","triggers","language","script","cx.eval","dynamic","ai","语言","脚本"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/makepad-splash","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/makepad-splash","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6005,"sha256":"fb44c8cc34ea511d02f7043bc1ca1f88b00eae031d183323a07cec2fe591bb51","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/makepad-splash/SKILL.md","bytes":4932,"sha256":"fb44c8cc34ea511d02f7043bc1ca1f88b00eae031d183323a07cec2fe591bb51","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/makepad-splash/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"470a1cae45ba7ab9bfed6314d4aed162bf78438b2a563f898909359ddb4f8162"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--makepad-splash",
+    "name": "makepad-splash",
+    "description": "CRITICAL: Use for Makepad Splash scripting language. Triggers on: splash language, makepad script, makepad scripting, script!, cx.eval, makepad dynamic, makepad AI, splash 语言, makepad 脚本",
+    "category": "Development",
+    "tags": [
+      "makepad",
+      "splash",
+      "critical",
+      "scripting",
+      "language.",
+      "triggers",
+      "language",
+      "script",
+      "cx.eval",
+      "dynamic",
+      "ai",
+      "语言",
+      "脚本"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/makepad-splash",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/makepad-splash",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6005,
+    "sha256": "fb44c8cc34ea511d02f7043bc1ca1f88b00eae031d183323a07cec2fe591bb51",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/makepad-splash/SKILL.md",
+      "bytes": 4932,
+      "sha256": "fb44c8cc34ea511d02f7043bc1ca1f88b00eae031d183323a07cec2fe591bb51",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/makepad-splash/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "470a1cae45ba7ab9bfed6314d4aed162bf78438b2a563f898909359ddb4f8162"
+}

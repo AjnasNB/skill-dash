@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--testing-for-xss-vulnerabilities-with-burpsuite","name":"testing-for-xss-vulnerabilities-with-burpsuite","description":"Identifying and validating cross-site scripting vulnerabilities using Burp Suite's scanner, intruder, and repeater tools during authorized security assessments.","category":"Security","tags":["testing","xss","vulnerabilities","burpsuite","identifying","validating","cross","site","scripting","burp","suite","scanner","intruder","repeater","tools","during","authorized","security"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/testing-for-xss-vulnerabilities-with-burpsuite/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/testing-for-xss-vulnerabilities-with-burpsuite","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-xss-vulnerabilities-with-burpsuite","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":32802,"sha256":"58815cbe46601c7587cd2f071858cd26f2ef0094f17003532d9303d71d679781","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/testing-for-xss-vulnerabilities-with-burpsuite/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-xss-vulnerabilities-with-burpsuite/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/testing-for-xss-vulnerabilities-with-burpsuite/SKILL.md","bytes":11207,"sha256":"58815cbe46601c7587cd2f071858cd26f2ef0094f17003532d9303d71d679781","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-xss-vulnerabilities-with-burpsuite/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/testing-for-xss-vulnerabilities-with-burpsuite/references/api-reference.md","bytes":2095,"sha256":"494f77dc3c36d7ac5f95581d8a875ae71f3502c33002dc0f9e7a3f6c869be90f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-xss-vulnerabilities-with-burpsuite/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/testing-for-xss-vulnerabilities-with-burpsuite/scripts/agent.py","bytes":8245,"sha256":"d3f8b4701335f75b4f6537e062f4faba93ec1eefde7fd36dbb7af3d65eb1ffad","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-xss-vulnerabilities-with-burpsuite/scripts/agent.py"}],"archiveSha256":"02b063931a0a070e818657edb09389c073c754b5bb31102936904858b2c32cfc"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--testing-for-xss-vulnerabilities-with-burpsuite",
+    "name": "testing-for-xss-vulnerabilities-with-burpsuite",
+    "description": "Identifying and validating cross-site scripting vulnerabilities using Burp Suite's scanner, intruder, and repeater tools during authorized security assessments.",
+    "category": "Security",
+    "tags": [
+      "testing",
+      "xss",
+      "vulnerabilities",
+      "burpsuite",
+      "identifying",
+      "validating",
+      "cross",
+      "site",
+      "scripting",
+      "burp",
+      "suite",
+      "scanner",
+      "intruder",
+      "repeater",
+      "tools",
+      "during",
+      "authorized",
+      "security"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/testing-for-xss-vulnerabilities-with-burpsuite/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/testing-for-xss-vulnerabilities-with-burpsuite",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-xss-vulnerabilities-with-burpsuite",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32802,
+    "sha256": "58815cbe46601c7587cd2f071858cd26f2ef0094f17003532d9303d71d679781",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/testing-for-xss-vulnerabilities-with-burpsuite/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-xss-vulnerabilities-with-burpsuite/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/testing-for-xss-vulnerabilities-with-burpsuite/SKILL.md",
+      "bytes": 11207,
+      "sha256": "58815cbe46601c7587cd2f071858cd26f2ef0094f17003532d9303d71d679781",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-xss-vulnerabilities-with-burpsuite/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/testing-for-xss-vulnerabilities-with-burpsuite/references/api-reference.md",
+      "bytes": 2095,
+      "sha256": "494f77dc3c36d7ac5f95581d8a875ae71f3502c33002dc0f9e7a3f6c869be90f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-xss-vulnerabilities-with-burpsuite/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/testing-for-xss-vulnerabilities-with-burpsuite/scripts/agent.py",
+      "bytes": 8245,
+      "sha256": "d3f8b4701335f75b4f6537e062f4faba93ec1eefde7fd36dbb7af3d65eb1ffad",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-xss-vulnerabilities-with-burpsuite/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "02b063931a0a070e818657edb09389c073c754b5bb31102936904858b2c32cfc"
+}

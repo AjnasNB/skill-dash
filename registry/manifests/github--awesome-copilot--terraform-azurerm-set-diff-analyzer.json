@@ -1,1 +1,104 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--terraform-azurerm-set-diff-analyzer","name":"terraform-azurerm-set-diff-analyzer","description":"Analyze Terraform plan JSON output for AzureRM Provider to distinguish between false-positive diffs (order-only changes in Set-type attributes) and actual resource changes. Use when reviewing terraform plan output for Azure resources like Application Gateway, Load Balancer, Firewall, Front Door, NSG, and other resources with Set-type attributes that cause spurious diffs due to internal ordering changes.","category":"Cloud & DevOps","tags":["terraform","azurerm","set","diff","analyzer","analyze","plan","json","output","provider","distinguish","between","false","positive","diffs","order","only","changes"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/terraform-azurerm-set-diff-analyzer","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/terraform-azurerm-set-diff-analyzer","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":7,"bytes":49362,"sha256":"b7efae1dd84de6f644daeac4e6f2f6a7f281b5edf68bb864fb79bb36cd3c4195","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/terraform-azurerm-set-diff-analyzer/SKILL.md","bytes":2187,"sha256":"b7efae1dd84de6f644daeac4e6f2f6a7f281b5edf68bb864fb79bb36cd3c4195","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/terraform-azurerm-set-diff-analyzer/SKILL.md"},{"path":"references/azurerm_set_attributes.json","sourcePath":"skills/terraform-azurerm-set-diff-analyzer/references/azurerm_set_attributes.json","bytes":5106,"sha256":"2c0c359943e471ee9f33bf173a6771ab62fd82c546c5e17f4e49f0932da574bd","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/terraform-azurerm-set-diff-analyzer/references/azurerm_set_attributes.json"},{"path":"references/azurerm_set_attributes.md","sourcePath":"skills/terraform-azurerm-set-diff-analyzer/references/azurerm_set_attributes.md","bytes":3966,"sha256":"d517420c8726dfa1e101ac0a61924db68b2ffa05a7b8121e384a1b8505a694ce","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/terraform-azurerm-set-diff-analyzer/references/azurerm_set_attributes.md"},{"path":"scripts/.gitignore","sourcePath":"skills/terraform-azurerm-set-diff-analyzer/scripts/.gitignore","bytes":742,"sha256":"7502062f46709c1d2c7da4f5458e139455185810e9b4a2bf1deced5d4949b5aa","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/terraform-azurerm-set-diff-analyzer/scripts/.gitignore"},{"path":"scripts/README.md","sourcePath":"skills/terraform-azurerm-set-diff-analyzer/scripts/README.md","bytes":5306,"sha256":"fcabc67e277dbbc3d46b81edce7aae50e71da4f93dc0b1358e4c45737570e82c","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/terraform-azurerm-set-diff-analyzer/scripts/README.md"},{"path":"scripts/analyze_plan.py","sourcePath":"skills/terraform-azurerm-set-diff-analyzer/scripts/analyze_plan.py","bytes":30996,"sha256":"d8ca5b70c7dd2852e7d17b280cf236b6d218f593a7b882beab48c0a540fd154f","mode":493,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/terraform-azurerm-set-diff-analyzer/scripts/analyze_plan.py"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"7628e6394466be50b58e40dc9305ccc06a574ba1bf4c091f90569f600275f733"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--terraform-azurerm-set-diff-analyzer",
+    "name": "terraform-azurerm-set-diff-analyzer",
+    "description": "Analyze Terraform plan JSON output for AzureRM Provider to distinguish between false-positive diffs (order-only changes in Set-type attributes) and actual resource changes. Use when reviewing terraform plan output for Azure resources like Application Gateway, Load Balancer, Firewall, Front Door, NSG, and other resources with Set-type attributes that cause spurious diffs due to internal ordering changes.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "terraform",
+      "azurerm",
+      "set",
+      "diff",
+      "analyzer",
+      "analyze",
+      "plan",
+      "json",
+      "output",
+      "provider",
+      "distinguish",
+      "between",
+      "false",
+      "positive",
+      "diffs",
+      "order",
+      "only",
+      "changes"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/terraform-azurerm-set-diff-analyzer",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/terraform-azurerm-set-diff-analyzer",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 7,
+    "bytes": 49362,
+    "sha256": "b7efae1dd84de6f644daeac4e6f2f6a7f281b5edf68bb864fb79bb36cd3c4195",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/terraform-azurerm-set-diff-analyzer/SKILL.md",
+      "bytes": 2187,
+      "sha256": "b7efae1dd84de6f644daeac4e6f2f6a7f281b5edf68bb864fb79bb36cd3c4195",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/terraform-azurerm-set-diff-analyzer/SKILL.md"
+    },
+    {
+      "path": "references/azurerm_set_attributes.json",
+      "sourcePath": "skills/terraform-azurerm-set-diff-analyzer/references/azurerm_set_attributes.json",
+      "bytes": 5106,
+      "sha256": "2c0c359943e471ee9f33bf173a6771ab62fd82c546c5e17f4e49f0932da574bd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/terraform-azurerm-set-diff-analyzer/references/azurerm_set_attributes.json"
+    },
+    {
+      "path": "references/azurerm_set_attributes.md",
+      "sourcePath": "skills/terraform-azurerm-set-diff-analyzer/references/azurerm_set_attributes.md",
+      "bytes": 3966,
+      "sha256": "d517420c8726dfa1e101ac0a61924db68b2ffa05a7b8121e384a1b8505a694ce",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/terraform-azurerm-set-diff-analyzer/references/azurerm_set_attributes.md"
+    },
+    {
+      "path": "scripts/.gitignore",
+      "sourcePath": "skills/terraform-azurerm-set-diff-analyzer/scripts/.gitignore",
+      "bytes": 742,
+      "sha256": "7502062f46709c1d2c7da4f5458e139455185810e9b4a2bf1deced5d4949b5aa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/terraform-azurerm-set-diff-analyzer/scripts/.gitignore"
+    },
+    {
+      "path": "scripts/README.md",
+      "sourcePath": "skills/terraform-azurerm-set-diff-analyzer/scripts/README.md",
+      "bytes": 5306,
+      "sha256": "fcabc67e277dbbc3d46b81edce7aae50e71da4f93dc0b1358e4c45737570e82c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/terraform-azurerm-set-diff-analyzer/scripts/README.md"
+    },
+    {
+      "path": "scripts/analyze_plan.py",
+      "sourcePath": "skills/terraform-azurerm-set-diff-analyzer/scripts/analyze_plan.py",
+      "bytes": 30996,
+      "sha256": "d8ca5b70c7dd2852e7d17b280cf236b6d218f593a7b882beab48c0a540fd154f",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/terraform-azurerm-set-diff-analyzer/scripts/analyze_plan.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "7628e6394466be50b58e40dc9305ccc06a574ba1bf4c091f90569f600275f733"
+}

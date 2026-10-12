@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-docker-bench-security-assessment","name":"performing-docker-bench-security-assessment","description":"Runs Docker Bench for Security, the open-source CIS Docker Benchmark audit script, across host configuration, daemon settings, images, and runtime configuration, then interprets pass/fail/warn output and remediates the common failures. Use when auditing Docker hosts for CIS compliance, scheduling recurring container assessments, or validating runtime hardening controls after a change. Keywords: docker-bench-security, CIS Docker Benchmark, audit script, pass fail warn, host configuration, remediation. Do not use for applying the daemon hardening itself - use hardening-docker-daemon-configuration.","category":"Security","tags":["performing","docker","bench","security","assessment","runs","open","source","cis","benchmark","audit","script","across","host","configuration","daemon","settings","images"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-docker-bench-security-assessment/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-docker-bench-security-assessment","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-docker-bench-security-assessment","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":27058,"sha256":"15b1be47de31e68389ca36c15c9b4b84fa4a523d3706fd32ca54121aee1237fa","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-docker-bench-security-assessment/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-docker-bench-security-assessment/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-docker-bench-security-assessment/SKILL.md","bytes":5062,"sha256":"15b1be47de31e68389ca36c15c9b4b84fa4a523d3706fd32ca54121aee1237fa","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-docker-bench-security-assessment/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/performing-docker-bench-security-assessment/assets/template.md","bytes":431,"sha256":"54351fee56d1555107519e2e4199bd56fc8f6e1e75307401d812425f54ea3b86","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-docker-bench-security-assessment/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-docker-bench-security-assessment/references/api-reference.md","bytes":1148,"sha256":"40749cdc15fb252a998cb37d6bcced8131f6ec13a94bd768507d84bd04593d1f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-docker-bench-security-assessment/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/performing-docker-bench-security-assessment/references/standards.md","bytes":736,"sha256":"d15034a02eed44e1a04e7020e9e9562b5801846c791482842905e34b1366bbbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-docker-bench-security-assessment/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/performing-docker-bench-security-assessment/references/workflows.md","bytes":724,"sha256":"b0382a0b061f67c181f70a3bd76603f173279086bb45f3d1e4ffb6300b4a4f07","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-docker-bench-security-assessment/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-docker-bench-security-assessment/scripts/agent.py","bytes":5847,"sha256":"705fea1a3df55589e7b70a047efd0506f9125c9b8a2aa6fe7a93745bc47543b7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-docker-bench-security-assessment/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/performing-docker-bench-security-assessment/scripts/process.py","bytes":1855,"sha256":"19d1415ac7dcf799c8097706fa2e47a295e2f853c1ec03b682a34b704688e938","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-docker-bench-security-assessment/scripts/process.py"}],"archiveSha256":"d22af04cc77491872daea75a993f28ffe46816171c29b6806a42b34294ab5056"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-docker-bench-security-assessment",
+    "name": "performing-docker-bench-security-assessment",
+    "description": "Runs Docker Bench for Security, the open-source CIS Docker Benchmark audit script, across host configuration, daemon settings, images, and runtime configuration, then interprets pass/fail/warn output and remediates the common failures. Use when auditing Docker hosts for CIS compliance, scheduling recurring container assessments, or validating runtime hardening controls after a change. Keywords: docker-bench-security, CIS Docker Benchmark, audit script, pass fail warn, host configuration, remediation. Do not use for applying the daemon hardening itself - use hardening-docker-daemon-configuration.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "docker",
+      "bench",
+      "security",
+      "assessment",
+      "runs",
+      "open",
+      "source",
+      "cis",
+      "benchmark",
+      "audit",
+      "script",
+      "across",
+      "host",
+      "configuration",
+      "daemon",
+      "settings",
+      "images"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-docker-bench-security-assessment/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-docker-bench-security-assessment",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-docker-bench-security-assessment",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 27058,
+    "sha256": "15b1be47de31e68389ca36c15c9b4b84fa4a523d3706fd32ca54121aee1237fa",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-docker-bench-security-assessment/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-docker-bench-security-assessment/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-docker-bench-security-assessment/SKILL.md",
+      "bytes": 5062,
+      "sha256": "15b1be47de31e68389ca36c15c9b4b84fa4a523d3706fd32ca54121aee1237fa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-docker-bench-security-assessment/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-docker-bench-security-assessment/assets/template.md",
+      "bytes": 431,
+      "sha256": "54351fee56d1555107519e2e4199bd56fc8f6e1e75307401d812425f54ea3b86",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-docker-bench-security-assessment/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-docker-bench-security-assessment/references/api-reference.md",
+      "bytes": 1148,
+      "sha256": "40749cdc15fb252a998cb37d6bcced8131f6ec13a94bd768507d84bd04593d1f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-docker-bench-security-assessment/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-docker-bench-security-assessment/references/standards.md",
+      "bytes": 736,
+      "sha256": "d15034a02eed44e1a04e7020e9e9562b5801846c791482842905e34b1366bbbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-docker-bench-security-assessment/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-docker-bench-security-assessment/references/workflows.md",
+      "bytes": 724,
+      "sha256": "b0382a0b061f67c181f70a3bd76603f173279086bb45f3d1e4ffb6300b4a4f07",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-docker-bench-security-assessment/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-docker-bench-security-assessment/scripts/agent.py",
+      "bytes": 5847,
+      "sha256": "705fea1a3df55589e7b70a047efd0506f9125c9b8a2aa6fe7a93745bc47543b7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-docker-bench-security-assessment/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-docker-bench-security-assessment/scripts/process.py",
+      "bytes": 1855,
+      "sha256": "19d1415ac7dcf799c8097706fa2e47a295e2f853c1ec03b682a34b704688e938",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-docker-bench-security-assessment/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "d22af04cc77491872daea75a993f28ffe46816171c29b6806a42b34294ab5056"
+}

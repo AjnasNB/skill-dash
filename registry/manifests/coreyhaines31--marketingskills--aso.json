@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"coreyhaines31--marketingskills--aso","name":"aso","description":"When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO audit,' 'app store optimization,' 'optimize my app listing,' 'improve app visibility,' 'app store ranking,' 'audit my listing,' 'why aren't people downloading my app,' 'improve my app conversion,' 'keyword optimization for app,' or 'compare my app to competitors.' Use when the user shares an App Store or Google Play URL and wants to improve it.","category":"Marketing","tags":["aso","when","user","wants","audit","optimize","app","store","google","play","listing.","also","mentions","optimization","listing","improve","visibility","ranking"],"repo":"coreyhaines31/marketingskills","owner":"coreyhaines31","stars":54287,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff","path":"skills/aso","sourceUrl":"https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/aso","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-08T21:51:37Z","fileCount":8,"bytes":62705,"sha256":"681a8e3cb4ffe91bb8d68497726d9a708901c06a2a99e23a92684d53241fc02c","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/aso/SKILL.md","bytes":15947,"sha256":"681a8e3cb4ffe91bb8d68497726d9a708901c06a2a99e23a92684d53241fc02c","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/aso/SKILL.md"},{"path":"evals/evals.json","sourcePath":"skills/aso/evals/evals.json","bytes":8766,"sha256":"9b665d9e1eea16e46591ee42790642c396a4e20fd61306ec3171f9083a87b4d0","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/aso/evals/evals.json"},{"path":"references/apple-specs.md","sourcePath":"skills/aso/references/apple-specs.md","bytes":6089,"sha256":"b2f9d3efc041624dd8f2392cad34533fa5f889a171957eb47000a6a057dcd13a","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/aso/references/apple-specs.md"},{"path":"references/benchmarks.md","sourcePath":"skills/aso/references/benchmarks.md","bytes":5444,"sha256":"64b33412338388f8d6b4cafc12a8547afff9d64ca37646a996cf1baecf54043c","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/aso/references/benchmarks.md"},{"path":"references/google-play-specs.md","sourcePath":"skills/aso/references/google-play-specs.md","bytes":6599,"sha256":"8a47707817aa40684f51ccc16e8b718ca6acaa27e3b1a00d2fdc21dd63b6ad9e","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/aso/references/google-play-specs.md"},{"path":"references/report-template.md","sourcePath":"skills/aso/references/report-template.md","bytes":5124,"sha256":"f67c8827c4600cb1e392c8cad05ed5740f9cd01321fd715a9e851e37ec0047b2","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/aso/references/report-template.md"},{"path":"references/scoring-criteria.md","sourcePath":"skills/aso/references/scoring-criteria.md","bytes":13667,"sha256":"e821093e54db5b6f3eb9c932eef57ec47b6e0bb1aad2fe0ae6f524a217713591","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/aso/references/scoring-criteria.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1069,"sha256":"b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"}],"archiveSha256":"981cacc9c79511c747c079f839ab81e60d50810a3db92cdc963b575abc8f87f6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "coreyhaines31--marketingskills--aso",
+    "name": "aso",
+    "description": "When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO audit,' 'app store optimization,' 'optimize my app listing,' 'improve app visibility,' 'app store ranking,' 'audit my listing,' 'why aren't people downloading my app,' 'improve my app conversion,' 'keyword optimization for app,' or 'compare my app to competitors.' Use when the user shares an App Store or Google Play URL and wants to improve it.",
+    "category": "Marketing",
+    "tags": [
+      "aso",
+      "when",
+      "user",
+      "wants",
+      "audit",
+      "optimize",
+      "app",
+      "store",
+      "google",
+      "play",
+      "listing.",
+      "also",
+      "mentions",
+      "optimization",
+      "listing",
+      "improve",
+      "visibility",
+      "ranking"
+    ],
+    "repo": "coreyhaines31/marketingskills",
+    "owner": "coreyhaines31",
+    "stars": 54287,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff",
+    "path": "skills/aso",
+    "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/aso",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-08T21:51:37Z",
+    "fileCount": 8,
+    "bytes": 62705,
+    "sha256": "681a8e3cb4ffe91bb8d68497726d9a708901c06a2a99e23a92684d53241fc02c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/aso/SKILL.md",
+      "bytes": 15947,
+      "sha256": "681a8e3cb4ffe91bb8d68497726d9a708901c06a2a99e23a92684d53241fc02c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/aso/SKILL.md"
+    },
+    {
+      "path": "evals/evals.json",
+      "sourcePath": "skills/aso/evals/evals.json",
+      "bytes": 8766,
+      "sha256": "9b665d9e1eea16e46591ee42790642c396a4e20fd61306ec3171f9083a87b4d0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/aso/evals/evals.json"
+    },
+    {
+      "path": "references/apple-specs.md",
+      "sourcePath": "skills/aso/references/apple-specs.md",
+      "bytes": 6089,
+      "sha256": "b2f9d3efc041624dd8f2392cad34533fa5f889a171957eb47000a6a057dcd13a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/aso/references/apple-specs.md"
+    },
+    {
+      "path": "references/benchmarks.md",
+      "sourcePath": "skills/aso/references/benchmarks.md",
+      "bytes": 5444,
+      "sha256": "64b33412338388f8d6b4cafc12a8547afff9d64ca37646a996cf1baecf54043c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/aso/references/benchmarks.md"
+    },
+    {
+      "path": "references/google-play-specs.md",
+      "sourcePath": "skills/aso/references/google-play-specs.md",
+      "bytes": 6599,
+      "sha256": "8a47707817aa40684f51ccc16e8b718ca6acaa27e3b1a00d2fdc21dd63b6ad9e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/aso/references/google-play-specs.md"
+    },
+    {
+      "path": "references/report-template.md",
+      "sourcePath": "skills/aso/references/report-template.md",
+      "bytes": 5124,
+      "sha256": "f67c8827c4600cb1e392c8cad05ed5740f9cd01321fd715a9e851e37ec0047b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/aso/references/report-template.md"
+    },
+    {
+      "path": "references/scoring-criteria.md",
+      "sourcePath": "skills/aso/references/scoring-criteria.md",
+      "bytes": 13667,
+      "sha256": "e821093e54db5b6f3eb9c932eef57ec47b6e0bb1aad2fe0ae6f524a217713591",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/aso/references/scoring-criteria.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"
+    }
+  ],
+  "archiveSha256": "981cacc9c79511c747c079f839ab81e60d50810a3db92cdc963b575abc8f87f6"
+}

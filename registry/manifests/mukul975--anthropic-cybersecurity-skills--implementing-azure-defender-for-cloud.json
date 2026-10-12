@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-azure-defender-for-cloud","name":"implementing-azure-defender-for-cloud","description":"Enable Microsoft Defender for Cloud (CSPM + CWPP) across VMs, containers, SQL, storage, and Key Vault, using Azure Policy for evaluation, Log Analytics for telemetry, Azure Arc for hybrid coverage, and Logic Apps for automated response. Use for Azure security monitoring, adaptive remediation, or regulatory compliance assessment; not for non-Azure-only protection or identity defense (Defender for Identity).","category":"Security","tags":["implementing","azure","defender","cloud","enable","microsoft","cspm","cwpp","across","vms","containers","sql","storage","key","vault","policy","evaluation","log"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-azure-defender-for-cloud/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-azure-defender-for-cloud","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-defender-for-cloud","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":32901,"sha256":"3d7d03a558b5050b856ec7e5485d4a5be6b7c5ecd12a7bd2be3dc42a2e8a8fee","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-azure-defender-for-cloud/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-defender-for-cloud/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-azure-defender-for-cloud/SKILL.md","bytes":12439,"sha256":"3d7d03a558b5050b856ec7e5485d4a5be6b7c5ecd12a7bd2be3dc42a2e8a8fee","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-defender-for-cloud/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-azure-defender-for-cloud/references/api-reference.md","bytes":2278,"sha256":"f36b9f0bbe7ba05efc888c50218a9834f9c81124ad6608e83b176cdf3170a094","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-defender-for-cloud/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-azure-defender-for-cloud/scripts/agent.py","bytes":6929,"sha256":"632f66664c313bf77bba9806ea9071d08c169a585918337bcd4142aec203e775","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-defender-for-cloud/scripts/agent.py"}],"archiveSha256":"ad6c40b761205837cce1e59bab34c8c9fb381d423516cb03d479c5c258bbf69a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-azure-defender-for-cloud",
+    "name": "implementing-azure-defender-for-cloud",
+    "description": "Enable Microsoft Defender for Cloud (CSPM + CWPP) across VMs, containers, SQL, storage, and Key Vault, using Azure Policy for evaluation, Log Analytics for telemetry, Azure Arc for hybrid coverage, and Logic Apps for automated response. Use for Azure security monitoring, adaptive remediation, or regulatory compliance assessment; not for non-Azure-only protection or identity defense (Defender for Identity).",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "azure",
+      "defender",
+      "cloud",
+      "enable",
+      "microsoft",
+      "cspm",
+      "cwpp",
+      "across",
+      "vms",
+      "containers",
+      "sql",
+      "storage",
+      "key",
+      "vault",
+      "policy",
+      "evaluation",
+      "log"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-azure-defender-for-cloud/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-azure-defender-for-cloud",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-defender-for-cloud",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32901,
+    "sha256": "3d7d03a558b5050b856ec7e5485d4a5be6b7c5ecd12a7bd2be3dc42a2e8a8fee",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-azure-defender-for-cloud/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-defender-for-cloud/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-azure-defender-for-cloud/SKILL.md",
+      "bytes": 12439,
+      "sha256": "3d7d03a558b5050b856ec7e5485d4a5be6b7c5ecd12a7bd2be3dc42a2e8a8fee",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-defender-for-cloud/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-azure-defender-for-cloud/references/api-reference.md",
+      "bytes": 2278,
+      "sha256": "f36b9f0bbe7ba05efc888c50218a9834f9c81124ad6608e83b176cdf3170a094",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-defender-for-cloud/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-azure-defender-for-cloud/scripts/agent.py",
+      "bytes": 6929,
+      "sha256": "632f66664c313bf77bba9806ea9071d08c169a585918337bcd4142aec203e775",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-defender-for-cloud/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "ad6c40b761205837cce1e59bab34c8c9fb381d423516cb03d479c5c258bbf69a"
+}

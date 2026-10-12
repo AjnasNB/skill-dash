@@ -1,1 +1,66 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--docs-as-marketing","name":"docs-as-marketing","description":"Transform documentation into a powerful marketing channel that attracts, converts, and retains developers.","category":"Marketing","tags":["docs","as","marketing","transform","documentation","into","powerful","channel","attracts","converts","retains","developers."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/docs-as-marketing","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docs-as-marketing","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":13670,"sha256":"bb33acf60b85c5732783c780077f736f0154778c0a8f238adee47db252d83144","historical":false},"files":[{"path":"README.md","sourcePath":"skills/docs-as-marketing/README.md","bytes":1438,"sha256":"050885eaa198da22ea536ac3eaf1ae03e22b307df10c88ef9e483cda298f0f31","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docs-as-marketing/README.md"},{"path":"SKILL.md","sourcePath":"skills/docs-as-marketing/SKILL.md","bytes":11159,"sha256":"bb33acf60b85c5732783c780077f736f0154778c0a8f238adee47db252d83144","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docs-as-marketing/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"178962023cd4aa72623cabf4e7b76f86984fab239e9b865881804f4a6459d57e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--docs-as-marketing",
+    "name": "docs-as-marketing",
+    "description": "Transform documentation into a powerful marketing channel that attracts, converts, and retains developers.",
+    "category": "Marketing",
+    "tags": [
+      "docs",
+      "as",
+      "marketing",
+      "transform",
+      "documentation",
+      "into",
+      "powerful",
+      "channel",
+      "attracts",
+      "converts",
+      "retains",
+      "developers."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/docs-as-marketing",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docs-as-marketing",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 13670,
+    "sha256": "bb33acf60b85c5732783c780077f736f0154778c0a8f238adee47db252d83144",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sourcePath": "skills/docs-as-marketing/README.md",
+      "bytes": 1438,
+      "sha256": "050885eaa198da22ea536ac3eaf1ae03e22b307df10c88ef9e483cda298f0f31",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docs-as-marketing/README.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/docs-as-marketing/SKILL.md",
+      "bytes": 11159,
+      "sha256": "bb33acf60b85c5732783c780077f736f0154778c0a8f238adee47db252d83144",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docs-as-marketing/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "178962023cd4aa72623cabf4e7b76f86984fab239e9b865881804f4a6459d57e"
+}

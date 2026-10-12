@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--hunting-for-supply-chain-compromise","name":"hunting-for-supply-chain-compromise","description":"Runs a hypothesis-driven threat hunt for supply-chain compromise (T1195) by querying SIEM/EDR logs for trojanized software updates, compromised dependencies, unauthorized code modifications, and tampered build artifacts. Use when hunting after threat intel flags a compromised vendor/dependency, scoping a build-pipeline compromise, or reviewing update/build integrity.","category":"Security","tags":["hunting","supply","chain","compromise","runs","hypothesis","driven","threat","hunt","t1195","by","querying","siem","edr","logs","trojanized","software","updates"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/hunting-for-supply-chain-compromise/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/hunting-for-supply-chain-compromise","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-supply-chain-compromise","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":34810,"sha256":"919a6211e1d03f8d6ddd1725d2d6433310a75d801a0f575e1dcaacd2f88dbac3","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/hunting-for-supply-chain-compromise/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-supply-chain-compromise/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/hunting-for-supply-chain-compromise/SKILL.md","bytes":3596,"sha256":"919a6211e1d03f8d6ddd1725d2d6433310a75d801a0f575e1dcaacd2f88dbac3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-supply-chain-compromise/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/hunting-for-supply-chain-compromise/assets/template.md","bytes":2678,"sha256":"b4739aec6b69f862f6606475d21261abe9132121bba7079f6a0a552fd9599ed7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-supply-chain-compromise/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/hunting-for-supply-chain-compromise/references/api-reference.md","bytes":1940,"sha256":"d4c4a9575788c9ebb353f42d73414d672f5d023febab4f50c32ede3cf5220e87","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-supply-chain-compromise/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/hunting-for-supply-chain-compromise/references/standards.md","bytes":1609,"sha256":"c547ff28f6710abeac3cb2e88b7a6ad015e78548c7d9e6d9d2a01473def49dd8","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-supply-chain-compromise/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/hunting-for-supply-chain-compromise/references/workflows.md","bytes":3043,"sha256":"4b360f26cbc981314d6eca66afb218f7771cd235d55ce2de1a6e749895ad6785","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-supply-chain-compromise/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/hunting-for-supply-chain-compromise/scripts/agent.py","bytes":7041,"sha256":"28ad65d7a3c3398564097437e4b81fb968b4e8ea0c37e5a23bb023e26282c06f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-supply-chain-compromise/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/hunting-for-supply-chain-compromise/scripts/process.py","bytes":3648,"sha256":"9fda8ff24a6bd53b978333704805b58b7caeddf6d1759b2e710d96312dcb3f33","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-supply-chain-compromise/scripts/process.py"}],"archiveSha256":"e9d88788b0a5b8e18248a9af18a9baf6d571363c84280da481a5385bb08c6c34"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-for-supply-chain-compromise",
+    "name": "hunting-for-supply-chain-compromise",
+    "description": "Runs a hypothesis-driven threat hunt for supply-chain compromise (T1195) by querying SIEM/EDR logs for trojanized software updates, compromised dependencies, unauthorized code modifications, and tampered build artifacts. Use when hunting after threat intel flags a compromised vendor/dependency, scoping a build-pipeline compromise, or reviewing update/build integrity.",
+    "category": "Security",
+    "tags": [
+      "hunting",
+      "supply",
+      "chain",
+      "compromise",
+      "runs",
+      "hypothesis",
+      "driven",
+      "threat",
+      "hunt",
+      "t1195",
+      "by",
+      "querying",
+      "siem",
+      "edr",
+      "logs",
+      "trojanized",
+      "software",
+      "updates"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-for-supply-chain-compromise/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-for-supply-chain-compromise",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-supply-chain-compromise",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 34810,
+    "sha256": "919a6211e1d03f8d6ddd1725d2d6433310a75d801a0f575e1dcaacd2f88dbac3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-for-supply-chain-compromise/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-supply-chain-compromise/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-for-supply-chain-compromise/SKILL.md",
+      "bytes": 3596,
+      "sha256": "919a6211e1d03f8d6ddd1725d2d6433310a75d801a0f575e1dcaacd2f88dbac3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-supply-chain-compromise/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/hunting-for-supply-chain-compromise/assets/template.md",
+      "bytes": 2678,
+      "sha256": "b4739aec6b69f862f6606475d21261abe9132121bba7079f6a0a552fd9599ed7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-supply-chain-compromise/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-for-supply-chain-compromise/references/api-reference.md",
+      "bytes": 1940,
+      "sha256": "d4c4a9575788c9ebb353f42d73414d672f5d023febab4f50c32ede3cf5220e87",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-supply-chain-compromise/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/hunting-for-supply-chain-compromise/references/standards.md",
+      "bytes": 1609,
+      "sha256": "c547ff28f6710abeac3cb2e88b7a6ad015e78548c7d9e6d9d2a01473def49dd8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-supply-chain-compromise/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/hunting-for-supply-chain-compromise/references/workflows.md",
+      "bytes": 3043,
+      "sha256": "4b360f26cbc981314d6eca66afb218f7771cd235d55ce2de1a6e749895ad6785",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-supply-chain-compromise/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-for-supply-chain-compromise/scripts/agent.py",
+      "bytes": 7041,
+      "sha256": "28ad65d7a3c3398564097437e4b81fb968b4e8ea0c37e5a23bb023e26282c06f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-supply-chain-compromise/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/hunting-for-supply-chain-compromise/scripts/process.py",
+      "bytes": 3648,
+      "sha256": "9fda8ff24a6bd53b978333704805b58b7caeddf6d1759b2e710d96312dcb3f33",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-supply-chain-compromise/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "e9d88788b0a5b8e18248a9af18a9baf6d571363c84280da481a5385bb08c6c34"
+}

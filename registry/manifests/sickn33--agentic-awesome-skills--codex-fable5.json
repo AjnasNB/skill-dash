@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--codex-fable5","name":"codex-fable5","description":"Apply Fable-inspired discipline to Codex work: inspect first, track goals and findings, ground conclusions in evidence, verify before completion, and adapt Claude/Fable prompt guidance without identity or provider claims.","category":"AI & agents","tags":["codex","fable5","apply","fable","inspired","discipline","work","inspect","first","track","goals","findings","ground","conclusions","evidence","verify","before","completion"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/codex-fable5","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/codex-fable5","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":8797,"sha256":"63ed22d4a7e008bc56d89a886c73e0106d44109920183778deef763df7f4cc74","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/codex-fable5/SKILL.md","bytes":7724,"sha256":"63ed22d4a7e008bc56d89a886c73e0106d44109920183778deef763df7f4cc74","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/codex-fable5/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"a21fb0897f2a855dcdf3c3296c3095b00e3ef9dd25e316854abd89e9d32946c5"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--codex-fable5",
+    "name": "codex-fable5",
+    "description": "Apply Fable-inspired discipline to Codex work: inspect first, track goals and findings, ground conclusions in evidence, verify before completion, and adapt Claude/Fable prompt guidance without identity or provider claims.",
+    "category": "AI & agents",
+    "tags": [
+      "codex",
+      "fable5",
+      "apply",
+      "fable",
+      "inspired",
+      "discipline",
+      "work",
+      "inspect",
+      "first",
+      "track",
+      "goals",
+      "findings",
+      "ground",
+      "conclusions",
+      "evidence",
+      "verify",
+      "before",
+      "completion"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/codex-fable5",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/codex-fable5",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 8797,
+    "sha256": "63ed22d4a7e008bc56d89a886c73e0106d44109920183778deef763df7f4cc74",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/codex-fable5/SKILL.md",
+      "bytes": 7724,
+      "sha256": "63ed22d4a7e008bc56d89a886c73e0106d44109920183778deef763df7f4cc74",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/codex-fable5/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "a21fb0897f2a855dcdf3c3296c3095b00e3ef9dd25e316854abd89e9d32946c5"
+}

@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-privacy-impact-assessment","name":"performing-privacy-impact-assessment","description":"Automates the Privacy Impact Assessment (PIA) workflow including data flow mapping, privacy risk scoring matrices, GDPR Article 35 DPIA and CCPA/CPRA alignment checks, data inventory cataloging, and remediation tracking. Implements the NIST Privacy Framework PRAM methodology and ICO DPIA guidance for systematic identification and mitigation of privacy risks across processing activities. Use when conducting privacy assessments for new systems, evaluating regulatory compliance posture, or building automated privacy governance programs.","category":"Automation","tags":["performing","privacy","impact","assessment","automates","pia","workflow","including","data","flow","mapping","risk","scoring","matrices","gdpr","article","35","dpia"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-privacy-impact-assessment/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-privacy-impact-assessment","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privacy-impact-assessment","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":93606,"sha256":"b906c778bad53bc8ca265385e195018c25686371b12f7c1d3a02aa5b0421befa","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-privacy-impact-assessment/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privacy-impact-assessment/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-privacy-impact-assessment/SKILL.md","bytes":10539,"sha256":"b906c778bad53bc8ca265385e195018c25686371b12f7c1d3a02aa5b0421befa","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privacy-impact-assessment/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-privacy-impact-assessment/references/api-reference.md","bytes":7597,"sha256":"ebe76d004a209d6ee51c6fdeb5f387bc20c32ba4e13e9c33ebeff31823b7ac78","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privacy-impact-assessment/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-privacy-impact-assessment/scripts/agent.py","bytes":64215,"sha256":"27d55a00c38c573441f50500a68a98da528102c33338e85935b1fbe36b668909","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privacy-impact-assessment/scripts/agent.py"}],"archiveSha256":"edd08f1501f0171a061609c9a187cf1c5186a81f6772b6c15791214db38d544f"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-privacy-impact-assessment",
+    "name": "performing-privacy-impact-assessment",
+    "description": "Automates the Privacy Impact Assessment (PIA) workflow including data flow mapping, privacy risk scoring matrices, GDPR Article 35 DPIA and CCPA/CPRA alignment checks, data inventory cataloging, and remediation tracking. Implements the NIST Privacy Framework PRAM methodology and ICO DPIA guidance for systematic identification and mitigation of privacy risks across processing activities. Use when conducting privacy assessments for new systems, evaluating regulatory compliance posture, or building automated privacy governance programs.",
+    "category": "Automation",
+    "tags": [
+      "performing",
+      "privacy",
+      "impact",
+      "assessment",
+      "automates",
+      "pia",
+      "workflow",
+      "including",
+      "data",
+      "flow",
+      "mapping",
+      "risk",
+      "scoring",
+      "matrices",
+      "gdpr",
+      "article",
+      "35",
+      "dpia"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-privacy-impact-assessment/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-privacy-impact-assessment",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privacy-impact-assessment",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 93606,
+    "sha256": "b906c778bad53bc8ca265385e195018c25686371b12f7c1d3a02aa5b0421befa",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-privacy-impact-assessment/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privacy-impact-assessment/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-privacy-impact-assessment/SKILL.md",
+      "bytes": 10539,
+      "sha256": "b906c778bad53bc8ca265385e195018c25686371b12f7c1d3a02aa5b0421befa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privacy-impact-assessment/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-privacy-impact-assessment/references/api-reference.md",
+      "bytes": 7597,
+      "sha256": "ebe76d004a209d6ee51c6fdeb5f387bc20c32ba4e13e9c33ebeff31823b7ac78",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privacy-impact-assessment/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-privacy-impact-assessment/scripts/agent.py",
+      "bytes": 64215,
+      "sha256": "27d55a00c38c573441f50500a68a98da528102c33338e85935b1fbe36b668909",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-privacy-impact-assessment/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "edd08f1501f0171a061609c9a187cf1c5186a81f6772b6c15791214db38d544f"
+}

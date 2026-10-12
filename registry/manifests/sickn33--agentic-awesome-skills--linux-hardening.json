@@ -1,1 +1,53 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--linux-hardening","name":"linux-hardening","description":"Apply CIS benchmarks and secure Linux servers.","category":"Development","tags":["linux","hardening","apply","cis","benchmarks","secure","servers."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/linux-hardening","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/linux-hardening","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4572,"sha256":"ca112a1dc931cf774205ed1b6b4f7f8318c573f81fa3aacaf130b7b313d925d6","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/linux-hardening/SKILL.md","bytes":3499,"sha256":"ca112a1dc931cf774205ed1b6b4f7f8318c573f81fa3aacaf130b7b313d925d6","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/linux-hardening/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"4681c05b7407c9348ee148512e2ea46b6a65113bdd9d32fa1b233cde63f1d977"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--linux-hardening",
+    "name": "linux-hardening",
+    "description": "Apply CIS benchmarks and secure Linux servers.",
+    "category": "Development",
+    "tags": [
+      "linux",
+      "hardening",
+      "apply",
+      "cis",
+      "benchmarks",
+      "secure",
+      "servers."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/linux-hardening",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/linux-hardening",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4572,
+    "sha256": "ca112a1dc931cf774205ed1b6b4f7f8318c573f81fa3aacaf130b7b313d925d6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/linux-hardening/SKILL.md",
+      "bytes": 3499,
+      "sha256": "ca112a1dc931cf774205ed1b6b4f7f8318c573f81fa3aacaf130b7b313d925d6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/linux-hardening/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "4681c05b7407c9348ee148512e2ea46b6a65113bdd9d32fa1b233cde63f1d977"
+}

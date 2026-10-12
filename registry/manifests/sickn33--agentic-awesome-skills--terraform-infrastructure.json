@@ -1,1 +1,60 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--terraform-infrastructure","name":"terraform-infrastructure","description":"Terraform infrastructure as code workflow for provisioning cloud resources, creating reusable modules, and managing infrastructure at scale.","category":"Cloud & DevOps","tags":["terraform","infrastructure","as","code","workflow","provisioning","cloud","resources","creating","reusable","modules","managing","at","scale."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/terraform-infrastructure","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/terraform-infrastructure","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4815,"sha256":"457d530e81474ff50f730636f0ceb342630410953838fd31616023a0e61c269d","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/terraform-infrastructure/SKILL.md","bytes":3742,"sha256":"457d530e81474ff50f730636f0ceb342630410953838fd31616023a0e61c269d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/terraform-infrastructure/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"cee20029b0e3043623b319dcd24d8142fdf05d41c74271749e036bbf7fd2393a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--terraform-infrastructure",
+    "name": "terraform-infrastructure",
+    "description": "Terraform infrastructure as code workflow for provisioning cloud resources, creating reusable modules, and managing infrastructure at scale.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "terraform",
+      "infrastructure",
+      "as",
+      "code",
+      "workflow",
+      "provisioning",
+      "cloud",
+      "resources",
+      "creating",
+      "reusable",
+      "modules",
+      "managing",
+      "at",
+      "scale."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/terraform-infrastructure",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/terraform-infrastructure",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4815,
+    "sha256": "457d530e81474ff50f730636f0ceb342630410953838fd31616023a0e61c269d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/terraform-infrastructure/SKILL.md",
+      "bytes": 3742,
+      "sha256": "457d530e81474ff50f730636f0ceb342630410953838fd31616023a0e61c269d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/terraform-infrastructure/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "cee20029b0e3043623b319dcd24d8142fdf05d41c74271749e036bbf7fd2393a"
+}

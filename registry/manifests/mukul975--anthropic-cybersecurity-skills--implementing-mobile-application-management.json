@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-mobile-application-management","name":"implementing-mobile-application-management","description":"Implements Mobile Application Management (MAM) policies to protect enterprise data on managed and unmanaged mobile devices through app-level controls including data loss prevention, selective wipe, app configuration, and containerization. Use when securing corporate apps on BYOD devices, implementing Intune App Protection Policies, or enforcing data separation between personal and work apps. Activates for requests involving MAM deployment, app protection policies, mobile containerization, or BYOD security.","category":"Security","tags":["implementing","mobile","application","management","implements","mam","policies","protect","enterprise","data","managed","unmanaged","devices","through","app","level","controls","including"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-mobile-application-management/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-mobile-application-management","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mobile-application-management","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":31178,"sha256":"8488dae72f10e2c885ff1ab702ce6b2dae008c2d8ea6a7ba41b7cd7d7b7fc7bc","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-mobile-application-management/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mobile-application-management/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-mobile-application-management/SKILL.md","bytes":6671,"sha256":"8488dae72f10e2c885ff1ab702ce6b2dae008c2d8ea6a7ba41b7cd7d7b7fc7bc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mobile-application-management/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-mobile-application-management/assets/template.md","bytes":628,"sha256":"473cf3559f5b8f2c825417c0e9dacba3e6b827636a8ee8b52a7bf79f72621fd0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mobile-application-management/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-mobile-application-management/references/api-reference.md","bytes":1310,"sha256":"65e2c22f02162e4c58d34e7921e9627081a9aab4ec5715a12acfa6124c5ad648","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mobile-application-management/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-mobile-application-management/references/standards.md","bytes":758,"sha256":"127403b349944735dd85ef1ddb745109b31ca6208be49d649e12808fe1795bc6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mobile-application-management/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-mobile-application-management/references/workflows.md","bytes":808,"sha256":"42c85df2f529af2103cffc561107d01fe85759807ff739cbc45327090ed44c20","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mobile-application-management/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-mobile-application-management/scripts/agent.py","bytes":5955,"sha256":"58884ea2c30007b27deda8937cb80cec6e6cad0ff401aea5e07ff3a71b8ad83b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mobile-application-management/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-mobile-application-management/scripts/process.py","bytes":3793,"sha256":"b14f6ec01bdc9f583e334962c8fc7c5ccd0ba138bb9bf389c855c94344ae171b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mobile-application-management/scripts/process.py"}],"archiveSha256":"78e895b6037c12b597397d226208349e9306937c4f69ef1d6373d4837f66eade"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-mobile-application-management",
+    "name": "implementing-mobile-application-management",
+    "description": "Implements Mobile Application Management (MAM) policies to protect enterprise data on managed and unmanaged mobile devices through app-level controls including data loss prevention, selective wipe, app configuration, and containerization. Use when securing corporate apps on BYOD devices, implementing Intune App Protection Policies, or enforcing data separation between personal and work apps. Activates for requests involving MAM deployment, app protection policies, mobile containerization, or BYOD security.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "mobile",
+      "application",
+      "management",
+      "implements",
+      "mam",
+      "policies",
+      "protect",
+      "enterprise",
+      "data",
+      "managed",
+      "unmanaged",
+      "devices",
+      "through",
+      "app",
+      "level",
+      "controls",
+      "including"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-mobile-application-management/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-mobile-application-management",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mobile-application-management",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 31178,
+    "sha256": "8488dae72f10e2c885ff1ab702ce6b2dae008c2d8ea6a7ba41b7cd7d7b7fc7bc",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-mobile-application-management/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mobile-application-management/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-mobile-application-management/SKILL.md",
+      "bytes": 6671,
+      "sha256": "8488dae72f10e2c885ff1ab702ce6b2dae008c2d8ea6a7ba41b7cd7d7b7fc7bc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mobile-application-management/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-mobile-application-management/assets/template.md",
+      "bytes": 628,
+      "sha256": "473cf3559f5b8f2c825417c0e9dacba3e6b827636a8ee8b52a7bf79f72621fd0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mobile-application-management/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-mobile-application-management/references/api-reference.md",
+      "bytes": 1310,
+      "sha256": "65e2c22f02162e4c58d34e7921e9627081a9aab4ec5715a12acfa6124c5ad648",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mobile-application-management/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-mobile-application-management/references/standards.md",
+      "bytes": 758,
+      "sha256": "127403b349944735dd85ef1ddb745109b31ca6208be49d649e12808fe1795bc6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mobile-application-management/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-mobile-application-management/references/workflows.md",
+      "bytes": 808,
+      "sha256": "42c85df2f529af2103cffc561107d01fe85759807ff739cbc45327090ed44c20",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mobile-application-management/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-mobile-application-management/scripts/agent.py",
+      "bytes": 5955,
+      "sha256": "58884ea2c30007b27deda8937cb80cec6e6cad0ff401aea5e07ff3a71b8ad83b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mobile-application-management/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-mobile-application-management/scripts/process.py",
+      "bytes": 3793,
+      "sha256": "b14f6ec01bdc9f583e334962c8fc7c5ccd0ba138bb9bf389c855c94344ae171b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mobile-application-management/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "78e895b6037c12b597397d226208349e9306937c4f69ef1d6373d4837f66eade"
+}

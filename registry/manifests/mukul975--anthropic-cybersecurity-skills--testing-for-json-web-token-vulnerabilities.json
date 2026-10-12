@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--testing-for-json-web-token-vulnerabilities","name":"testing-for-json-web-token-vulnerabilities","description":"Tests JWT implementations for algorithm confusion, \"none\" algorithm bypass, kid/jku parameter injection, and weak secret exploitation using jwt_tool and Burp Suite's JWT Editor extension, aiming to achieve authentication bypass and privilege escalation. Use when assessing JWT-based auth/session management, OAuth2/OIDC token handling, or SSO systems during a security engagement.","category":"Security","tags":["testing","json","web","token","vulnerabilities","tests","jwt","implementations","algorithm","confusion","none","bypass","kid","jku","parameter","injection","weak","secret"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/testing-for-json-web-token-vulnerabilities/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/testing-for-json-web-token-vulnerabilities","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-json-web-token-vulnerabilities","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":30257,"sha256":"980a30a4b83f2ca001d768a7da4fa7e51ec6acb8b4a74ce74c4250455f561da2","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/testing-for-json-web-token-vulnerabilities/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-json-web-token-vulnerabilities/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/testing-for-json-web-token-vulnerabilities/SKILL.md","bytes":8995,"sha256":"980a30a4b83f2ca001d768a7da4fa7e51ec6acb8b4a74ce74c4250455f561da2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-json-web-token-vulnerabilities/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/testing-for-json-web-token-vulnerabilities/references/api-reference.md","bytes":1944,"sha256":"bbf484ac67455911caaa57927d4d0339103222bb3b3d469ae703d88d8774d13d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-json-web-token-vulnerabilities/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/testing-for-json-web-token-vulnerabilities/scripts/agent.py","bytes":8063,"sha256":"657ddf3d243b60da0006d30a8d728afb59f5406c8749c74c53ba3be71099b0de","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-json-web-token-vulnerabilities/scripts/agent.py"}],"archiveSha256":"4db74454227a38c521f1194b82ec06f228c692fa8e80a31aaf6b52f7d95b0d82"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--testing-for-json-web-token-vulnerabilities",
+    "name": "testing-for-json-web-token-vulnerabilities",
+    "description": "Tests JWT implementations for algorithm confusion, \"none\" algorithm bypass, kid/jku parameter injection, and weak secret exploitation using jwt_tool and Burp Suite's JWT Editor extension, aiming to achieve authentication bypass and privilege escalation. Use when assessing JWT-based auth/session management, OAuth2/OIDC token handling, or SSO systems during a security engagement.",
+    "category": "Security",
+    "tags": [
+      "testing",
+      "json",
+      "web",
+      "token",
+      "vulnerabilities",
+      "tests",
+      "jwt",
+      "implementations",
+      "algorithm",
+      "confusion",
+      "none",
+      "bypass",
+      "kid",
+      "jku",
+      "parameter",
+      "injection",
+      "weak",
+      "secret"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/testing-for-json-web-token-vulnerabilities/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/testing-for-json-web-token-vulnerabilities",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-json-web-token-vulnerabilities",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 30257,
+    "sha256": "980a30a4b83f2ca001d768a7da4fa7e51ec6acb8b4a74ce74c4250455f561da2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/testing-for-json-web-token-vulnerabilities/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-json-web-token-vulnerabilities/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/testing-for-json-web-token-vulnerabilities/SKILL.md",
+      "bytes": 8995,
+      "sha256": "980a30a4b83f2ca001d768a7da4fa7e51ec6acb8b4a74ce74c4250455f561da2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-json-web-token-vulnerabilities/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/testing-for-json-web-token-vulnerabilities/references/api-reference.md",
+      "bytes": 1944,
+      "sha256": "bbf484ac67455911caaa57927d4d0339103222bb3b3d469ae703d88d8774d13d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-json-web-token-vulnerabilities/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/testing-for-json-web-token-vulnerabilities/scripts/agent.py",
+      "bytes": 8063,
+      "sha256": "657ddf3d243b60da0006d30a8d728afb59f5406c8749c74c53ba3be71099b0de",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-json-web-token-vulnerabilities/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "4db74454227a38c521f1194b82ec06f228c692fa8e80a31aaf6b52f7d95b0d82"
+}

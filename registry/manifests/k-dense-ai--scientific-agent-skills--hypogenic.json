@@ -1,1 +1,200 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--hypogenic","name":"hypogenic","description":"Plans and audits use of ChicagoHAI HypoGeniC/HypoRefine for LLM-assisted hypothesis generation from labeled text datasets. Use for the `hypogenic` package, its task configs, hypothesis banks, or HypoBench datasets—not for manual hypothesis formulation or scientific validation.","category":"Data & research","tags":["hypogenic","plans","audits","chicagohai","hyporefine","llm","assisted","hypothesis","generation","from","labeled","text","datasets.","package","its","task","configs","banks"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/hypogenic","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":19,"bytes":154244,"sha256":"8ad3f55669b7c5e8bbf1c70111259f2782fc26ec39826b011d51799de08b9da5","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/hypogenic/SKILL.md","bytes":14348,"sha256":"8ad3f55669b7c5e8bbf1c70111259f2782fc26ec39826b011d51799de08b9da5","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/SKILL.md"},{"path":"assets/dataset_manifest.example.json","sourcePath":"skills/hypogenic/assets/dataset_manifest.example.json","bytes":874,"sha256":"4fdf7409a5f33c9cbab66851e56e2e1a721b43b8aaeb10a7bd7683010eab8f31","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/assets/dataset_manifest.example.json"},{"path":"assets/result.example.json","sourcePath":"skills/hypogenic/assets/result.example.json","bytes":448,"sha256":"ed248d15d0064a22bfe817ffe1de8004d9d01786ea709b6271d61b7f65cb8442","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/assets/result.example.json"},{"path":"assets/run_config.example.json","sourcePath":"skills/hypogenic/assets/run_config.example.json","bytes":1227,"sha256":"7fb154ab7b0f27bbd6056d1ee6f3d8b3d27619989fb9368c9c60562f2fc670b8","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/assets/run_config.example.json"},{"path":"assets/task_config.example.yaml","sourcePath":"skills/hypogenic/assets/task_config.example.yaml","bytes":1325,"sha256":"aa0b4c0e73b6d3cf23ce1e52a1f97e8d938c0abef7d59abd653a41b9c42eb7b9","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/assets/task_config.example.yaml"},{"path":"references/configuration.md","sourcePath":"skills/hypogenic/references/configuration.md","bytes":5776,"sha256":"1e7cd949ed12b30fb8a78021c00098212245e8468f4441b8dd061cf85ddf41e2","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/references/configuration.md"},{"path":"references/datasets.md","sourcePath":"skills/hypogenic/references/datasets.md","bytes":6754,"sha256":"83594cb77958c8d6a8ac9888bf0df5b066ccd2c6069ae4f56dcdb3b20f056c27","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/references/datasets.md"},{"path":"references/evaluation.md","sourcePath":"skills/hypogenic/references/evaluation.md","bytes":5455,"sha256":"bf6c6cd962b31a91010264867540a50dd0b0d7e39f698362fd01cd3431611173","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/references/evaluation.md"},{"path":"references/security.md","sourcePath":"skills/hypogenic/references/security.md","bytes":7714,"sha256":"cb1017a77228b03996a3fad5bb532a9dcdad567c5bfe6fc00e44eb38a8d9cd49","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/references/security.md"},{"path":"references/sources.md","sourcePath":"skills/hypogenic/references/sources.md","bytes":8247,"sha256":"0c749e60f3355e705d2f7f0da0d5aff8ae173f3e3a997ae888b284cffa555164","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/references/sources.md"},{"path":"references/upstream.md","sourcePath":"skills/hypogenic/references/upstream.md","bytes":13554,"sha256":"1e5a7eee56cf7516b24f82586251f38e3554ca7c7c66ea5c41179c55357fa33f","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/references/upstream.md"},{"path":"scripts/__init__.py","sourcePath":"skills/hypogenic/scripts/__init__.py","bytes":64,"sha256":"1ed9e63a4d602a186d27f4aff40c1ab38e25ec8b971a4fa7731fdbae280eb2ca","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/scripts/__init__.py"},{"path":"scripts/_common.py","sourcePath":"skills/hypogenic/scripts/_common.py","bytes":45618,"sha256":"ef44228e0df7e94b12b17ac618206234318a9ada310ac3fc4953325d722195b8","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/scripts/_common.py"},{"path":"scripts/audit_dataset.py","sourcePath":"skills/hypogenic/scripts/audit_dataset.py","bytes":13671,"sha256":"ea75f16b3e4cc3d81b4700cfc18abbc0179d7fd0db57d1c9a37aca4d6b3a474d","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/scripts/audit_dataset.py"},{"path":"scripts/evaluate_local.py","sourcePath":"skills/hypogenic/scripts/evaluate_local.py","bytes":7925,"sha256":"eec40f9437eee0f318270ac6dc53c0eb051ad52dc6937cc9052d0e880f78ecf5","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/scripts/evaluate_local.py"},{"path":"scripts/inspect_outputs.py","sourcePath":"skills/hypogenic/scripts/inspect_outputs.py","bytes":5771,"sha256":"8440baa60fd5a3453f3dd5eb15f7ea082ce39d147c306514e2879cd099488449","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/scripts/inspect_outputs.py"},{"path":"scripts/plan_run.py","sourcePath":"skills/hypogenic/scripts/plan_run.py","bytes":8527,"sha256":"415528382cb6bb1d22647c5988f59c2392c2eb84121f6754cf179d116a6cc2c8","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/scripts/plan_run.py"},{"path":"scripts/validate_config.py","sourcePath":"skills/hypogenic/scripts/validate_config.py","bytes":5878,"sha256":"de14d532ae5d814d4f2240f11f73afc5996f9e4b84240eceea34dc8dfb11084a","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/scripts/validate_config.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"929d58db9f9ce6b78179c409c1f78449319fb075de817357bc0ada7d370f4f22"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--hypogenic",
+    "name": "hypogenic",
+    "description": "Plans and audits use of ChicagoHAI HypoGeniC/HypoRefine for LLM-assisted hypothesis generation from labeled text datasets. Use for the `hypogenic` package, its task configs, hypothesis banks, or HypoBench datasets—not for manual hypothesis formulation or scientific validation.",
+    "category": "Data & research",
+    "tags": [
+      "hypogenic",
+      "plans",
+      "audits",
+      "chicagohai",
+      "hyporefine",
+      "llm",
+      "assisted",
+      "hypothesis",
+      "generation",
+      "from",
+      "labeled",
+      "text",
+      "datasets.",
+      "package",
+      "its",
+      "task",
+      "configs",
+      "banks"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/hypogenic",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 19,
+    "bytes": 154244,
+    "sha256": "8ad3f55669b7c5e8bbf1c70111259f2782fc26ec39826b011d51799de08b9da5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hypogenic/SKILL.md",
+      "bytes": 14348,
+      "sha256": "8ad3f55669b7c5e8bbf1c70111259f2782fc26ec39826b011d51799de08b9da5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/SKILL.md"
+    },
+    {
+      "path": "assets/dataset_manifest.example.json",
+      "sourcePath": "skills/hypogenic/assets/dataset_manifest.example.json",
+      "bytes": 874,
+      "sha256": "4fdf7409a5f33c9cbab66851e56e2e1a721b43b8aaeb10a7bd7683010eab8f31",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/assets/dataset_manifest.example.json"
+    },
+    {
+      "path": "assets/result.example.json",
+      "sourcePath": "skills/hypogenic/assets/result.example.json",
+      "bytes": 448,
+      "sha256": "ed248d15d0064a22bfe817ffe1de8004d9d01786ea709b6271d61b7f65cb8442",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/assets/result.example.json"
+    },
+    {
+      "path": "assets/run_config.example.json",
+      "sourcePath": "skills/hypogenic/assets/run_config.example.json",
+      "bytes": 1227,
+      "sha256": "7fb154ab7b0f27bbd6056d1ee6f3d8b3d27619989fb9368c9c60562f2fc670b8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/assets/run_config.example.json"
+    },
+    {
+      "path": "assets/task_config.example.yaml",
+      "sourcePath": "skills/hypogenic/assets/task_config.example.yaml",
+      "bytes": 1325,
+      "sha256": "aa0b4c0e73b6d3cf23ce1e52a1f97e8d938c0abef7d59abd653a41b9c42eb7b9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/assets/task_config.example.yaml"
+    },
+    {
+      "path": "references/configuration.md",
+      "sourcePath": "skills/hypogenic/references/configuration.md",
+      "bytes": 5776,
+      "sha256": "1e7cd949ed12b30fb8a78021c00098212245e8468f4441b8dd061cf85ddf41e2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/references/configuration.md"
+    },
+    {
+      "path": "references/datasets.md",
+      "sourcePath": "skills/hypogenic/references/datasets.md",
+      "bytes": 6754,
+      "sha256": "83594cb77958c8d6a8ac9888bf0df5b066ccd2c6069ae4f56dcdb3b20f056c27",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/references/datasets.md"
+    },
+    {
+      "path": "references/evaluation.md",
+      "sourcePath": "skills/hypogenic/references/evaluation.md",
+      "bytes": 5455,
+      "sha256": "bf6c6cd962b31a91010264867540a50dd0b0d7e39f698362fd01cd3431611173",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/references/evaluation.md"
+    },
+    {
+      "path": "references/security.md",
+      "sourcePath": "skills/hypogenic/references/security.md",
+      "bytes": 7714,
+      "sha256": "cb1017a77228b03996a3fad5bb532a9dcdad567c5bfe6fc00e44eb38a8d9cd49",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/references/security.md"
+    },
+    {
+      "path": "references/sources.md",
+      "sourcePath": "skills/hypogenic/references/sources.md",
+      "bytes": 8247,
+      "sha256": "0c749e60f3355e705d2f7f0da0d5aff8ae173f3e3a997ae888b284cffa555164",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/references/sources.md"
+    },
+    {
+      "path": "references/upstream.md",
+      "sourcePath": "skills/hypogenic/references/upstream.md",
+      "bytes": 13554,
+      "sha256": "1e5a7eee56cf7516b24f82586251f38e3554ca7c7c66ea5c41179c55357fa33f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/references/upstream.md"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "sourcePath": "skills/hypogenic/scripts/__init__.py",
+      "bytes": 64,
+      "sha256": "1ed9e63a4d602a186d27f4aff40c1ab38e25ec8b971a4fa7731fdbae280eb2ca",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/scripts/__init__.py"
+    },
+    {
+      "path": "scripts/_common.py",
+      "sourcePath": "skills/hypogenic/scripts/_common.py",
+      "bytes": 45618,
+      "sha256": "ef44228e0df7e94b12b17ac618206234318a9ada310ac3fc4953325d722195b8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/scripts/_common.py"
+    },
+    {
+      "path": "scripts/audit_dataset.py",
+      "sourcePath": "skills/hypogenic/scripts/audit_dataset.py",
+      "bytes": 13671,
+      "sha256": "ea75f16b3e4cc3d81b4700cfc18abbc0179d7fd0db57d1c9a37aca4d6b3a474d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/scripts/audit_dataset.py"
+    },
+    {
+      "path": "scripts/evaluate_local.py",
+      "sourcePath": "skills/hypogenic/scripts/evaluate_local.py",
+      "bytes": 7925,
+      "sha256": "eec40f9437eee0f318270ac6dc53c0eb051ad52dc6937cc9052d0e880f78ecf5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/scripts/evaluate_local.py"
+    },
+    {
+      "path": "scripts/inspect_outputs.py",
+      "sourcePath": "skills/hypogenic/scripts/inspect_outputs.py",
+      "bytes": 5771,
+      "sha256": "8440baa60fd5a3453f3dd5eb15f7ea082ce39d147c306514e2879cd099488449",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/scripts/inspect_outputs.py"
+    },
+    {
+      "path": "scripts/plan_run.py",
+      "sourcePath": "skills/hypogenic/scripts/plan_run.py",
+      "bytes": 8527,
+      "sha256": "415528382cb6bb1d22647c5988f59c2392c2eb84121f6754cf179d116a6cc2c8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/scripts/plan_run.py"
+    },
+    {
+      "path": "scripts/validate_config.py",
+      "sourcePath": "skills/hypogenic/scripts/validate_config.py",
+      "bytes": 5878,
+      "sha256": "de14d532ae5d814d4f2240f11f73afc5996f9e4b84240eceea34dc8dfb11084a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/hypogenic/scripts/validate_config.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "929d58db9f9ce6b78179c409c1f78449319fb075de817357bc0ada7d370f4f22"
+}

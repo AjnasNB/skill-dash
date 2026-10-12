@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--tool-design","name":"tool-design","description":"Build tools that agents can use effectively, including architectural reduction patterns. Use when creating new tools for agent systems, debugging tool-related failures or misuse, or optimizing existing tool sets for better agent performance.","category":"Design","tags":["tool","design","tools","agents","effectively","including","architectural","reduction","patterns.","when","creating","new","agent","systems","debugging","related","failures","misuse"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/tool-design","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/tool-design","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":17135,"sha256":"8c291bb71cf261a1e6f3dd1eda47467fe8acd655b3fee7be2483ea38e58ea829","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/tool-design/SKILL.md","bytes":16062,"sha256":"8c291bb71cf261a1e6f3dd1eda47467fe8acd655b3fee7be2483ea38e58ea829","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/tool-design/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"5e92cb04fc48f42c9f0a8374ad31442227e3b4897364152878ad6f51c21c4c7c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--tool-design",
+    "name": "tool-design",
+    "description": "Build tools that agents can use effectively, including architectural reduction patterns. Use when creating new tools for agent systems, debugging tool-related failures or misuse, or optimizing existing tool sets for better agent performance.",
+    "category": "Design",
+    "tags": [
+      "tool",
+      "design",
+      "tools",
+      "agents",
+      "effectively",
+      "including",
+      "architectural",
+      "reduction",
+      "patterns.",
+      "when",
+      "creating",
+      "new",
+      "agent",
+      "systems",
+      "debugging",
+      "related",
+      "failures",
+      "misuse"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/tool-design",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/tool-design",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 17135,
+    "sha256": "8c291bb71cf261a1e6f3dd1eda47467fe8acd655b3fee7be2483ea38e58ea829",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/tool-design/SKILL.md",
+      "bytes": 16062,
+      "sha256": "8c291bb71cf261a1e6f3dd1eda47467fe8acd655b3fee7be2483ea38e58ea829",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/tool-design/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "5e92cb04fc48f42c9f0a8374ad31442227e3b4897364152878ad6f51c21c4c7c"
+}

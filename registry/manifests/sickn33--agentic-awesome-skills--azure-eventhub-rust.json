@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--azure-eventhub-rust","name":"azure-eventhub-rust","description":"Azure Event Hubs SDK for Rust. Use for sending and receiving events, streaming data ingestion.","category":"Cloud & DevOps","tags":["azure","eventhub","rust","event","hubs","sdk","rust.","sending","receiving","events","streaming","data","ingestion."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/azure-eventhub-rust","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-eventhub-rust","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4840,"sha256":"852751fe707e0d3faaa66bf7eddb7a220aa5beb2f8c551e4077baebc44c3fc56","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/azure-eventhub-rust/SKILL.md","bytes":3767,"sha256":"852751fe707e0d3faaa66bf7eddb7a220aa5beb2f8c551e4077baebc44c3fc56","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-eventhub-rust/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"bff6f37696f6c5dc164ea2b69a1e65b7a235efdcd59cc6a208a262353a905626"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--azure-eventhub-rust",
+    "name": "azure-eventhub-rust",
+    "description": "Azure Event Hubs SDK for Rust. Use for sending and receiving events, streaming data ingestion.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "azure",
+      "eventhub",
+      "rust",
+      "event",
+      "hubs",
+      "sdk",
+      "rust.",
+      "sending",
+      "receiving",
+      "events",
+      "streaming",
+      "data",
+      "ingestion."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/azure-eventhub-rust",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-eventhub-rust",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4840,
+    "sha256": "852751fe707e0d3faaa66bf7eddb7a220aa5beb2f8c551e4077baebc44c3fc56",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/azure-eventhub-rust/SKILL.md",
+      "bytes": 3767,
+      "sha256": "852751fe707e0d3faaa66bf7eddb7a220aa5beb2f8c551e4077baebc44c3fc56",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-eventhub-rust/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "bff6f37696f6c5dc164ea2b69a1e65b7a235efdcd59cc6a208a262353a905626"
+}

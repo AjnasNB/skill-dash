@@ -1,1 +1,96 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--commandcode-delegate","name":"commandcode-delegate","description":"Delegate coding tasks to the Command Code CLI (`cmd`) only when the user explicitly requests it, while the orchestrator retains review and landing responsibility.","category":"Development","tags":["commandcode","delegate","coding","tasks","command","code","cli","cmd","only","when","user","explicitly","requests","it","while","orchestrator","retains","review"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/commandcode-delegate","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/commandcode-delegate","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":6,"bytes":50940,"sha256":"a50e7a26d1e01bc43ff5e4a4ba57f9d81ee6d1f85d8c9355252e0d2f2b59b85f","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/commandcode-delegate/SKILL.md","bytes":11340,"sha256":"a50e7a26d1e01bc43ff5e4a4ba57f9d81ee6d1f85d8c9355252e0d2f2b59b85f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/commandcode-delegate/SKILL.md"},{"path":"references/dispatch-and-poll.md","sourcePath":"skills/commandcode-delegate/references/dispatch-and-poll.md","bytes":16456,"sha256":"64557fc3960c73472d00d8a1b2303ffaf952ab2004bda9c36ec9aa1ffc1d9194","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/commandcode-delegate/references/dispatch-and-poll.md"},{"path":"references/multi-task-queues.md","sourcePath":"skills/commandcode-delegate/references/multi-task-queues.md","bytes":4840,"sha256":"64bf6cc862d5eebc6347bb3b022c97e7742f461052d9d975fb9eabb22db69cc8","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/commandcode-delegate/references/multi-task-queues.md"},{"path":"references/review-and-land.md","sourcePath":"skills/commandcode-delegate/references/review-and-land.md","bytes":9632,"sha256":"d63db5ac1d77a8cf4eb9188b710d25ccad22d4499c287bedb898e7326619b0cd","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/commandcode-delegate/references/review-and-land.md"},{"path":"references/writing-the-brief.md","sourcePath":"skills/commandcode-delegate/references/writing-the-brief.md","bytes":7599,"sha256":"cdc977b3687bc75f34dc3dba446196c7b2c87b0e0bb53afb802d2e985d706df4","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/commandcode-delegate/references/writing-the-brief.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"3e41ea6648c174751e9148d383fb690bebe6063d8b43b817dea142315e9b2bb1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--commandcode-delegate",
+    "name": "commandcode-delegate",
+    "description": "Delegate coding tasks to the Command Code CLI (`cmd`) only when the user explicitly requests it, while the orchestrator retains review and landing responsibility.",
+    "category": "Development",
+    "tags": [
+      "commandcode",
+      "delegate",
+      "coding",
+      "tasks",
+      "command",
+      "code",
+      "cli",
+      "cmd",
+      "only",
+      "when",
+      "user",
+      "explicitly",
+      "requests",
+      "it",
+      "while",
+      "orchestrator",
+      "retains",
+      "review"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/commandcode-delegate",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/commandcode-delegate",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 6,
+    "bytes": 50940,
+    "sha256": "a50e7a26d1e01bc43ff5e4a4ba57f9d81ee6d1f85d8c9355252e0d2f2b59b85f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/commandcode-delegate/SKILL.md",
+      "bytes": 11340,
+      "sha256": "a50e7a26d1e01bc43ff5e4a4ba57f9d81ee6d1f85d8c9355252e0d2f2b59b85f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/commandcode-delegate/SKILL.md"
+    },
+    {
+      "path": "references/dispatch-and-poll.md",
+      "sourcePath": "skills/commandcode-delegate/references/dispatch-and-poll.md",
+      "bytes": 16456,
+      "sha256": "64557fc3960c73472d00d8a1b2303ffaf952ab2004bda9c36ec9aa1ffc1d9194",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/commandcode-delegate/references/dispatch-and-poll.md"
+    },
+    {
+      "path": "references/multi-task-queues.md",
+      "sourcePath": "skills/commandcode-delegate/references/multi-task-queues.md",
+      "bytes": 4840,
+      "sha256": "64bf6cc862d5eebc6347bb3b022c97e7742f461052d9d975fb9eabb22db69cc8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/commandcode-delegate/references/multi-task-queues.md"
+    },
+    {
+      "path": "references/review-and-land.md",
+      "sourcePath": "skills/commandcode-delegate/references/review-and-land.md",
+      "bytes": 9632,
+      "sha256": "d63db5ac1d77a8cf4eb9188b710d25ccad22d4499c287bedb898e7326619b0cd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/commandcode-delegate/references/review-and-land.md"
+    },
+    {
+      "path": "references/writing-the-brief.md",
+      "sourcePath": "skills/commandcode-delegate/references/writing-the-brief.md",
+      "bytes": 7599,
+      "sha256": "cdc977b3687bc75f34dc3dba446196c7b2c87b0e0bb53afb802d2e985d706df4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/commandcode-delegate/references/writing-the-brief.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "3e41ea6648c174751e9148d383fb690bebe6063d8b43b817dea142315e9b2bb1"
+}

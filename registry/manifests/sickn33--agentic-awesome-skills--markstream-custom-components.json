@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--markstream-custom-components","name":"markstream-custom-components","description":"Override Markstream node renderers and add trusted custom tags across Vue, React, Svelte, and Angular using scoped or renderer-local mappings.","category":"Development","tags":["markstream","custom","components","override","node","renderers","add","trusted","tags","across","vue","react","svelte","angular","scoped","renderer","local","mappings."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/markstream-custom-components","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/markstream-custom-components","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":4933,"sha256":"8653bae98579b9f56624f98691c161d5a813fb846348a4263e570ad7c5f44acb","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/markstream-custom-components/SKILL.md","bytes":3079,"sha256":"8653bae98579b9f56624f98691c161d5a813fb846348a4263e570ad7c5f44acb","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/markstream-custom-components/SKILL.md"},{"path":"references/patterns.md","sourcePath":"skills/markstream-custom-components/references/patterns.md","bytes":781,"sha256":"4ab240dd16d9a4521831dc2686015f48cc1ae02bdcebe3158199bc6564c5f1a9","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/markstream-custom-components/references/patterns.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"f75b1fda34c7fe4ad6be41b7b5be69ce148d69bc88c8639b80423606f72932f8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--markstream-custom-components",
+    "name": "markstream-custom-components",
+    "description": "Override Markstream node renderers and add trusted custom tags across Vue, React, Svelte, and Angular using scoped or renderer-local mappings.",
+    "category": "Development",
+    "tags": [
+      "markstream",
+      "custom",
+      "components",
+      "override",
+      "node",
+      "renderers",
+      "add",
+      "trusted",
+      "tags",
+      "across",
+      "vue",
+      "react",
+      "svelte",
+      "angular",
+      "scoped",
+      "renderer",
+      "local",
+      "mappings."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/markstream-custom-components",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/markstream-custom-components",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 4933,
+    "sha256": "8653bae98579b9f56624f98691c161d5a813fb846348a4263e570ad7c5f44acb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/markstream-custom-components/SKILL.md",
+      "bytes": 3079,
+      "sha256": "8653bae98579b9f56624f98691c161d5a813fb846348a4263e570ad7c5f44acb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/markstream-custom-components/SKILL.md"
+    },
+    {
+      "path": "references/patterns.md",
+      "sourcePath": "skills/markstream-custom-components/references/patterns.md",
+      "bytes": 781,
+      "sha256": "4ab240dd16d9a4521831dc2686015f48cc1ae02bdcebe3158199bc6564c5f1a9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/markstream-custom-components/references/patterns.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "f75b1fda34c7fe4ad6be41b7b5be69ce148d69bc88c8639b80423606f72932f8"
+}

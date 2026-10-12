@@ -1,1 +1,60 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--mise-configurator","name":"mise-configurator","description":"Generate production-ready mise.toml setups for local development, CI/CD pipelines, and toolchain standardization.","category":"Cloud & DevOps","tags":["mise","configurator","generate","production","ready","mise.toml","setups","local","development","ci","cd","pipelines","toolchain","standardization."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/mise-configurator","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mise-configurator","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5114,"sha256":"2b1898e86abd3c81bc4f869cdac2ee250d8bf2ad99d399c06a3ca54ae7b1bcc6","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/mise-configurator/SKILL.md","bytes":4041,"sha256":"2b1898e86abd3c81bc4f869cdac2ee250d8bf2ad99d399c06a3ca54ae7b1bcc6","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mise-configurator/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"973fbb7109b243fed6ece317ca07ead4057ec9165e1318abd88b5ce72530852a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--mise-configurator",
+    "name": "mise-configurator",
+    "description": "Generate production-ready mise.toml setups for local development, CI/CD pipelines, and toolchain standardization.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "mise",
+      "configurator",
+      "generate",
+      "production",
+      "ready",
+      "mise.toml",
+      "setups",
+      "local",
+      "development",
+      "ci",
+      "cd",
+      "pipelines",
+      "toolchain",
+      "standardization."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/mise-configurator",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mise-configurator",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5114,
+    "sha256": "2b1898e86abd3c81bc4f869cdac2ee250d8bf2ad99d399c06a3ca54ae7b1bcc6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/mise-configurator/SKILL.md",
+      "bytes": 4041,
+      "sha256": "2b1898e86abd3c81bc4f869cdac2ee250d8bf2ad99d399c06a3ca54ae7b1bcc6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/mise-configurator/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "973fbb7109b243fed6ece317ca07ead4057ec9165e1318abd88b5ce72530852a"
+}

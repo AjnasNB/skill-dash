@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-log-source-onboarding-in-siem","name":"performing-log-source-onboarding-in-siem","description":"Perform structured log source onboarding into SIEM platforms (Splunk, Elastic, Sentinel, QRadar, or similar) by prioritizing sources with a tiered value framework, configuring collectors, building parsers, normalizing fields to a common schema (e.g. CIM), and validating data quality. Use when planning or executing the integration of new log sources — such as Active Directory, firewalls, EDR, VPN, DNS, or cloud audit logs — into a SIEM for security monitoring and detection.","category":"Security","tags":["performing","log","source","onboarding","siem","perform","structured","into","platforms","splunk","elastic","sentinel","qradar","similar","by","prioritizing","sources","tiered"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-log-source-onboarding-in-siem/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-log-source-onboarding-in-siem","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-source-onboarding-in-siem","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":42207,"sha256":"72a5f66b3824857fb8896a87c96c868c2f17e0484a7e2db1e36f1dfdaae6a640","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-log-source-onboarding-in-siem/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-source-onboarding-in-siem/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-log-source-onboarding-in-siem/SKILL.md","bytes":9705,"sha256":"72a5f66b3824857fb8896a87c96c868c2f17e0484a7e2db1e36f1dfdaae6a640","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-source-onboarding-in-siem/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/performing-log-source-onboarding-in-siem/assets/template.md","bytes":1120,"sha256":"001117d50d0dd9f3fb05f9b8dc99c185b2e5ddb21e232762f78b877cfa64a40c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-source-onboarding-in-siem/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-log-source-onboarding-in-siem/references/api-reference.md","bytes":1593,"sha256":"81d7f954ddb88ccbab7002f306a03e19c6b8491c3b5126ce8569805532fd317f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-source-onboarding-in-siem/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/performing-log-source-onboarding-in-siem/references/standards.md","bytes":1253,"sha256":"c00d5968c1349aabc13c1dac73cf850c2ea9a7819cad9186febecb888abc3404","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-source-onboarding-in-siem/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/performing-log-source-onboarding-in-siem/references/workflows.md","bytes":1366,"sha256":"57c8e38aceddf2bfaaca6e313dc12e5568abe864ad48908deeefd31c6e723639","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-source-onboarding-in-siem/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-log-source-onboarding-in-siem/scripts/agent.py","bytes":7811,"sha256":"7d6e2f19401698977175b931725f1689f23b1dad29715cc0d6ac2e0523635ac6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-source-onboarding-in-siem/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/performing-log-source-onboarding-in-siem/scripts/process.py","bytes":8104,"sha256":"91a7cdba867c193d253cd7bdc1c27177fe4d2239878fea3473049f53b2e09675","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-source-onboarding-in-siem/scripts/process.py"}],"archiveSha256":"71b6904caef3c71b69ab827b53463a53ca5582ff326d21994a0a5745a7026759"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-log-source-onboarding-in-siem",
+    "name": "performing-log-source-onboarding-in-siem",
+    "description": "Perform structured log source onboarding into SIEM platforms (Splunk, Elastic, Sentinel, QRadar, or similar) by prioritizing sources with a tiered value framework, configuring collectors, building parsers, normalizing fields to a common schema (e.g. CIM), and validating data quality. Use when planning or executing the integration of new log sources — such as Active Directory, firewalls, EDR, VPN, DNS, or cloud audit logs — into a SIEM for security monitoring and detection.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "log",
+      "source",
+      "onboarding",
+      "siem",
+      "perform",
+      "structured",
+      "into",
+      "platforms",
+      "splunk",
+      "elastic",
+      "sentinel",
+      "qradar",
+      "similar",
+      "by",
+      "prioritizing",
+      "sources",
+      "tiered"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-log-source-onboarding-in-siem/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-log-source-onboarding-in-siem",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-source-onboarding-in-siem",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 42207,
+    "sha256": "72a5f66b3824857fb8896a87c96c868c2f17e0484a7e2db1e36f1dfdaae6a640",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-log-source-onboarding-in-siem/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-source-onboarding-in-siem/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-log-source-onboarding-in-siem/SKILL.md",
+      "bytes": 9705,
+      "sha256": "72a5f66b3824857fb8896a87c96c868c2f17e0484a7e2db1e36f1dfdaae6a640",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-source-onboarding-in-siem/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-log-source-onboarding-in-siem/assets/template.md",
+      "bytes": 1120,
+      "sha256": "001117d50d0dd9f3fb05f9b8dc99c185b2e5ddb21e232762f78b877cfa64a40c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-source-onboarding-in-siem/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-log-source-onboarding-in-siem/references/api-reference.md",
+      "bytes": 1593,
+      "sha256": "81d7f954ddb88ccbab7002f306a03e19c6b8491c3b5126ce8569805532fd317f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-source-onboarding-in-siem/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-log-source-onboarding-in-siem/references/standards.md",
+      "bytes": 1253,
+      "sha256": "c00d5968c1349aabc13c1dac73cf850c2ea9a7819cad9186febecb888abc3404",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-source-onboarding-in-siem/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-log-source-onboarding-in-siem/references/workflows.md",
+      "bytes": 1366,
+      "sha256": "57c8e38aceddf2bfaaca6e313dc12e5568abe864ad48908deeefd31c6e723639",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-source-onboarding-in-siem/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-log-source-onboarding-in-siem/scripts/agent.py",
+      "bytes": 7811,
+      "sha256": "7d6e2f19401698977175b931725f1689f23b1dad29715cc0d6ac2e0523635ac6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-source-onboarding-in-siem/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-log-source-onboarding-in-siem/scripts/process.py",
+      "bytes": 8104,
+      "sha256": "91a7cdba867c193d253cd7bdc1c27177fe4d2239878fea3473049f53b2e09675",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-source-onboarding-in-siem/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "71b6904caef3c71b69ab827b53463a53ca5582ff326d21994a0a5745a7026759"
+}

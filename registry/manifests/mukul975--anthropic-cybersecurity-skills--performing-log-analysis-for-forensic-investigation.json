@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-log-analysis-for-forensic-investigation","name":"performing-log-analysis-for-forensic-investigation","description":"Collect, parse, and correlate system, application, and security logs to reconstruct events and establish timelines during forensic investigations.","category":"Security","tags":["performing","log","analysis","forensic","investigation","collect","parse","correlate","system","application","security","logs","reconstruct","events","establish","timelines","during","investigations."],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-log-analysis-for-forensic-investigation/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-log-analysis-for-forensic-investigation","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-analysis-for-forensic-investigation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":34290,"sha256":"c1fb803d59459420b88eafa3e4231567608092084f732e280613e3fc9b61aa5e","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-log-analysis-for-forensic-investigation/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-analysis-for-forensic-investigation/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-log-analysis-for-forensic-investigation/SKILL.md","bytes":12626,"sha256":"c1fb803d59459420b88eafa3e4231567608092084f732e280613e3fc9b61aa5e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-analysis-for-forensic-investigation/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-log-analysis-for-forensic-investigation/references/api-reference.md","bytes":1861,"sha256":"9bdf1173d84960a7077cdd32dc5ab1067a3eec697b2b21ef1275ebc10c61a789","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-analysis-for-forensic-investigation/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-log-analysis-for-forensic-investigation/scripts/agent.py","bytes":8548,"sha256":"b320e2da8849d29b1add206a5568b96aea03c06a2e7e94351e986a9f9cd909f8","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-analysis-for-forensic-investigation/scripts/agent.py"}],"archiveSha256":"4bfc521724dbe5ef940ecda8ba6b7fbf2f68fdde833552a88309b7ad25263649"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-log-analysis-for-forensic-investigation",
+    "name": "performing-log-analysis-for-forensic-investigation",
+    "description": "Collect, parse, and correlate system, application, and security logs to reconstruct events and establish timelines during forensic investigations.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "log",
+      "analysis",
+      "forensic",
+      "investigation",
+      "collect",
+      "parse",
+      "correlate",
+      "system",
+      "application",
+      "security",
+      "logs",
+      "reconstruct",
+      "events",
+      "establish",
+      "timelines",
+      "during",
+      "investigations."
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-log-analysis-for-forensic-investigation/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-log-analysis-for-forensic-investigation",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-analysis-for-forensic-investigation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34290,
+    "sha256": "c1fb803d59459420b88eafa3e4231567608092084f732e280613e3fc9b61aa5e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-log-analysis-for-forensic-investigation/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-analysis-for-forensic-investigation/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-log-analysis-for-forensic-investigation/SKILL.md",
+      "bytes": 12626,
+      "sha256": "c1fb803d59459420b88eafa3e4231567608092084f732e280613e3fc9b61aa5e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-analysis-for-forensic-investigation/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-log-analysis-for-forensic-investigation/references/api-reference.md",
+      "bytes": 1861,
+      "sha256": "9bdf1173d84960a7077cdd32dc5ab1067a3eec697b2b21ef1275ebc10c61a789",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-analysis-for-forensic-investigation/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-log-analysis-for-forensic-investigation/scripts/agent.py",
+      "bytes": 8548,
+      "sha256": "b320e2da8849d29b1add206a5568b96aea03c06a2e7e94351e986a9f9cd909f8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-log-analysis-for-forensic-investigation/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "4bfc521724dbe5ef940ecda8ba6b7fbf2f68fdde833552a88309b7ad25263649"
+}

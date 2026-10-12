@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--enhance-prompt","name":"enhance-prompt","description":"Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results.","category":"Design","tags":["enhance","prompt","transforms","vague","ui","ideas","into","polished","stitch","optimized","prompts.","enhances","specificity","adds","ux","keywords","injects","design"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/enhance-prompt","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/enhance-prompt","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":8090,"sha256":"06df2f4c144182b292ce461281da5912537635bac26de9eb1a91d71702d17689","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/enhance-prompt/SKILL.md","bytes":7017,"sha256":"06df2f4c144182b292ce461281da5912537635bac26de9eb1a91d71702d17689","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/enhance-prompt/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"d5f66f8b0d79dda8228e279fdd024d2d6357251056308e44617119c55f15697a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--enhance-prompt",
+    "name": "enhance-prompt",
+    "description": "Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results.",
+    "category": "Design",
+    "tags": [
+      "enhance",
+      "prompt",
+      "transforms",
+      "vague",
+      "ui",
+      "ideas",
+      "into",
+      "polished",
+      "stitch",
+      "optimized",
+      "prompts.",
+      "enhances",
+      "specificity",
+      "adds",
+      "ux",
+      "keywords",
+      "injects",
+      "design"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/enhance-prompt",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/enhance-prompt",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 8090,
+    "sha256": "06df2f4c144182b292ce461281da5912537635bac26de9eb1a91d71702d17689",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/enhance-prompt/SKILL.md",
+      "bytes": 7017,
+      "sha256": "06df2f4c144182b292ce461281da5912537635bac26de9eb1a91d71702d17689",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/enhance-prompt/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "d5f66f8b0d79dda8228e279fdd024d2d6357251056308e44617119c55f15697a"
+}

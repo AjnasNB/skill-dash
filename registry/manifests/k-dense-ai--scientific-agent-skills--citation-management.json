@@ -1,1 +1,232 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--citation-management","name":"citation-management","description":"Comprehensive citation management for academic research. Search OpenAlex, PubMed, and Google Scholar for papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX entries. This skill should be used when you need to find papers, verify citation information, convert DOIs to BibTeX, or ensure reference accuracy in scientific writing.","category":"Data & research","tags":["citation","management","comprehensive","academic","research.","search","openalex","pubmed","google","scholar","papers","extract","accurate","metadata","validate","citations","generate","properly"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/citation-management","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":23,"bytes":301032,"sha256":"dc79fe1e8438dcf598040615d5323360c6a7ed0b868fc3ffc82512c871a1e3ff","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/citation-management/SKILL.md","bytes":16630,"sha256":"dc79fe1e8438dcf598040615d5323360c6a7ed0b868fc3ffc82512c871a1e3ff","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/SKILL.md"},{"path":"assets/bibtex_template.bib","sourcePath":"skills/citation-management/assets/bibtex_template.bib","bytes":9305,"sha256":"08e21647fa68cad1aa1658264798c7d24775ba89bfbd2723ea6bfe4b562e2be1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/assets/bibtex_template.bib"},{"path":"assets/citation_checklist.md","sourcePath":"skills/citation-management/assets/citation_checklist.md","bytes":10434,"sha256":"ce7317f2983f8b7fd02949aad726ebd6188319c7e57c929fffe689d5ae18ce36","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/assets/citation_checklist.md"},{"path":"references/api_contracts.md","sourcePath":"skills/citation-management/references/api_contracts.md","bytes":6712,"sha256":"3e82a14f77133a215831d2627b65c93199589782f6907fc42af3c75f2ab3c5a8","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/api_contracts.md"},{"path":"references/best_practices.md","sourcePath":"skills/citation-management/references/best_practices.md","bytes":2723,"sha256":"df90d19c8f639590a6a430a889160b478dce61f4a5c0a5a36df5ab1be749b6b1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/best_practices.md"},{"path":"references/bibtex_formatting.md","sourcePath":"skills/citation-management/references/bibtex_formatting.md","bytes":19394,"sha256":"6337a8d2b87de96bf0f72c076feb0fc5d61ed9c342d9c8f19b3633efbfec6fed","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/bibtex_formatting.md"},{"path":"references/citation_validation.md","sourcePath":"skills/citation-management/references/citation_validation.md","bytes":18996,"sha256":"f235f82e02db282f0abdd23fd8d2973d870d427d355979e869f736259ba95774","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/citation_validation.md"},{"path":"references/core_workflow.md","sourcePath":"skills/citation-management/references/core_workflow.md","bytes":20986,"sha256":"19e8b52c43f5822163c79904236016616dc4515d21a01d29073d968c9251af8d","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/core_workflow.md"},{"path":"references/example_workflows.md","sourcePath":"skills/citation-management/references/example_workflows.md","bytes":3382,"sha256":"01c0a15e08e8115e10a07623f63565d119812fd2bb68c669eac413db2f9cd482","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/example_workflows.md"},{"path":"references/google_scholar_search.md","sourcePath":"skills/citation-management/references/google_scholar_search.md","bytes":17993,"sha256":"5b705ec8d6276ef83b819b737ed10bd991815ccb413de27e046b7bfdf4da8399","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/google_scholar_search.md"},{"path":"references/metadata_extraction.md","sourcePath":"skills/citation-management/references/metadata_extraction.md","bytes":21419,"sha256":"68c27886aff0d4efbf3a6f7e0a318dedd706d4cfd0f55dd859466de36ed78d46","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/metadata_extraction.md"},{"path":"references/pubmed_search.md","sourcePath":"skills/citation-management/references/pubmed_search.md","bytes":19233,"sha256":"fab82cda700a0dfc6dccc9465c9cc60b9df68cb58d0bec9abe7b2d8748a49cd1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/pubmed_search.md"},{"path":"references/script_reference.md","sourcePath":"skills/citation-management/references/script_reference.md","bytes":7536,"sha256":"bd23683cb3a7edb932fc5a13bb9215969a834a778a8765eea82553bf1b8b3417","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/script_reference.md"},{"path":"references/search_strategies.md","sourcePath":"skills/citation-management/references/search_strategies.md","bytes":2727,"sha256":"776c0dd1cbaf0432004ae80273640ff324b570401c569413c674829436385c85","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/search_strategies.md"},{"path":"scripts/_common.py","sourcePath":"skills/citation-management/scripts/_common.py","bytes":10912,"sha256":"87540160163671b972c2fccb4d0a42db3cca2603c664d26d5da3ca5dbc7dfdd2","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/scripts/_common.py"},{"path":"scripts/doi_to_bibtex.py","sourcePath":"skills/citation-management/scripts/doi_to_bibtex.py","bytes":6783,"sha256":"1b7d1ab2e8bf9bcf5a7d49bf45496e0f8b7d8e0d0cda8efd8fce4e527082dc4b","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/scripts/doi_to_bibtex.py"},{"path":"scripts/extract_metadata.py","sourcePath":"skills/citation-management/scripts/extract_metadata.py","bytes":29650,"sha256":"bebc7835b5e659cdeee0087980e881635894330bac5eda4ce01f490fd41df781","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/scripts/extract_metadata.py"},{"path":"scripts/format_bibtex.py","sourcePath":"skills/citation-management/scripts/format_bibtex.py","bytes":11075,"sha256":"cc74fdc4d5819df8db3999e59f96469cebfb353ecf406a49a5a0fc60896707cb","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/scripts/format_bibtex.py"},{"path":"scripts/search_google_scholar.py","sourcePath":"skills/citation-management/scripts/search_google_scholar.py","bytes":8746,"sha256":"05cfd67aea6475029d017f1b4ff68e7ba727e1fa9b52f1e614c80287940b4985","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/scripts/search_google_scholar.py"},{"path":"scripts/search_openalex.py","sourcePath":"skills/citation-management/scripts/search_openalex.py","bytes":12055,"sha256":"538b2f086625fd1e9a2cb2fe8bd46ee852d888f17d2d1e889b8f50592594f693","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/scripts/search_openalex.py"},{"path":"scripts/search_pubmed.py","sourcePath":"skills/citation-management/scripts/search_pubmed.py","bytes":14912,"sha256":"4543b74bf773747bae47a2bbb18acf2a4a050071119d88d1711db6049d157116","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/scripts/search_pubmed.py"},{"path":"scripts/validate_citations.py","sourcePath":"skills/citation-management/scripts/validate_citations.py","bytes":28361,"sha256":"a08e8e0774287e9aca2bd87c3a66cd3dfc751018eafb6cdee37987e3f416d2b5","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/scripts/validate_citations.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"e9ce37c7308251fae17e9abbd6b302ecc5a5393c833b591aa40b35680d26c7f0"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--citation-management",
+    "name": "citation-management",
+    "description": "Comprehensive citation management for academic research. Search OpenAlex, PubMed, and Google Scholar for papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX entries. This skill should be used when you need to find papers, verify citation information, convert DOIs to BibTeX, or ensure reference accuracy in scientific writing.",
+    "category": "Data & research",
+    "tags": [
+      "citation",
+      "management",
+      "comprehensive",
+      "academic",
+      "research.",
+      "search",
+      "openalex",
+      "pubmed",
+      "google",
+      "scholar",
+      "papers",
+      "extract",
+      "accurate",
+      "metadata",
+      "validate",
+      "citations",
+      "generate",
+      "properly"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/citation-management",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 23,
+    "bytes": 301032,
+    "sha256": "dc79fe1e8438dcf598040615d5323360c6a7ed0b868fc3ffc82512c871a1e3ff",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/citation-management/SKILL.md",
+      "bytes": 16630,
+      "sha256": "dc79fe1e8438dcf598040615d5323360c6a7ed0b868fc3ffc82512c871a1e3ff",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/SKILL.md"
+    },
+    {
+      "path": "assets/bibtex_template.bib",
+      "sourcePath": "skills/citation-management/assets/bibtex_template.bib",
+      "bytes": 9305,
+      "sha256": "08e21647fa68cad1aa1658264798c7d24775ba89bfbd2723ea6bfe4b562e2be1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/assets/bibtex_template.bib"
+    },
+    {
+      "path": "assets/citation_checklist.md",
+      "sourcePath": "skills/citation-management/assets/citation_checklist.md",
+      "bytes": 10434,
+      "sha256": "ce7317f2983f8b7fd02949aad726ebd6188319c7e57c929fffe689d5ae18ce36",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/assets/citation_checklist.md"
+    },
+    {
+      "path": "references/api_contracts.md",
+      "sourcePath": "skills/citation-management/references/api_contracts.md",
+      "bytes": 6712,
+      "sha256": "3e82a14f77133a215831d2627b65c93199589782f6907fc42af3c75f2ab3c5a8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/api_contracts.md"
+    },
+    {
+      "path": "references/best_practices.md",
+      "sourcePath": "skills/citation-management/references/best_practices.md",
+      "bytes": 2723,
+      "sha256": "df90d19c8f639590a6a430a889160b478dce61f4a5c0a5a36df5ab1be749b6b1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/best_practices.md"
+    },
+    {
+      "path": "references/bibtex_formatting.md",
+      "sourcePath": "skills/citation-management/references/bibtex_formatting.md",
+      "bytes": 19394,
+      "sha256": "6337a8d2b87de96bf0f72c076feb0fc5d61ed9c342d9c8f19b3633efbfec6fed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/bibtex_formatting.md"
+    },
+    {
+      "path": "references/citation_validation.md",
+      "sourcePath": "skills/citation-management/references/citation_validation.md",
+      "bytes": 18996,
+      "sha256": "f235f82e02db282f0abdd23fd8d2973d870d427d355979e869f736259ba95774",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/citation_validation.md"
+    },
+    {
+      "path": "references/core_workflow.md",
+      "sourcePath": "skills/citation-management/references/core_workflow.md",
+      "bytes": 20986,
+      "sha256": "19e8b52c43f5822163c79904236016616dc4515d21a01d29073d968c9251af8d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/core_workflow.md"
+    },
+    {
+      "path": "references/example_workflows.md",
+      "sourcePath": "skills/citation-management/references/example_workflows.md",
+      "bytes": 3382,
+      "sha256": "01c0a15e08e8115e10a07623f63565d119812fd2bb68c669eac413db2f9cd482",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/example_workflows.md"
+    },
+    {
+      "path": "references/google_scholar_search.md",
+      "sourcePath": "skills/citation-management/references/google_scholar_search.md",
+      "bytes": 17993,
+      "sha256": "5b705ec8d6276ef83b819b737ed10bd991815ccb413de27e046b7bfdf4da8399",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/google_scholar_search.md"
+    },
+    {
+      "path": "references/metadata_extraction.md",
+      "sourcePath": "skills/citation-management/references/metadata_extraction.md",
+      "bytes": 21419,
+      "sha256": "68c27886aff0d4efbf3a6f7e0a318dedd706d4cfd0f55dd859466de36ed78d46",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/metadata_extraction.md"
+    },
+    {
+      "path": "references/pubmed_search.md",
+      "sourcePath": "skills/citation-management/references/pubmed_search.md",
+      "bytes": 19233,
+      "sha256": "fab82cda700a0dfc6dccc9465c9cc60b9df68cb58d0bec9abe7b2d8748a49cd1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/pubmed_search.md"
+    },
+    {
+      "path": "references/script_reference.md",
+      "sourcePath": "skills/citation-management/references/script_reference.md",
+      "bytes": 7536,
+      "sha256": "bd23683cb3a7edb932fc5a13bb9215969a834a778a8765eea82553bf1b8b3417",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/script_reference.md"
+    },
+    {
+      "path": "references/search_strategies.md",
+      "sourcePath": "skills/citation-management/references/search_strategies.md",
+      "bytes": 2727,
+      "sha256": "776c0dd1cbaf0432004ae80273640ff324b570401c569413c674829436385c85",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/references/search_strategies.md"
+    },
+    {
+      "path": "scripts/_common.py",
+      "sourcePath": "skills/citation-management/scripts/_common.py",
+      "bytes": 10912,
+      "sha256": "87540160163671b972c2fccb4d0a42db3cca2603c664d26d5da3ca5dbc7dfdd2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/scripts/_common.py"
+    },
+    {
+      "path": "scripts/doi_to_bibtex.py",
+      "sourcePath": "skills/citation-management/scripts/doi_to_bibtex.py",
+      "bytes": 6783,
+      "sha256": "1b7d1ab2e8bf9bcf5a7d49bf45496e0f8b7d8e0d0cda8efd8fce4e527082dc4b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/scripts/doi_to_bibtex.py"
+    },
+    {
+      "path": "scripts/extract_metadata.py",
+      "sourcePath": "skills/citation-management/scripts/extract_metadata.py",
+      "bytes": 29650,
+      "sha256": "bebc7835b5e659cdeee0087980e881635894330bac5eda4ce01f490fd41df781",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/scripts/extract_metadata.py"
+    },
+    {
+      "path": "scripts/format_bibtex.py",
+      "sourcePath": "skills/citation-management/scripts/format_bibtex.py",
+      "bytes": 11075,
+      "sha256": "cc74fdc4d5819df8db3999e59f96469cebfb353ecf406a49a5a0fc60896707cb",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/scripts/format_bibtex.py"
+    },
+    {
+      "path": "scripts/search_google_scholar.py",
+      "sourcePath": "skills/citation-management/scripts/search_google_scholar.py",
+      "bytes": 8746,
+      "sha256": "05cfd67aea6475029d017f1b4ff68e7ba727e1fa9b52f1e614c80287940b4985",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/scripts/search_google_scholar.py"
+    },
+    {
+      "path": "scripts/search_openalex.py",
+      "sourcePath": "skills/citation-management/scripts/search_openalex.py",
+      "bytes": 12055,
+      "sha256": "538b2f086625fd1e9a2cb2fe8bd46ee852d888f17d2d1e889b8f50592594f693",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/scripts/search_openalex.py"
+    },
+    {
+      "path": "scripts/search_pubmed.py",
+      "sourcePath": "skills/citation-management/scripts/search_pubmed.py",
+      "bytes": 14912,
+      "sha256": "4543b74bf773747bae47a2bbb18acf2a4a050071119d88d1711db6049d157116",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/scripts/search_pubmed.py"
+    },
+    {
+      "path": "scripts/validate_citations.py",
+      "sourcePath": "skills/citation-management/scripts/validate_citations.py",
+      "bytes": 28361,
+      "sha256": "a08e8e0774287e9aca2bd87c3a66cd3dfc751018eafb6cdee37987e3f416d2b5",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/citation-management/scripts/validate_citations.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "e9ce37c7308251fae17e9abbd6b302ecc5a5393c833b591aa40b35680d26c7f0"
+}

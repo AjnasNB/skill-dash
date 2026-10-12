@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--coercing-authentication-with-coercer-petitpotam","name":"coercing-authentication-with-coercer-petitpotam","description":"Trigger machine account authentication with PetitPotam (MS-EFSR) and Coercer (MS-RPRN, MS-DFSNM, MS-FSRVP, MS-EVEN) via Coercer's scan/coerce/fuzz modes, feeding the coerced NTLM auth into a relay against AD CS Web Enrollment (ESC8), LDAP (RBCD), or SMB. Use in authorized engagements to complete a coercion-relay chain against a Domain Controller, or to validate coercion detections and signing/EPA mitigations.","category":"Development","tags":["coercing","authentication","coercer","petitpotam","trigger","machine","account","ms","efsr","rprn","dfsnm","fsrvp","even","via","scan","coerce","fuzz","modes"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/coercing-authentication-with-coercer-petitpotam/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/coercing-authentication-with-coercer-petitpotam","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/coercing-authentication-with-coercer-petitpotam","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":5,"bytes":28627,"sha256":"03048c106986cd99d89a0834ab218ecd12d9e40c6fe53699385ac034e59dbe7e","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/coercing-authentication-with-coercer-petitpotam/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/coercing-authentication-with-coercer-petitpotam/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/coercing-authentication-with-coercer-petitpotam/SKILL.md","bytes":8904,"sha256":"03048c106986cd99d89a0834ab218ecd12d9e40c6fe53699385ac034e59dbe7e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/coercing-authentication-with-coercer-petitpotam/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/coercing-authentication-with-coercer-petitpotam/references/api-reference.md","bytes":2438,"sha256":"d8a2b49b1039240de61b62887807f0f7009793f30ea9449415a55f99ec2a9d4b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/coercing-authentication-with-coercer-petitpotam/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/coercing-authentication-with-coercer-petitpotam/references/standards.md","bytes":1355,"sha256":"7f9e822a03384efc90f2c1b2581b47e02d63c5afb43a0c41112f48296bb571b1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/coercing-authentication-with-coercer-petitpotam/references/standards.md"},{"path":"scripts/agent.py","sourcePath":"skills/coercing-authentication-with-coercer-petitpotam/scripts/agent.py","bytes":4675,"sha256":"018a923dfcf4146ae77a8d404a777281940a4b0cb2f02c154ea20bdc4e0ac8b5","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/coercing-authentication-with-coercer-petitpotam/scripts/agent.py"}],"archiveSha256":"e1655f6bdac3f2e43e2966613a1cb8be6011a863e6f8621043389163e438b078"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--coercing-authentication-with-coercer-petitpotam",
+    "name": "coercing-authentication-with-coercer-petitpotam",
+    "description": "Trigger machine account authentication with PetitPotam (MS-EFSR) and Coercer (MS-RPRN, MS-DFSNM, MS-FSRVP, MS-EVEN) via Coercer's scan/coerce/fuzz modes, feeding the coerced NTLM auth into a relay against AD CS Web Enrollment (ESC8), LDAP (RBCD), or SMB. Use in authorized engagements to complete a coercion-relay chain against a Domain Controller, or to validate coercion detections and signing/EPA mitigations.",
+    "category": "Development",
+    "tags": [
+      "coercing",
+      "authentication",
+      "coercer",
+      "petitpotam",
+      "trigger",
+      "machine",
+      "account",
+      "ms",
+      "efsr",
+      "rprn",
+      "dfsnm",
+      "fsrvp",
+      "even",
+      "via",
+      "scan",
+      "coerce",
+      "fuzz",
+      "modes"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/coercing-authentication-with-coercer-petitpotam/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/coercing-authentication-with-coercer-petitpotam",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/coercing-authentication-with-coercer-petitpotam",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 28627,
+    "sha256": "03048c106986cd99d89a0834ab218ecd12d9e40c6fe53699385ac034e59dbe7e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/coercing-authentication-with-coercer-petitpotam/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/coercing-authentication-with-coercer-petitpotam/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/coercing-authentication-with-coercer-petitpotam/SKILL.md",
+      "bytes": 8904,
+      "sha256": "03048c106986cd99d89a0834ab218ecd12d9e40c6fe53699385ac034e59dbe7e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/coercing-authentication-with-coercer-petitpotam/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/coercing-authentication-with-coercer-petitpotam/references/api-reference.md",
+      "bytes": 2438,
+      "sha256": "d8a2b49b1039240de61b62887807f0f7009793f30ea9449415a55f99ec2a9d4b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/coercing-authentication-with-coercer-petitpotam/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/coercing-authentication-with-coercer-petitpotam/references/standards.md",
+      "bytes": 1355,
+      "sha256": "7f9e822a03384efc90f2c1b2581b47e02d63c5afb43a0c41112f48296bb571b1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/coercing-authentication-with-coercer-petitpotam/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/coercing-authentication-with-coercer-petitpotam/scripts/agent.py",
+      "bytes": 4675,
+      "sha256": "018a923dfcf4146ae77a8d404a777281940a4b0cb2f02c154ea20bdc4e0ac8b5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/coercing-authentication-with-coercer-petitpotam/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "e1655f6bdac3f2e43e2966613a1cb8be6011a863e6f8621043389163e438b078"
+}

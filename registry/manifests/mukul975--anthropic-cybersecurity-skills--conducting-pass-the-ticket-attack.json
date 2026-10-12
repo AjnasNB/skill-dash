@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--conducting-pass-the-ticket-attack","name":"conducting-pass-the-ticket-attack","description":"Perform Pass-the-Ticket (PtT) lateral movement by extracting Kerberos TGT/TGS tickets from LSASS memory on a compromised host and injecting them into another session to impersonate the ticket owner without knowing their password. Use during authorized post-exploitation to move laterally or escalate access via stolen Kerberos tickets, or to validate detections for Kerberos ticket theft and reuse.","category":"Development","tags":["conducting","pass","ticket","attack","perform","ptt","lateral","movement","by","extracting","kerberos","tgt","tgs","tickets","from","lsass","memory","compromised"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/conducting-pass-the-ticket-attack/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/conducting-pass-the-ticket-attack","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-pass-the-ticket-attack","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":39708,"sha256":"8de0ea7dbdc76e174c0ea3c7b9d89431116a3298f52ffccd307a5cd888fb74c0","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/conducting-pass-the-ticket-attack/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-pass-the-ticket-attack/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/conducting-pass-the-ticket-attack/SKILL.md","bytes":4056,"sha256":"8de0ea7dbdc76e174c0ea3c7b9d89431116a3298f52ffccd307a5cd888fb74c0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-pass-the-ticket-attack/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/conducting-pass-the-ticket-attack/assets/template.md","bytes":918,"sha256":"064730880fc114ce1aac576fd39129fc086e4281556863aee8e5a9838666466c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-pass-the-ticket-attack/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/conducting-pass-the-ticket-attack/references/api-reference.md","bytes":1683,"sha256":"571b2f34276675eef6001f5d0d93c394d7868d820edfa0ad2f644aca1e20a824","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-pass-the-ticket-attack/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/conducting-pass-the-ticket-attack/references/standards.md","bytes":1464,"sha256":"cafc5a7f77bfde09062143c0b5a30b00f07f0d52ea0b257f189234a7a83d88f7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-pass-the-ticket-attack/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/conducting-pass-the-ticket-attack/references/workflows.md","bytes":3034,"sha256":"33adaf69fe449492186df3a3e827697a18067c10116b99ff30bd41550d6af0e9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-pass-the-ticket-attack/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/conducting-pass-the-ticket-attack/scripts/agent.py","bytes":5624,"sha256":"5f1338fc522988d9f098315a944ed15c7f2105640c194d3e44beba7b36277944","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-pass-the-ticket-attack/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/conducting-pass-the-ticket-attack/scripts/process.py","bytes":11674,"sha256":"9f9ba3b057e5495747210f0d5801daaf9f897a29666448f05f997348d85b1aaf","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-pass-the-ticket-attack/scripts/process.py"}],"archiveSha256":"96329d6858fe6f667aa2c9135ccb190d7760222d035e5ffe7c8907aca7f12b63"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--conducting-pass-the-ticket-attack",
+    "name": "conducting-pass-the-ticket-attack",
+    "description": "Perform Pass-the-Ticket (PtT) lateral movement by extracting Kerberos TGT/TGS tickets from LSASS memory on a compromised host and injecting them into another session to impersonate the ticket owner without knowing their password. Use during authorized post-exploitation to move laterally or escalate access via stolen Kerberos tickets, or to validate detections for Kerberos ticket theft and reuse.",
+    "category": "Development",
+    "tags": [
+      "conducting",
+      "pass",
+      "ticket",
+      "attack",
+      "perform",
+      "ptt",
+      "lateral",
+      "movement",
+      "by",
+      "extracting",
+      "kerberos",
+      "tgt",
+      "tgs",
+      "tickets",
+      "from",
+      "lsass",
+      "memory",
+      "compromised"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/conducting-pass-the-ticket-attack/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/conducting-pass-the-ticket-attack",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-pass-the-ticket-attack",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 39708,
+    "sha256": "8de0ea7dbdc76e174c0ea3c7b9d89431116a3298f52ffccd307a5cd888fb74c0",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/conducting-pass-the-ticket-attack/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-pass-the-ticket-attack/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/conducting-pass-the-ticket-attack/SKILL.md",
+      "bytes": 4056,
+      "sha256": "8de0ea7dbdc76e174c0ea3c7b9d89431116a3298f52ffccd307a5cd888fb74c0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-pass-the-ticket-attack/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/conducting-pass-the-ticket-attack/assets/template.md",
+      "bytes": 918,
+      "sha256": "064730880fc114ce1aac576fd39129fc086e4281556863aee8e5a9838666466c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-pass-the-ticket-attack/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/conducting-pass-the-ticket-attack/references/api-reference.md",
+      "bytes": 1683,
+      "sha256": "571b2f34276675eef6001f5d0d93c394d7868d820edfa0ad2f644aca1e20a824",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-pass-the-ticket-attack/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/conducting-pass-the-ticket-attack/references/standards.md",
+      "bytes": 1464,
+      "sha256": "cafc5a7f77bfde09062143c0b5a30b00f07f0d52ea0b257f189234a7a83d88f7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-pass-the-ticket-attack/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/conducting-pass-the-ticket-attack/references/workflows.md",
+      "bytes": 3034,
+      "sha256": "33adaf69fe449492186df3a3e827697a18067c10116b99ff30bd41550d6af0e9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-pass-the-ticket-attack/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/conducting-pass-the-ticket-attack/scripts/agent.py",
+      "bytes": 5624,
+      "sha256": "5f1338fc522988d9f098315a944ed15c7f2105640c194d3e44beba7b36277944",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-pass-the-ticket-attack/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/conducting-pass-the-ticket-attack/scripts/process.py",
+      "bytes": 11674,
+      "sha256": "9f9ba3b057e5495747210f0d5801daaf9f897a29666448f05f997348d85b1aaf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-pass-the-ticket-attack/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "96329d6858fe6f667aa2c9135ccb190d7760222d035e5ffe7c8907aca7f12b63"
+}

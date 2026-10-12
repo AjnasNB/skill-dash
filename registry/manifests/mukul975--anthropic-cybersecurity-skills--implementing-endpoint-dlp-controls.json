@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-endpoint-dlp-controls","name":"implementing-endpoint-dlp-controls","description":"Implements endpoint Data Loss Prevention (DLP) controls to detect and prevent sensitive data exfiltration through email, USB, cloud storage, and printing. Use when deploying DLP agents, creating content inspection policies, or preventing unauthorized data movement from endpoints. Activates for requests involving DLP, data exfiltration prevention, content inspection, or sensitive data protection on endpoints.","category":"Cloud & DevOps","tags":["implementing","endpoint","dlp","controls","implements","data","loss","prevention","detect","prevent","sensitive","exfiltration","through","email","usb","cloud","storage","printing."],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-endpoint-dlp-controls/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-endpoint-dlp-controls","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-dlp-controls","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":28028,"sha256":"cabfd1e252fb32f09bb35d33c63df782099cadca0b794d5e180a716d1e5f27f9","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-endpoint-dlp-controls/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-dlp-controls/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-endpoint-dlp-controls/SKILL.md","bytes":5939,"sha256":"cabfd1e252fb32f09bb35d33c63df782099cadca0b794d5e180a716d1e5f27f9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-dlp-controls/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-endpoint-dlp-controls/assets/template.md","bytes":427,"sha256":"6351427cfc784083524bd60cec4e617807dae7da2597e9d6bbdf85106250e8c8","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-dlp-controls/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-endpoint-dlp-controls/references/api-reference.md","bytes":1517,"sha256":"96ab2caec2bfc94f8cbe03ae6c5666e8762ddaabae1cd0e7e115f47924cb1236","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-dlp-controls/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-endpoint-dlp-controls/references/standards.md","bytes":391,"sha256":"b23ff13e9ff0a9135e605c88ceb68b207f91e99b952cc8d19cb22cba7c8a3402","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-dlp-controls/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-endpoint-dlp-controls/references/workflows.md","bytes":306,"sha256":"999bdc05709cc8e5e0c0d3d7abb8c80ce28fa4719158a6b40a721ffab89f08a9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-dlp-controls/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-endpoint-dlp-controls/scripts/agent.py","bytes":6239,"sha256":"0aad351198b0e8bc1bed3a164bce32cac11cf56ee303d81d82b333a36dd8f4a2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-dlp-controls/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-endpoint-dlp-controls/scripts/process.py","bytes":1954,"sha256":"8312fde2451785270ae7f804c577d6310060ac8c144a49a28fb61f1a62f4e9ce","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-dlp-controls/scripts/process.py"}],"archiveSha256":"a8485ac10523344d49ad3b3e9445521c4565776bb1ade9520770209588d3e35b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-endpoint-dlp-controls",
+    "name": "implementing-endpoint-dlp-controls",
+    "description": "Implements endpoint Data Loss Prevention (DLP) controls to detect and prevent sensitive data exfiltration through email, USB, cloud storage, and printing. Use when deploying DLP agents, creating content inspection policies, or preventing unauthorized data movement from endpoints. Activates for requests involving DLP, data exfiltration prevention, content inspection, or sensitive data protection on endpoints.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "implementing",
+      "endpoint",
+      "dlp",
+      "controls",
+      "implements",
+      "data",
+      "loss",
+      "prevention",
+      "detect",
+      "prevent",
+      "sensitive",
+      "exfiltration",
+      "through",
+      "email",
+      "usb",
+      "cloud",
+      "storage",
+      "printing."
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-endpoint-dlp-controls/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-endpoint-dlp-controls",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-dlp-controls",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 28028,
+    "sha256": "cabfd1e252fb32f09bb35d33c63df782099cadca0b794d5e180a716d1e5f27f9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-endpoint-dlp-controls/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-dlp-controls/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-endpoint-dlp-controls/SKILL.md",
+      "bytes": 5939,
+      "sha256": "cabfd1e252fb32f09bb35d33c63df782099cadca0b794d5e180a716d1e5f27f9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-dlp-controls/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-endpoint-dlp-controls/assets/template.md",
+      "bytes": 427,
+      "sha256": "6351427cfc784083524bd60cec4e617807dae7da2597e9d6bbdf85106250e8c8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-dlp-controls/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-endpoint-dlp-controls/references/api-reference.md",
+      "bytes": 1517,
+      "sha256": "96ab2caec2bfc94f8cbe03ae6c5666e8762ddaabae1cd0e7e115f47924cb1236",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-dlp-controls/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-endpoint-dlp-controls/references/standards.md",
+      "bytes": 391,
+      "sha256": "b23ff13e9ff0a9135e605c88ceb68b207f91e99b952cc8d19cb22cba7c8a3402",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-dlp-controls/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-endpoint-dlp-controls/references/workflows.md",
+      "bytes": 306,
+      "sha256": "999bdc05709cc8e5e0c0d3d7abb8c80ce28fa4719158a6b40a721ffab89f08a9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-dlp-controls/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-endpoint-dlp-controls/scripts/agent.py",
+      "bytes": 6239,
+      "sha256": "0aad351198b0e8bc1bed3a164bce32cac11cf56ee303d81d82b333a36dd8f4a2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-dlp-controls/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-endpoint-dlp-controls/scripts/process.py",
+      "bytes": 1954,
+      "sha256": "8312fde2451785270ae7f804c577d6310060ac8c144a49a28fb61f1a62f4e9ce",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-endpoint-dlp-controls/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "a8485ac10523344d49ad3b3e9445521c4565776bb1ade9520770209588d3e35b"
+}

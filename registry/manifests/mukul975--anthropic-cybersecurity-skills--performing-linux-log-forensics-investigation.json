@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-linux-log-forensics-investigation","name":"performing-linux-log-forensics-investigation","description":"Perform forensic investigation of Linux system logs including syslog, auth.log, systemd journal (via journalctl), kern.log, auditd, and application logs to reconstruct user sessions, identify unauthorized access and privilege escalation, trace lateral movement, and establish event timelines. Use when investigating a suspected compromise of a Linux system and needing to analyze SSH, sudo, cron, or kernel-level activity from plain-text or systemd journal logs.","category":"Security","tags":["performing","linux","log","forensics","investigation","perform","forensic","system","logs","including","syslog","auth.log","systemd","journal","via","journalctl","kern.log","auditd"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-linux-log-forensics-investigation/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-linux-log-forensics-investigation","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-linux-log-forensics-investigation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":34384,"sha256":"e1bd99f89617724fc3d780409886815f31511572fe7555e9cf633da81cf436d7","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-linux-log-forensics-investigation/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-linux-log-forensics-investigation/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-linux-log-forensics-investigation/SKILL.md","bytes":10728,"sha256":"e1bd99f89617724fc3d780409886815f31511572fe7555e9cf633da81cf436d7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-linux-log-forensics-investigation/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/performing-linux-log-forensics-investigation/assets/template.md","bytes":399,"sha256":"f30f6d05a8221335b68dd071d1362a797081feb0d82669d08f1b5e675b12bcb4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-linux-log-forensics-investigation/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-linux-log-forensics-investigation/references/api-reference.md","bytes":1710,"sha256":"221d916e8fe164dc3699e2473ff104c8f46fbf054a245ff624bf7f2ddd2bfb79","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-linux-log-forensics-investigation/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/performing-linux-log-forensics-investigation/references/standards.md","bytes":660,"sha256":"22573fc89b499bd1811a701983f102a5b8f3974b671772369ccec5e9e0f68e39","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-linux-log-forensics-investigation/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/performing-linux-log-forensics-investigation/references/workflows.md","bytes":634,"sha256":"9e3d07220a977a121fadb7ec81eaa143a2643b432c71eefc1f2c4a1b05e7c0c3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-linux-log-forensics-investigation/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-linux-log-forensics-investigation/scripts/agent.py","bytes":6838,"sha256":"1a483f2a751e43ce7d794381b73f5ed9d95c86cedbbc3e5b9fd80eb3d869f239","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-linux-log-forensics-investigation/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/performing-linux-log-forensics-investigation/scripts/process.py","bytes":2160,"sha256":"d1a58edba441e5e10840f6232cd26544e00448a62f05a62812667ab1fc31db89","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-linux-log-forensics-investigation/scripts/process.py"}],"archiveSha256":"21268aa37bf831f39d9a59c475ae1b58a6d446b9089cb8db328ae0f360738fd6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-linux-log-forensics-investigation",
+    "name": "performing-linux-log-forensics-investigation",
+    "description": "Perform forensic investigation of Linux system logs including syslog, auth.log, systemd journal (via journalctl), kern.log, auditd, and application logs to reconstruct user sessions, identify unauthorized access and privilege escalation, trace lateral movement, and establish event timelines. Use when investigating a suspected compromise of a Linux system and needing to analyze SSH, sudo, cron, or kernel-level activity from plain-text or systemd journal logs.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "linux",
+      "log",
+      "forensics",
+      "investigation",
+      "perform",
+      "forensic",
+      "system",
+      "logs",
+      "including",
+      "syslog",
+      "auth.log",
+      "systemd",
+      "journal",
+      "via",
+      "journalctl",
+      "kern.log",
+      "auditd"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-linux-log-forensics-investigation/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-linux-log-forensics-investigation",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-linux-log-forensics-investigation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 34384,
+    "sha256": "e1bd99f89617724fc3d780409886815f31511572fe7555e9cf633da81cf436d7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-linux-log-forensics-investigation/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-linux-log-forensics-investigation/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-linux-log-forensics-investigation/SKILL.md",
+      "bytes": 10728,
+      "sha256": "e1bd99f89617724fc3d780409886815f31511572fe7555e9cf633da81cf436d7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-linux-log-forensics-investigation/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-linux-log-forensics-investigation/assets/template.md",
+      "bytes": 399,
+      "sha256": "f30f6d05a8221335b68dd071d1362a797081feb0d82669d08f1b5e675b12bcb4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-linux-log-forensics-investigation/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-linux-log-forensics-investigation/references/api-reference.md",
+      "bytes": 1710,
+      "sha256": "221d916e8fe164dc3699e2473ff104c8f46fbf054a245ff624bf7f2ddd2bfb79",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-linux-log-forensics-investigation/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-linux-log-forensics-investigation/references/standards.md",
+      "bytes": 660,
+      "sha256": "22573fc89b499bd1811a701983f102a5b8f3974b671772369ccec5e9e0f68e39",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-linux-log-forensics-investigation/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-linux-log-forensics-investigation/references/workflows.md",
+      "bytes": 634,
+      "sha256": "9e3d07220a977a121fadb7ec81eaa143a2643b432c71eefc1f2c4a1b05e7c0c3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-linux-log-forensics-investigation/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-linux-log-forensics-investigation/scripts/agent.py",
+      "bytes": 6838,
+      "sha256": "1a483f2a751e43ce7d794381b73f5ed9d95c86cedbbc3e5b9fd80eb3d869f239",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-linux-log-forensics-investigation/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-linux-log-forensics-investigation/scripts/process.py",
+      "bytes": 2160,
+      "sha256": "d1a58edba441e5e10840f6232cd26544e00448a62f05a62812667ab1fc31db89",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-linux-log-forensics-investigation/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "21268aa37bf831f39d9a59c475ae1b58a6d446b9089cb8db328ae0f360738fd6"
+}

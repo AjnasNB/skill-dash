@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-network-segmentation-with-firewall-zones","name":"implementing-network-segmentation-with-firewall-zones","description":"Designs and implements network segmentation using firewall security zones, VLANs, inter-zone ACLs, and workload-level microsegmentation to restrict east-west lateral movement and enforce least-privilege access. Use when architecting security zones, writing inter-zone firewall policies, or meeting PCI DSS/HIPAA/NIST 800-53/zero-trust segmentation requirements for dynamic or traditional network environments.","category":"Security","tags":["implementing","network","segmentation","firewall","zones","designs","implements","security","vlans","inter","zone","acls","workload","level","microsegmentation","restrict","east","west"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-network-segmentation-with-firewall-zones/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-network-segmentation-with-firewall-zones","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-segmentation-with-firewall-zones","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":31479,"sha256":"6051aed18cbccc98d8fc8254eff848c780b96c894c7000a27e76cea347165635","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-network-segmentation-with-firewall-zones/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-segmentation-with-firewall-zones/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-network-segmentation-with-firewall-zones/SKILL.md","bytes":13469,"sha256":"6051aed18cbccc98d8fc8254eff848c780b96c894c7000a27e76cea347165635","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-segmentation-with-firewall-zones/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-network-segmentation-with-firewall-zones/references/api-reference.md","bytes":2414,"sha256":"d33d0488e0b3bccbb5ade82e3bf1397f0cf839a16ccff73859b0f8c1270f9fd9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-segmentation-with-firewall-zones/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-network-segmentation-with-firewall-zones/scripts/agent.py","bytes":4341,"sha256":"9a8a14c833837de2c18fff560c4b3867e5f98d3c6ebd8f395e4d38327c440fcf","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-segmentation-with-firewall-zones/scripts/agent.py"}],"archiveSha256":"fea5381a8fe10b58a1d4cbce5b9137e8ad30cd914ea4766421cf9d7d87938eb1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-network-segmentation-with-firewall-zones",
+    "name": "implementing-network-segmentation-with-firewall-zones",
+    "description": "Designs and implements network segmentation using firewall security zones, VLANs, inter-zone ACLs, and workload-level microsegmentation to restrict east-west lateral movement and enforce least-privilege access. Use when architecting security zones, writing inter-zone firewall policies, or meeting PCI DSS/HIPAA/NIST 800-53/zero-trust segmentation requirements for dynamic or traditional network environments.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "network",
+      "segmentation",
+      "firewall",
+      "zones",
+      "designs",
+      "implements",
+      "security",
+      "vlans",
+      "inter",
+      "zone",
+      "acls",
+      "workload",
+      "level",
+      "microsegmentation",
+      "restrict",
+      "east",
+      "west"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-network-segmentation-with-firewall-zones/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-network-segmentation-with-firewall-zones",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-segmentation-with-firewall-zones",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 31479,
+    "sha256": "6051aed18cbccc98d8fc8254eff848c780b96c894c7000a27e76cea347165635",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-network-segmentation-with-firewall-zones/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-segmentation-with-firewall-zones/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-network-segmentation-with-firewall-zones/SKILL.md",
+      "bytes": 13469,
+      "sha256": "6051aed18cbccc98d8fc8254eff848c780b96c894c7000a27e76cea347165635",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-segmentation-with-firewall-zones/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-network-segmentation-with-firewall-zones/references/api-reference.md",
+      "bytes": 2414,
+      "sha256": "d33d0488e0b3bccbb5ade82e3bf1397f0cf839a16ccff73859b0f8c1270f9fd9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-segmentation-with-firewall-zones/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-network-segmentation-with-firewall-zones/scripts/agent.py",
+      "bytes": 4341,
+      "sha256": "9a8a14c833837de2c18fff560c4b3867e5f98d3c6ebd8f395e4d38327c440fcf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-network-segmentation-with-firewall-zones/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "fea5381a8fe10b58a1d4cbce5b9137e8ad30cd914ea4766421cf9d7d87938eb1"
+}

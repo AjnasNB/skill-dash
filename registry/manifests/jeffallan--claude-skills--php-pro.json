@@ -1,1 +1,104 @@
-{"schemaVersion":1,"skill":{"id":"jeffallan--claude-skills--php-pro","name":"php-pro","description":"Use when building PHP applications with modern PHP 8.3+ features, Laravel, or Symfony frameworks. Invokes strict typing, PHPStan level 9, async patterns with Swoole, and PSR standards. Creates controllers, configures middleware, generates migrations, writes PHPUnit/Pest tests, defines typed DTOs and value objects, sets up dependency injection, and scaffolds REST/GraphQL APIs. Use when working with Eloquent, Doctrine, Composer, Psalm, ReactPHP, or any PHP API development.","category":"Development","tags":["php","pro","when","building","applications","modern","8.3+","features","laravel","symfony","frameworks.","invokes","strict","typing","phpstan","level","async","patterns"],"repo":"Jeffallan/claude-skills","owner":"Jeffallan","stars":11835,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1be15d8064f88fc25216442406d40add8fd23b53","path":"skills/php-pro","sourceUrl":"https://github.com/Jeffallan/claude-skills/tree/1be15d8064f88fc25216442406d40add8fd23b53/skills/php-pro","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-03T15:49:22Z","fileCount":7,"bytes":54499,"sha256":"125ef5dc1ed8ad13f72e4a21d97edb9527a101dc600e4ade5de9fe673a41e959","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/php-pro/SKILL.md","bytes":6250,"sha256":"125ef5dc1ed8ad13f72e4a21d97edb9527a101dc600e4ade5de9fe673a41e959","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/php-pro/SKILL.md"},{"path":"references/async-patterns.md","sourcePath":"skills/php-pro/references/async-patterns.md","bytes":9047,"sha256":"3d75c066c70ba0fe18c7e3ccb1063953fc910ee71952a85e04d3ef62492c67a6","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/php-pro/references/async-patterns.md"},{"path":"references/laravel-patterns.md","sourcePath":"skills/php-pro/references/laravel-patterns.md","bytes":8919,"sha256":"39c4e9e9e564a0fcbc1d6bf34dce0fd2e3568f5fca75d40921e7f2eacf6f3a39","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/php-pro/references/laravel-patterns.md"},{"path":"references/modern-php-features.md","sourcePath":"skills/php-pro/references/modern-php-features.md","bytes":6403,"sha256":"04a6a64dad160622eb1f8465e842681aad8c97261f39383195566aac59fae159","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/php-pro/references/modern-php-features.md"},{"path":"references/symfony-patterns.md","sourcePath":"skills/php-pro/references/symfony-patterns.md","bytes":11358,"sha256":"fa9f01da37e3f0d1981e5ec3af3ea51edf20d4f1ea6e3f85f436ca73ee5a2ba2","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/php-pro/references/symfony-patterns.md"},{"path":"references/testing-quality.md","sourcePath":"skills/php-pro/references/testing-quality.md","bytes":11466,"sha256":"922245444396b5f2aebf1eda3825d616de1f879cd6413d86e9eb30f06c041de0","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/php-pro/references/testing-quality.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1056,"sha256":"06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241","mode":420,"url":"https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/LICENSE"}],"archiveSha256":"df72b377b727c89e8eef4fe2c45642848e97b411a43491c48179686287ba1926"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "jeffallan--claude-skills--php-pro",
+    "name": "php-pro",
+    "description": "Use when building PHP applications with modern PHP 8.3+ features, Laravel, or Symfony frameworks. Invokes strict typing, PHPStan level 9, async patterns with Swoole, and PSR standards. Creates controllers, configures middleware, generates migrations, writes PHPUnit/Pest tests, defines typed DTOs and value objects, sets up dependency injection, and scaffolds REST/GraphQL APIs. Use when working with Eloquent, Doctrine, Composer, Psalm, ReactPHP, or any PHP API development.",
+    "category": "Development",
+    "tags": [
+      "php",
+      "pro",
+      "when",
+      "building",
+      "applications",
+      "modern",
+      "8.3+",
+      "features",
+      "laravel",
+      "symfony",
+      "frameworks.",
+      "invokes",
+      "strict",
+      "typing",
+      "phpstan",
+      "level",
+      "async",
+      "patterns"
+    ],
+    "repo": "Jeffallan/claude-skills",
+    "owner": "Jeffallan",
+    "stars": 11835,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1be15d8064f88fc25216442406d40add8fd23b53",
+    "path": "skills/php-pro",
+    "sourceUrl": "https://github.com/Jeffallan/claude-skills/tree/1be15d8064f88fc25216442406d40add8fd23b53/skills/php-pro",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-03T15:49:22Z",
+    "fileCount": 7,
+    "bytes": 54499,
+    "sha256": "125ef5dc1ed8ad13f72e4a21d97edb9527a101dc600e4ade5de9fe673a41e959",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/php-pro/SKILL.md",
+      "bytes": 6250,
+      "sha256": "125ef5dc1ed8ad13f72e4a21d97edb9527a101dc600e4ade5de9fe673a41e959",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/php-pro/SKILL.md"
+    },
+    {
+      "path": "references/async-patterns.md",
+      "sourcePath": "skills/php-pro/references/async-patterns.md",
+      "bytes": 9047,
+      "sha256": "3d75c066c70ba0fe18c7e3ccb1063953fc910ee71952a85e04d3ef62492c67a6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/php-pro/references/async-patterns.md"
+    },
+    {
+      "path": "references/laravel-patterns.md",
+      "sourcePath": "skills/php-pro/references/laravel-patterns.md",
+      "bytes": 8919,
+      "sha256": "39c4e9e9e564a0fcbc1d6bf34dce0fd2e3568f5fca75d40921e7f2eacf6f3a39",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/php-pro/references/laravel-patterns.md"
+    },
+    {
+      "path": "references/modern-php-features.md",
+      "sourcePath": "skills/php-pro/references/modern-php-features.md",
+      "bytes": 6403,
+      "sha256": "04a6a64dad160622eb1f8465e842681aad8c97261f39383195566aac59fae159",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/php-pro/references/modern-php-features.md"
+    },
+    {
+      "path": "references/symfony-patterns.md",
+      "sourcePath": "skills/php-pro/references/symfony-patterns.md",
+      "bytes": 11358,
+      "sha256": "fa9f01da37e3f0d1981e5ec3af3ea51edf20d4f1ea6e3f85f436ca73ee5a2ba2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/php-pro/references/symfony-patterns.md"
+    },
+    {
+      "path": "references/testing-quality.md",
+      "sourcePath": "skills/php-pro/references/testing-quality.md",
+      "bytes": 11466,
+      "sha256": "922245444396b5f2aebf1eda3825d616de1f879cd6413d86e9eb30f06c041de0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/skills/php-pro/references/testing-quality.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1056,
+      "sha256": "06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/1be15d8064f88fc25216442406d40add8fd23b53/LICENSE"
+    }
+  ],
+  "archiveSha256": "df72b377b727c89e8eef4fe2c45642848e97b411a43491c48179686287ba1926"
+}

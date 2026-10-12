@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-rdp-brute-force-attacks","name":"detecting-rdp-brute-force-attacks","description":"Detect RDP brute force attacks by parsing Windows Security Event Logs (EVTX files, via python-evtx) for failed logon patterns (Event ID 4625, Logon Type 10/3), correlating with successful logons (Event ID 4624), and analyzing NLA failures and source IP frequency. Use when investigating exposed RDP endpoints, building SIEM detection rules for credential guessing, or confirming whether a compromised account followed a brute-force pattern.","category":"Security","tags":["detecting","rdp","brute","force","attacks","detect","by","parsing","windows","security","event","logs","evtx","files","via","python","failed","logon"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-rdp-brute-force-attacks/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-rdp-brute-force-attacks","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-rdp-brute-force-attacks","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":23269,"sha256":"3d152c39e77e4ba7f346c400ea3d53af4d2c740a3291d16d6c145a4ba5937e17","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-rdp-brute-force-attacks/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-rdp-brute-force-attacks/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-rdp-brute-force-attacks/SKILL.md","bytes":3116,"sha256":"3d152c39e77e4ba7f346c400ea3d53af4d2c740a3291d16d6c145a4ba5937e17","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-rdp-brute-force-attacks/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-rdp-brute-force-attacks/references/api-reference.md","bytes":2183,"sha256":"1bb5022a433f8d2798cc76816534eee950b4baa00bbc942e3e4d22e5abba32e5","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-rdp-brute-force-attacks/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-rdp-brute-force-attacks/scripts/agent.py","bytes":6715,"sha256":"bccb173056c0530209045145f80dd223c330fa381cf52cf3f947d396758d8ff7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-rdp-brute-force-attacks/scripts/agent.py"}],"archiveSha256":"d446d44348543c6f388a9d27188ea31b5dfd9e31cf1cf54294b3c1810aaa3441"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-rdp-brute-force-attacks",
+    "name": "detecting-rdp-brute-force-attacks",
+    "description": "Detect RDP brute force attacks by parsing Windows Security Event Logs (EVTX files, via python-evtx) for failed logon patterns (Event ID 4625, Logon Type 10/3), correlating with successful logons (Event ID 4624), and analyzing NLA failures and source IP frequency. Use when investigating exposed RDP endpoints, building SIEM detection rules for credential guessing, or confirming whether a compromised account followed a brute-force pattern.",
+    "category": "Security",
+    "tags": [
+      "detecting",
+      "rdp",
+      "brute",
+      "force",
+      "attacks",
+      "detect",
+      "by",
+      "parsing",
+      "windows",
+      "security",
+      "event",
+      "logs",
+      "evtx",
+      "files",
+      "via",
+      "python",
+      "failed",
+      "logon"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-rdp-brute-force-attacks/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-rdp-brute-force-attacks",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-rdp-brute-force-attacks",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 23269,
+    "sha256": "3d152c39e77e4ba7f346c400ea3d53af4d2c740a3291d16d6c145a4ba5937e17",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-rdp-brute-force-attacks/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-rdp-brute-force-attacks/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-rdp-brute-force-attacks/SKILL.md",
+      "bytes": 3116,
+      "sha256": "3d152c39e77e4ba7f346c400ea3d53af4d2c740a3291d16d6c145a4ba5937e17",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-rdp-brute-force-attacks/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-rdp-brute-force-attacks/references/api-reference.md",
+      "bytes": 2183,
+      "sha256": "1bb5022a433f8d2798cc76816534eee950b4baa00bbc942e3e4d22e5abba32e5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-rdp-brute-force-attacks/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-rdp-brute-force-attacks/scripts/agent.py",
+      "bytes": 6715,
+      "sha256": "bccb173056c0530209045145f80dd223c330fa381cf52cf3f947d396758d8ff7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-rdp-brute-force-attacks/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "d446d44348543c6f388a9d27188ea31b5dfd9e31cf1cf54294b3c1810aaa3441"
+}

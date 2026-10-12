@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--social-metadata-hardening","name":"social-metadata-hardening","description":"Fix social sharing previews so URLs render as rich cards on Facebook, LinkedIn, X/Twitter, WhatsApp, Telegram, and more. Covers OG tags, Twitter cards, absolute image URLs, and debugging.","category":"Development","tags":["social","metadata","hardening","fix","sharing","previews","so","urls","render","as","rich","cards","facebook","linkedin","twitter","whatsapp","telegram","more."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/social-metadata-hardening","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/social-metadata-hardening","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":8330,"sha256":"0202aeb971a527340560c6f344cdb286d271e6a8d33dfb8b4b474eb85e35a636","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/social-metadata-hardening/SKILL.md","bytes":7257,"sha256":"0202aeb971a527340560c6f344cdb286d271e6a8d33dfb8b4b474eb85e35a636","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/social-metadata-hardening/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"c7f30560d4ca5b6c4e53cbf59899934ac5be0b270bcf95166bb34a343bfda639"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--social-metadata-hardening",
+    "name": "social-metadata-hardening",
+    "description": "Fix social sharing previews so URLs render as rich cards on Facebook, LinkedIn, X/Twitter, WhatsApp, Telegram, and more. Covers OG tags, Twitter cards, absolute image URLs, and debugging.",
+    "category": "Development",
+    "tags": [
+      "social",
+      "metadata",
+      "hardening",
+      "fix",
+      "sharing",
+      "previews",
+      "so",
+      "urls",
+      "render",
+      "as",
+      "rich",
+      "cards",
+      "facebook",
+      "linkedin",
+      "twitter",
+      "whatsapp",
+      "telegram",
+      "more."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/social-metadata-hardening",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/social-metadata-hardening",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 8330,
+    "sha256": "0202aeb971a527340560c6f344cdb286d271e6a8d33dfb8b4b474eb85e35a636",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/social-metadata-hardening/SKILL.md",
+      "bytes": 7257,
+      "sha256": "0202aeb971a527340560c6f344cdb286d271e6a8d33dfb8b4b474eb85e35a636",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/social-metadata-hardening/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "c7f30560d4ca5b6c4e53cbf59899934ac5be0b270bcf95166bb34a343bfda639"
+}

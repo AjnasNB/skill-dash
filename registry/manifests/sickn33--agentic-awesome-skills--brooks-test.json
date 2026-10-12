@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--brooks-test","name":"brooks-test","description":"Review test-suite quality using established testing literature; identify brittleness, mock abuse, unclear fixtures, weak assertions, slow feedback, and maintenance risks.","category":"Development","tags":["brooks","test","review","suite","quality","established","testing","literature","identify","brittleness","mock","abuse","unclear","fixtures","weak","assertions","slow","feedback"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/brooks-test","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brooks-test","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":9506,"sha256":"805df80798ad8ad9b00c53f26ac6a14e48ed6aca2a6c163bf4ec80221bd3ec50","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/brooks-test/SKILL.md","bytes":2079,"sha256":"805df80798ad8ad9b00c53f26ac6a14e48ed6aca2a6c163bf4ec80221bd3ec50","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brooks-test/SKILL.md"},{"path":"test-guide.md","sourcePath":"skills/brooks-test/test-guide.md","bytes":6354,"sha256":"fc8e1f5882e87134c59ca77e854f5ad83ddf0dab1106a2cefb3747a38b042b8e","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brooks-test/test-guide.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"7dcfb1ce8320539e49a08ebcbf9116e392636c707c8f9c97cfb363bb92a1fbdf"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--brooks-test",
+    "name": "brooks-test",
+    "description": "Review test-suite quality using established testing literature; identify brittleness, mock abuse, unclear fixtures, weak assertions, slow feedback, and maintenance risks.",
+    "category": "Development",
+    "tags": [
+      "brooks",
+      "test",
+      "review",
+      "suite",
+      "quality",
+      "established",
+      "testing",
+      "literature",
+      "identify",
+      "brittleness",
+      "mock",
+      "abuse",
+      "unclear",
+      "fixtures",
+      "weak",
+      "assertions",
+      "slow",
+      "feedback"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/brooks-test",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brooks-test",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 9506,
+    "sha256": "805df80798ad8ad9b00c53f26ac6a14e48ed6aca2a6c163bf4ec80221bd3ec50",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/brooks-test/SKILL.md",
+      "bytes": 2079,
+      "sha256": "805df80798ad8ad9b00c53f26ac6a14e48ed6aca2a6c163bf4ec80221bd3ec50",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brooks-test/SKILL.md"
+    },
+    {
+      "path": "test-guide.md",
+      "sourcePath": "skills/brooks-test/test-guide.md",
+      "bytes": 6354,
+      "sha256": "fc8e1f5882e87134c59ca77e854f5ad83ddf0dab1106a2cefb3747a38b042b8e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brooks-test/test-guide.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "7dcfb1ce8320539e49a08ebcbf9116e392636c707c8f9c97cfb363bb92a1fbdf"
+}

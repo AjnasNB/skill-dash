@@ -1,1 +1,57 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--matplotlib","name":"matplotlib","description":"Matplotlib is Python's foundational visualization library for creating static, animated, and interactive plots.","category":"Development","tags":["matplotlib","is","python","foundational","visualization","library","creating","static","animated","interactive","plots."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/matplotlib","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/matplotlib","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12616,"sha256":"bee1717baed2cc17e5eeb6c4e6d667322b842ad06e6745077ee4567df6845bd7","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/matplotlib/SKILL.md","bytes":11543,"sha256":"bee1717baed2cc17e5eeb6c4e6d667322b842ad06e6745077ee4567df6845bd7","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/matplotlib/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"79fa957a6090a37969ef6e9d5058b9b4384fdf7a3fa9e4b74d457a7371396b71"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--matplotlib",
+    "name": "matplotlib",
+    "description": "Matplotlib is Python's foundational visualization library for creating static, animated, and interactive plots.",
+    "category": "Development",
+    "tags": [
+      "matplotlib",
+      "is",
+      "python",
+      "foundational",
+      "visualization",
+      "library",
+      "creating",
+      "static",
+      "animated",
+      "interactive",
+      "plots."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/matplotlib",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/matplotlib",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12616,
+    "sha256": "bee1717baed2cc17e5eeb6c4e6d667322b842ad06e6745077ee4567df6845bd7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/matplotlib/SKILL.md",
+      "bytes": 11543,
+      "sha256": "bee1717baed2cc17e5eeb6c4e6d667322b842ad06e6745077ee4567df6845bd7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/matplotlib/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "79fa957a6090a37969ef6e9d5058b9b4384fdf7a3fa9e4b74d457a7371396b71"
+}

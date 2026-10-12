@@ -1,1 +1,55 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--redteam-report-template","name":"redteam-report-template","description":"Client-facing red-team deliverable format","category":"Development","tags":["redteam","report","template","client","facing","red","team","deliverable","format"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/redteam-report-template","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/redteam-report-template","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":17030,"sha256":"82c3e71a954987da8311dad7cfb58c823d493d1e334cae280c894db45ceb4f31","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/redteam-report-template/SKILL.md","bytes":15957,"sha256":"82c3e71a954987da8311dad7cfb58c823d493d1e334cae280c894db45ceb4f31","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/redteam-report-template/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"104690a09768923d99fda78f07d31eaa015a77c7024a876bec048c30d8336cc0"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--redteam-report-template",
+    "name": "redteam-report-template",
+    "description": "Client-facing red-team deliverable format",
+    "category": "Development",
+    "tags": [
+      "redteam",
+      "report",
+      "template",
+      "client",
+      "facing",
+      "red",
+      "team",
+      "deliverable",
+      "format"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/redteam-report-template",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/redteam-report-template",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 17030,
+    "sha256": "82c3e71a954987da8311dad7cfb58c823d493d1e334cae280c894db45ceb4f31",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/redteam-report-template/SKILL.md",
+      "bytes": 15957,
+      "sha256": "82c3e71a954987da8311dad7cfb58c823d493d1e334cae280c894db45ceb4f31",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/redteam-report-template/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "104690a09768923d99fda78f07d31eaa015a77c7024a876bec048c30d8336cc0"
+}

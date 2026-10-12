@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"obra--superpowers--receiving-code-review","name":"receiving-code-review","description":"Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation","category":"Development","tags":["receiving","code","review","when","feedback","before","implementing","suggestions","especially","if","seems","unclear","technically","questionable","requires","technical","rigor","verification"],"repo":"obra/superpowers","owner":"obra","stars":297960,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"bb92a77741419a4ab5f06e711a283343f1ada0c3","path":"skills/receiving-code-review","sourceUrl":"https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/receiving-code-review","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-10T00:28:04Z","fileCount":2,"bytes":7273,"sha256":"091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/receiving-code-review/SKILL.md","bytes":6203,"sha256":"091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438","mode":420,"url":"https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/receiving-code-review/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1070,"sha256":"a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400","mode":420,"url":"https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/LICENSE"}],"archiveSha256":"e623a9d67faa34d525c0046d3ffa3fc54543dc4a4fec490998285d0dd5b05f86"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "obra--superpowers--receiving-code-review",
+    "name": "receiving-code-review",
+    "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+    "category": "Development",
+    "tags": [
+      "receiving",
+      "code",
+      "review",
+      "when",
+      "feedback",
+      "before",
+      "implementing",
+      "suggestions",
+      "especially",
+      "if",
+      "seems",
+      "unclear",
+      "technically",
+      "questionable",
+      "requires",
+      "technical",
+      "rigor",
+      "verification"
+    ],
+    "repo": "obra/superpowers",
+    "owner": "obra",
+    "stars": 297960,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "skills/receiving-code-review",
+    "sourceUrl": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/receiving-code-review",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-10T00:28:04Z",
+    "fileCount": 2,
+    "bytes": 7273,
+    "sha256": "091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/receiving-code-review/SKILL.md",
+      "bytes": 6203,
+      "sha256": "091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/receiving-code-review/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1070,
+      "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/LICENSE"
+    }
+  ],
+  "archiveSha256": "e623a9d67faa34d525c0046d3ffa3fc54543dc4a4fec490998285d0dd5b05f86"
+}

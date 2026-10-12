@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--usage-based-pricing","name":"usage-based-pricing","description":"Design pricing models that developers understand, accept, and can predict. Trigger phrases: usage-based pricing, API pricing, metered billing, developer pricing, pricing page, cost calculator, pay as you go, pricing transparency, competitive pricing, developer billing","category":"Design","tags":["usage","based","pricing","design","models","developers","understand","accept","predict.","trigger","phrases","api","metered","billing","developer","page","cost","calculator"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/usage-based-pricing","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/usage-based-pricing","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":4,"bytes":17488,"sha256":"c514fa31e44198ea16a2de598c1c29776ba1ac07ae647728b7eee30093c236f2","historical":false},"files":[{"path":"README.md","sourcePath":"skills/usage-based-pricing/README.md","bytes":1397,"sha256":"654bbc4056634329bfd95287aff2b6cbb767405ad284419d4333c61b6943017d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/usage-based-pricing/README.md"},{"path":"SKILL.md","sourcePath":"skills/usage-based-pricing/SKILL.md","bytes":4860,"sha256":"c514fa31e44198ea16a2de598c1c29776ba1ac07ae647728b7eee30093c236f2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/usage-based-pricing/SKILL.md"},{"path":"references/detailed-guide.md","sourcePath":"skills/usage-based-pricing/references/detailed-guide.md","bytes":10158,"sha256":"7c45721993e23352b3318bc32b03580e92fa87bb799afc34522c2bf75de3c8cd","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/usage-based-pricing/references/detailed-guide.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"f1ab5cf3c036005b99e3999ebc55f2ced6a6bed273b7ac3024f8fbd7f8481d2c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--usage-based-pricing",
+    "name": "usage-based-pricing",
+    "description": "Design pricing models that developers understand, accept, and can predict. Trigger phrases: usage-based pricing, API pricing, metered billing, developer pricing, pricing page, cost calculator, pay as you go, pricing transparency, competitive pricing, developer billing",
+    "category": "Design",
+    "tags": [
+      "usage",
+      "based",
+      "pricing",
+      "design",
+      "models",
+      "developers",
+      "understand",
+      "accept",
+      "predict.",
+      "trigger",
+      "phrases",
+      "api",
+      "metered",
+      "billing",
+      "developer",
+      "page",
+      "cost",
+      "calculator"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/usage-based-pricing",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/usage-based-pricing",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 4,
+    "bytes": 17488,
+    "sha256": "c514fa31e44198ea16a2de598c1c29776ba1ac07ae647728b7eee30093c236f2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sourcePath": "skills/usage-based-pricing/README.md",
+      "bytes": 1397,
+      "sha256": "654bbc4056634329bfd95287aff2b6cbb767405ad284419d4333c61b6943017d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/usage-based-pricing/README.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/usage-based-pricing/SKILL.md",
+      "bytes": 4860,
+      "sha256": "c514fa31e44198ea16a2de598c1c29776ba1ac07ae647728b7eee30093c236f2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/usage-based-pricing/SKILL.md"
+    },
+    {
+      "path": "references/detailed-guide.md",
+      "sourcePath": "skills/usage-based-pricing/references/detailed-guide.md",
+      "bytes": 10158,
+      "sha256": "7c45721993e23352b3318bc32b03580e92fa87bb799afc34522c2bf75de3c8cd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/usage-based-pricing/references/detailed-guide.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "f1ab5cf3c036005b99e3999ebc55f2ced6a6bed273b7ac3024f8fbd7f8481d2c"
+}

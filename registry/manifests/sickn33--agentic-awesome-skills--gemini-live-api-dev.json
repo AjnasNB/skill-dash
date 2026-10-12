@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--gemini-live-api-dev","name":"gemini-live-api-dev","description":"Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API.","category":"Development","tags":["gemini","live","api","dev","skill","when","building","real","time","bidirectional","streaming","applications","api."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/gemini-live-api-dev","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gemini-live-api-dev","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":15808,"sha256":"5c8c7d2bdde7f1f42a57ef7acee1370ae10b8091e75fee8e5413cce6abd06db2","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/gemini-live-api-dev/SKILL.md","bytes":14735,"sha256":"5c8c7d2bdde7f1f42a57ef7acee1370ae10b8091e75fee8e5413cce6abd06db2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gemini-live-api-dev/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"b8f66b9254d68ebbb8a8aa83b1661bbe3d0324e088856bcf76fb47ff68d0ce47"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--gemini-live-api-dev",
+    "name": "gemini-live-api-dev",
+    "description": "Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API.",
+    "category": "Development",
+    "tags": [
+      "gemini",
+      "live",
+      "api",
+      "dev",
+      "skill",
+      "when",
+      "building",
+      "real",
+      "time",
+      "bidirectional",
+      "streaming",
+      "applications",
+      "api."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/gemini-live-api-dev",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gemini-live-api-dev",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 15808,
+    "sha256": "5c8c7d2bdde7f1f42a57ef7acee1370ae10b8091e75fee8e5413cce6abd06db2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/gemini-live-api-dev/SKILL.md",
+      "bytes": 14735,
+      "sha256": "5c8c7d2bdde7f1f42a57ef7acee1370ae10b8091e75fee8e5413cce6abd06db2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gemini-live-api-dev/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "b8f66b9254d68ebbb8a8aa83b1661bbe3d0324e088856bcf76fb47ff68d0ce47"
+}

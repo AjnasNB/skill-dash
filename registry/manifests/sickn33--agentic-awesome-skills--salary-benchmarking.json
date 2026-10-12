@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--salary-benchmarking","name":"salary-benchmarking","description":"Salary benchmark register: role, department and grade against market and internal minimum, median and maximum. Use for compensation review.","category":"Development","tags":["salary","benchmarking","benchmark","register","role","department","grade","against","market","internal","minimum","median","maximum.","compensation","review."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/salary-benchmarking","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/salary-benchmarking","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":14852,"sha256":"b3a110c4afb40ae039dd452f5a596596eef1cddd77911b64febf7c4410361a4e","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/salary-benchmarking/SKILL.md","bytes":13779,"sha256":"b3a110c4afb40ae039dd452f5a596596eef1cddd77911b64febf7c4410361a4e","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/salary-benchmarking/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"b9035448052566d4f786f0a52cc63ec9fd91159cd5734afdca0da436c0abd748"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--salary-benchmarking",
+    "name": "salary-benchmarking",
+    "description": "Salary benchmark register: role, department and grade against market and internal minimum, median and maximum. Use for compensation review.",
+    "category": "Development",
+    "tags": [
+      "salary",
+      "benchmarking",
+      "benchmark",
+      "register",
+      "role",
+      "department",
+      "grade",
+      "against",
+      "market",
+      "internal",
+      "minimum",
+      "median",
+      "maximum.",
+      "compensation",
+      "review."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/salary-benchmarking",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/salary-benchmarking",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 14852,
+    "sha256": "b3a110c4afb40ae039dd452f5a596596eef1cddd77911b64febf7c4410361a4e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/salary-benchmarking/SKILL.md",
+      "bytes": 13779,
+      "sha256": "b3a110c4afb40ae039dd452f5a596596eef1cddd77911b64febf7c4410361a4e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/salary-benchmarking/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "b9035448052566d4f786f0a52cc63ec9fd91159cd5734afdca0da436c0abd748"
+}

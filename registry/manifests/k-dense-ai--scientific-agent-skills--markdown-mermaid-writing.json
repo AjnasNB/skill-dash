@@ -1,1 +1,360 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--markdown-mermaid-writing","name":"markdown-mermaid-writing","description":"Writes scientific Markdown documentation and Mermaid diagrams for workflows, relationships, timelines, and schemas. Provides syntax references, document templates, accessibility guidance, and version-aware rendering checks. Use when a user requests Markdown, Mermaid, or a text-based structural diagram; quantitative scientific figures require suitable plotting tools.","category":"Design","tags":["markdown","mermaid","writing","writes","scientific","documentation","diagrams","workflows","relationships","timelines","schemas.","provides","syntax","references","document","templates","accessibility","guidance"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/markdown-mermaid-writing","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":39,"bytes":295726,"sha256":"c28a9d602fc5b55e9fa80cff493b045bb70d3cec47e2288e38051744337214c4","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/markdown-mermaid-writing/SKILL.md","bytes":16691,"sha256":"c28a9d602fc5b55e9fa80cff493b045bb70d3cec47e2288e38051744337214c4","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/SKILL.md"},{"path":"assets/examples/example-research-report.md","sourcePath":"skills/markdown-mermaid-writing/assets/examples/example-research-report.md","bytes":3509,"sha256":"af5844d2f8b2972d96ad85218b479367b1fa99cd718bd23be6027266079ec7de","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/assets/examples/example-research-report.md"},{"path":"references/current-rendering.md","sourcePath":"skills/markdown-mermaid-writing/references/current-rendering.md","bytes":7744,"sha256":"03b96222d08fffb254a1828f301af4ce8ebe099c9bc380ab21ad59888e0d3d51","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/current-rendering.md"},{"path":"references/diagrams/architecture.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/architecture.md","bytes":5092,"sha256":"b246d31c1b99d41a795d7df1c451b77f8bd1cf584561471bc3cd8874b3199376","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/architecture.md"},{"path":"references/diagrams/block.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/block.md","bytes":5138,"sha256":"02b2a095b4c8c6845c1fd9d3a3ca917113746517dcd224107f6c9c6bede8221c","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/block.md"},{"path":"references/diagrams/c4.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/c4.md","bytes":6815,"sha256":"2f815d518f8715fa2968566c88edd146f760f33db3299704ff15614ec50df2d5","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/c4.md"},{"path":"references/diagrams/class.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/class.md","bytes":8840,"sha256":"496286c007ab15dc5e875ff7e30ca2a2e6b69d8cf46bce4330a3e92eb9810c8b","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/class.md"},{"path":"references/diagrams/complex_examples.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/complex_examples.md","bytes":17248,"sha256":"1eddefc2e1e2717ac813b3488a1355fa9585b496c5d7bc9606121924c73b3c73","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/complex_examples.md"},{"path":"references/diagrams/er.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/er.md","bytes":8237,"sha256":"2086906f3c002837c5508205a81acc93cc2cc6166cea96d62f3836153a71f76e","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/er.md"},{"path":"references/diagrams/flowchart.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/flowchart.md","bytes":7203,"sha256":"be90231d635aea2645fefd86c108a3a0f819e74929e30afe5b670702265e368e","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/flowchart.md"},{"path":"references/diagrams/gantt.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/gantt.md","bytes":6101,"sha256":"c05da4e62a02f4ae4d01995a0de4272cc04f7609408d9ecc08345b1ff6e65914","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/gantt.md"},{"path":"references/diagrams/git_graph.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/git_graph.md","bytes":2294,"sha256":"5992286cc0ac0b16020ef71fccb074eeb9b5c70d874fc08ef1b07672f550645e","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/git_graph.md"},{"path":"references/diagrams/kanban.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/kanban.md","bytes":4047,"sha256":"acd582211a09ba799445a0d1fc7fb710149cd46ea71e4f17509ffce7733f142f","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/kanban.md"},{"path":"references/diagrams/mindmap.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/mindmap.md","bytes":2516,"sha256":"79bbffa9faff776f832a77d7fbe29530b3f3aa45c60e08176e621c39c824dcee","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/mindmap.md"},{"path":"references/diagrams/packet.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/packet.md","bytes":2485,"sha256":"6d17b2b9dcb24d78538b3d14d06a53c51a06d5b7b81a191c1c923d85f90f07d2","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/packet.md"},{"path":"references/diagrams/pie.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/pie.md","bytes":1961,"sha256":"5c23d5928eea6cfaf3d6cdd7fc0306403abf8a1d5394dfea2d5f64bc30bc5f99","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/pie.md"},{"path":"references/diagrams/quadrant.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/quadrant.md","bytes":2702,"sha256":"14977d2d10cd6255afad2f9e6db92f21ece23cf50b0595928877a84125e340c6","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/quadrant.md"},{"path":"references/diagrams/radar.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/radar.md","bytes":2851,"sha256":"37bd437a3b99782b3a2adb5cbc7a9d888e99508f25539fbad53aa2ca12a9f03d","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/radar.md"},{"path":"references/diagrams/requirement.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/requirement.md","bytes":3121,"sha256":"37da70b91532bf1c71925b75c1fe5424cb1637726765f285c7ee059231916941","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/requirement.md"},{"path":"references/diagrams/sankey.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/sankey.md","bytes":2691,"sha256":"28446f926580846fe9dffd8fc19d08d69aab010793520b2b41045a5e0d5e57e3","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/sankey.md"},{"path":"references/diagrams/sequence.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/sequence.md","bytes":6052,"sha256":"7eb7c9d4822de94a8c2e0fce23cd3c98a4eabfd72969ac1db5b774ba981ac1b0","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/sequence.md"},{"path":"references/diagrams/state.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/state.md","bytes":5822,"sha256":"6f4932b9e0f8b52eb1e364e54ce79d5051facf0706b8832d2fa1ec61b1c3d4dd","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/state.md"},{"path":"references/diagrams/timeline.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/timeline.md","bytes":4583,"sha256":"54989d17d5636c8cb4a32cd256f58857d63a78928d2b06a7bc204cd4bdbaca6c","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/timeline.md"},{"path":"references/diagrams/treemap.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/treemap.md","bytes":2652,"sha256":"2a52475aa915d9173ec506c8b71500ea8e6ebea48663c742c2a9b0d0b8c2e56d","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/treemap.md"},{"path":"references/diagrams/user_journey.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/user_journey.md","bytes":5302,"sha256":"3e04d3e557732cd90f841e142f43bdb70d255bc9c7b9d148a609014aca56ca0f","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/user_journey.md"},{"path":"references/diagrams/xy_chart.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/xy_chart.md","bytes":2655,"sha256":"642910cf5949017f15dfe8ecf46564e0697427072f66eebbcb33d8c0a35232c0","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/xy_chart.md"},{"path":"references/diagrams/zenuml.md","sourcePath":"skills/markdown-mermaid-writing/references/diagrams/zenuml.md","bytes":2568,"sha256":"319efbe76fd336bc4049f20a3139e51f3d4df6be2fcea421b85e4ca8c7e6441a","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/zenuml.md"},{"path":"references/markdown_style_guide.md","sourcePath":"skills/markdown-mermaid-writing/references/markdown_style_guide.md","bytes":33195,"sha256":"ecc85928c8ebcb4bbfd46556bb37269061e6f58504dfe3ffbaf29b7788d64248","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/markdown_style_guide.md"},{"path":"references/mermaid_style_guide.md","sourcePath":"skills/markdown-mermaid-writing/references/mermaid_style_guide.md","bytes":27258,"sha256":"083ce0070bf3d8b4e64d9b946ab6eaec908168f0a3bb77926d720a4f767feaef","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/mermaid_style_guide.md"},{"path":"templates/decision_record.md","sourcePath":"skills/markdown-mermaid-writing/templates/decision_record.md","bytes":7323,"sha256":"da314705b15a2c4bb9fb6150222f9db5e8229da275481c4acfc9e8c7a0afdbbc","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/templates/decision_record.md"},{"path":"templates/how_to_guide.md","sourcePath":"skills/markdown-mermaid-writing/templates/how_to_guide.md","bytes":7295,"sha256":"1363b28cc6edd59f68ca81efe6e8723ad43008283acad23dcda45fa0e8c30848","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/templates/how_to_guide.md"},{"path":"templates/issue.md","sourcePath":"skills/markdown-mermaid-writing/templates/issue.md","bytes":11915,"sha256":"3ec84341c5a923f1dc9066e1c346533c7021602a6a8b17252d51dd4f40d0d1ec","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/templates/issue.md"},{"path":"templates/kanban.md","sourcePath":"skills/markdown-mermaid-writing/templates/kanban.md","bytes":10826,"sha256":"213df6f39e2ef3e253b98fe6c3688322bb78e88f0f89d9cdbd23933774bc21e2","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/templates/kanban.md"},{"path":"templates/presentation.md","sourcePath":"skills/markdown-mermaid-writing/templates/presentation.md","bytes":8303,"sha256":"13494ab83e242fd4cb9fb3110d87a4f8aadcc8a4f520cb16acca4d8fdb8875cf","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/templates/presentation.md"},{"path":"templates/project_documentation.md","sourcePath":"skills/markdown-mermaid-writing/templates/project_documentation.md","bytes":11795,"sha256":"58da34425cabac1b859e8f43916bad215232e60ecefe031a959b729c1549f9df","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/templates/project_documentation.md"},{"path":"templates/pull_request.md","sourcePath":"skills/markdown-mermaid-writing/templates/pull_request.md","bytes":12131,"sha256":"18828f680999f39bdb6f7ae7c175af507dbe945363f16962ddd019958751c499","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/templates/pull_request.md"},{"path":"templates/research_paper.md","sourcePath":"skills/markdown-mermaid-writing/templates/research_paper.md","bytes":10361,"sha256":"c795783bfde5fa07ccb29159ff5129d5ea0888d827cfa50548a9101e8c177c29","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/templates/research_paper.md"},{"path":"templates/status_report.md","sourcePath":"skills/markdown-mermaid-writing/templates/status_report.md","bytes":7336,"sha256":"2cdf785affe8831d2fa1cb6e87cf33afbb5c3cb056575aa5ecb2b8b6bfbe3152","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/templates/status_report.md"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"44aa4434d80c0c4be6a6d840ddaf958741ee63ed67a5f3c67cd6e60978fbcb6d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--markdown-mermaid-writing",
+    "name": "markdown-mermaid-writing",
+    "description": "Writes scientific Markdown documentation and Mermaid diagrams for workflows, relationships, timelines, and schemas. Provides syntax references, document templates, accessibility guidance, and version-aware rendering checks. Use when a user requests Markdown, Mermaid, or a text-based structural diagram; quantitative scientific figures require suitable plotting tools.",
+    "category": "Design",
+    "tags": [
+      "markdown",
+      "mermaid",
+      "writing",
+      "writes",
+      "scientific",
+      "documentation",
+      "diagrams",
+      "workflows",
+      "relationships",
+      "timelines",
+      "schemas.",
+      "provides",
+      "syntax",
+      "references",
+      "document",
+      "templates",
+      "accessibility",
+      "guidance"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/markdown-mermaid-writing",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 39,
+    "bytes": 295726,
+    "sha256": "c28a9d602fc5b55e9fa80cff493b045bb70d3cec47e2288e38051744337214c4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/markdown-mermaid-writing/SKILL.md",
+      "bytes": 16691,
+      "sha256": "c28a9d602fc5b55e9fa80cff493b045bb70d3cec47e2288e38051744337214c4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/SKILL.md"
+    },
+    {
+      "path": "assets/examples/example-research-report.md",
+      "sourcePath": "skills/markdown-mermaid-writing/assets/examples/example-research-report.md",
+      "bytes": 3509,
+      "sha256": "af5844d2f8b2972d96ad85218b479367b1fa99cd718bd23be6027266079ec7de",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/assets/examples/example-research-report.md"
+    },
+    {
+      "path": "references/current-rendering.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/current-rendering.md",
+      "bytes": 7744,
+      "sha256": "03b96222d08fffb254a1828f301af4ce8ebe099c9bc380ab21ad59888e0d3d51",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/current-rendering.md"
+    },
+    {
+      "path": "references/diagrams/architecture.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/architecture.md",
+      "bytes": 5092,
+      "sha256": "b246d31c1b99d41a795d7df1c451b77f8bd1cf584561471bc3cd8874b3199376",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/architecture.md"
+    },
+    {
+      "path": "references/diagrams/block.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/block.md",
+      "bytes": 5138,
+      "sha256": "02b2a095b4c8c6845c1fd9d3a3ca917113746517dcd224107f6c9c6bede8221c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/block.md"
+    },
+    {
+      "path": "references/diagrams/c4.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/c4.md",
+      "bytes": 6815,
+      "sha256": "2f815d518f8715fa2968566c88edd146f760f33db3299704ff15614ec50df2d5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/c4.md"
+    },
+    {
+      "path": "references/diagrams/class.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/class.md",
+      "bytes": 8840,
+      "sha256": "496286c007ab15dc5e875ff7e30ca2a2e6b69d8cf46bce4330a3e92eb9810c8b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/class.md"
+    },
+    {
+      "path": "references/diagrams/complex_examples.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/complex_examples.md",
+      "bytes": 17248,
+      "sha256": "1eddefc2e1e2717ac813b3488a1355fa9585b496c5d7bc9606121924c73b3c73",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/complex_examples.md"
+    },
+    {
+      "path": "references/diagrams/er.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/er.md",
+      "bytes": 8237,
+      "sha256": "2086906f3c002837c5508205a81acc93cc2cc6166cea96d62f3836153a71f76e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/er.md"
+    },
+    {
+      "path": "references/diagrams/flowchart.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/flowchart.md",
+      "bytes": 7203,
+      "sha256": "be90231d635aea2645fefd86c108a3a0f819e74929e30afe5b670702265e368e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/flowchart.md"
+    },
+    {
+      "path": "references/diagrams/gantt.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/gantt.md",
+      "bytes": 6101,
+      "sha256": "c05da4e62a02f4ae4d01995a0de4272cc04f7609408d9ecc08345b1ff6e65914",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/gantt.md"
+    },
+    {
+      "path": "references/diagrams/git_graph.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/git_graph.md",
+      "bytes": 2294,
+      "sha256": "5992286cc0ac0b16020ef71fccb074eeb9b5c70d874fc08ef1b07672f550645e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/git_graph.md"
+    },
+    {
+      "path": "references/diagrams/kanban.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/kanban.md",
+      "bytes": 4047,
+      "sha256": "acd582211a09ba799445a0d1fc7fb710149cd46ea71e4f17509ffce7733f142f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/kanban.md"
+    },
+    {
+      "path": "references/diagrams/mindmap.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/mindmap.md",
+      "bytes": 2516,
+      "sha256": "79bbffa9faff776f832a77d7fbe29530b3f3aa45c60e08176e621c39c824dcee",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/mindmap.md"
+    },
+    {
+      "path": "references/diagrams/packet.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/packet.md",
+      "bytes": 2485,
+      "sha256": "6d17b2b9dcb24d78538b3d14d06a53c51a06d5b7b81a191c1c923d85f90f07d2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/packet.md"
+    },
+    {
+      "path": "references/diagrams/pie.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/pie.md",
+      "bytes": 1961,
+      "sha256": "5c23d5928eea6cfaf3d6cdd7fc0306403abf8a1d5394dfea2d5f64bc30bc5f99",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/pie.md"
+    },
+    {
+      "path": "references/diagrams/quadrant.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/quadrant.md",
+      "bytes": 2702,
+      "sha256": "14977d2d10cd6255afad2f9e6db92f21ece23cf50b0595928877a84125e340c6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/quadrant.md"
+    },
+    {
+      "path": "references/diagrams/radar.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/radar.md",
+      "bytes": 2851,
+      "sha256": "37bd437a3b99782b3a2adb5cbc7a9d888e99508f25539fbad53aa2ca12a9f03d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/radar.md"
+    },
+    {
+      "path": "references/diagrams/requirement.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/requirement.md",
+      "bytes": 3121,
+      "sha256": "37da70b91532bf1c71925b75c1fe5424cb1637726765f285c7ee059231916941",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/requirement.md"
+    },
+    {
+      "path": "references/diagrams/sankey.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/sankey.md",
+      "bytes": 2691,
+      "sha256": "28446f926580846fe9dffd8fc19d08d69aab010793520b2b41045a5e0d5e57e3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/sankey.md"
+    },
+    {
+      "path": "references/diagrams/sequence.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/sequence.md",
+      "bytes": 6052,
+      "sha256": "7eb7c9d4822de94a8c2e0fce23cd3c98a4eabfd72969ac1db5b774ba981ac1b0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/sequence.md"
+    },
+    {
+      "path": "references/diagrams/state.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/state.md",
+      "bytes": 5822,
+      "sha256": "6f4932b9e0f8b52eb1e364e54ce79d5051facf0706b8832d2fa1ec61b1c3d4dd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/state.md"
+    },
+    {
+      "path": "references/diagrams/timeline.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/timeline.md",
+      "bytes": 4583,
+      "sha256": "54989d17d5636c8cb4a32cd256f58857d63a78928d2b06a7bc204cd4bdbaca6c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/timeline.md"
+    },
+    {
+      "path": "references/diagrams/treemap.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/treemap.md",
+      "bytes": 2652,
+      "sha256": "2a52475aa915d9173ec506c8b71500ea8e6ebea48663c742c2a9b0d0b8c2e56d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/treemap.md"
+    },
+    {
+      "path": "references/diagrams/user_journey.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/user_journey.md",
+      "bytes": 5302,
+      "sha256": "3e04d3e557732cd90f841e142f43bdb70d255bc9c7b9d148a609014aca56ca0f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/user_journey.md"
+    },
+    {
+      "path": "references/diagrams/xy_chart.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/xy_chart.md",
+      "bytes": 2655,
+      "sha256": "642910cf5949017f15dfe8ecf46564e0697427072f66eebbcb33d8c0a35232c0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/xy_chart.md"
+    },
+    {
+      "path": "references/diagrams/zenuml.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/diagrams/zenuml.md",
+      "bytes": 2568,
+      "sha256": "319efbe76fd336bc4049f20a3139e51f3d4df6be2fcea421b85e4ca8c7e6441a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/diagrams/zenuml.md"
+    },
+    {
+      "path": "references/markdown_style_guide.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/markdown_style_guide.md",
+      "bytes": 33195,
+      "sha256": "ecc85928c8ebcb4bbfd46556bb37269061e6f58504dfe3ffbaf29b7788d64248",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/markdown_style_guide.md"
+    },
+    {
+      "path": "references/mermaid_style_guide.md",
+      "sourcePath": "skills/markdown-mermaid-writing/references/mermaid_style_guide.md",
+      "bytes": 27258,
+      "sha256": "083ce0070bf3d8b4e64d9b946ab6eaec908168f0a3bb77926d720a4f767feaef",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/references/mermaid_style_guide.md"
+    },
+    {
+      "path": "templates/decision_record.md",
+      "sourcePath": "skills/markdown-mermaid-writing/templates/decision_record.md",
+      "bytes": 7323,
+      "sha256": "da314705b15a2c4bb9fb6150222f9db5e8229da275481c4acfc9e8c7a0afdbbc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/templates/decision_record.md"
+    },
+    {
+      "path": "templates/how_to_guide.md",
+      "sourcePath": "skills/markdown-mermaid-writing/templates/how_to_guide.md",
+      "bytes": 7295,
+      "sha256": "1363b28cc6edd59f68ca81efe6e8723ad43008283acad23dcda45fa0e8c30848",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/templates/how_to_guide.md"
+    },
+    {
+      "path": "templates/issue.md",
+      "sourcePath": "skills/markdown-mermaid-writing/templates/issue.md",
+      "bytes": 11915,
+      "sha256": "3ec84341c5a923f1dc9066e1c346533c7021602a6a8b17252d51dd4f40d0d1ec",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/templates/issue.md"
+    },
+    {
+      "path": "templates/kanban.md",
+      "sourcePath": "skills/markdown-mermaid-writing/templates/kanban.md",
+      "bytes": 10826,
+      "sha256": "213df6f39e2ef3e253b98fe6c3688322bb78e88f0f89d9cdbd23933774bc21e2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/templates/kanban.md"
+    },
+    {
+      "path": "templates/presentation.md",
+      "sourcePath": "skills/markdown-mermaid-writing/templates/presentation.md",
+      "bytes": 8303,
+      "sha256": "13494ab83e242fd4cb9fb3110d87a4f8aadcc8a4f520cb16acca4d8fdb8875cf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/templates/presentation.md"
+    },
+    {
+      "path": "templates/project_documentation.md",
+      "sourcePath": "skills/markdown-mermaid-writing/templates/project_documentation.md",
+      "bytes": 11795,
+      "sha256": "58da34425cabac1b859e8f43916bad215232e60ecefe031a959b729c1549f9df",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/templates/project_documentation.md"
+    },
+    {
+      "path": "templates/pull_request.md",
+      "sourcePath": "skills/markdown-mermaid-writing/templates/pull_request.md",
+      "bytes": 12131,
+      "sha256": "18828f680999f39bdb6f7ae7c175af507dbe945363f16962ddd019958751c499",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/templates/pull_request.md"
+    },
+    {
+      "path": "templates/research_paper.md",
+      "sourcePath": "skills/markdown-mermaid-writing/templates/research_paper.md",
+      "bytes": 10361,
+      "sha256": "c795783bfde5fa07ccb29159ff5129d5ea0888d827cfa50548a9101e8c177c29",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/templates/research_paper.md"
+    },
+    {
+      "path": "templates/status_report.md",
+      "sourcePath": "skills/markdown-mermaid-writing/templates/status_report.md",
+      "bytes": 7336,
+      "sha256": "2cdf785affe8831d2fa1cb6e87cf33afbb5c3cb056575aa5ecb2b8b6bfbe3152",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/markdown-mermaid-writing/templates/status_report.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "44aa4434d80c0c4be6a6d840ddaf958741ee63ed67a5f3c67cd6e60978fbcb6d"
+}

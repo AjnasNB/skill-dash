@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-dns-logs-for-exfiltration","name":"analyzing-dns-logs-for-exfiltration","description":"Analyzes DNS query logs to detect data exfiltration via DNS tunneling, DGA domain communication, and covert C2 channels using entropy analysis, query volume anomalies, and subdomain length detection in SIEM platforms. Use when SOC teams need to identify DNS-based threats that bypass traditional network security controls.","category":"Security","tags":["analyzing","dns","logs","exfiltration","analyzes","query","detect","data","via","tunneling","dga","domain","communication","covert","c2","channels","entropy","analysis"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-dns-logs-for-exfiltration/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-dns-logs-for-exfiltration","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-dns-logs-for-exfiltration","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":34212,"sha256":"f09f70a215a88418c7a46b44c91160107395e1bc2f416f26516e0f4f7ae040b0","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-dns-logs-for-exfiltration/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-dns-logs-for-exfiltration/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-dns-logs-for-exfiltration/SKILL.md","bytes":11545,"sha256":"f09f70a215a88418c7a46b44c91160107395e1bc2f416f26516e0f4f7ae040b0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-dns-logs-for-exfiltration/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-dns-logs-for-exfiltration/references/api-reference.md","bytes":2708,"sha256":"e2b7e03b840bfca51041eccf89a2472a65926420ca959eff3cc09f24cec11d00","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-dns-logs-for-exfiltration/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-dns-logs-for-exfiltration/scripts/agent.py","bytes":8704,"sha256":"7527d8c4a14cf3e532ebde0f9e315c6922b6998ee62dcdbd416b268e7f80f8ac","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-dns-logs-for-exfiltration/scripts/agent.py"}],"archiveSha256":"b343af922b5abd68c3efa96aa68ebab24be47ecaf213fb614768dd4ab53b0778"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-dns-logs-for-exfiltration",
+    "name": "analyzing-dns-logs-for-exfiltration",
+    "description": "Analyzes DNS query logs to detect data exfiltration via DNS tunneling, DGA domain communication, and covert C2 channels using entropy analysis, query volume anomalies, and subdomain length detection in SIEM platforms. Use when SOC teams need to identify DNS-based threats that bypass traditional network security controls.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "dns",
+      "logs",
+      "exfiltration",
+      "analyzes",
+      "query",
+      "detect",
+      "data",
+      "via",
+      "tunneling",
+      "dga",
+      "domain",
+      "communication",
+      "covert",
+      "c2",
+      "channels",
+      "entropy",
+      "analysis"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-dns-logs-for-exfiltration/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-dns-logs-for-exfiltration",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-dns-logs-for-exfiltration",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34212,
+    "sha256": "f09f70a215a88418c7a46b44c91160107395e1bc2f416f26516e0f4f7ae040b0",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-dns-logs-for-exfiltration/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-dns-logs-for-exfiltration/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-dns-logs-for-exfiltration/SKILL.md",
+      "bytes": 11545,
+      "sha256": "f09f70a215a88418c7a46b44c91160107395e1bc2f416f26516e0f4f7ae040b0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-dns-logs-for-exfiltration/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-dns-logs-for-exfiltration/references/api-reference.md",
+      "bytes": 2708,
+      "sha256": "e2b7e03b840bfca51041eccf89a2472a65926420ca959eff3cc09f24cec11d00",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-dns-logs-for-exfiltration/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-dns-logs-for-exfiltration/scripts/agent.py",
+      "bytes": 8704,
+      "sha256": "7527d8c4a14cf3e532ebde0f9e315c6922b6998ee62dcdbd416b268e7f80f8ac",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-dns-logs-for-exfiltration/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "b343af922b5abd68c3efa96aa68ebab24be47ecaf213fb614768dd4ab53b0778"
+}

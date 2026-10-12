@@ -1,1 +1,56 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--cloudflare-zero-trust","name":"cloudflare-zero-trust","description":"Protect internal apps with Cloudflare Access, device posture, and Zero Trust policies.","category":"Security","tags":["cloudflare","zero","trust","protect","internal","apps","access","device","posture","policies."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/cloudflare-zero-trust","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cloudflare-zero-trust","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12281,"sha256":"c75a2e32dfa56d9e32f51fb1bf844cd1b47da15f2395083bece4a29cfde34796","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/cloudflare-zero-trust/SKILL.md","bytes":11208,"sha256":"c75a2e32dfa56d9e32f51fb1bf844cd1b47da15f2395083bece4a29cfde34796","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cloudflare-zero-trust/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"8b82785137e3d28eeb3514e2edcde2d42daa2d684c033b9795f3418fd910f5a4"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--cloudflare-zero-trust",
+    "name": "cloudflare-zero-trust",
+    "description": "Protect internal apps with Cloudflare Access, device posture, and Zero Trust policies.",
+    "category": "Security",
+    "tags": [
+      "cloudflare",
+      "zero",
+      "trust",
+      "protect",
+      "internal",
+      "apps",
+      "access",
+      "device",
+      "posture",
+      "policies."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/cloudflare-zero-trust",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cloudflare-zero-trust",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12281,
+    "sha256": "c75a2e32dfa56d9e32f51fb1bf844cd1b47da15f2395083bece4a29cfde34796",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/cloudflare-zero-trust/SKILL.md",
+      "bytes": 11208,
+      "sha256": "c75a2e32dfa56d9e32f51fb1bf844cd1b47da15f2395083bece4a29cfde34796",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/cloudflare-zero-trust/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "8b82785137e3d28eeb3514e2edcde2d42daa2d684c033b9795f3418fd910f5a4"
+}

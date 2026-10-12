@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-slack-space-and-file-system-artifacts","name":"analyzing-slack-space-and-file-system-artifacts","description":"Examine NTFS slack space, MFT entries, the USN Change Journal, and Alternate Data Streams (ADS) to recover hidden or residual data, reconstruct deleted-file metadata, and reconstruct available file-system change activity from USN records. Use during deep forensic analysis of an NTFS image when standard file recovery is insufficient, such as hunting for data hidden in ADS.","category":"Security","tags":["analyzing","slack","space","file","system","artifacts","examine","ntfs","mft","entries","usn","change","journal","alternate","data","streams","ads","recover"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-slack-space-and-file-system-artifacts/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-slack-space-and-file-system-artifacts","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-slack-space-and-file-system-artifacts","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":34704,"sha256":"06ec8630ca23bd3bd15cf01ea2ec0fd32a965270854515fca11ab86ea043e233","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-slack-space-and-file-system-artifacts/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-slack-space-and-file-system-artifacts/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-slack-space-and-file-system-artifacts/SKILL.md","bytes":14836,"sha256":"06ec8630ca23bd3bd15cf01ea2ec0fd32a965270854515fca11ab86ea043e233","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-slack-space-and-file-system-artifacts/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-slack-space-and-file-system-artifacts/references/api-reference.md","bytes":1933,"sha256":"41bc818a3829c6faa92ababf684109f57165da29c964137efad015001d623398","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-slack-space-and-file-system-artifacts/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-slack-space-and-file-system-artifacts/scripts/agent.py","bytes":6680,"sha256":"80ce450f1c0556db758eae1c0e699979229d8e4ed5d9ee1e4648da8255f57ee0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-slack-space-and-file-system-artifacts/scripts/agent.py"}],"archiveSha256":"41da2b233035a486d9640fa8f278881fa91d39c1e932820208fc7698a37d9693"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-slack-space-and-file-system-artifacts",
+    "name": "analyzing-slack-space-and-file-system-artifacts",
+    "description": "Examine NTFS slack space, MFT entries, the USN Change Journal, and Alternate Data Streams (ADS) to recover hidden or residual data, reconstruct deleted-file metadata, and reconstruct available file-system change activity from USN records. Use during deep forensic analysis of an NTFS image when standard file recovery is insufficient, such as hunting for data hidden in ADS.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "slack",
+      "space",
+      "file",
+      "system",
+      "artifacts",
+      "examine",
+      "ntfs",
+      "mft",
+      "entries",
+      "usn",
+      "change",
+      "journal",
+      "alternate",
+      "data",
+      "streams",
+      "ads",
+      "recover"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-slack-space-and-file-system-artifacts/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-slack-space-and-file-system-artifacts",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-slack-space-and-file-system-artifacts",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34704,
+    "sha256": "06ec8630ca23bd3bd15cf01ea2ec0fd32a965270854515fca11ab86ea043e233",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-slack-space-and-file-system-artifacts/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-slack-space-and-file-system-artifacts/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-slack-space-and-file-system-artifacts/SKILL.md",
+      "bytes": 14836,
+      "sha256": "06ec8630ca23bd3bd15cf01ea2ec0fd32a965270854515fca11ab86ea043e233",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-slack-space-and-file-system-artifacts/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-slack-space-and-file-system-artifacts/references/api-reference.md",
+      "bytes": 1933,
+      "sha256": "41bc818a3829c6faa92ababf684109f57165da29c964137efad015001d623398",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-slack-space-and-file-system-artifacts/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-slack-space-and-file-system-artifacts/scripts/agent.py",
+      "bytes": 6680,
+      "sha256": "80ce450f1c0556db758eae1c0e699979229d8e4ed5d9ee1e4648da8255f57ee0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-slack-space-and-file-system-artifacts/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "41da2b233035a486d9640fa8f278881fa91d39c1e932820208fc7698a37d9693"
+}

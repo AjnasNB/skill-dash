@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--dropthehassle-publish","name":"dropthehassle-publish","description":"Publish a finished static site to a free HTTPS link with DropTheHassle: build it if needed, deploy, hand over the claim link, verify it is live, never spend money.","category":"Cloud & DevOps","tags":["dropthehassle","publish","finished","static","site","free","https","link","it","if","needed","deploy","hand","over","claim","verify","is","live"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/dropthehassle-publish","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/dropthehassle-publish","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":8032,"sha256":"e06fdf6745bfefbbbd1a166fa935abffe087bb864a8e07f66b828bb285fc6f08","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/dropthehassle-publish/SKILL.md","bytes":6959,"sha256":"e06fdf6745bfefbbbd1a166fa935abffe087bb864a8e07f66b828bb285fc6f08","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/dropthehassle-publish/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"08a99542bc0bf77b679139e498e68db32b07bd94881d3985ff8d461b900521fb"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--dropthehassle-publish",
+    "name": "dropthehassle-publish",
+    "description": "Publish a finished static site to a free HTTPS link with DropTheHassle: build it if needed, deploy, hand over the claim link, verify it is live, never spend money.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "dropthehassle",
+      "publish",
+      "finished",
+      "static",
+      "site",
+      "free",
+      "https",
+      "link",
+      "it",
+      "if",
+      "needed",
+      "deploy",
+      "hand",
+      "over",
+      "claim",
+      "verify",
+      "is",
+      "live"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/dropthehassle-publish",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/dropthehassle-publish",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 8032,
+    "sha256": "e06fdf6745bfefbbbd1a166fa935abffe087bb864a8e07f66b828bb285fc6f08",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/dropthehassle-publish/SKILL.md",
+      "bytes": 6959,
+      "sha256": "e06fdf6745bfefbbbd1a166fa935abffe087bb864a8e07f66b828bb285fc6f08",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/dropthehassle-publish/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "08a99542bc0bf77b679139e498e68db32b07bd94881d3985ff8d461b900521fb"
+}

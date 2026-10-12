@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-mtls-for-zero-trust-services","name":"implementing-mtls-for-zero-trust-services","description":"Configures mutual TLS (mTLS) authentication between microservices using Python cryptography library for certificate generation and ssl module for TLS verification. Validates certificate chains, checks expiration, and audits mTLS deployment status. Use when implementing zero-trust service-to-service authentication.","category":"Security","tags":["implementing","mtls","zero","trust","services","configures","mutual","tls","authentication","between","microservices","python","cryptography","library","certificate","generation","ssl","module"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-mtls-for-zero-trust-services/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-mtls-for-zero-trust-services","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mtls-for-zero-trust-services","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":23856,"sha256":"d101ccb42b1853efd740ddfa53d5b2955ceeecc47395656831936d2f5198a9ae","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-mtls-for-zero-trust-services/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mtls-for-zero-trust-services/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-mtls-for-zero-trust-services/SKILL.md","bytes":2598,"sha256":"d101ccb42b1853efd740ddfa53d5b2955ceeecc47395656831936d2f5198a9ae","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mtls-for-zero-trust-services/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-mtls-for-zero-trust-services/references/api-reference.md","bytes":2033,"sha256":"52938052f59ba2d0b9a79668186c9122eb3ef0fe648a2e0bb6ec6b76c5d7ad8d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mtls-for-zero-trust-services/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-mtls-for-zero-trust-services/scripts/agent.py","bytes":7970,"sha256":"09bea1e9ddec7edfe3c69e6002accdf9712f7c8e9fc37f1af58ac25ad3b87cd3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mtls-for-zero-trust-services/scripts/agent.py"}],"archiveSha256":"54a6487b89eb450fda3480103fa9dbbc00d96b08468100b97a48d560098b0ee7"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-mtls-for-zero-trust-services",
+    "name": "implementing-mtls-for-zero-trust-services",
+    "description": "Configures mutual TLS (mTLS) authentication between microservices using Python cryptography library for certificate generation and ssl module for TLS verification. Validates certificate chains, checks expiration, and audits mTLS deployment status. Use when implementing zero-trust service-to-service authentication.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "mtls",
+      "zero",
+      "trust",
+      "services",
+      "configures",
+      "mutual",
+      "tls",
+      "authentication",
+      "between",
+      "microservices",
+      "python",
+      "cryptography",
+      "library",
+      "certificate",
+      "generation",
+      "ssl",
+      "module"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-mtls-for-zero-trust-services/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-mtls-for-zero-trust-services",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mtls-for-zero-trust-services",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 23856,
+    "sha256": "d101ccb42b1853efd740ddfa53d5b2955ceeecc47395656831936d2f5198a9ae",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-mtls-for-zero-trust-services/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mtls-for-zero-trust-services/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-mtls-for-zero-trust-services/SKILL.md",
+      "bytes": 2598,
+      "sha256": "d101ccb42b1853efd740ddfa53d5b2955ceeecc47395656831936d2f5198a9ae",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mtls-for-zero-trust-services/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-mtls-for-zero-trust-services/references/api-reference.md",
+      "bytes": 2033,
+      "sha256": "52938052f59ba2d0b9a79668186c9122eb3ef0fe648a2e0bb6ec6b76c5d7ad8d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mtls-for-zero-trust-services/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-mtls-for-zero-trust-services/scripts/agent.py",
+      "bytes": 7970,
+      "sha256": "09bea1e9ddec7edfe3c69e6002accdf9712f7c8e9fc37f1af58ac25ad3b87cd3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-mtls-for-zero-trust-services/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "54a6487b89eb450fda3480103fa9dbbc00d96b08468100b97a48d560098b0ee7"
+}

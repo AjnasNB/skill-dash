@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-insider-threat-behaviors","name":"detecting-insider-threat-behaviors","description":"Detect insider threat behavioral indicators including unusual data access, off-hours activity, mass file downloads, privilege abuse, and resignation-correlated data theft. Use when proactively threat-hunting for malicious or negligent insider activity, or when investigating a departing or disgruntled employee for potential data theft.","category":"Security","tags":["detecting","insider","threat","behaviors","detect","behavioral","indicators","including","unusual","data","access","off","hours","activity","mass","file","downloads","privilege"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-insider-threat-behaviors/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-insider-threat-behaviors","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-threat-behaviors","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":33722,"sha256":"5300384ddffa7f47c11efb59994b4022fbb978e8660721053394288d1e723a34","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-insider-threat-behaviors/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-threat-behaviors/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-insider-threat-behaviors/SKILL.md","bytes":3587,"sha256":"5300384ddffa7f47c11efb59994b4022fbb978e8660721053394288d1e723a34","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-threat-behaviors/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/detecting-insider-threat-behaviors/assets/template.md","bytes":2658,"sha256":"a8c1032cbd5bf2cb81423ff916ec08e9e104c6a39a2254dc9ec3b15501369a9d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-threat-behaviors/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-insider-threat-behaviors/references/api-reference.md","bytes":1903,"sha256":"0fb0ddd3e261e7ac33fd3eaf969083b423eab7c27a27e6002dc4b9db9b1ad661","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-threat-behaviors/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/detecting-insider-threat-behaviors/references/standards.md","bytes":1581,"sha256":"2ee57064bb826193759e5089ce6ba98b3fa61810ce8114a6f78c3a93ab07d93e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-threat-behaviors/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/detecting-insider-threat-behaviors/references/workflows.md","bytes":2931,"sha256":"2d939e3ae574aa4823b5c232ed34538f3c7759039d036c8410c5585a009ca757","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-threat-behaviors/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-insider-threat-behaviors/scripts/agent.py","bytes":6235,"sha256":"93fded46300ad17f0a52b3c692e2c85f574014c5d8046cfb0e7567ec586d2c84","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-threat-behaviors/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/detecting-insider-threat-behaviors/scripts/process.py","bytes":3572,"sha256":"5fe74c62ebdf9d8ffe442d2cf2a17f278941ed2dd0708195c24ae7c580371957","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-threat-behaviors/scripts/process.py"}],"archiveSha256":"12769a29070972436daaf237edcb11222bd3ee66e539762a2b7c4c68ace034ed"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-insider-threat-behaviors",
+    "name": "detecting-insider-threat-behaviors",
+    "description": "Detect insider threat behavioral indicators including unusual data access, off-hours activity, mass file downloads, privilege abuse, and resignation-correlated data theft. Use when proactively threat-hunting for malicious or negligent insider activity, or when investigating a departing or disgruntled employee for potential data theft.",
+    "category": "Security",
+    "tags": [
+      "detecting",
+      "insider",
+      "threat",
+      "behaviors",
+      "detect",
+      "behavioral",
+      "indicators",
+      "including",
+      "unusual",
+      "data",
+      "access",
+      "off",
+      "hours",
+      "activity",
+      "mass",
+      "file",
+      "downloads",
+      "privilege"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-insider-threat-behaviors/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-insider-threat-behaviors",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-threat-behaviors",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 33722,
+    "sha256": "5300384ddffa7f47c11efb59994b4022fbb978e8660721053394288d1e723a34",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-insider-threat-behaviors/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-threat-behaviors/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-insider-threat-behaviors/SKILL.md",
+      "bytes": 3587,
+      "sha256": "5300384ddffa7f47c11efb59994b4022fbb978e8660721053394288d1e723a34",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-threat-behaviors/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/detecting-insider-threat-behaviors/assets/template.md",
+      "bytes": 2658,
+      "sha256": "a8c1032cbd5bf2cb81423ff916ec08e9e104c6a39a2254dc9ec3b15501369a9d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-threat-behaviors/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-insider-threat-behaviors/references/api-reference.md",
+      "bytes": 1903,
+      "sha256": "0fb0ddd3e261e7ac33fd3eaf969083b423eab7c27a27e6002dc4b9db9b1ad661",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-threat-behaviors/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/detecting-insider-threat-behaviors/references/standards.md",
+      "bytes": 1581,
+      "sha256": "2ee57064bb826193759e5089ce6ba98b3fa61810ce8114a6f78c3a93ab07d93e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-threat-behaviors/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/detecting-insider-threat-behaviors/references/workflows.md",
+      "bytes": 2931,
+      "sha256": "2d939e3ae574aa4823b5c232ed34538f3c7759039d036c8410c5585a009ca757",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-threat-behaviors/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-insider-threat-behaviors/scripts/agent.py",
+      "bytes": 6235,
+      "sha256": "93fded46300ad17f0a52b3c692e2c85f574014c5d8046cfb0e7567ec586d2c84",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-threat-behaviors/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/detecting-insider-threat-behaviors/scripts/process.py",
+      "bytes": 3572,
+      "sha256": "5fe74c62ebdf9d8ffe442d2cf2a17f278941ed2dd0708195c24ae7c580371957",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-insider-threat-behaviors/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "12769a29070972436daaf237edcb11222bd3ee66e539762a2b7c4c68ace034ed"
+}

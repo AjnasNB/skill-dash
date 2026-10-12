@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-dynamic-analysis-with-any-run","name":"performing-dynamic-analysis-with-any-run","description":"Perform interactive dynamic malware analysis using the ANY.RUN cloud sandbox to detonate samples, observe real-time execution behavior, interact with malware prompts such as dialogs and CAPTCHAs, and capture process trees, network traffic, and system changes. Use when a suspicious file or URL needs live, interactive behavioral detonation in a cloud sandbox rather than static analysis alone.","category":"Security","tags":["performing","dynamic","analysis","any","run","perform","interactive","malware","any.run","cloud","sandbox","detonate","samples","observe","real","time","execution","behavior"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-dynamic-analysis-with-any-run/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-dynamic-analysis-with-any-run","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dynamic-analysis-with-any-run","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":36577,"sha256":"a85b0c8df4dbfd6b5cf17bda8a83350f1c49ef383a43dd746dea8430e336dd80","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-dynamic-analysis-with-any-run/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dynamic-analysis-with-any-run/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-dynamic-analysis-with-any-run/SKILL.md","bytes":11335,"sha256":"a85b0c8df4dbfd6b5cf17bda8a83350f1c49ef383a43dd746dea8430e336dd80","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dynamic-analysis-with-any-run/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-dynamic-analysis-with-any-run/references/api-reference.md","bytes":3190,"sha256":"08510c2e6a56c4ae991236976b75980df0ea82239f02337875b5e521a46cf79f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dynamic-analysis-with-any-run/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-dynamic-analysis-with-any-run/scripts/agent.py","bytes":10797,"sha256":"8a820b6c43253db5170df5bd6ca2b53ba3af24cd51573e6237d76bc3a5f5042c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dynamic-analysis-with-any-run/scripts/agent.py"}],"archiveSha256":"33d3a4371ce08452da11c007e7c09f76f631a685e9c2ccf88bc99b18dc848f1f"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-dynamic-analysis-with-any-run",
+    "name": "performing-dynamic-analysis-with-any-run",
+    "description": "Perform interactive dynamic malware analysis using the ANY.RUN cloud sandbox to detonate samples, observe real-time execution behavior, interact with malware prompts such as dialogs and CAPTCHAs, and capture process trees, network traffic, and system changes. Use when a suspicious file or URL needs live, interactive behavioral detonation in a cloud sandbox rather than static analysis alone.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "dynamic",
+      "analysis",
+      "any",
+      "run",
+      "perform",
+      "interactive",
+      "malware",
+      "any.run",
+      "cloud",
+      "sandbox",
+      "detonate",
+      "samples",
+      "observe",
+      "real",
+      "time",
+      "execution",
+      "behavior"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-dynamic-analysis-with-any-run/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-dynamic-analysis-with-any-run",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dynamic-analysis-with-any-run",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 36577,
+    "sha256": "a85b0c8df4dbfd6b5cf17bda8a83350f1c49ef383a43dd746dea8430e336dd80",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-dynamic-analysis-with-any-run/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dynamic-analysis-with-any-run/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-dynamic-analysis-with-any-run/SKILL.md",
+      "bytes": 11335,
+      "sha256": "a85b0c8df4dbfd6b5cf17bda8a83350f1c49ef383a43dd746dea8430e336dd80",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dynamic-analysis-with-any-run/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-dynamic-analysis-with-any-run/references/api-reference.md",
+      "bytes": 3190,
+      "sha256": "08510c2e6a56c4ae991236976b75980df0ea82239f02337875b5e521a46cf79f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dynamic-analysis-with-any-run/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-dynamic-analysis-with-any-run/scripts/agent.py",
+      "bytes": 10797,
+      "sha256": "8a820b6c43253db5170df5bd6ca2b53ba3af24cd51573e6237d76bc3a5f5042c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-dynamic-analysis-with-any-run/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "33d3a4371ce08452da11c007e7c09f76f631a685e9c2ccf88bc99b18dc848f1f"
+}

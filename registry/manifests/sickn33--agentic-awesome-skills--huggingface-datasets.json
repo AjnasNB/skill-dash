@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--huggingface-datasets","name":"huggingface-datasets","description":"Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate rows, search text, apply filters, download parquet URLs, and read size or statistics.","category":"Data & research","tags":["huggingface","datasets","skill","hugging","face","dataset","viewer","api","workflows","fetch","subset","split","metadata","paginate","rows","search","text","apply"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/huggingface-datasets","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/huggingface-datasets","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6267,"sha256":"0301bf6bac0a7e63874ee4ca8e8019c3c6aa3298fdbae7328c7314eb55b04536","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/huggingface-datasets/SKILL.md","bytes":5194,"sha256":"0301bf6bac0a7e63874ee4ca8e8019c3c6aa3298fdbae7328c7314eb55b04536","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/huggingface-datasets/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"2a6dd20dcd6ba40048bbb374f578008d8854be3743740e12e9a2eb307827f5d3"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--huggingface-datasets",
+    "name": "huggingface-datasets",
+    "description": "Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate rows, search text, apply filters, download parquet URLs, and read size or statistics.",
+    "category": "Data & research",
+    "tags": [
+      "huggingface",
+      "datasets",
+      "skill",
+      "hugging",
+      "face",
+      "dataset",
+      "viewer",
+      "api",
+      "workflows",
+      "fetch",
+      "subset",
+      "split",
+      "metadata",
+      "paginate",
+      "rows",
+      "search",
+      "text",
+      "apply"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/huggingface-datasets",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/huggingface-datasets",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6267,
+    "sha256": "0301bf6bac0a7e63874ee4ca8e8019c3c6aa3298fdbae7328c7314eb55b04536",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/huggingface-datasets/SKILL.md",
+      "bytes": 5194,
+      "sha256": "0301bf6bac0a7e63874ee4ca8e8019c3c6aa3298fdbae7328c7314eb55b04536",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/huggingface-datasets/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "2a6dd20dcd6ba40048bbb374f578008d8854be3743740e12e9a2eb307827f5d3"
+}

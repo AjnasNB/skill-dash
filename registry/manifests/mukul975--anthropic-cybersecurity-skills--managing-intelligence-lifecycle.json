@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--managing-intelligence-lifecycle","name":"managing-intelligence-lifecycle","description":"Manages the end-to-end cyber threat intelligence lifecycle from planning and direction through collection, processing, analysis, dissemination, and feedback to ensure intelligence products meet stakeholder requirements and continuously improve. Use when establishing or maturing a CTI program, defining intelligence requirements with business stakeholders, or building feedback loops between intelligence consumers and producers. Activates for requests involving CTI program maturity, intelligence requirements, PIRs, or intelligence lifecycle management.","category":"Security","tags":["managing","intelligence","lifecycle","manages","end","cyber","threat","from","planning","direction","through","collection","processing","analysis","dissemination","feedback","ensure","products"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/managing-intelligence-lifecycle/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/managing-intelligence-lifecycle","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-intelligence-lifecycle","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":27498,"sha256":"ea35b92c49d47f44fab5db9564455f5321b462caf379ba2d8ab358d6ca3de53d","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/managing-intelligence-lifecycle/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-intelligence-lifecycle/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/managing-intelligence-lifecycle/SKILL.md","bytes":6331,"sha256":"ea35b92c49d47f44fab5db9564455f5321b462caf379ba2d8ab358d6ca3de53d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-intelligence-lifecycle/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/managing-intelligence-lifecycle/references/api-reference.md","bytes":2054,"sha256":"7476fee7977f9f3fe5f2c79941c4aa89972085550c6741fddb390a0cd41cdfdc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-intelligence-lifecycle/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/managing-intelligence-lifecycle/scripts/agent.py","bytes":7858,"sha256":"0148781b3715eaf47a0caaa610a6a8cc56bb109d46f875f4816bfb205852d9d1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-intelligence-lifecycle/scripts/agent.py"}],"archiveSha256":"9b116df6afbb49d12aeaa0adbd1046b42e1cda9a0ae6e4ff73f4b40d2e63bcf7"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--managing-intelligence-lifecycle",
+    "name": "managing-intelligence-lifecycle",
+    "description": "Manages the end-to-end cyber threat intelligence lifecycle from planning and direction through collection, processing, analysis, dissemination, and feedback to ensure intelligence products meet stakeholder requirements and continuously improve. Use when establishing or maturing a CTI program, defining intelligence requirements with business stakeholders, or building feedback loops between intelligence consumers and producers. Activates for requests involving CTI program maturity, intelligence requirements, PIRs, or intelligence lifecycle management.",
+    "category": "Security",
+    "tags": [
+      "managing",
+      "intelligence",
+      "lifecycle",
+      "manages",
+      "end",
+      "cyber",
+      "threat",
+      "from",
+      "planning",
+      "direction",
+      "through",
+      "collection",
+      "processing",
+      "analysis",
+      "dissemination",
+      "feedback",
+      "ensure",
+      "products"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/managing-intelligence-lifecycle/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/managing-intelligence-lifecycle",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-intelligence-lifecycle",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 27498,
+    "sha256": "ea35b92c49d47f44fab5db9564455f5321b462caf379ba2d8ab358d6ca3de53d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/managing-intelligence-lifecycle/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-intelligence-lifecycle/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/managing-intelligence-lifecycle/SKILL.md",
+      "bytes": 6331,
+      "sha256": "ea35b92c49d47f44fab5db9564455f5321b462caf379ba2d8ab358d6ca3de53d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-intelligence-lifecycle/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/managing-intelligence-lifecycle/references/api-reference.md",
+      "bytes": 2054,
+      "sha256": "7476fee7977f9f3fe5f2c79941c4aa89972085550c6741fddb390a0cd41cdfdc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-intelligence-lifecycle/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/managing-intelligence-lifecycle/scripts/agent.py",
+      "bytes": 7858,
+      "sha256": "0148781b3715eaf47a0caaa610a6a8cc56bb109d46f875f4816bfb205852d9d1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-intelligence-lifecycle/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "9b116df6afbb49d12aeaa0adbd1046b42e1cda9a0ae6e4ff73f4b40d2e63bcf7"
+}

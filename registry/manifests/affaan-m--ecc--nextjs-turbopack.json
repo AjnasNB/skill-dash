@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--nextjs-turbopack","name":"nextjs-turbopack","description":"Next.js 16+ and Turbopack guidance — incremental Rust bundling, file-system caching, faster dev startup and HMR, Turbopack vs webpack tradeoffs, and the middleware.ts to proxy.ts filename change. Use when developing or debugging Next.js 16+ apps, diagnosing slow dev startup or hot reload, choosing between bundlers, or reviewing middleware/proxy file naming.","category":"Product & business","tags":["nextjs","turbopack","next.js","16+","guidance","incremental","rust","bundling","file","system","caching","faster","dev","startup","hmr","vs","webpack","tradeoffs"],"repo":"affaan-m/ECC","owner":"affaan-m","stars":277532,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"b92f181b3b748d1abbc2afd94af6aa7d8c8fca29","path":"skills/nextjs-turbopack","sourceUrl":"https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/nextjs-turbopack","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T02:02:10Z","fileCount":2,"bytes":4212,"sha256":"336034322d2022f47b097e55b5448cbc1e204c11f964910fa6fb3baeab06a474","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/nextjs-turbopack/SKILL.md","bytes":3141,"sha256":"336034322d2022f47b097e55b5448cbc1e204c11f964910fa6fb3baeab06a474","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/nextjs-turbopack/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"}],"archiveSha256":"417715f298525d7f09780bdab10d698cca023412816ee6950f4348fdc545f61b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--nextjs-turbopack",
+    "name": "nextjs-turbopack",
+    "description": "Next.js 16+ and Turbopack guidance — incremental Rust bundling, file-system caching, faster dev startup and HMR, Turbopack vs webpack tradeoffs, and the middleware.ts to proxy.ts filename change. Use when developing or debugging Next.js 16+ apps, diagnosing slow dev startup or hot reload, choosing between bundlers, or reviewing middleware/proxy file naming.",
+    "category": "Product & business",
+    "tags": [
+      "nextjs",
+      "turbopack",
+      "next.js",
+      "16+",
+      "guidance",
+      "incremental",
+      "rust",
+      "bundling",
+      "file",
+      "system",
+      "caching",
+      "faster",
+      "dev",
+      "startup",
+      "hmr",
+      "vs",
+      "webpack",
+      "tradeoffs"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/nextjs-turbopack",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/nextjs-turbopack",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 2,
+    "bytes": 4212,
+    "sha256": "336034322d2022f47b097e55b5448cbc1e204c11f964910fa6fb3baeab06a474",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/nextjs-turbopack/SKILL.md",
+      "bytes": 3141,
+      "sha256": "336034322d2022f47b097e55b5448cbc1e204c11f964910fa6fb3baeab06a474",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/nextjs-turbopack/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "417715f298525d7f09780bdab10d698cca023412816ee6950f4348fdc545f61b"
+}

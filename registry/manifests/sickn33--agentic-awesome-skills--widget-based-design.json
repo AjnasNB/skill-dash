@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--widget-based-design","name":"widget-based-design","description":"Web and App implementation guide for Widget-Based Design. Trigger when user wants modular blocks, iOS Home Screen aesthetics, and customizable mini-apps.","category":"Design","tags":["widget","based","design","web","app","implementation","guide","design.","trigger","when","user","wants","modular","blocks","ios","home","screen","aesthetics"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/design-it/widget-based-design","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/widget-based-design","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11232,"sha256":"325037841db649f67525b4d0387d4dc93adbb89bb7b0a96cc9cc78835d0de710","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/design-it/widget-based-design/SKILL.md","bytes":10159,"sha256":"325037841db649f67525b4d0387d4dc93adbb89bb7b0a96cc9cc78835d0de710","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/widget-based-design/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"d616db712decf05e427ebbb4648abea96fc1c0d6eef5f5a3f33662115bc1bd42"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--widget-based-design",
+    "name": "widget-based-design",
+    "description": "Web and App implementation guide for Widget-Based Design. Trigger when user wants modular blocks, iOS Home Screen aesthetics, and customizable mini-apps.",
+    "category": "Design",
+    "tags": [
+      "widget",
+      "based",
+      "design",
+      "web",
+      "app",
+      "implementation",
+      "guide",
+      "design.",
+      "trigger",
+      "when",
+      "user",
+      "wants",
+      "modular",
+      "blocks",
+      "ios",
+      "home",
+      "screen",
+      "aesthetics"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/design-it/widget-based-design",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/widget-based-design",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11232,
+    "sha256": "325037841db649f67525b4d0387d4dc93adbb89bb7b0a96cc9cc78835d0de710",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/design-it/widget-based-design/SKILL.md",
+      "bytes": 10159,
+      "sha256": "325037841db649f67525b4d0387d4dc93adbb89bb7b0a96cc9cc78835d0de710",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/widget-based-design/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "d616db712decf05e427ebbb4648abea96fc1c0d6eef5f5a3f33662115bc1bd42"
+}

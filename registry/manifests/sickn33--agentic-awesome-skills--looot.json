@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--looot","name":"looot","description":"Search, price and run 2,500+ data API endpoints (work emails, company search, SERP, web pages) from one prepaid balance via the looot MCP server.","category":"AI & agents","tags":["looot","search","price","run","500+","data","api","endpoints","work","emails","company","serp","web","pages","from","one","prepaid","balance"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/looot","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/looot","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12712,"sha256":"a842e5856d320c04f9a0260c8ff012f5e83e33f48c9568d07a67ef6747d7eadc","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/looot/SKILL.md","bytes":11639,"sha256":"a842e5856d320c04f9a0260c8ff012f5e83e33f48c9568d07a67ef6747d7eadc","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/looot/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"3536a4e32a837d55344b5d1e557c242d0b8b413ca0bd2f94935fca3036f97002"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--looot",
+    "name": "looot",
+    "description": "Search, price and run 2,500+ data API endpoints (work emails, company search, SERP, web pages) from one prepaid balance via the looot MCP server.",
+    "category": "AI & agents",
+    "tags": [
+      "looot",
+      "search",
+      "price",
+      "run",
+      "500+",
+      "data",
+      "api",
+      "endpoints",
+      "work",
+      "emails",
+      "company",
+      "serp",
+      "web",
+      "pages",
+      "from",
+      "one",
+      "prepaid",
+      "balance"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/looot",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/looot",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12712,
+    "sha256": "a842e5856d320c04f9a0260c8ff012f5e83e33f48c9568d07a67ef6747d7eadc",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/looot/SKILL.md",
+      "bytes": 11639,
+      "sha256": "a842e5856d320c04f9a0260c8ff012f5e83e33f48c9568d07a67ef6747d7eadc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/looot/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "3536a4e32a837d55344b5d1e557c242d0b8b413ca0bd2f94935fca3036f97002"
+}

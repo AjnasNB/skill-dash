@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--vexor-cli","name":"vexor-cli","description":"Semantic file discovery via `vexor`. Use whenever locating where something is implemented/loaded/defined in a medium or large repo, or when the file location is unclear. Prefer this over manual browsing.","category":"Development","tags":["vexor","cli","semantic","file","discovery","via","whenever","locating","where","something","is","implemented","loaded","defined","medium","large","repo","when"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/vexor-cli","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vexor-cli","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4503,"sha256":"7a6dae9ee4833a379b4fe94416d4818b14e71fffe3ff89b0dd3976afffae656a","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/vexor-cli/SKILL.md","bytes":3430,"sha256":"7a6dae9ee4833a379b4fe94416d4818b14e71fffe3ff89b0dd3976afffae656a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vexor-cli/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"4862e6dcc09ddee20882a5075481f5ef800538129074725bf3f08d5a50923e7f"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--vexor-cli",
+    "name": "vexor-cli",
+    "description": "Semantic file discovery via `vexor`. Use whenever locating where something is implemented/loaded/defined in a medium or large repo, or when the file location is unclear. Prefer this over manual browsing.",
+    "category": "Development",
+    "tags": [
+      "vexor",
+      "cli",
+      "semantic",
+      "file",
+      "discovery",
+      "via",
+      "whenever",
+      "locating",
+      "where",
+      "something",
+      "is",
+      "implemented",
+      "loaded",
+      "defined",
+      "medium",
+      "large",
+      "repo",
+      "when"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/vexor-cli",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vexor-cli",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4503,
+    "sha256": "7a6dae9ee4833a379b4fe94416d4818b14e71fffe3ff89b0dd3976afffae656a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/vexor-cli/SKILL.md",
+      "bytes": 3430,
+      "sha256": "7a6dae9ee4833a379b4fe94416d4818b14e71fffe3ff89b0dd3976afffae656a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vexor-cli/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "4862e6dcc09ddee20882a5075481f5ef800538129074725bf3f08d5a50923e7f"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--hunt-spa-api","name":"hunt-spa-api","description":"Discover a single-page-app's hidden backend API from its public JS bundle, then test that API for broken access control / missing authentication.","category":"Development","tags":["hunt","spa","api","discover","single","page","app","hidden","backend","from","its","public","js","bundle","then","test","broken","access"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/hunt-spa-api","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-spa-api","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11483,"sha256":"9ceed189efab991235aa2166f8ff0192e1ce6ccec16b3aba1d84a2bd502497da","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/hunt-spa-api/SKILL.md","bytes":10410,"sha256":"9ceed189efab991235aa2166f8ff0192e1ce6ccec16b3aba1d84a2bd502497da","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-spa-api/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"848e965148765258835b182e4a72769c4a446572ad152612b723f7dbebd33a7e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--hunt-spa-api",
+    "name": "hunt-spa-api",
+    "description": "Discover a single-page-app's hidden backend API from its public JS bundle, then test that API for broken access control / missing authentication.",
+    "category": "Development",
+    "tags": [
+      "hunt",
+      "spa",
+      "api",
+      "discover",
+      "single",
+      "page",
+      "app",
+      "hidden",
+      "backend",
+      "from",
+      "its",
+      "public",
+      "js",
+      "bundle",
+      "then",
+      "test",
+      "broken",
+      "access"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/hunt-spa-api",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-spa-api",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11483,
+    "sha256": "9ceed189efab991235aa2166f8ff0192e1ce6ccec16b3aba1d84a2bd502497da",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunt-spa-api/SKILL.md",
+      "bytes": 10410,
+      "sha256": "9ceed189efab991235aa2166f8ff0192e1ce6ccec16b3aba1d84a2bd502497da",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-spa-api/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "848e965148765258835b182e4a72769c4a446572ad152612b723f7dbebd33a7e"
+}

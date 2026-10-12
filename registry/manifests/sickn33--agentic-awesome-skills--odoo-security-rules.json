@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--odoo-security-rules","name":"odoo-security-rules","description":"Expert in Odoo access control: ir.model.access.csv, record rules (ir.rule), groups, and multi-company security patterns.","category":"Security","tags":["odoo","security","rules","expert","access","control","ir.model.access.csv","record","ir.rule","groups","multi","company","patterns."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/odoo-security-rules","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-security-rules","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5412,"sha256":"7d862950a04b3eef77ed5dc27be466392dabd6f641cb2189f5eb0b3946384902","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/odoo-security-rules/SKILL.md","bytes":4339,"sha256":"7d862950a04b3eef77ed5dc27be466392dabd6f641cb2189f5eb0b3946384902","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-security-rules/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"18b2c8c1a2c7720d3923f51529e149c71d6abe2e738c39ebd3608bfc849bbbd8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--odoo-security-rules",
+    "name": "odoo-security-rules",
+    "description": "Expert in Odoo access control: ir.model.access.csv, record rules (ir.rule), groups, and multi-company security patterns.",
+    "category": "Security",
+    "tags": [
+      "odoo",
+      "security",
+      "rules",
+      "expert",
+      "access",
+      "control",
+      "ir.model.access.csv",
+      "record",
+      "ir.rule",
+      "groups",
+      "multi",
+      "company",
+      "patterns."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/odoo-security-rules",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-security-rules",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5412,
+    "sha256": "7d862950a04b3eef77ed5dc27be466392dabd6f641cb2189f5eb0b3946384902",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/odoo-security-rules/SKILL.md",
+      "bytes": 4339,
+      "sha256": "7d862950a04b3eef77ed5dc27be466392dabd6f641cb2189f5eb0b3946384902",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-security-rules/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "18b2c8c1a2c7720d3923f51529e149c71d6abe2e738c39ebd3608bfc849bbbd8"
+}

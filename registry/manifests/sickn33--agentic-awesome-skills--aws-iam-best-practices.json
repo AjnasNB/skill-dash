@@ -1,1 +1,56 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--aws-iam-best-practices","name":"aws-iam-best-practices","description":"IAM policy review, hardening, and least privilege implementation","category":"Cloud & DevOps","tags":["aws","iam","best","practices","policy","review","hardening","least","privilege","implementation"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/security/aws-iam-best-practices","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/security/aws-iam-best-practices","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11540,"sha256":"dd21f2fcfeaa0b28394807a04a79036004726ba2f79fc29fd9ba3d650120e9d8","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/security/aws-iam-best-practices/SKILL.md","bytes":10467,"sha256":"dd21f2fcfeaa0b28394807a04a79036004726ba2f79fc29fd9ba3d650120e9d8","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/security/aws-iam-best-practices/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"ff50016b3005fb7bcc6feb3dff16594b11b57bfc79279f13b5f59bea501707e2"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--aws-iam-best-practices",
+    "name": "aws-iam-best-practices",
+    "description": "IAM policy review, hardening, and least privilege implementation",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "aws",
+      "iam",
+      "best",
+      "practices",
+      "policy",
+      "review",
+      "hardening",
+      "least",
+      "privilege",
+      "implementation"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/security/aws-iam-best-practices",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/security/aws-iam-best-practices",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11540,
+    "sha256": "dd21f2fcfeaa0b28394807a04a79036004726ba2f79fc29fd9ba3d650120e9d8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/security/aws-iam-best-practices/SKILL.md",
+      "bytes": 10467,
+      "sha256": "dd21f2fcfeaa0b28394807a04a79036004726ba2f79fc29fd9ba3d650120e9d8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/security/aws-iam-best-practices/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ff50016b3005fb7bcc6feb3dff16594b11b57bfc79279f13b5f59bea501707e2"
+}

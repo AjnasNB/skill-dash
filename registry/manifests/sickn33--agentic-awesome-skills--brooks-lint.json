@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--brooks-lint","name":"brooks-lint","description":"AI code reviewer grounded in classic software engineering books for catching design smells, coupling issues, and architectural risks.","category":"Design","tags":["brooks","lint","ai","code","reviewer","grounded","classic","software","engineering","books","catching","design","smells","coupling","issues","architectural","risks."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/brooks-lint","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brooks-lint","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7433,"sha256":"d9b882fc29e0170303a282bf1aaa1c79439006ff29f8b3803fd06657126c3b84","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/brooks-lint/SKILL.md","bytes":6360,"sha256":"d9b882fc29e0170303a282bf1aaa1c79439006ff29f8b3803fd06657126c3b84","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brooks-lint/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"3f1079ba2c65202290eb96ed7c017fd5cf1425f1fb0be8a46c7530901f066b7a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--brooks-lint",
+    "name": "brooks-lint",
+    "description": "AI code reviewer grounded in classic software engineering books for catching design smells, coupling issues, and architectural risks.",
+    "category": "Design",
+    "tags": [
+      "brooks",
+      "lint",
+      "ai",
+      "code",
+      "reviewer",
+      "grounded",
+      "classic",
+      "software",
+      "engineering",
+      "books",
+      "catching",
+      "design",
+      "smells",
+      "coupling",
+      "issues",
+      "architectural",
+      "risks."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/brooks-lint",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brooks-lint",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7433,
+    "sha256": "d9b882fc29e0170303a282bf1aaa1c79439006ff29f8b3803fd06657126c3b84",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/brooks-lint/SKILL.md",
+      "bytes": 6360,
+      "sha256": "d9b882fc29e0170303a282bf1aaa1c79439006ff29f8b3803fd06657126c3b84",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brooks-lint/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "3f1079ba2c65202290eb96ed7c017fd5cf1425f1fb0be8a46c7530901f066b7a"
+}

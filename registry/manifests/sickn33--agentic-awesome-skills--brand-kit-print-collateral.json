@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--brand-kit-print-collateral","name":"brand-kit-print-collateral","description":"Print collateral spec: item, finished and trim size, bleed, colour mode, stock and GSM, finish, safe margin, print method, quantity and unit cost. Use for cards and letterhead.","category":"Development","tags":["brand","kit","print","collateral","spec","item","finished","trim","size","bleed","colour","mode","stock","gsm","finish","safe","margin","method"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/brand-kit-print-collateral","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brand-kit-print-collateral","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":26668,"sha256":"47d3ed9028286e0e7a19ff60bcecc8efeaa9fe38077fcce48aef838dde1029a6","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/brand-kit-print-collateral/SKILL.md","bytes":25595,"sha256":"47d3ed9028286e0e7a19ff60bcecc8efeaa9fe38077fcce48aef838dde1029a6","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brand-kit-print-collateral/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"234b5a165a0160f52573342392f77c2a0cc329b5716a8fde4afafe8abfeaf069"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--brand-kit-print-collateral",
+    "name": "brand-kit-print-collateral",
+    "description": "Print collateral spec: item, finished and trim size, bleed, colour mode, stock and GSM, finish, safe margin, print method, quantity and unit cost. Use for cards and letterhead.",
+    "category": "Development",
+    "tags": [
+      "brand",
+      "kit",
+      "print",
+      "collateral",
+      "spec",
+      "item",
+      "finished",
+      "trim",
+      "size",
+      "bleed",
+      "colour",
+      "mode",
+      "stock",
+      "gsm",
+      "finish",
+      "safe",
+      "margin",
+      "method"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/brand-kit-print-collateral",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brand-kit-print-collateral",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 26668,
+    "sha256": "47d3ed9028286e0e7a19ff60bcecc8efeaa9fe38077fcce48aef838dde1029a6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/brand-kit-print-collateral/SKILL.md",
+      "bytes": 25595,
+      "sha256": "47d3ed9028286e0e7a19ff60bcecc8efeaa9fe38077fcce48aef838dde1029a6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/brand-kit-print-collateral/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "234b5a165a0160f52573342392f77c2a0cc329b5716a8fde4afafe8abfeaf069"
+}

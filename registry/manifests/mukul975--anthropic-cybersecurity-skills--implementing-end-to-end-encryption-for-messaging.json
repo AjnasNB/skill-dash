@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-end-to-end-encryption-for-messaging","name":"implementing-end-to-end-encryption-for-messaging","description":"Implements a simplified Signal Protocol-style end-to-end encryption scheme for messaging, covering key exchange, forward secrecy, and the core cryptographic components so no server or intermediary can decrypt messages. Use when designing or building E2EE messaging, or evaluating forward-secrecy and key-management tradeoffs for a messaging system.","category":"Development","tags":["implementing","end","encryption","messaging","implements","simplified","signal","protocol","style","scheme","covering","key","exchange","forward","secrecy","core","cryptographic","components"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-end-to-end-encryption-for-messaging/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-end-to-end-encryption-for-messaging","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-end-to-end-encryption-for-messaging","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":40533,"sha256":"1d595849159393cc75471c11508bae8274f8d05bd30e5a844c2678b6dad0966a","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-end-to-end-encryption-for-messaging/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-end-to-end-encryption-for-messaging/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-end-to-end-encryption-for-messaging/SKILL.md","bytes":3369,"sha256":"1d595849159393cc75471c11508bae8274f8d05bd30e5a844c2678b6dad0966a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-end-to-end-encryption-for-messaging/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-end-to-end-encryption-for-messaging/assets/template.md","bytes":1468,"sha256":"9d6960940cb84f60cc42fd68625513e8140893bc7b2734ea06c22bb923ecb721","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-end-to-end-encryption-for-messaging/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-end-to-end-encryption-for-messaging/references/api-reference.md","bytes":1890,"sha256":"da4b65d4e8d5a09eca1b8a60eeacce3f912c9b6c00d9945fcd428b2b6b361905","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-end-to-end-encryption-for-messaging/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-end-to-end-encryption-for-messaging/references/standards.md","bytes":1467,"sha256":"d186333b0c3e423357630e94b624df1e6d759495b188d6f7b73b9ce51b34949f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-end-to-end-encryption-for-messaging/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-end-to-end-encryption-for-messaging/references/workflows.md","bytes":3034,"sha256":"2938b098684dcdb416f8f67785ea85322f7ba17c462411c7fbac33aab6cca7d6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-end-to-end-encryption-for-messaging/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-end-to-end-encryption-for-messaging/scripts/agent.py","bytes":5321,"sha256":"29d97be1903161149592e8cfc48402fbfa4554e417bb81881521f8b299ce4c58","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-end-to-end-encryption-for-messaging/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-end-to-end-encryption-for-messaging/scripts/process.py","bytes":12729,"sha256":"90009a539fa6769d65a90ece36f8d9cf223c797a652da2a455debf4e532f1072","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-end-to-end-encryption-for-messaging/scripts/process.py"}],"archiveSha256":"412842d697ebe59c33c62d5b50c7b2cf2803b9c923057a87f0ef362cc585d2b1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-end-to-end-encryption-for-messaging",
+    "name": "implementing-end-to-end-encryption-for-messaging",
+    "description": "Implements a simplified Signal Protocol-style end-to-end encryption scheme for messaging, covering key exchange, forward secrecy, and the core cryptographic components so no server or intermediary can decrypt messages. Use when designing or building E2EE messaging, or evaluating forward-secrecy and key-management tradeoffs for a messaging system.",
+    "category": "Development",
+    "tags": [
+      "implementing",
+      "end",
+      "encryption",
+      "messaging",
+      "implements",
+      "simplified",
+      "signal",
+      "protocol",
+      "style",
+      "scheme",
+      "covering",
+      "key",
+      "exchange",
+      "forward",
+      "secrecy",
+      "core",
+      "cryptographic",
+      "components"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-end-to-end-encryption-for-messaging/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-end-to-end-encryption-for-messaging",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-end-to-end-encryption-for-messaging",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 40533,
+    "sha256": "1d595849159393cc75471c11508bae8274f8d05bd30e5a844c2678b6dad0966a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-end-to-end-encryption-for-messaging/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-end-to-end-encryption-for-messaging/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-end-to-end-encryption-for-messaging/SKILL.md",
+      "bytes": 3369,
+      "sha256": "1d595849159393cc75471c11508bae8274f8d05bd30e5a844c2678b6dad0966a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-end-to-end-encryption-for-messaging/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-end-to-end-encryption-for-messaging/assets/template.md",
+      "bytes": 1468,
+      "sha256": "9d6960940cb84f60cc42fd68625513e8140893bc7b2734ea06c22bb923ecb721",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-end-to-end-encryption-for-messaging/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-end-to-end-encryption-for-messaging/references/api-reference.md",
+      "bytes": 1890,
+      "sha256": "da4b65d4e8d5a09eca1b8a60eeacce3f912c9b6c00d9945fcd428b2b6b361905",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-end-to-end-encryption-for-messaging/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-end-to-end-encryption-for-messaging/references/standards.md",
+      "bytes": 1467,
+      "sha256": "d186333b0c3e423357630e94b624df1e6d759495b188d6f7b73b9ce51b34949f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-end-to-end-encryption-for-messaging/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-end-to-end-encryption-for-messaging/references/workflows.md",
+      "bytes": 3034,
+      "sha256": "2938b098684dcdb416f8f67785ea85322f7ba17c462411c7fbac33aab6cca7d6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-end-to-end-encryption-for-messaging/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-end-to-end-encryption-for-messaging/scripts/agent.py",
+      "bytes": 5321,
+      "sha256": "29d97be1903161149592e8cfc48402fbfa4554e417bb81881521f8b299ce4c58",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-end-to-end-encryption-for-messaging/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-end-to-end-encryption-for-messaging/scripts/process.py",
+      "bytes": 12729,
+      "sha256": "90009a539fa6769d65a90ece36f8d9cf223c797a652da2a455debf4e532f1072",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-end-to-end-encryption-for-messaging/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "412842d697ebe59c33c62d5b50c7b2cf2803b9c923057a87f0ef362cc585d2b1"
+}

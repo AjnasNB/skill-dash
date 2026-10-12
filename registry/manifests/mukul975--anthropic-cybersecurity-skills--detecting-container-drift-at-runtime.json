@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-container-drift-at-runtime","name":"detecting-container-drift-at-runtime","description":"Detects unauthorized runtime drift in containers by monitoring binary execution, filesystem changes, and configuration deviation from the original immutable image, using Falco and Microsoft Defender for Containers. Use when validating immutable-infrastructure controls, hunting for unexpected package installs or binaries written inside a running container, or determining whether a container diverged from the image it was built from. Keywords: drift, immutable infrastructure, new binary executed, package install, image mismatch, Falco. Do not use for detecting breakout from the container to the host - use detecting-container-escape-attempts.","category":"Cloud & DevOps","tags":["detecting","container","drift","at","runtime","detects","unauthorized","containers","by","monitoring","binary","execution","filesystem","changes","configuration","deviation","from","original"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-container-drift-at-runtime/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-container-drift-at-runtime","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-drift-at-runtime","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":39308,"sha256":"5c5836f2d8abf0ba57cd9f7d4843cef2076f888da7c30de8c063771e9674987d","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-container-drift-at-runtime/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-drift-at-runtime/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-container-drift-at-runtime/SKILL.md","bytes":8548,"sha256":"5c5836f2d8abf0ba57cd9f7d4843cef2076f888da7c30de8c063771e9674987d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-drift-at-runtime/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/detecting-container-drift-at-runtime/assets/template.md","bytes":728,"sha256":"5898f1000c89c4d7b15ef2cc3e1bfe1e9bb7210c5a55b22bfbea3cce6c20aa5e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-drift-at-runtime/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-container-drift-at-runtime/references/api-reference.md","bytes":2043,"sha256":"1d9dbe07a9185fb78ac39c91d45d9190286a75fdacfdeea1793f31e7ad024953","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-drift-at-runtime/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/detecting-container-drift-at-runtime/references/standards.md","bytes":1225,"sha256":"c053ba1efd7596860c1c8853b2d8037c8521845e23ec8441e103ad4afa086e81","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-drift-at-runtime/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/detecting-container-drift-at-runtime/references/workflows.md","bytes":1785,"sha256":"7f834830abfd0fd3a0e9f1faaa5338f01c5538818593972617c15a5eb4e01400","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-drift-at-runtime/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-container-drift-at-runtime/scripts/agent.py","bytes":5905,"sha256":"2944afd959daafa36ee9dc957be90418a289235b4141ae19edceb4e33e3fba3d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-drift-at-runtime/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/detecting-container-drift-at-runtime/scripts/process.py","bytes":7819,"sha256":"0352893e6bb99919ebb3da0afb71ee423d2ac409aff8f57e525e621d8308b52a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-drift-at-runtime/scripts/process.py"}],"archiveSha256":"caf938a4cb6884a26c1bfad0c4e913f07f3ed55ba3a914f4292996fd71afb4c1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-container-drift-at-runtime",
+    "name": "detecting-container-drift-at-runtime",
+    "description": "Detects unauthorized runtime drift in containers by monitoring binary execution, filesystem changes, and configuration deviation from the original immutable image, using Falco and Microsoft Defender for Containers. Use when validating immutable-infrastructure controls, hunting for unexpected package installs or binaries written inside a running container, or determining whether a container diverged from the image it was built from. Keywords: drift, immutable infrastructure, new binary executed, package install, image mismatch, Falco. Do not use for detecting breakout from the container to the host - use detecting-container-escape-attempts.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "detecting",
+      "container",
+      "drift",
+      "at",
+      "runtime",
+      "detects",
+      "unauthorized",
+      "containers",
+      "by",
+      "monitoring",
+      "binary",
+      "execution",
+      "filesystem",
+      "changes",
+      "configuration",
+      "deviation",
+      "from",
+      "original"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-container-drift-at-runtime/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-container-drift-at-runtime",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-drift-at-runtime",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 39308,
+    "sha256": "5c5836f2d8abf0ba57cd9f7d4843cef2076f888da7c30de8c063771e9674987d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-container-drift-at-runtime/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-drift-at-runtime/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-container-drift-at-runtime/SKILL.md",
+      "bytes": 8548,
+      "sha256": "5c5836f2d8abf0ba57cd9f7d4843cef2076f888da7c30de8c063771e9674987d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-drift-at-runtime/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/detecting-container-drift-at-runtime/assets/template.md",
+      "bytes": 728,
+      "sha256": "5898f1000c89c4d7b15ef2cc3e1bfe1e9bb7210c5a55b22bfbea3cce6c20aa5e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-drift-at-runtime/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-container-drift-at-runtime/references/api-reference.md",
+      "bytes": 2043,
+      "sha256": "1d9dbe07a9185fb78ac39c91d45d9190286a75fdacfdeea1793f31e7ad024953",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-drift-at-runtime/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/detecting-container-drift-at-runtime/references/standards.md",
+      "bytes": 1225,
+      "sha256": "c053ba1efd7596860c1c8853b2d8037c8521845e23ec8441e103ad4afa086e81",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-drift-at-runtime/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/detecting-container-drift-at-runtime/references/workflows.md",
+      "bytes": 1785,
+      "sha256": "7f834830abfd0fd3a0e9f1faaa5338f01c5538818593972617c15a5eb4e01400",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-drift-at-runtime/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-container-drift-at-runtime/scripts/agent.py",
+      "bytes": 5905,
+      "sha256": "2944afd959daafa36ee9dc957be90418a289235b4141ae19edceb4e33e3fba3d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-drift-at-runtime/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/detecting-container-drift-at-runtime/scripts/process.py",
+      "bytes": 7819,
+      "sha256": "0352893e6bb99919ebb3da0afb71ee423d2ac409aff8f57e525e621d8308b52a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-container-drift-at-runtime/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "caf938a4cb6884a26c1bfad0c4e913f07f3ed55ba3a914f4292996fd71afb4c1"
+}

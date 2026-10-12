@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--file-uploads","name":"file-uploads","description":"Expert at handling file uploads and cloud storage. Covers S3, Cloudflare R2, presigned URLs, multipart uploads, and image optimization. Knows how to handle large files without blocking.","category":"Cloud & DevOps","tags":["file","uploads","expert","at","handling","cloud","storage.","covers","s3","cloudflare","r2","presigned","urls","multipart","image","optimization.","knows","handle"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/file-uploads","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/file-uploads","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6929,"sha256":"17f3c70267c6e7d27e5a4ca3a91c5d0230105a905d0f1cb81a5b8e30e9a80fb4","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/file-uploads/SKILL.md","bytes":5856,"sha256":"17f3c70267c6e7d27e5a4ca3a91c5d0230105a905d0f1cb81a5b8e30e9a80fb4","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/file-uploads/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"a402842f59f624a175a07b28761200a506286a7244417329c2dcbe1494e1d8c8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--file-uploads",
+    "name": "file-uploads",
+    "description": "Expert at handling file uploads and cloud storage. Covers S3, Cloudflare R2, presigned URLs, multipart uploads, and image optimization. Knows how to handle large files without blocking.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "file",
+      "uploads",
+      "expert",
+      "at",
+      "handling",
+      "cloud",
+      "storage.",
+      "covers",
+      "s3",
+      "cloudflare",
+      "r2",
+      "presigned",
+      "urls",
+      "multipart",
+      "image",
+      "optimization.",
+      "knows",
+      "handle"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/file-uploads",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/file-uploads",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6929,
+    "sha256": "17f3c70267c6e7d27e5a4ca3a91c5d0230105a905d0f1cb81a5b8e30e9a80fb4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/file-uploads/SKILL.md",
+      "bytes": 5856,
+      "sha256": "17f3c70267c6e7d27e5a4ca3a91c5d0230105a905d0f1cb81a5b8e30e9a80fb4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/file-uploads/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "a402842f59f624a175a07b28761200a506286a7244417329c2dcbe1494e1d8c8"
+}

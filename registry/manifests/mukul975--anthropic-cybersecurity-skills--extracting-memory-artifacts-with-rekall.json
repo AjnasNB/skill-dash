@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--extracting-memory-artifacts-with-rekall","name":"extracting-memory-artifacts-with-rekall","description":"Uses Rekall memory forensics framework to analyze memory dumps for process hollowing, injected code via VAD anomalies, hidden processes, and rootkit detection. Applies plugins like pslist, psscan, vadinfo, malfind, and dlllist to extract forensic artifacts from Windows memory images. Use during incident response memory analysis.","category":"Security","tags":["extracting","memory","artifacts","rekall","uses","forensics","framework","analyze","dumps","process","hollowing","injected","code","via","vad","anomalies","hidden","processes"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/extracting-memory-artifacts-with-rekall/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/extracting-memory-artifacts-with-rekall","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/extracting-memory-artifacts-with-rekall","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":21301,"sha256":"4c2d8aeb4467df170bd2bb2e41afc3bfa32d69f7a7290ef6bfed1548c022bd54","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/extracting-memory-artifacts-with-rekall/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/extracting-memory-artifacts-with-rekall/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/extracting-memory-artifacts-with-rekall/SKILL.md","bytes":2566,"sha256":"4c2d8aeb4467df170bd2bb2e41afc3bfa32d69f7a7290ef6bfed1548c022bd54","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/extracting-memory-artifacts-with-rekall/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/extracting-memory-artifacts-with-rekall/references/api-reference.md","bytes":1650,"sha256":"2ec1aa42cea92402765dca5be9e7f6c664c2fa2f107f77d055e7fb7033eb9430","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/extracting-memory-artifacts-with-rekall/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/extracting-memory-artifacts-with-rekall/scripts/agent.py","bytes":5830,"sha256":"c2a807f134540732c7fa4a9d8304b8f1b616d13cfe038d6f2aa4ba688c3fbf84","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/extracting-memory-artifacts-with-rekall/scripts/agent.py"}],"archiveSha256":"08f42d3a541eff541295c8b5f71c49b5efe0944e768a9d9195d39351fb9234e8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--extracting-memory-artifacts-with-rekall",
+    "name": "extracting-memory-artifacts-with-rekall",
+    "description": "Uses Rekall memory forensics framework to analyze memory dumps for process hollowing, injected code via VAD anomalies, hidden processes, and rootkit detection. Applies plugins like pslist, psscan, vadinfo, malfind, and dlllist to extract forensic artifacts from Windows memory images. Use during incident response memory analysis.",
+    "category": "Security",
+    "tags": [
+      "extracting",
+      "memory",
+      "artifacts",
+      "rekall",
+      "uses",
+      "forensics",
+      "framework",
+      "analyze",
+      "dumps",
+      "process",
+      "hollowing",
+      "injected",
+      "code",
+      "via",
+      "vad",
+      "anomalies",
+      "hidden",
+      "processes"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/extracting-memory-artifacts-with-rekall/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/extracting-memory-artifacts-with-rekall",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/extracting-memory-artifacts-with-rekall",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 21301,
+    "sha256": "4c2d8aeb4467df170bd2bb2e41afc3bfa32d69f7a7290ef6bfed1548c022bd54",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/extracting-memory-artifacts-with-rekall/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/extracting-memory-artifacts-with-rekall/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/extracting-memory-artifacts-with-rekall/SKILL.md",
+      "bytes": 2566,
+      "sha256": "4c2d8aeb4467df170bd2bb2e41afc3bfa32d69f7a7290ef6bfed1548c022bd54",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/extracting-memory-artifacts-with-rekall/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/extracting-memory-artifacts-with-rekall/references/api-reference.md",
+      "bytes": 1650,
+      "sha256": "2ec1aa42cea92402765dca5be9e7f6c664c2fa2f107f77d055e7fb7033eb9430",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/extracting-memory-artifacts-with-rekall/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/extracting-memory-artifacts-with-rekall/scripts/agent.py",
+      "bytes": 5830,
+      "sha256": "c2a807f134540732c7fa4a9d8304b8f1b616d13cfe038d6f2aa4ba688c3fbf84",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/extracting-memory-artifacts-with-rekall/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "08f42d3a541eff541295c8b5f71c49b5efe0944e768a9d9195d39351fb9234e8"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--repurpose-into-a-post","name":"repurpose-into-a-post","description":"Turn an article, newsletter, transcript or video into a Twitter/X or LinkedIn post that stands on its own. Use when someone wants to repurpose, share or promote content they already made.","category":"Video & audio","tags":["repurpose","into","post","turn","article","newsletter","transcript","video","twitter","linkedin","stands","its","own.","when","someone","wants","share","promote"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/repurpose-into-a-post","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repurpose-into-a-post","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7404,"sha256":"6b36b0cc25834073a0afc53ec55903d2f7d54aca84481ed4354915ac6b5ead84","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/repurpose-into-a-post/SKILL.md","bytes":6331,"sha256":"6b36b0cc25834073a0afc53ec55903d2f7d54aca84481ed4354915ac6b5ead84","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repurpose-into-a-post/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"a43cb0b998a693edd10c95d68696cd758857737d757724f23241022c76dbc31a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--repurpose-into-a-post",
+    "name": "repurpose-into-a-post",
+    "description": "Turn an article, newsletter, transcript or video into a Twitter/X or LinkedIn post that stands on its own. Use when someone wants to repurpose, share or promote content they already made.",
+    "category": "Video & audio",
+    "tags": [
+      "repurpose",
+      "into",
+      "post",
+      "turn",
+      "article",
+      "newsletter",
+      "transcript",
+      "video",
+      "twitter",
+      "linkedin",
+      "stands",
+      "its",
+      "own.",
+      "when",
+      "someone",
+      "wants",
+      "share",
+      "promote"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/repurpose-into-a-post",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repurpose-into-a-post",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7404,
+    "sha256": "6b36b0cc25834073a0afc53ec55903d2f7d54aca84481ed4354915ac6b5ead84",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/repurpose-into-a-post/SKILL.md",
+      "bytes": 6331,
+      "sha256": "6b36b0cc25834073a0afc53ec55903d2f7d54aca84481ed4354915ac6b5ead84",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repurpose-into-a-post/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "a43cb0b998a693edd10c95d68696cd758857737d757724f23241022c76dbc31a"
+}

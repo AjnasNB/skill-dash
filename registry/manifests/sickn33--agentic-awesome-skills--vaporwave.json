@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--vaporwave","name":"vaporwave","description":"Web and App implementation guide for Vaporwave. Trigger when user wants neon colors, retro digital aesthetics, 90s OS elements, and Roman statues.","category":"Development","tags":["vaporwave","web","app","implementation","guide","vaporwave.","trigger","when","user","wants","neon","colors","retro","digital","aesthetics","90s","os","elements"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/design-it/vaporwave","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/vaporwave","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":14613,"sha256":"b3ca9e5ef4655a3481ddec6e5624c661d37df66a353ca952d7694a4ea82814b8","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/design-it/vaporwave/SKILL.md","bytes":13540,"sha256":"b3ca9e5ef4655a3481ddec6e5624c661d37df66a353ca952d7694a4ea82814b8","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/vaporwave/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"63cf6a005b8aaa656a9f16f3bd554aca5b931344206c84e7e5d51a45a5c001ae"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--vaporwave",
+    "name": "vaporwave",
+    "description": "Web and App implementation guide for Vaporwave. Trigger when user wants neon colors, retro digital aesthetics, 90s OS elements, and Roman statues.",
+    "category": "Development",
+    "tags": [
+      "vaporwave",
+      "web",
+      "app",
+      "implementation",
+      "guide",
+      "vaporwave.",
+      "trigger",
+      "when",
+      "user",
+      "wants",
+      "neon",
+      "colors",
+      "retro",
+      "digital",
+      "aesthetics",
+      "90s",
+      "os",
+      "elements"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/design-it/vaporwave",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/vaporwave",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 14613,
+    "sha256": "b3ca9e5ef4655a3481ddec6e5624c661d37df66a353ca952d7694a4ea82814b8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/design-it/vaporwave/SKILL.md",
+      "bytes": 13540,
+      "sha256": "b3ca9e5ef4655a3481ddec6e5624c661d37df66a353ca952d7694a4ea82814b8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/design-it/vaporwave/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "63cf6a005b8aaa656a9f16f3bd554aca5b931344206c84e7e5d51a45a5c001ae"
+}

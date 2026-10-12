@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-azure-ad-privileged-identity-management","name":"implementing-azure-ad-privileged-identity-management","description":"Configure Microsoft Entra Privileged Identity Management (PIM) to convert standing privileged assignments into eligible, time-bound roles requiring justification, MFA, and approval, covering Entra roles, Azure resource roles, and PIM for Groups, plus access reviews. Use for role-assignment audits, just-in-time admin activation, or Zero Trust identity governance in Entra/Azure AD.","category":"Security","tags":["implementing","azure","ad","privileged","identity","management","configure","microsoft","entra","pim","convert","standing","assignments","into","eligible","time","bound","roles"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-azure-ad-privileged-identity-management/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-azure-ad-privileged-identity-management","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-ad-privileged-identity-management","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":46266,"sha256":"30b724699557758e5a784fea7df79cce07dd27168bfdad8b665495d627a7bc30","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-azure-ad-privileged-identity-management/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-ad-privileged-identity-management/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-azure-ad-privileged-identity-management/SKILL.md","bytes":10587,"sha256":"30b724699557758e5a784fea7df79cce07dd27168bfdad8b665495d627a7bc30","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-ad-privileged-identity-management/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-azure-ad-privileged-identity-management/assets/template.md","bytes":1979,"sha256":"311312a596aa7d60bdfc05997bf12c586b0d17dfdb4d6b6b82cae10ddf7b31e6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-ad-privileged-identity-management/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-azure-ad-privileged-identity-management/references/api-reference.md","bytes":1951,"sha256":"b5dadcbbbabba3d916924fb039f7b663e73b29bba4e67e5447fcfa093dba69c9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-ad-privileged-identity-management/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-azure-ad-privileged-identity-management/references/standards.md","bytes":2034,"sha256":"6ad2542a8206ba5562cc448a9c8501059f18d19791bbfcba4c6a14a1c4fde67c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-ad-privileged-identity-management/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-azure-ad-privileged-identity-management/references/workflows.md","bytes":3880,"sha256":"28e58707a200daa4719a0e0aa55ee816026040d07b6b847e8a152323cb5f79fe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-ad-privileged-identity-management/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-azure-ad-privileged-identity-management/scripts/agent.py","bytes":6070,"sha256":"a1079319457f8403d9fd73d7e23c19f82efedafb9447a7db6c417fc0b92ad234","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-ad-privileged-identity-management/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-azure-ad-privileged-identity-management/scripts/process.py","bytes":8510,"sha256":"d01e6fe30c0aa3c538238815a48f5782dc5dd3e141804e2e88236caab906195d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-ad-privileged-identity-management/scripts/process.py"}],"archiveSha256":"a3e4817ace3be54f67e891914c488ad1195c32bfc9b23690e2b9e47b17e7f964"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-azure-ad-privileged-identity-management",
+    "name": "implementing-azure-ad-privileged-identity-management",
+    "description": "Configure Microsoft Entra Privileged Identity Management (PIM) to convert standing privileged assignments into eligible, time-bound roles requiring justification, MFA, and approval, covering Entra roles, Azure resource roles, and PIM for Groups, plus access reviews. Use for role-assignment audits, just-in-time admin activation, or Zero Trust identity governance in Entra/Azure AD.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "azure",
+      "ad",
+      "privileged",
+      "identity",
+      "management",
+      "configure",
+      "microsoft",
+      "entra",
+      "pim",
+      "convert",
+      "standing",
+      "assignments",
+      "into",
+      "eligible",
+      "time",
+      "bound",
+      "roles"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-azure-ad-privileged-identity-management/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-azure-ad-privileged-identity-management",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-ad-privileged-identity-management",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 46266,
+    "sha256": "30b724699557758e5a784fea7df79cce07dd27168bfdad8b665495d627a7bc30",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-azure-ad-privileged-identity-management/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-ad-privileged-identity-management/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-azure-ad-privileged-identity-management/SKILL.md",
+      "bytes": 10587,
+      "sha256": "30b724699557758e5a784fea7df79cce07dd27168bfdad8b665495d627a7bc30",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-ad-privileged-identity-management/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-azure-ad-privileged-identity-management/assets/template.md",
+      "bytes": 1979,
+      "sha256": "311312a596aa7d60bdfc05997bf12c586b0d17dfdb4d6b6b82cae10ddf7b31e6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-ad-privileged-identity-management/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-azure-ad-privileged-identity-management/references/api-reference.md",
+      "bytes": 1951,
+      "sha256": "b5dadcbbbabba3d916924fb039f7b663e73b29bba4e67e5447fcfa093dba69c9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-ad-privileged-identity-management/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-azure-ad-privileged-identity-management/references/standards.md",
+      "bytes": 2034,
+      "sha256": "6ad2542a8206ba5562cc448a9c8501059f18d19791bbfcba4c6a14a1c4fde67c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-ad-privileged-identity-management/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-azure-ad-privileged-identity-management/references/workflows.md",
+      "bytes": 3880,
+      "sha256": "28e58707a200daa4719a0e0aa55ee816026040d07b6b847e8a152323cb5f79fe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-ad-privileged-identity-management/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-azure-ad-privileged-identity-management/scripts/agent.py",
+      "bytes": 6070,
+      "sha256": "a1079319457f8403d9fd73d7e23c19f82efedafb9447a7db6c417fc0b92ad234",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-ad-privileged-identity-management/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-azure-ad-privileged-identity-management/scripts/process.py",
+      "bytes": 8510,
+      "sha256": "d01e6fe30c0aa3c538238815a48f5782dc5dd3e141804e2e88236caab906195d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-azure-ad-privileged-identity-management/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "a3e4817ace3be54f67e891914c488ad1195c32bfc9b23690e2b9e47b17e7f964"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--jest-skill","name":"jest-skill","description":"Generates Jest unit and integration tests in JavaScript or TypeScript. Covers mocking, snapshots, async testing, and React component testing. Use when user mentions \"Jest\", \"describe/it/expect\", \"jest.mock\", \"toMatchSnapshot\".","category":"Automation","tags":["jest","skill","generates","unit","integration","tests","javascript","typescript.","covers","mocking","snapshots","async","testing","react","component","testing.","when","user"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/jest-skill","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/jest-skill","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6711,"sha256":"6e8f59307c8ef04d1f348efd5885de49ef8a4b64e34f07f9a6f17a30264e6483","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/jest-skill/SKILL.md","bytes":5638,"sha256":"6e8f59307c8ef04d1f348efd5885de49ef8a4b64e34f07f9a6f17a30264e6483","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/jest-skill/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"3e768829dcaa4945ba53f1a5089679d17114cdd418b00a4b23854b810caa15ff"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--jest-skill",
+    "name": "jest-skill",
+    "description": "Generates Jest unit and integration tests in JavaScript or TypeScript. Covers mocking, snapshots, async testing, and React component testing. Use when user mentions \"Jest\", \"describe/it/expect\", \"jest.mock\", \"toMatchSnapshot\".",
+    "category": "Automation",
+    "tags": [
+      "jest",
+      "skill",
+      "generates",
+      "unit",
+      "integration",
+      "tests",
+      "javascript",
+      "typescript.",
+      "covers",
+      "mocking",
+      "snapshots",
+      "async",
+      "testing",
+      "react",
+      "component",
+      "testing.",
+      "when",
+      "user"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/jest-skill",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/jest-skill",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6711,
+    "sha256": "6e8f59307c8ef04d1f348efd5885de49ef8a4b64e34f07f9a6f17a30264e6483",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/jest-skill/SKILL.md",
+      "bytes": 5638,
+      "sha256": "6e8f59307c8ef04d1f348efd5885de49ef8a4b64e34f07f9a6f17a30264e6483",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/jest-skill/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "3e768829dcaa4945ba53f1a5089679d17114cdd418b00a4b23854b810caa15ff"
+}

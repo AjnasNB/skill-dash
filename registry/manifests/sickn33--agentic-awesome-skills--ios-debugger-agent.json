@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--ios-debugger-agent","name":"ios-debugger-agent","description":"Debug the current iOS project on a booted simulator with XcodeBuildMCP.","category":"AI & agents","tags":["ios","debugger","agent","debug","current","project","booted","simulator","xcodebuildmcp."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/ios-debugger-agent","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ios-debugger-agent","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":4502,"sha256":"dff9d16c61c64ecf9d3ca2b008889ecfbea03d758aaecf091afbdb3ca5736cb8","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/ios-debugger-agent/SKILL.md","bytes":3211,"sha256":"dff9d16c61c64ecf9d3ca2b008889ecfbea03d758aaecf091afbdb3ca5736cb8","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ios-debugger-agent/SKILL.md"},{"path":"agents/openai.yaml","sourcePath":"skills/ios-debugger-agent/agents/openai.yaml","bytes":218,"sha256":"ff0c1b20fa7a4c6762eb47a34a58e3fc14b3d59583d9c328e04d7a3a7c6ffcb2","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ios-debugger-agent/agents/openai.yaml"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"91e484bb219be0051191d4ff34839211cbe2211420a8b64813502f2d09baab55"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--ios-debugger-agent",
+    "name": "ios-debugger-agent",
+    "description": "Debug the current iOS project on a booted simulator with XcodeBuildMCP.",
+    "category": "AI & agents",
+    "tags": [
+      "ios",
+      "debugger",
+      "agent",
+      "debug",
+      "current",
+      "project",
+      "booted",
+      "simulator",
+      "xcodebuildmcp."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/ios-debugger-agent",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ios-debugger-agent",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 4502,
+    "sha256": "dff9d16c61c64ecf9d3ca2b008889ecfbea03d758aaecf091afbdb3ca5736cb8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/ios-debugger-agent/SKILL.md",
+      "bytes": 3211,
+      "sha256": "dff9d16c61c64ecf9d3ca2b008889ecfbea03d758aaecf091afbdb3ca5736cb8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ios-debugger-agent/SKILL.md"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sourcePath": "skills/ios-debugger-agent/agents/openai.yaml",
+      "bytes": 218,
+      "sha256": "ff0c1b20fa7a4c6762eb47a34a58e3fc14b3d59583d9c328e04d7a3a7c6ffcb2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ios-debugger-agent/agents/openai.yaml"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "91e484bb219be0051191d4ff34839211cbe2211420a8b64813502f2d09baab55"
+}

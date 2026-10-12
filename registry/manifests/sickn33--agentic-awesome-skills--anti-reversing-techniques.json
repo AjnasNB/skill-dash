@@ -1,1 +1,70 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--anti-reversing-techniques","name":"anti-reversing-techniques","description":"AUTHORIZED USE ONLY: This skill contains dual-use security techniques. Before proceeding with any bypass or analysis: > 1.","category":"Security","tags":["anti","reversing","techniques","authorized","only","skill","contains","dual","security","techniques.","before","proceeding","any","bypass","analysis","1."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/anti-reversing-techniques","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/anti-reversing-techniques","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":15811,"sha256":"52824a23ed5a76158d88ed0de1e4851582def0d4caed91de020fd08fc79a81fe","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/anti-reversing-techniques/SKILL.md","bytes":3230,"sha256":"52824a23ed5a76158d88ed0de1e4851582def0d4caed91de020fd08fc79a81fe","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/anti-reversing-techniques/SKILL.md"},{"path":"resources/implementation-playbook.md","sourcePath":"skills/anti-reversing-techniques/resources/implementation-playbook.md","bytes":11508,"sha256":"034ce46d9eb1775d3fb90fd2a7f6900ae78009df05f41bdf01e02c31e44bb1e4","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/anti-reversing-techniques/resources/implementation-playbook.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"15175ea7673bb13a344e9bdca32cddf5822176b43659f7ab5bac4194ccbaebfe"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--anti-reversing-techniques",
+    "name": "anti-reversing-techniques",
+    "description": "AUTHORIZED USE ONLY: This skill contains dual-use security techniques. Before proceeding with any bypass or analysis: > 1.",
+    "category": "Security",
+    "tags": [
+      "anti",
+      "reversing",
+      "techniques",
+      "authorized",
+      "only",
+      "skill",
+      "contains",
+      "dual",
+      "security",
+      "techniques.",
+      "before",
+      "proceeding",
+      "any",
+      "bypass",
+      "analysis",
+      "1."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/anti-reversing-techniques",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/anti-reversing-techniques",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 15811,
+    "sha256": "52824a23ed5a76158d88ed0de1e4851582def0d4caed91de020fd08fc79a81fe",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/anti-reversing-techniques/SKILL.md",
+      "bytes": 3230,
+      "sha256": "52824a23ed5a76158d88ed0de1e4851582def0d4caed91de020fd08fc79a81fe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/anti-reversing-techniques/SKILL.md"
+    },
+    {
+      "path": "resources/implementation-playbook.md",
+      "sourcePath": "skills/anti-reversing-techniques/resources/implementation-playbook.md",
+      "bytes": 11508,
+      "sha256": "034ce46d9eb1775d3fb90fd2a7f6900ae78009df05f41bdf01e02c31e44bb1e4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/anti-reversing-techniques/resources/implementation-playbook.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "15175ea7673bb13a344e9bdca32cddf5822176b43659f7ab5bac4194ccbaebfe"
+}

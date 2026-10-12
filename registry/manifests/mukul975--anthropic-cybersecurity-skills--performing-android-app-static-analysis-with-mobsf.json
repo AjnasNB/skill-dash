@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-android-app-static-analysis-with-mobsf","name":"performing-android-app-static-analysis-with-mobsf","description":"Performs automated static analysis of Android applications using Mobile Security Framework (MobSF) to identify hardcoded secrets, insecure permissions, vulnerable components, weak cryptography, and code-level security flaws without executing the application. Use when assessing Android APK/AAB files for security vulnerabilities before deployment, during penetration testing, or as part of CI/CD security gates. Activates for requests involving Android static analysis, MobSF scanning, APK security assessment, or mobile application code review.","category":"Security","tags":["performing","android","app","static","analysis","mobsf","performs","automated","applications","mobile","security","framework","identify","hardcoded","secrets","insecure","permissions","vulnerable"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-android-app-static-analysis-with-mobsf/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-android-app-static-analysis-with-mobsf","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-android-app-static-analysis-with-mobsf","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":52213,"sha256":"33d2ead9c4bfd2e83c27f4ecb9e1bb3caf9216a072ef8e1308d4dce697b4d2e9","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-android-app-static-analysis-with-mobsf/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-android-app-static-analysis-with-mobsf/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-android-app-static-analysis-with-mobsf/SKILL.md","bytes":7364,"sha256":"33d2ead9c4bfd2e83c27f4ecb9e1bb3caf9216a072ef8e1308d4dce697b4d2e9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-android-app-static-analysis-with-mobsf/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/performing-android-app-static-analysis-with-mobsf/assets/template.md","bytes":3704,"sha256":"28e0d259d115309f24449ff94cda95fdec471de3076504ec451f337ad6023f1d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-android-app-static-analysis-with-mobsf/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-android-app-static-analysis-with-mobsf/references/api-reference.md","bytes":5628,"sha256":"6569a470b8d293a90370568a69da1698e4963c58625046ac504779d282bb4e54","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-android-app-static-analysis-with-mobsf/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/performing-android-app-static-analysis-with-mobsf/references/standards.md","bytes":2929,"sha256":"5babb36c0e0d06b4ee0b5e37e6e4965732e06adb0ab2ec21eba3390777a1b54b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-android-app-static-analysis-with-mobsf/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/performing-android-app-static-analysis-with-mobsf/references/workflows.md","bytes":3822,"sha256":"8665ddb1f04580418c682b0a3372baab008bca653511d8aec2ff094575061809","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-android-app-static-analysis-with-mobsf/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-android-app-static-analysis-with-mobsf/scripts/agent.py","bytes":9228,"sha256":"6e4623b0250803a9993728482637265739ea2c70828066e0c1ff328c941998e5","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-android-app-static-analysis-with-mobsf/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/performing-android-app-static-analysis-with-mobsf/scripts/process.py","bytes":8283,"sha256":"4303884ed472a1805886ab808ea0fba3fefe010cba8e327f2cb8b59332018b1d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-android-app-static-analysis-with-mobsf/scripts/process.py"}],"archiveSha256":"8b012bcb9096ae41ec28b303d40f10c4877f875818eb594efd3c72e34a9ab010"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-android-app-static-analysis-with-mobsf",
+    "name": "performing-android-app-static-analysis-with-mobsf",
+    "description": "Performs automated static analysis of Android applications using Mobile Security Framework (MobSF) to identify hardcoded secrets, insecure permissions, vulnerable components, weak cryptography, and code-level security flaws without executing the application. Use when assessing Android APK/AAB files for security vulnerabilities before deployment, during penetration testing, or as part of CI/CD security gates. Activates for requests involving Android static analysis, MobSF scanning, APK security assessment, or mobile application code review.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "android",
+      "app",
+      "static",
+      "analysis",
+      "mobsf",
+      "performs",
+      "automated",
+      "applications",
+      "mobile",
+      "security",
+      "framework",
+      "identify",
+      "hardcoded",
+      "secrets",
+      "insecure",
+      "permissions",
+      "vulnerable"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-android-app-static-analysis-with-mobsf/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-android-app-static-analysis-with-mobsf",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-android-app-static-analysis-with-mobsf",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 52213,
+    "sha256": "33d2ead9c4bfd2e83c27f4ecb9e1bb3caf9216a072ef8e1308d4dce697b4d2e9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-android-app-static-analysis-with-mobsf/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-android-app-static-analysis-with-mobsf/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-android-app-static-analysis-with-mobsf/SKILL.md",
+      "bytes": 7364,
+      "sha256": "33d2ead9c4bfd2e83c27f4ecb9e1bb3caf9216a072ef8e1308d4dce697b4d2e9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-android-app-static-analysis-with-mobsf/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-android-app-static-analysis-with-mobsf/assets/template.md",
+      "bytes": 3704,
+      "sha256": "28e0d259d115309f24449ff94cda95fdec471de3076504ec451f337ad6023f1d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-android-app-static-analysis-with-mobsf/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-android-app-static-analysis-with-mobsf/references/api-reference.md",
+      "bytes": 5628,
+      "sha256": "6569a470b8d293a90370568a69da1698e4963c58625046ac504779d282bb4e54",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-android-app-static-analysis-with-mobsf/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-android-app-static-analysis-with-mobsf/references/standards.md",
+      "bytes": 2929,
+      "sha256": "5babb36c0e0d06b4ee0b5e37e6e4965732e06adb0ab2ec21eba3390777a1b54b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-android-app-static-analysis-with-mobsf/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-android-app-static-analysis-with-mobsf/references/workflows.md",
+      "bytes": 3822,
+      "sha256": "8665ddb1f04580418c682b0a3372baab008bca653511d8aec2ff094575061809",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-android-app-static-analysis-with-mobsf/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-android-app-static-analysis-with-mobsf/scripts/agent.py",
+      "bytes": 9228,
+      "sha256": "6e4623b0250803a9993728482637265739ea2c70828066e0c1ff328c941998e5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-android-app-static-analysis-with-mobsf/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-android-app-static-analysis-with-mobsf/scripts/process.py",
+      "bytes": 8283,
+      "sha256": "4303884ed472a1805886ab808ea0fba3fefe010cba8e327f2cb8b59332018b1d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-android-app-static-analysis-with-mobsf/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "8b012bcb9096ae41ec28b303d40f10c4877f875818eb594efd3c72e34a9ab010"
+}

@@ -1,1 +1,51 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--patterns","name":"patterns","description":"Reference document for monopoly patterns.","category":"Development","tags":["patterns","reference","document","monopoly","patterns."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/monopoly/patterns","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/monopoly/patterns","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11628,"sha256":"205b8971109ef07f158d5b6c456270a90467448e09406f6eaaef6e4438082688","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/monopoly/patterns/SKILL.md","bytes":10555,"sha256":"205b8971109ef07f158d5b6c456270a90467448e09406f6eaaef6e4438082688","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/monopoly/patterns/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"da65a2dfc91f0a2e56fd8250310b2b43ea889bdfbe4d5aec7a0dfec10d2a704b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--patterns",
+    "name": "patterns",
+    "description": "Reference document for monopoly patterns.",
+    "category": "Development",
+    "tags": [
+      "patterns",
+      "reference",
+      "document",
+      "monopoly",
+      "patterns."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/monopoly/patterns",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/monopoly/patterns",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11628,
+    "sha256": "205b8971109ef07f158d5b6c456270a90467448e09406f6eaaef6e4438082688",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/monopoly/patterns/SKILL.md",
+      "bytes": 10555,
+      "sha256": "205b8971109ef07f158d5b6c456270a90467448e09406f6eaaef6e4438082688",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/monopoly/patterns/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "da65a2dfc91f0a2e56fd8250310b2b43ea889bdfbe4d5aec7a0dfec10d2a704b"
+}

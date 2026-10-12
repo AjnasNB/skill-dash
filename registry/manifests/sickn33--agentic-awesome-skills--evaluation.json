@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--evaluation","name":"evaluation","description":"Build evaluation frameworks for agent systems. Use when testing agent performance systematically, validating context engineering choices, or measuring improvements over time.","category":"AI & agents","tags":["evaluation","frameworks","agent","systems.","when","testing","performance","systematically","validating","context","engineering","choices","measuring","improvements","over","time."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/evaluation","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/evaluation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12113,"sha256":"9ef20a6b22940cda9e650cc2e31a83d474ab7933d4bc63892fdcff88a269b980","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/evaluation/SKILL.md","bytes":11040,"sha256":"9ef20a6b22940cda9e650cc2e31a83d474ab7933d4bc63892fdcff88a269b980","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/evaluation/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"ead29ea1be885a248aff600ee314a7e3568ca0d7b74897b9fac1d5b9c4160396"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--evaluation",
+    "name": "evaluation",
+    "description": "Build evaluation frameworks for agent systems. Use when testing agent performance systematically, validating context engineering choices, or measuring improvements over time.",
+    "category": "AI & agents",
+    "tags": [
+      "evaluation",
+      "frameworks",
+      "agent",
+      "systems.",
+      "when",
+      "testing",
+      "performance",
+      "systematically",
+      "validating",
+      "context",
+      "engineering",
+      "choices",
+      "measuring",
+      "improvements",
+      "over",
+      "time."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/evaluation",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/evaluation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12113,
+    "sha256": "9ef20a6b22940cda9e650cc2e31a83d474ab7933d4bc63892fdcff88a269b980",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/evaluation/SKILL.md",
+      "bytes": 11040,
+      "sha256": "9ef20a6b22940cda9e650cc2e31a83d474ab7933d4bc63892fdcff88a269b980",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/evaluation/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ead29ea1be885a248aff600ee314a7e3568ca0d7b74897b9fac1d5b9c4160396"
+}

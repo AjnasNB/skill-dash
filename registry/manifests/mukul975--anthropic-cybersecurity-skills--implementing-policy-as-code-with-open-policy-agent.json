@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-policy-as-code-with-open-policy-agent","name":"implementing-policy-as-code-with-open-policy-agent","description":"Implements policy-as-code enforcement with Open Policy Agent (OPA) and Gatekeeper for Kubernetes and CI/CD pipelines, covering writing Rego policies, deploying OPA Gatekeeper as a Kubernetes admission controller, testing policies in development, and integrating policy evaluation into deployment pipelines. Use when writing Rego policies, deploying Gatekeeper admission control, or gating CI/CD pipelines with policy-as-code checks.","category":"Cloud & DevOps","tags":["implementing","policy","as","code","open","agent","implements","enforcement","opa","gatekeeper","kubernetes","ci","cd","pipelines","covering","writing","rego","policies"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-policy-as-code-with-open-policy-agent/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-policy-as-code-with-open-policy-agent","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-policy-as-code-with-open-policy-agent","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":46180,"sha256":"87bd8f116be5dd1ec953345cb994d8bac02a2a5218e350795255fde667f92cd4","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-policy-as-code-with-open-policy-agent/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-policy-as-code-with-open-policy-agent/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-policy-as-code-with-open-policy-agent/SKILL.md","bytes":10377,"sha256":"87bd8f116be5dd1ec953345cb994d8bac02a2a5218e350795255fde667f92cd4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-policy-as-code-with-open-policy-agent/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-policy-as-code-with-open-policy-agent/assets/template.md","bytes":1833,"sha256":"91e7d788b8d7a73d7acf48e9dea938d3065dbaa6f2e9636332bf05c7281fceff","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-policy-as-code-with-open-policy-agent/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-policy-as-code-with-open-policy-agent/references/api-reference.md","bytes":4139,"sha256":"91bc5889681b7683dca7290bf0c2bcbdb2ba6e9b6b1727a87ec602fc344da430","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-policy-as-code-with-open-policy-agent/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-policy-as-code-with-open-policy-agent/references/standards.md","bytes":1177,"sha256":"b9861512ab537d2be9664bf9e1f02495f163584b52c88bf72c1ccd5d8ebd75d4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-policy-as-code-with-open-policy-agent/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-policy-as-code-with-open-policy-agent/references/workflows.md","bytes":1911,"sha256":"4ca4058b8180b85193436d47b725964cba0b3725b9b9972057af88357b95d503","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-policy-as-code-with-open-policy-agent/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-policy-as-code-with-open-policy-agent/scripts/agent.py","bytes":9534,"sha256":"41c54f90b70af06f4a60c82568ae2a929c5454b8b0dd3e98a7d098dfce61ac18","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-policy-as-code-with-open-policy-agent/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-policy-as-code-with-open-policy-agent/scripts/process.py","bytes":5954,"sha256":"9eecb90dac04f512c9ae40857f195480b510a495ddc5a9f476e4428e197a7389","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-policy-as-code-with-open-policy-agent/scripts/process.py"}],"archiveSha256":"4f34cdd46814b17b965761d53f1a6032d010a49fb0a2f157e528ad0b37470c25"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-policy-as-code-with-open-policy-agent",
+    "name": "implementing-policy-as-code-with-open-policy-agent",
+    "description": "Implements policy-as-code enforcement with Open Policy Agent (OPA) and Gatekeeper for Kubernetes and CI/CD pipelines, covering writing Rego policies, deploying OPA Gatekeeper as a Kubernetes admission controller, testing policies in development, and integrating policy evaluation into deployment pipelines. Use when writing Rego policies, deploying Gatekeeper admission control, or gating CI/CD pipelines with policy-as-code checks.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "implementing",
+      "policy",
+      "as",
+      "code",
+      "open",
+      "agent",
+      "implements",
+      "enforcement",
+      "opa",
+      "gatekeeper",
+      "kubernetes",
+      "ci",
+      "cd",
+      "pipelines",
+      "covering",
+      "writing",
+      "rego",
+      "policies"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-policy-as-code-with-open-policy-agent/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-policy-as-code-with-open-policy-agent",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-policy-as-code-with-open-policy-agent",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 46180,
+    "sha256": "87bd8f116be5dd1ec953345cb994d8bac02a2a5218e350795255fde667f92cd4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-policy-as-code-with-open-policy-agent/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-policy-as-code-with-open-policy-agent/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-policy-as-code-with-open-policy-agent/SKILL.md",
+      "bytes": 10377,
+      "sha256": "87bd8f116be5dd1ec953345cb994d8bac02a2a5218e350795255fde667f92cd4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-policy-as-code-with-open-policy-agent/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-policy-as-code-with-open-policy-agent/assets/template.md",
+      "bytes": 1833,
+      "sha256": "91e7d788b8d7a73d7acf48e9dea938d3065dbaa6f2e9636332bf05c7281fceff",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-policy-as-code-with-open-policy-agent/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-policy-as-code-with-open-policy-agent/references/api-reference.md",
+      "bytes": 4139,
+      "sha256": "91bc5889681b7683dca7290bf0c2bcbdb2ba6e9b6b1727a87ec602fc344da430",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-policy-as-code-with-open-policy-agent/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-policy-as-code-with-open-policy-agent/references/standards.md",
+      "bytes": 1177,
+      "sha256": "b9861512ab537d2be9664bf9e1f02495f163584b52c88bf72c1ccd5d8ebd75d4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-policy-as-code-with-open-policy-agent/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-policy-as-code-with-open-policy-agent/references/workflows.md",
+      "bytes": 1911,
+      "sha256": "4ca4058b8180b85193436d47b725964cba0b3725b9b9972057af88357b95d503",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-policy-as-code-with-open-policy-agent/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-policy-as-code-with-open-policy-agent/scripts/agent.py",
+      "bytes": 9534,
+      "sha256": "41c54f90b70af06f4a60c82568ae2a929c5454b8b0dd3e98a7d098dfce61ac18",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-policy-as-code-with-open-policy-agent/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-policy-as-code-with-open-policy-agent/scripts/process.py",
+      "bytes": 5954,
+      "sha256": "9eecb90dac04f512c9ae40857f195480b510a495ddc5a9f476e4428e197a7389",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-policy-as-code-with-open-policy-agent/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "4f34cdd46814b17b965761d53f1a6032d010a49fb0a2f157e528ad0b37470c25"
+}

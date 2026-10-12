@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--hunting-for-registry-persistence-mechanisms","name":"hunting-for-registry-persistence-mechanisms","description":"Hunts for registry-based persistence mechanisms (MITRE T1547) in Windows environments, including Run/RunOnce keys, Winlogon Shell/Userinit modifications, Image File Execution Options (IFEO) debugger injection, and COM hijacking via CLSID overrides. Use when auditing the registry for persistence artifacts or building detections for registry-based malware autostart techniques.","category":"Security","tags":["hunting","registry","persistence","mechanisms","hunts","based","mitre","t1547","windows","environments","including","run","runonce","keys","winlogon","shell","userinit","modifications"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/hunting-for-registry-persistence-mechanisms/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/hunting-for-registry-persistence-mechanisms","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-persistence-mechanisms","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":33744,"sha256":"7c7233610b10949b8771e9933a8144304e63986fa255b8620c3ef7f92b634405","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/hunting-for-registry-persistence-mechanisms/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-persistence-mechanisms/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/hunting-for-registry-persistence-mechanisms/SKILL.md","bytes":3725,"sha256":"7c7233610b10949b8771e9933a8144304e63986fa255b8620c3ef7f92b634405","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-persistence-mechanisms/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/hunting-for-registry-persistence-mechanisms/assets/template.md","bytes":2688,"sha256":"e971ca147ca07dab6e09ae13934c0b22141a8ac030ef5424aaf844c4cf709ab1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-persistence-mechanisms/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/hunting-for-registry-persistence-mechanisms/references/api-reference.md","bytes":1876,"sha256":"beeef34b49a7179889ceeb305bf5159b766b8876d2af632e314b6efe1f13b857","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-persistence-mechanisms/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/hunting-for-registry-persistence-mechanisms/references/standards.md","bytes":1665,"sha256":"ff9c53b1e4131ab6e00534f484bd7487cbbdb22672437c168b9e61f87f7029e2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-persistence-mechanisms/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/hunting-for-registry-persistence-mechanisms/references/workflows.md","bytes":2977,"sha256":"e4d870b32cae794b42237a0aa1fd434c87dbb612e90c7bca5bb83192d3d2311d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-persistence-mechanisms/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/hunting-for-registry-persistence-mechanisms/scripts/agent.py","bytes":5864,"sha256":"cc869e56bb5fed99a732e70b56542799586cce27ac77ce53252a271db36d1ff1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-persistence-mechanisms/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/hunting-for-registry-persistence-mechanisms/scripts/process.py","bytes":3694,"sha256":"1f96809251da94944d398d2dba2df5bd4877794f3af91ff4f3c9bf5290365a11","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-persistence-mechanisms/scripts/process.py"}],"archiveSha256":"0710aac1b99e92fb26e24ceeacd532f7c43081c58f5cb7d083884d524d71b12d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-for-registry-persistence-mechanisms",
+    "name": "hunting-for-registry-persistence-mechanisms",
+    "description": "Hunts for registry-based persistence mechanisms (MITRE T1547) in Windows environments, including Run/RunOnce keys, Winlogon Shell/Userinit modifications, Image File Execution Options (IFEO) debugger injection, and COM hijacking via CLSID overrides. Use when auditing the registry for persistence artifacts or building detections for registry-based malware autostart techniques.",
+    "category": "Security",
+    "tags": [
+      "hunting",
+      "registry",
+      "persistence",
+      "mechanisms",
+      "hunts",
+      "based",
+      "mitre",
+      "t1547",
+      "windows",
+      "environments",
+      "including",
+      "run",
+      "runonce",
+      "keys",
+      "winlogon",
+      "shell",
+      "userinit",
+      "modifications"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-for-registry-persistence-mechanisms/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-for-registry-persistence-mechanisms",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-persistence-mechanisms",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 33744,
+    "sha256": "7c7233610b10949b8771e9933a8144304e63986fa255b8620c3ef7f92b634405",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-for-registry-persistence-mechanisms/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-persistence-mechanisms/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-for-registry-persistence-mechanisms/SKILL.md",
+      "bytes": 3725,
+      "sha256": "7c7233610b10949b8771e9933a8144304e63986fa255b8620c3ef7f92b634405",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-persistence-mechanisms/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/hunting-for-registry-persistence-mechanisms/assets/template.md",
+      "bytes": 2688,
+      "sha256": "e971ca147ca07dab6e09ae13934c0b22141a8ac030ef5424aaf844c4cf709ab1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-persistence-mechanisms/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-for-registry-persistence-mechanisms/references/api-reference.md",
+      "bytes": 1876,
+      "sha256": "beeef34b49a7179889ceeb305bf5159b766b8876d2af632e314b6efe1f13b857",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-persistence-mechanisms/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/hunting-for-registry-persistence-mechanisms/references/standards.md",
+      "bytes": 1665,
+      "sha256": "ff9c53b1e4131ab6e00534f484bd7487cbbdb22672437c168b9e61f87f7029e2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-persistence-mechanisms/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/hunting-for-registry-persistence-mechanisms/references/workflows.md",
+      "bytes": 2977,
+      "sha256": "e4d870b32cae794b42237a0aa1fd434c87dbb612e90c7bca5bb83192d3d2311d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-persistence-mechanisms/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-for-registry-persistence-mechanisms/scripts/agent.py",
+      "bytes": 5864,
+      "sha256": "cc869e56bb5fed99a732e70b56542799586cce27ac77ce53252a271db36d1ff1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-persistence-mechanisms/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/hunting-for-registry-persistence-mechanisms/scripts/process.py",
+      "bytes": 3694,
+      "sha256": "1f96809251da94944d398d2dba2df5bd4877794f3af91ff4f3c9bf5290365a11",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-registry-persistence-mechanisms/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "0710aac1b99e92fb26e24ceeacd532f7c43081c58f5cb7d083884d524d71b12d"
+}

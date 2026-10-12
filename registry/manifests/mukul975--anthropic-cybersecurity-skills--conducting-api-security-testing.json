@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--conducting-api-security-testing","name":"conducting-api-security-testing","description":"Conducts security testing of REST, GraphQL, and gRPC APIs to identify vulnerabilities in authentication, authorization, rate limiting, input validation, and business logic. The tester uses the OWASP API Security Top 10 as the testing framework, combining Burp Suite interception with Postman collections and custom scripts to test endpoint security at every privilege level. Activates for requests involving API security testing, REST API pentest, GraphQL security assessment, or API vulnerability testing.","category":"Security","tags":["conducting","api","security","testing","conducts","rest","graphql","grpc","apis","identify","vulnerabilities","authentication","authorization","rate","limiting","input","validation","business"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/conducting-api-security-testing/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/conducting-api-security-testing","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-api-security-testing","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":34076,"sha256":"d7c01bde62507b200c57a34b0d4ba04a520b1a6c0cd02ac2ac1b08fe2852c3ef","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/conducting-api-security-testing/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-api-security-testing/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/conducting-api-security-testing/SKILL.md","bytes":11829,"sha256":"d7c01bde62507b200c57a34b0d4ba04a520b1a6c0cd02ac2ac1b08fe2852c3ef","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-api-security-testing/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/conducting-api-security-testing/references/api-reference.md","bytes":2598,"sha256":"6bf9db92fdf25ea9fe8f08c28284721f94165adcec5f2b5b14c129571e2e17e6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-api-security-testing/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/conducting-api-security-testing/scripts/agent.py","bytes":8394,"sha256":"044ac63101a0111afa4eb78da06e1c219951b3058bdf52680a3a8aebf2011618","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-api-security-testing/scripts/agent.py"}],"archiveSha256":"2b3650cff9ffe3c2dafb47787229ba6b86822fc70097a069340d8676a3657d50"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--conducting-api-security-testing",
+    "name": "conducting-api-security-testing",
+    "description": "Conducts security testing of REST, GraphQL, and gRPC APIs to identify vulnerabilities in authentication, authorization, rate limiting, input validation, and business logic. The tester uses the OWASP API Security Top 10 as the testing framework, combining Burp Suite interception with Postman collections and custom scripts to test endpoint security at every privilege level. Activates for requests involving API security testing, REST API pentest, GraphQL security assessment, or API vulnerability testing.",
+    "category": "Security",
+    "tags": [
+      "conducting",
+      "api",
+      "security",
+      "testing",
+      "conducts",
+      "rest",
+      "graphql",
+      "grpc",
+      "apis",
+      "identify",
+      "vulnerabilities",
+      "authentication",
+      "authorization",
+      "rate",
+      "limiting",
+      "input",
+      "validation",
+      "business"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/conducting-api-security-testing/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/conducting-api-security-testing",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-api-security-testing",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34076,
+    "sha256": "d7c01bde62507b200c57a34b0d4ba04a520b1a6c0cd02ac2ac1b08fe2852c3ef",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/conducting-api-security-testing/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-api-security-testing/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/conducting-api-security-testing/SKILL.md",
+      "bytes": 11829,
+      "sha256": "d7c01bde62507b200c57a34b0d4ba04a520b1a6c0cd02ac2ac1b08fe2852c3ef",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-api-security-testing/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/conducting-api-security-testing/references/api-reference.md",
+      "bytes": 2598,
+      "sha256": "6bf9db92fdf25ea9fe8f08c28284721f94165adcec5f2b5b14c129571e2e17e6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-api-security-testing/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/conducting-api-security-testing/scripts/agent.py",
+      "bytes": 8394,
+      "sha256": "044ac63101a0111afa4eb78da06e1c219951b3058bdf52680a3a8aebf2011618",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-api-security-testing/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "2b3650cff9ffe3c2dafb47787229ba6b86822fc70097a069340d8676a3657d50"
+}

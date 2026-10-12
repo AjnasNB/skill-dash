@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--hunting-for-data-exfiltration-indicators","name":"hunting-for-data-exfiltration-indicators","description":"Hunt for data exfiltration by analyzing Zeek and Suricata network telemetry for unusual data flows, DNS tunneling via large/frequent TXT queries, uploads to personal cloud storage, and encrypted-channel abuse, correlated against threat intel on destination domains. Use when hunting for data theft in a compromised environment, investigating unusual outbound data volumes, or determining what data was stolen during incident response.","category":"Security","tags":["hunting","data","exfiltration","indicators","hunt","by","analyzing","zeek","suricata","network","telemetry","unusual","flows","dns","tunneling","via","large","frequent"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/hunting-for-data-exfiltration-indicators/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/hunting-for-data-exfiltration-indicators","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-data-exfiltration-indicators","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":38721,"sha256":"c9e417f0016997077d1d247a9d1419349654710744583d3e077bef0dfcb5d154","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/hunting-for-data-exfiltration-indicators/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-data-exfiltration-indicators/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/hunting-for-data-exfiltration-indicators/SKILL.md","bytes":4786,"sha256":"c9e417f0016997077d1d247a9d1419349654710744583d3e077bef0dfcb5d154","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-data-exfiltration-indicators/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/hunting-for-data-exfiltration-indicators/assets/template.md","bytes":714,"sha256":"878b1ddd44ce61c2c20d2f64424b513f71de86535a4152be49a8925f3c1c64fa","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-data-exfiltration-indicators/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/hunting-for-data-exfiltration-indicators/references/api-reference.md","bytes":1392,"sha256":"34670fb08f06d1140ad9722f75bc2e996a69c16bbc891443d6fcd2693605e2ba","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-data-exfiltration-indicators/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/hunting-for-data-exfiltration-indicators/references/standards.md","bytes":2213,"sha256":"8e3234cf51b48286712ca30573202de48f435b0010fb8b2cdcbc035633c4f645","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-data-exfiltration-indicators/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/hunting-for-data-exfiltration-indicators/references/workflows.md","bytes":2505,"sha256":"75ba2f6b00e96b4647edd226dac4afcb9186c3cfebb0ef6520efc8fd7d1f19f1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-data-exfiltration-indicators/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/hunting-for-data-exfiltration-indicators/scripts/agent.py","bytes":5909,"sha256":"be7fa0744ac8db692ae9f505afd07626934bfa31ee7d00aebe5f2af68dbb5003","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-data-exfiltration-indicators/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/hunting-for-data-exfiltration-indicators/scripts/process.py","bytes":9947,"sha256":"bb3a2321c57c094be5157b65d7605af14b7f50981141a9a2223e1260dfbdbf77","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-data-exfiltration-indicators/scripts/process.py"}],"archiveSha256":"1431856c653212e1d789b501de1b10de6b9e5fd202384be6aa4626362135cead"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-for-data-exfiltration-indicators",
+    "name": "hunting-for-data-exfiltration-indicators",
+    "description": "Hunt for data exfiltration by analyzing Zeek and Suricata network telemetry for unusual data flows, DNS tunneling via large/frequent TXT queries, uploads to personal cloud storage, and encrypted-channel abuse, correlated against threat intel on destination domains. Use when hunting for data theft in a compromised environment, investigating unusual outbound data volumes, or determining what data was stolen during incident response.",
+    "category": "Security",
+    "tags": [
+      "hunting",
+      "data",
+      "exfiltration",
+      "indicators",
+      "hunt",
+      "by",
+      "analyzing",
+      "zeek",
+      "suricata",
+      "network",
+      "telemetry",
+      "unusual",
+      "flows",
+      "dns",
+      "tunneling",
+      "via",
+      "large",
+      "frequent"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-for-data-exfiltration-indicators/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-for-data-exfiltration-indicators",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-data-exfiltration-indicators",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 38721,
+    "sha256": "c9e417f0016997077d1d247a9d1419349654710744583d3e077bef0dfcb5d154",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-for-data-exfiltration-indicators/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-data-exfiltration-indicators/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-for-data-exfiltration-indicators/SKILL.md",
+      "bytes": 4786,
+      "sha256": "c9e417f0016997077d1d247a9d1419349654710744583d3e077bef0dfcb5d154",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-data-exfiltration-indicators/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/hunting-for-data-exfiltration-indicators/assets/template.md",
+      "bytes": 714,
+      "sha256": "878b1ddd44ce61c2c20d2f64424b513f71de86535a4152be49a8925f3c1c64fa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-data-exfiltration-indicators/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-for-data-exfiltration-indicators/references/api-reference.md",
+      "bytes": 1392,
+      "sha256": "34670fb08f06d1140ad9722f75bc2e996a69c16bbc891443d6fcd2693605e2ba",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-data-exfiltration-indicators/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/hunting-for-data-exfiltration-indicators/references/standards.md",
+      "bytes": 2213,
+      "sha256": "8e3234cf51b48286712ca30573202de48f435b0010fb8b2cdcbc035633c4f645",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-data-exfiltration-indicators/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/hunting-for-data-exfiltration-indicators/references/workflows.md",
+      "bytes": 2505,
+      "sha256": "75ba2f6b00e96b4647edd226dac4afcb9186c3cfebb0ef6520efc8fd7d1f19f1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-data-exfiltration-indicators/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-for-data-exfiltration-indicators/scripts/agent.py",
+      "bytes": 5909,
+      "sha256": "be7fa0744ac8db692ae9f505afd07626934bfa31ee7d00aebe5f2af68dbb5003",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-data-exfiltration-indicators/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/hunting-for-data-exfiltration-indicators/scripts/process.py",
+      "bytes": 9947,
+      "sha256": "bb3a2321c57c094be5157b65d7605af14b7f50981141a9a2223e1260dfbdbf77",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-data-exfiltration-indicators/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "1431856c653212e1d789b501de1b10de6b9e5fd202384be6aa4626362135cead"
+}

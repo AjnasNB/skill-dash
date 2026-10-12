@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"mattpocock--skills--triage","name":"triage","description":"Move issues and external PRs through a state machine of triage roles, categorise, verify, grill if needed, and write agent-ready briefs.","category":"AI & agents","tags":["triage","move","issues","external","prs","through","state","machine","roles","categorise","verify","grill","if","needed","write","agent","ready","briefs."],"repo":"mattpocock/skills","owner":"mattpocock","stars":287125,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"49dd158d1076134a641b33efb035946536778336","path":"skills/engineering/triage","sourceUrl":"https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/engineering/triage","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-09T10:56:49Z","fileCount":5,"bytes":20370,"sha256":"917b0baf74be583e74f110857ed45df2766617f75c00baf61fd136d7af515edf","historical":false},"files":[{"path":"AGENT-BRIEF.md","sourcePath":"skills/engineering/triage/AGENT-BRIEF.md","bytes":7942,"sha256":"7f5f87fed3033df1b06e083c480f3e847b1fbb0647746b8a4c6a50f9f26ef44f","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/triage/AGENT-BRIEF.md"},{"path":"OUT-OF-SCOPE.md","sourcePath":"skills/engineering/triage/OUT-OF-SCOPE.md","bytes":4667,"sha256":"1fbf9b432130c6380aa65813b55553cfda150309b27c595e183f8e335b8a190d","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/triage/OUT-OF-SCOPE.md"},{"path":"SKILL.md","sourcePath":"skills/engineering/triage/SKILL.md","bytes":6558,"sha256":"917b0baf74be583e74f110857ed45df2766617f75c00baf61fd136d7af515edf","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/triage/SKILL.md"},{"path":"agents/openai.yaml","sourcePath":"skills/engineering/triage/agents/openai.yaml","bytes":135,"sha256":"2e683717720cf456d165d0bb1a68bb600d0b6a8ccb61841c172e50d26f95351c","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/triage/agents/openai.yaml"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1068,"sha256":"0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/LICENSE"}],"archiveSha256":"ecc766cc342d599fcfb65266745e868fb79ef5464fff536327c9061c580cd567"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mattpocock--skills--triage",
+    "name": "triage",
+    "description": "Move issues and external PRs through a state machine of triage roles, categorise, verify, grill if needed, and write agent-ready briefs.",
+    "category": "AI & agents",
+    "tags": [
+      "triage",
+      "move",
+      "issues",
+      "external",
+      "prs",
+      "through",
+      "state",
+      "machine",
+      "roles",
+      "categorise",
+      "verify",
+      "grill",
+      "if",
+      "needed",
+      "write",
+      "agent",
+      "ready",
+      "briefs."
+    ],
+    "repo": "mattpocock/skills",
+    "owner": "mattpocock",
+    "stars": 287125,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "49dd158d1076134a641b33efb035946536778336",
+    "path": "skills/engineering/triage",
+    "sourceUrl": "https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/engineering/triage",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-09T10:56:49Z",
+    "fileCount": 5,
+    "bytes": 20370,
+    "sha256": "917b0baf74be583e74f110857ed45df2766617f75c00baf61fd136d7af515edf",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "AGENT-BRIEF.md",
+      "sourcePath": "skills/engineering/triage/AGENT-BRIEF.md",
+      "bytes": 7942,
+      "sha256": "7f5f87fed3033df1b06e083c480f3e847b1fbb0647746b8a4c6a50f9f26ef44f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/triage/AGENT-BRIEF.md"
+    },
+    {
+      "path": "OUT-OF-SCOPE.md",
+      "sourcePath": "skills/engineering/triage/OUT-OF-SCOPE.md",
+      "bytes": 4667,
+      "sha256": "1fbf9b432130c6380aa65813b55553cfda150309b27c595e183f8e335b8a190d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/triage/OUT-OF-SCOPE.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/engineering/triage/SKILL.md",
+      "bytes": 6558,
+      "sha256": "917b0baf74be583e74f110857ed45df2766617f75c00baf61fd136d7af515edf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/triage/SKILL.md"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sourcePath": "skills/engineering/triage/agents/openai.yaml",
+      "bytes": 135,
+      "sha256": "2e683717720cf456d165d0bb1a68bb600d0b6a8ccb61841c172e50d26f95351c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/engineering/triage/agents/openai.yaml"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1068,
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/LICENSE"
+    }
+  ],
+  "archiveSha256": "ecc766cc342d599fcfb65266745e868fb79ef5464fff536327c9061c580cd567"
+}

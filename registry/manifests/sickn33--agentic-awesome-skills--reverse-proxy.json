@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--reverse-proxy","name":"reverse-proxy","description":"Configure nginx and Traefik as reverse proxies. Implement SSL termination and routing. Use when setting up application gateways.","category":"Development","tags":["reverse","proxy","configure","nginx","traefik","as","proxies.","implement","ssl","termination","routing.","when","setting","up","application","gateways."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/reverse-proxy","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/reverse-proxy","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12313,"sha256":"40ed19eebf5f077c5d3829e93f8e55292ecb0ad48d83f15038fd8cb20d081f6b","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/reverse-proxy/SKILL.md","bytes":11240,"sha256":"40ed19eebf5f077c5d3829e93f8e55292ecb0ad48d83f15038fd8cb20d081f6b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/reverse-proxy/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"d3aa0dd545e1d106be2598f1782ba37de57c01bb5ccbbfd6310ac68f45a561dd"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--reverse-proxy",
+    "name": "reverse-proxy",
+    "description": "Configure nginx and Traefik as reverse proxies. Implement SSL termination and routing. Use when setting up application gateways.",
+    "category": "Development",
+    "tags": [
+      "reverse",
+      "proxy",
+      "configure",
+      "nginx",
+      "traefik",
+      "as",
+      "proxies.",
+      "implement",
+      "ssl",
+      "termination",
+      "routing.",
+      "when",
+      "setting",
+      "up",
+      "application",
+      "gateways."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/reverse-proxy",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/reverse-proxy",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12313,
+    "sha256": "40ed19eebf5f077c5d3829e93f8e55292ecb0ad48d83f15038fd8cb20d081f6b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/reverse-proxy/SKILL.md",
+      "bytes": 11240,
+      "sha256": "40ed19eebf5f077c5d3829e93f8e55292ecb0ad48d83f15038fd8cb20d081f6b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/reverse-proxy/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "d3aa0dd545e1d106be2598f1782ba37de57c01bb5ccbbfd6310ac68f45a561dd"
+}

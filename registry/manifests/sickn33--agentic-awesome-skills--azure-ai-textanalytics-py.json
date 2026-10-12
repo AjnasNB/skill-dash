@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--azure-ai-textanalytics-py","name":"azure-ai-textanalytics-py","description":"Azure AI Text Analytics SDK for sentiment analysis, entity recognition, key phrases, language detection, PII, and healthcare NLP. Use for natural language processing on text.","category":"Cloud & DevOps","tags":["azure","ai","textanalytics","py","text","analytics","sdk","sentiment","analysis","entity","recognition","key","phrases","language","detection","pii","healthcare","nlp."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/azure-ai-textanalytics-py","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-textanalytics-py","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":8075,"sha256":"154728fe412ed30f8889590a87e9d8064426723472e8b44427f2ade03602dfbf","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/azure-ai-textanalytics-py/SKILL.md","bytes":7002,"sha256":"154728fe412ed30f8889590a87e9d8064426723472e8b44427f2ade03602dfbf","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-textanalytics-py/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"03786e9ccb018f69ffc0f961e5853af9c9a31494396e9507fb9b854b97974cc3"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--azure-ai-textanalytics-py",
+    "name": "azure-ai-textanalytics-py",
+    "description": "Azure AI Text Analytics SDK for sentiment analysis, entity recognition, key phrases, language detection, PII, and healthcare NLP. Use for natural language processing on text.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "azure",
+      "ai",
+      "textanalytics",
+      "py",
+      "text",
+      "analytics",
+      "sdk",
+      "sentiment",
+      "analysis",
+      "entity",
+      "recognition",
+      "key",
+      "phrases",
+      "language",
+      "detection",
+      "pii",
+      "healthcare",
+      "nlp."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/azure-ai-textanalytics-py",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-textanalytics-py",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 8075,
+    "sha256": "154728fe412ed30f8889590a87e9d8064426723472e8b44427f2ade03602dfbf",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/azure-ai-textanalytics-py/SKILL.md",
+      "bytes": 7002,
+      "sha256": "154728fe412ed30f8889590a87e9d8064426723472e8b44427f2ade03602dfbf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-textanalytics-py/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "03786e9ccb018f69ffc0f961e5853af9c9a31494396e9507fb9b854b97974cc3"
+}

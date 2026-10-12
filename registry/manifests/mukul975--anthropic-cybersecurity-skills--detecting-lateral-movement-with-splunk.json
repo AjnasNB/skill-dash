@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-lateral-movement-with-splunk","name":"detecting-lateral-movement-with-splunk","description":"Detect adversary lateral movement across networks using Splunk SPL queries against Windows authentication logs, SMB traffic, and remote service (WMI/PsExec/RDP) abuse. Use when hunting for MITRE ATT&CK TA0008 lateral movement activity or investigating suspected pivoting between hosts during an incident, with Splunk as the SIEM.","category":"Development","tags":["detecting","lateral","movement","splunk","detect","adversary","across","networks","spl","queries","against","windows","authentication","logs","smb","traffic","remote","service"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-lateral-movement-with-splunk/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-lateral-movement-with-splunk","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-splunk","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":43897,"sha256":"887ba5b1d93a9a0813a170e4f2a548e2a9cdd620ab9d64ff07a05c78f804c59b","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-lateral-movement-with-splunk/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-splunk/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-lateral-movement-with-splunk/SKILL.md","bytes":4604,"sha256":"887ba5b1d93a9a0813a170e4f2a548e2a9cdd620ab9d64ff07a05c78f804c59b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-splunk/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/detecting-lateral-movement-with-splunk/assets/template.md","bytes":1279,"sha256":"030bee011f0e4d766684085f4763539d573b17e42fe5a4f847709f1b38c40f23","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-splunk/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-lateral-movement-with-splunk/references/api-reference.md","bytes":1562,"sha256":"02576c74afadb4715b00931287aefb3e9a263b5303be5be296c787e2f184dad7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-splunk/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/detecting-lateral-movement-with-splunk/references/standards.md","bytes":2635,"sha256":"b29b074f6d0304b724e0115c3c3365cf0db3294697474305c2a0ab829194b39e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-splunk/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/detecting-lateral-movement-with-splunk/references/workflows.md","bytes":4756,"sha256":"08a5449db4cd6dd7165dddd0eb61c8b8664cd7d1ace46d6475279d952aef7759","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-splunk/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-lateral-movement-with-splunk/scripts/agent.py","bytes":5029,"sha256":"349f78e4fe6a6f2e6959d8e51bc7a498efbd60b004226dd6e8172dddc450efbd","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-splunk/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/detecting-lateral-movement-with-splunk/scripts/process.py","bytes":12777,"sha256":"cb9ba74d64f9c401e46bf60852b41a502fc39b80d190d05ed66d4f444e6b2357","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-splunk/scripts/process.py"}],"archiveSha256":"669c92b6af86f364e3a556071b644901c7b33822c7f13573b988d7ff764979d1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-lateral-movement-with-splunk",
+    "name": "detecting-lateral-movement-with-splunk",
+    "description": "Detect adversary lateral movement across networks using Splunk SPL queries against Windows authentication logs, SMB traffic, and remote service (WMI/PsExec/RDP) abuse. Use when hunting for MITRE ATT&CK TA0008 lateral movement activity or investigating suspected pivoting between hosts during an incident, with Splunk as the SIEM.",
+    "category": "Development",
+    "tags": [
+      "detecting",
+      "lateral",
+      "movement",
+      "splunk",
+      "detect",
+      "adversary",
+      "across",
+      "networks",
+      "spl",
+      "queries",
+      "against",
+      "windows",
+      "authentication",
+      "logs",
+      "smb",
+      "traffic",
+      "remote",
+      "service"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-lateral-movement-with-splunk/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-lateral-movement-with-splunk",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-splunk",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 43897,
+    "sha256": "887ba5b1d93a9a0813a170e4f2a548e2a9cdd620ab9d64ff07a05c78f804c59b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-lateral-movement-with-splunk/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-splunk/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-lateral-movement-with-splunk/SKILL.md",
+      "bytes": 4604,
+      "sha256": "887ba5b1d93a9a0813a170e4f2a548e2a9cdd620ab9d64ff07a05c78f804c59b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-splunk/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/detecting-lateral-movement-with-splunk/assets/template.md",
+      "bytes": 1279,
+      "sha256": "030bee011f0e4d766684085f4763539d573b17e42fe5a4f847709f1b38c40f23",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-splunk/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-lateral-movement-with-splunk/references/api-reference.md",
+      "bytes": 1562,
+      "sha256": "02576c74afadb4715b00931287aefb3e9a263b5303be5be296c787e2f184dad7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-splunk/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/detecting-lateral-movement-with-splunk/references/standards.md",
+      "bytes": 2635,
+      "sha256": "b29b074f6d0304b724e0115c3c3365cf0db3294697474305c2a0ab829194b39e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-splunk/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/detecting-lateral-movement-with-splunk/references/workflows.md",
+      "bytes": 4756,
+      "sha256": "08a5449db4cd6dd7165dddd0eb61c8b8664cd7d1ace46d6475279d952aef7759",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-splunk/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-lateral-movement-with-splunk/scripts/agent.py",
+      "bytes": 5029,
+      "sha256": "349f78e4fe6a6f2e6959d8e51bc7a498efbd60b004226dd6e8172dddc450efbd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-splunk/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/detecting-lateral-movement-with-splunk/scripts/process.py",
+      "bytes": 12777,
+      "sha256": "cb9ba74d64f9c401e46bf60852b41a502fc39b80d190d05ed66d4f444e6b2357",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-lateral-movement-with-splunk/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "669c92b6af86f364e3a556071b644901c7b33822c7f13573b988d7ff764979d1"
+}

@@ -1,1 +1,56 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--resolving-merge-conflicts","name":"resolving-merge-conflicts","description":"Use when you need to resolve an in-progress git merge/rebase conflict.","category":"Development","tags":["resolving","merge","conflicts","when","you","resolve","progress","git","rebase","conflict."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/resolving-merge-conflicts","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/resolving-merge-conflicts","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":2882,"sha256":"9e64d8fff748cfb42373c4fc503feeef66589f08620259a1367cb5e5e5b935a3","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/resolving-merge-conflicts/SKILL.md","bytes":1809,"sha256":"9e64d8fff748cfb42373c4fc503feeef66589f08620259a1367cb5e5e5b935a3","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/resolving-merge-conflicts/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"732cafa58a97d8602410aee35fd39e706b0c91eb89a5a115fef03151d5d67471"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--resolving-merge-conflicts",
+    "name": "resolving-merge-conflicts",
+    "description": "Use when you need to resolve an in-progress git merge/rebase conflict.",
+    "category": "Development",
+    "tags": [
+      "resolving",
+      "merge",
+      "conflicts",
+      "when",
+      "you",
+      "resolve",
+      "progress",
+      "git",
+      "rebase",
+      "conflict."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/resolving-merge-conflicts",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/resolving-merge-conflicts",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 2882,
+    "sha256": "9e64d8fff748cfb42373c4fc503feeef66589f08620259a1367cb5e5e5b935a3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/resolving-merge-conflicts/SKILL.md",
+      "bytes": 1809,
+      "sha256": "9e64d8fff748cfb42373c4fc503feeef66589f08620259a1367cb5e5e5b935a3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/resolving-merge-conflicts/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "732cafa58a97d8602410aee35fd39e706b0c91eb89a5a115fef03151d5d67471"
+}

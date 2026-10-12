@@ -1,1 +1,54 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--docker-compose","name":"docker-compose","description":"Define and run multi-container Docker applications using Docker Compose.","category":"Cloud & DevOps","tags":["docker","compose","define","run","multi","container","applications","compose."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/docker-compose","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docker-compose","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":10042,"sha256":"5296a2d78f994bd2371d770c0ad91a25ba4888d63c83e634681924dc885cbff6","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/docker-compose/SKILL.md","bytes":8969,"sha256":"5296a2d78f994bd2371d770c0ad91a25ba4888d63c83e634681924dc885cbff6","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docker-compose/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"1909b05848ddcb68d5e623e06d29165501bc1af0db881211142e24a7c88cd149"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--docker-compose",
+    "name": "docker-compose",
+    "description": "Define and run multi-container Docker applications using Docker Compose.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "docker",
+      "compose",
+      "define",
+      "run",
+      "multi",
+      "container",
+      "applications",
+      "compose."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/docker-compose",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docker-compose",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10042,
+    "sha256": "5296a2d78f994bd2371d770c0ad91a25ba4888d63c83e634681924dc885cbff6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/docker-compose/SKILL.md",
+      "bytes": 8969,
+      "sha256": "5296a2d78f994bd2371d770c0ad91a25ba4888d63c83e634681924dc885cbff6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docker-compose/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "1909b05848ddcb68d5e623e06d29165501bc1af0db881211142e24a7c88cd149"
+}

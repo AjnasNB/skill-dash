@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-browser-isolation-for-zero-trust","name":"implementing-browser-isolation-for-zero-trust","description":"Deploys remote browser isolation (RBI) as a core component of a Zero Trust architecture. Implements isolation policies with URL categorization and risk-based routing, content disarming and reconstruction (CDR) for file sanitization, data loss prevention controls within isolated sessions, and integration with Secure Web Gateway and ZTNA platforms. Based on Cloudflare Browser Isolation, Menlo Security, and Zscaler RBI approaches. Use when hardening web access against zero-day exploits, phishing, credential theft, and browser-based data exfiltration.","category":"Security","tags":["implementing","browser","isolation","zero","trust","deploys","remote","rbi","as","core","component","architecture.","implements","policies","url","categorization","risk","based"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-browser-isolation-for-zero-trust/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-browser-isolation-for-zero-trust","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-browser-isolation-for-zero-trust","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":77265,"sha256":"36eb00c5faffac7b22a345698e0c2afb3345e9f319a91f26f66174a8bf4e76c2","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-browser-isolation-for-zero-trust/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-browser-isolation-for-zero-trust/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-browser-isolation-for-zero-trust/SKILL.md","bytes":13939,"sha256":"36eb00c5faffac7b22a345698e0c2afb3345e9f319a91f26f66174a8bf4e76c2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-browser-isolation-for-zero-trust/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-browser-isolation-for-zero-trust/references/api-reference.md","bytes":9387,"sha256":"a6f7be9dd1ac2b16b4a0fb220a201bcca2025c0e5c198f33101ad509d8da64b8","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-browser-isolation-for-zero-trust/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-browser-isolation-for-zero-trust/scripts/agent.py","bytes":42684,"sha256":"60433a46fa1734850f7cd72e3b161cb6aa7c152568c0dcb68612ea01dcd1fd47","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-browser-isolation-for-zero-trust/scripts/agent.py"}],"archiveSha256":"bea35ec5250854ad0ef5fb1a80ff57dcdc0dec8fda883aaa8e0b1fe02b3908ae"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-browser-isolation-for-zero-trust",
+    "name": "implementing-browser-isolation-for-zero-trust",
+    "description": "Deploys remote browser isolation (RBI) as a core component of a Zero Trust architecture. Implements isolation policies with URL categorization and risk-based routing, content disarming and reconstruction (CDR) for file sanitization, data loss prevention controls within isolated sessions, and integration with Secure Web Gateway and ZTNA platforms. Based on Cloudflare Browser Isolation, Menlo Security, and Zscaler RBI approaches. Use when hardening web access against zero-day exploits, phishing, credential theft, and browser-based data exfiltration.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "browser",
+      "isolation",
+      "zero",
+      "trust",
+      "deploys",
+      "remote",
+      "rbi",
+      "as",
+      "core",
+      "component",
+      "architecture.",
+      "implements",
+      "policies",
+      "url",
+      "categorization",
+      "risk",
+      "based"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-browser-isolation-for-zero-trust/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-browser-isolation-for-zero-trust",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-browser-isolation-for-zero-trust",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 77265,
+    "sha256": "36eb00c5faffac7b22a345698e0c2afb3345e9f319a91f26f66174a8bf4e76c2",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-browser-isolation-for-zero-trust/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-browser-isolation-for-zero-trust/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-browser-isolation-for-zero-trust/SKILL.md",
+      "bytes": 13939,
+      "sha256": "36eb00c5faffac7b22a345698e0c2afb3345e9f319a91f26f66174a8bf4e76c2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-browser-isolation-for-zero-trust/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-browser-isolation-for-zero-trust/references/api-reference.md",
+      "bytes": 9387,
+      "sha256": "a6f7be9dd1ac2b16b4a0fb220a201bcca2025c0e5c198f33101ad509d8da64b8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-browser-isolation-for-zero-trust/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-browser-isolation-for-zero-trust/scripts/agent.py",
+      "bytes": 42684,
+      "sha256": "60433a46fa1734850f7cd72e3b161cb6aa7c152568c0dcb68612ea01dcd1fd47",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-browser-isolation-for-zero-trust/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "bea35ec5250854ad0ef5fb1a80ff57dcdc0dec8fda883aaa8e0b1fe02b3908ae"
+}

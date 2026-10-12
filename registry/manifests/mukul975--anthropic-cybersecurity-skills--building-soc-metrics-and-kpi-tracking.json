@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--building-soc-metrics-and-kpi-tracking","name":"building-soc-metrics-and-kpi-tracking","description":"Builds SOC performance metrics and KPI tracking dashboards measuring Mean Time to Detect (MTTD), Mean Time to Respond (MTTR), alert quality ratios, analyst productivity, and detection coverage using SIEM data. Use when SOC leadership needs operational visibility, continuous improvement tracking, or executive-level reporting on security operations effectiveness.","category":"Security","tags":["building","soc","metrics","kpi","tracking","builds","performance","dashboards","measuring","mean","time","detect","mttd","respond","mttr","alert","quality","ratios"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/building-soc-metrics-and-kpi-tracking/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/building-soc-metrics-and-kpi-tracking","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-soc-metrics-and-kpi-tracking","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":32739,"sha256":"cb7bb29628cb28c8402624ae76a3ed52e899488fa980f6a243efbc6aaca5ab1a","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/building-soc-metrics-and-kpi-tracking/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-soc-metrics-and-kpi-tracking/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/building-soc-metrics-and-kpi-tracking/SKILL.md","bytes":11631,"sha256":"cb7bb29628cb28c8402624ae76a3ed52e899488fa980f6a243efbc6aaca5ab1a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-soc-metrics-and-kpi-tracking/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/building-soc-metrics-and-kpi-tracking/references/api-reference.md","bytes":2469,"sha256":"19abb50c9eb693df9ab4b243d8dcee596bdfb874e328063cdb86a0e354ee6b8d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-soc-metrics-and-kpi-tracking/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/building-soc-metrics-and-kpi-tracking/scripts/agent.py","bytes":7384,"sha256":"08ee82bf7e79656adefc940ec0438fed7ff0856150b53bdb2734439d179d1d8a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-soc-metrics-and-kpi-tracking/scripts/agent.py"}],"archiveSha256":"95f55613be781418d96b818c4d41a4e3d0a0018db8524b887f6948b41120457b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--building-soc-metrics-and-kpi-tracking",
+    "name": "building-soc-metrics-and-kpi-tracking",
+    "description": "Builds SOC performance metrics and KPI tracking dashboards measuring Mean Time to Detect (MTTD), Mean Time to Respond (MTTR), alert quality ratios, analyst productivity, and detection coverage using SIEM data. Use when SOC leadership needs operational visibility, continuous improvement tracking, or executive-level reporting on security operations effectiveness.",
+    "category": "Security",
+    "tags": [
+      "building",
+      "soc",
+      "metrics",
+      "kpi",
+      "tracking",
+      "builds",
+      "performance",
+      "dashboards",
+      "measuring",
+      "mean",
+      "time",
+      "detect",
+      "mttd",
+      "respond",
+      "mttr",
+      "alert",
+      "quality",
+      "ratios"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/building-soc-metrics-and-kpi-tracking/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/building-soc-metrics-and-kpi-tracking",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-soc-metrics-and-kpi-tracking",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32739,
+    "sha256": "cb7bb29628cb28c8402624ae76a3ed52e899488fa980f6a243efbc6aaca5ab1a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/building-soc-metrics-and-kpi-tracking/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-soc-metrics-and-kpi-tracking/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/building-soc-metrics-and-kpi-tracking/SKILL.md",
+      "bytes": 11631,
+      "sha256": "cb7bb29628cb28c8402624ae76a3ed52e899488fa980f6a243efbc6aaca5ab1a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-soc-metrics-and-kpi-tracking/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/building-soc-metrics-and-kpi-tracking/references/api-reference.md",
+      "bytes": 2469,
+      "sha256": "19abb50c9eb693df9ab4b243d8dcee596bdfb874e328063cdb86a0e354ee6b8d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-soc-metrics-and-kpi-tracking/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/building-soc-metrics-and-kpi-tracking/scripts/agent.py",
+      "bytes": 7384,
+      "sha256": "08ee82bf7e79656adefc940ec0438fed7ff0856150b53bdb2734439d179d1d8a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-soc-metrics-and-kpi-tracking/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "95f55613be781418d96b818c4d41a4e3d0a0018db8524b887f6948b41120457b"
+}

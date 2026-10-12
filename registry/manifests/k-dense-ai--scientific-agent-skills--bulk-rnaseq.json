@@ -1,1 +1,120 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--bulk-rnaseq","name":"bulk-rnaseq","description":"Prepares bulk RNA-seq FASTQ, Salmon, STAR or featureCounts output for gene-level differential expression. Covers nf-core/rnaseq and standalone quantification, biological replication, strandedness, reference provenance, validated count assembly and a PyDESeq2 handoff. Use for FASTQ-to-counts analysis, nf-core/rnaseq configuration, STAR/Salmon quantification, or building a counts matrix for DESeq2. For single-cell data use scanpy; for statistical fitting alone use pydeseq2.","category":"Development","tags":["bulk","rnaseq","prepares","rna","seq","fastq","salmon","star","featurecounts","output","gene","level","differential","expression.","covers","nf","core","standalone"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/bulk-rnaseq","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bulk-rnaseq","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":9,"bytes":73337,"sha256":"e945e970268505368e20d9ddc0c135de469e86626d67565ae9047fb05f70cdbf","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/bulk-rnaseq/SKILL.md","bytes":16890,"sha256":"e945e970268505368e20d9ddc0c135de469e86626d67565ae9047fb05f70cdbf","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bulk-rnaseq/SKILL.md"},{"path":"references/counts-and-handoff.md","sourcePath":"skills/bulk-rnaseq/references/counts-and-handoff.md","bytes":8483,"sha256":"1e2583f8a8906e6e7739f71ebe2486b4c2e0e89718bc7dfdf51875e6bab79d39","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bulk-rnaseq/references/counts-and-handoff.md"},{"path":"references/design-and-qc.md","sourcePath":"skills/bulk-rnaseq/references/design-and-qc.md","bytes":6388,"sha256":"fd416ee212c785b6ab5e242000e651780ba9a268869b1c82624474b5a6e1c236","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bulk-rnaseq/references/design-and-qc.md"},{"path":"references/upstream-manual.md","sourcePath":"skills/bulk-rnaseq/references/upstream-manual.md","bytes":7119,"sha256":"02b53631e73c916889e34c80392d85687dd60c93bc143385071970dd6e83d9aa","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bulk-rnaseq/references/upstream-manual.md"},{"path":"references/upstream-nfcore.md","sourcePath":"skills/bulk-rnaseq/references/upstream-nfcore.md","bytes":7473,"sha256":"d4c4fc8e8e5d199175af51fa571605179811a92c1e8293687e81c95ebe44001f","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bulk-rnaseq/references/upstream-nfcore.md"},{"path":"scripts/_tabular.py","sourcePath":"skills/bulk-rnaseq/scripts/_tabular.py","bytes":975,"sha256":"6f6f5e58a3fe870197e24d24c74eb033eee16145d74517388f69961a658c80dc","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bulk-rnaseq/scripts/_tabular.py"},{"path":"scripts/build_counts_matrix.py","sourcePath":"skills/bulk-rnaseq/scripts/build_counts_matrix.py","bytes":14423,"sha256":"76b79c1426ae4c90c143b6b8a04a04d72cfd1f2c90cfeab56a655820776eda84","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bulk-rnaseq/scripts/build_counts_matrix.py"},{"path":"scripts/validate_samplesheet.py","sourcePath":"skills/bulk-rnaseq/scripts/validate_samplesheet.py","bytes":10518,"sha256":"de46d3ea873b272fdb1aa8f54512d23ff5e1f0f147f9ccc3f6bbe0eb72ef5c4a","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bulk-rnaseq/scripts/validate_samplesheet.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"6fec55d0aae664142606e10216325073c8948ab7c02765dd91c16ad4a08e9f5e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--bulk-rnaseq",
+    "name": "bulk-rnaseq",
+    "description": "Prepares bulk RNA-seq FASTQ, Salmon, STAR or featureCounts output for gene-level differential expression. Covers nf-core/rnaseq and standalone quantification, biological replication, strandedness, reference provenance, validated count assembly and a PyDESeq2 handoff. Use for FASTQ-to-counts analysis, nf-core/rnaseq configuration, STAR/Salmon quantification, or building a counts matrix for DESeq2. For single-cell data use scanpy; for statistical fitting alone use pydeseq2.",
+    "category": "Development",
+    "tags": [
+      "bulk",
+      "rnaseq",
+      "prepares",
+      "rna",
+      "seq",
+      "fastq",
+      "salmon",
+      "star",
+      "featurecounts",
+      "output",
+      "gene",
+      "level",
+      "differential",
+      "expression.",
+      "covers",
+      "nf",
+      "core",
+      "standalone"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/bulk-rnaseq",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bulk-rnaseq",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 9,
+    "bytes": 73337,
+    "sha256": "e945e970268505368e20d9ddc0c135de469e86626d67565ae9047fb05f70cdbf",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/bulk-rnaseq/SKILL.md",
+      "bytes": 16890,
+      "sha256": "e945e970268505368e20d9ddc0c135de469e86626d67565ae9047fb05f70cdbf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bulk-rnaseq/SKILL.md"
+    },
+    {
+      "path": "references/counts-and-handoff.md",
+      "sourcePath": "skills/bulk-rnaseq/references/counts-and-handoff.md",
+      "bytes": 8483,
+      "sha256": "1e2583f8a8906e6e7739f71ebe2486b4c2e0e89718bc7dfdf51875e6bab79d39",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bulk-rnaseq/references/counts-and-handoff.md"
+    },
+    {
+      "path": "references/design-and-qc.md",
+      "sourcePath": "skills/bulk-rnaseq/references/design-and-qc.md",
+      "bytes": 6388,
+      "sha256": "fd416ee212c785b6ab5e242000e651780ba9a268869b1c82624474b5a6e1c236",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bulk-rnaseq/references/design-and-qc.md"
+    },
+    {
+      "path": "references/upstream-manual.md",
+      "sourcePath": "skills/bulk-rnaseq/references/upstream-manual.md",
+      "bytes": 7119,
+      "sha256": "02b53631e73c916889e34c80392d85687dd60c93bc143385071970dd6e83d9aa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bulk-rnaseq/references/upstream-manual.md"
+    },
+    {
+      "path": "references/upstream-nfcore.md",
+      "sourcePath": "skills/bulk-rnaseq/references/upstream-nfcore.md",
+      "bytes": 7473,
+      "sha256": "d4c4fc8e8e5d199175af51fa571605179811a92c1e8293687e81c95ebe44001f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bulk-rnaseq/references/upstream-nfcore.md"
+    },
+    {
+      "path": "scripts/_tabular.py",
+      "sourcePath": "skills/bulk-rnaseq/scripts/_tabular.py",
+      "bytes": 975,
+      "sha256": "6f6f5e58a3fe870197e24d24c74eb033eee16145d74517388f69961a658c80dc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bulk-rnaseq/scripts/_tabular.py"
+    },
+    {
+      "path": "scripts/build_counts_matrix.py",
+      "sourcePath": "skills/bulk-rnaseq/scripts/build_counts_matrix.py",
+      "bytes": 14423,
+      "sha256": "76b79c1426ae4c90c143b6b8a04a04d72cfd1f2c90cfeab56a655820776eda84",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bulk-rnaseq/scripts/build_counts_matrix.py"
+    },
+    {
+      "path": "scripts/validate_samplesheet.py",
+      "sourcePath": "skills/bulk-rnaseq/scripts/validate_samplesheet.py",
+      "bytes": 10518,
+      "sha256": "de46d3ea873b272fdb1aa8f54512d23ff5e1f0f147f9ccc3f6bbe0eb72ef5c4a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/bulk-rnaseq/scripts/validate_samplesheet.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "6fec55d0aae664142606e10216325073c8948ab7c02765dd91c16ad4a08e9f5e"
+}

@@ -1,1 +1,53 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--sops-encryption","name":"sops-encryption","description":"Encrypt files and configs with Mozilla SOPS.","category":"Development","tags":["sops","encryption","encrypt","files","configs","mozilla","sops."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/sops-encryption","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sops-encryption","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4075,"sha256":"29f859c1c55a4910a1320b409969cb7e5474c70092bd1b6717050f4ac4e32f88","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/sops-encryption/SKILL.md","bytes":3002,"sha256":"29f859c1c55a4910a1320b409969cb7e5474c70092bd1b6717050f4ac4e32f88","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sops-encryption/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"089834baa402c0b472d075cba231c12990bcfcbd911b5476a8ac416525544e5a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--sops-encryption",
+    "name": "sops-encryption",
+    "description": "Encrypt files and configs with Mozilla SOPS.",
+    "category": "Development",
+    "tags": [
+      "sops",
+      "encryption",
+      "encrypt",
+      "files",
+      "configs",
+      "mozilla",
+      "sops."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/sops-encryption",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sops-encryption",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4075,
+    "sha256": "29f859c1c55a4910a1320b409969cb7e5474c70092bd1b6717050f4ac4e32f88",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/sops-encryption/SKILL.md",
+      "bytes": 3002,
+      "sha256": "29f859c1c55a4910a1320b409969cb7e5474c70092bd1b6717050f4ac4e32f88",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/sops-encryption/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "089834baa402c0b472d075cba231c12990bcfcbd911b5476a8ac416525544e5a"
+}

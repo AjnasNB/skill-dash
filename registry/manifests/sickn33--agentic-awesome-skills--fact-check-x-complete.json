@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--fact-check-x-complete","name":"fact-check-x-complete","description":"Compare claims from one or more AI answers, verify their citations against public primary sources, and produce an evidence-linked fact-check report without installing a bundled browser runtime.","category":"Development","tags":["fact","check","complete","compare","claims","from","one","more","ai","answers","verify","their","citations","against","public","primary","sources","produce"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/fact-check-x-complete","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fact-check-x-complete","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":10219,"sha256":"7d01999b4033ba8c3ca34852b7622b350b3455e5d7f65161a26fb162e82c4c5d","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/fact-check-x-complete/SKILL.md","bytes":9146,"sha256":"7d01999b4033ba8c3ca34852b7622b350b3455e5d7f65161a26fb162e82c4c5d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fact-check-x-complete/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"c7f9376496cfa247fad8b768d061dbff7e6b003903f79a662598514798ade5e4"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--fact-check-x-complete",
+    "name": "fact-check-x-complete",
+    "description": "Compare claims from one or more AI answers, verify their citations against public primary sources, and produce an evidence-linked fact-check report without installing a bundled browser runtime.",
+    "category": "Development",
+    "tags": [
+      "fact",
+      "check",
+      "complete",
+      "compare",
+      "claims",
+      "from",
+      "one",
+      "more",
+      "ai",
+      "answers",
+      "verify",
+      "their",
+      "citations",
+      "against",
+      "public",
+      "primary",
+      "sources",
+      "produce"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/fact-check-x-complete",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fact-check-x-complete",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10219,
+    "sha256": "7d01999b4033ba8c3ca34852b7622b350b3455e5d7f65161a26fb162e82c4c5d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/fact-check-x-complete/SKILL.md",
+      "bytes": 9146,
+      "sha256": "7d01999b4033ba8c3ca34852b7622b350b3455e5d7f65161a26fb162e82c4c5d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fact-check-x-complete/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "c7f9376496cfa247fad8b768d061dbff7e6b003903f79a662598514798ade5e4"
+}

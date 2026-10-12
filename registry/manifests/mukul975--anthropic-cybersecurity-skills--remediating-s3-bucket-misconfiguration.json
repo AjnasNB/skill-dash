@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--remediating-s3-bucket-misconfiguration","name":"remediating-s3-bucket-misconfiguration","description":"Provides step-by-step procedures for remediating Amazon S3 bucket misconfigurations that expose sensitive data: enabling S3 Block Public Access, auditing bucket policies and ACLs, enforcing encryption, configuring access logging, and deploying automated remediation with AWS Config and Lambda. Use when AWS Config or Security Hub flags public or unencrypted S3 buckets, or preparing audit evidence for storage security controls.","category":"Security","tags":["remediating","s3","bucket","misconfiguration","provides","step","by","procedures","amazon","misconfigurations","expose","sensitive","data","enabling","block","public","access","auditing"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/remediating-s3-bucket-misconfiguration/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/remediating-s3-bucket-misconfiguration","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/remediating-s3-bucket-misconfiguration","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":33472,"sha256":"185ab0fd6ee90379d5b1b2290b49333192afb75d091856ee2b71aa77ced2f28d","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/remediating-s3-bucket-misconfiguration/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/remediating-s3-bucket-misconfiguration/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/remediating-s3-bucket-misconfiguration/SKILL.md","bytes":11961,"sha256":"185ab0fd6ee90379d5b1b2290b49333192afb75d091856ee2b71aa77ced2f28d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/remediating-s3-bucket-misconfiguration/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/remediating-s3-bucket-misconfiguration/references/api-reference.md","bytes":2595,"sha256":"ded81269e59a332aaa747feae8d542b4f1911cd912e569dfc27d1161a7e4ee0b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/remediating-s3-bucket-misconfiguration/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/remediating-s3-bucket-misconfiguration/scripts/agent.py","bytes":7661,"sha256":"43c63ced7c2819ba1d08f87156d471c83282cc39c6d3531ddb7169f6a3313f43","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/remediating-s3-bucket-misconfiguration/scripts/agent.py"}],"archiveSha256":"6f117e5d02635c2d18ebd7f33ab1b90cf0f76bae49a2040f0301a8ef7f0d93e3"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--remediating-s3-bucket-misconfiguration",
+    "name": "remediating-s3-bucket-misconfiguration",
+    "description": "Provides step-by-step procedures for remediating Amazon S3 bucket misconfigurations that expose sensitive data: enabling S3 Block Public Access, auditing bucket policies and ACLs, enforcing encryption, configuring access logging, and deploying automated remediation with AWS Config and Lambda. Use when AWS Config or Security Hub flags public or unencrypted S3 buckets, or preparing audit evidence for storage security controls.",
+    "category": "Security",
+    "tags": [
+      "remediating",
+      "s3",
+      "bucket",
+      "misconfiguration",
+      "provides",
+      "step",
+      "by",
+      "procedures",
+      "amazon",
+      "misconfigurations",
+      "expose",
+      "sensitive",
+      "data",
+      "enabling",
+      "block",
+      "public",
+      "access",
+      "auditing"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/remediating-s3-bucket-misconfiguration/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/remediating-s3-bucket-misconfiguration",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/remediating-s3-bucket-misconfiguration",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 33472,
+    "sha256": "185ab0fd6ee90379d5b1b2290b49333192afb75d091856ee2b71aa77ced2f28d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/remediating-s3-bucket-misconfiguration/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/remediating-s3-bucket-misconfiguration/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/remediating-s3-bucket-misconfiguration/SKILL.md",
+      "bytes": 11961,
+      "sha256": "185ab0fd6ee90379d5b1b2290b49333192afb75d091856ee2b71aa77ced2f28d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/remediating-s3-bucket-misconfiguration/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/remediating-s3-bucket-misconfiguration/references/api-reference.md",
+      "bytes": 2595,
+      "sha256": "ded81269e59a332aaa747feae8d542b4f1911cd912e569dfc27d1161a7e4ee0b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/remediating-s3-bucket-misconfiguration/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/remediating-s3-bucket-misconfiguration/scripts/agent.py",
+      "bytes": 7661,
+      "sha256": "43c63ced7c2819ba1d08f87156d471c83282cc39c6d3531ddb7169f6a3313f43",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/remediating-s3-bucket-misconfiguration/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "6f117e5d02635c2d18ebd7f33ab1b90cf0f76bae49a2040f0301a8ef7f0d93e3"
+}

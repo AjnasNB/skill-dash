@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--testing-api-authentication-weaknesses","name":"testing-api-authentication-weaknesses","description":"Tests API authentication mechanisms for weaknesses including broken token validation, missing authentication on endpoints, weak password policies, credential stuffing susceptibility, token leakage in URLs or logs, and session management flaws. The tester evaluates JWT implementation, API key handling, OAuth flows, and session token entropy to identify authentication bypasses. Maps to OWASP API2:2023 Broken Authentication. Activates for requests involving API authentication testing, token validation assessment, credential security testing, or API auth bypass.","category":"Security","tags":["testing","api","authentication","weaknesses","tests","mechanisms","including","broken","token","validation","missing","endpoints","weak","password","policies","credential","stuffing","susceptibility"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/testing-api-authentication-weaknesses/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/testing-api-authentication-weaknesses","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-api-authentication-weaknesses","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":39003,"sha256":"465c92942f5c7f7e7b50e022ee598d5e52ce31c1d8bc3c6d281ae1519fa54d54","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/testing-api-authentication-weaknesses/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-api-authentication-weaknesses/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/testing-api-authentication-weaknesses/SKILL.md","bytes":17486,"sha256":"465c92942f5c7f7e7b50e022ee598d5e52ce31c1d8bc3c6d281ae1519fa54d54","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-api-authentication-weaknesses/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/testing-api-authentication-weaknesses/references/api-reference.md","bytes":1805,"sha256":"0a1c4bab81a8ba851fa21249c9db2025f77581a2f205ffd8df3f49455d139833","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-api-authentication-weaknesses/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/testing-api-authentication-weaknesses/scripts/agent.py","bytes":8457,"sha256":"920f8e2a6ccfab3f5c48efbb76f31c4b407d7fe5c918509f583a42458e682bb6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-api-authentication-weaknesses/scripts/agent.py"}],"archiveSha256":"777cc314650e4f407a13aa802379aeb64311fb7bab41d4b672224a8be8c2ffbf"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--testing-api-authentication-weaknesses",
+    "name": "testing-api-authentication-weaknesses",
+    "description": "Tests API authentication mechanisms for weaknesses including broken token validation, missing authentication on endpoints, weak password policies, credential stuffing susceptibility, token leakage in URLs or logs, and session management flaws. The tester evaluates JWT implementation, API key handling, OAuth flows, and session token entropy to identify authentication bypasses. Maps to OWASP API2:2023 Broken Authentication. Activates for requests involving API authentication testing, token validation assessment, credential security testing, or API auth bypass.",
+    "category": "Security",
+    "tags": [
+      "testing",
+      "api",
+      "authentication",
+      "weaknesses",
+      "tests",
+      "mechanisms",
+      "including",
+      "broken",
+      "token",
+      "validation",
+      "missing",
+      "endpoints",
+      "weak",
+      "password",
+      "policies",
+      "credential",
+      "stuffing",
+      "susceptibility"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/testing-api-authentication-weaknesses/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/testing-api-authentication-weaknesses",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-api-authentication-weaknesses",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 39003,
+    "sha256": "465c92942f5c7f7e7b50e022ee598d5e52ce31c1d8bc3c6d281ae1519fa54d54",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/testing-api-authentication-weaknesses/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-api-authentication-weaknesses/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/testing-api-authentication-weaknesses/SKILL.md",
+      "bytes": 17486,
+      "sha256": "465c92942f5c7f7e7b50e022ee598d5e52ce31c1d8bc3c6d281ae1519fa54d54",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-api-authentication-weaknesses/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/testing-api-authentication-weaknesses/references/api-reference.md",
+      "bytes": 1805,
+      "sha256": "0a1c4bab81a8ba851fa21249c9db2025f77581a2f205ffd8df3f49455d139833",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-api-authentication-weaknesses/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/testing-api-authentication-weaknesses/scripts/agent.py",
+      "bytes": 8457,
+      "sha256": "920f8e2a6ccfab3f5c48efbb76f31c4b407d7fe5c918509f583a42458e682bb6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-api-authentication-weaknesses/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "777cc314650e4f407a13aa802379aeb64311fb7bab41d4b672224a8be8c2ffbf"
+}

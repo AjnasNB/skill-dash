@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--ask-matt","name":"ask-matt","description":"Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.","category":"Development","tags":["ask","matt","which","skill","flow","fits","situation.","router","over","user","invoked","skills","repo."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/ask-matt","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ask-matt","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6496,"sha256":"d686175588bddf69e58f3e8d97e16736420329505c6dc6f088f5626f81aef60b","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/ask-matt/SKILL.md","bytes":5423,"sha256":"d686175588bddf69e58f3e8d97e16736420329505c6dc6f088f5626f81aef60b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ask-matt/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"767c118dcfe7dc67a15ea8855196a6635dbdff1cd307655bce0e9fc1fccb41ed"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--ask-matt",
+    "name": "ask-matt",
+    "description": "Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.",
+    "category": "Development",
+    "tags": [
+      "ask",
+      "matt",
+      "which",
+      "skill",
+      "flow",
+      "fits",
+      "situation.",
+      "router",
+      "over",
+      "user",
+      "invoked",
+      "skills",
+      "repo."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/ask-matt",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ask-matt",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6496,
+    "sha256": "d686175588bddf69e58f3e8d97e16736420329505c6dc6f088f5626f81aef60b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/ask-matt/SKILL.md",
+      "bytes": 5423,
+      "sha256": "d686175588bddf69e58f3e8d97e16736420329505c6dc6f088f5626f81aef60b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ask-matt/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "767c118dcfe7dc67a15ea8855196a6635dbdff1cd307655bce0e9fc1fccb41ed"
+}

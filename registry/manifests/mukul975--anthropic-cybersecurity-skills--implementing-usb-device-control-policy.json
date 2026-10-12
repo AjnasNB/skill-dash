@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-usb-device-control-policy","name":"implementing-usb-device-control-policy","description":"Implements USB device control policies to restrict unauthorized removable media access on endpoints, preventing data exfiltration and malware introduction via USB devices. Use when deploying device control via Group Policy, Intune, or EDR platforms to enforce USB restrictions. Activates for requests involving USB control, removable media policy, device control, or data loss prevention via USB.","category":"Security","tags":["implementing","usb","device","control","policy","implements","policies","restrict","unauthorized","removable","media","access","endpoints","preventing","data","exfiltration","malware","introduction"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-usb-device-control-policy/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-usb-device-control-policy","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-usb-device-control-policy","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":37167,"sha256":"8beac606bcdd67d883d9816dfa4114a8b230e3acebc2a323bfd295c22f93ffc9","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-usb-device-control-policy/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-usb-device-control-policy/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-usb-device-control-policy/SKILL.md","bytes":5522,"sha256":"8beac606bcdd67d883d9816dfa4114a8b230e3acebc2a323bfd295c22f93ffc9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-usb-device-control-policy/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-usb-device-control-policy/assets/template.md","bytes":631,"sha256":"3aa1d327f503682aa6036de5580586957af9c755a119ebf3c1ceef599e3cc9e4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-usb-device-control-policy/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-usb-device-control-policy/references/api-reference.md","bytes":6248,"sha256":"d1c8e6796d20a3b2232058ac9cea8fae0052544ba63141d1e36883d6dd508904","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-usb-device-control-policy/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-usb-device-control-policy/references/standards.md","bytes":666,"sha256":"86b38877d63e839923ff75621466479ce8742086175d86b3f75c825d67a9b95e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-usb-device-control-policy/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-usb-device-control-policy/references/workflows.md","bytes":680,"sha256":"3f9b9bcd2fd9d292e5a018e7cc62be4a1ed0ed891f296aa57ffce463b6111d20","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-usb-device-control-policy/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-usb-device-control-policy/scripts/agent.py","bytes":8642,"sha256":"e93027b18095f0d58d2583d8599db9b8ff682398f09e4baa7107c03f8228b2d2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-usb-device-control-policy/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-usb-device-control-policy/scripts/process.py","bytes":3523,"sha256":"2d8964f4431eef2a6f2306550f72b68c950d3593aed2c96052c20e9002887a58","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-usb-device-control-policy/scripts/process.py"}],"archiveSha256":"b371218692130b1bb2ef848c06fb68560091c708167409fa3eb1f0c076a2a328"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-usb-device-control-policy",
+    "name": "implementing-usb-device-control-policy",
+    "description": "Implements USB device control policies to restrict unauthorized removable media access on endpoints, preventing data exfiltration and malware introduction via USB devices. Use when deploying device control via Group Policy, Intune, or EDR platforms to enforce USB restrictions. Activates for requests involving USB control, removable media policy, device control, or data loss prevention via USB.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "usb",
+      "device",
+      "control",
+      "policy",
+      "implements",
+      "policies",
+      "restrict",
+      "unauthorized",
+      "removable",
+      "media",
+      "access",
+      "endpoints",
+      "preventing",
+      "data",
+      "exfiltration",
+      "malware",
+      "introduction"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-usb-device-control-policy/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-usb-device-control-policy",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-usb-device-control-policy",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 37167,
+    "sha256": "8beac606bcdd67d883d9816dfa4114a8b230e3acebc2a323bfd295c22f93ffc9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-usb-device-control-policy/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-usb-device-control-policy/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-usb-device-control-policy/SKILL.md",
+      "bytes": 5522,
+      "sha256": "8beac606bcdd67d883d9816dfa4114a8b230e3acebc2a323bfd295c22f93ffc9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-usb-device-control-policy/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-usb-device-control-policy/assets/template.md",
+      "bytes": 631,
+      "sha256": "3aa1d327f503682aa6036de5580586957af9c755a119ebf3c1ceef599e3cc9e4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-usb-device-control-policy/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-usb-device-control-policy/references/api-reference.md",
+      "bytes": 6248,
+      "sha256": "d1c8e6796d20a3b2232058ac9cea8fae0052544ba63141d1e36883d6dd508904",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-usb-device-control-policy/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-usb-device-control-policy/references/standards.md",
+      "bytes": 666,
+      "sha256": "86b38877d63e839923ff75621466479ce8742086175d86b3f75c825d67a9b95e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-usb-device-control-policy/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-usb-device-control-policy/references/workflows.md",
+      "bytes": 680,
+      "sha256": "3f9b9bcd2fd9d292e5a018e7cc62be4a1ed0ed891f296aa57ffce463b6111d20",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-usb-device-control-policy/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-usb-device-control-policy/scripts/agent.py",
+      "bytes": 8642,
+      "sha256": "e93027b18095f0d58d2583d8599db9b8ff682398f09e4baa7107c03f8228b2d2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-usb-device-control-policy/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-usb-device-control-policy/scripts/process.py",
+      "bytes": 3523,
+      "sha256": "2d8964f4431eef2a6f2306550f72b68c950d3593aed2c96052c20e9002887a58",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-usb-device-control-policy/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "b371218692130b1bb2ef848c06fb68560091c708167409fa3eb1f0c076a2a328"
+}

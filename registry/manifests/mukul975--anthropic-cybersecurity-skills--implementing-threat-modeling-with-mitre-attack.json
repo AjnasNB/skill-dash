@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-threat-modeling-with-mitre-attack","name":"implementing-threat-modeling-with-mitre-attack","description":"Implements threat modeling using the MITRE ATT&CK framework to map adversary TTPs against organizational assets, assess detection coverage gaps, and prioritize defensive investments. Use when SOC teams need to align detection engineering with threat landscape, conduct threat assessments for new environments, or justify security tool procurement.","category":"Security","tags":["implementing","threat","modeling","mitre","attack","implements","att","ck","framework","map","adversary","ttps","against","organizational","assets","assess","detection","coverage"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-threat-modeling-with-mitre-attack/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-threat-modeling-with-mitre-attack","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-threat-modeling-with-mitre-attack","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":35641,"sha256":"d6ec7e5b911133d53e4425769ba3f2c8744ef44ab42e50de028b59dbc8213adb","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-threat-modeling-with-mitre-attack/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-threat-modeling-with-mitre-attack/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-threat-modeling-with-mitre-attack/SKILL.md","bytes":13825,"sha256":"d6ec7e5b911133d53e4425769ba3f2c8744ef44ab42e50de028b59dbc8213adb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-threat-modeling-with-mitre-attack/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-threat-modeling-with-mitre-attack/references/api-reference.md","bytes":2264,"sha256":"f6d818a81c1b87eb3d96f8cd0e7553a764627752919e3053b6036fd9a7802e8a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-threat-modeling-with-mitre-attack/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-threat-modeling-with-mitre-attack/scripts/agent.py","bytes":8297,"sha256":"0acb9039fdd26819e9544bd86de6dcb63c3a55e913f48b912a7abf53e4e7e8db","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-threat-modeling-with-mitre-attack/scripts/agent.py"}],"archiveSha256":"dcad86e661c5f054779728ed0100dbbde8f041dcf63922c8fac27f811a7f62cb"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-threat-modeling-with-mitre-attack",
+    "name": "implementing-threat-modeling-with-mitre-attack",
+    "description": "Implements threat modeling using the MITRE ATT&CK framework to map adversary TTPs against organizational assets, assess detection coverage gaps, and prioritize defensive investments. Use when SOC teams need to align detection engineering with threat landscape, conduct threat assessments for new environments, or justify security tool procurement.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "threat",
+      "modeling",
+      "mitre",
+      "attack",
+      "implements",
+      "att",
+      "ck",
+      "framework",
+      "map",
+      "adversary",
+      "ttps",
+      "against",
+      "organizational",
+      "assets",
+      "assess",
+      "detection",
+      "coverage"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-threat-modeling-with-mitre-attack/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-threat-modeling-with-mitre-attack",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-threat-modeling-with-mitre-attack",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 35641,
+    "sha256": "d6ec7e5b911133d53e4425769ba3f2c8744ef44ab42e50de028b59dbc8213adb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-threat-modeling-with-mitre-attack/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-threat-modeling-with-mitre-attack/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-threat-modeling-with-mitre-attack/SKILL.md",
+      "bytes": 13825,
+      "sha256": "d6ec7e5b911133d53e4425769ba3f2c8744ef44ab42e50de028b59dbc8213adb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-threat-modeling-with-mitre-attack/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-threat-modeling-with-mitre-attack/references/api-reference.md",
+      "bytes": 2264,
+      "sha256": "f6d818a81c1b87eb3d96f8cd0e7553a764627752919e3053b6036fd9a7802e8a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-threat-modeling-with-mitre-attack/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-threat-modeling-with-mitre-attack/scripts/agent.py",
+      "bytes": 8297,
+      "sha256": "0acb9039fdd26819e9544bd86de6dcb63c3a55e913f48b912a7abf53e4e7e8db",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-threat-modeling-with-mitre-attack/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "dcad86e661c5f054779728ed0100dbbde8f041dcf63922c8fac27f811a7f62cb"
+}

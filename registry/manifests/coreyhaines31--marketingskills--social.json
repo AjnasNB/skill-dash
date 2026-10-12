@@ -1,1 +1,144 @@
-{"schemaVersion":1,"skill":{"id":"coreyhaines31--marketingskills--social","name":"social","description":"When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, or Facebook, or wants to do social listening and engagement triage. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' 'grow my following,' 'TikTok video,' 'Reels,' 'Shorts,' 'video script,' 'video hook,' 'short-form video,' 'create a reel,' 'social listening,' 'brand mentions,' 'competitor monitoring,' 'top posts to comment on,' 'find people asking for,' 'carousel,' 'slide-by-slide,' or 'document post.' Use this for social content, repurposing, scheduling, video scripts, and listening. Posts avoid AI tells like 'it's not X, it's Y' reveals and broetry. For broader content strategy, see content-strategy. For paid ads, see ad-creative. For earned media, see public-relations.","category":"Video & audio","tags":["social","when","user","wants","creating","scheduling","optimizing","media","content","linkedin","twitter","instagram","tiktok","facebook","do","listening","engagement","triage."],"repo":"coreyhaines31/marketingskills","owner":"coreyhaines31","stars":54287,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff","path":"skills/social","sourceUrl":"https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-08T21:51:37Z","fileCount":12,"bytes":89510,"sha256":"1fa237bc6884b7b6c048a334aee02aeaff23f7d6dcb06868ca4fb123e3b71379","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/social/SKILL.md","bytes":18260,"sha256":"1fa237bc6884b7b6c048a334aee02aeaff23f7d6dcb06868ca4fb123e3b71379","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/SKILL.md"},{"path":"evals/evals.json","sourcePath":"skills/social/evals/evals.json","bytes":11871,"sha256":"1d2592a0cfc6378ba8742ce6e19f5974663b1d8018c4f136e5f529373bf17198","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/evals/evals.json"},{"path":"references/carousel-frameworks.md","sourcePath":"skills/social/references/carousel-frameworks.md","bytes":11124,"sha256":"e703aa530ec9f68cdf5b58e8e0d4d1a5cc3f22b9e2d3e3222f16a9763d423247","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/references/carousel-frameworks.md"},{"path":"references/listening-sources-template.md","sourcePath":"skills/social/references/listening-sources-template.md","bytes":3479,"sha256":"c68bc6f57b0a48c432b1ce72c9324d41a04d0e7784d0bab91afb4a6065a43e38","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/references/listening-sources-template.md"},{"path":"references/listening.md","sourcePath":"skills/social/references/listening.md","bytes":12268,"sha256":"f905f772ac782872143fda477c0049973b2477d1ec165377b164250dabe3bac0","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/references/listening.md"},{"path":"references/platform-limits.md","sourcePath":"skills/social/references/platform-limits.md","bytes":2830,"sha256":"6ecc6b40ff82b95c48906341f7d3c58337671d4d94f624c858764f1ed5a77c3c","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/references/platform-limits.md"},{"path":"references/platforms.md","sourcePath":"skills/social/references/platforms.md","bytes":5412,"sha256":"1443ac17ff2ce0e8bb9cadeaa250441c7a1e3274e368ebff7283a5164ff6b4ca","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/references/platforms.md"},{"path":"references/post-templates.md","sourcePath":"skills/social/references/post-templates.md","bytes":4016,"sha256":"9cca4680c95801daedfd8acadf9089d0083784c2567784888807569896f71d9b","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/references/post-templates.md"},{"path":"references/reverse-engineering.md","sourcePath":"skills/social/references/reverse-engineering.md","bytes":5551,"sha256":"c27bef59d463b3b11331c1770f4a23e9e6bbce7d7c8db1e7f7f4f14ba206243f","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/references/reverse-engineering.md"},{"path":"references/short-form-video.md","sourcePath":"skills/social/references/short-form-video.md","bytes":6517,"sha256":"5e782aa064fe0916b9c432d3317628de961678f1503103a4450ad0d20e94bf46","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/references/short-form-video.md"},{"path":"references/x-algorithm.md","sourcePath":"skills/social/references/x-algorithm.md","bytes":7113,"sha256":"943b2c5a819aad53ebf62a1652adc47956d6fdf738e18cd98eeb609819a66180","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/references/x-algorithm.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1069,"sha256":"b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591","mode":420,"url":"https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"}],"archiveSha256":"ace837677ee99d2ee902089e0214a0bcebdd7eb878abf772404adb2b295a49c0"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "coreyhaines31--marketingskills--social",
+    "name": "social",
+    "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, or Facebook, or wants to do social listening and engagement triage. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' 'grow my following,' 'TikTok video,' 'Reels,' 'Shorts,' 'video script,' 'video hook,' 'short-form video,' 'create a reel,' 'social listening,' 'brand mentions,' 'competitor monitoring,' 'top posts to comment on,' 'find people asking for,' 'carousel,' 'slide-by-slide,' or 'document post.' Use this for social content, repurposing, scheduling, video scripts, and listening. Posts avoid AI tells like 'it's not X, it's Y' reveals and broetry. For broader content strategy, see content-strategy. For paid ads, see ad-creative. For earned media, see public-relations.",
+    "category": "Video & audio",
+    "tags": [
+      "social",
+      "when",
+      "user",
+      "wants",
+      "creating",
+      "scheduling",
+      "optimizing",
+      "media",
+      "content",
+      "linkedin",
+      "twitter",
+      "instagram",
+      "tiktok",
+      "facebook",
+      "do",
+      "listening",
+      "engagement",
+      "triage."
+    ],
+    "repo": "coreyhaines31/marketingskills",
+    "owner": "coreyhaines31",
+    "stars": 54287,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff",
+    "path": "skills/social",
+    "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-08T21:51:37Z",
+    "fileCount": 12,
+    "bytes": 89510,
+    "sha256": "1fa237bc6884b7b6c048a334aee02aeaff23f7d6dcb06868ca4fb123e3b71379",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/social/SKILL.md",
+      "bytes": 18260,
+      "sha256": "1fa237bc6884b7b6c048a334aee02aeaff23f7d6dcb06868ca4fb123e3b71379",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/SKILL.md"
+    },
+    {
+      "path": "evals/evals.json",
+      "sourcePath": "skills/social/evals/evals.json",
+      "bytes": 11871,
+      "sha256": "1d2592a0cfc6378ba8742ce6e19f5974663b1d8018c4f136e5f529373bf17198",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/evals/evals.json"
+    },
+    {
+      "path": "references/carousel-frameworks.md",
+      "sourcePath": "skills/social/references/carousel-frameworks.md",
+      "bytes": 11124,
+      "sha256": "e703aa530ec9f68cdf5b58e8e0d4d1a5cc3f22b9e2d3e3222f16a9763d423247",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/references/carousel-frameworks.md"
+    },
+    {
+      "path": "references/listening-sources-template.md",
+      "sourcePath": "skills/social/references/listening-sources-template.md",
+      "bytes": 3479,
+      "sha256": "c68bc6f57b0a48c432b1ce72c9324d41a04d0e7784d0bab91afb4a6065a43e38",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/references/listening-sources-template.md"
+    },
+    {
+      "path": "references/listening.md",
+      "sourcePath": "skills/social/references/listening.md",
+      "bytes": 12268,
+      "sha256": "f905f772ac782872143fda477c0049973b2477d1ec165377b164250dabe3bac0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/references/listening.md"
+    },
+    {
+      "path": "references/platform-limits.md",
+      "sourcePath": "skills/social/references/platform-limits.md",
+      "bytes": 2830,
+      "sha256": "6ecc6b40ff82b95c48906341f7d3c58337671d4d94f624c858764f1ed5a77c3c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/references/platform-limits.md"
+    },
+    {
+      "path": "references/platforms.md",
+      "sourcePath": "skills/social/references/platforms.md",
+      "bytes": 5412,
+      "sha256": "1443ac17ff2ce0e8bb9cadeaa250441c7a1e3274e368ebff7283a5164ff6b4ca",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/references/platforms.md"
+    },
+    {
+      "path": "references/post-templates.md",
+      "sourcePath": "skills/social/references/post-templates.md",
+      "bytes": 4016,
+      "sha256": "9cca4680c95801daedfd8acadf9089d0083784c2567784888807569896f71d9b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/references/post-templates.md"
+    },
+    {
+      "path": "references/reverse-engineering.md",
+      "sourcePath": "skills/social/references/reverse-engineering.md",
+      "bytes": 5551,
+      "sha256": "c27bef59d463b3b11331c1770f4a23e9e6bbce7d7c8db1e7f7f4f14ba206243f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/references/reverse-engineering.md"
+    },
+    {
+      "path": "references/short-form-video.md",
+      "sourcePath": "skills/social/references/short-form-video.md",
+      "bytes": 6517,
+      "sha256": "5e782aa064fe0916b9c432d3317628de961678f1503103a4450ad0d20e94bf46",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/references/short-form-video.md"
+    },
+    {
+      "path": "references/x-algorithm.md",
+      "sourcePath": "skills/social/references/x-algorithm.md",
+      "bytes": 7113,
+      "sha256": "943b2c5a819aad53ebf62a1652adc47956d6fdf738e18cd98eeb609819a66180",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/social/references/x-algorithm.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE"
+    }
+  ],
+  "archiveSha256": "ace837677ee99d2ee902089e0214a0bcebdd7eb878abf772404adb2b295a49c0"
+}

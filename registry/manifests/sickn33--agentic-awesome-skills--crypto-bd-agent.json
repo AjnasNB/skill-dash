@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--crypto-bd-agent","name":"crypto-bd-agent","description":"Production-tested patterns for building AI agents that autonomously discover, > evaluate, and acquire token listings for cryptocurrency exchanges.","category":"AI & agents","tags":["crypto","bd","agent","production","tested","patterns","building","ai","agents","autonomously","discover","evaluate","acquire","token","listings","cryptocurrency","exchanges."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/crypto-bd-agent","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/crypto-bd-agent","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":9281,"sha256":"8ff11b5fa2e9d8f7c3e02a6368aad4edddf1787cb30116238ffbf247ace8316f","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/crypto-bd-agent/SKILL.md","bytes":8208,"sha256":"8ff11b5fa2e9d8f7c3e02a6368aad4edddf1787cb30116238ffbf247ace8316f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/crypto-bd-agent/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"6774e38eb72310bedf2eb55bb3671f7970496fcb5d794a6933a7f97fd53545f2"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--crypto-bd-agent",
+    "name": "crypto-bd-agent",
+    "description": "Production-tested patterns for building AI agents that autonomously discover, > evaluate, and acquire token listings for cryptocurrency exchanges.",
+    "category": "AI & agents",
+    "tags": [
+      "crypto",
+      "bd",
+      "agent",
+      "production",
+      "tested",
+      "patterns",
+      "building",
+      "ai",
+      "agents",
+      "autonomously",
+      "discover",
+      "evaluate",
+      "acquire",
+      "token",
+      "listings",
+      "cryptocurrency",
+      "exchanges."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/crypto-bd-agent",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/crypto-bd-agent",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9281,
+    "sha256": "8ff11b5fa2e9d8f7c3e02a6368aad4edddf1787cb30116238ffbf247ace8316f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/crypto-bd-agent/SKILL.md",
+      "bytes": 8208,
+      "sha256": "8ff11b5fa2e9d8f7c3e02a6368aad4edddf1787cb30116238ffbf247ace8316f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/crypto-bd-agent/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "6774e38eb72310bedf2eb55bb3671f7970496fcb5d794a6933a7f97fd53545f2"
+}

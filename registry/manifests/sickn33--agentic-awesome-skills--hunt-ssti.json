@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--hunt-ssti","name":"hunt-ssti","description":"Hunt server-side template injection (SSTI) across Jinja2 (Flask/Django), Twig (Symfony), Freemarker (Java), ERB (Rails), Spring, Velocity, Mako, Thymeleaf, Smarty.","category":"Development","tags":["hunt","ssti","server","side","template","injection","across","jinja2","flask","django","twig","symfony","freemarker","java","erb","rails","spring","velocity"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/hunt-ssti","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-ssti","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11316,"sha256":"f5bf34da8394a8e3a566685ca5af97442045f46f5a2039b055c681dfbaba7143","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/hunt-ssti/SKILL.md","bytes":10243,"sha256":"f5bf34da8394a8e3a566685ca5af97442045f46f5a2039b055c681dfbaba7143","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-ssti/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"c8522e4c14fa85bef653015d6c1409a64d86dd6134b064797fcddb8bf1040dd9"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--hunt-ssti",
+    "name": "hunt-ssti",
+    "description": "Hunt server-side template injection (SSTI) across Jinja2 (Flask/Django), Twig (Symfony), Freemarker (Java), ERB (Rails), Spring, Velocity, Mako, Thymeleaf, Smarty.",
+    "category": "Development",
+    "tags": [
+      "hunt",
+      "ssti",
+      "server",
+      "side",
+      "template",
+      "injection",
+      "across",
+      "jinja2",
+      "flask",
+      "django",
+      "twig",
+      "symfony",
+      "freemarker",
+      "java",
+      "erb",
+      "rails",
+      "spring",
+      "velocity"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/hunt-ssti",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-ssti",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11316,
+    "sha256": "f5bf34da8394a8e3a566685ca5af97442045f46f5a2039b055c681dfbaba7143",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunt-ssti/SKILL.md",
+      "bytes": 10243,
+      "sha256": "f5bf34da8394a8e3a566685ca5af97442045f46f5a2039b055c681dfbaba7143",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-ssti/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "c8522e4c14fa85bef653015d6c1409a64d86dd6134b064797fcddb8bf1040dd9"
+}

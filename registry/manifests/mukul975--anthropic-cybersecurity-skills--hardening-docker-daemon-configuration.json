@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--hardening-docker-daemon-configuration","name":"hardening-docker-daemon-configuration","description":"Hardens the Docker daemon (dockerd) through /etc/docker/daemon.json with user namespace remapping, TLS client authentication, seccomp profiles, and CIS Docker Benchmark controls such as icc, no-new-privileges, and live-restore. Use when securing a Docker host's daemon to prevent privilege escalation, breakout, or lateral movement, or when auditing daemon settings against CIS requirements. Keywords: dockerd, daemon.json, userns-remap, no-new-privileges, icc, live-restore, TLS socket. Do not use for hardening images and per-container runtime flags - use hardening-docker-containers-for-production.","category":"Cloud & DevOps","tags":["hardening","docker","daemon","configuration","hardens","dockerd","through","etc","daemon.json","user","namespace","remapping","tls","client","authentication","seccomp","profiles","cis"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/hardening-docker-daemon-configuration/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/hardening-docker-daemon-configuration","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-daemon-configuration","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":42073,"sha256":"d0daafa02e4cf698e94fef901fcca93be2fa84090352ebc695b9450849a21179","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/hardening-docker-daemon-configuration/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-daemon-configuration/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/hardening-docker-daemon-configuration/SKILL.md","bytes":8583,"sha256":"d0daafa02e4cf698e94fef901fcca93be2fa84090352ebc695b9450849a21179","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-daemon-configuration/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/hardening-docker-daemon-configuration/assets/template.md","bytes":1750,"sha256":"a9871c1300cfcf4cd24a4474db51ce294a21d164a08115344330b9cc343249ad","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-daemon-configuration/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/hardening-docker-daemon-configuration/references/api-reference.md","bytes":1957,"sha256":"a6f08de46f235d44c37423b62a171ff05aec3f18f1d3306fcf55098a1093285b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-daemon-configuration/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/hardening-docker-daemon-configuration/references/standards.md","bytes":2431,"sha256":"a4898a403897763c2fd4b5de1673e9ef8a12567276107289e7b58ca53397ec58","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-daemon-configuration/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/hardening-docker-daemon-configuration/references/workflows.md","bytes":2710,"sha256":"91fa87b6d316b8784cdc1c0532c3810f7005165c8f186bb362a2da1f4793a8fd","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-daemon-configuration/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/hardening-docker-daemon-configuration/scripts/agent.py","bytes":4804,"sha256":"d96cfbf803a9d8693d432c6e3d564a5e8ea48daf85d453de95a7eafcfb7eb12c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-daemon-configuration/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/hardening-docker-daemon-configuration/scripts/process.py","bytes":8583,"sha256":"9ab3875521b19eaccba73e03f1770dddf2d5f931687878322fd0261bff7e827f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-daemon-configuration/scripts/process.py"}],"archiveSha256":"b260aecffee00518785ab5c0f9532864dbbcd5b23303b938ebceb70a81b08180"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hardening-docker-daemon-configuration",
+    "name": "hardening-docker-daemon-configuration",
+    "description": "Hardens the Docker daemon (dockerd) through /etc/docker/daemon.json with user namespace remapping, TLS client authentication, seccomp profiles, and CIS Docker Benchmark controls such as icc, no-new-privileges, and live-restore. Use when securing a Docker host's daemon to prevent privilege escalation, breakout, or lateral movement, or when auditing daemon settings against CIS requirements. Keywords: dockerd, daemon.json, userns-remap, no-new-privileges, icc, live-restore, TLS socket. Do not use for hardening images and per-container runtime flags - use hardening-docker-containers-for-production.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "hardening",
+      "docker",
+      "daemon",
+      "configuration",
+      "hardens",
+      "dockerd",
+      "through",
+      "etc",
+      "daemon.json",
+      "user",
+      "namespace",
+      "remapping",
+      "tls",
+      "client",
+      "authentication",
+      "seccomp",
+      "profiles",
+      "cis"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hardening-docker-daemon-configuration/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hardening-docker-daemon-configuration",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-daemon-configuration",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 42073,
+    "sha256": "d0daafa02e4cf698e94fef901fcca93be2fa84090352ebc695b9450849a21179",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hardening-docker-daemon-configuration/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-daemon-configuration/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hardening-docker-daemon-configuration/SKILL.md",
+      "bytes": 8583,
+      "sha256": "d0daafa02e4cf698e94fef901fcca93be2fa84090352ebc695b9450849a21179",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-daemon-configuration/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/hardening-docker-daemon-configuration/assets/template.md",
+      "bytes": 1750,
+      "sha256": "a9871c1300cfcf4cd24a4474db51ce294a21d164a08115344330b9cc343249ad",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-daemon-configuration/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hardening-docker-daemon-configuration/references/api-reference.md",
+      "bytes": 1957,
+      "sha256": "a6f08de46f235d44c37423b62a171ff05aec3f18f1d3306fcf55098a1093285b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-daemon-configuration/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/hardening-docker-daemon-configuration/references/standards.md",
+      "bytes": 2431,
+      "sha256": "a4898a403897763c2fd4b5de1673e9ef8a12567276107289e7b58ca53397ec58",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-daemon-configuration/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/hardening-docker-daemon-configuration/references/workflows.md",
+      "bytes": 2710,
+      "sha256": "91fa87b6d316b8784cdc1c0532c3810f7005165c8f186bb362a2da1f4793a8fd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-daemon-configuration/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hardening-docker-daemon-configuration/scripts/agent.py",
+      "bytes": 4804,
+      "sha256": "d96cfbf803a9d8693d432c6e3d564a5e8ea48daf85d453de95a7eafcfb7eb12c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-daemon-configuration/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/hardening-docker-daemon-configuration/scripts/process.py",
+      "bytes": 8583,
+      "sha256": "9ab3875521b19eaccba73e03f1770dddf2d5f931687878322fd0261bff7e827f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hardening-docker-daemon-configuration/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "b260aecffee00518785ab5c0f9532864dbbcd5b23303b938ebceb70a81b08180"
+}

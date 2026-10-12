@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--from-the-other-side-anitta","name":"from-the-other-side-anitta","description":"Rigorous challenge profile for Anitta: assumption checks, evidence calibration, and defensible reasoning patterns for Ember collaboration.","category":"Development","tags":["from","other","side","anitta","rigorous","challenge","profile","assumption","checks","evidence","calibration","defensible","reasoning","patterns","ember","collaboration."],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/from-the-other-side-anitta","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/from-the-other-side-anitta","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":5054,"sha256":"304c3e6616c8987d3280beb415d28183f24781ded7afeeb5abc5c9459db92283","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/from-the-other-side-anitta/SKILL.md","bytes":3995,"sha256":"304c3e6616c8987d3280beb415d28183f24781ded7afeeb5abc5c9459db92283","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/from-the-other-side-anitta/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"53881b04aac8c7d3d4d47e09e89d2743e29f467036d74fd15807cffe2118ea87"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--from-the-other-side-anitta",
+    "name": "from-the-other-side-anitta",
+    "description": "Rigorous challenge profile for Anitta: assumption checks, evidence calibration, and defensible reasoning patterns for Ember collaboration.",
+    "category": "Development",
+    "tags": [
+      "from",
+      "other",
+      "side",
+      "anitta",
+      "rigorous",
+      "challenge",
+      "profile",
+      "assumption",
+      "checks",
+      "evidence",
+      "calibration",
+      "defensible",
+      "reasoning",
+      "patterns",
+      "ember",
+      "collaboration."
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/from-the-other-side-anitta",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/from-the-other-side-anitta",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 5054,
+    "sha256": "304c3e6616c8987d3280beb415d28183f24781ded7afeeb5abc5c9459db92283",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/from-the-other-side-anitta/SKILL.md",
+      "bytes": 3995,
+      "sha256": "304c3e6616c8987d3280beb415d28183f24781ded7afeeb5abc5c9459db92283",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/from-the-other-side-anitta/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "53881b04aac8c7d3d4d47e09e89d2743e29f467036d74fd15807cffe2118ea87"
+}

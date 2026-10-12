@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-cloud-penetration-testing-with-pacu","name":"performing-cloud-penetration-testing-with-pacu","description":"Run authorized AWS penetration tests with Pacu, the open-source AWS exploitation framework, to enumerate IAM configuration, scan for privilege escalation paths, and test data access and lateral movement using compromised credentials. Use when conducting authorized red-team assessments of AWS environments, validating IAM policies and SCPs, or determining the blast radius of compromised AWS credentials.","category":"Security","tags":["performing","cloud","penetration","testing","pacu","run","authorized","aws","tests","open","source","exploitation","framework","enumerate","iam","configuration","scan","privilege"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-cloud-penetration-testing-with-pacu/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-cloud-penetration-testing-with-pacu","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-penetration-testing-with-pacu","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":33545,"sha256":"165d3ffb899f187f10fe3d0b8eb8a903a7dba38219f59a52d49081e28108cf38","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-cloud-penetration-testing-with-pacu/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-penetration-testing-with-pacu/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-cloud-penetration-testing-with-pacu/SKILL.md","bytes":11325,"sha256":"165d3ffb899f187f10fe3d0b8eb8a903a7dba38219f59a52d49081e28108cf38","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-penetration-testing-with-pacu/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-cloud-penetration-testing-with-pacu/references/api-reference.md","bytes":2473,"sha256":"6b89288a62b4942534884da2caa4dbf09725281f46dd7c0f3d98ab7a872d7111","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-penetration-testing-with-pacu/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-cloud-penetration-testing-with-pacu/scripts/agent.py","bytes":8492,"sha256":"00dbdb341dc700ca2f0170ff7c36c7a27d8cbf9e0675b7d7ac38aad4f8d9a10e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-penetration-testing-with-pacu/scripts/agent.py"}],"archiveSha256":"b80efcc1eb3ca48fd9339ea9dd5af8f1992ee8ff1a06413696f0d93c059cc71a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-cloud-penetration-testing-with-pacu",
+    "name": "performing-cloud-penetration-testing-with-pacu",
+    "description": "Run authorized AWS penetration tests with Pacu, the open-source AWS exploitation framework, to enumerate IAM configuration, scan for privilege escalation paths, and test data access and lateral movement using compromised credentials. Use when conducting authorized red-team assessments of AWS environments, validating IAM policies and SCPs, or determining the blast radius of compromised AWS credentials.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "cloud",
+      "penetration",
+      "testing",
+      "pacu",
+      "run",
+      "authorized",
+      "aws",
+      "tests",
+      "open",
+      "source",
+      "exploitation",
+      "framework",
+      "enumerate",
+      "iam",
+      "configuration",
+      "scan",
+      "privilege"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-cloud-penetration-testing-with-pacu/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-cloud-penetration-testing-with-pacu",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-penetration-testing-with-pacu",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 33545,
+    "sha256": "165d3ffb899f187f10fe3d0b8eb8a903a7dba38219f59a52d49081e28108cf38",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-cloud-penetration-testing-with-pacu/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-penetration-testing-with-pacu/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-cloud-penetration-testing-with-pacu/SKILL.md",
+      "bytes": 11325,
+      "sha256": "165d3ffb899f187f10fe3d0b8eb8a903a7dba38219f59a52d49081e28108cf38",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-penetration-testing-with-pacu/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-cloud-penetration-testing-with-pacu/references/api-reference.md",
+      "bytes": 2473,
+      "sha256": "6b89288a62b4942534884da2caa4dbf09725281f46dd7c0f3d98ab7a872d7111",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-penetration-testing-with-pacu/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-cloud-penetration-testing-with-pacu/scripts/agent.py",
+      "bytes": 8492,
+      "sha256": "00dbdb341dc700ca2f0170ff7c36c7a27d8cbf9e0675b7d7ac38aad4f8d9a10e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-penetration-testing-with-pacu/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "b80efcc1eb3ca48fd9339ea9dd5af8f1992ee8ff1a06413696f0d93c059cc71a"
+}

@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--hunting-for-scheduled-task-persistence","name":"hunting-for-scheduled-task-persistence","description":"Runs a hypothesis-driven threat hunt for Windows Scheduled Task persistence (T1053), guiding SIEM/EDR queries against task creation events (e.g. Event ID 4698), suspicious task actions, and unusual scheduling patterns. Use when hunting for scheduled-task persistence, after threat intel flags related campaigns, during incident response, or when alerts fire on schtasks/at.exe activity.","category":"Security","tags":["hunting","scheduled","task","persistence","runs","hypothesis","driven","threat","hunt","windows","t1053","guiding","siem","edr","queries","against","creation","events"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/hunting-for-scheduled-task-persistence/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/hunting-for-scheduled-task-persistence","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-scheduled-task-persistence","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":31987,"sha256":"3c7b17334431b00e7ecc3f9e70d192962cf47c65f86d6484f8f900b66b3365bb","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/hunting-for-scheduled-task-persistence/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-scheduled-task-persistence/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/hunting-for-scheduled-task-persistence/SKILL.md","bytes":3628,"sha256":"3c7b17334431b00e7ecc3f9e70d192962cf47c65f86d6484f8f900b66b3365bb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-scheduled-task-persistence/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/hunting-for-scheduled-task-persistence/assets/template.md","bytes":2621,"sha256":"b3ba4a850ed4a1d2028756c0a2bdf9d77cb50f0566c88d11f3e7da4122a28ecf","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-scheduled-task-persistence/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/hunting-for-scheduled-task-persistence/references/api-reference.md","bytes":1514,"sha256":"2624fc1c89e503e5064036a6d615ca63b3f1a0e27ae88bf896e00bb8d5e14c1b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-scheduled-task-persistence/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/hunting-for-scheduled-task-persistence/references/standards.md","bytes":1556,"sha256":"afe40a9f31e6c358a533c4b3827fab6c8b9e9cc6312936b6b090634b3efe984b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-scheduled-task-persistence/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/hunting-for-scheduled-task-persistence/references/workflows.md","bytes":2869,"sha256":"ba72526fb57e9fb2829907d1d08296aa55949ff275ed19d06302562be401fdeb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-scheduled-task-persistence/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/hunting-for-scheduled-task-persistence/scripts/agent.py","bytes":4948,"sha256":"a3b65d2f1779b1b9b1c44f294fd7360e53e77371ff469cc9e3e4c07062b8aba0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-scheduled-task-persistence/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/hunting-for-scheduled-task-persistence/scripts/process.py","bytes":3596,"sha256":"2230ada479d03213cb6625a3b5185accbbcb1d6178c53093ac5509c76176254e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-scheduled-task-persistence/scripts/process.py"}],"archiveSha256":"49495c77f800c1a27f65fa8d5455361c2c74e934a72d3cff65cbac1afc2727df"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-for-scheduled-task-persistence",
+    "name": "hunting-for-scheduled-task-persistence",
+    "description": "Runs a hypothesis-driven threat hunt for Windows Scheduled Task persistence (T1053), guiding SIEM/EDR queries against task creation events (e.g. Event ID 4698), suspicious task actions, and unusual scheduling patterns. Use when hunting for scheduled-task persistence, after threat intel flags related campaigns, during incident response, or when alerts fire on schtasks/at.exe activity.",
+    "category": "Security",
+    "tags": [
+      "hunting",
+      "scheduled",
+      "task",
+      "persistence",
+      "runs",
+      "hypothesis",
+      "driven",
+      "threat",
+      "hunt",
+      "windows",
+      "t1053",
+      "guiding",
+      "siem",
+      "edr",
+      "queries",
+      "against",
+      "creation",
+      "events"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-for-scheduled-task-persistence/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-for-scheduled-task-persistence",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-scheduled-task-persistence",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 31987,
+    "sha256": "3c7b17334431b00e7ecc3f9e70d192962cf47c65f86d6484f8f900b66b3365bb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-for-scheduled-task-persistence/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-scheduled-task-persistence/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-for-scheduled-task-persistence/SKILL.md",
+      "bytes": 3628,
+      "sha256": "3c7b17334431b00e7ecc3f9e70d192962cf47c65f86d6484f8f900b66b3365bb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-scheduled-task-persistence/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/hunting-for-scheduled-task-persistence/assets/template.md",
+      "bytes": 2621,
+      "sha256": "b3ba4a850ed4a1d2028756c0a2bdf9d77cb50f0566c88d11f3e7da4122a28ecf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-scheduled-task-persistence/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-for-scheduled-task-persistence/references/api-reference.md",
+      "bytes": 1514,
+      "sha256": "2624fc1c89e503e5064036a6d615ca63b3f1a0e27ae88bf896e00bb8d5e14c1b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-scheduled-task-persistence/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/hunting-for-scheduled-task-persistence/references/standards.md",
+      "bytes": 1556,
+      "sha256": "afe40a9f31e6c358a533c4b3827fab6c8b9e9cc6312936b6b090634b3efe984b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-scheduled-task-persistence/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/hunting-for-scheduled-task-persistence/references/workflows.md",
+      "bytes": 2869,
+      "sha256": "ba72526fb57e9fb2829907d1d08296aa55949ff275ed19d06302562be401fdeb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-scheduled-task-persistence/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-for-scheduled-task-persistence/scripts/agent.py",
+      "bytes": 4948,
+      "sha256": "a3b65d2f1779b1b9b1c44f294fd7360e53e77371ff469cc9e3e4c07062b8aba0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-scheduled-task-persistence/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/hunting-for-scheduled-task-persistence/scripts/process.py",
+      "bytes": 3596,
+      "sha256": "2230ada479d03213cb6625a3b5185accbbcb1d6178c53093ac5509c76176254e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-scheduled-task-persistence/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "49495c77f800c1a27f65fa8d5455361c2c74e934a72d3cff65cbac1afc2727df"
+}

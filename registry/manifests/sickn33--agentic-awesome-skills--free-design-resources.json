@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--free-design-resources","name":"free-design-resources","description":"Design resource register: resource and provider, licence type, commercial-use and attribution rules, export format, lock-in risk, free tier limit and accessibility notes. Use for tool vetting.","category":"Design","tags":["free","design","resources","resource","register","provider","licence","type","commercial","attribution","rules","export","format","lock","risk","tier","limit","accessibility"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/free-design-resources","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/free-design-resources","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":5,"bytes":31894,"sha256":"09030dd0186c80eb0124e6cc42620460dc3e39c453e2905dabc0aa845c566ddb","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/free-design-resources/SKILL.md","bytes":26130,"sha256":"09030dd0186c80eb0124e6cc42620460dc3e39c453e2905dabc0aa845c566ddb","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/free-design-resources/SKILL.md"},{"path":"references/common-pitfalls.md","sourcePath":"skills/free-design-resources/references/common-pitfalls.md","bytes":2672,"sha256":"e4218a53129fe2c60fa1c8d4e622481de45b18e560c38ba40e81554a31d214c9","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/free-design-resources/references/common-pitfalls.md"},{"path":"references/related-skills.md","sourcePath":"skills/free-design-resources/references/related-skills.md","bytes":1353,"sha256":"698d9b9eabc2185d597fc45f1863d8080976be2aad45cc79cac60b5930d7e69f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/free-design-resources/references/related-skills.md"},{"path":"references/reusable-prompt.md","sourcePath":"skills/free-design-resources/references/reusable-prompt.md","bytes":666,"sha256":"7b0f6e7aa30c09811dde0d3aca2370b86cce100ca91d8595e77b31102abe8505","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/free-design-resources/references/reusable-prompt.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"ef2b85b814c0b45aaabde7c2c4d39e9f8618619432ab2645e92c6e9321f87a19"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--free-design-resources",
+    "name": "free-design-resources",
+    "description": "Design resource register: resource and provider, licence type, commercial-use and attribution rules, export format, lock-in risk, free tier limit and accessibility notes. Use for tool vetting.",
+    "category": "Design",
+    "tags": [
+      "free",
+      "design",
+      "resources",
+      "resource",
+      "register",
+      "provider",
+      "licence",
+      "type",
+      "commercial",
+      "attribution",
+      "rules",
+      "export",
+      "format",
+      "lock",
+      "risk",
+      "tier",
+      "limit",
+      "accessibility"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/free-design-resources",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/free-design-resources",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 5,
+    "bytes": 31894,
+    "sha256": "09030dd0186c80eb0124e6cc42620460dc3e39c453e2905dabc0aa845c566ddb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/free-design-resources/SKILL.md",
+      "bytes": 26130,
+      "sha256": "09030dd0186c80eb0124e6cc42620460dc3e39c453e2905dabc0aa845c566ddb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/free-design-resources/SKILL.md"
+    },
+    {
+      "path": "references/common-pitfalls.md",
+      "sourcePath": "skills/free-design-resources/references/common-pitfalls.md",
+      "bytes": 2672,
+      "sha256": "e4218a53129fe2c60fa1c8d4e622481de45b18e560c38ba40e81554a31d214c9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/free-design-resources/references/common-pitfalls.md"
+    },
+    {
+      "path": "references/related-skills.md",
+      "sourcePath": "skills/free-design-resources/references/related-skills.md",
+      "bytes": 1353,
+      "sha256": "698d9b9eabc2185d597fc45f1863d8080976be2aad45cc79cac60b5930d7e69f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/free-design-resources/references/related-skills.md"
+    },
+    {
+      "path": "references/reusable-prompt.md",
+      "sourcePath": "skills/free-design-resources/references/reusable-prompt.md",
+      "bytes": 666,
+      "sha256": "7b0f6e7aa30c09811dde0d3aca2370b86cce100ca91d8595e77b31102abe8505",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/free-design-resources/references/reusable-prompt.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ef2b85b814c0b45aaabde7c2c4d39e9f8618619432ab2645e92c6e9321f87a19"
+}

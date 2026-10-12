@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--assay","name":"assay","description":"Run assay on a web page you just wrote or changed. It opens the page in a real browser, drives every control, and reports where the page contradicts itself. Deterministic, no API key, no network.","category":"Development","tags":["assay","run","web","page","you","just","wrote","changed.","it","opens","real","browser","drives","every","control","reports","where","contradicts"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/assay","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/assay","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":9006,"sha256":"b08bc80c438364d1441a6e0c031d9bc7df0a8ab270af58b202f11966ce1ca4b3","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/assay/SKILL.md","bytes":7933,"sha256":"b08bc80c438364d1441a6e0c031d9bc7df0a8ab270af58b202f11966ce1ca4b3","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/assay/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"53b3964d13ce97338856a33d3d95475446071f417e6e10223201830d0b514123"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--assay",
+    "name": "assay",
+    "description": "Run assay on a web page you just wrote or changed. It opens the page in a real browser, drives every control, and reports where the page contradicts itself. Deterministic, no API key, no network.",
+    "category": "Development",
+    "tags": [
+      "assay",
+      "run",
+      "web",
+      "page",
+      "you",
+      "just",
+      "wrote",
+      "changed.",
+      "it",
+      "opens",
+      "real",
+      "browser",
+      "drives",
+      "every",
+      "control",
+      "reports",
+      "where",
+      "contradicts"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/assay",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/assay",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9006,
+    "sha256": "b08bc80c438364d1441a6e0c031d9bc7df0a8ab270af58b202f11966ce1ca4b3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/assay/SKILL.md",
+      "bytes": 7933,
+      "sha256": "b08bc80c438364d1441a6e0c031d9bc7df0a8ab270af58b202f11966ce1ca4b3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/assay/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "53b3964d13ce97338856a33d3d95475446071f417e6e10223201830d0b514123"
+}

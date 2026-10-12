@@ -1,1 +1,71 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--lognorm","name":"lognorm","description":"Work a site's SEO and AI-visibility (GEO) backlog through the hosted LogNorm MCP server: audits, fixes, content, AI-answer tracking.","category":"Marketing","tags":["lognorm","work","site","seo","ai","visibility","geo","backlog","through","hosted","mcp","server","audits","fixes","content","answer","tracking."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/lognorm","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lognorm","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":13451,"sha256":"0d2731f89cfa5c88eeb0deee865e40569ee4f18bc66dbd7d7bc5b2ccb6e7082b","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/lognorm/SKILL.md","bytes":5447,"sha256":"0d2731f89cfa5c88eeb0deee865e40569ee4f18bc66dbd7d7bc5b2ccb6e7082b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lognorm/SKILL.md"},{"path":"references/playbooks.md","sourcePath":"skills/lognorm/references/playbooks.md","bytes":6931,"sha256":"266ea11b3cda90ad018869cca49e29f16b3c8df0c314e23e1abacb92cc7cb980","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lognorm/references/playbooks.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"9208457977c6bfbddb2386dc0b81edd1bffa81aa6a40990c59a8f6fce6c9ee71"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--lognorm",
+    "name": "lognorm",
+    "description": "Work a site's SEO and AI-visibility (GEO) backlog through the hosted LogNorm MCP server: audits, fixes, content, AI-answer tracking.",
+    "category": "Marketing",
+    "tags": [
+      "lognorm",
+      "work",
+      "site",
+      "seo",
+      "ai",
+      "visibility",
+      "geo",
+      "backlog",
+      "through",
+      "hosted",
+      "mcp",
+      "server",
+      "audits",
+      "fixes",
+      "content",
+      "answer",
+      "tracking."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/lognorm",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lognorm",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 13451,
+    "sha256": "0d2731f89cfa5c88eeb0deee865e40569ee4f18bc66dbd7d7bc5b2ccb6e7082b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/lognorm/SKILL.md",
+      "bytes": 5447,
+      "sha256": "0d2731f89cfa5c88eeb0deee865e40569ee4f18bc66dbd7d7bc5b2ccb6e7082b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lognorm/SKILL.md"
+    },
+    {
+      "path": "references/playbooks.md",
+      "sourcePath": "skills/lognorm/references/playbooks.md",
+      "bytes": 6931,
+      "sha256": "266ea11b3cda90ad018869cca49e29f16b3c8df0c314e23e1abacb92cc7cb980",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/lognorm/references/playbooks.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "9208457977c6bfbddb2386dc0b81edd1bffa81aa6a40990c59a8f6fce6c9ee71"
+}

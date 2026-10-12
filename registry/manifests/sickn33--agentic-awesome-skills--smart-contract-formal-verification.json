@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--smart-contract-formal-verification","name":"smart-contract-formal-verification","description":"Foundry and Soroban formal invariant verification register: state transition rules, boundary invariant properties, and symbolic execution checks.","category":"Development","tags":["smart","contract","formal","verification","foundry","soroban","invariant","register","state","transition","rules","boundary","properties","symbolic","execution","checks."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/smart-contract-formal-verification","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/smart-contract-formal-verification","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6628,"sha256":"1519ef80c560f0267011a992f539c735836eff843a3a0930b9e416b59a26d0b4","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/smart-contract-formal-verification/SKILL.md","bytes":5555,"sha256":"1519ef80c560f0267011a992f539c735836eff843a3a0930b9e416b59a26d0b4","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/smart-contract-formal-verification/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"34c156170093d5b68cdd3de7959ea1f1f8e45af92dac8583d9e9079079e7ed7d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--smart-contract-formal-verification",
+    "name": "smart-contract-formal-verification",
+    "description": "Foundry and Soroban formal invariant verification register: state transition rules, boundary invariant properties, and symbolic execution checks.",
+    "category": "Development",
+    "tags": [
+      "smart",
+      "contract",
+      "formal",
+      "verification",
+      "foundry",
+      "soroban",
+      "invariant",
+      "register",
+      "state",
+      "transition",
+      "rules",
+      "boundary",
+      "properties",
+      "symbolic",
+      "execution",
+      "checks."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/smart-contract-formal-verification",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/smart-contract-formal-verification",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6628,
+    "sha256": "1519ef80c560f0267011a992f539c735836eff843a3a0930b9e416b59a26d0b4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/smart-contract-formal-verification/SKILL.md",
+      "bytes": 5555,
+      "sha256": "1519ef80c560f0267011a992f539c735836eff843a3a0930b9e416b59a26d0b4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/smart-contract-formal-verification/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "34c156170093d5b68cdd3de7959ea1f1f8e45af92dac8583d9e9079079e7ed7d"
+}

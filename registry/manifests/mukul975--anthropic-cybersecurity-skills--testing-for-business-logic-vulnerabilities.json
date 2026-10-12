@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--testing-for-business-logic-vulnerabilities","name":"testing-for-business-logic-vulnerabilities","description":"Manually identifies flaws in application business logic - price manipulation, multi-step workflow bypass, and privilege escalation - by intercepting and modifying requests with Burp Suite, going beyond what automated vulnerability scanners detect. Use for e-commerce checkout/cart flows, voucher and rewards systems, or any assessment where scanners find little but business rules need scrutiny.","category":"Security","tags":["testing","business","logic","vulnerabilities","manually","identifies","flaws","application","price","manipulation","multi","step","workflow","bypass","privilege","escalation","by","intercepting"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/testing-for-business-logic-vulnerabilities/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/testing-for-business-logic-vulnerabilities","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-business-logic-vulnerabilities","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":35551,"sha256":"4cce70205aaa1013cfbd70b1950aecef4693c839b4420220bde786c36c0a3e06","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/testing-for-business-logic-vulnerabilities/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-business-logic-vulnerabilities/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/testing-for-business-logic-vulnerabilities/SKILL.md","bytes":13230,"sha256":"4cce70205aaa1013cfbd70b1950aecef4693c839b4420220bde786c36c0a3e06","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-business-logic-vulnerabilities/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/testing-for-business-logic-vulnerabilities/references/api-reference.md","bytes":1847,"sha256":"7562105f52a1e709a064e126287685b0992683dac1532e9bcb07635b03cb047c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-business-logic-vulnerabilities/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/testing-for-business-logic-vulnerabilities/scripts/agent.py","bytes":9219,"sha256":"d5aa0ef4d2c4a12cebf2b25b579fdf21d6ae9ff686ec47d0332d1e0503c82075","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-business-logic-vulnerabilities/scripts/agent.py"}],"archiveSha256":"32e771e7be30a2bbedd6eaa6c9f77509f4f812b29b0e0b2f3a366a575fec77f8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--testing-for-business-logic-vulnerabilities",
+    "name": "testing-for-business-logic-vulnerabilities",
+    "description": "Manually identifies flaws in application business logic - price manipulation, multi-step workflow bypass, and privilege escalation - by intercepting and modifying requests with Burp Suite, going beyond what automated vulnerability scanners detect. Use for e-commerce checkout/cart flows, voucher and rewards systems, or any assessment where scanners find little but business rules need scrutiny.",
+    "category": "Security",
+    "tags": [
+      "testing",
+      "business",
+      "logic",
+      "vulnerabilities",
+      "manually",
+      "identifies",
+      "flaws",
+      "application",
+      "price",
+      "manipulation",
+      "multi",
+      "step",
+      "workflow",
+      "bypass",
+      "privilege",
+      "escalation",
+      "by",
+      "intercepting"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/testing-for-business-logic-vulnerabilities/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/testing-for-business-logic-vulnerabilities",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-business-logic-vulnerabilities",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 35551,
+    "sha256": "4cce70205aaa1013cfbd70b1950aecef4693c839b4420220bde786c36c0a3e06",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/testing-for-business-logic-vulnerabilities/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-business-logic-vulnerabilities/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/testing-for-business-logic-vulnerabilities/SKILL.md",
+      "bytes": 13230,
+      "sha256": "4cce70205aaa1013cfbd70b1950aecef4693c839b4420220bde786c36c0a3e06",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-business-logic-vulnerabilities/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/testing-for-business-logic-vulnerabilities/references/api-reference.md",
+      "bytes": 1847,
+      "sha256": "7562105f52a1e709a064e126287685b0992683dac1532e9bcb07635b03cb047c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-business-logic-vulnerabilities/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/testing-for-business-logic-vulnerabilities/scripts/agent.py",
+      "bytes": 9219,
+      "sha256": "d5aa0ef4d2c4a12cebf2b25b579fdf21d6ae9ff686ec47d0332d1e0503c82075",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-for-business-logic-vulnerabilities/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "32e771e7be30a2bbedd6eaa6c9f77509f4f812b29b0e0b2f3a366a575fec77f8"
+}

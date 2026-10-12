@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--testing-jwt-token-security","name":"testing-jwt-token-security","description":"Assessing JSON Web Token implementations for cryptographic weaknesses, algorithm confusion attacks, and authorization bypass vulnerabilities during security engagements.","category":"Security","tags":["testing","jwt","token","security","assessing","json","web","implementations","cryptographic","weaknesses","algorithm","confusion","attacks","authorization","bypass","vulnerabilities","during","engagements."],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/testing-jwt-token-security/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/testing-jwt-token-security","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-jwt-token-security","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":35005,"sha256":"d7b6b10a9ea2538b0b3cdb2bc4e608ecf84c27d188cbfcb5d2854579653319f9","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/testing-jwt-token-security/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-jwt-token-security/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/testing-jwt-token-security/SKILL.md","bytes":11467,"sha256":"d7b6b10a9ea2538b0b3cdb2bc4e608ecf84c27d188cbfcb5d2854579653319f9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-jwt-token-security/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/testing-jwt-token-security/references/api-reference.md","bytes":2117,"sha256":"b3ed36f9c3c0f5a4cc6ef86025719bec0ce65b550de0507d9aa9066691270d39","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-jwt-token-security/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/testing-jwt-token-security/scripts/agent.py","bytes":10166,"sha256":"d0800f3495975701455c21103f2894c06eb9ed0f6d51132a39e998ffa29cfdf7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-jwt-token-security/scripts/agent.py"}],"archiveSha256":"f332ae7b930e63e0e4256953a3a9c0c1cf470a2c65a75385c57110b46f0304ff"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--testing-jwt-token-security",
+    "name": "testing-jwt-token-security",
+    "description": "Assessing JSON Web Token implementations for cryptographic weaknesses, algorithm confusion attacks, and authorization bypass vulnerabilities during security engagements.",
+    "category": "Security",
+    "tags": [
+      "testing",
+      "jwt",
+      "token",
+      "security",
+      "assessing",
+      "json",
+      "web",
+      "implementations",
+      "cryptographic",
+      "weaknesses",
+      "algorithm",
+      "confusion",
+      "attacks",
+      "authorization",
+      "bypass",
+      "vulnerabilities",
+      "during",
+      "engagements."
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/testing-jwt-token-security/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/testing-jwt-token-security",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-jwt-token-security",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 35005,
+    "sha256": "d7b6b10a9ea2538b0b3cdb2bc4e608ecf84c27d188cbfcb5d2854579653319f9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/testing-jwt-token-security/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-jwt-token-security/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/testing-jwt-token-security/SKILL.md",
+      "bytes": 11467,
+      "sha256": "d7b6b10a9ea2538b0b3cdb2bc4e608ecf84c27d188cbfcb5d2854579653319f9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-jwt-token-security/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/testing-jwt-token-security/references/api-reference.md",
+      "bytes": 2117,
+      "sha256": "b3ed36f9c3c0f5a4cc6ef86025719bec0ce65b550de0507d9aa9066691270d39",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-jwt-token-security/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/testing-jwt-token-security/scripts/agent.py",
+      "bytes": 10166,
+      "sha256": "d0800f3495975701455c21103f2894c06eb9ed0f6d51132a39e998ffa29cfdf7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/testing-jwt-token-security/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "f332ae7b930e63e0e4256953a3a9c0c1cf470a2c65a75385c57110b46f0304ff"
+}

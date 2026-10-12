@@ -1,1 +1,52 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--hunt-business-logic","name":"hunt-business-logic","description":"Hunting skill for business logic vulnerabilities.","category":"Security","tags":["hunt","business","logic","hunting","skill","vulnerabilities."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/hunt-business-logic","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-business-logic","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":20691,"sha256":"ebffdf9fb0370ff9c4c506aaabd4be929365a3f8a1c9187026eb35ef2dfcc9ba","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/hunt-business-logic/SKILL.md","bytes":19618,"sha256":"ebffdf9fb0370ff9c4c506aaabd4be929365a3f8a1c9187026eb35ef2dfcc9ba","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-business-logic/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"9446a1cef0052ede8a60b4f58312a3fde0ccb4314b58ae0ce4743aff99ce1c80"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--hunt-business-logic",
+    "name": "hunt-business-logic",
+    "description": "Hunting skill for business logic vulnerabilities.",
+    "category": "Security",
+    "tags": [
+      "hunt",
+      "business",
+      "logic",
+      "hunting",
+      "skill",
+      "vulnerabilities."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/hunt-business-logic",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-business-logic",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 20691,
+    "sha256": "ebffdf9fb0370ff9c4c506aaabd4be929365a3f8a1c9187026eb35ef2dfcc9ba",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunt-business-logic/SKILL.md",
+      "bytes": 19618,
+      "sha256": "ebffdf9fb0370ff9c4c506aaabd4be929365a3f8a1c9187026eb35ef2dfcc9ba",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hunt-business-logic/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "9446a1cef0052ede8a60b4f58312a3fde0ccb4314b58ae0ce4743aff99ce1c80"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--data-privacy-controls","name":"data-privacy-controls","description":"Data privacy control register: data category, lawful basis, retention period, access roles, encryption and consent requirement per module. Use for GDPR compliance.","category":"Development","tags":["data","privacy","controls","control","register","category","lawful","basis","retention","period","access","roles","encryption","consent","requirement","per","module.","gdpr"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/data-privacy-controls","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/data-privacy-controls","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":14590,"sha256":"67715af360a75c3df7248041c374feddaf4421d057b6fe8c92c06ad1ac592b2f","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/data-privacy-controls/SKILL.md","bytes":13517,"sha256":"67715af360a75c3df7248041c374feddaf4421d057b6fe8c92c06ad1ac592b2f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/data-privacy-controls/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"cdfa0e9517937ec8c9ef71534ab882a1da4a4aae72de535152285b3afc605fb6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--data-privacy-controls",
+    "name": "data-privacy-controls",
+    "description": "Data privacy control register: data category, lawful basis, retention period, access roles, encryption and consent requirement per module. Use for GDPR compliance.",
+    "category": "Development",
+    "tags": [
+      "data",
+      "privacy",
+      "controls",
+      "control",
+      "register",
+      "category",
+      "lawful",
+      "basis",
+      "retention",
+      "period",
+      "access",
+      "roles",
+      "encryption",
+      "consent",
+      "requirement",
+      "per",
+      "module.",
+      "gdpr"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/data-privacy-controls",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/data-privacy-controls",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 14590,
+    "sha256": "67715af360a75c3df7248041c374feddaf4421d057b6fe8c92c06ad1ac592b2f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/data-privacy-controls/SKILL.md",
+      "bytes": 13517,
+      "sha256": "67715af360a75c3df7248041c374feddaf4421d057b6fe8c92c06ad1ac592b2f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/data-privacy-controls/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "cdfa0e9517937ec8c9ef71534ab882a1da4a4aae72de535152285b3afc605fb6"
+}

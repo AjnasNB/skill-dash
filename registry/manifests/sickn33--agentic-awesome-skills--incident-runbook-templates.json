@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--incident-runbook-templates","name":"incident-runbook-templates","description":"Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication.","category":"Development","tags":["incident","runbook","templates","production","ready","response","runbooks","covering","detection","triage","mitigation","resolution","communication."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/incident-runbook-templates","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/incident-runbook-templates","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12383,"sha256":"531c5e1a943bd16687d665d87b415c6fba4b5345c99d52f9ca266f7a59d5d828","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/incident-runbook-templates/SKILL.md","bytes":11310,"sha256":"531c5e1a943bd16687d665d87b415c6fba4b5345c99d52f9ca266f7a59d5d828","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/incident-runbook-templates/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"6a10564d38eae29f8592b6ab69bc5597ec240ebc1ba9fb3ce66eb0afef0e1739"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--incident-runbook-templates",
+    "name": "incident-runbook-templates",
+    "description": "Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication.",
+    "category": "Development",
+    "tags": [
+      "incident",
+      "runbook",
+      "templates",
+      "production",
+      "ready",
+      "response",
+      "runbooks",
+      "covering",
+      "detection",
+      "triage",
+      "mitigation",
+      "resolution",
+      "communication."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/incident-runbook-templates",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/incident-runbook-templates",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12383,
+    "sha256": "531c5e1a943bd16687d665d87b415c6fba4b5345c99d52f9ca266f7a59d5d828",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/incident-runbook-templates/SKILL.md",
+      "bytes": 11310,
+      "sha256": "531c5e1a943bd16687d665d87b415c6fba4b5345c99d52f9ca266f7a59d5d828",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/incident-runbook-templates/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "6a10564d38eae29f8592b6ab69bc5597ec240ebc1ba9fb3ce66eb0afef0e1739"
+}

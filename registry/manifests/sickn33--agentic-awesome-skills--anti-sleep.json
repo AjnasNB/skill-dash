@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--anti-sleep","name":"anti-sleep","description":"Keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs.","category":"Automation","tags":["anti","sleep","keep","mac","awake","caffeinate","during","long","builds","downloads","supervised","automation","runs."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/anti-sleep","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/anti-sleep","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4487,"sha256":"d5331644b4a45112473e400687ba55e4b3c6069ecb92c974e2e6a9d95a8e20db","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/anti-sleep/SKILL.md","bytes":3414,"sha256":"d5331644b4a45112473e400687ba55e4b3c6069ecb92c974e2e6a9d95a8e20db","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/anti-sleep/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"2fc7634f58f16b721f4ac6a32a53bac30931cd1b3e2cc34f4e76b4b2c099c7c1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--anti-sleep",
+    "name": "anti-sleep",
+    "description": "Keep a Mac awake with caffeinate during long builds, downloads, or supervised automation runs.",
+    "category": "Automation",
+    "tags": [
+      "anti",
+      "sleep",
+      "keep",
+      "mac",
+      "awake",
+      "caffeinate",
+      "during",
+      "long",
+      "builds",
+      "downloads",
+      "supervised",
+      "automation",
+      "runs."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/anti-sleep",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/anti-sleep",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4487,
+    "sha256": "d5331644b4a45112473e400687ba55e4b3c6069ecb92c974e2e6a9d95a8e20db",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/anti-sleep/SKILL.md",
+      "bytes": 3414,
+      "sha256": "d5331644b4a45112473e400687ba55e4b3c6069ecb92c974e2e6a9d95a8e20db",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/anti-sleep/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "2fc7634f58f16b721f4ac6a32a53bac30931cd1b3e2cc34f4e76b4b2c099c7c1"
+}

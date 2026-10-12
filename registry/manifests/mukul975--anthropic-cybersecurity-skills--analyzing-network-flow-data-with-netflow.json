@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-network-flow-data-with-netflow","name":"analyzing-network-flow-data-with-netflow","description":"Parse NetFlow v9 and IPFIX records to detect volumetric anomalies, port scanning, data exfiltration, and C2 beaconing patterns. Uses the Python netflow library to decode flow records, builds traffic baselines, and applies statistical analysis to identify flows with abnormal byte counts, connection durations, and periodic timing patterns.","category":"Development","tags":["analyzing","network","flow","data","netflow","parse","v9","ipfix","records","detect","volumetric","anomalies","port","scanning","exfiltration","c2","beaconing","patterns."],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-network-flow-data-with-netflow/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-network-flow-data-with-netflow","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-flow-data-with-netflow","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":22957,"sha256":"7b6478574765d594a9d6afec89be21abfedb41dac8bf45e5032f3a17e207f8e6","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-network-flow-data-with-netflow/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-flow-data-with-netflow/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-network-flow-data-with-netflow/SKILL.md","bytes":2172,"sha256":"7b6478574765d594a9d6afec89be21abfedb41dac8bf45e5032f3a17e207f8e6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-flow-data-with-netflow/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-network-flow-data-with-netflow/references/api-reference.md","bytes":1615,"sha256":"41afb3b5c3bb41266709118ba319f7f1ea2ac54d9fa2501e55c6bbb3bb021787","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-flow-data-with-netflow/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-network-flow-data-with-netflow/scripts/agent.py","bytes":7915,"sha256":"f22cb3589ca53a21e95123f98b85435d9ae3c03a41dc454d4f5eb43d5c3c7583","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-flow-data-with-netflow/scripts/agent.py"}],"archiveSha256":"cca6e893151c7bb9c58582dec19dd3388a580af5682182d053ad57c5958eb043"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-network-flow-data-with-netflow",
+    "name": "analyzing-network-flow-data-with-netflow",
+    "description": "Parse NetFlow v9 and IPFIX records to detect volumetric anomalies, port scanning, data exfiltration, and C2 beaconing patterns. Uses the Python netflow library to decode flow records, builds traffic baselines, and applies statistical analysis to identify flows with abnormal byte counts, connection durations, and periodic timing patterns.",
+    "category": "Development",
+    "tags": [
+      "analyzing",
+      "network",
+      "flow",
+      "data",
+      "netflow",
+      "parse",
+      "v9",
+      "ipfix",
+      "records",
+      "detect",
+      "volumetric",
+      "anomalies",
+      "port",
+      "scanning",
+      "exfiltration",
+      "c2",
+      "beaconing",
+      "patterns."
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-network-flow-data-with-netflow/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-network-flow-data-with-netflow",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-flow-data-with-netflow",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 22957,
+    "sha256": "7b6478574765d594a9d6afec89be21abfedb41dac8bf45e5032f3a17e207f8e6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-network-flow-data-with-netflow/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-flow-data-with-netflow/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-network-flow-data-with-netflow/SKILL.md",
+      "bytes": 2172,
+      "sha256": "7b6478574765d594a9d6afec89be21abfedb41dac8bf45e5032f3a17e207f8e6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-flow-data-with-netflow/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-network-flow-data-with-netflow/references/api-reference.md",
+      "bytes": 1615,
+      "sha256": "41afb3b5c3bb41266709118ba319f7f1ea2ac54d9fa2501e55c6bbb3bb021787",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-flow-data-with-netflow/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-network-flow-data-with-netflow/scripts/agent.py",
+      "bytes": 7915,
+      "sha256": "f22cb3589ca53a21e95123f98b85435d9ae3c03a41dc454d4f5eb43d5c3c7583",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-network-flow-data-with-netflow/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "cca6e893151c7bb9c58582dec19dd3388a580af5682182d053ad57c5958eb043"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--azure-static-web-apps","name":"azure-static-web-apps","description":"Helps create, configure, and deploy Azure Static Web Apps using the SWA CLI. Use when deploying static sites to Azure, setting up SWA local development, configuring staticwebapp.config.json, adding Azure Functions APIs to SWA, or setting up GitHub Actions CI/CD for Static Web Apps.","category":"Cloud & DevOps","tags":["azure","static","web","apps","helps","configure","deploy","swa","cli.","when","deploying","sites","setting","up","local","development","configuring","staticwebapp.config.json"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/azure-static-web-apps","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/azure-static-web-apps","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":10558,"sha256":"01540172e164a281b585de653406e8c5c4917f28dd1639dadf29f4f58371dc94","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/azure-static-web-apps/SKILL.md","bytes":9499,"sha256":"01540172e164a281b585de653406e8c5c4917f28dd1639dadf29f4f58371dc94","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/azure-static-web-apps/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"867c3c9b3c06d5ba4c7f02ea69d165057ca6feedcb65dcd3266fed8e0348a83e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--azure-static-web-apps",
+    "name": "azure-static-web-apps",
+    "description": "Helps create, configure, and deploy Azure Static Web Apps using the SWA CLI. Use when deploying static sites to Azure, setting up SWA local development, configuring staticwebapp.config.json, adding Azure Functions APIs to SWA, or setting up GitHub Actions CI/CD for Static Web Apps.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "azure",
+      "static",
+      "web",
+      "apps",
+      "helps",
+      "configure",
+      "deploy",
+      "swa",
+      "cli.",
+      "when",
+      "deploying",
+      "sites",
+      "setting",
+      "up",
+      "local",
+      "development",
+      "configuring",
+      "staticwebapp.config.json"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/azure-static-web-apps",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/azure-static-web-apps",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 10558,
+    "sha256": "01540172e164a281b585de653406e8c5c4917f28dd1639dadf29f4f58371dc94",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/azure-static-web-apps/SKILL.md",
+      "bytes": 9499,
+      "sha256": "01540172e164a281b585de653406e8c5c4917f28dd1639dadf29f4f58371dc94",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/azure-static-web-apps/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "867c3c9b3c06d5ba4c7f02ea69d165057ca6feedcb65dcd3266fed8e0348a83e"
+}

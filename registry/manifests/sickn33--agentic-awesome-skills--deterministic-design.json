@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--deterministic-design","name":"deterministic-design","description":"Render the UI and prove it's balanced + usable: a deterministic layout audit (centroid / optical-center / pixel-oracle balance via explicit math + annotated screenshot) plus a vision-judged Nielsen usability audit by a separate fresh-eyes judge. The measurement layer taste-only design skills lack.","category":"Design","tags":["deterministic","design","render","ui","prove","it","balanced","usable","layout","audit","centroid","optical","center","pixel","oracle","balance","via","explicit"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/deterministic-design","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/deterministic-design","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4030,"sha256":"10e8cc4e2f601515a12ff6986833cc8e09ab9b13c74965769d752755e80270c6","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/deterministic-design/SKILL.md","bytes":2957,"sha256":"10e8cc4e2f601515a12ff6986833cc8e09ab9b13c74965769d752755e80270c6","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/deterministic-design/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"b8e0eb690bdcb5227f318182c81be91b5a847d21c09e0d46e2a3c5c49d446692"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--deterministic-design",
+    "name": "deterministic-design",
+    "description": "Render the UI and prove it's balanced + usable: a deterministic layout audit (centroid / optical-center / pixel-oracle balance via explicit math + annotated screenshot) plus a vision-judged Nielsen usability audit by a separate fresh-eyes judge. The measurement layer taste-only design skills lack.",
+    "category": "Design",
+    "tags": [
+      "deterministic",
+      "design",
+      "render",
+      "ui",
+      "prove",
+      "it",
+      "balanced",
+      "usable",
+      "layout",
+      "audit",
+      "centroid",
+      "optical",
+      "center",
+      "pixel",
+      "oracle",
+      "balance",
+      "via",
+      "explicit"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/deterministic-design",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/deterministic-design",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4030,
+    "sha256": "10e8cc4e2f601515a12ff6986833cc8e09ab9b13c74965769d752755e80270c6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/deterministic-design/SKILL.md",
+      "bytes": 2957,
+      "sha256": "10e8cc4e2f601515a12ff6986833cc8e09ab9b13c74965769d752755e80270c6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/deterministic-design/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "b8e0eb690bdcb5227f318182c81be91b5a847d21c09e0d46e2a3c5c49d446692"
+}

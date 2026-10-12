@@ -1,1 +1,96 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--accounting-software-selection","name":"accounting-software-selection","description":"Scores shortlisted accounting packages against 57 evidence-backed fields, emitted as CSV, SQL, JSON Schema or Notion on request. Use for choosing accounting software.","category":"Development","tags":["accounting","software","selection","scores","shortlisted","packages","against","57","evidence","backed","fields","emitted","as","csv","sql","json","schema","notion"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/accounting-software-selection","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/accounting-software-selection","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":6,"bytes":67961,"sha256":"810a49e75dde80352732e75dd49ad98b8a04a9bdc250772756cadd0257f48ea8","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/accounting-software-selection/SKILL.md","bytes":29753,"sha256":"810a49e75dde80352732e75dd49ad98b8a04a9bdc250772756cadd0257f48ea8","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/accounting-software-selection/SKILL.md"},{"path":"references/build-artifacts.md","sourcePath":"skills/accounting-software-selection/references/build-artifacts.md","bytes":19207,"sha256":"cca8f8c60ccc00c747cb4299206d936da04183f0c6cdc2c6bfea809e8bcaa5c1","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/accounting-software-selection/references/build-artifacts.md"},{"path":"references/common-pitfalls.md","sourcePath":"skills/accounting-software-selection/references/common-pitfalls.md","bytes":3631,"sha256":"dce8b26676ea436835c9ea409f2756ed0ec3e701fb862e780ab5bed454469a4c","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/accounting-software-selection/references/common-pitfalls.md"},{"path":"references/field-reference.md","sourcePath":"skills/accounting-software-selection/references/field-reference.md","bytes":9131,"sha256":"c49aed0dcfc494bf7b093f3b7e5d2200ab2c05d5849854ca53412d0eb0f2b38a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/accounting-software-selection/references/field-reference.md"},{"path":"references/select-options.md","sourcePath":"skills/accounting-software-selection/references/select-options.md","bytes":5166,"sha256":"d930ad13e399c9a70b6f807e8ce197685aefc79b1c29400f301bf5a97f721f7f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/accounting-software-selection/references/select-options.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"b94fa4d5d1e6c1be59a6a9aa0374156008f588a506e9ce027d1603b7346999c9"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--accounting-software-selection",
+    "name": "accounting-software-selection",
+    "description": "Scores shortlisted accounting packages against 57 evidence-backed fields, emitted as CSV, SQL, JSON Schema or Notion on request. Use for choosing accounting software.",
+    "category": "Development",
+    "tags": [
+      "accounting",
+      "software",
+      "selection",
+      "scores",
+      "shortlisted",
+      "packages",
+      "against",
+      "57",
+      "evidence",
+      "backed",
+      "fields",
+      "emitted",
+      "as",
+      "csv",
+      "sql",
+      "json",
+      "schema",
+      "notion"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/accounting-software-selection",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/accounting-software-selection",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 6,
+    "bytes": 67961,
+    "sha256": "810a49e75dde80352732e75dd49ad98b8a04a9bdc250772756cadd0257f48ea8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/accounting-software-selection/SKILL.md",
+      "bytes": 29753,
+      "sha256": "810a49e75dde80352732e75dd49ad98b8a04a9bdc250772756cadd0257f48ea8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/accounting-software-selection/SKILL.md"
+    },
+    {
+      "path": "references/build-artifacts.md",
+      "sourcePath": "skills/accounting-software-selection/references/build-artifacts.md",
+      "bytes": 19207,
+      "sha256": "cca8f8c60ccc00c747cb4299206d936da04183f0c6cdc2c6bfea809e8bcaa5c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/accounting-software-selection/references/build-artifacts.md"
+    },
+    {
+      "path": "references/common-pitfalls.md",
+      "sourcePath": "skills/accounting-software-selection/references/common-pitfalls.md",
+      "bytes": 3631,
+      "sha256": "dce8b26676ea436835c9ea409f2756ed0ec3e701fb862e780ab5bed454469a4c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/accounting-software-selection/references/common-pitfalls.md"
+    },
+    {
+      "path": "references/field-reference.md",
+      "sourcePath": "skills/accounting-software-selection/references/field-reference.md",
+      "bytes": 9131,
+      "sha256": "c49aed0dcfc494bf7b093f3b7e5d2200ab2c05d5849854ca53412d0eb0f2b38a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/accounting-software-selection/references/field-reference.md"
+    },
+    {
+      "path": "references/select-options.md",
+      "sourcePath": "skills/accounting-software-selection/references/select-options.md",
+      "bytes": 5166,
+      "sha256": "d930ad13e399c9a70b6f807e8ce197685aefc79b1c29400f301bf5a97f721f7f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/accounting-software-selection/references/select-options.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "b94fa4d5d1e6c1be59a6a9aa0374156008f588a506e9ce027d1603b7346999c9"
+}

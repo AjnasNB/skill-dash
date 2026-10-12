@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--party-ledger-reconciliation","name":"party-ledger-reconciliation","description":"Party ledger reconciliation: party type, name and PAN/VAT, ledger against statement balance, difference and reason, duplicates, confirmation status and adjustment. Use for balance checks.","category":"Development","tags":["party","ledger","reconciliation","type","name","pan","vat","against","statement","balance","difference","reason","duplicates","confirmation","status","adjustment.","checks."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/party-ledger-reconciliation","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/party-ledger-reconciliation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":21807,"sha256":"6b950384b85885e4504f5390b3cf7655adfc7f07cc139f0fcb32ab5a09a78c41","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/party-ledger-reconciliation/SKILL.md","bytes":20734,"sha256":"6b950384b85885e4504f5390b3cf7655adfc7f07cc139f0fcb32ab5a09a78c41","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/party-ledger-reconciliation/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"d2aae41eb08e3348d27beac4a28d3e49c00fa17f8503548b2057e8ee00301c8f"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--party-ledger-reconciliation",
+    "name": "party-ledger-reconciliation",
+    "description": "Party ledger reconciliation: party type, name and PAN/VAT, ledger against statement balance, difference and reason, duplicates, confirmation status and adjustment. Use for balance checks.",
+    "category": "Development",
+    "tags": [
+      "party",
+      "ledger",
+      "reconciliation",
+      "type",
+      "name",
+      "pan",
+      "vat",
+      "against",
+      "statement",
+      "balance",
+      "difference",
+      "reason",
+      "duplicates",
+      "confirmation",
+      "status",
+      "adjustment.",
+      "checks."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/party-ledger-reconciliation",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/party-ledger-reconciliation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 21807,
+    "sha256": "6b950384b85885e4504f5390b3cf7655adfc7f07cc139f0fcb32ab5a09a78c41",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/party-ledger-reconciliation/SKILL.md",
+      "bytes": 20734,
+      "sha256": "6b950384b85885e4504f5390b3cf7655adfc7f07cc139f0fcb32ab5a09a78c41",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/party-ledger-reconciliation/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "d2aae41eb08e3348d27beac4a28d3e49c00fa17f8503548b2057e8ee00301c8f"
+}

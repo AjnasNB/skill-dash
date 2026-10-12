@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--radar-satellite-analysis","name":"radar-satellite-analysis","description":"Interpret weather radar and satellite observations by validating product metadata and geometry, deriving storm and cloud structures, tracking evolution, and quantifying uncertainty.","category":"Development","tags":["radar","satellite","analysis","interpret","weather","observations","by","validating","product","metadata","geometry","deriving","storm","cloud","structures","tracking","evolution","quantifying"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/radar-satellite-analysis","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/radar-satellite-analysis","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":16628,"sha256":"b8f739980c021a42418d203e235262683f0ba89752a9c801b8071c100003d3f3","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/radar-satellite-analysis/SKILL.md","bytes":15555,"sha256":"b8f739980c021a42418d203e235262683f0ba89752a9c801b8071c100003d3f3","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/radar-satellite-analysis/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"88c2f9043fab4f61835acb7be641cc4cead329998ea2dee16da1df3b6a6039b5"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--radar-satellite-analysis",
+    "name": "radar-satellite-analysis",
+    "description": "Interpret weather radar and satellite observations by validating product metadata and geometry, deriving storm and cloud structures, tracking evolution, and quantifying uncertainty.",
+    "category": "Development",
+    "tags": [
+      "radar",
+      "satellite",
+      "analysis",
+      "interpret",
+      "weather",
+      "observations",
+      "by",
+      "validating",
+      "product",
+      "metadata",
+      "geometry",
+      "deriving",
+      "storm",
+      "cloud",
+      "structures",
+      "tracking",
+      "evolution",
+      "quantifying"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/radar-satellite-analysis",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/radar-satellite-analysis",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 16628,
+    "sha256": "b8f739980c021a42418d203e235262683f0ba89752a9c801b8071c100003d3f3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/radar-satellite-analysis/SKILL.md",
+      "bytes": 15555,
+      "sha256": "b8f739980c021a42418d203e235262683f0ba89752a9c801b8071c100003d3f3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/radar-satellite-analysis/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "88c2f9043fab4f61835acb7be641cc4cead329998ea2dee16da1df3b6a6039b5"
+}

@@ -1,1 +1,60 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--vercel-deployments","name":"vercel-deployments","description":"Deploy frontend and full-stack apps on Vercel with previews, edge functions, environment promotion, and production guardrails.","category":"Cloud & DevOps","tags":["vercel","deployments","deploy","frontend","full","stack","apps","previews","edge","functions","environment","promotion","production","guardrails."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/vercel-deployments","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vercel-deployments","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":8774,"sha256":"234835f033976f1d627dcf0a0c1a7a5892430fbc74a8606ed25b65724ea17373","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/vercel-deployments/SKILL.md","bytes":7701,"sha256":"234835f033976f1d627dcf0a0c1a7a5892430fbc74a8606ed25b65724ea17373","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vercel-deployments/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"14c44c0d7264124b617f02c57a3143740ddf98cad945938df05ea6530cc0789a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--vercel-deployments",
+    "name": "vercel-deployments",
+    "description": "Deploy frontend and full-stack apps on Vercel with previews, edge functions, environment promotion, and production guardrails.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "vercel",
+      "deployments",
+      "deploy",
+      "frontend",
+      "full",
+      "stack",
+      "apps",
+      "previews",
+      "edge",
+      "functions",
+      "environment",
+      "promotion",
+      "production",
+      "guardrails."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/vercel-deployments",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vercel-deployments",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 8774,
+    "sha256": "234835f033976f1d627dcf0a0c1a7a5892430fbc74a8606ed25b65724ea17373",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/vercel-deployments/SKILL.md",
+      "bytes": 7701,
+      "sha256": "234835f033976f1d627dcf0a0c1a7a5892430fbc74a8606ed25b65724ea17373",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/vercel-deployments/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "14c44c0d7264124b617f02c57a3143740ddf98cad945938df05ea6530cc0789a"
+}

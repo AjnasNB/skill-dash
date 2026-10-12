@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--executing-red-team-engagement-planning","name":"executing-red-team-engagement-planning","description":"Build the foundational red team engagement plan - scope definition, Rules of Engagement (restrictions, communication plan, emergency stop procedures, legal authorization), MITRE ATT&CK-aligned threat profile selection, and operational timelines - producing an engagement brief for stakeholder approval. Use before any offensive testing begins, when scoping a full-scope, assumed-breach, objective-based, or purple-team engagement.","category":"Security","tags":["executing","red","team","engagement","planning","foundational","plan","scope","definition","rules","restrictions","communication","emergency","stop","procedures","legal","authorization","mitre"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/executing-red-team-engagement-planning/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/executing-red-team-engagement-planning","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-red-team-engagement-planning","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":76023,"sha256":"ea29fe8d481b64732d61cccbfb4e3bbb5fb4e6b3141b1339c51e2069113072ca","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/executing-red-team-engagement-planning/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-red-team-engagement-planning/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/executing-red-team-engagement-planning/SKILL.md","bytes":6978,"sha256":"ea29fe8d481b64732d61cccbfb4e3bbb5fb4e6b3141b1339c51e2069113072ca","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-red-team-engagement-planning/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/executing-red-team-engagement-planning/assets/template.md","bytes":6830,"sha256":"b3832ac9555d4995d89b1ba89eaf7106df711d8c81aa594a7c6740b892cc3328","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-red-team-engagement-planning/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/executing-red-team-engagement-planning/references/api-reference.md","bytes":2273,"sha256":"a559f3466a2aa8811bd2c2a7fbb4c4d51986378a8637325164dd15980af8ed68","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-red-team-engagement-planning/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/executing-red-team-engagement-planning/references/standards.md","bytes":2798,"sha256":"9b51d60e6dd9104fefcccf282ae395bc2589efd8e235db7b77019ec5791b3595","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-red-team-engagement-planning/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/executing-red-team-engagement-planning/references/workflows.md","bytes":6292,"sha256":"3a1d0824d0779a217325618c00526dfc64b1b7ac2aa9468b460c9985ee6de6ed","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-red-team-engagement-planning/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/executing-red-team-engagement-planning/scripts/agent.py","bytes":6072,"sha256":"6b57824ef6dea8e8bdfce99c9ee270ae6cbdaaae24cecf02b0cc81c90da168c4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-red-team-engagement-planning/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/executing-red-team-engagement-planning/scripts/process.py","bytes":33525,"sha256":"54fc8c073c28fb2ab0d29e4d3785ff8b9fecd65b186aa774a7ab03f5d9103ccb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-red-team-engagement-planning/scripts/process.py"}],"archiveSha256":"7a666a2a433b3dc6edff5db62ce7303d1d9dcf2d6ce4d7a45a2614d1becc8404"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--executing-red-team-engagement-planning",
+    "name": "executing-red-team-engagement-planning",
+    "description": "Build the foundational red team engagement plan - scope definition, Rules of Engagement (restrictions, communication plan, emergency stop procedures, legal authorization), MITRE ATT&CK-aligned threat profile selection, and operational timelines - producing an engagement brief for stakeholder approval. Use before any offensive testing begins, when scoping a full-scope, assumed-breach, objective-based, or purple-team engagement.",
+    "category": "Security",
+    "tags": [
+      "executing",
+      "red",
+      "team",
+      "engagement",
+      "planning",
+      "foundational",
+      "plan",
+      "scope",
+      "definition",
+      "rules",
+      "restrictions",
+      "communication",
+      "emergency",
+      "stop",
+      "procedures",
+      "legal",
+      "authorization",
+      "mitre"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/executing-red-team-engagement-planning/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/executing-red-team-engagement-planning",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-red-team-engagement-planning",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 76023,
+    "sha256": "ea29fe8d481b64732d61cccbfb4e3bbb5fb4e6b3141b1339c51e2069113072ca",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/executing-red-team-engagement-planning/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-red-team-engagement-planning/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/executing-red-team-engagement-planning/SKILL.md",
+      "bytes": 6978,
+      "sha256": "ea29fe8d481b64732d61cccbfb4e3bbb5fb4e6b3141b1339c51e2069113072ca",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-red-team-engagement-planning/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/executing-red-team-engagement-planning/assets/template.md",
+      "bytes": 6830,
+      "sha256": "b3832ac9555d4995d89b1ba89eaf7106df711d8c81aa594a7c6740b892cc3328",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-red-team-engagement-planning/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/executing-red-team-engagement-planning/references/api-reference.md",
+      "bytes": 2273,
+      "sha256": "a559f3466a2aa8811bd2c2a7fbb4c4d51986378a8637325164dd15980af8ed68",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-red-team-engagement-planning/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/executing-red-team-engagement-planning/references/standards.md",
+      "bytes": 2798,
+      "sha256": "9b51d60e6dd9104fefcccf282ae395bc2589efd8e235db7b77019ec5791b3595",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-red-team-engagement-planning/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/executing-red-team-engagement-planning/references/workflows.md",
+      "bytes": 6292,
+      "sha256": "3a1d0824d0779a217325618c00526dfc64b1b7ac2aa9468b460c9985ee6de6ed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-red-team-engagement-planning/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/executing-red-team-engagement-planning/scripts/agent.py",
+      "bytes": 6072,
+      "sha256": "6b57824ef6dea8e8bdfce99c9ee270ae6cbdaaae24cecf02b0cc81c90da168c4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-red-team-engagement-planning/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/executing-red-team-engagement-planning/scripts/process.py",
+      "bytes": 33525,
+      "sha256": "54fc8c073c28fb2ab0d29e4d3785ff8b9fecd65b186aa774a7ab03f5d9103ccb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/executing-red-team-engagement-planning/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "7a666a2a433b3dc6edff5db62ce7303d1d9dcf2d6ce4d7a45a2614d1becc8404"
+}

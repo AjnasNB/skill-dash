@@ -1,1 +1,56 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--nika","name":"nika","description":"Runs repeatable AI work as checked, budgeted workflow files.","category":"Automation","tags":["nika","runs","repeatable","ai","work","as","checked","budgeted","workflow","files."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/nika","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nika","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11932,"sha256":"72eccbf355bcc5ff7b3219f808ea9396f0e017a65745378ed09361edef77f848","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/nika/SKILL.md","bytes":10859,"sha256":"72eccbf355bcc5ff7b3219f808ea9396f0e017a65745378ed09361edef77f848","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nika/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"afbe2589cd73e180c4ccab7c3126197c84f71bce15f1580ec9fa948f4e05277b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--nika",
+    "name": "nika",
+    "description": "Runs repeatable AI work as checked, budgeted workflow files.",
+    "category": "Automation",
+    "tags": [
+      "nika",
+      "runs",
+      "repeatable",
+      "ai",
+      "work",
+      "as",
+      "checked",
+      "budgeted",
+      "workflow",
+      "files."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/nika",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nika",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11932,
+    "sha256": "72eccbf355bcc5ff7b3219f808ea9396f0e017a65745378ed09361edef77f848",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/nika/SKILL.md",
+      "bytes": 10859,
+      "sha256": "72eccbf355bcc5ff7b3219f808ea9396f0e017a65745378ed09361edef77f848",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/nika/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "afbe2589cd73e180c4ccab7c3126197c84f71bce15f1580ec9fa948f4e05277b"
+}

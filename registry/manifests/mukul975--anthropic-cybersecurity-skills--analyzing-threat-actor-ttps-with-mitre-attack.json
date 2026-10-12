@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-threat-actor-ttps-with-mitre-attack","name":"analyzing-threat-actor-ttps-with-mitre-attack","description":"Systematically map threat actor behavior and observed IOCs to the MITRE ATT&CK framework, build technique coverage heatmaps with the ATT&CK Navigator, identify detection gaps, and produce actionable threat intelligence reports across the Enterprise, Mobile, and ICS matrices. Use when analyzing threat actor TTPs, correlating IOCs to specific ATT&CK techniques, or assessing defensive detection coverage against adversary behavior.","category":"Security","tags":["analyzing","threat","actor","ttps","mitre","attack","systematically","map","behavior","observed","iocs","att","ck","framework","technique","coverage","heatmaps","navigator"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-threat-actor-ttps-with-mitre-attack/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-threat-actor-ttps-with-mitre-attack","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-actor-ttps-with-mitre-attack","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":51340,"sha256":"936194843492f6f9c7dd6e79ea58e80f401032b30fa7b6127050f1be3a72c4eb","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-threat-actor-ttps-with-mitre-attack/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-actor-ttps-with-mitre-attack/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-threat-actor-ttps-with-mitre-attack/SKILL.md","bytes":10067,"sha256":"936194843492f6f9c7dd6e79ea58e80f401032b30fa7b6127050f1be3a72c4eb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-actor-ttps-with-mitre-attack/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/analyzing-threat-actor-ttps-with-mitre-attack/assets/template.md","bytes":2234,"sha256":"5290006b9d94c0749e27064877cfcd42092f5d0b55b877aea52a3926efc64e1b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-actor-ttps-with-mitre-attack/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-threat-actor-ttps-with-mitre-attack/references/api-reference.md","bytes":2102,"sha256":"f11d162d1f08a55096d43e3cce4e8859b09a368efb44fb515a1525401b47a4d5","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-actor-ttps-with-mitre-attack/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/analyzing-threat-actor-ttps-with-mitre-attack/references/standards.md","bytes":3299,"sha256":"fdac81e062825f0d0601e7a814769bb93c4000ada936c5898d9c7b715a70200b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-actor-ttps-with-mitre-attack/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/analyzing-threat-actor-ttps-with-mitre-attack/references/workflows.md","bytes":4817,"sha256":"228cb7450c0ef9aeb0f7c39614e1434112b9fb2821b8859bbdc4f219ed53a994","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-actor-ttps-with-mitre-attack/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-threat-actor-ttps-with-mitre-attack/scripts/agent.py","bytes":5176,"sha256":"239ab2014f541164092af7912b395d50bd28beeef4c4dffb1aa48fa0c6ac4c6d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-actor-ttps-with-mitre-attack/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/analyzing-threat-actor-ttps-with-mitre-attack/scripts/process.py","bytes":12390,"sha256":"9d38e68b95c7ea0e02f08e8272dd65ad157a2e68fce1b2ca8c7e0745f372ede1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-actor-ttps-with-mitre-attack/scripts/process.py"}],"archiveSha256":"4381983892b813efff3507b5eb0636ddcc93840165cb031179851638a0103c17"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-threat-actor-ttps-with-mitre-attack",
+    "name": "analyzing-threat-actor-ttps-with-mitre-attack",
+    "description": "Systematically map threat actor behavior and observed IOCs to the MITRE ATT&CK framework, build technique coverage heatmaps with the ATT&CK Navigator, identify detection gaps, and produce actionable threat intelligence reports across the Enterprise, Mobile, and ICS matrices. Use when analyzing threat actor TTPs, correlating IOCs to specific ATT&CK techniques, or assessing defensive detection coverage against adversary behavior.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "threat",
+      "actor",
+      "ttps",
+      "mitre",
+      "attack",
+      "systematically",
+      "map",
+      "behavior",
+      "observed",
+      "iocs",
+      "att",
+      "ck",
+      "framework",
+      "technique",
+      "coverage",
+      "heatmaps",
+      "navigator"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-threat-actor-ttps-with-mitre-attack/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-threat-actor-ttps-with-mitre-attack",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-actor-ttps-with-mitre-attack",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 51340,
+    "sha256": "936194843492f6f9c7dd6e79ea58e80f401032b30fa7b6127050f1be3a72c4eb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-threat-actor-ttps-with-mitre-attack/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-actor-ttps-with-mitre-attack/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-threat-actor-ttps-with-mitre-attack/SKILL.md",
+      "bytes": 10067,
+      "sha256": "936194843492f6f9c7dd6e79ea58e80f401032b30fa7b6127050f1be3a72c4eb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-actor-ttps-with-mitre-attack/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/analyzing-threat-actor-ttps-with-mitre-attack/assets/template.md",
+      "bytes": 2234,
+      "sha256": "5290006b9d94c0749e27064877cfcd42092f5d0b55b877aea52a3926efc64e1b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-actor-ttps-with-mitre-attack/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-threat-actor-ttps-with-mitre-attack/references/api-reference.md",
+      "bytes": 2102,
+      "sha256": "f11d162d1f08a55096d43e3cce4e8859b09a368efb44fb515a1525401b47a4d5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-actor-ttps-with-mitre-attack/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/analyzing-threat-actor-ttps-with-mitre-attack/references/standards.md",
+      "bytes": 3299,
+      "sha256": "fdac81e062825f0d0601e7a814769bb93c4000ada936c5898d9c7b715a70200b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-actor-ttps-with-mitre-attack/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/analyzing-threat-actor-ttps-with-mitre-attack/references/workflows.md",
+      "bytes": 4817,
+      "sha256": "228cb7450c0ef9aeb0f7c39614e1434112b9fb2821b8859bbdc4f219ed53a994",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-actor-ttps-with-mitre-attack/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-threat-actor-ttps-with-mitre-attack/scripts/agent.py",
+      "bytes": 5176,
+      "sha256": "239ab2014f541164092af7912b395d50bd28beeef4c4dffb1aa48fa0c6ac4c6d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-actor-ttps-with-mitre-attack/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/analyzing-threat-actor-ttps-with-mitre-attack/scripts/process.py",
+      "bytes": 12390,
+      "sha256": "9d38e68b95c7ea0e02f08e8272dd65ad157a2e68fce1b2ca8c7e0745f372ede1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-threat-actor-ttps-with-mitre-attack/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "4381983892b813efff3507b5eb0636ddcc93840165cb031179851638a0103c17"
+}

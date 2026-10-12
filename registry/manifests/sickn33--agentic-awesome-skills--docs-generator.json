@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--docs-generator","name":"docs-generator","description":"Generate technical deliverables from completed analysis: reverse-engineering reports, penetration-test reports, CTF write-ups, and signature-analysis documentation with evidence-backed structure.","category":"Security","tags":["docs","generator","generate","technical","deliverables","from","completed","analysis","reverse","engineering","reports","penetration","test","ctf","write","ups","signature","documentation"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/docs-generator","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docs-generator","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":5,"bytes":31053,"sha256":"23aa3745d9f8e26d7485fd822f39c70b44d5e8f30cdb1d8ccd42604c452cf208","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/docs-generator/SKILL.md","bytes":8227,"sha256":"23aa3745d9f8e26d7485fd822f39c70b44d5e8f30cdb1d8ccd42604c452cf208","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docs-generator/SKILL.md"},{"path":"references/security-report-templates.md","sourcePath":"skills/docs-generator/references/security-report-templates.md","bytes":8234,"sha256":"b4093349a1e44a52026928f896f01afdd70826dcbc388acba938339628e65a11","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docs-generator/references/security-report-templates.md"},{"path":"references/templates.md","sourcePath":"skills/docs-generator/references/templates.md","bytes":1918,"sha256":"03cedfb2b2f63bc33e0b6547fa168c8ea99e19dce30404127c2e74e686d74a7f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docs-generator/references/templates.md"},{"path":"references/vendor-report-rules.md","sourcePath":"skills/docs-generator/references/vendor-report-rules.md","bytes":11601,"sha256":"7a9f3c6de3e53d8c403d6728285402d1d7dd7b0239f91a915298bbf2bd6856a7","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docs-generator/references/vendor-report-rules.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"72259d6da0be3c840a1cfa2dd96a325f75aa33b5e6bce27f3143e28da6e31630"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--docs-generator",
+    "name": "docs-generator",
+    "description": "Generate technical deliverables from completed analysis: reverse-engineering reports, penetration-test reports, CTF write-ups, and signature-analysis documentation with evidence-backed structure.",
+    "category": "Security",
+    "tags": [
+      "docs",
+      "generator",
+      "generate",
+      "technical",
+      "deliverables",
+      "from",
+      "completed",
+      "analysis",
+      "reverse",
+      "engineering",
+      "reports",
+      "penetration",
+      "test",
+      "ctf",
+      "write",
+      "ups",
+      "signature",
+      "documentation"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/docs-generator",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docs-generator",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 5,
+    "bytes": 31053,
+    "sha256": "23aa3745d9f8e26d7485fd822f39c70b44d5e8f30cdb1d8ccd42604c452cf208",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/docs-generator/SKILL.md",
+      "bytes": 8227,
+      "sha256": "23aa3745d9f8e26d7485fd822f39c70b44d5e8f30cdb1d8ccd42604c452cf208",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docs-generator/SKILL.md"
+    },
+    {
+      "path": "references/security-report-templates.md",
+      "sourcePath": "skills/docs-generator/references/security-report-templates.md",
+      "bytes": 8234,
+      "sha256": "b4093349a1e44a52026928f896f01afdd70826dcbc388acba938339628e65a11",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docs-generator/references/security-report-templates.md"
+    },
+    {
+      "path": "references/templates.md",
+      "sourcePath": "skills/docs-generator/references/templates.md",
+      "bytes": 1918,
+      "sha256": "03cedfb2b2f63bc33e0b6547fa168c8ea99e19dce30404127c2e74e686d74a7f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docs-generator/references/templates.md"
+    },
+    {
+      "path": "references/vendor-report-rules.md",
+      "sourcePath": "skills/docs-generator/references/vendor-report-rules.md",
+      "bytes": 11601,
+      "sha256": "7a9f3c6de3e53d8c403d6728285402d1d7dd7b0239f91a915298bbf2bd6856a7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docs-generator/references/vendor-report-rules.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "72259d6da0be3c840a1cfa2dd96a325f75aa33b5e6bce27f3143e28da6e31630"
+}

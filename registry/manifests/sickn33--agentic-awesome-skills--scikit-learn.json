@@ -1,1 +1,67 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--scikit-learn","name":"scikit-learn","description":"Machine learning in Python with scikit-learn. Use for classification, regression, clustering, model evaluation, and ML pipelines.","category":"AI & agents","tags":["scikit","learn","machine","learning","python","learn.","classification","regression","clustering","model","evaluation","ml","pipelines."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/scikit-learn","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/scikit-learn","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":17299,"sha256":"82676c39d73b4c48701c987278594925c31bea2bc884656cfb0db78fdd6e5f7d","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/scikit-learn/SKILL.md","bytes":2403,"sha256":"82676c39d73b4c48701c987278594925c31bea2bc884656cfb0db78fdd6e5f7d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/scikit-learn/SKILL.md"},{"path":"references/detailed-guide.md","sourcePath":"skills/scikit-learn/references/detailed-guide.md","bytes":13823,"sha256":"a5d21db110e192ce07d90170efce3c7e769873784a4254f058401f288e81274b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/scikit-learn/references/detailed-guide.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"13b0140a53ab3ce99bbc887b3c0ce00c7a86dcc8f7566961a96f7e9da7d66243"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--scikit-learn",
+    "name": "scikit-learn",
+    "description": "Machine learning in Python with scikit-learn. Use for classification, regression, clustering, model evaluation, and ML pipelines.",
+    "category": "AI & agents",
+    "tags": [
+      "scikit",
+      "learn",
+      "machine",
+      "learning",
+      "python",
+      "learn.",
+      "classification",
+      "regression",
+      "clustering",
+      "model",
+      "evaluation",
+      "ml",
+      "pipelines."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/scikit-learn",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/scikit-learn",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 17299,
+    "sha256": "82676c39d73b4c48701c987278594925c31bea2bc884656cfb0db78fdd6e5f7d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/scikit-learn/SKILL.md",
+      "bytes": 2403,
+      "sha256": "82676c39d73b4c48701c987278594925c31bea2bc884656cfb0db78fdd6e5f7d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/scikit-learn/SKILL.md"
+    },
+    {
+      "path": "references/detailed-guide.md",
+      "sourcePath": "skills/scikit-learn/references/detailed-guide.md",
+      "bytes": 13823,
+      "sha256": "a5d21db110e192ce07d90170efce3c7e769873784a4254f058401f288e81274b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/scikit-learn/references/detailed-guide.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "13b0140a53ab3ce99bbc887b3c0ce00c7a86dcc8f7566961a96f7e9da7d66243"
+}

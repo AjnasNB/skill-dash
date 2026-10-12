@@ -1,1 +1,54 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--pr-writer","name":"pr-writer","description":"Create pull requests following Sentry's engineering practices.","category":"Development","tags":["pr","writer","pull","requests","following","sentry","engineering","practices."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/pr-writer","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/pr-writer","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6657,"sha256":"e9efffc6527a2ce03e0ca24e65a428c7cb8eabc5f7dddbb563b52684143f83fd","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/pr-writer/SKILL.md","bytes":5584,"sha256":"e9efffc6527a2ce03e0ca24e65a428c7cb8eabc5f7dddbb563b52684143f83fd","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/pr-writer/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"15cb69abea0e4508bab7077800efe97a5e562f066da7afe944ce17ff3f40c243"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--pr-writer",
+    "name": "pr-writer",
+    "description": "Create pull requests following Sentry's engineering practices.",
+    "category": "Development",
+    "tags": [
+      "pr",
+      "writer",
+      "pull",
+      "requests",
+      "following",
+      "sentry",
+      "engineering",
+      "practices."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/pr-writer",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/pr-writer",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6657,
+    "sha256": "e9efffc6527a2ce03e0ca24e65a428c7cb8eabc5f7dddbb563b52684143f83fd",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/pr-writer/SKILL.md",
+      "bytes": 5584,
+      "sha256": "e9efffc6527a2ce03e0ca24e65a428c7cb8eabc5f7dddbb563b52684143f83fd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/pr-writer/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "15cb69abea0e4508bab7077800efe97a5e562f066da7afe944ce17ff3f40c243"
+}

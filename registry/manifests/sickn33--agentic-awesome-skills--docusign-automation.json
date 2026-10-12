@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--docusign-automation","name":"docusign-automation","description":"Automate DocuSign tasks via Rube MCP (Composio): templates, envelopes, signatures, document management. Always search tools first for current schemas.","category":"AI & agents","tags":["docusign","automation","automate","tasks","via","rube","mcp","composio","templates","envelopes","signatures","document","management.","always","search","tools","first","current"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/docusign-automation","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docusign-automation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":9289,"sha256":"d3297c07846136abeb8a7ffbaa0dcf1a9d7be4190d9358fdb94fa921bbc939e7","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/docusign-automation/SKILL.md","bytes":8216,"sha256":"d3297c07846136abeb8a7ffbaa0dcf1a9d7be4190d9358fdb94fa921bbc939e7","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docusign-automation/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"d5d807ba6c9c6d3442ce8049d4fb9a9c8105010ecb9ac3715c72b2d09b69fb2d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--docusign-automation",
+    "name": "docusign-automation",
+    "description": "Automate DocuSign tasks via Rube MCP (Composio): templates, envelopes, signatures, document management. Always search tools first for current schemas.",
+    "category": "AI & agents",
+    "tags": [
+      "docusign",
+      "automation",
+      "automate",
+      "tasks",
+      "via",
+      "rube",
+      "mcp",
+      "composio",
+      "templates",
+      "envelopes",
+      "signatures",
+      "document",
+      "management.",
+      "always",
+      "search",
+      "tools",
+      "first",
+      "current"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/docusign-automation",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docusign-automation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9289,
+    "sha256": "d3297c07846136abeb8a7ffbaa0dcf1a9d7be4190d9358fdb94fa921bbc939e7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/docusign-automation/SKILL.md",
+      "bytes": 8216,
+      "sha256": "d3297c07846136abeb8a7ffbaa0dcf1a9d7be4190d9358fdb94fa921bbc939e7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/docusign-automation/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "d5d807ba6c9c6d3442ce8049d4fb9a9c8105010ecb9ac3715c72b2d09b69fb2d"
+}

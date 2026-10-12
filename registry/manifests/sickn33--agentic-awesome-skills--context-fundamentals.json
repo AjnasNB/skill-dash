@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--context-fundamentals","name":"context-fundamentals","description":"Context is the complete state available to a language model at inference time. It includes everything the model can attend to when generating responses: system instructions, tool definitions, retrieved documents, message history, and tool outputs.","category":"AI & agents","tags":["context","fundamentals","is","complete","state","available","language","model","at","inference","time.","it","includes","everything","attend","when","generating","responses"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/context-fundamentals","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/context-fundamentals","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":13432,"sha256":"a06fa3845710ad74f9bd2160b23ba7e8ca1ad88947966cc1ee0984379fb256ac","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/context-fundamentals/SKILL.md","bytes":12359,"sha256":"a06fa3845710ad74f9bd2160b23ba7e8ca1ad88947966cc1ee0984379fb256ac","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/context-fundamentals/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"c61a41f3fc47c10417f2d8274a4c40d87975ecb374b1bbde9fc0050e58f28f59"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--context-fundamentals",
+    "name": "context-fundamentals",
+    "description": "Context is the complete state available to a language model at inference time. It includes everything the model can attend to when generating responses: system instructions, tool definitions, retrieved documents, message history, and tool outputs.",
+    "category": "AI & agents",
+    "tags": [
+      "context",
+      "fundamentals",
+      "is",
+      "complete",
+      "state",
+      "available",
+      "language",
+      "model",
+      "at",
+      "inference",
+      "time.",
+      "it",
+      "includes",
+      "everything",
+      "attend",
+      "when",
+      "generating",
+      "responses"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/context-fundamentals",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/context-fundamentals",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13432,
+    "sha256": "a06fa3845710ad74f9bd2160b23ba7e8ca1ad88947966cc1ee0984379fb256ac",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/context-fundamentals/SKILL.md",
+      "bytes": 12359,
+      "sha256": "a06fa3845710ad74f9bd2160b23ba7e8ca1ad88947966cc1ee0984379fb256ac",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/context-fundamentals/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "c61a41f3fc47c10417f2d8274a4c40d87975ecb374b1bbde9fc0050e58f28f59"
+}

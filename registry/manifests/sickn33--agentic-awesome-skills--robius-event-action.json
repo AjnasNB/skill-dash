@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--robius-event-action","name":"robius-event-action","description":"CRITICAL: Use for Robius event and action patterns. Triggers on: custom action, MatchEvent, post_action, cx.widget_action, handle_actions, DefaultNone, widget action, event handling, 事件处理, 自定义动作","category":"Development","tags":["robius","event","action","critical","patterns.","triggers","custom","matchevent","post","cx.widget","handle","actions","defaultnone","widget","handling","事件处理","自定义动作"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/robius-event-action","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/robius-event-action","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11646,"sha256":"24cdd0c810b6ce8c58e7b01fea875af82982f003d06b99c19c681801538d7df9","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/robius-event-action/SKILL.md","bytes":10573,"sha256":"24cdd0c810b6ce8c58e7b01fea875af82982f003d06b99c19c681801538d7df9","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/robius-event-action/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"ecf8de78ceda725bf3dd61b3f5b0769ef269d6d7a8c07352b9b2698b439dfcd1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--robius-event-action",
+    "name": "robius-event-action",
+    "description": "CRITICAL: Use for Robius event and action patterns. Triggers on: custom action, MatchEvent, post_action, cx.widget_action, handle_actions, DefaultNone, widget action, event handling, 事件处理, 自定义动作",
+    "category": "Development",
+    "tags": [
+      "robius",
+      "event",
+      "action",
+      "critical",
+      "patterns.",
+      "triggers",
+      "custom",
+      "matchevent",
+      "post",
+      "cx.widget",
+      "handle",
+      "actions",
+      "defaultnone",
+      "widget",
+      "handling",
+      "事件处理",
+      "自定义动作"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/robius-event-action",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/robius-event-action",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11646,
+    "sha256": "24cdd0c810b6ce8c58e7b01fea875af82982f003d06b99c19c681801538d7df9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/robius-event-action/SKILL.md",
+      "bytes": 10573,
+      "sha256": "24cdd0c810b6ce8c58e7b01fea875af82982f003d06b99c19c681801538d7df9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/robius-event-action/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ecf8de78ceda725bf3dd61b3f5b0769ef269d6d7a8c07352b9b2698b439dfcd1"
+}

@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--hunting-for-process-injection-techniques","name":"hunting-for-process-injection-techniques","description":"Detects process injection techniques (MITRE T1055) — including CreateRemoteThread injection, process hollowing, and DLL injection — by analyzing Sysmon Event IDs 8 (CreateRemoteThread) and 10 (ProcessAccess) alongside EDR process telemetry. Use when hunting for in-memory code injection or defense evasion via legitimate process abuse on Windows endpoints.","category":"Development","tags":["hunting","process","injection","techniques","detects","mitre","t1055","including","createremotethread","hollowing","dll","by","analyzing","sysmon","event","ids","10","processaccess"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/hunting-for-process-injection-techniques/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/hunting-for-process-injection-techniques","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-process-injection-techniques","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":26188,"sha256":"f22f8d0c8cd922cf0b576d12db25c931550db68bc05fde0a0f469a1fe9872f3d","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/hunting-for-process-injection-techniques/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-process-injection-techniques/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/hunting-for-process-injection-techniques/SKILL.md","bytes":2864,"sha256":"f22f8d0c8cd922cf0b576d12db25c931550db68bc05fde0a0f469a1fe9872f3d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-process-injection-techniques/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/hunting-for-process-injection-techniques/references/api-reference.md","bytes":2924,"sha256":"c74a17fa1c99092935dad73fb8badda140aba7d211766512a0e606d802f79faf","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-process-injection-techniques/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/hunting-for-process-injection-techniques/scripts/agent.py","bytes":9145,"sha256":"0cee56c75f3b8771b73c652e5ecf366893d64a411d8c9f9e361da1dc654822b3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-process-injection-techniques/scripts/agent.py"}],"archiveSha256":"71dd7da1c788b9a3309cb083c477f7d0ce036da3ef2fb3af4b1b65c6e891104c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-for-process-injection-techniques",
+    "name": "hunting-for-process-injection-techniques",
+    "description": "Detects process injection techniques (MITRE T1055) — including CreateRemoteThread injection, process hollowing, and DLL injection — by analyzing Sysmon Event IDs 8 (CreateRemoteThread) and 10 (ProcessAccess) alongside EDR process telemetry. Use when hunting for in-memory code injection or defense evasion via legitimate process abuse on Windows endpoints.",
+    "category": "Development",
+    "tags": [
+      "hunting",
+      "process",
+      "injection",
+      "techniques",
+      "detects",
+      "mitre",
+      "t1055",
+      "including",
+      "createremotethread",
+      "hollowing",
+      "dll",
+      "by",
+      "analyzing",
+      "sysmon",
+      "event",
+      "ids",
+      "10",
+      "processaccess"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-for-process-injection-techniques/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-for-process-injection-techniques",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-process-injection-techniques",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 26188,
+    "sha256": "f22f8d0c8cd922cf0b576d12db25c931550db68bc05fde0a0f469a1fe9872f3d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-for-process-injection-techniques/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-process-injection-techniques/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-for-process-injection-techniques/SKILL.md",
+      "bytes": 2864,
+      "sha256": "f22f8d0c8cd922cf0b576d12db25c931550db68bc05fde0a0f469a1fe9872f3d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-process-injection-techniques/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-for-process-injection-techniques/references/api-reference.md",
+      "bytes": 2924,
+      "sha256": "c74a17fa1c99092935dad73fb8badda140aba7d211766512a0e606d802f79faf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-process-injection-techniques/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-for-process-injection-techniques/scripts/agent.py",
+      "bytes": 9145,
+      "sha256": "0cee56c75f3b8771b73c652e5ecf366893d64a411d8c9f9e361da1dc654822b3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-process-injection-techniques/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "71dd7da1c788b9a3309cb083c477f7d0ce036da3ef2fb3af4b1b65c6e891104c"
+}

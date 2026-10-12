@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-cyber-kill-chain","name":"analyzing-cyber-kill-chain","description":"Analyzes intrusion activity against the Lockheed Martin Cyber Kill Chain framework to identify which phases an adversary has completed, where defenses succeeded or failed, and what controls would have interrupted the attack at earlier phases. Use when conducting post-incident analysis, building prevention-focused security controls, or mapping detection gaps to kill chain phases. Activates for requests involving kill chain analysis, intrusion kill chain, attack phase mapping, or Lockheed Martin kill chain framework.","category":"Security","tags":["analyzing","cyber","kill","chain","analyzes","intrusion","activity","against","lockheed","martin","framework","identify","which","phases","adversary","has","completed","where"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-cyber-kill-chain/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-cyber-kill-chain","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-cyber-kill-chain","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":31753,"sha256":"6ed56459c6dcb54e8b4c1d1c2aec6c21007de46ec13cd4f175b2b6492c10c342","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-cyber-kill-chain/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-cyber-kill-chain/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-cyber-kill-chain/SKILL.md","bytes":7309,"sha256":"6ed56459c6dcb54e8b4c1d1c2aec6c21007de46ec13cd4f175b2b6492c10c342","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-cyber-kill-chain/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-cyber-kill-chain/references/api-reference.md","bytes":2749,"sha256":"98a7347e8654fce69689d816801229322fcc4cd70fb1bb8961aba4c48a3da0f3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-cyber-kill-chain/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-cyber-kill-chain/scripts/agent.py","bytes":10440,"sha256":"d52630b3bc8c63790d487e529e64593b3b5e0e33e628364e0b459feaf10e59e4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-cyber-kill-chain/scripts/agent.py"}],"archiveSha256":"3918b18d16dbfe5dcfa36f8a4c482779cf53beeeeddfa2d019dc5b2537f6db37"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-cyber-kill-chain",
+    "name": "analyzing-cyber-kill-chain",
+    "description": "Analyzes intrusion activity against the Lockheed Martin Cyber Kill Chain framework to identify which phases an adversary has completed, where defenses succeeded or failed, and what controls would have interrupted the attack at earlier phases. Use when conducting post-incident analysis, building prevention-focused security controls, or mapping detection gaps to kill chain phases. Activates for requests involving kill chain analysis, intrusion kill chain, attack phase mapping, or Lockheed Martin kill chain framework.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "cyber",
+      "kill",
+      "chain",
+      "analyzes",
+      "intrusion",
+      "activity",
+      "against",
+      "lockheed",
+      "martin",
+      "framework",
+      "identify",
+      "which",
+      "phases",
+      "adversary",
+      "has",
+      "completed",
+      "where"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-cyber-kill-chain/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-cyber-kill-chain",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-cyber-kill-chain",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 31753,
+    "sha256": "6ed56459c6dcb54e8b4c1d1c2aec6c21007de46ec13cd4f175b2b6492c10c342",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-cyber-kill-chain/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-cyber-kill-chain/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-cyber-kill-chain/SKILL.md",
+      "bytes": 7309,
+      "sha256": "6ed56459c6dcb54e8b4c1d1c2aec6c21007de46ec13cd4f175b2b6492c10c342",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-cyber-kill-chain/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-cyber-kill-chain/references/api-reference.md",
+      "bytes": 2749,
+      "sha256": "98a7347e8654fce69689d816801229322fcc4cd70fb1bb8961aba4c48a3da0f3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-cyber-kill-chain/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-cyber-kill-chain/scripts/agent.py",
+      "bytes": 10440,
+      "sha256": "d52630b3bc8c63790d487e529e64593b3b5e0e33e628364e0b459feaf10e59e4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-cyber-kill-chain/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "3918b18d16dbfe5dcfa36f8a4c482779cf53beeeeddfa2d019dc5b2537f6db37"
+}

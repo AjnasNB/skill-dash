@@ -1,1 +1,58 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--api-documentation","name":"api-documentation","description":"API documentation workflow for generating OpenAPI specs, creating developer guides, and maintaining comprehensive API documentation.","category":"Writing","tags":["api","documentation","workflow","generating","openapi","specs","creating","developer","guides","maintaining","comprehensive","documentation."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/api-documentation","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/api-documentation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4678,"sha256":"9b7068b8c2c24704e1e909cfb54a0818137647032bcec58ce568cb0d47a84b0a","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/api-documentation/SKILL.md","bytes":3605,"sha256":"9b7068b8c2c24704e1e909cfb54a0818137647032bcec58ce568cb0d47a84b0a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/api-documentation/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"3cf18f7d854e52a3c6d1d7df2735e49c3ff01be06b447c8d8040eacc4a4edcf2"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--api-documentation",
+    "name": "api-documentation",
+    "description": "API documentation workflow for generating OpenAPI specs, creating developer guides, and maintaining comprehensive API documentation.",
+    "category": "Writing",
+    "tags": [
+      "api",
+      "documentation",
+      "workflow",
+      "generating",
+      "openapi",
+      "specs",
+      "creating",
+      "developer",
+      "guides",
+      "maintaining",
+      "comprehensive",
+      "documentation."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/api-documentation",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/api-documentation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4678,
+    "sha256": "9b7068b8c2c24704e1e909cfb54a0818137647032bcec58ce568cb0d47a84b0a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/api-documentation/SKILL.md",
+      "bytes": 3605,
+      "sha256": "9b7068b8c2c24704e1e909cfb54a0818137647032bcec58ce568cb0d47a84b0a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/api-documentation/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "3cf18f7d854e52a3c6d1d7df2735e49c3ff01be06b447c8d8040eacc4a4edcf2"
+}

@@ -1,1 +1,55 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--3d-games","name":"3d-games","description":"3D game development principles. Rendering, shaders, physics, cameras.","category":"Data & research","tags":["3d","games","game","development","principles.","rendering","shaders","physics","cameras."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/game-development/3d-games","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/game-development/3d-games","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4069,"sha256":"32fd4a875fd58bc9125b323453b349f5561839632a7218de9731a4e544dbf622","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/game-development/3d-games/SKILL.md","bytes":2996,"sha256":"32fd4a875fd58bc9125b323453b349f5561839632a7218de9731a4e544dbf622","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/game-development/3d-games/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"ce917d6a03b78d4fc13c38a122e6b6318b7b29e72a7303feb5dfee0342b6d895"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--3d-games",
+    "name": "3d-games",
+    "description": "3D game development principles. Rendering, shaders, physics, cameras.",
+    "category": "Data & research",
+    "tags": [
+      "3d",
+      "games",
+      "game",
+      "development",
+      "principles.",
+      "rendering",
+      "shaders",
+      "physics",
+      "cameras."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/game-development/3d-games",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/game-development/3d-games",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4069,
+    "sha256": "32fd4a875fd58bc9125b323453b349f5561839632a7218de9731a4e544dbf622",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/game-development/3d-games/SKILL.md",
+      "bytes": 2996,
+      "sha256": "32fd4a875fd58bc9125b323453b349f5561839632a7218de9731a4e544dbf622",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/game-development/3d-games/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ce917d6a03b78d4fc13c38a122e6b6318b7b29e72a7303feb5dfee0342b6d895"
+}

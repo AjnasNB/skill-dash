@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-living-off-the-land-attacks","name":"detecting-living-off-the-land-attacks","description":"Detect abuse of legitimate Windows binaries (LOLBins) used for living off the land attacks. Monitors process creation, command-line arguments, and parent-child relationships to identify suspicious LOLBin execution patterns.","category":"Development","tags":["detecting","living","off","land","attacks","detect","abuse","legitimate","windows","binaries","lolbins","used","attacks.","monitors","process","creation","command","line"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-living-off-the-land-attacks/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-living-off-the-land-attacks","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-living-off-the-land-attacks","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":52309,"sha256":"54f05bd2f638b6766d0d43e853d2ba8aaaa097c92cf4fc8d105eb6a649de1fc8","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-living-off-the-land-attacks/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-living-off-the-land-attacks/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-living-off-the-land-attacks/SKILL.md","bytes":18846,"sha256":"54f05bd2f638b6766d0d43e853d2ba8aaaa097c92cf4fc8d105eb6a649de1fc8","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-living-off-the-land-attacks/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-living-off-the-land-attacks/references/api-reference.md","bytes":3215,"sha256":"3bc7759d444352b992ccc64b07c51e065c610d0d91f500ac374fda3f5999cd42","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-living-off-the-land-attacks/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-living-off-the-land-attacks/scripts/agent.py","bytes":18993,"sha256":"5afdc714f870fbf3b7463c516872c95c8fdbcbae90498c11d785324ad3f34793","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-living-off-the-land-attacks/scripts/agent.py"}],"archiveSha256":"2b85ec423800bd2c574ddde54afd641da8d3ae2e9aca0cdf5f4dae65dcbd1b25"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-living-off-the-land-attacks",
+    "name": "detecting-living-off-the-land-attacks",
+    "description": "Detect abuse of legitimate Windows binaries (LOLBins) used for living off the land attacks. Monitors process creation, command-line arguments, and parent-child relationships to identify suspicious LOLBin execution patterns.",
+    "category": "Development",
+    "tags": [
+      "detecting",
+      "living",
+      "off",
+      "land",
+      "attacks",
+      "detect",
+      "abuse",
+      "legitimate",
+      "windows",
+      "binaries",
+      "lolbins",
+      "used",
+      "attacks.",
+      "monitors",
+      "process",
+      "creation",
+      "command",
+      "line"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-living-off-the-land-attacks/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-living-off-the-land-attacks",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-living-off-the-land-attacks",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 52309,
+    "sha256": "54f05bd2f638b6766d0d43e853d2ba8aaaa097c92cf4fc8d105eb6a649de1fc8",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-living-off-the-land-attacks/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-living-off-the-land-attacks/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-living-off-the-land-attacks/SKILL.md",
+      "bytes": 18846,
+      "sha256": "54f05bd2f638b6766d0d43e853d2ba8aaaa097c92cf4fc8d105eb6a649de1fc8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-living-off-the-land-attacks/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-living-off-the-land-attacks/references/api-reference.md",
+      "bytes": 3215,
+      "sha256": "3bc7759d444352b992ccc64b07c51e065c610d0d91f500ac374fda3f5999cd42",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-living-off-the-land-attacks/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-living-off-the-land-attacks/scripts/agent.py",
+      "bytes": 18993,
+      "sha256": "5afdc714f870fbf3b7463c516872c95c8fdbcbae90498c11d785324ad3f34793",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-living-off-the-land-attacks/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "2b85ec423800bd2c574ddde54afd641da8d3ae2e9aca0cdf5f4dae65dcbd1b25"
+}

@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--ai-photo-restyler","name":"ai-photo-restyler","description":"Install and use the official Photo to Anime package, pinned by digest, for paid hosted work on the Beatra service.","category":"Development","tags":["ai","photo","restyler","install","official","anime","package","pinned","by","digest","paid","hosted","work","beatra","service."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/ai-photo-restyler","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ai-photo-restyler","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":13451,"sha256":"4f2a4fc360c7c42818fe0223732072da70b0337f05f420daa8b149f1f1b4cfe1","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/ai-photo-restyler/SKILL.md","bytes":12378,"sha256":"4f2a4fc360c7c42818fe0223732072da70b0337f05f420daa8b149f1f1b4cfe1","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ai-photo-restyler/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"50d1189fa4777b92f663696f9f90618df757c26365faeb4f667b3af0fe23e52b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--ai-photo-restyler",
+    "name": "ai-photo-restyler",
+    "description": "Install and use the official Photo to Anime package, pinned by digest, for paid hosted work on the Beatra service.",
+    "category": "Development",
+    "tags": [
+      "ai",
+      "photo",
+      "restyler",
+      "install",
+      "official",
+      "anime",
+      "package",
+      "pinned",
+      "by",
+      "digest",
+      "paid",
+      "hosted",
+      "work",
+      "beatra",
+      "service."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/ai-photo-restyler",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ai-photo-restyler",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13451,
+    "sha256": "4f2a4fc360c7c42818fe0223732072da70b0337f05f420daa8b149f1f1b4cfe1",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/ai-photo-restyler/SKILL.md",
+      "bytes": 12378,
+      "sha256": "4f2a4fc360c7c42818fe0223732072da70b0337f05f420daa8b149f1f1b4cfe1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/ai-photo-restyler/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "50d1189fa4777b92f663696f9f90618df757c26365faeb4f667b3af0fe23e52b"
+}

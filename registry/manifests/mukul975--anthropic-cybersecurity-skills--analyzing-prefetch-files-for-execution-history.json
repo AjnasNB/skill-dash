@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-prefetch-files-for-execution-history","name":"analyzing-prefetch-files-for-execution-history","description":"Parse Windows Prefetch files (versions 17, 23, 26, 30) with tools like PECmd, WinPrefetchView, or python-prefetch to determine program execution history, including run counts, execution timestamps, and referenced files/DLLs. Use when building a timeline of program execution on a Windows system, confirming whether a suspicious binary ran, or correlating execution evidence with other forensic artifacts during an investigation.","category":"Security","tags":["analyzing","prefetch","files","execution","history","parse","windows","versions","17","23","26","30","tools","like","pecmd","winprefetchview","python","determine"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-prefetch-files-for-execution-history/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-prefetch-files-for-execution-history","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-prefetch-files-for-execution-history","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":34784,"sha256":"fa8f47795848b543ab4ececa737b6a27a70abd5a71731ff7edea1c949c8f9173","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-prefetch-files-for-execution-history/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-prefetch-files-for-execution-history/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-prefetch-files-for-execution-history/SKILL.md","bytes":12152,"sha256":"fa8f47795848b543ab4ececa737b6a27a70abd5a71731ff7edea1c949c8f9173","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-prefetch-files-for-execution-history/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-prefetch-files-for-execution-history/references/api-reference.md","bytes":3146,"sha256":"669d7ddaa66835fd233068d44d4fa7a84df5041777940e9876ee1de770a23e2e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-prefetch-files-for-execution-history/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-prefetch-files-for-execution-history/scripts/agent.py","bytes":8231,"sha256":"e0e786e8ce4da7f8293963dd98501a7f958f4bef7c9a9e1d09adbbf3b9b8d326","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-prefetch-files-for-execution-history/scripts/agent.py"}],"archiveSha256":"0b4d0e6470b4d93fc0108d7703b650649bafe88e79ce2e10e48bde45316fc49f"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-prefetch-files-for-execution-history",
+    "name": "analyzing-prefetch-files-for-execution-history",
+    "description": "Parse Windows Prefetch files (versions 17, 23, 26, 30) with tools like PECmd, WinPrefetchView, or python-prefetch to determine program execution history, including run counts, execution timestamps, and referenced files/DLLs. Use when building a timeline of program execution on a Windows system, confirming whether a suspicious binary ran, or correlating execution evidence with other forensic artifacts during an investigation.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "prefetch",
+      "files",
+      "execution",
+      "history",
+      "parse",
+      "windows",
+      "versions",
+      "17",
+      "23",
+      "26",
+      "30",
+      "tools",
+      "like",
+      "pecmd",
+      "winprefetchview",
+      "python",
+      "determine"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-prefetch-files-for-execution-history/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-prefetch-files-for-execution-history",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-prefetch-files-for-execution-history",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34784,
+    "sha256": "fa8f47795848b543ab4ececa737b6a27a70abd5a71731ff7edea1c949c8f9173",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-prefetch-files-for-execution-history/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-prefetch-files-for-execution-history/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-prefetch-files-for-execution-history/SKILL.md",
+      "bytes": 12152,
+      "sha256": "fa8f47795848b543ab4ececa737b6a27a70abd5a71731ff7edea1c949c8f9173",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-prefetch-files-for-execution-history/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-prefetch-files-for-execution-history/references/api-reference.md",
+      "bytes": 3146,
+      "sha256": "669d7ddaa66835fd233068d44d4fa7a84df5041777940e9876ee1de770a23e2e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-prefetch-files-for-execution-history/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-prefetch-files-for-execution-history/scripts/agent.py",
+      "bytes": 8231,
+      "sha256": "e0e786e8ce4da7f8293963dd98501a7f958f4bef7c9a9e1d09adbbf3b9b8d326",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-prefetch-files-for-execution-history/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "0b4d0e6470b4d93fc0108d7703b650649bafe88e79ce2e10e48bde45316fc49f"
+}

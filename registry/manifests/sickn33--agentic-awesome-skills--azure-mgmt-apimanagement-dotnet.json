@@ -1,1 +1,56 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--azure-mgmt-apimanagement-dotnet","name":"azure-mgmt-apimanagement-dotnet","description":"Azure Resource Manager SDK for API Management in .NET.","category":"Cloud & DevOps","tags":["azure","mgmt","apimanagement","dotnet","resource","manager","sdk","api","management",".net."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/azure-mgmt-apimanagement-dotnet","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-mgmt-apimanagement-dotnet","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":10825,"sha256":"d18fd3c5dc081d17eb0582422a513ab17967746ca13ee21f58e362ce5bda7440","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/azure-mgmt-apimanagement-dotnet/SKILL.md","bytes":9752,"sha256":"d18fd3c5dc081d17eb0582422a513ab17967746ca13ee21f58e362ce5bda7440","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-mgmt-apimanagement-dotnet/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"c0208c4295c6b65bac7d18712e715cac673bff86577c8baeb18723cd38cb90b0"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--azure-mgmt-apimanagement-dotnet",
+    "name": "azure-mgmt-apimanagement-dotnet",
+    "description": "Azure Resource Manager SDK for API Management in .NET.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "azure",
+      "mgmt",
+      "apimanagement",
+      "dotnet",
+      "resource",
+      "manager",
+      "sdk",
+      "api",
+      "management",
+      ".net."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/azure-mgmt-apimanagement-dotnet",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-mgmt-apimanagement-dotnet",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 10825,
+    "sha256": "d18fd3c5dc081d17eb0582422a513ab17967746ca13ee21f58e362ce5bda7440",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/azure-mgmt-apimanagement-dotnet/SKILL.md",
+      "bytes": 9752,
+      "sha256": "d18fd3c5dc081d17eb0582422a513ab17967746ca13ee21f58e362ce5bda7440",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-mgmt-apimanagement-dotnet/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "c0208c4295c6b65bac7d18712e715cac673bff86577c8baeb18723cd38cb90b0"
+}

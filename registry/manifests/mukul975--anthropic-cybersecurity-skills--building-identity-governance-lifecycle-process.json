@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--building-identity-governance-lifecycle-process","name":"building-identity-governance-lifecycle-process","description":"Design identity governance and lifecycle (IGA) programs on platforms like SailPoint, Saviynt, or Entra ID Governance, covering joiner-mover-leaver (JML) automation, role mining, access requests, periodic recertification, and orphaned-account remediation sourced from an HR feed. Use when automating cross-system JML provisioning, remediating former-employee access, or building lifecycle processes for SOX, HIPAA, or GDPR compliance.","category":"Design","tags":["building","identity","governance","lifecycle","process","design","iga","programs","platforms","like","sailpoint","saviynt","entra","id","covering","joiner","mover","leaver"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/building-identity-governance-lifecycle-process/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/building-identity-governance-lifecycle-process","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-identity-governance-lifecycle-process","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":49467,"sha256":"c4cd985b7a8a3f3313051534e3a4723751e6e1897867145f545268be37fcbda6","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/building-identity-governance-lifecycle-process/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-identity-governance-lifecycle-process/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/building-identity-governance-lifecycle-process/SKILL.md","bytes":29043,"sha256":"c4cd985b7a8a3f3313051534e3a4723751e6e1897867145f545268be37fcbda6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-identity-governance-lifecycle-process/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/building-identity-governance-lifecycle-process/references/api-reference.md","bytes":2172,"sha256":"d78a22d409c0464699624652323c6c172d990227e71ab713fec9aa69e0d8422d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-identity-governance-lifecycle-process/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/building-identity-governance-lifecycle-process/scripts/agent.py","bytes":6997,"sha256":"2dac4fdb6b4fe79a985485fcb8bbe61b828f5ccd0cc879af9a70544c69600621","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-identity-governance-lifecycle-process/scripts/agent.py"}],"archiveSha256":"30c6d03c9f2c0ecb38fa76a5de4f673f2da080c0d0656b470aeb87d29c712071"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--building-identity-governance-lifecycle-process",
+    "name": "building-identity-governance-lifecycle-process",
+    "description": "Design identity governance and lifecycle (IGA) programs on platforms like SailPoint, Saviynt, or Entra ID Governance, covering joiner-mover-leaver (JML) automation, role mining, access requests, periodic recertification, and orphaned-account remediation sourced from an HR feed. Use when automating cross-system JML provisioning, remediating former-employee access, or building lifecycle processes for SOX, HIPAA, or GDPR compliance.",
+    "category": "Design",
+    "tags": [
+      "building",
+      "identity",
+      "governance",
+      "lifecycle",
+      "process",
+      "design",
+      "iga",
+      "programs",
+      "platforms",
+      "like",
+      "sailpoint",
+      "saviynt",
+      "entra",
+      "id",
+      "covering",
+      "joiner",
+      "mover",
+      "leaver"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/building-identity-governance-lifecycle-process/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/building-identity-governance-lifecycle-process",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-identity-governance-lifecycle-process",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 49467,
+    "sha256": "c4cd985b7a8a3f3313051534e3a4723751e6e1897867145f545268be37fcbda6",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/building-identity-governance-lifecycle-process/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-identity-governance-lifecycle-process/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/building-identity-governance-lifecycle-process/SKILL.md",
+      "bytes": 29043,
+      "sha256": "c4cd985b7a8a3f3313051534e3a4723751e6e1897867145f545268be37fcbda6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-identity-governance-lifecycle-process/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/building-identity-governance-lifecycle-process/references/api-reference.md",
+      "bytes": 2172,
+      "sha256": "d78a22d409c0464699624652323c6c172d990227e71ab713fec9aa69e0d8422d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-identity-governance-lifecycle-process/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/building-identity-governance-lifecycle-process/scripts/agent.py",
+      "bytes": 6997,
+      "sha256": "2dac4fdb6b4fe79a985485fcb8bbe61b828f5ccd0cc879af9a70544c69600621",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-identity-governance-lifecycle-process/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "30c6d03c9f2c0ecb38fa76a5de4f673f2da080c0d0656b470aeb87d29c712071"
+}

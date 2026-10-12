@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--bash-scripting","name":"bash-scripting","description":"Bash scripting workflow for creating production-ready shell scripts with defensive patterns, error handling, and testing.","category":"Automation","tags":["bash","scripting","workflow","creating","production","ready","shell","scripts","defensive","patterns","error","handling","testing."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/bash-scripting","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/bash-scripting","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5317,"sha256":"7e2815152edef4d80740b33022fcae8399557a81ca1708f96c5f2acfc668cb73","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/bash-scripting/SKILL.md","bytes":4244,"sha256":"7e2815152edef4d80740b33022fcae8399557a81ca1708f96c5f2acfc668cb73","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/bash-scripting/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"e8926ef863616cf313789851bd9babe181cb70613d599987f1a3e9d332e51ee9"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--bash-scripting",
+    "name": "bash-scripting",
+    "description": "Bash scripting workflow for creating production-ready shell scripts with defensive patterns, error handling, and testing.",
+    "category": "Automation",
+    "tags": [
+      "bash",
+      "scripting",
+      "workflow",
+      "creating",
+      "production",
+      "ready",
+      "shell",
+      "scripts",
+      "defensive",
+      "patterns",
+      "error",
+      "handling",
+      "testing."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/bash-scripting",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/bash-scripting",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5317,
+    "sha256": "7e2815152edef4d80740b33022fcae8399557a81ca1708f96c5f2acfc668cb73",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/bash-scripting/SKILL.md",
+      "bytes": 4244,
+      "sha256": "7e2815152edef4d80740b33022fcae8399557a81ca1708f96c5f2acfc668cb73",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/bash-scripting/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "e8926ef863616cf313789851bd9babe181cb70613d599987f1a3e9d332e51ee9"
+}

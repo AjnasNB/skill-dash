@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--fxmacrodata","name":"fxmacrodata","description":"Query FXMacroData for official-source macro indicators, release calendars, central-bank policy rates, FX rates and CFTC positioning across 22 currencies.","category":"Development","tags":["fxmacrodata","query","official","source","macro","indicators","release","calendars","central","bank","policy","rates","fx","cftc","positioning","across","22","currencies."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/fxmacrodata","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fxmacrodata","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12743,"sha256":"d84db4503c812136d83248b75431023d3d1811fd9d75d034ae6de760fddac936","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/fxmacrodata/SKILL.md","bytes":11670,"sha256":"d84db4503c812136d83248b75431023d3d1811fd9d75d034ae6de760fddac936","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fxmacrodata/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"8ed5c456914e94587042c2517a7ac13d524d0a64f2993b3535e34872efe26523"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--fxmacrodata",
+    "name": "fxmacrodata",
+    "description": "Query FXMacroData for official-source macro indicators, release calendars, central-bank policy rates, FX rates and CFTC positioning across 22 currencies.",
+    "category": "Development",
+    "tags": [
+      "fxmacrodata",
+      "query",
+      "official",
+      "source",
+      "macro",
+      "indicators",
+      "release",
+      "calendars",
+      "central",
+      "bank",
+      "policy",
+      "rates",
+      "fx",
+      "cftc",
+      "positioning",
+      "across",
+      "22",
+      "currencies."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/fxmacrodata",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fxmacrodata",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12743,
+    "sha256": "d84db4503c812136d83248b75431023d3d1811fd9d75d034ae6de760fddac936",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/fxmacrodata/SKILL.md",
+      "bytes": 11670,
+      "sha256": "d84db4503c812136d83248b75431023d3d1811fd9d75d034ae6de760fddac936",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/fxmacrodata/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "8ed5c456914e94587042c2517a7ac13d524d0a64f2993b3535e34872efe26523"
+}

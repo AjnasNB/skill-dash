@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--audit-skills","name":"audit-skills","description":"Expert security auditor for AI Skills and Bundles. Performs non-intrusive static analysis to identify malicious patterns, data leaks, system stability risks, and obfuscated payloads across Windows, macOS, Linux/Unix, and Mobile (Android/iOS).","category":"Security","tags":["audit","skills","expert","security","auditor","ai","bundles.","performs","non","intrusive","static","analysis","identify","malicious","patterns","data","leaks","system"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/audit-skills","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/audit-skills","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":7284,"sha256":"03198a29c5eb59f87146b3e43030a644421a0797ba4a9339fcff7b827b234133","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/audit-skills/SKILL.md","bytes":6211,"sha256":"03198a29c5eb59f87146b3e43030a644421a0797ba4a9339fcff7b827b234133","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/audit-skills/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"53be1b69b7dcd3a093c21ce21f7e7296f07372aecc6df1ca7f2c23a19219f4b5"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--audit-skills",
+    "name": "audit-skills",
+    "description": "Expert security auditor for AI Skills and Bundles. Performs non-intrusive static analysis to identify malicious patterns, data leaks, system stability risks, and obfuscated payloads across Windows, macOS, Linux/Unix, and Mobile (Android/iOS).",
+    "category": "Security",
+    "tags": [
+      "audit",
+      "skills",
+      "expert",
+      "security",
+      "auditor",
+      "ai",
+      "bundles.",
+      "performs",
+      "non",
+      "intrusive",
+      "static",
+      "analysis",
+      "identify",
+      "malicious",
+      "patterns",
+      "data",
+      "leaks",
+      "system"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/audit-skills",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/audit-skills",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 7284,
+    "sha256": "03198a29c5eb59f87146b3e43030a644421a0797ba4a9339fcff7b827b234133",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/audit-skills/SKILL.md",
+      "bytes": 6211,
+      "sha256": "03198a29c5eb59f87146b3e43030a644421a0797ba4a9339fcff7b827b234133",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/audit-skills/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "53be1b69b7dcd3a093c21ce21f7e7296f07372aecc6df1ca7f2c23a19219f4b5"
+}

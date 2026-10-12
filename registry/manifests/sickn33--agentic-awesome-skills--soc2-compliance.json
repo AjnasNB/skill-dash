@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--soc2-compliance","name":"soc2-compliance","description":"Implement SOC 2 Trust Services Criteria. Configure security, availability, and processing integrity controls. Use when achieving SOC 2 certification.","category":"Security","tags":["soc2","compliance","implement","soc","trust","services","criteria.","configure","security","availability","processing","integrity","controls.","when","achieving","certification."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/soc2-compliance","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/soc2-compliance","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":16624,"sha256":"b7273bf9a73734d3ae5982b656067407105381e7a3b85641c38568ba641ce11e","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/soc2-compliance/SKILL.md","bytes":15551,"sha256":"b7273bf9a73734d3ae5982b656067407105381e7a3b85641c38568ba641ce11e","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/soc2-compliance/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"812cd7d1694cf204c6218a10aa5faaee98935d906318a1f9e086a6678bf47775"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--soc2-compliance",
+    "name": "soc2-compliance",
+    "description": "Implement SOC 2 Trust Services Criteria. Configure security, availability, and processing integrity controls. Use when achieving SOC 2 certification.",
+    "category": "Security",
+    "tags": [
+      "soc2",
+      "compliance",
+      "implement",
+      "soc",
+      "trust",
+      "services",
+      "criteria.",
+      "configure",
+      "security",
+      "availability",
+      "processing",
+      "integrity",
+      "controls.",
+      "when",
+      "achieving",
+      "certification."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/soc2-compliance",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/soc2-compliance",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 16624,
+    "sha256": "b7273bf9a73734d3ae5982b656067407105381e7a3b85641c38568ba641ce11e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/soc2-compliance/SKILL.md",
+      "bytes": 15551,
+      "sha256": "b7273bf9a73734d3ae5982b656067407105381e7a3b85641c38568ba641ce11e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/soc2-compliance/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "812cd7d1694cf204c6218a10aa5faaee98935d906318a1f9e086a6678bf47775"
+}

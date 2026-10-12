@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--building-phishing-reporting-button-workflow","name":"building-phishing-reporting-button-workflow","description":"Implement a phishing report button (Microsoft 365 built-in Report button or third-party like KnowBe4/Cofense) in email clients with a SOAR-driven automated triage workflow that classifies reported emails, extracts IOCs, takes remediation actions, and gives feedback to reporters. Use when deploying user-reported phishing intake or automating triage of the resulting reporting mailbox.","category":"Cloud & DevOps","tags":["building","phishing","reporting","button","workflow","implement","report","microsoft","365","built","third","party","like","knowbe4","cofense","email","clients","soar"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/building-phishing-reporting-button-workflow/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/building-phishing-reporting-button-workflow","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-phishing-reporting-button-workflow","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":40562,"sha256":"5962ffafb6265979111dce0d8623ec8fa015827c41bbfe43a4b4d3f57275b05a","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/building-phishing-reporting-button-workflow/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-phishing-reporting-button-workflow/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/building-phishing-reporting-button-workflow/SKILL.md","bytes":5231,"sha256":"5962ffafb6265979111dce0d8623ec8fa015827c41bbfe43a4b4d3f57275b05a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-phishing-reporting-button-workflow/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/building-phishing-reporting-button-workflow/assets/template.md","bytes":945,"sha256":"aef6420376efb1392d4942e2c6837f67e972f32b39fe0036ee119435eeb24645","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-phishing-reporting-button-workflow/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/building-phishing-reporting-button-workflow/references/api-reference.md","bytes":1835,"sha256":"b563e4e874cd55fd23e2d0736707c52814d39e2162c461651cab4f0d69ff3e82","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-phishing-reporting-button-workflow/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/building-phishing-reporting-button-workflow/references/standards.md","bytes":1333,"sha256":"909b07e976d17c884d7ab0c3aef70667adc4a0babe6dc0f6ff4090dd84154a5a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-phishing-reporting-button-workflow/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/building-phishing-reporting-button-workflow/references/workflows.md","bytes":1878,"sha256":"3c92f02df2f38fbd2c4f45c498d4ea27b2cf8ef5fa8a9536de8288f7e89f149c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-phishing-reporting-button-workflow/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/building-phishing-reporting-button-workflow/scripts/agent.py","bytes":7320,"sha256":"0c27f9932263c6a89e7e0222b6bb2ed2ed6853a24678bfc92eec6c6c6f9c6cd7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-phishing-reporting-button-workflow/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/building-phishing-reporting-button-workflow/scripts/process.py","bytes":10765,"sha256":"d4debce2fed19d07fd706d4e9643313cf2a19bbecf48e1025562eadb4c6fb313","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-phishing-reporting-button-workflow/scripts/process.py"}],"archiveSha256":"86e048dacfa4f2eb7aa6bee8dd2bec76c4ea8ec23de0d63fd409e7ccde2ddc4d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--building-phishing-reporting-button-workflow",
+    "name": "building-phishing-reporting-button-workflow",
+    "description": "Implement a phishing report button (Microsoft 365 built-in Report button or third-party like KnowBe4/Cofense) in email clients with a SOAR-driven automated triage workflow that classifies reported emails, extracts IOCs, takes remediation actions, and gives feedback to reporters. Use when deploying user-reported phishing intake or automating triage of the resulting reporting mailbox.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "building",
+      "phishing",
+      "reporting",
+      "button",
+      "workflow",
+      "implement",
+      "report",
+      "microsoft",
+      "365",
+      "built",
+      "third",
+      "party",
+      "like",
+      "knowbe4",
+      "cofense",
+      "email",
+      "clients",
+      "soar"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/building-phishing-reporting-button-workflow/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/building-phishing-reporting-button-workflow",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-phishing-reporting-button-workflow",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 40562,
+    "sha256": "5962ffafb6265979111dce0d8623ec8fa015827c41bbfe43a4b4d3f57275b05a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/building-phishing-reporting-button-workflow/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-phishing-reporting-button-workflow/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/building-phishing-reporting-button-workflow/SKILL.md",
+      "bytes": 5231,
+      "sha256": "5962ffafb6265979111dce0d8623ec8fa015827c41bbfe43a4b4d3f57275b05a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-phishing-reporting-button-workflow/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/building-phishing-reporting-button-workflow/assets/template.md",
+      "bytes": 945,
+      "sha256": "aef6420376efb1392d4942e2c6837f67e972f32b39fe0036ee119435eeb24645",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-phishing-reporting-button-workflow/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/building-phishing-reporting-button-workflow/references/api-reference.md",
+      "bytes": 1835,
+      "sha256": "b563e4e874cd55fd23e2d0736707c52814d39e2162c461651cab4f0d69ff3e82",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-phishing-reporting-button-workflow/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/building-phishing-reporting-button-workflow/references/standards.md",
+      "bytes": 1333,
+      "sha256": "909b07e976d17c884d7ab0c3aef70667adc4a0babe6dc0f6ff4090dd84154a5a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-phishing-reporting-button-workflow/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/building-phishing-reporting-button-workflow/references/workflows.md",
+      "bytes": 1878,
+      "sha256": "3c92f02df2f38fbd2c4f45c498d4ea27b2cf8ef5fa8a9536de8288f7e89f149c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-phishing-reporting-button-workflow/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/building-phishing-reporting-button-workflow/scripts/agent.py",
+      "bytes": 7320,
+      "sha256": "0c27f9932263c6a89e7e0222b6bb2ed2ed6853a24678bfc92eec6c6c6f9c6cd7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-phishing-reporting-button-workflow/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/building-phishing-reporting-button-workflow/scripts/process.py",
+      "bytes": 10765,
+      "sha256": "d4debce2fed19d07fd706d4e9643313cf2a19bbecf48e1025562eadb4c6fb313",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/building-phishing-reporting-button-workflow/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "86e048dacfa4f2eb7aa6bee8dd2bec76c4ea8ec23de0d63fd409e7ccde2ddc4d"
+}

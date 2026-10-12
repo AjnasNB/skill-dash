@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--odoo-manufacturing-advisor","name":"odoo-manufacturing-advisor","description":"Expert guide for Odoo Manufacturing: Bills of Materials (BoM), Work Centers, routings, MRP planning, and production order workflows.","category":"Development","tags":["odoo","manufacturing","advisor","expert","guide","bills","materials","bom","work","centers","routings","mrp","planning","production","order","workflows."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/odoo-manufacturing-advisor","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-manufacturing-advisor","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5666,"sha256":"7251b952fe7d6663b8b9fe65aca9cc038ea49c779c4723668872f809ce7d5caf","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/odoo-manufacturing-advisor/SKILL.md","bytes":4593,"sha256":"7251b952fe7d6663b8b9fe65aca9cc038ea49c779c4723668872f809ce7d5caf","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-manufacturing-advisor/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"755617e9857cf3e90d8f4dd7169ff0aff31891ad82efeb7390ee4fea527af688"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--odoo-manufacturing-advisor",
+    "name": "odoo-manufacturing-advisor",
+    "description": "Expert guide for Odoo Manufacturing: Bills of Materials (BoM), Work Centers, routings, MRP planning, and production order workflows.",
+    "category": "Development",
+    "tags": [
+      "odoo",
+      "manufacturing",
+      "advisor",
+      "expert",
+      "guide",
+      "bills",
+      "materials",
+      "bom",
+      "work",
+      "centers",
+      "routings",
+      "mrp",
+      "planning",
+      "production",
+      "order",
+      "workflows."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/odoo-manufacturing-advisor",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-manufacturing-advisor",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5666,
+    "sha256": "7251b952fe7d6663b8b9fe65aca9cc038ea49c779c4723668872f809ce7d5caf",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/odoo-manufacturing-advisor/SKILL.md",
+      "bytes": 4593,
+      "sha256": "7251b952fe7d6663b8b9fe65aca9cc038ea49c779c4723668872f809ce7d5caf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/odoo-manufacturing-advisor/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "755617e9857cf3e90d8f4dd7169ff0aff31891ad82efeb7390ee4fea527af688"
+}

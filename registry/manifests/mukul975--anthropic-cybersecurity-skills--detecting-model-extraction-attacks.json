@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-model-extraction-attacks","name":"detecting-model-extraction-attacks","description":"Detect MITRE ATLAS AML.T0024 attacks (model stealing, inversion, membership inference) performed via inference-API abuse, by monitoring per-principal query volume/distribution, rate-limiting and perturbing outputs, and red-teaming your model's extractability. Use for a public or partner inference API needing cloning/inversion/membership-inference detection, or a pre-deployment red-team exercise to measure extraction risk.","category":"Cloud & DevOps","tags":["detecting","model","extraction","attacks","detect","mitre","atlas","aml.t0024","stealing","inversion","membership","inference","performed","via","api","abuse","by","monitoring"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-model-extraction-attacks/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-model-extraction-attacks","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-model-extraction-attacks","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":5,"bytes":32863,"sha256":"f721213e5733b63c2f6f3f26c134a3b8de96d75dc515600c0854fe97d223f4bd","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-model-extraction-attacks/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-model-extraction-attacks/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-model-extraction-attacks/SKILL.md","bytes":11750,"sha256":"f721213e5733b63c2f6f3f26c134a3b8de96d75dc515600c0854fe97d223f4bd","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-model-extraction-attacks/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-model-extraction-attacks/references/api-reference.md","bytes":2340,"sha256":"478fb59646944b87df5ce5fdfddbbc3712db58a1c5a9cc88d8056fc518f42dc2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-model-extraction-attacks/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/detecting-model-extraction-attacks/references/standards.md","bytes":1645,"sha256":"58b2940cee57e9c149e12939c11ccf75d8fd8a507c68966910459826add0ea88","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-model-extraction-attacks/references/standards.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-model-extraction-attacks/scripts/agent.py","bytes":5873,"sha256":"49bfe61b7eaf0e0049a73ff7ab0765e8c8592f1ff6484689e30b65c4720078b9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-model-extraction-attacks/scripts/agent.py"}],"archiveSha256":"5e8ee5bf15b655386b567aeed0eb889fd98e7977538a7abbdbbaea534898f176"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-model-extraction-attacks",
+    "name": "detecting-model-extraction-attacks",
+    "description": "Detect MITRE ATLAS AML.T0024 attacks (model stealing, inversion, membership inference) performed via inference-API abuse, by monitoring per-principal query volume/distribution, rate-limiting and perturbing outputs, and red-teaming your model's extractability. Use for a public or partner inference API needing cloning/inversion/membership-inference detection, or a pre-deployment red-team exercise to measure extraction risk.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "detecting",
+      "model",
+      "extraction",
+      "attacks",
+      "detect",
+      "mitre",
+      "atlas",
+      "aml.t0024",
+      "stealing",
+      "inversion",
+      "membership",
+      "inference",
+      "performed",
+      "via",
+      "api",
+      "abuse",
+      "by",
+      "monitoring"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-model-extraction-attacks/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-model-extraction-attacks",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-model-extraction-attacks",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 32863,
+    "sha256": "f721213e5733b63c2f6f3f26c134a3b8de96d75dc515600c0854fe97d223f4bd",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-model-extraction-attacks/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-model-extraction-attacks/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-model-extraction-attacks/SKILL.md",
+      "bytes": 11750,
+      "sha256": "f721213e5733b63c2f6f3f26c134a3b8de96d75dc515600c0854fe97d223f4bd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-model-extraction-attacks/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-model-extraction-attacks/references/api-reference.md",
+      "bytes": 2340,
+      "sha256": "478fb59646944b87df5ce5fdfddbbc3712db58a1c5a9cc88d8056fc518f42dc2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-model-extraction-attacks/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/detecting-model-extraction-attacks/references/standards.md",
+      "bytes": 1645,
+      "sha256": "58b2940cee57e9c149e12939c11ccf75d8fd8a507c68966910459826add0ea88",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-model-extraction-attacks/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-model-extraction-attacks/scripts/agent.py",
+      "bytes": 5873,
+      "sha256": "49bfe61b7eaf0e0049a73ff7ab0765e8c8592f1ff6484689e30b65c4720078b9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-model-extraction-attacks/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "5e8ee5bf15b655386b567aeed0eb889fd98e7977538a7abbdbbaea534898f176"
+}

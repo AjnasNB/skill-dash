@@ -1,1 +1,60 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--team-calendar","name":"team-calendar","description":"Team calendar: event, type, date and time with time zone, attendees, organizer, location and source module. Use for shared scheduling.","category":"Automation","tags":["team","calendar","event","type","date","time","zone","attendees","organizer","location","source","module.","shared","scheduling."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/team-calendar","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/team-calendar","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":14266,"sha256":"bb70e28524289e9c5c7222bb1e9ae9908851f7bcfc44db68577d0f663e4df457","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/team-calendar/SKILL.md","bytes":13193,"sha256":"bb70e28524289e9c5c7222bb1e9ae9908851f7bcfc44db68577d0f663e4df457","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/team-calendar/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"ddccf6b2586de6e363c14eda5ec1e0f3c48b5d75f7dd4d2ce2e7372731909cef"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--team-calendar",
+    "name": "team-calendar",
+    "description": "Team calendar: event, type, date and time with time zone, attendees, organizer, location and source module. Use for shared scheduling.",
+    "category": "Automation",
+    "tags": [
+      "team",
+      "calendar",
+      "event",
+      "type",
+      "date",
+      "time",
+      "zone",
+      "attendees",
+      "organizer",
+      "location",
+      "source",
+      "module.",
+      "shared",
+      "scheduling."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/team-calendar",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/team-calendar",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 14266,
+    "sha256": "bb70e28524289e9c5c7222bb1e9ae9908851f7bcfc44db68577d0f663e4df457",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/team-calendar/SKILL.md",
+      "bytes": 13193,
+      "sha256": "bb70e28524289e9c5c7222bb1e9ae9908851f7bcfc44db68577d0f663e4df457",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/team-calendar/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ddccf6b2586de6e363c14eda5ec1e0f3c48b5d75f7dd4d2ce2e7372731909cef"
+}

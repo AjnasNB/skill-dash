@@ -1,1 +1,84 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--app-store-changelog","name":"app-store-changelog","description":"Generate user-facing App Store release notes from git history since the last tag.","category":"Development","tags":["app","store","changelog","generate","user","facing","release","notes","from","git","history","since","last","tag."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/app-store-changelog","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/app-store-changelog","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":5,"bytes":7075,"sha256":"eaf799349bdde16933cef36ba6eca6f6e276b04a6edc26ca72358058d4c22bac","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/app-store-changelog/SKILL.md","bytes":3340,"sha256":"eaf799349bdde16933cef36ba6eca6f6e276b04a6edc26ca72358058d4c22bac","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/app-store-changelog/SKILL.md"},{"path":"agents/openai.yaml","sourcePath":"skills/app-store-changelog/agents/openai.yaml","bytes":220,"sha256":"6dbd5142aae28af50c3923dd369c81bebef510f81c349301e66463fe9c68b0f7","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/app-store-changelog/agents/openai.yaml"},{"path":"references/release-notes-guidelines.md","sourcePath":"skills/app-store-changelog/references/release-notes-guidelines.md","bytes":1646,"sha256":"c8dcb505b66ab8dc2008e35be44f290d5e03468bed48bf0f07c3adbb5c985ed4","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/app-store-changelog/references/release-notes-guidelines.md"},{"path":"scripts/collect_release_changes.sh","sourcePath":"skills/app-store-changelog/scripts/collect_release_changes.sh","bytes":796,"sha256":"d694f35dffbb1fafd3b5580a2211d07ffca90baf0eb8138bdf3fff8db5386d7b","mode":493,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/app-store-changelog/scripts/collect_release_changes.sh"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"ea1eafa6165d5f4ed39f82f9d80e865672bfefbd16a015944523791de3bfa9fc"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--app-store-changelog",
+    "name": "app-store-changelog",
+    "description": "Generate user-facing App Store release notes from git history since the last tag.",
+    "category": "Development",
+    "tags": [
+      "app",
+      "store",
+      "changelog",
+      "generate",
+      "user",
+      "facing",
+      "release",
+      "notes",
+      "from",
+      "git",
+      "history",
+      "since",
+      "last",
+      "tag."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/app-store-changelog",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/app-store-changelog",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 5,
+    "bytes": 7075,
+    "sha256": "eaf799349bdde16933cef36ba6eca6f6e276b04a6edc26ca72358058d4c22bac",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/app-store-changelog/SKILL.md",
+      "bytes": 3340,
+      "sha256": "eaf799349bdde16933cef36ba6eca6f6e276b04a6edc26ca72358058d4c22bac",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/app-store-changelog/SKILL.md"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sourcePath": "skills/app-store-changelog/agents/openai.yaml",
+      "bytes": 220,
+      "sha256": "6dbd5142aae28af50c3923dd369c81bebef510f81c349301e66463fe9c68b0f7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/app-store-changelog/agents/openai.yaml"
+    },
+    {
+      "path": "references/release-notes-guidelines.md",
+      "sourcePath": "skills/app-store-changelog/references/release-notes-guidelines.md",
+      "bytes": 1646,
+      "sha256": "c8dcb505b66ab8dc2008e35be44f290d5e03468bed48bf0f07c3adbb5c985ed4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/app-store-changelog/references/release-notes-guidelines.md"
+    },
+    {
+      "path": "scripts/collect_release_changes.sh",
+      "sourcePath": "skills/app-store-changelog/scripts/collect_release_changes.sh",
+      "bytes": 796,
+      "sha256": "d694f35dffbb1fafd3b5580a2211d07ffca90baf0eb8138bdf3fff8db5386d7b",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/app-store-changelog/scripts/collect_release_changes.sh"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ea1eafa6165d5f4ed39f82f9d80e865672bfefbd16a015944523791de3bfa9fc"
+}

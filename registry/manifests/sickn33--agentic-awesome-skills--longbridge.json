@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--longbridge","name":"longbridge","description":"125+ agent skills for Longbridge Securities — real-time quotes, charts, fundamentals, portfolio analysis, options, and more for HK/US/A-share/SG markets. Trilingual: Simplified Chinese, Traditional Chinese, English.","category":"AI & agents","tags":["longbridge","125+","agent","skills","securities","real","time","quotes","charts","fundamentals","portfolio","analysis","options","more","hk","us","share","sg"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/longbridge","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/longbridge","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4329,"sha256":"6557c357bc856f090ebe804a16a52a6f50b17965e6f8626db56d80bbfcc3cd22","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/longbridge/SKILL.md","bytes":3256,"sha256":"6557c357bc856f090ebe804a16a52a6f50b17965e6f8626db56d80bbfcc3cd22","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/longbridge/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"b224d1252000e0572edf1af0be52483b6413d68277477a5089f4cf0d8d25d473"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--longbridge",
+    "name": "longbridge",
+    "description": "125+ agent skills for Longbridge Securities — real-time quotes, charts, fundamentals, portfolio analysis, options, and more for HK/US/A-share/SG markets. Trilingual: Simplified Chinese, Traditional Chinese, English.",
+    "category": "AI & agents",
+    "tags": [
+      "longbridge",
+      "125+",
+      "agent",
+      "skills",
+      "securities",
+      "real",
+      "time",
+      "quotes",
+      "charts",
+      "fundamentals",
+      "portfolio",
+      "analysis",
+      "options",
+      "more",
+      "hk",
+      "us",
+      "share",
+      "sg"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/longbridge",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/longbridge",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4329,
+    "sha256": "6557c357bc856f090ebe804a16a52a6f50b17965e6f8626db56d80bbfcc3cd22",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/longbridge/SKILL.md",
+      "bytes": 3256,
+      "sha256": "6557c357bc856f090ebe804a16a52a6f50b17965e6f8626db56d80bbfcc3cd22",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/longbridge/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "b224d1252000e0572edf1af0be52483b6413d68277477a5089f4cf0d8d25d473"
+}

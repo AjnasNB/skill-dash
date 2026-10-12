@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-ddos-mitigation-with-cloudflare","name":"implementing-ddos-mitigation-with-cloudflare","description":"Configure Cloudflare DDoS protection with managed rulesets, rate limiting, WAF rules, Bot Management, and origin protection to mitigate volumetric, protocol, and application-layer attacks.","category":"Cloud & DevOps","tags":["implementing","ddos","mitigation","cloudflare","configure","protection","managed","rulesets","rate","limiting","waf","rules","bot","management","origin","mitigate","volumetric","protocol"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-ddos-mitigation-with-cloudflare/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-ddos-mitigation-with-cloudflare","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ddos-mitigation-with-cloudflare","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":32653,"sha256":"daed2fabc2e09dcac9226b7f50b8025d6f2deb40690bb2fc169dd9575192a962","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-ddos-mitigation-with-cloudflare/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ddos-mitigation-with-cloudflare/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-ddos-mitigation-with-cloudflare/SKILL.md","bytes":15096,"sha256":"daed2fabc2e09dcac9226b7f50b8025d6f2deb40690bb2fc169dd9575192a962","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ddos-mitigation-with-cloudflare/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-ddos-mitigation-with-cloudflare/references/api-reference.md","bytes":1588,"sha256":"303946583c1f876d4c9b9a368d54d663f6910adc9e5e616096c7850b8ee69eba","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ddos-mitigation-with-cloudflare/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-ddos-mitigation-with-cloudflare/scripts/agent.py","bytes":4714,"sha256":"6c1113b27ac13ebed0e6128fed88cd99eb5709d7d185d195e33e933c2408513d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ddos-mitigation-with-cloudflare/scripts/agent.py"}],"archiveSha256":"e5de7a3764ec414dae90dba89a0904857854a4d8d2cd382b7bea3380b658026d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-ddos-mitigation-with-cloudflare",
+    "name": "implementing-ddos-mitigation-with-cloudflare",
+    "description": "Configure Cloudflare DDoS protection with managed rulesets, rate limiting, WAF rules, Bot Management, and origin protection to mitigate volumetric, protocol, and application-layer attacks.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "implementing",
+      "ddos",
+      "mitigation",
+      "cloudflare",
+      "configure",
+      "protection",
+      "managed",
+      "rulesets",
+      "rate",
+      "limiting",
+      "waf",
+      "rules",
+      "bot",
+      "management",
+      "origin",
+      "mitigate",
+      "volumetric",
+      "protocol"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-ddos-mitigation-with-cloudflare/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-ddos-mitigation-with-cloudflare",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ddos-mitigation-with-cloudflare",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32653,
+    "sha256": "daed2fabc2e09dcac9226b7f50b8025d6f2deb40690bb2fc169dd9575192a962",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-ddos-mitigation-with-cloudflare/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ddos-mitigation-with-cloudflare/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-ddos-mitigation-with-cloudflare/SKILL.md",
+      "bytes": 15096,
+      "sha256": "daed2fabc2e09dcac9226b7f50b8025d6f2deb40690bb2fc169dd9575192a962",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ddos-mitigation-with-cloudflare/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-ddos-mitigation-with-cloudflare/references/api-reference.md",
+      "bytes": 1588,
+      "sha256": "303946583c1f876d4c9b9a368d54d663f6910adc9e5e616096c7850b8ee69eba",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ddos-mitigation-with-cloudflare/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-ddos-mitigation-with-cloudflare/scripts/agent.py",
+      "bytes": 4714,
+      "sha256": "6c1113b27ac13ebed0e6128fed88cd99eb5709d7d185d195e33e933c2408513d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-ddos-mitigation-with-cloudflare/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "e5de7a3764ec414dae90dba89a0904857854a4d8d2cd382b7bea3380b658026d"
+}

@@ -1,1 +1,58 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--azure-resource-manager-postgresql-dotnet","name":"azure-resource-manager-postgresql-dotnet","description":"Azure PostgreSQL Flexible Server SDK for .NET. Database management for PostgreSQL Flexible Server deployments.","category":"Cloud & DevOps","tags":["azure","resource","manager","postgresql","dotnet","flexible","server","sdk",".net.","database","management","deployments."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/azure-resource-manager-postgresql-dotnet","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-resource-manager-postgresql-dotnet","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":16621,"sha256":"d25dc0ca7d10b81c171f2349fcf309025fc43db2df205df65f498866850cd48c","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/azure-resource-manager-postgresql-dotnet/SKILL.md","bytes":15548,"sha256":"d25dc0ca7d10b81c171f2349fcf309025fc43db2df205df65f498866850cd48c","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-resource-manager-postgresql-dotnet/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"e944dbe737b9f8eb2007c67112b896eb68120b709e79f04fcc6561556174b849"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--azure-resource-manager-postgresql-dotnet",
+    "name": "azure-resource-manager-postgresql-dotnet",
+    "description": "Azure PostgreSQL Flexible Server SDK for .NET. Database management for PostgreSQL Flexible Server deployments.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "azure",
+      "resource",
+      "manager",
+      "postgresql",
+      "dotnet",
+      "flexible",
+      "server",
+      "sdk",
+      ".net.",
+      "database",
+      "management",
+      "deployments."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/azure-resource-manager-postgresql-dotnet",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-resource-manager-postgresql-dotnet",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 16621,
+    "sha256": "d25dc0ca7d10b81c171f2349fcf309025fc43db2df205df65f498866850cd48c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/azure-resource-manager-postgresql-dotnet/SKILL.md",
+      "bytes": 15548,
+      "sha256": "d25dc0ca7d10b81c171f2349fcf309025fc43db2df205df65f498866850cd48c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-resource-manager-postgresql-dotnet/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "e944dbe737b9f8eb2007c67112b896eb68120b709e79f04fcc6561556174b849"
+}

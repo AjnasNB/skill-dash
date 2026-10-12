@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--soroban-storage-ttl-lifecycle","name":"soroban-storage-ttl-lifecycle","description":"Soroban ledger state rent and TTL extension register: live state tracking, bump thresholds, rent fee reserves, and archive boundaries.","category":"Development","tags":["soroban","storage","ttl","lifecycle","ledger","state","rent","extension","register","live","tracking","bump","thresholds","fee","reserves","archive","boundaries."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/soroban-storage-ttl-lifecycle","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/soroban-storage-ttl-lifecycle","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":6301,"sha256":"7989d62ded3929b636bb46b25f88378758debc0ab62fe8e029319c3e20edfa3d","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/soroban-storage-ttl-lifecycle/SKILL.md","bytes":5228,"sha256":"7989d62ded3929b636bb46b25f88378758debc0ab62fe8e029319c3e20edfa3d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/soroban-storage-ttl-lifecycle/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"6da75bc6fe79f39447226a843b000ce1eb9f65213321d78cbb54397293d793ab"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--soroban-storage-ttl-lifecycle",
+    "name": "soroban-storage-ttl-lifecycle",
+    "description": "Soroban ledger state rent and TTL extension register: live state tracking, bump thresholds, rent fee reserves, and archive boundaries.",
+    "category": "Development",
+    "tags": [
+      "soroban",
+      "storage",
+      "ttl",
+      "lifecycle",
+      "ledger",
+      "state",
+      "rent",
+      "extension",
+      "register",
+      "live",
+      "tracking",
+      "bump",
+      "thresholds",
+      "fee",
+      "reserves",
+      "archive",
+      "boundaries."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/soroban-storage-ttl-lifecycle",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/soroban-storage-ttl-lifecycle",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 6301,
+    "sha256": "7989d62ded3929b636bb46b25f88378758debc0ab62fe8e029319c3e20edfa3d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/soroban-storage-ttl-lifecycle/SKILL.md",
+      "bytes": 5228,
+      "sha256": "7989d62ded3929b636bb46b25f88378758debc0ab62fe8e029319c3e20edfa3d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/soroban-storage-ttl-lifecycle/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "6da75bc6fe79f39447226a843b000ce1eb9f65213321d78cbb54397293d793ab"
+}

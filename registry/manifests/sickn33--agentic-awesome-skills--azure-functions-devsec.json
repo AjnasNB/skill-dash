@@ -1,1 +1,60 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--azure-functions-devsec","name":"azure-functions-devsec","description":"Build serverless applications on Azure Functions. Configure triggers, bindings, and deployment. Use when implementing serverless workloads on Azure.","category":"Cloud & DevOps","tags":["azure","functions","devsec","serverless","applications","functions.","configure","triggers","bindings","deployment.","when","implementing","workloads","azure."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/azure-functions-devsec","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-functions-devsec","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":13900,"sha256":"b5bf0e7441c80c79608575d5e58b460575f7259535ddcff8596337ad9944a39d","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/azure-functions-devsec/SKILL.md","bytes":12827,"sha256":"b5bf0e7441c80c79608575d5e58b460575f7259535ddcff8596337ad9944a39d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-functions-devsec/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"ce076e7a06545714d477702e381f0caa370732e4924d91343d6eea6694f5c45c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--azure-functions-devsec",
+    "name": "azure-functions-devsec",
+    "description": "Build serverless applications on Azure Functions. Configure triggers, bindings, and deployment. Use when implementing serverless workloads on Azure.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "azure",
+      "functions",
+      "devsec",
+      "serverless",
+      "applications",
+      "functions.",
+      "configure",
+      "triggers",
+      "bindings",
+      "deployment.",
+      "when",
+      "implementing",
+      "workloads",
+      "azure."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/azure-functions-devsec",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-functions-devsec",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13900,
+    "sha256": "b5bf0e7441c80c79608575d5e58b460575f7259535ddcff8596337ad9944a39d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/azure-functions-devsec/SKILL.md",
+      "bytes": 12827,
+      "sha256": "b5bf0e7441c80c79608575d5e58b460575f7259535ddcff8596337ad9944a39d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-functions-devsec/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ce076e7a06545714d477702e381f0caa370732e4924d91343d6eea6694f5c45c"
+}

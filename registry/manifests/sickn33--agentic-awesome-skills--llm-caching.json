@@ -1,1 +1,59 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--llm-caching","name":"llm-caching","description":"Implement multi-layer LLM caching with exact match, semantic similarity, and provider-side prompt caching.","category":"AI & agents","tags":["llm","caching","implement","multi","layer","exact","match","semantic","similarity","provider","side","prompt","caching."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/llm-caching","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/llm-caching","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12469,"sha256":"09159bee27799a27de9ccaf14df163ab5c10d5a92b1fbe62d281a8416f471301","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/llm-caching/SKILL.md","bytes":11396,"sha256":"09159bee27799a27de9ccaf14df163ab5c10d5a92b1fbe62d281a8416f471301","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/llm-caching/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"60dcd68db9265b3214a09ec19aeb14184ccfc1e36660ffc19f019be9d7aa4b4e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--llm-caching",
+    "name": "llm-caching",
+    "description": "Implement multi-layer LLM caching with exact match, semantic similarity, and provider-side prompt caching.",
+    "category": "AI & agents",
+    "tags": [
+      "llm",
+      "caching",
+      "implement",
+      "multi",
+      "layer",
+      "exact",
+      "match",
+      "semantic",
+      "similarity",
+      "provider",
+      "side",
+      "prompt",
+      "caching."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/llm-caching",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/llm-caching",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12469,
+    "sha256": "09159bee27799a27de9ccaf14df163ab5c10d5a92b1fbe62d281a8416f471301",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/llm-caching/SKILL.md",
+      "bytes": 11396,
+      "sha256": "09159bee27799a27de9ccaf14df163ab5c10d5a92b1fbe62d281a8416f471301",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/llm-caching/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "60dcd68db9265b3214a09ec19aeb14184ccfc1e36660ffc19f019be9d7aa4b4e"
+}

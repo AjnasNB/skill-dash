@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--managing-third-party-vendor-risk","name":"managing-third-party-vendor-risk","description":"Build and run a third-party/vendor risk management (TPRM) program aligned to NIST SP 800-161 C-SCRM: inventory and tier vendors, issue SIG/CAIQ questionnaires, review SOC 2/ISO 27001 evidence, set contractual right-to-audit clauses, monitor vendors continuously, and offboard securely. Use when assessing a new vendor, standing up a vendor-risk program, tiering a portfolio, reviewing a SOC 2/CAIQ, or writing security terms into a contract.","category":"Security","tags":["managing","third","party","vendor","risk","run","management","tprm","program","aligned","nist","sp","800","161","scrm","inventory","tier","vendors"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/managing-third-party-vendor-risk/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/managing-third-party-vendor-risk","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-third-party-vendor-risk","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":5,"bytes":36182,"sha256":"140f002e300e75f94277f8a402e252773ff39125a6dc81fc4417dde91caf361e","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/managing-third-party-vendor-risk/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-third-party-vendor-risk/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/managing-third-party-vendor-risk/SKILL.md","bytes":8711,"sha256":"140f002e300e75f94277f8a402e252773ff39125a6dc81fc4417dde91caf361e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-third-party-vendor-risk/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/managing-third-party-vendor-risk/assets/template.md","bytes":3136,"sha256":"48e1fc5ee6eacc6d8b92c1ae3490ea18a9c33fabc6fc8124e227d51c22ea26a9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-third-party-vendor-risk/assets/template.md"},{"path":"references/standards.md","sourcePath":"skills/managing-third-party-vendor-risk/references/standards.md","bytes":4424,"sha256":"2e3aacad9376eb42bcd1714d95f4445d33c1c4f6e96a90f909b88344d8018cfb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-third-party-vendor-risk/references/standards.md"},{"path":"scripts/process.py","sourcePath":"skills/managing-third-party-vendor-risk/scripts/process.py","bytes":8656,"sha256":"31dba011998ab7fb05e91ac3d2b15d5fbd9e6d3fd2aeb64763164a7a81a232ec","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-third-party-vendor-risk/scripts/process.py"}],"archiveSha256":"7764ced7421bbcf82cddd6ffc568fbac7083d2a7b230d17c88ff4b138bbdc710"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--managing-third-party-vendor-risk",
+    "name": "managing-third-party-vendor-risk",
+    "description": "Build and run a third-party/vendor risk management (TPRM) program aligned to NIST SP 800-161 C-SCRM: inventory and tier vendors, issue SIG/CAIQ questionnaires, review SOC 2/ISO 27001 evidence, set contractual right-to-audit clauses, monitor vendors continuously, and offboard securely. Use when assessing a new vendor, standing up a vendor-risk program, tiering a portfolio, reviewing a SOC 2/CAIQ, or writing security terms into a contract.",
+    "category": "Security",
+    "tags": [
+      "managing",
+      "third",
+      "party",
+      "vendor",
+      "risk",
+      "run",
+      "management",
+      "tprm",
+      "program",
+      "aligned",
+      "nist",
+      "sp",
+      "800",
+      "161",
+      "scrm",
+      "inventory",
+      "tier",
+      "vendors"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/managing-third-party-vendor-risk/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/managing-third-party-vendor-risk",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-third-party-vendor-risk",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 36182,
+    "sha256": "140f002e300e75f94277f8a402e252773ff39125a6dc81fc4417dde91caf361e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/managing-third-party-vendor-risk/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-third-party-vendor-risk/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/managing-third-party-vendor-risk/SKILL.md",
+      "bytes": 8711,
+      "sha256": "140f002e300e75f94277f8a402e252773ff39125a6dc81fc4417dde91caf361e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-third-party-vendor-risk/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/managing-third-party-vendor-risk/assets/template.md",
+      "bytes": 3136,
+      "sha256": "48e1fc5ee6eacc6d8b92c1ae3490ea18a9c33fabc6fc8124e227d51c22ea26a9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-third-party-vendor-risk/assets/template.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/managing-third-party-vendor-risk/references/standards.md",
+      "bytes": 4424,
+      "sha256": "2e3aacad9376eb42bcd1714d95f4445d33c1c4f6e96a90f909b88344d8018cfb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-third-party-vendor-risk/references/standards.md"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/managing-third-party-vendor-risk/scripts/process.py",
+      "bytes": 8656,
+      "sha256": "31dba011998ab7fb05e91ac3d2b15d5fbd9e6d3fd2aeb64763164a7a81a232ec",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/managing-third-party-vendor-risk/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "7764ced7421bbcf82cddd6ffc568fbac7083d2a7b230d17c88ff4b138bbdc710"
+}

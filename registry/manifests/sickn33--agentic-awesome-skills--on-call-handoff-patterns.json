@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--on-call-handoff-patterns","name":"on-call-handoff-patterns","description":"Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.","category":"Development","tags":["call","handoff","patterns","effective","shift","transitions","ensuring","continuity","context","transfer","reliable","incident","response","across","shifts."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/on-call-handoff-patterns","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/on-call-handoff-patterns","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":12913,"sha256":"68ef45b9aabae1c22e9b871b39292f9d53acf8fbd1cac1bf473deb0221810d10","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/on-call-handoff-patterns/SKILL.md","bytes":11840,"sha256":"68ef45b9aabae1c22e9b871b39292f9d53acf8fbd1cac1bf473deb0221810d10","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/on-call-handoff-patterns/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"1eb574627c28dd5a3d1af716f7355429550aeeecb099730feeb452ab5940ff87"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--on-call-handoff-patterns",
+    "name": "on-call-handoff-patterns",
+    "description": "Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.",
+    "category": "Development",
+    "tags": [
+      "call",
+      "handoff",
+      "patterns",
+      "effective",
+      "shift",
+      "transitions",
+      "ensuring",
+      "continuity",
+      "context",
+      "transfer",
+      "reliable",
+      "incident",
+      "response",
+      "across",
+      "shifts."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/on-call-handoff-patterns",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/on-call-handoff-patterns",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 12913,
+    "sha256": "68ef45b9aabae1c22e9b871b39292f9d53acf8fbd1cac1bf473deb0221810d10",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/on-call-handoff-patterns/SKILL.md",
+      "bytes": 11840,
+      "sha256": "68ef45b9aabae1c22e9b871b39292f9d53acf8fbd1cac1bf473deb0221810d10",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/on-call-handoff-patterns/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "1eb574627c28dd5a3d1af716f7355429550aeeecb099730feeb452ab5940ff87"
+}

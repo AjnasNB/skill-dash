@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-lnk-file-and-jump-list-artifacts","name":"analyzing-lnk-file-and-jump-list-artifacts","description":"Analyze Windows LNK shortcut files and Jump List artifacts with LECmd, JLECmd, and manual Shell Link Binary Format parsing to establish evidence of file access, program execution, and user activity that persists even after the target file is deleted. Use when investigating Windows user activity, reconstructing file-access or program-execution timelines, or examining recent/frequently-used file evidence in a forensic exam.","category":"Security","tags":["analyzing","lnk","file","jump","list","artifacts","analyze","windows","shortcut","files","lecmd","jlecmd","manual","shell","link","binary","format","parsing"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-lnk-file-and-jump-list-artifacts/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-lnk-file-and-jump-list-artifacts","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-lnk-file-and-jump-list-artifacts","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":43114,"sha256":"e52cda9d1646f4cbaf81f9b695430694310b6fd2484271af0c72b50d1a101e24","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-lnk-file-and-jump-list-artifacts/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-lnk-file-and-jump-list-artifacts/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-lnk-file-and-jump-list-artifacts/SKILL.md","bytes":11299,"sha256":"e52cda9d1646f4cbaf81f9b695430694310b6fd2484271af0c72b50d1a101e24","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-lnk-file-and-jump-list-artifacts/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/analyzing-lnk-file-and-jump-list-artifacts/assets/template.md","bytes":759,"sha256":"16d769814835eb3a8aede460e41082ac9758e4d73d3d7d269361a8288e0ea241","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-lnk-file-and-jump-list-artifacts/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-lnk-file-and-jump-list-artifacts/references/api-reference.md","bytes":3247,"sha256":"d6743023d48956f6aa32e0af57080c5b4be67ab08487be4fd929a4d9e16371e1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-lnk-file-and-jump-list-artifacts/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/analyzing-lnk-file-and-jump-list-artifacts/references/standards.md","bytes":852,"sha256":"2c6fc5ff2a8e9c422c9ce5dea82c16ef6f662df700e63a0b66a5c2eb55be973c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-lnk-file-and-jump-list-artifacts/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/analyzing-lnk-file-and-jump-list-artifacts/references/workflows.md","bytes":952,"sha256":"d22f9769a3082ca4bbe4765838d5a720a15fdc1a9e8a26ff57f3b5bd8282658b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-lnk-file-and-jump-list-artifacts/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-lnk-file-and-jump-list-artifacts/scripts/agent.py","bytes":11370,"sha256":"b3734f21927e0dcec81efc536b1275b5cacbacc83389e6ceaeed4a73b1782832","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-lnk-file-and-jump-list-artifacts/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/analyzing-lnk-file-and-jump-list-artifacts/scripts/process.py","bytes":3380,"sha256":"848993080654ea0601a971b8e4a8b601a22bd9a2a316a162a44194227687895a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-lnk-file-and-jump-list-artifacts/scripts/process.py"}],"archiveSha256":"bb1b9f21aa71463e98f928b9075c2fc074aeecb77a99285d3a1dadb65a593fbb"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-lnk-file-and-jump-list-artifacts",
+    "name": "analyzing-lnk-file-and-jump-list-artifacts",
+    "description": "Analyze Windows LNK shortcut files and Jump List artifacts with LECmd, JLECmd, and manual Shell Link Binary Format parsing to establish evidence of file access, program execution, and user activity that persists even after the target file is deleted. Use when investigating Windows user activity, reconstructing file-access or program-execution timelines, or examining recent/frequently-used file evidence in a forensic exam.",
+    "category": "Security",
+    "tags": [
+      "analyzing",
+      "lnk",
+      "file",
+      "jump",
+      "list",
+      "artifacts",
+      "analyze",
+      "windows",
+      "shortcut",
+      "files",
+      "lecmd",
+      "jlecmd",
+      "manual",
+      "shell",
+      "link",
+      "binary",
+      "format",
+      "parsing"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-lnk-file-and-jump-list-artifacts/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-lnk-file-and-jump-list-artifacts",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-lnk-file-and-jump-list-artifacts",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 43114,
+    "sha256": "e52cda9d1646f4cbaf81f9b695430694310b6fd2484271af0c72b50d1a101e24",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-lnk-file-and-jump-list-artifacts/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-lnk-file-and-jump-list-artifacts/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-lnk-file-and-jump-list-artifacts/SKILL.md",
+      "bytes": 11299,
+      "sha256": "e52cda9d1646f4cbaf81f9b695430694310b6fd2484271af0c72b50d1a101e24",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-lnk-file-and-jump-list-artifacts/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/analyzing-lnk-file-and-jump-list-artifacts/assets/template.md",
+      "bytes": 759,
+      "sha256": "16d769814835eb3a8aede460e41082ac9758e4d73d3d7d269361a8288e0ea241",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-lnk-file-and-jump-list-artifacts/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-lnk-file-and-jump-list-artifacts/references/api-reference.md",
+      "bytes": 3247,
+      "sha256": "d6743023d48956f6aa32e0af57080c5b4be67ab08487be4fd929a4d9e16371e1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-lnk-file-and-jump-list-artifacts/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/analyzing-lnk-file-and-jump-list-artifacts/references/standards.md",
+      "bytes": 852,
+      "sha256": "2c6fc5ff2a8e9c422c9ce5dea82c16ef6f662df700e63a0b66a5c2eb55be973c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-lnk-file-and-jump-list-artifacts/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/analyzing-lnk-file-and-jump-list-artifacts/references/workflows.md",
+      "bytes": 952,
+      "sha256": "d22f9769a3082ca4bbe4765838d5a720a15fdc1a9e8a26ff57f3b5bd8282658b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-lnk-file-and-jump-list-artifacts/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-lnk-file-and-jump-list-artifacts/scripts/agent.py",
+      "bytes": 11370,
+      "sha256": "b3734f21927e0dcec81efc536b1275b5cacbacc83389e6ceaeed4a73b1782832",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-lnk-file-and-jump-list-artifacts/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/analyzing-lnk-file-and-jump-list-artifacts/scripts/process.py",
+      "bytes": 3380,
+      "sha256": "848993080654ea0601a971b8e4a8b601a22bd9a2a316a162a44194227687895a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-lnk-file-and-jump-list-artifacts/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "bb1b9f21aa71463e98f928b9075c2fc074aeecb77a99285d3a1dadb65a593fbb"
+}

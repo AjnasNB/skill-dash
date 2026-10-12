@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--analyzing-powershell-empire-artifacts","name":"analyzing-powershell-empire-artifacts","description":"Detect PowerShell Empire post-exploitation framework artifacts in Windows Script Block Logging (Event ID 4104) and Module Logging (Event ID 4103), including the default launcher string, Base64-encoded WebClient/FromBase64String payloads, known module invocations (Invoke-Mimikatz, Invoke-Kerberoast), and staging URL patterns. Use when hunting for or confirming Empire C2 activity in Windows event logs.","category":"Development","tags":["analyzing","powershell","empire","artifacts","detect","post","exploitation","framework","windows","script","block","logging","event","id","4104","module","4103","including"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/analyzing-powershell-empire-artifacts/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/analyzing-powershell-empire-artifacts","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-powershell-empire-artifacts","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":28417,"sha256":"a0851204739b932fa4a89e022778d73bd542f7b563cd373649c04db98ceeb7fc","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/analyzing-powershell-empire-artifacts/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-powershell-empire-artifacts/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/analyzing-powershell-empire-artifacts/SKILL.md","bytes":2883,"sha256":"a0851204739b932fa4a89e022778d73bd542f7b563cd373649c04db98ceeb7fc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-powershell-empire-artifacts/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/analyzing-powershell-empire-artifacts/references/api-reference.md","bytes":3393,"sha256":"ce3d8b7a298b12fe864d4f52050b0cf71476d01a864e8e8a2a24f0c87efaacf1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-powershell-empire-artifacts/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/analyzing-powershell-empire-artifacts/scripts/agent.py","bytes":10886,"sha256":"b79c860ad57d5aef81a0f0ce5a1927b2c65636b80c16102745cd6d7a9af916a9","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-powershell-empire-artifacts/scripts/agent.py"}],"archiveSha256":"11d5351ad4055091399e57ea3af04c9b9ab24a92152ce9b819dc834da3283ac4"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--analyzing-powershell-empire-artifacts",
+    "name": "analyzing-powershell-empire-artifacts",
+    "description": "Detect PowerShell Empire post-exploitation framework artifacts in Windows Script Block Logging (Event ID 4104) and Module Logging (Event ID 4103), including the default launcher string, Base64-encoded WebClient/FromBase64String payloads, known module invocations (Invoke-Mimikatz, Invoke-Kerberoast), and staging URL patterns. Use when hunting for or confirming Empire C2 activity in Windows event logs.",
+    "category": "Development",
+    "tags": [
+      "analyzing",
+      "powershell",
+      "empire",
+      "artifacts",
+      "detect",
+      "post",
+      "exploitation",
+      "framework",
+      "windows",
+      "script",
+      "block",
+      "logging",
+      "event",
+      "id",
+      "4104",
+      "module",
+      "4103",
+      "including"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/analyzing-powershell-empire-artifacts/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/analyzing-powershell-empire-artifacts",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-powershell-empire-artifacts",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 28417,
+    "sha256": "a0851204739b932fa4a89e022778d73bd542f7b563cd373649c04db98ceeb7fc",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/analyzing-powershell-empire-artifacts/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-powershell-empire-artifacts/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/analyzing-powershell-empire-artifacts/SKILL.md",
+      "bytes": 2883,
+      "sha256": "a0851204739b932fa4a89e022778d73bd542f7b563cd373649c04db98ceeb7fc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-powershell-empire-artifacts/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/analyzing-powershell-empire-artifacts/references/api-reference.md",
+      "bytes": 3393,
+      "sha256": "ce3d8b7a298b12fe864d4f52050b0cf71476d01a864e8e8a2a24f0c87efaacf1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-powershell-empire-artifacts/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/analyzing-powershell-empire-artifacts/scripts/agent.py",
+      "bytes": 10886,
+      "sha256": "b79c860ad57d5aef81a0f0ce5a1927b2c65636b80c16102745cd6d7a9af916a9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/analyzing-powershell-empire-artifacts/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "11d5351ad4055091399e57ea3af04c9b9ab24a92152ce9b819dc834da3283ac4"
+}

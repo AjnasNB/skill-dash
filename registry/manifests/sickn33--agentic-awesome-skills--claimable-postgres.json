@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--claimable-postgres","name":"claimable-postgres","description":"Provision instant temporary Postgres databases via Claimable Postgres by Neon (neon.new) with no login, signup, or credit card. Supports REST API, CLI, and SDK.","category":"Development","tags":["claimable","postgres","provision","instant","temporary","databases","via","by","neon","neon.new","no","login","signup","credit","card.","supports","rest","api"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/claimable-postgres","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claimable-postgres","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":14037,"sha256":"37effa3cbec73a2ed41b91751748b58c4d622496ae4d2e93c93bc7b9bc558b38","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/claimable-postgres/SKILL.md","bytes":12964,"sha256":"37effa3cbec73a2ed41b91751748b58c4d622496ae4d2e93c93bc7b9bc558b38","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claimable-postgres/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"f1ed62d0d570cab6458c3e37126d276224b2889d2e0c2eec19a028a4d49dc82b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--claimable-postgres",
+    "name": "claimable-postgres",
+    "description": "Provision instant temporary Postgres databases via Claimable Postgres by Neon (neon.new) with no login, signup, or credit card. Supports REST API, CLI, and SDK.",
+    "category": "Development",
+    "tags": [
+      "claimable",
+      "postgres",
+      "provision",
+      "instant",
+      "temporary",
+      "databases",
+      "via",
+      "by",
+      "neon",
+      "neon.new",
+      "no",
+      "login",
+      "signup",
+      "credit",
+      "card.",
+      "supports",
+      "rest",
+      "api"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/claimable-postgres",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claimable-postgres",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 14037,
+    "sha256": "37effa3cbec73a2ed41b91751748b58c4d622496ae4d2e93c93bc7b9bc558b38",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/claimable-postgres/SKILL.md",
+      "bytes": 12964,
+      "sha256": "37effa3cbec73a2ed41b91751748b58c4d622496ae4d2e93c93bc7b9bc558b38",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/claimable-postgres/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "f1ed62d0d570cab6458c3e37126d276224b2889d2e0c2eec19a028a4d49dc82b"
+}

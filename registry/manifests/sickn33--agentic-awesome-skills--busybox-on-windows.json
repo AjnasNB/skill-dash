@@ -1,1 +1,57 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--busybox-on-windows","name":"busybox-on-windows","description":"How to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows.","category":"Development","tags":["busybox","windows","win32","run","many","standard","unix","command","line","tools","windows."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/busybox-on-windows","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/busybox-on-windows","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":3630,"sha256":"300825aa12f47e469afc1fca6b94c4c6af1f2df856d46f55d927e6c8f78e4061","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/busybox-on-windows/SKILL.md","bytes":2557,"sha256":"300825aa12f47e469afc1fca6b94c4c6af1f2df856d46f55d927e6c8f78e4061","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/busybox-on-windows/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"3a8f415337e449d9217217da3b2d018e2ee2be11d993a99a63019afe10f7d158"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--busybox-on-windows",
+    "name": "busybox-on-windows",
+    "description": "How to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows.",
+    "category": "Development",
+    "tags": [
+      "busybox",
+      "windows",
+      "win32",
+      "run",
+      "many",
+      "standard",
+      "unix",
+      "command",
+      "line",
+      "tools",
+      "windows."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/busybox-on-windows",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/busybox-on-windows",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 3630,
+    "sha256": "300825aa12f47e469afc1fca6b94c4c6af1f2df856d46f55d927e6c8f78e4061",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/busybox-on-windows/SKILL.md",
+      "bytes": 2557,
+      "sha256": "300825aa12f47e469afc1fca6b94c4c6af1f2df856d46f55d927e6c8f78e4061",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/busybox-on-windows/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "3a8f415337e449d9217217da3b2d018e2ee2be11d993a99a63019afe10f7d158"
+}

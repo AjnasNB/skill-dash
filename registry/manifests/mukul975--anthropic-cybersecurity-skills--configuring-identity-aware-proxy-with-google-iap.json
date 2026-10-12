@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--configuring-identity-aware-proxy-with-google-iap","name":"configuring-identity-aware-proxy-with-google-iap","description":"Configures Google Cloud Identity-Aware Proxy (IAP) via gcloud to enforce per-request identity verification on Compute Engine, App Engine, Cloud Run, and GKE, including IAM bindings, Access Context Manager access levels, session/reauth settings, and service-account programmatic access. Use when replacing VPN access with identity-based access to GCP backends or configuring context-aware, zero-trust policies for Google Cloud services.","category":"Security","tags":["configuring","identity","aware","proxy","google","iap","configures","cloud","via","gcloud","enforce","per","request","verification","compute","engine","app","run"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/configuring-identity-aware-proxy-with-google-iap/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/configuring-identity-aware-proxy-with-google-iap","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-identity-aware-proxy-with-google-iap","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":46511,"sha256":"03e1364aa2a8c6c8846a4851313db4b60136ef89bceb97bd1c6a9ee5027e7b31","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/configuring-identity-aware-proxy-with-google-iap/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-identity-aware-proxy-with-google-iap/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/configuring-identity-aware-proxy-with-google-iap/SKILL.md","bytes":14719,"sha256":"03e1364aa2a8c6c8846a4851313db4b60136ef89bceb97bd1c6a9ee5027e7b31","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-identity-aware-proxy-with-google-iap/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/configuring-identity-aware-proxy-with-google-iap/assets/template.md","bytes":2266,"sha256":"c597ff871952830fe52a8242ab3430498120b9a8567620780b55d941d7d6d6a7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-identity-aware-proxy-with-google-iap/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/configuring-identity-aware-proxy-with-google-iap/references/api-reference.md","bytes":1597,"sha256":"aab9142fa039b3384426dd64bbea3981c2a33b8bfef5af9705141b2ee0ee1cbf","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-identity-aware-proxy-with-google-iap/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/configuring-identity-aware-proxy-with-google-iap/references/standards.md","bytes":1762,"sha256":"d55998b392bedbe17d0c6fc4c561e2ed009a5b7116b0958f5e74ca51b0836c31","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-identity-aware-proxy-with-google-iap/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/configuring-identity-aware-proxy-with-google-iap/references/workflows.md","bytes":2490,"sha256":"b39c31c6f417b2cf6d3a03fcce02da8f29a0614cec8f13304e638c653f2a4e4f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-identity-aware-proxy-with-google-iap/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/configuring-identity-aware-proxy-with-google-iap/scripts/agent.py","bytes":4547,"sha256":"176a2e20cc75db2a0348ef7e5ec3112ea78a05afc7720b085a69b61cb4122293","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-identity-aware-proxy-with-google-iap/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/configuring-identity-aware-proxy-with-google-iap/scripts/process.py","bytes":7875,"sha256":"09847838b39b24fac1aacc2c148100d70e98ef890b270cc160524c785561bb2c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-identity-aware-proxy-with-google-iap/scripts/process.py"}],"archiveSha256":"041b3c2cb0e1e8a73ff00117c36c6cd2e66d20b43ea666113ac51a699829c481"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--configuring-identity-aware-proxy-with-google-iap",
+    "name": "configuring-identity-aware-proxy-with-google-iap",
+    "description": "Configures Google Cloud Identity-Aware Proxy (IAP) via gcloud to enforce per-request identity verification on Compute Engine, App Engine, Cloud Run, and GKE, including IAM bindings, Access Context Manager access levels, session/reauth settings, and service-account programmatic access. Use when replacing VPN access with identity-based access to GCP backends or configuring context-aware, zero-trust policies for Google Cloud services.",
+    "category": "Security",
+    "tags": [
+      "configuring",
+      "identity",
+      "aware",
+      "proxy",
+      "google",
+      "iap",
+      "configures",
+      "cloud",
+      "via",
+      "gcloud",
+      "enforce",
+      "per",
+      "request",
+      "verification",
+      "compute",
+      "engine",
+      "app",
+      "run"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/configuring-identity-aware-proxy-with-google-iap/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/configuring-identity-aware-proxy-with-google-iap",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-identity-aware-proxy-with-google-iap",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 46511,
+    "sha256": "03e1364aa2a8c6c8846a4851313db4b60136ef89bceb97bd1c6a9ee5027e7b31",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/configuring-identity-aware-proxy-with-google-iap/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-identity-aware-proxy-with-google-iap/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/configuring-identity-aware-proxy-with-google-iap/SKILL.md",
+      "bytes": 14719,
+      "sha256": "03e1364aa2a8c6c8846a4851313db4b60136ef89bceb97bd1c6a9ee5027e7b31",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-identity-aware-proxy-with-google-iap/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/configuring-identity-aware-proxy-with-google-iap/assets/template.md",
+      "bytes": 2266,
+      "sha256": "c597ff871952830fe52a8242ab3430498120b9a8567620780b55d941d7d6d6a7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-identity-aware-proxy-with-google-iap/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/configuring-identity-aware-proxy-with-google-iap/references/api-reference.md",
+      "bytes": 1597,
+      "sha256": "aab9142fa039b3384426dd64bbea3981c2a33b8bfef5af9705141b2ee0ee1cbf",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-identity-aware-proxy-with-google-iap/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/configuring-identity-aware-proxy-with-google-iap/references/standards.md",
+      "bytes": 1762,
+      "sha256": "d55998b392bedbe17d0c6fc4c561e2ed009a5b7116b0958f5e74ca51b0836c31",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-identity-aware-proxy-with-google-iap/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/configuring-identity-aware-proxy-with-google-iap/references/workflows.md",
+      "bytes": 2490,
+      "sha256": "b39c31c6f417b2cf6d3a03fcce02da8f29a0614cec8f13304e638c653f2a4e4f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-identity-aware-proxy-with-google-iap/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/configuring-identity-aware-proxy-with-google-iap/scripts/agent.py",
+      "bytes": 4547,
+      "sha256": "176a2e20cc75db2a0348ef7e5ec3112ea78a05afc7720b085a69b61cb4122293",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-identity-aware-proxy-with-google-iap/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/configuring-identity-aware-proxy-with-google-iap/scripts/process.py",
+      "bytes": 7875,
+      "sha256": "09847838b39b24fac1aacc2c148100d70e98ef890b270cc160524c785561bb2c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/configuring-identity-aware-proxy-with-google-iap/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "041b3c2cb0e1e8a73ff00117c36c6cd2e66d20b43ea666113ac51a699829c481"
+}

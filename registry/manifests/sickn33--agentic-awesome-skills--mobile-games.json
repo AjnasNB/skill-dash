@@ -1,1 +1,57 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--mobile-games","name":"mobile-games","description":"Mobile game development principles. Touch input, battery, performance, app stores.","category":"Development","tags":["mobile","games","game","development","principles.","touch","input","battery","performance","app","stores."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/game-development/mobile-games","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/game-development/mobile-games","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":3891,"sha256":"775df7fd3d6028332b5548e16bd4c4735e08c48f4976667a385aabd33e2ccf77","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/game-development/mobile-games/SKILL.md","bytes":2818,"sha256":"775df7fd3d6028332b5548e16bd4c4735e08c48f4976667a385aabd33e2ccf77","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/game-development/mobile-games/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"4c4ddbc2db5d269071db67d7acfc44eeca11c091dbba49bb11b6618a71eae65b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--mobile-games",
+    "name": "mobile-games",
+    "description": "Mobile game development principles. Touch input, battery, performance, app stores.",
+    "category": "Development",
+    "tags": [
+      "mobile",
+      "games",
+      "game",
+      "development",
+      "principles.",
+      "touch",
+      "input",
+      "battery",
+      "performance",
+      "app",
+      "stores."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/game-development/mobile-games",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/game-development/mobile-games",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 3891,
+    "sha256": "775df7fd3d6028332b5548e16bd4c4735e08c48f4976667a385aabd33e2ccf77",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/game-development/mobile-games/SKILL.md",
+      "bytes": 2818,
+      "sha256": "775df7fd3d6028332b5548e16bd4c4735e08c48f4976667a385aabd33e2ccf77",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/game-development/mobile-games/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "4c4ddbc2db5d269071db67d7acfc44eeca11c091dbba49bb11b6618a71eae65b"
+}

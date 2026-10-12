@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--hardware-security","name":"hardware-security","description":"Authorized hardware and embedded interface security research: UART/JTAG discovery, debug-pad triage, secure-boot overview, and offline firmware analysis.","category":"Security","tags":["hardware","security","authorized","embedded","interface","research","uart","jtag","discovery","debug","pad","triage","secure","boot","overview","offline","firmware","analysis."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/hardware-security","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hardware-security","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":4025,"sha256":"f9298a2a5006149a3989a44db06f633f9592cbbd6d9d5f5c3d30b3b22d1c2490","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/hardware-security/SKILL.md","bytes":2735,"sha256":"f9298a2a5006149a3989a44db06f633f9592cbbd6d9d5f5c3d30b3b22d1c2490","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hardware-security/SKILL.md"},{"path":"references/debug-interface-triage.md","sourcePath":"skills/hardware-security/references/debug-interface-triage.md","bytes":217,"sha256":"e74f1cb8c9ad43f4c1f82a0422a958d7c9230b285ffa02dac27554e2db95f62b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hardware-security/references/debug-interface-triage.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"8352c98192b70e6dd390525ccc1d76e485fa1912313304496e14f682a123f748"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--hardware-security",
+    "name": "hardware-security",
+    "description": "Authorized hardware and embedded interface security research: UART/JTAG discovery, debug-pad triage, secure-boot overview, and offline firmware analysis.",
+    "category": "Security",
+    "tags": [
+      "hardware",
+      "security",
+      "authorized",
+      "embedded",
+      "interface",
+      "research",
+      "uart",
+      "jtag",
+      "discovery",
+      "debug",
+      "pad",
+      "triage",
+      "secure",
+      "boot",
+      "overview",
+      "offline",
+      "firmware",
+      "analysis."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/hardware-security",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hardware-security",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 4025,
+    "sha256": "f9298a2a5006149a3989a44db06f633f9592cbbd6d9d5f5c3d30b3b22d1c2490",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hardware-security/SKILL.md",
+      "bytes": 2735,
+      "sha256": "f9298a2a5006149a3989a44db06f633f9592cbbd6d9d5f5c3d30b3b22d1c2490",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hardware-security/SKILL.md"
+    },
+    {
+      "path": "references/debug-interface-triage.md",
+      "sourcePath": "skills/hardware-security/references/debug-interface-triage.md",
+      "bytes": 217,
+      "sha256": "e74f1cb8c9ad43f4c1f82a0422a958d7c9230b285ffa02dac27554e2db95f62b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/hardware-security/references/debug-interface-triage.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "8352c98192b70e6dd390525ccc1d76e485fa1912313304496e14f682a123f748"
+}

@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--unslop-commit","name":"unslop-commit","description":"Rewrites commit messages so they sound like a careful human engineer wrote them. Strips AI/marketing slop (\"comprehensive solution\", \"robust implementation\", \"leverage\", \"enhance\", \"seamlessly\", \"This commit...\"). Keeps Conventional Commits format.","category":"Video & audio","tags":["unslop","commit","rewrites","messages","so","they","sound","like","careful","human","engineer","wrote","them.","strips","ai","marketing","slop","comprehensive"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/unslop-commit","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/unslop-commit","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5468,"sha256":"61ed6174406e743b0177600570486f61a732a8368f71b7b61fde426c221b7dfb","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/unslop-commit/SKILL.md","bytes":4395,"sha256":"61ed6174406e743b0177600570486f61a732a8368f71b7b61fde426c221b7dfb","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/unslop-commit/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"c902edcc73ebbd346e1de894183ce9cf56d1ada70a4d0ffbc3e4f3c3c316164b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--unslop-commit",
+    "name": "unslop-commit",
+    "description": "Rewrites commit messages so they sound like a careful human engineer wrote them. Strips AI/marketing slop (\"comprehensive solution\", \"robust implementation\", \"leverage\", \"enhance\", \"seamlessly\", \"This commit...\"). Keeps Conventional Commits format.",
+    "category": "Video & audio",
+    "tags": [
+      "unslop",
+      "commit",
+      "rewrites",
+      "messages",
+      "so",
+      "they",
+      "sound",
+      "like",
+      "careful",
+      "human",
+      "engineer",
+      "wrote",
+      "them.",
+      "strips",
+      "ai",
+      "marketing",
+      "slop",
+      "comprehensive"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/unslop-commit",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/unslop-commit",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5468,
+    "sha256": "61ed6174406e743b0177600570486f61a732a8368f71b7b61fde426c221b7dfb",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/unslop-commit/SKILL.md",
+      "bytes": 4395,
+      "sha256": "61ed6174406e743b0177600570486f61a732a8368f71b7b61fde426c221b7dfb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/unslop-commit/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "c902edcc73ebbd346e1de894183ce9cf56d1ada70a4d0ffbc3e4f3c3c316164b"
+}

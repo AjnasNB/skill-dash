@@ -1,1 +1,60 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--agent-orchestration-improve-agent","name":"agent-orchestration-improve-agent","description":"Systematic improvement of existing agents through performance analysis, prompt engineering, and continuous iteration.","category":"AI & agents","tags":["agent","orchestration","improve","systematic","improvement","existing","agents","through","performance","analysis","prompt","engineering","continuous","iteration."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/agent-orchestration-improve-agent","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-orchestration-improve-agent","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":11580,"sha256":"705fdb2cee09461ce2ffbf0ece199a0f4d16e632b541ef3b07d6533c28c3f5b4","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/agent-orchestration-improve-agent/SKILL.md","bytes":10507,"sha256":"705fdb2cee09461ce2ffbf0ece199a0f4d16e632b541ef3b07d6533c28c3f5b4","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-orchestration-improve-agent/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"b8f93eb922c4ace5d8e0bc33a57096ba34d48da24f6d089692286c0939c78251"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--agent-orchestration-improve-agent",
+    "name": "agent-orchestration-improve-agent",
+    "description": "Systematic improvement of existing agents through performance analysis, prompt engineering, and continuous iteration.",
+    "category": "AI & agents",
+    "tags": [
+      "agent",
+      "orchestration",
+      "improve",
+      "systematic",
+      "improvement",
+      "existing",
+      "agents",
+      "through",
+      "performance",
+      "analysis",
+      "prompt",
+      "engineering",
+      "continuous",
+      "iteration."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/agent-orchestration-improve-agent",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-orchestration-improve-agent",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 11580,
+    "sha256": "705fdb2cee09461ce2ffbf0ece199a0f4d16e632b541ef3b07d6533c28c3f5b4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/agent-orchestration-improve-agent/SKILL.md",
+      "bytes": 10507,
+      "sha256": "705fdb2cee09461ce2ffbf0ece199a0f4d16e632b541ef3b07d6533c28c3f5b4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/agent-orchestration-improve-agent/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "b8f93eb922c4ace5d8e0bc33a57096ba34d48da24f6d089692286c0939c78251"
+}

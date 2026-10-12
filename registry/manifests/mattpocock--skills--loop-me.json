@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"mattpocock--skills--loop-me","name":"loop-me","description":"Grill me about specs for the workflows I want to build, within this workspace.","category":"Development","tags":["loop","grill","about","specs","workflows","within","workspace."],"repo":"mattpocock/skills","owner":"mattpocock","stars":287125,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"49dd158d1076134a641b33efb035946536778336","path":"skills/in-progress/loop-me","sourceUrl":"https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/in-progress/loop-me","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-09T10:56:49Z","fileCount":3,"bytes":3730,"sha256":"e44d1cc3e760fb86ac42964c2a5f1fcac511715db50fb375f3f7be814de1eaa7","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/in-progress/loop-me/SKILL.md","bytes":2522,"sha256":"e44d1cc3e760fb86ac42964c2a5f1fcac511715db50fb375f3f7be814de1eaa7","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/in-progress/loop-me/SKILL.md"},{"path":"agents/openai.yaml","sourcePath":"skills/in-progress/loop-me/agents/openai.yaml","bytes":140,"sha256":"b66fa10079957051be6a812f45e55b67ac394b71d5ba88349962b4c9205802c3","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/in-progress/loop-me/agents/openai.yaml"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1068,"sha256":"0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/LICENSE"}],"archiveSha256":"5568c6dfd87d73969007e6171b9d4bdff1bd902665803daae5f469a9eb988d73"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mattpocock--skills--loop-me",
+    "name": "loop-me",
+    "description": "Grill me about specs for the workflows I want to build, within this workspace.",
+    "category": "Development",
+    "tags": [
+      "loop",
+      "grill",
+      "about",
+      "specs",
+      "workflows",
+      "within",
+      "workspace."
+    ],
+    "repo": "mattpocock/skills",
+    "owner": "mattpocock",
+    "stars": 287125,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "49dd158d1076134a641b33efb035946536778336",
+    "path": "skills/in-progress/loop-me",
+    "sourceUrl": "https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/in-progress/loop-me",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-09T10:56:49Z",
+    "fileCount": 3,
+    "bytes": 3730,
+    "sha256": "e44d1cc3e760fb86ac42964c2a5f1fcac511715db50fb375f3f7be814de1eaa7",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/in-progress/loop-me/SKILL.md",
+      "bytes": 2522,
+      "sha256": "e44d1cc3e760fb86ac42964c2a5f1fcac511715db50fb375f3f7be814de1eaa7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/in-progress/loop-me/SKILL.md"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sourcePath": "skills/in-progress/loop-me/agents/openai.yaml",
+      "bytes": 140,
+      "sha256": "b66fa10079957051be6a812f45e55b67ac394b71d5ba88349962b4c9205802c3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/in-progress/loop-me/agents/openai.yaml"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1068,
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/LICENSE"
+    }
+  ],
+  "archiveSha256": "5568c6dfd87d73969007e6171b9d4bdff1bd902665803daae5f469a9eb988d73"
+}

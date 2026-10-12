@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-iec-62443-security-zones","name":"implementing-iec-62443-security-zones","description":"Designs security zones and conduits for industrial control systems (IACS) per IEC 62443-3-2 — risk-based zone partitioning, Security Level target (SL-T) assignment, conduit controls, and firewall microsegmentation validated against the Purdue Reference Model. Use when designing OT network zones for a new facility, retrofitting zones into a flat OT network, or upgrading VLAN-only segmentation for IEC 62443-3-2 compliance.","category":"Security","tags":["implementing","iec","62443","security","zones","designs","conduits","industrial","control","systems","iacs","per","risk","based","zone","partitioning","level","target"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-iec-62443-security-zones/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-iec-62443-security-zones","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-iec-62443-security-zones","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":42181,"sha256":"2c0f18df76c07ed469867d7133fb0398c55731b071739dea4075e094ca8301bd","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-iec-62443-security-zones/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-iec-62443-security-zones/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-iec-62443-security-zones/SKILL.md","bytes":20147,"sha256":"2c0f18df76c07ed469867d7133fb0398c55731b071739dea4075e094ca8301bd","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-iec-62443-security-zones/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-iec-62443-security-zones/references/api-reference.md","bytes":1770,"sha256":"2b7abe86d577395cdec5e1a915312f62cc17d7344e03b990ca10397aa214345f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-iec-62443-security-zones/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-iec-62443-security-zones/scripts/agent.py","bytes":9009,"sha256":"3485dea98d1602803d70a69884582ced771470f3243d70c5071a4c2134b5d683","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-iec-62443-security-zones/scripts/agent.py"}],"archiveSha256":"6cea501046fe5c85f7281ba94d4050b6f7ed8aa8ab54bfd9d4737b7471d10284"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-iec-62443-security-zones",
+    "name": "implementing-iec-62443-security-zones",
+    "description": "Designs security zones and conduits for industrial control systems (IACS) per IEC 62443-3-2 — risk-based zone partitioning, Security Level target (SL-T) assignment, conduit controls, and firewall microsegmentation validated against the Purdue Reference Model. Use when designing OT network zones for a new facility, retrofitting zones into a flat OT network, or upgrading VLAN-only segmentation for IEC 62443-3-2 compliance.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "iec",
+      "62443",
+      "security",
+      "zones",
+      "designs",
+      "conduits",
+      "industrial",
+      "control",
+      "systems",
+      "iacs",
+      "per",
+      "risk",
+      "based",
+      "zone",
+      "partitioning",
+      "level",
+      "target"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-iec-62443-security-zones/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-iec-62443-security-zones",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-iec-62443-security-zones",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 42181,
+    "sha256": "2c0f18df76c07ed469867d7133fb0398c55731b071739dea4075e094ca8301bd",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-iec-62443-security-zones/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-iec-62443-security-zones/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-iec-62443-security-zones/SKILL.md",
+      "bytes": 20147,
+      "sha256": "2c0f18df76c07ed469867d7133fb0398c55731b071739dea4075e094ca8301bd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-iec-62443-security-zones/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-iec-62443-security-zones/references/api-reference.md",
+      "bytes": 1770,
+      "sha256": "2b7abe86d577395cdec5e1a915312f62cc17d7344e03b990ca10397aa214345f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-iec-62443-security-zones/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-iec-62443-security-zones/scripts/agent.py",
+      "bytes": 9009,
+      "sha256": "3485dea98d1602803d70a69884582ced771470f3243d70c5071a4c2134b5d683",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-iec-62443-security-zones/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "6cea501046fe5c85f7281ba94d4050b6f7ed8aa8ab54bfd9d4737b7471d10284"
+}

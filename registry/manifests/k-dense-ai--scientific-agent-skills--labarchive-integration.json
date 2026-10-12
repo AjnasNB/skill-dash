@@ -1,1 +1,120 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--labarchive-integration","name":"labarchive-integration","description":"Integrates with the official LabArchives ELN REST-like API and Inventory API v1. Supports regional endpoint selection, signed-request construction, user authorization and UID flows, local LA container validation, and verified LabArchives integration workflows.","category":"Automation","tags":["labarchive","integration","integrates","official","labarchives","eln","rest","like","api","inventory","v1.","supports","regional","endpoint","selection","signed","request","construction"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/labarchive-integration","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/labarchive-integration","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":9,"bytes":91190,"sha256":"dcc452099ec0c4db3bf7aa0417bfeb70b14d249650be316b67f4f495461d1c0a","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/labarchive-integration/SKILL.md","bytes":11741,"sha256":"dcc452099ec0c4db3bf7aa0417bfeb70b14d249650be316b67f4f495461d1c0a","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/labarchive-integration/SKILL.md"},{"path":"references/api_reference.md","sourcePath":"skills/labarchive-integration/references/api_reference.md","bytes":13044,"sha256":"7aeaa4726aa7dbe0a8195ec09f09d0294813d48dff43a43bd09575a91f00d21c","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/labarchive-integration/references/api_reference.md"},{"path":"references/authentication_guide.md","sourcePath":"skills/labarchive-integration/references/authentication_guide.md","bytes":9604,"sha256":"d3973a022aa0979fd4da876b5bcd10875c925dce0a67123062bb4dba7a295c39","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/labarchive-integration/references/authentication_guide.md"},{"path":"references/integrations.md","sourcePath":"skills/labarchive-integration/references/integrations.md","bytes":6912,"sha256":"25214f7a5e7c33b92e08997876122c751e70133adfde468741fbc842b00ef3c7","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/labarchive-integration/references/integrations.md"},{"path":"references/sources.md","sourcePath":"skills/labarchive-integration/references/sources.md","bytes":11297,"sha256":"c1077feba4ac9057ce8bc17caf0eb2c716ccfbde66b7d26b36ffa947265650b9","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/labarchive-integration/references/sources.md"},{"path":"scripts/entry_operations.py","sourcePath":"skills/labarchive-integration/scripts/entry_operations.py","bytes":13126,"sha256":"5bc0ebbe779d10b53198b420dff7a6f1d366cbc92ef5d1882601b8e93f9f2f5a","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/labarchive-integration/scripts/entry_operations.py"},{"path":"scripts/notebook_operations.py","sourcePath":"skills/labarchive-integration/scripts/notebook_operations.py","bytes":15659,"sha256":"b3c3c12202a844ffe221c0b426ef3e3b89a00c25adba62d7b4b9df48d1f40a57","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/labarchive-integration/scripts/notebook_operations.py"},{"path":"scripts/setup_config.py","sourcePath":"skills/labarchive-integration/scripts/setup_config.py","bytes":8739,"sha256":"56bed2ebc09f12457aa1b69e982d030994af45cc059fe03426fcdd38acf34143","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/labarchive-integration/scripts/setup_config.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"56c668d1627aa792f394e291dd2ba8d13e747ef51ebc51338fd4f39528c9bd5e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--labarchive-integration",
+    "name": "labarchive-integration",
+    "description": "Integrates with the official LabArchives ELN REST-like API and Inventory API v1. Supports regional endpoint selection, signed-request construction, user authorization and UID flows, local LA container validation, and verified LabArchives integration workflows.",
+    "category": "Automation",
+    "tags": [
+      "labarchive",
+      "integration",
+      "integrates",
+      "official",
+      "labarchives",
+      "eln",
+      "rest",
+      "like",
+      "api",
+      "inventory",
+      "v1.",
+      "supports",
+      "regional",
+      "endpoint",
+      "selection",
+      "signed",
+      "request",
+      "construction"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/labarchive-integration",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/labarchive-integration",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 9,
+    "bytes": 91190,
+    "sha256": "dcc452099ec0c4db3bf7aa0417bfeb70b14d249650be316b67f4f495461d1c0a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/labarchive-integration/SKILL.md",
+      "bytes": 11741,
+      "sha256": "dcc452099ec0c4db3bf7aa0417bfeb70b14d249650be316b67f4f495461d1c0a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/labarchive-integration/SKILL.md"
+    },
+    {
+      "path": "references/api_reference.md",
+      "sourcePath": "skills/labarchive-integration/references/api_reference.md",
+      "bytes": 13044,
+      "sha256": "7aeaa4726aa7dbe0a8195ec09f09d0294813d48dff43a43bd09575a91f00d21c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/labarchive-integration/references/api_reference.md"
+    },
+    {
+      "path": "references/authentication_guide.md",
+      "sourcePath": "skills/labarchive-integration/references/authentication_guide.md",
+      "bytes": 9604,
+      "sha256": "d3973a022aa0979fd4da876b5bcd10875c925dce0a67123062bb4dba7a295c39",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/labarchive-integration/references/authentication_guide.md"
+    },
+    {
+      "path": "references/integrations.md",
+      "sourcePath": "skills/labarchive-integration/references/integrations.md",
+      "bytes": 6912,
+      "sha256": "25214f7a5e7c33b92e08997876122c751e70133adfde468741fbc842b00ef3c7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/labarchive-integration/references/integrations.md"
+    },
+    {
+      "path": "references/sources.md",
+      "sourcePath": "skills/labarchive-integration/references/sources.md",
+      "bytes": 11297,
+      "sha256": "c1077feba4ac9057ce8bc17caf0eb2c716ccfbde66b7d26b36ffa947265650b9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/labarchive-integration/references/sources.md"
+    },
+    {
+      "path": "scripts/entry_operations.py",
+      "sourcePath": "skills/labarchive-integration/scripts/entry_operations.py",
+      "bytes": 13126,
+      "sha256": "5bc0ebbe779d10b53198b420dff7a6f1d366cbc92ef5d1882601b8e93f9f2f5a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/labarchive-integration/scripts/entry_operations.py"
+    },
+    {
+      "path": "scripts/notebook_operations.py",
+      "sourcePath": "skills/labarchive-integration/scripts/notebook_operations.py",
+      "bytes": 15659,
+      "sha256": "b3c3c12202a844ffe221c0b426ef3e3b89a00c25adba62d7b4b9df48d1f40a57",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/labarchive-integration/scripts/notebook_operations.py"
+    },
+    {
+      "path": "scripts/setup_config.py",
+      "sourcePath": "skills/labarchive-integration/scripts/setup_config.py",
+      "bytes": 8739,
+      "sha256": "56bed2ebc09f12457aa1b69e982d030994af45cc059fe03426fcdd38acf34143",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/labarchive-integration/scripts/setup_config.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "56c668d1627aa792f394e291dd2ba8d13e747ef51ebc51338fd4f39528c9bd5e"
+}

@@ -1,1 +1,120 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--electron-drive-skill","name":"electron-drive-skill","description":"Launch the project's Electron app on a scratch profile and drive it: click, type, screenshot, run renderer or main-process code, read logs. Use to verify UI changes end to end.","category":"Design","tags":["electron","drive","skill","launch","project","app","scratch","profile","it","click","type","screenshot","run","renderer","main","process","code","read"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"skills/electron-drive-skill/LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/electron-drive-skill","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-drive-skill","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":9,"bytes":45980,"sha256":"b6218bb5026fcc984944fe6e581c1d935847fc323fbe1eea41bb76997dc154cc","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/electron-drive-skill/LICENSE","bytes":1071,"sha256":"95858ea1178637b71f9e5dc5b33712059ea64aeaa89933c2d41c31e41af4d757","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-drive-skill/LICENSE"},{"path":"README.md","sourcePath":"skills/electron-drive-skill/README.md","bytes":6545,"sha256":"cd17d76ec3834163e40ed6b74a1fb80b46c0dd66818a07e09de46ba8689642ca","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-drive-skill/README.md"},{"path":"SKILL.md","sourcePath":"skills/electron-drive-skill/SKILL.md","bytes":9904,"sha256":"b6218bb5026fcc984944fe6e581c1d935847fc323fbe1eea41bb76997dc154cc","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-drive-skill/SKILL.md"},{"path":"drive.config.json.example","sourcePath":"skills/electron-drive-skill/drive.config.json.example","bytes":201,"sha256":"c2ca949679b62bbe30bc440be6a9467b29229cdb051055e12205c2380fb9de18","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-drive-skill/drive.config.json.example"},{"path":"package.json","sourcePath":"skills/electron-drive-skill/package.json","bytes":753,"sha256":"d32f528d741734b4f3ffd5f731a1d9bbdc7e7603e0b0a9c34c7d7e453c16669b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-drive-skill/package.json"},{"path":"scripts/daemon.mjs","sourcePath":"skills/electron-drive-skill/scripts/daemon.mjs","bytes":11084,"sha256":"a86684d56a83e5343f9d74bd85a6e0d9a0807e5417ea359139777c37b7d64210","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-drive-skill/scripts/daemon.mjs"},{"path":"scripts/drive.mjs","sourcePath":"skills/electron-drive-skill/scripts/drive.mjs","bytes":9037,"sha256":"8185f7cc96fb8d01244e7acc436df330f851f1272671c3ae8c73b6c609ed6a80","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-drive-skill/scripts/drive.mjs"},{"path":"scripts/lib.mjs","sourcePath":"skills/electron-drive-skill/scripts/lib.mjs","bytes":5166,"sha256":"cbd2b7039159a153ba0dde1ab01d9b01df416f84a61be97a6b2db7b306d8937a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-drive-skill/scripts/lib.mjs"},{"path":"scripts/lib.test.mjs","sourcePath":"skills/electron-drive-skill/scripts/lib.test.mjs","bytes":2219,"sha256":"0502699fcd64ec0169f01265f6c774ab077470b4d700f3037e1f6d53b0db1d8a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-drive-skill/scripts/lib.test.mjs"}],"archiveSha256":"011b10abe3a14ccd23a6cb0fbfbe795b99fb1adc2d74514146ff63ac3ad84cc2"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--electron-drive-skill",
+    "name": "electron-drive-skill",
+    "description": "Launch the project's Electron app on a scratch profile and drive it: click, type, screenshot, run renderer or main-process code, read logs. Use to verify UI changes end to end.",
+    "category": "Design",
+    "tags": [
+      "electron",
+      "drive",
+      "skill",
+      "launch",
+      "project",
+      "app",
+      "scratch",
+      "profile",
+      "it",
+      "click",
+      "type",
+      "screenshot",
+      "run",
+      "renderer",
+      "main",
+      "process",
+      "code",
+      "read"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "skills/electron-drive-skill/LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/electron-drive-skill",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-drive-skill",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 9,
+    "bytes": 45980,
+    "sha256": "b6218bb5026fcc984944fe6e581c1d935847fc323fbe1eea41bb76997dc154cc",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/electron-drive-skill/LICENSE",
+      "bytes": 1071,
+      "sha256": "95858ea1178637b71f9e5dc5b33712059ea64aeaa89933c2d41c31e41af4d757",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-drive-skill/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "sourcePath": "skills/electron-drive-skill/README.md",
+      "bytes": 6545,
+      "sha256": "cd17d76ec3834163e40ed6b74a1fb80b46c0dd66818a07e09de46ba8689642ca",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-drive-skill/README.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/electron-drive-skill/SKILL.md",
+      "bytes": 9904,
+      "sha256": "b6218bb5026fcc984944fe6e581c1d935847fc323fbe1eea41bb76997dc154cc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-drive-skill/SKILL.md"
+    },
+    {
+      "path": "drive.config.json.example",
+      "sourcePath": "skills/electron-drive-skill/drive.config.json.example",
+      "bytes": 201,
+      "sha256": "c2ca949679b62bbe30bc440be6a9467b29229cdb051055e12205c2380fb9de18",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-drive-skill/drive.config.json.example"
+    },
+    {
+      "path": "package.json",
+      "sourcePath": "skills/electron-drive-skill/package.json",
+      "bytes": 753,
+      "sha256": "d32f528d741734b4f3ffd5f731a1d9bbdc7e7603e0b0a9c34c7d7e453c16669b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-drive-skill/package.json"
+    },
+    {
+      "path": "scripts/daemon.mjs",
+      "sourcePath": "skills/electron-drive-skill/scripts/daemon.mjs",
+      "bytes": 11084,
+      "sha256": "a86684d56a83e5343f9d74bd85a6e0d9a0807e5417ea359139777c37b7d64210",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-drive-skill/scripts/daemon.mjs"
+    },
+    {
+      "path": "scripts/drive.mjs",
+      "sourcePath": "skills/electron-drive-skill/scripts/drive.mjs",
+      "bytes": 9037,
+      "sha256": "8185f7cc96fb8d01244e7acc436df330f851f1272671c3ae8c73b6c609ed6a80",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-drive-skill/scripts/drive.mjs"
+    },
+    {
+      "path": "scripts/lib.mjs",
+      "sourcePath": "skills/electron-drive-skill/scripts/lib.mjs",
+      "bytes": 5166,
+      "sha256": "cbd2b7039159a153ba0dde1ab01d9b01df416f84a61be97a6b2db7b306d8937a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-drive-skill/scripts/lib.mjs"
+    },
+    {
+      "path": "scripts/lib.test.mjs",
+      "sourcePath": "skills/electron-drive-skill/scripts/lib.test.mjs",
+      "bytes": 2219,
+      "sha256": "0502699fcd64ec0169f01265f6c774ab077470b4d700f3037e1f6d53b0db1d8a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/electron-drive-skill/scripts/lib.test.mjs"
+    }
+  ],
+  "archiveSha256": "011b10abe3a14ccd23a6cb0fbfbe795b99fb1adc2d74514146ff63ac3ad84cc2"
+}

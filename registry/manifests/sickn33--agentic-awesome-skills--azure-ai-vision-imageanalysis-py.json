@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--azure-ai-vision-imageanalysis-py","name":"azure-ai-vision-imageanalysis-py","description":"Azure AI Vision Image Analysis SDK for captions, tags, objects, OCR, people detection, and smart cropping. Use for computer vision and image understanding tasks.","category":"Video & audio","tags":["azure","ai","vision","imageanalysis","py","image","analysis","sdk","captions","tags","objects","ocr","people","detection","smart","cropping.","computer","understanding"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/azure-ai-vision-imageanalysis-py","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-vision-imageanalysis-py","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":8090,"sha256":"1b625f659fb751832559b4efb496b1b50fb53d78149a3256e424857ab03a1e4a","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/azure-ai-vision-imageanalysis-py/SKILL.md","bytes":7017,"sha256":"1b625f659fb751832559b4efb496b1b50fb53d78149a3256e424857ab03a1e4a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-vision-imageanalysis-py/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"9739cdb9925719fcd812080eb8943ce399fc2dd51f2dc094122233faba61238d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--azure-ai-vision-imageanalysis-py",
+    "name": "azure-ai-vision-imageanalysis-py",
+    "description": "Azure AI Vision Image Analysis SDK for captions, tags, objects, OCR, people detection, and smart cropping. Use for computer vision and image understanding tasks.",
+    "category": "Video & audio",
+    "tags": [
+      "azure",
+      "ai",
+      "vision",
+      "imageanalysis",
+      "py",
+      "image",
+      "analysis",
+      "sdk",
+      "captions",
+      "tags",
+      "objects",
+      "ocr",
+      "people",
+      "detection",
+      "smart",
+      "cropping.",
+      "computer",
+      "understanding"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/azure-ai-vision-imageanalysis-py",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-vision-imageanalysis-py",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 8090,
+    "sha256": "1b625f659fb751832559b4efb496b1b50fb53d78149a3256e424857ab03a1e4a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/azure-ai-vision-imageanalysis-py/SKILL.md",
+      "bytes": 7017,
+      "sha256": "1b625f659fb751832559b4efb496b1b50fb53d78149a3256e424857ab03a1e4a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-ai-vision-imageanalysis-py/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "9739cdb9925719fcd812080eb8943ce399fc2dd51f2dc094122233faba61238d"
+}

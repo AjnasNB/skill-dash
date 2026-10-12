@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--gpu-kubernetes-operations","name":"gpu-kubernetes-operations","description":"Operate GPU-backed Kubernetes clusters for AI inference and training with scheduling, autoscaling, node health, MIG partitioning, and cost controls.","category":"Cloud & DevOps","tags":["gpu","kubernetes","operations","operate","backed","clusters","ai","inference","training","scheduling","autoscaling","node","health","mig","partitioning","cost","controls."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/gpu-kubernetes-operations","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gpu-kubernetes-operations","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":13851,"sha256":"522ec8c599a1a317322f302f4cd9a87d041e2467472bb54ec93e21fc32a3b184","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/gpu-kubernetes-operations/SKILL.md","bytes":12778,"sha256":"522ec8c599a1a317322f302f4cd9a87d041e2467472bb54ec93e21fc32a3b184","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gpu-kubernetes-operations/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"6df162b68730b323179e4479ce15d1473ac269e28351a552ec8a1ffde4794a60"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--gpu-kubernetes-operations",
+    "name": "gpu-kubernetes-operations",
+    "description": "Operate GPU-backed Kubernetes clusters for AI inference and training with scheduling, autoscaling, node health, MIG partitioning, and cost controls.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "gpu",
+      "kubernetes",
+      "operations",
+      "operate",
+      "backed",
+      "clusters",
+      "ai",
+      "inference",
+      "training",
+      "scheduling",
+      "autoscaling",
+      "node",
+      "health",
+      "mig",
+      "partitioning",
+      "cost",
+      "controls."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/gpu-kubernetes-operations",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gpu-kubernetes-operations",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 13851,
+    "sha256": "522ec8c599a1a317322f302f4cd9a87d041e2467472bb54ec93e21fc32a3b184",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/gpu-kubernetes-operations/SKILL.md",
+      "bytes": 12778,
+      "sha256": "522ec8c599a1a317322f302f4cd9a87d041e2467472bb54ec93e21fc32a3b184",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/gpu-kubernetes-operations/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "6df162b68730b323179e4479ce15d1473ac269e28351a552ec8a1ffde4794a60"
+}

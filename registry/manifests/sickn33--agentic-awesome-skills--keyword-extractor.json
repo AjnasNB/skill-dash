@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--keyword-extractor","name":"keyword-extractor","description":"Extracts up to 50 highly relevant SEO keywords from text. Use when user wants to generate or extract keywords for given text.","category":"Marketing","tags":["keyword","extractor","extracts","up","50","highly","relevant","seo","keywords","from","text.","when","user","wants","generate","extract","given"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/keyword-extractor","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/keyword-extractor","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5326,"sha256":"591117595ed897ef393d9960b56cc6c4005fed07b77a9bfc2c3d3a0c88ca4b19","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/keyword-extractor/SKILL.md","bytes":4253,"sha256":"591117595ed897ef393d9960b56cc6c4005fed07b77a9bfc2c3d3a0c88ca4b19","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/keyword-extractor/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"779ca872ace4b3143d5a44041619ea133fc4002a44f0399ea9959aeaa0a2bd91"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--keyword-extractor",
+    "name": "keyword-extractor",
+    "description": "Extracts up to 50 highly relevant SEO keywords from text. Use when user wants to generate or extract keywords for given text.",
+    "category": "Marketing",
+    "tags": [
+      "keyword",
+      "extractor",
+      "extracts",
+      "up",
+      "50",
+      "highly",
+      "relevant",
+      "seo",
+      "keywords",
+      "from",
+      "text.",
+      "when",
+      "user",
+      "wants",
+      "generate",
+      "extract",
+      "given"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/keyword-extractor",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/keyword-extractor",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5326,
+    "sha256": "591117595ed897ef393d9960b56cc6c4005fed07b77a9bfc2c3d3a0c88ca4b19",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/keyword-extractor/SKILL.md",
+      "bytes": 4253,
+      "sha256": "591117595ed897ef393d9960b56cc6c4005fed07b77a9bfc2c3d3a0c88ca4b19",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/keyword-extractor/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "779ca872ace4b3143d5a44041619ea133fc4002a44f0399ea9959aeaa0a2bd91"
+}

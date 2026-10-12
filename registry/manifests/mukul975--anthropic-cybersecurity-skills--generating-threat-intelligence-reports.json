@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--generating-threat-intelligence-reports","name":"generating-threat-intelligence-reports","description":"Generates structured cyber threat intelligence reports at strategic, operational, and tactical levels tailored to specific audiences including executives, security operations teams, and technical analysts. Use when producing finished intelligence products from raw collection data, creating sector threat briefings, or delivering post-incident intelligence assessments. Activates for requests involving CTI report writing, threat briefings, intelligence products, finished intelligence, or executive security reporting.","category":"Security","tags":["generating","threat","intelligence","reports","generates","structured","cyber","at","strategic","operational","tactical","levels","tailored","specific","audiences","including","executives","security"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/generating-threat-intelligence-reports/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/generating-threat-intelligence-reports","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/generating-threat-intelligence-reports","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":30754,"sha256":"b671898958252a362f90f91c52fe24c5ade4a7d5978efa5d01fdc4c4f53d92e5","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/generating-threat-intelligence-reports/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/generating-threat-intelligence-reports/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/generating-threat-intelligence-reports/SKILL.md","bytes":7737,"sha256":"b671898958252a362f90f91c52fe24c5ade4a7d5978efa5d01fdc4c4f53d92e5","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/generating-threat-intelligence-reports/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/generating-threat-intelligence-reports/references/api-reference.md","bytes":2865,"sha256":"89f7d520a3eafe0dc222ec292257f156ef284da48b27464512ae5b1b32e6815b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/generating-threat-intelligence-reports/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/generating-threat-intelligence-reports/scripts/agent.py","bytes":8897,"sha256":"896c0ce6ff065e7aad37d0e5ab93e93a01c32fb66820a45fe2646a81ba256120","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/generating-threat-intelligence-reports/scripts/agent.py"}],"archiveSha256":"1b49613c0ce81b0acac5ed3cf6c65c82d00767baa68447456349d17ede50d97e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--generating-threat-intelligence-reports",
+    "name": "generating-threat-intelligence-reports",
+    "description": "Generates structured cyber threat intelligence reports at strategic, operational, and tactical levels tailored to specific audiences including executives, security operations teams, and technical analysts. Use when producing finished intelligence products from raw collection data, creating sector threat briefings, or delivering post-incident intelligence assessments. Activates for requests involving CTI report writing, threat briefings, intelligence products, finished intelligence, or executive security reporting.",
+    "category": "Security",
+    "tags": [
+      "generating",
+      "threat",
+      "intelligence",
+      "reports",
+      "generates",
+      "structured",
+      "cyber",
+      "at",
+      "strategic",
+      "operational",
+      "tactical",
+      "levels",
+      "tailored",
+      "specific",
+      "audiences",
+      "including",
+      "executives",
+      "security"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/generating-threat-intelligence-reports/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/generating-threat-intelligence-reports",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/generating-threat-intelligence-reports",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 30754,
+    "sha256": "b671898958252a362f90f91c52fe24c5ade4a7d5978efa5d01fdc4c4f53d92e5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/generating-threat-intelligence-reports/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/generating-threat-intelligence-reports/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/generating-threat-intelligence-reports/SKILL.md",
+      "bytes": 7737,
+      "sha256": "b671898958252a362f90f91c52fe24c5ade4a7d5978efa5d01fdc4c4f53d92e5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/generating-threat-intelligence-reports/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/generating-threat-intelligence-reports/references/api-reference.md",
+      "bytes": 2865,
+      "sha256": "89f7d520a3eafe0dc222ec292257f156ef284da48b27464512ae5b1b32e6815b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/generating-threat-intelligence-reports/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/generating-threat-intelligence-reports/scripts/agent.py",
+      "bytes": 8897,
+      "sha256": "896c0ce6ff065e7aad37d0e5ab93e93a01c32fb66820a45fe2646a81ba256120",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/generating-threat-intelligence-reports/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "1b49613c0ce81b0acac5ed3cf6c65c82d00767baa68447456349d17ede50d97e"
+}

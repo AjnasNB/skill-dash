@@ -1,1 +1,61 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--explain-like-socrates","name":"explain-like-socrates","description":"Explains concepts using Socratic-style dialogue. Use when the user asks to explain, teach or help understand a concept like socrates.","category":"Development","tags":["explain","like","socrates","explains","concepts","socratic","style","dialogue.","when","user","asks","teach","understand","concept","socrates."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/explain-like-socrates","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/explain-like-socrates","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5680,"sha256":"78f99d5cdf8c696f059385230df4a837b909252bd30151a2c0909db7f3af5111","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/explain-like-socrates/SKILL.md","bytes":4607,"sha256":"78f99d5cdf8c696f059385230df4a837b909252bd30151a2c0909db7f3af5111","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/explain-like-socrates/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"8f8806cb34b1a7d16033c69a779339947e51c3af0755f2d44d7e57692cdbe334"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--explain-like-socrates",
+    "name": "explain-like-socrates",
+    "description": "Explains concepts using Socratic-style dialogue. Use when the user asks to explain, teach or help understand a concept like socrates.",
+    "category": "Development",
+    "tags": [
+      "explain",
+      "like",
+      "socrates",
+      "explains",
+      "concepts",
+      "socratic",
+      "style",
+      "dialogue.",
+      "when",
+      "user",
+      "asks",
+      "teach",
+      "understand",
+      "concept",
+      "socrates."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/explain-like-socrates",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/explain-like-socrates",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5680,
+    "sha256": "78f99d5cdf8c696f059385230df4a837b909252bd30151a2c0909db7f3af5111",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/explain-like-socrates/SKILL.md",
+      "bytes": 4607,
+      "sha256": "78f99d5cdf8c696f059385230df4a837b909252bd30151a2c0909db7f3af5111",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/explain-like-socrates/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "8f8806cb34b1a7d16033c69a779339947e51c3af0755f2d44d7e57692cdbe334"
+}

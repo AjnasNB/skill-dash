@@ -1,1 +1,58 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--azure-keyvault-certificates-rust","name":"azure-keyvault-certificates-rust","description":"Azure Key Vault Certificates SDK for Rust. Use for creating, importing, and managing certificates.","category":"Cloud & DevOps","tags":["azure","keyvault","certificates","rust","key","vault","sdk","rust.","creating","importing","managing","certificates."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/azure-keyvault-certificates-rust","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-keyvault-certificates-rust","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5934,"sha256":"a4356bbc4533836b3d796df09be815986e36f9eb30969382ce0c0fa25afe156b","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/azure-keyvault-certificates-rust/SKILL.md","bytes":4861,"sha256":"a4356bbc4533836b3d796df09be815986e36f9eb30969382ce0c0fa25afe156b","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-keyvault-certificates-rust/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"13da6dabd3f224e12f7bd8eabc95fba3bf8ccb729955da2ac1422bfecb0b11c2"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--azure-keyvault-certificates-rust",
+    "name": "azure-keyvault-certificates-rust",
+    "description": "Azure Key Vault Certificates SDK for Rust. Use for creating, importing, and managing certificates.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "azure",
+      "keyvault",
+      "certificates",
+      "rust",
+      "key",
+      "vault",
+      "sdk",
+      "rust.",
+      "creating",
+      "importing",
+      "managing",
+      "certificates."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/azure-keyvault-certificates-rust",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-keyvault-certificates-rust",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5934,
+    "sha256": "a4356bbc4533836b3d796df09be815986e36f9eb30969382ce0c0fa25afe156b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/azure-keyvault-certificates-rust/SKILL.md",
+      "bytes": 4861,
+      "sha256": "a4356bbc4533836b3d796df09be815986e36f9eb30969382ce0c0fa25afe156b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-keyvault-certificates-rust/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "13da6dabd3f224e12f7bd8eabc95fba3bf8ccb729955da2ac1422bfecb0b11c2"
+}

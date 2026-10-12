@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--hunting-for-defense-evasion-via-timestomping","name":"hunting-for-defense-evasion-via-timestomping","description":"Detect NTFS timestamp manipulation (MITRE T1070.006) by comparing $STANDARD_INFORMATION vs $FILE_NAME timestamps in the MFT. Uses analyzeMFT and Python to identify files with anomalous temporal patterns indicating anti-forensic timestomping activity.","category":"Security","tags":["hunting","defense","evasion","via","timestomping","detect","ntfs","timestamp","manipulation","mitre","t1070.006","by","comparing","standard","information","vs","file","name"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/hunting-for-defense-evasion-via-timestomping/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/hunting-for-defense-evasion-via-timestomping","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-defense-evasion-via-timestomping","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":35975,"sha256":"885e81dc78f59848ed66ce9d279837078ec14c30e811bcf12f52585949183d7f","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/hunting-for-defense-evasion-via-timestomping/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-defense-evasion-via-timestomping/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/hunting-for-defense-evasion-via-timestomping/SKILL.md","bytes":14595,"sha256":"885e81dc78f59848ed66ce9d279837078ec14c30e811bcf12f52585949183d7f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-defense-evasion-via-timestomping/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/hunting-for-defense-evasion-via-timestomping/references/api-reference.md","bytes":1964,"sha256":"7f480d0e6fba4c4d7f659c223026b38e3aab7a80ec35ea8a4511b38ec1452202","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-defense-evasion-via-timestomping/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/hunting-for-defense-evasion-via-timestomping/scripts/agent.py","bytes":8161,"sha256":"0f1e02ed125d8c7d973bb73508404b53754344d5619836555863786a45441a16","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-defense-evasion-via-timestomping/scripts/agent.py"}],"archiveSha256":"e80a187ae12e76cd2515f124eef5ddbeb82c1d89140031abf6dfb596746cb46a"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-for-defense-evasion-via-timestomping",
+    "name": "hunting-for-defense-evasion-via-timestomping",
+    "description": "Detect NTFS timestamp manipulation (MITRE T1070.006) by comparing $STANDARD_INFORMATION vs $FILE_NAME timestamps in the MFT. Uses analyzeMFT and Python to identify files with anomalous temporal patterns indicating anti-forensic timestomping activity.",
+    "category": "Security",
+    "tags": [
+      "hunting",
+      "defense",
+      "evasion",
+      "via",
+      "timestomping",
+      "detect",
+      "ntfs",
+      "timestamp",
+      "manipulation",
+      "mitre",
+      "t1070.006",
+      "by",
+      "comparing",
+      "standard",
+      "information",
+      "vs",
+      "file",
+      "name"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-for-defense-evasion-via-timestomping/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-for-defense-evasion-via-timestomping",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-defense-evasion-via-timestomping",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 35975,
+    "sha256": "885e81dc78f59848ed66ce9d279837078ec14c30e811bcf12f52585949183d7f",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-for-defense-evasion-via-timestomping/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-defense-evasion-via-timestomping/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-for-defense-evasion-via-timestomping/SKILL.md",
+      "bytes": 14595,
+      "sha256": "885e81dc78f59848ed66ce9d279837078ec14c30e811bcf12f52585949183d7f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-defense-evasion-via-timestomping/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-for-defense-evasion-via-timestomping/references/api-reference.md",
+      "bytes": 1964,
+      "sha256": "7f480d0e6fba4c4d7f659c223026b38e3aab7a80ec35ea8a4511b38ec1452202",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-defense-evasion-via-timestomping/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-for-defense-evasion-via-timestomping/scripts/agent.py",
+      "bytes": 8161,
+      "sha256": "0f1e02ed125d8c7d973bb73508404b53754344d5619836555863786a45441a16",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-defense-evasion-via-timestomping/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "e80a187ae12e76cd2515f124eef5ddbeb82c1d89140031abf6dfb596746cb46a"
+}

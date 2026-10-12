@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--citation-management","name":"citation-management","description":"Manage citations systematically throughout the research and writing process.","category":"Data & research","tags":["citation","management","manage","citations","systematically","throughout","research","writing","process."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/citation-management","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/citation-management","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":34306,"sha256":"cc419f088934205f30ec3704a63d3ab5766128ac57599950b5116600b58b18b4","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/citation-management/SKILL.md","bytes":4704,"sha256":"cc419f088934205f30ec3704a63d3ab5766128ac57599950b5116600b58b18b4","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/citation-management/SKILL.md"},{"path":"references/detailed-guide.md","sourcePath":"skills/citation-management/references/detailed-guide.md","bytes":28529,"sha256":"ad26ec6666c69df98e4de03bcf86f4c55c90f586f2489e78154c1df544069ef8","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/citation-management/references/detailed-guide.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"721e2c1e1f3f0d5034d65da06c3cbd59c82896af66e6aae8ceeb08f458d36fb4"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--citation-management",
+    "name": "citation-management",
+    "description": "Manage citations systematically throughout the research and writing process.",
+    "category": "Data & research",
+    "tags": [
+      "citation",
+      "management",
+      "manage",
+      "citations",
+      "systematically",
+      "throughout",
+      "research",
+      "writing",
+      "process."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/citation-management",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/citation-management",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 34306,
+    "sha256": "cc419f088934205f30ec3704a63d3ab5766128ac57599950b5116600b58b18b4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/citation-management/SKILL.md",
+      "bytes": 4704,
+      "sha256": "cc419f088934205f30ec3704a63d3ab5766128ac57599950b5116600b58b18b4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/citation-management/SKILL.md"
+    },
+    {
+      "path": "references/detailed-guide.md",
+      "sourcePath": "skills/citation-management/references/detailed-guide.md",
+      "bytes": 28529,
+      "sha256": "ad26ec6666c69df98e4de03bcf86f4c55c90f586f2489e78154c1df544069ef8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/citation-management/references/detailed-guide.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "721e2c1e1f3f0d5034d65da06c3cbd59c82896af66e6aae8ceeb08f458d36fb4"
+}

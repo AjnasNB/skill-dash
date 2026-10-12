@@ -1,1 +1,120 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--waypoint-bio","name":"waypoint-bio","description":"Supports work with Outpost Bio's open microbiome foundation models - the Waypoint checkpoints (Waypoint-6m, Waypoint-45m, Waypoint-170m), the Atlas pretraining corpus, the Compass eight-task benchmark, or the `waypoint` CLI from the `waypoint-bio` package. Covers embedding microbiome samples, fine-tuning on taxonomic abundance data, benchmarking a checkpoint on Compass, pretraining a GPT-2 model on taxonomic abundance profiles, and converting MetaPhlAn, Kraken2, QIIME 2, or MGnify abundance tables into waypoint format.","category":"AI & agents","tags":["waypoint","bio","supports","work","outpost","open","microbiome","foundation","models","checkpoints","6m","45m","170m","atlas","pretraining","corpus","compass","eight"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/waypoint-bio","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/waypoint-bio","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":9,"bytes":92052,"sha256":"132d1f33d5d99bd6288a4cb432b277fcbc0f8bc4315e333dcecb840e7adc87a5","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/waypoint-bio/SKILL.md","bytes":16666,"sha256":"132d1f33d5d99bd6288a4cb432b277fcbc0f8bc4315e333dcecb840e7adc87a5","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/waypoint-bio/SKILL.md"},{"path":"references/cli-reference.md","sourcePath":"skills/waypoint-bio/references/cli-reference.md","bytes":10874,"sha256":"bb6f673ea630f2254258a7a7ce9130529b98c7307e1e3296fd5e30682f639d18","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/waypoint-bio/references/cli-reference.md"},{"path":"references/compass-benchmark.md","sourcePath":"skills/waypoint-bio/references/compass-benchmark.md","bytes":8107,"sha256":"b6fe09ffd0c650894fb794ee2dbd9104d7b24a7f9dc384a69c3bfbc3f10d3d47","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/waypoint-bio/references/compass-benchmark.md"},{"path":"references/data-preparation.md","sourcePath":"skills/waypoint-bio/references/data-preparation.md","bytes":11155,"sha256":"af09e87aec1f5269ee40611bceedfcaf86c4135088eff11409d864b414f5e80b","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/waypoint-bio/references/data-preparation.md"},{"path":"references/python-api.md","sourcePath":"skills/waypoint-bio/references/python-api.md","bytes":10681,"sha256":"d057e7508b90fb00d0fea7c8d0a882f536e78c4f47c6181848f131fc28338cff","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/waypoint-bio/references/python-api.md"},{"path":"references/upstream-review.md","sourcePath":"skills/waypoint-bio/references/upstream-review.md","bytes":5434,"sha256":"0886fd5b03d73588fa486d127b01b59370898bbc83406c4103640e333ee7e331","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/waypoint-bio/references/upstream-review.md"},{"path":"scripts/profiler_to_waypoint.py","sourcePath":"skills/waypoint-bio/scripts/profiler_to_waypoint.py","bytes":18410,"sha256":"e51ffcc65199c9e48d441f48d56c49b88a4c0af2593e34d8d973691787665875","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/waypoint-bio/scripts/profiler_to_waypoint.py"},{"path":"scripts/vocab_coverage.py","sourcePath":"skills/waypoint-bio/scripts/vocab_coverage.py","bytes":9657,"sha256":"6c4f0aca02eeb6363008f527345f2b7e718edd5367f32ca9a5386239eae3fb22","mode":493,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/waypoint-bio/scripts/vocab_coverage.py"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"75cb77563d19e8b0336e66f6231c7280661f909cc8920057d666e7a4cb489df4"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--waypoint-bio",
+    "name": "waypoint-bio",
+    "description": "Supports work with Outpost Bio's open microbiome foundation models - the Waypoint checkpoints (Waypoint-6m, Waypoint-45m, Waypoint-170m), the Atlas pretraining corpus, the Compass eight-task benchmark, or the `waypoint` CLI from the `waypoint-bio` package. Covers embedding microbiome samples, fine-tuning on taxonomic abundance data, benchmarking a checkpoint on Compass, pretraining a GPT-2 model on taxonomic abundance profiles, and converting MetaPhlAn, Kraken2, QIIME 2, or MGnify abundance tables into waypoint format.",
+    "category": "AI & agents",
+    "tags": [
+      "waypoint",
+      "bio",
+      "supports",
+      "work",
+      "outpost",
+      "open",
+      "microbiome",
+      "foundation",
+      "models",
+      "checkpoints",
+      "6m",
+      "45m",
+      "170m",
+      "atlas",
+      "pretraining",
+      "corpus",
+      "compass",
+      "eight"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/waypoint-bio",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/waypoint-bio",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 9,
+    "bytes": 92052,
+    "sha256": "132d1f33d5d99bd6288a4cb432b277fcbc0f8bc4315e333dcecb840e7adc87a5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/waypoint-bio/SKILL.md",
+      "bytes": 16666,
+      "sha256": "132d1f33d5d99bd6288a4cb432b277fcbc0f8bc4315e333dcecb840e7adc87a5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/waypoint-bio/SKILL.md"
+    },
+    {
+      "path": "references/cli-reference.md",
+      "sourcePath": "skills/waypoint-bio/references/cli-reference.md",
+      "bytes": 10874,
+      "sha256": "bb6f673ea630f2254258a7a7ce9130529b98c7307e1e3296fd5e30682f639d18",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/waypoint-bio/references/cli-reference.md"
+    },
+    {
+      "path": "references/compass-benchmark.md",
+      "sourcePath": "skills/waypoint-bio/references/compass-benchmark.md",
+      "bytes": 8107,
+      "sha256": "b6fe09ffd0c650894fb794ee2dbd9104d7b24a7f9dc384a69c3bfbc3f10d3d47",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/waypoint-bio/references/compass-benchmark.md"
+    },
+    {
+      "path": "references/data-preparation.md",
+      "sourcePath": "skills/waypoint-bio/references/data-preparation.md",
+      "bytes": 11155,
+      "sha256": "af09e87aec1f5269ee40611bceedfcaf86c4135088eff11409d864b414f5e80b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/waypoint-bio/references/data-preparation.md"
+    },
+    {
+      "path": "references/python-api.md",
+      "sourcePath": "skills/waypoint-bio/references/python-api.md",
+      "bytes": 10681,
+      "sha256": "d057e7508b90fb00d0fea7c8d0a882f536e78c4f47c6181848f131fc28338cff",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/waypoint-bio/references/python-api.md"
+    },
+    {
+      "path": "references/upstream-review.md",
+      "sourcePath": "skills/waypoint-bio/references/upstream-review.md",
+      "bytes": 5434,
+      "sha256": "0886fd5b03d73588fa486d127b01b59370898bbc83406c4103640e333ee7e331",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/waypoint-bio/references/upstream-review.md"
+    },
+    {
+      "path": "scripts/profiler_to_waypoint.py",
+      "sourcePath": "skills/waypoint-bio/scripts/profiler_to_waypoint.py",
+      "bytes": 18410,
+      "sha256": "e51ffcc65199c9e48d441f48d56c49b88a4c0af2593e34d8d973691787665875",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/waypoint-bio/scripts/profiler_to_waypoint.py"
+    },
+    {
+      "path": "scripts/vocab_coverage.py",
+      "sourcePath": "skills/waypoint-bio/scripts/vocab_coverage.py",
+      "bytes": 9657,
+      "sha256": "6c4f0aca02eeb6363008f527345f2b7e718edd5367f32ca9a5386239eae3fb22",
+      "mode": 493,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/waypoint-bio/scripts/vocab_coverage.py"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "75cb77563d19e8b0336e66f6231c7280661f909cc8920057d666e7a4cb489df4"
+}

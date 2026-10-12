@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--context-degradation","name":"context-degradation","description":"Language models exhibit predictable degradation patterns as context length increases. Understanding these patterns is essential for diagnosing failures and designing resilient systems.","category":"Development","tags":["context","degradation","language","models","exhibit","predictable","patterns","as","length","increases.","understanding","these","is","essential","diagnosing","failures","designing","resilient"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/context-degradation","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/context-degradation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":16831,"sha256":"0a8b766ca1a70fa3355b80b3b8323234a8219091ee2c3d84bccc72c10e817f8e","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/context-degradation/SKILL.md","bytes":15758,"sha256":"0a8b766ca1a70fa3355b80b3b8323234a8219091ee2c3d84bccc72c10e817f8e","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/context-degradation/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"7b92ba09e2b9e0a82584af1bb7a50193bedc7ed894d5196e332a90f4e51225f6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--context-degradation",
+    "name": "context-degradation",
+    "description": "Language models exhibit predictable degradation patterns as context length increases. Understanding these patterns is essential for diagnosing failures and designing resilient systems.",
+    "category": "Development",
+    "tags": [
+      "context",
+      "degradation",
+      "language",
+      "models",
+      "exhibit",
+      "predictable",
+      "patterns",
+      "as",
+      "length",
+      "increases.",
+      "understanding",
+      "these",
+      "is",
+      "essential",
+      "diagnosing",
+      "failures",
+      "designing",
+      "resilient"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/context-degradation",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/context-degradation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 16831,
+    "sha256": "0a8b766ca1a70fa3355b80b3b8323234a8219091ee2c3d84bccc72c10e817f8e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/context-degradation/SKILL.md",
+      "bytes": 15758,
+      "sha256": "0a8b766ca1a70fa3355b80b3b8323234a8219091ee2c3d84bccc72c10e817f8e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/context-degradation/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "7b92ba09e2b9e0a82584af1bb7a50193bedc7ed894d5196e332a90f4e51225f6"
+}

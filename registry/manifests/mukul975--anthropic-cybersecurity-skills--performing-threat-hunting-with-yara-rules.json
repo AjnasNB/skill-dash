@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-threat-hunting-with-yara-rules","name":"performing-threat-hunting-with-yara-rules","description":"Use YARA pattern-matching rules to hunt for malware, suspicious files, and indicators of compromise across filesystems and memory dumps. Covers rule authoring, yara-python scanning, and integration with threat intel feeds.","category":"Security","tags":["performing","threat","hunting","yara","rules","pattern","matching","hunt","malware","suspicious","files","indicators","compromise","across","filesystems","memory","dumps.","covers"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-threat-hunting-with-yara-rules/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-threat-hunting-with-yara-rules","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-hunting-with-yara-rules","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":32996,"sha256":"11e3834b50ebae2fd65f3f60ee40f7636abbbb8e97b13fe50f27ccb05fd42396","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-threat-hunting-with-yara-rules/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-hunting-with-yara-rules/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-threat-hunting-with-yara-rules/SKILL.md","bytes":13822,"sha256":"11e3834b50ebae2fd65f3f60ee40f7636abbbb8e97b13fe50f27ccb05fd42396","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-hunting-with-yara-rules/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-threat-hunting-with-yara-rules/references/api-reference.md","bytes":2176,"sha256":"7e60de8ecf4b785e528ed30d774e3710bdda09721b9a4038ccd52ed4fefdcf38","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-hunting-with-yara-rules/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-threat-hunting-with-yara-rules/scripts/agent.py","bytes":5743,"sha256":"215d4b6c0a4c5414b32d4954165ff7ad59cdfd4542eeb01de47fbf42cca7f170","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-hunting-with-yara-rules/scripts/agent.py"}],"archiveSha256":"050c0cc118a76c38eea08878383aecf9d3daecf426dcdc20b92f63bc28c9a906"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-threat-hunting-with-yara-rules",
+    "name": "performing-threat-hunting-with-yara-rules",
+    "description": "Use YARA pattern-matching rules to hunt for malware, suspicious files, and indicators of compromise across filesystems and memory dumps. Covers rule authoring, yara-python scanning, and integration with threat intel feeds.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "threat",
+      "hunting",
+      "yara",
+      "rules",
+      "pattern",
+      "matching",
+      "hunt",
+      "malware",
+      "suspicious",
+      "files",
+      "indicators",
+      "compromise",
+      "across",
+      "filesystems",
+      "memory",
+      "dumps.",
+      "covers"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-threat-hunting-with-yara-rules/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-threat-hunting-with-yara-rules",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-hunting-with-yara-rules",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32996,
+    "sha256": "11e3834b50ebae2fd65f3f60ee40f7636abbbb8e97b13fe50f27ccb05fd42396",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-threat-hunting-with-yara-rules/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-hunting-with-yara-rules/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-threat-hunting-with-yara-rules/SKILL.md",
+      "bytes": 13822,
+      "sha256": "11e3834b50ebae2fd65f3f60ee40f7636abbbb8e97b13fe50f27ccb05fd42396",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-hunting-with-yara-rules/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-threat-hunting-with-yara-rules/references/api-reference.md",
+      "bytes": 2176,
+      "sha256": "7e60de8ecf4b785e528ed30d774e3710bdda09721b9a4038ccd52ed4fefdcf38",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-hunting-with-yara-rules/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-threat-hunting-with-yara-rules/scripts/agent.py",
+      "bytes": 5743,
+      "sha256": "215d4b6c0a4c5414b32d4954165ff7ad59cdfd4542eeb01de47fbf42cca7f170",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-threat-hunting-with-yara-rules/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "050c0cc118a76c38eea08878383aecf9d3daecf426dcdc20b92f63bc28c9a906"
+}

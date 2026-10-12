@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--scientific-thinking-scholar-evaluation","name":"scientific-thinking-scholar-evaluation","description":"Structured scholarly-work evaluation for papers, proposals, literature reviews, methods sections, evidence quality, citation support, and research-writing feedback. Use when evaluating academic or scientific work — papers, proposals, methods sections, or evidence quality — against a repeatable rubric.","category":"Data & research","tags":["scientific","thinking","scholar","evaluation","structured","scholarly","work","papers","proposals","literature","reviews","methods","sections","evidence","quality","citation","support","research"],"repo":"affaan-m/ECC","owner":"affaan-m","stars":277532,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"b92f181b3b748d1abbc2afd94af6aa7d8c8fca29","path":"skills/scientific-thinking-scholar-evaluation","sourceUrl":"https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/scientific-thinking-scholar-evaluation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T02:02:10Z","fileCount":2,"bytes":5977,"sha256":"079ed9182c086fbb2168b723f36cb167d4cb2272a10a41b131f38945d2f0b145","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/scientific-thinking-scholar-evaluation/SKILL.md","bytes":4906,"sha256":"079ed9182c086fbb2168b723f36cb167d4cb2272a10a41b131f38945d2f0b145","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/scientific-thinking-scholar-evaluation/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"}],"archiveSha256":"98a51a3b88ac580127bbd0824a33cb69256c8168d8c6385baf707f5474b7178b"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--scientific-thinking-scholar-evaluation",
+    "name": "scientific-thinking-scholar-evaluation",
+    "description": "Structured scholarly-work evaluation for papers, proposals, literature reviews, methods sections, evidence quality, citation support, and research-writing feedback. Use when evaluating academic or scientific work — papers, proposals, methods sections, or evidence quality — against a repeatable rubric.",
+    "category": "Data & research",
+    "tags": [
+      "scientific",
+      "thinking",
+      "scholar",
+      "evaluation",
+      "structured",
+      "scholarly",
+      "work",
+      "papers",
+      "proposals",
+      "literature",
+      "reviews",
+      "methods",
+      "sections",
+      "evidence",
+      "quality",
+      "citation",
+      "support",
+      "research"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/scientific-thinking-scholar-evaluation",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/scientific-thinking-scholar-evaluation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 2,
+    "bytes": 5977,
+    "sha256": "079ed9182c086fbb2168b723f36cb167d4cb2272a10a41b131f38945d2f0b145",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/scientific-thinking-scholar-evaluation/SKILL.md",
+      "bytes": 4906,
+      "sha256": "079ed9182c086fbb2168b723f36cb167d4cb2272a10a41b131f38945d2f0b145",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/scientific-thinking-scholar-evaluation/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "98a51a3b88ac580127bbd0824a33cb69256c8168d8c6385baf707f5474b7178b"
+}

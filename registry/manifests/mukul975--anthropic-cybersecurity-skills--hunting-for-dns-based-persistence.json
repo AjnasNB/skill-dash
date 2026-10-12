@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--hunting-for-dns-based-persistence","name":"hunting-for-dns-based-persistence","description":"Hunts for DNS-based persistence mechanisms such as DNS hijacking, dangling CNAME records enabling subdomain takeover, wildcard DNS abuse, and unauthorized zone or NS delegation changes, using passive DNS history (SecurityTrails API), Route53/Azure DNS/Cloudflare audit logs, and zone transfer analysis. Use when investigating suspected DNS hijacking or subdomain takeover, or when threat hunting for DNS record tampering that persists across credential rotations and endpoint reimaging.","category":"Security","tags":["hunting","dns","based","persistence","hunts","mechanisms","such","as","hijacking","dangling","cname","records","enabling","subdomain","takeover","wildcard","abuse","unauthorized"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/hunting-for-dns-based-persistence/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/hunting-for-dns-based-persistence","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-based-persistence","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":23831,"sha256":"41375c94f09a786dd73e75c59d77a8bad121a0cba0c934a7d4395ecb2b6db2c3","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/hunting-for-dns-based-persistence/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-based-persistence/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/hunting-for-dns-based-persistence/SKILL.md","bytes":3160,"sha256":"41375c94f09a786dd73e75c59d77a8bad121a0cba0c934a7d4395ecb2b6db2c3","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-based-persistence/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/hunting-for-dns-based-persistence/references/api-reference.md","bytes":2657,"sha256":"718d2aa30b40933b93c9b8a029f6aea7d001dbfccb39c02a5af3a2b8bbf005c6","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-based-persistence/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/hunting-for-dns-based-persistence/scripts/agent.py","bytes":6759,"sha256":"838255de5b76007376eb57a5095304e2b34324d1cb14b977e4ac7212a38f2aee","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-based-persistence/scripts/agent.py"}],"archiveSha256":"162667c742729ed329c6c87ac5497df8c6e29b5713f4cf1dad791e1ea5d8dab1"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-for-dns-based-persistence",
+    "name": "hunting-for-dns-based-persistence",
+    "description": "Hunts for DNS-based persistence mechanisms such as DNS hijacking, dangling CNAME records enabling subdomain takeover, wildcard DNS abuse, and unauthorized zone or NS delegation changes, using passive DNS history (SecurityTrails API), Route53/Azure DNS/Cloudflare audit logs, and zone transfer analysis. Use when investigating suspected DNS hijacking or subdomain takeover, or when threat hunting for DNS record tampering that persists across credential rotations and endpoint reimaging.",
+    "category": "Security",
+    "tags": [
+      "hunting",
+      "dns",
+      "based",
+      "persistence",
+      "hunts",
+      "mechanisms",
+      "such",
+      "as",
+      "hijacking",
+      "dangling",
+      "cname",
+      "records",
+      "enabling",
+      "subdomain",
+      "takeover",
+      "wildcard",
+      "abuse",
+      "unauthorized"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-for-dns-based-persistence/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-for-dns-based-persistence",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-based-persistence",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 23831,
+    "sha256": "41375c94f09a786dd73e75c59d77a8bad121a0cba0c934a7d4395ecb2b6db2c3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-for-dns-based-persistence/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-based-persistence/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-for-dns-based-persistence/SKILL.md",
+      "bytes": 3160,
+      "sha256": "41375c94f09a786dd73e75c59d77a8bad121a0cba0c934a7d4395ecb2b6db2c3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-based-persistence/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-for-dns-based-persistence/references/api-reference.md",
+      "bytes": 2657,
+      "sha256": "718d2aa30b40933b93c9b8a029f6aea7d001dbfccb39c02a5af3a2b8bbf005c6",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-based-persistence/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-for-dns-based-persistence/scripts/agent.py",
+      "bytes": 6759,
+      "sha256": "838255de5b76007376eb57a5095304e2b34324d1cb14b977e4ac7212a38f2aee",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-dns-based-persistence/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "162667c742729ed329c6c87ac5497df8c6e29b5713f4cf1dad791e1ea5d8dab1"
+}

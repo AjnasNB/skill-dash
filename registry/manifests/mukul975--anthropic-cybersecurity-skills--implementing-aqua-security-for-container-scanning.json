@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-aqua-security-for-container-scanning","name":"implementing-aqua-security-for-container-scanning","description":"Deploy Aqua Security's Trivy scanner to detect vulnerabilities, misconfigurations, secrets, and license issues in container images across CI/CD pipelines and registries.","category":"Security","tags":["implementing","aqua","security","container","scanning","deploy","trivy","scanner","detect","vulnerabilities","misconfigurations","secrets","license","issues","images","across","ci","cd"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-aqua-security-for-container-scanning/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-aqua-security-for-container-scanning","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aqua-security-for-container-scanning","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":35847,"sha256":"37d6bcd5314eeda63fc292b8bc1ed6772ca37ecfae9821866aed150e922c67dd","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-aqua-security-for-container-scanning/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aqua-security-for-container-scanning/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-aqua-security-for-container-scanning/SKILL.md","bytes":7470,"sha256":"37d6bcd5314eeda63fc292b8bc1ed6772ca37ecfae9821866aed150e922c67dd","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aqua-security-for-container-scanning/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-aqua-security-for-container-scanning/assets/template.md","bytes":866,"sha256":"ad65504a5f8d3c27edc5d307d85280568f47a6154acdcdcebeae17ada8348a0a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aqua-security-for-container-scanning/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-aqua-security-for-container-scanning/references/api-reference.md","bytes":1977,"sha256":"5eb81166212e765052cd557d16118daf11b34baba1d6d4c1c569b4749e4a5258","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aqua-security-for-container-scanning/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-aqua-security-for-container-scanning/references/standards.md","bytes":1633,"sha256":"4d731bac7263106232533644ca47574bc93b069be95527113e735ea15d5f48d5","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aqua-security-for-container-scanning/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-aqua-security-for-container-scanning/references/workflows.md","bytes":1245,"sha256":"a55331c904987b7ccd0233489896a689dfcbacc2a0ac8dcea7457045410e72fd","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aqua-security-for-container-scanning/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-aqua-security-for-container-scanning/scripts/agent.py","bytes":5887,"sha256":"27408b4f54ef80338c483303c87401cf89fbf554d51001362597a104e40eeca7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aqua-security-for-container-scanning/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-aqua-security-for-container-scanning/scripts/process.py","bytes":5514,"sha256":"a56757c2c7e824bfdbf3e3700623f0cb992a376063dda9b9b8b642f13b29b1f2","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aqua-security-for-container-scanning/scripts/process.py"}],"archiveSha256":"6a4cb8870b2d2b1870fecf409a2cd693c66a8a4c3daff5d8ab136e64eecd4132"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-aqua-security-for-container-scanning",
+    "name": "implementing-aqua-security-for-container-scanning",
+    "description": "Deploy Aqua Security's Trivy scanner to detect vulnerabilities, misconfigurations, secrets, and license issues in container images across CI/CD pipelines and registries.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "aqua",
+      "security",
+      "container",
+      "scanning",
+      "deploy",
+      "trivy",
+      "scanner",
+      "detect",
+      "vulnerabilities",
+      "misconfigurations",
+      "secrets",
+      "license",
+      "issues",
+      "images",
+      "across",
+      "ci",
+      "cd"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-aqua-security-for-container-scanning/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-aqua-security-for-container-scanning",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aqua-security-for-container-scanning",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 35847,
+    "sha256": "37d6bcd5314eeda63fc292b8bc1ed6772ca37ecfae9821866aed150e922c67dd",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-aqua-security-for-container-scanning/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aqua-security-for-container-scanning/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-aqua-security-for-container-scanning/SKILL.md",
+      "bytes": 7470,
+      "sha256": "37d6bcd5314eeda63fc292b8bc1ed6772ca37ecfae9821866aed150e922c67dd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aqua-security-for-container-scanning/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-aqua-security-for-container-scanning/assets/template.md",
+      "bytes": 866,
+      "sha256": "ad65504a5f8d3c27edc5d307d85280568f47a6154acdcdcebeae17ada8348a0a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aqua-security-for-container-scanning/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-aqua-security-for-container-scanning/references/api-reference.md",
+      "bytes": 1977,
+      "sha256": "5eb81166212e765052cd557d16118daf11b34baba1d6d4c1c569b4749e4a5258",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aqua-security-for-container-scanning/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-aqua-security-for-container-scanning/references/standards.md",
+      "bytes": 1633,
+      "sha256": "4d731bac7263106232533644ca47574bc93b069be95527113e735ea15d5f48d5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aqua-security-for-container-scanning/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-aqua-security-for-container-scanning/references/workflows.md",
+      "bytes": 1245,
+      "sha256": "a55331c904987b7ccd0233489896a689dfcbacc2a0ac8dcea7457045410e72fd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aqua-security-for-container-scanning/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-aqua-security-for-container-scanning/scripts/agent.py",
+      "bytes": 5887,
+      "sha256": "27408b4f54ef80338c483303c87401cf89fbf554d51001362597a104e40eeca7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aqua-security-for-container-scanning/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-aqua-security-for-container-scanning/scripts/process.py",
+      "bytes": 5514,
+      "sha256": "a56757c2c7e824bfdbf3e3700623f0cb992a376063dda9b9b8b642f13b29b1f2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-aqua-security-for-container-scanning/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "6a4cb8870b2d2b1870fecf409a2cd693c66a8a4c3daff5d8ab136e64eecd4132"
+}

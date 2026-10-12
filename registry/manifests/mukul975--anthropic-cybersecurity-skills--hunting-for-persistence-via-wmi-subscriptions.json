@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--hunting-for-persistence-via-wmi-subscriptions","name":"hunting-for-persistence-via-wmi-subscriptions","description":"Hunts for adversary persistence via WMI event subscriptions (MITRE T1546.003) by monitoring the creation of WMI event filters, consumers, and filter-to-consumer bindings that trigger malicious code execution on system events. Use when investigating fileless, trigger-based persistence on Windows hosts or auditing WMI repository contents for malicious event subscriptions.","category":"Development","tags":["hunting","persistence","via","wmi","subscriptions","hunts","adversary","event","mitre","t1546.003","by","monitoring","creation","filters","consumers","filter","consumer","bindings"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/hunting-for-persistence-via-wmi-subscriptions/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/hunting-for-persistence-via-wmi-subscriptions","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-persistence-via-wmi-subscriptions","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":39415,"sha256":"64d1846c4991edad875803e616010f9ed0d59858295dc11ed84575599ed3f6b5","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/hunting-for-persistence-via-wmi-subscriptions/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-persistence-via-wmi-subscriptions/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/hunting-for-persistence-via-wmi-subscriptions/SKILL.md","bytes":6140,"sha256":"64d1846c4991edad875803e616010f9ed0d59858295dc11ed84575599ed3f6b5","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-persistence-via-wmi-subscriptions/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/hunting-for-persistence-via-wmi-subscriptions/assets/template.md","bytes":1016,"sha256":"c5d16ecfe581e65626ae8b8d185efbf7dd5eb938860881403497191514a2189d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-persistence-via-wmi-subscriptions/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/hunting-for-persistence-via-wmi-subscriptions/references/api-reference.md","bytes":1928,"sha256":"5c8206f82560b209bebaf72696eb8a6f7cd9799044ce097ffe6d3ad599f37eec","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-persistence-via-wmi-subscriptions/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/hunting-for-persistence-via-wmi-subscriptions/references/standards.md","bytes":2619,"sha256":"5da8c3eb4ac0511bd6e7f2e4825307792d321045caa8357863ed77a3ab4fc9df","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-persistence-via-wmi-subscriptions/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/hunting-for-persistence-via-wmi-subscriptions/references/workflows.md","bytes":3145,"sha256":"95ddac190bf5466710c6c6670861b678946fe19e89e51a77f7474458d198e3e1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-persistence-via-wmi-subscriptions/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/hunting-for-persistence-via-wmi-subscriptions/scripts/agent.py","bytes":6446,"sha256":"a3138232f661907f2b0417ed6e89c655a94c4f4645b182e7c80a3e9f0714a8db","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-persistence-via-wmi-subscriptions/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/hunting-for-persistence-via-wmi-subscriptions/scripts/process.py","bytes":6866,"sha256":"e832efeb16c5ec3f5cef333a7528fc4539d8aeae995c71ac3e191405a5dda815","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-persistence-via-wmi-subscriptions/scripts/process.py"}],"archiveSha256":"cb63eb5ff792885b188dd0831c4b09c331248b99b7eba56b0029fe0370533516"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--hunting-for-persistence-via-wmi-subscriptions",
+    "name": "hunting-for-persistence-via-wmi-subscriptions",
+    "description": "Hunts for adversary persistence via WMI event subscriptions (MITRE T1546.003) by monitoring the creation of WMI event filters, consumers, and filter-to-consumer bindings that trigger malicious code execution on system events. Use when investigating fileless, trigger-based persistence on Windows hosts or auditing WMI repository contents for malicious event subscriptions.",
+    "category": "Development",
+    "tags": [
+      "hunting",
+      "persistence",
+      "via",
+      "wmi",
+      "subscriptions",
+      "hunts",
+      "adversary",
+      "event",
+      "mitre",
+      "t1546.003",
+      "by",
+      "monitoring",
+      "creation",
+      "filters",
+      "consumers",
+      "filter",
+      "consumer",
+      "bindings"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/hunting-for-persistence-via-wmi-subscriptions/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/hunting-for-persistence-via-wmi-subscriptions",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-persistence-via-wmi-subscriptions",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 39415,
+    "sha256": "64d1846c4991edad875803e616010f9ed0d59858295dc11ed84575599ed3f6b5",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/hunting-for-persistence-via-wmi-subscriptions/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-persistence-via-wmi-subscriptions/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/hunting-for-persistence-via-wmi-subscriptions/SKILL.md",
+      "bytes": 6140,
+      "sha256": "64d1846c4991edad875803e616010f9ed0d59858295dc11ed84575599ed3f6b5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-persistence-via-wmi-subscriptions/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/hunting-for-persistence-via-wmi-subscriptions/assets/template.md",
+      "bytes": 1016,
+      "sha256": "c5d16ecfe581e65626ae8b8d185efbf7dd5eb938860881403497191514a2189d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-persistence-via-wmi-subscriptions/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/hunting-for-persistence-via-wmi-subscriptions/references/api-reference.md",
+      "bytes": 1928,
+      "sha256": "5c8206f82560b209bebaf72696eb8a6f7cd9799044ce097ffe6d3ad599f37eec",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-persistence-via-wmi-subscriptions/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/hunting-for-persistence-via-wmi-subscriptions/references/standards.md",
+      "bytes": 2619,
+      "sha256": "5da8c3eb4ac0511bd6e7f2e4825307792d321045caa8357863ed77a3ab4fc9df",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-persistence-via-wmi-subscriptions/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/hunting-for-persistence-via-wmi-subscriptions/references/workflows.md",
+      "bytes": 3145,
+      "sha256": "95ddac190bf5466710c6c6670861b678946fe19e89e51a77f7474458d198e3e1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-persistence-via-wmi-subscriptions/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/hunting-for-persistence-via-wmi-subscriptions/scripts/agent.py",
+      "bytes": 6446,
+      "sha256": "a3138232f661907f2b0417ed6e89c655a94c4f4645b182e7c80a3e9f0714a8db",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-persistence-via-wmi-subscriptions/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/hunting-for-persistence-via-wmi-subscriptions/scripts/process.py",
+      "bytes": 6866,
+      "sha256": "e832efeb16c5ec3f5cef333a7528fc4539d8aeae995c71ac3e191405a5dda815",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/hunting-for-persistence-via-wmi-subscriptions/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "cb63eb5ff792885b188dd0831c4b09c331248b99b7eba56b0029fe0370533516"
+}

@@ -1,1 +1,67 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--auth-implementation-patterns","name":"auth-implementation-patterns","description":"Implement or review authentication and authorization with explicit token, session and resource-access boundaries.","category":"Development","tags":["auth","implementation","patterns","implement","review","authentication","authorization","explicit","token","session","resource","access","boundaries."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/auth-implementation-patterns","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/auth-implementation-patterns","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":21053,"sha256":"3632db84887404e41e4761658588af16f6f22c19a9ac048c073ed53466a85b8c","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/auth-implementation-patterns/SKILL.md","bytes":2594,"sha256":"3632db84887404e41e4761658588af16f6f22c19a9ac048c073ed53466a85b8c","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/auth-implementation-patterns/SKILL.md"},{"path":"resources/implementation-playbook.md","sourcePath":"skills/auth-implementation-patterns/resources/implementation-playbook.md","bytes":17386,"sha256":"0a0d62dd34b49ea6f2e98e765daabba726c498f40f14a8502126e508f82cc3d8","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/auth-implementation-patterns/resources/implementation-playbook.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"4a68e6c5afa38a95ce51f295636544893a4c711589136bd92a3f3a5ab6c53c80"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--auth-implementation-patterns",
+    "name": "auth-implementation-patterns",
+    "description": "Implement or review authentication and authorization with explicit token, session and resource-access boundaries.",
+    "category": "Development",
+    "tags": [
+      "auth",
+      "implementation",
+      "patterns",
+      "implement",
+      "review",
+      "authentication",
+      "authorization",
+      "explicit",
+      "token",
+      "session",
+      "resource",
+      "access",
+      "boundaries."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/auth-implementation-patterns",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/auth-implementation-patterns",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 21053,
+    "sha256": "3632db84887404e41e4761658588af16f6f22c19a9ac048c073ed53466a85b8c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/auth-implementation-patterns/SKILL.md",
+      "bytes": 2594,
+      "sha256": "3632db84887404e41e4761658588af16f6f22c19a9ac048c073ed53466a85b8c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/auth-implementation-patterns/SKILL.md"
+    },
+    {
+      "path": "resources/implementation-playbook.md",
+      "sourcePath": "skills/auth-implementation-patterns/resources/implementation-playbook.md",
+      "bytes": 17386,
+      "sha256": "0a0d62dd34b49ea6f2e98e765daabba726c498f40f14a8502126e508f82cc3d8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/auth-implementation-patterns/resources/implementation-playbook.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "4a68e6c5afa38a95ce51f295636544893a4c711589136bd92a3f3a5ab6c53c80"
+}

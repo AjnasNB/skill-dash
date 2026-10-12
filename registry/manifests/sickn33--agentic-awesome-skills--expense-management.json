@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--expense-management","name":"expense-management","description":"Expense claim register: claim id, employee and department, amount and tax, approver and level, category, cost centre, budget line, receipt flag and status. Use for claim approvals.","category":"Development","tags":["expense","management","claim","register","id","employee","department","amount","tax","approver","level","category","cost","centre","budget","line","receipt","flag"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/expense-management","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/expense-management","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":16416,"sha256":"569f17b7a7a16dbcd8622adc423166dacb170012d1f96f22bb485715e3372696","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/expense-management/SKILL.md","bytes":15343,"sha256":"569f17b7a7a16dbcd8622adc423166dacb170012d1f96f22bb485715e3372696","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/expense-management/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"2fe20d4f959ea99274f259ceee7f7dce16d1a55eff3e959488723f3e945c7ce8"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--expense-management",
+    "name": "expense-management",
+    "description": "Expense claim register: claim id, employee and department, amount and tax, approver and level, category, cost centre, budget line, receipt flag and status. Use for claim approvals.",
+    "category": "Development",
+    "tags": [
+      "expense",
+      "management",
+      "claim",
+      "register",
+      "id",
+      "employee",
+      "department",
+      "amount",
+      "tax",
+      "approver",
+      "level",
+      "category",
+      "cost",
+      "centre",
+      "budget",
+      "line",
+      "receipt",
+      "flag"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/expense-management",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/expense-management",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 16416,
+    "sha256": "569f17b7a7a16dbcd8622adc423166dacb170012d1f96f22bb485715e3372696",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/expense-management/SKILL.md",
+      "bytes": 15343,
+      "sha256": "569f17b7a7a16dbcd8622adc423166dacb170012d1f96f22bb485715e3372696",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/expense-management/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "2fe20d4f959ea99274f259ceee7f7dce16d1a55eff3e959488723f3e945c7ce8"
+}

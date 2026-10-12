@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-anomalous-authentication-patterns","name":"detecting-anomalous-authentication-patterns","description":"Detects anomalous authentication patterns using UEBA analytics, statistical baselines, and machine learning models to identify impossible travel, credential stuffing, brute force, password spraying, and compromised account behaviors across authentication logs. Activates for requests involving authentication anomaly detection, login behavior analysis, UEBA implementation, or suspicious sign-in investigation.","category":"AI & agents","tags":["detecting","anomalous","authentication","patterns","detects","ueba","analytics","statistical","baselines","machine","learning","models","identify","impossible","travel","credential","stuffing","brute"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-anomalous-authentication-patterns/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-anomalous-authentication-patterns","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-anomalous-authentication-patterns","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":52507,"sha256":"9a97dad02e90f0ba15b6b090673d763820e7d4160a50898093a2b8c6d7bd5cbc","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-anomalous-authentication-patterns/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-anomalous-authentication-patterns/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-anomalous-authentication-patterns/SKILL.md","bytes":30097,"sha256":"9a97dad02e90f0ba15b6b090673d763820e7d4160a50898093a2b8c6d7bd5cbc","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-anomalous-authentication-patterns/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-anomalous-authentication-patterns/references/api-reference.md","bytes":2378,"sha256":"61b7280757952ba13751d48d689d4b76daf3e10205822a7e82f79d1951c490b1","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-anomalous-authentication-patterns/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-anomalous-authentication-patterns/scripts/agent.py","bytes":8777,"sha256":"ca3d7e4c8bc88bbcf2fe9584fd407436c77d73d0f9378d69daf66644765aec0f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-anomalous-authentication-patterns/scripts/agent.py"}],"archiveSha256":"5748b5685e2a2e4fcf952f93ea55df091ae07db8f3ec23a727b0cd6cbeaacfd6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-anomalous-authentication-patterns",
+    "name": "detecting-anomalous-authentication-patterns",
+    "description": "Detects anomalous authentication patterns using UEBA analytics, statistical baselines, and machine learning models to identify impossible travel, credential stuffing, brute force, password spraying, and compromised account behaviors across authentication logs. Activates for requests involving authentication anomaly detection, login behavior analysis, UEBA implementation, or suspicious sign-in investigation.",
+    "category": "AI & agents",
+    "tags": [
+      "detecting",
+      "anomalous",
+      "authentication",
+      "patterns",
+      "detects",
+      "ueba",
+      "analytics",
+      "statistical",
+      "baselines",
+      "machine",
+      "learning",
+      "models",
+      "identify",
+      "impossible",
+      "travel",
+      "credential",
+      "stuffing",
+      "brute"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-anomalous-authentication-patterns/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-anomalous-authentication-patterns",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-anomalous-authentication-patterns",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 52507,
+    "sha256": "9a97dad02e90f0ba15b6b090673d763820e7d4160a50898093a2b8c6d7bd5cbc",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-anomalous-authentication-patterns/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-anomalous-authentication-patterns/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-anomalous-authentication-patterns/SKILL.md",
+      "bytes": 30097,
+      "sha256": "9a97dad02e90f0ba15b6b090673d763820e7d4160a50898093a2b8c6d7bd5cbc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-anomalous-authentication-patterns/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-anomalous-authentication-patterns/references/api-reference.md",
+      "bytes": 2378,
+      "sha256": "61b7280757952ba13751d48d689d4b76daf3e10205822a7e82f79d1951c490b1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-anomalous-authentication-patterns/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-anomalous-authentication-patterns/scripts/agent.py",
+      "bytes": 8777,
+      "sha256": "ca3d7e4c8bc88bbcf2fe9584fd407436c77d73d0f9378d69daf66644765aec0f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-anomalous-authentication-patterns/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "5748b5685e2a2e4fcf952f93ea55df091ae07db8f3ec23a727b0cd6cbeaacfd6"
+}

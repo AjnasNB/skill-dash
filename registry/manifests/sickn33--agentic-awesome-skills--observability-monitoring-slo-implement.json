@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--observability-monitoring-slo-implement","name":"observability-monitoring-slo-implement","description":"You are an SLO (Service Level Objective) expert specializing in implementing reliability standards and error budget-based engineering practices. Design comprehensive SLO frameworks, establish meaningful SLIs, and create monitoring systems that balance reliability with feature velocity.","category":"Design","tags":["observability","monitoring","slo","implement","you","are","service","level","objective","expert","specializing","implementing","reliability","standards","error","budget","based","engineering"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/observability-monitoring-slo-implement","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-monitoring-slo-implement","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":3,"bytes":39604,"sha256":"588c506e6f6c9293822b9b3995692c96ee4834d1075b194d575f7dd02e56ad24","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/observability-monitoring-slo-implement/SKILL.md","bytes":2263,"sha256":"588c506e6f6c9293822b9b3995692c96ee4834d1075b194d575f7dd02e56ad24","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-monitoring-slo-implement/SKILL.md"},{"path":"resources/implementation-playbook.md","sourcePath":"skills/observability-monitoring-slo-implement/resources/implementation-playbook.md","bytes":36268,"sha256":"a8f6068f5d4e8fe1755f212f461cd6bf2a32a5f231ebf4c26846dd7136011867","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-monitoring-slo-implement/resources/implementation-playbook.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"00a4dbbc81ef3cbfb8c23a6c8295bda590f88f9de0e9cdcfca77a2e541a3a7f5"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--observability-monitoring-slo-implement",
+    "name": "observability-monitoring-slo-implement",
+    "description": "You are an SLO (Service Level Objective) expert specializing in implementing reliability standards and error budget-based engineering practices. Design comprehensive SLO frameworks, establish meaningful SLIs, and create monitoring systems that balance reliability with feature velocity.",
+    "category": "Design",
+    "tags": [
+      "observability",
+      "monitoring",
+      "slo",
+      "implement",
+      "you",
+      "are",
+      "service",
+      "level",
+      "objective",
+      "expert",
+      "specializing",
+      "implementing",
+      "reliability",
+      "standards",
+      "error",
+      "budget",
+      "based",
+      "engineering"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/observability-monitoring-slo-implement",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-monitoring-slo-implement",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 3,
+    "bytes": 39604,
+    "sha256": "588c506e6f6c9293822b9b3995692c96ee4834d1075b194d575f7dd02e56ad24",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/observability-monitoring-slo-implement/SKILL.md",
+      "bytes": 2263,
+      "sha256": "588c506e6f6c9293822b9b3995692c96ee4834d1075b194d575f7dd02e56ad24",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-monitoring-slo-implement/SKILL.md"
+    },
+    {
+      "path": "resources/implementation-playbook.md",
+      "sourcePath": "skills/observability-monitoring-slo-implement/resources/implementation-playbook.md",
+      "bytes": 36268,
+      "sha256": "a8f6068f5d4e8fe1755f212f461cd6bf2a32a5f231ebf4c26846dd7136011867",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/observability-monitoring-slo-implement/resources/implementation-playbook.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "00a4dbbc81ef3cbfb8c23a6c8295bda590f88f9de0e9cdcfca77a2e541a3a7f5"
+}

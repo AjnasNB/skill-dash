@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"heygen-com--hyperframes--figma","name":"figma","description":"Import Figma content into a HyperFrames composition — rendered assets, brand tokens, components, storyboard sections → reconstructed motion (frames read as states, not slides) (REST/CLI), connector-assisted motion when available, and shaders from a connector or native export. Use when the user pastes a figma.com link or asks to bring a Figma design, frame, logo, brand, or animation into a video/composition.","category":"Video & audio","tags":["figma","import","content","into","hyperframes","composition","rendered","assets","brand","tokens","components","storyboard","sections","reconstructed","motion","frames","read","as"],"repo":"heygen-com/hyperframes","owner":"heygen-com","stars":61369,"official":true,"featured":false,"license":"Apache-2.0","licensePath":"LICENSE","revision":"86521b94f592bcf0ca86aba63068893cf658af16","path":"skills/figma","sourceUrl":"https://github.com/heygen-com/hyperframes/tree/86521b94f592bcf0ca86aba63068893cf658af16/skills/figma","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:18:48Z","fileCount":3,"bytes":34125,"sha256":"7de64558985ceec0afcaaaebb432a44b6188d640825cffa5929809d94765d1c3","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/figma/SKILL.md","bytes":18312,"sha256":"7de64558985ceec0afcaaaebb432a44b6188d640825cffa5929809d94765d1c3","mode":420,"url":"https://raw.githubusercontent.com/heygen-com/hyperframes/86521b94f592bcf0ca86aba63068893cf658af16/skills/figma/SKILL.md"},{"path":"scripts/verify-motion.mjs","sourcePath":"skills/figma/scripts/verify-motion.mjs","bytes":5050,"sha256":"1988721525e929caa5d3ced6d16c31467996e0c57757d281a971fb77e2297de8","mode":420,"url":"https://raw.githubusercontent.com/heygen-com/hyperframes/86521b94f592bcf0ca86aba63068893cf658af16/skills/figma/scripts/verify-motion.mjs"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":10763,"sha256":"4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8","mode":420,"url":"https://raw.githubusercontent.com/heygen-com/hyperframes/86521b94f592bcf0ca86aba63068893cf658af16/LICENSE"}],"archiveSha256":"58b46e5616e5c11a3f5b43226ddf5ad32e679d36e7e57b6b0ed39f5b2fb24ef6"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "heygen-com--hyperframes--figma",
+    "name": "figma",
+    "description": "Import Figma content into a HyperFrames composition — rendered assets, brand tokens, components, storyboard sections → reconstructed motion (frames read as states, not slides) (REST/CLI), connector-assisted motion when available, and shaders from a connector or native export. Use when the user pastes a figma.com link or asks to bring a Figma design, frame, logo, brand, or animation into a video/composition.",
+    "category": "Video & audio",
+    "tags": [
+      "figma",
+      "import",
+      "content",
+      "into",
+      "hyperframes",
+      "composition",
+      "rendered",
+      "assets",
+      "brand",
+      "tokens",
+      "components",
+      "storyboard",
+      "sections",
+      "reconstructed",
+      "motion",
+      "frames",
+      "read",
+      "as"
+    ],
+    "repo": "heygen-com/hyperframes",
+    "owner": "heygen-com",
+    "stars": 61369,
+    "official": true,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "LICENSE",
+    "revision": "86521b94f592bcf0ca86aba63068893cf658af16",
+    "path": "skills/figma",
+    "sourceUrl": "https://github.com/heygen-com/hyperframes/tree/86521b94f592bcf0ca86aba63068893cf658af16/skills/figma",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:18:48Z",
+    "fileCount": 3,
+    "bytes": 34125,
+    "sha256": "7de64558985ceec0afcaaaebb432a44b6188d640825cffa5929809d94765d1c3",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/figma/SKILL.md",
+      "bytes": 18312,
+      "sha256": "7de64558985ceec0afcaaaebb432a44b6188d640825cffa5929809d94765d1c3",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/86521b94f592bcf0ca86aba63068893cf658af16/skills/figma/SKILL.md"
+    },
+    {
+      "path": "scripts/verify-motion.mjs",
+      "sourcePath": "skills/figma/scripts/verify-motion.mjs",
+      "bytes": 5050,
+      "sha256": "1988721525e929caa5d3ced6d16c31467996e0c57757d281a971fb77e2297de8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/86521b94f592bcf0ca86aba63068893cf658af16/skills/figma/scripts/verify-motion.mjs"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 10763,
+      "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/heygen-com/hyperframes/86521b94f592bcf0ca86aba63068893cf658af16/LICENSE"
+    }
+  ],
+  "archiveSha256": "58b46e5616e5c11a3f5b43226ddf5ad32e679d36e7e57b6b0ed39f5b2fb24ef6"
+}

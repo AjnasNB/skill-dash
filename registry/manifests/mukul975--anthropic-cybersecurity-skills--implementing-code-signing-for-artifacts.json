@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-code-signing-for-artifacts","name":"implementing-code-signing-for-artifacts","description":"Implements code signing for build artifacts (binaries, packages, containers) using GPG, Sigstore, and platform-specific signing tools, establishing trust chains and verifying signatures in deployment pipelines. Use when establishing artifact integrity checks against supply-chain tampering, proving authenticity to customers, building zero-trust pipelines that reject unsigned artifacts, or meeting SLSA Level 2+ provenance requirements.","category":"Security","tags":["implementing","code","signing","artifacts","implements","binaries","packages","containers","gpg","sigstore","platform","specific","tools","establishing","trust","chains","verifying","signatures"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-code-signing-for-artifacts/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-code-signing-for-artifacts","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-code-signing-for-artifacts","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":38542,"sha256":"154bdb1124779f17322772ce6a139614e6b8d472a5d70c2f719d012f43cdd1cd","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-code-signing-for-artifacts/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-code-signing-for-artifacts/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-code-signing-for-artifacts/SKILL.md","bytes":7327,"sha256":"154bdb1124779f17322772ce6a139614e6b8d472a5d70c2f719d012f43cdd1cd","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-code-signing-for-artifacts/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/implementing-code-signing-for-artifacts/assets/template.md","bytes":1234,"sha256":"34122f5ca4e06c69b559c12f5fd2a7d60e9a17a635ce3d003054854c8756ab02","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-code-signing-for-artifacts/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-code-signing-for-artifacts/references/api-reference.md","bytes":1841,"sha256":"7f30ee8a4afb237d1469c4459ac2af244de010b86e17bdc7e808428efcda6c1e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-code-signing-for-artifacts/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/implementing-code-signing-for-artifacts/references/standards.md","bytes":1542,"sha256":"c6f71e671a7f0ac818a62db6f693358a07a3dc71d6ceb8e7bf4b385d8c436523","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-code-signing-for-artifacts/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/implementing-code-signing-for-artifacts/references/workflows.md","bytes":1880,"sha256":"8d8be05ba7541473bd71bb69fec02b0853ff5ee3c5c3bb8dec40a25ed362bbd8","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-code-signing-for-artifacts/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-code-signing-for-artifacts/scripts/agent.py","bytes":6028,"sha256":"c0c4b3490bdcce70fe2f33484688ba88ca145f1820e95e444e1c398e400c2dd7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-code-signing-for-artifacts/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/implementing-code-signing-for-artifacts/scripts/process.py","bytes":7435,"sha256":"dc613a34817e9bacf1fb1f4d51b0220330e92910e108c38517a8dabbc243230b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-code-signing-for-artifacts/scripts/process.py"}],"archiveSha256":"87b713761926e59667c1cd458244f437c8f0fb34a895cdb89fead07476c3d887"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-code-signing-for-artifacts",
+    "name": "implementing-code-signing-for-artifacts",
+    "description": "Implements code signing for build artifacts (binaries, packages, containers) using GPG, Sigstore, and platform-specific signing tools, establishing trust chains and verifying signatures in deployment pipelines. Use when establishing artifact integrity checks against supply-chain tampering, proving authenticity to customers, building zero-trust pipelines that reject unsigned artifacts, or meeting SLSA Level 2+ provenance requirements.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "code",
+      "signing",
+      "artifacts",
+      "implements",
+      "binaries",
+      "packages",
+      "containers",
+      "gpg",
+      "sigstore",
+      "platform",
+      "specific",
+      "tools",
+      "establishing",
+      "trust",
+      "chains",
+      "verifying",
+      "signatures"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-code-signing-for-artifacts/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-code-signing-for-artifacts",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-code-signing-for-artifacts",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 38542,
+    "sha256": "154bdb1124779f17322772ce6a139614e6b8d472a5d70c2f719d012f43cdd1cd",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-code-signing-for-artifacts/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-code-signing-for-artifacts/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-code-signing-for-artifacts/SKILL.md",
+      "bytes": 7327,
+      "sha256": "154bdb1124779f17322772ce6a139614e6b8d472a5d70c2f719d012f43cdd1cd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-code-signing-for-artifacts/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/implementing-code-signing-for-artifacts/assets/template.md",
+      "bytes": 1234,
+      "sha256": "34122f5ca4e06c69b559c12f5fd2a7d60e9a17a635ce3d003054854c8756ab02",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-code-signing-for-artifacts/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-code-signing-for-artifacts/references/api-reference.md",
+      "bytes": 1841,
+      "sha256": "7f30ee8a4afb237d1469c4459ac2af244de010b86e17bdc7e808428efcda6c1e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-code-signing-for-artifacts/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/implementing-code-signing-for-artifacts/references/standards.md",
+      "bytes": 1542,
+      "sha256": "c6f71e671a7f0ac818a62db6f693358a07a3dc71d6ceb8e7bf4b385d8c436523",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-code-signing-for-artifacts/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/implementing-code-signing-for-artifacts/references/workflows.md",
+      "bytes": 1880,
+      "sha256": "8d8be05ba7541473bd71bb69fec02b0853ff5ee3c5c3bb8dec40a25ed362bbd8",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-code-signing-for-artifacts/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-code-signing-for-artifacts/scripts/agent.py",
+      "bytes": 6028,
+      "sha256": "c0c4b3490bdcce70fe2f33484688ba88ca145f1820e95e444e1c398e400c2dd7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-code-signing-for-artifacts/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/implementing-code-signing-for-artifacts/scripts/process.py",
+      "bytes": 7435,
+      "sha256": "dc613a34817e9bacf1fb1f4d51b0220330e92910e108c38517a8dabbc243230b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-code-signing-for-artifacts/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "87b713761926e59667c1cd458244f437c8f0fb34a895cdb89fead07476c3d887"
+}

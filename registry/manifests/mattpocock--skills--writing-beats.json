@@ -1,1 +1,69 @@
-{"schemaVersion":1,"skill":{"id":"mattpocock--skills--writing-beats","name":"writing-beats","description":"Writing, exploit; assemble raw material into a journey of beats, grounding each term before a beat leans on it.","category":"Writing","tags":["writing","beats","exploit","assemble","raw","material","into","journey","grounding","each","term","before","beat","leans","it."],"repo":"mattpocock/skills","owner":"mattpocock","stars":287125,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"49dd158d1076134a641b33efb035946536778336","path":"skills/in-progress/writing-beats","sourceUrl":"https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/in-progress/writing-beats","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-09T10:56:49Z","fileCount":3,"bytes":6065,"sha256":"a96abafa2372eede8267d770138b322d6125da8adaa7ccf0a5e08e4ee13ee71e","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/in-progress/writing-beats/SKILL.md","bytes":4855,"sha256":"a96abafa2372eede8267d770138b322d6125da8adaa7ccf0a5e08e4ee13ee71e","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/in-progress/writing-beats/SKILL.md"},{"path":"agents/openai.yaml","sourcePath":"skills/in-progress/writing-beats/agents/openai.yaml","bytes":142,"sha256":"ddaef01da61d8e3c5f482c4403033c20cf5823f08a1dbf1d4c871670831d01e2","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/in-progress/writing-beats/agents/openai.yaml"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1068,"sha256":"0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5","mode":420,"url":"https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/LICENSE"}],"archiveSha256":"70f08d701973aa19b6ac2076d32ef66b06779df7ffea829fa2d11423683f8dc5"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mattpocock--skills--writing-beats",
+    "name": "writing-beats",
+    "description": "Writing, exploit; assemble raw material into a journey of beats, grounding each term before a beat leans on it.",
+    "category": "Writing",
+    "tags": [
+      "writing",
+      "beats",
+      "exploit",
+      "assemble",
+      "raw",
+      "material",
+      "into",
+      "journey",
+      "grounding",
+      "each",
+      "term",
+      "before",
+      "beat",
+      "leans",
+      "it."
+    ],
+    "repo": "mattpocock/skills",
+    "owner": "mattpocock",
+    "stars": 287125,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "49dd158d1076134a641b33efb035946536778336",
+    "path": "skills/in-progress/writing-beats",
+    "sourceUrl": "https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/in-progress/writing-beats",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-09T10:56:49Z",
+    "fileCount": 3,
+    "bytes": 6065,
+    "sha256": "a96abafa2372eede8267d770138b322d6125da8adaa7ccf0a5e08e4ee13ee71e",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/in-progress/writing-beats/SKILL.md",
+      "bytes": 4855,
+      "sha256": "a96abafa2372eede8267d770138b322d6125da8adaa7ccf0a5e08e4ee13ee71e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/in-progress/writing-beats/SKILL.md"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sourcePath": "skills/in-progress/writing-beats/agents/openai.yaml",
+      "bytes": 142,
+      "sha256": "ddaef01da61d8e3c5f482c4403033c20cf5823f08a1dbf1d4c871670831d01e2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/skills/in-progress/writing-beats/agents/openai.yaml"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1068,
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mattpocock/skills/49dd158d1076134a641b33efb035946536778336/LICENSE"
+    }
+  ],
+  "archiveSha256": "70f08d701973aa19b6ac2076d32ef66b06779df7ffea829fa2d11423683f8dc5"
+}

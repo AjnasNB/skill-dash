@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--conducting-social-engineering-pretext-call","name":"conducting-social-engineering-pretext-call","description":"Plan and execute authorized vishing (voice phishing) pretext calls to assess employee susceptibility to social engineering and evaluate security awareness controls.","category":"Security","tags":["conducting","social","engineering","pretext","call","plan","execute","authorized","vishing","voice","phishing","calls","assess","employee","susceptibility","evaluate","security","awareness"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/conducting-social-engineering-pretext-call/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/conducting-social-engineering-pretext-call","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-pretext-call","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":45114,"sha256":"72bf029981a17fc0c3e968f4fc60f4ceb21d977d2cf5eb094df062378191ed00","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/conducting-social-engineering-pretext-call/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-pretext-call/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/conducting-social-engineering-pretext-call/SKILL.md","bytes":8232,"sha256":"72bf029981a17fc0c3e968f4fc60f4ceb21d977d2cf5eb094df062378191ed00","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-pretext-call/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/conducting-social-engineering-pretext-call/assets/template.md","bytes":1915,"sha256":"b7dbb401bc366a15f1630de97b76e3f1e9412bb5df864630a16869664332f613","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-pretext-call/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/conducting-social-engineering-pretext-call/references/api-reference.md","bytes":1992,"sha256":"38523274805164ae5a79ca08e0f904d7d122ef3783599712e3f0e459fdf66cb7","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-pretext-call/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/conducting-social-engineering-pretext-call/references/standards.md","bytes":1389,"sha256":"c8c3da5e94e34c43ba78dff5afacc4cf23020163a2fd3fe770597770beb99f47","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-pretext-call/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/conducting-social-engineering-pretext-call/references/workflows.md","bytes":4717,"sha256":"1ce43a9b126934b4ccd85c0a281bbeb0e44eb37b720a76da201633b2cbef415d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-pretext-call/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/conducting-social-engineering-pretext-call/scripts/agent.py","bytes":5410,"sha256":"aee67acdec5514ce29ae9057bae3cd6a7b8d820298e3d68e1ae05fb2e9cba497","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-pretext-call/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/conducting-social-engineering-pretext-call/scripts/process.py","bytes":10204,"sha256":"abeb84df51534564406d1d49e4bbde78088a538e59c3fd08580dca7638651748","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-pretext-call/scripts/process.py"}],"archiveSha256":"c6de7dec5c4b97cdda0db32acdccbfd2eb3d5dca0da898c649879978fd5b881d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--conducting-social-engineering-pretext-call",
+    "name": "conducting-social-engineering-pretext-call",
+    "description": "Plan and execute authorized vishing (voice phishing) pretext calls to assess employee susceptibility to social engineering and evaluate security awareness controls.",
+    "category": "Security",
+    "tags": [
+      "conducting",
+      "social",
+      "engineering",
+      "pretext",
+      "call",
+      "plan",
+      "execute",
+      "authorized",
+      "vishing",
+      "voice",
+      "phishing",
+      "calls",
+      "assess",
+      "employee",
+      "susceptibility",
+      "evaluate",
+      "security",
+      "awareness"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/conducting-social-engineering-pretext-call/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/conducting-social-engineering-pretext-call",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-pretext-call",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 45114,
+    "sha256": "72bf029981a17fc0c3e968f4fc60f4ceb21d977d2cf5eb094df062378191ed00",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/conducting-social-engineering-pretext-call/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-pretext-call/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/conducting-social-engineering-pretext-call/SKILL.md",
+      "bytes": 8232,
+      "sha256": "72bf029981a17fc0c3e968f4fc60f4ceb21d977d2cf5eb094df062378191ed00",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-pretext-call/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/conducting-social-engineering-pretext-call/assets/template.md",
+      "bytes": 1915,
+      "sha256": "b7dbb401bc366a15f1630de97b76e3f1e9412bb5df864630a16869664332f613",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-pretext-call/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/conducting-social-engineering-pretext-call/references/api-reference.md",
+      "bytes": 1992,
+      "sha256": "38523274805164ae5a79ca08e0f904d7d122ef3783599712e3f0e459fdf66cb7",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-pretext-call/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/conducting-social-engineering-pretext-call/references/standards.md",
+      "bytes": 1389,
+      "sha256": "c8c3da5e94e34c43ba78dff5afacc4cf23020163a2fd3fe770597770beb99f47",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-pretext-call/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/conducting-social-engineering-pretext-call/references/workflows.md",
+      "bytes": 4717,
+      "sha256": "1ce43a9b126934b4ccd85c0a281bbeb0e44eb37b720a76da201633b2cbef415d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-pretext-call/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/conducting-social-engineering-pretext-call/scripts/agent.py",
+      "bytes": 5410,
+      "sha256": "aee67acdec5514ce29ae9057bae3cd6a7b8d820298e3d68e1ae05fb2e9cba497",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-pretext-call/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/conducting-social-engineering-pretext-call/scripts/process.py",
+      "bytes": 10204,
+      "sha256": "abeb84df51534564406d1d49e4bbde78088a538e59c3fd08580dca7638651748",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/conducting-social-engineering-pretext-call/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "c6de7dec5c4b97cdda0db32acdccbfd2eb3d5dca0da898c649879978fd5b881d"
+}

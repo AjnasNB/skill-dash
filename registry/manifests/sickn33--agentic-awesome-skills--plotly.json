@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--plotly","name":"plotly","description":"Interactive visualization library. Use when you need hover info, zoom, pan, or web-embeddable charts. Best for dashboards, exploratory analysis, and presentations. For static publication figures use matplotlib or scientific-visualization.","category":"Data & research","tags":["plotly","interactive","visualization","library.","when","you","hover","info","zoom","pan","web","embeddable","charts.","best","dashboards","exploratory","analysis","presentations."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/plotly","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/plotly","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":8593,"sha256":"05f25ab076d016369a775234c69d11bce9e67af43567f5a5c7920533c23a7c3d","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/plotly/SKILL.md","bytes":7520,"sha256":"05f25ab076d016369a775234c69d11bce9e67af43567f5a5c7920533c23a7c3d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/plotly/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"da0fa5bf935a420b98b0a92084aeec00913c9f446db78d042d986dcdee2c0d0c"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--plotly",
+    "name": "plotly",
+    "description": "Interactive visualization library. Use when you need hover info, zoom, pan, or web-embeddable charts. Best for dashboards, exploratory analysis, and presentations. For static publication figures use matplotlib or scientific-visualization.",
+    "category": "Data & research",
+    "tags": [
+      "plotly",
+      "interactive",
+      "visualization",
+      "library.",
+      "when",
+      "you",
+      "hover",
+      "info",
+      "zoom",
+      "pan",
+      "web",
+      "embeddable",
+      "charts.",
+      "best",
+      "dashboards",
+      "exploratory",
+      "analysis",
+      "presentations."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/plotly",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/plotly",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 8593,
+    "sha256": "05f25ab076d016369a775234c69d11bce9e67af43567f5a5c7920533c23a7c3d",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/plotly/SKILL.md",
+      "bytes": 7520,
+      "sha256": "05f25ab076d016369a775234c69d11bce9e67af43567f5a5c7920533c23a7c3d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/plotly/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "da0fa5bf935a420b98b0a92084aeec00913c9f446db78d042d986dcdee2c0d0c"
+}

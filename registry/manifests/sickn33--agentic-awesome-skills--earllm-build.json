@@ -1,1 +1,62 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--earllm-build","name":"earllm-build","description":"Build, maintain, and extend the EarLLM One Android project — a Kotlin/Compose app that connects Bluetooth earbuds to an LLM via voice pipeline.","category":"AI & agents","tags":["earllm","maintain","extend","one","android","project","kotlin","compose","app","connects","bluetooth","earbuds","llm","via","voice","pipeline."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/earllm-build","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/earllm-build","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":9315,"sha256":"6d21ce0b40c813403cc2448b79f0a88209a2573fa8cf03508c22b6847ae48cec","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/earllm-build/SKILL.md","bytes":8242,"sha256":"6d21ce0b40c813403cc2448b79f0a88209a2573fa8cf03508c22b6847ae48cec","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/earllm-build/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"49ea1915af4edc5f0ee980cf430777d806d87c2697ccc69f1b688838829b5308"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--earllm-build",
+    "name": "earllm-build",
+    "description": "Build, maintain, and extend the EarLLM One Android project — a Kotlin/Compose app that connects Bluetooth earbuds to an LLM via voice pipeline.",
+    "category": "AI & agents",
+    "tags": [
+      "earllm",
+      "maintain",
+      "extend",
+      "one",
+      "android",
+      "project",
+      "kotlin",
+      "compose",
+      "app",
+      "connects",
+      "bluetooth",
+      "earbuds",
+      "llm",
+      "via",
+      "voice",
+      "pipeline."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/earllm-build",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/earllm-build",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9315,
+    "sha256": "6d21ce0b40c813403cc2448b79f0a88209a2573fa8cf03508c22b6847ae48cec",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/earllm-build/SKILL.md",
+      "bytes": 8242,
+      "sha256": "6d21ce0b40c813403cc2448b79f0a88209a2573fa8cf03508c22b6847ae48cec",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/earllm-build/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "49ea1915af4edc5f0ee980cf430777d806d87c2697ccc69f1b688838829b5308"
+}

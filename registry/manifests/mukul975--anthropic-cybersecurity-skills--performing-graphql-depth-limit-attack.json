@@ -1,1 +1,79 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-graphql-depth-limit-attack","name":"performing-graphql-depth-limit-attack","description":"Execute and test GraphQL depth limit attacks using deeply nested recursive queries to identify denial-of-service vulnerabilities in GraphQL APIs.","category":"Security","tags":["performing","graphql","depth","limit","attack","execute","test","attacks","deeply","nested","recursive","queries","identify","denial","service","vulnerabilities","apis."],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-graphql-depth-limit-attack/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-graphql-depth-limit-attack","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-graphql-depth-limit-attack","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":32893,"sha256":"18eca70b625f4e75a027d7ceb3235a0fecd4a722bc397bfaaec9ef145a689055","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-graphql-depth-limit-attack/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-graphql-depth-limit-attack/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-graphql-depth-limit-attack/SKILL.md","bytes":13002,"sha256":"18eca70b625f4e75a027d7ceb3235a0fecd4a722bc397bfaaec9ef145a689055","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-graphql-depth-limit-attack/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-graphql-depth-limit-attack/references/api-reference.md","bytes":1667,"sha256":"f44f57d500c94052202bc0c521ea22038f63ba8130ac9d9892b46970f2de4fcb","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-graphql-depth-limit-attack/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-graphql-depth-limit-attack/scripts/agent.py","bytes":6969,"sha256":"78bd14909d03c9702154545681bcbe7f28d0e00fc2a71143652d447d6897f663","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-graphql-depth-limit-attack/scripts/agent.py"}],"archiveSha256":"1ab7814030729560406b8054fe8ab353adc9ef8c71f8770e3d690efc5d6f8c2d"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-graphql-depth-limit-attack",
+    "name": "performing-graphql-depth-limit-attack",
+    "description": "Execute and test GraphQL depth limit attacks using deeply nested recursive queries to identify denial-of-service vulnerabilities in GraphQL APIs.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "graphql",
+      "depth",
+      "limit",
+      "attack",
+      "execute",
+      "test",
+      "attacks",
+      "deeply",
+      "nested",
+      "recursive",
+      "queries",
+      "identify",
+      "denial",
+      "service",
+      "vulnerabilities",
+      "apis."
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-graphql-depth-limit-attack/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-graphql-depth-limit-attack",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-graphql-depth-limit-attack",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 32893,
+    "sha256": "18eca70b625f4e75a027d7ceb3235a0fecd4a722bc397bfaaec9ef145a689055",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-graphql-depth-limit-attack/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-graphql-depth-limit-attack/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-graphql-depth-limit-attack/SKILL.md",
+      "bytes": 13002,
+      "sha256": "18eca70b625f4e75a027d7ceb3235a0fecd4a722bc397bfaaec9ef145a689055",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-graphql-depth-limit-attack/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-graphql-depth-limit-attack/references/api-reference.md",
+      "bytes": 1667,
+      "sha256": "f44f57d500c94052202bc0c521ea22038f63ba8130ac9d9892b46970f2de4fcb",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-graphql-depth-limit-attack/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-graphql-depth-limit-attack/scripts/agent.py",
+      "bytes": 6969,
+      "sha256": "78bd14909d03c9702154545681bcbe7f28d0e00fc2a71143652d447d6897f663",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-graphql-depth-limit-attack/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "1ab7814030729560406b8054fe8ab353adc9ef8c71f8770e3d690efc5d6f8c2d"
+}

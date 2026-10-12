@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--az-cost-optimize","name":"az-cost-optimize","description":"Analyze Azure resources used in the app (IaC files and/or resources in a target rg) and optimize costs - creating GitHub issues for identified optimizations.","category":"Cloud & DevOps","tags":["az","cost","optimize","analyze","azure","resources","used","app","iac","files","target","rg","costs","creating","github","issues","identified","optimizations."],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/az-cost-optimize","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/az-cost-optimize","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":14033,"sha256":"d27f8311b57d02dedd48a0d563be0964dc458578e4de51b4730516b4e8083829","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/az-cost-optimize/SKILL.md","bytes":12974,"sha256":"d27f8311b57d02dedd48a0d563be0964dc458578e4de51b4730516b4e8083829","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/az-cost-optimize/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"b870b0e9d87e16ed0637a876f38b4da2a5636ce34cfdb4756c1eb9b00831b8cd"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--az-cost-optimize",
+    "name": "az-cost-optimize",
+    "description": "Analyze Azure resources used in the app (IaC files and/or resources in a target rg) and optimize costs - creating GitHub issues for identified optimizations.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "az",
+      "cost",
+      "optimize",
+      "analyze",
+      "azure",
+      "resources",
+      "used",
+      "app",
+      "iac",
+      "files",
+      "target",
+      "rg",
+      "costs",
+      "creating",
+      "github",
+      "issues",
+      "identified",
+      "optimizations."
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/az-cost-optimize",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/az-cost-optimize",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 14033,
+    "sha256": "d27f8311b57d02dedd48a0d563be0964dc458578e4de51b4730516b4e8083829",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/az-cost-optimize/SKILL.md",
+      "bytes": 12974,
+      "sha256": "d27f8311b57d02dedd48a0d563be0964dc458578e4de51b4730516b4e8083829",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/az-cost-optimize/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "b870b0e9d87e16ed0637a876f38b4da2a5636ce34cfdb4756c1eb9b00831b8cd"
+}

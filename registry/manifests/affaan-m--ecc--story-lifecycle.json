@@ -1,1 +1,72 @@
-{"schemaVersion":1,"skill":{"id":"affaan-m--ecc--story-lifecycle","name":"story-lifecycle","description":"Manage a file-based epic → story → sprint development loop without requiring an external project management tool. Creates and tracks epics, breaks them into user stories, assigns them to sprints, and drives implementation story by story. Use when starting a new feature initiative or when the team has no Jira/Linear/Taiga but needs structured delivery tracking.","category":"Development","tags":["story","lifecycle","manage","file","based","epic","sprint","development","loop","without","requiring","external","project","management","tool.","creates","tracks","epics"],"repo":"affaan-m/ECC","owner":"affaan-m","stars":277532,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"b92f181b3b748d1abbc2afd94af6aa7d8c8fca29","path":"skills/story-lifecycle","sourceUrl":"https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/story-lifecycle","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T02:02:10Z","fileCount":3,"bytes":42946,"sha256":"1492a724d4df362d8e95a340fabd22423e20965b1d0f9ebc6d2d319aca843194","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/story-lifecycle/SKILL.md","bytes":17744,"sha256":"1492a724d4df362d8e95a340fabd22423e20965b1d0f9ebc6d2d319aca843194","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/story-lifecycle/SKILL.md"},{"path":"scripts/ledger.js","sourcePath":"skills/story-lifecycle/scripts/ledger.js","bytes":24131,"sha256":"552d2059c3d29f7cbb71ac3d1a13b913a82549a4bc2fd5de998d3455fa33b32d","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/story-lifecycle/scripts/ledger.js"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1071,"sha256":"326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2","mode":420,"url":"https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"}],"archiveSha256":"f39784c3c414356ffa9db9c4d606bb5df706393904f34478b7c3762353fd4f2e"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "affaan-m--ecc--story-lifecycle",
+    "name": "story-lifecycle",
+    "description": "Manage a file-based epic → story → sprint development loop without requiring an external project management tool. Creates and tracks epics, breaks them into user stories, assigns them to sprints, and drives implementation story by story. Use when starting a new feature initiative or when the team has no Jira/Linear/Taiga but needs structured delivery tracking.",
+    "category": "Development",
+    "tags": [
+      "story",
+      "lifecycle",
+      "manage",
+      "file",
+      "based",
+      "epic",
+      "sprint",
+      "development",
+      "loop",
+      "without",
+      "requiring",
+      "external",
+      "project",
+      "management",
+      "tool.",
+      "creates",
+      "tracks",
+      "epics"
+    ],
+    "repo": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "stars": 277532,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "b92f181b3b748d1abbc2afd94af6aa7d8c8fca29",
+    "path": "skills/story-lifecycle",
+    "sourceUrl": "https://github.com/affaan-m/ECC/tree/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/story-lifecycle",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T02:02:10Z",
+    "fileCount": 3,
+    "bytes": 42946,
+    "sha256": "1492a724d4df362d8e95a340fabd22423e20965b1d0f9ebc6d2d319aca843194",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/story-lifecycle/SKILL.md",
+      "bytes": 17744,
+      "sha256": "1492a724d4df362d8e95a340fabd22423e20965b1d0f9ebc6d2d319aca843194",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/story-lifecycle/SKILL.md"
+    },
+    {
+      "path": "scripts/ledger.js",
+      "sourcePath": "skills/story-lifecycle/scripts/ledger.js",
+      "bytes": 24131,
+      "sha256": "552d2059c3d29f7cbb71ac3d1a13b913a82549a4bc2fd5de998d3455fa33b32d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/skills/story-lifecycle/scripts/ledger.js"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/affaan-m/ECC/b92f181b3b748d1abbc2afd94af6aa7d8c8fca29/LICENSE"
+    }
+  ],
+  "archiveSha256": "f39784c3c414356ffa9db9c4d606bb5df706393904f34478b7c3762353fd4f2e"
+}

@@ -1,1 +1,63 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--azure-communication-callautomation-java","name":"azure-communication-callautomation-java","description":"Build server-side call automation workflows including IVR systems, call routing, recording, and AI-powered interactions.","category":"Cloud & DevOps","tags":["azure","communication","callautomation","java","server","side","call","automation","workflows","including","ivr","systems","routing","recording","ai","powered","interactions."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/azure-communication-callautomation-java","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-communication-callautomation-java","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":9769,"sha256":"72218851e907e5d05743b1e6d1d180dc63992671d529dd8123672785efcb04e0","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/azure-communication-callautomation-java/SKILL.md","bytes":8696,"sha256":"72218851e907e5d05743b1e6d1d180dc63992671d529dd8123672785efcb04e0","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-communication-callautomation-java/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"23d60b79ca95eb87a70fb019640b26111e13d694e906d69d6d0b07369449fec3"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--azure-communication-callautomation-java",
+    "name": "azure-communication-callautomation-java",
+    "description": "Build server-side call automation workflows including IVR systems, call routing, recording, and AI-powered interactions.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "azure",
+      "communication",
+      "callautomation",
+      "java",
+      "server",
+      "side",
+      "call",
+      "automation",
+      "workflows",
+      "including",
+      "ivr",
+      "systems",
+      "routing",
+      "recording",
+      "ai",
+      "powered",
+      "interactions."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/azure-communication-callautomation-java",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-communication-callautomation-java",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 9769,
+    "sha256": "72218851e907e5d05743b1e6d1d180dc63992671d529dd8123672785efcb04e0",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/azure-communication-callautomation-java/SKILL.md",
+      "bytes": 8696,
+      "sha256": "72218851e907e5d05743b1e6d1d180dc63992671d529dd8123672785efcb04e0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/azure-communication-callautomation-java/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "23d60b79ca95eb87a70fb019640b26111e13d694e906d69d6d0b07369449fec3"
+}

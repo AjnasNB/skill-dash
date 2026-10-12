@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"k-dense-ai--scientific-agent-skills--scikit-bio","name":"scikit-bio","description":"Biological data toolkit. Sequence analysis, alignments, phylogenetic trees, diversity metrics (alpha/beta, UniFrac), ordination (PCoA), PERMANOVA, FASTA/Newick I/O, for microbiome analysis.","category":"Development","tags":["scikit","bio","biological","data","toolkit.","sequence","analysis","alignments","phylogenetic","trees","diversity","metrics","alpha","beta","unifrac","ordination","pcoa","permanova"],"repo":"K-Dense-AI/scientific-agent-skills","owner":"K-Dense-AI","stars":48508,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE.md","revision":"a1043ef544e3a100c28e70a736b6cf32554d0677","path":"skills/scikit-bio","sourceUrl":"https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-bio","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T09:43:29Z","fileCount":4,"bytes":57076,"sha256":"4a7a5760adadf32782dc4694028371df13b25472ff8ffe4cef2b2fc564226f6c","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/scikit-bio/SKILL.md","bytes":23908,"sha256":"4a7a5760adadf32782dc4694028371df13b25472ff8ffe4cef2b2fc564226f6c","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-bio/SKILL.md"},{"path":"references/api_reference.md","sourcePath":"skills/scikit-bio/references/api_reference.md","bytes":23352,"sha256":"941fa9f2fea0a6abf398c22fb031e251935fd6c7dac0d7398417e7f4d50d351f","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-bio/references/api_reference.md"},{"path":"references/review.md","sourcePath":"skills/scikit-bio/references/review.md","bytes":8748,"sha256":"e4a3c3c37534f718238081807412e0fb4481d28516164130c14e999507f94fa4","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-bio/references/review.md"},{"path":"UPSTREAM-LICENSE.md","sourcePath":"LICENSE.md","bytes":1068,"sha256":"09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1","mode":420,"url":"https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"}],"archiveSha256":"406750dff1f47985709cab41fed0f2c3c303f0626691b775e20235affe3be477"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--scikit-bio",
+    "name": "scikit-bio",
+    "description": "Biological data toolkit. Sequence analysis, alignments, phylogenetic trees, diversity metrics (alpha/beta, UniFrac), ordination (PCoA), PERMANOVA, FASTA/Newick I/O, for microbiome analysis.",
+    "category": "Development",
+    "tags": [
+      "scikit",
+      "bio",
+      "biological",
+      "data",
+      "toolkit.",
+      "sequence",
+      "analysis",
+      "alignments",
+      "phylogenetic",
+      "trees",
+      "diversity",
+      "metrics",
+      "alpha",
+      "beta",
+      "unifrac",
+      "ordination",
+      "pcoa",
+      "permanova"
+    ],
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "owner": "K-Dense-AI",
+    "stars": 48508,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE.md",
+    "revision": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+    "path": "skills/scikit-bio",
+    "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-bio",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T09:43:29Z",
+    "fileCount": 4,
+    "bytes": 57076,
+    "sha256": "4a7a5760adadf32782dc4694028371df13b25472ff8ffe4cef2b2fc564226f6c",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/scikit-bio/SKILL.md",
+      "bytes": 23908,
+      "sha256": "4a7a5760adadf32782dc4694028371df13b25472ff8ffe4cef2b2fc564226f6c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-bio/SKILL.md"
+    },
+    {
+      "path": "references/api_reference.md",
+      "sourcePath": "skills/scikit-bio/references/api_reference.md",
+      "bytes": 23352,
+      "sha256": "941fa9f2fea0a6abf398c22fb031e251935fd6c7dac0d7398417e7f4d50d351f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-bio/references/api_reference.md"
+    },
+    {
+      "path": "references/review.md",
+      "sourcePath": "skills/scikit-bio/references/review.md",
+      "bytes": 8748,
+      "sha256": "e4a3c3c37534f718238081807412e0fb4481d28516164130c14e999507f94fa4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scikit-bio/references/review.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE.md",
+      "sourcePath": "LICENSE.md",
+      "bytes": 1068,
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md"
+    }
+  ],
+  "archiveSha256": "406750dff1f47985709cab41fed0f2c3c303f0626691b775e20235affe3be477"
+}

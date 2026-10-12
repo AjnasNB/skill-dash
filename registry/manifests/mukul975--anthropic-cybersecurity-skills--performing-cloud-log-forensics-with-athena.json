@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-cloud-log-forensics-with-athena","name":"performing-cloud-log-forensics-with-athena","description":"Uses AWS Athena to query CloudTrail, VPC Flow Logs, S3 access logs, and ALB logs for forensic investigation. Covers CREATE TABLE DDL with partition projection, forensic SQL queries for detecting unauthorized access, data exfiltration, lateral movement, and privilege escalation. Use when investigating AWS security incidents or building cloud-native forensic workflows at scale.","category":"Security","tags":["performing","cloud","log","forensics","athena","uses","aws","query","cloudtrail","vpc","flow","logs","s3","access","alb","forensic","investigation.","covers"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-cloud-log-forensics-with-athena/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-cloud-log-forensics-with-athena","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-log-forensics-with-athena","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":5,"bytes":59664,"sha256":"43cca16e93718cea7746e794c280d85f6aacc7a6fdeb3b73c8fc2a0b575283f4","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-cloud-log-forensics-with-athena/LICENSE","bytes":802,"sha256":"6c5dcaae2f4abb80eb4ea27408b8d4e0eaab3e1760d5cda77b43b7696c05089f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-log-forensics-with-athena/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-cloud-log-forensics-with-athena/SKILL.md","bytes":14972,"sha256":"43cca16e93718cea7746e794c280d85f6aacc7a6fdeb3b73c8fc2a0b575283f4","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-log-forensics-with-athena/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-cloud-log-forensics-with-athena/references/api-reference.md","bytes":9210,"sha256":"9f21458f490cdffe9d496eb0cd88eccef1a5ee648cafa49a03012a20cbfc540e","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-log-forensics-with-athena/references/api-reference.md"},{"path":"references/athena-forensics-reference.md","sourcePath":"skills/performing-cloud-log-forensics-with-athena/references/athena-forensics-reference.md","bytes":5080,"sha256":"4e67cb6c74228b8c101caa2577358ce8cf6d2315393f8510aaf8493eacc5499d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-log-forensics-with-athena/references/athena-forensics-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-cloud-log-forensics-with-athena/scripts/agent.py","bytes":29600,"sha256":"e0d835635429f5960526bd6d6cf1c120da50ed8507bd3571afafb601e164696b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-log-forensics-with-athena/scripts/agent.py"}],"archiveSha256":"6ce4ef940026b0c65d8d66a40613069e0a6d1a7d05b9b7b989841348689ff36f"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-cloud-log-forensics-with-athena",
+    "name": "performing-cloud-log-forensics-with-athena",
+    "description": "Uses AWS Athena to query CloudTrail, VPC Flow Logs, S3 access logs, and ALB logs for forensic investigation. Covers CREATE TABLE DDL with partition projection, forensic SQL queries for detecting unauthorized access, data exfiltration, lateral movement, and privilege escalation. Use when investigating AWS security incidents or building cloud-native forensic workflows at scale.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "cloud",
+      "log",
+      "forensics",
+      "athena",
+      "uses",
+      "aws",
+      "query",
+      "cloudtrail",
+      "vpc",
+      "flow",
+      "logs",
+      "s3",
+      "access",
+      "alb",
+      "forensic",
+      "investigation.",
+      "covers"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-cloud-log-forensics-with-athena/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-cloud-log-forensics-with-athena",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-log-forensics-with-athena",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 59664,
+    "sha256": "43cca16e93718cea7746e794c280d85f6aacc7a6fdeb3b73c8fc2a0b575283f4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-cloud-log-forensics-with-athena/LICENSE",
+      "bytes": 802,
+      "sha256": "6c5dcaae2f4abb80eb4ea27408b8d4e0eaab3e1760d5cda77b43b7696c05089f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-log-forensics-with-athena/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-cloud-log-forensics-with-athena/SKILL.md",
+      "bytes": 14972,
+      "sha256": "43cca16e93718cea7746e794c280d85f6aacc7a6fdeb3b73c8fc2a0b575283f4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-log-forensics-with-athena/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-cloud-log-forensics-with-athena/references/api-reference.md",
+      "bytes": 9210,
+      "sha256": "9f21458f490cdffe9d496eb0cd88eccef1a5ee648cafa49a03012a20cbfc540e",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-log-forensics-with-athena/references/api-reference.md"
+    },
+    {
+      "path": "references/athena-forensics-reference.md",
+      "sourcePath": "skills/performing-cloud-log-forensics-with-athena/references/athena-forensics-reference.md",
+      "bytes": 5080,
+      "sha256": "4e67cb6c74228b8c101caa2577358ce8cf6d2315393f8510aaf8493eacc5499d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-log-forensics-with-athena/references/athena-forensics-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-cloud-log-forensics-with-athena/scripts/agent.py",
+      "bytes": 29600,
+      "sha256": "e0d835635429f5960526bd6d6cf1c120da50ed8507bd3571afafb601e164696b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-cloud-log-forensics-with-athena/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "6ce4ef940026b0c65d8d66a40613069e0a6d1a7d05b9b7b989841348689ff36f"
+}

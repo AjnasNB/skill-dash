@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--leiloeiro-ia","name":"leiloeiro-ia","description":"Especialista em leiloes judiciais e extrajudiciais de imoveis. Analise juridica, pericial e de mercado integrada. Orquestra os 5 modulos especializados.","category":"Development","tags":["leiloeiro","ia","especialista","em","leiloes","judiciais","extrajudiciais","de","imoveis.","analise","juridica","pericial","mercado","integrada.","orquestra","os","modulos","especializados."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/leiloeiro-ia","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/leiloeiro-ia","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":5,"bytes":20023,"sha256":"f73d30ec856c92c3d022f9a0aa9ae32cf98147b4ca9ef64cbe414c8b37d7178a","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/leiloeiro-ia/SKILL.md","bytes":15025,"sha256":"f73d30ec856c92c3d022f9a0aa9ae32cf98147b4ca9ef64cbe414c8b37d7178a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/leiloeiro-ia/SKILL.md"},{"path":"references/fontes.md","sourcePath":"skills/leiloeiro-ia/references/fontes.md","bytes":587,"sha256":"ac711fa9b24b8efd157a6fc0649e5877012c485e2ed5dfa15d09dfff355a91cc","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/leiloeiro-ia/references/fontes.md"},{"path":"scripts/governance.py","sourcePath":"skills/leiloeiro-ia/scripts/governance.py","bytes":3296,"sha256":"9e096f787bd2d28d21b85e228e57340ea36904dd9ee9783b36bf58274c782d67","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/leiloeiro-ia/scripts/governance.py"},{"path":"scripts/requirements.txt","sourcePath":"skills/leiloeiro-ia/scripts/requirements.txt","bytes":42,"sha256":"85d381e75bfe5cc02b8bd3b722403f8298fb8948d9c9753acc49cb60bb789009","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/leiloeiro-ia/scripts/requirements.txt"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"a7fbb6401ec158614db4ca0798de0223c23b5c99ce3fbd7afa070e532e5bbd44"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--leiloeiro-ia",
+    "name": "leiloeiro-ia",
+    "description": "Especialista em leiloes judiciais e extrajudiciais de imoveis. Analise juridica, pericial e de mercado integrada. Orquestra os 5 modulos especializados.",
+    "category": "Development",
+    "tags": [
+      "leiloeiro",
+      "ia",
+      "especialista",
+      "em",
+      "leiloes",
+      "judiciais",
+      "extrajudiciais",
+      "de",
+      "imoveis.",
+      "analise",
+      "juridica",
+      "pericial",
+      "mercado",
+      "integrada.",
+      "orquestra",
+      "os",
+      "modulos",
+      "especializados."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/leiloeiro-ia",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/leiloeiro-ia",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 5,
+    "bytes": 20023,
+    "sha256": "f73d30ec856c92c3d022f9a0aa9ae32cf98147b4ca9ef64cbe414c8b37d7178a",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/leiloeiro-ia/SKILL.md",
+      "bytes": 15025,
+      "sha256": "f73d30ec856c92c3d022f9a0aa9ae32cf98147b4ca9ef64cbe414c8b37d7178a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/leiloeiro-ia/SKILL.md"
+    },
+    {
+      "path": "references/fontes.md",
+      "sourcePath": "skills/leiloeiro-ia/references/fontes.md",
+      "bytes": 587,
+      "sha256": "ac711fa9b24b8efd157a6fc0649e5877012c485e2ed5dfa15d09dfff355a91cc",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/leiloeiro-ia/references/fontes.md"
+    },
+    {
+      "path": "scripts/governance.py",
+      "sourcePath": "skills/leiloeiro-ia/scripts/governance.py",
+      "bytes": 3296,
+      "sha256": "9e096f787bd2d28d21b85e228e57340ea36904dd9ee9783b36bf58274c782d67",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/leiloeiro-ia/scripts/governance.py"
+    },
+    {
+      "path": "scripts/requirements.txt",
+      "sourcePath": "skills/leiloeiro-ia/scripts/requirements.txt",
+      "bytes": 42,
+      "sha256": "85d381e75bfe5cc02b8bd3b722403f8298fb8948d9c9753acc49cb60bb789009",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/leiloeiro-ia/scripts/requirements.txt"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "a7fbb6401ec158614db4ca0798de0223c23b5c99ce3fbd7afa070e532e5bbd44"
+}

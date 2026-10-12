@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"github--awesome-copilot--lean-comments","name":"lean-comments","description":"Audits, writes, and refines maintained first-party source-code comments and declaration-level documentation across languages. Use when adding, editing, reviewing, cleaning up, or auditing comments, doc comments, docstrings, TODO, FIXME, NOTE, suppressions, or other source commentary, including while modifying code and deciding whether a comment is warranted at all. Defaults to no comment unless it preserves meaningful, non-obvious information that cannot reasonably be recovered from the code or nearby repository context.","category":"Writing","tags":["lean","comments","audits","writes","refines","maintained","first","party","source","code","declaration","level","documentation","across","languages.","when","adding","editing"],"repo":"github/awesome-copilot","owner":"github","stars":39944,"official":true,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"70ddff7fab9d4d49743d221b56d761cff58048d0","path":"skills/lean-comments","sourceUrl":"https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/lean-comments","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-12T07:38:37Z","fileCount":2,"bytes":22389,"sha256":"bf10076ba6db8f1f7eff318edb6c7b5167b76c96a8bc6801923ac3f1aa1ef9c4","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/lean-comments/SKILL.md","bytes":21330,"sha256":"bf10076ba6db8f1f7eff318edb6c7b5167b76c96a8bc6801923ac3f1aa1ef9c4","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/lean-comments/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1059,"sha256":"e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823","mode":420,"url":"https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"}],"archiveSha256":"8a7eaaa914a72e6d85d6a7759052429e29c934f433c304170440aead08dd0226"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "github--awesome-copilot--lean-comments",
+    "name": "lean-comments",
+    "description": "Audits, writes, and refines maintained first-party source-code comments and declaration-level documentation across languages. Use when adding, editing, reviewing, cleaning up, or auditing comments, doc comments, docstrings, TODO, FIXME, NOTE, suppressions, or other source commentary, including while modifying code and deciding whether a comment is warranted at all. Defaults to no comment unless it preserves meaningful, non-obvious information that cannot reasonably be recovered from the code or nearby repository context.",
+    "category": "Writing",
+    "tags": [
+      "lean",
+      "comments",
+      "audits",
+      "writes",
+      "refines",
+      "maintained",
+      "first",
+      "party",
+      "source",
+      "code",
+      "declaration",
+      "level",
+      "documentation",
+      "across",
+      "languages.",
+      "when",
+      "adding",
+      "editing"
+    ],
+    "repo": "github/awesome-copilot",
+    "owner": "github",
+    "stars": 39944,
+    "official": true,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "70ddff7fab9d4d49743d221b56d761cff58048d0",
+    "path": "skills/lean-comments",
+    "sourceUrl": "https://github.com/github/awesome-copilot/tree/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/lean-comments",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-12T07:38:37Z",
+    "fileCount": 2,
+    "bytes": 22389,
+    "sha256": "bf10076ba6db8f1f7eff318edb6c7b5167b76c96a8bc6801923ac3f1aa1ef9c4",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/lean-comments/SKILL.md",
+      "bytes": 21330,
+      "sha256": "bf10076ba6db8f1f7eff318edb6c7b5167b76c96a8bc6801923ac3f1aa1ef9c4",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/skills/lean-comments/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/github/awesome-copilot/70ddff7fab9d4d49743d221b56d761cff58048d0/LICENSE"
+    }
+  ],
+  "archiveSha256": "8a7eaaa914a72e6d85d6a7759052429e29c934f433c304170440aead08dd0226"
+}

@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--detecting-shadow-api-endpoints","name":"detecting-shadow-api-endpoints","description":"Discover and inventory shadow API endpoints that operate outside documented OpenAPI/Swagger specs, using traffic analysis against API gateways (Kong, AWS API Gateway, Envoy), cloud configuration scanning, and source code repository mining for undocumented routes. Use when assessing API attack surface, auditing for forgotten test environments or deprecated API versions still running, or building an API registration governance policy.","category":"Cloud & DevOps","tags":["detecting","shadow","api","endpoints","discover","inventory","operate","outside","documented","openapi","swagger","specs","traffic","analysis","against","gateways","kong","aws"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/detecting-shadow-api-endpoints/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/detecting-shadow-api-endpoints","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-shadow-api-endpoints","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":33679,"sha256":"ae2635d7dd04120ac1c7e45967a6987c116559f2d0f8e45e1739fb95b7475361","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/detecting-shadow-api-endpoints/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-shadow-api-endpoints/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/detecting-shadow-api-endpoints/SKILL.md","bytes":14489,"sha256":"ae2635d7dd04120ac1c7e45967a6987c116559f2d0f8e45e1739fb95b7475361","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-shadow-api-endpoints/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/detecting-shadow-api-endpoints/references/api-reference.md","bytes":2212,"sha256":"5dc30ff67c4e7696ffa2d031ab5acce04a3322aabc7aca426126cd8bcc89745f","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-shadow-api-endpoints/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/detecting-shadow-api-endpoints/scripts/agent.py","bytes":5723,"sha256":"7ac74850172c4f941eac5d289f28b62cfc7763d6cbed67400e5b40fea051b5ea","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-shadow-api-endpoints/scripts/agent.py"}],"archiveSha256":"9c7d2ee40fd8e9f98c89f378bbbef3ae63023aaa87dc26cb7576c992a0e10bc2"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--detecting-shadow-api-endpoints",
+    "name": "detecting-shadow-api-endpoints",
+    "description": "Discover and inventory shadow API endpoints that operate outside documented OpenAPI/Swagger specs, using traffic analysis against API gateways (Kong, AWS API Gateway, Envoy), cloud configuration scanning, and source code repository mining for undocumented routes. Use when assessing API attack surface, auditing for forgotten test environments or deprecated API versions still running, or building an API registration governance policy.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "detecting",
+      "shadow",
+      "api",
+      "endpoints",
+      "discover",
+      "inventory",
+      "operate",
+      "outside",
+      "documented",
+      "openapi",
+      "swagger",
+      "specs",
+      "traffic",
+      "analysis",
+      "against",
+      "gateways",
+      "kong",
+      "aws"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/detecting-shadow-api-endpoints/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/detecting-shadow-api-endpoints",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-shadow-api-endpoints",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 33679,
+    "sha256": "ae2635d7dd04120ac1c7e45967a6987c116559f2d0f8e45e1739fb95b7475361",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/detecting-shadow-api-endpoints/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-shadow-api-endpoints/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/detecting-shadow-api-endpoints/SKILL.md",
+      "bytes": 14489,
+      "sha256": "ae2635d7dd04120ac1c7e45967a6987c116559f2d0f8e45e1739fb95b7475361",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-shadow-api-endpoints/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/detecting-shadow-api-endpoints/references/api-reference.md",
+      "bytes": 2212,
+      "sha256": "5dc30ff67c4e7696ffa2d031ab5acce04a3322aabc7aca426126cd8bcc89745f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-shadow-api-endpoints/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/detecting-shadow-api-endpoints/scripts/agent.py",
+      "bytes": 5723,
+      "sha256": "7ac74850172c4f941eac5d289f28b62cfc7763d6cbed67400e5b40fea051b5ea",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/detecting-shadow-api-endpoints/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "9c7d2ee40fd8e9f98c89f378bbbef3ae63023aaa87dc26cb7576c992a0e10bc2"
+}

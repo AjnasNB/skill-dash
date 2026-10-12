@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--payroll-finance","name":"payroll-finance","description":"Payroll register: employee, department and month, basic, DA, HRA and TA, bonus, deductions, net pay, pay period, payment date and method. Use for payroll records.","category":"Product & business","tags":["payroll","finance","register","employee","department","month","basic","da","hra","ta","bonus","deductions","net","pay","period","payment","date","method."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/payroll-finance","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/payroll-finance","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":16553,"sha256":"a8824425553eedcef137c88295540ca7437c1875aed4d3cee01a60af31c76b27","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/payroll-finance/SKILL.md","bytes":15480,"sha256":"a8824425553eedcef137c88295540ca7437c1875aed4d3cee01a60af31c76b27","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/payroll-finance/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"80f8fb43c8ddfcc8e1d90e3a0e444b3078ccd87a7ea3a0b2a2f440d6cce22efc"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--payroll-finance",
+    "name": "payroll-finance",
+    "description": "Payroll register: employee, department and month, basic, DA, HRA and TA, bonus, deductions, net pay, pay period, payment date and method. Use for payroll records.",
+    "category": "Product & business",
+    "tags": [
+      "payroll",
+      "finance",
+      "register",
+      "employee",
+      "department",
+      "month",
+      "basic",
+      "da",
+      "hra",
+      "ta",
+      "bonus",
+      "deductions",
+      "net",
+      "pay",
+      "period",
+      "payment",
+      "date",
+      "method."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/payroll-finance",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/payroll-finance",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 16553,
+    "sha256": "a8824425553eedcef137c88295540ca7437c1875aed4d3cee01a60af31c76b27",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/payroll-finance/SKILL.md",
+      "bytes": 15480,
+      "sha256": "a8824425553eedcef137c88295540ca7437c1875aed4d3cee01a60af31c76b27",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/payroll-finance/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "80f8fb43c8ddfcc8e1d90e3a0e444b3078ccd87a7ea3a0b2a2f440d6cce22efc"
+}

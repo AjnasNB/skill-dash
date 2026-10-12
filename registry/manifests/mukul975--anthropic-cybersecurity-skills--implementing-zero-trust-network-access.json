@@ -1,1 +1,80 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--implementing-zero-trust-network-access","name":"implementing-zero-trust-network-access","description":"Configures Zero Trust Network Access (ZTNA) in AWS, Azure, and GCP using identity-aware proxies, micro-segmentation, and continuous verification with conditional access policies, replacing VPN-based access with BeyondCorp-style architectures. Use when replacing VPN remote access with identity-based controls, limiting lateral movement via micro-segmentation, or exposing cloud workloads to authenticated users without public internet exposure.","category":"Security","tags":["implementing","zero","trust","network","access","configures","ztna","aws","azure","gcp","identity","aware","proxies","micro","segmentation","continuous","verification","conditional"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/implementing-zero-trust-network-access/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/implementing-zero-trust-network-access","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":4,"bytes":34175,"sha256":"53fe4b28ba56650340f0ba8c00f5c56c1800689e836a2141016eabecba456b1b","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/implementing-zero-trust-network-access/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/implementing-zero-trust-network-access/SKILL.md","bytes":13326,"sha256":"53fe4b28ba56650340f0ba8c00f5c56c1800689e836a2141016eabecba456b1b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/implementing-zero-trust-network-access/references/api-reference.md","bytes":2786,"sha256":"55a945fd6f1141df8eac14f6c644d159ebe655df55479224daee68ec81964546","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access/references/api-reference.md"},{"path":"scripts/agent.py","sourcePath":"skills/implementing-zero-trust-network-access/scripts/agent.py","bytes":6808,"sha256":"e21c5d8463b70d1b5ce3c5f76d9a529e19629defa67bbe4093dfdabfa3cb98f0","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access/scripts/agent.py"}],"archiveSha256":"e610a9c5a89f624ba97ee67fba72ba2b12e92b3a7595c9b591d78cc59118ebe0"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--implementing-zero-trust-network-access",
+    "name": "implementing-zero-trust-network-access",
+    "description": "Configures Zero Trust Network Access (ZTNA) in AWS, Azure, and GCP using identity-aware proxies, micro-segmentation, and continuous verification with conditional access policies, replacing VPN-based access with BeyondCorp-style architectures. Use when replacing VPN remote access with identity-based controls, limiting lateral movement via micro-segmentation, or exposing cloud workloads to authenticated users without public internet exposure.",
+    "category": "Security",
+    "tags": [
+      "implementing",
+      "zero",
+      "trust",
+      "network",
+      "access",
+      "configures",
+      "ztna",
+      "aws",
+      "azure",
+      "gcp",
+      "identity",
+      "aware",
+      "proxies",
+      "micro",
+      "segmentation",
+      "continuous",
+      "verification",
+      "conditional"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/implementing-zero-trust-network-access/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/implementing-zero-trust-network-access",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 4,
+    "bytes": 34175,
+    "sha256": "53fe4b28ba56650340f0ba8c00f5c56c1800689e836a2141016eabecba456b1b",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/implementing-zero-trust-network-access/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/implementing-zero-trust-network-access/SKILL.md",
+      "bytes": 13326,
+      "sha256": "53fe4b28ba56650340f0ba8c00f5c56c1800689e836a2141016eabecba456b1b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/implementing-zero-trust-network-access/references/api-reference.md",
+      "bytes": 2786,
+      "sha256": "55a945fd6f1141df8eac14f6c644d159ebe655df55479224daee68ec81964546",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access/references/api-reference.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/implementing-zero-trust-network-access/scripts/agent.py",
+      "bytes": 6808,
+      "sha256": "e21c5d8463b70d1b5ce3c5f76d9a529e19629defa67bbe4093dfdabfa3cb98f0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/implementing-zero-trust-network-access/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "e610a9c5a89f624ba97ee67fba72ba2b12e92b3a7595c9b591d78cc59118ebe0"
+}

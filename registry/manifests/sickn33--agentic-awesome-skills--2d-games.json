@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--2d-games","name":"2d-games","description":"2D game development principles. Sprites, atlases, tilemaps, physics, cameras, and genre patterns (platformer, top-down). Use for canvas/Phaser/Kaplay/Pixi 2D games or guest viewports inside hybrid web apps.","category":"Data & research","tags":["2d","games","game","development","principles.","sprites","atlases","tilemaps","physics","cameras","genre","patterns","platformer","top","down","canvas","phaser","kaplay"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/game-development/2d-games","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/game-development/2d-games","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4279,"sha256":"1e3d69e275b7abaf402fcb1b3e49be16c8963c58ad61a65fb2cd7bf712b5bf56","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/game-development/2d-games/SKILL.md","bytes":3206,"sha256":"1e3d69e275b7abaf402fcb1b3e49be16c8963c58ad61a65fb2cd7bf712b5bf56","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/game-development/2d-games/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"242066fcb6443c088ceadcfccbde1f27571b6effb72282bfecc7312b7e8ccf58"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--2d-games",
+    "name": "2d-games",
+    "description": "2D game development principles. Sprites, atlases, tilemaps, physics, cameras, and genre patterns (platformer, top-down). Use for canvas/Phaser/Kaplay/Pixi 2D games or guest viewports inside hybrid web apps.",
+    "category": "Data & research",
+    "tags": [
+      "2d",
+      "games",
+      "game",
+      "development",
+      "principles.",
+      "sprites",
+      "atlases",
+      "tilemaps",
+      "physics",
+      "cameras",
+      "genre",
+      "patterns",
+      "platformer",
+      "top",
+      "down",
+      "canvas",
+      "phaser",
+      "kaplay"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/game-development/2d-games",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/game-development/2d-games",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4279,
+    "sha256": "1e3d69e275b7abaf402fcb1b3e49be16c8963c58ad61a65fb2cd7bf712b5bf56",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/game-development/2d-games/SKILL.md",
+      "bytes": 3206,
+      "sha256": "1e3d69e275b7abaf402fcb1b3e49be16c8963c58ad61a65fb2cd7bf712b5bf56",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/game-development/2d-games/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "242066fcb6443c088ceadcfccbde1f27571b6effb72282bfecc7312b7e8ccf58"
+}

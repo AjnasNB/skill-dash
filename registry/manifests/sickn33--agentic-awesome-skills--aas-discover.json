@@ -1,1 +1,58 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--aas-discover","name":"aas-discover","description":"Discover AAS skills for an explicit task and compare their complete instructions without installing them.","category":"Development","tags":["aas","discover","skills","explicit","task","compare","their","complete","instructions","without","installing","them."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/aas-discover","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/aas-discover","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":3163,"sha256":"62b4c7d89b8810498a869ee90957ef6101426c7ac04348f0330c597a54213e74","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/aas-discover/SKILL.md","bytes":2090,"sha256":"62b4c7d89b8810498a869ee90957ef6101426c7ac04348f0330c597a54213e74","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/aas-discover/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"ba046bc65e0f893a148c8d88b40bf19fad2cb126974a53be9d5c37c8836309ad"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--aas-discover",
+    "name": "aas-discover",
+    "description": "Discover AAS skills for an explicit task and compare their complete instructions without installing them.",
+    "category": "Development",
+    "tags": [
+      "aas",
+      "discover",
+      "skills",
+      "explicit",
+      "task",
+      "compare",
+      "their",
+      "complete",
+      "instructions",
+      "without",
+      "installing",
+      "them."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/aas-discover",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/aas-discover",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 3163,
+    "sha256": "62b4c7d89b8810498a869ee90957ef6101426c7ac04348f0330c597a54213e74",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/aas-discover/SKILL.md",
+      "bytes": 2090,
+      "sha256": "62b4c7d89b8810498a869ee90957ef6101426c7ac04348f0330c597a54213e74",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/aas-discover/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "ba046bc65e0f893a148c8d88b40bf19fad2cb126974a53be9d5c37c8836309ad"
+}

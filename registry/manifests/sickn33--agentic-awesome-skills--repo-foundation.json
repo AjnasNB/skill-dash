@@ -1,1 +1,127 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--repo-foundation","name":"repo-foundation","description":"Implement features, fixes, modules, contract migrations, and resumed work while preserving user edits and authorized public contracts.","category":"Development","tags":["repo","foundation","implement","features","fixes","modules","contract","migrations","resumed","work","while","preserving","user","edits","authorized","public","contracts."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/repo-foundation","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-foundation","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":10,"bytes":36837,"sha256":"f72e41e4051a6b2269d7ce24cde7cd3196c4d48acdddb3d0a270d4e5130098f9","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/repo-foundation/SKILL.md","bytes":12865,"sha256":"f72e41e4051a6b2269d7ce24cde7cd3196c4d48acdddb3d0a270d4e5130098f9","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-foundation/SKILL.md"},{"path":"references/LICENSE.md","sourcePath":"skills/repo-foundation/references/LICENSE.md","bytes":1067,"sha256":"5892ed0c85ff137547c3a9896de6df2877712f39bb3e915751a4043f43de7f3f","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-foundation/references/LICENSE.md"},{"path":"references/bootstrap.md","sourcePath":"skills/repo-foundation/references/bootstrap.md","bytes":4920,"sha256":"a61bf4126b6e2b33368271829cf16be6d96e51501a4ef662822c3a0fb345c231","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-foundation/references/bootstrap.md"},{"path":"references/companion.md","sourcePath":"skills/repo-foundation/references/companion.md","bytes":1555,"sha256":"87c03722d52c70a8c3e790ec107b44bdcd22a9674b1c2a95dce91e257dc1a8ab","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-foundation/references/companion.md"},{"path":"references/continuity.md","sourcePath":"skills/repo-foundation/references/continuity.md","bytes":2887,"sha256":"26b3de0b3b446ba0399d07b983f8defdca6f4d9c3f635ccd3bbe011dd8062158","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-foundation/references/continuity.md"},{"path":"references/evolution.md","sourcePath":"skills/repo-foundation/references/evolution.md","bytes":3815,"sha256":"b6b1bde24c65e5fafa57a2569c9873d25204be69efd6adb5553cc1874595ca3a","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-foundation/references/evolution.md"},{"path":"references/migration-examples.md","sourcePath":"skills/repo-foundation/references/migration-examples.md","bytes":1965,"sha256":"f1df653067b40352c86ebb0ca04647fc555c95ff42844449c46919fc3302323d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-foundation/references/migration-examples.md"},{"path":"references/shared-contracts.md","sourcePath":"skills/repo-foundation/references/shared-contracts.md","bytes":2596,"sha256":"678acfc3436652350ca25f64d7016853ff0ffb1217f1d44db1c9f74a1b045718","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-foundation/references/shared-contracts.md"},{"path":"references/verification.md","sourcePath":"skills/repo-foundation/references/verification.md","bytes":4094,"sha256":"e2a02594f293a9f8b6e764ed53b4df87b3976ff756cf3a8c0eed99fa762958ed","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-foundation/references/verification.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"dc1a7fd1e404b30d4de466858239e827f95de98afc94fcdcef27eb1fcadd9fa2"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--repo-foundation",
+    "name": "repo-foundation",
+    "description": "Implement features, fixes, modules, contract migrations, and resumed work while preserving user edits and authorized public contracts.",
+    "category": "Development",
+    "tags": [
+      "repo",
+      "foundation",
+      "implement",
+      "features",
+      "fixes",
+      "modules",
+      "contract",
+      "migrations",
+      "resumed",
+      "work",
+      "while",
+      "preserving",
+      "user",
+      "edits",
+      "authorized",
+      "public",
+      "contracts."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/repo-foundation",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-foundation",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 10,
+    "bytes": 36837,
+    "sha256": "f72e41e4051a6b2269d7ce24cde7cd3196c4d48acdddb3d0a270d4e5130098f9",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/repo-foundation/SKILL.md",
+      "bytes": 12865,
+      "sha256": "f72e41e4051a6b2269d7ce24cde7cd3196c4d48acdddb3d0a270d4e5130098f9",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-foundation/SKILL.md"
+    },
+    {
+      "path": "references/LICENSE.md",
+      "sourcePath": "skills/repo-foundation/references/LICENSE.md",
+      "bytes": 1067,
+      "sha256": "5892ed0c85ff137547c3a9896de6df2877712f39bb3e915751a4043f43de7f3f",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-foundation/references/LICENSE.md"
+    },
+    {
+      "path": "references/bootstrap.md",
+      "sourcePath": "skills/repo-foundation/references/bootstrap.md",
+      "bytes": 4920,
+      "sha256": "a61bf4126b6e2b33368271829cf16be6d96e51501a4ef662822c3a0fb345c231",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-foundation/references/bootstrap.md"
+    },
+    {
+      "path": "references/companion.md",
+      "sourcePath": "skills/repo-foundation/references/companion.md",
+      "bytes": 1555,
+      "sha256": "87c03722d52c70a8c3e790ec107b44bdcd22a9674b1c2a95dce91e257dc1a8ab",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-foundation/references/companion.md"
+    },
+    {
+      "path": "references/continuity.md",
+      "sourcePath": "skills/repo-foundation/references/continuity.md",
+      "bytes": 2887,
+      "sha256": "26b3de0b3b446ba0399d07b983f8defdca6f4d9c3f635ccd3bbe011dd8062158",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-foundation/references/continuity.md"
+    },
+    {
+      "path": "references/evolution.md",
+      "sourcePath": "skills/repo-foundation/references/evolution.md",
+      "bytes": 3815,
+      "sha256": "b6b1bde24c65e5fafa57a2569c9873d25204be69efd6adb5553cc1874595ca3a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-foundation/references/evolution.md"
+    },
+    {
+      "path": "references/migration-examples.md",
+      "sourcePath": "skills/repo-foundation/references/migration-examples.md",
+      "bytes": 1965,
+      "sha256": "f1df653067b40352c86ebb0ca04647fc555c95ff42844449c46919fc3302323d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-foundation/references/migration-examples.md"
+    },
+    {
+      "path": "references/shared-contracts.md",
+      "sourcePath": "skills/repo-foundation/references/shared-contracts.md",
+      "bytes": 2596,
+      "sha256": "678acfc3436652350ca25f64d7016853ff0ffb1217f1d44db1c9f74a1b045718",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-foundation/references/shared-contracts.md"
+    },
+    {
+      "path": "references/verification.md",
+      "sourcePath": "skills/repo-foundation/references/verification.md",
+      "bytes": 4094,
+      "sha256": "e2a02594f293a9f8b6e764ed53b4df87b3976ff756cf3a8c0eed99fa762958ed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/repo-foundation/references/verification.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "dc1a7fd1e404b30d4de466858239e827f95de98afc94fcdcef27eb1fcadd9fa2"
+}

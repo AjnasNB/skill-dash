@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-yara-rule-development-for-detection","name":"performing-yara-rule-development-for-detection","description":"Develops precise YARA and YARA-X rules for malware detection by identifying unique strings, byte sequences, PE header traits, and behavioral indicators in unpacked malware artifacts while minimizing false positives. Use when building detection signatures for threat hunting, classifying malware families, or authoring rules from IOCs such as C2 URLs, mutex names, and encryption constants.","category":"Security","tags":["performing","yara","rule","development","detection","develops","precise","rules","malware","by","identifying","unique","strings","byte","sequences","pe","header","traits"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-yara-rule-development-for-detection/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-yara-rule-development-for-detection","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-yara-rule-development-for-detection","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":43338,"sha256":"63bb5a11a32341747339f8102b3adc5a4aab698e5b71fe1195b3be6fb7770032","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-yara-rule-development-for-detection/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-yara-rule-development-for-detection/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-yara-rule-development-for-detection/SKILL.md","bytes":11880,"sha256":"63bb5a11a32341747339f8102b3adc5a4aab698e5b71fe1195b3be6fb7770032","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-yara-rule-development-for-detection/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/performing-yara-rule-development-for-detection/assets/template.md","bytes":633,"sha256":"85f030248780c5f58d31881467ffc47fb653bfac54631ca97c03b19fe4578aed","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-yara-rule-development-for-detection/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-yara-rule-development-for-detection/references/api-reference.md","bytes":1947,"sha256":"1112848e190bfcb1c7260d77ea96fad12b6f123c7a96e699683dbee32d6b4f02","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-yara-rule-development-for-detection/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/performing-yara-rule-development-for-detection/references/standards.md","bytes":1424,"sha256":"5ed00351b1cf26d03781fc8afdaaeb01380e71e4e9872a0b25fcdb8e3b6ee460","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-yara-rule-development-for-detection/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/performing-yara-rule-development-for-detection/references/workflows.md","bytes":1764,"sha256":"4d90b336192da44c20352e0cb855b0c3e11085552c6b6445533bfbfc1c7c4f0b","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-yara-rule-development-for-detection/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-yara-rule-development-for-detection/scripts/agent.py","bytes":5704,"sha256":"c5c5b0bd63aa6b739ec61db64dc104b57d67617a99f585c25fe1af1e43492e0c","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-yara-rule-development-for-detection/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/performing-yara-rule-development-for-detection/scripts/process.py","bytes":8731,"sha256":"70b37b46adbb05b1fe15617ee423a02d264c43ceceb14ee4940b041969bf4cf5","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-yara-rule-development-for-detection/scripts/process.py"}],"archiveSha256":"ef2cc64d52b075bd932acb60bc4d71d008522cc7f734edc59c4629cb45b65248"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-yara-rule-development-for-detection",
+    "name": "performing-yara-rule-development-for-detection",
+    "description": "Develops precise YARA and YARA-X rules for malware detection by identifying unique strings, byte sequences, PE header traits, and behavioral indicators in unpacked malware artifacts while minimizing false positives. Use when building detection signatures for threat hunting, classifying malware families, or authoring rules from IOCs such as C2 URLs, mutex names, and encryption constants.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "yara",
+      "rule",
+      "development",
+      "detection",
+      "develops",
+      "precise",
+      "rules",
+      "malware",
+      "by",
+      "identifying",
+      "unique",
+      "strings",
+      "byte",
+      "sequences",
+      "pe",
+      "header",
+      "traits"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-yara-rule-development-for-detection/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-yara-rule-development-for-detection",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-yara-rule-development-for-detection",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 43338,
+    "sha256": "63bb5a11a32341747339f8102b3adc5a4aab698e5b71fe1195b3be6fb7770032",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-yara-rule-development-for-detection/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-yara-rule-development-for-detection/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-yara-rule-development-for-detection/SKILL.md",
+      "bytes": 11880,
+      "sha256": "63bb5a11a32341747339f8102b3adc5a4aab698e5b71fe1195b3be6fb7770032",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-yara-rule-development-for-detection/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-yara-rule-development-for-detection/assets/template.md",
+      "bytes": 633,
+      "sha256": "85f030248780c5f58d31881467ffc47fb653bfac54631ca97c03b19fe4578aed",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-yara-rule-development-for-detection/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-yara-rule-development-for-detection/references/api-reference.md",
+      "bytes": 1947,
+      "sha256": "1112848e190bfcb1c7260d77ea96fad12b6f123c7a96e699683dbee32d6b4f02",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-yara-rule-development-for-detection/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-yara-rule-development-for-detection/references/standards.md",
+      "bytes": 1424,
+      "sha256": "5ed00351b1cf26d03781fc8afdaaeb01380e71e4e9872a0b25fcdb8e3b6ee460",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-yara-rule-development-for-detection/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-yara-rule-development-for-detection/references/workflows.md",
+      "bytes": 1764,
+      "sha256": "4d90b336192da44c20352e0cb855b0c3e11085552c6b6445533bfbfc1c7c4f0b",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-yara-rule-development-for-detection/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-yara-rule-development-for-detection/scripts/agent.py",
+      "bytes": 5704,
+      "sha256": "c5c5b0bd63aa6b739ec61db64dc104b57d67617a99f585c25fe1af1e43492e0c",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-yara-rule-development-for-detection/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-yara-rule-development-for-detection/scripts/process.py",
+      "bytes": 8731,
+      "sha256": "70b37b46adbb05b1fe15617ee423a02d264c43ceceb14ee4940b041969bf4cf5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-yara-rule-development-for-detection/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "ef2cc64d52b075bd932acb60bc4d71d008522cc7f734edc59c4629cb45b65248"
+}

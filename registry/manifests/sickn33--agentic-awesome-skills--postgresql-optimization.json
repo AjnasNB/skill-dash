@@ -1,1 +1,58 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--postgresql-optimization","name":"postgresql-optimization","description":"PostgreSQL database optimization workflow for query tuning, indexing strategies, performance analysis, and production database management.","category":"Automation","tags":["postgresql","optimization","database","workflow","query","tuning","indexing","strategies","performance","analysis","production","management."],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/postgresql-optimization","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/postgresql-optimization","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":5195,"sha256":"7e38bae10d0df33400530075c9b0d2037f97bcbf7c8532bacc3e373a55a74e34","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/postgresql-optimization/SKILL.md","bytes":4122,"sha256":"7e38bae10d0df33400530075c9b0d2037f97bcbf7c8532bacc3e373a55a74e34","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/postgresql-optimization/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"1f6dac0b06f15fe40da2713813c84596748cecb1846d55fac8cb557b7a617cd7"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--postgresql-optimization",
+    "name": "postgresql-optimization",
+    "description": "PostgreSQL database optimization workflow for query tuning, indexing strategies, performance analysis, and production database management.",
+    "category": "Automation",
+    "tags": [
+      "postgresql",
+      "optimization",
+      "database",
+      "workflow",
+      "query",
+      "tuning",
+      "indexing",
+      "strategies",
+      "performance",
+      "analysis",
+      "production",
+      "management."
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/postgresql-optimization",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/postgresql-optimization",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 5195,
+    "sha256": "7e38bae10d0df33400530075c9b0d2037f97bcbf7c8532bacc3e373a55a74e34",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/postgresql-optimization/SKILL.md",
+      "bytes": 4122,
+      "sha256": "7e38bae10d0df33400530075c9b0d2037f97bcbf7c8532bacc3e373a55a74e34",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/postgresql-optimization/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "1f6dac0b06f15fe40da2713813c84596748cecb1846d55fac8cb557b7a617cd7"
+}

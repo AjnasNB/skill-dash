@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--marketing-mindset","name":"marketing-mindset","description":"Use when a user asks how to win first customers, whether doing X will produce Y, how to write an ad or judge a marketing test — a marketer's decision framework, not a tactic library.","category":"Marketing","tags":["marketing","mindset","when","user","asks","win","first","customers","whether","doing","will","produce","write","ad","judge","test","marketer","decision"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/marketing-mindset","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/marketing-mindset","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":8280,"sha256":"5d0d5b7e6243e2dcca023b797b869e1bb43cee8b6040fedad4e2307d6196daf0","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/marketing-mindset/SKILL.md","bytes":7207,"sha256":"5d0d5b7e6243e2dcca023b797b869e1bb43cee8b6040fedad4e2307d6196daf0","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/marketing-mindset/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"c44b90de7cbdea0544340d64f03e30d5390685076caae9ec14bd6d66985c4f38"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--marketing-mindset",
+    "name": "marketing-mindset",
+    "description": "Use when a user asks how to win first customers, whether doing X will produce Y, how to write an ad or judge a marketing test — a marketer's decision framework, not a tactic library.",
+    "category": "Marketing",
+    "tags": [
+      "marketing",
+      "mindset",
+      "when",
+      "user",
+      "asks",
+      "win",
+      "first",
+      "customers",
+      "whether",
+      "doing",
+      "will",
+      "produce",
+      "write",
+      "ad",
+      "judge",
+      "test",
+      "marketer",
+      "decision"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/marketing-mindset",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/marketing-mindset",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 8280,
+    "sha256": "5d0d5b7e6243e2dcca023b797b869e1bb43cee8b6040fedad4e2307d6196daf0",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/marketing-mindset/SKILL.md",
+      "bytes": 7207,
+      "sha256": "5d0d5b7e6243e2dcca023b797b869e1bb43cee8b6040fedad4e2307d6196daf0",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/marketing-mindset/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "c44b90de7cbdea0544340d64f03e30d5390685076caae9ec14bd6d66985c4f38"
+}

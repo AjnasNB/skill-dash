@@ -1,1 +1,112 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--performing-kerberoasting-attack","name":"performing-kerberoasting-attack","description":"Perform Kerberoasting, a post-exploitation technique that enumerates Active Directory service accounts with Service Principal Names (SPNs), requests their Kerberos TGS tickets, and cracks the NTLM-encrypted tickets offline to recover service account credentials. Use during authorized red team engagements or penetration tests to assess AD privilege escalation and credential access risk from weak service account passwords.","category":"Security","tags":["performing","kerberoasting","attack","perform","post","exploitation","technique","enumerates","active","directory","service","accounts","principal","names","spns","requests","their","kerberos"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/performing-kerberoasting-attack/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/performing-kerberoasting-attack","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-kerberoasting-attack","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":8,"bytes":48439,"sha256":"488b7ae574c24e11e3795394fe75a9bd6cb3976e2cc517c31d63fe6308a861aa","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/performing-kerberoasting-attack/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-kerberoasting-attack/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/performing-kerberoasting-attack/SKILL.md","bytes":4482,"sha256":"488b7ae574c24e11e3795394fe75a9bd6cb3976e2cc517c31d63fe6308a861aa","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-kerberoasting-attack/SKILL.md"},{"path":"assets/template.md","sourcePath":"skills/performing-kerberoasting-attack/assets/template.md","bytes":1163,"sha256":"97e91ca55fef0b072f78a9ceb8c995004ea252abad739d049d8761d29c8bb90a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-kerberoasting-attack/assets/template.md"},{"path":"references/api-reference.md","sourcePath":"skills/performing-kerberoasting-attack/references/api-reference.md","bytes":1659,"sha256":"906b590cbb727e0bd2a17f6de7a9c6c3559d07162be4cbe3dbac6e18f19a0d6a","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-kerberoasting-attack/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/performing-kerberoasting-attack/references/standards.md","bytes":2698,"sha256":"c0f7fb4de26d882e933357579854337165fa5cb7f5164b326c59ea76f1716012","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-kerberoasting-attack/references/standards.md"},{"path":"references/workflows.md","sourcePath":"skills/performing-kerberoasting-attack/references/workflows.md","bytes":4560,"sha256":"d116a949b766d8c024547c5e5b275f7b52bf82a184ec37887549835761820a83","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-kerberoasting-attack/references/workflows.md"},{"path":"scripts/agent.py","sourcePath":"skills/performing-kerberoasting-attack/scripts/agent.py","bytes":8115,"sha256":"2162a19ed38a20124f0f2ccd808ac0f144b058e5b617e2d9f643588c70baf4a5","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-kerberoasting-attack/scripts/agent.py"},{"path":"scripts/process.py","sourcePath":"skills/performing-kerberoasting-attack/scripts/process.py","bytes":14507,"sha256":"88a89463c0b80b96ace6a8b84fe3003b81f57a9eefde89a97cb3d2293ddddb2d","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-kerberoasting-attack/scripts/process.py"}],"archiveSha256":"f732015734a796186d8ecfdd762f8256ccf5d3a289c9bbdcecac93dc1d8cee45"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--performing-kerberoasting-attack",
+    "name": "performing-kerberoasting-attack",
+    "description": "Perform Kerberoasting, a post-exploitation technique that enumerates Active Directory service accounts with Service Principal Names (SPNs), requests their Kerberos TGS tickets, and cracks the NTLM-encrypted tickets offline to recover service account credentials. Use during authorized red team engagements or penetration tests to assess AD privilege escalation and credential access risk from weak service account passwords.",
+    "category": "Security",
+    "tags": [
+      "performing",
+      "kerberoasting",
+      "attack",
+      "perform",
+      "post",
+      "exploitation",
+      "technique",
+      "enumerates",
+      "active",
+      "directory",
+      "service",
+      "accounts",
+      "principal",
+      "names",
+      "spns",
+      "requests",
+      "their",
+      "kerberos"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/performing-kerberoasting-attack/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/performing-kerberoasting-attack",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-kerberoasting-attack",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 8,
+    "bytes": 48439,
+    "sha256": "488b7ae574c24e11e3795394fe75a9bd6cb3976e2cc517c31d63fe6308a861aa",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/performing-kerberoasting-attack/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-kerberoasting-attack/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/performing-kerberoasting-attack/SKILL.md",
+      "bytes": 4482,
+      "sha256": "488b7ae574c24e11e3795394fe75a9bd6cb3976e2cc517c31d63fe6308a861aa",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-kerberoasting-attack/SKILL.md"
+    },
+    {
+      "path": "assets/template.md",
+      "sourcePath": "skills/performing-kerberoasting-attack/assets/template.md",
+      "bytes": 1163,
+      "sha256": "97e91ca55fef0b072f78a9ceb8c995004ea252abad739d049d8761d29c8bb90a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-kerberoasting-attack/assets/template.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/performing-kerberoasting-attack/references/api-reference.md",
+      "bytes": 1659,
+      "sha256": "906b590cbb727e0bd2a17f6de7a9c6c3559d07162be4cbe3dbac6e18f19a0d6a",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-kerberoasting-attack/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/performing-kerberoasting-attack/references/standards.md",
+      "bytes": 2698,
+      "sha256": "c0f7fb4de26d882e933357579854337165fa5cb7f5164b326c59ea76f1716012",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-kerberoasting-attack/references/standards.md"
+    },
+    {
+      "path": "references/workflows.md",
+      "sourcePath": "skills/performing-kerberoasting-attack/references/workflows.md",
+      "bytes": 4560,
+      "sha256": "d116a949b766d8c024547c5e5b275f7b52bf82a184ec37887549835761820a83",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-kerberoasting-attack/references/workflows.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/performing-kerberoasting-attack/scripts/agent.py",
+      "bytes": 8115,
+      "sha256": "2162a19ed38a20124f0f2ccd808ac0f144b058e5b617e2d9f643588c70baf4a5",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-kerberoasting-attack/scripts/agent.py"
+    },
+    {
+      "path": "scripts/process.py",
+      "sourcePath": "skills/performing-kerberoasting-attack/scripts/process.py",
+      "bytes": 14507,
+      "sha256": "88a89463c0b80b96ace6a8b84fe3003b81f57a9eefde89a97cb3d2293ddddb2d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/performing-kerberoasting-attack/scripts/process.py"
+    }
+  ],
+  "archiveSha256": "f732015734a796186d8ecfdd762f8256ccf5d3a289c9bbdcecac93dc1d8cee45"
+}

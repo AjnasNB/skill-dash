@@ -1,1 +1,88 @@
-{"schemaVersion":1,"skill":{"id":"mukul975--anthropic-cybersecurity-skills--auditing-mcp-servers-for-tool-poisoning","name":"auditing-mcp-servers-for-tool-poisoning","description":"Audit MCP servers for tool poisoning, tool shadowing, rug pulls, SSRF, and unauthenticated exposure using Invariant Labs' mcp-scan for static/runtime scanning plus manual SSRF/auth checks and description pinning. Use before adding a new MCP server to an agent stack, when reviewing an internal MCP server, detecting rug pulls, or investigating an agent's unexpected tool-driven behavior.","category":"AI & agents","tags":["auditing","mcp","servers","tool","poisoning","audit","shadowing","rug","pulls","ssrf","unauthenticated","exposure","invariant","labs","scan","static","runtime","scanning"],"repo":"mukul975/Anthropic-Cybersecurity-Skills","owner":"mukul975","stars":34277,"official":false,"featured":false,"license":"Apache-2.0","licensePath":"skills/auditing-mcp-servers-for-tool-poisoning/LICENSE","revision":"54a798831d2266a3ca61ce68a7acb80b81160d57","path":"skills/auditing-mcp-servers-for-tool-poisoning","sourceUrl":"https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-mcp-servers-for-tool-poisoning","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-08-31T04:32:42Z","fileCount":5,"bytes":31584,"sha256":"742ba124a9dd9d5109654fcf566cbec63e0d87f941cbd480ecbaeab596d38e22","historical":false},"files":[{"path":"LICENSE","sourcePath":"skills/auditing-mcp-servers-for-tool-poisoning/LICENSE","bytes":11255,"sha256":"a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-mcp-servers-for-tool-poisoning/LICENSE"},{"path":"SKILL.md","sourcePath":"skills/auditing-mcp-servers-for-tool-poisoning/SKILL.md","bytes":10714,"sha256":"742ba124a9dd9d5109654fcf566cbec63e0d87f941cbd480ecbaeab596d38e22","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-mcp-servers-for-tool-poisoning/SKILL.md"},{"path":"references/api-reference.md","sourcePath":"skills/auditing-mcp-servers-for-tool-poisoning/references/api-reference.md","bytes":2283,"sha256":"bcc5f1efc8be610024c2aac285f8e0bffc3d0cb0160e178e2099e97ce251e5fd","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-mcp-servers-for-tool-poisoning/references/api-reference.md"},{"path":"references/standards.md","sourcePath":"skills/auditing-mcp-servers-for-tool-poisoning/references/standards.md","bytes":1569,"sha256":"45eb1a0a36299b9dc6b86a29b756562a6a2ed34b1956ce028e287f2d7969a155","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-mcp-servers-for-tool-poisoning/references/standards.md"},{"path":"scripts/agent.py","sourcePath":"skills/auditing-mcp-servers-for-tool-poisoning/scripts/agent.py","bytes":5763,"sha256":"3e169d38eaca33482126ad056ca23a563b4cc443df38662a593b2caf3e1623be","mode":420,"url":"https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-mcp-servers-for-tool-poisoning/scripts/agent.py"}],"archiveSha256":"7a1f044af300e2c63f5156271b898f1cfe9fd25502329f5aa7c4c8fbe44748cb"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "mukul975--anthropic-cybersecurity-skills--auditing-mcp-servers-for-tool-poisoning",
+    "name": "auditing-mcp-servers-for-tool-poisoning",
+    "description": "Audit MCP servers for tool poisoning, tool shadowing, rug pulls, SSRF, and unauthenticated exposure using Invariant Labs' mcp-scan for static/runtime scanning plus manual SSRF/auth checks and description pinning. Use before adding a new MCP server to an agent stack, when reviewing an internal MCP server, detecting rug pulls, or investigating an agent's unexpected tool-driven behavior.",
+    "category": "AI & agents",
+    "tags": [
+      "auditing",
+      "mcp",
+      "servers",
+      "tool",
+      "poisoning",
+      "audit",
+      "shadowing",
+      "rug",
+      "pulls",
+      "ssrf",
+      "unauthenticated",
+      "exposure",
+      "invariant",
+      "labs",
+      "scan",
+      "static",
+      "runtime",
+      "scanning"
+    ],
+    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+    "owner": "mukul975",
+    "stars": 34277,
+    "official": false,
+    "featured": false,
+    "license": "Apache-2.0",
+    "licensePath": "skills/auditing-mcp-servers-for-tool-poisoning/LICENSE",
+    "revision": "54a798831d2266a3ca61ce68a7acb80b81160d57",
+    "path": "skills/auditing-mcp-servers-for-tool-poisoning",
+    "sourceUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/tree/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-mcp-servers-for-tool-poisoning",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-08-31T04:32:42Z",
+    "fileCount": 5,
+    "bytes": 31584,
+    "sha256": "742ba124a9dd9d5109654fcf566cbec63e0d87f941cbd480ecbaeab596d38e22",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sourcePath": "skills/auditing-mcp-servers-for-tool-poisoning/LICENSE",
+      "bytes": 11255,
+      "sha256": "a941b58ef0ba43a31e24ae7ece1b743a585efed9e37792b9ca063e0798be1cbe",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-mcp-servers-for-tool-poisoning/LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/auditing-mcp-servers-for-tool-poisoning/SKILL.md",
+      "bytes": 10714,
+      "sha256": "742ba124a9dd9d5109654fcf566cbec63e0d87f941cbd480ecbaeab596d38e22",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-mcp-servers-for-tool-poisoning/SKILL.md"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sourcePath": "skills/auditing-mcp-servers-for-tool-poisoning/references/api-reference.md",
+      "bytes": 2283,
+      "sha256": "bcc5f1efc8be610024c2aac285f8e0bffc3d0cb0160e178e2099e97ce251e5fd",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-mcp-servers-for-tool-poisoning/references/api-reference.md"
+    },
+    {
+      "path": "references/standards.md",
+      "sourcePath": "skills/auditing-mcp-servers-for-tool-poisoning/references/standards.md",
+      "bytes": 1569,
+      "sha256": "45eb1a0a36299b9dc6b86a29b756562a6a2ed34b1956ce028e287f2d7969a155",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-mcp-servers-for-tool-poisoning/references/standards.md"
+    },
+    {
+      "path": "scripts/agent.py",
+      "sourcePath": "skills/auditing-mcp-servers-for-tool-poisoning/scripts/agent.py",
+      "bytes": 5763,
+      "sha256": "3e169d38eaca33482126ad056ca23a563b4cc443df38662a593b2caf3e1623be",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/54a798831d2266a3ca61ce68a7acb80b81160d57/skills/auditing-mcp-servers-for-tool-poisoning/scripts/agent.py"
+    }
+  ],
+  "archiveSha256": "7a1f044af300e2c63f5156271b898f1cfe9fd25502329f5aa7c4c8fbe44748cb"
+}

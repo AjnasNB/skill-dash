@@ -1,1 +1,64 @@
-{"schemaVersion":1,"skill":{"id":"sickn33--agentic-awesome-skills--tokenwise","name":"tokenwise","description":"Measurement-driven model router for Claude Code. Routes Haiku/Sonnet/Opus per task class, logs every routed task with real $ numbers, and A/B tests cheaper tiers before you trust the savings.","category":"Development","tags":["tokenwise","measurement","driven","model","router","claude","code.","routes","haiku","sonnet","opus","per","task","class","logs","every","routed","real"],"repo":"sickn33/agentic-awesome-skills","owner":"sickn33","stars":47492,"official":false,"featured":false,"license":"MIT","licensePath":"LICENSE","revision":"09e94102a5008d4d8066e14bdb8d0b95d365748c","path":"skills/tokenwise","sourceUrl":"https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/tokenwise","checkedAt":"2026-10-12T11:14:06.196Z","updatedAt":"2026-10-11T20:00:18Z","fileCount":2,"bytes":4823,"sha256":"0d7cce9508933ece99e834e00d5b0c63d577a68144b27cd6adb36fc0e6d88402","historical":false},"files":[{"path":"SKILL.md","sourcePath":"skills/tokenwise/SKILL.md","bytes":3750,"sha256":"0d7cce9508933ece99e834e00d5b0c63d577a68144b27cd6adb36fc0e6d88402","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/tokenwise/SKILL.md"},{"path":"UPSTREAM-LICENSE","sourcePath":"LICENSE","bytes":1073,"sha256":"af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d","mode":420,"url":"https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"}],"archiveSha256":"9cab06138970aabef8fa6bf8eae8ceca62aae6761e02ed251f0fc917dd245259"}
+{
+  "schemaVersion": 1,
+  "skill": {
+    "id": "sickn33--agentic-awesome-skills--tokenwise",
+    "name": "tokenwise",
+    "description": "Measurement-driven model router for Claude Code. Routes Haiku/Sonnet/Opus per task class, logs every routed task with real $ numbers, and A/B tests cheaper tiers before you trust the savings.",
+    "category": "Development",
+    "tags": [
+      "tokenwise",
+      "measurement",
+      "driven",
+      "model",
+      "router",
+      "claude",
+      "code.",
+      "routes",
+      "haiku",
+      "sonnet",
+      "opus",
+      "per",
+      "task",
+      "class",
+      "logs",
+      "every",
+      "routed",
+      "real"
+    ],
+    "repo": "sickn33/agentic-awesome-skills",
+    "owner": "sickn33",
+    "stars": 47492,
+    "official": false,
+    "featured": false,
+    "license": "MIT",
+    "licensePath": "LICENSE",
+    "revision": "09e94102a5008d4d8066e14bdb8d0b95d365748c",
+    "path": "skills/tokenwise",
+    "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills/tree/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/tokenwise",
+    "checkedAt": "2026-10-12T11:14:06.196Z",
+    "updatedAt": "2026-10-11T20:00:18Z",
+    "fileCount": 2,
+    "bytes": 4823,
+    "sha256": "0d7cce9508933ece99e834e00d5b0c63d577a68144b27cd6adb36fc0e6d88402",
+    "historical": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sourcePath": "skills/tokenwise/SKILL.md",
+      "bytes": 3750,
+      "sha256": "0d7cce9508933ece99e834e00d5b0c63d577a68144b27cd6adb36fc0e6d88402",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/skills/tokenwise/SKILL.md"
+    },
+    {
+      "path": "UPSTREAM-LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 1073,
+      "sha256": "af98370a7edc0f00ec46979d049517833c9a7fa2ba74e3cf8cc42f7db557299d",
+      "mode": 420,
+      "url": "https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/09e94102a5008d4d8066e14bdb8d0b95d365748c/LICENSE"
+    }
+  ],
+  "archiveSha256": "9cab06138970aabef8fa6bf8eae8ceca62aae6761e02ed251f0fc917dd245259"
+}
