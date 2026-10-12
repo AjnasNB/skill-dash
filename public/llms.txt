@@ -82,8 +82,8 @@ executes upstream helper scripts.
 ## MCP
 
 Public Streamable HTTP endpoint: https://skills.maqamagent.com/mcp
-Connect all supported local hosts: npx agent-skill-library connect --host all --global
-Project and cloud-compatible config: npx agent-skill-library connect --host all
+Connect all supported local hosts: npx --yes https://github.com/AjnasNB/skill-dash/releases/download/v0.3.0/agent-skill-library-0.3.0.tgz connect --host all --global
+Project and cloud-compatible config: npx --yes https://github.com/AjnasNB/skill-dash/releases/download/v0.3.0/agent-skill-library-0.3.0.tgz connect --host all
 Hosts: Codex, Claude Code, Cursor, Antigravity. Refresh the host after setup.
 Configure each remote machine or hosted chat product separately.
 Tools: search_skills, read_skill, plan_skill_install, search_listings.
