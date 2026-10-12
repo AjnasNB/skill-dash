@@ -76,5 +76,5 @@ $('#share-listing')?.addEventListener('click', () => copy(location.origin + loca
 $('#copy-badge')?.addEventListener('click', () => copy($('#listing-badge-code').value));
 accountState().catch(error => message(error.message, true));
 
-function updateSkillRequirements(){for(const name of ['repository','skillPath']){const field=$('#publish-'+name);if(field)field.required=$('#listing-type')?.value==='skill';}}
+function updateSkillRequirements(){const skill=$('#listing-type')?.value==='skill';for(const name of ['repository','skillPath']){const field=$('#publish-'+name);if(field){field.required=skill;field.disabled=!skill;field.hidden=!skill;if(field.previousElementSibling)field.previousElementSibling.hidden=!skill;}}}
 $('#listing-type')?.addEventListener('change',updateSkillRequirements);
