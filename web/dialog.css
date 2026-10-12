@@ -65,7 +65,7 @@ html { scrollbar-gutter: stable; }
 .detail-subtitle > span, .detail-subtitle > button { display: inline-flex; align-items: center; gap: 5px; }
 .detail-subtitle > button { margin-left: auto; min-height: 32px; padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; font-size: 12px; color: var(--green); }
 .detail-subtitle > button:hover { background: var(--green-pale); border-color: #b9d2c5; }
-.detail-description { max-width: 80ch; margin-top: 12px; font-size: 14px; line-height: 1.6; color: var(--muted); text-wrap: pretty; }
+.detail-description { max-width: 80ch; margin-top: 12px; font-size: 14px; line-height: 1.6; color: var(--muted); text-wrap: pretty; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .detail-layout { flex: 1; min-height: 0; min-width: 0; display: grid; grid-template-columns: minmax(0, 1fr) 330px; gap: 0; margin: 0; padding: 0; border: 0; }
 .instruction-column { display: flex; flex-direction: column; min-width: 0; min-height: 0; overflow: hidden; }
 .instruction-heading { flex: 0 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 28px; margin: 0; border-bottom: 1px solid var(--line); background: #fbfcfa; }

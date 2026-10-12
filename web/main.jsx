@@ -256,7 +256,7 @@ function SkillDialog({ skill, onClose, saved, onSave, initialText = '' }) {
       <span className="detail-stars"><Star size={14} />{skill.stars.toLocaleString()} repository stars</span>
       <button onClick={onSave} aria-pressed={saved}><BookmarkSimple weight={saved ? 'fill' : 'regular'} />{saved ? 'Saved' : 'Save skill'}</button>
     </div>
-    <p className="detail-description">{skill.description}</p>
+    <p className="detail-description" title={skill.description}>{skill.description}</p>
   </>;
   return <Dialog onClose={onClose} title={pretty(skill.name)} className="skill-dialog"
     leading={<span className={`skill-icon category-${skill.category.split(' ')[0].toLowerCase()}`}><Icon size={26} weight="duotone" /></span>}
