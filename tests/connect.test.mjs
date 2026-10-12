@@ -69,3 +69,17 @@ test('all-host preflight prevents partial writes when another host is invalid', 
     await assert.rejects(fs.stat(path.join(home,'.codex/config.toml')),{code:'ENOENT'});
   } finally {await fs.rm(home,{recursive:true,force:true});}
 });
+test('global setup also connects an existing older Antigravity profile without creating it on new machines',async()=>{
+  const home=await fs.mkdtemp(path.join(os.tmpdir(),'skilldash-legacy-host-'));
+  try{
+    const legacy=path.join(home,'.gemini','antigravity','mcp_config.json');
+    await fs.mkdir(path.dirname(legacy),{recursive:true});
+    await fs.writeFile(legacy,JSON.stringify({mcpServers:{projectMemory:{command:'local-memory'}}}));
+    const results=await connectHosts({host:'antigravity',global:true,home});
+    assert.equal(results.length,2);assert.equal(results[1].legacy,true);
+    const value=JSON.parse(await fs.readFile(legacy,'utf8'));
+    assert.equal(value.mcpServers.projectMemory.command,'local-memory');
+    assert.equal(value.mcpServers['skill-library'].serverUrl,MCP_URL);
+    assert.ok((await inspectConnections({host:'antigravity',global:true,home})).every(x=>x.status==='configured'));
+  }finally{await fs.rm(home,{recursive:true,force:true});}
+});

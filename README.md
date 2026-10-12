@@ -103,6 +103,8 @@ npx agent-skill-library doctor --host all --global --json
 
 The global paths are `~/.codex/config.toml`, `~/.claude.json`, `~/.cursor/mcp.json` and `~/.gemini/config/mcp_config.json`. Project paths are `.codex/config.toml`, `.mcp.json`, `.cursor/mcp.json` and `.agents/mcp_config.json`. Antigravity remote entries use `serverUrl`; Claude Code entries use `type: "http"` and `url`.
 
+If an older Antigravity IDE profile already has `~/.gemini/antigravity/mcp_config.json`, global setup also merges the connector there. The legacy profile is never created on a new installation.
+
 SkillDash provides public discovery context. Qarinah keeps opted-in project memory locally. Connecting SkillDash does not upload project history or grant access to private computer files.
 
 ### Local stdio alternative
