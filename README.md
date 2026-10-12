@@ -1,6 +1,24 @@
-# Skill Library — AI agent skills
+# SkillDash — the free Skill Library and AI directory
 
 An open skill marketplace, npm CLI, and read-only MCP server for **Codex**, **Claude Code**, and **Delta Harness**.
+
+SkillDash combines the curated Skill Library with a free community directory for **skills, AI products, plugins, libraries, MCP servers and tools**. Browse without an account. Verify your email to submit work and vote. Community submission has no minimum star count or listing fee.
+
+**[Publish free](https://skills.maqamagent.com/publish)** · [Community directory](https://skills.maqamagent.com/products) · [Your account](https://skills.maqamagent.com/account) · [Publication policy](https://skills.maqamagent.com/publishing-policy)
+
+Every approved community listing gets a public page and a **Listed on SkillDash** badge. A reviewer checks the public source, listing details and publication rights. This is not a security certification. Verified accounts get one reversible vote per listing; repository stars stay separate.
+
+The existing curated downloadable catalog keeps its recorded source-selection policy, upstream licenses, pinned revisions and SHA-256 file checksums. Community submissions do not automatically become curated download archives.
+
+## Accounts, reviews and notification delivery
+
+Email sign-in uses a random one-time link expiring in 15 minutes. Only token hashes are stored. Production sessions use Secure, HttpOnly, SameSite cookies, expire after 14 days, and are revoked on sign-out. Account emails remain private.
+
+Cloudflare Email Service sends sign-in links and submission notifications through the `EMAIL` binding. New submissions alert `contact@cognifyr.co`; approved listings notify their owner. The sender is restricted to `skilldash@cognifyr.co` on the already-onboarded company domain. No additional API key is needed.
+
+D1 stores submissions and a transactional notification outbox. The five-minute scheduled worker retries failed notifications with backoff and removes expired authentication and rate-limit records. The reviewer account sees the pending queue and notification failures at `/review` after verifying the configured `ADMIN_EMAIL`. Review outcomes are persisted before mail is attempted.
+
+Apply `migrations/0002_community.sql` before deploying version 0.2.0. The migration adds account, session, listing, vote and notification tables; it preserves the original submission queue. Local account/voting/review tests use the same SQL schema in SQLite with mocked email delivery. Production email delivery requires the Cloudflare sender domain and binding.
 
 **[Browse the library](https://skills.maqamagent.com)** · [Agent instructions](https://skills.maqamagent.com/llms.txt) · [API schema](https://skills.maqamagent.com/openapi.json)
 

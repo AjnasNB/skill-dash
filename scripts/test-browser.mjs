@@ -7,7 +7,7 @@ import { unzipSync } from 'fflate';
 const base = process.env.LIBRARY_TEST_URL || 'http://127.0.0.1:8794';
 const output = path.resolve('artifacts/browser');
 await fs.mkdir(output, { recursive: true });
-const browser = await chromium.launch({ channel: 'msedge', headless: true });
+const browser = await chromium.launch({ channel: 'chrome', headless: true });
 const errors = [];
 try {
   const context = await browser.newContext({ viewport: { width: 1440, height: 1000 }, permissions: ['clipboard-read', 'clipboard-write'], acceptDownloads: true });
@@ -56,17 +56,12 @@ try {
   await page.getByRole('button', { name: /For agents/ }).click();
   await expect(page.locator('dialog')).toContainText('MCP');
   await page.keyboard.press('Escape');
-  await page.route('**/api/submissions', route => route.fulfill({ status: 503, contentType: 'application/json', body: JSON.stringify({ error: 'Submission test unavailable.' }) }));
-  await page.getByRole('button', { name: 'Submit a skill', exact: true }).click();
-  await page.getByLabel('GitHub repository', { exact: true }).fill('https://github.com/example/skill-example');
-  await page.getByLabel('Skill folder in the repository', { exact: true }).fill('skills/testing');
-  await page.getByRole('button', { name: 'Submit for review' }).click();
-  await expect(page.getByRole('alert')).toContainText('Submission test unavailable.');
-  await page.unroute('**/api/submissions');
-  await page.route('**/api/submissions', route => route.fulfill({ status: 202, contentType: 'application/json', body: JSON.stringify({ id: 'browser-ui-fixture', status: 'pending', message: 'Fixture queued for review.' }) }));
-  await page.getByRole('button', { name: 'Submit for review' }).click();
-  await expect(page.getByRole('heading', { name: 'Added to the review queue.' })).toBeVisible();
-  await page.getByRole('button', { name: 'Done', exact: true }).click();
+  await page.getByRole('link', { name: 'Publish free', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'Publish on SkillDash.' })).toBeVisible();
+  await expect(page.getByText('Sign in with a verified email to submit.')).toBeVisible();
+  await expect(page.locator('#publish-form')).toBeHidden();
+  await page.getByRole('link', { name: 'Sign in / Join free', exact: true }).click();
+  await expect(page.getByRole('button', { name: 'Email my sign-in link' })).toBeVisible();
   const mobile = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, deviceScaleFactor: 1 });
   const mobilePage = await mobile.newPage(); mobilePage.on('pageerror', error => errors.push(error.message));
   await mobilePage.goto(base, { waitUntil: 'networkidle' }); await mobilePage.locator('.skill-card').first().waitFor();
@@ -81,7 +76,7 @@ try {
   await expect(mobilePage.locator('dialog .download-button')).toBeVisible();
   assert.ok(await mobilePage.locator('dialog').evaluate(element => element.scrollWidth <= element.clientWidth), 'Mobile detail must fit');
   assert.deepEqual(errors, []);
-  const report = { status: 'passed', desktop: true, mobile: true, search: true, keyboardShortcut: true, skillPreview: true, clipboard: true, zipHashes: true, bookmarkPersistence: true, emptyState: true, submissionSuccessAndFailureUi: true, browserErrors: errors };
+  const report = { status: 'passed', desktop: true, mobile: true, search: true, keyboardShortcut: true, skillPreview: true, clipboard: true, zipHashes: true, bookmarkPersistence: true, emptyState: true, publishingSignInGate: true, browserErrors: errors };
   await fs.writeFile(path.join(output, 'result.json'), JSON.stringify(report, null, 2));
   console.log(JSON.stringify(report));
 } finally { await browser.close(); }

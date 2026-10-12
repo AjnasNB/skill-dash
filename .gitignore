@@ -2,6 +2,7 @@ node_modules/
 dist/
 .cache/
 .wrangler/
+.qarinah/
 .dev.vars*
 .env*
 !.env.example

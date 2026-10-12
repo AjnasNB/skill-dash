@@ -77,7 +77,7 @@ function App({ initialCatalog, initialPreview }) {
     const schema = document.getElementById('page-schema');
     if (schema) schema.textContent = jsonForHtml({ '@context': 'https://schema.org', '@graph': selected ? [
       skillSchema(selected), breadcrumbs([{ name: 'Skill Library', path: '/' }, { name: selected.category, path: `/collections/${collectionFor(selected.category).slug}` }, { name: pretty(selected.name), path: `/skills/${selected.id}` }]),
-    ] : [{ '@type': 'WebSite', name: 'Skill Library', alternateName: 'Agent Skill Library', url: meta.url, description: meta.description }] });
+    ] : [{ '@type': 'WebSite', name: 'SkillDash', alternateName: ['Skill Library', 'Agent Skill Library'], url: meta.url, description: meta.description }] });
   }, [selected, query, category]);
   const featured = useMemo(() => {
     if (!catalog) return [];
@@ -90,20 +90,20 @@ function App({ initialCatalog, initialPreview }) {
   return <>
     <a href="#catalog" className="skip-link">Skip to skill search</a>
     <header className="site-header">
-      <a className="wordmark" href="/" onClick={event => { event.preventDefault(); reset(); setView('discover'); setSelectedId(null); history.replaceState({}, '', '/'); }} aria-label="Skill Library home"><span className="brand-mark"><SquaresFour weight="fill" size={23} /></span>skill library<span className="beta-tag">OPEN</span></a>
+      <a className="wordmark" href="/" onClick={event => { event.preventDefault(); reset(); setView('discover'); setSelectedId(null); history.replaceState({}, '', '/'); }} aria-label="SkillDash Skill Library home"><span className="brand-mark"><SquaresFour weight="fill" size={23} /></span>SkillDash<span className="beta-tag">FREE</span></a>
       <nav aria-label="Main navigation">
         <button className={view === 'discover' ? 'active' : ''} onClick={() => setView('discover')}>Discover</button>
-        <button className={view === 'collections' ? 'active' : ''} onClick={() => { reset(); setView('collections'); }}>Collections</button>
+        <a href="/products">AI directory</a>
         <button onClick={() => setModal('agents')}>For agents <ArrowUpRight size={12} /></button>
       </nav>
-      <div className="header-actions"><a href={GitHub} target="_blank" rel="noreferrer" className="icon-button" aria-label="Source on GitHub"><GithubLogo size={21} /></a><button className="button button-dark submit-trigger" onClick={() => setModal('submit')}><Plus size={16} /> Submit a skill</button></div>
+      <div className="header-actions"><a href="/account" className="button">Sign in</a><a className="button button-dark submit-trigger" href="/publish"><Plus size={16} /> Publish free</a></div>
     </header>
     <main>
       <section className="hero" aria-labelledby="hero-title">
         <div className="hero-copy">
-          <div className="open-label"><span /> OPEN SKILLS. ENDLESS POSSIBILITIES.</div>
+          <div className="open-label"><span /> SKILLDASH · THE FREE SKILL LIBRARY</div>
           <h1 id="hero-title">Good agents.<br /><span>Great AI skills.</span></h1>
-          <p>Search {catalog?.total.toLocaleString() || 'thousands of'} free AI agent skills. Read the instructions, copy a skill, or download its full folder for Codex, Claude Code and Delta Harness.</p>
+          <p>Search {catalog?.total.toLocaleString() || 'thousands of'} free AI agent skills. Inspect instructions and download complete folders. Publish your own skills, AI products, plugins and libraries in the free community directory.</p><div className="reading-actions"><a className="button button-green" href="/publish">Share your work — free</a><a className="button" href="/products">Explore AI products</a></div>
           <div className="hero-meta"><span className="stack-marks"><Code /><Command /><TerminalWindow /></span><span>For Codex, Claude Code, Delta & more</span></div>
         </div>
         <div className="featured-stack">
@@ -161,7 +161,7 @@ function App({ initialCatalog, initialPreview }) {
       <section className="install-strip"><div><TerminalWindow size={28} /><div><h2>One library. Wherever you build.</h2><p>Search, inspect, and install without leaving your terminal.</p></div></div><CopyButton className="terminal-command" label="Copy setup command" text="npx agent-skill-library setup --agent all --global"><span><span className="command-dollar">$</span> npx agent-skill-library setup --agent all --global</span></CopyButton></section>
       <LibraryExplainer />
     </main>
-    <footer><a className="footer-brand" href="/">skill library<span>Built for builders. Open to everyone.</span></a><div><a href={GitHub} target="_blank" rel="noreferrer">GitHub <ArrowUpRight size={12} /></a><button onClick={() => setModal('agents')}>API & MCP</button><a href="/about">About the library</a><a href="/skills">All skills</a><a href="/for-agents">Integration guide</a></div><span>Updated {catalog?.generatedAt.slice(0, 10) || '…'}</span></footer>
+    <footer><a className="footer-brand" href="/">SkillDash<span>The free Skill Library and AI directory.</span></a><div><a href={GitHub} target="_blank" rel="noreferrer">GitHub <ArrowUpRight size={12} /></a><button onClick={() => setModal('agents')}>API & MCP</button><a href="/about">About</a><a href="/publishing-policy">Review policy</a><a href="/privacy">Privacy</a><a href="/skills">All skills</a><a href="/for-agents">Integration guide</a></div><span>Updated {catalog?.generatedAt.slice(0, 10) || '…'}</span></footer>
     {selected && <SkillDialog key={selected.id} skill={selected} initialText={initialPreview?.id === selected.id ? initialPreview.text : ''} onClose={closeSkill} saved={saved.includes(selected.id)} onSave={() => toggleSave(selected.id)} />}
     {selectedId && catalog && !selected && <Dialog onClose={closeSkill} title="Skill not found"><p>This skill is not part of the current catalog.</p><button className="button button-dark" onClick={closeSkill}>Back to the library</button></Dialog>}
     {modal === 'agents' && <Dialog onClose={() => setModal(null)} title="A library your agent can use." className="guide-dialog"><p className="dialog-intro">One npm package. No API key. Search works offline from the published catalog.</p><CodeBlock text={'npx agent-skill-library search "make a launch video"\nnpx agent-skill-library setup --agent all --global'} /><h3>Install where you work</h3><div className="target-list"><div><Code /><strong>Codex</strong><code>.agents/skills</code><span>Desktop, CLI, and repository-based cloud tasks</span></div><div><Command /><strong>Claude Code</strong><code>.claude/skills</code><span>Local sessions and repository-based cloud tasks</span></div><div><TerminalWindow /><strong>Delta Harness</strong><code>Application data / skills</code><span>Refresh the Skills panel after installing</span></div></div><p>Installs default to the current project. Add <code>--global</code> for personal skills. Commit project skills to share them with a cloud workspace.</p><h3>Connect an MCP client</h3><CodeBlock text={'{\n  "mcpServers": {\n    "skill-library": {\n      "command": "npx",\n      "args": ["-y", "agent-skill-library", "mcp"]\n    }\n  }\n}'} /><p>The MCP server exposes search, inspection, and installation planning. It does not run skill scripts.</p><div className="guide-links"><a href="/llms.txt" target="_blank">Agent instructions <ArrowUpRight /></a><a href="/openapi.json" target="_blank">API specification <ArrowUpRight /></a><a href="/catalog.json" target="_blank">Full catalog <ArrowUpRight /></a></div></Dialog>}

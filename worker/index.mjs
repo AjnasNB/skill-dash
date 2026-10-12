@@ -1,6 +1,8 @@
 import catalog from '../registry/catalog.json' with { type: 'json' };
 import { searchCatalog } from '../lib/search.mjs';
 import { COLLECTIONS, GUIDES } from '../site/content.mjs';
+import { communityApi, communityPage, deliverNotifications } from './community.mjs';
+import packageInfo from '../package.json' with { type: 'json' };
 
 const byId = new Map(catalog.skills.map(skill => [skill.id, skill]));
 const canonical = 'https://skills.maqamagent.com';
@@ -80,16 +82,18 @@ const page = (env, request, pathname, { noindex = false, status } = {}) => asset
   'X-Robots-Tag': noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large',
 }, status);
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     const url = new URL(request.url);
     try {
+      const community = await communityApi(request, env, ctx) || await communityPage(request, env);
+      if (community) return community;
       if (request.method === 'OPTIONS' && url.pathname.startsWith('/api/')) return new Response(null, { status: 204, headers: { ...headers, 'Access-Control-Allow-Methods': 'GET, POST, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type', 'Access-Control-Max-Age': '86400' } });
       if (url.pathname === '/api/submissions') {
         if (request.method !== 'POST') return json({ error: 'Use POST to submit a skill.' }, 405, { Allow: 'POST' });
         return await submission(request, env);
       }
       if (request.method !== 'GET' && request.method !== 'HEAD') return json({ error: 'Method not allowed.' }, 405, { Allow: 'GET, HEAD' });
-      if (url.pathname === '/api/health') return json({ status: 'ok', version: '0.1.0', skills: catalog.total, repositories: catalog.sourceCount, generatedAt: catalog.generatedAt });
+      if (url.pathname === '/api/health') return json({ status: 'ok', version: packageInfo.version, skills: catalog.total, repositories: catalog.sourceCount, generatedAt: catalog.generatedAt, community: Boolean(env.DB), emailSignIn: Boolean(env.EMAIL && env.EMAIL_FROM) });
       if (url.pathname === '/api/skills') {
         const query = url.searchParams.get('q') || '';
         if (query.length > 500) return json({ error: 'Search text must be at most 500 characters.' }, 400);
@@ -107,6 +111,7 @@ export default {
         return json({ ...skill, manifestUrl: `${canonical}/manifests/${skill.id}.json`, contentUrl: `${canonical}/documents/${skill.id}.md`, downloadUrl: `${canonical}/bundles/${skill.id}.zip` }, 200, { 'Cache-Control': 'public, max-age=3600' });
       }
       if (url.pathname.startsWith('/api/')) return json({ error: 'Endpoint not found.' }, 404);
+      if (url.pathname === '/community-shell.html') return page(env, request, '/404.html', { noindex: true, status: 404 });
       if (url.pathname === '/') return page(env, request, '/index.html', { noindex: url.searchParams.has('q') || url.searchParams.has('category') });
       // Keep one public URL for a page, even though its stored asset has an .html suffix.
       const normalized = url.pathname.replace(/(?:\.html|\/)$/, '');
@@ -134,6 +139,12 @@ export default {
     }
   },
   async scheduled(_event, env) {
-    await env.DB.prepare('DELETE FROM rate_limits WHERE expires_at < ?').bind(Date.now()).run();
+    if (!env.DB) return;
+    await env.DB.batch([
+      env.DB.prepare('DELETE FROM rate_limits WHERE expires_at < ?').bind(Date.now()),
+      env.DB.prepare('DELETE FROM login_tokens WHERE expires_at < ?').bind(Date.now()),
+      env.DB.prepare('DELETE FROM sessions WHERE expires_at < ?').bind(Date.now()),
+    ]);
+    await deliverNotifications(env);
   },
 };
