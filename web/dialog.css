@@ -1,0 +1,154 @@
+/* Dialogs own their viewport. Long documents scroll inside the reader. */
+html { scrollbar-gutter: stable; }
+.github-project-link { display: inline-flex; align-items: center; gap: 6px; color: var(--green); min-height: 32px; }
+.hero-meta { flex-wrap: wrap; }
+.wordmark .brand-logo { width: 168px; height: 56px; object-fit: contain; margin-left: -8px; }
+.dialog {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  width: min(650px, calc(100vw - 48px));
+  max-width: calc(100vw - 48px);
+  max-height: calc(100dvh - 48px);
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: 0 24px 80px #14251d29;
+}
+.dialog[open] { display: flex; flex-direction: column; }
+.dialog::backdrop { inset: 0; background: #17271f70; backdrop-filter: blur(5px); }
+.dialog-header {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 24px 28px;
+  margin: 0;
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+.dialog-heading { flex: 1; min-width: 0; }
+.dialog-title-row { display: flex; align-items: center; gap: 14px; }
+.dialog-title-row .skill-icon { width: 48px; height: 48px; border-radius: 10px; }
+.dialog-header h2 {
+  font-size: 28px;
+  font-weight: 620;
+  letter-spacing: -.025em;
+  line-height: 1.2;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+.dialog-header .icon-button {
+  width: 44px;
+  height: 44px;
+  margin: -2px -8px 0 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--muted);
+}
+.dialog-header .icon-button:hover { color: var(--ink); background: var(--wash); }
+.dialog-content { flex: 1 1 auto; min-height: 0; padding: 24px 28px; overflow: auto; overscroll-behavior: contain; }
+.dialog-content > p { font-size: 14px; line-height: 1.75; color: var(--muted); margin-bottom: 16px; }
+.dialog-content > h3 { font-size: 16px; margin: 24px 0 14px; }
+.guide-dialog .dialog-content > p { margin-top: 16px; }
+.submit-dialog { width: min(540px, calc(100vw - 48px)); }
+
+.skill-dialog { width: min(1160px, calc(100vw - 48px)); height: min(840px, calc(100dvh - 48px)); }
+.skill-dialog .dialog-content { display: flex; padding: 0; overflow: hidden; }
+.detail-subtitle { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 16px; margin-top: 16px; font-size: 12px; color: var(--muted); }
+.detail-subtitle > span:first-child { padding: 4px 8px; border-radius: 4px; background: var(--green-pale); color: var(--green); }
+.detail-subtitle > a { display: inline-flex; align-items: center; gap: 5px; color: var(--green); overflow-wrap: anywhere; }
+.detail-subtitle > span, .detail-subtitle > button { display: inline-flex; align-items: center; gap: 5px; }
+.detail-subtitle > button { margin-left: auto; min-height: 32px; padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; font-size: 12px; color: var(--green); }
+.detail-subtitle > button:hover { background: var(--green-pale); border-color: #b9d2c5; }
+.detail-description { max-width: 80ch; margin-top: 12px; font-size: 14px; line-height: 1.6; color: var(--muted); text-wrap: pretty; }
+.detail-layout { flex: 1; min-height: 0; min-width: 0; display: grid; grid-template-columns: minmax(0, 1fr) 330px; gap: 0; margin: 0; padding: 0; border: 0; }
+.instruction-column { display: flex; flex-direction: column; min-width: 0; min-height: 0; overflow: hidden; }
+.instruction-heading { flex: 0 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 28px; margin: 0; border-bottom: 1px solid var(--line); background: #fbfcfa; }
+.instruction-heading h3 { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; }
+.instruction-heading h3 > svg { color: var(--green); }
+.instruction-heading h3 > span { margin-left: 6px; color: var(--muted); font: 11px 'Geist Mono Variable', monospace; font-weight: 400; }
+.instruction-heading .copy-button { min-height: 36px; padding: 8px 10px; font-size: 12px; }
+.skill-dialog .markdown { flex: 1 1 auto; min-width: 0; min-height: 0; overflow: auto; overscroll-behavior: contain; scrollbar-gutter: stable; padding: 24px 28px 48px; font-size: 15px; line-height: 1.8; overflow-wrap: anywhere; scroll-padding-top: 24px; }
+.skill-dialog .markdown:focus-visible { outline: 2px solid var(--green); outline-offset: -3px; }
+.skill-dialog .markdown > * { max-width: 70ch; }
+.skill-dialog .markdown > :first-child { margin-top: 0; }
+.skill-dialog .markdown h1 { font-size: 25px; font-weight: 620; line-height: 1.3; letter-spacing: -.02em; margin: 0 0 20px; }
+.skill-dialog .markdown h2 { font-size: 20px; font-weight: 620; line-height: 1.4; margin: 32px 0 12px; letter-spacing: -.015em; }
+.skill-dialog .markdown h3 { font-size: 17px; font-weight: 600; line-height: 1.45; margin: 24px 0 10px; }
+.skill-dialog .markdown p { margin: 12px 0 16px; text-wrap: pretty; }
+.skill-dialog .markdown li { margin: 6px 0; }
+.skill-dialog .markdown pre { max-width: 100%; overflow: auto; padding: 16px; font-size: 12px; line-height: 1.7; border: 1px solid var(--line); border-radius: 8px; }
+.skill-dialog .markdown :not(pre) > code { padding: 2px 4px; background: var(--wash); border-radius: 3px; }
+.skill-dialog .markdown table { max-width: 100%; font-size: 13px; }
+.skill-dialog .markdown th, .skill-dialog .markdown td { padding: 10px 12px; text-align: left; }
+.skill-dialog .markdown th { background: var(--wash); }
+.skill-dialog .loading-line, .skill-dialog .inline-error { margin: 24px 28px; font-size: 14px; }
+.install-panel { align-self: stretch; min-width: 0; min-height: 0; position: static; overflow: auto; overscroll-behavior: contain; padding: 24px; border-left: 1px solid var(--line); background: #f8faf7; }
+.install-heading { display: flex; align-items: center; gap: 8px; margin-bottom: 16px; color: var(--green); }
+.install-panel h3 { margin: 0; font-size: 15px; font-weight: 620; color: var(--ink); }
+.agent-tabs { padding: 4px; border: 1px solid var(--line); border-radius: 8px; background: #eef2ec; }
+.agent-tabs button { min-height: 36px; padding: 8px 6px; font-size: 12px; border-radius: 5px; }
+.agent-tabs button.selected { background: var(--surface); box-shadow: 0 1px 3px #14221a12; }
+.personal-check { margin: 16px 0; min-height: 24px; gap: 8px; font-size: 12px; }
+.personal-check input { width: 16px; height: 16px; }
+.install-panel .code-block { margin: 0 0 16px; padding: 14px; background: var(--surface); }
+.install-panel .code-block pre { font-size: 12px; line-height: 1.75; }
+.install-panel .code-block .copy-button { min-width: 36px; min-height: 36px; }
+.download-button { min-height: 46px; margin: 0; padding: 12px 14px; font-size: 13px; }
+.download-button > span { font-size: 11px; }
+.install-explanation { margin: 10px 0 24px; color: var(--muted); font-size: 12px; line-height: 1.65; }
+.source-heading { margin: 0 0 6px; font-size: 13px; font-weight: 600; }
+.source-facts { margin: 0; font-size: 12px; }
+.source-facts > div { padding: 10px 0; gap: 12px; }
+.source-facts dd { min-width: 0; max-width: 190px; }
+.source-facts dd a { display: inline-flex; align-items: center; gap: 4px; }
+.source-facts code { font: 11px 'Geist Mono Variable', monospace; }
+.manifest-link { margin-top: 12px; min-height: 36px; font-size: 12px; }
+.source-notice { margin-top: 18px; padding: 12px; background: #edf2eb; }
+.source-notice p { font-size: 11px; line-height: 1.65; }
+
+@media (max-width: 1000px) and (min-width: 761px) {
+  .detail-layout { grid-template-columns: minmax(0, 1fr) 300px; }
+  .dialog-header, .instruction-heading { padding-left: 22px; padding-right: 22px; }
+  .skill-dialog .markdown { padding-left: 22px; padding-right: 22px; }
+  .install-panel { padding: 22px 18px; }
+  .detail-stars { display: none !important; }
+}
+@media (max-height: 600px) and (min-width: 761px) {
+  .dialog-header { padding-top: 16px; padding-bottom: 16px; }
+  .detail-description { display: none; }
+  .detail-subtitle { margin-top: 10px; }
+}
+@media (max-width: 760px) {
+  .dialog { width: calc(100vw - 24px); max-width: calc(100vw - 24px); max-height: calc(100dvh - 24px); border-radius: 12px; padding: 0; }
+  .dialog-header { padding: 18px 20px; gap: 12px; }
+  .dialog-header h2 { font-size: 24px; }
+  .dialog-header .icon-button { margin-right: -8px; }
+  .dialog-title-row { gap: 12px; }
+  .dialog-title-row .skill-icon { width: 40px; height: 40px; }
+  .dialog-content { padding: 20px; }
+  .skill-dialog { height: calc(100dvh - 24px); }
+  .skill-dialog .dialog-content { display: block; overflow: auto; padding: 0; }
+  .detail-subtitle { gap: 8px 12px; margin-top: 12px; font-size: 11px; }
+  .detail-subtitle > button { margin-left: 0; font-size: 11px; }
+  .detail-stars { display: none !important; }
+  .detail-description { margin-top: 10px; font-size: 13px !important; line-height: 1.55; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .detail-layout { display: flex; flex-direction: column; min-height: auto; gap: 0; }
+  .install-panel { order: -1; overflow: visible; padding: 20px; border: 0; border-bottom: 1px solid var(--line); }
+  .install-panel .source-facts { margin: 0; }
+  .install-panel .source-notice { margin-top: 18px; }
+  .install-panel .code-block { margin: 0 0 16px; }
+  .instruction-column { display: block; overflow: visible; padding: 0; border: 0; }
+  .instruction-heading { padding: 12px 20px; }
+  .instruction-heading h3 > span { display: none; }
+  .skill-dialog .markdown { overflow: visible; padding: 24px 20px 40px; font-size: 14px; line-height: 1.8; }
+  .skill-dialog .markdown h1 { font-size: 23px; }
+  .skill-dialog .markdown h2 { font-size: 19px; }
+  .skill-dialog .markdown h3 { font-size: 16px; }
+  .personal-check { font-size: 12px; }
+}

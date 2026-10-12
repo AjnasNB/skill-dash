@@ -15,6 +15,7 @@ import { COLLECTIONS, FAQ, collectionFor } from '../site/content.mjs';
 import { metadata, skillMetadata, skillSchema, breadcrumbs, stripFrontmatter, jsonForHtml } from '../site/seo.mjs';
 import './styles.css';
 import './copy.css';
+import './dialog.css';
 
 const icons = { Development: Code, Design: Palette, 'Video & audio': FilmSlate, 'AI & agents': Brain, Marketing: Megaphone, 'Data & research': ChartBar, 'Cloud & DevOps': Cloud, Security: ShieldCheck, Writing: PencilSimple, 'Product & business': Briefcase, Documents: FileText, Automation: Lightning };
 const GitHub = 'https://github.com/AjnasNB/skill-dash';
@@ -90,7 +91,7 @@ function App({ initialCatalog, initialPreview }) {
   return <>
     <a href="#catalog" className="skip-link">Skip to skill search</a>
     <header className="site-header">
-      <a className="wordmark" href="/" onClick={event => { event.preventDefault(); reset(); setView('discover'); setSelectedId(null); history.replaceState({}, '', '/'); }} aria-label="SkillDash Skill Library home"><span className="brand-mark"><SquaresFour weight="fill" size={23} /></span>SkillDash<span className="beta-tag">FREE</span></a>
+      <a className="wordmark" href="/" onClick={event => { event.preventDefault(); reset(); setView('discover'); setSelectedId(null); history.replaceState({}, '', '/'); }} aria-label="SkillDash Skill Library home"><img className="brand-logo" src="/skilldash-logo.webp" width="180" height="60" alt="SkillDash" /><span className="beta-tag">FREE</span></a>
       <nav aria-label="Main navigation">
         <button className={view === 'discover' ? 'active' : ''} onClick={() => setView('discover')}>Discover</button>
         <a href="/products">AI directory</a>
@@ -104,7 +105,7 @@ function App({ initialCatalog, initialPreview }) {
           <div className="open-label"><span /> SKILLDASH · THE FREE SKILL LIBRARY</div>
           <h1 id="hero-title">The skill library.<br /><span>For AI agents.</span></h1>
           <p>Give your agent one link to search {catalog?.total.toLocaleString() || 'thousands of'} skills, inspect pinned files, and discover plugins, libraries, MCP servers, tools and chatbots. Free public access through MCP, API and CLI.</p><div className="reading-actions"><CopyButton className="button button-green" text="https://skills.maqamagent.com/agent.md" label="Copy agent link" /><a className="button" href="/tools">Agent tools &amp; plugins</a><a className="button" href="/publish">Add a skill or tool</a></div>
-          <div className="hero-meta"><span className="stack-marks"><Code /><Command /><TerminalWindow /></span><a href="/agent.md">Agent instructions</a><span> · </span><a href="/.well-known/agent.json">Machine manifest</a></div>
+          <div className="hero-meta"><span className="stack-marks"><Code /><Command /><TerminalWindow /></span><a href="/agent.md">Agent instructions</a><span> · </span><a href="/.well-known/agent.json">Machine manifest</a><a className="github-project-link" href={GitHub} target="_blank" rel="noreferrer"><GithubLogo size={17} />Star SkillDash on GitHub<ArrowUpRight size={13} /></a></div>
         </div>
         <div className="featured-stack">
           <div className="featured-heading"><span>Worth adding to your toolkit</span><ArrowUpRight size={17} /></div>
@@ -174,10 +175,37 @@ function SkillCard({ skill, saved, onOpen, onSave }) {
   const Icon = icons[skill.category] || Code;
   return <article className="skill-card"><div className="card-top"><span className={`skill-icon category-${skill.category.split(' ')[0].toLowerCase()}`}><Icon size={22} weight="duotone" /></span><button className={`bookmark ${saved ? 'bookmarked' : ''}`} aria-label={`${saved ? 'Unsave' : 'Save'} ${skill.name}`} aria-pressed={saved} onClick={onSave}><BookmarkSimple size={19} weight={saved ? 'fill' : 'regular'} /></button></div><a className="card-main" href={`/skills/${skill.id}`} onClick={event => { if (interceptLink(event)) { event.preventDefault(); onOpen(); } }}><h3>{pretty(skill.name)}<ArrowUpRight size={15} /></h3><span className="card-owner">{skill.repo.split('/')[0]}{skill.official && <CheckCircle size={12} weight="fill" aria-label="Vendor collection" />}</span><p>{skill.description}</p></a><div className="card-bottom"><span className="category-label">{skill.category}</span><span className="stars" title={`${skill.stars.toLocaleString()} stars on ${skill.repo}`}><Star size={13} />{shortStars(skill.stars)}</span></div></article>;
 }
-function Dialog({ onClose, title, children, className = '' }) {
+function Dialog({ onClose, title, children, className = '', leading, summary }) {
   const ref = useRef(null);
-  useEffect(() => { const element = ref.current; element.showModal(); const handler = event => { event.preventDefault(); onClose(); }; element.addEventListener('cancel', handler); const previous = document.body.style.overflow; document.body.style.overflow = 'hidden'; return () => { element.removeEventListener('cancel', handler); element.close(); document.body.style.overflow = previous; }; }, []);
-  return <dialog ref={ref} className={`dialog ${className}`} onClick={event => { if (event.target === ref.current) { const box = ref.current.getBoundingClientRect(); if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) onClose(); } }} aria-labelledby="dialog-title"><div className="dialog-header"><h2 id="dialog-title">{title}</h2><button autoFocus className="icon-button" aria-label="Close dialog" onClick={onClose}><X size={21} /></button></div>{children}</dialog>;
+  useEffect(() => {
+    const element = ref.current;
+    const previous = document.body.style.overflow;
+    const handler = event => { event.preventDefault(); onClose(); };
+    element.showModal();
+    element.scrollTop = 0;
+    element.scrollLeft = 0;
+    element.addEventListener('cancel', handler);
+    document.body.style.overflow = 'hidden';
+    return () => {
+      element.removeEventListener('cancel', handler);
+      element.close();
+      document.body.style.overflow = previous;
+    };
+  }, []);
+  return <dialog ref={ref} className={`dialog ${className}`} onClick={event => {
+    if (event.target !== ref.current) return;
+    const box = ref.current.getBoundingClientRect();
+    if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) onClose();
+  }} aria-labelledby="dialog-title">
+    <header className="dialog-header">
+      <div className="dialog-heading">
+        <div className="dialog-title-row">{leading}<h2 id="dialog-title">{title}</h2></div>
+        {summary}
+      </div>
+      <button autoFocus className="icon-button" aria-label="Close dialog" onClick={onClose}><X size={21} /></button>
+    </header>
+    <div className="dialog-content">{children}</div>
+  </dialog>;
 }
 function LibraryExplainer() {
   return <>
@@ -202,10 +230,77 @@ function CodeBlock({ text }) {
 }
 function SkillDialog({ skill, onClose, saved, onSave, initialText = '' }) {
   const [text, setText] = useState(initialText), [error, setError] = useState(''), [agent, setAgent] = useState('codex'), [global, setGlobal] = useState(false), [retry, setRetry] = useState(0);
-  useEffect(() => { if (initialText && !retry) { setText(initialText); return; } const controller = new AbortController(); setText(''); setError(''); fetch(`/documents/${skill.id}.md`, { signal: controller.signal }).then(response => { if (!response.ok) throw new Error('The skill instructions could not be loaded.'); return response.text(); }).then(setText).catch(error => { if (error.name !== 'AbortError') setError(error.message); }); return () => controller.abort(); }, [skill.id, retry, initialText]);
+  useEffect(() => {
+    if (initialText && !retry) { setText(initialText); return; }
+    const controller = new AbortController();
+    let timedOut = false;
+    const timeout = window.setTimeout(() => { timedOut = true; controller.abort(); }, 20000);
+    setText(''); setError('');
+    fetch(`/documents/${skill.id}.md`, { signal: controller.signal })
+      .then(response => { if (!response.ok) throw new Error('The skill instructions could not be loaded.'); return response.text(); })
+      .then(setText)
+      .catch(error => {
+        if (timedOut) setError('The instructions took too long to load. Try again.');
+        else if (error.name !== 'AbortError') setError(error.message);
+      })
+      .finally(() => window.clearTimeout(timeout));
+    return () => { window.clearTimeout(timeout); controller.abort(); };
+  }, [skill.id, retry, initialText]);
   const command = `npx agent-skill-library install ${skill.id} --agent ${agent}${global || agent === 'delta' ? ' --global' : ''}`;
   const body = stripFrontmatter(text);
-  return <Dialog onClose={onClose} title={pretty(skill.name)} className="skill-dialog"><div className="detail-subtitle"><span>{skill.category}</span><span><Star size={14} /> {skill.stars.toLocaleString()} repository stars</span><button onClick={onSave}><BookmarkSimple weight={saved ? 'fill' : 'regular'} /> {saved ? 'Saved' : 'Save skill'}</button></div><p className="detail-description">{skill.description}</p><div className="detail-layout"><div className="instruction-column"><div className="instruction-heading"><h3><FileText size={17} /> SKILL.md</h3><CopyButton text={text} label="Copy skill" disabled={!text} /></div>{error ? <div className="inline-error" role="alert">{error}<button className="button" onClick={() => setRetry(retry + 1)}>Retry</button></div> : !text ? <p className="loading-line"><SpinnerGap className="spin" /> Loading instructions…</p> : <div className="markdown"><Markdown components={{ a: ({ href, children }) => { const safe = href && !/^(?:javascript|data|vbscript):/i.test(href); const url = safe && !/^[a-z]+:/i.test(href) && !href.startsWith('#') ? `${skill.sourceUrl}/${href}` : href; return safe ? <a href={url} target="_blank" rel="noreferrer">{children}</a> : <span>{children}</span>; }, img: ({ alt }) => <span className="image-reference">[Upstream image: {alt || 'view at source'}]</span> }}>{body}</Markdown></div>}</div><aside className="install-panel"><h3>Add to your agent</h3><div className="agent-tabs" role="group" aria-label="Installation target">{['codex', 'claude', 'delta'].map(value => <button key={value} aria-pressed={agent === value} className={agent === value ? 'selected' : ''} onClick={() => setAgent(value)}>{value === 'claude' ? 'Claude' : value[0].toUpperCase() + value.slice(1)}</button>)}</div><label className="personal-check"><input type="checkbox" checked={global || agent === 'delta'} disabled={agent === 'delta'} onChange={event => setGlobal(event.target.checked)} /> Personal library (all projects)</label><CodeBlock text={command} /><a className="button button-green download-button" href={`/bundles/${skill.id}.zip`} download={`${skill.name}.zip`}><DownloadSimple size={17} /> Download ZIP <span>{bytes(skill.bytes)}</span></a><p className="install-explanation">Includes {skill.fileCount} files, supporting resources, and license notices. Copying SKILL.md alone does not include its resources.</p><dl className="source-facts"><div><dt>Source</dt><dd><a href={skill.sourceUrl} target="_blank" rel="noreferrer">{skill.repo}<ArrowUpRight size={13} /></a></dd></div><div><dt>License</dt><dd>{skill.license}</dd></div><div><dt>Revision</dt><dd><code>{skill.revision.slice(0, 10)}</code></dd></div><div><dt>Verified</dt><dd>{skill.checkedAt.slice(0, 10)}</dd></div></dl><a className="manifest-link" href={`/manifests/${skill.id}.json`} target="_blank">Inspect file checksums <ArrowUpRight size={13} /></a><div className="source-notice"><ShieldCheck size={18} /><p>Inspect before you install. Star counts do not certify safety, and helper scripts never run automatically.</p></div></aside></div></Dialog>;
+  const Icon = icons[skill.category] || Code;
+  const summary = <>
+    <div className="detail-subtitle">
+      <span>{skill.category}</span>
+      <a href={skill.sourceUrl} target="_blank" rel="noreferrer">{skill.repo}<ArrowUpRight size={13} /></a>
+      <span className="detail-stars"><Star size={14} />{skill.stars.toLocaleString()} repository stars</span>
+      <button onClick={onSave} aria-pressed={saved}><BookmarkSimple weight={saved ? 'fill' : 'regular'} />{saved ? 'Saved' : 'Save skill'}</button>
+    </div>
+    <p className="detail-description">{skill.description}</p>
+  </>;
+  return <Dialog onClose={onClose} title={pretty(skill.name)} className="skill-dialog"
+    leading={<span className={`skill-icon category-${skill.category.split(' ')[0].toLowerCase()}`}><Icon size={26} weight="duotone" /></span>}
+    summary={summary}>
+    <div className="detail-layout">
+      <section className="instruction-column" aria-labelledby="instructions-title">
+        <div className="instruction-heading">
+          <h3 id="instructions-title"><FileText size={18} />Instructions<span>SKILL.md</span></h3>
+          <CopyButton text={text} label="Copy skill" disabled={!text} />
+        </div>
+        {error ? <div className="inline-error" role="alert">{error}<button className="button" onClick={() => setRetry(count => count + 1)}>Retry</button></div>
+          : !text ? <p className="loading-line" role="status"><SpinnerGap className="spin" />Loading instructions…</p>
+          : <div className="markdown" tabIndex={0} role="region" aria-label={`${pretty(skill.name)} instructions`}>
+            <Markdown components={{
+              a: ({ href, children }) => {
+                const safe = href && !/^(?:javascript|data|vbscript):/i.test(href);
+                const url = safe && !/^[a-z]+:/i.test(href) && !href.startsWith('#') ? `${skill.sourceUrl}/${href}` : href;
+                return safe ? <a href={url} target="_blank" rel="noreferrer">{children}</a> : <span>{children}</span>;
+              },
+              img: ({ alt }) => <span className="image-reference">[Upstream image: {alt || 'view at source'}]</span>,
+            }}>{body}</Markdown>
+          </div>}
+      </section>
+      <aside className="install-panel" aria-label="Installation and source details">
+        <div className="install-heading"><TerminalWindow size={19} /><h3>Add to your agent</h3></div>
+        <div className="agent-tabs" role="group" aria-label="Installation target">
+          {['codex', 'claude', 'delta'].map(value => <button key={value} aria-pressed={agent === value} className={agent === value ? 'selected' : ''} onClick={() => setAgent(value)}>{value === 'claude' ? 'Claude' : value[0].toUpperCase() + value.slice(1)}</button>)}
+        </div>
+        <label className="personal-check"><input type="checkbox" checked={global || agent === 'delta'} disabled={agent === 'delta'} onChange={event => setGlobal(event.target.checked)} />Personal library (all projects)</label>
+        <CodeBlock text={command} />
+        <a className="button button-green download-button" href={`/bundles/${skill.id}.zip`} download={`${skill.name}.zip`}><DownloadSimple size={18} />Download ZIP<span>{bytes(skill.bytes)}</span></a>
+        <p className="install-explanation">{skill.fileCount} files, with supporting resources and license notices.</p>
+        <h4 className="source-heading">Pinned source</h4>
+        <dl className="source-facts">
+          <div><dt>Repository</dt><dd><a href={skill.sourceUrl} target="_blank" rel="noreferrer">{skill.repo}<ArrowUpRight size={13} /></a></dd></div>
+          <div><dt>License</dt><dd>{skill.license}</dd></div>
+          <div><dt>Revision</dt><dd><code>{skill.revision.slice(0, 10)}</code></dd></div>
+          <div><dt>Checked</dt><dd>{skill.checkedAt.slice(0, 10)}</dd></div>
+        </dl>
+        <a className="manifest-link" href={`/manifests/${skill.id}.json`} target="_blank" rel="noreferrer">Inspect file checksums<ArrowUpRight size={14} /></a>
+        <div className="source-notice"><ShieldCheck size={18} /><p>Inspect before you install. Star counts do not certify safety, and helper scripts never run automatically.</p></div>
+      </aside>
+    </div>
+  </Dialog>;
 }
 function SubmitDialog({ onClose }) {
   const [repo, setRepo] = useState(''), [path, setPath] = useState(''), [status, setStatus] = useState('idle'), [error, setError] = useState(''), [receipt, setReceipt] = useState(null);
