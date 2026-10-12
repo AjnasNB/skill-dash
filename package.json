@@ -73,5 +73,15 @@
     "vite": "^8.0.0",
     "wrangler": "^4.149.0",
     "yaml": "^2.8.2"
-  }
+  },
+  "keywords": [
+    "skilldash",
+    "skill-library",
+    "agent-skills",
+    "ai-tools",
+    "ai-products",
+    "mcp",
+    "plugins",
+    "skill-repository"
+  ]
 }
