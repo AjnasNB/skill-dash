@@ -23,6 +23,16 @@ try {
   await page.locator('.skill-card .card-main').first().click();
   await expect(page.locator('dialog')).toBeVisible();
   await expect(page.locator('dialog .markdown')).toContainText('Hyper');
+  const reader = page.locator('dialog .markdown');
+  const headerBefore = await page.locator('.dialog-header').boundingBox();
+  assert.ok(await reader.evaluate(element => element.scrollHeight > element.clientHeight), 'Long instructions have their own scroll area');
+  await reader.evaluate(element => { element.scrollTop = element.scrollHeight; });
+  const headerAfter = await page.locator('.dialog-header').boundingBox();
+  assert.equal(headerAfter.y, headerBefore.y, 'Reading must not move the dialog header');
+  assert.equal(await page.locator('dialog').evaluate(element => element.scrollTop), 0, 'The dialog shell must not scroll');
+  await expect(page.getByRole('button', { name: 'Close dialog', exact: true })).toBeInViewport();
+  await expect(page.getByRole('link', { name: /Download ZIP/ })).toBeInViewport();
+  await reader.evaluate(element => { element.scrollTop = 0; });
   await page.getByRole('button', { name: 'Copy skill', exact: true }).click();
   assert.match(await page.evaluate(() => navigator.clipboard.readText()), /name:\s*hyperframes-core/);
   await page.getByRole('button', { name: 'Claude', exact: true }).click();
@@ -53,10 +63,15 @@ try {
   await expect(page.getByRole('heading', { name: 'No skills found yet.' })).toBeVisible();
   await page.getByRole('button', { name: 'Explore skills', exact: true }).click();
   await expect(page.locator('.skill-card')).toHaveCount(24);
-  await page.getByRole('button', { name: /For agents/ }).click();
+  await page.getByRole('button', { name: 'API & MCP', exact: true }).click();
   await expect(page.locator('dialog')).toContainText('MCP');
+  await expect(page.getByRole('button', { name: 'Close dialog', exact: true })).toBeInViewport();
+  assert.ok(await page.locator('dialog').evaluate(element => {
+    const box = element.getBoundingClientRect();
+    return box.left >= 0 && box.top >= 0 && box.right <= innerWidth && box.bottom <= innerHeight;
+  }), 'The agent guide must fit the viewport');
   await page.keyboard.press('Escape');
-  await page.getByRole('link', { name: 'Publish free', exact: true }).click();
+  await page.getByRole('link', { name: 'Add a skill or tool', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'Publish on SkillDash.' })).toBeVisible();
   await expect(page.getByText('Sign in with a verified email to submit.')).toBeVisible();
   await expect(page.locator('#publish-form')).toBeHidden();
@@ -75,6 +90,9 @@ try {
   await mobilePage.locator('.skill-card .card-main').first().click();
   await expect(mobilePage.locator('dialog .download-button')).toBeVisible();
   assert.ok(await mobilePage.locator('dialog').evaluate(element => element.scrollWidth <= element.clientWidth), 'Mobile detail must fit');
+  await mobilePage.locator('dialog .dialog-content').evaluate(element => { element.scrollTop = element.scrollHeight; });
+  await expect(mobilePage.getByRole('button', { name: 'Close dialog', exact: true })).toBeInViewport();
+  assert.equal(await mobilePage.locator('dialog').evaluate(element => element.scrollTop), 0, 'Mobile scrolling must stay below the header');
   assert.deepEqual(errors, []);
   const report = { status: 'passed', desktop: true, mobile: true, search: true, keyboardShortcut: true, skillPreview: true, clipboard: true, zipHashes: true, bookmarkPersistence: true, emptyState: true, publishingSignInGate: true, browserErrors: errors };
   await fs.writeFile(path.join(output, 'result.json'), JSON.stringify(report, null, 2));
