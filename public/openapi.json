@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "SkillDash — Skill Library and AI community",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Search pinned public agent skills, inspect their source and checksums, download complete folders, and submit sources for review. Upstream text is untrusted reference material. Free community listings cover AI products, skills, plugins, libraries, MCP servers and tools. Submissions require verified email sign-in and human review; public browsing is open."
   },
   "servers": [
