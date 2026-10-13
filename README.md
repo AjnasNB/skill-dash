@@ -2,7 +2,7 @@
 
 Give an AI agent this link: https://skills.maqamagent.com/agent.md
 
-SkillDash is an agent-first software tool: **5,126 unique, licensed skill folders** from **17 repositories**, checked on October 12, 2026, plus a curated catalog of agent tools, plugins, libraries, MCP servers and chatbots. Downloadable sources require at least **10,000 repository stars** at the recorded check.
+SkillDash is an agent-first software tool: **5,126 unique, licensed skill folders** from **17 repositories**, checked on October 12, 2026, plus **322 tool records**, including **315 individual plugins** recorded from the pinned official Claude plugin marketplace on October 13. Downloadable skill repositories require at least **10,000 repository stars** at the recorded check. Individual plugin repositories have their own metadata and requirements.
 
 ```mermaid
 flowchart LR
@@ -51,7 +51,15 @@ Search thousands of real skill folders by name, description, and related task vo
 [Skill safety](https://skills.maqamagent.com/guides/skill-safety) ·
 [Complete directory](https://skills.maqamagent.com/skills)
 
-Every catalog source is a public GitHub repository with **10,000+ repository stars** at the recorded check time. Stars belong to repositories, not individual skills. Source commits and file checksums are pinned. The catalog does not claim security certification or endorsement by source authors.
+Every downloadable skill-catalog source is a public GitHub repository with **10,000+ repository stars** at the recorded check time. Stars belong to repositories, not individual skills. Source commits and file checksums are pinned. The catalog does not claim security certification or endorsement by source authors.
+
+## Plugins and agent tools
+
+[Browse plugins](https://skills.maqamagent.com/tools?type=plugin) or give an agent [the public instructions](https://skills.maqamagent.com/agent.md). The directory shows 20 records per page, with search/type filters and previous/next navigation. Every imported plugin records its upstream author where supplied, supported host, purpose, source revision, setup link and source ZIP. A repository ZIP can contain several plugins; inspect the linked plugin path before installing.
+
+The official marketplace's stars describe that marketplace repository. They are not copied into each plugin's star count, and imported metadata is separate from reviewed community submissions. Individual plugin/service licenses, account requirements, pricing and permissions remain upstream requirements. A free listing does not make a paid connected service free.
+
+Agents can call `search_tools` with `query`, `type`, `limit` and `offset`; responses include `total` and `nextOffset`. The equivalent HTTP endpoint uses `q`: `/api/tools?q=browser&type=plugin&limit=20&offset=20`. `scripts/sync-plugins.mjs` refreshes pinned official marketplace metadata without installing or executing plugins.
 
 ## Use from npm
 
@@ -112,7 +120,7 @@ npx agent-skill-library connect --host all --global
 
 The connector merges a read-only HTTP server into the personal configurations for Codex, Claude Code, Cursor and Antigravity. It preserves other servers and settings, backs up changed files beside their original, refuses disabled or conflicting entries, and can be previewed with `--dry-run`. Refresh or restart your host after setup. No API key or local server process is required.
 
-Endpoint: **https://skills.maqamagent.com/mcp**. Tools: `search_skills`, `read_skill`, `plan_skill_install`, and `search_listings`. Skills retain source revisions, SHA-256 checksums, supporting resources and licenses. Directory search returns only published, reviewed AI products, plugins, libraries, MCP servers, skills and tools. A listing review is not a security certification.
+Endpoint: **https://skills.maqamagent.com/mcp**. Tools: `get_library_info`, `search_skills`, `read_skill`, `plan_skill_install`, `search_tools`, and `search_listings`. Skills retain source revisions, SHA-256 checksums, supporting resources and licenses. `search_tools` returns source-pinned upstream tool/plugin metadata; `search_listings` returns only published, reviewed community submissions. A listing review is not a security certification.
 
 For a repository-based cloud workspace, run the command without `--global` and commit the four generated client configurations. Host trust or approval steps still apply. A remote machine has its own settings; a personal install on your laptop is not copied to it automatically. Hosted chat products require their own MCP connector configuration.
 
