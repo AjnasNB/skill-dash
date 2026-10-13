@@ -23,6 +23,13 @@
 .preserve-lines { white-space: pre-line; }
 #community-message { padding-block: 12px; white-space: pre-line; }
 .community-page [hidden] { display: none !important; }
+@media(max-width:760px) {
+  .community-header { gap: 8px; }
+  .community-header nav { flex-wrap: nowrap; height: auto; gap: 0; }
+  .community-header nav a:not(:first-child) { display: none; }
+  .community-header nav a { white-space: nowrap; }
+  .community-header > .button { font-size: 10px; padding: 8px; }
+}
 .community-page a:focus-visible,.community-page button:focus-visible,.community-page input:focus-visible,.community-page textarea:focus-visible,.community-page select:focus-visible { outline: 3px solid #166347; outline-offset: 3px; }
 .community-page button[aria-pressed=true] { background: #166347; color: white; }
 .community-page button:disabled { opacity: .6; cursor: wait; }

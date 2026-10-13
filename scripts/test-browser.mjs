@@ -95,7 +95,16 @@ try {
   await expect(mobilePage.getByRole('button', { name: 'Close dialog', exact: true })).toBeInViewport();
   assert.equal(await mobilePage.locator('dialog').evaluate(element => element.scrollTop), 0, 'Mobile scrolling must stay below the header');
   assert.deepEqual(errors, []);
-  const report = { status: 'passed', desktop: true, mobile: true, search: true, keyboardShortcut: true, skillPreview: true, clipboard: true, zipHashes: true, bookmarkPersistence: true, emptyState: true, publishingSignInGate: true, browserErrors: errors };
+  await mobilePage.goto(`${base}/tools`, { waitUntil: 'networkidle' });
+  assert.ok(await mobilePage.evaluate(() => {
+    const header = document.querySelector('.community-header').getBoundingClientRect();
+    const links = [...document.querySelectorAll('.community-header nav a')].filter(element => element.getClientRects().length);
+    return document.documentElement.scrollWidth <= innerWidth && links.every(element => {
+      const box = element.getBoundingClientRect();
+      return box.top >= header.top && box.bottom <= header.bottom;
+    }) && document.querySelector('h1').getBoundingClientRect().top >= header.bottom;
+  }), 'Community navigation must remain inside the mobile header, above its heading');
+  const report = { status: 'passed', desktop: true, mobile: true, communityHeader: true, search: true, keyboardShortcut: true, skillPreview: true, clipboard: true, zipHashes: true, bookmarkPersistence: true, emptyState: true, publishingSignInGate: true, browserErrors: errors };
   await fs.writeFile(path.join(output, 'result.json'), JSON.stringify(report, null, 2));
   console.log(JSON.stringify(report));
 } finally { await browser.close(); }
