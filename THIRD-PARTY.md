@@ -32,3 +32,13 @@ does not execute any upstream skill scripts.
 
 To report an attribution, license, or unsafe-content issue, open an issue in
 https://github.com/AjnasNB/skill-dash with the exact skill ID and source path.
+
+## Linked plugin metadata
+
+`registry/agent-tools.json` includes descriptive metadata from Anthropic's
+[official Claude plugin marketplace](https://github.com/anthropics/claude-plugins-official),
+whose repository declares Apache-2.0. The catalog records its source commit and
+check date. The marketplace's star count belongs to that directory, not to each
+plugin. Plugin code is not bundled, executed or relicensed by SkillDash; source ZIP
+links point to upstream repositories. Each plugin's own source license, host,
+permissions, service terms and pricing must be checked before use.

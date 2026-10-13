@@ -92,7 +92,11 @@ export default {
       if (['GET','HEAD'].includes(request.method) && (url.pathname === '/agent.md' || url.pathname === '/' && request.headers.get('Accept')?.includes('text/markdown'))) return new Response(request.method === 'HEAD' ? null : agentInstructions(catalog,packageInfo.version), {headers:{...headers,'Content-Type':'text/markdown; charset=utf-8','Cache-Control':'public, max-age=300','Vary':'Accept','Link':'</.well-known/agent.json>; rel="describedby"; type="application/json"'}});
       if (['GET','HEAD'].includes(request.method) && ['/api/agent','/.well-known/agent.json'].includes(url.pathname)) { const response=json(agentLibraryInfo(catalog,packageInfo.version),200,{'Cache-Control':'public, max-age=300'}); return request.method === 'HEAD' ? new Response(null,{headers:response.headers}) : response; }
       if (['GET','HEAD'].includes(request.method) && url.pathname === '/api/submission-schema') return json(submissionSchema,200,{'Cache-Control':'public, max-age=300'});
-      if (['GET','HEAD'].includes(request.method) && url.pathname === '/api/tools') { const query=url.searchParams.get('q')||'', type=url.searchParams.get('type')||''; if(query.length>200||type&&!['plugin','library','mcp','tool','chatbot'].includes(type))return json({error:'Use a search of at most 200 characters and a supported tool type.'},400);return json(searchAgentTools({query,type,limit:Number(url.searchParams.get('limit'))||20}),200,{'Cache-Control':'public, max-age=300'}); }
+      if (['GET','HEAD'].includes(request.method) && url.pathname === '/api/tools') {
+        const query=url.searchParams.get('q')||'', type=url.searchParams.get('type')||'', offset=Number(url.searchParams.get('offset')||0);
+        if(query.length>200||type&&!['plugin','library','mcp','tool','chatbot'].includes(type)||!Number.isSafeInteger(offset)||offset<0||offset>100000)return json({error:'Use a search of at most 200 characters, a supported type and a nonnegative offset up to 100000.'},400);
+        return json(searchAgentTools({query,type,offset,limit:Number(url.searchParams.get('limit'))||20}),200,{'Cache-Control':'public, max-age=300'});
+      }
       if (url.pathname === '/mcp') return await handleMcp(request, { catalog, readSkill: skill => readPublishedSkill(env, skill), searchListings: async args => {
         const listingUrl = new URL('/api/community/listings', canonical); listingUrl.searchParams.set('q', args.query);
         if (args.type) listingUrl.searchParams.set('type', args.type);

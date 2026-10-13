@@ -864,6 +864,17 @@
               "minimum": 1,
               "maximum": 20
             }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "Follow nextOffset to traverse the complete recorded directory.",
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100000,
+              "default": 0
+            }
           }
         ],
         "responses": {

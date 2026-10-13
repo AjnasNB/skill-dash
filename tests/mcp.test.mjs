@@ -15,7 +15,9 @@ test('installed CLI negotiates its package version and validates bounded MCP sea
     const info=JSON.parse((await client.callTool({name:'get_library_info',arguments:{}})).content[0].text);
     assert.equal(info.minimumRepositoryStars,10000);assert.ok(info.skillCount>=4000);assert.equal(info.submission.authentication.includes('email'),true);
     const plugins=JSON.parse((await client.callTool({name:'search_tools',arguments:{type:'plugin',query:''}})).content[0].text);
-    assert.ok(plugins.tools.length>0);assert.ok(plugins.tools.every(tool=>tool.repositoryStars>=10000&&tool.documentationUrl.includes(tool.revision)));
+    assert.ok(plugins.tools.length>0);assert.ok(plugins.tools.every(tool=>(tool.repositoryStars>=10000||tool.marketplace?.repositoryStars>=10000)&&tool.documentationUrl.includes(tool.revision)));
+    const next=JSON.parse((await client.callTool({name:'search_tools',arguments:{type:'plugin',offset:10}})).content[0].text);
+    assert.equal(next.offset,10);assert.ok(next.tools.every(t=>!plugins.tools.some(p=>p.id===t.id)));
     const result = await client.callTool({ name: 'search_skills', arguments: { query: 'make a launch video', limit: 1 } });
     assert.ok(!result.isError);
     const data = JSON.parse(result.content.find(item => item.type === 'text').text);
