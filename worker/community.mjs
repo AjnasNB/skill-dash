@@ -215,7 +215,7 @@ export async function communityApi(request, env, ctx) {
   }
 }
 
-const pageHeader = `<header class="site-header"><a class="wordmark" href="/" aria-label="SkillDash home"><img class="brand-logo" src="/skilldash-logo.webp" width="180" height="60" alt="SkillDash"><span class="beta-tag">FREE</span></a><nav aria-label="Main navigation"><a href="/skills">Skill Library</a><a href="/products">Community</a><a href="/publish">Publish</a></nav><a class="button" href="/account">Sign in / Join</a></header>`;
+const pageHeader = `<header class="site-header community-header"><a class="wordmark" href="/" aria-label="SkillDash home"><img class="brand-logo" src="/skilldash-logo.webp" width="180" height="60" alt="SkillDash"><span class="beta-tag">FREE</span></a><nav aria-label="Main navigation"><a href="/skills">Skill Library</a><a href="/products">Community</a><a href="/publish">Publish</a></nav><a class="button" href="/account">Sign in / Join</a></header>`;
 const pageFooter = `<footer><a class="footer-brand" href="/">SkillDash<span>The free Skill Library and AI directory.</span></a><div><a href="/about">About</a><a href="/publishing-policy">Review policy</a><a href="/privacy">Privacy</a><a href="/for-agents">API & MCP</a></div></footer>`;
 const cards = rows => rows.map(row => `<article class="community-card"><span class="eyebrow">${e(row.type)} · ${e(row.category)}</span><h2><a href="/listings/${e(row.slug)}">${e(row.name)}</a></h2><p>${e(row.tagline)}</p><p class="maker">By ${e(row.maker)} · ${e(row.pricing)}</p><span class="reviewed-label">Reviewed listing</span><p>${Number(row.votes)} community votes</p></article>`).join('');
 export async function communityPage(request, env) {
