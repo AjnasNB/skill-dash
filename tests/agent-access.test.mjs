@@ -9,7 +9,8 @@ test('one link exposes agent instructions, manifest, software tools and submissi
  const text=await markdown.text();assert.match(text,/5,126|[5-9],\d{3}/);assert.ok(text.includes('/api/submission-schema'));assert.ok(text.includes('search_tools'));assert.ok(!text.includes('format-validated'));
  const info=await (await worker.fetch(new Request(base+'/.well-known/agent.json'),{})).json();assert.ok(info.skillCount>=4000);assert.equal(info.minimumRepositoryStars,10000);assert.equal(info.submission.types.includes('chatbot'),true);
  const schema=await (await worker.fetch(new Request(info.submission.schema),{})).json();assert.equal(schema.properties.rights.const,true);assert.ok(schema.properties.phone.description.includes('Optional'));
- const plugins=await (await worker.fetch(new Request(base+'/api/tools?type=plugin'),{})).json();assert.ok(plugins.total>0);assert.ok(plugins.tools.every(tool=>tool.type==='plugin'&&tool.repositoryStars>=10000));
+ const plugins=await (await worker.fetch(new Request(base+'/api/tools?type=plugin'),{})).json();assert.ok(plugins.total>20);assert.ok(plugins.tools.every(tool=>tool.type==='plugin'&&(tool.repositoryStars>=10000||tool.marketplace?.repositoryStars>=10000)));
+ const next=await (await worker.fetch(new Request(base+'/api/tools?type=plugin&offset=20'),{})).json();assert.equal(next.offset,20);assert.equal(next.total,plugins.total);assert.equal(next.tools.some(t=>plugins.tools.some(p=>p.id===t.id)),false);
  assert.equal((await worker.fetch(new Request(base+'/api/tools?type=invalid'),{})).status,400);
  const head=await worker.fetch(new Request(base+'/agent.md',{method:'HEAD'}),{});assert.equal((await head.text()).length,0);
 });
