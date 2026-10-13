@@ -59,7 +59,7 @@ Every downloadable skill-catalog source is a public GitHub repository with **10,
 
 The official marketplace's stars describe that marketplace repository. They are not copied into each plugin's star count, and imported metadata is separate from reviewed community submissions. Individual plugin/service licenses, account requirements, pricing and permissions remain upstream requirements. A free listing does not make a paid connected service free.
 
-Agents can call `search_tools` with `query`, `type`, `limit` and `offset`; responses include `total` and `nextOffset`. The equivalent HTTP endpoint uses `q`: `/api/tools?q=browser&type=plugin&limit=20&offset=20`. `scripts/sync-plugins.mjs` refreshes pinned official marketplace metadata without installing or executing plugins.
+Agents using the public HTTP MCP can call `search_tools` with `query`, `type`, `limit` and `offset`; responses include `total` and `nextOffset`. The equivalent HTTP endpoint uses `q`: `/api/tools?q=browser&type=plugin&limit=20&offset=20`. `scripts/sync-plugins.mjs` refreshes pinned official marketplace metadata without installing or executing plugins.
 
 ## Use from npm
 
@@ -149,7 +149,7 @@ SkillDash provides public discovery context. Qarinah keeps opted-in project memo
 }
 ```
 
-The stdio server provides the same six tools. Skill search works from the packaged catalog; directory listing search needs the public website. It inspects and plans; it does not execute downloaded instructions or write installations. Configure the command in your client's MCP settings. No service API key is required.
+The stdio server provides the same six tool names. Skill search and tool metadata use the packaged snapshot; community listing search needs the public website. The published 0.4.0 npm snapshot predates this new plugin import and pagination. Use the public HTTP MCP for the current marketplace catalog; the global connector above uses that endpoint. It inspects and plans; it does not execute downloaded instructions or write installations. Configure the command in your client's MCP settings. No service API key is required.
 
 ## Public API and submissions
 
