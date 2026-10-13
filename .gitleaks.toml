@@ -1,0 +1,17 @@
+[extend]
+useDefault = true
+
+# Sourcegraph's legacy 40-hex rule matches public Git commit IDs.
+# Only that rule, only this metadata file, and only immutable commit fields/URLs
+# are exempted. Credential rules and every other file remain scanned.
+[[rules]]
+id = "sourcegraph-access-token"
+  [[rules.allowlists]]
+  description = "Public immutable GitHub plugin commit metadata"
+  condition = "AND"
+  paths = ['''^registry/agent-tools\.json$''']
+  regexTarget = "line"
+  regexes = [
+    '''^\s*"revision": "[a-f0-9]{40}",?\s*$''',
+    '''^\s*"(?:documentationUrl|downloadUrl)": "https://github\.com/[A-Za-z0-9._-]+/[A-Za-z0-9._-]+/(?:tree|archive)/[a-f0-9]{40}(?:/[A-Za-z0-9._/%+-]+|\.zip)?",?\s*$'''
+  ]
