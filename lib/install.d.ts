@@ -10,6 +10,8 @@ export interface InstallOptions {
   agent?: 'codex' | 'claude' | 'delta'; global?: boolean; cwd?: string; home?: string;
   platform?: string; appData?: string; deltaHome?: string; force?: boolean; dryRun?: boolean;
   fetcher?: typeof fetch;
+  /** Update only unchanged managed files. Local modifications are always preserved. */
+  update?: boolean;
 }
 export interface InstallResult { id: string; name: string; agent: string; root: string; destination: string; revision: string; files: number; bytes: number; status?: string }
 export function safeRelative(value: unknown): boolean;

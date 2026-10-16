@@ -1,9 +1,15 @@
 ---
 name: skill-library
-description: Find, inspect, and install relevant specialist skills from the public Skill Library for Codex, Claude Code, or Delta Harness. Use when the user asks for a skill, wants specialist guidance, or needs a portable skill for a task.
+description: Search SkillDash for specialist agent skills, plugins and MCP tools; inspect pinned sources, install complete skill folders, and check managed updates. Use when a task needs specialist guidance or the user wants to discover, select, install or update a skill.
 ---
 
 # Skill Library
+
+The user-level SkillDash MCP remains available across local projects and new or
+resumed chats after the host loads its saved configuration. Prefer its live
+`search_skills`, `search_tools`, and `read_skill` tools when available. Select a
+skill because it helps the current task; installed availability does not require
+using a skill on unrelated work.
 
 Search descriptions before choosing a skill:
 
@@ -11,6 +17,17 @@ Search descriptions before choosing a skill:
 npx --yes agent-skill-library search "the task you need help with" --json
 npx --yes agent-skill-library show FULL-SKILL-ID --content
 ```
+
+CLI search uses the current public catalog, with a labeled pinned fallback when
+offline. Use `--offline` for explicitly reproducible package-pinned discovery.
+Long-running local MCP processes refresh their catalog within five minutes.
+The remote MCP follows the deployed registry directly.
+
+Check installed managed revisions with `skill-library update --agent codex --global --json`.
+Add `--apply` within the user's authorized update scope. Updates
+verify pinned supporting files and preserve locally modified or unmanaged skills.
+A refresh never executes upstream scripts. Package upgrades and remote/cloud host
+configuration remain separate from catalog refresh.
 
 Read the source, license, description, supporting-file list, and instructions.
 Repository stars describe a source repository; they are not a security audit.
