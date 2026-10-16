@@ -149,7 +149,7 @@ SkillDash provides public discovery context. Qarinah keeps opted-in project memo
 }
 ```
 
-The stdio server provides the same six tool names. Skill search and tool metadata use the packaged snapshot; community listing search needs the public website. The published 0.4.0 npm snapshot predates this new plugin import and pagination. Use the public HTTP MCP for the current marketplace catalog; the global connector above uses that endpoint. It inspects and plans; it does not execute downloaded instructions or write installations. Configure the command in your client's MCP settings. No service API key is required.
+The stdio server provides the same six tool names. Skill search refreshes the live catalog, with an explicitly labeled package fallback if it is unavailable. Tool metadata uses the packaged snapshot; community listing search needs the public website. Use the public HTTP MCP for the current marketplace catalog; the global connector above uses that endpoint. It inspects and plans; it does not execute downloaded instructions or write installations. Configure the command in your client's MCP settings. No service API key is required.
 
 ## Public API and submissions
 
@@ -225,3 +225,12 @@ The locally distributed Brag skill is not republished here: its public upstream 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for source submissions and development,
 [the branch policy](.github/REPOSITORY-SECURITY.md) for protected pull/push workflows,
 and [SECURITY.md](SECURITY.md) for private vulnerability reports.
+# Persistent availability and current skills
+
+Install the CLI once with `npm install -g agent-skill-library`, then run `skill-library connect --host all --global` and `skill-library setup --agent all --global`. User-level MCP configuration and the discovery skill remain available to supported local hosts across projects and new or resumed chats after the host loads its configuration. Run `skill-library doctor --host all --global --json` to verify saved host connections and a real remote MCP search.
+
+The remote MCP uses the deployed library. CLI searches and local MCP discovery refresh their catalog from the public HTTPS library, with a five-minute cache for long-running processes and a labeled pinned fallback when offline. Use `--offline` to select the exact catalog bundled with your installed package.
+
+Run `skill-library update --agent codex --global --json` to inspect managed revision updates, then add `--apply` to update unchanged managed files. Supporting resources and licenses are checksum-verified. Local edits, extra files, unmanaged skills and changed source ownership are preserved. An update never executes upstream scripts. Package upgrades remain a separate `npm install -g agent-skill-library@latest` operation.
+
+User-level local settings do not automatically configure another computer, a cloud worker, or an already-running host that has not reloaded its tools. Commit project configuration or configure that remote host separately. Availability lets an agent select a relevant skill; it does not force skill use for unrelated tasks.
