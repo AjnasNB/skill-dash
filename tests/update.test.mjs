@@ -65,7 +65,7 @@ test('an edit made while a managed update downloads is preserved', async t => {
   const installed = await installSkill(older.manifest, {cwd, fetcher: older.fetcher});
   const file = path.join(installed.destination, 'SKILL.md');
   const fetcher = async url => {
-    if (String(url).includes('raw.githubusercontent.com')) await fs.writeFile(file, 'Edited during download');
+    if (new URL(url).hostname === 'raw.githubusercontent.com') await fs.writeFile(file, 'Edited during download');
     return newer.fetcher(url);
   };
   const result = await updateInstalled({cwd, fetcher, apply: true});
