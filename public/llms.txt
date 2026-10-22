@@ -1,4 +1,4 @@
-# SkillDash — the free Skill Library and AI directory
+# SkillDash — the free AI agent skill library and skill store
 
 > An open directory, website and npm installer for AI agent skills. Find a
 > workflow by task, inspect its source, then copy, download or install it.
@@ -86,13 +86,13 @@ Connect all supported local hosts: npx --yes agent-skill-library@latest connect 
 Project and cloud-compatible config: npx --yes agent-skill-library@latest connect --host all
 Hosts: Codex, Claude Code, Cursor, Antigravity. Refresh the host after setup.
 Configure each remote machine or hosted chat product separately.
-Tools: search_skills, read_skill, plan_skill_install, search_listings.
+Tools: get_library_info, search_skills, read_skill, plan_skill_install, search_tools, search_listings.
 Public reviewed AI directory: GET /api/community/listings?q=agent&type=mcp
 Qarinah project memory stays local and is not exposed by this public MCP.
 
 Command: npx
 Arguments: ["-y", "agent-skill-library@latest", "mcp"]
-Read-only tools: search_skills, read_skill, plan_skill_install, search_listings.
+Read-only tools: get_library_info, search_skills, read_skill, plan_skill_install, search_tools, search_listings.
 
 ## Submit
 
