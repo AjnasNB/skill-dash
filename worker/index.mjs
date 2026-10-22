@@ -85,7 +85,7 @@ const page = (env, request, pathname, { noindex = false, status } = {}) => asset
   ...(pathname === '/index.html' ? {'Vary':'Accept','Link':'</agent.md>; rel="alternate"; type="text/markdown", </.well-known/agent.json>; rel="describedby"; type="application/json", </openapi.json>; rel="service-desc"'} : {}),
   'X-Robots-Tag': noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large',
 }, status);
-export default {
+const application = {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     try {
@@ -165,5 +165,28 @@ export default {
       env.DB.prepare('DELETE FROM sessions WHERE expires_at < ?').bind(Date.now()),
     ]);
     await deliverNotifications(env);
+  },
+};
+
+export default {
+  ...application,
+  async fetch(request, env, ctx) {
+    const url = new URL(request.url);
+    const local = ['localhost', '127.0.0.1', '[::1]'].includes(url.hostname);
+    if (url.protocol === 'http:' && !local) {
+      const headers = { 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff' };
+      if (request.method === 'GET' || request.method === 'HEAD') {
+        url.protocol = 'https:';
+        url.port = '';
+        return new Response(null, { status: 308, headers: { ...headers, Location: url.href } });
+      }
+      // Do not process credentials or replay a write received without TLS.
+      return Response.json({ error: 'Use HTTPS for SkillDash requests.' }, { status: 400, headers });
+    }
+    const response = await application.fetch(request, env, ctx);
+    if (url.protocol !== 'https:') return response;
+    const headers = new Headers(response.headers);
+    headers.set('Strict-Transport-Security', 'max-age=31536000');
+    return new Response(response.body, { status: response.status, statusText: response.statusText, headers });
   },
 };

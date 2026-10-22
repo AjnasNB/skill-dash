@@ -2,6 +2,9 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "agent-skill-library",
   "main": "worker/index.mjs",
+  "dev": {
+    "host": "localhost"
+  },
   "compatibility_date": "2026-10-12",
   "workers_dev": true,
   "preview_urls": false,
