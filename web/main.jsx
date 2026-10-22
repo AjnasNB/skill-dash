@@ -12,7 +12,7 @@ import '@fontsource-variable/geist-mono';
 import { searchCatalog, CATEGORIES } from '../lib/search.mjs';
 import { CopyButton } from './CopyButton.jsx';
 import { COLLECTIONS, FAQ, collectionFor } from '../site/content.mjs';
-import { metadata, skillMetadata, skillSchema, breadcrumbs, stripFrontmatter, jsonForHtml } from '../site/seo.mjs';
+import { metadata, skillMetadata, skillSchema, homeSchema, breadcrumbs, stripFrontmatter, jsonForHtml } from '../site/seo.mjs';
 import './styles.css';
 import './copy.css';
 import './dialog.css';
@@ -78,7 +78,7 @@ function App({ initialCatalog, initialPreview }) {
     const schema = document.getElementById('page-schema');
     if (schema) schema.textContent = jsonForHtml({ '@context': 'https://schema.org', '@graph': selected ? [
       skillSchema(selected), breadcrumbs([{ name: 'Skill Library', path: '/' }, { name: selected.category, path: `/collections/${collectionFor(selected.category).slug}` }, { name: pretty(selected.name), path: `/skills/${selected.id}` }]),
-    ] : [{ '@type': 'WebSite', name: 'SkillDash', alternateName: ['Skill Library', 'Agent Skill Library'], url: meta.url, description: meta.description }] });
+    ] : homeSchema() });
   }, [selected, query, category]);
   const featured = useMemo(() => {
     if (!catalog) return [];
@@ -221,6 +221,7 @@ function LibraryExplainer() {
         <li><a href="/guides/codex-skills">Install skills in Codex</a></li>
         <li><a href="/guides/claude-code-skills">Install skills in Claude Code</a></li>
         <li><a href="/guides/skill-safety">Inspect skills before use</a></li>
+        <li><a href="/products">Reviewed community projects and MCP servers</a></li>
       </ul>
     </section>
   </>;

@@ -1,4 +1,5 @@
-import { ORIGIN, HOME_TITLE, HOME_DESCRIPTION, prettyName } from './content.mjs';
+import { ORIGIN, REPOSITORY, HOME_TITLE, HOME_DESCRIPTION, FAQ, prettyName } from './content.mjs';
+import packageInfo from '../package.json' with { type: 'json' };
 
 export const escapeHtml = value => String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
 export const jsonForHtml = value => JSON.stringify(value).replace(/</g, '\\u003c').replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029');
@@ -12,7 +13,17 @@ export function metadata({ path = '/', title = HOME_TITLE, description = HOME_DE
 export function skillMetadata(skill) {
   // The registry appends a content suffix when one repository repeats a skill name.
   const source = /-[a-f0-9]{8}$/.test(skill.id) ? `${skill.repo}/${skill.path}` : skill.repo;
-  return metadata({ path: `/skills/${skill.id}`, title: `${prettyName(skill.name)} AI Skill — ${source} | Skill Library`, description: skill.description, type: 'article' });
+  return metadata({ path: `/skills/${skill.id}`, title: `${prettyName(skill.name)} AI Skill — ${source} | SkillDash`, description: skill.description, type: 'article' });
+}
+export function homeSchema() {
+  const creator = { '@type': 'Person', name: 'Ajnas NB', url: 'https://github.com/AjnasNB' };
+  return [
+    { '@type': 'WebSite', '@id': `${ORIGIN}/#website`, name: 'SkillDash', alternateName: ['Skill Dash', 'Skill Library', 'Agent Skill Library'], url: `${ORIGIN}/`, description: HOME_DESCRIPTION, creator,
+      potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: `${ORIGIN}/?q={search_term_string}` }, 'query-input': 'required name=search_term_string' } },
+    { '@type': 'SoftwareApplication', '@id': `${ORIGIN}/#software`, name: 'SkillDash', applicationCategory: 'DeveloperApplication', softwareVersion: packageInfo.version, isAccessibleForFree: true, url: `${ORIGIN}/`, description: HOME_DESCRIPTION, author: creator, downloadUrl: 'https://www.npmjs.com/package/agent-skill-library', sameAs: [REPOSITORY], offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' } },
+    { '@type': 'Organization', '@id': `${ORIGIN}/#organization`, name: 'SkillDash', url: `${ORIGIN}/`, logo: `${ORIGIN}/favicon.svg`, sameAs: [REPOSITORY, 'https://www.npmjs.com/package/agent-skill-library'] },
+    { '@type': 'FAQPage', '@id': `${ORIGIN}/#faq-heading`, mainEntity: FAQ.map(item => ({ '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer } })) },
+  ];
 }
 export function renderHead(meta, graph = []) {
   return `<title>${escapeHtml(meta.title)}</title>
