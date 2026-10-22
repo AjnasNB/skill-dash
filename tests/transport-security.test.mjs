@@ -46,4 +46,5 @@ test('HTTPS responses retain authentication protections and add HSTS; loopback d
     assert.equal(response.headers.get('Strict-Transport-Security'), null);
   }
   assert.match(fs.readFileSync(new URL('../public/_headers', import.meta.url), 'utf8'), /Strict-Transport-Security: max-age=31536000/);
+  assert.equal(JSON.parse(fs.readFileSync(new URL('../wrangler.jsonc', import.meta.url), 'utf8')).dev.host, 'localhost');
 });
