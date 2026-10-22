@@ -5,7 +5,8 @@ import { registerLibraryTools, MCP_INSTRUCTIONS } from '../lib/mcp-tools.mjs';
 const cors = { 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST, GET, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type, Accept, MCP-Protocol-Version', 'Access-Control-Expose-Headers': 'MCP-Protocol-Version', 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff' };
 export async function boundedBytes(response, maximum) {
   if (!response.ok || !response.body) throw new Error('Published asset is unavailable.');
-  if (Number(response.headers.get('content-length')) > maximum) throw new Error('Asset exceeds the expected size.');
+  const encoding = response.headers.get('content-encoding')?.trim().toLowerCase();
+  if ((!encoding || encoding === 'identity') && Number(response.headers.get('content-length')) > maximum) throw new Error('Asset exceeds the expected size.');
   const reader = response.body.getReader(), chunks = [];
   let count = 0;
   try {
