@@ -4,8 +4,15 @@ import { createHash } from 'node:crypto';
 import { Client } from '@modelcontextprotocol/sdk/client/index.js';
 import { StreamableHTTPClientTransport } from '@modelcontextprotocol/sdk/client/streamableHttp.js';
 import { loadCatalog } from '../lib/catalog.mjs';
-import { handleMcp, readPublishedSkill } from '../worker/mcp.mjs';
+import { handleMcp, readPublishedSkill, boundedBytes } from '../worker/mcp.mjs';
 import packageInfo from '../package.json' with { type:'json' };
+
+test('MCP asset bounds apply to decoded content while retaining streamed size protection', async () => {
+  const response = () => new Response('tiny', { headers: { 'Content-Encoding': 'gzip', 'Content-Length': '24' } });
+  assert.equal(new TextDecoder().decode(await boundedBytes(response(), 4)), 'tiny');
+  await assert.rejects(boundedBytes(response(), 3), /expected size/);
+  await assert.rejects(boundedBytes(new Response('tiny', { headers: { 'Content-Length': '24' } }), 4), /expected size/);
+});
 test('remote MCP negotiates, searches, reads resources and bounds all public tools through a real client', async()=>{
   const catalog=await loadCatalog(), deps={catalog,readSkill:async()=> 'Public fixture instructions',searchListings:async args=>({total:1,listings:[{name:'Public tool',type:args.type||'tool'}]})};
   const transport=new StreamableHTTPClientTransport(new URL('https://skills.maqamagent.com/mcp'),{fetch:async(input,init)=>handleMcp(new Request(input,init),deps)});

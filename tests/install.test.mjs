@@ -4,7 +4,9 @@ import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
-import { installSkill, validateManifest, targetRoot, listInstalled } from '../lib/install.mjs';
+import { createServer } from 'node:http';
+import { gzipSync } from 'node:zlib';
+import { installSkill, validateManifest, targetRoot, listInstalled, fetchVerifiedFile } from '../lib/install.mjs';
 
 function fixture() {
   const content = {
@@ -19,6 +21,29 @@ function fixture() {
   const fetcher = async url => { const file = manifest.files.find(file => file.url === url); return new Response(content[file.path]); };
   return { content, manifest, fetcher };
 }
+
+test('compressed downloads verify decoded bytes even when gzip headers are larger than a small file', async () => {
+  const content = Buffer.from('example dependency file\n');
+  assert.ok(gzipSync(content).length > content.length);
+  const server = createServer((request, response) => {
+    const body = request.url === '/large' ? Buffer.alloc(content.length + 1, 'x')
+      : request.url === '/tampered' ? Buffer.alloc(content.length, 'x') : content;
+    const compressed = gzipSync(body);
+    response.writeHead(200, { 'Content-Encoding': 'gzip', 'Content-Length': compressed.length });
+    response.end(compressed);
+  });
+  await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
+  const file = { path: 'scripts/requirements.txt', bytes: content.length, sha256: createHash('sha256').update(content).digest('hex') };
+  const url = `http://127.0.0.1:${server.address().port}`;
+  try {
+    assert.deepEqual(await fetchVerifiedFile({ ...file, url }), content);
+    await assert.rejects(fetchVerifiedFile({ ...file, url: url + '/large' }), /Unexpected size/);
+    await assert.rejects(fetchVerifiedFile({ ...file, url: url + '/tampered' }), /Checksum mismatch/);
+  } finally {
+    server.closeAllConnections();
+    await new Promise(resolve => server.close(resolve));
+  }
+});
 test('installs complete, verified skills in project and personal agent locations without executing scripts', async () => {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), 'skill-library-test-'));
   const { manifest, fetcher, content } = fixture();
