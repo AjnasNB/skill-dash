@@ -2,8 +2,9 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import catalog from '../registry/catalog.json' with { type: 'json' };
 import worker from '../worker/index.mjs';
-import { metadata, renderHead, skillMetadata, skillSchema, jsonForHtml } from '../site/seo.mjs';
-import { COLLECTIONS, GUIDES, ORIGIN } from '../site/content.mjs';
+import { metadata, renderHead, skillMetadata, skillSchema, homeSchema, jsonForHtml } from '../site/seo.mjs';
+import { COLLECTIONS, GUIDES, FAQ, ORIGIN } from '../site/content.mjs';
+import packageInfo from '../package.json' with { type: 'json' };
 import { parseFragment } from 'parse5';
 import { elements, attribute, withoutModuleEntry } from '../site/html-template.mjs';
 
@@ -42,6 +43,31 @@ test('metadata identifies the exact skill and does not present repository stars 
   assert.equal(schema.citation, skill.sourceUrl);
   assert.equal(schema.aggregateRating, undefined);
   assert.equal(metadata().url, `${ORIGIN}/`);
+});
+
+test('the shared home graph preserves brand identity and visible FAQs after hydration', () => {
+  const graph = JSON.parse(jsonForHtml({ '@graph': homeSchema() }))['@graph'];
+  const site = graph.find(item => item['@type'] === 'WebSite');
+  const app = graph.find(item => item['@type'] === 'SoftwareApplication');
+  const faq = graph.find(item => item['@type'] === 'FAQPage');
+  assert.equal(site.name, 'SkillDash');
+  assert.ok(site.alternateName.includes('Skill Dash'));
+  assert.equal(app.softwareVersion, packageInfo.version);
+  assert.equal(app.offers.price, '0');
+  assert.equal(app.aggregateRating, undefined);
+  assert.deepEqual(faq.mainEntity.map(item => [item.name, item.acceptedAnswer.text]), FAQ.map(item => [item.question, item.answer]));
+});
+
+test('the agent guide uses the published release and separates catalog refresh from manual updates', () => {
+  const guide = GUIDES.find(item => item.path === '/for-agents');
+  const setup = guide.sections.find(item => item.title === 'Connect once for every local project');
+  const stdio = guide.sections.find(item => item.title === 'Use a local stdio MCP process');
+  assert.match(setup.code, new RegExp(`agent-skill-library@${packageInfo.version.replaceAll('.', '\\.')}`));
+  assert.equal(JSON.parse(stdio.code).mcpServers['skill-library'].args[1], `agent-skill-library@${packageInfo.version}`);
+  const updates = guide.sections.find(item => item.title === 'Update only when you choose');
+  assert.ok(updates.paragraphs.join(' ').includes('manual'));
+  assert.ok(updates.code.includes('update --agent codex --global --json'));
+  assert.ok(!updates.code.includes('--apply'));
 });
 
 test('all catalog categories have a distinct crawlable hub and installation guides are published', () => {

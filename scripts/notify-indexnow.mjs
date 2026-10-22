@@ -13,13 +13,17 @@ for (const name of ['pages', 'skills']) {
   const sitemap = await fs.readFile(path.join(root, 'dist/sitemaps', `${name}.xml`), 'utf8');
   urls.push(...[...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => match[1].replaceAll('&amp;', '&')));
 }
-if (urls.length > 10000 || urls.some(url => new URL(url).origin !== ORIGIN)) throw new Error('Invalid IndexNow URL batch.');
+const community = await fetch(`${ORIGIN}/sitemaps/community.xml`, { signal: AbortSignal.timeout(20000) });
+if (!community.ok) throw new Error(`Community sitemap is unavailable (${community.status}); no notification was sent.`);
+urls.push(...[...(await community.text()).matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => match[1].replaceAll('&amp;', '&')));
+const urlList = [...new Set(urls)];
+if (urlList.length > 10000 || urlList.some(url => new URL(url).origin !== ORIGIN)) throw new Error('Invalid IndexNow URL batch.');
 const response = await fetch('https://api.indexnow.org/indexnow', {
   method: 'POST', headers: { 'Content-Type': 'application/json; charset=utf-8' },
-  body: JSON.stringify({ host: new URL(ORIGIN).hostname, key, keyLocation, urlList: urls }),
+  body: JSON.stringify({ host: new URL(ORIGIN).hostname, key, keyLocation, urlList }),
   signal: AbortSignal.timeout(45000),
 });
-const report = { submittedAt: new Date().toISOString(), endpoint: 'https://api.indexnow.org/indexnow', host: new URL(ORIGIN).hostname, urlCount: urls.length, status: response.status, accepted: response.status === 200 || response.status === 202, response: (await response.text()).slice(0, 500), note: 'Acceptance acknowledges the notification; it does not guarantee crawling, indexing or ranking.' };
+const report = { submittedAt: new Date().toISOString(), endpoint: 'https://api.indexnow.org/indexnow', host: new URL(ORIGIN).hostname, urlCount: urlList.length, status: response.status, accepted: response.status === 200 || response.status === 202, response: (await response.text()).slice(0, 500), note: 'Acceptance acknowledges the notification; it does not guarantee crawling, indexing or ranking.' };
 await fs.mkdir(path.join(root, 'artifacts/seo'), { recursive: true });
 await fs.writeFile(path.join(root, 'artifacts/seo/indexnow.json'), JSON.stringify(report, null, 2));
 console.log(JSON.stringify(report));
