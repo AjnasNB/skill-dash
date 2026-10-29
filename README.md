@@ -39,6 +39,17 @@ Cloudflare Email Service sends sign-in links and submission notifications throug
 
 D1 stores submissions and a transactional notification outbox. The five-minute scheduled worker retries failed notifications with backoff and removes expired authentication and rate-limit records. The reviewer account sees the pending queue and notification failures at `/review` after verifying the configured `ADMIN_EMAIL`. Review outcomes are persisted before mail is attempted.
 
+The private `/review` dashboard also includes published and rejected decisions,
+reviewer notes, counts, pagination and a “Needs attention” risk filter. Each
+application can retain a private permissions, functionality and risk assessment
+with evidence, its assessor and timestamp. Saving an assessment changes no
+publication status and queues no email. New approvals require a saved assessment
+with a known risk level and documented or runtime-verified functionality;
+untested or blocked entries cannot be approved. Documentation checks must explain
+runtime limits. Existing published entries are preserved and flagged for follow-up
+when they have no assessment. Apply `migrations/0004_listing_assessments.sql`
+before deploying this dashboard. See [the review workflow](docs/REVIEW-WORKFLOW.md).
+
 Apply all D1 migrations before deploying. Version 0.4.0 adds `migrations/0003_agent_submissions.sql` for public agent usage details and private submission contacts. The migration adds account, session, listing, vote and notification tables; it preserves the original submission queue. Local account/voting/review tests use the same SQL schema in SQLite with mocked email delivery. Production email delivery requires the Cloudflare sender domain and binding.
 
 **[Browse the library](https://skills.maqamagent.com)** · [Agent instructions](https://skills.maqamagent.com/llms.txt) · [API schema](https://skills.maqamagent.com/openapi.json)

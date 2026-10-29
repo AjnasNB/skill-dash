@@ -1,4 +1,4 @@
-import {renderAgentFields} from './agent-fields.mjs';
+import {renderReviewApplication, renderReviewSummary} from './review-dashboard.mjs';
 const $ = selector => document.querySelector(selector);
 const message = (text, error = false) => { const node = $('#community-message'); if (node) { node.textContent = text; node.classList.toggle('inline-error', error); node.setAttribute('role', error ? 'alert' : 'status'); } };
 const escape = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -10,6 +10,7 @@ async function busy(button, action) { button.disabled = true; try { await action
 async function copy(value) { try { await navigator.clipboard.writeText(value); message('Copied.'); } catch { message('Copy was blocked. Select and copy the text manually.', true); } }
 let user = null;
 let loginToken = null;
+let reviewOffset = 0, reviewNextOffset = null;
 function captureLinkToken() {
   const incoming = new URLSearchParams(location.hash.slice(1)).get('token');
   if (incoming) { loginToken = incoming; history.replaceState({}, '', location.pathname + location.search); }
@@ -41,17 +42,64 @@ async function accountState() {
     const vote = await api(`/api/community/listings/${$('#vote-button').dataset.id}/vote`);
     $('#vote-button').setAttribute('aria-pressed', String(vote.voted)); $('#vote-count').textContent = vote.votes;
   }
-  if ($('#review-queue') && user?.admin) {
-    $('#review-auth').hidden = true;
-    const review = await api('/api/community/review');
-    $('#review-queue').innerHTML = review.listings.length ? review.listings.map(row => `<article class="community-card"><h2>${escape(row.name)}</h2><p>${escape(row.type)} · ${escape(row.category)} · ${escape(row.pricing)} · by ${escape(row.maker)}</p><p>${escape(row.tagline)}</p><p class="preserve-lines">${escape(row.description)}</p><p><a href="${escape(row.website)}" target="_blank" rel="noopener noreferrer">Open website ↗</a>${row.source_url ? ` · <a href="${escape(row.source_url)}" target="_blank" rel="noopener noreferrer">Open source / documentation ↗</a>` : ''}</p><p>Private verified contact email: ${escape(row.contact_email)}${row.contact_phone ? ` · Phone (not verified): ${escape(row.contact_phone)}` : ' · No phone provided'}</p><form class="review-form" data-id="${row.id}">${renderAgentFields(JSON.parse(row.agent_details||'{}'),row.type,'review-'+row.id,true)}<label><input type="checkbox" name="source"> I checked that the public source or website exists and matches the listing.</label><label><input type="checkbox" name="details"> I verified the claims, pricing and submission details.</label><label><input type="checkbox" name="rights"> I checked attribution and publication rights.</label><label>Review note<textarea name="note" required minlength="10" maxlength="1000" rows="3"></textarea></label><div class="reading-actions"><button class="button button-green" type="submit" name="status" value="published">Approve and publish</button><button class="button" type="submit" name="status" value="rejected" formnovalidate>Reject</button></div></form></article>`).join('') : '<p>The review queue is clear.</p>';
-    for (const form of document.querySelectorAll('.review-form')) form.addEventListener('submit', event => {
-      event.preventDefault(); const button = event.submitter, data = new FormData(form);
-      busy(button, async () => { await api(`/api/community/review/${form.dataset.id}`, { status: button.value, note: data.get('note'), checks: { source: data.has('source'), details: data.has('details'), rights: data.has('rights') }, agentDetails: Object.fromEntries(['repository','skillPath','compatibility','prerequisites','installation'].map(name=>[name,data.get(name)||''])) }); message(button.value === 'published' ? 'Listing approved and published.' : 'Submission rejected.'); await accountState(); });
-    });
-    $('#notification-status').innerHTML = review.notifications.length ? review.notifications.map(item => `<p>${escape(item.kind)} · ${escape(item.status)} · attempts ${Number(item.attempts)}${item.last_error ? ` · ${escape(item.last_error)}` : ''}</p>`).join('') : '<p>No pending or failed notification deliveries.</p>';
+  if ($('#review-queue')) {
+    $('#review-auth').hidden = Boolean(user?.admin);
+    $('#review-dashboard').hidden = !user?.admin;
+    if (user?.admin) await loadReview();
+    else {
+      $('#review-queue').replaceChildren();
+      $('#notification-status').replaceChildren();
+      if (user) message('This account has no reviewer permission. Switch to the configured reviewer account.', true);
+    }
   }
 }
+async function loadReview() {
+  const query = new URLSearchParams({ status: $('#review-status').value, risk: $('#review-risk').value, offset: reviewOffset });
+  const review = await api('/api/community/review?' + query);
+  $('#review-summary').textContent = renderReviewSummary(review);
+  reviewNextOffset = review.nextOffset;
+  $('#review-previous').disabled = reviewOffset === 0;
+  $('#review-next').disabled = reviewNextOffset === null;
+  $('#review-page').textContent = review.total ? `${reviewOffset + 1}–${reviewOffset + review.listings.length} of ${review.total}` : '0 applications';
+  $('#review-queue').innerHTML = review.listings.length ? review.listings.map(renderReviewApplication).join('') : '<p>No applications match this publication status.</p>';
+  for (const form of document.querySelectorAll('.assessment-form')) form.addEventListener('submit', event => {
+    event.preventDefault();
+    busy(form.querySelector('button'), async () => {
+      const result = await api(`/api/community/review/${form.dataset.id}/assessment`, Object.fromEntries(new FormData(form)));
+      form.querySelector('.assessment-saved').textContent = `Last assessment: ${result.assessedAt}`;
+      form.closest('details').querySelector('summary').textContent = `Permissions, functionality and risks · ${form.elements.riskLevel.value} risk · ${form.elements.functionality.value}`;
+      message(result.message);
+      // Refresh totals without discarding the reviewer's unsaved decision fields.
+      const fresh = await api('/api/community/review?' + query);
+      $('#review-summary').textContent = renderReviewSummary(fresh);
+    });
+  });
+  for (const form of document.querySelectorAll('.review-form')) form.addEventListener('submit', event => {
+    event.preventDefault(); const button = event.submitter, data = new FormData(form);
+    if (!button) return;
+    busy(button, async () => {
+      await api(`/api/community/review/${form.dataset.id}`, { status: button.value, note: data.get('note'), checks: { source: data.has('source'), details: data.has('details'), rights: data.has('rights') }, agentDetails: Object.fromEntries(['repository','skillPath','compatibility','prerequisites','installation'].map(name => [name, data.get(name) || ''])) });
+      message(button.value === 'published' ? 'Listing approved and published.' : 'Submission rejected.');
+      // A decision removes a row from the pending page; start at the first page.
+      reviewOffset = 0;
+      await accountState();
+    });
+  });
+  $('#notification-status').innerHTML = review.notifications.length ? review.notifications.map(item => `<p>${escape(item.kind)} · ${escape(item.status)} · attempts ${Number(item.attempts)}${item.last_error ? ` · ${escape(item.last_error)}` : ''}</p>`).join('') : '<p>No pending or failed notification deliveries.</p>';
+}
+$('#review-filter')?.addEventListener('submit', event => {
+  event.preventDefault(); reviewOffset = 0;
+  busy(event.currentTarget.querySelector('button'), loadReview);
+});
+$('#review-previous')?.addEventListener('click', () => {
+  reviewOffset = Math.max(0, reviewOffset - 100);
+  loadReview().catch(error => message(error.message, true));
+});
+$('#review-next')?.addEventListener('click', () => {
+  if (reviewNextOffset === null) return;
+  reviewOffset = reviewNextOffset;
+  loadReview().catch(error => message(error.message, true));
+});
 $('#sign-in-form')?.addEventListener('submit', event => {
   event.preventDefault(); const data = new FormData(event.currentTarget);
   busy(event.currentTarget.querySelector('button'), async () => { const result = await api('/api/auth/start', { email: data.get('email'), displayName: data.get('displayName') }); message(result.message); });
