@@ -8,6 +8,10 @@ export function renderReviewSummary({ counts = {}, risks = {} }) {
   return `${Number(risks.total || 0)} applications · ${Number(counts.pending || 0)} pending · ${Number(counts.published || 0)} published · ${Number(counts.rejected || 0)} rejected · ${Number(risks.unassessed || 0)} without an assessment · ${Number(risks.high || 0)} high risk · ${Number(risks.blocked || 0)} blocked`;
 }
 
+export function renderNotificationHistory(notifications = []) {
+  return notifications.length ? '<p>Latest 100 notifications. Sent means the provider completed its send operation; inbox delivery is not confirmed.</p>' + notifications.map(item => `<p>${escape(item.name)} · ${escape(item.kind)} · ${escape(item.status)}${item.provider_status ? ` · Azure/provider: ${escape(item.provider_status)}` : ''} · attempts ${Number(item.attempts)} · ${escape(item.created_at)}${item.last_error ? ` · ${escape(item.last_error)}` : ''}</p>`).join('') : '<p>No notification history.</p>';
+}
+
 export function renderReviewApplication(row) {
   const id = escape(row.id), agent = details(row.agent_details);
   const checks = details(row.review_checks);

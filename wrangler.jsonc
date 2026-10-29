@@ -67,14 +67,8 @@
   ],
   "vars": {
     "ADMIN_EMAIL": "contact@cognifyr.co",
-    "EMAIL_FROM": "skilldash@cognifyr.co"
-  },
-  "send_email": [
-    {
-      "name": "EMAIL",
-      "allowed_sender_addresses": [
-        "skilldash@cognifyr.co"
-      ]
-    }
-  ]
+    "EMAIL_FROM": "skilldash@cognifyr.co",
+    "EMAIL_PROVIDER": "azure",
+    "AZURE_EMAIL_ENDPOINT": "https://skilldash-mail.unitedstates.communication.azure.com"
+  }
 }

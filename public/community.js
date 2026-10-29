@@ -1,4 +1,4 @@
-import {renderReviewApplication, renderReviewSummary} from './review-dashboard.mjs';
+import {renderReviewApplication, renderReviewSummary, renderNotificationHistory} from './review-dashboard.mjs';
 const $ = selector => document.querySelector(selector);
 const message = (text, error = false) => { const node = $('#community-message'); if (node) { node.textContent = text; node.classList.toggle('inline-error', error); node.setAttribute('role', error ? 'alert' : 'status'); } };
 const escape = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -85,7 +85,7 @@ async function loadReview() {
       await accountState();
     });
   });
-  $('#notification-status').innerHTML = review.notifications.length ? review.notifications.map(item => `<p>${escape(item.kind)} · ${escape(item.status)} · attempts ${Number(item.attempts)}${item.last_error ? ` · ${escape(item.last_error)}` : ''}</p>`).join('') : '<p>No pending or failed notification deliveries.</p>';
+  $('#notification-status').innerHTML = renderNotificationHistory(review.notifications);
 }
 $('#review-filter')?.addEventListener('submit', event => {
   event.preventDefault(); reviewOffset = 0;
