@@ -42,3 +42,11 @@
 .agent-fields input,.agent-fields textarea,.contact-fields input { width:100%; min-width:0; min-height:44px; padding:12px; border:1px solid #dce5de; border-radius:6px; font:inherit; line-height:1.5; color:inherit; }
 .community-page dt { font-weight:650; margin-top:16px; }
 .community-page dd { margin-left:0; overflow-wrap:anywhere; }
+.review-filter { display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin-block:24px; }
+.review-filter select,.assessment-form select { min-height:44px; padding:10px; border:1px solid #b7c2b6; border-radius:6px; color:#172c22; background:#fff; font:inherit; max-width:100%; }
+.assessment-panel { border-block:1px solid var(--line,#d9ded8); padding-block:18px; margin-block:20px; }
+.assessment-panel summary { cursor:pointer; font-weight:650; line-height:1.6; }
+.assessment-form { display:grid; gap:12px; margin-top:20px; }
+.assessment-form textarea { min-width:0; width:100%; padding:12px; border:1px solid #b7c2b6; border-radius:6px; color:#172c22; background:#fff; font:inherit; line-height:1.6; resize:vertical; }
+.assessment-form button { justify-self:start; }
+.community-page summary:focus-visible { outline:3px solid #166347; outline-offset:3px; }
