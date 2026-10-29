@@ -671,7 +671,7 @@
     },
     "/api/community/review": {
       "get": {
-        "summary": "Reviewer-only pending queue and failed notifications",
+        "summary": "Reviewer-only applications, risk assessments and recent notification history",
         "security": [
           {
             "emailSession": []

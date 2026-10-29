@@ -4,6 +4,7 @@ import { validateAgentDetails, validateContact, readAgentDetails } from '../lib/
 import {searchAgentTools} from '../lib/agent-directory.mjs';
 import {renderAgentFields,renderAgentDetails} from '../public/agent-fields.mjs';
 import { validateAssessment, publicationBlocker } from '../lib/listing-assessment.mjs';
+import { emailAvailable, usesAzure, sendEmail, emailStatus } from './email.mjs';
 
 const encoder = new TextEncoder();
 const types = ['skill', 'product', 'chatbot', 'plugin', 'library', 'mcp', 'tool'];
@@ -78,28 +79,36 @@ async function published(env, { query = '', type = '', offset = 0, limit: count 
   const total = await env.DB.prepare(`SELECT COUNT(*) AS total FROM listings l WHERE ${conditions}`).bind(type, type, query, filter, filter).first();
   return { listings: result.results.map(publicListing), total: total.total };
 }
-async function send(env, recipient, subject, content, html) {
-  if (!env.EMAIL || !env.EMAIL_FROM) throw fail('Email sign-in is temporarily unavailable. Please try again later.', 503);
-  return env.EMAIL.send({ to: recipient, from: { email: env.EMAIL_FROM, name: 'SkillDash' }, replyTo: env.ADMIN_EMAIL, subject, text: content, html });
-}
 export async function deliverNotifications(env) {
-  if (!env.DB || !env.EMAIL || !env.EMAIL_FROM) return;
-  const due = await env.DB.prepare("SELECT n.*, l.name, l.slug, l.type, l.website FROM notifications n JOIN listings l ON l.id = n.listing_id WHERE n.status != 'sent' AND n.attempts < 8 AND n.next_attempt_at <= ? AND n.lease_until < ? ORDER BY n.created_at LIMIT 10").bind(Date.now(), Date.now()).all();
+  if (!env.DB || !emailAvailable(env)) return;
+  const due = await env.DB.prepare("SELECT n.*, l.name, l.slug, l.type, l.website FROM notifications n JOIN listings l ON l.id = n.listing_id WHERE n.status IN ('pending','sending') AND (n.attempts < 8 OR n.provider_status IN ('Running','NotStarted')) AND n.next_attempt_at <= ? AND n.lease_until < ? ORDER BY n.created_at LIMIT 10").bind(Date.now(), Date.now()).all();
   for (const item of due.results) {
-    const claimed = await env.DB.prepare("UPDATE notifications SET status = 'sending', attempts = attempts + 1, lease_until = ? WHERE id = ? AND status != 'sent' AND lease_until < ? RETURNING id").bind(Date.now() + 120000, item.id, Date.now()).first();
+    const claimed = await env.DB.prepare("UPDATE notifications SET status = 'sending', lease_until = ? WHERE id = ? AND status IN ('pending','sending') AND lease_until < ? RETURNING id").bind(Date.now() + 120000, item.id, Date.now()).first();
     if (!claimed) continue;
     const url = item.kind === 'review' ? `${ORIGIN}/review` : item.kind === 'published' ? `${ORIGIN}/listings/${item.slug}` : `${ORIGIN}/account`;
     const phrases = { review: 'was submitted for review', receipt: 'was received and is awaiting review', published: 'is now public', rejected: 'has a review outcome available in your account' };
     const subjects = { review: 'SkillDash review', receipt: 'We received your SkillDash submission', published: 'Your SkillDash listing is published', rejected: 'Your SkillDash submission review' };
     const phrase = phrases[item.kind] || 'has a submission update';
-    const subject = `${subjects[item.kind] || 'SkillDash update'}: ${item.name}`;
-    const content = `${item.name} (${item.type}) ${phrase}.\n\nWebsite: ${item.website}\nOpen SkillDash: ${url}\n\nSubmission does not mean approval. Listing and voting on SkillDash are free. This is a transactional submission notification.`;
+    const subject = item.subject || `${subjects[item.kind] || 'SkillDash update'}: ${item.name}`;
+    const content = item.text_body || `${item.name} (${item.type}) ${phrase}.\n\nWebsite: ${item.website}\nOpen SkillDash: ${url}\n\nSubmission does not mean approval. Listing and voting on SkillDash are free. This is a transactional submission notification.`;
     try {
-      const receipt = await send(env, item.recipient, subject, content, `<p>${e(item.name)} (${e(item.type)}) ${e(phrase)}.</p><p><a href="${e(url)}">Open SkillDash</a></p><p>Submission does not mean approval. Listing and voting are free.</p>`);
-      await env.DB.prepare("UPDATE notifications SET status = 'sent', message_id = ?, lease_until = 0, last_error = NULL WHERE id = ?").bind(receipt.messageId || 'accepted', item.id).run();
+      let receipt;
+      if (item.provider_operation_id) {
+        // An uncertain POST must be reconciled using its persisted operation ID.
+        // Never resend it through a different provider after a configuration change.
+        if (!usesAzure(env)) throw Object.assign(new Error('Provider changed'), { code: 'EMAIL_PROVIDER_CHANGED', permanent: true });
+        receipt = await emailStatus(env, item.provider_operation_id);
+      }
+      if (!receipt || receipt.status === 'NotFound') {
+        await env.DB.prepare('UPDATE notifications SET attempts = attempts + 1, provider_operation_id = ? WHERE id = ?').bind(usesAzure(env) ? (item.provider_operation_id || item.id) : null, item.id).run();
+        receipt = await sendEmail(env, item.recipient, subject, content, item.html_body || (item.text_body ? `<p>${e(content).replaceAll('\n', '<br>')}</p>` : `<p>${e(item.name)} (${e(item.type)}) ${e(phrase)}.</p><p><a href="${e(url)}">Open SkillDash</a></p><p>Submission does not mean approval. Listing and voting are free.</p>`), item.provider_operation_id || item.id);
+      }
+      const status = receipt.status === 'Succeeded' ? 'sent' : ['Failed','Canceled'].includes(receipt.status) ? 'failed' : 'sending';
+      await env.DB.prepare('UPDATE notifications SET status = ?, message_id = ?, provider_status = ?, next_attempt_at = ?, lease_until = 0, last_error = ? WHERE id = ?').bind(status, receipt.messageId, receipt.status, Date.now() + 60000, status === 'failed' ? 'AZURE_EMAIL_OPERATION_FAILED' : null, item.id).run();
     } catch (error) {
-      await env.DB.prepare("UPDATE notifications SET status = 'pending', next_attempt_at = ?, lease_until = 0, last_error = ? WHERE id = ?").bind(Date.now() + Math.min(86400000, 60000 * 2 ** item.attempts), /^[A-Z_]+$/.test(error.code || '') ? error.code : 'EMAIL_DELIVERY_FAILED', item.id).run();
-      console.error(JSON.stringify({ event: 'notification_failed', notificationId: item.id, code: error.code || 'EMAIL_DELIVERY_FAILED' }));
+      const code = /^[A-Z0-9_]+$/.test(error.code || '') ? error.code : 'EMAIL_DELIVERY_FAILED';
+      await env.DB.prepare('UPDATE notifications SET status = ?, next_attempt_at = ?, lease_until = 0, last_error = ? WHERE id = ?').bind(error.permanent ? 'failed' : 'pending', Date.now() + Math.min(86400000, 60000 * 2 ** Math.min(item.attempts,10)), code, item.id).run();
+      console.error(JSON.stringify({ event: 'notification_failed', notificationId: item.id, code }));
     }
   }
 }
@@ -108,18 +117,18 @@ export async function communityApi(request, env, ctx) {
   if (!route.startsWith('/api/auth/') && !route.startsWith('/api/community/')) return null;
   if (!env.DB && route !== '/tools') return json({ error: 'Community features are temporarily unavailable.' }, 503);
   try {
-    if (route === '/api/auth/session' && request.method === 'GET') return json({ user: publicUser(await userFor(request, env), env), signInAvailable: Boolean(env.EMAIL && env.EMAIL_FROM) });
+    if (route === '/api/auth/session' && request.method === 'GET') return json({ user: publicUser(await userFor(request, env), env), signInAvailable: emailAvailable(env) });
     if (route === '/api/auth/start' && request.method === 'POST') {
       const input = await body(request), email = text(input.email, 'Email', 5, 254).toLowerCase();
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) throw fail('Provide a valid email address.');
       const name = text(input.displayName || email.split('@')[0], 'Display name', 2, 60);
-      if (!env.EMAIL || !env.EMAIL_FROM) throw fail('Email sign-in is temporarily unavailable.', 503);
+      if (!emailAvailable(env)) throw fail('Email sign-in is temporarily unavailable.', 503);
       await limit(env, 'login-network', request.headers.get('CF-Connecting-IP') || 'local', 20);
       await limit(env, 'login-email', email, 5);
       await limit(env, 'login-total', 'site', 1000, 86400000);
       const secret = token(), hash = await digest(secret), link = `${ORIGIN}/account#token=${secret}`;
       await env.DB.prepare('INSERT INTO login_tokens (token_hash, email, display_name, expires_at) VALUES (?, ?, ?, ?)').bind(hash, email, name, Date.now() + 900000).run();
-      try { await send(env, email, 'Your SkillDash sign-in link', `Sign in to SkillDash: ${link}\n\nThis link expires in 15 minutes and works once. If you did not request it, ignore this email.`, `<p>Sign in to SkillDash to submit and vote.</p><p><a href="${e(link)}">Continue to SkillDash</a></p><p>This link expires in 15 minutes and works once. If you did not request it, ignore this email.</p>`); }
+      try { const receipt = await sendEmail(env, email, 'Your SkillDash sign-in link', `Sign in to SkillDash: ${link}\n\nThis link expires in 15 minutes and works once. If you did not request it, ignore this email.`, `<p>Sign in to SkillDash to submit and vote.</p><p><a href="${e(link)}">Continue to SkillDash</a></p><p>This link expires in 15 minutes and works once. If you did not request it, ignore this email.</p>`); if (['Failed','Canceled'].includes(receipt.status)) throw new Error('Email operation failed'); }
       catch { await env.DB.prepare('DELETE FROM login_tokens WHERE token_hash = ?').bind(hash).run(); throw fail('The sign-in email could not be sent. Please try again later.', 503); }
       return json({ message: 'Check your email for a one-time sign-in link. It expires in 15 minutes.' }, 202);
     }
@@ -192,8 +201,8 @@ export async function communityApi(request, env, ctx) {
       const total = await env.DB.prepare("SELECT COUNT(*) AS total FROM listings l LEFT JOIN listing_assessments a ON a.listing_id = l.id WHERE (? = 'all' OR l.status = ?) AND (? = 'all' OR a.listing_id IS NULL OR a.risk_level IN ('unknown', 'high') OR a.functionality IN ('not-tested', 'blocked'))").bind(status, status, risk).first();
       const counts = await env.DB.prepare('SELECT status, COUNT(*) AS count FROM listings GROUP BY status').all();
       const risks = await env.DB.prepare("SELECT COUNT(*) AS total, SUM(CASE WHEN a.listing_id IS NULL THEN 1 ELSE 0 END) AS unassessed, SUM(CASE WHEN a.risk_level = 'high' THEN 1 ELSE 0 END) AS high, SUM(CASE WHEN a.functionality = 'blocked' THEN 1 ELSE 0 END) AS blocked FROM listings l LEFT JOIN listing_assessments a ON a.listing_id = l.id").first();
-      const failures = await env.DB.prepare("SELECT id, listing_id, kind, status, attempts, last_error FROM notifications WHERE status != 'sent' ORDER BY created_at DESC LIMIT 20").all();
-      return json({ listings: rows.results, notifications: failures.results, status, risk, offset, total: total.total, nextOffset: offset + rows.results.length < total.total ? offset + rows.results.length : null, counts: Object.fromEntries(counts.results.map(row => [row.status, row.count])), risks });
+      const notifications = await env.DB.prepare('SELECT n.id, n.listing_id, l.name, n.kind, n.status, n.attempts, n.last_error, n.provider_status, n.created_at, n.related_listing_ids FROM notifications n JOIN listings l ON l.id = n.listing_id ORDER BY n.created_at DESC LIMIT 100').all();
+      return json({ listings: rows.results, notifications: notifications.results, status, risk, offset, total: total.total, nextOffset: offset + rows.results.length < total.total ? offset + rows.results.length : null, counts: Object.fromEntries(counts.results.map(row => [row.status, row.count])), risks });
     }
     const assessment = route.match(/^\/api\/community\/review\/([a-f0-9-]{36})\/assessment$/);
     if (assessment && request.method === 'POST') {

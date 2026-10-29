@@ -4,11 +4,11 @@ import { DatabaseSync } from 'node:sqlite';
 import fs from 'node:fs';
 import worker from '../worker/index.mjs';
 import { validateListing, digest, deliverNotifications } from '../worker/community.mjs';
-import { renderReviewApplication, renderReviewSummary } from '../public/review-dashboard.mjs';
+import { renderReviewApplication, renderReviewSummary, renderNotificationHistory } from '../public/review-dashboard.mjs';
 const origin = 'https://skills.maqamagent.com';
 function fixture() {
   const db = new DatabaseSync(':memory:'); db.exec('PRAGMA foreign_keys = ON');
-  for (const file of ['0001_submissions.sql', '0002_community.sql','0003_agent_submissions.sql', '0004_listing_assessments.sql']) db.exec(fs.readFileSync(new URL(`../migrations/${file}`, import.meta.url), 'utf8'));
+  for (const file of ['0001_submissions.sql', '0002_community.sql','0003_agent_submissions.sql', '0004_listing_assessments.sql', '0005_azure_notifications.sql']) db.exec(fs.readFileSync(new URL(`../migrations/${file}`, import.meta.url), 'utf8'));
   const wrap = sql => {
     let values = []; return { bind(...input) { values = input; return this; }, async first() { return db.prepare(sql).get(...values) || null; }, async all() { return { results: db.prepare(sql).all(...values) }; }, async run() { const info = db.prepare(sql).run(...values); return { meta: { changes: Number(info.changes) } }; }, execute() { const info = db.prepare(sql).run(...values); return { meta: { changes: Number(info.changes) } }; } };
   };
@@ -19,6 +19,45 @@ function fixture() {
   return { db, env, mail, call, signIn, assess };
 }
 const listing = { type: 'product', name: 'Useful tool', tagline: 'A useful tool for software teams', description: 'A public developer product with documented features and a clear source. Helps teams retain reproducible task evidence.', website: 'https://example.com/tool', sourceUrl: 'https://github.com/example/tool', category: 'Development', pricing: 'Free', rights: true };
+test('Azure outbox persists accepted operations, polls to success and never repeats a completed send', async () => {
+  const f = fixture(), owner = await f.signIn(), admin = await f.signIn('contact@cognifyr.co');
+  const submission = await (await f.call('/api/community/listings', listing, owner.cookie)).json();
+  f.db.prepare("DELETE FROM notifications WHERE kind = 'review'").run();
+  f.db.prepare('UPDATE notifications SET subject = ?, text_body = ?, related_listing_ids = ?').run('Review complete', 'Assessment completed; publication remains pending.', JSON.stringify([submission.id]));
+  Object.assign(f.env, { EMAIL_PROVIDER:'azure', AZURE_EMAIL_ENDPOINT:'https://test.communication.azure.com', AZURE_EMAIL_ACCESS_KEY:Buffer.from('test-key').toString('base64') });
+  const original = globalThis.fetch, requests = [];
+  try {
+    globalThis.fetch = async (url, options) => {
+      requests.push(options.method); const row = f.db.prepare('SELECT * FROM notifications').get();
+      assert.equal(row.provider_operation_id, row.id); // Durable before the external side effect.
+      if (options.method === 'POST') { assert.equal(JSON.parse(options.body).content.subject, 'Review complete'); return Response.json({ id:row.id, status:'Running' }, { status:202 }); }
+      return Response.json({ id:row.id, status:'Succeeded' });
+    };
+    await deliverNotifications(f.env); let row = f.db.prepare('SELECT * FROM notifications').get();
+    assert.equal(row.status, 'sending'); assert.equal(row.provider_status, 'Running'); assert.equal(row.attempts, 1);
+    f.db.exec('UPDATE notifications SET next_attempt_at = 0');
+    await deliverNotifications(f.env); row = f.db.prepare('SELECT * FROM notifications').get();
+    assert.equal(row.status, 'sent'); assert.equal(row.message_id, row.id);
+    await deliverNotifications(f.env); assert.deepEqual(requests, ['POST','GET']);
+    const history = await (await f.call('/api/community/review', undefined, admin.cookie)).json();
+    assert.equal(history.notifications[0].status, 'sent'); assert.equal(history.notifications[0].provider_status, 'Succeeded');
+    assert.ok(!('recipient' in history.notifications[0])); assert.ok(!('text_body' in history.notifications[0]));
+  } finally { globalThis.fetch = original; f.db.close(); }
+});
+test('Azure outbox reconciles an uncertain send and retains terminal failures for the reviewer', async () => {
+  const f = fixture(), owner = await f.signIn(); await f.call('/api/community/listings', listing, owner.cookie);
+  f.db.exec("DELETE FROM notifications WHERE kind = 'review'");
+  Object.assign(f.env, { EMAIL_PROVIDER:'azure', AZURE_EMAIL_ENDPOINT:'https://test.communication.azure.com', AZURE_EMAIL_ACCESS_KEY:Buffer.from('test-key').toString('base64') });
+  const original = globalThis.fetch, methods = [];
+  try {
+    globalThis.fetch = async (url, options) => { methods.push(options.method); if (options.method === 'POST') throw new Error('connection lost'); const row = f.db.prepare('SELECT * FROM notifications').get(); return Response.json({ id:row.id, status:'Failed', error:{message:'private provider details'} }); };
+    await deliverNotifications(f.env); assert.equal(f.db.prepare('SELECT status FROM notifications').get().status, 'pending');
+    f.db.exec('UPDATE notifications SET next_attempt_at = 0');
+    await deliverNotifications(f.env); const row = f.db.prepare('SELECT * FROM notifications').get();
+    assert.equal(row.status, 'failed'); assert.equal(row.provider_status, 'Failed'); assert.equal(row.last_error, 'AZURE_EMAIL_OPERATION_FAILED');
+    await deliverNotifications(f.env); assert.deepEqual(methods, ['POST','GET']);
+  } finally { globalThis.fetch = original; f.db.close(); }
+});
 test('private assessments gate approval, preserve publication and do not queue mail', async () => {
   const f = fixture(), owner = await f.signIn(), admin = await f.signIn('contact@cognifyr.co');
   const receipt = await (await f.call('/api/community/listings', listing, owner.cookie)).json();
@@ -72,6 +111,8 @@ test('review dashboard escapes private findings and keeps publication distinct f
   assert.ok(!html.includes('<script>')); assert.ok(html.includes('&lt;script&gt;')); assert.ok(!html.includes('Approve and publish'));
   assert.match(html, /Publication decision/); assert.match(html, /not recorded/);
   assert.match(renderReviewSummary({counts:{pending:2},risks:{total:4,unassessed:1,high:1,blocked:1}}), /4 applications.*2 pending.*1 without an assessment.*1 high risk.*1 blocked/);
+  const mail = renderNotificationHistory([{name:'<script>bad()</script>',kind:'assessed',status:'sent',provider_status:'Succeeded',attempts:1,created_at:'2026-10-29'}]);
+  assert.ok(!mail.includes('<script>')); assert.match(mail,/inbox delivery is not confirmed/); assert.match(mail,/Succeeded/);
 });
 test('magic links verify an email exactly once and only hashed credentials are stored', async () => {
   const f = fixture(), login = await f.signIn();
